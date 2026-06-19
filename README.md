@@ -11,7 +11,7 @@ Each card shows the Chinese character (汉字), pinyin, Vietnamese meaning, and 
 | Level | Words | Status |
 |-------|-------|--------|
 | HSK1  | 150   | ✅ Available |
-| HSK2  | 150   | 🔜 Coming soon |
+| HSK2  | 150   | ✅ Available |
 | HSK3  | 300   | 🔜 Coming soon |
 | HSK4  | 600   | ✅ Available |
 
