@@ -32,11 +32,11 @@ Each card shows the Chinese character (汉字), pinyin, Vietnamese meaning, and 
 Download and then open the html file on your laptop. No dependencies. Works fully offline.
 
 ```
-open hsk4_flashcards.html
+open flashcards.html
 ```
 
 Or access directly the link:
-https://nguyenhau442001.github.io/HSK-Flashcards-Generator/hsk4_flashcards.html
+https://nguyenhau442001.github.io/HSK-Flashcards-Generator/flashcards.html
 
 
 ## Feedback
