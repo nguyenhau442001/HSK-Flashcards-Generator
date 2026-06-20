@@ -311,8 +311,8 @@ function renderFilters() {
 function setFilter(key) {
   currentFilter = key;
   if (key === 'all') filteredOrder = order.slice();
-  else if (key === 'unseen') filteredOrder = order.filter(i => !progress[WORDS[i][0]]);
-  else filteredOrder = order.filter(i => progress[WORDS[i][0]] === key);
+  else if (key === 'unseen') filteredOrder = order.filter(i => !progress[WORDS[i].id]);
+  else filteredOrder = order.filter(i => progress[WORDS[i].id] === key);
   idx = 0;
   renderFilters();
   render();
@@ -338,15 +338,15 @@ function render() {
     return;
   }
   const wIdx = filteredOrder[idx % filteredOrder.length];
-  const [id, hanzi, pinyin, meaning, exZh, exPy, exVi] = WORDS[wIdx];
-  document.getElementById('hanzi').textContent = hanzi;
-  document.getElementById('pinyin').textContent = showPinyin ? pinyin : '';
+  const w = WORDS[wIdx];
+  document.getElementById('hanzi').textContent = w.hanzi;
+  document.getElementById('pinyin').textContent = showPinyin ? w.pinyin : '';
   const m = document.getElementById('meaning');
-  m.textContent = meaning;
+  m.textContent = w.meaning;
   m.classList.remove('show');
-  document.getElementById('exZh').innerHTML = exZh;
-  document.getElementById('exPy').innerHTML = exPy;
-  document.getElementById('exVi').innerHTML = exVi;
+  document.getElementById('exZh').innerHTML = w.example_zh;
+  document.getElementById('exPy').innerHTML = w.example_py;
+  document.getElementById('exVi').innerHTML = w.example_vi;
   document.getElementById('hint').textContent = 'Nhấn vào thẻ để xem nghĩa và ví dụ';
   document.getElementById('progress').textContent = (idx % filteredOrder.length + 1) + ' / ' + filteredOrder.length;
   updateStats();
@@ -360,7 +360,7 @@ function flip() {
   ex.classList.toggle('show', willShow);
   if (willShow && !showPinyin) {
     const wIdx = filteredOrder[idx % filteredOrder.length];
-    document.getElementById('pinyin').textContent = WORDS[wIdx][2];
+    document.getElementById('pinyin').textContent = WORDS[wIdx].pinyin;
   } else if (!willShow && !showPinyin) {
     document.getElementById('pinyin').textContent = '';
   }
@@ -371,14 +371,14 @@ function prevCard() { if (filteredOrder.length===0) return; idx = (idx - 1 + fil
 function markKnown() {
   if (filteredOrder.length===0) return;
   const wIdx = filteredOrder[idx % filteredOrder.length];
-  progress[WORDS[wIdx][0]] = 'known';
+  progress[WORDS[wIdx].id] = 'known';
   saveProgress();
   if (currentFilter !== 'all') setFilter(currentFilter); else nextCard();
 }
 function markUnknown() {
   if (filteredOrder.length===0) return;
   const wIdx = filteredOrder[idx % filteredOrder.length];
-  progress[WORDS[wIdx][0]] = 'unknown';
+  progress[WORDS[wIdx].id] = 'unknown';
   saveProgress();
   if (currentFilter !== 'all') setFilter(currentFilter); else nextCard();
 }
@@ -406,11 +406,11 @@ function resetProgress() {
 }
 function exportUnknown() {
   const box = document.getElementById('exportBox');
-  const unknownWords = WORDS.filter(w => progress[w[0]] === 'unknown');
+  const unknownWords = WORDS.filter(w => progress[w.id] === 'unknown');
   if (unknownWords.length === 0) {
     box.textContent = 'Chưa có từ nào được đánh dấu "Chưa nhớ".';
   } else {
-    box.textContent = unknownWords.map(w => w[1] + ' (' + w[2] + ') - ' + w[3]).join('\n');
+    box.textContent = unknownWords.map(w => w.hanzi + ' (' + w.pinyin + ') - ' + w.meaning).join('\n');
   }
   box.classList.add('show');
 }
