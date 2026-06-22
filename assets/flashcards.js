@@ -114,7 +114,9 @@ function buildCardArea() {
     <div class="progress-bar-track">
       <div class="progress-bar-fill" id="progressBar"></div>
     </div>
-    <div class="card" id="card" onclick="flip()">
+    <div class="card" id="card">
+      <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Đã nhớ</div>
+      <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Chưa nhớ</div>
       <div id="cardContent" class="card-content">
         <div class="hanzi" id="hanzi"></div>
         <div class="pinyin-row">
@@ -156,6 +158,7 @@ function buildCardArea() {
   const btn = document.getElementById('pinyinToggle');
   btn.textContent = showPinyin ? '👁 Đang hiện pinyin' : '🙈 Chế độ thử thách: ẩn pinyin';
   btn.classList.toggle('on', !showPinyin);
+  initSwipe();
 }
 
 function renderFilters() {
@@ -254,6 +257,108 @@ function render(animate) {
     applyContent();
   }, 150);
 }
+function initSwipe() {
+  const card = document.getElementById('card');
+  if (!card) return;
+
+  const COMMIT_PX = 90;
+  const LOCK_PX = 8;
+
+  let startX = 0, startY = 0, dx = 0, dy = 0;
+  let active = false, locked = null, committed = false;
+
+  function prefersReduced() {
+    return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  }
+  function getBadges() {
+    return [document.getElementById('swipeBadgeKnown'), document.getElementById('swipeBadgeUnknown')];
+  }
+  function clearBadges() {
+    getBadges().forEach(b => { if (b) b.style.opacity = '0'; });
+  }
+  function resetCard() {
+    card.style.transition = '';
+    card.style.transform = '';
+    card.style.opacity = '';
+    clearBadges();
+  }
+  function applyDrag(x) {
+    if (prefersReduced()) return;
+    card.style.transform = `translateX(${x}px) rotate(${x / 18}deg)`;
+    card.style.opacity = String(Math.max(0.55, 1 - Math.abs(x) / 450));
+    const [bk, bu] = getBadges();
+    const op = String(Math.min(1, Math.max(0, (Math.abs(x) - 20) / 60)));
+    if (bk) bk.style.opacity = x > 20  ? op : '0';
+    if (bu) bu.style.opacity = x < -20 ? op : '0';
+  }
+  function commitSwipe(dir) {
+    if (committed) return;
+    committed = true;
+    if (prefersReduced()) {
+      resetCard();
+      if (dir === 'right') markKnown(); else markUnknown();
+      committed = false;
+      return;
+    }
+    const flyX = dir === 'right' ? 600 : -600;
+    card.style.transition = 'transform 220ms ease, opacity 220ms ease';
+    card.style.transform = `translateX(${flyX}px) rotate(${dir === 'right' ? 22 : -22}deg)`;
+    card.style.opacity = '0';
+    setTimeout(() => {
+      card.style.transition = 'none';
+      card.style.transform = '';
+      card.style.opacity = '0';
+      clearBadges();
+      if (dir === 'right') markKnown(); else markUnknown();
+      // Sync card fade-in with render()'s 150ms exit-then-swap timer so new content
+      // arrives as the card becomes visible — no double animation.
+      setTimeout(() => {
+        card.style.transition = 'opacity 180ms ease';
+        card.style.opacity = '';
+        committed = false;
+        setTimeout(() => { card.style.transition = ''; }, 180);
+      }, 150);
+    }, 220);
+  }
+  function springBack() {
+    if (prefersReduced()) { resetCard(); return; }
+    card.style.transition = 'transform 280ms cubic-bezier(0.25,0.46,0.45,0.94), opacity 200ms ease';
+    card.style.transform = '';
+    card.style.opacity = '';
+    clearBadges();
+    setTimeout(() => { card.style.transition = ''; }, 280);
+  }
+
+  card.addEventListener('pointerdown', e => {
+    if (filteredOrder.length === 0 || committed) return;
+    if (e.target.closest('.sound-btn')) return;
+    card.style.transition = '';
+    startX = e.clientX; startY = e.clientY;
+    dx = 0; dy = 0; active = true; locked = null;
+  });
+  card.addEventListener('pointermove', e => {
+    if (!active) return;
+    dx = e.clientX - startX; dy = e.clientY - startY;
+    if (!locked && (Math.abs(dx) > LOCK_PX || Math.abs(dy) > LOCK_PX)) {
+      locked = Math.abs(dx) >= Math.abs(dy) ? 'h' : 'v';
+    }
+    if (locked === 'h') {
+      card.setPointerCapture(e.pointerId);
+      applyDrag(dx);
+    }
+  }, { passive: false });
+  function onEnd() {
+    if (!active) return;
+    active = false;
+    if (!locked) { flip(); return; }
+    if (locked === 'v') return;
+    if (Math.abs(dx) >= COMMIT_PX) commitSwipe(dx > 0 ? 'right' : 'left');
+    else springBack();
+  }
+  card.addEventListener('pointerup', onEnd);
+  card.addEventListener('pointercancel', () => { active = false; springBack(); });
+}
+
 function flip() {
   if (filteredOrder.length === 0) return;
   const m = document.getElementById('meaning');

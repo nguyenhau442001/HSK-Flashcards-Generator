@@ -65,8 +65,15 @@ body {
   padding: 44px 24px 28px; text-align: center; cursor: pointer; min-height: 190px;
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;
   user-select: none; box-shadow: 0 1px 3px rgba(0,0,0,0.04); transition: box-shadow 0.15s ease;
-  overflow: hidden;
+  overflow: hidden; position: relative; touch-action: pan-y;
 }
+.swipe-badge {
+  position: absolute; top: 20px; padding: 5px 11px; border-radius: var(--radius-md);
+  font-size: 12.5px; font-weight: 600; opacity: 0; pointer-events: none; letter-spacing: 0.01em;
+}
+.swipe-badge--known  { right: 14px; background: var(--success-bg); color: var(--success-text); border: 1.5px solid var(--success-text); }
+.swipe-badge--unknown { left: 14px;  background: var(--danger-bg);  color: var(--danger-text);  border: 1.5px solid var(--danger-text); }
+@media (prefers-reduced-motion: reduce) { .swipe-badge { display: none; } }
 .card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
 .card-content { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 8px; }
 .card-content.exit-left  { animation: cardSlideOutLeft  150ms ease forwards; }
