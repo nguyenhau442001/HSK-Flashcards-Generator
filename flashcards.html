@@ -5,10 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HSK Flashcards - Học từ vựng HSK1-6</title>
 <link rel="stylesheet" href="assets/flashcards.css">
+<script>(function(){var t=localStorage.getItem('hsk_theme');if(t)document.documentElement.dataset.theme=t;})();</script>
 </head>
 <body>
 <div class="app">
   <div class="app-header">
+    <button id="themeToggle" class="theme-toggle-btn" onclick="toggleTheme()">🌙</button>
     <h1 id="appTitle">HSK Flashcards</h1>
     <p id="appSubtitle">Học từ vựng HSK · pinyin · nghĩa tiếng Việt · câu ví dụ</p>
   </div>
