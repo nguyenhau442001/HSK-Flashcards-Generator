@@ -89,6 +89,9 @@ function savePrefs() {
 
 function buildCardArea() {
   document.getElementById('cardArea').innerHTML = `
+    <div class="progress-bar-track">
+      <div class="progress-bar-fill" id="progressBar"></div>
+    </div>
     <div class="card" id="card" onclick="flip()">
       <div class="hanzi" id="hanzi"></div>
       <div class="pinyin-row">
@@ -165,6 +168,11 @@ function updateStats() {
   document.getElementById('s-unknown').textContent = unknown;
   document.getElementById('s-unseen').textContent = WORDS.length - known - unknown;
 }
+function updateProgress(current, total) {
+  document.getElementById('progress').textContent = total === 0 ? '0 / 0' : current + ' / ' + total;
+  const bar = document.getElementById('progressBar');
+  if (bar) bar.style.width = (total === 0 ? 0 : (current / total * 100)) + '%';
+}
 function render() {
   const exBox = document.getElementById('exampleBox');
   if (exBox) exBox.classList.remove('show');
@@ -176,7 +184,7 @@ function render() {
     document.getElementById('meaning').textContent = 'Không có từ trong bộ lọc này';
     document.getElementById('meaning').classList.add('show');
     document.getElementById('hint').textContent = '';
-    document.getElementById('progress').textContent = '0 / 0';
+    updateProgress(0, 0);
     updateStats();
     return;
   }
@@ -191,7 +199,7 @@ function render() {
   document.getElementById('exPy').innerHTML = w.example_py;
   document.getElementById('exVi').innerHTML = w.example_vi;
   document.getElementById('hint').textContent = 'Nhấn vào thẻ để xem nghĩa và ví dụ';
-  document.getElementById('progress').textContent = (idx % filteredOrder.length + 1) + ' / ' + filteredOrder.length;
+  updateProgress(idx % filteredOrder.length + 1, filteredOrder.length);
   updateStats();
 }
 function flip() {

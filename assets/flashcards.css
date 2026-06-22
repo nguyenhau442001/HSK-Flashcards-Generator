@@ -95,3 +95,6 @@ body {
 .sound-btn { display: none; background: none; border: none; cursor: pointer; font-size: 18px; padding: 0; opacity: 0.6; transition: opacity 0.15s ease; line-height: 1; }
 .sound-btn:hover { opacity: 1; }
 .sound-btn.show { display: inline-block; }
+.progress-bar-track { width: 100%; height: 5px; background: var(--border); border-radius: 999px; margin-bottom: 10px; overflow: hidden; }
+.progress-bar-fill { height: 100%; width: 0%; background: var(--accent); border-radius: 999px; transition: width 0.3s ease; }
+@media (prefers-reduced-motion: reduce) { .progress-bar-fill { transition: none; } }
