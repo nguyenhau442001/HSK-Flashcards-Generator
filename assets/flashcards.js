@@ -171,10 +171,11 @@ function render() {
   const soundBtn = document.getElementById('soundBtn');
   if (soundBtn) soundBtn.classList.remove('show');
   if (filteredOrder.length === 0) {
-    document.getElementById('hanzi').textContent = '—';
+    document.getElementById('hanzi').textContent = '';
     document.getElementById('pinyin').textContent = '';
     document.getElementById('meaning').textContent = 'Không có từ trong bộ lọc này';
     document.getElementById('meaning').classList.add('show');
+    document.getElementById('hint').textContent = '';
     document.getElementById('progress').textContent = '0 / 0';
     updateStats();
     return;
