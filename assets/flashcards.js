@@ -91,7 +91,10 @@ function buildCardArea() {
   document.getElementById('cardArea').innerHTML = `
     <div class="card" id="card" onclick="flip()">
       <div class="hanzi" id="hanzi"></div>
-      <div class="pinyin" id="pinyin"></div>
+      <div class="pinyin-row">
+        <div class="pinyin" id="pinyin"></div>
+        <button class="sound-btn" id="soundBtn" onclick="event.stopPropagation(); speakWord()">🔊</button>
+      </div>
       <div class="meaning" id="meaning"></div>
       <div class="example-box" id="exampleBox">
         <div class="ex-label">Ví dụ</div>
@@ -165,6 +168,8 @@ function updateStats() {
 function render() {
   const exBox = document.getElementById('exampleBox');
   if (exBox) exBox.classList.remove('show');
+  const soundBtn = document.getElementById('soundBtn');
+  if (soundBtn) soundBtn.classList.remove('show');
   if (filteredOrder.length === 0) {
     document.getElementById('hanzi').textContent = '—';
     document.getElementById('pinyin').textContent = '';
@@ -195,6 +200,7 @@ function flip() {
   const willShow = !m.classList.contains('show');
   m.classList.toggle('show');
   ex.classList.toggle('show', willShow);
+  document.getElementById('soundBtn').classList.toggle('show', willShow);
   if (willShow && !showPinyin) {
     const wIdx = filteredOrder[idx % filteredOrder.length];
     document.getElementById('pinyin').textContent = WORDS[wIdx].pinyin;
@@ -202,6 +208,14 @@ function flip() {
     document.getElementById('pinyin').textContent = '';
   }
   document.getElementById('hint').textContent = willShow ? 'Nhấn lại để ẩn' : 'Nhấn vào thẻ để xem nghĩa và ví dụ';
+}
+function speakWord() {
+  if (filteredOrder.length === 0) return;
+  const wIdx = filteredOrder[idx % filteredOrder.length];
+  const utter = new SpeechSynthesisUtterance(WORDS[wIdx].hanzi);
+  utter.lang = 'zh-CN';
+  speechSynthesis.cancel();
+  speechSynthesis.speak(utter);
 }
 function nextCard() { if (filteredOrder.length===0) return; idx = (idx + 1) % filteredOrder.length; render(); }
 function prevCard() { if (filteredOrder.length===0) return; idx = (idx - 1 + filteredOrder.length) % filteredOrder.length; render(); }
