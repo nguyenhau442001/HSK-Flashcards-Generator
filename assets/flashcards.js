@@ -1,11 +1,11 @@
 // ---- Level configuration ----
 const LEVELS = {
-  hsk1: { label: 'HSK1', dataUrl: 'database/text/hsk1_vocabularies.json', available: true },
-  hsk2: { label: 'HSK2', dataUrl: 'database/text/hsk2_vocabularies.json', available: true },
-  hsk3: { label: 'HSK3', dataUrl: 'database/text/hsk3_vocabularies.json', available: true },
-  hsk4: { label: 'HSK4', dataUrl: 'database/text/hsk4_vocabularies.json', available: true },
-  hsk5: { label: 'HSK5', dataUrl: 'database/text/hsk5_vocabularies.json', available: true },
-  hsk6: { label: 'HSK6', dataUrl: 'database/text/hsk6_vocabularies.json', available: true },
+  hsk1: { label: 'HSK1', dataUrl: 'database/text/hsk1_vocabularies.json', available: true, total: 150 },
+  hsk2: { label: 'HSK2', dataUrl: 'database/text/hsk2_vocabularies.json', available: true, total: 150 },
+  hsk3: { label: 'HSK3', dataUrl: 'database/text/hsk3_vocabularies.json', available: true, total: 300 },
+  hsk4: { label: 'HSK4', dataUrl: 'database/text/hsk4_vocabularies.json', available: true, total: 600 },
+  hsk5: { label: 'HSK5', dataUrl: 'database/text/hsk5_vocabularies.json', available: true, total: 1300 },
+  hsk6: { label: 'HSK6', dataUrl: 'database/text/hsk6_vocabularies.json', available: true, total: 2500 },
 };
 
 let currentLevel = null;
@@ -31,11 +31,32 @@ document.querySelectorAll('.level-card').forEach(card => {
   }
   card.addEventListener('click', () => selectLevel(level));
 });
+renderLevelProgress();
+
+function renderLevelProgress() {
+  Object.keys(LEVELS).forEach(level => {
+    const total = LEVELS[level].total;
+    let known = 0;
+    try {
+      const raw = localStorage.getItem('hsk_' + level + '_progress_v2');
+      if (raw) {
+        const data = JSON.parse(raw);
+        Object.values(data).forEach(v => { if (v === 'known') known++; });
+      }
+    } catch (e) {}
+    const pct = total > 0 ? (known / total * 100) : 0;
+    const bar = document.getElementById('bar-' + level);
+    const text = document.getElementById('text-' + level);
+    if (bar) bar.style.width = pct + '%';
+    if (text) text.textContent = known + ' / ' + total + ' đã nhớ';
+  });
+}
 
 function goBackToPicker() {
   document.getElementById('screenPicker').style.display = '';
   document.getElementById('screenCards').style.display = 'none';
   currentLevel = null;
+  renderLevelProgress();
 }
 
 async function selectLevel(level) {
