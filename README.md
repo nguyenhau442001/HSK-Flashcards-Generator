@@ -19,7 +19,7 @@ Each card shows the Chinese character (汉字), pinyin, Vietnamese meaning, and 
 
 ## Features
 
-- **Multi-level support** — HSK1 through HSK5 available
+- **Multi-level support** — HSK1 through HSK6 available
 - **Example sentences** — Chinese, pinyin, and Vietnamese translation per word
 - **Known / Unknown tracking** — mark cards and filter by status
 - **Shuffle deck** — randomize card order
