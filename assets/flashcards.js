@@ -18,6 +18,32 @@ let showPinyin = true;
 let currentFilter = 'all';
 let transitionTimer = null;
 let celebrationShown = false;
+let cachedVoices = [];
+
+function pickChineseVoice() {
+  if (!('speechSynthesis' in window)) return null;
+  if (!cachedVoices.length) cachedVoices = speechSynthesis.getVoices();
+  return cachedVoices.find(v => v.lang === 'zh-CN')
+    || cachedVoices.find(v => v.lang && v.lang.toLowerCase().startsWith('zh'))
+    || null;
+}
+if ('speechSynthesis' in window) {
+  cachedVoices = speechSynthesis.getVoices();
+  speechSynthesis.onvoiceschanged = () => { cachedVoices = speechSynthesis.getVoices(); };
+}
+
+let speechWarmed = false;
+function warmUpSpeech() {
+  if (speechWarmed || !('speechSynthesis' in window)) return;
+  speechWarmed = true;
+  try {
+    const warmUp = new SpeechSynthesisUtterance('');
+    warmUp.volume = 0;
+    speechSynthesis.speak(warmUp);
+  } catch (e) {}
+}
+document.addEventListener('touchstart', warmUpSpeech, { once: true, passive: true });
+document.addEventListener('click', warmUpSpeech, { once: true });
 
 function storageKey(suffix) {
   return 'hsk_' + currentLevel + '_' + suffix + '_v2';
@@ -402,10 +428,42 @@ function flip() {
 function speakWord() {
   if (filteredOrder.length === 0) return;
   const wIdx = filteredOrder[idx % filteredOrder.length];
-  const utter = new SpeechSynthesisUtterance(WORDS[wIdx].hanzi);
-  utter.lang = 'zh-CN';
-  speechSynthesis.cancel();
-  speechSynthesis.speak(utter);
+  const hint = document.getElementById('hint');
+  const prevHint = hint.textContent;
+
+  if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') {
+    hint.textContent = 'Trình duyệt này không hỗ trợ phát âm, hãy mở bằng Chrome hoặc Safari';
+    setTimeout(() => { hint.textContent = prevHint; }, 2500);
+    return;
+  }
+
+  const text = WORDS[wIdx].hanzi;
+
+  const attempt = (voice, isRetry) => {
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = 'zh-CN';
+    if (voice) utter.voice = voice;
+
+    let spoke = false;
+    utter.onstart = () => { spoke = true; };
+    utter.onerror = () => {
+      if (!isRetry) { attempt(null, true); return; }
+      hint.textContent = 'Không thể phát âm trên trình duyệt này';
+      setTimeout(() => { hint.textContent = prevHint; }, 2500);
+    };
+
+    setTimeout(() => {
+      if (spoke || speechSynthesis.speaking) return;
+      if (!isRetry) { attempt(null, true); return; }
+      hint.textContent = 'Không thể phát âm, hãy thử mở bằng Chrome hoặc Safari';
+      setTimeout(() => { hint.textContent = prevHint; }, 2500);
+    }, 800);
+
+    if (speechSynthesis.speaking) speechSynthesis.cancel();
+    speechSynthesis.speak(utter);
+  };
+
+  attempt(pickChineseVoice(), false);
 }
 function nextCard() { if (filteredOrder.length===0) return; idx = (idx + 1) % filteredOrder.length; render('next'); }
 function prevCard() { if (filteredOrder.length===0) return; idx = (idx - 1 + filteredOrder.length) % filteredOrder.length; render('prev'); }
