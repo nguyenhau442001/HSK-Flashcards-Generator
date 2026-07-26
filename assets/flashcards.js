@@ -7,6 +7,7 @@ const LEVELS = {
   hsk5: { label: 'HSK5', dataUrl: 'database/text/hsk5_vocabularies.json', available: true, total: 1300 },
   hsk6: { label: 'HSK6', dataUrl: 'database/text/hsk6_vocabularies.json', available: true, total: 2500 },
 };
+const SPEECH_RATE = 0.85;
 
 let currentLevel = null;
 let WORDS = [];
@@ -617,6 +618,7 @@ function speakText(text, button) {
 
     const utter = new SpeechSynthesisUtterance(text);
     utter.lang = 'zh-CN';
+    utter.rate = SPEECH_RATE;
     if (voice) utter.voice = voice;
 
     let spoke = false;
