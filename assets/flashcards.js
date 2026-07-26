@@ -195,15 +195,22 @@ function buildCardArea() {
       <button class="btn-known" onclick="markKnown()">Đã nhớ</button>
     </div>
 
-    <div class="bottom-row">
-      <button onclick="exportUnknown()">⬇ Tải danh sách cần ôn</button>
-      <button onclick="exportProgress()">💾 Tải bản sao tiến trình</button>
-      <button onclick="document.getElementById('importFile').click()">📂 Khôi phục từ bản sao</button>
-      <button onclick="resetProgress()">↺ Học lại từ đầu</button>
+    <div class="secondary-actions">
+      <details class="transfer-panel">
+        <summary>Sao lưu và chuyển thiết bị</summary>
+        <div class="transfer-panel-content">
+          <div class="transfer-actions">
+            <button onclick="exportUnknown()">⬇ Tải danh sách cần ôn</button>
+            <button onclick="exportProgress()">💾 Tải bản sao tiến trình</button>
+            <button onclick="document.getElementById('importFile').click()">📂 Khôi phục từ bản sao</button>
+          </div>
+          <p class="transfer-note">Tiến trình đã được tự động lưu trên thiết bị này. Bạn chỉ cần sao lưu khi muốn chuyển sang thiết bị khác.</p>
+          <div class="export-box" id="exportBox"></div>
+        </div>
+      </details>
+      <button class="reset-progress-btn" onclick="resetProgress()">↺ Học lại từ đầu</button>
     </div>
     <input type="file" id="importFile" accept="application/json" style="display:none" onchange="importProgress(event)">
-
-    <div class="export-box" id="exportBox"></div>
   `;
   const btn = document.getElementById('pinyinToggle');
   btn.textContent = showPinyin ? '👁 Đang hiện pinyin' : '🙈 Chế độ thử thách: ẩn pinyin';

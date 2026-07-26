@@ -158,8 +158,22 @@ body {
 .action-row button { flex: 1 1 100px; font-size: 13.5px; padding: 11px 10px; border-radius: var(--radius-md); border: 1px solid var(--border); cursor: pointer; font-weight: 500; }
 .btn-unknown { background: var(--danger-bg); color: var(--danger-text); }
 .btn-known { background: var(--success-bg); color: var(--success-text); }
-.bottom-row { display: flex; gap: 8px; margin-top: 16px; justify-content: center; flex-wrap: wrap; }
-.bottom-row button { font-size: 12px; padding: 7px 13px; border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--card-bg); color: var(--text-secondary); cursor: pointer; }
+.secondary-actions { margin-top: 20px; text-align: center; }
+.transfer-panel { border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--card-bg); text-align: left; }
+.transfer-panel summary {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 13px; color: var(--text-secondary); cursor: pointer;
+  font-size: 12.5px; font-weight: 500; list-style: none;
+}
+.transfer-panel summary::-webkit-details-marker { display: none; }
+.transfer-panel summary::after { content: "⌄"; color: var(--text-tertiary); font-size: 15px; line-height: 1; transition: transform 0.15s ease; }
+.transfer-panel[open] summary::after { transform: rotate(180deg); }
+.transfer-panel-content { border-top: 1px solid var(--border); padding: 12px 13px 13px; }
+.transfer-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.transfer-actions button { flex: 1 1 145px; font-size: 12px; padding: 7px 11px; border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--card-bg); color: var(--text-secondary); cursor: pointer; }
+.transfer-note { margin: 10px 1px 0; color: var(--text-tertiary); font-size: 11.5px; line-height: 1.5; }
+.reset-progress-btn { margin-top: 9px; padding: 5px 8px; border: none; background: none; color: var(--text-tertiary); cursor: pointer; font-size: 11.5px; }
+.reset-progress-btn:hover { color: var(--danger-text); }
 .export-box { margin-top: 14px; padding: 12px 14px; background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-md); font-size: 12.5px; color: var(--text-secondary); max-height: 220px; overflow-y: auto; white-space: pre-wrap; display: none; line-height: 1.6; }
 .export-box.show { display: block; }
 .footer-note { margin-top: 18px; font-size: 11.5px; color: var(--text-tertiary); text-align: center; line-height: 1.5; }
