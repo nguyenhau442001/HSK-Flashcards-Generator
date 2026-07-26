@@ -196,10 +196,10 @@ function buildCardArea() {
     </div>
 
     <div class="bottom-row">
-      <button onclick="exportUnknown()">⬇ Xuất danh sách chưa nhớ</button>
+      <button onclick="exportUnknown()">⬇ Tải danh sách cần ôn</button>
       <button onclick="exportProgress()">💾 Tải bản sao tiến trình</button>
-      <button onclick="document.getElementById('importFile').click()">📂 Khôi phục tiến trình</button>
-      <button onclick="resetProgress()">↺ Xóa toàn bộ tiến trình</button>
+      <button onclick="document.getElementById('importFile').click()">📂 Khôi phục từ bản sao</button>
+      <button onclick="resetProgress()">↺ Học lại từ đầu</button>
     </div>
     <input type="file" id="importFile" accept="application/json" style="display:none" onchange="importProgress(event)">
 
@@ -544,7 +544,7 @@ function shuffleDeck() {
   setFilter(currentFilter);
 }
 function resetProgress() {
-  if (!confirm('Xóa toàn bộ tiến trình đã lưu trên trình duyệt này cho cấp độ này?')) return;
+  if (!confirm('Học lại từ đầu? Toàn bộ tiến trình đã lưu cho cấp độ này sẽ bị xóa.')) return;
   progress = {};
   saveProgress();
   setFilter(currentFilter);
@@ -600,6 +600,7 @@ function importProgress(event) {
       if (data.level && data.level !== currentLevel) {
         if (!confirm('Bản sao này thuộc cấp độ ' + data.level.toUpperCase() + ', không phải ' + currentLevel.toUpperCase() + '. Vẫn khôi phục?')) return;
       }
+      if (!confirm('Khôi phục tiến trình từ một bản sao đã tải trước đó. Tiến trình hiện tại có thể bị thay thế.')) return;
       if (data.progress) progress = data.progress;
       if (Array.isArray(data.order) && data.order.length === WORDS.length) order = data.order;
       if (typeof data.showPinyin === 'boolean') showPinyin = data.showPinyin;
