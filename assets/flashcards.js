@@ -198,16 +198,19 @@ function buildCardArea() {
     </div>
 
     <div class="secondary-actions">
+      <button class="show-unknown-btn" onclick="showUnknownWords()" aria-controls="unknownWordsList">
+        Hiển thị danh sách từ chưa nhớ
+      </button>
+      <div class="unknown-words-list" id="unknownWordsList"></div>
+
       <details class="transfer-panel">
         <summary>Sao lưu và chuyển thiết bị</summary>
         <div class="transfer-panel-content">
           <div class="transfer-actions">
-            <button onclick="exportUnknown()">⬇ Tải danh sách cần ôn</button>
             <button onclick="exportProgress()">💾 Tải bản sao tiến trình</button>
             <button onclick="document.getElementById('importFile').click()">📂 Khôi phục từ bản sao</button>
           </div>
           <p class="transfer-note">Tiến trình đã được tự động lưu trên thiết bị này. Bạn chỉ cần sao lưu khi muốn chuyển sang thiết bị khác.</p>
-          <div class="export-box" id="exportBox"></div>
         </div>
       </details>
       <button class="reset-progress-btn" onclick="resetProgress()">↺ Học lại từ đầu</button>
@@ -558,8 +561,8 @@ function resetProgress() {
   saveProgress();
   setFilter(currentFilter);
 }
-function exportUnknown() {
-  const box = document.getElementById('exportBox');
+function showUnknownWords() {
+  const box = document.getElementById('unknownWordsList');
   const unknownWords = WORDS.filter(w => progress[w.id] === 'unknown');
   if (unknownWords.length === 0) {
     box.textContent = 'Chưa có từ nào được đánh dấu "Chưa nhớ".';
