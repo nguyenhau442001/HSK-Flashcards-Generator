@@ -6,6 +6,7 @@ function markKnown() {
   const wIdx = filteredOrder[idx % filteredOrder.length];
   progress[WORDS[wIdx].id] = 'known';
   saveProgress();
+  recordDailyStudy(WORDS[wIdx].id);
   checkCelebration();
   if (currentFilter !== 'all') advanceAfterMark(wIdx); else nextCard();
 }
@@ -46,6 +47,7 @@ function markUnknown() {
   const wIdx = filteredOrder[idx % filteredOrder.length];
   progress[WORDS[wIdx].id] = 'unknown';
   saveProgress();
+  recordDailyStudy(WORDS[wIdx].id);
   if (currentFilter !== 'all') advanceAfterMark(wIdx); else nextCard();
 }
 function advanceAfterMark(prevWIdx) {

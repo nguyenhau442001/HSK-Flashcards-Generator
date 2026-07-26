@@ -26,6 +26,162 @@ function hasSavedProgress() {
   });
 }
 
+const DEFAULT_DAILY_STUDY_GOAL = 10;
+const DAILY_STUDY_GOAL_OPTIONS = [10, 20, 50];
+const DAILY_STUDY_GOAL_KEY = 'hsk_daily_study_goal_v1';
+const STUDY_ACTIVITY_KEY = 'hsk_study_activity_v1';
+const LAST_LEVEL_KEY = 'hsk_last_level_v1';
+
+function readSavedLevelProgress(level) {
+  try {
+    const parsed = JSON.parse(localStorage.getItem('hsk_' + level + '_progress_v2'));
+    return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
+  } catch (e) {
+    return {};
+  }
+}
+
+function readStudyActivity() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(STUDY_ACTIVITY_KEY));
+    if (parsed && parsed.days && typeof parsed.days === 'object') return parsed;
+  } catch (e) {}
+  return { days: {} };
+}
+
+function readDailyStudyGoal() {
+  try {
+    const savedGoal = Number(localStorage.getItem(DAILY_STUDY_GOAL_KEY));
+    if (DAILY_STUDY_GOAL_OPTIONS.includes(savedGoal)) return savedGoal;
+  } catch (e) {}
+  return DEFAULT_DAILY_STUDY_GOAL;
+}
+
+function updateDailyStudyGoal(value) {
+  const nextGoal = Number(value);
+  if (!DAILY_STUDY_GOAL_OPTIONS.includes(nextGoal)) {
+    renderLearningDashboard();
+    return;
+  }
+  try { localStorage.setItem(DAILY_STUDY_GOAL_KEY, String(nextGoal)); } catch (e) {}
+  renderLearningDashboard();
+}
+
+function studyStreak(days) {
+  const cursor = new Date();
+  cursor.setHours(12, 0, 0, 0);
+  const today = localDateKey(cursor);
+
+  if (!Array.isArray(days[today]) || days[today].length === 0) {
+    cursor.setDate(cursor.getDate() - 1);
+  }
+
+  let streak = 0;
+  while (streak < 3650) {
+    const key = localDateKey(cursor);
+    if (!Array.isArray(days[key]) || days[key].length === 0) break;
+    streak++;
+    cursor.setDate(cursor.getDate() - 1);
+  }
+  return streak;
+}
+
+function recordDailyStudy(wordId) {
+  if (!currentLevel || wordId === undefined || wordId === null) return;
+
+  const activity = readStudyActivity();
+  const today = localDateKey(new Date());
+  const learnedWords = new Set(Array.isArray(activity.days[today]) ? activity.days[today] : []);
+  learnedWords.add(currentLevel + ':' + String(wordId));
+  activity.days[today] = Array.from(learnedWords);
+
+  Object.keys(activity.days).forEach(dateKey => {
+    const age = calendarDayDifference(dateKey, today);
+    if (age === null || age < 0 || age > 120) delete activity.days[dateKey];
+  });
+
+  try { localStorage.setItem(STUDY_ACTIVITY_KEY, JSON.stringify(activity)); } catch (e) {}
+  renderLearningDashboard();
+}
+
+function learningProgressSummary() {
+  const levels = Object.keys(LEVELS).map(level => {
+    const saved = readSavedLevelProgress(level);
+    const statuses = Object.values(saved);
+    return {
+      level,
+      known: statuses.filter(status => status === 'known').length,
+      studied: statuses.filter(status => status === 'known' || status === 'unknown').length,
+    };
+  });
+
+  let lastLevel = null;
+  try { lastLevel = localStorage.getItem(LAST_LEVEL_KEY); } catch (e) {}
+
+  let target = levels.find(item => item.level === lastLevel);
+  if (target && target.known >= LEVELS[target.level].total) {
+    const nextIndex = levels.findIndex(item => item.level === target.level) + 1;
+    target = levels.slice(nextIndex).find(item => LEVELS[item.level].available) || target;
+  }
+  if (!target) {
+    target = levels.find(item => item.studied > 0 && item.known < LEVELS[item.level].total)
+      || levels.find(item => LEVELS[item.level].available);
+  }
+
+  return {
+    totalKnown: levels.reduce((sum, item) => sum + item.known, 0),
+    totalStudied: levels.reduce((sum, item) => sum + item.studied, 0),
+    target,
+  };
+}
+
+function renderLearningDashboard() {
+  const dailyCount = document.getElementById('dailyStudyCount');
+  const dailyFill = document.getElementById('dailyGoalFill');
+  const dailyMessage = document.getElementById('dailyGoalMessage');
+  const dailyGoalSelect = document.getElementById('dailyGoalSelect');
+  const streakNode = document.getElementById('learningStreak');
+  const knownNode = document.getElementById('totalKnownCount');
+  const studiedNode = document.getElementById('totalStudiedCount');
+  const quickButton = document.getElementById('quickStudyButton');
+  if (!dailyCount || !dailyFill || !dailyMessage || !dailyGoalSelect || !streakNode || !knownNode || !studiedNode || !quickButton) return;
+
+  const activity = readStudyActivity();
+  const today = localDateKey(new Date());
+  const todayCount = Array.isArray(activity.days[today]) ? activity.days[today].length : 0;
+  const dailyGoal = readDailyStudyGoal();
+  const streak = studyStreak(activity.days);
+  const summary = learningProgressSummary();
+  const goalPercent = Math.min(100, todayCount / dailyGoal * 100);
+
+  dailyCount.textContent = todayCount;
+  dailyGoalSelect.value = String(dailyGoal);
+  dailyFill.style.width = goalPercent + '%';
+  dailyFill.parentElement.setAttribute('aria-valuemax', String(dailyGoal));
+  dailyFill.parentElement.setAttribute('aria-valuenow', String(Math.min(todayCount, dailyGoal)));
+  dailyMessage.textContent = todayCount >= dailyGoal
+    ? 'Đã hoàn thành mục tiêu hôm nay — tuyệt lắm!'
+    : todayCount > 0
+      ? `Còn ${dailyGoal - todayCount} từ nữa để hoàn thành mục tiêu.`
+      : `Học ${dailyGoal} từ để hoàn thành mục tiêu hôm nay.`;
+  streakNode.textContent = streak > 0 ? `🔥 ${streak} ngày học` : 'Bắt đầu chuỗi học';
+  knownNode.textContent = summary.totalKnown;
+  studiedNode.textContent = summary.totalStudied;
+
+  const target = summary.target;
+  if (target) {
+    const complete = target.known >= LEVELS[target.level].total;
+    quickButton.dataset.level = target.level;
+    quickButton.innerHTML = `${complete ? 'Ôn lại' : target.studied > 0 ? 'Tiếp tục' : 'Bắt đầu'} ${LEVELS[target.level].label} <span aria-hidden="true">→</span>`;
+  }
+}
+
+function quickStartLearning() {
+  const button = document.getElementById('quickStudyButton');
+  const level = button && button.dataset.level;
+  if (level && LEVELS[level] && LEVELS[level].available) selectLevel(level);
+}
+
 function timeGreeting(hour) {
   if (hour < 5) return 'Học giờ này là chăm chỉ hay chưa chịu ngủ vậy bạn? 👀';
   if (hour < 8) return 'Chim sẻ dậy sớm, từ vựng tự chui vào đầu 🐦';
@@ -124,14 +280,8 @@ function showWelcomeToast() {
 function renderLevelProgress() {
   Object.keys(LEVELS).forEach(level => {
     const total = LEVELS[level].total;
-    let known = 0;
-    try {
-      const raw = localStorage.getItem('hsk_' + level + '_progress_v2');
-      if (raw) {
-        const data = JSON.parse(raw);
-        Object.values(data).forEach(v => { if (v === 'known') known++; });
-      }
-    } catch (e) {}
+    const data = readSavedLevelProgress(level);
+    const known = Object.values(data).filter(status => status === 'known').length;
     const pct = total > 0 ? (known / total * 100) : 0;
     const bar = document.getElementById('bar-' + level);
     const text = document.getElementById('text-' + level);
@@ -153,6 +303,7 @@ function goBackToPicker() {
   const overlay = document.getElementById('celebrationOverlay');
   if (overlay) overlay.remove();
   renderLevelProgress();
+  renderLearningDashboard();
 }
 
 async function selectLevel(level) {
@@ -163,6 +314,7 @@ async function selectLevel(level) {
   currentView = 'cards';
   overviewQuery = '';
   overviewStatus = 'all';
+  try { localStorage.setItem(LAST_LEVEL_KEY, level); } catch (e) {}
   document.getElementById('appTitle').textContent = LEVELS[level].label + ' Flashcards';
   document.getElementById('transferPanel').hidden = true;
   document.getElementById('screenPicker').style.display = 'none';
