@@ -26,6 +26,8 @@ Tổng cộng: **5.000 từ vựng**.
 ## Tính năng
 
 - Chọn và học riêng từng cấp độ HSK1–HSK6.
+- Xem toàn bộ danh sách từ vựng của từng cấp độ trong tab **Tổng quan**, tìm theo chữ Hán, pinyin hoặc nghĩa tiếng Việt và lọc theo trạng thái học.
+- Mở trực tiếp flashcard của một từ bất kỳ từ danh sách tổng quan.
 - Hiển thị tiến độ đã nhớ của từng cấp độ ngay tại màn hình chọn.
 - Chào người học bằng thông điệp vui theo thời gian, tiến độ và chuỗi ngày quay lại.
 - Theo dõi tổng số từ, đã nhớ, chưa nhớ và chưa học.
