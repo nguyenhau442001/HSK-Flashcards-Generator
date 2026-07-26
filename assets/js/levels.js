@@ -142,6 +142,7 @@ function renderLevelProgress() {
 
 function goBackToPicker() {
   stopSpeech();
+  document.body.classList.remove('study-mode');
   document.getElementById('screenPicker').style.display = '';
   document.getElementById('screenCards').style.display = 'none';
   document.getElementById('appTitle').textContent = 'HSK Flashcards';
@@ -157,6 +158,7 @@ function goBackToPicker() {
 async function selectLevel(level) {
   celebrationShown = false;
   currentLevel = level;
+  document.body.classList.add('study-mode');
   WORDS = [];
   currentView = 'cards';
   overviewQuery = '';

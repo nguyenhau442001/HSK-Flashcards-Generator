@@ -6,3 +6,7 @@
 }
 .footer-credits p { margin: 0; color: var(--text-tertiary); font-size: 10.5px; line-height: 1.6; }
 .footer-credits .contact-credit { margin-top: 2px; }
+
+@media (min-width: 700px) and (max-height: 950px) {
+  .study-mode .app-footer { display: none; }
+}

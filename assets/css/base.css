@@ -75,3 +75,9 @@ body {
   padding: 4px 8px; font-size: 15px; line-height: 1; cursor: pointer;
   color: var(--text-secondary);
 }
+
+/* Keep the complete study controls visible at 100% zoom on shorter desktop viewports. */
+@media (min-width: 700px) and (max-height: 950px) {
+  body.study-mode { padding: 12px 16px; }
+  .study-mode .app-header { margin-bottom: 14px; }
+}
