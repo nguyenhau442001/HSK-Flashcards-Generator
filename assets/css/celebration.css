@@ -1,0 +1,31 @@
+/* Celebration overlay */
+@keyframes celebFadeIn  { from { opacity: 0; } to { opacity: 1; } }
+@keyframes celebSlideUp { from { transform: translateY(28px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+@keyframes confettiFall { to { transform: translateY(105vh) rotate(540deg); opacity: 0.15; } }
+.celebration-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.48);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 200; animation: celebFadeIn 0.22s ease; overflow: hidden;
+}
+.celebration-box {
+  background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg);
+  padding: 36px 28px; text-align: center; max-width: 320px; width: 88%;
+  animation: celebSlideUp 0.3s ease; position: relative; z-index: 1;
+}
+.celebration-trophy { font-size: 52px; line-height: 1; }
+.celebration-title { font-size: 22px; font-weight: 700; color: var(--success-text); margin: 14px 0 6px; }
+.celebration-msg { font-size: 14px; color: var(--text-secondary); line-height: 1.55; margin-bottom: 22px; }
+.celebration-btn {
+  background: var(--success-bg); color: var(--success-text);
+  border: 1px solid var(--success-text); border-radius: 999px;
+  padding: 9px 24px; font-size: 13.5px; font-weight: 500; cursor: pointer;
+}
+.celebration-btn:hover { opacity: 0.85; }
+.confetti-piece {
+  position: absolute; top: -14px; pointer-events: none;
+  animation: confettiFall linear forwards;
+}
+@media (prefers-reduced-motion: reduce) {
+  .celebration-overlay, .celebration-box { animation: none; }
+}
+@media (prefers-reduced-motion: reduce) { .progress-bar-fill { transition: none; } }

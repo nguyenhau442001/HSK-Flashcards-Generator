@@ -1,0 +1,8 @@
+/* Persistent progress note and project credits. */
+.app-footer { margin-top: 22px; text-align: center; }
+.footer-note { font-size: 11.5px; color: var(--text-tertiary); line-height: 1.5; }
+.footer-credits {
+  margin-top: 14px; padding-top: 13px; border-top: 1px solid var(--border);
+}
+.footer-credits p { margin: 0; color: var(--text-tertiary); font-size: 10.5px; line-height: 1.6; }
+.footer-credits .contact-credit { margin-top: 2px; }

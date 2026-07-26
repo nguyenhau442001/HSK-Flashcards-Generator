@@ -77,8 +77,27 @@ Danh sách **Từ chưa nhớ** chỉ được hiển thị trong ứng dụng; 
 .
 ├── flashcards.html
 ├── assets/
-│   ├── flashcards.css
-│   └── flashcards.js
+│   ├── flashcards.css          # Điểm nạp CSS
+│   ├── flashcards.js           # Khởi động ứng dụng
+│   ├── css/
+│   │   ├── base.css
+│   │   ├── celebration.css
+│   │   ├── feedback.css
+│   │   ├── flashcard.css
+│   │   ├── footer.css
+│   │   ├── level-picker.css
+│   │   └── vocabulary-overview.css
+│   └── js/
+│       ├── backup.js
+│       ├── card-interactions.js
+│       ├── flashcard.js
+│       ├── levels.js
+│       ├── progress.js
+│       ├── speech.js
+│       ├── state.js
+│       ├── storage.js
+│       ├── theme.js
+│       └── vocabulary-overview.js
 └── database/
     └── text/
         ├── hsk1_vocabularies.json
