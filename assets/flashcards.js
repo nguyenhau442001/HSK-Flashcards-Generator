@@ -305,7 +305,6 @@ function buildCardArea() {
             onclick="event.stopPropagation(); speakWord()"
             aria-label="Nghe phát âm" aria-live="polite">
             <span class="sound-btn-icon" aria-hidden="true">🔊</span>
-            <span class="sound-btn-label">Nghe</span>
           </button>
         </div>
         <div class="meaning" id="meaning"></div>
@@ -671,7 +670,6 @@ function speakText(text, button) {
 function setSpeechButtonState(button, isPlaying, text) {
   if (!button) return;
   const isExample = button.classList.contains('example-sound-btn');
-  const label = button.querySelector('.sound-btn-label');
 
   button.classList.toggle('is-playing', isPlaying);
   button.setAttribute('aria-pressed', String(isPlaying));
@@ -682,7 +680,6 @@ function setSpeechButtonState(button, isPlaying, text) {
       : (isExample ? 'Nghe câu ví dụ' : 'Nghe phát âm')
   );
   button.title = isPlaying ? 'Bấm để dừng' : (isExample ? 'Nghe câu ví dụ' : 'Nghe phát âm');
-  if (label) label.textContent = isPlaying ? 'Đang phát' : 'Nghe';
 
   if (isPlaying) activeSpeechButton = button;
   else if (activeSpeechButton === button) activeSpeechButton = null;

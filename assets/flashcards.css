@@ -246,8 +246,8 @@ body {
 .loading-text { text-align: center; color: var(--text-secondary); font-size: 14px; padding: 40px 0; }
 .error-text { text-align: center; color: var(--danger-text); font-size: 14px; padding: 40px 0; }
 .pinyin-row {
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  gap: 8px; min-height: 22px;
+  display: flex; align-items: center; justify-content: center;
+  gap: 6px; min-height: 28px;
 }
 .pinyin { font-size: 17px; color: var(--text-secondary); }
 @keyframes soundButtonPulse {
@@ -259,21 +259,21 @@ body {
   50% { transform: scale(1.14); }
 }
 .sound-btn {
-  display: none; align-items: center; gap: 5px;
-  justify-content: center; min-width: 86px; min-height: 28px; padding: 4px 9px 4px 7px;
-  border: 1px solid var(--border); border-radius: 999px;
-  background: var(--card-bg); color: var(--text-secondary);
-  cursor: pointer; font: inherit; font-size: 11.5px; font-weight: 600; line-height: 1;
-  transition: transform 120ms ease, background-color 150ms ease, color 150ms ease,
-    border-color 150ms ease, box-shadow 150ms ease;
+  display: none; align-items: center; justify-content: center;
+  width: 28px; height: 28px; padding: 0;
+  border: 1px solid transparent; border-radius: 50%;
+  background: transparent; color: var(--text-secondary); opacity: 0.65;
+  cursor: pointer; font: inherit; line-height: 1;
+  transition: transform 120ms ease, opacity 150ms ease, background-color 150ms ease,
+    color 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
 }
-.sound-btn:hover { color: var(--accent); border-color: var(--accent); }
-.sound-btn:active { transform: scale(0.96); }
+.sound-btn:hover { background: var(--card-bg); color: var(--accent); opacity: 1; }
+.sound-btn:active { transform: scale(0.92); }
 .sound-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .sound-btn.show { display: inline-flex; }
 .sound-btn-icon { display: inline-block; font-size: 15px; line-height: 1; transform-origin: center; }
 .sound-btn.is-playing {
-  background: var(--accent-light); color: var(--accent); border-color: var(--accent);
+  background: var(--accent-light); color: var(--accent); border-color: var(--accent); opacity: 1;
   animation: soundButtonPulse 1.15s ease-in-out infinite;
 }
 .speech-btn.is-playing .sound-btn-icon { animation: soundIconBounce 0.72s ease-in-out infinite; }
