@@ -83,6 +83,7 @@ function renderLevelProgress() {
 function goBackToPicker() {
   document.getElementById('screenPicker').style.display = '';
   document.getElementById('screenCards').style.display = 'none';
+  document.getElementById('appTitle').textContent = 'HSK Flashcards';
   currentLevel = null;
   const overlay = document.getElementById('celebrationOverlay');
   if (overlay) overlay.remove();
@@ -92,6 +93,7 @@ function goBackToPicker() {
 async function selectLevel(level) {
   celebrationShown = false;
   currentLevel = level;
+  document.getElementById('appTitle').textContent = LEVELS[level].label + ' Flashcards';
   document.getElementById('screenPicker').style.display = 'none';
   document.getElementById('screenCards').style.display = '';
   document.getElementById('cardArea').innerHTML = `
