@@ -90,6 +90,10 @@ Danh sách **Từ chưa nhớ** chỉ được hiển thị trong ứng dụng; 
 
 Khả năng phát âm phụ thuộc vào Web Speech API và các giọng đọc được cài trên thiết bị. Chrome và Safari được khuyến nghị nếu nút phát âm không hoạt động trên trình duyệt hiện tại.
 
+## Lỗi đã biết
+
+- **Không nghe được phát âm khi mở liên kết từ Facebook trên Android:** trình duyệt tích hợp của Facebook có thể không hỗ trợ phát âm qua Web Speech API. Hãy mở menu của trang, chọn mở bằng trình duyệt bên ngoài và tiếp tục học bằng Google Chrome.
+
 ## Đóng góp
 
 Issue và đề xuất cải tiến đều được chào đón trên GitHub.
