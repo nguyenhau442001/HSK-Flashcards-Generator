@@ -197,8 +197,8 @@ function buildCardArea() {
 
     <div class="bottom-row">
       <button onclick="exportUnknown()">⬇ Xuất danh sách chưa nhớ</button>
-      <button onclick="exportProgress()">💾 Lưu tiến trình (.json)</button>
-      <button onclick="document.getElementById('importFile').click()">📂 Nạp tiến trình</button>
+      <button onclick="exportProgress()">💾 Tải bản sao tiến trình</button>
+      <button onclick="document.getElementById('importFile').click()">📂 Khôi phục tiến trình</button>
       <button onclick="resetProgress()">↺ Xóa toàn bộ tiến trình</button>
     </div>
     <input type="file" id="importFile" accept="application/json" style="display:none" onchange="importProgress(event)">
@@ -598,7 +598,7 @@ function importProgress(event) {
     try {
       const data = JSON.parse(e.target.result);
       if (data.level && data.level !== currentLevel) {
-        if (!confirm('File này thuộc cấp độ ' + data.level.toUpperCase() + ', không phải ' + currentLevel.toUpperCase() + '. Vẫn nạp?')) return;
+        if (!confirm('Bản sao này thuộc cấp độ ' + data.level.toUpperCase() + ', không phải ' + currentLevel.toUpperCase() + '. Vẫn khôi phục?')) return;
       }
       if (data.progress) progress = data.progress;
       if (Array.isArray(data.order) && data.order.length === WORDS.length) order = data.order;
@@ -609,9 +609,9 @@ function importProgress(event) {
       btn.textContent = showPinyin ? '👁 Đang hiện pinyin' : '🙈 Chế độ thử thách: ẩn pinyin';
       btn.classList.toggle('on', !showPinyin);
       setFilter(currentFilter);
-      alert('Đã nạp tiến trình thành công!');
+      alert('Đã khôi phục tiến trình thành công!');
     } catch (err) {
-      alert('File không hợp lệ.');
+      alert('Bản sao tiến trình không hợp lệ.');
     }
   };
   reader.readAsText(file);
