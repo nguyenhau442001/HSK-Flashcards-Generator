@@ -78,6 +78,16 @@ body {
 }
 
 /* Level picker screen */
+.welcome-toast {
+  margin-top: 8px; padding: 11px 14px;
+  background: var(--accent-light); border: 1px solid var(--accent); border-radius: var(--radius-md);
+  color: var(--text-primary); font-size: 13px; line-height: 1.45; text-align: center;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+  opacity: 0; transform: translateY(-8px);
+  transition: opacity 220ms ease, transform 220ms ease;
+}
+.welcome-toast[hidden] { display: none; }
+.welcome-toast.show { opacity: 1; transform: translateY(0); }
 .level-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 24px; }
 .level-card {
   background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg);
@@ -212,6 +222,9 @@ body {
 .skel-action-btn { flex: 1; height: 42px; border-radius: var(--radius-md); }
 @media (prefers-reduced-motion: reduce) { .skel-line { animation: none; } }
 @media (prefers-reduced-motion: reduce) { .unknown-words-list { transition: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .welcome-toast { transition: none; transform: none; }
+}
 .loading-text { text-align: center; color: var(--text-secondary); font-size: 14px; padding: 40px 0; }
 .error-text { text-align: center; color: var(--danger-text); font-size: 14px; padding: 40px 0; }
 .pinyin-row { display: flex; align-items: center; justify-content: center; gap: 6px; min-height: 22px; }

@@ -27,6 +27,7 @@ Tổng cộng: **5.000 từ vựng**.
 
 - Chọn và học riêng từng cấp độ HSK1–HSK6.
 - Hiển thị tiến độ đã nhớ của từng cấp độ ngay tại màn hình chọn.
+- Chào người học bằng thông điệp vui theo thời gian, tiến độ và chuỗi ngày quay lại.
 - Theo dõi tổng số từ, đã nhớ, chưa nhớ và chưa học.
 - Lọc thẻ theo trạng thái: tất cả, chưa học, chưa nhớ hoặc đã nhớ.
 - Nhấn vào thẻ để xem nghĩa, câu ví dụ và nút phát âm tiếng Trung.
