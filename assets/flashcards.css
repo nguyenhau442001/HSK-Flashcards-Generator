@@ -347,7 +347,7 @@ body {
 }
 .overview-heading h2 { margin: 0 0 4px; font-size: 18px; }
 .overview-heading p {
-  max-width: 400px; margin: 0; color: var(--text-secondary); font-size: 12.5px; line-height: 1.5;
+  margin: 0; color: var(--text-secondary); font-size: 12.5px; line-height: 1.5; white-space: nowrap;
 }
 .overview-total {
   flex: 0 0 auto; padding: 5px 9px; border-radius: 999px;
@@ -410,6 +410,8 @@ body {
   line-height: 1.5; text-align: center;
 }
 @media (max-width: 480px) {
+  .overview-heading { display: block; }
+  .overview-total { display: inline-block; margin-top: 8px; }
   .overview-controls { grid-template-columns: 1fr; }
   .overview-status-label select { width: 100%; max-width: none; height: 38px; }
   .vocabulary-item { grid-template-columns: 27px minmax(0, 1fr); gap: 8px; padding: 10px; }

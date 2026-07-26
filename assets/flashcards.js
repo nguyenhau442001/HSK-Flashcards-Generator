@@ -366,6 +366,10 @@ function wordLearningStatus(word) {
   return status === 'known' || status === 'unknown' ? status : 'unseen';
 }
 
+function formatWordCount(count) {
+  return new Intl.NumberFormat('vi-VN').format(count);
+}
+
 function renderOverview() {
   if (!currentLevel || currentView !== 'overview') return;
 
@@ -381,8 +385,8 @@ function renderOverview() {
 
   document.getElementById('overviewTitle').textContent = `Trọn bộ từ vựng ${LEVELS[currentLevel].label}`;
   document.getElementById('overviewDescription').textContent =
-    `Danh sách ${WORDS.length} từ để bạn có cái nhìn tổng thể trước và trong khi học.`;
-  document.getElementById('overviewTotal').textContent = `${WORDS.length} từ`;
+    `Xem tổng thể ${formatWordCount(WORDS.length)} từ trước và trong khi học.`;
+  document.getElementById('overviewTotal').textContent = `${formatWordCount(WORDS.length)} từ`;
   document.getElementById('overviewResultSummary').textContent =
     normalizedQuery || overviewStatus !== 'all'
       ? `Tìm thấy ${matches.length} / ${WORDS.length} từ`
