@@ -66,6 +66,10 @@ body {
 .app-header { text-align: center; margin-bottom: 18px; position: relative; }
 .app-header h1 { font-size: 20px; font-weight: 600; margin: 0 0 4px; }
 .app-header p { font-size: 13px; color: var(--text-secondary); margin: 0; }
+.app-header .author-credit { margin-top: 4px; font-size: 10.5px; color: var(--text-tertiary); }
+.app-header .contact-credit { margin-top: 2px; font-size: 10.5px; color: var(--text-tertiary); }
+.author-credit a, .contact-credit a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.author-credit a:hover, .contact-credit a:hover { text-decoration: underline; }
 .theme-toggle-btn {
   position: absolute; top: 0; right: 0;
   background: none; border: 1px solid var(--border); border-radius: var(--radius-md);
