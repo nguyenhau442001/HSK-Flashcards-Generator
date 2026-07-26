@@ -19,6 +19,7 @@ let currentFilter = 'all';
 let transitionTimer = null;
 let celebrationShown = false;
 let cachedVoices = [];
+let speechRequestId = 0;
 
 function pickChineseVoice() {
   if (!('speechSynthesis' in window)) return null;
@@ -204,6 +205,7 @@ function renderLevelProgress() {
 }
 
 function goBackToPicker() {
+  stopSpeech();
   document.getElementById('screenPicker').style.display = '';
   document.getElementById('screenCards').style.display = 'none';
   document.getElementById('appTitle').textContent = 'HSK Flashcards';
@@ -297,7 +299,12 @@ function buildCardArea() {
         <div class="hanzi" id="hanzi"></div>
         <div class="pinyin-row">
           <div class="pinyin" id="pinyin"></div>
-          <button class="sound-btn" id="soundBtn" onclick="event.stopPropagation(); speakWord()">🔊</button>
+          <button class="sound-btn" id="soundBtn" type="button"
+            onclick="event.stopPropagation(); speakWord()"
+            aria-label="Nghe phát âm" aria-live="polite">
+            <span class="sound-btn-icon" aria-hidden="true">🔊</span>
+            <span class="sound-btn-label">Nghe</span>
+          </button>
         </div>
         <div class="meaning" id="meaning"></div>
         <div class="example-box" id="exampleBox">
@@ -384,6 +391,7 @@ function updateProgress(current, total) {
   if (bar) bar.style.width = (total === 0 ? 0 : (current / total * 100)) + '%';
 }
 function render(animate) {
+  stopSpeech();
   if (transitionTimer) { clearTimeout(transitionTimer); transitionTimer = null; }
 
   const content = document.getElementById('cardContent');
@@ -560,6 +568,13 @@ function flip() {
 }
 function speakWord() {
   if (filteredOrder.length === 0) return;
+
+  const soundBtn = document.getElementById('soundBtn');
+  if (soundBtn && soundBtn.classList.contains('is-playing')) {
+    stopSpeech();
+    return;
+  }
+
   const wIdx = filteredOrder[idx % filteredOrder.length];
   const hint = document.getElementById('hint');
   const prevHint = hint.textContent;
@@ -571,32 +586,81 @@ function speakWord() {
   }
 
   const text = WORDS[wIdx].hanzi;
+  const requestId = ++speechRequestId;
+  setSoundButtonState(true, text);
 
   const attempt = (voice, isRetry) => {
+    if (requestId !== speechRequestId) return;
+
     const utter = new SpeechSynthesisUtterance(text);
     utter.lang = 'zh-CN';
     if (voice) utter.voice = voice;
 
     let spoke = false;
-    utter.onstart = () => { spoke = true; };
-    utter.onerror = () => {
+    let settled = false;
+    let startTimer = null;
+
+    const fail = () => {
+      if (settled || requestId !== speechRequestId) return;
+      settled = true;
+      if (startTimer) clearTimeout(startTimer);
       if (!isRetry) { attempt(null, true); return; }
+      setSoundButtonState(false);
       hint.textContent = 'Không thể phát âm trên trình duyệt này';
       setTimeout(() => { hint.textContent = prevHint; }, 2500);
     };
 
-    setTimeout(() => {
-      if (spoke || speechSynthesis.speaking) return;
-      if (!isRetry) { attempt(null, true); return; }
+    utter.onstart = () => {
+      if (requestId !== speechRequestId) return;
+      spoke = true;
+      setSoundButtonState(true, text);
+    };
+    utter.onend = () => {
+      if (settled || requestId !== speechRequestId) return;
+      settled = true;
+      if (startTimer) clearTimeout(startTimer);
+      setSoundButtonState(false);
+    };
+    utter.onerror = fail;
+
+    startTimer = setTimeout(() => {
+      if (spoke || speechSynthesis.speaking || requestId !== speechRequestId) return;
+      if (!isRetry) {
+        settled = true;
+        attempt(null, true);
+        return;
+      }
+      settled = true;
+      setSoundButtonState(false);
       hint.textContent = 'Không thể phát âm, hãy thử mở bằng Chrome hoặc Safari';
       setTimeout(() => { hint.textContent = prevHint; }, 2500);
     }, 800);
 
-    if (speechSynthesis.speaking) speechSynthesis.cancel();
+    if (speechSynthesis.speaking || speechSynthesis.pending) speechSynthesis.cancel();
     speechSynthesis.speak(utter);
   };
 
   attempt(pickChineseVoice(), false);
+}
+
+function setSoundButtonState(isPlaying, word) {
+  const button = document.getElementById('soundBtn');
+  if (!button) return;
+
+  const label = button.querySelector('.sound-btn-label');
+  button.classList.toggle('is-playing', isPlaying);
+  button.setAttribute('aria-pressed', String(isPlaying));
+  button.setAttribute('aria-label', isPlaying ? `Đang phát âm ${word || ''}`.trim() : 'Nghe phát âm');
+  button.title = isPlaying ? 'Bấm để dừng' : 'Nghe phát âm';
+  if (label) label.textContent = isPlaying ? 'Đang phát' : 'Nghe';
+}
+
+function stopSpeech() {
+  speechRequestId++;
+  if ('speechSynthesis' in window && (speechSynthesis.speaking || speechSynthesis.pending)) {
+    speechSynthesis.cancel();
+  }
+  setSoundButtonState(false);
 }
 function nextCard() { if (filteredOrder.length===0) return; idx = (idx + 1) % filteredOrder.length; render('next'); }
 function prevCard() { if (filteredOrder.length===0) return; idx = (idx - 1 + filteredOrder.length) % filteredOrder.length; render('prev'); }
