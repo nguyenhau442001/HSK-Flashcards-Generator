@@ -1,44 +1,95 @@
 # HSK Flashcards
 
-A standalone, offline flashcard app for HSK vocabulary — no install, no server, just open the HTML file in your browser.
+Ứng dụng flashcard tĩnh dành cho người Việt học từ vựng HSK. Mỗi thẻ gồm chữ Hán, pinyin, nghĩa tiếng Việt và câu ví dụ có phiên âm lẫn bản dịch.
 
-Each card shows the Chinese character (汉字), pinyin, Vietnamese meaning, and an example sentence with pinyin and translation.
+Không cần cài package hay chạy bước build. Toàn bộ dữ liệu từ vựng nằm trong repository.
 
-<img width="1622" height="1770" alt="image" src="https://github.com/user-attachments/assets/ea4dbd19-1295-4d36-b555-d8c5bee37354" />
+## Học trực tuyến
 
-## Available levels
+Mở ứng dụng tại:
 
-| Level | Words | Status |
-|-------|-------|--------|
-| HSK1  | 150   | ✅ Available |
-| HSK2  | 150   | ✅ Available |
-| HSK3  | 300   | ✅ Available |
-| HSK4  | 600   | ✅ Available |
-| HSK5  | 1300  | ✅ Available |
-| HSK6  | 2500  | ✅ Available |
-
-## Features
-
-- **Multi-level support** — HSK1 through HSK6 available
-- **Example sentences** — Chinese, pinyin, and Vietnamese translation per word
-- **Known / Unknown tracking** — mark cards and filter by status
-- **Shuffle deck** — randomize card order
-- **Pinyin toggle** — hide or show pinyin to self-test
-- **Progress saved to localStorage** — persists between sessions
-- **Export** — save your unknown-word list or full progress as JSON
-
-## Usage
-
-Download and then open the html file on your laptop. No dependencies. Works fully offline.
-
-```
-open flashcards.html
-```
-
-Or access directly the link:
 https://nguyenhau442001.github.io/HSK-Flashcards-Generator/flashcards.html
 
+## Cấp độ
 
-## Feedback
+| Cấp độ | Số từ | Trạng thái |
+|--------|------:|------------|
+| HSK1 | 150 | Có sẵn |
+| HSK2 | 150 | Có sẵn |
+| HSK3 | 300 | Có sẵn |
+| HSK4 | 600 | Có sẵn |
+| HSK5 | 1.300 | Có sẵn |
+| HSK6 | 2.500 | Có sẵn |
 
-Issues and suggestions welcome — open a GitHub issue.
+Tổng cộng: **5.000 từ vựng**.
+
+## Tính năng
+
+- Chọn và học riêng từng cấp độ HSK1–HSK6.
+- Hiển thị tiến độ đã nhớ của từng cấp độ ngay tại màn hình chọn.
+- Theo dõi tổng số từ, đã nhớ, chưa nhớ và chưa học.
+- Lọc thẻ theo trạng thái: tất cả, chưa học, chưa nhớ hoặc đã nhớ.
+- Nhấn vào thẻ để xem nghĩa, câu ví dụ và nút phát âm tiếng Trung.
+- Vuốt sang phải để đánh dấu **Đã nhớ**, vuốt sang trái để đánh dấu **Chưa nhớ**.
+- Chuyển thẻ bằng nút trước/sau, xáo trộn thứ tự học và ẩn/hiện pinyin để tự kiểm tra.
+- Hiển thị danh sách có đánh số của các từ chưa nhớ.
+- Phát âm bằng Web Speech API, ưu tiên giọng `zh-CN` khi trình duyệt cung cấp.
+- Tự động lưu tiến trình, thứ tự thẻ và tùy chọn pinyin riêng cho từng cấp độ.
+- Tải bản sao tiến trình dưới dạng JSON và khôi phục trên thiết bị khác.
+- Học lại từ đầu với bước xác nhận trước khi xóa tiến trình của cấp độ hiện tại.
+- Giao diện sáng/tối, bố cục responsive và hỗ trợ `prefers-reduced-motion`.
+- Hiệu ứng chuyển thẻ, kéo thả và chúc mừng khi hoàn thành toàn bộ cấp độ.
+
+## Chạy trên máy
+
+Clone repository và khởi chạy bằng một static HTTP server:
+
+```bash
+git clone https://github.com/nguyenhau442001/HSK-Flashcards-Generator.git
+cd HSK-Flashcards-Generator
+python3 -m http.server 8000
+```
+
+Sau đó mở:
+
+http://localhost:8000/flashcards.html
+
+Các chức năng học cốt lõi không cần kết nối Internet sau khi source code và dữ liệu đã có trên máy. Nên dùng HTTP server thay vì mở trực tiếp `flashcards.html` bằng `file://`, vì một số trình duyệt chặn việc tải các tệp JSON cục bộ.
+
+## Tiến trình và sao lưu
+
+Tiến trình được lưu bằng `localStorage` của trình duyệt, vì vậy dữ liệu gắn với trình duyệt và thiết bị đang sử dụng.
+
+Để chuyển thiết bị:
+
+1. Chọn **Sao lưu** và tải bản sao tiến trình.
+2. Mở đúng cấp độ trên thiết bị mới.
+3. Chọn **Khôi phục từ bản sao** và chọn tệp JSON đã tải.
+
+Danh sách **Từ chưa nhớ** chỉ được hiển thị trong ứng dụng; chức năng này không tạo tệp tải xuống.
+
+## Cấu trúc dự án
+
+```text
+.
+├── flashcards.html
+├── assets/
+│   ├── flashcards.css
+│   └── flashcards.js
+└── database/
+    └── text/
+        ├── hsk1_vocabularies.json
+        ├── hsk2_vocabularies.json
+        ├── hsk3_vocabularies.json
+        ├── hsk4_vocabularies.json
+        ├── hsk5_vocabularies.json
+        └── hsk6_vocabularies.json
+```
+
+## Lưu ý về phát âm
+
+Khả năng phát âm phụ thuộc vào Web Speech API và các giọng đọc được cài trên thiết bị. Chrome và Safari được khuyến nghị nếu nút phát âm không hoạt động trên trình duyệt hiện tại.
+
+## Đóng góp
+
+Issue và đề xuất cải tiến đều được chào đón trên GitHub.
