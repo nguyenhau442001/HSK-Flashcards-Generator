@@ -195,24 +195,28 @@ function buildCardArea() {
     <div class="action-row">
       <button class="btn-unknown" onclick="markUnknown()">Chưa nhớ</button>
       <button class="btn-known" onclick="markKnown()">Đã nhớ</button>
+      <button class="btn-transfer" id="transferToggle" onclick="toggleTransferPanel()"
+        aria-controls="transferPanel" aria-expanded="false">💾 Sao lưu</button>
+    </div>
+
+    <div class="transfer-panel" id="transferPanel" hidden>
+      <div class="transfer-panel-title">Sao lưu và chuyển thiết bị</div>
+      <div class="transfer-panel-content">
+        <div class="transfer-actions">
+          <button onclick="exportProgress()">💾 Tải bản sao tiến trình</button>
+          <button onclick="document.getElementById('importFile').click()">📂 Khôi phục từ bản sao</button>
+        </div>
+        <p class="transfer-note">Tiến trình đã được tự động lưu trên thiết bị này. Bạn chỉ cần sao lưu khi muốn chuyển sang thiết bị khác.</p>
+      </div>
     </div>
 
     <div class="secondary-actions">
-      <button class="show-unknown-btn" onclick="showUnknownWords()" aria-controls="unknownWordsList">
+      <button class="show-unknown-btn" id="unknownWordsToggle" onclick="toggleUnknownWords()"
+        aria-controls="unknownWordsList" aria-expanded="false">
         Hiển thị danh sách từ chưa nhớ
       </button>
       <div class="unknown-words-list" id="unknownWordsList"></div>
 
-      <details class="transfer-panel">
-        <summary>Sao lưu và chuyển thiết bị</summary>
-        <div class="transfer-panel-content">
-          <div class="transfer-actions">
-            <button onclick="exportProgress()">💾 Tải bản sao tiến trình</button>
-            <button onclick="document.getElementById('importFile').click()">📂 Khôi phục từ bản sao</button>
-          </div>
-          <p class="transfer-note">Tiến trình đã được tự động lưu trên thiết bị này. Bạn chỉ cần sao lưu khi muốn chuyển sang thiết bị khác.</p>
-        </div>
-      </details>
       <button class="reset-progress-btn" onclick="resetProgress()">↺ Học lại từ đầu</button>
     </div>
     <input type="file" id="importFile" accept="application/json" style="display:none" onchange="importProgress(event)">
@@ -561,8 +565,25 @@ function resetProgress() {
   saveProgress();
   setFilter(currentFilter);
 }
-function showUnknownWords() {
+function toggleTransferPanel() {
+  const panel = document.getElementById('transferPanel');
+  const button = document.getElementById('transferToggle');
+  const willOpen = panel.hidden;
+  panel.hidden = !willOpen;
+  button.setAttribute('aria-expanded', String(willOpen));
+}
+function toggleUnknownWords() {
   const box = document.getElementById('unknownWordsList');
+  const button = document.getElementById('unknownWordsToggle');
+  const isOpen = box.classList.contains('show');
+
+  if (isOpen) {
+    box.classList.remove('show');
+    button.textContent = 'Hiển thị danh sách từ chưa nhớ';
+    button.setAttribute('aria-expanded', 'false');
+    return;
+  }
+
   const unknownWords = WORDS.filter(w => progress[w.id] === 'unknown');
   if (unknownWords.length === 0) {
     box.textContent = 'Chưa có từ nào được đánh dấu "Chưa nhớ".';
@@ -572,6 +593,8 @@ function showUnknownWords() {
       .join('\n');
   }
   box.classList.add('show');
+  button.textContent = 'Ẩn danh sách từ chưa nhớ';
+  button.setAttribute('aria-expanded', 'true');
 }
 function exportProgress() {
   const data = JSON.stringify({ level: currentLevel, progress, order, showPinyin }, null, 2);
