@@ -8,6 +8,9 @@ const LEVELS = {
   hsk6: { label: 'HSK6', dataUrl: 'database/text/hsk6_vocabularies.json', available: true, total: 2500 },
 };
 const SPEECH_RATE = 0.85;
+const EXAMPLE_SPEECH_SPEEDS = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2];
+const DEFAULT_EXAMPLE_SPEECH_SPEED = 1;
+const EXAMPLE_SPEECH_RATE_OFFSET = 0.25;
 
 let currentLevel = null;
 let WORDS = [];
@@ -22,6 +25,35 @@ let celebrationShown = false;
 let cachedVoices = [];
 let speechRequestId = 0;
 let activeSpeechButton = null;
+let exampleSpeechSpeed = DEFAULT_EXAMPLE_SPEECH_SPEED;
+
+function formatExampleSpeechSpeed(speed) {
+  const numericSpeed = Number(speed);
+  return `${Number.isInteger(numericSpeed) ? numericSpeed.toFixed(1) : numericSpeed} x`;
+}
+
+function setExampleSpeechSpeed(value) {
+  const nextSpeed = Number(value);
+  if (!EXAMPLE_SPEECH_SPEEDS.includes(nextSpeed)) return;
+
+  exampleSpeechSpeed = nextSpeed;
+  stopSpeech();
+
+  const currentSpeed = document.getElementById('exampleCurrentSpeed');
+  if (currentSpeed) currentSpeed.textContent = formatExampleSpeechSpeed(nextSpeed);
+  const speedSummary = document.querySelector('#exampleSpeedPicker summary');
+  if (speedSummary) {
+    speedSummary.setAttribute('aria-label', `Tốc độ đọc câu ví dụ: ${formatExampleSpeechSpeed(nextSpeed)}`);
+  }
+  document.querySelectorAll('.example-speed-option').forEach(option => {
+    const isSelected = Number(option.dataset.speed) === nextSpeed;
+    option.classList.toggle('selected', isSelected);
+    option.setAttribute('aria-pressed', String(isSelected));
+  });
+
+  const speedPicker = document.getElementById('exampleSpeedPicker');
+  if (speedPicker) speedPicker.open = false;
+}
 
 function pickChineseVoice() {
   if (!('speechSynthesis' in window)) return null;
@@ -312,11 +344,30 @@ function buildCardArea() {
           <div class="ex-label">Ví dụ</div>
           <div class="ex-zh-row">
             <div class="ex-line ex-zh" id="exZh"></div>
-            <button class="example-sound-btn speech-btn" id="exampleSoundBtn" type="button"
-              onclick="event.stopPropagation(); speakExample()"
-              aria-label="Nghe câu ví dụ" aria-live="polite">
-              <span class="sound-btn-icon" aria-hidden="true">🔊</span>
-            </button>
+            <div class="example-audio-controls card-interactive">
+              <button class="example-sound-btn speech-btn" id="exampleSoundBtn" type="button"
+                onclick="event.stopPropagation(); speakExample()"
+                aria-label="Nghe câu ví dụ" aria-live="polite">
+                <span class="sound-btn-icon" aria-hidden="true">🔊</span>
+              </button>
+              <details class="example-speed-picker" id="exampleSpeedPicker"
+                onclick="event.stopPropagation()">
+                <summary aria-label="Tốc độ đọc câu ví dụ: ${formatExampleSpeechSpeed(exampleSpeechSpeed)}">
+                  <span class="example-speed-label">Tốc độ đọc</span>
+                  <span class="example-current-speed" id="exampleCurrentSpeed">${formatExampleSpeechSpeed(exampleSpeechSpeed)}</span>
+                </summary>
+                <div class="example-speed-options" role="group" aria-label="Chọn tốc độ đọc câu ví dụ">
+                  ${EXAMPLE_SPEECH_SPEEDS.map(speed => `
+                    <button class="example-speed-option${speed === exampleSpeechSpeed ? ' selected' : ''}"
+                      type="button" data-speed="${speed}"
+                      aria-pressed="${speed === exampleSpeechSpeed}"
+                      onclick="event.preventDefault(); setExampleSpeechSpeed(this.dataset.speed)">
+                      ${formatExampleSpeechSpeed(speed)}
+                    </button>
+                  `).join('')}
+                </div>
+              </details>
+            </div>
           </div>
           <div class="ex-line ex-py" id="exPy"></div>
           <div class="ex-line ex-vi" id="exVi"></div>
@@ -530,7 +581,7 @@ function initSwipe() {
 
   card.addEventListener('pointerdown', e => {
     if (filteredOrder.length === 0 || committed) return;
-    if (e.target.closest('.speech-btn')) return;
+    if (e.target.closest('.speech-btn, .card-interactive')) return;
     card.style.transition = '';
     startX = e.clientX; startY = e.clientY;
     dx = 0; dy = 0; active = true; locked = null;
@@ -588,10 +639,11 @@ function speakExample() {
   const text = example ? example.textContent.trim() : '';
   if (!text) return;
 
-  speakText(text, document.getElementById('exampleSoundBtn'));
+  const browserRate = Math.max(0.1, exampleSpeechSpeed - EXAMPLE_SPEECH_RATE_OFFSET);
+  speakText(text, document.getElementById('exampleSoundBtn'), browserRate);
 }
 
-function speakText(text, button) {
+function speakText(text, button, rate = SPEECH_RATE) {
   if (!button || !text) return;
   if (button.classList.contains('is-playing')) {
     stopSpeech();
@@ -617,7 +669,7 @@ function speakText(text, button) {
 
     const utter = new SpeechSynthesisUtterance(text);
     utter.lang = 'zh-CN';
-    utter.rate = SPEECH_RATE;
+    utter.rate = rate;
     if (voice) utter.voice = voice;
 
     let spoke = false;
