@@ -567,7 +567,9 @@ function showUnknownWords() {
   if (unknownWords.length === 0) {
     box.textContent = 'Chưa có từ nào được đánh dấu "Chưa nhớ".';
   } else {
-    box.textContent = unknownWords.map(w => w.hanzi + ' (' + w.pinyin + ') - ' + w.meaning).join('\n');
+    box.textContent = unknownWords
+      .map((w, index) => (index + 1) + '. ' + w.hanzi + ' (' + w.pinyin + ') - ' + w.meaning)
+      .join('\n');
   }
   box.classList.add('show');
 }
