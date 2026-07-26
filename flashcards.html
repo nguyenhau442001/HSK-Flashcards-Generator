@@ -76,6 +76,18 @@
 
     <div class="filter-row" id="filterRow"></div>
 
+    <div class="transfer-panel" id="transferPanel" hidden>
+      <div class="transfer-panel-title">Sao lưu và chuyển thiết bị</div>
+      <div class="transfer-panel-content">
+        <div class="transfer-actions">
+          <button onclick="exportProgress()">💾 Tải bản sao tiến trình</button>
+          <button onclick="document.getElementById('importFile').click()">📂 Khôi phục từ bản sao</button>
+        </div>
+        <p class="transfer-note">Tiến trình đã được tự động lưu trên thiết bị này. Bạn chỉ cần sao lưu khi muốn chuyển sang thiết bị khác.</p>
+      </div>
+    </div>
+    <input type="file" id="importFile" accept="application/json" style="display:none" onchange="importProgress(event)">
+
     <div class="toolbar">
       <div class="tool-group">
         <button class="icon-btn" id="shuffleBtn" onclick="shuffleDeck()">🔀 Xáo trộn</button>

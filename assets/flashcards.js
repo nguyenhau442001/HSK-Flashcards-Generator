@@ -94,6 +94,7 @@ async function selectLevel(level) {
   celebrationShown = false;
   currentLevel = level;
   document.getElementById('appTitle').textContent = LEVELS[level].label + ' Flashcards';
+  document.getElementById('transferPanel').hidden = true;
   document.getElementById('screenPicker').style.display = 'none';
   document.getElementById('screenCards').style.display = '';
   document.getElementById('cardArea').innerHTML = `
@@ -195,19 +196,6 @@ function buildCardArea() {
     <div class="action-row">
       <button class="btn-unknown" onclick="markUnknown()">Chưa nhớ</button>
       <button class="btn-known" onclick="markKnown()">Đã nhớ</button>
-      <button class="btn-transfer" id="transferToggle" onclick="toggleTransferPanel()"
-        aria-controls="transferPanel" aria-expanded="false">💾 Sao lưu</button>
-    </div>
-
-    <div class="transfer-panel" id="transferPanel" hidden>
-      <div class="transfer-panel-title">Sao lưu và chuyển thiết bị</div>
-      <div class="transfer-panel-content">
-        <div class="transfer-actions">
-          <button onclick="exportProgress()">💾 Tải bản sao tiến trình</button>
-          <button onclick="document.getElementById('importFile').click()">📂 Khôi phục từ bản sao</button>
-        </div>
-        <p class="transfer-note">Tiến trình đã được tự động lưu trên thiết bị này. Bạn chỉ cần sao lưu khi muốn chuyển sang thiết bị khác.</p>
-      </div>
     </div>
 
     <div class="secondary-actions">
@@ -219,7 +207,6 @@ function buildCardArea() {
 
       <button class="reset-progress-btn" onclick="resetProgress()">↺ Học lại từ đầu</button>
     </div>
-    <input type="file" id="importFile" accept="application/json" style="display:none" onchange="importProgress(event)">
   `;
   const btn = document.getElementById('pinyinToggle');
   btn.textContent = showPinyin ? '👁 Đang hiện pinyin' : '🙈 Chế độ thử thách: ẩn pinyin';
@@ -243,6 +230,17 @@ function renderFilters() {
     b.onclick = () => setFilter(f.key);
     row.appendChild(b);
   });
+
+  const transferButton = document.createElement('button');
+  const transferPanel = document.getElementById('transferPanel');
+  const transferIsOpen = !transferPanel.hidden;
+  transferButton.className = 'filter-btn transfer-filter-btn';
+  transferButton.id = 'transferToggle';
+  transferButton.textContent = '💾 Sao lưu';
+  transferButton.setAttribute('aria-controls', 'transferPanel');
+  transferButton.setAttribute('aria-expanded', String(transferIsOpen));
+  transferButton.onclick = toggleTransferPanel;
+  row.appendChild(transferButton);
 }
 function setFilter(key) {
   currentFilter = key;
