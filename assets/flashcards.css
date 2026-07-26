@@ -11,6 +11,7 @@
   --success-text: #2f6e3e;
   --danger-bg: #fbeae6;
   --danger-text: #a8432c;
+  --danger-solid: #b85b45;
   --info-bg: #eef0f8;
   --info-text: #444f8a;
   --example-bg: #fdf6ec;
@@ -159,12 +160,9 @@ body {
 .action-row button { min-width: 0; font-size: 13.5px; padding: 11px 8px; border-radius: var(--radius-md); border: 1px solid var(--border); cursor: pointer; font-weight: 500; }
 .btn-unknown { background: var(--danger-bg); color: var(--danger-text); }
 .btn-known { background: var(--success-bg); color: var(--success-text); }
-.secondary-actions { margin-top: 20px; text-align: center; }
 .show-unknown-btn {
-  width: 100%; margin-bottom: 10px; padding: 9px 13px;
-  border: 1px solid var(--border); border-radius: var(--radius-md);
+  border: 1px solid var(--border);
   background: var(--card-bg); color: var(--text-secondary);
-  cursor: pointer; font-size: 12.5px;
   transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease;
 }
 .show-unknown-btn[aria-expanded="true"] { background: var(--info-bg); color: var(--info-text); border-color: var(--info-text); }
@@ -177,7 +175,7 @@ body {
     border-width 250ms ease, opacity 180ms ease, visibility 0s linear 250ms;
 }
 .unknown-words-list.show {
-  margin: 0 0 10px; padding: 12px 14px; max-height: 220px;
+  margin: 10px 0 0; padding: 12px 14px; max-height: 220px;
   border-width: 1px; opacity: 1; visibility: visible; overflow-y: auto;
   transition-delay: 0s;
 }
@@ -188,8 +186,8 @@ body {
 .transfer-actions { display: flex; gap: 8px; flex-wrap: wrap; }
 .transfer-actions button { flex: 1 1 145px; font-size: 12px; padding: 7px 11px; border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--card-bg); color: var(--text-secondary); cursor: pointer; }
 .transfer-note { margin: 10px 1px 0; color: var(--text-tertiary); font-size: 11.5px; line-height: 1.5; }
-.reset-progress-btn { margin-top: 9px; padding: 5px 8px; border: none; background: none; color: var(--text-tertiary); cursor: pointer; font-size: 11.5px; }
-.reset-progress-btn:hover { color: var(--danger-text); }
+.reset-progress-btn { border: 1px solid var(--danger-solid); background: var(--danger-solid); color: #fff; }
+.reset-progress-btn:hover { opacity: 0.9; }
 .footer-note { margin-top: 18px; font-size: 11.5px; color: var(--text-tertiary); text-align: center; line-height: 1.5; }
 /* Skeleton loading placeholder */
 @keyframes skeletonPulse { 0%,100% { opacity: 1; } 50% { opacity: 0.45; } }

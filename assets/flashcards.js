@@ -196,17 +196,13 @@ function buildCardArea() {
     <div class="action-row">
       <button class="btn-unknown" onclick="markUnknown()">Chưa nhớ</button>
       <button class="btn-known" onclick="markKnown()">Đã nhớ</button>
-    </div>
-
-    <div class="secondary-actions">
       <button class="show-unknown-btn" id="unknownWordsToggle" onclick="toggleUnknownWords()"
         aria-controls="unknownWordsList" aria-expanded="false">
-        Hiển thị danh sách từ chưa nhớ
+        Hiển thị từ chưa nhớ
       </button>
-      <div class="unknown-words-list" id="unknownWordsList"></div>
-
-      <button class="reset-progress-btn" onclick="resetProgress()">↺ Học lại từ đầu</button>
+      <button class="reset-progress-btn" onclick="resetProgress()">↻ Học lại từ đầu</button>
     </div>
+    <div class="unknown-words-list" id="unknownWordsList"></div>
   `;
   const btn = document.getElementById('pinyinToggle');
   btn.textContent = showPinyin ? '👁 Đang hiện pinyin' : '🙈 Chế độ thử thách: ẩn pinyin';
@@ -577,7 +573,7 @@ function toggleUnknownWords() {
 
   if (isOpen) {
     box.classList.remove('show');
-    button.textContent = 'Hiển thị danh sách từ chưa nhớ';
+    button.textContent = 'Hiển thị từ chưa nhớ';
     button.setAttribute('aria-expanded', 'false');
     return;
   }
@@ -591,7 +587,7 @@ function toggleUnknownWords() {
       .join('\n');
   }
   box.classList.add('show');
-  button.textContent = 'Ẩn danh sách từ chưa nhớ';
+  button.textContent = 'Ẩn từ chưa nhớ';
   button.setAttribute('aria-expanded', 'true');
 }
 function exportProgress() {
