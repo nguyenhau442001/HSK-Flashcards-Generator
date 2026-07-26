@@ -20,6 +20,7 @@ let transitionTimer = null;
 let celebrationShown = false;
 let cachedVoices = [];
 let speechRequestId = 0;
+let activeSpeechButton = null;
 
 function pickChineseVoice() {
   if (!('speechSynthesis' in window)) return null;
@@ -299,7 +300,7 @@ function buildCardArea() {
         <div class="hanzi" id="hanzi"></div>
         <div class="pinyin-row">
           <div class="pinyin" id="pinyin"></div>
-          <button class="sound-btn" id="soundBtn" type="button"
+          <button class="sound-btn speech-btn" id="soundBtn" type="button"
             onclick="event.stopPropagation(); speakWord()"
             aria-label="Nghe phát âm" aria-live="polite">
             <span class="sound-btn-icon" aria-hidden="true">🔊</span>
@@ -309,7 +310,14 @@ function buildCardArea() {
         <div class="meaning" id="meaning"></div>
         <div class="example-box" id="exampleBox">
           <div class="ex-label">Ví dụ</div>
-          <div class="ex-line ex-zh" id="exZh"></div>
+          <div class="ex-zh-row">
+            <div class="ex-line ex-zh" id="exZh"></div>
+            <button class="example-sound-btn speech-btn" id="exampleSoundBtn" type="button"
+              onclick="event.stopPropagation(); speakExample()"
+              aria-label="Nghe câu ví dụ" aria-live="polite">
+              <span class="sound-btn-icon" aria-hidden="true">🔊</span>
+            </button>
+          </div>
           <div class="ex-line ex-py" id="exPy"></div>
           <div class="ex-line ex-vi" id="exVi"></div>
         </div>
@@ -522,7 +530,7 @@ function initSwipe() {
 
   card.addEventListener('pointerdown', e => {
     if (filteredOrder.length === 0 || committed) return;
-    if (e.target.closest('.sound-btn')) return;
+    if (e.target.closest('.speech-btn')) return;
     card.style.transition = '';
     startX = e.clientX; startY = e.clientY;
     dx = 0; dy = 0; active = true; locked = null;
@@ -569,13 +577,29 @@ function flip() {
 function speakWord() {
   if (filteredOrder.length === 0) return;
 
-  const soundBtn = document.getElementById('soundBtn');
-  if (soundBtn && soundBtn.classList.contains('is-playing')) {
+  const wIdx = filteredOrder[idx % filteredOrder.length];
+  speakText(WORDS[wIdx].hanzi, document.getElementById('soundBtn'));
+}
+
+function speakExample() {
+  if (filteredOrder.length === 0) return;
+
+  const example = document.getElementById('exZh');
+  const text = example ? example.textContent.trim() : '';
+  if (!text) return;
+
+  speakText(text, document.getElementById('exampleSoundBtn'));
+}
+
+function speakText(text, button) {
+  if (!button || !text) return;
+  if (button.classList.contains('is-playing')) {
     stopSpeech();
     return;
   }
 
-  const wIdx = filteredOrder[idx % filteredOrder.length];
+  stopSpeech();
+
   const hint = document.getElementById('hint');
   const prevHint = hint.textContent;
 
@@ -585,9 +609,8 @@ function speakWord() {
     return;
   }
 
-  const text = WORDS[wIdx].hanzi;
-  const requestId = ++speechRequestId;
-  setSoundButtonState(true, text);
+  const requestId = speechRequestId;
+  setSpeechButtonState(button, true, text);
 
   const attempt = (voice, isRetry) => {
     if (requestId !== speechRequestId) return;
@@ -605,7 +628,7 @@ function speakWord() {
       settled = true;
       if (startTimer) clearTimeout(startTimer);
       if (!isRetry) { attempt(null, true); return; }
-      setSoundButtonState(false);
+      setSpeechButtonState(button, false);
       hint.textContent = 'Không thể phát âm trên trình duyệt này';
       setTimeout(() => { hint.textContent = prevHint; }, 2500);
     };
@@ -613,13 +636,13 @@ function speakWord() {
     utter.onstart = () => {
       if (requestId !== speechRequestId) return;
       spoke = true;
-      setSoundButtonState(true, text);
+      setSpeechButtonState(button, true, text);
     };
     utter.onend = () => {
       if (settled || requestId !== speechRequestId) return;
       settled = true;
       if (startTimer) clearTimeout(startTimer);
-      setSoundButtonState(false);
+      setSpeechButtonState(button, false);
     };
     utter.onerror = fail;
 
@@ -631,7 +654,7 @@ function speakWord() {
         return;
       }
       settled = true;
-      setSoundButtonState(false);
+      setSpeechButtonState(button, false);
       hint.textContent = 'Không thể phát âm, hãy thử mở bằng Chrome hoặc Safari';
       setTimeout(() => { hint.textContent = prevHint; }, 2500);
     }, 800);
@@ -643,16 +666,24 @@ function speakWord() {
   attempt(pickChineseVoice(), false);
 }
 
-function setSoundButtonState(isPlaying, word) {
-  const button = document.getElementById('soundBtn');
+function setSpeechButtonState(button, isPlaying, text) {
   if (!button) return;
-
+  const isExample = button.classList.contains('example-sound-btn');
   const label = button.querySelector('.sound-btn-label');
+
   button.classList.toggle('is-playing', isPlaying);
   button.setAttribute('aria-pressed', String(isPlaying));
-  button.setAttribute('aria-label', isPlaying ? `Đang phát âm ${word || ''}`.trim() : 'Nghe phát âm');
-  button.title = isPlaying ? 'Bấm để dừng' : 'Nghe phát âm';
+  button.setAttribute(
+    'aria-label',
+    isPlaying
+      ? (isExample ? 'Đang phát câu ví dụ' : `Đang phát âm ${text || ''}`.trim())
+      : (isExample ? 'Nghe câu ví dụ' : 'Nghe phát âm')
+  );
+  button.title = isPlaying ? 'Bấm để dừng' : (isExample ? 'Nghe câu ví dụ' : 'Nghe phát âm');
   if (label) label.textContent = isPlaying ? 'Đang phát' : 'Nghe';
+
+  if (isPlaying) activeSpeechButton = button;
+  else if (activeSpeechButton === button) activeSpeechButton = null;
 }
 
 function stopSpeech() {
@@ -660,7 +691,7 @@ function stopSpeech() {
   if ('speechSynthesis' in window && (speechSynthesis.speaking || speechSynthesis.pending)) {
     speechSynthesis.cancel();
   }
-  setSoundButtonState(false);
+  if (activeSpeechButton) setSpeechButtonState(activeSpeechButton, false);
 }
 function nextCard() { if (filteredOrder.length===0) return; idx = (idx + 1) % filteredOrder.length; render('next'); }
 function prevCard() { if (filteredOrder.length===0) return; idx = (idx - 1 + filteredOrder.length) % filteredOrder.length; render('prev'); }

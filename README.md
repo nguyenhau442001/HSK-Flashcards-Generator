@@ -30,7 +30,7 @@ Tổng cộng: **5.000 từ vựng**.
 - Chào người học bằng thông điệp vui theo thời gian, tiến độ và chuỗi ngày quay lại.
 - Theo dõi tổng số từ, đã nhớ, chưa nhớ và chưa học.
 - Lọc thẻ theo trạng thái: tất cả, chưa học, chưa nhớ hoặc đã nhớ.
-- Nhấn vào thẻ để xem nghĩa, câu ví dụ và nút phát âm tiếng Trung.
+- Nhấn vào thẻ để xem nghĩa, câu ví dụ và nghe phát âm của từ lẫn câu tiếng Trung.
 - Vuốt sang phải để đánh dấu **Đã nhớ**, vuốt sang trái để đánh dấu **Chưa nhớ**.
 - Chuyển thẻ bằng nút trước/sau, xáo trộn thứ tự học và ẩn/hiện pinyin để tự kiểm tra.
 - Hiển thị danh sách có đánh số của các từ chưa nhớ.
