@@ -11,11 +11,17 @@ let radicalDataLoaded = false;
 let RADICAL_GROUPS = { basic50: [], kangxi214: [] };
 
 let radicalOrder = [];
+let radicalFilteredOrder = [];
 let radicalIdx = 0;
 let radicalWords = [];
 let radicalReturnTab = 'basic50';
+let radicalGroupIndex = 0;
 let radicalProgress = {};
 let showRadicalPinyin = true;
+let radicalCurrentFilter = 'all';
+let radicalCurrentView = 'cards';
+let radicalOverviewQuery = '';
+let radicalOverviewStatus = 'all';
 
 function radicalProgressKey(item) {
   return String(item.kangxi_id !== undefined ? item.kangxi_id : item.id);

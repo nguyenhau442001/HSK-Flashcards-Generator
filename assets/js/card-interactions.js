@@ -122,7 +122,7 @@ function initRadicalSwipe() {
     cardId: 'radicalCard',
     knownBadgeId: 'radicalSwipeBadgeKnown',
     unknownBadgeId: 'radicalSwipeBadgeUnknown',
-    hasCards: () => radicalOrder.length > 0,
+    hasCards: () => radicalFilteredOrder.length > 0,
     flip: radicalFlip,
     markKnown: markRadicalKnown,
     markUnknown: markRadicalUnknown,

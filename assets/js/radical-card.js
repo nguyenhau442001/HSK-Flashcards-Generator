@@ -23,7 +23,7 @@ function buildRadicalCardArea() {
 
     <div class="nav-row">
       <button onclick="event.stopPropagation(); prevRadicalCard()">← Trước</button>
-      <span class="progress-text" id="radicalProgressText">1 / ${radicalWords.length}</span>
+      <span class="progress-text" id="radicalProgressText">1 / ${radicalFilteredOrder.length}</span>
       <button onclick="event.stopPropagation(); nextRadicalCard()">Tiếp →</button>
     </div>
 
@@ -38,6 +38,206 @@ function buildRadicalCardArea() {
     btn.classList.toggle('on', !showRadicalPinyin);
   }
   initRadicalSwipe();
+}
+
+function radicalSetLabel() {
+  return radicalReturnTab === 'basic50' ? '50 bộ cơ bản' : '214 bộ Khang Hy';
+}
+
+function radicalStudyLabel() {
+  return `${radicalGroupIndex + 1} nét · ${radicalSetLabel()}`;
+}
+
+function setRadicalViewMode(mode) {
+  if (!['cards', 'overview'].includes(mode)) return;
+
+  radicalCurrentView = mode;
+  const showOverview = mode === 'overview';
+  const studyView = document.getElementById('radicalStudyView');
+  const overviewView = document.getElementById('radicalOverviewView');
+  const flashcardTab = document.getElementById('radicalFlashcardTab');
+  const overviewTab = document.getElementById('radicalOverviewTab');
+
+  studyView.hidden = showOverview;
+  overviewView.hidden = !showOverview;
+  flashcardTab.classList.toggle('active', !showOverview);
+  overviewTab.classList.toggle('active', showOverview);
+  flashcardTab.setAttribute('aria-selected', String(!showOverview));
+  overviewTab.setAttribute('aria-selected', String(showOverview));
+  document.getElementById('appTitle').textContent = showOverview
+    ? `Bộ thủ ${radicalGroupIndex + 1} nét · Tổng quan`
+    : `Bộ thủ ${radicalGroupIndex + 1} nét Flashcards`;
+
+  if (showOverview) {
+    document.getElementById('radicalOverviewSearch').value = radicalOverviewQuery;
+    document.getElementById('radicalOverviewStatus').value = radicalOverviewStatus;
+    renderRadicalOverview();
+  }
+}
+
+function renderRadicalFilters() {
+  const row = document.getElementById('radicalFilterRow');
+  if (!row) return;
+  row.innerHTML = '';
+  const filters = [
+    { key: 'all', label: 'Tất cả' },
+    { key: 'unseen', label: 'Chưa học' },
+    { key: 'unknown', label: 'Chưa nhớ' },
+    { key: 'known', label: 'Đã nhớ' },
+  ];
+
+  filters.forEach(filter => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'filter-btn' + (radicalCurrentFilter === filter.key ? ' active' : '');
+    button.textContent = filter.label;
+    button.onclick = () => setRadicalFilter(filter.key);
+    row.appendChild(button);
+  });
+
+  const transferPanel = document.getElementById('radicalTransferPanel');
+  const transferButton = document.createElement('button');
+  transferButton.type = 'button';
+  transferButton.id = 'radicalTransferToggle';
+  transferButton.className = 'filter-btn transfer-filter-btn';
+  transferButton.textContent = '💾 Sao lưu';
+  transferButton.setAttribute('aria-controls', 'radicalTransferPanel');
+  transferButton.setAttribute('aria-expanded', String(!transferPanel.hidden));
+  transferButton.onclick = toggleRadicalTransferPanel;
+  row.appendChild(transferButton);
+}
+
+function radicalLearningStatus(item) {
+  const status = radicalProgress[radicalProgressKey(item)];
+  return status === 'known' || status === 'unknown' ? status : 'unseen';
+}
+
+function filteredRadicalIndexes(filter) {
+  if (filter === 'all') return radicalOrder.slice();
+  return radicalOrder.filter(index => radicalLearningStatus(radicalWords[index]) === filter);
+}
+
+function setRadicalFilter(filter) {
+  radicalCurrentFilter = filter;
+  radicalFilteredOrder = filteredRadicalIndexes(filter);
+  radicalIdx = 0;
+  renderRadicalFilters();
+  renderRadicalCard('fade');
+}
+
+function updateRadicalStats() {
+  let known = 0;
+  let unknown = 0;
+  radicalWords.forEach(item => {
+    const status = radicalLearningStatus(item);
+    if (status === 'known') known++;
+    else if (status === 'unknown') unknown++;
+  });
+
+  document.getElementById('rs-total').textContent = radicalWords.length;
+  document.getElementById('rs-known').textContent = known;
+  document.getElementById('rs-unknown').textContent = unknown;
+  document.getElementById('rs-unseen').textContent = radicalWords.length - known - unknown;
+}
+
+function updateRadicalOverviewSearch(value) {
+  radicalOverviewQuery = value;
+  renderRadicalOverview();
+}
+
+function updateRadicalOverviewStatus(value) {
+  radicalOverviewStatus = value;
+  renderRadicalOverview();
+}
+
+function renderRadicalOverview() {
+  if (radicalCurrentView !== 'overview') return;
+  const normalizedQuery = normalizeSearchText(radicalOverviewQuery);
+  const matches = radicalWords
+    .map((item, itemIndex) => ({ item, itemIndex }))
+    .filter(({ item }) => {
+      if (radicalOverviewStatus !== 'all' && radicalLearningStatus(item) !== radicalOverviewStatus) return false;
+      if (!normalizedQuery) return true;
+      const searchable = `${item.radical || ''} ${item.name || ''} ${item.pinyin || ''} ${item.meaning || ''}`;
+      return normalizeSearchText(searchable).includes(normalizedQuery);
+    });
+
+  document.getElementById('radicalOverviewTitle').textContent = `Bộ thủ ${radicalStudyLabel()}`;
+  document.getElementById('radicalOverviewDescription').textContent =
+    `Xem tổng thể ${radicalWords.length} bộ trước và trong khi học.`;
+  document.getElementById('radicalOverviewTotal').textContent = `${radicalWords.length} bộ`;
+  document.getElementById('radicalOverviewResultSummary').textContent =
+    normalizedQuery || radicalOverviewStatus !== 'all'
+      ? `Tìm thấy ${matches.length} / ${radicalWords.length} bộ`
+      : `Hiển thị toàn bộ ${radicalWords.length} bộ`;
+
+  const list = document.getElementById('radicalOverviewList');
+  list.innerHTML = '';
+  if (matches.length === 0) {
+    const empty = document.createElement('div');
+    empty.className = 'overview-empty';
+    empty.textContent = 'Không tìm thấy bộ thủ phù hợp. Hãy thử từ khóa hoặc trạng thái khác.';
+    list.appendChild(empty);
+    return;
+  }
+
+  const statusLabels = { unseen: 'Chưa học', unknown: 'Chưa nhớ', known: 'Đã nhớ' };
+  const fragment = document.createDocumentFragment();
+  matches.forEach(({ item, itemIndex }) => {
+    const status = radicalLearningStatus(item);
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'vocabulary-item radical-overview-item';
+    button.setAttribute('aria-label', `${item.name}, ${item.pinyin}, ${item.meaning}. Mở flashcard`);
+    button.onclick = () => openRadicalInCards(itemIndex);
+
+    const number = document.createElement('span');
+    number.className = 'vocabulary-number';
+    number.textContent = String(itemIndex + 1).padStart(String(radicalWords.length).length, '0');
+
+    const content = document.createElement('span');
+    content.className = 'vocabulary-content';
+    const wordLine = document.createElement('span');
+    wordLine.className = 'vocabulary-word-line';
+    const radical = document.createElement('span');
+    radical.className = 'vocabulary-hanzi';
+    radical.textContent = item.radical || '';
+    const pinyin = document.createElement('span');
+    pinyin.className = 'vocabulary-pinyin';
+    pinyin.textContent = item.pinyin || '';
+    const meaning = document.createElement('span');
+    meaning.className = 'vocabulary-meaning';
+    meaning.textContent = `${item.name || ''} · ${item.meaning || ''}`;
+    const badge = document.createElement('span');
+    badge.className = `vocabulary-status vocabulary-status--${status}`;
+    badge.textContent = statusLabels[status];
+
+    wordLine.append(radical, pinyin);
+    content.append(wordLine, meaning);
+    button.append(number, content, badge);
+    fragment.appendChild(button);
+  });
+  list.appendChild(fragment);
+}
+
+function openRadicalInCards(itemIndex) {
+  radicalCurrentFilter = 'all';
+  radicalFilteredOrder = radicalOrder.slice();
+  const position = radicalFilteredOrder.indexOf(itemIndex);
+  radicalIdx = position >= 0 ? position : 0;
+  renderRadicalFilters();
+  setRadicalViewMode('cards');
+  renderRadicalCard('fade');
+  document.getElementById('radicalCardArea').scrollIntoView({
+    behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+    block: 'start',
+  });
+}
+
+function toggleRadicalTransferPanel() {
+  const panel = document.getElementById('radicalTransferPanel');
+  panel.hidden = !panel.hidden;
+  renderRadicalFilters();
 }
 
 function radicalRelationLabel(type) {
@@ -61,17 +261,22 @@ function renderRadicalCard(animate) {
     if (back) back.classList.remove('show');
     document.getElementById('radicalHint').textContent = 'Nhấn vào thẻ để xem nghĩa và ví dụ';
 
-    if (radicalWords.length === 0) {
+    if (radicalFilteredOrder.length === 0) {
       document.getElementById('radChar').textContent = '';
       document.getElementById('radName').textContent = '';
       document.getElementById('radPinyin').textContent = '';
-      document.getElementById('radMeaning').textContent = 'Không có bộ thủ nào';
+      document.getElementById('radMeaning').textContent = 'Không có bộ thủ trong bộ lọc này';
+      document.getElementById('radDescription').hidden = true;
+      document.getElementById('radVariants').hidden = true;
+      document.getElementById('radExamples').hidden = true;
+      document.getElementById('radicalBack').classList.add('show');
       document.getElementById('radicalHint').textContent = '';
       updateRadicalProgress(0, 0);
+      updateRadicalStats();
       return;
     }
 
-    const item = radicalWords[radicalOrder[radicalIdx % radicalOrder.length]];
+    const item = radicalWords[radicalFilteredOrder[radicalIdx % radicalFilteredOrder.length]];
     document.getElementById('radChar').textContent = item.radical || '';
     document.getElementById('radName').textContent = item.name || '';
     document.getElementById('radPinyin').textContent = showRadicalPinyin ? (item.pinyin || '') : '';
@@ -106,7 +311,8 @@ function renderRadicalCard(animate) {
       examplesNode.innerHTML = '';
     }
 
-    updateRadicalProgress(radicalIdx % radicalOrder.length + 1, radicalOrder.length);
+    updateRadicalProgress(radicalIdx % radicalFilteredOrder.length + 1, radicalFilteredOrder.length);
+    updateRadicalStats();
 
     if (animate && content && !prefersReduced) {
       if (animate === 'next') content.classList.add('enter-right');
@@ -133,7 +339,7 @@ function updateRadicalProgress(current, total) {
 }
 
 function radicalFlip() {
-  if (radicalWords.length === 0) return;
+  if (radicalFilteredOrder.length === 0) return;
   const back = document.getElementById('radicalBack');
   const willShow = !back.classList.contains('show');
   back.classList.toggle('show', willShow);
@@ -141,33 +347,52 @@ function radicalFlip() {
 }
 
 function nextRadicalCard() {
-  if (radicalOrder.length === 0) return;
-  radicalIdx = (radicalIdx + 1) % radicalOrder.length;
+  if (radicalFilteredOrder.length === 0) return;
+  radicalIdx = (radicalIdx + 1) % radicalFilteredOrder.length;
   renderRadicalCard('next');
 }
 function prevRadicalCard() {
-  if (radicalOrder.length === 0) return;
-  radicalIdx = (radicalIdx - 1 + radicalOrder.length) % radicalOrder.length;
+  if (radicalFilteredOrder.length === 0) return;
+  radicalIdx = (radicalIdx - 1 + radicalFilteredOrder.length) % radicalFilteredOrder.length;
   renderRadicalCard('prev');
 }
 function markRadicalKnown() {
-  if (radicalWords.length === 0) return;
-  const item = radicalWords[radicalOrder[radicalIdx % radicalOrder.length]];
+  if (radicalFilteredOrder.length === 0) return;
+  const itemIndex = radicalFilteredOrder[radicalIdx % radicalFilteredOrder.length];
+  const item = radicalWords[itemIndex];
   radicalProgress[radicalProgressKey(item)] = 'known';
   saveRadicalProgress();
-  nextRadicalCard();
+  advanceAfterRadicalMark(itemIndex);
 }
 function markRadicalUnknown() {
-  if (radicalWords.length === 0) return;
-  const item = radicalWords[radicalOrder[radicalIdx % radicalOrder.length]];
+  if (radicalFilteredOrder.length === 0) return;
+  const itemIndex = radicalFilteredOrder[radicalIdx % radicalFilteredOrder.length];
+  const item = radicalWords[itemIndex];
   radicalProgress[radicalProgressKey(item)] = 'unknown';
   saveRadicalProgress();
-  nextRadicalCard();
+  advanceAfterRadicalMark(itemIndex);
+}
+function advanceAfterRadicalMark(previousItemIndex) {
+  if (radicalCurrentFilter === 'all') {
+    nextRadicalCard();
+    return;
+  }
+
+  const previousPosition = radicalIdx;
+  radicalFilteredOrder = filteredRadicalIndexes(radicalCurrentFilter);
+  renderRadicalFilters();
+  if (radicalFilteredOrder.length === 0) {
+    radicalIdx = 0;
+  } else if (radicalFilteredOrder.includes(previousItemIndex)) {
+    radicalIdx = (previousPosition + 1) % radicalFilteredOrder.length;
+  } else {
+    radicalIdx = Math.min(previousPosition, radicalFilteredOrder.length - 1);
+  }
+  renderRadicalCard('fade');
 }
 function shuffleRadicalDeck() {
   shuffleArray(radicalOrder);
-  radicalIdx = 0;
-  renderRadicalCard('fade');
+  setRadicalFilter(radicalCurrentFilter);
 }
 function toggleRadicalPinyin() {
   showRadicalPinyin = !showRadicalPinyin;

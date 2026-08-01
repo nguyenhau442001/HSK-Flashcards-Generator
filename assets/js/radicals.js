@@ -107,15 +107,24 @@ function renderRadicalHubProgress() {
 
 function startRadicalStudy(mode, groupIndex) {
   radicalReturnTab = mode;
+  radicalGroupIndex = groupIndex;
   radicalWords = RADICAL_GROUPS[mode][groupIndex];
   radicalOrder = Array.from({ length: radicalWords.length }, (_, i) => i);
+  radicalFilteredOrder = radicalOrder.slice();
   radicalIdx = 0;
+  radicalCurrentFilter = 'all';
+  radicalCurrentView = 'cards';
+  radicalOverviewQuery = '';
+  radicalOverviewStatus = 'all';
   document.getElementById('primaryTabs').style.display = 'none';
   document.getElementById('learningDashboard').style.display = 'none';
   document.getElementById('screenRadicalHub').style.display = 'none';
   document.getElementById('screenRadicalCards').style.display = '';
+  document.getElementById('radicalTransferPanel').hidden = true;
   document.body.classList.add('study-mode');
   buildRadicalCardArea();
+  renderRadicalFilters();
+  setRadicalViewMode('cards');
   renderRadicalCard();
 }
 
@@ -125,6 +134,8 @@ function goBackToRadicalHub() {
   document.getElementById('screenRadicalHub').style.display = '';
   document.getElementById('primaryTabs').style.display = '';
   document.getElementById('learningDashboard').style.display = '';
+  document.getElementById('appTitle').textContent = 'HSK Flashcards';
   radicalTab = radicalReturnTab;
+  radicalCurrentView = 'cards';
   renderRadicalHub();
 }
