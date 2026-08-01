@@ -1,0 +1,411 @@
+[
+  {
+    "id": 6,
+    "kangxi_id": 30,
+    "name": "Bộ Khẩu",
+    "radical": "口",
+    "pinyin": "kǒu",
+    "meaning": "miệng",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy tưởng tượng 口 là một chiếc miệng đang mở. Vì vậy, nhiều chữ có bộ Khẩu dễ gợi đến nói, gọi, ăn uống hoặc âm thanh, như 吃, 喝, 叫. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "吃",
+        "pinyin": "chī",
+        "meaning": "ăn",
+        "relation_type": "semantic",
+        "relation": "Trong 吃 (“ăn”), 口 giúp gợi trường nghĩa liên quan đến “miệng”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "喝",
+        "pinyin": "hē",
+        "meaning": "uống",
+        "relation_type": "semantic",
+        "relation": "Trong 喝 (“uống”), 口 giúp gợi trường nghĩa liên quan đến “miệng”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "叫",
+        "pinyin": "jiào",
+        "meaning": "gọi; tên là",
+        "relation_type": "semantic",
+        "relation": "Trong 叫 (“gọi; tên là”), 口 giúp gợi trường nghĩa liên quan đến “miệng”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "kangxi_id": 38,
+    "name": "Bộ Nữ",
+    "radical": "女",
+    "pinyin": "nǚ",
+    "meaning": "phụ nữ",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy gắn 女 với hình ảnh người phụ nữ trong gia đình và đời sống. Các chữ 妈, 姐, 她 khiến bộ Nữ trở thành một điểm neo rất dễ nhớ. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "妈",
+        "pinyin": "mā",
+        "meaning": "mẹ",
+        "relation_type": "semantic",
+        "relation": "Trong 妈 (“mẹ”), 女 giúp gợi trường nghĩa liên quan đến “phụ nữ”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "姐",
+        "pinyin": "jiě",
+        "meaning": "chị gái",
+        "relation_type": "semantic",
+        "relation": "Trong 姐 (“chị gái”), 女 giúp gợi trường nghĩa liên quan đến “phụ nữ”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "她",
+        "pinyin": "tā",
+        "meaning": "cô ấy",
+        "relation_type": "semantic",
+        "relation": "Trong 她 (“cô ấy”), 女 giúp gợi trường nghĩa liên quan đến “phụ nữ”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "kangxi_id": 39,
+    "name": "Bộ Tử",
+    "radical": "子",
+    "pinyin": "zǐ",
+    "meaning": "trẻ con; con",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy xem 子 như hình ảnh một đứa trẻ trong gia đình. Vì thế bộ Tử thường gợi đến con cái, trẻ nhỏ hoặc quan hệ gia đình, như 字, 孩, 孙. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "字",
+        "pinyin": "zì",
+        "meaning": "chữ",
+        "relation_type": "historical_graphic",
+        "relation": "字 (“chữ”) có liên hệ với 子 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “trẻ con; con”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "孩",
+        "pinyin": "hái",
+        "meaning": "trẻ em",
+        "relation_type": "semantic",
+        "relation": "Trong 孩 (“trẻ em”), 子 giúp gợi trường nghĩa liên quan đến “trẻ con; con”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "学",
+        "pinyin": "xué",
+        "meaning": "học",
+        "relation_type": "historical_graphic",
+        "relation": "学 (“học”) có liên hệ với 子 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “trẻ con; con”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "kangxi_id": 32,
+    "name": "Bộ Thổ",
+    "radical": "土",
+    "pinyin": "tǔ",
+    "meaning": "đất",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy hình dung 土 là một mô đất nhô lên khỏi mặt đất. Bộ Thổ thường kéo câu chuyện về đất đai, nền móng hoặc nơi chốn, như 地, 块, 坐. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "地",
+        "pinyin": "dì",
+        "meaning": "đất; nơi",
+        "relation_type": "semantic",
+        "relation": "Trong 地 (“đất; nơi”), 土 giúp gợi trường nghĩa liên quan đến “đất”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "坐",
+        "pinyin": "zuò",
+        "meaning": "ngồi",
+        "relation_type": "semantic",
+        "relation": "Trong 坐 (“ngồi”), 土 giúp gợi trường nghĩa liên quan đến “đất”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "城",
+        "pinyin": "chéng",
+        "meaning": "thành; thành phố",
+        "relation_type": "semantic",
+        "relation": "Trong 城 (“thành; thành phố”), 土 giúp gợi trường nghĩa liên quan đến “đất”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "kangxi_id": 46,
+    "name": "Bộ Sơn",
+    "radical": "山",
+    "pinyin": "shān",
+    "meaning": "núi",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Ba nét nhô lên của 山 rất dễ liên tưởng đến những đỉnh núi. Vì vậy, bộ Sơn thường đưa bạn đến địa hình và núi non, như 岁, 岛, 岸. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "岛",
+        "pinyin": "dǎo",
+        "meaning": "đảo",
+        "relation_type": "semantic",
+        "relation": "Trong 岛 (“đảo”), 山 giúp gợi trường nghĩa liên quan đến “núi”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "岸",
+        "pinyin": "àn",
+        "meaning": "bờ",
+        "relation_type": "semantic",
+        "relation": "Trong 岸 (“bờ”), 山 giúp gợi trường nghĩa liên quan đến “núi”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "峰",
+        "pinyin": "fēng",
+        "meaning": "đỉnh núi",
+        "relation_type": "semantic",
+        "relation": "Trong 峰 (“đỉnh núi”), 山 giúp gợi trường nghĩa liên quan đến “núi”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "kangxi_id": 40,
+    "name": "Bộ Miên",
+    "radical": "宀",
+    "pinyin": "mián",
+    "meaning": "mái nhà",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy nhìn 宀 như một mái nhà che phía trên. Khi thấy bộ Miên trong 家, 安, 室, hãy hình dung một không gian có mái che, nơi con người ở hoặc sinh hoạt. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "家",
+        "pinyin": "jiā",
+        "meaning": "nhà; gia đình",
+        "relation_type": "semantic",
+        "relation": "Trong 家 (“nhà; gia đình”), 宀 giúp gợi trường nghĩa liên quan đến “mái nhà”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "宝",
+        "pinyin": "bǎo",
+        "meaning": "báu; quý",
+        "relation_type": "semantic",
+        "relation": "Trong 宝 (“báu; quý”), 宀 giúp gợi trường nghĩa liên quan đến “mái nhà”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "安",
+        "pinyin": "ān",
+        "meaning": "yên; an toàn",
+        "relation_type": "semantic",
+        "relation": "Trong 安 (“yên; an toàn”), 宀 giúp gợi trường nghĩa liên quan đến “mái nhà”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "kangxi_id": 53,
+    "name": "Bộ Nghiễm",
+    "radical": "广",
+    "pinyin": "guǎng",
+    "meaning": "mái che",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "广 giống một mái che kéo dài sang một bên; hãy tưởng tượng đang bước vào một công trình có mái. 店, 床, 度 là những chữ giúp bộ Nghiễm gợi đến không gian, công trình hoặc nơi chốn. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "店",
+        "pinyin": "diàn",
+        "meaning": "cửa hàng",
+        "relation_type": "semantic",
+        "relation": "Trong 店 (“cửa hàng”), 广 giúp gợi trường nghĩa liên quan đến “mái che”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "床",
+        "pinyin": "chuáng",
+        "meaning": "giường",
+        "relation_type": "semantic",
+        "relation": "Trong 床 (“giường”), 广 giúp gợi trường nghĩa liên quan đến “mái che”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "庭",
+        "pinyin": "tíng",
+        "meaning": "sân; tòa",
+        "relation_type": "semantic",
+        "relation": "Trong 庭 (“sân; tòa”), 广 giúp gợi trường nghĩa liên quan đến “mái che”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "kangxi_id": 57,
+    "name": "Bộ Cung",
+    "radical": "弓",
+    "pinyin": "gōng",
+    "meaning": "cung",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy hình dung 弓 là một cây cung đang được kéo căng. Các chữ 张, 强, 弱 giúp bộ Cung gợi đến việc kéo, căng và sức của cây cung. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "强",
+        "pinyin": "qiáng",
+        "meaning": "mạnh",
+        "relation_type": "historical_graphic",
+        "relation": "强 (“mạnh”) có liên hệ với 弓 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “cung”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "弹",
+        "pinyin": "tán",
+        "meaning": "bật; búng",
+        "relation_type": "semantic",
+        "relation": "Trong 弹 (“bật; búng”), 弓 giúp gợi trường nghĩa liên quan đến “cung”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "引",
+        "pinyin": "yǐn",
+        "meaning": "dẫn; kéo",
+        "relation_type": "semantic",
+        "relation": "Trong 引 (“dẫn; kéo”), 弓 giúp gợi trường nghĩa liên quan đến “cung”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "kangxi_id": 60,
+    "name": "Bộ Xích",
+    "radical": "彳",
+    "pinyin": "chì",
+    "meaning": "bước chân; đi",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "彳 trông như những bước chân nhỏ nối tiếp nhau. Khi gặp bộ Xích trong 很, 往, 得, hãy nghĩ đến hành trình, bước đi hoặc hướng di chuyển. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "很",
+        "pinyin": "hěn",
+        "meaning": "rất",
+        "relation_type": "historical_graphic",
+        "relation": "很 (“rất”) có liên hệ với 彳 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “bước chân; đi”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "往",
+        "pinyin": "wǎng",
+        "meaning": "đi về phía",
+        "relation_type": "semantic",
+        "relation": "Trong 往 (“đi về phía”), 彳 giúp gợi trường nghĩa liên quan đến “bước chân; đi”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "待",
+        "pinyin": "dài",
+        "meaning": "chờ; đối đãi",
+        "relation_type": "historical_graphic",
+        "relation": "待 (“chờ; đối đãi”) có liên hệ với 彳 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “bước chân; đi”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "kangxi_id": 37,
+    "name": "Bộ Đại",
+    "radical": "大",
+    "pinyin": "dà",
+    "meaning": "to; lớn",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy tưởng tượng một người dang rộng tay chân để trở nên thật “lớn” — đó là mẹo nhớ 大. Các chữ 天, 太, 夫 giúp bộ Đại gợi đến kích thước lớn hoặc sự mở rộng. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "天",
+        "pinyin": "tiān",
+        "meaning": "trời; ngày",
+        "relation_type": "historical_graphic",
+        "relation": "天 (“trời; ngày”) có liên hệ với 大 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “to; lớn”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "太",
+        "pinyin": "tài",
+        "meaning": "quá; rất",
+        "relation_type": "semantic",
+        "relation": "Trong 太 (“quá; rất”), 大 giúp gợi trường nghĩa liên quan đến “to; lớn”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "头",
+        "pinyin": "tóu",
+        "meaning": "đầu",
+        "relation_type": "historical_graphic",
+        "relation": "头 (“đầu”) có liên hệ với 大 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “to; lớn”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "kangxi_id": 42,
+    "name": "Bộ Tiểu",
+    "radical": "小",
+    "pinyin": "xiǎo",
+    "meaning": "nhỏ",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Ba nét nhỏ của 小 rất hợp để ghi nhớ ý “nhỏ bé”. Khi gặp 少, 尖, 尚, hãy dùng bộ Tiểu như một điểm neo cho những thứ nhỏ hoặc ít. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "少",
+        "pinyin": "shǎo",
+        "meaning": "ít",
+        "relation_type": "semantic",
+        "relation": "Trong 少 (“ít”), 小 giúp gợi trường nghĩa liên quan đến “nhỏ”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "尖",
+        "pinyin": "jiān",
+        "meaning": "nhọn",
+        "relation_type": "semantic",
+        "relation": "Trong 尖 (“nhọn”), 小 giúp gợi trường nghĩa liên quan đến “nhỏ”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "省",
+        "pinyin": "shěng",
+        "meaning": "tỉnh; tiết kiệm",
+        "relation_type": "historical_graphic",
+        "relation": "省 (“tỉnh; tiết kiệm”) có liên hệ với 小 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “nhỏ”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "kangxi_id": 48,
+    "name": "Bộ Công",
+    "radical": "工",
+    "pinyin": "gōng",
+    "meaning": "công việc; thủ công",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy nhớ 工 bằng hình ảnh công việc hay người thợ, nhưng đừng mặc định chữ nào có 工 cũng liên quan đến “công”. Trong nhiều chữ hình thanh như 紅/红 và 江, 工 chủ yếu làm nhiệm vụ gợi âm; phần 糸/纟 hoặc 氵 mới dẫn nghĩa.",
+    "examples": [
+      {
+        "hanzi": "左",
+        "pinyin": "zuǒ",
+        "meaning": "trái",
+        "relation_type": "historical_form",
+        "relation": "左 chứa 工 về mặt cấu tạo, nhưng nghĩa “trái” không xuất phát trực tiếp từ “công việc/thợ”. Không nên dùng 工 để đoán nghĩa của 左."
+      },
+      {
+        "hanzi": "红",
+        "pinyin": "hóng",
+        "meaning": "đỏ",
+        "traditional": "紅",
+        "relation_type": "phonetic",
+        "relation": "Trong 紅/红, 糸/纟 mới là phần gợi nghĩa liên quan đến sợi tơ; 工 chủ yếu là thành phần gợi âm lịch sử. Vì vậy “đỏ” không liên quan đến nghĩa “công việc”."
+      },
+      {
+        "hanzi": "江",
+        "pinyin": "jiāng",
+        "meaning": "sông",
+        "relation_type": "phonetic",
+        "relation": "Trong 江, 氵 gợi trường nghĩa nước và 工 chủ yếu góp vai trò gợi âm lịch sử. Đây là ví dụ điển hình cho chữ hình thanh: phần nghĩa và phần âm tách nhau."
+      }
+    ]
+  }
+]

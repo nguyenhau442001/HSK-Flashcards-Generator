@@ -16,12 +16,6 @@
 .radical-panel { margin-top: 18px; }
 .radical-panel h2 { font-size: 17px; margin: 0 0 4px; font-weight: 700; }
 .radical-panel-subtitle { margin: 0 0 14px; color: var(--text-secondary); font-size: 13px; }
-.radical-panel-card {
-  background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg);
-  padding: 20px; text-align: center;
-}
-.radical-panel-progress { margin: 10px 0 16px; color: var(--success-text); font-size: 13px; font-weight: 600; }
-.radical-start-btn { width: 100%; font-size: 13px; padding: 12px; }
 
 .radical-group-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
 .radical-group-card {

@@ -10,12 +10,12 @@ async function ensureRadicalDataLoaded() {
   const hub = document.getElementById('radicalHub');
   hub.innerHTML = '<div class="loading-text">Đang tải dữ liệu...</div>';
   try {
-    const [basic50, ...groups] = await Promise.all([
-      fetchJson(RADICAL_BASIC50_URL),
-      ...Array.from({ length: RADICAL_STROKE_COUNT }, (_, i) => fetchJson(radicalStrokeUrl(i + 1))),
+    const [basic50Groups, kangxi214Groups] = await Promise.all([
+      Promise.all(Array.from({ length: RADICAL_STROKE_COUNTS.basic50 }, (_, i) => fetchJson(radicalStrokeUrl('basic50', i + 1)))),
+      Promise.all(Array.from({ length: RADICAL_STROKE_COUNTS.kangxi214 }, (_, i) => fetchJson(radicalStrokeUrl('kangxi214', i + 1)))),
     ]);
-    RADICAL_BASIC50 = basic50;
-    RADICAL_STROKE_GROUPS = groups;
+    RADICAL_GROUPS.basic50 = basic50Groups;
+    RADICAL_GROUPS.kangxi214 = kangxi214Groups;
     radicalDataLoaded = true;
   } catch (e) {
     hub.innerHTML = '<div class="error-text">Không thể tải dữ liệu. Vui lòng thử lại.</div>';
@@ -63,50 +63,46 @@ function renderRadicalHub() {
     </div>
 
     <div id="radicalBasic50Panel" class="radical-panel">
-      <div class="radical-panel-card">
-        <h2>50 BỘ THỦ CƠ BẢN</h2>
-        <p class="radical-panel-subtitle">Dành cho người mới bắt đầu</p>
-        <div class="radical-panel-progress" id="basic50Progress"></div>
-        <button class="quick-study-btn radical-start-btn" onclick="startRadicalStudy('basic50')">Bắt đầu học 50 bộ →</button>
-      </div>
+      <h2>50 BỘ THỦ CƠ BẢN</h2>
+      <p class="radical-panel-subtitle">Dành cho người mới bắt đầu · phân loại từ 1–10 nét</p>
+      <div class="radical-group-grid" id="radicalGroupGridBasic50"></div>
     </div>
 
     <div id="radicalKangxi214Panel" class="radical-panel" hidden>
       <h2>214 BỘ THỦ KHANG HY</h2>
       <p class="radical-panel-subtitle">Đầy đủ 214 bộ · phân loại từ 1–17 nét</p>
-      <div class="radical-group-grid" id="radicalGroupGrid"></div>
+      <div class="radical-group-grid" id="radicalGroupGridKangxi214"></div>
     </div>
   `;
   setRadicalTab(radicalTab);
   renderRadicalHubProgress();
 }
 
+function renderRadicalGroupGrid(set, gridId) {
+  const grid = document.getElementById(gridId);
+  if (!grid) return;
+  grid.innerHTML = RADICAL_GROUPS[set].map((group, i) => {
+    const strokeNum = i + 1;
+    const preview = group.slice(0, 4).map(item => item.radical).join(' ');
+    const known = radicalKnownCount(group);
+    return `
+      <button class="radical-group-card" type="button" onclick="startRadicalStudy('${set}', ${i})">
+        <div class="radical-group-stroke">${strokeNum} NÉT</div>
+        <div class="radical-group-preview">${preview}</div>
+        <div class="radical-group-count">${group.length} bộ</div>
+        <div class="radical-group-known">${known} / ${group.length} nhớ</div>
+      </button>`;
+  }).join('');
+}
+
 function renderRadicalHubProgress() {
-  const basicProgress = document.getElementById('basic50Progress');
-  if (basicProgress) {
-    const known = radicalKnownCount(RADICAL_BASIC50);
-    basicProgress.textContent = `${known} / ${RADICAL_BASIC50.length} đã nhớ`;
-  }
-  const grid = document.getElementById('radicalGroupGrid');
-  if (grid) {
-    grid.innerHTML = RADICAL_STROKE_GROUPS.map((group, i) => {
-      const strokeNum = i + 1;
-      const preview = group.slice(0, 4).map(item => item.radical).join(' ');
-      const known = radicalKnownCount(group);
-      return `
-        <button class="radical-group-card" type="button" onclick="startRadicalStudy('kangxi214', ${i})">
-          <div class="radical-group-stroke">${strokeNum} NÉT</div>
-          <div class="radical-group-preview">${preview}</div>
-          <div class="radical-group-count">${group.length} bộ</div>
-          <div class="radical-group-known">${known} / ${group.length} nhớ</div>
-        </button>`;
-    }).join('');
-  }
+  renderRadicalGroupGrid('basic50', 'radicalGroupGridBasic50');
+  renderRadicalGroupGrid('kangxi214', 'radicalGroupGridKangxi214');
 }
 
 function startRadicalStudy(mode, groupIndex) {
   radicalReturnTab = mode;
-  radicalWords = mode === 'basic50' ? RADICAL_BASIC50 : RADICAL_STROKE_GROUPS[groupIndex];
+  radicalWords = RADICAL_GROUPS[mode][groupIndex];
   radicalOrder = Array.from({ length: radicalWords.length }, (_, i) => i);
   radicalIdx = 0;
   document.getElementById('primaryTabs').style.display = 'none';

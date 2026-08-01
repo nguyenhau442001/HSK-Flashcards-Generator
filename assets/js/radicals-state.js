@@ -1,15 +1,14 @@
 // Radical (Bộ thủ) mode configuration and in-memory state.
-const RADICAL_BASIC50_URL = 'database/radicals/basic_50_radicals/basic_50_radicals.json';
-const RADICAL_STROKE_COUNT = 17;
-function radicalStrokeUrl(n) {
-  return `database/radicals/kangxi_214_radicals/stroke_${String(n).padStart(2, '0')}.json`;
+const RADICAL_STROKE_COUNTS = { basic50: 10, kangxi214: 17 };
+function radicalStrokeUrl(set, n) {
+  const dir = set === 'basic50' ? 'basic_50_radicals' : 'kangxi_214_radicals';
+  return `database/radicals/${dir}/stroke_${String(n).padStart(2, '0')}.json`;
 }
 
 let primaryTab = 'vocab';
 let radicalTab = 'basic50';
 let radicalDataLoaded = false;
-let RADICAL_BASIC50 = [];
-let RADICAL_STROKE_GROUPS = [];
+let RADICAL_GROUPS = { basic50: [], kangxi214: [] };
 
 let radicalOrder = [];
 let radicalIdx = 0;

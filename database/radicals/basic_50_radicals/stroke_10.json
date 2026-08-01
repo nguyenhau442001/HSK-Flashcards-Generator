@@ -1,0 +1,41 @@
+[
+  {
+    "id": 25,
+    "kangxi_id": 187,
+    "name": "Bộ Mã",
+    "radical": "馬",
+    "pinyin": "mǎ",
+    "meaning": "ngựa",
+    "stroke_count": 10,
+    "variants": [
+      "马"
+    ],
+    "description": "Hãy đặt 馬 vào câu chuyện về một con ngựa đang chạy. Các chữ 骑, 驾, 驰 khiến bộ Mã dễ gắn với ngựa, cưỡi và di chuyển. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "骑",
+        "pinyin": "qí",
+        "meaning": "cưỡi",
+        "traditional": "騎",
+        "relation_type": "semantic",
+        "relation": "Trong 騎/骑 (“cưỡi”), 馬 giúp gợi trường nghĩa liên quan đến “ngựa”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "驾",
+        "pinyin": "jià",
+        "meaning": "lái",
+        "traditional": "駕",
+        "relation_type": "semantic",
+        "relation": "Trong 駕/驾 (“lái”), 馬 giúp gợi trường nghĩa liên quan đến “ngựa”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "骗",
+        "pinyin": "piàn",
+        "meaning": "lừa",
+        "traditional": "騙",
+        "relation_type": "semantic_historical",
+        "relation": "騙/骗 có 馬/马 trong cấu tạo; các nghĩa cổ liên quan đến cưỡi/ngựa đã phát triển xa thành nghĩa hiện đại “lừa”. Vì vậy đây là liên hệ lịch sử, không nên đoán “lừa đảo” từ “ngựa”."
+      }
+    ]
+  }
+]
