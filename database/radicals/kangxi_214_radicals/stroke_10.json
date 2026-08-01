@@ -9,7 +9,7 @@
     "variants": [
       "马"
     ],
-    "description": "Hãy đặt 馬 vào câu chuyện về một con ngựa đang chạy. Các chữ 骑, 驾, 驰 khiến bộ Mã dễ gắn với ngựa, cưỡi và di chuyển. ",
+    "description": "馬 vẽ con ngựa với bờm, chân và đuôi; dạng giản thể là 马. Bộ Mã thường gợi ngựa, cưỡi, kéo xe và việc di chuyển, nhưng cũng hay làm phần gợi âm.",
     "examples": [
       {
         "hanzi": "骑",
@@ -17,7 +17,7 @@
         "meaning": "cưỡi",
         "traditional": "騎",
         "relation_type": "semantic",
-        "relation": "Trong 騎/骑 (“cưỡi”), 馬 giúp gợi trường nghĩa liên quan đến “ngựa”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Ở 骑 (“cưỡi”), nét nghĩa của 馬 vẫn hiện khá rõ: chữ được đặt trong trường ý “ngựa”."
       },
       {
         "hanzi": "驾",
@@ -25,7 +25,7 @@
         "meaning": "lái",
         "traditional": "駕",
         "relation_type": "semantic",
-        "relation": "Trong 駕/驾 (“lái”), 馬 giúp gợi trường nghĩa liên quan đến “ngựa”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "驾 mang nghĩa “lái”; phần 馬 giúp người học lần về chủ đề “ngựa”."
       },
       {
         "hanzi": "骗",
@@ -45,28 +45,21 @@
     "meaning": "xương",
     "stroke_count": 10,
     "variants": [],
-    "description": "Hãy dựng một hình ảnh thật rõ về “xương” trong đầu rồi gắn hình ảnh đó với 骨. Sau đó tìm lại bộ này trong 骼 (bộ xương), 髓 (tuỷ); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. ",
+    "description": "骨 gợi những đốt xương nối nhau bên trong cơ thể. Bộ Cốt thường dẫn rõ tới xương, tủy, bộ khung và những đặc tính cứng hay trơn của cơ thể.",
     "examples": [
       {
         "hanzi": "骼",
         "pinyin": "gé",
         "meaning": "bộ xương",
         "relation_type": "semantic",
-        "relation": "Trong 骼 (“bộ xương”), 骨 giúp gợi trường nghĩa liên quan đến “xương”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "骼 mang nghĩa “bộ xương”; phần 骨 giúp người học lần về chủ đề “xương”."
       },
       {
         "hanzi": "髓",
         "pinyin": "suǐ",
         "meaning": "tuỷ",
         "relation_type": "semantic",
-        "relation": "Trong 髓 (“tuỷ”), 骨 giúp gợi trường nghĩa liên quan đến “xương”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
-      },
-      {
-        "hanzi": "滑",
-        "pinyin": "huá",
-        "meaning": "trượt; lướt",
-        "relation_type": "historical_graphic",
-        "relation": "滑 (“trượt; lướt”) có liên hệ với 骨 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “xương”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+        "relation": "Có thể nhớ 髓 (“tuỷ”) qua 骨: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
       }
     ]
   },
@@ -78,21 +71,28 @@
     "meaning": "cao",
     "stroke_count": 10,
     "variants": [],
-    "description": "高 nghĩa là cao, nhưng trong 稿 và 蒿 nó chủ yếu làm thành phần gợi âm. Hãy nhìn 禾 hoặc 艹 để tìm manh mối nghĩa; đừng suy “bản thảo/cây ngải” từ nghĩa “cao”.",
+    "description": "高 phác một tòa nhà cao tầng, vì thế mang nghĩa “cao”. Trong chữ như 稿 hay 蒿, 高 chủ yếu gợi âm; bộ Hòa hoặc Thảo mới chỉ ra câu chuyện nghĩa.",
     "examples": [
       {
-        "hanzi": "稿",
-        "pinyin": "gǎo",
-        "meaning": "bản thảo",
-        "relation_type": "phonetic",
-        "relation": "Trong 稿, 禾 gợi nghĩa liên quan đến cây/ngũ cốc ở lớp nghĩa cổ, còn 高 gợi âm gǎo. Nghĩa hiện đại “bản thảo” đã phát triển xa khỏi hình ảnh “cao”."
+        "hanzi": "高",
+        "pinyin": "gāo",
+        "meaning": "cao",
+        "relation_type": "direct",
+        "relation": "高 vừa là hình của bộ Cao vừa trực tiếp mang nghĩa “cao”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
       },
       {
-        "hanzi": "蒿",
-        "pinyin": "hāo",
-        "meaning": "cần tây ngải (Artemisia carvifolia)",
-        "relation_type": "phonetic",
-        "relation": "Trong 蒿, 艹 gợi nghĩa thực vật, còn 高 chủ yếu gợi âm hāo theo lịch sử. Vì thế tên cây không đến từ nghĩa “cao”."
+        "hanzi": "高度",
+        "pinyin": "gāodù",
+        "meaning": "độ cao",
+        "relation_type": "semantic",
+        "relation": "Trong 高度 (“độ cao”), 高 vẫn giữ rõ nét nghĩa “cao”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+      },
+      {
+        "hanzi": "高山",
+        "pinyin": "gāoshān",
+        "meaning": "núi cao",
+        "relation_type": "semantic",
+        "relation": "Trong 高山 (“núi cao”), 高 vẫn giữ rõ nét nghĩa “cao”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
       }
     ]
   },
@@ -104,28 +104,28 @@
     "meaning": "tóc dài",
     "stroke_count": 10,
     "variants": [],
-    "description": "Khi nhìn 髟, hãy gọi ngay hình ảnh “tóc dài” ra trong đầu. Sau đó tìm lại bộ này trong 须 (phải), 髻 (tóc cuộn lên thành búi, búi tóc); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. ",
+    "description": "髟 ghép tóc dài với những nét 彡 rủ xuống như suối. Bộ Bưu thường nằm trên các chữ chỉ mái tóc, kiểu tóc, râu và vùng có tóc quanh đầu.",
     "examples": [
       {
         "hanzi": "须",
         "pinyin": "xū",
-        "meaning": "phải",
+        "meaning": "râu; cần, phải",
         "relation_type": "semantic",
-        "relation": "Trong 须 (“phải”), 髟 giúp gợi trường nghĩa liên quan đến “tóc dài”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Trong cấu tạo 须 (“râu; cần, phải”), 髟 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
       },
       {
         "hanzi": "髻",
         "pinyin": "jì",
         "meaning": "tóc cuộn lên thành búi, búi tóc",
         "relation_type": "semantic",
-        "relation": "Trong 髻 (“tóc cuộn lên thành búi, búi tóc”), 髟 giúp gợi trường nghĩa liên quan đến “tóc dài”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Từ 髟 mang ý “tóc dài”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 髻 (“tóc cuộn lên thành búi, búi tóc”)."
       },
       {
         "hanzi": "鬓",
         "pinyin": "bìn",
         "meaning": "thái dương",
         "relation_type": "semantic",
-        "relation": "Trong 鬓 (“thái dương”), 髟 giúp gợi trường nghĩa liên quan đến “tóc dài”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Trong 鬓 (“thái dương”), 髟 là đầu mối gợi nghĩa, nối chữ với hình ảnh “tóc dài”."
       }
     ]
   },
@@ -139,7 +139,7 @@
     "variants": [
       "斗"
     ],
-    "description": "Hãy biến 鬥 thành một chiếc móc nhớ cho ý “đánh nhau”. Sau đó tìm lại bộ này trong 闹 (ồn ào), 哄 (cười ầm (tượng thanh)); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. Dạng biến thể 斗 là dấu hiệu đáng chú ý khi bộ này đổi hình trong chữ. ",
+    "description": "鬥 vẽ hai người đối mặt, giơ tay giao đấu; đừng nhầm với 斗 “cái đấu”. Dạng giản thể 斗 làm mất hình hai đối thủ, nên biết chữ phồn thể sẽ giúp nhớ nghĩa tốt hơn.",
     "examples": [
       {
         "hanzi": "闹",
@@ -154,7 +154,7 @@
         "pinyin": "hòng",
         "meaning": "huyên náo; ẩu đả",
         "relation_type": "semantic",
-        "relation": "Trong 鬨 (“huyên náo; ẩu đả”), 鬥 giúp gợi trường nghĩa liên quan đến “đánh nhau”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Trong 鬨 (“huyên náo; ẩu đả”), 鬥 là đầu mối gợi nghĩa, nối chữ với hình ảnh “đánh nhau”."
       }
     ]
   },
@@ -166,12 +166,19 @@
     "meaning": "rượu tế lễ",
     "stroke_count": 10,
     "variants": [],
-    "description": "Hãy dựng một hình ảnh thật rõ về “rượu tế lễ” trong đầu rồi gắn hình ảnh đó với 鬯. Sau đó tìm lại bộ này trong 郁 ((dạng kết hợp) hương thơm nồng nàn); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. ",
+    "description": "鬯 là thứ rượu thơm dùng trong nghi lễ tế tự. Bộ Sưởng rất hiếm, mang theo không khí cổ xưa của hương rượu, lễ nghi và việc cúng tế.",
     "examples": [
+      {
+        "hanzi": "鬯",
+        "pinyin": "chàng",
+        "meaning": "rượu tế lễ",
+        "relation_type": "direct",
+        "relation": "鬯 vừa là hình của bộ Sưởng vừa trực tiếp mang nghĩa “rượu tế lễ”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+      },
       {
         "hanzi": "郁",
         "pinyin": "yù",
-        "meaning": "(dạng kết hợp) hương thơm nồng nàn",
+        "meaning": "uất; rậm rạp; thơm nồng",
         "traditional": "鬱",
         "relation_type": "historical_form",
         "relation": "Chữ phồn thể 鬱 có thành phần 鬯 trong cấu tạo cổ, nhưng quan hệ với nghĩa hiện đại “uất/um tùm” khá phức tạp. Nên xem đây là dấu vết lịch sử, không phải mẹo đoán nghĩa đơn giản."
@@ -186,21 +193,14 @@
     "meaning": "vạc ba chân",
     "stroke_count": 10,
     "variants": [],
-    "description": "Câu chuyện ghi nhớ của bộ Cách bắt đầu từ hình ảnh “vạc ba chân”. Sau đó tìm lại bộ này trong 融 (tan), 鬷 (cái ấm có chân); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. ",
+    "description": "鬲 vẽ chiếc vạc ba chân rỗng ở dưới để đun nấu. Bộ Cách thường gợi nồi vạc, vật chứa có chân hoặc sự ngăn cách giữa các phần.",
     "examples": [
-      {
-        "hanzi": "融",
-        "pinyin": "róng",
-        "meaning": "tan",
-        "relation_type": "historical_graphic",
-        "relation": "融 (“tan”) có liên hệ với 鬲 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “vạc ba chân”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
-      },
       {
         "hanzi": "鬷",
         "pinyin": "zōng",
         "meaning": "cái ấm có chân",
         "relation_type": "semantic",
-        "relation": "Trong 鬷 (“cái ấm có chân”), 鬲 giúp gợi trường nghĩa liên quan đến “vạc ba chân”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "鬷 mang nghĩa “cái ấm có chân”; phần 鬲 giúp người học lần về chủ đề “vạc ba chân”."
       }
     ]
   },
@@ -212,28 +212,28 @@
     "meaning": "ma; quỷ",
     "stroke_count": 10,
     "variants": [],
-    "description": "Khi nhìn 鬼, hãy gọi ngay hình ảnh “ma; quỷ” ra trong đầu. Sau đó tìm lại bộ này trong 魂 (linh hồn; tinh thần; linh hồn bất tử (có thể tách rời khỏi cơ thể)), 魄 (linh hồn; hồn phách (tức là gắn liền với cơ thể)); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. ",
+    "description": "鬼 phác hình một linh hồn có chiếc đầu lớn và phần chân mờ ảo. Bộ Quỷ thường dẫn tới ma quỷ, hồn phách, điều huyền bí hoặc nỗi sợ vô hình.",
     "examples": [
       {
         "hanzi": "魂",
         "pinyin": "hún",
-        "meaning": "linh hồn; tinh thần; linh hồn bất tử (có thể tách rời khỏi cơ thể)",
+        "meaning": "linh hồn; tinh thần",
         "relation_type": "semantic",
-        "relation": "Trong 魂 (“linh hồn; tinh thần; linh hồn bất tử (có thể tách rời khỏi cơ thể)”), 鬼 giúp gợi trường nghĩa liên quan đến “ma; quỷ”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "魂 mang nghĩa “linh hồn; tinh thần”; phần 鬼 giúp người học lần về chủ đề “ma; quỷ”."
       },
       {
         "hanzi": "魄",
         "pinyin": "pò",
-        "meaning": "linh hồn; hồn phách (tức là gắn liền với cơ thể)",
+        "meaning": "hồn phách; khí phách",
         "relation_type": "semantic",
-        "relation": "Trong 魄 (“linh hồn; hồn phách (tức là gắn liền với cơ thể)”), 鬼 giúp gợi trường nghĩa liên quan đến “ma; quỷ”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Có thể nhớ 魄 (“hồn phách; khí phách”) qua 鬼: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
       },
       {
         "hanzi": "魔",
         "pinyin": "mó",
-        "meaning": "(hình vị hạn chế) tà ma; quỷ",
+        "meaning": "ma; quỷ",
         "relation_type": "semantic",
-        "relation": "Trong 魔 (“(hình vị hạn chế) tà ma; quỷ”), 鬼 giúp gợi trường nghĩa liên quan đến “ma; quỷ”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Trong cấu tạo 魔 (“ma; quỷ”), 鬼 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
       }
     ]
   }

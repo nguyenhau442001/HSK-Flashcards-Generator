@@ -9,31 +9,28 @@
     "variants": [
       "龙"
     ],
-    "description": "龍/龙 là rồng, nhưng trong 聾/聋, 朧/胧, 籠/笼 nó chủ yếu là thành phần gợi âm lóng. Dạng giản thể làm hình 龍 khó nhận ra, nên biết dạng phồn thể sẽ giúp hiểu cấu tạo tốt hơn.",
+    "description": "龍 là hình rồng uốn mình với sừng và thân dài; dạng giản thể là 龙. Trong 聾, 朧, 籠, bộ Long chủ yếu gợi âm; phần Tai, Nhục và Trúc mới giữ đầu mối nghĩa.",
     "examples": [
       {
-        "hanzi": "聋",
+        "hanzi": "龍",
         "pinyin": "lóng",
-        "meaning": "điếc",
-        "traditional": "聾",
-        "relation_type": "phonetic",
-        "relation": "Ở dạng phồn thể 聾, 龍 là thành phần gợi âm lóng; 耳 mới gợi nghĩa liên quan đến tai/nghe. Dạng giản thể 聋 làm vai trò này khó nhìn ra hơn."
+        "meaning": "rồng",
+        "relation_type": "direct",
+        "relation": "龍 vừa là hình của bộ Long vừa trực tiếp mang nghĩa “rồng”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
       },
       {
-        "hanzi": "胧",
-        "pinyin": "lóng",
-        "meaning": "dùng trong 朦朧|朦胧[meng2 long2]",
-        "traditional": "朧",
-        "relation_type": "phonetic",
-        "relation": "Ở dạng phồn thể 朧, 龍 chủ yếu gợi âm lóng; 月 ở đây thuộc hệ bộ 肉 và gợi phần nghĩa về cơ thể/trạng thái. Không nên đoán nghĩa từ “rồng”."
+        "hanzi": "龙舟",
+        "pinyin": "lóngzhōu",
+        "meaning": "thuyền rồng",
+        "relation_type": "semantic",
+        "relation": "Trong 龙舟 (“thuyền rồng”), 龍 vẫn giữ rõ nét nghĩa “rồng”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
       },
       {
-        "hanzi": "笼",
-        "pinyin": "lóng",
-        "meaning": "khung bao quanh làm bằng tre, dây kim loại, v.v.; lồng; giỏ",
-        "traditional": "籠",
-        "relation_type": "phonetic",
-        "relation": "Ở dạng phồn thể 籠, 龍 chủ yếu gợi âm lóng; 竹 gợi nghĩa vật đan bằng tre. Dạng giản thể 笼 che mất hình 龍 đầy đủ."
+        "hanzi": "龙王",
+        "pinyin": "lóngwáng",
+        "meaning": "Long Vương",
+        "relation_type": "semantic",
+        "relation": "Trong 龙王 (“Long Vương”), 龍 vẫn giữ rõ nét nghĩa “rồng”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
       }
     ]
   },
@@ -47,14 +44,14 @@
     "variants": [
       "龟"
     ],
-    "description": "Câu chuyện ghi nhớ của bộ Quy bắt đầu từ hình ảnh “rùa”. Sau đó tìm lại bộ này trong 龟 (rùa cạn; rùa nước); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. Dạng biến thể 龟 là dấu hiệu đáng chú ý khi bộ này đổi hình trong chữ. ",
+    "description": "龜 mô phỏng mai, đầu, chân và đuôi rùa; dạng giản thể là 龟. Bộ Quy gợi rùa, mai rùa, tuổi thọ và hình tượng bền bỉ chậm rãi.",
     "examples": [
       {
         "hanzi": "龟",
         "pinyin": "guī",
         "meaning": "rùa cạn; rùa nước",
         "relation_type": "semantic",
-        "relation": "Trong 龟 (“rùa cạn; rùa nước”), 龜 giúp gợi trường nghĩa liên quan đến “rùa”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Có thể nhớ 龟 (“rùa cạn; rùa nước”) qua 龜: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
       }
     ]
   }

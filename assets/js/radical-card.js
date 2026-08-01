@@ -41,6 +41,10 @@ function radicalRelationLabel(type) {
   if (type === 'semantic') return 'Gợi nghĩa';
   if (type === 'phonetic') return 'Gợi âm';
   if (type === 'historical_graphic') return 'Cấu tạo/lịch sử';
+  if (type === 'direct') return 'Ví dụ trực tiếp';
+  if (type === 'historical_form') return 'Dạng chữ lịch sử';
+  if (type === 'semantic_historical') return 'Nghĩa phát triển';
+  if (type === 'traditional_analysis') return 'Cách phân tích truyền thống';
   return type || '';
 }
 

@@ -9,7 +9,7 @@
     "variants": [
       "钅"
     ],
-    "description": "Hãy tưởng tượng ánh kim loại lấp lánh của 金; khi đứng bên trái chữ giản thể, nó thường thành 钅. 钱, 银, 铁 đều đưa bạn về cùng câu chuyện kim loại và tiền bạc. ",
+    "description": "金 là kim loại quý lấp lánh trong lòng đất; khi đứng bên trái chữ giản thể, nó thành 钅. Bộ Kim thường dẫn thẳng tới vàng bạc, tiền, kim loại, dụng cụ và âm thanh kim khí.",
     "examples": [
       {
         "hanzi": "钱",
@@ -17,7 +17,7 @@
         "meaning": "tiền",
         "traditional": "錢",
         "relation_type": "semantic",
-        "relation": "Trong 錢/钱 (“tiền”), 金 giúp gợi trường nghĩa liên quan đến “kim loại; vàng”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Từ 金 mang ý “kim loại; vàng”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 钱 (“tiền”)."
       },
       {
         "hanzi": "铁",
@@ -25,7 +25,7 @@
         "meaning": "sắt",
         "traditional": "鐵",
         "relation_type": "semantic",
-        "relation": "Trong 鐵/铁 (“sắt”), 金 giúp gợi trường nghĩa liên quan đến “kim loại; vàng”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Trong 铁 (“sắt”), 金 là đầu mối gợi nghĩa, nối chữ với hình ảnh “kim loại; vàng”."
       },
       {
         "hanzi": "银",
@@ -33,7 +33,7 @@
         "meaning": "bạc",
         "traditional": "銀",
         "relation_type": "semantic",
-        "relation": "Trong 銀/银 (“bạc”), 金 giúp gợi trường nghĩa liên quan đến “kim loại; vàng”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Ở 银 (“bạc”), nét nghĩa của 金 vẫn hiện khá rõ: chữ được đặt trong trường ý “kim loại; vàng”."
       }
     ]
   },
@@ -47,31 +47,28 @@
     "variants": [
       "长"
     ],
-    "description": "長/长 nghĩa là dài, nhưng trong 張/张, 帳/账, 漲/涨 nó chủ yếu tạo một họ âm gần nhau. Các phần 弓, 巾/贝, 氵 mới giúp dẫn nghĩa; đây là ví dụ rõ về chữ hình thanh.",
+    "description": "長 vẽ mái tóc dài của một người, từ đó mang nghĩa “dài”; dạng giản thể là 长. Trong nhiều chữ hình thanh, bộ Trường chủ yếu góp âm, nên cần nhìn phần còn lại để đoán nghĩa.",
     "examples": [
       {
-        "hanzi": "张",
-        "pinyin": "zhāng",
-        "meaning": "mở ra",
-        "traditional": "張",
-        "relation_type": "phonetic",
-        "relation": "Trong 張/张, 弓 gợi nghĩa kéo/căng như cây cung, còn 長/长 chủ yếu gợi âm zhāng theo lịch sử. Vì vậy “dài” không phải nghĩa chính của thành phần này trong chữ."
+        "hanzi": "長",
+        "pinyin": "cháng",
+        "meaning": "dài",
+        "relation_type": "direct",
+        "relation": "長 vừa là hình của bộ Trường vừa trực tiếp mang nghĩa “dài”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
       },
       {
-        "hanzi": "账",
-        "pinyin": "zhàng",
-        "meaning": "tài khoản",
-        "traditional": "帳",
-        "relation_type": "phonetic",
-        "relation": "Trong 帳/账, 巾/贝 phản ánh lớp nghĩa lịch sử/hiện đại của chữ, còn 長/长 chủ yếu gợi âm zhàng. Nghĩa “tài khoản” không đến từ “dài”."
+        "hanzi": "长度",
+        "pinyin": "chángdù",
+        "meaning": "độ dài",
+        "relation_type": "semantic",
+        "relation": "Trong 长度 (“độ dài”), 長 vẫn giữ rõ nét nghĩa “dài”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
       },
       {
-        "hanzi": "涨",
-        "pinyin": "zhǎng",
-        "meaning": "tăng (giá cả, sông ngòi)",
-        "traditional": "漲",
-        "relation_type": "phonetic",
-        "relation": "Trong 漲/涨, 氵 gợi nghĩa nước hoặc sự dâng lên, còn 長/长 chủ yếu gợi âm zhǎng/zhàng. Đây là quan hệ âm rõ hơn quan hệ nghĩa."
+        "hanzi": "长短",
+        "pinyin": "chángduǎn",
+        "meaning": "dài ngắn",
+        "relation_type": "semantic",
+        "relation": "Trong 长短 (“dài ngắn”), 長 vẫn giữ rõ nét nghĩa “dài”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
       }
     ]
   },
@@ -85,7 +82,7 @@
     "variants": [
       "门"
     ],
-    "description": "Hãy hình dung 門 là cánh cổng mở ra một căn phòng; dạng giản thể là 门. 问, 间, 闭 đều giúp bạn nhớ bộ Môn qua hình ảnh cửa ra vào và không gian bên trong. ",
+    "description": "門 là cánh cổng hai bên đang mở; dạng giản thể là 门. Bộ Môn thường tạo không gian trong–ngoài và gợi cửa ngõ, phòng ốc, đóng mở hoặc điều xảy ra sau cánh cửa.",
     "examples": [
       {
         "hanzi": "问",
@@ -93,7 +90,7 @@
         "meaning": "hỏi",
         "traditional": "問",
         "relation_type": "semantic",
-        "relation": "Trong 問/问 (“hỏi”), 門 giúp gợi trường nghĩa liên quan đến “cổng; cửa”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Ở 问 (“hỏi”), nét nghĩa của 門 vẫn hiện khá rõ: chữ được đặt trong trường ý “cổng; cửa”."
       },
       {
         "hanzi": "间",
@@ -101,7 +98,7 @@
         "meaning": "khoảng; phòng",
         "traditional": "間",
         "relation_type": "semantic",
-        "relation": "Trong 間/间 (“khoảng; phòng”), 門 giúp gợi trường nghĩa liên quan đến “cổng; cửa”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "间 mang nghĩa “khoảng; phòng”; phần 門 giúp người học lần về chủ đề “cổng; cửa”."
       },
       {
         "hanzi": "闷",
@@ -109,7 +106,7 @@
         "meaning": "buồn bực; ngột ngạt",
         "traditional": "悶",
         "relation_type": "semantic",
-        "relation": "Trong 悶/闷 (“buồn bực; ngột ngạt”), 門 giúp gợi trường nghĩa liên quan đến “cổng; cửa”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Có thể nhớ 闷 (“buồn bực; ngột ngạt”) qua 門: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
       }
     ]
   },
@@ -123,28 +120,21 @@
     "variants": [
       "阝"
     ],
-    "description": "Khi nhìn 阜, hãy gọi ngay hình ảnh “gò; đồi” ra trong đầu. Sau đó tìm lại bộ này trong 阶 (cấp bậc hoặc bước), 院 (sân); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. Dạng biến thể 阝 là dấu hiệu đáng chú ý khi bộ này đổi hình trong chữ. ",
+    "description": "阜 là gò đất có nhiều bậc; khi đứng bên trái, nó cũng biến thành 阝. Bộ Phụ thường gợi đồi dốc, bậc cao thấp, địa hình và những nơi được xây trên đất.",
     "examples": [
       {
         "hanzi": "阶",
         "pinyin": "jiē",
-        "meaning": "cấp bậc hoặc bước",
+        "meaning": "bậc; cấp",
         "relation_type": "semantic",
-        "relation": "Trong 阶 (“cấp bậc hoặc bước”), 阜 giúp gợi trường nghĩa liên quan đến “gò; đồi”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "阶 mang nghĩa “bậc; cấp”; phần 阜 giúp người học lần về chủ đề “gò; đồi”."
       },
       {
         "hanzi": "院",
         "pinyin": "yuàn",
         "meaning": "sân",
         "relation_type": "semantic",
-        "relation": "Trong 院 (“sân”), 阜 giúp gợi trường nghĩa liên quan đến “gò; đồi”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
-      },
-      {
-        "hanzi": "限",
-        "pinyin": "xiàn",
-        "meaning": "giới hạn",
-        "relation_type": "historical_graphic",
-        "relation": "限 (“giới hạn”) có liên hệ với 阜 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “gò; đồi”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+        "relation": "Có thể nhớ 院 (“sân”) qua 阜: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
       }
     ]
   },
@@ -156,12 +146,12 @@
     "meaning": "nô lệ; theo",
     "stroke_count": 8,
     "variants": [],
-    "description": "Câu chuyện của 隶 xoay quanh “nô lệ; theo”. Mẹo học là liên kết ý này với hành động hoặc tình huống bạn có thể hình dung được. Có thể luyện liên tưởng qua 隶 ((hình thức kết hợp) người bị nô dịch; cấp dưới thấp kém). ",
+    "description": "隶 gợi bàn tay bắt giữ một người, từ đó có nghĩa lệ thuộc hay nô lệ. Ngày nay bộ Đãi hiếm khi làm chìa khóa nghĩa, nhưng vẫn quan trọng khi nhận diện chữ cổ.",
     "examples": [
       {
         "hanzi": "隶",
         "pinyin": "lì",
-        "meaning": "(hình thức kết hợp) người bị nô dịch; cấp dưới thấp kém",
+        "meaning": "lệ thuộc; nô lệ",
         "relation_type": "direct",
         "relation": "隶 chính là hình của bộ Đãi; nghĩa của chữ và nghĩa bộ trùng nhau nên đây là ví dụ trực tiếp nhất."
       }
@@ -175,28 +165,14 @@
     "meaning": "chim đuôi ngắn",
     "stroke_count": 8,
     "variants": [],
-    "description": "Hãy dựng một hình ảnh thật rõ về “chim đuôi ngắn” trong đầu rồi gắn hình ảnh đó với 隹. Sau đó tìm lại bộ này trong 雀 (vết tàn nhang), 雄 (đực); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. ",
+    "description": "隹 phác một con chim thân tròn, đuôi ngắn. Bộ Chuy thường xuất hiện trong tên chim hoặc những chữ có nguồn gốc liên quan đến chim, dù đôi lúc chỉ làm phần gợi âm.",
     "examples": [
       {
         "hanzi": "雀",
         "pinyin": "qiāo",
-        "meaning": "vết tàn nhang",
+        "meaning": "chim sẻ",
         "relation_type": "semantic",
-        "relation": "Trong 雀 (“vết tàn nhang”), 隹 giúp gợi trường nghĩa liên quan đến “chim đuôi ngắn”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
-      },
-      {
-        "hanzi": "雄",
-        "pinyin": "xióng",
-        "meaning": "đực",
-        "relation_type": "historical_graphic",
-        "relation": "雄 (“đực”) có liên hệ với 隹 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “chim đuôi ngắn”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
-      },
-      {
-        "hanzi": "雌",
-        "pinyin": "cí",
-        "meaning": "giống cái",
-        "relation_type": "historical_graphic",
-        "relation": "雌 (“giống cái”) có liên hệ với 隹 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “chim đuôi ngắn”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+        "relation": "Trong cấu tạo 雀 (“chim sẻ”), 隹 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
       }
     ]
   },
@@ -208,28 +184,28 @@
     "meaning": "mưa",
     "stroke_count": 8,
     "variants": [],
-    "description": "Câu chuyện ghi nhớ của bộ Vũ bắt đầu từ hình ảnh “mưa”. Sau đó tìm lại bộ này trong 雪 (tuyết), 雷 (sấm sét); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. ",
+    "description": "雨 vẽ những giọt nước rơi từ tầng mây. Bộ Vũ thường nằm trên đầu chữ và bao trùm cả thế giới thời tiết: mưa, tuyết, sấm, sương và mây.",
     "examples": [
       {
         "hanzi": "雪",
         "pinyin": "xuě",
         "meaning": "tuyết",
         "relation_type": "semantic",
-        "relation": "Trong 雪 (“tuyết”), 雨 giúp gợi trường nghĩa liên quan đến “mưa”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Từ 雨 mang ý “mưa”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 雪 (“tuyết”)."
       },
       {
         "hanzi": "雷",
         "pinyin": "léi",
         "meaning": "sấm sét",
         "relation_type": "semantic",
-        "relation": "Trong 雷 (“sấm sét”), 雨 giúp gợi trường nghĩa liên quan đến “mưa”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Trong 雷 (“sấm sét”), 雨 là đầu mối gợi nghĩa, nối chữ với hình ảnh “mưa”."
       },
       {
         "hanzi": "雾",
         "pinyin": "wù",
         "meaning": "sương mù",
         "relation_type": "semantic",
-        "relation": "Trong 雾 (“sương mù”), 雨 giúp gợi trường nghĩa liên quan đến “mưa”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+        "relation": "Ở 雾 (“sương mù”), nét nghĩa của 雨 vẫn hiện khá rõ: chữ được đặt trong trường ý “mưa”."
       }
     ]
   },
@@ -241,28 +217,28 @@
     "meaning": "xanh",
     "stroke_count": 8,
     "variants": [],
-    "description": "青 nghĩa là xanh, nhưng lại là một thành phần gợi âm cực kỳ hữu ích. Trong 清, 请, 情, 青 giữ họ âm qing, còn 氵, 讠, 忄 lần lượt gợi nghĩa nước/trong, lời nói và cảm xúc.",
+    "description": "青 là sắc xanh trong và tươi. Ngoài nghĩa màu sắc, 青 còn là một phần gợi âm rất năng suất: nhìn bộ đi kèm trong 清, 请, 情 sẽ thấy mỗi chữ rẽ sang một trường nghĩa khác.",
     "examples": [
       {
-        "hanzi": "清",
+        "hanzi": "青",
         "pinyin": "qīng",
-        "meaning": "(nước, v.v.) trong; sạch",
-        "relation_type": "phonetic",
-        "relation": "Trong 清, 氵 gợi nghĩa liên quan đến nước/trong sạch, còn 青 chủ yếu gợi âm qīng. Vì thế không nên hiểu “xanh = trong”."
+        "meaning": "xanh",
+        "relation_type": "direct",
+        "relation": "青 vừa là hình của bộ Thanh vừa trực tiếp mang nghĩa “xanh”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
       },
       {
-        "hanzi": "请",
-        "pinyin": "qǐng",
-        "meaning": "mời",
-        "relation_type": "phonetic",
-        "relation": "Trong 請/请, 言/讠 gợi nghĩa liên quan đến lời nói, còn 青 chủ yếu gợi âm qǐng. Nghĩa “mời/xin” không đến từ màu xanh."
+        "hanzi": "青色",
+        "pinyin": "qīngsè",
+        "meaning": "màu xanh",
+        "relation_type": "semantic",
+        "relation": "Trong 青色 (“màu xanh”), 青 vẫn giữ rõ nét nghĩa “xanh”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
       },
       {
-        "hanzi": "情",
-        "pinyin": "qíng",
-        "meaning": "tình cảm",
-        "relation_type": "phonetic",
-        "relation": "Trong 情, 忄 gợi nghĩa về cảm xúc/tâm trạng, còn 青 chủ yếu gợi âm qíng. Đây là mẫu rất tốt để nhận ra vai trò gợi âm của 青."
+        "hanzi": "青山",
+        "pinyin": "qīngshān",
+        "meaning": "núi xanh",
+        "relation_type": "semantic",
+        "relation": "Trong 青山 (“núi xanh”), 青 vẫn giữ rõ nét nghĩa “xanh”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
       }
     ]
   },
@@ -274,28 +250,21 @@
     "meaning": "không; sai",
     "stroke_count": 8,
     "variants": [],
-    "description": "Câu chuyện của 非 xoay quanh “không; sai”. Mẹo học là liên kết ý này với hành động hoặc tình huống bạn có thể hình dung được. Có thể luyện liên tưởng qua 排 (một hàng), 悲 (buồn). ",
+    "description": "非 gợi hai cánh quay ngược hướng, từ đó mang ý trái, sai hoặc “không phải”. Trong chữ ghép, bộ Phi đôi khi giữ nét phủ định, đôi khi chỉ tham gia cấu tạo hay gợi âm.",
     "examples": [
       {
-        "hanzi": "排",
-        "pinyin": "pái",
-        "meaning": "một hàng",
-        "relation_type": "historical_graphic",
-        "relation": "排 (“một hàng”) có liên hệ với 非 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “không; sai”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+        "hanzi": "非",
+        "pinyin": "fēi",
+        "meaning": "không phải; sai",
+        "relation_type": "direct",
+        "relation": "非 vừa là hình của bộ Phi vừa trực tiếp mang nghĩa “không; sai”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
       },
       {
-        "hanzi": "悲",
-        "pinyin": "bēi",
-        "meaning": "buồn",
-        "relation_type": "historical_graphic",
-        "relation": "悲 (“buồn”) có liên hệ với 非 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “không; sai”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
-      },
-      {
-        "hanzi": "靠",
-        "pinyin": "kào",
-        "meaning": "dựa vào",
-        "relation_type": "historical_graphic",
-        "relation": "靠 (“dựa vào”) có liên hệ với 非 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “không; sai”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+        "hanzi": "是非",
+        "pinyin": "shìfēi",
+        "meaning": "đúng sai; thị phi",
+        "relation_type": "semantic",
+        "relation": "Trong 是非 (“đúng sai; thị phi”), 非 vẫn giữ rõ nét nghĩa “không; sai”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
       }
     ]
   }
