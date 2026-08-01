@@ -19,7 +19,7 @@ function speakExample() {
 
 function speakText(text, button, rate = SPEECH_RATE) {
   if (!button || !text) return;
-  if (button.classList.contains('is-playing')) {
+  if (activeSpeechButton === button) {
     stopSpeech();
     return;
   }
@@ -36,7 +36,10 @@ function speakText(text, button, rate = SPEECH_RATE) {
   }
 
   const requestId = speechRequestId;
-  setSpeechButtonState(button, true, text);
+  // Track pending speech without touching the DOM, so the engine receives the
+  // utterance and its rate before accessibility-related button updates. The
+  // visible playing state is applied after the engine accepts it in onstart.
+  activeSpeechButton = button;
 
   const attempt = (voice, isRetry) => {
     if (requestId !== speechRequestId) return;
