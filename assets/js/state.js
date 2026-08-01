@@ -1,11 +1,11 @@
 // Shared application configuration and in-memory state.
 const LEVELS = {
-  hsk1: { label: 'HSK1', dataUrl: 'database/text/hsk1_vocabularies.json', available: true, total: 150 },
-  hsk2: { label: 'HSK2', dataUrl: 'database/text/hsk2_vocabularies.json', available: true, total: 150 },
-  hsk3: { label: 'HSK3', dataUrl: 'database/text/hsk3_vocabularies.json', available: true, total: 300 },
-  hsk4: { label: 'HSK4', dataUrl: 'database/text/hsk4_vocabularies.json', available: true, total: 600 },
-  hsk5: { label: 'HSK5', dataUrl: 'database/text/hsk5_vocabularies.json', available: true, total: 1300 },
-  hsk6: { label: 'HSK6', dataUrl: 'database/text/hsk6_vocabularies.json', available: true, total: 2500 },
+  hsk1: { label: 'HSK1', dataUrl: 'database/vocabs/hsk1_vocabularies.json', available: true, total: 150 },
+  hsk2: { label: 'HSK2', dataUrl: 'database/vocabs/hsk2_vocabularies.json', available: true, total: 150 },
+  hsk3: { label: 'HSK3', dataUrl: 'database/vocabs/hsk3_vocabularies.json', available: true, total: 300 },
+  hsk4: { label: 'HSK4', dataUrl: 'database/vocabs/hsk4_vocabularies.json', available: true, total: 600 },
+  hsk5: { label: 'HSK5', dataUrl: 'database/vocabs/hsk5_vocabularies.json', available: true, total: 1300 },
+  hsk6: { label: 'HSK6', dataUrl: 'database/vocabs/hsk6_vocabularies.json', available: true, total: 2500 },
 };
 const SPEECH_RATE = 0.85;
 const EXAMPLE_SPEECH_SPEEDS = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2];
