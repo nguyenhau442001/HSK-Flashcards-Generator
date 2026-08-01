@@ -1,0 +1,1776 @@
+[
+  {
+    "id": 1,
+    "kangxi_id": 9,
+    "name": "Bộ Nhân",
+    "radical": "人",
+    "pinyin": "rén",
+    "meaning": "người",
+    "stroke_count": 2,
+    "variants": [
+      "亻"
+    ],
+    "description": "Hãy hình dung hai nét như dáng một người đang bước đi. Khi 人 đổi thành 亻 ở bên trái chữ, hãy nghĩ đến con người hoặc hoạt động của con người; 你, 他, 们 là những ví dụ rất quen thuộc. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "你",
+        "pinyin": "nǐ",
+        "meaning": "bạn",
+        "relation_type": "semantic",
+        "relation": "你 = 亻(người) + 尔 (vốn là đại từ chỉ định thời cổ). Một người + từ để chỉ định ai đó — ghép lại thành “bạn”, người mình đang chỉ tới, đang nói chuyện cùng."
+      },
+      {
+        "hanzi": "他",
+        "pinyin": "tā",
+        "meaning": "anh ấy",
+        "relation_type": "semantic",
+        "relation": "他 = 亻(người) + 也 (cũng, vốn là từ trợ ngữ cổ). Một người + “cũng” — ghép lại thành “anh ấy/nó”, chỉ một người khác cũng tồn tại như thế, không phải mình hay đối phương."
+      },
+      {
+        "hanzi": "们",
+        "pinyin": "mēn",
+        "meaning": "hậu tố số nhiều",
+        "relation_type": "semantic",
+        "relation": "们 = 亻(người) + 门 (cửa, cũng là âm gợi đọc “mēn”). Người đứng trước cửa — ghép lại gợi ý một nhóm người cùng ra vào một cửa, nên dùng làm hậu tố chỉ số nhiều."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "kangxi_id": 30,
+    "name": "Bộ Khẩu",
+    "radical": "口",
+    "pinyin": "kǒu",
+    "meaning": "miệng",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy tưởng tượng 口 là một chiếc miệng đang mở. Vì vậy, nhiều chữ có bộ Khẩu dễ gợi đến nói, gọi, ăn uống hoặc âm thanh, như 吃, 喝, 叫. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "吃",
+        "pinyin": "chī",
+        "meaning": "ăn",
+        "relation_type": "semantic",
+        "relation": "吃 = 口(miệng) + 乞 qǐ (phiên âm gợi đọc gần “chī”, nghĩa gốc “xin”). Miệng xin thức ăn đưa vào — ghép lại thành “ăn”."
+      },
+      {
+        "hanzi": "喝",
+        "pinyin": "hē",
+        "meaning": "uống",
+        "relation_type": "semantic",
+        "relation": "喝 = 口(miệng) + 曷 hé (phiên âm gợi đọc gần “hē”). Miệng dùng để đưa nước vào — ghép lại thành “uống”."
+      },
+      {
+        "hanzi": "叫",
+        "pinyin": "jiào",
+        "meaning": "gọi; tên là",
+        "relation_type": "semantic",
+        "relation": "叫 = 口(miệng) + 丩 jiū (phiên âm gợi đọc gần “jiào”, nghĩa gốc “quấn xoắn”, tượng thanh tiếng kêu). Miệng phát ra tiếng — ghép lại thành “gọi, kêu”."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "kangxi_id": 64,
+    "name": "Bộ Thủ",
+    "radical": "手",
+    "pinyin": "shǒu",
+    "meaning": "tay",
+    "stroke_count": 4,
+    "variants": [
+      "扌"
+    ],
+    "description": "Hãy liên tưởng 手 với một bàn tay đang hành động; khi đứng bên trái, nó thường biến thành 扌. Những chữ như 打, 拿, 拉 đều gợi rõ các động tác được thực hiện bằng tay. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "打",
+        "pinyin": "dǎ",
+        "meaning": "đánh; thực hiện",
+        "relation_type": "semantic",
+        "relation": "打 = 扌(tay) + 丁 dīng (phiên âm gợi đọc gần “dǎ”, nghĩa gốc “cái đinh”). Tay tác động như đóng đinh — ghép lại thành “đánh, thực hiện”."
+      },
+      {
+        "hanzi": "拿",
+        "pinyin": "ná",
+        "meaning": "cầm; lấy",
+        "relation_type": "semantic",
+        "relation": "拿 = 合(hợp lại) trên + 手(tay) dưới. Hai tay khép hợp lại để giữ vật — ghép thành “cầm, lấy”."
+      },
+      {
+        "hanzi": "拉",
+        "pinyin": "lā",
+        "meaning": "kéo",
+        "relation_type": "semantic",
+        "relation": "拉 = 扌(tay) + 立 lì (phiên âm gợi đọc gần “lā”, nghĩa gốc “đứng”). Tay tác động vào vật đang đứng yên — ghép lại thành “kéo”."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "kangxi_id": 61,
+    "name": "Bộ Tâm",
+    "radical": "心",
+    "pinyin": "xīn",
+    "meaning": "tim; tâm trí",
+    "stroke_count": 4,
+    "variants": [
+      "忄"
+    ],
+    "description": "Người xưa thường gắn trái tim với cảm xúc và suy nghĩ; bạn có thể dùng chính liên tưởng đó để nhớ 心 và dạng 忄. Những chữ như 想, 情, 怕 đều xoay quanh trạng thái trong lòng hoặc tâm trí. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "想",
+        "pinyin": "xiǎng",
+        "meaning": "nghĩ; muốn",
+        "relation_type": "semantic",
+        "relation": "想 = 相 xiàng (nhìn ngắm, xem xét) trên + 心(tim, tâm trí) dưới. Nhìn ngắm bằng cả tấm lòng — ghép lại thành “nghĩ, muốn”."
+      },
+      {
+        "hanzi": "情",
+        "pinyin": "qíng",
+        "meaning": "tình cảm",
+        "relation_type": "semantic",
+        "relation": "情 = 忄(tâm) + 青 qīng (phiên âm gợi đọc gần “qíng”, nghĩa gốc “màu xanh trong trẻo”). Tâm trong trẻo, rung động — ghép lại thành “tình cảm”."
+      },
+      {
+        "hanzi": "怕",
+        "pinyin": "pà",
+        "meaning": "sợ",
+        "relation_type": "semantic",
+        "relation": "怕 = 忄(tâm) + 白 bái (phiên âm gợi đọc gần “pà”, nghĩa gốc “trắng”). Tâm hoảng, sắc mặt tái trắng — ghép lại thành “sợ”."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "kangxi_id": 109,
+    "name": "Bộ Mục",
+    "radical": "目",
+    "pinyin": "mù",
+    "meaning": "mắt",
+    "stroke_count": 5,
+    "variants": [],
+    "description": "Hãy nhìn 目 như một con mắt được vẽ bằng các nét vuông. Gặp bộ Mục, hãy nghĩ đến nhìn và thị giác; 看, 眼, 睛 là những chữ giúp liên tưởng này trở nên rất tự nhiên. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "看",
+        "pinyin": "kàn",
+        "meaning": "nhìn; xem",
+        "relation_type": "semantic",
+        "relation": "看 = 手(tay) trên + 目(mắt) dưới. Tay che trên mắt để nhìn cho xa — ghép lại thành “nhìn, xem”."
+      },
+      {
+        "hanzi": "眼",
+        "pinyin": "yǎn",
+        "meaning": "mắt",
+        "relation_type": "semantic",
+        "relation": "眼 = 目(mắt) + 艮 gèn (phiên âm gợi đọc gần “yǎn”). Mắt + âm gợi đọc — ghép lại thành “con mắt”."
+      },
+      {
+        "hanzi": "睛",
+        "pinyin": "jīng",
+        "meaning": "con ngươi; mắt",
+        "relation_type": "semantic",
+        "relation": "睛 = 目(mắt) + 青 qīng (phiên âm gợi đọc gần “jīng”, nghĩa gốc “trong sáng”). Phần trong sáng nhất của mắt — ghép lại thành “con ngươi, tròng mắt”."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "kangxi_id": 128,
+    "name": "Bộ Nhĩ",
+    "radical": "耳",
+    "pinyin": "ěr",
+    "meaning": "tai",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Bộ 耳 chính là chiếc tai trong câu chuyện ghi nhớ của bạn. Khi gặp nó trong chữ, hãy liên tưởng đến nghe, âm thanh hoặc khả năng tiếp nhận, như trong 聪 và 聚. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "取",
+        "pinyin": "qǔ",
+        "meaning": "lấy",
+        "relation_type": "historical_graphic",
+        "relation": "取 = 耳(tai) + 又(tay). Hình ảnh cổ: tay cắt lấy tai kẻ địch để tính công trạng — ghép lại thành “lấy”."
+      },
+      {
+        "hanzi": "聪",
+        "pinyin": "cōng",
+        "meaning": "thông minh",
+        "relation_type": "semantic",
+        "relation": "聪 = 耳(tai) + 忩 cōng (phiên âm gợi đọc trùng “cōng”, nghĩa gốc “vội, nhanh nhạy”). Tai nghe nhanh nhạy — ghép lại thành “thông minh”."
+      },
+      {
+        "hanzi": "聚",
+        "pinyin": "jù",
+        "meaning": "tụ họp",
+        "relation_type": "historical_graphic",
+        "relation": "聚 = 取(lấy, thu về) + 乑(nhiều người đứng cạnh nhau). Thu người lại thành đám đông — ghép lại thành “tụ họp”."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "kangxi_id": 157,
+    "name": "Bộ Túc",
+    "radical": "足",
+    "pinyin": "zú",
+    "meaning": "chân",
+    "stroke_count": 7,
+    "variants": [
+      "⻊"
+    ],
+    "description": "Hãy coi 足 như đôi chân đưa cơ thể di chuyển. Khi xuất hiện trong 路, 跑, 跳, bộ Túc giúp bạn liên tưởng ngay đến chân, đường đi và vận động. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "路",
+        "pinyin": "lù",
+        "meaning": "đường",
+        "relation_type": "semantic",
+        "relation": "路 = 足(chân) + 各 gè (phiên âm gợi đọc gần “lù”, nghĩa gốc “mỗi người một hướng”). Chân người đi qua từng đoạn — ghép lại thành “con đường”."
+      },
+      {
+        "hanzi": "跑",
+        "pinyin": "pǎo",
+        "meaning": "chạy",
+        "relation_type": "semantic",
+        "relation": "跑 = 足(chân) + 包 bāo (phiên âm gợi đọc gần “pǎo”, nghĩa gốc “bọc, gói”). Chân + âm gợi đọc — ghép lại thành “chạy”."
+      },
+      {
+        "hanzi": "跳",
+        "pinyin": "tiào",
+        "meaning": "nhảy",
+        "relation_type": "semantic",
+        "relation": "跳 = 足(chân) + 兆 zhào (phiên âm gợi đọc gần “tiào”, nghĩa gốc “điềm báo”). Chân + âm gợi đọc — ghép lại thành “nhảy”."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "kangxi_id": 38,
+    "name": "Bộ Nữ",
+    "radical": "女",
+    "pinyin": "nǚ",
+    "meaning": "phụ nữ",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy gắn 女 với hình ảnh người phụ nữ trong gia đình và đời sống. Các chữ 妈, 姐, 她 khiến bộ Nữ trở thành một điểm neo rất dễ nhớ. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "妈",
+        "pinyin": "mā",
+        "meaning": "mẹ",
+        "relation_type": "semantic",
+        "relation": "妈 = 女(phụ nữ) + 马 mǎ (phiên âm gợi đọc trùng “mā”). Người phụ nữ + âm gợi đọc — ghép lại thành “mẹ”."
+      },
+      {
+        "hanzi": "姐",
+        "pinyin": "jiě",
+        "meaning": "chị gái",
+        "relation_type": "semantic",
+        "relation": "姐 = 女(phụ nữ) + 且 qiě (phiên âm gợi đọc gần “jiě”, nghĩa gốc “thêm nữa, hơn nữa”). Phụ nữ hơn mình một bậc — ghép lại thành “chị gái”."
+      },
+      {
+        "hanzi": "她",
+        "pinyin": "tā",
+        "meaning": "cô ấy",
+        "relation_type": "semantic",
+        "relation": "她 = 女(phụ nữ) + 也 yě (phiên âm gợi đọc trùng “tā” như trong 他). Phụ nữ + âm gợi đọc giống 他 — ghép lại thành đại từ “cô ấy”, tạo riêng để phân biệt giới tính."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "kangxi_id": 39,
+    "name": "Bộ Tử",
+    "radical": "子",
+    "pinyin": "zǐ",
+    "meaning": "trẻ con; con",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy xem 子 như hình ảnh một đứa trẻ trong gia đình. Vì thế bộ Tử thường gợi đến con cái, trẻ nhỏ hoặc quan hệ gia đình, như 字, 孩, 孙. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "字",
+        "pinyin": "zì",
+        "meaning": "chữ",
+        "relation_type": "historical_graphic",
+        "relation": "字 = 宀(mái nhà) + 子(đứa trẻ). Đứa trẻ được sinh ra và nuôi lớn dưới mái nhà — nghĩa mở rộng: chữ viết cũng “sinh sôi” từ các bộ thủ gốc, ghép lại thành “chữ”."
+      },
+      {
+        "hanzi": "孩",
+        "pinyin": "hái",
+        "meaning": "trẻ em",
+        "relation_type": "semantic",
+        "relation": "孩 = 子(trẻ con) + 亥 hài (phiên âm gợi đọc trùng “hái”). Trẻ con + âm gợi đọc — ghép lại thành “trẻ em”."
+      },
+      {
+        "hanzi": "学",
+        "pinyin": "xué",
+        "meaning": "học",
+        "relation_type": "historical_graphic",
+        "relation": "学 = tay bưng kiến thức (爻) trên + 冖(mái che) + 子(đứa trẻ) dưới. Đứa trẻ được che chở, truyền dạy kiến thức — ghép lại thành “học”."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "kangxi_id": 88,
+    "name": "Bộ Phụ",
+    "radical": "父",
+    "pinyin": "fù",
+    "meaning": "cha",
+    "stroke_count": 4,
+    "variants": [],
+    "description": "Hãy nhớ 父 bằng hình ảnh người cha trong gia đình. Khi gặp bộ Phụ, bạn có thể nối nó với vai trò người cha hoặc thế hệ đi trước, như trong 爸 và 爷. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "爸",
+        "pinyin": "bà",
+        "meaning": "bố",
+        "relation_type": "semantic",
+        "relation": "爸 = 父(cha) + 巴 bā (phiên âm gợi đọc gần “bà”). Cha + âm gợi đọc — ghép lại thành “bố”, cách gọi thân mật."
+      },
+      {
+        "hanzi": "爷",
+        "pinyin": "yé",
+        "meaning": "ông",
+        "relation_type": "semantic",
+        "relation": "爷 = 父(cha, biến thể ở trên) + 耶 yé (phiên âm gợi đọc trùng “yé”). Bậc trên của cha — ghép lại thành “ông”."
+      },
+      {
+        "hanzi": "爹",
+        "pinyin": "diē",
+        "meaning": "cha",
+        "relation_type": "semantic",
+        "relation": "爹 = 父(cha) + 多 duō (phiên âm gợi đọc gần “diē”, nghĩa gốc “nhiều”). Cha + âm gợi đọc — ghép lại thành “cha”, cách gọi khác của 爸."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "kangxi_id": 85,
+    "name": "Bộ Thủy",
+    "radical": "水",
+    "pinyin": "shuǐ",
+    "meaning": "nước",
+    "stroke_count": 4,
+    "variants": [
+      "氵"
+    ],
+    "description": "Hãy tưởng tượng một dòng nước đang tỏa ra và chảy về nhiều phía. Khi 水 biến thành 氵 ở bên trái chữ, nó thường gợi đến nước, chất lỏng hoặc những việc liên quan đến nước, như 河, 海, 洗. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "河",
+        "pinyin": "hé",
+        "meaning": "sông",
+        "relation_type": "semantic",
+        "relation": "河 = 氵(nước) + 可 kě (phiên âm gợi đọc gần “hé”). Nước + âm gợi đọc — ghép lại thành “sông”."
+      },
+      {
+        "hanzi": "湖",
+        "pinyin": "hú",
+        "meaning": "hồ",
+        "relation_type": "semantic",
+        "relation": "湖 = 氵(nước) + 胡 hú (phiên âm gợi đọc trùng “hú”). Nước + âm gợi đọc — ghép lại thành “hồ”."
+      },
+      {
+        "hanzi": "海",
+        "pinyin": "hǎi",
+        "meaning": "biển",
+        "relation_type": "semantic",
+        "relation": "海 = 氵(nước) + 每 měi (phiên âm gợi đọc gần “hǎi”, nghĩa gốc “mỗi, khắp”). Nước có mặt khắp mọi nơi — ghép lại thành “biển”."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "kangxi_id": 86,
+    "name": "Bộ Hỏa",
+    "radical": "火",
+    "pinyin": "huǒ",
+    "meaning": "lửa",
+    "stroke_count": 4,
+    "variants": [
+      "灬"
+    ],
+    "description": "Hãy hình dung những ngọn lửa đang bốc lên; khi nằm dưới chữ, 火 có thể đổi thành 灬 như những đốm than nóng. Các chữ 灯, 热, 烧 giúp bạn nhớ bộ Hỏa qua hình ảnh nhiệt và lửa. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "烧",
+        "pinyin": "shāo",
+        "meaning": "đốt; nấu",
+        "relation_type": "semantic",
+        "relation": "烧 = 火(lửa) + 尧 yáo (phiên âm gợi đọc gần “shāo”). Lửa + âm gợi đọc — ghép lại thành “đốt, nấu”."
+      },
+      {
+        "hanzi": "热",
+        "pinyin": "rè",
+        "meaning": "nóng",
+        "relation_type": "semantic",
+        "relation": "热 = 埶 yì (phiên âm gợi đọc gần “rè”, nghĩa gốc “trồng trọt, chăm bón”) trên + 灬(lửa, biến thể) dưới. Lửa hun bên dưới — ghép lại thành “nóng”."
+      },
+      {
+        "hanzi": "炒",
+        "pinyin": "chǎo",
+        "meaning": "xào",
+        "relation_type": "semantic",
+        "relation": "炒 = 火(lửa) + 少 shǎo (phiên âm gợi đọc gần “chǎo”, nghĩa gốc “ít”). Lửa nhỏ, đảo nhanh — ghép lại thành “xào”."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "kangxi_id": 75,
+    "name": "Bộ Mộc",
+    "radical": "木",
+    "pinyin": "mù",
+    "meaning": "cây; gỗ",
+    "stroke_count": 4,
+    "variants": [],
+    "description": "Hãy nhìn 木 như một cái cây có thân, cành và rễ. Vì vậy, khi gặp bộ Mộc trong 林, 森, 果, hãy liên tưởng đến cây cối, gỗ và những thứ sinh ra từ cây. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "树",
+        "pinyin": "shù",
+        "meaning": "cây",
+        "relation_type": "semantic",
+        "relation": "树 = 木(gỗ, cây) + 尌 shù (phiên âm gợi đọc trùng “shù”, nghĩa gốc “dựng đứng”). Cây gỗ dựng đứng — ghép lại thành “cây”."
+      },
+      {
+        "hanzi": "桌",
+        "pinyin": "zhuō",
+        "meaning": "bàn",
+        "relation_type": "semantic",
+        "relation": "桌 = 木(gỗ) + 卓 zhuó (phiên âm gợi đọc gần “zhuō”, nghĩa gốc “cao, vượt trội”). Gỗ được kê cao — ghép lại thành “cái bàn”."
+      },
+      {
+        "hanzi": "板",
+        "pinyin": "bǎn",
+        "meaning": "tấm; ván",
+        "relation_type": "semantic",
+        "relation": "板 = 木(gỗ) + 反 fǎn (phiên âm gợi đọc gần “bǎn”, nghĩa gốc “lật ngược”). Gỗ + âm gợi đọc — ghép lại thành “tấm ván”."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "kangxi_id": 32,
+    "name": "Bộ Thổ",
+    "radical": "土",
+    "pinyin": "tǔ",
+    "meaning": "đất",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy hình dung 土 là một mô đất nhô lên khỏi mặt đất. Bộ Thổ thường kéo câu chuyện về đất đai, nền móng hoặc nơi chốn, như 地, 块, 坐. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "地",
+        "pinyin": "dì",
+        "meaning": "đất; nơi",
+        "relation_type": "semantic",
+        "relation": "地 = 土(đất) + 也 yě (phiên âm gợi đọc gần “dì”). Đất + âm gợi đọc — ghép lại thành “đất, nơi chốn”."
+      },
+      {
+        "hanzi": "坐",
+        "pinyin": "zuò",
+        "meaning": "ngồi",
+        "relation_type": "semantic",
+        "relation": "坐 = 从(hai người) trên + 土(đất) dưới. Hai người ngồi xuống mặt đất — ghép lại thành “ngồi”."
+      },
+      {
+        "hanzi": "城",
+        "pinyin": "chéng",
+        "meaning": "thành; thành phố",
+        "relation_type": "semantic",
+        "relation": "城 = 土(đất) + 成 chéng (phiên âm gợi đọc trùng “chéng”, nghĩa gốc “thành công, xây xong”). Đất được đắp thành tường bao — ghép lại thành “thành, thành phố”."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "kangxi_id": 72,
+    "name": "Bộ Nhật",
+    "radical": "日",
+    "pinyin": "rì",
+    "meaning": "mặt trời; ngày",
+    "stroke_count": 4,
+    "variants": [],
+    "description": "Hãy coi 日 là mặt trời sáng lên mỗi ngày. Từ hình ảnh đó, bộ Nhật dễ gợi đến ngày tháng, ánh sáng và thời gian, như 明, 时, 晴. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "明",
+        "pinyin": "míng",
+        "meaning": "sáng; rõ",
+        "relation_type": "semantic",
+        "relation": "明 = 日(mặt trời) + 月(mặt trăng). Hai nguồn sáng lớn nhất hợp lại — ghép lại thành “sáng, rõ”."
+      },
+      {
+        "hanzi": "时",
+        "pinyin": "shí",
+        "meaning": "thời gian",
+        "relation_type": "semantic",
+        "relation": "时 = 日(mặt trời, ngày) + 寺 sì (phiên âm gợi đọc gần “shí”). Ngày trôi qua + âm gợi đọc — ghép lại thành “thời gian”."
+      },
+      {
+        "hanzi": "晚",
+        "pinyin": "wǎn",
+        "meaning": "tối; muộn",
+        "relation_type": "semantic",
+        "relation": "晚 = 日(mặt trời) + 免 miǎn (phiên âm gợi đọc gần “wǎn”). Mặt trời sắp khuất + âm gợi đọc — ghép lại thành “tối, muộn”."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "kangxi_id": 74,
+    "name": "Bộ Nguyệt",
+    "radical": "月",
+    "pinyin": "yuè",
+    "meaning": "mặt trăng; tháng",
+    "stroke_count": 4,
+    "variants": [],
+    "description": "月 có hai câu chuyện dễ nhầm: nó có thể là “mặt trăng/tháng”, nhưng hình 月 cũng thường là dạng biến của 肉 “thịt/cơ thể” trong các chữ chỉ bộ phận cơ thể. Vì vậy hãy nhìn từng chữ cụ thể thay vì thấy 月 là nghĩ ngay đến mặt trăng.",
+    "examples": [
+      {
+        "hanzi": "明",
+        "pinyin": "míng",
+        "meaning": "sáng; rõ",
+        "relation_type": "semantic",
+        "relation": "明 = 日(mặt trời) + 月(mặt trăng). Trăng và trời cùng góp ánh sáng — ghép lại thành “sáng, rõ”."
+      },
+      {
+        "hanzi": "朋",
+        "pinyin": "péng",
+        "meaning": "bạn",
+        "relation_type": "historical_graphic",
+        "relation": "朋 = 月(hình xâu vỏ sò/ngọc quý thời cổ, viết giống hai chữ 月 đặt cạnh nhau). Hai xâu vật quý giống hệt nhau đi liền — ghép lại thành “bạn bè”."
+      },
+      {
+        "hanzi": "脸",
+        "pinyin": "liǎn",
+        "meaning": "mặt",
+        "relation_type": "historical_form",
+        "relation": "脸 = 月(biến thể của 肉 “thịt”, chỉ bộ phận cơ thể) + 佥 qiān (phiên âm gợi đọc gần “liǎn”). Bộ phận cơ thể + âm gợi đọc — ghép lại thành “khuôn mặt”."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "kangxi_id": 46,
+    "name": "Bộ Sơn",
+    "radical": "山",
+    "pinyin": "shān",
+    "meaning": "núi",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Ba nét nhô lên của 山 rất dễ liên tưởng đến những đỉnh núi. Vì vậy, bộ Sơn thường đưa bạn đến địa hình và núi non, như 岁, 岛, 岸. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "岛",
+        "pinyin": "dǎo",
+        "meaning": "đảo",
+        "relation_type": "semantic",
+        "relation": "岛 = 鸟(chim) trên + 山(núi) dưới. Chim đậu trên gò núi nhỏ giữa biển — ghép lại thành “hòn đảo”."
+      },
+      {
+        "hanzi": "岸",
+        "pinyin": "àn",
+        "meaning": "bờ",
+        "relation_type": "semantic",
+        "relation": "岸 = 山(núi, đất cao) + 干 gàn (phiên âm gợi đọc gần “àn”, nghĩa gốc “khô ráo”). Đất cao khô ráo ven nước — ghép lại thành “bờ”."
+      },
+      {
+        "hanzi": "峰",
+        "pinyin": "fēng",
+        "meaning": "đỉnh núi",
+        "relation_type": "semantic",
+        "relation": "峰 = 山(núi) + 夆 féng (phiên âm gợi đọc gần “fēng”, nghĩa gốc “nhọn, gặp nhau”). Núi + âm gợi đọc — ghép lại thành “đỉnh núi”."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "kangxi_id": 140,
+    "name": "Bộ Thảo",
+    "radical": "艸",
+    "pinyin": "cǎo",
+    "meaning": "cỏ; thực vật",
+    "stroke_count": 6,
+    "variants": [
+      "艹"
+    ],
+    "description": "Hãy tưởng tượng 艹 như những ngọn cỏ mọc trên đầu chữ. Khi thấy dạng này, hãy nghĩ đến cây cỏ và thực vật; 花, 茶, 菜 là ba ví dụ gần gũi nhất. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "花",
+        "pinyin": "huā",
+        "meaning": "hoa",
+        "relation_type": "semantic",
+        "relation": "花 = 艹(cỏ cây) + 化 huà (phiên âm gợi đọc gần “huā”, nghĩa gốc “biến hóa”). Cây cỏ biến hóa nở rộ — ghép lại thành “hoa”."
+      },
+      {
+        "hanzi": "茶",
+        "pinyin": "chá",
+        "meaning": "trà",
+        "relation_type": "semantic",
+        "relation": "茶 = 艹(cỏ cây) trên + 人(người) + 木(cây) dưới. Người hái lá trên cây — ghép lại thành “trà”."
+      },
+      {
+        "hanzi": "菜",
+        "pinyin": "cài",
+        "meaning": "rau; món ăn",
+        "relation_type": "semantic",
+        "relation": "菜 = 艹(cỏ, rau) + 采 cǎi (hái, cũng gợi đọc gần “cài”). Rau được hái về — ghép lại thành “rau, món ăn”."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "kangxi_id": 119,
+    "name": "Bộ Mễ",
+    "radical": "米",
+    "pinyin": "mǐ",
+    "meaning": "gạo",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Hãy gắn 米 với hạt gạo trong bữa ăn hằng ngày. Các chữ 粉, 糖, 粒 giúp bộ Mễ gợi đến gạo, hạt và những thứ được chế biến từ ngũ cốc. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "粥",
+        "pinyin": "zhōu",
+        "meaning": "cháo",
+        "relation_type": "semantic",
+        "relation": "粥 = 米(gạo) ở giữa + 弜-dạng hai bên (tượng hình hơi nước bốc lên từ nồi). Gạo nấu loãng, hơi bốc nghi ngút — ghép lại thành “cháo”."
+      },
+      {
+        "hanzi": "粮",
+        "pinyin": "liáng",
+        "meaning": "lương thực",
+        "relation_type": "semantic",
+        "relation": "粮 = 米(gạo) + 良 liáng (phiên âm gợi đọc trùng “liáng”, nghĩa gốc “tốt”). Gạo tốt tích trữ — ghép lại thành “lương thực”."
+      },
+      {
+        "hanzi": "糖",
+        "pinyin": "táng",
+        "meaning": "đường",
+        "relation_type": "semantic",
+        "relation": "糖 = 米(gạo, nguyên liệu lên men) + 唐 táng (phiên âm gợi đọc trùng “táng”). Gạo lên men + âm gợi đọc — ghép lại thành “đường”."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "kangxi_id": 118,
+    "name": "Bộ Trúc",
+    "radical": "竹",
+    "pinyin": "zhú",
+    "meaning": "tre",
+    "stroke_count": 6,
+    "variants": [
+      "⺮"
+    ],
+    "description": "Hãy tưởng tượng hai nhánh tre nhỏ nằm trên đầu chữ — đó là dạng thường thấy của bộ 竹. Các chữ 笔, 笑, 筷 cho thấy tre từng gắn với nhiều đồ dùng và vật liệu quen thuộc. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "笑",
+        "pinyin": "xiào",
+        "meaning": "cười",
+        "relation_type": "historical_graphic",
+        "relation": "笑 = 竹(tre, lá tre rung) trên + 夭(dáng người nghiêng ngả) dưới. Lá tre rung như dáng người nghiêng ngả — ghép lại thành “cười”."
+      },
+      {
+        "hanzi": "笔",
+        "pinyin": "bǐ",
+        "meaning": "bút",
+        "relation_type": "semantic",
+        "relation": "笔 = 竹(tre, thân bút xưa vót từ tre) + 毛(lông, đầu bút lông). Thân tre gắn lông — ghép lại thành “bút”."
+      },
+      {
+        "hanzi": "答",
+        "pinyin": "dá",
+        "meaning": "trả lời",
+        "relation_type": "historical_graphic",
+        "relation": "答 = 竹(tre, thẻ tre dùng viết chữ thời xưa) + 合(khớp đúng). Thẻ tre khớp đúng với câu hỏi — ghép lại thành “trả lời”."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "kangxi_id": 142,
+    "name": "Bộ Trùng",
+    "radical": "虫",
+    "pinyin": "chóng",
+    "meaning": "côn trùng",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Hãy nhớ 虫 bằng hình ảnh một sinh vật nhỏ bò trên mặt đất. Khi gặp bộ Trùng, bạn có thể liên tưởng đến côn trùng và các loài nhỏ bé, như 蚂, 蚁, 蛇. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "蛇",
+        "pinyin": "shé",
+        "meaning": "rắn",
+        "relation_type": "semantic",
+        "relation": "蛇 = 虫(loài bò sát nhỏ) + 它 tā (vốn là hình vẽ con rắn, cũng gợi đọc gần “shé”). Loài bò + âm gợi đọc — ghép lại thành “con rắn”."
+      },
+      {
+        "hanzi": "蝶",
+        "pinyin": "dié",
+        "meaning": "bướm",
+        "relation_type": "semantic",
+        "relation": "蝶 = 虫(côn trùng) + 枼 yè (phiên âm gợi đọc gần “dié”, nghĩa gốc “lá mỏng”). Côn trùng có cánh mỏng như lá — ghép lại thành “bướm”."
+      },
+      {
+        "hanzi": "虾",
+        "pinyin": "xiā",
+        "meaning": "tôm",
+        "relation_type": "semantic",
+        "relation": "虾 = 虫(loài nhỏ) + 下 xià (phiên âm gợi đọc gần “xiā”, nghĩa gốc “ở dưới”). Loài nhỏ sống dưới nước — ghép lại thành “tôm”."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "kangxi_id": 195,
+    "name": "Bộ Ngư",
+    "radical": "魚",
+    "pinyin": "yú",
+    "meaning": "cá",
+    "stroke_count": 11,
+    "variants": [
+      "鱼"
+    ],
+    "description": "Hãy tưởng tượng 魚 là một con cá đang bơi dưới nước. Những chữ 鲜, 鲤, 鲸 giúp bộ Ngư gợi ngay đến cá và thế giới dưới nước. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "鲸",
+        "pinyin": "jīng",
+        "meaning": "cá voi",
+        "traditional": "鯨",
+        "relation_type": "semantic",
+        "relation": "鲸 = 魚(cá) + 京 jīng (phiên âm gợi đọc trùng “jīng”, nghĩa gốc “to lớn, kinh đô”). Cá to lớn nhất — ghép lại thành “cá voi”."
+      },
+      {
+        "hanzi": "鲤",
+        "pinyin": "lǐ",
+        "meaning": "cá chép",
+        "traditional": "鯉",
+        "relation_type": "semantic",
+        "relation": "鲤 = 魚(cá) + 里 lǐ (phiên âm gợi đọc trùng “lǐ”). Cá + âm gợi đọc — ghép lại thành “cá chép”."
+      },
+      {
+        "hanzi": "鲨",
+        "pinyin": "shā",
+        "meaning": "cá mập",
+        "traditional": "鯊",
+        "relation_type": "semantic",
+        "relation": "鲨 = 魚(cá) + 沙 shā (phiên âm gợi đọc trùng “shā”, nghĩa gốc “cát”). Cá sống ở vùng nước cát ven biển — ghép lại thành “cá mập”."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "kangxi_id": 187,
+    "name": "Bộ Mã",
+    "radical": "馬",
+    "pinyin": "mǎ",
+    "meaning": "ngựa",
+    "stroke_count": 10,
+    "variants": [
+      "马"
+    ],
+    "description": "Hãy đặt 馬 vào câu chuyện về một con ngựa đang chạy. Các chữ 骑, 驾, 驰 khiến bộ Mã dễ gắn với ngựa, cưỡi và di chuyển. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "骑",
+        "pinyin": "qí",
+        "meaning": "cưỡi",
+        "traditional": "騎",
+        "relation_type": "semantic",
+        "relation": "骑 = 馬(ngựa) + 奇 qí (phiên âm gợi đọc trùng “qí”). Ngựa + âm gợi đọc — ghép lại thành “cưỡi”."
+      },
+      {
+        "hanzi": "驾",
+        "pinyin": "jià",
+        "meaning": "lái",
+        "traditional": "駕",
+        "relation_type": "semantic",
+        "relation": "驾 = 加 jiā (thêm vào, gợi đọc gần “jià”) trên + 馬(ngựa) dưới. Thêm yên cương vào ngựa để điều khiển — ghép lại thành “lái, điều khiển”."
+      },
+      {
+        "hanzi": "骗",
+        "pinyin": "piàn",
+        "meaning": "lừa",
+        "traditional": "騙",
+        "relation_type": "semantic_historical",
+        "relation": "骗 = 馬(ngựa) + 扁 biǎn (phiên âm gợi đọc gần “piàn”, nghĩa gốc “nhảy phốc lên”). Nhảy vọt lên ngựa qua mắt người khác — nghĩa mở rộng thành “lừa gạt”."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "kangxi_id": 196,
+    "name": "Bộ Điểu",
+    "radical": "鳥",
+    "pinyin": "niǎo",
+    "meaning": "chim",
+    "stroke_count": 11,
+    "variants": [
+      "鸟"
+    ],
+    "description": "Hãy hình dung 鳥 là một con chim với cánh và đuôi. Khi gặp 鸣, 鸡, 鸭, bộ Điểu lập tức gợi đến chim chóc và tiếng kêu của chúng. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "鸡",
+        "pinyin": "jī",
+        "meaning": "gà",
+        "traditional": "雞",
+        "relation_type": "semantic",
+        "relation": "鸡 = 奚 xī (phiên âm gợi đọc gần “jī”) + 鸟(chim). Chim + âm gợi đọc — ghép lại thành “gà”."
+      },
+      {
+        "hanzi": "鸭",
+        "pinyin": "yā",
+        "meaning": "vịt",
+        "traditional": "鴨",
+        "relation_type": "semantic",
+        "relation": "鸭 = 甲 jiǎ (phiên âm gợi đọc gần “yā”) + 鸟(chim). Chim + âm gợi đọc — ghép lại thành “vịt”."
+      },
+      {
+        "hanzi": "鸦",
+        "pinyin": "yā",
+        "meaning": "quạ",
+        "traditional": "鴉",
+        "relation_type": "semantic",
+        "relation": "鸦 = 牙 yá (phiên âm gợi đọc gần “yā”, cũng gợi tiếng kêu “qua qua”) + 鸟(chim). Chim + âm gợi đọc mô phỏng tiếng kêu — ghép lại thành “quạ”."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "kangxi_id": 93,
+    "name": "Bộ Ngưu",
+    "radical": "牛",
+    "pinyin": "niú",
+    "meaning": "bò; trâu",
+    "stroke_count": 4,
+    "variants": [
+      "牜"
+    ],
+    "description": "Hãy nghĩ đến 牛 như một con trâu hoặc bò khỏe mạnh ngoài đồng; khi đứng bên trái nó thường thành 牜. 物, 特, 牧 là những chữ giúp bạn nhận ra bộ Ngưu rất nhanh. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "物",
+        "pinyin": "wù",
+        "meaning": "vật",
+        "relation_type": "historical_graphic",
+        "relation": "物 = 牛(trâu bò, vật nuôi tiêu biểu) + 勿 wù (phiên âm gợi đọc trùng “wù”). Con vật + âm gợi đọc — nghĩa mở rộng thành “vật, đồ vật” nói chung."
+      },
+      {
+        "hanzi": "特",
+        "pinyin": "tè",
+        "meaning": "đặc biệt",
+        "relation_type": "historical_graphic",
+        "relation": "特 = 牛(trâu bò) + 寺 sì (phiên âm gợi đọc gần “tè”; nghĩa cổ chỉ con bò đực riêng dùng tế lễ). Trâu bò dùng riêng — nghĩa mở rộng thành “đặc biệt”."
+      },
+      {
+        "hanzi": "牧",
+        "pinyin": "mù",
+        "meaning": "chăn nuôi",
+        "relation_type": "semantic",
+        "relation": "牧 = 牛(trâu bò) + 攵(tay cầm roi). Cầm roi chăn dắt trâu bò — ghép lại thành “chăn nuôi”."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "kangxi_id": 123,
+    "name": "Bộ Dương",
+    "radical": "羊",
+    "pinyin": "yáng",
+    "meaning": "cừu; dê",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "羊 gợi hình ảnh dê/cừu. Với 群 “bầy/nhóm”, liên hệ nghĩa khá trực quan; còn 美 và 善 thuộc lớp giải thích lịch sử phức tạp hơn. Hãy dùng câu chuyện truyền thống để nhớ, nhưng tránh rút gọn thành “dê = đẹp/tốt”.",
+    "examples": [
+      {
+        "hanzi": "美",
+        "pinyin": "měi",
+        "meaning": "đẹp",
+        "relation_type": "traditional_analysis",
+        "relation": "美 = 羊(cừu, dê béo tốt) trên + 大(to, lớn) dưới. Con cừu to béo trong mắt người xưa — ghép lại thành “đẹp”."
+      },
+      {
+        "hanzi": "善",
+        "pinyin": "shàn",
+        "meaning": "tốt; thiện",
+        "relation_type": "historical_form",
+        "relation": "善 = 羊(cừu, biểu tượng hiền lành) trên + 言(lời nói, giản lược thành 口) dưới. Lời nói hiền lành như cừu — ghép lại thành “tốt, thiện”."
+      },
+      {
+        "hanzi": "群",
+        "pinyin": "qún",
+        "meaning": "nhóm",
+        "relation_type": "semantic",
+        "relation": "群 = 君 jūn (người đứng đầu, gợi đọc gần “qún”) + 羊(cừu, sống theo đàn). Người đứng đầu dẫn dắt đàn cừu — ghép lại thành “nhóm, bầy”."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "kangxi_id": 167,
+    "name": "Bộ Kim",
+    "radical": "金",
+    "pinyin": "jīn",
+    "meaning": "kim loại; vàng",
+    "stroke_count": 8,
+    "variants": [
+      "钅"
+    ],
+    "description": "Hãy tưởng tượng ánh kim loại lấp lánh của 金; khi đứng bên trái chữ giản thể, nó thường thành 钅. 钱, 银, 铁 đều đưa bạn về cùng câu chuyện kim loại và tiền bạc. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "钱",
+        "pinyin": "qián",
+        "meaning": "tiền",
+        "traditional": "錢",
+        "relation_type": "semantic",
+        "relation": "钱 = 钅(kim loại) + 戋 jiān (phiên âm gợi đọc gần “qián”). Kim loại đúc thành + âm gợi đọc — ghép lại thành “tiền”."
+      },
+      {
+        "hanzi": "铁",
+        "pinyin": "tiě",
+        "meaning": "sắt",
+        "traditional": "鐵",
+        "relation_type": "semantic",
+        "relation": "铁 = 钅(kim loại) + 失 shī (phiên âm gợi đọc gần “tiě”). Kim loại + âm gợi đọc — ghép lại thành “sắt”."
+      },
+      {
+        "hanzi": "银",
+        "pinyin": "yín",
+        "meaning": "bạc",
+        "traditional": "銀",
+        "relation_type": "semantic",
+        "relation": "银 = 钅(kim loại) + 艮 gèn (phiên âm gợi đọc gần “yín”). Kim loại + âm gợi đọc — ghép lại thành “bạc”."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "kangxi_id": 112,
+    "name": "Bộ Thạch",
+    "radical": "石",
+    "pinyin": "shí",
+    "meaning": "đá",
+    "stroke_count": 5,
+    "variants": [],
+    "description": "Hãy hình dung 石 là một tảng đá chắc và nặng. Vì vậy, bộ Thạch thường gợi đến đá, khoáng vật hoặc vật cứng, như 破, 硬, 砂. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "砸",
+        "pinyin": "zá",
+        "meaning": "đập",
+        "relation_type": "semantic",
+        "relation": "砸 = 石(đá) + 匝 zā (phiên âm gợi đọc gần “zá”). Đá + âm gợi đọc — ghép lại thành “đập”."
+      },
+      {
+        "hanzi": "矿",
+        "pinyin": "kuàng",
+        "meaning": "mỏ; khoáng",
+        "relation_type": "semantic",
+        "relation": "矿 = 石(đá) + 广 guǎng (mái che rộng, gợi đọc gần “kuàng”). Đá khai thác trong hầm có mái che — ghép lại thành “mỏ, khoáng sản”."
+      },
+      {
+        "hanzi": "硬",
+        "pinyin": "yìng",
+        "meaning": "cứng",
+        "relation_type": "semantic",
+        "relation": "硬 = 石(đá, cứng) + 更 gèng (phiên âm gợi đọc gần “yìng”, nghĩa gốc “càng thêm”). Cứng như đá, càng thêm cứng — ghép lại thành “cứng”."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "kangxi_id": 102,
+    "name": "Bộ Điền",
+    "radical": "田",
+    "pinyin": "tián",
+    "meaning": "ruộng",
+    "stroke_count": 5,
+    "variants": [],
+    "description": "Hãy nhìn 田 như những thửa ruộng được chia thành ô. Bộ Điền vì thế rất dễ gắn với đồng ruộng, canh tác và đất nông nghiệp, như 男, 界, 留. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "男",
+        "pinyin": "nán",
+        "meaning": "nam",
+        "relation_type": "historical_graphic",
+        "relation": "男 = 田(ruộng) + 力(sức lực, hình cái cày). Người dùng sức cày ruộng — ghép lại thành “đàn ông”."
+      },
+      {
+        "hanzi": "界",
+        "pinyin": "jiè",
+        "meaning": "ranh giới; thế giới",
+        "relation_type": "semantic",
+        "relation": "界 = 田(ruộng) + 介 jiè (phiên âm gợi đọc trùng “jiè”, nghĩa gốc “ở giữa, ngăn cách”). Đường ngăn giữa các thửa ruộng — ghép lại thành “ranh giới, thế giới”."
+      },
+      {
+        "hanzi": "留",
+        "pinyin": "liú",
+        "meaning": "ở lại; giữ lại",
+        "relation_type": "historical_graphic",
+        "relation": "留 = 田(ruộng) + 卯(hình hai vật đối xứng, giữ chặt). Giữ người/vật lại trên ruộng — ghép lại thành “ở lại, giữ lại”."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "kangxi_id": 154,
+    "name": "Bộ Bối",
+    "radical": "貝",
+    "pinyin": "bèi",
+    "meaning": "vỏ sò; tiền",
+    "stroke_count": 7,
+    "variants": [
+      "贝"
+    ],
+    "description": "Ngày xưa vỏ sò từng được dùng như vật có giá trị; hãy dùng câu chuyện đó để nhớ 貝. Vì vậy, các chữ 财, 贵, 购 thường kéo liên tưởng về tiền bạc, của cải và trao đổi. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "买",
+        "pinyin": "mǎi",
+        "meaning": "mua",
+        "traditional": "買",
+        "relation_type": "semantic",
+        "relation": "买 = 罒(lưới, hành động thu nhận) trên + 贝(vỏ sò, tiền cổ) dưới. Dùng tiền đổi lấy vật — ghép lại thành “mua”."
+      },
+      {
+        "hanzi": "贵",
+        "pinyin": "guì",
+        "meaning": "đắt; quý",
+        "traditional": "貴",
+        "relation_type": "semantic",
+        "relation": "贵 = 臾 (phần trên, phiên âm gợi đọc gần “guì”) + 贝(tiền). Liên quan đến tiền bạc + âm gợi đọc — ghép lại thành “đắt, quý”."
+      },
+      {
+        "hanzi": "贸",
+        "pinyin": "mào",
+        "meaning": "thương mại",
+        "traditional": "貿",
+        "relation_type": "semantic",
+        "relation": "贸 = 卯 mǎo (phiên âm gợi đọc gần “mào”) + 贝(tiền). Tiền + âm gợi đọc — ghép lại thành “trao đổi, thương mại”."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "kangxi_id": 149,
+    "name": "Bộ Ngôn",
+    "radical": "言",
+    "pinyin": "yán",
+    "meaning": "lời nói; ngôn ngữ",
+    "stroke_count": 7,
+    "variants": [
+      "讠"
+    ],
+    "description": "Hãy coi 言 là lời nói được thốt ra thành câu; trong chữ giản thể, nó thường biến thành 讠. 说, 话, 语 là những ví dụ điển hình cho bộ Ngôn và thế giới giao tiếp. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "说",
+        "pinyin": "shuō",
+        "meaning": "nói",
+        "traditional": "說",
+        "relation_type": "semantic",
+        "relation": "说 = 讠(lời nói) + 兑 duì (phiên âm gợi đọc gần “shuō”, nghĩa gốc “vui, trao đổi”). Lời nói + âm gợi đọc — ghép lại thành “nói”."
+      },
+      {
+        "hanzi": "话",
+        "pinyin": "huà",
+        "meaning": "lời nói",
+        "traditional": "話",
+        "relation_type": "semantic",
+        "relation": "话 = 讠(lời nói) + 舌(lưỡi). Dùng lưỡi phát ra lời — ghép lại thành “lời nói, câu chuyện”."
+      },
+      {
+        "hanzi": "语",
+        "pinyin": "yǔ",
+        "meaning": "ngôn ngữ",
+        "traditional": "語",
+        "relation_type": "semantic",
+        "relation": "语 = 讠(lời nói) + 吾 wú (ta, tôi, gợi đọc gần “yǔ”). Lời nói của người ta — ghép lại thành “ngôn ngữ”."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "kangxi_id": 120,
+    "name": "Bộ Mịch",
+    "radical": "糸",
+    "pinyin": "sī",
+    "meaning": "tơ; sợi",
+    "stroke_count": 6,
+    "variants": [
+      "纟"
+    ],
+    "description": "Hãy hình dung 糸 như những sợi tơ nhỏ được se lại; trong chữ giản thể, nó thường thành 纟. 线, 纸, 级 giúp bạn nhớ bộ Mịch qua sợi, dây và vật liệu dệt. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "红",
+        "pinyin": "hóng",
+        "meaning": "đỏ",
+        "traditional": "紅",
+        "relation_type": "semantic_historical",
+        "relation": "红 = 纟(tơ, vải) + 工 gōng (phiên âm gợi đọc gần “hóng” qua biến âm cổ). Vải nhuộm màu + âm gợi đọc — ghép lại thành “màu đỏ”."
+      },
+      {
+        "hanzi": "绿",
+        "pinyin": "lǜ",
+        "meaning": "xanh lá",
+        "traditional": "綠",
+        "relation_type": "semantic_historical",
+        "relation": "绿 = 纟(tơ, vải) + 录 lù (phiên âm gợi đọc gần “lǜ”). Vải nhuộm màu + âm gợi đọc — ghép lại thành “màu xanh lá”."
+      },
+      {
+        "hanzi": "线",
+        "pinyin": "xiàn",
+        "meaning": "sợi; đường",
+        "traditional": "線",
+        "relation_type": "semantic",
+        "relation": "线 = 纟(tơ) + 戋 jiān (phiên âm gợi đọc gần “xiàn”). Sợi tơ nhỏ + âm gợi đọc — ghép lại thành “sợi, đường chỉ”."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "kangxi_id": 181,
+    "name": "Bộ Hiệt",
+    "radical": "頁",
+    "pinyin": "yè",
+    "meaning": "đầu; trang",
+    "stroke_count": 9,
+    "variants": [
+      "页"
+    ],
+    "description": "Hãy tưởng tượng 頁 như phần đầu hoặc khuôn mặt ở phía trên cơ thể; dạng giản thể là 页. Các chữ 题, 领, 顶 giúp bạn nhận ra bộ Hiệt trong nhiều chữ liên quan đến đầu, mặt hoặc vị trí phía trên. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "顾",
+        "pinyin": "gù",
+        "meaning": "chăm sóc; ngoái nhìn",
+        "relation_type": "historical_graphic",
+        "relation": "顾 = 雇 gù (phiên âm gợi đọc trùng “gù”) + 页(đầu, liên quan việc ngoái đầu). Đầu quay lại + âm gợi đọc — ghép lại thành “chăm sóc, ngoái nhìn”."
+      },
+      {
+        "hanzi": "顶",
+        "pinyin": "dǐng",
+        "meaning": "đỉnh; phía trên",
+        "relation_type": "semantic",
+        "relation": "顶 = 页(đầu) + 丁 dīng (phiên âm gợi đọc gần “dǐng”). Phần trên cùng của đầu + âm gợi đọc — ghép lại thành “đỉnh, phía trên”."
+      },
+      {
+        "hanzi": "题",
+        "pinyin": "tí",
+        "meaning": "đề; câu hỏi",
+        "relation_type": "historical_graphic",
+        "relation": "题 = 是 shì (phiên âm gợi đọc gần “tí”) + 页(đầu, trán — phần lộ ra trước). Trán, phần đầu tiên lộ ra + âm gợi đọc — ghép lại thành “đề mục, câu hỏi”."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "kangxi_id": 40,
+    "name": "Bộ Miên",
+    "radical": "宀",
+    "pinyin": "mián",
+    "meaning": "mái nhà",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy nhìn 宀 như một mái nhà che phía trên. Khi thấy bộ Miên trong 家, 安, 室, hãy hình dung một không gian có mái che, nơi con người ở hoặc sinh hoạt. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "家",
+        "pinyin": "jiā",
+        "meaning": "nhà; gia đình",
+        "relation_type": "semantic",
+        "relation": "家 = 宀(mái nhà) + 豕(con lợn). Có mái nhà và nuôi lợn dưới nhà — hình ảnh nông thôn cổ, ghép lại thành “nhà, gia đình”."
+      },
+      {
+        "hanzi": "宝",
+        "pinyin": "bǎo",
+        "meaning": "báu; quý",
+        "relation_type": "semantic",
+        "relation": "宝 = 宀(mái nhà) + 玉(ngọc) + 缶(của cải). Ngọc và của cải cất giữ trong nhà — ghép lại thành “báu, quý”."
+      },
+      {
+        "hanzi": "安",
+        "pinyin": "ān",
+        "meaning": "yên; an toàn",
+        "relation_type": "semantic",
+        "relation": "安 = 宀(mái nhà) + 女(người phụ nữ). Người phụ nữ ở yên trong nhà — hình ảnh gia đình ổn định thời cổ, ghép lại thành “yên, an toàn”."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "kangxi_id": 53,
+    "name": "Bộ Nghiễm",
+    "radical": "广",
+    "pinyin": "guǎng",
+    "meaning": "mái che",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "广 giống một mái che kéo dài sang một bên; hãy tưởng tượng đang bước vào một công trình có mái. 店, 床, 度 là những chữ giúp bộ Nghiễm gợi đến không gian, công trình hoặc nơi chốn. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "店",
+        "pinyin": "diàn",
+        "meaning": "cửa hàng",
+        "relation_type": "semantic",
+        "relation": "店 = 广(mái che) + 占 zhàn (phiên âm gợi đọc gần “diàn”, nghĩa gốc “chiếm giữ”). Chiếm một chỗ có mái che để buôn bán — ghép lại thành “cửa hàng”."
+      },
+      {
+        "hanzi": "床",
+        "pinyin": "chuáng",
+        "meaning": "giường",
+        "relation_type": "semantic",
+        "relation": "床 = 广(mái che, trong nhà) + 木(gỗ). Đồ gỗ đặt trong nhà có mái che — ghép lại thành “giường”."
+      },
+      {
+        "hanzi": "庭",
+        "pinyin": "tíng",
+        "meaning": "sân; tòa",
+        "relation_type": "semantic",
+        "relation": "庭 = 广(mái che) + 廷 tíng (phiên âm gợi đọc trùng “tíng”, nghĩa gốc “triều đình”). Khoảng không có mái/tường bao quanh — ghép lại thành “sân, tòa án”."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "kangxi_id": 169,
+    "name": "Bộ Môn",
+    "radical": "門",
+    "pinyin": "mén",
+    "meaning": "cổng; cửa",
+    "stroke_count": 8,
+    "variants": [
+      "门"
+    ],
+    "description": "Hãy hình dung 門 là cánh cổng mở ra một căn phòng; dạng giản thể là 门. 问, 间, 闭 đều giúp bạn nhớ bộ Môn qua hình ảnh cửa ra vào và không gian bên trong. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "问",
+        "pinyin": "wèn",
+        "meaning": "hỏi",
+        "traditional": "問",
+        "relation_type": "semantic",
+        "relation": "问 = 门(cửa) + 口(miệng). Đứng ở cửa cất tiếng hỏi — ghép lại thành “hỏi”."
+      },
+      {
+        "hanzi": "间",
+        "pinyin": "jiān",
+        "meaning": "khoảng; phòng",
+        "traditional": "間",
+        "relation_type": "semantic",
+        "relation": "间 = 门(cửa) + 日(mặt trời). Ánh nắng lọt qua khe cửa — ghép lại thành “khoảng, giữa, phòng”."
+      },
+      {
+        "hanzi": "闷",
+        "pinyin": "mèn",
+        "meaning": "buồn bực; ngột ngạt",
+        "traditional": "悶",
+        "relation_type": "semantic",
+        "relation": "闷 = 门(cửa) + 心(tim). Tâm trạng bị nhốt kín sau cánh cửa đóng — ghép lại thành “buồn bực, ngột ngạt”."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "kangxi_id": 19,
+    "name": "Bộ Lực",
+    "radical": "力",
+    "pinyin": "lì",
+    "meaning": "sức mạnh",
+    "stroke_count": 2,
+    "variants": [],
+    "description": "Hãy coi 力 là sức lực dùng để đẩy, nâng hoặc làm việc. Những chữ 加, 动, 努 khiến bộ Lực dễ gắn với sức mạnh, cố gắng và hành động. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "动",
+        "pinyin": "dòng",
+        "meaning": "chuyển động",
+        "relation_type": "semantic",
+        "relation": "动 = 重(nặng) + 力(sức). Dùng sức làm vật nặng dịch chuyển — ghép lại thành “chuyển động”."
+      },
+      {
+        "hanzi": "劳",
+        "pinyin": "láo",
+        "meaning": "lao động",
+        "relation_type": "semantic",
+        "relation": "劳 = 火/灯 giản lược (ánh đèn soi sáng ban đêm) trên + 力(sức) dưới. Dùng sức làm việc dưới ánh đèn thâu đêm — ghép lại thành “lao động, vất vả”."
+      },
+      {
+        "hanzi": "努",
+        "pinyin": "nǔ",
+        "meaning": "cố gắng",
+        "relation_type": "semantic",
+        "relation": "努 = 奴 nú (nô lệ, gợi đọc gần “nǔ”) + 力(sức). Dùng hết sức như nô lệ làm việc — ghép lại thành “cố gắng”."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "kangxi_id": 18,
+    "name": "Bộ Đao",
+    "radical": "刀",
+    "pinyin": "dāo",
+    "meaning": "dao",
+    "stroke_count": 2,
+    "variants": [
+      "刂"
+    ],
+    "description": "Hãy tưởng tượng một lưỡi dao sắc; khi đứng bên phải chữ, 刀 thường biến thành 刂. 切, 别, 到 giúp bạn nhận ra bộ Đao trong những câu chuyện về cắt, chia hoặc dùng lưỡi sắc. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "分",
+        "pinyin": "fēn",
+        "meaning": "chia",
+        "relation_type": "semantic",
+        "relation": "分 = 八(tách làm hai) trên + 刀(dao) dưới. Dùng dao chia tách làm hai — ghép lại thành “chia, phân”."
+      },
+      {
+        "hanzi": "刻",
+        "pinyin": "kè",
+        "meaning": "khắc; khoảnh khắc",
+        "relation_type": "semantic",
+        "relation": "刻 = 亥 hài (phiên âm gợi đọc gần “kè”) + 刂(dao). Dao khắc + âm gợi đọc — ghép lại thành “khắc, khoảnh khắc”."
+      },
+      {
+        "hanzi": "别",
+        "pinyin": "bié",
+        "meaning": "khác; đừng",
+        "relation_type": "historical_graphic",
+        "relation": "别 = 另(xương thịt tách rời) + 刂(dao). Dùng dao tách rời ra — ghép lại thành “khác biệt”; mở rộng nghĩa thành “đừng” (tách khỏi việc gì đó)."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "kangxi_id": 57,
+    "name": "Bộ Cung",
+    "radical": "弓",
+    "pinyin": "gōng",
+    "meaning": "cung",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy hình dung 弓 là một cây cung đang được kéo căng. Các chữ 张, 强, 弱 giúp bộ Cung gợi đến việc kéo, căng và sức của cây cung. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "强",
+        "pinyin": "qiáng",
+        "meaning": "mạnh",
+        "relation_type": "historical_graphic",
+        "relation": "强 = 弓(cây cung) + 虽-dạng (hình con bọ vỏ cứng dày). Cây cung cứng cáp như vỏ bọ — ghép lại thành “mạnh, khỏe”."
+      },
+      {
+        "hanzi": "弹",
+        "pinyin": "tán",
+        "meaning": "bật; búng",
+        "relation_type": "semantic",
+        "relation": "弹 = 弓(cung) + 单 dān (phiên âm gợi đọc gần “tán”, nghĩa gốc “đơn lẻ”). Dây cung bật ra + âm gợi đọc — ghép lại thành “bật, búng”."
+      },
+      {
+        "hanzi": "引",
+        "pinyin": "yǐn",
+        "meaning": "dẫn; kéo",
+        "relation_type": "semantic",
+        "relation": "引 = 弓(cung) + 丨(nét thẳng, tượng hình dây cung được kéo căng). Kéo căng dây cung — ghép lại thành “dẫn, kéo”."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "kangxi_id": 60,
+    "name": "Bộ Xích",
+    "radical": "彳",
+    "pinyin": "chì",
+    "meaning": "bước chân; đi",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "彳 trông như những bước chân nhỏ nối tiếp nhau. Khi gặp bộ Xích trong 很, 往, 得, hãy nghĩ đến hành trình, bước đi hoặc hướng di chuyển. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "很",
+        "pinyin": "hěn",
+        "meaning": "rất",
+        "relation_type": "historical_graphic",
+        "relation": "很 = 彳(bước chân, đi) + 艮 gèn (phiên âm gợi đọc gần “hěn”, nghĩa gốc “trái ý, ngoan cố”). Đi ngược, khó cưỡng lại — nghĩa mở rộng dùng làm phó từ chỉ mức độ mạnh “rất”."
+      },
+      {
+        "hanzi": "往",
+        "pinyin": "wǎng",
+        "meaning": "đi về phía",
+        "relation_type": "semantic",
+        "relation": "往 = 彳(bước chân, đi) + 主 zhǔ (phiên âm gợi đọc gần “wǎng”). Bước đi + âm gợi đọc — ghép lại thành “đi về phía”."
+      },
+      {
+        "hanzi": "待",
+        "pinyin": "dài",
+        "meaning": "chờ; đối đãi",
+        "relation_type": "historical_graphic",
+        "relation": "待 = 彳(bước chân, đi) + 寺 sì (phiên âm gợi đọc gần “dài”; nghĩa cổ liên quan đứng hầu nơi quan phủ). Đi đến đứng chờ + âm gợi đọc — ghép lại thành “chờ, đối đãi”."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "kangxi_id": 37,
+    "name": "Bộ Đại",
+    "radical": "大",
+    "pinyin": "dà",
+    "meaning": "to; lớn",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy tưởng tượng một người dang rộng tay chân để trở nên thật “lớn” — đó là mẹo nhớ 大. Các chữ 天, 太, 夫 giúp bộ Đại gợi đến kích thước lớn hoặc sự mở rộng. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "天",
+        "pinyin": "tiān",
+        "meaning": "trời; ngày",
+        "relation_type": "historical_graphic",
+        "relation": "天 = 一(nét ngang, tượng hình bầu trời) trên đầu chữ 大(người dang tay đứng). Cái bao trùm trên đầu người — ghép lại thành “trời”."
+      },
+      {
+        "hanzi": "太",
+        "pinyin": "tài",
+        "meaning": "quá; rất",
+        "relation_type": "semantic",
+        "relation": "太 = 大(to, lớn) + 、(một chấm thêm vào, nhấn mạnh thêm nữa). To hơn cả “to” — ghép lại thành “quá, rất”."
+      },
+      {
+        "hanzi": "头",
+        "pinyin": "tóu",
+        "meaning": "đầu",
+        "relation_type": "historical_graphic",
+        "relation": "头 = 豆(hình cái đấu, bình cổ tròn) + 页(đầu người, giản lược). Cái đầu tròn như chiếc đấu trên vai — ghép lại thành “cái đầu”."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "kangxi_id": 42,
+    "name": "Bộ Tiểu",
+    "radical": "小",
+    "pinyin": "xiǎo",
+    "meaning": "nhỏ",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Ba nét nhỏ của 小 rất hợp để ghi nhớ ý “nhỏ bé”. Khi gặp 少, 尖, 尚, hãy dùng bộ Tiểu như một điểm neo cho những thứ nhỏ hoặc ít. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "少",
+        "pinyin": "shǎo",
+        "meaning": "ít",
+        "relation_type": "semantic",
+        "relation": "少 = 小(nhỏ) + 丿(một nét phẩy, bớt thêm một chút). Nhỏ mà còn bớt thêm — ghép lại thành “ít”."
+      },
+      {
+        "hanzi": "尖",
+        "pinyin": "jiān",
+        "meaning": "nhọn",
+        "relation_type": "semantic",
+        "relation": "尖 = 小(nhỏ) trên + 大(to) dưới. Trên nhỏ dưới to, hình chóp — ghép lại thành “nhọn”."
+      },
+      {
+        "hanzi": "省",
+        "pinyin": "shěng",
+        "meaning": "tỉnh; tiết kiệm",
+        "relation_type": "historical_graphic",
+        "relation": "省 = 少(ít, giản lược) trên + 目(mắt) dưới. Mắt nhìn kỹ để bớt sai sót — ghép lại thành “xét lại, tiết kiệm”; mở rộng nghĩa thành đơn vị hành chính “tỉnh”."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "kangxi_id": 48,
+    "name": "Bộ Công",
+    "radical": "工",
+    "pinyin": "gōng",
+    "meaning": "công việc; thủ công",
+    "stroke_count": 3,
+    "variants": [],
+    "description": "Hãy nhớ 工 bằng hình ảnh công việc hay người thợ, nhưng đừng mặc định chữ nào có 工 cũng liên quan đến “công”. Trong nhiều chữ hình thanh như 紅/红 và 江, 工 chủ yếu làm nhiệm vụ gợi âm; phần 糸/纟 hoặc 氵 mới dẫn nghĩa.",
+    "examples": [
+      {
+        "hanzi": "左",
+        "pinyin": "zuǒ",
+        "meaning": "trái",
+        "relation_type": "historical_form",
+        "relation": "左 = 𠂇(hình bàn tay) + 工(công cụ, thước thợ). Tay cầm dụng cụ phụ giữ, thường là tay trái — ghép lại thành “bên trái”."
+      },
+      {
+        "hanzi": "红",
+        "pinyin": "hóng",
+        "meaning": "đỏ",
+        "traditional": "紅",
+        "relation_type": "phonetic",
+        "relation": "红 = 纟(tơ, vải) + 工 gōng (chỉ đóng vai trò gợi âm đọc, không góp nghĩa) — ghép lại thành “màu đỏ”."
+      },
+      {
+        "hanzi": "江",
+        "pinyin": "jiāng",
+        "meaning": "sông",
+        "relation_type": "phonetic",
+        "relation": "江 = 氵(nước) + 工 gōng (chỉ đóng vai trò gợi âm đọc, không góp nghĩa) — ghép lại thành “sông”."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "kangxi_id": 113,
+    "name": "Bộ Thị",
+    "radical": "示",
+    "pinyin": "shì",
+    "meaning": "thần linh; biểu thị",
+    "stroke_count": 5,
+    "variants": [
+      "礻"
+    ],
+    "description": "Hãy tưởng tượng 示 như một dấu hiệu được đặt ra để con người nhìn thấy; dạng 礻 thường xuất hiện bên trái. 神, 福, 祈 còn gợi đến nghi lễ, thần linh và những điều được cầu xin. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "神",
+        "pinyin": "shén",
+        "meaning": "thần",
+        "relation_type": "semantic",
+        "relation": "神 = 礻(thần linh, tế lễ) + 申 shēn (phiên âm gợi đọc gần “shén”, nghĩa gốc tượng hình tia chớp). Hiện tượng linh thiêng như chớp — ghép lại thành “thần”."
+      },
+      {
+        "hanzi": "祝",
+        "pinyin": "zhù",
+        "meaning": "chúc",
+        "relation_type": "semantic",
+        "relation": "祝 = 礻(thần linh, tế lễ) + 兄(người đứng khấn). Người đứng trước bàn thờ khấn thần — ghép lại thành “chúc, cầu chúc”."
+      },
+      {
+        "hanzi": "福",
+        "pinyin": "fú",
+        "meaning": "phúc; may mắn",
+        "relation_type": "semantic",
+        "relation": "福 = 礻(thần linh, tế lễ) + 畐 fú (hình cái vò rượu đầy, cũng gợi đọc trùng “fú”). Dâng rượu đầy cúng thần — ghép lại thành “phúc, may mắn”."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "kangxi_id": 96,
+    "name": "Bộ Ngọc",
+    "radical": "玉",
+    "pinyin": "yù",
+    "meaning": "ngọc",
+    "stroke_count": 5,
+    "variants": [
+      "王"
+    ],
+    "description": "Hãy nhớ 玉 bằng hình ảnh một viên ngọc quý sáng và cứng. Khi làm thành phần, nó thường xuất hiện dưới dạng 王; 珠, 珍, 球 giúp bạn liên tưởng đến ngọc, đá quý và vật đẹp. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "玩",
+        "pinyin": "wán",
+        "meaning": "chơi",
+        "relation_type": "historical_graphic",
+        "relation": "玩 = 王(ngọc, biến thể) + 元 yuán (phiên âm gợi đọc gần “wán”). Vật ngọc quý cầm trên tay + âm gợi đọc — ghép lại thành “chơi, đùa”."
+      },
+      {
+        "hanzi": "玻",
+        "pinyin": "bō",
+        "meaning": "thủy tinh (trong 玻璃)",
+        "relation_type": "semantic",
+        "relation": "玻 = 王(ngọc, biến thể — chỉ vật trong, óng ánh) + 皮 pí (da, gợi đọc gần “bō”). Vật trong óng ánh như ngọc + âm gợi đọc — ghép lại thành “thủy tinh”."
+      },
+      {
+        "hanzi": "珠",
+        "pinyin": "zhū",
+        "meaning": "ngọc trai; hạt",
+        "relation_type": "semantic",
+        "relation": "珠 = 王(ngọc) + 朱 zhū (phiên âm gợi đọc trùng “zhū”, nghĩa gốc “màu đỏ son”). Ngọc + âm gợi đọc — ghép lại thành “ngọc trai, hạt tròn”."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "kangxi_id": 10,
+    "name": "Bộ Nhi",
+    "radical": "儿",
+    "pinyin": "ér",
+    "meaning": "chân; trẻ con",
+    "stroke_count": 2,
+    "variants": [],
+    "description": "Bạn có thể hình dung 儿 như hai chân đang đứng. Vì hình dạng này thường nằm ở đáy chữ, hãy dùng hình ảnh “đôi chân bên dưới” để nhận ra nó trong 先, 元, 兄. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "先",
+        "pinyin": "xiān",
+        "meaning": "trước",
+        "relation_type": "historical_graphic",
+        "relation": "先 = 屮(chân bước đi trước) trên + 儿(người, chân người) dưới. Người bước chân đi trước người khác — ghép lại thành “trước, trước tiên”."
+      },
+      {
+        "hanzi": "兄",
+        "pinyin": "xiōng",
+        "meaning": "anh trai",
+        "relation_type": "historical_graphic",
+        "relation": "兄 = 口(miệng) trên + 儿(người, chân người) dưới. Người lớn dùng miệng dạy bảo em — ghép lại thành “anh trai”."
+      },
+      {
+        "hanzi": "光",
+        "pinyin": "guāng",
+        "meaning": "ánh sáng",
+        "relation_type": "historical_graphic",
+        "relation": "光 = 火(lửa) trên + 儿(người, chân người) dưới. Người đội ngọn lửa trên đầu — ghép lại thành “ánh sáng”."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "kangxi_id": 29,
+    "name": "Bộ Hựu",
+    "radical": "又",
+    "pinyin": "yòu",
+    "meaning": "lại; tay phải",
+    "stroke_count": 2,
+    "variants": [],
+    "description": "又 vốn rất tiện để nhớ như một bàn tay đưa ra làm thêm một lần nữa. Các chữ 取, 双, 友 giúp bộ Hựu gợi đến tay, động tác hoặc ý lặp lại. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "双",
+        "pinyin": "shuāng",
+        "meaning": "đôi; hai",
+        "relation_type": "semantic",
+        "relation": "双 = 又(tay) + 又(tay). Hai bàn tay giống nhau đi cùng nhau — ghép lại thành “đôi, cặp”."
+      },
+      {
+        "hanzi": "友",
+        "pinyin": "yǒu",
+        "meaning": "bạn",
+        "relation_type": "historical_graphic",
+        "relation": "友 = 又(tay) + 又(tay, biến thể). Hai bàn tay nắm lấy nhau — ghép lại thành “bạn bè”."
+      },
+      {
+        "hanzi": "取",
+        "pinyin": "qǔ",
+        "meaning": "lấy",
+        "relation_type": "semantic",
+        "relation": "取 = 耳(tai) + 又(tay phải). Tay phải đưa ra cắt lấy tai kẻ địch để tính công — ghép lại thành “lấy”."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "kangxi_id": 8,
+    "name": "Bộ Đầu",
+    "radical": "亠",
+    "pinyin": "tóu",
+    "meaning": "nắp; phần trên",
+    "stroke_count": 2,
+    "variants": [],
+    "description": "Hãy hình dung 亠 như một chiếc nắp nhỏ đặt trên đầu chữ. Nó thường xuất hiện ở vị trí cao nhất, như trong 交, 亮, 京, nên mẹo “đội nắp trên đầu” rất dễ nhận. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "交",
+        "pinyin": "jiāo",
+        "meaning": "giao; trao",
+        "relation_type": "historical_graphic",
+        "relation": "交 = 亠(nét trên, tượng hình cổ áo) trên + 乂(hình hai chân bắt chéo) dưới. Người đứng bắt chéo chân — ghép lại thành “giao nhau, trao đổi”."
+      },
+      {
+        "hanzi": "亮",
+        "pinyin": "liàng",
+        "meaning": "sáng",
+        "relation_type": "historical_graphic",
+        "relation": "亮 = 亠(nét trên, tượng hình mái) + 儿(người) + 冂(khung sáng). Người đứng cao lộ rõ dưới ánh sáng — ghép lại thành “sáng, rõ”."
+      },
+      {
+        "hanzi": "京",
+        "pinyin": "jīng",
+        "meaning": "kinh đô",
+        "relation_type": "historical_graphic",
+        "relation": "京 = 亠(nét trên, tượng hình mái nhà cao) + 口 + 小(hình tòa nhà cao trên gò đất). Nơi có nhiều nhà cao tầng — ghép lại thành “kinh đô”."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "kangxi_id": 145,
+    "name": "Bộ Y",
+    "radical": "衣",
+    "pinyin": "yī",
+    "meaning": "quần áo",
+    "stroke_count": 6,
+    "variants": [
+      "衤"
+    ],
+    "description": "Hãy tưởng tượng 衣 là một bộ quần áo khoác quanh cơ thể; khi đứng bên trái, nó thường thành 衤. 裤, 袜, 裙 đều khiến bộ Y gợi ngay đến trang phục. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "被",
+        "pinyin": "bèi",
+        "meaning": "bị; chăn",
+        "relation_type": "semantic_historical",
+        "relation": "被 = 衤(quần áo, vải) + 皮 pí (da, gợi đọc gần “bèi”). Vải đắp như lớp da bên ngoài cơ thể — ghép lại thành “chăn”; mở rộng thành từ bị động “bị”."
+      },
+      {
+        "hanzi": "裤",
+        "pinyin": "kù",
+        "meaning": "quần",
+        "relation_type": "semantic",
+        "relation": "裤 = 衤(quần áo) + 库 kù (kho, gợi đọc trùng “kù”). Quần áo + âm gợi đọc — ghép lại thành “quần”."
+      },
+      {
+        "hanzi": "袜",
+        "pinyin": "wà",
+        "meaning": "tất",
+        "relation_type": "semantic",
+        "relation": "袜 = 衤(quần áo) + 末 mò (phần cuối, ngọn, gợi đọc gần “wà”). Vải mặc ở phần cuối cơ thể (bàn chân) — ghép lại thành “tất, vớ”."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "kangxi_id": 184,
+    "name": "Bộ Thực",
+    "radical": "食",
+    "pinyin": "shí",
+    "meaning": "ăn; thức ăn",
+    "stroke_count": 9,
+    "variants": [
+      "饣"
+    ],
+    "description": "Hãy đặt 食 vào câu chuyện của một bữa ăn; khi đứng bên trái chữ giản thể, nó thường thành 饣. 饭, 饿, 饮 giúp bạn nhận ra bộ Thực qua thức ăn, ăn uống và cảm giác đói. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "饭",
+        "pinyin": "fàn",
+        "meaning": "cơm; bữa ăn",
+        "traditional": "飯",
+        "relation_type": "semantic",
+        "relation": "饭 = 饣(ăn, thức ăn) + 反 fǎn (phiên âm gợi đọc gần “fàn”). Thức ăn + âm gợi đọc — ghép lại thành “cơm, bữa ăn”."
+      },
+      {
+        "hanzi": "饿",
+        "pinyin": "è",
+        "meaning": "đói",
+        "traditional": "餓",
+        "relation_type": "semantic",
+        "relation": "饿 = 饣(ăn, thức ăn) + 我 wǒ (tôi, gợi đọc gần “è”). Thiếu thức ăn cho “tôi” — ghép lại thành “đói”."
+      },
+      {
+        "hanzi": "饮",
+        "pinyin": "yǐn",
+        "meaning": "uống",
+        "traditional": "飲",
+        "relation_type": "semantic",
+        "relation": "饮 = 饣(ăn uống) + 欠(hình người há miệng, thiếu). Miệng há ra đưa nước vào — ghép lại thành “uống”."
+      }
+    ]
+  }
+]

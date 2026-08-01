@@ -1,0 +1,66 @@
+[
+  {
+    "id": 209,
+    "name": "Bộ Tỵ",
+    "radical": "鼻",
+    "pinyin": "bí",
+    "meaning": "mũi",
+    "stroke_count": 14,
+    "variants": [],
+    "description": "Câu chuyện ghi nhớ của bộ Tỵ bắt đầu từ hình ảnh “mũi”. Sau đó tìm lại bộ này trong 鼾 (ngáy), 齁 (ngáy); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "鼾",
+        "pinyin": "hān",
+        "meaning": "ngáy",
+        "relation_type": "semantic",
+        "relation": "Trong 鼾 (“ngáy”), 鼻 giúp gợi trường nghĩa liên quan đến “mũi”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "齁",
+        "pinyin": "hōu",
+        "meaning": "ngáy",
+        "relation_type": "semantic",
+        "relation": "Trong 齁 (“ngáy”), 鼻 giúp gợi trường nghĩa liên quan đến “mũi”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "name": "Bộ Tề",
+    "radical": "齊",
+    "pinyin": "qí",
+    "meaning": "đều; ngay ngắn",
+    "stroke_count": 14,
+    "variants": [
+      "齐"
+    ],
+    "description": "Hãy coi 齊 là dấu nhắc cho ý “đều; ngay ngắn”: mỗi lần thấy nó, thử gọi lại ý niệm này trước khi nhìn nghĩa của cả chữ. Có thể luyện liên tưởng qua 剂 (liều lượng (thuốc)), 斋 (nhịn ăn hoặc kiêng thịt, rượu v.v.). Dạng biến thể 齐 là dấu hiệu đáng chú ý khi bộ này đổi hình trong chữ. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "剂",
+        "pinyin": "jì",
+        "meaning": "liều lượng (thuốc)",
+        "traditional": "劑",
+        "relation_type": "historical_form",
+        "relation": "Dạng phồn thể 劑 chứa 齊; quan hệ ở đây chủ yếu là cấu tạo/gợi âm lịch sử, không phải “đều” trực tiếp biến thành nghĩa “liều thuốc”."
+      },
+      {
+        "hanzi": "斋",
+        "pinyin": "zhāi",
+        "meaning": "nhịn ăn hoặc kiêng thịt, rượu v.v.",
+        "traditional": "齋",
+        "relation_type": "historical_form",
+        "relation": "Dạng phồn thể 齋 chứa hình 齊 trong cấu tạo. Nghĩa “trai giới” gắn với lịch sử chữ, không nên suy đơn giản từ nghĩa “đều/ngay ngắn”."
+      },
+      {
+        "hanzi": "脐",
+        "pinyin": "qí",
+        "meaning": "(dạng kết hợp) rốn; dây rốn",
+        "traditional": "臍",
+        "relation_type": "historical_form",
+        "relation": "Dạng phồn thể 臍 có 齊 làm thành phần gợi âm qí, còn 肉/月 gợi nghĩa bộ phận cơ thể. Vì vậy đây chủ yếu là quan hệ âm."
+      }
+    ]
+  }
+]

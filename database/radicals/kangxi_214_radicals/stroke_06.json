@@ -1,0 +1,904 @@
+[
+  {
+    "id": 118,
+    "name": "Bộ Trúc",
+    "radical": "竹",
+    "pinyin": "zhú",
+    "meaning": "tre",
+    "stroke_count": 6,
+    "variants": [
+      "⺮"
+    ],
+    "description": "Hãy tưởng tượng hai nhánh tre nhỏ nằm trên đầu chữ — đó là dạng thường thấy của bộ 竹. Các chữ 笔, 笑, 筷 cho thấy tre từng gắn với nhiều đồ dùng và vật liệu quen thuộc. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "笑",
+        "pinyin": "xiào",
+        "meaning": "cười",
+        "relation_type": "historical_graphic",
+        "relation": "笑 (“cười”) có liên hệ với 竹 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “tre”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "笔",
+        "pinyin": "bǐ",
+        "meaning": "bút",
+        "relation_type": "semantic",
+        "relation": "Trong 笔 (“bút”), 竹 giúp gợi trường nghĩa liên quan đến “tre”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "答",
+        "pinyin": "dá",
+        "meaning": "trả lời",
+        "relation_type": "historical_graphic",
+        "relation": "答 (“trả lời”) có liên hệ với 竹 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “tre”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Bộ Mễ",
+    "radical": "米",
+    "pinyin": "mǐ",
+    "meaning": "gạo",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Hãy gắn 米 với hạt gạo trong bữa ăn hằng ngày. Các chữ 粉, 糖, 粒 giúp bộ Mễ gợi đến gạo, hạt và những thứ được chế biến từ ngũ cốc. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "粥",
+        "pinyin": "zhōu",
+        "meaning": "cháo",
+        "relation_type": "semantic",
+        "relation": "Trong 粥 (“cháo”), 米 giúp gợi trường nghĩa liên quan đến “gạo”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "粮",
+        "pinyin": "liáng",
+        "meaning": "lương thực",
+        "relation_type": "semantic",
+        "relation": "Trong 粮 (“lương thực”), 米 giúp gợi trường nghĩa liên quan đến “gạo”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "糖",
+        "pinyin": "táng",
+        "meaning": "đường",
+        "relation_type": "semantic",
+        "relation": "Trong 糖 (“đường”), 米 giúp gợi trường nghĩa liên quan đến “gạo”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Bộ Mịch",
+    "radical": "糸",
+    "pinyin": "sī",
+    "meaning": "tơ; sợi",
+    "stroke_count": 6,
+    "variants": [
+      "纟"
+    ],
+    "description": "Hãy hình dung 糸 như những sợi tơ nhỏ được se lại; trong chữ giản thể, nó thường thành 纟. 线, 纸, 级 giúp bạn nhớ bộ Mịch qua sợi, dây và vật liệu dệt. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "红",
+        "pinyin": "hóng",
+        "meaning": "đỏ",
+        "traditional": "紅",
+        "relation_type": "semantic_historical",
+        "relation": "Ở dạng phồn thể 紅, 糸 “tơ/sợi” là phần gợi nghĩa lịch sử: màu đỏ từng được nói trong bối cảnh sợi tơ/đồ nhuộm, rồi nghĩa màu sắc trở thành nghĩa độc lập. Vì vậy liên hệ với “tơ” là lịch sử chứ không phải cứ thấy 纟 là đoán màu."
+      },
+      {
+        "hanzi": "绿",
+        "pinyin": "lǜ",
+        "meaning": "xanh lá",
+        "traditional": "綠",
+        "relation_type": "semantic_historical",
+        "relation": "Ở dạng phồn thể 綠, 糸 “tơ/sợi” gợi lớp nghĩa lịch sử liên quan đến sợi tơ được nhuộm màu. Nghĩa “xanh lá” ngày nay đã độc lập, nên đây là mối liên hệ lịch sử chứ không phải quy tắc đoán nghĩa."
+      },
+      {
+        "hanzi": "线",
+        "pinyin": "xiàn",
+        "meaning": "sợi; đường",
+        "traditional": "線",
+        "relation_type": "semantic",
+        "relation": "Trong 線/线 (“sợi; đường”), 糸 giúp gợi trường nghĩa liên quan đến “tơ; sợi”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Bộ Phẫu",
+    "radical": "缶",
+    "pinyin": "fǒu",
+    "meaning": "chum; vò",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Câu chuyện ghi nhớ của bộ Phẫu bắt đầu từ hình ảnh “chum; vò”. Sau đó tìm lại bộ này trong 罐 (lon), 缺 (sự thiếu); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "罐",
+        "pinyin": "guàn",
+        "meaning": "lon",
+        "relation_type": "semantic",
+        "relation": "Trong 罐 (“lon”), 缶 giúp gợi trường nghĩa liên quan đến “chum; vò”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "缺",
+        "pinyin": "quē",
+        "meaning": "sự thiếu",
+        "relation_type": "historical_graphic",
+        "relation": "缺 (“sự thiếu”) có liên hệ với 缶 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “chum; vò”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Bộ Võng",
+    "radical": "网",
+    "pinyin": "wǎng",
+    "meaning": "lưới",
+    "stroke_count": 6,
+    "variants": [
+      "罒"
+    ],
+    "description": "Khi nhìn 网, hãy gọi ngay hình ảnh “lưới” ra trong đầu. Sau đó tìm lại bộ này trong 罗 (vải mùng), 罚 (trừng phạt; phạt; phạt tiền); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. Dạng biến thể 罒 là dấu hiệu đáng chú ý khi bộ này đổi hình trong chữ. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "罗",
+        "pinyin": "luó",
+        "meaning": "vải mùng",
+        "traditional": "羅",
+        "relation_type": "semantic",
+        "relation": "Trong 羅/罗 (“vải mùng”), 网 giúp gợi trường nghĩa liên quan đến “lưới”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "罚",
+        "pinyin": "fá",
+        "meaning": "trừng phạt; phạt; phạt tiền",
+        "traditional": "罰",
+        "relation_type": "historical_graphic",
+        "relation": "罚 (“trừng phạt; phạt; phạt tiền”) có liên hệ với 网 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “lưới”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "罪",
+        "pinyin": "zuì",
+        "meaning": "tội",
+        "relation_type": "historical_graphic",
+        "relation": "罪 (“tội”) có liên hệ với 网 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “lưới”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Bộ Dương",
+    "radical": "羊",
+    "pinyin": "yáng",
+    "meaning": "cừu; dê",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "羊 gợi hình ảnh dê/cừu. Với 群 “bầy/nhóm”, liên hệ nghĩa khá trực quan; còn 美 và 善 thuộc lớp giải thích lịch sử phức tạp hơn. Hãy dùng câu chuyện truyền thống để nhớ, nhưng tránh rút gọn thành “dê = đẹp/tốt”.",
+    "examples": [
+      {
+        "hanzi": "美",
+        "pinyin": "měi",
+        "meaning": "đẹp",
+        "relation_type": "traditional_analysis",
+        "relation": "美 có 羊 ở phía trên. Theo cách giải thích truyền thống, 羊 kết hợp với 大 để gợi điều “tốt, đẹp”; nên dùng đây như một câu chuyện lịch sử để nhớ, không hiểu đơn giản rằng “dê = đẹp”."
+      },
+      {
+        "hanzi": "善",
+        "pinyin": "shàn",
+        "meaning": "tốt; thiện",
+        "relation_type": "historical_form",
+        "relation": "善 có hình 羊 ở phần trên, nhưng quan hệ nghĩa với “dê/cừu” không còn trực tiếp trong tiếng Trung hiện đại. Nên nhớ đây là liên hệ cấu tạo lịch sử hơn là mẹo đoán nghĩa."
+      },
+      {
+        "hanzi": "群",
+        "pinyin": "qún",
+        "meaning": "nhóm",
+        "relation_type": "semantic",
+        "relation": "群 vốn mang nghĩa “bầy, đàn, nhóm”; 羊 “dê/cừu” giúp gợi hình ảnh một đàn động vật tụ lại, nên liên hệ nghĩa ở đây khá trực quan."
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Bộ Vũ",
+    "radical": "羽",
+    "pinyin": "yǔ",
+    "meaning": "lông vũ; cánh",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Hãy dựng một hình ảnh thật rõ về “lông vũ; cánh” trong đầu rồi gắn hình ảnh đó với 羽. Sau đó tìm lại bộ này trong 翠 (xanh lam ngọc), 翻 (lật); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "翠",
+        "pinyin": "cuì",
+        "meaning": "xanh lam ngọc",
+        "relation_type": "semantic",
+        "relation": "Trong 翠 (“xanh lam ngọc”), 羽 giúp gợi trường nghĩa liên quan đến “lông vũ; cánh”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "翻",
+        "pinyin": "fān",
+        "meaning": "lật",
+        "relation_type": "historical_graphic",
+        "relation": "翻 (“lật”) có liên hệ với 羽 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “lông vũ; cánh”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "习",
+        "pinyin": "xí",
+        "meaning": "(dạng cố định) thực hành",
+        "relation_type": "historical_graphic",
+        "relation": "习 (“(dạng cố định) thực hành”) có liên hệ với 羽 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “lông vũ; cánh”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Bộ Lão",
+    "radical": "老",
+    "pinyin": "lǎo",
+    "meaning": "già; người già",
+    "stroke_count": 6,
+    "variants": [
+      "耂"
+    ],
+    "description": "Câu chuyện ghi nhớ của bộ Lão bắt đầu từ hình ảnh “già; người già”. Sau đó tìm lại bộ này trong 考 (kiểm tra), 者 ((sau động từ hoặc tính từ) người mà ...); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. Dạng biến thể 耂 là dấu hiệu đáng chú ý khi bộ này đổi hình trong chữ. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "考",
+        "pinyin": "kǎo",
+        "meaning": "kiểm tra",
+        "relation_type": "historical_graphic",
+        "relation": "考 (“kiểm tra”) có liên hệ với 老 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “già; người già”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "者",
+        "pinyin": "zhě",
+        "meaning": "(sau động từ hoặc tính từ) người mà ...",
+        "relation_type": "historical_graphic",
+        "relation": "者 (“(sau động từ hoặc tính từ) người mà ...”) có liên hệ với 老 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “già; người già”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Bộ Nhi",
+    "radical": "而",
+    "pinyin": "ér",
+    "meaning": "và; nhưng",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Hãy coi 而 là dấu nhắc cho ý “và; nhưng”: mỗi lần thấy nó, thử gọi lại ý niệm này trước khi nhìn nghĩa của cả chữ. Có thể luyện liên tưởng qua 耍 (chơi đùa), 需 (yêu cầu). Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "耍",
+        "pinyin": "shuǎ",
+        "meaning": "chơi đùa",
+        "relation_type": "historical_graphic",
+        "relation": "耍 (“chơi đùa”) có liên hệ với 而 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “và; nhưng”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "需",
+        "pinyin": "xū",
+        "meaning": "yêu cầu",
+        "relation_type": "historical_graphic",
+        "relation": "需 (“yêu cầu”) có liên hệ với 而 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “và; nhưng”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Bộ Lỗi",
+    "radical": "耒",
+    "pinyin": "lěi",
+    "meaning": "cái cày",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Hãy biến 耒 thành một chiếc móc nhớ cho ý “cái cày”. Sau đó tìm lại bộ này trong 耕 (cày), 耗 (lãng phí); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "耕",
+        "pinyin": "gēng",
+        "meaning": "cày",
+        "relation_type": "semantic",
+        "relation": "Trong 耕 (“cày”), 耒 giúp gợi trường nghĩa liên quan đến “cái cày”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "耗",
+        "pinyin": "hào",
+        "meaning": "lãng phí",
+        "relation_type": "historical_graphic",
+        "relation": "耗 (“lãng phí”) có liên hệ với 耒 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “cái cày”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Bộ Nhĩ",
+    "radical": "耳",
+    "pinyin": "ěr",
+    "meaning": "tai",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Bộ 耳 chính là chiếc tai trong câu chuyện ghi nhớ của bạn. Khi gặp nó trong chữ, hãy liên tưởng đến nghe, âm thanh hoặc khả năng tiếp nhận, như trong 聪 và 聚. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "取",
+        "pinyin": "qǔ",
+        "meaning": "lấy",
+        "relation_type": "historical_graphic",
+        "relation": "取 (“lấy”) có liên hệ với 耳 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “tai”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "聪",
+        "pinyin": "cōng",
+        "meaning": "thông minh",
+        "relation_type": "semantic",
+        "relation": "Trong 聪 (“thông minh”), 耳 giúp gợi trường nghĩa liên quan đến “tai”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "聚",
+        "pinyin": "jù",
+        "meaning": "tụ họp",
+        "relation_type": "historical_graphic",
+        "relation": "聚 (“tụ họp”) có liên hệ với 耳 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “tai”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Bộ Duật",
+    "radical": "聿",
+    "pinyin": "yù",
+    "meaning": "bút; viết",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Câu chuyện ghi nhớ của bộ Duật bắt đầu từ hình ảnh “bút; viết”. Sau đó tìm lại bộ này trong 肃 (tôn kính), 建 (thiết lập); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "肃",
+        "pinyin": "sù",
+        "meaning": "tôn kính",
+        "relation_type": "historical_graphic",
+        "relation": "肃 (“tôn kính”) có liên hệ với 聿 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “bút; viết”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "建",
+        "pinyin": "jiàn",
+        "meaning": "thiết lập",
+        "relation_type": "historical_graphic",
+        "relation": "建 (“thiết lập”) có liên hệ với 聿 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “bút; viết”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Bộ Nhục",
+    "radical": "肉",
+    "pinyin": "ròu",
+    "meaning": "thịt; thân thể",
+    "stroke_count": 6,
+    "variants": [
+      "月"
+    ],
+    "description": "Khi nhìn 肉, hãy gọi ngay hình ảnh “thịt; thân thể” ra trong đầu. Sau đó tìm lại bộ này trong 脸 (mặt), 胖 (khoẻ mạnh); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. Dạng biến thể 月 là dấu hiệu đáng chú ý khi bộ này đổi hình trong chữ. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "脸",
+        "pinyin": "liǎn",
+        "meaning": "mặt",
+        "relation_type": "semantic",
+        "relation": "Trong 脸 (“mặt”), 肉 giúp gợi trường nghĩa liên quan đến “thịt; thân thể”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "胖",
+        "pinyin": "pán",
+        "meaning": "khoẻ mạnh",
+        "relation_type": "semantic",
+        "relation": "Trong 胖 (“khoẻ mạnh”), 肉 giúp gợi trường nghĩa liên quan đến “thịt; thân thể”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "背",
+        "pinyin": "bēi",
+        "meaning": "mang nặng",
+        "relation_type": "semantic",
+        "relation": "Trong 背 (“mang nặng”), 肉 giúp gợi trường nghĩa liên quan đến “thịt; thân thể”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Bộ Thần",
+    "radical": "臣",
+    "pinyin": "chén",
+    "meaning": "bề tôi; quan",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Câu chuyện của 臣 xoay quanh “bề tôi; quan”. Mẹo học là liên kết ý này với hành động hoặc tình huống bạn có thể hình dung được. Có thể luyện liên tưởng qua 卧 (nằm), 览 (nhìn). Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "卧",
+        "pinyin": "wò",
+        "meaning": "nằm",
+        "relation_type": "historical_graphic",
+        "relation": "卧 (“nằm”) có liên hệ với 臣 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “bề tôi; quan”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "览",
+        "pinyin": "lǎn",
+        "meaning": "nhìn",
+        "traditional": "覽",
+        "relation_type": "historical_graphic",
+        "relation": "览 (“nhìn”) có liên hệ với 臣 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “bề tôi; quan”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "坚",
+        "pinyin": "jiān",
+        "meaning": "mạnh",
+        "relation_type": "historical_graphic",
+        "relation": "坚 (“mạnh”) có liên hệ với 臣 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “bề tôi; quan”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "name": "Bộ Tự",
+    "radical": "自",
+    "pinyin": "zì",
+    "meaning": "bản thân; mũi",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Hãy dựng một hình ảnh thật rõ về “bản thân; mũi” trong đầu rồi gắn hình ảnh đó với 自. Sau đó tìm lại bộ này trong 息 (hơi thở), 臭 (mùi hôi); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "息",
+        "pinyin": "xī",
+        "meaning": "hơi thở",
+        "relation_type": "semantic",
+        "relation": "Trong 息 (“hơi thở”), 自 giúp gợi trường nghĩa liên quan đến “bản thân; mũi”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "臭",
+        "pinyin": "chòu",
+        "meaning": "mùi hôi",
+        "relation_type": "semantic",
+        "relation": "Trong 臭 (“mùi hôi”), 自 giúp gợi trường nghĩa liên quan đến “bản thân; mũi”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "鼻",
+        "pinyin": "bí",
+        "meaning": "mũi",
+        "relation_type": "semantic",
+        "relation": "Trong 鼻 (“mũi”), 自 giúp gợi trường nghĩa liên quan đến “bản thân; mũi”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Bộ Chí",
+    "radical": "至",
+    "pinyin": "zhì",
+    "meaning": "đến; đạt",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Để nhớ 至, hãy lấy “đến; đạt” làm từ khóa trung tâm rồi nối nó với một tình huống cụ thể. Có thể luyện liên tưởng qua 到 (đến; tới), 室 (phòng). Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "到",
+        "pinyin": "dào",
+        "meaning": "đến; tới",
+        "relation_type": "semantic",
+        "relation": "Trong 到 (“đến; tới”), 至 giúp gợi trường nghĩa liên quan đến “đến; đạt”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "室",
+        "pinyin": "shì",
+        "meaning": "phòng",
+        "relation_type": "historical_graphic",
+        "relation": "室 (“phòng”) có liên hệ với 至 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “đến; đạt”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "致",
+        "pinyin": "zhì",
+        "meaning": "(dạng kết hợp) tinh tế; tinh xảo; đẹp đẽ",
+        "relation_type": "semantic",
+        "relation": "Trong 致 (“(dạng kết hợp) tinh tế; tinh xảo; đẹp đẽ”), 至 giúp gợi trường nghĩa liên quan đến “đến; đạt”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Bộ Cữu",
+    "radical": "臼",
+    "pinyin": "jiù",
+    "meaning": "cối giã",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Hãy coi 臼 là dấu nhắc cho ý “cối giã”: mỗi lần thấy nó, thử gọi lại ý niệm này trước khi nhìn nghĩa của cả chữ. Có thể luyện liên tưởng qua 舀 (múc ra; múc lên), 兴 (trỗi dậy). Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "舀",
+        "pinyin": "yǎo",
+        "meaning": "múc ra; múc lên",
+        "relation_type": "historical_graphic",
+        "relation": "舀 (“múc ra; múc lên”) có liên hệ với 臼 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “cối giã”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "兴",
+        "pinyin": "xīng",
+        "meaning": "trỗi dậy",
+        "relation_type": "historical_graphic",
+        "relation": "兴 (“trỗi dậy”) có liên hệ với 臼 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “cối giã”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Bộ Thiệt",
+    "radical": "舌",
+    "pinyin": "shé",
+    "meaning": "lưỡi",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Hãy biến 舌 thành một chiếc móc nhớ cho ý “lưỡi”. Sau đó tìm lại bộ này trong 话 (lời nói), 甜 (ngọt); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "话",
+        "pinyin": "huà",
+        "meaning": "lời nói",
+        "traditional": "話",
+        "relation_type": "historical_graphic",
+        "relation": "话 (“lời nói”) có liên hệ với 舌 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “lưỡi”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "甜",
+        "pinyin": "tián",
+        "meaning": "ngọt",
+        "relation_type": "semantic",
+        "relation": "Trong 甜 (“ngọt”), 舌 giúp gợi trường nghĩa liên quan đến “lưỡi”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "舒",
+        "pinyin": "shū",
+        "meaning": "duỗi",
+        "relation_type": "historical_graphic",
+        "relation": "舒 (“duỗi”) có liên hệ với 舌 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “lưỡi”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Bộ Suyễn",
+    "radical": "舛",
+    "pinyin": "chuǎn",
+    "meaning": "trái ngược; sai lệch",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Bộ Suyễn mang ý niệm về “trái ngược; sai lệch”. Hãy biến ý đó thành một cảnh nhỏ trong đầu thay vì học như một định nghĩa khô. Có thể luyện liên tưởng qua 舞 (nhảy múa), 舜 (Thuấn (khoảng thế kỷ 23 TCN), nhà hiền triết và lãnh đạo huyền thoại). Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "舞",
+        "pinyin": "wǔ",
+        "meaning": "nhảy múa",
+        "relation_type": "historical_graphic",
+        "relation": "舞 (“nhảy múa”) có liên hệ với 舛 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “trái ngược; sai lệch”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "舜",
+        "pinyin": "Shùn",
+        "meaning": "Thuấn (khoảng thế kỷ 23 TCN), nhà hiền triết và lãnh đạo huyền thoại",
+        "relation_type": "historical_graphic",
+        "relation": "舜 (“Thuấn (khoảng thế kỷ 23 TCN), nhà hiền triết và lãnh đạo huyền thoại”) có liên hệ với 舛 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “trái ngược; sai lệch”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Bộ Chu",
+    "radical": "舟",
+    "pinyin": "zhōu",
+    "meaning": "thuyền",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Câu chuyện ghi nhớ của bộ Chu bắt đầu từ hình ảnh “thuyền”. Sau đó tìm lại bộ này trong 船 (thuyền), 航 (thuyền); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "船",
+        "pinyin": "chuán",
+        "meaning": "thuyền",
+        "relation_type": "semantic",
+        "relation": "Trong 船 (“thuyền”), 舟 giúp gợi trường nghĩa liên quan đến “thuyền”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "航",
+        "pinyin": "háng",
+        "meaning": "thuyền",
+        "relation_type": "semantic",
+        "relation": "Trong 航 (“thuyền”), 舟 giúp gợi trường nghĩa liên quan đến “thuyền”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "艇",
+        "pinyin": "tǐng",
+        "meaning": "tàu",
+        "relation_type": "semantic",
+        "relation": "Trong 艇 (“tàu”), 舟 giúp gợi trường nghĩa liên quan đến “thuyền”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "name": "Bộ Cấn",
+    "radical": "艮",
+    "pinyin": "gèn",
+    "meaning": "dừng; cứng",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "艮 có nghĩa truyền thống như dừng/cứng, nhưng trong 银, 根, 很 nó chủ yếu hoạt động như thành phần gợi âm. Hãy nhìn 金/钅, 木, 彳 để tìm phần nghĩa của từng chữ.",
+    "examples": [
+      {
+        "hanzi": "银",
+        "pinyin": "yín",
+        "meaning": "bạc",
+        "traditional": "銀",
+        "relation_type": "phonetic",
+        "relation": "Trong 銀/银, 金/钅 gợi nghĩa kim loại, còn 艮 chủ yếu gợi âm yín theo lịch sử. Đây không phải liên hệ nghĩa với “dừng/cứng”."
+      },
+      {
+        "hanzi": "根",
+        "pinyin": "gēn",
+        "meaning": "rễ",
+        "relation_type": "phonetic",
+        "relation": "Trong 根, 木 gợi nghĩa cây/rễ, còn 艮 chủ yếu gợi âm gēn. Nghĩa “rễ” nằm ở phần Mộc rõ hơn."
+      },
+      {
+        "hanzi": "很",
+        "pinyin": "hěn",
+        "meaning": "rất",
+        "relation_type": "phonetic",
+        "relation": "Trong 很, 彳 là phần cấu tạo của chữ, còn 艮 chủ yếu thuộc chuỗi gợi âm lịch sử. Nghĩa “rất” không thể đoán từ nghĩa của 艮."
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Bộ Sắc",
+    "radical": "色",
+    "pinyin": "sè",
+    "meaning": "màu sắc",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Câu chuyện của 色 xoay quanh “màu sắc”. Mẹo học là liên kết ý này với hành động hoặc tình huống bạn có thể hình dung được. Có thể luyện liên tưởng qua 色 (màu sắc), 艳 (rực rỡ). Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "色",
+        "pinyin": "sè",
+        "meaning": "màu sắc",
+        "relation_type": "semantic",
+        "relation": "Trong 色 (“màu sắc”), 色 giúp gợi trường nghĩa liên quan đến “màu sắc”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "艳",
+        "pinyin": "yàn",
+        "meaning": "rực rỡ",
+        "relation_type": "semantic",
+        "relation": "Trong 艳 (“rực rỡ”), 色 giúp gợi trường nghĩa liên quan đến “màu sắc”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Bộ Thảo",
+    "radical": "艸",
+    "pinyin": "cǎo",
+    "meaning": "cỏ; thực vật",
+    "stroke_count": 6,
+    "variants": [
+      "艹"
+    ],
+    "description": "Hãy tưởng tượng 艹 như những ngọn cỏ mọc trên đầu chữ. Khi thấy dạng này, hãy nghĩ đến cây cỏ và thực vật; 花, 茶, 菜 là ba ví dụ gần gũi nhất. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "花",
+        "pinyin": "huā",
+        "meaning": "hoa",
+        "relation_type": "semantic",
+        "relation": "Trong 花 (“hoa”), 艸 giúp gợi trường nghĩa liên quan đến “cỏ; thực vật”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "茶",
+        "pinyin": "chá",
+        "meaning": "trà",
+        "relation_type": "semantic",
+        "relation": "Trong 茶 (“trà”), 艸 giúp gợi trường nghĩa liên quan đến “cỏ; thực vật”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "菜",
+        "pinyin": "cài",
+        "meaning": "rau; món ăn",
+        "relation_type": "semantic",
+        "relation": "Trong 菜 (“rau; món ăn”), 艸 giúp gợi trường nghĩa liên quan đến “cỏ; thực vật”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Bộ Hổ",
+    "radical": "虍",
+    "pinyin": "hū",
+    "meaning": "vằn hổ",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Để nhớ 虍, hãy lấy “vằn hổ” làm từ khóa trung tâm rồi nối nó với một tình huống cụ thể. Có thể luyện liên tưởng qua 虎 (con hổ), 虚 (trống rỗng). Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "虎",
+        "pinyin": "hǔ",
+        "meaning": "con hổ",
+        "relation_type": "semantic",
+        "relation": "Trong 虎 (“con hổ”), 虍 giúp gợi trường nghĩa liên quan đến “vằn hổ”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "虚",
+        "pinyin": "xū",
+        "meaning": "trống rỗng",
+        "relation_type": "historical_graphic",
+        "relation": "虚 (“trống rỗng”) có liên hệ với 虍 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “vằn hổ”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "虑",
+        "pinyin": "lǜ",
+        "meaning": "suy nghĩ cân nhắc",
+        "relation_type": "historical_graphic",
+        "relation": "虑 (“suy nghĩ cân nhắc”) có liên hệ với 虍 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “vằn hổ”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Bộ Trùng",
+    "radical": "虫",
+    "pinyin": "chóng",
+    "meaning": "côn trùng",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Hãy nhớ 虫 bằng hình ảnh một sinh vật nhỏ bò trên mặt đất. Khi gặp bộ Trùng, bạn có thể liên tưởng đến côn trùng và các loài nhỏ bé, như 蚂, 蚁, 蛇. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "蛇",
+        "pinyin": "shé",
+        "meaning": "rắn",
+        "relation_type": "semantic",
+        "relation": "Trong 蛇 (“rắn”), 虫 giúp gợi trường nghĩa liên quan đến “côn trùng”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "蝶",
+        "pinyin": "dié",
+        "meaning": "bướm",
+        "relation_type": "semantic",
+        "relation": "Trong 蝶 (“bướm”), 虫 giúp gợi trường nghĩa liên quan đến “côn trùng”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "虾",
+        "pinyin": "xiā",
+        "meaning": "tôm",
+        "relation_type": "semantic",
+        "relation": "Trong 虾 (“tôm”), 虫 giúp gợi trường nghĩa liên quan đến “côn trùng”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Bộ Huyết",
+    "radical": "血",
+    "pinyin": "xuè",
+    "meaning": "máu",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Hãy biến 血 thành một chiếc móc nhớ cho ý “máu”. Sau đó tìm lại bộ này trong 衅 (cãi nhau); việc nối hình dạng với những chữ thật sẽ giúp ý nghĩa bám lâu hơn. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "衅",
+        "pinyin": "xìn",
+        "meaning": "cãi nhau",
+        "relation_type": "semantic",
+        "relation": "Trong 衅 (“cãi nhau”), 血 giúp gợi trường nghĩa liên quan đến “máu”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Bộ Hành",
+    "radical": "行",
+    "pinyin": "xíng",
+    "meaning": "đi; đường",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Bộ Hành mang ý niệm về “đi; đường”. Hãy biến ý đó thành một cảnh nhỏ trong đầu thay vì học như một định nghĩa khô. Có thể luyện liên tưởng qua 街 (đường phố), 术 (phương pháp). Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "街",
+        "pinyin": "jiē",
+        "meaning": "đường phố",
+        "relation_type": "semantic",
+        "relation": "Trong 街 (“đường phố”), 行 giúp gợi trường nghĩa liên quan đến “đi; đường”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "术",
+        "pinyin": "shù",
+        "meaning": "phương pháp",
+        "relation_type": "historical_graphic",
+        "relation": "术 (“phương pháp”) có liên hệ với 行 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “đi; đường”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "衔",
+        "pinyin": "xián",
+        "meaning": "khâu ngựa",
+        "relation_type": "historical_graphic",
+        "relation": "衔 (“khâu ngựa”) có liên hệ với 行 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “đi; đường”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Bộ Y",
+    "radical": "衣",
+    "pinyin": "yī",
+    "meaning": "quần áo",
+    "stroke_count": 6,
+    "variants": [
+      "衤"
+    ],
+    "description": "Hãy tưởng tượng 衣 là một bộ quần áo khoác quanh cơ thể; khi đứng bên trái, nó thường thành 衤. 裤, 袜, 裙 đều khiến bộ Y gợi ngay đến trang phục. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "被",
+        "pinyin": "bèi",
+        "meaning": "bị; chăn",
+        "relation_type": "semantic_historical",
+        "relation": "被 vốn có nghĩa danh từ liên quan đến đồ phủ/chăn, nên 衣/衤 gợi nghĩa quần áo khá rõ. Nghĩa ngữ pháp “bị” phát triển về sau và không còn liên hệ trực tiếp với quần áo."
+      },
+      {
+        "hanzi": "裤",
+        "pinyin": "kù",
+        "meaning": "quần",
+        "relation_type": "semantic",
+        "relation": "Trong 裤 (“quần”), 衣 giúp gợi trường nghĩa liên quan đến “quần áo”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      },
+      {
+        "hanzi": "袜",
+        "pinyin": "wà",
+        "meaning": "tất",
+        "relation_type": "semantic",
+        "relation": "Trong 袜 (“tất”), 衣 giúp gợi trường nghĩa liên quan đến “quần áo”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Bộ Á",
+    "radical": "襾",
+    "pinyin": "yà",
+    "meaning": "che phủ",
+    "stroke_count": 6,
+    "variants": [],
+    "description": "Hãy xem 襾 như một phần của không gian hoặc vật thể mang ý “che phủ”. Mẹo là quan sát cách nó ôm, che hoặc tạo khung cho phần còn lại của chữ; 要 ((hình thức kết hợp) yêu cầu; ép buộc), 覆 (che phủ) là những ví dụ để luyện mắt. Ghi chú ở từng ví dụ bên dưới sẽ cho biết thành phần này đang gợi nghĩa, gợi âm hay chỉ còn quan hệ cấu tạo/lịch sử.",
+    "examples": [
+      {
+        "hanzi": "要",
+        "pinyin": "yāo",
+        "meaning": "(hình thức kết hợp) yêu cầu; ép buộc",
+        "relation_type": "historical_graphic",
+        "relation": "要 (“(hình thức kết hợp) yêu cầu; ép buộc”) có liên hệ với 襾 ở lớp cấu tạo, phân loại hoặc lịch sử chữ, nhưng nghĩa hiện đại không cho thấy một quan hệ đủ trực tiếp với “che phủ”. Nên nhớ hình thể trước và tránh dùng bộ này để đoán nghĩa một cách máy móc."
+      },
+      {
+        "hanzi": "覆",
+        "pinyin": "fù",
+        "meaning": "che phủ",
+        "relation_type": "semantic",
+        "relation": "Trong 覆 (“che phủ”), 襾 giúp gợi trường nghĩa liên quan đến “che phủ”. Đây là ví dụ có thể dùng để nhớ bộ qua nghĩa, không chỉ qua hình dạng."
+      }
+    ]
+  }
+]
