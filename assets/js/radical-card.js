@@ -4,7 +4,9 @@ function buildRadicalCardArea() {
     <div class="progress-bar-track">
       <div class="progress-bar-fill" id="radicalProgressBar"></div>
     </div>
-    <div class="card radical-card" id="radicalCard" onclick="radicalFlip()">
+    <div class="card radical-card" id="radicalCard">
+      <div class="swipe-badge swipe-badge--known" id="radicalSwipeBadgeKnown">✓ Đã nhớ</div>
+      <div class="swipe-badge swipe-badge--unknown" id="radicalSwipeBadgeUnknown">✗ Chưa nhớ</div>
       <div id="radicalCardContent" class="card-content">
         <div class="hanzi radical-char" id="radChar"></div>
         <div class="radical-name" id="radName"></div>
@@ -35,6 +37,7 @@ function buildRadicalCardArea() {
     btn.textContent = showRadicalPinyin ? '👁 Đang hiện pinyin' : '🙈 Chế độ thử thách: ẩn pinyin';
     btn.classList.toggle('on', !showRadicalPinyin);
   }
+  initRadicalSwipe();
 }
 
 function radicalRelationLabel(type) {

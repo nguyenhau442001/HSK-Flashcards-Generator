@@ -1,6 +1,6 @@
 // Pointer gestures and card reveal interactions.
-function initSwipe() {
-  const card = document.getElementById('card');
+function initCardSwipe(options) {
+  const card = document.getElementById(options.cardId);
   if (!card) return;
 
   const COMMIT_PX = 90;
@@ -13,7 +13,10 @@ function initSwipe() {
     return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   }
   function getBadges() {
-    return [document.getElementById('swipeBadgeKnown'), document.getElementById('swipeBadgeUnknown')];
+    return [
+      document.getElementById(options.knownBadgeId),
+      document.getElementById(options.unknownBadgeId),
+    ];
   }
   function clearBadges() {
     getBadges().forEach(b => { if (b) b.style.opacity = '0'; });
@@ -38,7 +41,7 @@ function initSwipe() {
     committed = true;
     if (prefersReduced()) {
       resetCard();
-      if (dir === 'right') markKnown(); else markUnknown();
+      if (dir === 'right') options.markKnown(); else options.markUnknown();
       committed = false;
       return;
     }
@@ -51,8 +54,8 @@ function initSwipe() {
       card.style.transform = '';
       card.style.opacity = '0';
       clearBadges();
-      if (dir === 'right') markKnown(); else markUnknown();
-      // Sync card fade-in with render()'s 150ms exit-then-swap timer so new content
+      if (dir === 'right') options.markKnown(); else options.markUnknown();
+      // Sync card fade-in with the renderers' 150ms exit-then-swap timer so new content
       // arrives as the card becomes visible — no double animation.
       setTimeout(() => {
         card.style.transition = 'opacity 180ms ease';
@@ -72,8 +75,8 @@ function initSwipe() {
   }
 
   card.addEventListener('pointerdown', e => {
-    if (filteredOrder.length === 0 || committed) return;
-    if (e.target.closest('.speech-btn, .card-interactive')) return;
+    if (!options.hasCards() || committed) return;
+    if (options.interactiveSelector && e.target.closest(options.interactiveSelector)) return;
     card.style.transition = '';
     startX = e.clientX; startY = e.clientY;
     dx = 0; dy = 0; active = true; locked = null;
@@ -92,13 +95,38 @@ function initSwipe() {
   function onEnd() {
     if (!active) return;
     active = false;
-    if (!locked) { flip(); return; }
+    if (!locked) { options.flip(); return; }
     if (locked === 'v') return;
     if (Math.abs(dx) >= COMMIT_PX) commitSwipe(dx > 0 ? 'right' : 'left');
     else springBack();
   }
   card.addEventListener('pointerup', onEnd);
   card.addEventListener('pointercancel', () => { active = false; springBack(); });
+}
+
+function initSwipe() {
+  initCardSwipe({
+    cardId: 'card',
+    knownBadgeId: 'swipeBadgeKnown',
+    unknownBadgeId: 'swipeBadgeUnknown',
+    hasCards: () => filteredOrder.length > 0,
+    interactiveSelector: '.speech-btn, .card-interactive',
+    flip,
+    markKnown,
+    markUnknown,
+  });
+}
+
+function initRadicalSwipe() {
+  initCardSwipe({
+    cardId: 'radicalCard',
+    knownBadgeId: 'radicalSwipeBadgeKnown',
+    unknownBadgeId: 'radicalSwipeBadgeUnknown',
+    hasCards: () => radicalOrder.length > 0,
+    flip: radicalFlip,
+    markKnown: markRadicalKnown,
+    markUnknown: markRadicalUnknown,
+  });
 }
 
 function flip() {
