@@ -296,6 +296,8 @@ function goBackToPicker() {
   document.getElementById('screenPicker').style.display = '';
   document.getElementById('screenCards').style.display = 'none';
   document.getElementById('appTitle').textContent = 'HSK Flashcards';
+  document.getElementById('primaryTabs').style.display = '';
+  document.getElementById('learningDashboard').style.display = '';
   currentLevel = null;
   currentView = 'cards';
   overviewQuery = '';
@@ -316,6 +318,8 @@ async function selectLevel(level) {
   overviewStatus = 'all';
   try { localStorage.setItem(LAST_LEVEL_KEY, level); } catch (e) {}
   document.getElementById('appTitle').textContent = LEVELS[level].label + ' Flashcards';
+  document.getElementById('primaryTabs').style.display = 'none';
+  document.getElementById('learningDashboard').style.display = 'none';
   document.getElementById('transferPanel').hidden = true;
   document.getElementById('screenPicker').style.display = 'none';
   document.getElementById('screenCards').style.display = '';
