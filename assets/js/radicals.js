@@ -83,7 +83,12 @@ function renderRadicalGroupGrid(set, gridId) {
   if (!grid) return;
   grid.innerHTML = RADICAL_GROUPS[set].map((group, i) => {
     const strokeNum = i + 1;
-    const preview = group.slice(0, 4).map(item => item.radical).join(' ');
+    // Keep previews identical between both tabs for the shared 1–10 stroke groups.
+    // The basic set is the canonical preview; group counts and study decks stay separate.
+    const previewGroup = RADICAL_GROUPS.basic50[i]?.length
+      ? RADICAL_GROUPS.basic50[i]
+      : group;
+    const preview = previewGroup.slice(0, 4).map(item => item.radical).join(' ');
     const known = radicalKnownCount(group);
     return `
       <button class="radical-group-card" type="button" onclick="startRadicalStudy('${set}', ${i})">
