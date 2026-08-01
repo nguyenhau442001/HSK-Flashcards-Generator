@@ -1,0 +1,76 @@
+/* Bộ thủ (radicals) mode: primary/secondary tabs, hub, study card */
+.primary-tabs {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px;
+  margin: 16px 0 20px;
+}
+.primary-tab {
+  padding: 12px 10px; border-radius: var(--radius-lg); border: 1.5px solid var(--border);
+  background: var(--card-bg); color: var(--text-secondary); font: inherit;
+  font-size: 15px; font-weight: 700; cursor: pointer;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease;
+}
+.primary-tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.primary-tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.radical-tabs { margin-bottom: 4px; }
+.radical-panel { margin-top: 18px; }
+.radical-panel h2 { font-size: 17px; margin: 0 0 4px; font-weight: 700; }
+.radical-panel-subtitle { margin: 0 0 14px; color: var(--text-secondary); font-size: 13px; }
+.radical-panel-card {
+  background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg);
+  padding: 20px; text-align: center;
+}
+.radical-panel-progress { margin: 10px 0 16px; color: var(--success-text); font-size: 13px; font-weight: 600; }
+.radical-start-btn { width: 100%; font-size: 13px; padding: 12px; }
+
+.radical-group-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.radical-group-card {
+  background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg);
+  padding: 16px 10px; text-align: center; cursor: pointer; font: inherit; color: var(--text-primary);
+  transition: box-shadow 0.15s ease, transform 0.1s ease;
+}
+.radical-group-card:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.08); transform: translateY(-1px); }
+.radical-group-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.radical-group-stroke { font-size: 12px; font-weight: 700; color: var(--accent); letter-spacing: 0.04em; }
+.radical-group-preview { font-size: 24px; margin: 6px 0; letter-spacing: 2px; }
+.radical-group-count { font-size: 11px; color: var(--text-tertiary); }
+.radical-group-known { font-size: 10.5px; color: var(--success-text); margin-top: 4px; }
+@media (max-width: 420px) { .radical-group-preview { font-size: 20px; letter-spacing: 1px; } }
+
+.radical-char { font-size: 52px; }
+.radical-name { font-size: 15px; color: var(--text-secondary); font-weight: 600; margin-top: 2px; }
+.radical-back { display: none; width: 100%; margin-top: 10px; }
+.radical-back.show { display: block; }
+.radical-meaning { font-size: 17px; font-weight: 600; color: var(--text-primary); text-align: center; }
+.radical-description {
+  margin-top: 10px; padding: 12px 14px; background: var(--example-bg); border: 1px solid var(--example-border);
+  border-radius: var(--radius-md); font-size: 13.5px; line-height: 1.6; text-align: left;
+  white-space: pre-wrap; word-break: break-word;
+}
+.radical-variants { margin-top: 10px; text-align: left; }
+.variant-chip {
+  display: inline-block; margin: 4px 6px 0 0; padding: 4px 10px; border-radius: 999px;
+  background: var(--info-bg); color: var(--info-text); font-size: 15px; font-weight: 600;
+}
+.radical-examples { margin-top: 12px; text-align: left; }
+.radical-example {
+  margin-top: 10px; padding: 10px 12px; background: var(--example-bg); border: 1px solid var(--example-border);
+  border-radius: var(--radius-md);
+}
+.radical-example .ex-zh { font-size: 16px; }
+.radical-example .ex-zh,
+.radical-example .ex-py,
+.radical-example .ex-vi { text-align: center; }
+.radical-relation {
+  margin-top: 6px; font-size: 12.5px; color: var(--text-secondary); line-height: 1.55;
+  word-break: break-word;
+}
+.relation-badge {
+  display: inline-block; margin-right: 5px; padding: 2px 7px; border-radius: 999px;
+  background: var(--accent-light); color: var(--accent); font-size: 10.5px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.03em;
+}
+
+@media (min-width: 700px) and (max-height: 950px) {
+  .study-mode .primary-tabs { margin: 10px 0 14px; }
+}
