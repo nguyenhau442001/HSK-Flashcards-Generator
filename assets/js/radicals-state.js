@@ -1,0 +1,53 @@
+// Radical (Bộ thủ) mode configuration and in-memory state.
+const RADICAL_BASIC50_URL = 'database/radicals/basic_50_radicals/basic_50_radicals.json';
+const RADICAL_STROKE_COUNT = 17;
+function radicalStrokeUrl(n) {
+  return `database/radicals/kangxi_214_radicals/stroke_${String(n).padStart(2, '0')}.json`;
+}
+
+let primaryTab = 'vocab';
+let radicalTab = 'basic50';
+let radicalDataLoaded = false;
+let RADICAL_BASIC50 = [];
+let RADICAL_STROKE_GROUPS = [];
+
+let radicalOrder = [];
+let radicalIdx = 0;
+let radicalWords = [];
+let radicalReturnTab = 'basic50';
+let radicalProgress = {};
+let showRadicalPinyin = true;
+
+function radicalProgressKey(item) {
+  return String(item.kangxi_id !== undefined ? item.kangxi_id : item.id);
+}
+function radicalStorageKey(suffix) {
+  return 'hsk_radical_' + suffix + '_v1';
+}
+function loadRadicalProgress() {
+  try {
+    const p = localStorage.getItem(radicalStorageKey('progress'));
+    if (p) radicalProgress = JSON.parse(p);
+  } catch (e) {}
+}
+function saveRadicalProgress() {
+  try { localStorage.setItem(radicalStorageKey('progress'), JSON.stringify(radicalProgress)); } catch (e) {}
+}
+function loadRadicalPrefs() {
+  try {
+    const pref = localStorage.getItem(radicalStorageKey('prefs'));
+    if (pref) {
+      const parsed = JSON.parse(pref);
+      if (typeof parsed.showPinyin === 'boolean') showRadicalPinyin = parsed.showPinyin;
+    }
+  } catch (e) {}
+}
+function saveRadicalPrefs() {
+  try { localStorage.setItem(radicalStorageKey('prefs'), JSON.stringify({ showPinyin: showRadicalPinyin })); } catch (e) {}
+}
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+}
