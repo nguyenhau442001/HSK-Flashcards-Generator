@@ -9,28 +9,28 @@
     "variants": [
       "龙"
     ],
-    "description": "龍 là hình rồng uốn mình với sừng và thân dài; dạng giản thể là 龙. Trong 聾, 朧, 籠, bộ Long chủ yếu gợi âm; phần Tai, Nhục và Trúc mới giữ đầu mối nghĩa.",
+    "description": "龍 trong chữ cổ là hình một linh vật thân dài uốn cong, có đầu lớn, sừng hoặc mào và phần thân như rắn. Qua nhiều thời kỳ, hình rồng được cách điệu thành chữ phức tạp 龍; dạng giản thể 龙 giữ đường cong chính. Bộ Long gợi rồng, uy lực và hình tượng hoàng gia, nhưng trong 聾, 朧, 籠, nó chủ yếu góp âm.",
     "examples": [
       {
         "hanzi": "龍",
         "pinyin": "lóng",
         "meaning": "rồng",
         "relation_type": "direct",
-        "relation": "龍 vừa là hình của bộ Long vừa trực tiếp mang nghĩa “rồng”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "龍 đứng riêng là rồng; đầu có sừng và thân uốn dài trong chữ cổ là chiếc neo trực tiếp."
       },
       {
         "hanzi": "龙舟",
         "pinyin": "lóngzhōu",
         "meaning": "thuyền rồng",
         "relation_type": "semantic",
-        "relation": "Trong 龙舟 (“thuyền rồng”), 龍 vẫn giữ rõ nét nghĩa “rồng”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "龙舟 là chiếc thuyền 舟 trang trí đầu, đuôi rồng và dùng trong lễ hội đua thuyền rồng."
       },
       {
         "hanzi": "龙王",
         "pinyin": "lóngwáng",
         "meaning": "Long Vương",
         "relation_type": "semantic",
-        "relation": "Trong 龙王 (“Long Vương”), 龍 vẫn giữ rõ nét nghĩa “rồng”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "龙王 ghép 龙 với 王, chỉ Long Vương — vị thần rồng cai quản nước và mưa trong tín ngưỡng dân gian."
       }
     ]
   },
@@ -44,14 +44,14 @@
     "variants": [
       "龟"
     ],
-    "description": "龜 mô phỏng mai, đầu, chân và đuôi rùa; dạng giản thể là 龟. Bộ Quy gợi rùa, mai rùa, tuổi thọ và hình tượng bền bỉ chậm rãi.",
+    "description": "龜 là một chữ tượng hình đặc biệt sinh động: có thể nhận ra đầu rùa, bốn chân, chiếc mai chia ô và đuôi. Dạng giản thể 龟 lược mạnh số nét nhưng vẫn giữ dáng con vật có mai. Rùa gắn với tuổi thọ, bói toán bằng mai và sự bền bỉ trong văn hóa cổ, nên bộ Quy gợi rùa, mai rùa và những biểu tượng ấy.",
     "examples": [
       {
         "hanzi": "龟",
         "pinyin": "guī",
         "meaning": "rùa cạn; rùa nước",
-        "relation_type": "semantic",
-        "relation": "Có thể nhớ 龟 (“rùa cạn; rùa nước”) qua 龜: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation_type": "direct",
+        "relation": "龟 là dạng giản thể của 龜 và trực tiếp chỉ rùa; phần mai cong vẫn là chi tiết nhận diện trung tâm."
       }
     ]
   }

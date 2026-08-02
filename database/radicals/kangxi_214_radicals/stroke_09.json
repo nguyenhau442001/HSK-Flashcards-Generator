@@ -7,28 +7,28 @@
     "meaning": "mặt; bề mặt",
     "stroke_count": 9,
     "variants": [],
-    "description": "面 là khuôn mặt nhìn thẳng, rồi mở rộng thành bề mặt và một phía của vật. Bộ Diện khá ít chữ con; bản thân hình chữ đã là ví dụ rõ nhất cho ý “mặt”.",
+    "description": "面 trong giáp cốt văn vẽ đường viền một khuôn mặt nhìn thẳng, với con mắt nổi bật ở chính giữa. Từ \"mặt người\", nghĩa mở rộng tự nhiên sang bề mặt, phía, phương diện; còn nghĩa \"mì\" trong tiếng Trung hiện đại là một chữ đồng âm, dạng phồn thể viết 麵. Bộ Diện có rất ít chữ con, nhưng bản thân hình chữ là một ký hiệu trực quan cho mọi thứ nằm ở phía ngoài và hướng ra trước.",
     "examples": [
       {
         "hanzi": "面",
         "pinyin": "miàn",
         "meaning": "mặt; bề mặt",
         "relation_type": "direct",
-        "relation": "面 vừa là hình của bộ Diện vừa trực tiếp mang nghĩa “mặt; bề mặt”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "面 dùng trực tiếp cho khuôn mặt, rồi mở rộng thành mặt hay phía của một vật."
       },
       {
         "hanzi": "面孔",
         "pinyin": "miànkǒng",
         "meaning": "khuôn mặt",
         "relation_type": "semantic",
-        "relation": "Trong 面孔 (“khuôn mặt”), 面 vẫn giữ rõ nét nghĩa “mặt; bề mặt”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "面孔 ghép 面 (mặt) với 孔 (lỗ, nét mặt trong từ này) để chỉ toàn bộ khuôn mặt một người."
       },
       {
         "hanzi": "表面",
         "pinyin": "biǎomiàn",
         "meaning": "bề mặt",
         "relation_type": "semantic",
-        "relation": "Trong 表面 (“bề mặt”), 面 vẫn giữ rõ nét nghĩa “mặt; bề mặt”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "表面 đặt 表 (bên ngoài) trước 面, nhấn mạnh lớp mặt ngoài có thể nhìn thấy."
       }
     ]
   },
@@ -40,28 +40,28 @@
     "meaning": "da thuộc",
     "stroke_count": 9,
     "variants": [],
-    "description": "革 là tấm da thú đã căng và thuộc cho phẳng. Bộ Cách thường xuất hiện trong giày, ủng, roi, yên và các vật dụng truyền thống làm bằng da.",
+    "description": "革 ban đầu vẽ tấm da thú đã được lột ra và căng phẳng, còn thấy dấu phần đầu, thân và các chi ở bốn phía. Da sống phải qua cạo, thuộc và biến đổi mới dùng được; vì vậy 革 ngoài nghĩa \"da thuộc\" còn phát triển nghĩa \"thay đổi, cải cách\". Làm bộ, 革 thường đưa chữ về giày dép, roi, yên cương và các vật dụng truyền thống chế từ da.",
     "examples": [
       {
         "hanzi": "鞋",
         "pinyin": "xié",
         "meaning": "giày",
         "relation_type": "semantic",
-        "relation": "Có thể nhớ 鞋 (“giày”) qua 革: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation": "鞋 có 革 làm phần nghĩa vì giày thời xưa thường được làm từ da; 圭 góp âm."
       },
       {
         "hanzi": "鞭",
         "pinyin": "biān",
         "meaning": "roi",
         "relation_type": "semantic",
-        "relation": "Trong cấu tạo 鞭 (“roi”), 革 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
+        "relation": "鞭 giữ 革 để chỉ chiếc roi da, còn 便 góp âm cho toàn chữ."
       },
       {
         "hanzi": "靴",
         "pinyin": "xuē",
         "meaning": "ủng",
         "relation_type": "semantic",
-        "relation": "Từ 革 mang ý “da thuộc”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 靴 (“ủng”)."
+        "relation": "靴 dùng 革 làm nền nghĩa: ủng là một loại giày cổ cao thường may bằng da."
       }
     ]
   },
@@ -75,14 +75,14 @@
     "variants": [
       "韦"
     ],
-    "description": "韋 vốn gợi lớp da mềm đã xử lý, dạng giản thể là 韦. Trong chữ hiện đại, bộ Vi thường đóng vai trò gợi âm hoặc cấu tạo hơn là mở ra một nhóm nghĩa về da.",
+    "description": "韋 trong chữ cổ vẽ hai bàn chân đi vòng quanh một khu vực khép kín, gợi động tác bao quanh; về sau chữ được dùng cho da đã thuộc mềm và trở thành bộ Vi. Dạng giản thể là 韦. Do lớp nghĩa cổ đã mờ và số chữ con ít, 韋 trong chữ hiện đại thường hữu ích như một dấu hiệu cấu tạo hoặc phần gợi âm hơn là một chìa khóa nghĩa rõ như 革.",
     "examples": [
       {
         "hanzi": "韋",
         "pinyin": "wéi",
         "meaning": "da thuộc mềm",
         "relation_type": "direct",
-        "relation": "韋 vừa là hình của bộ Vi vừa trực tiếp mang nghĩa “da thuộc mềm”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "韋 tự mang nghĩa da thuộc mềm trong cách phân loại bộ thủ; đồng thời đây là dạng phồn thể của 韦."
       }
     ]
   },
@@ -94,14 +94,14 @@
     "meaning": "hẹ",
     "stroke_count": 9,
     "variants": [],
-    "description": "韭 vẽ những lá hẹ dài mọc thẳng từ mặt đất. Đây là bộ rất hiếm nhưng cực kỳ trực quan: các nét song song trông như cả luống hẹ non.",
+    "description": "韭 là một hình tượng hình rất dễ nhận: các lá hẹ dài, hẹp mọc thành bụi phía trên một đường đất nằm ngang. Hẹ bị cắt vẫn mọc lại từ gốc, nên các nét lá song song trông như một luống cây đang liên tục vươn lên. Bộ Cửu cực hiếm, gần như chỉ xuất hiện trong chính chữ hẹ và một vài dạng cổ liên quan.",
     "examples": [
       {
         "hanzi": "韮",
         "pinyin": "jiǔ",
         "meaning": "hẹ",
         "relation_type": "semantic",
-        "relation": "Từ 韭 mang ý “hẹ”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 韮 (“hẹ”)."
+        "relation": "韮 là dị thể của 韭; cả hai cùng chỉ cây hẹ và giữ nguyên hình bó lá mọc từ mặt đất."
       }
     ]
   },
@@ -113,28 +113,28 @@
     "meaning": "âm thanh",
     "stroke_count": 9,
     "variants": [],
-    "description": "音 là âm thanh bật ra từ miệng và được giữ thành tiếng. Bộ Âm có thể gợi tiếng động, giọng điệu, nhưng cũng thường làm phần gợi âm trong chữ hình thanh.",
+    "description": "音 phát triển từ 言 (lời nói) với một dấu thêm vào để nhấn mạnh tiếng phát ra, tức phần âm có thể nghe được chứ không chỉ nội dung lời. Từ tiếng nói, nghĩa mở rộng sang âm thanh, giọng, âm tiết và âm nhạc. Khi nằm trong chữ hình thanh như 意, 暗 hay 韵, 音 có lúc gợi nghĩa về tiếng, có lúc trở thành phần gợi âm nên phải xét cả cấu tạo.",
     "examples": [
       {
         "hanzi": "音",
         "pinyin": "yīn",
         "meaning": "âm thanh",
         "relation_type": "direct",
-        "relation": "音 vừa là hình của bộ Âm vừa trực tiếp mang nghĩa “âm thanh”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "音 đứng riêng đã là âm thanh hay tiếng; dấu trong hình chữ giúp phân biệt tiếng nghe được với lời 言."
       },
       {
         "hanzi": "声音",
         "pinyin": "shēngyīn",
         "meaning": "âm thanh; giọng nói",
         "relation_type": "semantic",
-        "relation": "Trong 声音 (“âm thanh; giọng nói”), 音 vẫn giữ rõ nét nghĩa “âm thanh”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "声音 ghép 声 (tiếng) và 音 (âm), chỉ âm thanh nói chung hoặc giọng của một người."
       },
       {
         "hanzi": "音乐",
         "pinyin": "yīnyuè",
         "meaning": "âm nhạc",
         "relation_type": "semantic",
-        "relation": "Trong 音乐 (“âm nhạc”), 音 vẫn giữ rõ nét nghĩa “âm thanh”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "音乐 kết hợp 音 với 乐 (nhạc, niềm vui), tạo nghĩa âm nhạc."
       }
     ]
   },
@@ -148,14 +148,14 @@
     "variants": [
       "页"
     ],
-    "description": "頁 vốn vẽ phần đầu của một người, sau được mượn làm “trang”; dạng giản thể là 页. Bộ Hiệt thường gợi đầu, mặt, cổ, suy nghĩ hoặc vị trí ở phía trên.",
+    "description": "頁 trong chữ cổ vẽ một người quỳ với chiếc đầu được phóng to nổi bật; nghĩa gốc của bộ vì thế là \"đầu\", không phải trang giấy. Nghĩa \"trang\" là cách mượn âm xuất hiện muộn hơn, và dạng giản thể 页 dùng cho cả hai. Trong chữ ghép, 頁 thường nằm bên phải hoặc phía dưới, dẫn nghĩa tới đầu, mặt, cổ, trạng thái tinh thần hay vị trí trên cùng.",
     "examples": [
       {
         "hanzi": "顶",
         "pinyin": "dǐng",
         "meaning": "đỉnh; phía trên",
         "relation_type": "semantic",
-        "relation": "顶 mang nghĩa “đỉnh; phía trên”; phần 頁 giúp người học lần về chủ đề “đầu; trang”."
+        "relation": "顶 (phồn thể 頂) ghép 丁 góp âm với 頁 gợi đầu: vị trí ở đỉnh chính là phần cao nhất, như đỉnh đầu."
       }
     ]
   },
@@ -169,28 +169,28 @@
     "variants": [
       "风"
     ],
-    "description": "風 là luồng gió cuốn sinh vật nhỏ bên trong; dạng giản thể là 风. Bộ Phong thường gợi gió, bão, sự phấp phới và những chuyển động do không khí tạo ra.",
+    "description": "風 trong dạng cổ chứa 凡 làm phần gợi âm và 虫, phản ánh quan niệm xưa rằng gió chuyển động thì côn trùng, sinh vật cũng sinh sôi và lay động. Dạng giản thể 风 lược bỏ nhiều nét bên trong. Dù nguồn gốc không đơn thuần là một bức vẽ luồng khí, bộ Phong trong sử dụng lại rất rõ nghĩa: gió, bão, sự cuốn xoáy, phấp phới và chuyển động do không khí.",
     "examples": [
       {
         "hanzi": "飓",
         "pinyin": "jù",
         "meaning": "bão",
         "relation_type": "semantic",
-        "relation": "飓 mang nghĩa “bão”; phần 風 giúp người học lần về chủ đề “gió”."
+        "relation": "飓 (phồn thể 颶) giữ 風 làm phần nghĩa: một cơn gió dữ có sức phá hoại lớn."
       },
       {
         "hanzi": "飘",
         "pinyin": "piāo",
         "meaning": "bay nhẹ; phấp phới",
         "relation_type": "semantic",
-        "relation": "Có thể nhớ 飘 (“bay nhẹ; phấp phới”) qua 風: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation": "飘 (phồn thể 飄) có 風 vì vật nhẹ bay, lay hoặc trôi theo luồng gió; 票 góp âm."
       },
       {
         "hanzi": "飙",
         "pinyin": "biāo",
         "meaning": "gió lốc",
         "relation_type": "semantic",
-        "relation": "Trong cấu tạo 飙 (“gió lốc”), 風 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
+        "relation": "飙 (phồn thể 飆) lấy 風 làm nền nghĩa cho luồng gió xoáy mạnh và nhanh."
       }
     ]
   },
@@ -204,15 +204,15 @@
     "variants": [
       "飞"
     ],
-    "description": "飛 mô phỏng đôi cánh xòe và chuyển động vút lên; dạng giản thể là 飞. Bộ Phi mang thẳng ý bay, lướt trong không trung hoặc chuyển động rất nhanh.",
+    "description": "飛 trong chữ cổ mô phỏng một sinh vật đang dang cánh, với các nét tỏa ra hai bên và thân chuyển động vút lên. Dạng giản thể 飞 chỉ giữ vài nét nhưng vẫn tạo cảm giác lao khỏi mặt đất. Bộ Phi mang nghĩa rất trực tiếp: bay, lướt trong không trung, tung lên hoặc chuyển động nhanh; nó cũng dễ xuất hiện trong những từ ghép dùng nghĩa bóng về tốc độ.",
     "examples": [
       {
         "hanzi": "飞",
         "pinyin": "fēi",
         "meaning": "bay",
         "traditional": "飛",
-        "relation_type": "semantic",
-        "relation": "Có thể nhớ 飞 (“bay”) qua 飛: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation_type": "direct",
+        "relation": "飞 là dạng giản thể của 飛 và trực tiếp mang nghĩa bay; hình rút gọn vẫn gợi một cánh đang vút lên."
       }
     ]
   },
@@ -226,7 +226,7 @@
     "variants": [
       "饣"
     ],
-    "description": "食 gợi một bữa ăn được bày dưới mái; khi đứng bên trái chữ giản thể, nó thành 饣. Bộ Thực thường dẫn tới cơm, đồ ăn, nếm uống, đói no và cách ăn.",
+    "description": "食 trong chữ cổ vẽ một nắp đậy đặt trên chiếc bát hay đồ đựng đầy thức ăn, gợi một bữa ăn đã được chuẩn bị. Khi đứng bên trái chữ giản thể, nó thu gọn thành 饣. Bộ Thực bao quát toàn bộ hoạt động ăn uống: món ăn, cơm, đồ uống, mùi vị, đói no và cách con người tiếp nhận thức ăn.",
     "examples": [
       {
         "hanzi": "饭",
@@ -234,7 +234,7 @@
         "meaning": "cơm; bữa ăn",
         "traditional": "飯",
         "relation_type": "semantic",
-        "relation": "Trong cấu tạo 饭 (“cơm; bữa ăn”), 食 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
+        "relation": "饭 (phồn thể 飯) dùng 饣/食 chỉ đồ ăn, còn 反 góp âm; từ cơm chín mở rộng thành cả bữa ăn."
       },
       {
         "hanzi": "饿",
@@ -242,7 +242,7 @@
         "meaning": "đói",
         "traditional": "餓",
         "relation_type": "semantic",
-        "relation": "Từ 食 mang ý “ăn; thức ăn”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 饿 (“đói”)."
+        "relation": "饿 (phồn thể 餓) có 饣 vì đói là trạng thái cơ thể thiếu thức ăn; 我 góp âm."
       },
       {
         "hanzi": "饮",
@@ -250,7 +250,7 @@
         "meaning": "uống",
         "traditional": "飲",
         "relation_type": "semantic",
-        "relation": "Trong 饮 (“uống”), 食 là đầu mối gợi nghĩa, nối chữ với hình ảnh “ăn; thức ăn”."
+        "relation": "饮 (phồn thể 飲) giữ 食 trong cấu tạo vì uống là đưa chất lỏng vào cơ thể, song song với ăn."
       }
     ]
   },
@@ -262,28 +262,28 @@
     "meaning": "đầu; đầu tiên",
     "stroke_count": 9,
     "variants": [],
-    "description": "首 vẽ phần đầu với tóc ở phía trên, rồi mở rộng thành “đầu tiên, đứng đầu”. Bộ Thủ có thể gợi đầu, cổ hoặc vị trí mở đầu của một chuỗi.",
+    "description": "首 trong chữ cổ là hình một cái đầu nhìn thẳng, có tóc ở phía trên và khuôn mặt bên dưới. Vì đầu nằm ở vị trí cao nhất và dẫn cả cơ thể, chữ mở rộng từ nghĩa \"đầu\" sang \"đầu tiên, đứng đầu, người lãnh đạo\". Bộ Thủ vì thế có thể gợi bộ phận đầu cổ hoặc vị trí mở đầu của một thứ tự.",
     "examples": [
       {
         "hanzi": "首",
         "pinyin": "shǒu",
         "meaning": "đầu; đầu tiên",
         "relation_type": "direct",
-        "relation": "首 vừa là hình của bộ Thủ vừa trực tiếp mang nghĩa “đầu; đầu tiên”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "首 đứng riêng vừa là cái đầu vừa là vị trí đầu tiên; hai nghĩa nối với nhau qua vị trí dẫn đầu cơ thể."
       },
       {
         "hanzi": "首先",
         "pinyin": "shǒuxiān",
         "meaning": "trước hết",
         "relation_type": "semantic",
-        "relation": "Trong 首先 (“trước hết”), 首 vẫn giữ rõ nét nghĩa “đầu; đầu tiên”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "首先 dùng 首 theo nghĩa thứ tự: phần ở đầu, xảy ra trước mọi việc khác."
       },
       {
         "hanzi": "首都",
         "pinyin": "shǒudū",
         "meaning": "thủ đô",
         "relation_type": "semantic",
-        "relation": "Trong 首都 (“thủ đô”), 首 vẫn giữ rõ nét nghĩa “đầu; đầu tiên”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "首都 là đô thị đứng đầu một quốc gia, nơi đặt trung tâm chính trị."
       }
     ]
   },
@@ -295,21 +295,21 @@
     "meaning": "thơm",
     "stroke_count": 9,
     "variants": [],
-    "description": "香 ghép lúa 禾 với vị ngọt 甘, gợi mùi thơm của ngũ cốc chín. Bộ Hương thường dẫn tới hương thơm, mùi dễ chịu và sự lan tỏa của mùi.",
+    "description": "香 gắn hình ảnh hạt ngũ cốc chín với cảm giác ngon, thơm: thứ lương thực vừa nấu tỏa mùi dễ chịu là chiếc neo rất gần gũi cho chữ. Từ mùi thơm của thức ăn, 香 mở rộng sang hương hoa, hương liệu và mọi mùi dễ chịu. Làm bộ, nó thường nằm dưới hoặc trong chữ để gợi hương thơm và sự lan tỏa của mùi.",
     "examples": [
       {
         "hanzi": "馥",
         "pinyin": "fù",
         "meaning": "hương thơm",
         "relation_type": "semantic",
-        "relation": "Trong 馥 (“hương thơm”), 香 là đầu mối gợi nghĩa, nối chữ với hình ảnh “thơm”."
+        "relation": "馥 có 香 làm phần nghĩa, chỉ hương thơm đậm và lan xa; 复 góp âm."
       },
       {
         "hanzi": "馨",
         "pinyin": "xīn",
         "meaning": "thơm ngát",
         "relation_type": "semantic",
-        "relation": "Ở 馨 (“thơm ngát”), nét nghĩa của 香 vẫn hiện khá rõ: chữ được đặt trong trường ý “thơm”."
+        "relation": "馨 đặt 香 ở dưới để chốt nghĩa \"thơm ngát\"; phần trên gợi âm và tạo hình hương tỏa từ vật."
       }
     ]
   }

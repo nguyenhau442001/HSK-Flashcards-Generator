@@ -9,7 +9,7 @@
     "variants": [
       "钅"
     ],
-    "description": "金 là kim loại quý lấp lánh trong lòng đất; khi đứng bên trái chữ giản thể, nó thành 钅. Bộ Kim thường dẫn thẳng tới vàng bạc, tiền, kim loại, dụng cụ và âm thanh kim khí.",
+    "description": "金 trong chữ cổ vẽ những mẩu kim loại được tìm thấy hoặc đúc thành khối, về sau trở thành tên chung cho kim loại và cũng dùng riêng cho vàng. Khi đứng bên trái chữ giản thể, nó thu gọn thành 钅. Vì kim loại từng làm tiền, vũ khí và dụng cụ, bộ Kim mở ra một trường nghĩa rất rộng: vàng bạc, sắt thép, tiền bạc, đồ kim khí và âm thanh do kim loại phát ra.",
     "examples": [
       {
         "hanzi": "钱",
@@ -17,7 +17,7 @@
         "meaning": "tiền",
         "traditional": "錢",
         "relation_type": "semantic",
-        "relation": "Từ 金 mang ý “kim loại; vàng”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 钱 (“tiền”)."
+        "relation": "钱 (phồn thể 錢) dùng 钅/金 làm nền nghĩa: tiền đúc thời xưa chủ yếu là vật bằng kim loại."
       },
       {
         "hanzi": "铁",
@@ -25,7 +25,7 @@
         "meaning": "sắt",
         "traditional": "鐵",
         "relation_type": "semantic",
-        "relation": "Trong 铁 (“sắt”), 金 là đầu mối gợi nghĩa, nối chữ với hình ảnh “kim loại; vàng”."
+        "relation": "铁 (phồn thể 鐵) mang 钅 để xếp sắt vào đúng nhóm kim loại; phần còn lại góp âm."
       },
       {
         "hanzi": "银",
@@ -33,7 +33,7 @@
         "meaning": "bạc",
         "traditional": "銀",
         "relation_type": "semantic",
-        "relation": "Ở 银 (“bạc”), nét nghĩa của 金 vẫn hiện khá rõ: chữ được đặt trong trường ý “kim loại; vàng”."
+        "relation": "银 (phồn thể 銀) giữ 钅 làm phần nghĩa vì bạc là một kim loại quý, từng được dùng làm tiền."
       }
     ]
   },
@@ -47,28 +47,28 @@
     "variants": [
       "长"
     ],
-    "description": "長 vẽ mái tóc dài của một người, từ đó mang nghĩa “dài”; dạng giản thể là 长. Trong nhiều chữ hình thanh, bộ Trường chủ yếu góp âm, nên cần nhìn phần còn lại để đoán nghĩa.",
+    "description": "長 trong giáp cốt văn vẽ một người có mái tóc dài buông xuống sau lưng; chính độ dài nổi bật của tóc tạo nên nghĩa gốc \"dài\". Từ chiều dài, chữ còn phát triển các nghĩa \"lớn lên\" và \"người đứng đầu\" (đọc zhǎng). Dạng giản thể là 长. Trong chữ hình thanh, 長 thường góp âm hơn là nghĩa, nên cần nhìn bộ còn lại để phân tích.",
     "examples": [
       {
         "hanzi": "長",
         "pinyin": "cháng",
         "meaning": "dài",
         "relation_type": "direct",
-        "relation": "長 vừa là hình của bộ Trường vừa trực tiếp mang nghĩa “dài”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "長 tự thân là chữ \"dài\": mái tóc kéo thành một dải dài trong hình chữ cổ là chiếc neo ghi nhớ trực tiếp."
       },
       {
         "hanzi": "长度",
         "pinyin": "chángdù",
         "meaning": "độ dài",
         "relation_type": "semantic",
-        "relation": "Trong 长度 (“độ dài”), 長 vẫn giữ rõ nét nghĩa “dài”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "长度 dùng 长 theo nghĩa đo được: chiều dài của một vật hay một khoảng."
       },
       {
         "hanzi": "长短",
         "pinyin": "chángduǎn",
         "meaning": "dài ngắn",
         "relation_type": "semantic",
-        "relation": "Trong 长短 (“dài ngắn”), 長 vẫn giữ rõ nét nghĩa “dài”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "长短 đặt 长 (dài) cạnh 短 (ngắn), tạo thành cặp đối lập chỉ độ dài hoặc ưu khuyết."
       }
     ]
   },
@@ -82,15 +82,15 @@
     "variants": [
       "门"
     ],
-    "description": "門 là cánh cổng hai bên đang mở; dạng giản thể là 门. Bộ Môn thường tạo không gian trong–ngoài và gợi cửa ngõ, phòng ốc, đóng mở hoặc điều xảy ra sau cánh cửa.",
+    "description": "門 là hình nhìn thẳng vào một cánh cổng hai lá: hai trụ đứng, thanh ngang phía trên và hai cánh có thể khép mở ở giữa. Dạng giản thể 门 giữ lại đường viền chính. Khi một thành phần khác nằm trong 門, người học có thể hình dung điều gì đang diễn ra \"sau cánh cửa\"; tuy vậy, trong một số chữ như 問, 門 chủ yếu góp âm chứ không trực tiếp góp nghĩa.",
     "examples": [
       {
         "hanzi": "问",
         "pinyin": "wèn",
         "meaning": "hỏi",
         "traditional": "問",
-        "relation_type": "semantic",
-        "relation": "Ở 问 (“hỏi”), nét nghĩa của 門 vẫn hiện khá rõ: chữ được đặt trong trường ý “cổng; cửa”."
+        "relation_type": "phonetic",
+        "relation": "问 (phồn thể 問) là chữ hình thanh: 口 gợi việc mở miệng hỏi, còn 門 gần âm và giữ vai trò gợi âm lịch sử."
       },
       {
         "hanzi": "间",
@@ -98,7 +98,7 @@
         "meaning": "khoảng; phòng",
         "traditional": "間",
         "relation_type": "semantic",
-        "relation": "间 mang nghĩa “khoảng; phòng”; phần 門 giúp người học lần về chủ đề “cổng; cửa”."
+        "relation": "间 (phồn thể 間) đặt ánh sáng 日 lọt qua khe hai cánh 門, từ \"khe cửa\" phát triển thành khoảng cách và gian phòng."
       },
       {
         "hanzi": "闷",
@@ -106,7 +106,7 @@
         "meaning": "buồn bực; ngột ngạt",
         "traditional": "悶",
         "relation_type": "semantic",
-        "relation": "Có thể nhớ 闷 (“buồn bực; ngột ngạt”) qua 門: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation": "闷 (phồn thể 悶) đặt 心 trong 門: trái tim như bị nhốt kín sau cửa, gợi cảm giác bức bối, ngột ngạt."
       }
     ]
   },
@@ -120,21 +120,21 @@
     "variants": [
       "阝"
     ],
-    "description": "阜 là gò đất có nhiều bậc; khi đứng bên trái, nó cũng biến thành 阝. Bộ Phụ thường gợi đồi dốc, bậc cao thấp, địa hình và những nơi được xây trên đất.",
+    "description": "阜 trong chữ cổ vẽ một gò đất hay sườn dốc có nhiều tầng, giống các bậc đất nối tiếp nhau. Khi làm bộ bên trái, nó thu gọn thành 阝. Hình này rất dễ nhầm với 阝 bên phải của 邑: bên trái là \"đồi đất\", bên phải là \"thành ấp\". Bộ Phụ thường gợi địa hình cao thấp, gò đồi, bậc dốc, nền đất và những nơi được xây trên đất.",
     "examples": [
       {
         "hanzi": "阶",
         "pinyin": "jiē",
         "meaning": "bậc; cấp",
         "relation_type": "semantic",
-        "relation": "阶 mang nghĩa “bậc; cấp”; phần 阜 giúp người học lần về chủ đề “gò; đồi”."
+        "relation": "阶 (階) có 阝 bên trái từ 阜: các bậc tạo thành một dãy cao thấp như sườn đất có tầng."
       },
       {
         "hanzi": "院",
         "pinyin": "yuàn",
         "meaning": "sân",
         "relation_type": "semantic",
-        "relation": "Có thể nhớ 院 (“sân”) qua 阜: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation": "院 đặt 阝 cạnh 完 góp âm; nghĩa ban đầu gắn với khu nhà và khoảng sân được xác định trên một nền đất."
       }
     ]
   },
@@ -146,14 +146,14 @@
     "meaning": "nô lệ; theo",
     "stroke_count": 8,
     "variants": [],
-    "description": "隶 gợi bàn tay bắt giữ một người, từ đó có nghĩa lệ thuộc hay nô lệ. Ngày nay bộ Đãi hiếm khi làm chìa khóa nghĩa, nhưng vẫn quan trọng khi nhận diện chữ cổ.",
+    "description": "隶 trong dạng cổ thường được giải thích như một bàn tay đang nắm giữ hoặc bắt lấy, từ đó phát triển ý \"theo sát, lệ thuộc\" rồi chỉ người ở địa vị tôi tớ. Chữ 隸 phồn thể sau này dùng chính 隶 làm phần gợi âm. Đây là một bộ rất hiếm; giá trị thực tế của nó nằm nhiều ở việc nhận diện lịch sử chữ viết và tên gọi \"lệ thư\" hơn là đoán nghĩa của nhiều chữ hiện đại.",
     "examples": [
       {
         "hanzi": "隶",
         "pinyin": "lì",
         "meaning": "lệ thuộc; nô lệ",
         "relation_type": "direct",
-        "relation": "隶 chính là hình của bộ Đãi; nghĩa của chữ và nghĩa bộ trùng nhau nên đây là ví dụ trực tiếp nhất."
+        "relation": "隶 dùng trực tiếp với nghĩa lệ thuộc, thuộc về; đây cũng là dạng giản thể của 隸 trong những từ như 奴隶 (nô lệ)."
       }
     ]
   },
@@ -165,14 +165,14 @@
     "meaning": "chim đuôi ngắn",
     "stroke_count": 8,
     "variants": [],
-    "description": "隹 phác một con chim thân tròn, đuôi ngắn. Bộ Chuy thường xuất hiện trong tên chim hoặc những chữ có nguồn gốc liên quan đến chim, dù đôi lúc chỉ làm phần gợi âm.",
+    "description": "隹 vẽ một con chim nhỏ nhìn nghiêng, với đầu, mỏ, thân tròn, cánh và chiếc đuôi ngắn. Người xưa dùng 隹 để phân biệt nhóm chim đuôi ngắn với 鳥, hình chim có đuôi dài rõ hơn, dù ranh giới này không còn tuyệt đối trong chữ hiện đại. Bộ Chuy thường làm phần nghĩa trong tên chim và các chữ liên quan đến chim; ở nhiều chữ khác nó có thể chỉ còn vai trò gợi âm.",
     "examples": [
       {
         "hanzi": "雀",
-        "pinyin": "qiāo",
+        "pinyin": "què",
         "meaning": "chim sẻ",
         "relation_type": "semantic",
-        "relation": "Trong cấu tạo 雀 (“chim sẻ”), 隹 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
+        "relation": "雀 ghép 小 với 隹: một con chim nhỏ thuộc nhóm chim đuôi ngắn, tức chim sẻ."
       }
     ]
   },
@@ -184,28 +184,28 @@
     "meaning": "mưa",
     "stroke_count": 8,
     "variants": [],
-    "description": "雨 vẽ những giọt nước rơi từ tầng mây. Bộ Vũ thường nằm trên đầu chữ và bao trùm cả thế giới thời tiết: mưa, tuyết, sấm, sương và mây.",
+    "description": "雨 trong giáp cốt văn là một bầu trời hay tầng mây nằm ngang, bên dưới có nhiều chấm nước đang rơi. Khi làm đầu chữ, 雨 phủ lên thành phần phía dưới như một đám mây. Vì thế bộ Vũ quy tụ gần như cả bức tranh thời tiết trên cao: mưa, tuyết, sấm, chớp, sương, mây và những hiện tượng xảy ra trong khí quyển.",
     "examples": [
       {
         "hanzi": "雪",
         "pinyin": "xuě",
         "meaning": "tuyết",
         "relation_type": "semantic",
-        "relation": "Từ 雨 mang ý “mưa”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 雪 (“tuyết”)."
+        "relation": "雪 đặt 雨 phía trên để chỉ nước từ trời rơi xuống dưới dạng tuyết; phần dưới vốn liên hệ với thao tác quét sạch, gợi mặt đất trắng xóa."
       },
       {
         "hanzi": "雷",
         "pinyin": "léi",
         "meaning": "sấm sét",
         "relation_type": "semantic",
-        "relation": "Trong 雷 (“sấm sét”), 雨 là đầu mối gợi nghĩa, nối chữ với hình ảnh “mưa”."
+        "relation": "雷 có 雨 bao lấy 田: tiếng sấm cuộn vang trong mây mưa, còn 田 là phần phát triển từ hình các vòng sấm và góp âm lịch sử."
       },
       {
         "hanzi": "雾",
         "pinyin": "wù",
         "meaning": "sương mù",
         "relation_type": "semantic",
-        "relation": "Ở 雾 (“sương mù”), nét nghĩa của 雨 vẫn hiện khá rõ: chữ được đặt trong trường ý “mưa”."
+        "relation": "雾 (phồn thể 霧) đội 雨 vì sương mù là những hạt nước li ti lơ lửng trong không khí."
       }
     ]
   },
@@ -217,28 +217,28 @@
     "meaning": "xanh",
     "stroke_count": 8,
     "variants": [],
-    "description": "青 là sắc xanh trong và tươi. Ngoài nghĩa màu sắc, 青 còn là một phần gợi âm rất năng suất: nhìn bộ đi kèm trong 清, 请, 情 sẽ thấy mỗi chữ rẽ sang một trường nghĩa khác.",
+    "description": "青 gọi một dải màu rộng hơn khái niệm \"xanh\" hiện đại, có thể nghiêng từ xanh lá, xanh lam đến xanh sẫm tùy ngữ cảnh. Màu ấy gợi sức sống non trẻ nên 青 còn đi vào các từ chỉ tuổi trẻ. Trong hệ chữ hình thanh, 青 là một phần gợi âm đặc biệt năng suất: thêm 氵, 忄, 讠 hay 日 sẽ tạo 清, 情, 请, 晴 với các trường nghĩa hoàn toàn khác.",
     "examples": [
       {
         "hanzi": "青",
         "pinyin": "qīng",
         "meaning": "xanh",
         "relation_type": "direct",
-        "relation": "青 vừa là hình của bộ Thanh vừa trực tiếp mang nghĩa “xanh”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "青 tự mang nghĩa màu xanh; đây là cách dùng trực tiếp nhất của bộ Thanh."
       },
       {
         "hanzi": "青色",
         "pinyin": "qīngsè",
         "meaning": "màu xanh",
         "relation_type": "semantic",
-        "relation": "Trong 青色 (“màu xanh”), 青 vẫn giữ rõ nét nghĩa “xanh”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "青色 ghép 青 với 色 để gọi tên rõ ràng một màu trong dải xanh."
       },
       {
         "hanzi": "青山",
         "pinyin": "qīngshān",
         "meaning": "núi xanh",
         "relation_type": "semantic",
-        "relation": "Trong 青山 (“núi xanh”), 青 vẫn giữ rõ nét nghĩa “xanh”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "青山 dùng 青 tả núi phủ cây cối xanh tươi, từ đó gợi cảnh non xanh."
       }
     ]
   },
@@ -250,21 +250,21 @@
     "meaning": "không; sai",
     "stroke_count": 8,
     "variants": [],
-    "description": "非 gợi hai cánh quay ngược hướng, từ đó mang ý trái, sai hoặc “không phải”. Trong chữ ghép, bộ Phi đôi khi giữ nét phủ định, đôi khi chỉ tham gia cấu tạo hay gợi âm.",
+    "description": "非 trong chữ cổ trông như hai cánh hoặc hai dãy nét quay lưng, tách ra theo hai hướng trái ngược. Từ hình ảnh \"không cùng hướng\", chữ phát triển nghĩa sai khác, trái với điều đúng, rồi thành từ phủ định \"không phải\". Bộ Phi có thể giữ nét nghĩa đối lập hay sai trái, nhưng trong không ít chữ ghép nó chủ yếu là một thành phần cấu tạo hoặc gợi âm.",
     "examples": [
       {
         "hanzi": "非",
         "pinyin": "fēi",
         "meaning": "không phải; sai",
         "relation_type": "direct",
-        "relation": "非 vừa là hình của bộ Phi vừa trực tiếp mang nghĩa “không; sai”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "非 đứng một mình đã mang nghĩa \"không phải, sai\"; hai phía quay ngược nhau là hình ảnh ghi nhớ cốt lõi."
       },
       {
         "hanzi": "是非",
         "pinyin": "shìfēi",
         "meaning": "đúng sai; thị phi",
         "relation_type": "semantic",
-        "relation": "Trong 是非 (“đúng sai; thị phi”), 非 vẫn giữ rõ nét nghĩa “không; sai”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "是非 đặt 是 (đúng) đối với 非 (sai), vì vậy chỉ chuyện đúng sai và rộng hơn là những điều thị phi."
       }
     ]
   }

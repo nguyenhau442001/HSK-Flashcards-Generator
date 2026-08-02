@@ -9,28 +9,28 @@
     "variants": [
       "黄"
     ],
-    "description": "黃 là sắc vàng của đất và ánh sáng; dạng giản thể là 黄. Bộ Hoàng có thể gợi màu vàng, nhưng trong nhiều chữ nó chỉ góp âm nên không nên suy nghĩa quá máy móc.",
+    "description": "黃 là một chữ tượng hình có nguồn gốc cổ và cách giải thích hình thể còn nhiều ý kiến; điều chắc chắn là chữ đã được dùng rất sớm để chỉ màu vàng. Dạng giản thể 黄 chỉ thay đổi nhẹ nét viết. Trong văn hóa ngũ hành, vàng gắn với đất và phương trung tâm. Làm bộ, 黃 có thể gợi màu sắc, nhưng trong nhiều chữ như 橫 hay 簧, nó chủ yếu góp âm.",
     "examples": [
       {
         "hanzi": "黃",
         "pinyin": "huáng",
         "meaning": "màu vàng",
         "relation_type": "direct",
-        "relation": "黃 vừa là hình của bộ Hoàng vừa trực tiếp mang nghĩa “vàng (màu)”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "黃 đứng riêng là màu vàng; đây là quan hệ trực tiếp giữa bộ và chữ."
       },
       {
         "hanzi": "黄色",
         "pinyin": "huángsè",
         "meaning": "màu vàng",
         "relation_type": "semantic",
-        "relation": "Trong 黄色 (“màu vàng”), 黃 vẫn giữ rõ nét nghĩa “vàng (màu)”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "黄色 thêm 色 (màu sắc) sau 黄 để gọi tên màu vàng một cách rõ ràng."
       },
       {
         "hanzi": "金黄",
         "pinyin": "jīnhuáng",
         "meaning": "vàng óng",
         "relation_type": "semantic",
-        "relation": "Trong 金黄 (“vàng óng”), 黃 vẫn giữ rõ nét nghĩa “vàng (màu)”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "金黄 ghép 金 với 黄, gợi sắc vàng óng và ánh kim rực rỡ."
       }
     ]
   },
@@ -42,14 +42,14 @@
     "meaning": "kê; cao lương",
     "stroke_count": 12,
     "variants": [],
-    "description": "黍 vẽ cây kê có bông nặng và hạt rơi xuống. Bộ Thử gắn với kê, ngũ cốc và lương thực cổ, dù ngày nay khá hiếm gặp.",
+    "description": "黍 vẽ một cây kê với bông hạt nặng trĩu và những hạt nhỏ rơi xuống; trong dạng phát triển còn có nét gợi chất lỏng, liên hệ với việc nấu kê hoặc ủ rượu. Kê từng là một trong ngũ cốc chủ lực của miền Bắc Trung Quốc cổ đại. Bộ Thử vì thế gắn với hạt kê, tính dẻo dính của cơm kê, lương thực và việc lên men.",
     "examples": [
       {
-        "hanzi": "糜",
-        "pinyin": "méi",
-        "meaning": "kê",
+        "hanzi": "黏",
+        "pinyin": "nián",
+        "meaning": "dính; nhớt",
         "relation_type": "semantic",
-        "relation": "Từ 黍 mang ý “kê; cao lương”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 糜 (“kê”)."
+        "relation": "黏 ghép 黍 làm phần nghĩa với 占 góp âm: hạt kê nấu chín có độ dẻo dính, từ đó chữ mang nghĩa \"dính, nhớt\"."
       }
     ]
   },
@@ -61,21 +61,21 @@
     "meaning": "đen; tối",
     "stroke_count": 12,
     "variants": [],
-    "description": "黑 gợi màu đen của khói ám quanh lửa. Bộ Hắc thường dẫn tới sắc đen, bóng tối, mực, sự u ám hoặc trạng thái không có ánh sáng.",
+    "description": "黑 theo lối giải thích truyền thống gợi màu đen do lửa và khói hun ám: phần dưới liên hệ với lửa, phần trên như lớp muội tích lại. Từ màu của bồ hóng, chữ trở thành tên cơ bản của sắc đen. Bộ Hắc thường dẫn tới đen, tối, mực, vết nhọ, sự u ám hoặc nghĩa bóng về điều bí mật và không minh bạch.",
     "examples": [
       {
         "hanzi": "墨",
         "pinyin": "mò",
         "meaning": "thỏi mực",
         "relation_type": "semantic",
-        "relation": "Từ 黑 mang ý “đen; tối”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 墨 (“thỏi mực”)."
+        "relation": "墨 ghép 黑 (đen) với 土: thỏi mực đen cổ được ép thành khối rắn, rồi mài với nước để viết."
       },
       {
         "hanzi": "黯",
         "pinyin": "àn",
         "meaning": "tối; u ám",
         "relation_type": "semantic",
-        "relation": "Ở 黯 (“tối; u ám”), nét nghĩa của 黑 vẫn hiện khá rõ: chữ được đặt trong trường ý “đen; tối”."
+        "relation": "黯 dùng 黑 làm nền nghĩa cho màu tối, ánh sáng mờ và cảm giác u ám; 音 góp âm."
       }
     ]
   },
@@ -87,14 +87,14 @@
     "meaning": "thêu thùa",
     "stroke_count": 12,
     "variants": [],
-    "description": "黹 gợi những mũi kim và đường chỉ tạo hoa văn trên vải. Bộ Chỉ là dấu vết tinh xảo của nghề thêu, may và trang trí bằng chỉ màu.",
+    "description": "黹 mô phỏng các mũi kim, sợi chỉ và đường hoa văn được thêu trên mặt vải. Các nét đối xứng trông như một họa tiết đang tỏa ra từ đường chỉ trung tâm, nhắc đến công việc trang trí hàng dệt thời cổ. Bộ Chỉ cực hiếm nhưng trường nghĩa rất tập trung: thêu thùa, may vá, hoa văn và kỹ thuật tạo hình bằng chỉ màu.",
     "examples": [
       {
         "hanzi": "黺",
         "pinyin": "fěn",
         "meaning": "hoa văn thêu cổ",
         "relation_type": "semantic",
-        "relation": "Trong 黺 (“hoa văn thêu cổ”), 黹 là đầu mối gợi nghĩa, nối chữ với hình ảnh “thêu thùa”."
+        "relation": "黺 có 黹 làm phần nghĩa, chỉ một kiểu hoa văn thêu cổ; 分 góp âm và cũng gợi các nét hoa văn được chia đều."
       }
     ]
   }

@@ -9,7 +9,7 @@
     "variants": [
       "见"
     ],
-    "description": "見 ghép con mắt 目 với đôi chân 儿: có mắt và bước tới thì “nhìn thấy”; dạng giản thể là 见. Bộ Kiến thường gợi nhìn, quan sát, gặp gỡ và quan điểm.",
+    "description": "見 ghép một con mắt 目 phóng to lên trên đôi chân người 儿 bên dưới — hình ảnh một người đang mở to mắt nhìn. Có mắt để nhìn và tư thế của một người đang hiện diện, quan sát: đó chính là \"nhìn thấy\". Dạng giản thể là 见. Bộ Kiến thường gợi nhìn, quan sát, gặp gỡ và quan điểm.",
     "examples": [
       {
         "hanzi": "视",
@@ -17,7 +17,7 @@
         "meaning": "nhìn; xem",
         "traditional": "視",
         "relation_type": "semantic",
-        "relation": "Có thể nhớ 视 (“nhìn; xem”) qua 見: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation": "视 (phồn thể 視) ghép 見 (nhìn) với 示 góp âm, giữ nguyên nghĩa gốc \"quan sát bằng mắt\"."
       },
       {
         "hanzi": "观",
@@ -25,7 +25,7 @@
         "meaning": "nhìn",
         "traditional": "觀",
         "relation_type": "semantic",
-        "relation": "Trong cấu tạo 观 (“nhìn”), 見 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
+        "relation": "观 (phồn thể 觀) dùng 見 làm nền nghĩa: hành động ngắm nhìn, quan sát kỹ lưỡng."
       },
       {
         "hanzi": "览",
@@ -33,7 +33,7 @@
         "meaning": "nhìn",
         "traditional": "覽",
         "relation_type": "semantic",
-        "relation": "Từ 見 mang ý “nhìn; thấy”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 览 (“nhìn”)."
+        "relation": "览 (phồn thể 覽) giữ 見 để chỉ việc nhìn bao quát, xem qua toàn bộ."
       }
     ]
   },
@@ -45,28 +45,29 @@
     "meaning": "sừng; góc",
     "stroke_count": 7,
     "variants": [],
-    "description": "角 vẽ chiếc sừng nhọn trên đầu con vật. Bộ Giác thường gợi sừng, góc cạnh, sự chạm vào hoặc những vật có đầu nhọn và cứng.",
+    "description": "角 vẽ một chiếc sừng thú với những đường vân ngang lặp lại dọc thân sừng — chi tiết rất thật, mô phỏng đúng các đường gờ tự nhiên trên sừng trâu, sừng dê. Từ hình dáng nhọn, có cạnh của chiếc sừng, bộ Giác mở rộng nghĩa sang \"góc\", điểm nhọn nơi hai cạnh gặp nhau.",
     "examples": [
       {
         "hanzi": "角",
         "pinyin": "jiǎo",
         "meaning": "sừng; góc",
         "relation_type": "direct",
-        "relation": "角 vừa là hình của bộ Giác vừa trực tiếp mang nghĩa “sừng; góc”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "角 giữ nguyên hình chiếc sừng có vân ngang, nay mang cả hai nghĩa \"sừng\" và \"góc\"."
       },
       {
         "hanzi": "角度",
         "pinyin": "jiǎodù",
         "meaning": "góc độ",
         "relation_type": "semantic",
-        "relation": "Trong 角度 (“góc độ”), 角 vẫn giữ rõ nét nghĩa “sừng; góc”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "角度 ghép 角 (góc) với 度 (độ) để đo chính xác độ mở của một góc."
       },
       {
         "hanzi": "牛角",
         "pinyin": "niújiǎo",
         "meaning": "sừng bò",
+        "traditional": "牛角",
         "relation_type": "semantic",
-        "relation": "Trong 牛角 (“sừng bò”), 角 vẫn giữ rõ nét nghĩa “sừng; góc”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "牛角 dùng 角 theo đúng nghĩa gốc: cặp sừng mọc trên đầu con bò."
       }
     ]
   },
@@ -80,7 +81,7 @@
     "variants": [
       "讠"
     ],
-    "description": "言 là lời nói được phát ra thành câu; khi đứng bên trái chữ giản thể, nó thành 讠. Bộ Ngôn bao quát nói, hỏi, kể, hứa, ngôn ngữ và mọi hoạt động giao tiếp bằng lời.",
+    "description": "言 vẽ một cái miệng với những vạch nhỏ phía trên tượng trưng cho âm thanh, lời nói đang phát ra — giống cách một số pictograph khác dùng vạch ngắn để biểu thị hơi hoặc tiếng động. Khi đứng bên trái chữ giản thể, nó thu gọn thành 讠. Bộ Ngôn bao trùm mọi hoạt động giao tiếp bằng lời: nói, hỏi, kể, hứa, ngôn ngữ.",
     "examples": [
       {
         "hanzi": "说",
@@ -88,7 +89,7 @@
         "meaning": "nói",
         "traditional": "說",
         "relation_type": "semantic",
-        "relation": "Từ 言 mang ý “lời nói; ngôn ngữ”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 说 (“nói”)."
+        "relation": "说 (phồn thể 說) dùng 讠 làm nền nghĩa, ghép với 兑 góp âm — hành động phát ra lời."
       },
       {
         "hanzi": "话",
@@ -96,7 +97,7 @@
         "meaning": "lời nói",
         "traditional": "話",
         "relation_type": "semantic",
-        "relation": "Trong 话 (“lời nói”), 言 là đầu mối gợi nghĩa, nối chữ với hình ảnh “lời nói; ngôn ngữ”."
+        "relation": "话 (phồn thể 話) giữ 讠 để chỉ chính sản phẩm của hành động nói: lời, câu chuyện."
       },
       {
         "hanzi": "语",
@@ -104,7 +105,7 @@
         "meaning": "ngôn ngữ",
         "traditional": "語",
         "relation_type": "semantic",
-        "relation": "Ở 语 (“ngôn ngữ”), nét nghĩa của 言 vẫn hiện khá rõ: chữ được đặt trong trường ý “lời nói; ngôn ngữ”."
+        "relation": "语 (phồn thể 語) dùng 讠 vì ngôn ngữ, xét cho cùng, là một hệ thống lời nói có quy tắc."
       }
     ]
   },
@@ -116,28 +117,28 @@
     "meaning": "thung lũng",
     "stroke_count": 7,
     "variants": [],
-    "description": "谷 gợi khe nước mở ra giữa hai sườn núi — một thung lũng. Bộ Cốc có thể giữ hình ảnh vùng lõm, khe núi, nhưng trong nhiều chữ nó chỉ đóng vai trò gợi âm.",
+    "description": "Thuyết văn giải tự mô tả 谷 là dòng suối len giữa hai sườn núi rồi đổ ra thành sông — phần trên vẽ hai vách núi choãi ra như chữ 八, phần dưới là cửa miệng 口 nơi nước thoát ra ngoài. Bộ Cốc giữ hình ảnh vùng lõm, khe núi, nhưng trong nhiều chữ hình thanh nó chỉ đóng vai trò gợi âm.",
     "examples": [
       {
         "hanzi": "谷",
         "pinyin": "gǔ",
         "meaning": "thung lũng",
         "relation_type": "direct",
-        "relation": "谷 vừa là hình của bộ Cốc vừa trực tiếp mang nghĩa “thung lũng”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "谷 giữ nguyên hình khe nước chảy giữa hai vách núi — hình ảnh trực tiếp của một thung lũng."
       },
       {
         "hanzi": "山谷",
         "pinyin": "shāngǔ",
         "meaning": "thung lũng",
         "relation_type": "semantic",
-        "relation": "Trong 山谷 (“thung lũng”), 谷 vẫn giữ rõ nét nghĩa “thung lũng”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "山谷 ghép 山 (núi) với 谷 để nhấn mạnh địa hình: một khe trũng nằm giữa các ngọn núi."
       },
       {
         "hanzi": "峡谷",
         "pinyin": "xiágǔ",
         "meaning": "hẻm núi",
         "relation_type": "semantic",
-        "relation": "Trong 峡谷 (“hẻm núi”), 谷 vẫn giữ rõ nét nghĩa “thung lũng”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "峡谷 dùng 谷 theo đúng nghĩa gốc, ghép với 峡 (eo hẹp) để chỉ một thung lũng sâu, hẹp."
       }
     ]
   },
@@ -149,14 +150,14 @@
     "meaning": "đậu",
     "stroke_count": 7,
     "variants": [],
-    "description": "豆 vốn vẽ chiếc bát cao chân dùng đựng thức ăn, rồi được mượn để chỉ hạt đậu. Bộ Đậu vì thế vừa có bóng dáng vật đựng cổ, vừa gắn với họ đậu trong cách dùng hiện đại.",
+    "description": "豆 nguyên không phải hạt đậu, mà là hình một chiếc đĩa tế lễ có chân cao, miệng loe rộng — vật đựng thức ăn dùng trong các nghi lễ cúng tế thời Thương, Chu. Vì hình dáng thân đĩa tròn đầy gợi liên tưởng đến hạt đậu, chữ được mượn để chỉ luôn cây họ đậu, và nghĩa \"đĩa tế lễ\" nguyên thủy dần bị lãng quên.",
     "examples": [
       {
         "hanzi": "豌",
         "pinyin": "wān",
         "meaning": "đậu Hà Lan",
         "relation_type": "semantic",
-        "relation": "豌 mang nghĩa “đậu Hà Lan”; phần 豆 giúp người học lần về chủ đề “đậu”."
+        "relation": "豌 dùng 豆 theo đúng nghĩa mượn hiện đại: một loại hạt thuộc họ đậu."
       }
     ]
   },
@@ -168,14 +169,14 @@
     "meaning": "lợn",
     "stroke_count": 7,
     "variants": [],
-    "description": "豕 vẽ một con lợn với mõm, thân và đuôi. Bộ Thỉ thường gợi lợn, gia súc và đời sống nhà nông; hình con lợn dưới mái 宀 trong 家 còn nhắc về gia sản xưa.",
+    "description": "豕 vẽ một con lợn nhìn nghiêng: bụng phệ, chân ngắn, sống lưng hơi cong và cái đuôi cong lên — chi tiết bụng to tròn là điểm phân biệt rõ nhất với 犬 (chó, thân thon, bụng thẳng). Bộ Thỉ gợi lợn, gia súc và đời sống nông nghiệp; hình con lợn dưới mái 宀 trong 家 còn nhắc về gia sản của một hộ gia đình thời cổ.",
     "examples": [
       {
         "hanzi": "猪",
         "pinyin": "zhū",
         "meaning": "lợn",
         "relation_type": "semantic",
-        "relation": "Trong cấu tạo 猪 (“lợn”), 豕 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
+        "relation": "猪 ghép 犭 với 者 góp âm, nhưng nghĩa \"lợn\" thực chất kế thừa trực tiếp từ 豕 — chữ gọi lợn phổ biến trước đây chính là 豕."
       }
     ]
   },
@@ -187,21 +188,21 @@
     "meaning": "thú; sinh vật dạng thú",
     "stroke_count": 7,
     "variants": [],
-    "description": "豸 gợi dáng một loài thú bốn chân đang rình bước. Bộ Trãi thường xuất hiện trong tên thú, diện mạo hoặc những đặc điểm bên ngoài của động vật.",
+    "description": "豸 vẽ dáng một loài thú thân dài, lưng uốn cong, đang khom mình rình mồi — hình ảnh gợi các loài như chồn, cầy hay báo. Chữ này còn gắn với 獬豸 (giải trãi), một linh thú huyền thoại trong pháp luật cổ, tương truyền có khả năng dùng sừng húc trúng kẻ có tội. Bộ Trãi thường xuất hiện trong tên các loài thú có thân hình thon dài, uyển chuyển.",
     "examples": [
       {
         "hanzi": "貂",
         "pinyin": "diāo",
         "meaning": "chồn mactet",
         "relation_type": "semantic",
-        "relation": "Trong cấu tạo 貂 (“chồn mactet”), 豸 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
+        "relation": "貂 dùng 豸 làm nghĩa gốc: một loài thú thân dài, lông mượt, thuộc họ chồn."
       },
       {
         "hanzi": "豹",
         "pinyin": "bào",
         "meaning": "báo",
         "relation_type": "semantic",
-        "relation": "Từ 豸 mang ý “thú; sinh vật dạng thú”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 豹 (“báo”)."
+        "relation": "豹 giữ 豸 để chỉ dáng hình thon dài, uyển chuyển của loài báo khi rình mồi."
       }
     ]
   },
@@ -215,7 +216,7 @@
     "variants": [
       "贝"
     ],
-    "description": "貝 là vỏ sò, từng được dùng như tiền và vật quý; dạng giản thể là 贝. Vì thế bộ Bối thường dẫn tới tiền bạc, mua bán, giá trị, của cải và sự trao đổi.",
+    "description": "貝 vẽ một vỏ sò với đường vân cong đặc trưng nơi miệng vỏ — không phải vỏ sò bất kỳ, mà là loại vỏ ốc biển từng được dùng làm tiền tệ vào thời Thương, Chu, cách đây hơn ba nghìn năm. Những chuỗi vỏ sò này được nhắc tới trong văn khắc giáp cốt và kim văn như vật ban thưởng quý giá. Vì vậy gần như mọi chữ liên quan tới tiền bạc, giá trị, mua bán hay của cải trong tiếng Trung đều mang bộ 貝 (giản thể 贝): 财, 购, 贵, 贸, 贺, 费.",
     "examples": [
       {
         "hanzi": "买",
@@ -223,7 +224,7 @@
         "meaning": "mua",
         "traditional": "買",
         "relation_type": "semantic",
-        "relation": "Trong cấu tạo 买 (“mua”), 貝 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
+        "relation": "买 (phồn thể 買) đặt 网 (lưới, thu gọn) lên trên 貝: hành động thu gom vật có giá trị về cho mình."
       },
       {
         "hanzi": "贵",
@@ -231,7 +232,7 @@
         "meaning": "đắt; quý",
         "traditional": "貴",
         "relation_type": "semantic",
-        "relation": "Từ 貝 mang ý “vỏ sò; tiền”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 贵 (“đắt; quý”)."
+        "relation": "贵 (phồn thể 貴) giữ 貝 làm nền nghĩa: thứ đáng \"quý\", đắt giá luôn được đo bằng vật ngang giá — ở đây là vỏ sò."
       },
       {
         "hanzi": "贸",
@@ -239,7 +240,7 @@
         "meaning": "thương mại",
         "traditional": "貿",
         "relation_type": "semantic",
-        "relation": "Trong 贸 (“thương mại”), 貝 là đầu mối gợi nghĩa, nối chữ với hình ảnh “vỏ sò; tiền”."
+        "relation": "贸 (phồn thể 貿) dùng 貝 vì mọi hoạt động thương mại, buôn bán đều xoay quanh trao đổi vật có giá trị."
       }
     ]
   },
@@ -251,21 +252,21 @@
     "meaning": "đỏ",
     "stroke_count": 7,
     "variants": [],
-    "description": "赤 là sắc đỏ rực như lửa hắt lên từ mặt đất. Bộ Xích thường gợi màu đỏ, sắc da ửng lên hoặc những gam màu đất nóng.",
+    "description": "Thuyết văn giải tự ghép 赤 từ 大 (người) đứng trên 火 (lửa) — hình ảnh một người đứng gần ngọn lửa lớn, ánh lửa hắt đỏ rực lên cả người lẫn không gian xung quanh. Trong hệ ngũ hành, xích còn là màu tượng trưng cho phương Nam. Bộ Xích thường gợi màu đỏ, sắc da ửng lên hoặc những gam màu nóng.",
     "examples": [
       {
         "hanzi": "赧",
         "pinyin": "nǎn",
         "meaning": "đỏ mặt vì xấu hổ",
         "relation_type": "semantic",
-        "relation": "Từ 赤 mang ý “đỏ”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 赧 (“đỏ mặt vì xấu hổ”)."
+        "relation": "赧 dùng 赤 làm nghĩa gốc: gương mặt đỏ ửng lên như bị lửa hắt, nhưng vì xấu hổ chứ không phải vì lửa thật."
       },
       {
         "hanzi": "赭",
         "pinyin": "zhě",
         "meaning": "màu đất",
         "relation_type": "semantic",
-        "relation": "Trong 赭 (“màu đất”), 赤 là đầu mối gợi nghĩa, nối chữ với hình ảnh “đỏ”."
+        "relation": "赭 giữ 赤 để chỉ một sắc đỏ nâu như màu đất sét nung."
       }
     ]
   },
@@ -277,28 +278,28 @@
     "meaning": "đi; chạy",
     "stroke_count": 7,
     "variants": [],
-    "description": "走 vẽ người đang sải bước trên đường, mang ý đi hoặc chạy. Bộ Tẩu thường gợi chuyển động nhanh, lên đường, đuổi theo và vượt qua một quãng.",
+    "description": "走 ghép phần trên là hình một người vung tay mạnh, thân nghiêng về phía trước (biến thể của 夭) với phần dưới là 止 (bàn chân) — dáng một người đang rảo bước thật nhanh, tay vung để lấy đà. Bộ Tẩu thường gợi chuyển động nhanh, lên đường, đuổi theo hoặc vượt qua một quãng đường.",
     "examples": [
       {
         "hanzi": "赶",
         "pinyin": "gǎn",
         "meaning": "đuổi kịp; bắt kịp",
         "relation_type": "semantic",
-        "relation": "Trong 赶 (“đuổi kịp; bắt kịp”), 走 là đầu mối gợi nghĩa, nối chữ với hình ảnh “đi; chạy”."
+        "relation": "赶 dùng 走 làm nền nghĩa: phải di chuyển nhanh mới \"đuổi kịp\" được người hay việc gì đó."
       },
       {
         "hanzi": "赴",
         "pinyin": "fù",
         "meaning": "đi",
         "relation_type": "semantic",
-        "relation": "Ở 赴 (“đi”), nét nghĩa của 走 vẫn hiện khá rõ: chữ được đặt trong trường ý “đi; chạy”."
+        "relation": "赴 giữ 走 để chỉ việc lên đường, tiến thẳng tới một nơi nào đó."
       },
       {
         "hanzi": "超",
         "pinyin": "chāo",
         "meaning": "vượt quá",
         "relation_type": "semantic",
-        "relation": "超 mang nghĩa “vượt quá”; phần 走 giúp người học lần về chủ đề “đi; chạy”."
+        "relation": "超 ghép 走 (chạy) với 召 góp âm: chạy nhanh hơn, tiến xa hơn — gốc của nghĩa \"vượt qua\"."
       }
     ]
   },
@@ -312,28 +313,28 @@
     "variants": [
       "⻊"
     ],
-    "description": "足 là bàn chân và cẳng chân; khi đứng bên trái, nó thường viết thành ⻊. Bộ Túc dẫn rất rõ tới đi, chạy, nhảy, đá, đường đi và mọi chuyển động bằng chân.",
+    "description": "足 ghép phần trên hình đầu gối với phần dưới là bàn chân, vẽ trọn vẹn cả cẳng chân từ gối xuống ngón. Khi đứng bên trái, nó viết gọn thành ⻊. Bộ Túc dẫn rất rõ tới đi, chạy, nhảy và mọi chuyển động thực hiện bằng chân.",
     "examples": [
       {
         "hanzi": "路",
         "pinyin": "lù",
         "meaning": "đường",
         "relation_type": "semantic",
-        "relation": "Ở 路 (“đường”), nét nghĩa của 足 vẫn hiện khá rõ: chữ được đặt trong trường ý “chân”."
+        "relation": "路 đặt ⻊ cạnh 各 góp âm: nơi đôi chân bước qua chính là con đường."
       },
       {
         "hanzi": "跑",
         "pinyin": "pǎo",
         "meaning": "chạy",
         "relation_type": "semantic",
-        "relation": "跑 mang nghĩa “chạy”; phần 足 giúp người học lần về chủ đề “chân”."
+        "relation": "跑 dùng ⻊ vì đây là chuyển động nhanh của chân, thêm 包 góp âm."
       },
       {
         "hanzi": "跳",
         "pinyin": "tiào",
         "meaning": "nhảy",
         "relation_type": "semantic",
-        "relation": "Có thể nhớ 跳 (“nhảy”) qua 足: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation": "跳 cũng dựa vào ⻊ làm nền nghĩa — động tác bật người lên khỏi mặt đất luôn bắt đầu từ đôi chân."
       }
     ]
   },
@@ -345,21 +346,21 @@
     "meaning": "thân thể",
     "stroke_count": 7,
     "variants": [],
-    "description": "身 phác thân người với phần bụng nổi rõ. Bộ Thân thường gợi cơ thể, tư thế, việc né tránh hoặc những hoạt động mà cả thân mình tham gia.",
+    "description": "身 vẽ dáng nghiêng của một người với phần bụng phình to rõ rệt — hình ảnh gốc thực chất là một phụ nữ đang mang thai, bụng nhô lên phía trước. Từ nghĩa cụ thể \"có mang, mang thai\" ấy, chữ dần khái quát hóa thành \"thân thể\" nói chung. Bộ Thân thường gợi cơ thể, tư thế hoặc những hoạt động mà cả thân mình tham gia.",
     "examples": [
       {
         "hanzi": "躺",
         "pinyin": "tǎng",
         "meaning": "ngả lưng",
         "relation_type": "semantic",
-        "relation": "躺 mang nghĩa “ngả lưng”; phần 身 giúp người học lần về chủ đề “thân thể”."
+        "relation": "躺 dùng 身 làm nền nghĩa: động tác đặt cả thân người xuống để nằm."
       },
       {
         "hanzi": "躲",
         "pinyin": "duǒ",
         "meaning": "trốn",
         "relation_type": "semantic",
-        "relation": "Có thể nhớ 躲 (“trốn”) qua 身: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation": "躲 giữ 身 để chỉ hành động giấu cả cơ thể mình khỏi tầm nhìn của người khác."
       }
     ]
   },
@@ -373,7 +374,7 @@
     "variants": [
       "车"
     ],
-    "description": "車 là chiếc xe nhìn từ trên với trục và hai bánh; dạng giản thể là 车. Bộ Xa thường dẫn tới phương tiện, bánh xe, chuyên chở, quay chuyển và giao thông.",
+    "description": "車 vẽ một cỗ xe nhìn từ trên xuống: trục ngang ở giữa, hai bánh xe tròn ở hai đầu — chữ giáp cốt còn vẽ chi tiết hơn với cả càng xe và ách buộc ngựa. Dạng giản thể ngày nay là 车, giữ lại phần khung trục cơ bản. Bộ Xa thường dẫn tới phương tiện, bánh xe, chuyên chở và giao thông.",
     "examples": [
       {
         "hanzi": "辆",
@@ -381,7 +382,7 @@
         "meaning": "chiếc (lượng từ cho xe)",
         "traditional": "輛",
         "relation_type": "semantic",
-        "relation": "Có thể nhớ 辆 (“chiếc (lượng từ cho xe)”) qua 車: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation": "辆 (phồn thể 輛) dùng 車 làm lượng từ đếm xe — vì đối tượng được đếm chính là xe cộ."
       },
       {
         "hanzi": "轮",
@@ -389,7 +390,7 @@
         "meaning": "bánh xe; đĩa; vòng",
         "traditional": "輪",
         "relation_type": "semantic",
-        "relation": "Trong cấu tạo 轮 (“bánh xe; đĩa; vòng”), 車 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
+        "relation": "轮 (phồn thể 輪) giữ 車 để chỉ đúng bộ phận tròn, xoay được của một cỗ xe: bánh xe."
       },
       {
         "hanzi": "转",
@@ -397,7 +398,7 @@
         "meaning": "xoay; chuyển",
         "traditional": "轉",
         "relation_type": "semantic",
-        "relation": "Từ 車 mang ý “xe”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 转 (“xoay; chuyển”)."
+        "relation": "转 (phồn thể 轉) dùng 車 vì bánh xe là hình ảnh cụ thể nhất cho chuyển động xoay tròn."
       }
     ]
   },
@@ -409,14 +410,14 @@
     "meaning": "cay đắng; gian khổ",
     "stroke_count": 7,
     "variants": [],
-    "description": "辛 gợi dụng cụ sắc dùng đánh dấu tội nhân, nên mang sắc thái cay đắng và gian khổ. Bộ Tân có thể liên quan đến vị cay, nỗi khổ hoặc hình phạt.",
+    "description": "辛 vẽ một mũi dùi hoặc lưỡi dao nhọn — dụng cụ dùng để khắc chữ hoặc thích lên mặt tội nhân, nô lệ trong hình phạt \"mặc hình\" (墨刑) thời cổ, một trong năm loại nhục hình nặng nề. Từ nỗi đau và sự tủi nhục của hình phạt cụ thể ấy, 辛 mang thêm nghĩa trừu tượng \"cay đắng, gian khổ\", và cả nghĩa vị cay trong ẩm thực.",
     "examples": [
       {
         "hanzi": "辣",
         "pinyin": "là",
         "meaning": "cay",
         "relation_type": "semantic",
-        "relation": "Trong cấu tạo 辣 (“cay”), 辛 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
+        "relation": "辣 dùng 辛 làm nghĩa gốc: vị cay nồng, gắt như cảm giác bị dao nhọn châm vào lưỡi."
       }
     ]
   },
@@ -428,28 +429,28 @@
     "meaning": "Thìn; thời gian",
     "stroke_count": 7,
     "variants": [],
-    "description": "辰 là chi Thìn trong mười hai Địa chi và từng gắn với thời điểm, mùa vụ. Trong nhiều chữ như 震 hay 振, nó chủ yếu giữ vai trò gợi âm hơn là gợi nghĩa.",
+    "description": "辰 nguyên vẽ một loại vỏ sò lớn có mép sắc, được người xưa mài làm công cụ cắt cỏ, xới đất trong nông nghiệp sơ khai — trước khi có công cụ kim loại. Vì việc gieo trồng luôn gắn chặt với chu kỳ thời tiết, mùa vụ, chữ 辰 dần mang thêm nghĩa \"thời điểm, mùa vụ\", rồi được mượn làm chi thứ năm trong Địa chi. Trong nhiều chữ như 震, 振, nó chủ yếu giữ vai trò gợi âm hơn là gợi nghĩa.",
     "examples": [
       {
         "hanzi": "辰",
         "pinyin": "chén",
         "meaning": "Thìn; thời điểm",
         "relation_type": "direct",
-        "relation": "辰 vừa là hình của bộ Thần vừa trực tiếp mang nghĩa “Thìn; thời gian”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "辰 giữ nghĩa mượn \"thời điểm, mùa vụ\" và tên chi Thìn, đã tách xa khỏi hình vỏ sò nông cụ nguyên thủy."
       },
       {
         "hanzi": "时辰",
         "pinyin": "shíchen",
         "meaning": "giờ; thời điểm",
         "relation_type": "semantic",
-        "relation": "Trong 时辰 (“giờ; thời điểm”), 辰 vẫn giữ rõ nét nghĩa “Thìn; thời gian”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "时辰 ghép 时 (thời gian) với 辰 để chỉ một mốc giờ cụ thể trong ngày."
       },
       {
         "hanzi": "震",
         "pinyin": "zhèn",
         "meaning": "rung",
         "relation_type": "phonetic",
-        "relation": "Trong 震, 雨 gợi trường nghĩa hiện tượng trời đất, còn 辰 chủ yếu gợi âm zhèn. Nghĩa “rung/chấn động” không đến trực tiếp từ “Thìn”."
+        "relation": "Trong 震, 雨 gợi trường nghĩa hiện tượng trời đất, còn 辰 chủ yếu gợi âm zhèn. Nghĩa \"rung/chấn động\" không đến trực tiếp từ \"Thìn\"."
       }
     ]
   },
@@ -463,28 +464,28 @@
     "variants": [
       "辶"
     ],
-    "description": "辵 gợi bước chân đi trên đường; dạng quen thuộc trong chữ hiện đại là 辶. Bộ Sước thường kéo nghĩa về đi lại, con đường, phương hướng, khoảng cách và sự dịch chuyển.",
+    "description": "辵 ghép 彳 (bước chân, nửa trái của ngã tư 行) với 止 (bàn chân) — hai lớp hình ảnh về bước đi chồng lên nhau để nhấn mạnh chuyển động: đi rồi dừng, dừng rồi lại đi tiếp. Dạng quen thuộc trong chữ hiện đại là 辶. Bộ Sước thường kéo nghĩa về đi lại, con đường, phương hướng và sự dịch chuyển.",
     "examples": [
       {
         "hanzi": "道",
         "pinyin": "dào",
         "meaning": "đường; đạo; nói",
         "relation_type": "semantic",
-        "relation": "Trong 道 (“đường; đạo; nói”), 辵 là đầu mối gợi nghĩa, nối chữ với hình ảnh “đi; đường đi”."
+        "relation": "道 đặt 辶 dưới 首 (đầu, dẫn đầu): con đường mà người dẫn đầu vạch ra, sau mở rộng thành \"đạo lý\"."
       },
       {
         "hanzi": "边",
         "pinyin": "biān",
         "meaning": "bên",
         "relation_type": "semantic",
-        "relation": "Ở 边 (“bên”), nét nghĩa của 辵 vẫn hiện khá rõ: chữ được đặt trong trường ý “đi; đường đi”."
+        "relation": "边 dùng 辶 làm nền nghĩa: ranh giới của một con đường, nơi tiếp giáp giữa trong và ngoài."
       },
       {
         "hanzi": "过",
         "pinyin": "guò",
         "meaning": "băng qua",
         "relation_type": "semantic",
-        "relation": "过 mang nghĩa “băng qua”; phần 辵 giúp người học lần về chủ đề “đi; đường đi”."
+        "relation": "过 giữ 辶 để chỉ hành động di chuyển ngang qua một vị trí, một quãng đường."
       }
     ]
   },
@@ -498,21 +499,21 @@
     "variants": [
       "阝"
     ],
-    "description": "邑 vẽ một khu dân cư có người quỳ bên dưới; khi đứng bên phải, nó thường thành 阝. Bộ Ấp hay gợi thành phố, làng xóm, địa danh và đơn vị hành chính.",
+    "description": "邑 ghép 口 (một khu vực khép kín, tường bao quanh) với 卪 (một người quỳ) bên dưới — hình ảnh dân cư sinh sống bên trong một khu vực có ranh giới rõ ràng: một thành ấp, một khu định cư. Khi đứng bên phải một chữ khác, nó thu gọn thành 阝(khác với 阝 bên trái vốn là 阜, đồi núi — hai bộ trông giống hệt nhau nhưng gốc khác biệt hoàn toàn). Bộ Ấp thường gợi thành phố, làng xóm, địa danh và đơn vị hành chính.",
     "examples": [
       {
         "hanzi": "部",
         "pinyin": "bù",
         "meaning": "bộ",
         "relation_type": "semantic",
-        "relation": "部 mang nghĩa “bộ”; phần 邑 giúp người học lần về chủ đề “thành ấp”."
+        "relation": "部 ghép 阝 (khu vực) với phần góp âm bên trái, giữ ý một vùng, một bộ phận được phân chia rõ ràng."
       },
       {
         "hanzi": "邻",
         "pinyin": "lín",
         "meaning": "hàng xóm",
         "relation_type": "semantic",
-        "relation": "Có thể nhớ 邻 (“hàng xóm”) qua 邑: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation": "邻 dùng 阝 (khu ấp) làm nền nghĩa: người sống trong cùng hoặc kề khu định cư."
       }
     ]
   },
@@ -524,28 +525,28 @@
     "meaning": "Dậu; bình rượu",
     "stroke_count": 7,
     "variants": [],
-    "description": "酉 vốn vẽ một bình rượu có nắp, đồng thời là chi Dậu trong mười hai Địa chi. Bộ này thường gợi rượu, lên men, ủ, say và các biến đổi hóa học liên quan.",
+    "description": "酉 vẽ một chiếc vò đựng rượu cổ hẹp, thân phình, đáy nhọn hoặc tròn — vật dụng dùng để ủ men và chứa rượu trong các nghi lễ tế tự thời cổ. Chữ này cũng được mượn làm chi thứ mười trong Địa chi (Dậu). Bộ này thường gợi rượu, lên men, ủ, say và các biến đổi liên quan đến quá trình chưng cất.",
     "examples": [
       {
         "hanzi": "酒",
         "pinyin": "jiǔ",
         "meaning": "rượu",
         "relation_type": "semantic",
-        "relation": "酒 mang nghĩa “rượu”; phần 酉 giúp người học lần về chủ đề “Dậu; bình rượu”."
+        "relation": "酒 ghép 氵 (nước, chất lỏng) với 酉 (vò rượu): chất lỏng được ủ và chứa trong chính chiếc vò ấy."
       },
       {
         "hanzi": "醒",
         "pinyin": "xǐng",
         "meaning": "tỉnh dậy",
         "relation_type": "semantic",
-        "relation": "Có thể nhớ 醒 (“tỉnh dậy”) qua 酉: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation": "醒 dùng 酉 làm nghĩa gốc: trạng thái thoát khỏi cơn say rượu, tỉnh táo trở lại."
       },
       {
         "hanzi": "配",
         "pinyin": "pèi",
         "meaning": "kết hợp",
         "relation_type": "semantic",
-        "relation": "Trong cấu tạo 配 (“kết hợp”), 酉 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
+        "relation": "配 giữ 酉 vì nghĩa gốc liên quan đến việc pha trộn, phối các loại men rượu với nhau."
       }
     ]
   },
@@ -557,14 +558,14 @@
     "meaning": "phân biệt",
     "stroke_count": 7,
     "variants": [],
-    "description": "釆 gợi dấu chân hay hạt được tách rõ, từ đó mang ý phân biệt. Bộ Biện khá hiếm; hình những nét được chia ra từng phía là mẹo nhớ hữu ích nhất.",
+    "description": "Thuyết văn giải tự mô tả 釆 là dấu vết móng vuốt của một con thú in trên đất, các ngón chân tách rời rõ rệt — thợ săn thời cổ nhìn vào những dấu chân riêng biệt ấy để phân biệt loài vật nào vừa đi qua. Từ hình ảnh các ngón tách bạch rõ ràng đó, bộ Biện mang nghĩa \"phân biệt, nhận rõ\". Đừng nhầm với 采 (có thêm 木 ở dưới, nghĩa \"hái\").",
     "examples": [
       {
         "hanzi": "釆",
         "pinyin": "biàn",
         "meaning": "phân biệt",
         "relation_type": "direct",
-        "relation": "釆 vừa là hình của bộ Biện vừa trực tiếp mang nghĩa “phân biệt”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "釆 giữ nguyên hình dấu chân thú với các ngón tách rời — hình ảnh trực tiếp của việc phân biệt, nhận diện."
       }
     ]
   },
@@ -576,28 +577,28 @@
     "meaning": "làng; dặm",
     "stroke_count": 7,
     "variants": [],
-    "description": "里 là khu cư trú có ruộng 田 và đất 土, rồi trở thành đơn vị “dặm”. Bộ Lý thường gợi làng xóm, khoảng cách, vùng đất hoặc phần bên trong.",
+    "description": "里 ghép 田 (ruộng) với 土 (đất) — nơi có ruộng để canh tác và nền đất để dựng nhà chính là một khu dân cư hoàn chỉnh, đơn vị làng xã cơ bản thời cổ. Vì khoảng cách giữa các làng thường được dùng làm chuẩn đo đường xa, 里 dần trở thành đơn vị đo chiều dài \"dặm\". Bộ Lý thường gợi làng xóm, khoảng cách hoặc phần bên trong (nghĩa mượn sau này, đồng âm với 裡).",
     "examples": [
       {
         "hanzi": "里",
         "pinyin": "lǐ",
         "meaning": "dặm; bên trong",
         "relation_type": "direct",
-        "relation": "里 vừa là hình của bộ Lý vừa trực tiếp mang nghĩa “làng; dặm”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "里 giữ nguyên hình ruộng và đất hợp thành làng, nay mang nghĩa \"dặm\" và nghĩa mượn \"bên trong\"."
       },
       {
         "hanzi": "里程",
         "pinyin": "lǐchéng",
         "meaning": "quãng đường",
         "relation_type": "semantic",
-        "relation": "Trong 里程 (“quãng đường”), 里 vẫn giữ rõ nét nghĩa “làng; dặm”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "里程 ghép 里 (dặm) với 程 (hành trình) để đo chiều dài một quãng đường đã đi."
       },
       {
         "hanzi": "公里",
         "pinyin": "gōnglǐ",
         "meaning": "ki-lô-mét",
         "relation_type": "semantic",
-        "relation": "Trong 公里 (“ki-lô-mét”), 里 vẫn giữ rõ nét nghĩa “làng; dặm”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "公里 dùng 里 làm đơn vị đo chiều dài hiện đại, ghép với 公 (công, chung) để chỉ đơn vị đo lường thống nhất."
       }
     ]
   }

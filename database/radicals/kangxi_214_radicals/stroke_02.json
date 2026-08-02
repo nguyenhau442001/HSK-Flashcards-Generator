@@ -7,21 +7,21 @@
     "meaning": "hai",
     "stroke_count": 2,
     "variants": [],
-    "description": "Hai nét ngang xếp thành đôi tạo nên 二, con số “hai”. Hình chữ cân bằng và rõ ràng: từ một nét của 一, thêm một nét là có một cặp.",
+    "description": "二 tiếp nối đúng logic của 一: hai que tính xếp chồng lên nhau, ghi lại con số \"hai\" bằng chính số lượng nét vẽ ra — nhìn là đếm được ngay, không cần suy diễn gì thêm.",
     "examples": [
       {
         "hanzi": "二",
         "pinyin": "èr",
         "meaning": "hai",
         "relation_type": "direct",
-        "relation": "二 vừa là hình của bộ Nhị vừa trực tiếp mang nghĩa “hai”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "二 tự nó là hai que tính song song — hình và nghĩa trùng khít, không qua trung gian nào."
       },
       {
         "hanzi": "第二",
         "pinyin": "dì èr",
         "meaning": "thứ hai",
         "relation_type": "semantic",
-        "relation": "Trong 第二 (“thứ hai”), 二 vẫn giữ rõ nét nghĩa “hai”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "第 đánh dấu thứ tự, còn 二 chỉ thẳng ra vị trí \"hai\" trong dãy đếm — ghép lại thành \"thứ hai\"."
       }
     ]
   },
@@ -33,14 +33,14 @@
     "meaning": "nắp; phần trên",
     "stroke_count": 2,
     "variants": [],
-    "description": "亠 trông như một chiếc nắp nhỏ đặt trên đầu chữ. Nó thường làm phần mái hoặc điểm mở đầu phía trên, vì thế mẹo “đội nắp” sẽ giúp bạn nhận ra bộ Đầu rất nhanh.",
+    "description": "Khác với phần lớn các bộ khác, 亠 không bắt nguồn từ một chữ độc lập nào trong chữ giáp cốt hay kim văn cổ. Đây là một nét được các nhà biên soạn từ điển đời sau tách riêng ra để phân loại, vì nó lặp lại đều đặn ở đỉnh những chữ như 亡, 交, 京, 亥 — luôn mang dáng một mái nhỏ hoặc điểm mở đầu phía trên. Vì vậy, hãy xem 亠 như một dấu hiệu về vị trí và hình dáng hơn là một biểu tượng mang câu chuyện riêng.",
     "examples": [
       {
         "hanzi": "亠",
         "pinyin": "tóu",
         "meaning": "nắp; phần trên",
         "relation_type": "direct",
-        "relation": "亠 vừa là hình của bộ Đầu vừa trực tiếp mang nghĩa “nắp; phần trên”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "亠 đứng một mình chỉ để minh họa đúng hình dạng của chính nó: một chấm và một nét ngang ngắn, như chiếc nắp nhỏ đặt trên đỉnh chữ."
       }
     ]
   },
@@ -54,28 +54,28 @@
     "variants": [
       "亻"
     ],
-    "description": "人 phác dáng một người đang bước đi; khi đứng bên trái, bộ thường thu gọn thành 亻. Những chữ mang bộ này hay kể chuyện về con người, vai trò hoặc hành động của họ.",
+    "description": "Nhìn nghiêng một người đang bước tới, lưng hơi khom, một chân dài đưa về phía trước — đó chính là hình chữ giáp cốt của 人, khắc trên mai rùa và xương thú hơn ba nghìn năm trước. Khi đứng riêng, nó giữ nguyên dáng người ấy; khi ghép vào bên trái một chữ khác, dáng người thu gọn lại thành 亻 để nhường chỗ. Cứ thấy 人 hay 亻, hãy hình dung ngay một ai đó đang hiện diện, hành động hoặc giữ một vai trò trong câu chuyện của chữ.",
     "examples": [
       {
         "hanzi": "你",
         "pinyin": "nǐ",
         "meaning": "bạn",
         "relation_type": "semantic",
-        "relation": "Có thể nhớ 你 (“bạn”) qua 人: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation": "你 gọi thẳng một người đang đứng trước mặt — 亻 chính là hình bóng của người ấy, còn phần bên phải góp âm đọc."
       },
       {
         "hanzi": "他",
         "pinyin": "tā",
         "meaning": "anh ấy",
         "relation_type": "semantic",
-        "relation": "Trong cấu tạo 他 (“anh ấy”), 人 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
+        "relation": "他 nhắc đến một người vắng mặt trong câu chuyện; 亻 vẫn đứng đó như dấu hiệu cho biết ta đang nói về một người, không phải một vật."
       },
       {
         "hanzi": "们",
         "pinyin": "men",
         "meaning": "hậu tố chỉ số nhiều (cho người)",
         "relation_type": "semantic",
-        "relation": "Từ 人 mang ý “người”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 们 (“hậu tố chỉ số nhiều (cho người)”)."
+        "relation": "们 biến một người 亻 thành nhiều người: hậu tố này nhân bản khái niệm \"người\" lên thành số đông — bạn, chúng ta, họ."
       }
     ]
   },
@@ -87,21 +87,21 @@
     "meaning": "chân; trẻ con",
     "stroke_count": 2,
     "variants": [],
-    "description": "儿 giống đôi chân đang mở ra ở phía dưới. Trong nhiều chữ, bộ Nhi không còn mang nghĩa “trẻ con” rõ rệt, nhưng hình ảnh hai chân vẫn là một dấu nhận diện rất dễ nhớ.",
+    "description": "Bộ 儿 mang một câu chuyện kép thuộc hàng thú vị nhất trong hệ chữ Hán. Là thành phần đứng dưới các chữ như 兄, 元, 先, nó vốn là một biến thể của 人 — hình người nhìn nghiêng, chỉ khác 人 ở tư thế đôi chân. Nhưng chữ 儿 (\"trẻ con\") mà ta học riêng ngày nay lại là một câu chuyện khác hẳn: nó là dạng giản thể thu gọn của 兒 — chữ phồn thể vốn vẽ một đứa trẻ với cái đầu to, thóp đầu chưa liền hẳn (điểm hở trên hộp sọ trẻ sơ sinh), ngồi trên đôi chân nhỏ. Giản thể hóa đã gộp hai hình ảnh cổ xưa vốn không liên quan vào chung một vỏ chữ.",
     "examples": [
       {
         "hanzi": "儿",
         "pinyin": "ér",
         "meaning": "trẻ con; con trai",
         "relation_type": "direct",
-        "relation": "儿 vừa là hình của bộ Nhi vừa trực tiếp mang nghĩa “chân; trẻ con”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "儿 khi đứng một mình chính là dạng giản thể của 兒 — đứa trẻ với chiếc đầu to đặc trưng, thóp còn mềm."
       },
       {
         "hanzi": "儿子",
         "pinyin": "érzi",
         "meaning": "con trai",
         "relation_type": "semantic",
-        "relation": "Trong 儿子 (“con trai”), 儿 vẫn giữ rõ nét nghĩa “chân; trẻ con”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "儿子 giữ nguyên hình ảnh đứa trẻ ấy: 儿 là em bé, 子 củng cố thêm ý \"con\", ghép lại thành danh xưng cho \"con trai\"."
       }
     ]
   },
@@ -113,14 +113,14 @@
     "meaning": "vào",
     "stroke_count": 2,
     "variants": [],
-    "description": "Hai nét của 入 chụm ở trên rồi mở dần xuống dưới, gợi chuyển động đi vào một lối hẹp. Ý cốt lõi của bộ Nhập là “vào, lọt vào bên trong”.",
+    "description": "入 vẽ hai nét chụm lại ở đỉnh rồi xòe ra phía dưới, như một mũi nêm đang cắm sâu vào khe hở. Thuyết văn giải tự mô tả nó là dáng \"từ trên đi xuống, lọt cả vào trong\". Từ hình ảnh xuyên thủng bề mặt để chui lọt ấy, 入 mang nghĩa cốt lõi \"vào, lọt vào bên trong\" — đối lập trực tiếp với 出 (\"ra\").",
     "examples": [
       {
         "hanzi": "内",
         "pinyin": "nèi",
         "meaning": "bên trong",
         "relation_type": "semantic",
-        "relation": "Từ 入 mang ý “vào”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 内 (“bên trong”)."
+        "relation": "内 đặt 入 lọt vào trong một đường bao — hình ảnh một vật đã chui hẳn vào phía trong, đúng như nghĩa \"bên trong\"."
       }
     ]
   },
@@ -132,21 +132,21 @@
     "meaning": "tám",
     "stroke_count": 2,
     "variants": [],
-    "description": "八 tách sang hai phía như một vật được chia đôi, dù nghĩa quen thuộc nhất của chữ là số tám. Hình tỏa ra này cũng giúp giải thích vì sao bộ Bát đôi khi gợi ý chia, phân hoặc mở rộng.",
+    "description": "Thuyết văn giải tự gọi 八 là \"biệt dã\" — sự chia lìa: hai nét tõe ra hai phía như một vật vừa bị bổ đôi, mỗi nửa quay lưng lại với nhau. Nghĩa gốc của chữ chỉ đơn giản là \"chia, tách\"; về sau nó được mượn âm để ghi số \"tám\", và ý chia tách ban đầu vẫn còn ẩn trong những chữ mang bộ này.",
     "examples": [
       {
         "hanzi": "八",
         "pinyin": "bā",
         "meaning": "tám",
         "relation_type": "direct",
-        "relation": "八 vừa là hình của bộ Bát vừa trực tiếp mang nghĩa “tám”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "八 nay quen thuộc với nghĩa số \"tám\", dù hình chữ vẫn giữ nguyên dáng \"chia đôi\" từ thuở ban đầu."
       },
       {
         "hanzi": "八月",
         "pinyin": "bā yuè",
         "meaning": "tháng tám",
         "relation_type": "semantic",
-        "relation": "Trong 八月 (“tháng tám”), 八 vẫn giữ rõ nét nghĩa “tám”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "八月 dùng đúng nghĩa số đếm hiện tại của 八: tháng thứ tám trong năm."
       }
     ]
   },
@@ -158,14 +158,14 @@
     "meaning": "khung mở phía dưới",
     "stroke_count": 2,
     "variants": [],
-    "description": "冂 tạo một khung bao quanh ba phía nhưng để hở bên dưới. Hãy hình dung một vùng đất hay đồ vật được khoanh lại để nhớ dáng của bộ Quynh.",
+    "description": "Thuyết văn giải tự chú 冂 là \"tượng viễn giới dã\" — hình ảnh một đường biên xa xôi. Ba cạnh khép của chữ gợi ranh giới bao quanh một vùng đất hoang vu, để hở phía dưới như một cánh cổng dẫn ra ngoài cõi. Trong các chữ ghép, 冂 thường chỉ còn là khung hình học, đánh dấu vị trí bao quanh chứ không luôn mang nghĩa \"biên giới\" rõ rệt.",
     "examples": [
       {
         "hanzi": "冂",
         "pinyin": "jiōng",
         "meaning": "khung mở phía dưới",
         "relation_type": "direct",
-        "relation": "冂 vừa là hình của bộ Quynh vừa trực tiếp mang nghĩa “khung mở phía dưới”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "冂 tự nó là đường biên ấy: ba cạnh khép kín, một cạnh để ngỏ, đúng dáng \"viễn giới\" mà Thuyết văn giải tự mô tả."
       }
     ]
   },
@@ -177,14 +177,14 @@
     "meaning": "che phủ",
     "stroke_count": 2,
     "variants": [],
-    "description": "冖 như tấm khăn phủ ngang lên phần còn lại của chữ. Bộ Mịch thường nằm trên cao và tạo cảm giác che, trùm hoặc bảo vệ thứ ở bên dưới.",
+    "description": "Thuyết văn giải tự định nghĩa 冖 là \"phúc dã\" — che phủ, mô tả nó như một tấm vải rủ xuống từ một đường ngang. Hình dáng ấy giữ nguyên trong các chữ ghép: 冖 luôn nằm trên cao, như mái che hoặc tấm khăn trùm lên phần chữ bên dưới.",
     "examples": [
       {
         "hanzi": "冖",
         "pinyin": "mì",
         "meaning": "che phủ",
         "relation_type": "direct",
-        "relation": "冖 vừa là hình của bộ Mịch vừa trực tiếp mang nghĩa “che phủ”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "冖 tự nó là tấm vải rủ ấy: một nét ngang với hai đầu buông xuống, đúng dáng vật đang phủ lên trên."
       }
     ]
   },
@@ -196,28 +196,28 @@
     "meaning": "băng; nước đá",
     "stroke_count": 2,
     "variants": [],
-    "description": "Hai chấm 冫 gợi những giọt nước đã se lại vì lạnh. Gặp bộ Băng, bạn thường có thể lần tới các ý về rét, đông cứng hay cảm giác mát lạnh.",
+    "description": "冫 là dạng thu gọn của 仌 — hình những đường rạn hình chữ nhân nối tiếp nhau mà Thuyết văn giải tự mô tả là \"tượng thủy ngưng chi hình\", dáng nước đông cứng lại. Hai nét chéo ngắn ấy chính là vết nứt trên mặt băng, nên bất cứ chữ nào mang 冫 cũng thường gợi cái lạnh, sự đông cứng hoặc cảm giác mát rượi.",
     "examples": [
       {
         "hanzi": "冷",
         "pinyin": "lěng",
         "meaning": "lạnh",
         "relation_type": "semantic",
-        "relation": "Có thể nhớ 冷 (“lạnh”) qua 冫: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation": "冷 ghép 冫 (băng giá) với 令 góp âm — cái lạnh thấm ngay vào nghĩa của chữ qua bộ thủ đứng trước."
       },
       {
         "hanzi": "冻",
         "pinyin": "dòng",
         "meaning": "đóng băng",
         "relation_type": "semantic",
-        "relation": "Trong cấu tạo 冻 (“đóng băng”), 冫 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
+        "relation": "冻 mô tả đúng quá trình nước hóa băng: 冫 là dấu hiệu trực tiếp nhất cho việc gì đó đang đông cứng lại."
       },
       {
         "hanzi": "凉",
         "pinyin": "liáng",
         "meaning": "mát",
         "relation_type": "semantic",
-        "relation": "Từ 冫 mang ý “băng; nước đá”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 凉 (“mát”)."
+        "relation": "凉 dịu hơn 冷 một bậc: vẫn giữ 冫 để neo vào trường nghĩa lạnh, nhưng chỉ dừng ở mức \"mát\"."
       }
     ]
   },
@@ -229,14 +229,14 @@
     "meaning": "bàn nhỏ",
     "stroke_count": 2,
     "variants": [],
-    "description": "几 vốn gợi hình một chiếc bàn thấp có chân cong. Ngày nay bộ này thường chỉ còn là dấu vết cấu tạo, nhưng dáng “bàn nhỏ” vẫn là một mẹo nhận mặt hữu ích.",
+    "description": "几 vẽ một chiếc ghế dựa hay bàn thấp có chân cong — đồ nội thất người xưa quỳ hoặc ngồi xếp bằng bên cạnh để tựa tay, dùng trong nhà và cả khi tế lễ. Thuyết văn giải tự gọi thẳng nó là \"cứ kỷ dã\", vật để tựa người vào. Trong chữ ghép hiện đại, hình chiếc bàn ấy đã mờ đi nhiều, chỉ còn sót lại như một khung hình học quen mắt.",
     "examples": [
       {
         "hanzi": "几",
         "pinyin": "jī",
         "meaning": "bàn nhỏ",
         "relation_type": "direct",
-        "relation": "几 vừa là hình của bộ Kỷ vừa trực tiếp mang nghĩa “bàn nhỏ”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "几 tự nó là chiếc bàn thấp ấy: hai chân cong đỡ lấy một mặt phẳng để tựa tay."
       }
     ]
   },
@@ -248,14 +248,14 @@
     "meaning": "vật chứa mở",
     "stroke_count": 2,
     "variants": [],
-    "description": "凵 giống một chiếc hộp hoặc miệng hố mở phía trên. Hình lòng chứa ấy khiến bộ Khảm dễ gắn với ý đựng vào, lõm xuống hoặc đi ra khỏi một chỗ kín.",
+    "description": "Thuyết văn giải tự mô tả 凵 là \"trương khẩu dã\" — một cái miệng đang há ra, hoặc một hố đất khoét lõm xuống. Hình lòng chảo mở ấy khiến bộ Khảm hay gắn với ý đựng vào, lõm xuống hoặc một khoảng trống chờ được lấp đầy.",
     "examples": [
       {
         "hanzi": "函",
         "pinyin": "hán",
         "meaning": "phong bì",
         "relation_type": "semantic",
-        "relation": "Trong 函 (“phong bì”), 凵 là đầu mối gợi nghĩa, nối chữ với hình ảnh “vật chứa mở”."
+        "relation": "函 giữ hình một vật được bọc kín bên trong một lớp vỏ — 凵 gợi đúng cái \"khoang chứa\" ấy, nơi thư từ được giữ an toàn."
       }
     ]
   },
@@ -269,21 +269,21 @@
     "variants": [
       "刂"
     ],
-    "description": "刀 là lưỡi dao sắc; khi nép bên phải chữ, nó thường đổi thành 刂. Bộ Đao hay đưa nghĩa về việc cắt, khắc, chia tách hoặc những động tác dùng vật sắc.",
+    "description": "刀 vẽ một lưỡi dao cong với sống dao dày và lưỡi mỏng — một trong những pictograph rõ nét nhất còn giữ được từ chữ giáp cốt. Khi nép vào bên phải một chữ khác, nó gọn lại thành 刂. Bất cứ đâu có 刀 hay 刂, khả năng cao chữ ấy đang nói về việc cắt, chia, khắc hoặc một động tác dùng vật có lưỡi sắc.",
     "examples": [
       {
         "hanzi": "分",
         "pinyin": "fēn",
         "meaning": "chia",
         "relation_type": "semantic",
-        "relation": "Trong 分 (“chia”), 刀 là đầu mối gợi nghĩa, nối chữ với hình ảnh “dao”."
+        "relation": "分 đặt 八 (tách đôi) lên trên 刀: một nhát dao chia một vật thành hai phần — hình ảnh trực tiếp nhất có thể có cho nghĩa \"chia\"."
       },
       {
         "hanzi": "刻",
         "pinyin": "kè",
         "meaning": "khắc; khoảnh khắc",
         "relation_type": "semantic",
-        "relation": "Ở 刻 (“khắc; khoảnh khắc”), nét nghĩa của 刀 vẫn hiện khá rõ: chữ được đặt trong trường ý “dao”."
+        "relation": "刻 dùng 刀 để khắc từng đường lên gỗ hay đá; nghĩa \"khoảnh khắc\" ra đời sau, ví thời gian trôi qua như từng nhát khắc nối tiếp nhau."
       }
     ]
   },
@@ -295,28 +295,28 @@
     "meaning": "sức mạnh",
     "stroke_count": 2,
     "variants": [],
-    "description": "力 gợi cánh tay đang dồn sức làm việc. Vì vậy, những chữ có bộ Lực thường thấp thoáng ý về sức mạnh, lao động, chuyển động hoặc sự cố gắng.",
+    "description": "Thuyết văn giải tự mô tả 力 là hình dạng của gân cơ con người khi gồng lên — \"象人筋之形\". Đường cong gấp khúc của chữ chính là bắp tay đang siết chặt lúc dùng sức. Từ hình ảnh rất cơ thể ấy, 力 lan tỏa thành cả một trường nghĩa về sức mạnh, sự gắng sức và lao động chân tay.",
     "examples": [
       {
         "hanzi": "动",
         "pinyin": "dòng",
         "meaning": "chuyển động",
         "relation_type": "semantic",
-        "relation": "Ở 动 (“chuyển động”), nét nghĩa của 力 vẫn hiện khá rõ: chữ được đặt trong trường ý “sức mạnh”."
+        "relation": "动 ghép phần góp âm ở bên trái với 力: phải có sức mới tạo ra chuyển động, và 力 chính là phần giữ lại ý đó."
       },
       {
         "hanzi": "劳",
         "pinyin": "láo",
         "meaning": "lao động",
         "relation_type": "semantic",
-        "relation": "劳 mang nghĩa “lao động”; phần 力 giúp người học lần về chủ đề “sức mạnh”."
+        "relation": "劳 vẽ cảnh làm việc miệt mài cho tới khi kiệt sức — 力 ở đáy chữ neo giữ đúng nghĩa \"phải bỏ công sức\"."
       },
       {
         "hanzi": "努",
         "pinyin": "nǔ",
         "meaning": "cố gắng",
         "relation_type": "semantic",
-        "relation": "Có thể nhớ 努 (“cố gắng”) qua 力: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation": "努 lấy 奴 góp âm và 力 góp nghĩa: dồn hết sức lực là cách duy nhất để \"cố gắng\" thành công."
       }
     ]
   },
@@ -328,14 +328,14 @@
     "meaning": "bao bọc",
     "stroke_count": 2,
     "variants": [],
-    "description": "勹 uốn quanh như một cánh tay đang ôm lấy vật bên trong. Hãy dùng động tác “bao lại” để nhớ cả hình lẫn nghĩa của bộ Bao.",
+    "description": "Thuyết văn giải tự mô tả 勹 là \"tượng nhân khúc hình, hữu sở bao khỏa\" — hình một người khom lưng, cong người lại để ôm trọn vật gì đó vào trong. Vòng cung của nét bút chính là tấm lưng cong ấy, khép lại quanh vật được che chở.",
     "examples": [
       {
         "hanzi": "勾",
         "pinyin": "gòu",
         "meaning": "móc; khơi, gợi",
         "relation_type": "semantic",
-        "relation": "勾 mang nghĩa “móc; khơi, gợi”; phần 勹 giúp người học lần về chủ đề “bao bọc”."
+        "relation": "勾 giữ dáng cong khép của 勹 để gợi động tác móc lại, kéo về — như cánh tay đang vòng lấy một vật."
       }
     ]
   },
@@ -347,14 +347,14 @@
     "meaning": "thìa; dao găm",
     "stroke_count": 2,
     "variants": [],
-    "description": "匕 vốn được giải thích như chiếc thìa nhỏ, về sau cũng gợi hình dao găm. Trong nhiều chữ hiện đại, nó chủ yếu là một mảnh ghép hình thể nên không phải lúc nào cũng dẫn nghĩa.",
+    "description": "匕 nguyên là hình chiếc thìa hay muôi múc cơm thời cổ — Thuyết văn giải tự nhắc đến công dụng \"dùng để xới lấy cơm\" của nó. Vì thìa và dao găm có dáng lưỡi cong tương tự nhau, chữ này về sau cũng được mượn để chỉ dao găm. Một hướng đọc khác thường gặp trong chữ ghép: 匕 là hình một người quay ngược đầu xuống đất, biểu tượng cho sự lộn ngược, biến đổi — gốc của chữ 化 (\"hóa\", biến hóa), ghép từ 亻 người đứng và 匕 người lộn ngược.",
     "examples": [
       {
         "hanzi": "匕",
         "pinyin": "bǐ",
         "meaning": "thìa; dao găm",
         "relation_type": "direct",
-        "relation": "匕 vừa là hình của bộ Chủy vừa trực tiếp mang nghĩa “thìa; dao găm”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "匕 khi đứng riêng giữ đúng hình chiếc thìa cong nguyên bản, trước khi chữ được mượn thêm cho nghĩa \"dao găm\"."
       }
     ]
   },
@@ -366,14 +366,14 @@
     "meaning": "khung mở bên phải",
     "stroke_count": 2,
     "variants": [],
-    "description": "匚 là chiếc khung vuông mở sang bên phải, như một cái hộp đang hé nắp. Bộ Phương thường ôm phần còn lại của chữ vào trong ba cạnh.",
+    "description": "Thuyết văn giải tự gọi 匚 là \"thụ vật chi khí\" — vật dụng để đựng đồ, một chiếc hộp vuông hé mở về một phía. Ba cạnh khép ôm lấy phần còn lại của chữ như thành hộp, để ngỏ một cạnh làm miệng đưa đồ vào ra.",
     "examples": [
       {
         "hanzi": "匚",
         "pinyin": "fāng",
         "meaning": "khung mở bên phải",
         "relation_type": "direct",
-        "relation": "匚 vừa là hình của bộ Phương vừa trực tiếp mang nghĩa “khung mở bên phải”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "匚 tự nó là chiếc hộp ấy: ba cạnh vuông khép kín, một cạnh mở, đúng công năng \"vật đựng đồ\" mà Thuyết văn giải tự ghi lại."
       }
     ]
   },
@@ -385,14 +385,14 @@
     "meaning": "khung che giấu",
     "stroke_count": 2,
     "variants": [],
-    "description": "匸 gần giống 匚 nhưng nét trên hơi che xuống, tạo cảm giác giấu vật vào một góc kín. Đó cũng là ý gốc giúp nhớ bộ Hệ: che đậy, ẩn giấu.",
+    "description": "匸 gần giống 匚 về hình dáng nhưng quay ngược hướng mở, tạo cảm giác vật bên trong bị giấu kín thay vì phô ra. Đó cũng là ý gốc của bộ Hệ: không phải một hộp đựng thông thường, mà một nơi cất giấu, che đậy.",
     "examples": [
       {
         "hanzi": "匸",
         "pinyin": "xì",
         "meaning": "khung che giấu",
         "relation_type": "direct",
-        "relation": "匸 vừa là hình của bộ Hệ vừa trực tiếp mang nghĩa “khung che giấu”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "匸 tự nó là chiếc hộp quay ngược ấy: cùng ba cạnh khép như 匚, nhưng hướng mở đổi chiều để gợi ý che giấu thay vì phô bày."
       }
     ]
   },
@@ -404,21 +404,21 @@
     "meaning": "mười",
     "stroke_count": 2,
     "variants": [],
-    "description": "Một nét dọc cắt qua nét ngang tạo thành 十, con số mười tròn đầy. Dáng chữ như dấu cộng nên rất dễ nhận ra, dù trong chữ ghép nó không phải lúc nào cũng mang nghĩa số đếm.",
+    "description": "Chữ giáp cốt của 十 ban đầu chỉ là một nét sổ thẳng, giống hệt một sợi dây. Người xưa dùng cách thắt nút trên dây để ghi số — cứ đủ mười đơn vị lại thắt một nút. Về sau, nút thắt ấy được vẽ lại thành một chấm rồi một nét ngang cắt giữa sợi dây, tạo thành hình chữ thập 十 mà ta thấy ngày nay: dấu tích còn sót lại của cách đếm bằng dây thắt nút thời chưa có chữ viết đầy đủ.",
     "examples": [
       {
         "hanzi": "十",
         "pinyin": "shí",
         "meaning": "mười",
         "relation_type": "direct",
-        "relation": "十 vừa là hình của bộ Thập vừa trực tiếp mang nghĩa “mười”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "十 giữ nguyên hình nút thắt giữa sợi dây đếm — dấu vết cụ thể của cách ghi số \"mười\" thời cổ."
       },
       {
         "hanzi": "十月",
         "pinyin": "shí yuè",
         "meaning": "tháng mười",
         "relation_type": "semantic",
-        "relation": "Trong 十月 (“tháng mười”), 十 vẫn giữ rõ nét nghĩa “mười”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "十月 dùng đúng nghĩa đếm số hiện tại của 十: tháng thứ mười trong năm."
       }
     ]
   },
@@ -430,14 +430,14 @@
     "meaning": "bói toán",
     "stroke_count": 2,
     "variants": [],
-    "description": "卜 gợi vết nứt trên mai rùa hoặc xương dùng để xem điềm thời xưa. Từ hình ảnh ấy, bộ Bốc gắn với bói toán, dự đoán và việc hỏi điều chưa biết.",
+    "description": "卜 vẽ lại vết nứt hình chữ thập lệch xuất hiện trên mai rùa hoặc xương thú khi bị nung nóng — cách người thời Thương xem điềm trước khi quyết định việc lớn: từ chiến tranh, tế lễ cho tới mùa màng. Người xem bói đọc hướng và độ dài vết nứt để đoán cát hung, và hình vết nứt ấy chính là nguồn gốc trực tiếp của chữ 卜.",
     "examples": [
       {
         "hanzi": "占",
         "pinyin": "zhàn",
         "meaning": "chiếm; giữ",
         "relation_type": "semantic",
-        "relation": "占 mang nghĩa “chiếm; giữ”; phần 卜 giúp người học lần về chủ đề “bói toán”."
+        "relation": "占 đặt 卜 (vết nứt bói toán) trên 口 (miệng): người xem bói đọc to điềm báo từ vết nứt — gốc gác của nghĩa \"đoán, chiếm giữ\" sau này."
       }
     ]
   },
@@ -449,14 +449,14 @@
     "meaning": "ấn; người quỳ",
     "stroke_count": 2,
     "variants": [],
-    "description": "卩 trông như dáng một người đang quỳ hoặc một chiếc ấn nhỏ. Khi nằm bên phải hay dưới chữ, hình “người quỳ” là chìa khóa dễ nhớ nhất của bộ Tiết.",
+    "description": "卩 vẽ dáng một người quỳ gối, nhìn nghiêng — tư thế cung kính khi diện kiến người trên. Thuyết văn giải tự còn gắn nó với 節 (\"tiết\"), tín vật bằng tre hoặc ngọc được bổ đôi làm ấn tin: mỗi bên giữ một nửa, ráp lại khớp nhau mới xác nhận được thân phận. Vì vậy 卩 vừa mang hình người quỳ, vừa gợi ý về thẻ bài, ấn tín làm bằng chứng.",
     "examples": [
       {
         "hanzi": "卩",
         "pinyin": "jié",
         "meaning": "ấn; người quỳ",
         "relation_type": "direct",
-        "relation": "卩 vừa là hình của bộ Tiết vừa trực tiếp mang nghĩa “ấn; người quỳ”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "卩 tự nó là dáng người quỳ ấy: một đường lưng cong, một đầu gối gập, đúng tư thế cung kính hoặc trình tín vật."
       }
     ]
   },
@@ -468,14 +468,14 @@
     "meaning": "vách đá",
     "stroke_count": 2,
     "variants": [],
-    "description": "厂 là sườn vách đá nhô ra, tạo một mái nghiêng che phía dưới. Những chữ có bộ Hán thường mượn chính khoảng không dưới vách ấy làm nơi đặt phần còn lại.",
+    "description": "厂 vẽ sườn một vách núi nhô ra, tạo mái đá tự nhiên che mưa nắng — nơi con người thời cổ có thể trú ẩn mà không cần dựng nhà. Thuyết văn giải tự mô tả đó là \"sơn thạch chi nhai nham, nhân khả cư\", vách đá núi mà người có thể ở được. Những chữ mang bộ Hán thường mượn chính khoảng không dưới mái đá ấy làm nơi đặt phần còn lại của chữ.",
     "examples": [
       {
         "hanzi": "厂",
         "pinyin": "hǎn",
         "meaning": "vách đá",
         "relation_type": "direct",
-        "relation": "厂 vừa là hình của bộ Hán vừa trực tiếp mang nghĩa “vách đá”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "厂 tự nó là mái đá nhô ra ấy: một nét ngang trên đỉnh, một nét xiên đổ xuống, đúng dáng sườn núi che chở."
       }
     ]
   },
@@ -487,21 +487,21 @@
     "meaning": "riêng tư",
     "stroke_count": 2,
     "variants": [],
-    "description": "厶 là nét cuộn khép về mình, được dùng để gợi ý riêng tư hay thuộc về cá nhân. Hãy nhớ nó như một góc nhỏ được giữ riêng, đối lập với cái chung.",
+    "description": "Hàn Phi Tử từng giải thích: khi Thương Hiệt đặt ra chữ viết, nét khoanh tròn về phía mình được gọi là 厶 — ý \"tự vây lấy cho riêng mình\". Đường cong khép kín của chữ vẽ đúng động tác ấy: một cánh tay hoặc một ranh giới siết lại quanh vật gì đó, giữ nó cho riêng cá nhân thay vì chia sẻ chung. Đây cũng là gốc chữ 私 (\"tư\", cá nhân) sau này.",
     "examples": [
       {
         "hanzi": "厶",
         "pinyin": "sī",
         "meaning": "riêng tư",
         "relation_type": "direct",
-        "relation": "厶 vừa là hình của bộ Khư vừa trực tiếp mang nghĩa “riêng tư”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "厶 tự nó là nét khoanh về mình ấy: một đường cong khép lại, giữ vật bên trong cho riêng một người."
       },
       {
         "hanzi": "私人",
         "pinyin": "sīrén",
         "meaning": "cá nhân; riêng tư",
         "relation_type": "semantic",
-        "relation": "Trong 私人 (“cá nhân; riêng tư”), 厶 vẫn giữ rõ nét nghĩa “riêng tư”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "私人 dùng 私 — chữ phái sinh trực tiếp từ 厶 — để chỉ những gì thuộc về một cá nhân, không chung với ai."
       }
     ]
   },
@@ -513,21 +513,21 @@
     "meaning": "lại; tay phải",
     "stroke_count": 2,
     "variants": [],
-    "description": "又 vốn vẽ một bàn tay phải đang đưa ra. Từ bàn tay làm thêm một động tác, chữ 又 còn phát triển nghĩa quen thuộc là “lại, thêm lần nữa”.",
+    "description": "又 vẽ một bàn tay phải xòe ba ngón — cách chữ giáp cốt thường đơn giản hóa bàn tay năm ngón. Nghĩa gốc của nó chỉ đơn giản là \"bàn tay, tay phải\". Nhưng vì bàn tay là bộ phận hay lặp lại thao tác — cầm rồi lại cầm, làm rồi lại làm — người xưa mượn luôn hình bàn tay ấy để ghi âm cho một từ trừu tượng hoàn toàn khác: \"lại, thêm lần nữa\". Đây là một ví dụ kinh điển của phép giả tá, mượn chữ có sẵn để ghi một từ đồng âm.",
     "examples": [
       {
         "hanzi": "双",
         "pinyin": "shuāng",
         "meaning": "đôi; hai",
         "relation_type": "semantic",
-        "relation": "Từ 又 mang ý “lại; tay phải”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 双 (“đôi; hai”)."
+        "relation": "双 xếp hai chữ 又 cạnh nhau: hai bàn tay úp lại thành một cặp, một đôi."
       },
       {
         "hanzi": "取",
         "pinyin": "qǔ",
         "meaning": "lấy",
         "relation_type": "semantic",
-        "relation": "Ở 取 (“lấy”), nét nghĩa của 又 vẫn hiện khá rõ: chữ được đặt trong trường ý “lại; tay phải”."
+        "relation": "取 đặt 又 (bàn tay) bên cạnh 耳 (tai) — tục xưa cắt tai kẻ địch để tính công, và bàn tay chính là công cụ thực hiện hành động \"lấy\" ấy."
       }
     ]
   }

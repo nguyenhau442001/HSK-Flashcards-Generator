@@ -7,21 +7,21 @@
     "meaning": "mũi",
     "stroke_count": 14,
     "variants": [],
-    "description": "鼻 là chiếc mũi nhìn thẳng với hai lỗ mũi ở dưới. Bộ Tỵ thường dẫn tới mũi, hơi thở, mùi và những âm thanh phát ra khi thở như tiếng ngáy.",
+    "description": "鼻 là chữ được tạo muộn để chỉ rõ chiếc mũi, vì 自 vốn là hình cái mũi nhưng đã bị mượn dùng với nghĩa \"tự mình\". 鼻 giữ 自 ở trên và thêm phần 畀 để phân biệt, đồng thời góp âm lịch sử. Bộ Tỵ dẫn tới mũi, hơi thở, khứu giác, tiếng thở và các trạng thái như ngạt, ngáy.",
     "examples": [
       {
         "hanzi": "鼾",
         "pinyin": "hān",
         "meaning": "ngáy",
         "relation_type": "semantic",
-        "relation": "Từ 鼻 mang ý “mũi”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 鼾 (“ngáy”)."
+        "relation": "鼾 có 鼻 làm phần nghĩa vì tiếng ngáy phát ra theo luồng hơi qua mũi; 干 góp âm."
       },
       {
         "hanzi": "齁",
         "pinyin": "hōu",
         "meaning": "ngáy",
         "relation_type": "semantic",
-        "relation": "Trong 齁 (“ngáy”), 鼻 là đầu mối gợi nghĩa, nối chữ với hình ảnh “mũi”."
+        "relation": "齁 đặt 鼻 bên trái để mô tả tiếng thở nặng hay tiếng ngáy; 句 góp phần gợi âm."
       }
     ]
   },
@@ -35,28 +35,28 @@
     "variants": [
       "齐"
     ],
-    "description": "齊 gợi những bông lúa được xếp cao bằng nhau, từ đó mang nghĩa đều và ngay ngắn; dạng giản thể là 齐. Trong nhiều chữ ghép, nó chủ yếu làm phần gợi âm.",
+    "description": "齊 trong chữ cổ thường được giải thích như nhiều bông lúa có ngọn được xếp ngang bằng nhau. Từ hình ảnh các hàng đều tăm tắp, chữ mang nghĩa \"đều, ngay ngắn, cùng nhau\". Dạng giản thể là 齐. Trong chữ ghép, 齊 có thể giữ ý đồng đều, chỉnh tề, nhưng cũng là phần gợi âm năng suất trong 劑, 濟, 擠 và nhiều chữ khác.",
     "examples": [
       {
         "hanzi": "齊",
         "pinyin": "qí",
         "meaning": "đều; ngay ngắn",
         "relation_type": "direct",
-        "relation": "齊 vừa là hình của bộ Tề vừa trực tiếp mang nghĩa “đều; ngay ngắn”. Đây là điểm neo rõ nhất trước khi học các chữ ghép."
+        "relation": "齊 tự mang nghĩa đều và ngay ngắn; các ngọn lúa bằng hàng là hình ảnh ghi nhớ trực tiếp."
       },
       {
         "hanzi": "整齐",
         "pinyin": "zhěngqí",
         "meaning": "ngay ngắn; gọn gàng",
         "relation_type": "semantic",
-        "relation": "Trong 整齐 (“ngay ngắn; gọn gàng”), 齊 vẫn giữ rõ nét nghĩa “đều; ngay ngắn”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "整齐 ghép 整 (chỉnh sửa) với 齐 (đều), chỉ trạng thái gọn gàng và thẳng hàng."
       },
       {
         "hanzi": "齐全",
         "pinyin": "qíquán",
         "meaning": "đầy đủ",
         "relation_type": "semantic",
-        "relation": "Trong 齐全 (“đầy đủ”), 齊 vẫn giữ rõ nét nghĩa “đều; ngay ngắn”. Mối liên hệ đi thẳng từ bộ tới từ, nên rất dễ nhớ."
+        "relation": "齐全 dùng 齐 theo ý không thiếu phần nào, mọi thành phần đều cùng có mặt nên trở thành \"đầy đủ\"."
       }
     ]
   }
