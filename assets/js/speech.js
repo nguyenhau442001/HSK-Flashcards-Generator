@@ -1,23 +1,58 @@
-// Word and example pronunciation through the Web Speech API.
+// Word and example pronunciation through prebuilt audio with Web Speech fallback.
+async function loadPrebuiltAudioManifest(level) {
+  prebuiltAudioManifest = null;
+  const config = LEVELS[level];
+  if (!config || !config.audioManifestUrl) return;
+
+  try {
+    const response = await fetch(config.audioManifestUrl, { cache: 'no-store' });
+    if (!response.ok) return;
+    const manifest = await response.json();
+    if (currentLevel !== level || manifest.level !== level || !manifest.items) return;
+    prebuiltAudioManifest = manifest;
+  } catch (error) {
+    // A missing or invalid manifest is expected while a level is being rolled
+    // out. Individual speech requests continue through Web Speech below.
+  }
+}
+
+function prebuiltAudioUrl(word, kind) {
+  if (!word || !prebuiltAudioManifest || prebuiltAudioManifest.level !== currentLevel) return null;
+  const item = prebuiltAudioManifest.items[String(word.id)];
+  return item && typeof item[kind] === 'string' ? item[kind] : null;
+}
+
 function speakWord() {
   if (filteredOrder.length === 0) return;
 
   const wIdx = filteredOrder[idx % filteredOrder.length];
-  speakText(WORDS[wIdx].hanzi, document.getElementById('soundBtn'));
+  const word = WORDS[wIdx];
+  speakText(
+    word.hanzi,
+    document.getElementById('soundBtn'),
+    SPEECH_RATE,
+    prebuiltAudioUrl(word, 'word')
+  );
 }
 
 function speakExample() {
   if (filteredOrder.length === 0) return;
 
+  const wIdx = filteredOrder[idx % filteredOrder.length];
+  const word = WORDS[wIdx];
   const example = document.getElementById('exZh');
   const text = example ? example.textContent.trim() : '';
   if (!text) return;
 
-  const browserRate = Math.max(0.1, exampleSpeechSpeed - EXAMPLE_SPEECH_RATE_OFFSET);
-  speakText(text, document.getElementById('exampleSoundBtn'), browserRate);
+  speakText(
+    text,
+    document.getElementById('exampleSoundBtn'),
+    exampleSpeechSpeed,
+    prebuiltAudioUrl(word, 'example')
+  );
 }
 
-function speakText(text, button, rate = SPEECH_RATE) {
+function speakText(text, button, rate = SPEECH_RATE, audioUrl = null) {
   if (!button || !text) return;
   if (activeSpeechButton === button) {
     stopSpeech();
@@ -25,22 +60,62 @@ function speakText(text, button, rate = SPEECH_RATE) {
   }
 
   stopSpeech();
-
+  const requestId = speechRequestId;
   const hint = document.getElementById('hint');
-  const prevHint = hint.textContent;
+  const prevHint = hint ? hint.textContent : '';
 
+  activeSpeechButton = button;
+  if (audioUrl) {
+    playPrebuiltAudio(text, button, rate, audioUrl, requestId, hint, prevHint);
+    return;
+  }
+  speakWithWebSpeech(text, button, rate, requestId, hint, prevHint);
+}
+
+function playPrebuiltAudio(text, button, rate, audioUrl, requestId, hint, prevHint) {
+  const audio = new Audio(audioUrl);
+  activeSpeechAudio = audio;
+  audio.preload = 'auto';
+  audio.playbackRate = Math.min(2, Math.max(0.25, rate));
+  if ('preservesPitch' in audio) audio.preservesPitch = true;
+
+  let settled = false;
+  const fallback = () => {
+    if (settled || requestId !== speechRequestId) return;
+    settled = true;
+    audio.onplaying = null;
+    audio.onended = null;
+    audio.onerror = null;
+    audio.pause();
+    if (activeSpeechAudio === audio) activeSpeechAudio = null;
+    speakWithWebSpeech(text, button, rate, requestId, hint, prevHint);
+  };
+
+  audio.onplaying = () => {
+    if (requestId !== speechRequestId) return;
+    setSpeechButtonState(button, true, text);
+  };
+  audio.onended = () => {
+    if (settled || requestId !== speechRequestId) return;
+    settled = true;
+    if (activeSpeechAudio === audio) activeSpeechAudio = null;
+    setSpeechButtonState(button, false);
+  };
+  audio.onerror = fallback;
+
+  const playPromise = audio.play();
+  if (playPromise && typeof playPromise.catch === 'function') playPromise.catch(fallback);
+}
+
+function speakWithWebSpeech(text, button, rate, requestId, hint, prevHint) {
+  if (requestId !== speechRequestId) return;
   if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') {
-    hint.textContent = 'Trình duyệt này không hỗ trợ phát âm, hãy mở bằng Chrome hoặc Safari';
-    setTimeout(() => { hint.textContent = prevHint; }, 2500);
+    setSpeechButtonState(button, false);
+    showSpeechHint(hint, 'Trình duyệt này không hỗ trợ phát âm, hãy mở bằng Chrome hoặc Safari', prevHint);
     return;
   }
 
-  const requestId = speechRequestId;
-  // Track pending speech without touching the DOM, so the engine receives the
-  // utterance and its rate before accessibility-related button updates. The
-  // visible playing state is applied after the engine accepts it in onstart.
   activeSpeechButton = button;
-
   const attempt = (voice, isRetry) => {
     if (requestId !== speechRequestId) return;
 
@@ -59,8 +134,7 @@ function speakText(text, button, rate = SPEECH_RATE) {
       if (startTimer) clearTimeout(startTimer);
       if (!isRetry) { attempt(null, true); return; }
       setSpeechButtonState(button, false);
-      hint.textContent = 'Không thể phát âm trên trình duyệt này';
-      setTimeout(() => { hint.textContent = prevHint; }, 2500);
+      showSpeechHint(hint, 'Không thể phát âm trên trình duyệt này', prevHint);
     };
 
     utter.onstart = () => {
@@ -85,8 +159,7 @@ function speakText(text, button, rate = SPEECH_RATE) {
       }
       settled = true;
       setSpeechButtonState(button, false);
-      hint.textContent = 'Không thể phát âm, hãy thử mở bằng Chrome hoặc Safari';
-      setTimeout(() => { hint.textContent = prevHint; }, 2500);
+      showSpeechHint(hint, 'Không thể phát âm, hãy thử mở bằng Chrome hoặc Safari', prevHint);
     }, 800);
 
     if (speechSynthesis.speaking || speechSynthesis.pending) speechSynthesis.cancel();
@@ -94,6 +167,14 @@ function speakText(text, button, rate = SPEECH_RATE) {
   };
 
   attempt(pickChineseVoice(), false);
+}
+
+function showSpeechHint(hint, message, previousMessage) {
+  if (!hint) return;
+  hint.textContent = message;
+  setTimeout(() => {
+    if (hint.textContent === message) hint.textContent = previousMessage;
+  }, 2500);
 }
 
 function setSpeechButtonState(button, isPlaying, text) {
@@ -116,6 +197,15 @@ function setSpeechButtonState(button, isPlaying, text) {
 
 function stopSpeech() {
   speechRequestId++;
+  if (activeSpeechAudio) {
+    const audio = activeSpeechAudio;
+    activeSpeechAudio = null;
+    audio.onplaying = null;
+    audio.onended = null;
+    audio.onerror = null;
+    audio.pause();
+    try { audio.currentTime = 0; } catch (error) {}
+  }
   if ('speechSynthesis' in window && (speechSynthesis.speaking || speechSynthesis.pending)) {
     speechSynthesis.cancel();
   }

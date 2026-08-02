@@ -1,6 +1,12 @@
 // Shared application configuration and in-memory state.
 const LEVELS = {
-  hsk1: { label: 'HSK1', dataUrl: 'database/vocabs/hsk1_vocabularies.json', available: true, total: 150 },
+  hsk1: {
+    label: 'HSK1',
+    dataUrl: 'database/vocabs/hsk1_vocabularies.json',
+    audioManifestUrl: 'database/prebuilt_audio/hsk1/manifest.json',
+    available: true,
+    total: 150,
+  },
   hsk2: { label: 'HSK2', dataUrl: 'database/vocabs/hsk2_vocabularies.json', available: true, total: 150 },
   hsk3: { label: 'HSK3', dataUrl: 'database/vocabs/hsk3_vocabularies.json', available: true, total: 300 },
   hsk4: { label: 'HSK4', dataUrl: 'database/vocabs/hsk4_vocabularies.json', available: true, total: 600 },
@@ -10,7 +16,6 @@ const LEVELS = {
 const SPEECH_RATE = 0.85;
 const EXAMPLE_SPEECH_SPEEDS = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2];
 const DEFAULT_EXAMPLE_SPEECH_SPEED = 1;
-const EXAMPLE_SPEECH_RATE_OFFSET = 0.25;
 
 let currentLevel = null;
 let WORDS = [];
@@ -25,6 +30,8 @@ let celebrationShown = false;
 let cachedVoices = [];
 let speechRequestId = 0;
 let activeSpeechButton = null;
+let activeSpeechAudio = null;
+let prebuiltAudioManifest = null;
 let exampleSpeechSpeed = DEFAULT_EXAMPLE_SPEECH_SPEED;
 let currentView = 'cards';
 let overviewQuery = '';

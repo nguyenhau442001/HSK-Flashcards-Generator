@@ -33,11 +33,11 @@ Tổng cộng: **5.000 từ vựng**.
 - Chào người học bằng thông điệp vui theo thời gian, tiến độ và chuỗi ngày quay lại.
 - Theo dõi tổng số từ, đã nhớ, chưa nhớ và chưa học.
 - Lọc thẻ theo trạng thái: tất cả, chưa học, chưa nhớ hoặc đã nhớ.
-- Nhấn vào thẻ để xem nghĩa, câu ví dụ và nghe phát âm của từ lẫn câu tiếng Trung; tốc độ đọc câu có thể chỉnh từ 0.25x đến 2x theo bước 0.25x, trong đó tốc độ thực tế chậm hơn mức hiển thị 0.25.
+- Nhấn vào thẻ để xem nghĩa, câu ví dụ và nghe phát âm của từ lẫn câu tiếng Trung; tốc độ đọc câu có thể chỉnh từ 0.25x đến 2x theo bước 0.25x và khớp trực tiếp với tốc độ hiển thị.
 - Vuốt sang phải để đánh dấu **Đã nhớ**, vuốt sang trái để đánh dấu **Chưa nhớ**.
 - Chuyển thẻ bằng nút trước/sau, xáo trộn thứ tự học và ẩn/hiện pinyin để tự kiểm tra.
 - Hiển thị danh sách có đánh số của các từ chưa nhớ.
-- Phát âm bằng Web Speech API, ưu tiên giọng `zh-CN` khi trình duyệt cung cấp.
+- HSK1 ưu tiên audio MP3 dựng sẵn khi có manifest; các mục còn thiếu và cấp độ khác dùng Web Speech API với giọng `zh-CN` làm fallback.
 - Tự động lưu tiến trình, thứ tự thẻ và tùy chọn pinyin riêng cho từng cấp độ.
 - Tải bản sao tiến trình dưới dạng JSON và khôi phục trên thiết bị khác.
 - Học lại từ đầu với bước xác nhận trước khi xóa tiến trình của cấp độ hiện tại.
@@ -112,6 +112,11 @@ Danh sách **Từ chưa nhớ** chỉ được hiển thị trong ứng dụng; 
 ## Lưu ý về phát âm
 
 Khả năng phát âm phụ thuộc vào Web Speech API và các giọng đọc được cài trên thiết bị. Chrome và Safari được khuyến nghị nếu nút phát âm không hoạt động trên trình duyệt hiện tại.
+
+HSK1 sử dụng audio MP3 dựng sẵn bằng Fun-CosyVoice3-0.5B-2512. Khi một mục có trong
+`database/prebuilt_audio/hsk1/manifest.json`, ứng dụng ưu tiên MP3; nếu chưa có hoặc file lỗi,
+ứng dụng tự động quay lại Web Speech API. Xem quy trình tạo và test tại
+[`tools/TTS_TESTING.md`](tools/TTS_TESTING.md).
 
 ## Lỗi đã biết
 

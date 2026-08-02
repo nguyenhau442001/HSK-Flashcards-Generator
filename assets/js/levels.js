@@ -356,6 +356,8 @@ async function selectLevel(level) {
     return;
   }
 
+  await loadPrebuiltAudioManifest(level);
+
   document.getElementById('overviewTab').disabled = false;
   order = Array.from({length: WORDS.length}, (_, i) => i);
   progress = {};
