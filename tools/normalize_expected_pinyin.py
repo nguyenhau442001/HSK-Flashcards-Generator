@@ -12,7 +12,7 @@ import re
 import tempfile
 from typing import Any
 
-from pypinyin import Style, pinyin
+from pypinyin import Style, load_phrases_dict, pinyin
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -20,6 +20,7 @@ HANZI_RE = re.compile(r"[\u3400-\u9fff]")
 BOUNDARY_RE = re.compile(r"[，。！？；,.!?;]")
 # Canonical readings used by this course where pypinyin's default differs.
 READING_OVERRIDES = {"谁": "shei"}
+load_phrases_dict({"很长": [["hen"], ["chang"]]})
 TONE_MARKS = {
     "ā": ("a", 1), "á": ("a", 2), "ǎ": ("a", 3), "à": ("a", 4),
     "ē": ("e", 1), "é": ("e", 2), "ě": ("e", 3), "è": ("e", 4),

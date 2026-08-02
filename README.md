@@ -113,9 +113,9 @@ Danh sách **Từ chưa nhớ** chỉ được hiển thị trong ứng dụng; 
 
 Khả năng phát âm phụ thuộc vào Web Speech API và các giọng đọc được cài trên thiết bị. Chrome và Safari được khuyến nghị nếu nút phát âm không hoạt động trên trình duyệt hiện tại.
 
-HSK1 sử dụng audio MP3 dựng sẵn bằng Fun-CosyVoice3-0.5B-2512. Khi một mục có trong
-`database/prebuilt_audio/hsk1/manifest.json`, ứng dụng ưu tiên MP3; nếu chưa có hoặc file lỗi,
-ứng dụng tự động quay lại Web Speech API. Xem quy trình tạo và test tại
+HSK1 và HSK2 sử dụng audio MP3 dựng sẵn bằng Fun-CosyVoice3-0.5B-2512. Khi một mục có trong
+manifest tương ứng tại `database/prebuilt_audio/`, ứng dụng ưu tiên MP3; nếu chưa có hoặc file
+lỗi, ứng dụng tự động quay lại Web Speech API. Xem quy trình tạo và test tại
 [`tools/TTS_TESTING.md`](tools/TTS_TESTING.md).
 
 ## Lỗi đã biết
