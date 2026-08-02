@@ -10,28 +10,28 @@
     "variants": [
       "⻊"
     ],
-    "description": "足 là bàn chân và cẳng chân; khi đứng bên trái, nó thường viết thành ⻊. Bộ Túc dẫn rất rõ tới đi, chạy, nhảy, đá, đường đi và mọi chuyển động bằng chân.",
+    "description": "足 ghép phần trên hình đầu gối với phần dưới là bàn chân, vẽ trọn vẹn cả cẳng chân từ gối xuống ngón. Khi đứng bên trái, nó viết gọn thành ⻊. Bộ Túc dẫn rất rõ tới đi, chạy, nhảy và mọi chuyển động thực hiện bằng chân.",
     "examples": [
       {
         "hanzi": "路",
         "pinyin": "lù",
         "meaning": "đường",
         "relation_type": "semantic",
-        "relation": "Ở 路 (“đường”), nét nghĩa của 足 vẫn hiện khá rõ: chữ được đặt trong trường ý “chân”."
+        "relation": "路 đặt ⻊ cạnh 各 góp âm: nơi đôi chân bước qua chính là con đường."
       },
       {
         "hanzi": "跑",
         "pinyin": "pǎo",
         "meaning": "chạy",
         "relation_type": "semantic",
-        "relation": "跑 mang nghĩa “chạy”; phần 足 giúp người học lần về chủ đề “chân”."
+        "relation": "跑 dùng ⻊ vì đây là chuyển động nhanh của chân, thêm 包 góp âm."
       },
       {
         "hanzi": "跳",
         "pinyin": "tiào",
         "meaning": "nhảy",
         "relation_type": "semantic",
-        "relation": "Có thể nhớ 跳 (“nhảy”) qua 足: bộ này giữ vai trò gợi nghĩa cho toàn chữ."
+        "relation": "跳 cũng dựa vào ⻊ làm nền nghĩa — động tác bật người lên khỏi mặt đất luôn bắt đầu từ đôi chân."
       }
     ]
   },
@@ -46,7 +46,7 @@
     "variants": [
       "贝"
     ],
-    "description": "貝 là vỏ sò, từng được dùng như tiền và vật quý; dạng giản thể là 贝. Vì thế bộ Bối thường dẫn tới tiền bạc, mua bán, giá trị, của cải và sự trao đổi.",
+    "description": "貝 vẽ một vỏ sò với đường vân cong đặc trưng nơi miệng vỏ — không phải vỏ sò bất kỳ, mà là loại vỏ ốc biển từng được dùng làm tiền tệ vào thời Thương, Chu, cách đây hơn ba nghìn năm. Những chuỗi vỏ sò này được nhắc tới trong văn khắc giáp cốt và kim văn như vật ban thưởng quý giá. Vì vậy gần như mọi chữ liên quan tới tiền bạc, giá trị, mua bán hay của cải trong tiếng Trung đều mang bộ 貝 (giản thể 贝): 财, 购, 贵, 贸, 贺, 费.",
     "examples": [
       {
         "hanzi": "买",
@@ -54,7 +54,7 @@
         "meaning": "mua",
         "traditional": "買",
         "relation_type": "semantic",
-        "relation": "Trong cấu tạo 买 (“mua”), 貝 không chỉ dễ nhận mặt mà còn góp phần định hướng nghĩa."
+        "relation": "买 (phồn thể 買) đặt 网 (lưới, thu gọn) lên trên 貝: hành động thu gom vật có giá trị về cho mình."
       },
       {
         "hanzi": "贵",
@@ -62,7 +62,7 @@
         "meaning": "đắt; quý",
         "traditional": "貴",
         "relation_type": "semantic",
-        "relation": "Từ 貝 mang ý “vỏ sò; tiền”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 贵 (“đắt; quý”)."
+        "relation": "贵 (phồn thể 貴) giữ 貝 làm nền nghĩa: thứ đáng \"quý\", đắt giá luôn được đo bằng vật ngang giá — ở đây là vỏ sò."
       },
       {
         "hanzi": "贸",
@@ -70,7 +70,7 @@
         "meaning": "thương mại",
         "traditional": "貿",
         "relation_type": "semantic",
-        "relation": "Trong 贸 (“thương mại”), 貝 là đầu mối gợi nghĩa, nối chữ với hình ảnh “vỏ sò; tiền”."
+        "relation": "贸 (phồn thể 貿) dùng 貝 vì mọi hoạt động thương mại, buôn bán đều xoay quanh trao đổi vật có giá trị."
       }
     ]
   },
@@ -85,7 +85,7 @@
     "variants": [
       "讠"
     ],
-    "description": "言 là lời nói được phát ra thành câu; khi đứng bên trái chữ giản thể, nó thành 讠. Bộ Ngôn bao quát nói, hỏi, kể, hứa, ngôn ngữ và mọi hoạt động giao tiếp bằng lời.",
+    "description": "言 vẽ một cái miệng với những vạch nhỏ phía trên tượng trưng cho âm thanh, lời nói đang phát ra — giống cách một số pictograph khác dùng vạch ngắn để biểu thị hơi hoặc tiếng động. Khi đứng bên trái chữ giản thể, nó thu gọn thành 讠. Bộ Ngôn bao trùm mọi hoạt động giao tiếp bằng lời: nói, hỏi, kể, hứa, ngôn ngữ.",
     "examples": [
       {
         "hanzi": "说",
@@ -93,7 +93,7 @@
         "meaning": "nói",
         "traditional": "說",
         "relation_type": "semantic",
-        "relation": "Từ 言 mang ý “lời nói; ngôn ngữ”, ta có một chiếc cầu nghĩa tự nhiên để nhớ 说 (“nói”)."
+        "relation": "说 (phồn thể 說) dùng 讠 làm nền nghĩa, ghép với 兑 góp âm — hành động phát ra lời."
       },
       {
         "hanzi": "话",
@@ -101,7 +101,7 @@
         "meaning": "lời nói",
         "traditional": "話",
         "relation_type": "semantic",
-        "relation": "Trong 话 (“lời nói”), 言 là đầu mối gợi nghĩa, nối chữ với hình ảnh “lời nói; ngôn ngữ”."
+        "relation": "话 (phồn thể 話) giữ 讠 để chỉ chính sản phẩm của hành động nói: lời, câu chuyện."
       },
       {
         "hanzi": "语",
@@ -109,7 +109,7 @@
         "meaning": "ngôn ngữ",
         "traditional": "語",
         "relation_type": "semantic",
-        "relation": "Ở 语 (“ngôn ngữ”), nét nghĩa của 言 vẫn hiện khá rõ: chữ được đặt trong trường ý “lời nói; ngôn ngữ”."
+        "relation": "语 (phồn thể 語) dùng 讠 vì ngôn ngữ, xét cho cùng, là một hệ thống lời nói có quy tắc."
       }
     ]
   }
