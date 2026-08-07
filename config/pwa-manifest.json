@@ -1,15 +1,15 @@
 {
   "name": "HSK Flashcards - Học từ vựng HSK1-6",
   "short_name": "HSK Flashcards",
-  "start_url": "./flashcards.html",
-  "scope": "./",
+  "start_url": "../flashcards.html",
+  "scope": "../",
   "display": "standalone",
   "background_color": "#fdf6f3",
   "theme_color": "#c2654a",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "assets/images/icon-512.png",
+      "src": "../assets/images/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
