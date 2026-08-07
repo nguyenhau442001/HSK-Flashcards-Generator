@@ -272,6 +272,13 @@
             oninput="updateRadicalOverviewSearch(this.value)">
         </label>
         <label class="overview-status-label">
+          <span class="sr-only">Lọc bộ thủ theo số nét</span>
+          <select id="radicalOverviewStroke" aria-label="Lọc bộ thủ theo số nét"
+            onchange="updateRadicalOverviewStroke(this.value)">
+            <option value="all">Tất cả số nét</option>
+          </select>
+        </label>
+        <label class="overview-status-label">
           <span class="sr-only">Lọc bộ thủ theo trạng thái học</span>
           <select id="radicalOverviewStatus" aria-label="Lọc bộ thủ theo trạng thái học"
             onchange="updateRadicalOverviewStatus(this.value)">

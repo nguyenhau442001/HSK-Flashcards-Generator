@@ -44,8 +44,8 @@ function radicalSetLabel() {
   return radicalReturnTab === 'basic50' ? '50 bộ cơ bản' : '214 bộ Khang Hy';
 }
 
-function radicalStudyLabel() {
-  return `${radicalGroupIndex + 1} nét · ${radicalSetLabel()}`;
+function radicalOverviewStrokeCount() {
+  return RADICAL_STROKE_COUNTS[radicalReturnTab];
 }
 
 function setRadicalViewMode(mode) {
@@ -65,14 +65,27 @@ function setRadicalViewMode(mode) {
   flashcardTab.setAttribute('aria-selected', String(!showOverview));
   overviewTab.setAttribute('aria-selected', String(showOverview));
   document.getElementById('appTitle').textContent = showOverview
-    ? `Bộ thủ ${radicalGroupIndex + 1} nét · Tổng quan`
+    ? `Bộ thủ ${radicalSetLabel()} · Tổng quan`
     : `Bộ thủ ${radicalGroupIndex + 1} nét Flashcards`;
 
   if (showOverview) {
     document.getElementById('radicalOverviewSearch').value = radicalOverviewQuery;
     document.getElementById('radicalOverviewStatus').value = radicalOverviewStatus;
+    renderRadicalOverviewStrokeOptions();
     renderRadicalOverview();
   }
+}
+
+function renderRadicalOverviewStrokeOptions() {
+  const select = document.getElementById('radicalOverviewStroke');
+  if (!select) return;
+  const total = radicalOverviewStrokeCount();
+  const options = ['<option value="all">Tất cả số nét</option>'];
+  for (let n = 1; n <= total; n++) {
+    options.push(`<option value="${n}">${n} nét</option>`);
+  }
+  select.innerHTML = options.join('');
+  select.value = radicalOverviewStroke;
 }
 
 function renderRadicalFilters() {
@@ -150,50 +163,56 @@ function updateRadicalOverviewStatus(value) {
   renderRadicalOverview();
 }
 
+function updateRadicalOverviewStroke(value) {
+  radicalOverviewStroke = value;
+  renderRadicalOverview();
+}
+
 function renderRadicalOverview() {
   if (radicalCurrentView !== 'overview') return;
   const normalizedQuery = normalizeSearchText(radicalOverviewQuery);
-  const matches = radicalWords
-    .map((item, itemIndex) => ({ item, itemIndex }))
-    .filter(({ item }) => {
+  const total = radicalOverviewItems.length;
+  const matches = radicalOverviewItems
+    .filter(({ item, stroke }) => {
+      if (radicalOverviewStroke !== 'all' && String(stroke) !== radicalOverviewStroke) return false;
       if (radicalOverviewStatus !== 'all' && radicalLearningStatus(item) !== radicalOverviewStatus) return false;
       if (!normalizedQuery) return true;
       const searchable = `${item.radical || ''} ${item.name || ''} ${item.pinyin || ''} ${item.meaning || ''}`;
       return normalizeSearchText(searchable).includes(normalizedQuery);
     });
 
-  document.getElementById('radicalOverviewTitle').textContent = `Bộ thủ ${radicalStudyLabel()}`;
+  document.getElementById('radicalOverviewTitle').textContent = `Toàn bộ ${radicalSetLabel()}`;
   document.getElementById('radicalOverviewDescription').textContent =
-    `Xem tổng thể ${radicalWords.length} bộ trước và trong khi học.`;
-  document.getElementById('radicalOverviewTotal').textContent = `${radicalWords.length} bộ`;
+    `Xem tổng thể ${total} bộ trước và trong khi học.`;
+  document.getElementById('radicalOverviewTotal').textContent = `${total} bộ`;
   document.getElementById('radicalOverviewResultSummary').textContent =
-    normalizedQuery || radicalOverviewStatus !== 'all'
-      ? `Tìm thấy ${matches.length} / ${radicalWords.length} bộ`
-      : `Hiển thị toàn bộ ${radicalWords.length} bộ`;
+    normalizedQuery || radicalOverviewStatus !== 'all' || radicalOverviewStroke !== 'all'
+      ? `Tìm thấy ${matches.length} / ${total} bộ`
+      : `Hiển thị toàn bộ ${total} bộ`;
 
   const list = document.getElementById('radicalOverviewList');
   list.innerHTML = '';
   if (matches.length === 0) {
     const empty = document.createElement('div');
     empty.className = 'overview-empty';
-    empty.textContent = 'Không tìm thấy bộ thủ phù hợp. Hãy thử từ khóa hoặc trạng thái khác.';
+    empty.textContent = 'Không tìm thấy bộ thủ phù hợp. Hãy thử từ khóa, số nét hoặc trạng thái khác.';
     list.appendChild(empty);
     return;
   }
 
   const statusLabels = { unseen: 'Chưa học', unknown: 'Chưa nhớ', known: 'Đã nhớ' };
   const fragment = document.createDocumentFragment();
-  matches.forEach(({ item, itemIndex }) => {
+  matches.forEach(({ item, groupIndex, itemIndexInGroup, stroke }, displayIndex) => {
     const status = radicalLearningStatus(item);
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'vocabulary-item radical-overview-item';
     button.setAttribute('aria-label', `${item.name}, ${item.pinyin}, ${item.meaning}. Mở flashcard`);
-    button.onclick = () => openRadicalInCards(itemIndex);
+    button.onclick = () => openRadicalInCards(groupIndex, itemIndexInGroup);
 
     const number = document.createElement('span');
     number.className = 'vocabulary-number';
-    number.textContent = String(itemIndex + 1).padStart(String(radicalWords.length).length, '0');
+    number.textContent = String(displayIndex + 1).padStart(String(matches.length).length, '0');
 
     const content = document.createElement('span');
     content.className = 'vocabulary-content';
@@ -205,6 +224,9 @@ function renderRadicalOverview() {
     const pinyin = document.createElement('span');
     pinyin.className = 'vocabulary-pinyin';
     pinyin.textContent = item.pinyin || '';
+    const strokeTag = document.createElement('span');
+    strokeTag.className = 'vocabulary-pinyin';
+    strokeTag.textContent = `${stroke} nét`;
     const meaning = document.createElement('span');
     meaning.className = 'vocabulary-meaning';
     meaning.textContent = `${item.name || ''} · ${item.meaning || ''}`;
@@ -212,7 +234,7 @@ function renderRadicalOverview() {
     badge.className = `vocabulary-status vocabulary-status--${status}`;
     badge.textContent = statusLabels[status];
 
-    wordLine.append(radical, pinyin);
+    wordLine.append(radical, pinyin, strokeTag);
     content.append(wordLine, meaning);
     button.append(number, content, badge);
     fragment.appendChild(button);
@@ -220,11 +242,14 @@ function renderRadicalOverview() {
   list.appendChild(fragment);
 }
 
-function openRadicalInCards(itemIndex) {
+function openRadicalInCards(groupIndex, itemIndexInGroup) {
+  radicalGroupIndex = groupIndex;
+  radicalWords = RADICAL_GROUPS[radicalReturnTab][groupIndex];
+  radicalOrder = Array.from({ length: radicalWords.length }, (_, i) => i);
   radicalCurrentFilter = 'all';
   radicalFilteredOrder = radicalOrder.slice();
-  const position = radicalFilteredOrder.indexOf(itemIndex);
-  radicalIdx = position >= 0 ? position : 0;
+  radicalIdx = radicalFilteredOrder.indexOf(itemIndexInGroup);
+  if (radicalIdx < 0) radicalIdx = 0;
   renderRadicalFilters();
   setRadicalViewMode('cards');
   renderRadicalCard('fade');

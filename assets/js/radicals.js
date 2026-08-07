@@ -63,14 +63,24 @@ function renderRadicalHub() {
     </div>
 
     <div id="radicalBasic50Panel" class="radical-panel">
-      <h2>50 BỘ THỦ CƠ BẢN</h2>
-      <p class="radical-panel-subtitle">Dành cho người mới bắt đầu · phân loại từ 1–10 nét</p>
+      <div class="radical-panel-header">
+        <div>
+          <h2>50 BỘ THỦ CƠ BẢN</h2>
+          <p class="radical-panel-subtitle">Dành cho người mới bắt đầu · phân loại từ 1–10 nét</p>
+        </div>
+        <button type="button" class="radical-overview-btn" onclick="openRadicalOverviewFromHub('basic50')">📋 Tổng quan 50 bộ</button>
+      </div>
       <div class="radical-group-grid" id="radicalGroupGridBasic50"></div>
     </div>
 
     <div id="radicalKangxi214Panel" class="radical-panel" hidden>
-      <h2>214 BỘ THỦ KHANG HY</h2>
-      <p class="radical-panel-subtitle">Đầy đủ 214 bộ · phân loại từ 1–17 nét</p>
+      <div class="radical-panel-header">
+        <div>
+          <h2>214 BỘ THỦ KHANG HY</h2>
+          <p class="radical-panel-subtitle">Đầy đủ 214 bộ · phân loại từ 1–17 nét</p>
+        </div>
+        <button type="button" class="radical-overview-btn" onclick="openRadicalOverviewFromHub('kangxi214')">📋 Tổng quan 214 bộ</button>
+      </div>
       <div class="radical-group-grid" id="radicalGroupGridKangxi214"></div>
     </div>
   `;
@@ -105,7 +115,19 @@ function renderRadicalHubProgress() {
   renderRadicalGroupGrid('kangxi214', 'radicalGroupGridKangxi214');
 }
 
-function startRadicalStudy(mode, groupIndex) {
+function buildRadicalOverviewItems(mode) {
+  const groups = RADICAL_GROUPS[mode];
+  const items = [];
+  groups.forEach((group, groupIndex) => {
+    group.forEach((item, itemIndexInGroup) => {
+      items.push({ item, groupIndex, itemIndexInGroup, stroke: groupIndex + 1 });
+    });
+  });
+  return items;
+}
+
+function startRadicalStudy(mode, groupIndex, options) {
+  const openOverview = !!(options && options.overview);
   radicalReturnTab = mode;
   radicalGroupIndex = groupIndex;
   radicalWords = RADICAL_GROUPS[mode][groupIndex];
@@ -116,6 +138,8 @@ function startRadicalStudy(mode, groupIndex) {
   radicalCurrentView = 'cards';
   radicalOverviewQuery = '';
   radicalOverviewStatus = 'all';
+  radicalOverviewStroke = 'all';
+  radicalOverviewItems = buildRadicalOverviewItems(mode);
   document.getElementById('primaryTabs').style.display = 'none';
   document.getElementById('learningDashboard').style.display = 'none';
   document.getElementById('screenRadicalHub').style.display = 'none';
@@ -124,8 +148,12 @@ function startRadicalStudy(mode, groupIndex) {
   document.body.classList.add('study-mode');
   buildRadicalCardArea();
   renderRadicalFilters();
-  setRadicalViewMode('cards');
+  setRadicalViewMode(openOverview ? 'overview' : 'cards');
   renderRadicalCard();
+}
+
+function openRadicalOverviewFromHub(mode) {
+  startRadicalStudy(mode, 0, { overview: true });
 }
 
 function goBackToRadicalHub() {

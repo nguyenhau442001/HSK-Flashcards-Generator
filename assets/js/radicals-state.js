@@ -22,6 +22,8 @@ let radicalCurrentFilter = 'all';
 let radicalCurrentView = 'cards';
 let radicalOverviewQuery = '';
 let radicalOverviewStatus = 'all';
+let radicalOverviewStroke = 'all';
+let radicalOverviewItems = [];
 
 function radicalProgressKey(item) {
   return String(item.kangxi_id !== undefined ? item.kangxi_id : item.id);

@@ -17,6 +17,23 @@
 .radical-panel h2 { font-size: 17px; margin: 0 0 4px; font-weight: 700; }
 .radical-panel-subtitle { margin: 0 auto 14px; color: var(--text-secondary); font-size: 13px; max-width: 320px; }
 
+.radical-panel-header {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  text-align: left; margin-bottom: 14px;
+}
+.radical-panel-header .radical-panel-subtitle { margin: 0; }
+.radical-overview-btn {
+  flex-shrink: 0; padding: 8px 12px; border-radius: var(--radius-lg); border: 1.5px solid var(--border);
+  background: var(--card-bg); color: var(--accent); font: inherit; font-size: 12.5px; font-weight: 700;
+  cursor: pointer; white-space: nowrap;
+}
+.radical-overview-btn:hover { border-color: var(--accent); }
+.radical-overview-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 420px) {
+  .radical-panel-header { flex-direction: column; align-items: stretch; }
+  .radical-overview-btn { align-self: flex-start; }
+}
+
 .radical-group-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
 .radical-group-card {
   background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg);
