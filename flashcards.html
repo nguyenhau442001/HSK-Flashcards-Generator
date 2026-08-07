@@ -4,8 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HSK Flashcards - Học từ vựng HSK1-6</title>
+<link rel="manifest" href="config/pwa-manifest.json">
+<link rel="icon" href="assets/images/favicon.png"> <!-- favicon: tab/bookmark, simplified for small size -->
+<link rel="apple-touch-icon" href="assets/images/icon-512.png"> <!-- iOS home screen shortcut icon -->
+<meta name="theme-color" content="#c2654a">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="HSK Flashcards">
 <link rel="stylesheet" href="assets/flashcards.css">
 <script>(function(){var t=localStorage.getItem('hsk_theme');if(t)document.documentElement.dataset.theme=t;})();</script>
+<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js');});}</script>
 </head>
 <body>
 <div class="app">
