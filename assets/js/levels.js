@@ -120,6 +120,55 @@ function streakStats(days) {
   };
 }
 
+function buildHeatmapCells(days, weeksBack) {
+  const cursor = new Date();
+  cursor.setHours(12, 0, 0, 0);
+  const todayDow = cursor.getDay();
+  cursor.setDate(cursor.getDate() - todayDow);
+  cursor.setDate(cursor.getDate() + 7 - (weeksBack * 7));
+
+  const cells = [];
+  for (let i = 0; i < weeksBack * 7; i++) {
+    const key = localDateKey(cursor);
+    const count = Array.isArray(days[key]) ? days[key].length : 0;
+    cells.push({ dateKey: key, count, studied: count > 0, future: cursor > new Date() });
+    cursor.setDate(cursor.getDate() + 1);
+  }
+  return cells;
+}
+
+function showHistoryModal() {
+  const activity = readStudyActivity();
+  const stats = streakStats(activity.days);
+  const cells = buildHeatmapCells(activity.days, 52);
+
+  const overlay = document.createElement('div');
+  overlay.id = 'historyOverlay';
+  overlay.className = 'history-overlay';
+  overlay.innerHTML = `
+    <div class="history-box">
+      <button class="history-close" onclick="document.getElementById('historyOverlay').remove()" aria-label="Đóng">✕</button>
+      <div class="history-title">Lịch sử học tập</div>
+      <div class="history-stats">
+        <div class="history-stat"><strong>${stats.current}</strong><span>Chuỗi hiện tại</span></div>
+        <div class="history-stat"><strong>${stats.longest}</strong><span>Chuỗi dài nhất</span></div>
+        <div class="history-stat"><strong>${stats.shortest}</strong><span>Chuỗi ngắn nhất</span></div>
+        <div class="history-stat"><strong>${stats.totalDaysStudied}</strong><span>Tổng ngày đã học</span></div>
+      </div>
+      <div class="history-heatmap">
+        <div class="history-heatmap-grid">
+          ${cells.map(cell => `
+            <div class="history-cell ${cell.future ? 'empty' : cell.studied ? 'studied' : ''}">
+              ${cell.future ? '' : `<div class="history-cell-tooltip">${cell.dateKey}: ${cell.count} từ</div>`}
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    </div>`;
+  overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+  document.body.appendChild(overlay);
+}
+
 function recordDailyStudy(wordId) {
   if (!currentLevel || wordId === undefined || wordId === null) return;
 
