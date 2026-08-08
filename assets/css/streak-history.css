@@ -1,5 +1,5 @@
 /* History modal: streak stats + contribution heatmap */
-.learning-dashboard-header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+.learning-dashboard-header-right { display: flex; flex-direction: row; align-items: center; gap: 8px; }
 .history-trigger {
   background: none; border: 1px solid var(--border); border-radius: 999px;
   padding: 4px 10px; font-size: 11.5px; color: var(--text-secondary); cursor: pointer;
