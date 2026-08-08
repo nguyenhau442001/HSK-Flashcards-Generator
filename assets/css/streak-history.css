@@ -1,0 +1,52 @@
+/* History modal: streak stats + contribution heatmap */
+.learning-dashboard-header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+.history-trigger {
+  background: none; border: 1px solid var(--border); border-radius: 999px;
+  padding: 4px 10px; font-size: 11.5px; color: var(--text-secondary); cursor: pointer;
+}
+.history-trigger:hover { opacity: 0.8; }
+.history-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.48);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 200; overflow: auto; padding: 24px 12px;
+}
+.history-box {
+  background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg);
+  padding: 24px; max-width: 640px; width: 100%; position: relative;
+}
+.history-close {
+  position: absolute; top: 14px; right: 14px;
+  background: none; border: none; font-size: 20px; line-height: 1;
+  cursor: pointer; color: var(--text-secondary);
+}
+.history-close:hover { opacity: 0.7; }
+.history-title { font-size: 18px; font-weight: 700; margin: 0 0 16px; padding-right: 28px; }
+.history-stats {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 10px; margin-bottom: 20px;
+}
+.history-stat {
+  background: var(--success-bg); border-radius: 10px; padding: 10px 12px; text-align: center;
+}
+.history-stat strong { display: block; font-size: 20px; color: var(--success-text); }
+.history-stat span { font-size: 11.5px; color: var(--text-secondary); }
+.history-heatmap { overflow-x: auto; }
+.history-heatmap-grid {
+  display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, 12px);
+  gap: 3px; width: max-content;
+}
+.history-cell {
+  width: 12px; height: 12px; border-radius: 3px;
+  background: var(--border); position: relative;
+}
+.history-cell.studied { background: var(--accent); }
+.history-cell.empty { background: transparent; }
+.history-cell:hover .history-cell-tooltip { display: block; }
+.history-cell-tooltip {
+  display: none; position: absolute; bottom: 130%; left: 50%; transform: translateX(-50%);
+  background: var(--card-bg); border: 1px solid var(--border); border-radius: 6px;
+  padding: 4px 8px; font-size: 11px; white-space: nowrap; z-index: 1; color: var(--text-secondary);
+}
+@media (prefers-reduced-motion: reduce) {
+  .history-overlay { animation: none; }
+}
