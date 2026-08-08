@@ -86,6 +86,40 @@ function studyStreak(days) {
   return streak;
 }
 
+function streakStats(days) {
+  const studiedKeys = Object.keys(days)
+    .filter(key => Array.isArray(days[key]) && days[key].length > 0)
+    .sort();
+
+  if (studiedKeys.length === 0) {
+    return { current: 0, longest: 0, shortest: 0, totalDaysStudied: 0 };
+  }
+
+  const runs = [];
+  let runLength = 1;
+  for (let i = 1; i < studiedKeys.length; i++) {
+    const gap = calendarDayDifference(studiedKeys[i - 1], studiedKeys[i]);
+    if (gap === 1) {
+      runLength++;
+    } else {
+      runs.push(runLength);
+      runLength = 1;
+    }
+  }
+  runs.push(runLength);
+
+  const current = studyStreak(days);
+  const completedRuns = current > 0 ? runs.slice(0, -1) : runs.slice();
+  const shortestSource = completedRuns.length > 0 ? completedRuns : runs;
+
+  return {
+    current,
+    longest: Math.max(...runs),
+    shortest: Math.min(...shortestSource),
+    totalDaysStudied: studiedKeys.length,
+  };
+}
+
 function recordDailyStudy(wordId) {
   if (!currentLevel || wordId === undefined || wordId === null) return;
 
@@ -94,11 +128,6 @@ function recordDailyStudy(wordId) {
   const learnedWords = new Set(Array.isArray(activity.days[today]) ? activity.days[today] : []);
   learnedWords.add(currentLevel + ':' + String(wordId));
   activity.days[today] = Array.from(learnedWords);
-
-  Object.keys(activity.days).forEach(dateKey => {
-    const age = calendarDayDifference(dateKey, today);
-    if (age === null || age < 0 || age > 120) delete activity.days[dateKey];
-  });
 
   try { localStorage.setItem(STUDY_ACTIVITY_KEY, JSON.stringify(activity)); } catch (e) {}
   renderLearningDashboard();
