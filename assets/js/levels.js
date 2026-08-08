@@ -170,7 +170,7 @@ function showHistoryModal() {
         <div class="history-stat"><strong>${stats.current}</strong><span>Chuỗi hiện tại</span></div>
         <div class="history-stat"><strong>${stats.longest}</strong><span>Chuỗi dài nhất</span></div>
         <div class="history-stat"><strong>${stats.shortest}</strong><span>Chuỗi ngắn nhất</span></div>
-        <div class="history-stat"><strong>${stats.totalDaysStudied}</strong><span>Tổng ngày đã học</span></div>
+        <div class="history-stat"><strong>${stats.totalDaysStudied}</strong><span>Tổng số ngày đã học</span></div>
       </div>
       <div class="history-heatmap">
         <div class="history-heatmap-grid">
