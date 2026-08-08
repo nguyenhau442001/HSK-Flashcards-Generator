@@ -242,7 +242,7 @@ function renderLearningDashboard() {
     : todayCount > 0
       ? `Còn ${dailyGoal - todayCount} từ nữa để hoàn thành mục tiêu.`
       : `Học ${dailyGoal} từ để hoàn thành mục tiêu hôm nay.`;
-  streakNode.textContent = streak > 0 ? `🔥 ${streak} ngày học` : 'Bắt đầu chuỗi học';
+  streakNode.textContent = `🔥 ${streak} ngày học`;
   knownNode.textContent = summary.totalKnown;
   studiedNode.textContent = summary.totalStudied;
 
