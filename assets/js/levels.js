@@ -146,17 +146,17 @@ function buildMonthBars(days, year, month) {
   for (let d = 1; d <= daysInMonth; d++) {
     const date = new Date(year, month, d, 12, 0, 0, 0);
     const key = localDateKey(date);
-    const hours = daySeconds(days[key]) / 3600;
-    bars.push({ dateKey: key, day: d, hours, future: date > now });
+    const minutes = daySeconds(days[key]) / 60;
+    bars.push({ dateKey: key, day: d, minutes, future: date > now });
   }
   return bars;
 }
 
-function monthAverageHours(bars) {
+function monthAverageMinutes(bars) {
   const pastBars = bars.filter(bar => !bar.future);
-  const studiedBars = pastBars.filter(bar => bar.hours > 0);
+  const studiedBars = pastBars.filter(bar => bar.minutes > 0);
   if (studiedBars.length === 0) return 0;
-  return studiedBars.reduce((sum, bar) => sum + bar.hours, 0) / studiedBars.length;
+  return studiedBars.reduce((sum, bar) => sum + bar.minutes, 0) / studiedBars.length;
 }
 
 function changeHistoryModalMonth(delta) {
@@ -175,10 +175,14 @@ function renderHistoryModalBody() {
   const stats = streakStats(activity.days);
   const { year, month } = historyModalMonth;
   const bars = buildMonthBars(activity.days, year, month);
-  const maxHours = Math.max(1, ...bars.map(bar => bar.hours));
-  const avgHours = monthAverageHours(bars);
+  const maxMinutes = Math.max(1, ...bars.map(bar => bar.minutes));
+  const avgMinutes = monthAverageMinutes(bars);
   const now = new Date();
   const isCurrentMonth = year === now.getFullYear() && month === now.getMonth();
+
+  const axisSteps = 4;
+  const axisLabels = Array.from({ length: axisSteps + 1 }, (_, i) => Math.round(maxMinutes * (axisSteps - i) / axisSteps));
+  const avgLinePercent = Math.min(100, avgMinutes / maxMinutes * 100);
 
   body.innerHTML = `
     <div class="history-stats">
@@ -192,14 +196,22 @@ function renderHistoryModalBody() {
       <div class="history-month-title">${MONTH_LABELS[month]} ${year}</div>
       <button class="history-month-btn" type="button" onclick="changeHistoryModalMonth(1)" ${isCurrentMonth ? 'disabled' : ''} aria-label="Tháng sau">▶</button>
     </div>
-    <div class="history-month-avg">Trung bình ${avgHours.toFixed(1)} giờ/ngày học trong tháng</div>
-    <div class="history-bar-chart">
-      ${bars.map(bar => `
-        <div class="history-bar-col" title="${bar.dateKey}: ${bar.hours.toFixed(1)} giờ">
-          <div class="history-bar ${bar.future ? 'future' : ''}" style="height:${bar.future ? 0 : Math.max(2, bar.hours / maxHours * 100)}%"></div>
-          <div class="history-bar-label">${bar.day}</div>
-        </div>
-      `).join('')}
+    <div class="history-chart-wrap">
+      <div class="history-y-axis">
+        ${axisLabels.map(label => `<div class="history-y-axis-label">${label}</div>`).join('')}
+      </div>
+      <div class="history-bar-chart">
+        ${avgMinutes > 0 ? `<div class="history-avg-line" style="bottom:${avgLinePercent}%" title="Trung bình ${avgMinutes.toFixed(0)} phút/ngày"></div>` : ''}
+        ${bars.map(bar => `
+          <div class="history-bar-col" title="${bar.dateKey}: ${bar.minutes.toFixed(0)} phút">
+            <div class="history-bar ${bar.future ? 'future' : ''}" style="height:${bar.future ? 0 : bar.minutes / maxMinutes * 100}%"></div>
+            <div class="history-bar-label">${bar.day}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+    <div class="history-axis-caption">
+      <span>Trục dọc: phút học</span><span>Trục ngang: ngày trong tháng</span>
     </div>`;
 }
 
