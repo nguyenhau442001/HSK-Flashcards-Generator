@@ -248,18 +248,14 @@ function showWelcomeToast() {
   } catch (e) {}
 
   let greeting;
-  let streak = 1;
   const firstVisit = !history || !history.lastVisit;
+  const streak = studyStreak(readStudyActivity().days);
 
   if (firstVisit) {
     greeting = 'Chào mừng bạn! Chọn một cấp độ rồi mình chiến thôi 👋';
   } else {
     const dayDifference = calendarDayDifference(history.lastVisit, today);
     const continuedStreak = dayDifference === 1;
-    const sameDay = dayDifference === 0;
-    streak = sameDay ? Math.max(1, Number(history.streak) || 1)
-      : continuedStreak ? Math.max(1, Number(history.streak) || 1) + 1
-        : 1;
 
     const contextualGreetings = [];
 
@@ -292,7 +288,7 @@ function showWelcomeToast() {
   }
 
   try {
-    localStorage.setItem('hsk_visit_history_v1', JSON.stringify({ lastVisit: today, streak }));
+    localStorage.setItem('hsk_visit_history_v1', JSON.stringify({ lastVisit: today }));
     localStorage.setItem('hsk_last_greeting_v1', greeting);
   } catch (e) {}
 
