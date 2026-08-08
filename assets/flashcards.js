@@ -12,6 +12,7 @@ document.querySelectorAll('.level-card').forEach(card => {
 renderLevelProgress();
 showWelcomeToast();
 renderLearningDashboard();
+startStudyHeartbeat();
 
 loadRadicalProgress();
 loadRadicalPrefs();

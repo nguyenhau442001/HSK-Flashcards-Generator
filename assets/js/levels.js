@@ -42,11 +42,26 @@ function readSavedLevelProgress(level) {
 }
 
 function readStudyActivity() {
+  let activity = { days: {} };
   try {
     const parsed = JSON.parse(localStorage.getItem(STUDY_ACTIVITY_KEY));
-    if (parsed && parsed.days && typeof parsed.days === 'object') return parsed;
+    if (parsed && parsed.days && typeof parsed.days === 'object') activity = parsed;
   } catch (e) {}
-  return { days: {} };
+
+  Object.keys(activity.days).forEach(dateKey => {
+    if (Array.isArray(activity.days[dateKey])) {
+      activity.days[dateKey] = { words: activity.days[dateKey], seconds: 0 };
+    }
+  });
+  return activity;
+}
+
+function dayWordCount(dayEntry) {
+  return dayEntry && Array.isArray(dayEntry.words) ? dayEntry.words.length : 0;
+}
+
+function daySeconds(dayEntry) {
+  return dayEntry && typeof dayEntry.seconds === 'number' ? dayEntry.seconds : 0;
 }
 
 function readDailyStudyGoal() {
@@ -72,14 +87,14 @@ function studyStreak(days) {
   cursor.setHours(12, 0, 0, 0);
   const today = localDateKey(cursor);
 
-  if (!Array.isArray(days[today]) || days[today].length === 0) {
+  if (dayWordCount(days[today]) === 0) {
     cursor.setDate(cursor.getDate() - 1);
   }
 
   let streak = 0;
   while (streak < 3650) {
     const key = localDateKey(cursor);
-    if (!Array.isArray(days[key]) || days[key].length === 0) break;
+    if (dayWordCount(days[key]) === 0) break;
     streak++;
     cursor.setDate(cursor.getDate() - 1);
   }
@@ -88,7 +103,7 @@ function studyStreak(days) {
 
 function streakStats(days) {
   const studiedKeys = Object.keys(days)
-    .filter(key => Array.isArray(days[key]) && days[key].length > 0)
+    .filter(key => dayWordCount(days[key]) > 0)
     .sort();
 
   if (studiedKeys.length === 0) {
@@ -120,44 +135,77 @@ function streakStats(days) {
   };
 }
 
-function buildHeatmapCells(days, year) {
-  const now = new Date();
-  const cursor = new Date(year, 0, 1, 12, 0, 0, 0);
-  cursor.setDate(cursor.getDate() - cursor.getDay());
-
-  const yearEnd = new Date(year, 11, 31, 12, 0, 0, 0);
-  const cells = [];
-  while (cursor <= yearEnd || cursor.getDay() !== 0) {
-    const key = localDateKey(cursor);
-    const inYear = cursor.getFullYear() === year;
-    const count = inYear && Array.isArray(days[key]) ? days[key].length : 0;
-    cells.push({ dateKey: key, count, studied: count > 0, future: cursor > now, inYear });
-    cursor.setDate(cursor.getDate() + 1);
-    if (cursor > yearEnd && cursor.getDay() === 0) break;
-  }
-  return cells;
-}
-
 const MONTH_LABELS = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
 
-function buildHeatmapWeeks(cells) {
-  const weeks = [];
-  for (let i = 0; i < cells.length; i += 7) weeks.push(cells.slice(i, i + 7));
+let historyModalMonth = null;
 
-  let lastMonth = null;
-  return weeks.map(week => {
-    const refCell = week.find(cell => cell.inYear) || week[0];
-    const month = Number(refCell.dateKey.split('-')[1]) - 1;
-    const label = refCell.inYear && month !== lastMonth ? MONTH_LABELS[month] : '';
-    if (refCell.inYear) lastMonth = month;
-    return { cells: week, label };
-  });
+function buildMonthBars(days, year, month) {
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const now = new Date();
+  const bars = [];
+  for (let d = 1; d <= daysInMonth; d++) {
+    const date = new Date(year, month, d, 12, 0, 0, 0);
+    const key = localDateKey(date);
+    const hours = daySeconds(days[key]) / 3600;
+    bars.push({ dateKey: key, day: d, hours, future: date > now });
+  }
+  return bars;
+}
+
+function monthAverageHours(bars) {
+  const pastBars = bars.filter(bar => !bar.future);
+  const studiedBars = pastBars.filter(bar => bar.hours > 0);
+  if (studiedBars.length === 0) return 0;
+  return studiedBars.reduce((sum, bar) => sum + bar.hours, 0) / studiedBars.length;
+}
+
+function changeHistoryModalMonth(delta) {
+  const next = new Date(historyModalMonth.year, historyModalMonth.month + delta, 1);
+  const now = new Date();
+  if (next.getFullYear() > now.getFullYear() || (next.getFullYear() === now.getFullYear() && next.getMonth() > now.getMonth())) return;
+  historyModalMonth = { year: next.getFullYear(), month: next.getMonth() };
+  renderHistoryModalBody();
+}
+
+function renderHistoryModalBody() {
+  const body = document.getElementById('historyModalBody');
+  if (!body) return;
+
+  const activity = readStudyActivity();
+  const stats = streakStats(activity.days);
+  const { year, month } = historyModalMonth;
+  const bars = buildMonthBars(activity.days, year, month);
+  const maxHours = Math.max(1, ...bars.map(bar => bar.hours));
+  const avgHours = monthAverageHours(bars);
+  const now = new Date();
+  const isCurrentMonth = year === now.getFullYear() && month === now.getMonth();
+
+  body.innerHTML = `
+    <div class="history-stats">
+      <div class="history-stat"><strong>${stats.current}</strong><span>Chuỗi hiện tại</span></div>
+      <div class="history-stat"><strong>${stats.longest}</strong><span>Chuỗi dài nhất</span></div>
+      <div class="history-stat"><strong>${stats.shortest}</strong><span>Chuỗi ngắn nhất</span></div>
+      <div class="history-stat"><strong>${stats.totalDaysStudied}</strong><span>Tổng số ngày đã học</span></div>
+    </div>
+    <div class="history-month-nav">
+      <button class="history-month-btn" type="button" onclick="changeHistoryModalMonth(-1)" aria-label="Tháng trước">◀</button>
+      <div class="history-month-title">${MONTH_LABELS[month]} ${year}</div>
+      <button class="history-month-btn" type="button" onclick="changeHistoryModalMonth(1)" ${isCurrentMonth ? 'disabled' : ''} aria-label="Tháng sau">▶</button>
+    </div>
+    <div class="history-month-avg">Trung bình ${avgHours.toFixed(1)} giờ/ngày học trong tháng</div>
+    <div class="history-bar-chart">
+      ${bars.map(bar => `
+        <div class="history-bar-col" title="${bar.dateKey}: ${bar.hours.toFixed(1)} giờ">
+          <div class="history-bar ${bar.future ? 'future' : ''}" style="height:${bar.future ? 0 : Math.max(2, bar.hours / maxHours * 100)}%"></div>
+          <div class="history-bar-label">${bar.day}</div>
+        </div>
+      `).join('')}
+    </div>`;
 }
 
 function showHistoryModal() {
-  const activity = readStudyActivity();
-  const stats = streakStats(activity.days);
-  const weeks = buildHeatmapWeeks(buildHeatmapCells(activity.days, new Date().getFullYear()));
+  const now = new Date();
+  historyModalMonth = { year: now.getFullYear(), month: now.getMonth() };
 
   const overlay = document.createElement('div');
   overlay.id = 'historyOverlay';
@@ -166,31 +214,11 @@ function showHistoryModal() {
     <div class="history-box">
       <button class="history-close" onclick="document.getElementById('historyOverlay').remove()" aria-label="Đóng">✕</button>
       <div class="history-title">Lịch sử học tập</div>
-      <div class="history-stats">
-        <div class="history-stat"><strong>${stats.current}</strong><span>Chuỗi hiện tại</span></div>
-        <div class="history-stat"><strong>${stats.longest}</strong><span>Chuỗi dài nhất</span></div>
-        <div class="history-stat"><strong>${stats.shortest}</strong><span>Chuỗi ngắn nhất</span></div>
-        <div class="history-stat"><strong>${stats.totalDaysStudied}</strong><span>Tổng số ngày đã học</span></div>
-      </div>
-      <div class="history-heatmap">
-        <div class="history-heatmap-grid">
-          ${weeks.map(week => `
-            <div class="history-week">
-              <div class="history-month-label">${week.label}</div>
-              <div class="history-week-cells">
-                ${week.cells.map(cell => `
-                  <div class="history-cell ${!cell.inYear || cell.future ? 'empty' : cell.studied ? 'studied' : ''}">
-                    ${!cell.inYear || cell.future ? '' : `<div class="history-cell-tooltip">${cell.dateKey}: ${cell.count} từ</div>`}
-                  </div>
-                `).join('')}
-              </div>
-            </div>
-          `).join('')}
-        </div>
-      </div>
+      <div id="historyModalBody"></div>
     </div>`;
   overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
   document.body.appendChild(overlay);
+  renderHistoryModalBody();
 }
 
 function recordDailyStudy(wordId) {
@@ -198,12 +226,30 @@ function recordDailyStudy(wordId) {
 
   const activity = readStudyActivity();
   const today = localDateKey(new Date());
-  const learnedWords = new Set(Array.isArray(activity.days[today]) ? activity.days[today] : []);
+  const dayEntry = activity.days[today] || { words: [], seconds: 0 };
+  const learnedWords = new Set(dayEntry.words);
   learnedWords.add(currentLevel + ':' + String(wordId));
-  activity.days[today] = Array.from(learnedWords);
+  activity.days[today] = { words: Array.from(learnedWords), seconds: dayEntry.seconds };
 
   try { localStorage.setItem(STUDY_ACTIVITY_KEY, JSON.stringify(activity)); } catch (e) {}
   renderLearningDashboard();
+}
+
+const STUDY_HEARTBEAT_SECONDS = 15;
+
+function recordStudySeconds(deltaSeconds) {
+  const activity = readStudyActivity();
+  const today = localDateKey(new Date());
+  const dayEntry = activity.days[today] || { words: [], seconds: 0 };
+  activity.days[today] = { words: dayEntry.words, seconds: dayEntry.seconds + deltaSeconds };
+
+  try { localStorage.setItem(STUDY_ACTIVITY_KEY, JSON.stringify(activity)); } catch (e) {}
+}
+
+function startStudyHeartbeat() {
+  setInterval(() => {
+    if (document.visibilityState === 'visible') recordStudySeconds(STUDY_HEARTBEAT_SECONDS);
+  }, STUDY_HEARTBEAT_SECONDS * 1000);
 }
 
 function learningProgressSummary() {
@@ -250,7 +296,7 @@ function renderLearningDashboard() {
 
   const activity = readStudyActivity();
   const today = localDateKey(new Date());
-  const todayCount = Array.isArray(activity.days[today]) ? activity.days[today].length : 0;
+  const todayCount = dayWordCount(activity.days[today]);
   const dailyGoal = readDailyStudyGoal();
   const streak = studyStreak(activity.days);
   const summary = learningProgressSummary();
