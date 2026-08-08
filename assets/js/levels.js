@@ -120,24 +120,25 @@ function streakStats(days) {
   };
 }
 
-function buildHeatmapCells(days, weeksBack) {
-  const cursor = new Date();
-  cursor.setHours(12, 0, 0, 0);
-  const todayDow = cursor.getDay();
-  cursor.setDate(cursor.getDate() - todayDow);
-  cursor.setDate(cursor.getDate() + 7 - (weeksBack * 7));
+function buildHeatmapCells(days, year) {
+  const now = new Date();
+  const cursor = new Date(year, 0, 1, 12, 0, 0, 0);
+  cursor.setDate(cursor.getDate() - cursor.getDay());
 
+  const yearEnd = new Date(year, 11, 31, 12, 0, 0, 0);
   const cells = [];
-  for (let i = 0; i < weeksBack * 7; i++) {
+  while (cursor <= yearEnd || cursor.getDay() !== 0) {
     const key = localDateKey(cursor);
-    const count = Array.isArray(days[key]) ? days[key].length : 0;
-    cells.push({ dateKey: key, count, studied: count > 0, future: cursor > new Date() });
+    const inYear = cursor.getFullYear() === year;
+    const count = inYear && Array.isArray(days[key]) ? days[key].length : 0;
+    cells.push({ dateKey: key, count, studied: count > 0, future: cursor > now, inYear });
     cursor.setDate(cursor.getDate() + 1);
+    if (cursor > yearEnd && cursor.getDay() === 0) break;
   }
   return cells;
 }
 
-const MONTH_LABELS = ['Th1', 'Th2', 'Th3', 'Th4', 'Th5', 'Th6', 'Th7', 'Th8', 'Th9', 'Th10', 'Th11', 'Th12'];
+const MONTH_LABELS = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
 
 function buildHeatmapWeeks(cells) {
   const weeks = [];
@@ -145,9 +146,10 @@ function buildHeatmapWeeks(cells) {
 
   let lastMonth = null;
   return weeks.map(week => {
-    const firstCellMonth = Number(week[0].dateKey.split('-')[1]) - 1;
-    const label = firstCellMonth !== lastMonth ? MONTH_LABELS[firstCellMonth] : '';
-    lastMonth = firstCellMonth;
+    const refCell = week.find(cell => cell.inYear) || week[0];
+    const month = Number(refCell.dateKey.split('-')[1]) - 1;
+    const label = refCell.inYear && month !== lastMonth ? MONTH_LABELS[month] : '';
+    if (refCell.inYear) lastMonth = month;
     return { cells: week, label };
   });
 }
@@ -155,7 +157,7 @@ function buildHeatmapWeeks(cells) {
 function showHistoryModal() {
   const activity = readStudyActivity();
   const stats = streakStats(activity.days);
-  const weeks = buildHeatmapWeeks(buildHeatmapCells(activity.days, 52));
+  const weeks = buildHeatmapWeeks(buildHeatmapCells(activity.days, new Date().getFullYear()));
 
   const overlay = document.createElement('div');
   overlay.id = 'historyOverlay';
@@ -177,8 +179,8 @@ function showHistoryModal() {
               <div class="history-month-label">${week.label}</div>
               <div class="history-week-cells">
                 ${week.cells.map(cell => `
-                  <div class="history-cell ${cell.future ? 'empty' : cell.studied ? 'studied' : ''}">
-                    ${cell.future ? '' : `<div class="history-cell-tooltip">${cell.dateKey}: ${cell.count} từ</div>`}
+                  <div class="history-cell ${!cell.inYear || cell.future ? 'empty' : cell.studied ? 'studied' : ''}">
+                    ${!cell.inYear || cell.future ? '' : `<div class="history-cell-tooltip">${cell.dateKey}: ${cell.count} từ</div>`}
                   </div>
                 `).join('')}
               </div>
