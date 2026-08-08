@@ -137,10 +137,25 @@ function buildHeatmapCells(days, weeksBack) {
   return cells;
 }
 
+const MONTH_LABELS = ['Th1', 'Th2', 'Th3', 'Th4', 'Th5', 'Th6', 'Th7', 'Th8', 'Th9', 'Th10', 'Th11', 'Th12'];
+
+function buildHeatmapWeeks(cells) {
+  const weeks = [];
+  for (let i = 0; i < cells.length; i += 7) weeks.push(cells.slice(i, i + 7));
+
+  let lastMonth = null;
+  return weeks.map(week => {
+    const firstCellMonth = Number(week[0].dateKey.split('-')[1]) - 1;
+    const label = firstCellMonth !== lastMonth ? MONTH_LABELS[firstCellMonth] : '';
+    lastMonth = firstCellMonth;
+    return { cells: week, label };
+  });
+}
+
 function showHistoryModal() {
   const activity = readStudyActivity();
   const stats = streakStats(activity.days);
-  const cells = buildHeatmapCells(activity.days, 52);
+  const weeks = buildHeatmapWeeks(buildHeatmapCells(activity.days, 52));
 
   const overlay = document.createElement('div');
   overlay.id = 'historyOverlay';
@@ -157,9 +172,16 @@ function showHistoryModal() {
       </div>
       <div class="history-heatmap">
         <div class="history-heatmap-grid">
-          ${cells.map(cell => `
-            <div class="history-cell ${cell.future ? 'empty' : cell.studied ? 'studied' : ''}">
-              ${cell.future ? '' : `<div class="history-cell-tooltip">${cell.dateKey}: ${cell.count} từ</div>`}
+          ${weeks.map(week => `
+            <div class="history-week">
+              <div class="history-month-label">${week.label}</div>
+              <div class="history-week-cells">
+                ${week.cells.map(cell => `
+                  <div class="history-cell ${cell.future ? 'empty' : cell.studied ? 'studied' : ''}">
+                    ${cell.future ? '' : `<div class="history-cell-tooltip">${cell.dateKey}: ${cell.count} từ</div>`}
+                  </div>
+                `).join('')}
+              </div>
             </div>
           `).join('')}
         </div>

@@ -32,9 +32,13 @@
 .history-stat span { font-size: 11.5px; color: var(--text-secondary); }
 .history-heatmap { overflow-x: auto; }
 .history-heatmap-grid {
-  display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, 12px);
-  gap: 3px; width: max-content;
+  display: flex; align-items: flex-start; gap: 3px; width: max-content;
 }
+.history-week { display: flex; flex-direction: column; gap: 3px; }
+.history-month-label {
+  font-size: 10px; color: var(--text-secondary); height: 14px; line-height: 14px;
+}
+.history-week-cells { display: flex; flex-direction: column; gap: 3px; }
 .history-cell {
   width: 12px; height: 12px; border-radius: 3px;
   background: var(--border); position: relative;
