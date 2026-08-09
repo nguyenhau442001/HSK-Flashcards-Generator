@@ -192,6 +192,18 @@ function buildMonthGrid(days, year, month) {
   return cells;
 }
 
+function yearSummary(days, year) {
+  let studiedDays = 0;
+  let totalMinutes = 0;
+  Object.keys(days).forEach(key => {
+    if (!key.startsWith(String(year) + '-')) return;
+    const entry = days[key];
+    if (dayWordCount(entry) > 0) studiedDays++;
+    totalMinutes += daySeconds(entry) / 60;
+  });
+  return { studiedDays, totalMinutes };
+}
+
 function changeHistoryModalMonth(delta) {
   const next = new Date(historyModalMonth.year, historyModalMonth.month + delta, 1);
   const now = new Date();
