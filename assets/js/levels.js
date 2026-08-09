@@ -145,28 +145,51 @@ function streakStats(days) {
   };
 }
 
-const MONTH_LABELS = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
+function intensityBucket(minutes) {
+  if (minutes <= 0) return 0;
+  if (minutes <= 10) return 1;
+  if (minutes <= 30) return 2;
+  if (minutes <= 60) return 3;
+  return 4;
+}
 
-let historyModalMonth = null;
+function mondayFirstIndex(jsDay) {
+  return (jsDay + 6) % 7;
+}
 
-function buildMonthBars(days, year, month) {
-  const daysInMonth = new Date(year, month + 1, 0).getDate();
+function buildMonthGrid(days, year, month) {
   const now = new Date();
-  const bars = [];
+  now.setHours(0, 0, 0, 0);
+  const todayKey = localDateKey(now);
+
+  const firstOfMonth = new Date(year, month, 1);
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const leadingBlanks = mondayFirstIndex(firstOfMonth.getDay());
+
+  const cells = [];
+  for (let i = 0; i < leadingBlanks; i++) {
+    cells.push({ dateKey: null, day: null, minutes: 0, bucket: 0, isToday: false, isFuture: false, inMonth: false });
+  }
   for (let d = 1; d <= daysInMonth; d++) {
     const date = new Date(year, month, d, 12, 0, 0, 0);
     const key = localDateKey(date);
     const minutes = daySeconds(days[key]) / 60;
-    bars.push({ dateKey: key, day: d, minutes, future: date > now });
+    const dateOnly = new Date(year, month, d);
+    dateOnly.setHours(0, 0, 0, 0);
+    cells.push({
+      dateKey: key,
+      day: d,
+      minutes,
+      bucket: intensityBucket(minutes),
+      isToday: key === todayKey,
+      isFuture: dateOnly > now,
+      inMonth: true,
+    });
   }
-  return bars;
-}
-
-function monthAverageMinutes(bars) {
-  const pastBars = bars.filter(bar => !bar.future);
-  const studiedBars = pastBars.filter(bar => bar.minutes > 0);
-  if (studiedBars.length === 0) return 0;
-  return studiedBars.reduce((sum, bar) => sum + bar.minutes, 0) / studiedBars.length;
+  while (cells.length % 7 !== 0) {
+    cells.push({ dateKey: null, day: null, minutes: 0, bucket: 0, isToday: false, isFuture: false, inMonth: false });
+  }
+  return cells;
 }
 
 function changeHistoryModalMonth(delta) {
