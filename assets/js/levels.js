@@ -204,11 +204,31 @@ function yearSummary(days, year) {
   return { studiedDays, totalMinutes };
 }
 
-function changeHistoryModalMonth(delta) {
-  const next = new Date(historyModalMonth.year, historyModalMonth.month + delta, 1);
+let historyModalView = 'month';
+let historyModalCursor = { year: 0, month: 0 };
+
+function setHistoryView(view) {
+  historyModalView = view;
+  renderHistoryModalBody();
+}
+
+function changeHistoryCursor(delta) {
   const now = new Date();
-  if (next.getFullYear() > now.getFullYear() || (next.getFullYear() === now.getFullYear() && next.getMonth() > now.getMonth())) return;
-  historyModalMonth = { year: next.getFullYear(), month: next.getMonth() };
+  if (historyModalView === 'month') {
+    const next = new Date(historyModalCursor.year, historyModalCursor.month + delta, 1);
+    if (next.getFullYear() > now.getFullYear() || (next.getFullYear() === now.getFullYear() && next.getMonth() > now.getMonth())) return;
+    historyModalCursor = { year: next.getFullYear(), month: next.getMonth() };
+  } else {
+    const nextYear = historyModalCursor.year + delta;
+    if (nextYear > now.getFullYear()) return;
+    historyModalCursor = { year: nextYear, month: historyModalCursor.month };
+  }
+  renderHistoryModalBody();
+}
+
+function jumpToMonth(year, month) {
+  historyModalView = 'month';
+  historyModalCursor = { year, month };
   renderHistoryModalBody();
 }
 
@@ -218,7 +238,7 @@ function renderHistoryModalBody() {
 
   const activity = readStudyActivity();
   const stats = streakStats(activity.days);
-  const { year, month } = historyModalMonth;
+  const { year, month } = historyModalCursor;
   const bars = buildMonthBars(activity.days, year, month);
   const maxMinutes = Math.max(1, ...bars.map(bar => bar.minutes));
   const avgMinutes = monthAverageMinutes(bars);
@@ -262,7 +282,8 @@ function renderHistoryModalBody() {
 
 function showHistoryModal() {
   const now = new Date();
-  historyModalMonth = { year: now.getFullYear(), month: now.getMonth() };
+  historyModalView = 'month';
+  historyModalCursor = { year: now.getFullYear(), month: now.getMonth() };
 
   const overlay = document.createElement('div');
   overlay.id = 'historyOverlay';
