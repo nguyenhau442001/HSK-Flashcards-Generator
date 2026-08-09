@@ -168,7 +168,7 @@ function buildMonthGrid(days, year, month) {
 
   const cells = [];
   for (let i = 0; i < leadingBlanks; i++) {
-    cells.push({ dateKey: null, day: null, minutes: 0, bucket: 0, isToday: false, isFuture: false, inMonth: false });
+    cells.push({ dateKey: null, day: null, minutes: 0, bucket: 0, studied: false, isToday: false, isFuture: false, inMonth: false });
   }
   for (let d = 1; d <= daysInMonth; d++) {
     const date = new Date(year, month, d, 12, 0, 0, 0);
@@ -181,13 +181,14 @@ function buildMonthGrid(days, year, month) {
       day: d,
       minutes,
       bucket: intensityBucket(minutes),
+      studied: dayWordCount(days[key]) > 0,
       isToday: key === todayKey,
       isFuture: dateOnly > now,
       inMonth: true,
     });
   }
   while (cells.length % 7 !== 0) {
-    cells.push({ dateKey: null, day: null, minutes: 0, bucket: 0, isToday: false, isFuture: false, inMonth: false });
+    cells.push({ dateKey: null, day: null, minutes: 0, bucket: 0, studied: false, isToday: false, isFuture: false, inMonth: false });
   }
   return cells;
 }
@@ -244,7 +245,8 @@ function renderMonthGridHtml(grid) {
         if (!cell.inMonth) return '<div class="history-day-cell empty" aria-hidden="true"></div>';
         const [y, m, d] = cell.dateKey.split('-');
         const displayDate = `${d}/${m}/${y}`;
-        const classes = ['history-day-cell', `bucket-${cell.bucket}`];
+        const displayBucket = Math.max(cell.bucket, cell.studied ? 1 : 0);
+        const classes = ['history-day-cell', `bucket-${displayBucket}`];
         if (cell.isToday) classes.push('today');
         if (cell.isFuture) classes.push('future');
         const title = cell.isFuture ? '' : `title="${displayDate}\nĐã học: ${Math.round(cell.minutes)} phút"`;
@@ -258,7 +260,7 @@ function renderMonthView(activity) {
   const grid = buildMonthGrid(activity.days, year, month);
   const now = new Date();
   const isCurrentMonth = year === now.getFullYear() && month === now.getMonth();
-  const studiedDays = grid.filter(c => c.inMonth && c.bucket > 0).length;
+  const studiedDays = grid.filter(c => c.inMonth && c.studied).length;
   const totalMinutes = grid.filter(c => c.inMonth).reduce((sum, c) => sum + c.minutes, 0);
 
   return `
