@@ -232,51 +232,106 @@ function jumpToMonth(year, month) {
   renderHistoryModalBody();
 }
 
+const WEEKDAY_LABELS = ['T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'CN'];
+
+function renderMonthGridHtml(grid) {
+  return `
+    <div class="history-weekday-row">
+      ${WEEKDAY_LABELS.map(label => `<div class="history-weekday">${label}</div>`).join('')}
+    </div>
+    <div class="history-month-grid">
+      ${grid.map(cell => {
+        if (!cell.inMonth) return '<div class="history-day-cell empty" aria-hidden="true"></div>';
+        const [y, m, d] = cell.dateKey.split('-');
+        const displayDate = `${d}/${m}/${y}`;
+        const classes = ['history-day-cell', `bucket-${cell.bucket}`];
+        if (cell.isToday) classes.push('today');
+        if (cell.isFuture) classes.push('future');
+        const title = cell.isFuture ? '' : `title="${displayDate}\nĐã học: ${Math.round(cell.minutes)} phút"`;
+        return `<div class="${classes.join(' ')}" ${title}>${cell.day}</div>`;
+      }).join('')}
+    </div>`;
+}
+
+function renderMonthView(activity) {
+  const { year, month } = historyModalCursor;
+  const grid = buildMonthGrid(activity.days, year, month);
+  const now = new Date();
+  const isCurrentMonth = year === now.getFullYear() && month === now.getMonth();
+  const studiedDays = grid.filter(c => c.inMonth && c.bucket > 0).length;
+  const totalMinutes = grid.filter(c => c.inMonth).reduce((sum, c) => sum + c.minutes, 0);
+
+  return `
+    <div class="history-month-nav">
+      <button class="history-month-btn" type="button" onclick="changeHistoryCursor(-1)" aria-label="Tháng trước">‹</button>
+      <div class="history-month-title">Tháng ${month + 1} · ${year}</div>
+      <button class="history-month-btn" type="button" onclick="changeHistoryCursor(1)" ${isCurrentMonth ? 'disabled' : ''} aria-label="Tháng sau">›</button>
+    </div>
+    ${renderMonthGridHtml(grid)}
+    <div class="history-legend">
+      <span>Ít</span>
+      <span class="history-legend-swatch bucket-0"></span>
+      <span class="history-legend-swatch bucket-1"></span>
+      <span class="history-legend-swatch bucket-2"></span>
+      <span class="history-legend-swatch bucket-3"></span>
+      <span class="history-legend-swatch bucket-4"></span>
+      <span>Nhiều</span>
+    </div>
+    <div class="history-summary">${studiedDays} ngày học · ${formatStudyDuration(totalMinutes)}</div>`;
+}
+
+const MINI_MONTH_LABELS = ['Th 1', 'Th 2', 'Th 3', 'Th 4', 'Th 5', 'Th 6', 'Th 7', 'Th 8', 'Th 9', 'Th 10', 'Th 11', 'Th 12'];
+
+function renderYearView(activity) {
+  const { year } = historyModalCursor;
+  const now = new Date();
+  const isCurrentYear = year === now.getFullYear();
+  const summary = yearSummary(activity.days, year);
+
+  const months = Array.from({ length: 12 }, (_, month) => {
+    const grid = buildMonthGrid(activity.days, year, month);
+    return `
+      <div class="history-mini-month" role="button" tabindex="0"
+        onclick="jumpToMonth(${year}, ${month})"
+        onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();jumpToMonth(${year}, ${month});}">
+        <div class="history-mini-month-label">${MINI_MONTH_LABELS[month]}</div>
+        <div class="history-mini-grid">
+          ${grid.map(cell => `<div class="history-mini-cell ${cell.inMonth ? 'bucket-' + cell.bucket : 'empty'} ${cell.isToday ? 'today' : ''}"></div>`).join('')}
+        </div>
+      </div>`;
+  }).join('');
+
+  return `
+    <div class="history-month-nav">
+      <button class="history-month-btn" type="button" onclick="changeHistoryCursor(-1)" aria-label="Năm trước">‹</button>
+      <div class="history-month-title">${year}</div>
+      <button class="history-month-btn" type="button" onclick="changeHistoryCursor(1)" ${isCurrentYear ? 'disabled' : ''} aria-label="Năm sau">›</button>
+    </div>
+    <div class="history-year-grid">${months}</div>
+    <div class="history-summary">${summary.studiedDays} ngày học · ${formatStudyDuration(summary.totalMinutes)}</div>`;
+}
+
 function renderHistoryModalBody() {
   const body = document.getElementById('historyModalBody');
   if (!body) return;
 
   const activity = readStudyActivity();
   const stats = streakStats(activity.days);
-  const { year, month } = historyModalCursor;
-  const bars = buildMonthBars(activity.days, year, month);
-  const maxMinutes = Math.max(1, ...bars.map(bar => bar.minutes));
-  const avgMinutes = monthAverageMinutes(bars);
-  const now = new Date();
-  const isCurrentMonth = year === now.getFullYear() && month === now.getMonth();
-
-  const axisSteps = 4;
-  const axisLabels = Array.from({ length: axisSteps + 1 }, (_, i) => Math.round(maxMinutes * (axisSteps - i) / axisSteps));
-  const avgLinePercent = Math.min(100, avgMinutes / maxMinutes * 100);
+  const totalMinutesAllTime = Object.values(activity.days).reduce((sum, entry) => sum + daySeconds(entry) / 60, 0);
 
   body.innerHTML = `
-    <div class="history-stats">
-      <div class="history-stat"><strong>${stats.current}</strong><span>Chuỗi hiện tại</span></div>
-      <div class="history-stat"><strong>${stats.longest}</strong><span>Chuỗi dài nhất</span></div>
-      <div class="history-stat"><strong>${stats.shortest}</strong><span>Chuỗi ngắn nhất</span></div>
-      <div class="history-stat"><strong>${stats.totalDaysStudied}</strong><span>Tổng số ngày đã học</span></div>
+    <div class="history-kpi-row">
+      <div class="history-kpi"><strong>🔥 ${stats.current}</strong><span>Chuỗi hiện tại</span></div>
+      <div class="history-kpi"><strong>🏆 ${stats.longest}</strong><span>Chuỗi dài nhất</span></div>
+      <div class="history-kpi"><strong>📅 ${stats.totalDaysStudied}</strong><span>Ngày đã học</span></div>
+      <div class="history-kpi"><strong>⏱ ${formatStudyDuration(totalMinutesAllTime)}</strong><span>Tổng thời gian</span></div>
     </div>
-    <div class="history-month-nav">
-      <button class="history-month-btn" type="button" onclick="changeHistoryModalMonth(-1)" aria-label="Tháng trước">◀</button>
-      <div class="history-month-title">${MONTH_LABELS[month]} ${year}</div>
-      <button class="history-month-btn" type="button" onclick="changeHistoryModalMonth(1)" ${isCurrentMonth ? 'disabled' : ''} aria-label="Tháng sau">▶</button>
+    <div class="history-view-switcher" role="tablist">
+      <button type="button" role="tab" class="history-view-btn ${historyModalView === 'month' ? 'active' : ''}" aria-selected="${historyModalView === 'month'}" onclick="setHistoryView('month')">Tháng</button>
+      <button type="button" role="tab" class="history-view-btn ${historyModalView === 'year' ? 'active' : ''}" aria-selected="${historyModalView === 'year'}" onclick="setHistoryView('year')">Năm</button>
     </div>
-    <div class="history-chart-wrap">
-      <div class="history-y-axis">
-        ${axisLabels.map(label => `<div class="history-y-axis-label">${label}</div>`).join('')}
-      </div>
-      <div class="history-bar-chart">
-        ${avgMinutes > 0 ? `<div class="history-avg-line" style="bottom:${avgLinePercent}%" title="Trung bình ${avgMinutes.toFixed(0)} phút/ngày"></div>` : ''}
-        ${bars.map(bar => `
-          <div class="history-bar-col" title="${bar.dateKey}: ${bar.minutes.toFixed(0)} phút">
-            <div class="history-bar ${bar.future ? 'future' : ''}" style="height:${bar.future ? 0 : bar.minutes / maxMinutes * 100}%"></div>
-            <div class="history-bar-label">${bar.day}</div>
-          </div>
-        `).join('')}
-      </div>
-    </div>
-    <div class="history-axis-caption">
-      <span>Trục dọc: phút học</span><span>Trục ngang: ngày trong tháng</span>
+    <div class="history-view-body">
+      ${historyModalView === 'month' ? renderMonthView(activity) : renderYearView(activity)}
     </div>`;
 }
 
