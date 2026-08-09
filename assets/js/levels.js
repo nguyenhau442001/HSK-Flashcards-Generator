@@ -335,6 +335,16 @@ function renderHistoryModalBody() {
     </div>`;
 }
 
+function closeHistoryModal() {
+  const overlay = document.getElementById('historyOverlay');
+  if (overlay) overlay.remove();
+  document.removeEventListener('keydown', handleHistoryModalKeydown);
+}
+
+function handleHistoryModalKeydown(e) {
+  if (e.key === 'Escape') closeHistoryModal();
+}
+
 function showHistoryModal() {
   const now = new Date();
   historyModalView = 'month';
@@ -344,13 +354,14 @@ function showHistoryModal() {
   overlay.id = 'historyOverlay';
   overlay.className = 'history-overlay';
   overlay.innerHTML = `
-    <div class="history-box">
-      <button class="history-close" onclick="document.getElementById('historyOverlay').remove()" aria-label="Đóng">✕</button>
+    <div class="history-box" role="dialog" aria-modal="true" aria-label="Lịch sử học tập">
+      <button class="history-close" onclick="closeHistoryModal()" aria-label="Đóng">✕</button>
       <div class="history-title">Lịch sử học tập</div>
       <div id="historyModalBody"></div>
     </div>`;
-  overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+  overlay.addEventListener('click', e => { if (e.target === overlay) closeHistoryModal(); });
   document.body.appendChild(overlay);
+  document.addEventListener('keydown', handleHistoryModalKeydown);
   renderHistoryModalBody();
 }
 
