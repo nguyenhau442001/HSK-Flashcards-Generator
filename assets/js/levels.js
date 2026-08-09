@@ -64,6 +64,16 @@ function daySeconds(dayEntry) {
   return dayEntry && typeof dayEntry.seconds === 'number' ? dayEntry.seconds : 0;
 }
 
+function formatStudyDuration(totalMinutes) {
+  const minutes = Math.round(totalMinutes);
+  if (minutes <= 0) return '0 phút';
+  const hours = Math.floor(minutes / 60);
+  const remainder = minutes % 60;
+  if (hours === 0) return `${remainder} phút`;
+  if (remainder === 0) return `${hours} giờ`;
+  return `${hours} giờ ${remainder} phút`;
+}
+
 function readDailyStudyGoal() {
   try {
     const savedGoal = Number(localStorage.getItem(DAILY_STUDY_GOAL_KEY));
