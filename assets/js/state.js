@@ -42,6 +42,16 @@ let exampleSpeechSpeed = DEFAULT_EXAMPLE_SPEECH_SPEED;
 let currentView = 'cards';
 let overviewQuery = '';
 let overviewStatus = 'all';
+let reviewPool = [];
+let reviewIndex = 0;
+let reviewLives = 3;
+let reviewScore = 0;
+let reviewStreak = 0;
+let reviewBestStreak = 0;
+let reviewTimer = null;
+let reviewTimeLeft = 20;
+let reviewCurrentQuestion = null;
+let reviewAnswered = false;
 
 function formatExampleSpeechSpeed(speed) {
   const numericSpeed = Number(speed);
