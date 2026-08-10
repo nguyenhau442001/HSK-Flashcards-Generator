@@ -1,24 +1,32 @@
 // Vocabulary overview mode, search, status filtering, and card deep links.
 function setViewMode(mode) {
-  if (!currentLevel || !['cards', 'overview'].includes(mode)) return;
+  if (!currentLevel || !['cards', 'overview', 'review'].includes(mode)) return;
 
   stopSpeech();
   currentView = mode;
   const showOverview = mode === 'overview';
+  const showReview = mode === 'review';
   const studyView = document.getElementById('studyView');
   const overviewView = document.getElementById('overviewView');
+  const reviewView = document.getElementById('reviewView');
   const flashcardTab = document.getElementById('flashcardTab');
   const overviewTab = document.getElementById('overviewTab');
+  const reviewTab = document.getElementById('reviewTab');
 
-  studyView.hidden = showOverview;
+  studyView.hidden = showOverview || showReview;
   overviewView.hidden = !showOverview;
-  flashcardTab.classList.toggle('active', !showOverview);
+  reviewView.hidden = !showReview;
+  flashcardTab.classList.toggle('active', mode === 'cards');
   overviewTab.classList.toggle('active', showOverview);
-  flashcardTab.setAttribute('aria-selected', String(!showOverview));
+  reviewTab.classList.toggle('active', showReview);
+  flashcardTab.setAttribute('aria-selected', String(mode === 'cards'));
   overviewTab.setAttribute('aria-selected', String(showOverview));
+  reviewTab.setAttribute('aria-selected', String(showReview));
   document.getElementById('appTitle').textContent = showOverview
     ? LEVELS[currentLevel].label + ' · Tổng quan'
-    : LEVELS[currentLevel].label + ' Flashcards';
+    : showReview
+      ? LEVELS[currentLevel].label + ' · Ôn nhanh'
+      : LEVELS[currentLevel].label + ' Flashcards';
 
   if (showOverview) {
     const searchInput = document.getElementById('overviewSearch');
@@ -26,6 +34,10 @@ function setViewMode(mode) {
     searchInput.value = overviewQuery;
     statusSelect.value = overviewStatus;
     renderOverview();
+  }
+
+  if (showReview) {
+    renderReviewStart();
   }
 }
 
