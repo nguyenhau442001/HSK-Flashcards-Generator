@@ -223,3 +223,40 @@ function gradeReviewAnswer(isCorrect) {
     renderReviewQuestion();
   }, 900);
 }
+
+function endReviewSession() {
+  if (reviewTimer) { clearInterval(reviewTimer); reviewTimer = null; }
+  document.getElementById('reviewSession').hidden = true;
+  renderReviewResult();
+}
+
+function renderReviewResult() {
+  const result = document.getElementById('reviewResult');
+  result.hidden = false;
+  const total = Math.min(reviewIndex, reviewPool.length);
+  const survived = reviewLives > 0;
+
+  result.innerHTML = `
+    <div class="review-result">
+      <div class="review-result-icon">${survived ? '🏁' : '💔'}</div>
+      <div class="review-result-title">${survived ? 'Hoàn thành!' : 'Hết mạng!'}</div>
+      <div class="review-result-stats">
+        <div class="review-result-stat">
+          <div class="review-result-num">${reviewScore}</div>
+          <div class="review-result-lbl">câu đúng</div>
+        </div>
+        <div class="review-result-stat">
+          <div class="review-result-num">${total}</div>
+          <div class="review-result-lbl">tổng số câu</div>
+        </div>
+        <div class="review-result-stat">
+          <div class="review-result-num">${reviewBestStreak}</div>
+          <div class="review-result-lbl">chuỗi đúng dài nhất</div>
+        </div>
+      </div>
+      <div class="review-result-actions">
+        <button class="review-again-btn" onclick="renderReviewStart()">Chơi lại</button>
+        <button class="review-back-btn" onclick="setViewMode('cards')">Về flashcard</button>
+      </div>
+    </div>`;
+}
