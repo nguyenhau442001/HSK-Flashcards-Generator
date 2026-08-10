@@ -74,6 +74,152 @@ function startReviewSession() {
   reviewStreak = 0;
   reviewBestStreak = 0;
   document.getElementById('reviewStart').hidden = true;
+  document.getElementById('reviewResult').hidden = true;
   document.getElementById('reviewSession').hidden = false;
-  document.getElementById('reviewSession').textContent = 'Phiên ôn tập sẽ được xây dựng ở bước tiếp theo.';
+  renderReviewQuestion();
+}
+
+function pickReviewQuestionType() {
+  return Math.random() < 0.5 ? 'type' : 'choice';
+}
+
+function buildReviewChoices(correctWordIdx) {
+  const others = [];
+  for (let i = 0; i < WORDS.length; i++) {
+    if (i !== correctWordIdx) others.push(i);
+  }
+  for (let i = others.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [others[i], others[j]] = [others[j], others[i]];
+  }
+  const distractors = others.slice(0, 3);
+  const choices = [correctWordIdx, ...distractors];
+  for (let i = choices.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [choices[i], choices[j]] = [choices[j], choices[i]];
+  }
+  return choices;
+}
+
+function renderReviewQuestion() {
+  if (reviewTimer) { clearInterval(reviewTimer); reviewTimer = null; }
+  if (reviewLives <= 0 || reviewIndex >= reviewPool.length) { endReviewSession(); return; }
+
+  const wordIdx = reviewPool[reviewIndex];
+  const word = WORDS[wordIdx];
+  const type = pickReviewQuestionType();
+  reviewCurrentQuestion = { wordIdx, type };
+  reviewAnswered = false;
+  reviewTimeLeft = 20;
+
+  const livesHtml = '♥'.repeat(reviewLives) + '♡'.repeat(3 - reviewLives);
+  const header = `
+    <div class="review-header">
+      <div class="review-lives" aria-label="${reviewLives} mạng còn lại">${livesHtml}</div>
+      <div class="review-progress-text">${reviewIndex + 1} / ${reviewPool.length}</div>
+    </div>
+    <div class="review-timer-track"><div class="review-timer-fill" id="reviewTimerFill"></div></div>
+    <div class="review-question-word">
+      <div class="review-hanzi">${word.hanzi}</div>
+      <div class="review-meaning">${word.meaning}</div>
+    </div>`;
+
+  let bodyHtml;
+  if (type === 'type') {
+    bodyHtml = `
+      <div class="review-answer-area">
+        <input type="text" id="reviewTypeInput" class="review-type-input"
+          autocomplete="off" autocapitalize="off" spellcheck="false"
+          placeholder="Gõ pinyin (không dấu)..."
+          onkeydown="if(event.key==='Enter') submitReviewTypeAnswer()">
+        <button class="review-submit-btn" onclick="submitReviewTypeAnswer()">Trả lời</button>
+      </div>
+      <div class="review-feedback" id="reviewFeedback"></div>`;
+  } else {
+    const choiceIdxs = buildReviewChoices(wordIdx);
+    bodyHtml = `
+      <div class="review-choices">
+        ${choiceIdxs.map(i => `
+          <button class="review-choice-btn" data-word-idx="${i}" onclick="submitReviewChoice(${i})">
+            ${WORDS[i].pinyin}
+          </button>`).join('')}
+      </div>
+      <div class="review-feedback" id="reviewFeedback"></div>`;
+  }
+
+  document.getElementById('reviewSession').innerHTML = header + bodyHtml;
+
+  const input = document.getElementById('reviewTypeInput');
+  if (input) input.focus();
+
+  reviewTimer = setInterval(reviewTick, 1000);
+  updateReviewTimerBar();
+}
+
+function updateReviewTimerBar() {
+  const fill = document.getElementById('reviewTimerFill');
+  if (!fill) return;
+  const pct = Math.max(0, (reviewTimeLeft / 20) * 100);
+  fill.style.width = pct + '%';
+  fill.classList.toggle('review-timer-low', reviewTimeLeft <= 5);
+}
+
+function reviewTick() {
+  reviewTimeLeft -= 1;
+  updateReviewTimerBar();
+  if (reviewTimeLeft <= 0) {
+    clearInterval(reviewTimer);
+    reviewTimer = null;
+    gradeReviewAnswer(false);
+  }
+}
+
+function submitReviewTypeAnswer() {
+  if (reviewAnswered) return;
+  const input = document.getElementById('reviewTypeInput');
+  const word = WORDS[reviewCurrentQuestion.wordIdx];
+  const isCorrect = pinyinLooseMatch(input.value, word.pinyin);
+  gradeReviewAnswer(isCorrect);
+}
+
+function submitReviewChoice(chosenIdx) {
+  if (reviewAnswered) return;
+  const isCorrect = chosenIdx === reviewCurrentQuestion.wordIdx;
+  gradeReviewAnswer(isCorrect);
+}
+
+function gradeReviewAnswer(isCorrect) {
+  if (reviewAnswered) return;
+  reviewAnswered = true;
+  if (reviewTimer) { clearInterval(reviewTimer); reviewTimer = null; }
+
+  const wordIdx = reviewCurrentQuestion.wordIdx;
+  const word = WORDS[wordIdx];
+  progress[word.id] = isCorrect ? 'known' : 'unknown';
+  saveProgress();
+  recordDailyStudy(word.id);
+
+  if (isCorrect) {
+    reviewScore += 1;
+    reviewStreak += 1;
+    if (reviewStreak > reviewBestStreak) reviewBestStreak = reviewStreak;
+  } else {
+    reviewLives -= 1;
+    reviewStreak = 0;
+  }
+
+  const feedback = document.getElementById('reviewFeedback');
+  if (feedback) {
+    feedback.textContent = isCorrect ? 'Chính xác!' : `Sai rồi. Đáp án: ${word.pinyin}`;
+    feedback.className = 'review-feedback show ' + (isCorrect ? 'review-feedback--correct' : 'review-feedback--wrong');
+  }
+  document.querySelectorAll('.review-choice-btn').forEach(btn => {
+    btn.disabled = true;
+    if (Number(btn.dataset.wordIdx) === wordIdx) btn.classList.add('review-choice-btn--correct');
+  });
+
+  setTimeout(() => {
+    reviewIndex += 1;
+    renderReviewQuestion();
+  }, 900);
 }
