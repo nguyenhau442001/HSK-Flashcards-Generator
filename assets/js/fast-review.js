@@ -90,10 +90,12 @@ function startReviewRangeLoad() {
 }
 
 function renderReviewStart() {
-  document.getElementById('reviewSession').hidden = true;
-  document.getElementById('reviewResult').hidden = true;
+  const body = document.getElementById('reviewPickerBody');
+  body.innerHTML = `
+    <div id="reviewSession" hidden></div>
+    <div id="reviewResult" hidden></div>
+    <div id="reviewStart"></div>`;
   const start = document.getElementById('reviewStart');
-  start.hidden = false;
 
   const pool = buildReviewPool();
   reviewPool = pool;
@@ -102,8 +104,8 @@ function renderReviewStart() {
     start.innerHTML = `
       <div class="review-empty">
         <div class="review-empty-icon">🎉</div>
-        <div class="review-empty-title">Bạn đã thuộc hết từ ở cấp độ này!</div>
-        <div class="review-empty-msg">Không còn từ nào để ôn nhanh. Hãy học thêm từ mới hoặc chuyển cấp độ khác.</div>
+        <div class="review-empty-title">Bạn đã thuộc hết từ trong phạm vi này!</div>
+        <div class="review-empty-msg">Không còn từ nào để ôn nhanh. Hãy học thêm từ mới hoặc chọn phạm vi rộng hơn.</div>
       </div>`;
     return;
   }
@@ -139,10 +141,10 @@ function pickReviewQuestionType() {
 }
 
 function buildReviewChoices(correctWordIdx) {
-  const correctPinyin = stripTonePinyin(WORDS[correctWordIdx].pinyin);
+  const correctPinyin = stripTonePinyin(reviewWordPool[correctWordIdx].pinyin);
   const others = [];
-  for (let i = 0; i < WORDS.length; i++) {
-    if (i !== correctWordIdx && stripTonePinyin(WORDS[i].pinyin) !== correctPinyin) others.push(i);
+  for (let i = 0; i < reviewWordPool.length; i++) {
+    if (i !== correctWordIdx && stripTonePinyin(reviewWordPool[i].pinyin) !== correctPinyin) others.push(i);
   }
   for (let i = others.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -170,7 +172,7 @@ function renderReviewQuestion() {
   if (reviewLives <= 0 || reviewIndex >= reviewPool.length) { endReviewSession(); return; }
 
   const wordIdx = reviewPool[reviewIndex];
-  const word = WORDS[wordIdx];
+  const word = reviewWordPool[wordIdx];
   const type = pickReviewQuestionType();
   reviewCurrentQuestion = { wordIdx, type };
   reviewAnswered = false;
@@ -205,7 +207,7 @@ function renderReviewQuestion() {
       <div class="review-choices">
         ${choiceIdxs.map(i => `
           <button class="review-choice-btn" data-word-idx="${i}" onclick="submitReviewChoice(${i})">
-            ${WORDS[i].pinyin}
+            ${reviewWordPool[i].pinyin}
           </button>`).join('')}
       </div>
       <div class="review-feedback" id="reviewFeedback"></div>`;
@@ -241,7 +243,7 @@ function reviewTick() {
 function submitReviewTypeAnswer() {
   if (reviewAnswered) return;
   const input = document.getElementById('reviewTypeInput');
-  const word = WORDS[reviewCurrentQuestion.wordIdx];
+  const word = reviewWordPool[reviewCurrentQuestion.wordIdx];
   const isCorrect = pinyinLooseMatch(input.value, word.pinyin);
   gradeReviewAnswer(isCorrect);
 }
