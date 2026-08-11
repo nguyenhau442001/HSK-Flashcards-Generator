@@ -1,0 +1,25 @@
+/* Fast-review range-picker screen: slider, count, start button. */
+.review-range-picker {
+  max-width: 420px; margin: 32px auto 0; padding: 24px 20px;
+  border: 1px solid var(--border); border-radius: var(--radius-lg);
+  background: var(--card-bg); text-align: center;
+}
+.review-range-title { font-size: 19px; font-weight: 700; margin-bottom: 6px; }
+.review-range-sub { font-size: 13px; color: var(--text-secondary); margin-bottom: 20px; }
+
+.review-range-slider-wrap { margin-bottom: 8px; }
+#reviewRangeSlider {
+  width: 100%; accent-color: var(--accent); cursor: pointer;
+}
+.review-range-label {
+  font-size: 22px; font-weight: 700; color: var(--accent); margin-top: 10px;
+}
+.review-range-count { font-size: 13px; color: var(--text-secondary); margin-bottom: 20px; }
+
+.review-range-start-btn {
+  width: 100%; padding: 12px; border: 0; border-radius: var(--radius-md);
+  background: var(--accent); color: #fff; font: inherit; font-size: 15px;
+  font-weight: 700; cursor: pointer;
+}
+.review-range-start-btn:hover { opacity: 0.9; }
+.review-range-start-btn:disabled { opacity: 0.5; cursor: wait; }
