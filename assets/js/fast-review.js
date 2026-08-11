@@ -260,11 +260,11 @@ function gradeReviewAnswer(isCorrect) {
   if (reviewTimer) { clearInterval(reviewTimer); reviewTimer = null; }
 
   const wordIdx = reviewCurrentQuestion.wordIdx;
-  const word = WORDS[wordIdx];
-  progress[word.id] = isCorrect ? 'known' : 'unknown';
-  saveProgress();
-  recordDailyStudy(word.id);
-  checkCelebration();
+  const word = reviewWordPool[wordIdx];
+  if (!reviewProgressByLevel[word._level]) reviewProgressByLevel[word._level] = {};
+  reviewProgressByLevel[word._level][word.id] = isCorrect ? 'known' : 'unknown';
+  saveLevelProgress(word._level, reviewProgressByLevel[word._level]);
+  recordDailyStudy(word.id, word._level);
 
   if (isCorrect) {
     reviewScore += 1;
@@ -323,7 +323,11 @@ function renderReviewResult() {
       </div>
       <div class="review-result-actions">
         <button class="review-again-btn" onclick="renderReviewStart()">Chơi lại</button>
-        <button class="review-back-btn" onclick="setViewMode('cards')">Về flashcard</button>
+        <button class="review-back-btn" onclick="renderReviewRangePicker()">Chọn lại phạm vi</button>
       </div>
     </div>`;
+}
+
+function renderReviewRangePicker() {
+  document.getElementById('reviewPickerBody').innerHTML = '';
 }
