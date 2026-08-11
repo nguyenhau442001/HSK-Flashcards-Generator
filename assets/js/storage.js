@@ -17,6 +17,9 @@ function loadState() {
 function saveProgress() {
   try { localStorage.setItem(storageKey('progress'), JSON.stringify(progress)); } catch (e) {}
 }
+function saveLevelProgress(level, progressObj) {
+  try { localStorage.setItem('hsk_' + level + '_progress_v2', JSON.stringify(progressObj)); } catch (e) {}
+}
 function savePrefs() {
   try { localStorage.setItem(storageKey('prefs'), JSON.stringify({ showPinyin, order })); } catch (e) {}
 }
