@@ -367,14 +367,14 @@ function showHistoryModal() {
   renderHistoryModalBody();
 }
 
-function recordDailyStudy(wordId) {
-  if (!currentLevel || wordId === undefined || wordId === null) return;
+function recordDailyStudy(wordId, level = currentLevel) {
+  if (!level || wordId === undefined || wordId === null) return;
 
   const activity = readStudyActivity();
   const today = localDateKey(new Date());
   const dayEntry = activity.days[today] || { words: [], seconds: 0 };
   const learnedWords = new Set(dayEntry.words);
-  learnedWords.add(currentLevel + ':' + String(wordId));
+  learnedWords.add(level + ':' + String(wordId));
   activity.days[today] = { words: Array.from(learnedWords), seconds: dayEntry.seconds };
 
   try { localStorage.setItem(STUDY_ACTIVITY_KEY, JSON.stringify(activity)); } catch (e) {}
