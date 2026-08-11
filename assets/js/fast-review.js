@@ -22,6 +22,17 @@ function pinyinLooseMatch(input, target) {
   return stripTonePinyin(input) === stripTonePinyin(target);
 }
 
+const REVIEW_RANGE_LEVELS = ['hsk1', 'hsk2', 'hsk3', 'hsk4', 'hsk5', 'hsk6'];
+
+function updateReviewRangeLabel(sliderValue) {
+  const n = Number(sliderValue);
+  const levels = REVIEW_RANGE_LEVELS.slice(0, n);
+  const totalWords = levels.reduce((sum, lvl) => sum + LEVELS[lvl].total, 0);
+  document.getElementById('reviewRangeLabel').textContent =
+    n === 1 ? 'HSK1' : `HSK1 – HSK${n}`;
+  document.getElementById('reviewRangeCount').textContent = `${totalWords} từ`;
+}
+
 function buildReviewPool() {
   const pool = [];
   for (let i = 0; i < WORDS.length; i++) {

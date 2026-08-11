@@ -25,14 +25,24 @@ async function ensureRadicalDataLoaded() {
 }
 
 function setPrimaryTab(tab) {
+  const previousTab = primaryTab;
   primaryTab = tab;
   document.getElementById('primaryTabVocab').classList.toggle('active', tab === 'vocab');
   document.getElementById('primaryTabRadicals').classList.toggle('active', tab === 'radicals');
+  document.getElementById('primaryTabReview').classList.toggle('active', tab === 'review');
   document.getElementById('primaryTabVocab').setAttribute('aria-selected', String(tab === 'vocab'));
   document.getElementById('primaryTabRadicals').setAttribute('aria-selected', String(tab === 'radicals'));
+  document.getElementById('primaryTabReview').setAttribute('aria-selected', String(tab === 'review'));
   document.getElementById('screenPicker').style.display = tab === 'vocab' ? '' : 'none';
   document.getElementById('screenRadicalHub').style.display = tab === 'radicals' ? '' : 'none';
+  document.getElementById('screenReviewPicker').style.display = tab === 'review' ? '' : 'none';
   if (tab === 'radicals') ensureRadicalDataLoaded();
+  if (tab === 'review') {
+    updateReviewRangeLabel(document.getElementById('reviewRangeSlider').value);
+  }
+  if (previousTab === 'review' && tab !== 'review') {
+    abandonReviewSession();
+  }
 }
 
 function setRadicalTab(tab) {
