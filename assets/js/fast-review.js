@@ -47,6 +47,23 @@ function buildReviewPool() {
   return pool;
 }
 
+async function fetchReviewWords(levels) {
+  const results = await Promise.all(levels.map(async level => {
+    const url = LEVELS[level].dataUrl;
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`fetch failed: ${url} (${response.status})`);
+    return response.json();
+  }));
+
+  const words = [];
+  for (let i = 0; i < results.length; i++) {
+    for (const word of results[i]) {
+      words.push({ ...word, _level: levels[i] });
+    }
+  }
+  return words;
+}
+
 function startReviewRangeLoad() {
   const slider = document.getElementById('reviewRangeSlider');
   const n = Number(slider.value);
@@ -68,25 +85,58 @@ function startReviewRangeLoad() {
     reviewProgressByLevel[level] = readSavedLevelProgress(level);
   }
 
-  if (!reviewWorker) {
-    reviewWorker = new Worker('assets/js/fast-review-worker.js');
-  }
-
-  reviewWorker.onmessage = function (e) {
+  let fallbackStarted = false;
+  const finishLoad = function (words) {
     startBtn.disabled = false;
-    if (!e.data.ok) {
-      body.innerHTML = '<div class="error-text">Không thể tải dữ liệu. Vui lòng thử lại.</div>';
-      return;
-    }
-    reviewWordPool = e.data.words;
+    reviewWordPool = words;
     reviewLoadedRangeMax = n;
     renderReviewStart();
   };
+  const failLoad = function (error) {
+    startBtn.disabled = false;
+    console.error('Fast-review range load failed:', error);
+    body.innerHTML = '<div class="error-text">Không thể tải dữ liệu. Vui lòng thử lại.</div>';
+  };
+  const loadWithoutWorker = function (workerError) {
+    if (fallbackStarted) return;
+    fallbackStarted = true;
+    if (reviewWorker) {
+      reviewWorker.terminate();
+      reviewWorker = null;
+    }
+    console.warn('Fast-review worker unavailable; falling back to page fetch.', workerError);
+    fetchReviewWords(levels).then(finishLoad).catch(failLoad);
+  };
 
-  reviewWorker.postMessage({
-    levels,
-    dataUrls: levels.map(level => LEVELS[level].dataUrl),
-  });
+  try {
+    if (!reviewWorker) {
+      reviewWorker = new Worker('assets/js/fast-review-worker.js');
+    }
+  } catch (error) {
+    loadWithoutWorker(error);
+    return;
+  }
+
+  reviewWorker.onmessage = function (e) {
+    if (!e.data.ok) {
+      loadWithoutWorker(e.data.error);
+      return;
+    }
+    finishLoad(e.data.words);
+  };
+  reviewWorker.onerror = function (e) {
+    if (e.preventDefault) e.preventDefault();
+    loadWithoutWorker(e.message || e);
+  };
+
+  try {
+    reviewWorker.postMessage({
+      levels,
+      dataUrls: levels.map(level => LEVELS[level].dataUrl),
+    });
+  } catch (error) {
+    loadWithoutWorker(error);
+  }
 }
 
 function renderReviewStart() {

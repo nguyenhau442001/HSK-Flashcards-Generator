@@ -1,6 +1,6 @@
 /* Fast-review range-picker screen: slider, count, start button. */
 .review-range-picker {
-  max-width: 420px; margin: 32px auto 0; padding: 24px 20px;
+  width: 100%; margin: 16px 0 0; padding: 18px;
   border: 1px solid var(--border); border-radius: var(--radius-lg);
   background: var(--card-bg); text-align: center;
 }
