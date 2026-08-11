@@ -1,6 +1,6 @@
 /* Bộ thủ (radicals) mode: primary/secondary tabs, hub, study card */
 .primary-tabs {
-  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px;
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px;
   margin: 16px 0 20px;
 }
 .primary-tab {

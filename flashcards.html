@@ -74,6 +74,8 @@
       aria-controls="screenPicker" onclick="setPrimaryTab('vocab')">📚 Từ vựng</button>
     <button id="primaryTabRadicals" class="primary-tab" role="tab" aria-selected="false"
       aria-controls="screenRadicalHub" onclick="setPrimaryTab('radicals')">部 Bộ thủ</button>
+    <button id="primaryTabReview" class="primary-tab" role="tab" aria-selected="false"
+      aria-controls="screenReviewPicker" onclick="setPrimaryTab('review')">⚡ Ôn nhanh</button>
   </div>
 
   <!-- SCREEN 1: Level picker -->
@@ -297,6 +299,22 @@
       <div class="overview-result-summary" id="radicalOverviewResultSummary" role="status"></div>
       <div class="vocabulary-list radical-overview-list" id="radicalOverviewList"></div>
     </div>
+  </div>
+
+  <!-- SCREEN 5: Fast-review range picker -->
+  <div id="screenReviewPicker" style="display:none">
+    <div class="review-range-picker">
+      <div class="review-range-title">⚡ Chọn phạm vi ôn nhanh</div>
+      <div class="review-range-sub">Kéo để chọn ôn từ HSK1 đến cấp độ nào</div>
+      <div class="review-range-slider-wrap">
+        <input type="range" id="reviewRangeSlider" min="1" max="6" value="1" step="1"
+          aria-label="Chọn cấp độ cao nhất để ôn" oninput="updateReviewRangeLabel(this.value)">
+        <div class="review-range-label" id="reviewRangeLabel">HSK1</div>
+      </div>
+      <div class="review-range-count" id="reviewRangeCount">150 từ</div>
+      <button class="review-range-start-btn" id="reviewRangeStart" onclick="startReviewRangeLoad()">Bắt đầu</button>
+    </div>
+    <div id="reviewPickerBody"></div>
   </div>
 
   <footer class="app-footer">
