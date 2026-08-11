@@ -3,6 +3,7 @@ function setViewMode(mode) {
   if (!currentLevel || !['cards', 'overview', 'review'].includes(mode)) return;
 
   stopSpeech();
+  if (mode !== 'review') abandonReviewSession();
   currentView = mode;
   const showOverview = mode === 'overview';
   const showReview = mode === 'review';
@@ -38,6 +39,10 @@ function setViewMode(mode) {
 
   if (showReview) {
     renderReviewStart();
+  }
+
+  if (mode === 'cards') {
+    setFilter(currentFilter);
   }
 }
 

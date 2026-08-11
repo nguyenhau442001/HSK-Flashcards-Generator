@@ -582,6 +582,7 @@ function renderLevelProgress() {
 
 function goBackToPicker() {
   stopSpeech();
+  abandonReviewSession();
   document.body.classList.remove('study-mode');
   document.getElementById('screenPicker').style.display = '';
   document.getElementById('screenCards').style.display = 'none';

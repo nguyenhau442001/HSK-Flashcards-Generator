@@ -2,7 +2,7 @@
 .back-btn { font-size: 13px; padding: 6px 14px; border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--card-bg); color: var(--text-secondary); cursor: pointer; margin-bottom: 14px; }
 
 .view-tabs {
-  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px;
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px;
   margin-bottom: 14px; padding: 4px; border: 1px solid var(--border);
   border-radius: 999px; background: var(--card-bg);
 }

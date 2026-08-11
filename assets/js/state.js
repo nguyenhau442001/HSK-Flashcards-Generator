@@ -52,6 +52,7 @@ let reviewTimer = null;
 let reviewTimeLeft = 20;
 let reviewCurrentQuestion = null;
 let reviewAnswered = false;
+let reviewSessionLive = false;
 
 function formatExampleSpeechSpeed(speed) {
   const numericSpeed = Number(speed);

@@ -55,6 +55,7 @@
 .review-feedback--wrong { color: var(--danger-text); }
 
 .review-result-stats { display: flex; justify-content: center; gap: 24px; margin: 18px 0 24px; }
+.review-result-stat { display: flex; flex-direction: column; align-items: center; }
 .review-result-num { font-size: 26px; font-weight: 700; color: var(--accent); }
 .review-result-lbl { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
 .review-result-actions { display: flex; gap: 10px; justify-content: center; }

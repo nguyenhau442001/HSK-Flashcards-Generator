@@ -84,9 +84,10 @@ function pickReviewQuestionType() {
 }
 
 function buildReviewChoices(correctWordIdx) {
+  const correctPinyin = stripTonePinyin(WORDS[correctWordIdx].pinyin);
   const others = [];
   for (let i = 0; i < WORDS.length; i++) {
-    if (i !== correctWordIdx) others.push(i);
+    if (i !== correctWordIdx && stripTonePinyin(WORDS[i].pinyin) !== correctPinyin) others.push(i);
   }
   for (let i = others.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -101,7 +102,15 @@ function buildReviewChoices(correctWordIdx) {
   return choices;
 }
 
+function abandonReviewSession() {
+  if (reviewTimer) { clearInterval(reviewTimer); reviewTimer = null; }
+  reviewAnswered = true;
+  reviewSessionLive = false;
+}
+
 function renderReviewQuestion() {
+  if (reviewAnswered && !reviewSessionLive) return;
+  reviewSessionLive = true;
   if (reviewTimer) { clearInterval(reviewTimer); reviewTimer = null; }
   if (reviewLives <= 0 || reviewIndex >= reviewPool.length) { endReviewSession(); return; }
 
@@ -198,6 +207,7 @@ function gradeReviewAnswer(isCorrect) {
   progress[word.id] = isCorrect ? 'known' : 'unknown';
   saveProgress();
   recordDailyStudy(word.id);
+  checkCelebration();
 
   if (isCorrect) {
     reviewScore += 1;
