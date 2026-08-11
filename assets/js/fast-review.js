@@ -35,14 +35,58 @@ function updateReviewRangeLabel(sliderValue) {
 
 function buildReviewPool() {
   const pool = [];
-  for (let i = 0; i < WORDS.length; i++) {
-    if (progress[WORDS[i].id] !== 'known') pool.push(i);
+  for (let i = 0; i < reviewWordPool.length; i++) {
+    const word = reviewWordPool[i];
+    const levelProgress = reviewProgressByLevel[word._level] || {};
+    if (levelProgress[word.id] !== 'known') pool.push(i);
   }
   for (let i = pool.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [pool[i], pool[j]] = [pool[j], pool[i]];
   }
   return pool;
+}
+
+function startReviewRangeLoad() {
+  const slider = document.getElementById('reviewRangeSlider');
+  const n = Number(slider.value);
+  const levels = REVIEW_RANGE_LEVELS.slice(0, n);
+
+  const startBtn = document.getElementById('reviewRangeStart');
+  const body = document.getElementById('reviewPickerBody');
+  startBtn.disabled = true;
+  body.innerHTML = '<div class="loading-text">Đang tải dữ liệu...</div>';
+
+  if (reviewLoadedRangeMax === n && reviewWordPool.length > 0) {
+    startBtn.disabled = false;
+    renderReviewStart();
+    return;
+  }
+
+  reviewProgressByLevel = {};
+  for (const level of levels) {
+    reviewProgressByLevel[level] = readSavedLevelProgress(level);
+  }
+
+  if (!reviewWorker) {
+    reviewWorker = new Worker('assets/js/fast-review-worker.js');
+  }
+
+  reviewWorker.onmessage = function (e) {
+    startBtn.disabled = false;
+    if (!e.data.ok) {
+      body.innerHTML = '<div class="error-text">Không thể tải dữ liệu. Vui lòng thử lại.</div>';
+      return;
+    }
+    reviewWordPool = e.data.words;
+    reviewLoadedRangeMax = n;
+    renderReviewStart();
+  };
+
+  reviewWorker.postMessage({
+    levels,
+    dataUrls: levels.map(level => LEVELS[level].dataUrl),
+  });
 }
 
 function renderReviewStart() {
