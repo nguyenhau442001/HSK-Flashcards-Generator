@@ -53,6 +53,10 @@ let reviewTimeLeft = 20;
 let reviewCurrentQuestion = null;
 let reviewAnswered = false;
 let reviewSessionLive = false;
+let reviewWordPool = [];
+let reviewProgressByLevel = {};
+let reviewLoadedRangeMax = 0;
+let reviewWorker = null;
 
 function formatExampleSpeechSpeed(speed) {
   const numericSpeed = Number(speed);
