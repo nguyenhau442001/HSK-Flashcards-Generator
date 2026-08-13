@@ -61,8 +61,8 @@ function buildCardArea() {
     </div>
 
     <div class="action-row">
-      <button class="btn-unknown" onclick="markUnknown()">Chưa nhớ</button>
       <button class="btn-known" onclick="markKnown()">Đã nhớ</button>
+      <button class="btn-unknown" onclick="markUnknown()">Chưa nhớ</button>
       <button class="show-unknown-btn" id="unknownWordsToggle" onclick="toggleUnknownWords()"
         aria-controls="unknownWordsList" aria-expanded="false">
         Hiển thị từ chưa nhớ
@@ -82,9 +82,9 @@ function renderFilters() {
   row.innerHTML = '';
   const filters = [
     {key:'all', label:'Tất cả'},
-    {key:'unseen', label:'Chưa học'},
+    {key:'known', label:'Đã nhớ'},
     {key:'unknown', label:'Chưa nhớ'},
-    {key:'known', label:'Đã nhớ'}
+    {key:'unseen', label:'Chưa học'}
   ];
   filters.forEach(f => {
     const b = document.createElement('button');
@@ -93,17 +93,6 @@ function renderFilters() {
     b.onclick = () => setFilter(f.key);
     row.appendChild(b);
   });
-
-  const transferButton = document.createElement('button');
-  const transferPanel = document.getElementById('transferPanel');
-  const transferIsOpen = !transferPanel.hidden;
-  transferButton.className = 'filter-btn transfer-filter-btn';
-  transferButton.id = 'transferToggle';
-  transferButton.textContent = '💾 Sao lưu';
-  transferButton.setAttribute('aria-controls', 'transferPanel');
-  transferButton.setAttribute('aria-expanded', String(transferIsOpen));
-  transferButton.onclick = toggleTransferPanel;
-  row.appendChild(transferButton);
 }
 function setFilter(key) {
   currentFilter = key;

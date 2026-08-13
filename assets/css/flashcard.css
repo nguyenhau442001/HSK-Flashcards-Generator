@@ -19,14 +19,13 @@
 .stat-box { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 10px 6px; text-align: center; }
 .stat-num { font-size: 19px; font-weight: 600; }
 .stat-lbl { font-size: 10.5px; color: var(--text-secondary); margin-top: 2px; }
-.filter-row { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; width: 100%; margin-bottom: 10px; padding-bottom: 4px; }
+.filter-row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; width: 100%; margin-bottom: 10px; padding-bottom: 4px; }
 .filter-btn { width: 100%; min-width: 0; font-size: clamp(10.5px, 2.3vw, 12.5px); padding: 6px 4px; border-radius: 999px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text-secondary); cursor: pointer; white-space: nowrap; }
 .filter-btn.active { background: var(--info-bg); color: var(--info-text); border-color: var(--info-text); }
-.transfer-filter-btn[aria-expanded="true"] { background: var(--info-bg); color: var(--info-text); border-color: var(--info-text); }
 .toolbar { display: flex; justify-content: flex-end; margin-bottom: 10px; }
 .icon-btn { font-size: 12px; padding: 6px 12px; border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--card-bg); color: var(--text-secondary); cursor: pointer; }
 .icon-btn.on { background: var(--info-bg); color: var(--info-text); border-color: var(--info-text); }
-/* Segmented pill group — wraps the two toolbar buttons into one cohesive control */
+/* Segmented pill group — wraps the toolbar buttons into one cohesive control */
 .tool-group { display: flex; border: 1px solid var(--border); border-radius: 999px; overflow: hidden; background: var(--card-bg); }
 .tool-group .icon-btn { font-size: 12.5px; padding: 6px 12px; border-radius: 0; border: none; border-right: 1px solid var(--border); background: transparent; color: var(--text-secondary); white-space: nowrap; }
 .tool-group .icon-btn:last-child { border-right: none; }

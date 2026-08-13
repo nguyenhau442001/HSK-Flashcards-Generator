@@ -91,6 +91,7 @@ function toggleTransferPanel() {
   const willOpen = panel.hidden;
   panel.hidden = !willOpen;
   button.setAttribute('aria-expanded', String(willOpen));
+  button.classList.toggle('on', willOpen);
 }
 function toggleUnknownWords() {
   const box = document.getElementById('unknownWordsList');

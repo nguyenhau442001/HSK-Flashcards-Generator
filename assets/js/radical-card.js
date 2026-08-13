@@ -28,8 +28,8 @@ function buildRadicalCardArea() {
     </div>
 
     <div class="action-row">
-      <button class="btn-unknown" onclick="event.stopPropagation(); markRadicalUnknown()">Chưa nhớ</button>
       <button class="btn-known" onclick="event.stopPropagation(); markRadicalKnown()">Đã nhớ</button>
+      <button class="btn-unknown" onclick="event.stopPropagation(); markRadicalUnknown()">Chưa nhớ</button>
     </div>
   `;
   const btn = document.getElementById('radicalPinyinToggle');
@@ -94,9 +94,9 @@ function renderRadicalFilters() {
   row.innerHTML = '';
   const filters = [
     { key: 'all', label: 'Tất cả' },
-    { key: 'unseen', label: 'Chưa học' },
-    { key: 'unknown', label: 'Chưa nhớ' },
     { key: 'known', label: 'Đã nhớ' },
+    { key: 'unknown', label: 'Chưa nhớ' },
+    { key: 'unseen', label: 'Chưa học' },
   ];
 
   filters.forEach(filter => {
@@ -107,17 +107,6 @@ function renderRadicalFilters() {
     button.onclick = () => setRadicalFilter(filter.key);
     row.appendChild(button);
   });
-
-  const transferPanel = document.getElementById('radicalTransferPanel');
-  const transferButton = document.createElement('button');
-  transferButton.type = 'button';
-  transferButton.id = 'radicalTransferToggle';
-  transferButton.className = 'filter-btn transfer-filter-btn';
-  transferButton.textContent = '💾 Sao lưu';
-  transferButton.setAttribute('aria-controls', 'radicalTransferPanel');
-  transferButton.setAttribute('aria-expanded', String(!transferPanel.hidden));
-  transferButton.onclick = toggleRadicalTransferPanel;
-  row.appendChild(transferButton);
 }
 
 function radicalLearningStatus(item) {
@@ -261,8 +250,11 @@ function openRadicalInCards(groupIndex, itemIndexInGroup) {
 
 function toggleRadicalTransferPanel() {
   const panel = document.getElementById('radicalTransferPanel');
-  panel.hidden = !panel.hidden;
-  renderRadicalFilters();
+  const button = document.getElementById('radicalTransferToggle');
+  const willOpen = panel.hidden;
+  panel.hidden = !willOpen;
+  button.setAttribute('aria-expanded', String(willOpen));
+  button.classList.toggle('on', willOpen);
 }
 
 function radicalRelationLabel(type) {
