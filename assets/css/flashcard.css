@@ -66,6 +66,8 @@
 .hanzi { font-size: 46px; font-weight: 600; letter-spacing: 1px; }
 .meaning { font-size: 18px; color: var(--text-primary); display: none; margin-top: 6px; font-weight: 500; }
 .meaning.show { display: block; }
+.card-content.is-empty .hanzi, .card-content.is-empty .pinyin-row, .card-content.is-empty .hint { display: none; }
+.card-content.is-empty .meaning { margin-top: 0; }
 .example-box { display: none; margin-top: 14px; padding: 12px 14px; background: var(--example-bg); border: 1px solid var(--example-border); border-radius: var(--radius-md); font-size: 14px; color: var(--text-primary); text-align: left; line-height: 1.6; width: 100%; }
 .example-box.show { display: block; }
 .example-box .ex-label { font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 6px; }

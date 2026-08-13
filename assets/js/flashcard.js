@@ -135,10 +135,12 @@ function render(animate) {
       document.getElementById('meaning').textContent = 'Không có từ trong bộ lọc này';
       document.getElementById('meaning').classList.add('show');
       document.getElementById('hint').textContent = '';
+      if (content) content.classList.add('is-empty');
       updateProgress(0, 0);
       updateStats();
       return;
     }
+    if (content) content.classList.remove('is-empty');
     const wIdx = filteredOrder[idx % filteredOrder.length];
     const w = WORDS[wIdx];
     document.getElementById('hanzi').textContent = w.hanzi;
