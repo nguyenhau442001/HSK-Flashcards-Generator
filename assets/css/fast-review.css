@@ -1,7 +1,7 @@
 /* Fast-review (⚡ Ôn nhanh) — start/session/result screens */
 .review-intro, .review-empty, .review-result {
   background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg);
-  padding: 28px 22px; text-align: center; max-width: 420px; margin: 12px auto;
+  padding: 28px 22px; text-align: center; margin: 12px 0;
 }
 .review-intro-icon, .review-empty-icon, .review-result-icon { font-size: 44px; line-height: 1; margin-bottom: 10px; }
 .review-intro-title, .review-empty-title, .review-result-title { font-size: 19px; font-weight: 700; margin-bottom: 12px; }
