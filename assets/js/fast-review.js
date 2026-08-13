@@ -132,7 +132,7 @@ function startReviewRangeLoad() {
   try {
     reviewWorker.postMessage({
       levels,
-      dataUrls: levels.map(level => LEVELS[level].dataUrl),
+      dataUrls: levels.map(level => new URL(LEVELS[level].dataUrl, document.baseURI).href),
     });
   } catch (error) {
     loadWithoutWorker(error);
