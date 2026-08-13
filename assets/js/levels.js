@@ -615,7 +615,6 @@ async function selectLevel(level) {
   document.getElementById('screenPicker').style.display = 'none';
   document.getElementById('screenCards').style.display = '';
   document.getElementById('overviewTab').disabled = true;
-  setViewMode('cards');
   document.getElementById('cardArea').innerHTML = `
     <div class="skel-bar"></div>
     <div class="skel-card">
