@@ -28,8 +28,8 @@ function buildRadicalCardArea() {
     </div>
 
     <div class="action-row">
-      <button class="btn-known" onclick="event.stopPropagation(); markRadicalKnown()">Đã nhớ</button>
       <button class="btn-unknown" onclick="event.stopPropagation(); markRadicalUnknown()">Chưa nhớ</button>
+      <button class="btn-known" onclick="event.stopPropagation(); markRadicalKnown()">Đã nhớ</button>
     </div>
   `;
   const btn = document.getElementById('radicalPinyinToggle');
@@ -94,8 +94,8 @@ function renderRadicalFilters() {
   row.innerHTML = '';
   const filters = [
     { key: 'all', label: 'Tất cả' },
-    { key: 'known', label: 'Đã nhớ' },
     { key: 'unknown', label: 'Chưa nhớ' },
+    { key: 'known', label: 'Đã nhớ' },
     { key: 'unseen', label: 'Chưa học' },
   ];
 

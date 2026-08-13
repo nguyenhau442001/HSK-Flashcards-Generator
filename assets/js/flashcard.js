@@ -61,8 +61,8 @@ function buildCardArea() {
     </div>
 
     <div class="action-row">
-      <button class="btn-known" onclick="markKnown()">Đã nhớ</button>
       <button class="btn-unknown" onclick="markUnknown()">Chưa nhớ</button>
+      <button class="btn-known" onclick="markKnown()">Đã nhớ</button>
       <button class="show-unknown-btn" id="unknownWordsToggle" onclick="toggleUnknownWords()"
         aria-controls="unknownWordsList" aria-expanded="false">
         Hiển thị từ chưa nhớ
@@ -82,8 +82,8 @@ function renderFilters() {
   row.innerHTML = '';
   const filters = [
     {key:'all', label:'Tất cả'},
-    {key:'known', label:'Đã nhớ'},
     {key:'unknown', label:'Chưa nhớ'},
+    {key:'known', label:'Đã nhớ'},
     {key:'unseen', label:'Chưa học'}
   ];
   filters.forEach(f => {
