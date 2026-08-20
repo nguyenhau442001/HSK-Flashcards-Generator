@@ -12,7 +12,7 @@ import re
 import tempfile
 from typing import Any
 
-from pypinyin import Style, load_phrases_dict, pinyin
+from pypinyin import Style, pinyin
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -20,7 +20,14 @@ HANZI_RE = re.compile(r"[\u3400-\u9fff]")
 BOUNDARY_RE = re.compile(r"[，。！？；,.!?;]")
 # Canonical readings used by this course where pypinyin's default differs.
 READING_OVERRIDES = {"谁": "shei"}
-load_phrases_dict({"很长": [["hen"], ["chang"]]})
+PHRASE_READING_OVERRIDES = {
+    "很长": ("hen", "chang"),
+    "米长": ("mi", "chang"),
+    "地笑": ("de", "xiao"),
+    "还你": ("huan", "ni"),
+    "空调": ("kong", "tiao"),
+    "调试": ("tiao", "shi"),
+}
 TONE_MARKS = {
     "ā": ("a", 1), "á": ("a", 2), "ǎ": ("a", 3), "à": ("a", 4),
     "ē": ("e", 1), "é": ("e", 2), "ě": ("e", 3), "è": ("e", 4),
@@ -62,11 +69,20 @@ def normalize_expected_pinyin(example_zh: str, example_py: str) -> str:
     displayed_pinyin = visible_text(example_py)
     roman = [parsed for character in displayed_pinyin if (parsed := roman_letter(character))]
 
+    contextual_readings: dict[int, str] = {}
+    for phrase, readings in PHRASE_READING_OVERRIDES.items():
+        start = chinese.find(phrase)
+        while start >= 0:
+            contextual_readings.update(
+                (start + offset, reading) for offset, reading in enumerate(readings)
+            )
+            start = chinese.find(phrase, start + 1)
+
     bases: list[tuple[str, int]] = []
     tokens = pinyin(chinese, style=Style.NORMAL, heteronym=False, errors=lambda text: list(text))
-    for character, token in zip(chinese, tokens, strict=True):
+    for index, (character, token) in enumerate(zip(chinese, tokens, strict=True)):
         value = token[0].lower().replace("ü", "v")
-        value = READING_OVERRIDES.get(character, value)
+        value = contextual_readings.get(index, READING_OVERRIDES.get(character, value))
         if re.fullmatch(r"[a-zv]+", value):
             bases.append((value, 1))
 
@@ -125,13 +141,14 @@ def normalize_expected_pinyin(example_zh: str, example_py: str) -> str:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--level", default="hsk1", choices=[f"hsk{i}" for i in range(1, 7)])
+    parser.add_argument("--path", help="Explicit vocabulary JSON path, overrides --level")
     parser.add_argument("--check", action="store_true", help="Validate without changing the JSON file")
     return parser.parse_args()
 
 
 def main() -> int:
     args = parse_args()
-    path = REPO_ROOT / "database" / "vocabs" / f"{args.level}_vocabularies.json"
+    path = Path(args.path) if args.path else REPO_ROOT / "database" / "vocabs" / f"{args.level}_vocabularies.json"
     rows = json.loads(path.read_text(encoding="utf-8"))
     changed = 0
     for row in rows:
@@ -147,10 +164,16 @@ def main() -> int:
         row.clear()
         row.update(reordered)
 
+    display_path = path.resolve()
+    try:
+        display_path = display_path.relative_to(REPO_ROOT)
+    except ValueError:
+        pass
+
     if args.check:
         if changed:
             raise ValueError(f"{path} has {changed} missing or stale expected_pinyin values")
-        print(f"Validated {len(rows)} rows in {path.relative_to(REPO_ROOT)}")
+        print(f"Validated {len(rows)} rows in {display_path}")
         return 0
 
     with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=path.parent, delete=False) as handle:
@@ -158,7 +181,7 @@ def main() -> int:
         handle.write("\n")
         temporary = Path(handle.name)
     temporary.replace(path)
-    print(f"Updated {changed} of {len(rows)} rows in {path.relative_to(REPO_ROOT)}")
+    print(f"Updated {changed} of {len(rows)} rows in {display_path}")
     return 0
 
 

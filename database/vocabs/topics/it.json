@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "hanzi": "电脑",
+    "pinyin": "diànnǎo",
+    "meaning": "máy tính",
+    "example_zh": "我每天用<u>电脑</u>工作。",
+    "example_py": "Wǒ měitiān yòng <u>diànnǎo</u> gōngzuò.",
+    "expected_pinyin": "wo3 mei3 tian1 yong4 dian4 nao3 gong1 zuo4",
+    "example_vi": "Tôi dùng <u>máy tính</u> làm việc mỗi ngày."
+  },
+  {
+    "id": 2,
+    "hanzi": "手机",
+    "pinyin": "shǒujī",
+    "meaning": "điện thoại di động",
+    "example_zh": "我的<u>手机</u>没电了。",
+    "example_py": "Wǒ de <u>shǒujī</u> méi diàn le.",
+    "expected_pinyin": "wo3 de0 shou3 ji1 mei2 dian4 le0",
+    "example_vi": "<u>Điện thoại</u> của tôi hết pin rồi."
+  },
+  {
+    "id": 3,
+    "hanzi": "软件",
+    "pinyin": "ruǎnjiàn",
+    "meaning": "phần mềm",
+    "example_zh": "这个<u>软件</u>很好用。",
+    "example_py": "Zhège <u>ruǎnjiàn</u> hěn hǎo yòng.",
+    "expected_pinyin": "zhe4 ge0 ruan3 jian4 hen3 hao3 yong4",
+    "example_vi": "<u>Phần mềm</u> này rất dễ dùng."
+  },
+  {
+    "id": 4,
+    "hanzi": "硬件",
+    "pinyin": "yìngjiàn",
+    "meaning": "phần cứng",
+    "example_zh": "公司需要更新<u>硬件</u>设备。",
+    "example_py": "Gōngsī xūyào gēngxīn <u>yìngjiàn</u> shèbèi.",
+    "expected_pinyin": "gong1 si1 xu1 yao4 geng1 xin1 ying4 jian4 she4 bei4",
+    "example_vi": "Công ty cần nâng cấp thiết bị <u>phần cứng</u>."
+  },
+  {
+    "id": 5,
+    "hanzi": "程序",
+    "pinyin": "chéngxù",
+    "meaning": "chương trình (phần mềm)",
+    "example_zh": "他写了一个新<u>程序</u>。",
+    "example_py": "Tā xiěle yí gè xīn <u>chéngxù</u>.",
+    "expected_pinyin": "ta1 xie3 le0 yi2 ge4 xin1 cheng2 xu4",
+    "example_vi": "Anh ấy đã viết một <u>chương trình</u> mới."
+  },
+  {
+    "id": 6,
+    "hanzi": "代码",
+    "pinyin": "dàimǎ",
+    "meaning": "mã nguồn, code",
+    "example_zh": "这段<u>代码</u>有问题。",
+    "example_py": "Zhè duàn <u>dàimǎ</u> yǒu wèntí.",
+    "expected_pinyin": "zhe4 duan4 dai4 ma3 you3 wen4 ti2",
+    "example_vi": "Đoạn <u>mã nguồn</u> này có vấn đề."
+  },
+  {
+    "id": 7,
+    "hanzi": "编程",
+    "pinyin": "biānchéng",
+    "meaning": "lập trình",
+    "example_zh": "我在学习<u>编程</u>。",
+    "example_py": "Wǒ zài xuéxí <u>biānchéng</u>.",
+    "expected_pinyin": "wo3 zai4 xue2 xi2 bian1 cheng2",
+    "example_vi": "Tôi đang học <u>lập trình</u>."
+  },
+  {
+    "id": 8,
+    "hanzi": "网络",
+    "pinyin": "wǎngluò",
+    "meaning": "mạng, internet",
+    "example_zh": "这里的<u>网络</u>很快。",
+    "example_py": "Zhèlǐ de <u>wǎngluò</u> hěn kuài.",
+    "expected_pinyin": "zhe4 li3 de0 wang3 luo4 hen3 kuai4",
+    "example_vi": "<u>Mạng</u> ở đây rất nhanh."
+  },
+  {
+    "id": 9,
+    "hanzi": "网站",
+    "pinyin": "wǎngzhàn",
+    "meaning": "trang web",
+    "example_zh": "我们公司有自己的<u>网站</u>。",
+    "example_py": "Wǒmen gōngsī yǒu zìjǐ de <u>wǎngzhàn</u>.",
+    "expected_pinyin": "wo3 men0 gong1 si1 you3 zi4 ji3 de0 wang3 zhan4",
+    "example_vi": "Công ty chúng tôi có <u>trang web</u> riêng."
+  },
+  {
+    "id": 10,
+    "hanzi": "服务器",
+    "pinyin": "fúwùqì",
+    "meaning": "máy chủ",
+    "example_zh": "<u>服务器</u>今天出现了故障。",
+    "example_py": "<u>Fúwùqì</u> jīntiān chūxiànle gùzhàng.",
+    "expected_pinyin": "fu2 wu4 qi4 jin1 tian1 chu1 xian4 le0 gu4 zhang4",
+    "example_vi": "<u>Máy chủ</u> hôm nay bị lỗi."
+  },
+  {
+    "id": 11,
+    "hanzi": "数据",
+    "pinyin": "shùjù",
+    "meaning": "dữ liệu",
+    "example_zh": "这些<u>数据</u>非常重要。",
+    "example_py": "Zhèxiē <u>shùjù</u> fēicháng zhòngyào.",
+    "expected_pinyin": "zhe4 xie1 shu4 ju4 fei1 chang2 zhong4 yao4",
+    "example_vi": "<u>Dữ liệu</u> này rất quan trọng."
+  },
+  {
+    "id": 12,
+    "hanzi": "数据库",
+    "pinyin": "shùjùkù",
+    "meaning": "cơ sở dữ liệu",
+    "example_zh": "所有信息都存在<u>数据库</u>里。",
+    "example_py": "Suǒyǒu xìnxī dōu cún zài <u>shùjùkù</u> lǐ.",
+    "expected_pinyin": "suo3 you3 xin4 xi1 dou1 cun2 zai4 shu4 ju4 ku4 li3",
+    "example_vi": "Mọi thông tin đều được lưu trong <u>cơ sở dữ liệu</u>."
+  },
+  {
+    "id": 13,
+    "hanzi": "文件",
+    "pinyin": "wénjiàn",
+    "meaning": "tệp, tài liệu",
+    "example_zh": "请把<u>文件</u>发给我。",
+    "example_py": "Qǐng bǎ <u>wénjiàn</u> fā gěi wǒ.",
+    "expected_pinyin": "qing3 ba3 wen2 jian4 fa1 gei3 wo3",
+    "example_vi": "Hãy gửi <u>tệp</u> cho tôi."
+  },
+  {
+    "id": 14,
+    "hanzi": "文件夹",
+    "pinyin": "wénjiànjiā",
+    "meaning": "thư mục",
+    "example_zh": "所有照片都在这个<u>文件夹</u>里。",
+    "example_py": "Suǒyǒu zhàopiàn dōu zài zhège <u>wénjiànjiā</u> lǐ.",
+    "expected_pinyin": "suo3 you3 zhao4 pian4 dou1 zai4 zhe4 ge0 wen2 jian4 jia1 li3",
+    "example_vi": "Tất cả ảnh đều nằm trong <u>thư mục</u> này."
+  },
+  {
+    "id": 15,
+    "hanzi": "系统",
+    "pinyin": "xìtǒng",
+    "meaning": "hệ thống",
+    "example_zh": "这个<u>系统</u>需要升级了。",
+    "example_py": "Zhège <u>xìtǒng</u> xūyào shēngjí le.",
+    "expected_pinyin": "zhe4 ge0 xi4 tong3 xu1 yao4 sheng1 ji2 le0",
+    "example_vi": "<u>Hệ thống</u> này cần được nâng cấp."
+  },
+  {
+    "id": 16,
+    "hanzi": "密码",
+    "pinyin": "mìmǎ",
+    "meaning": "mật khẩu",
+    "example_zh": "我忘记了我的<u>密码</u>。",
+    "example_py": "Wǒ wàngjìle wǒ de <u>mìmǎ</u>.",
+    "expected_pinyin": "wo3 wang4 ji4 le0 wo3 de0 mi4 ma3",
+    "example_vi": "Tôi quên <u>mật khẩu</u> của mình rồi."
+  },
+  {
+    "id": 17,
+    "hanzi": "账号",
+    "pinyin": "zhànghào",
+    "meaning": "tài khoản",
+    "example_zh": "请输入你的<u>账号</u>和密码。",
+    "example_py": "Qǐng shūrù nǐ de <u>zhànghào</u> hé mìmǎ.",
+    "expected_pinyin": "qing3 shu1 ru4 ni3 de0 zhang4 hao4 he2 mi4 ma3",
+    "example_vi": "Hãy nhập <u>tài khoản</u> và mật khẩu của bạn."
+  },
+  {
+    "id": 18,
+    "hanzi": "登录",
+    "pinyin": "dēnglù",
+    "meaning": "đăng nhập",
+    "example_zh": "请先<u>登录</u>你的账号。",
+    "example_py": "Qǐng xiān <u>dēnglù</u> nǐ de zhànghào.",
+    "expected_pinyin": "qing3 xian1 deng1 lu4 ni3 de0 zhang4 hao4",
+    "example_vi": "Hãy <u>đăng nhập</u> tài khoản của bạn trước."
+  },
+  {
+    "id": 19,
+    "hanzi": "注册",
+    "pinyin": "zhùcè",
+    "meaning": "đăng ký",
+    "example_zh": "你需要先<u>注册</u>一个账号。",
+    "example_py": "Nǐ xūyào xiān <u>zhùcè</u> yí gè zhànghào.",
+    "expected_pinyin": "ni3 xu1 yao4 xian1 zhu4 ce4 yi2 ge4 zhang4 hao4",
+    "example_vi": "Bạn cần <u>đăng ký</u> một tài khoản trước."
+  },
+  {
+    "id": 20,
+    "hanzi": "下载",
+    "pinyin": "xiàzài",
+    "meaning": "tải xuống",
+    "example_zh": "请<u>下载</u>这个应用。",
+    "example_py": "Qǐng <u>xiàzài</u> zhège yìngyòng.",
+    "expected_pinyin": "qing3 xia4 zai4 zhe4 ge0 ying4 yong4",
+    "example_vi": "Hãy <u>tải xuống</u> ứng dụng này."
+  },
+  {
+    "id": 21,
+    "hanzi": "上传",
+    "pinyin": "shàngchuán",
+    "meaning": "tải lên",
+    "example_zh": "我正在<u>上传</u>照片。",
+    "example_py": "Wǒ zhèngzài <u>shàngchuán</u> zhàopiàn.",
+    "expected_pinyin": "wo3 zheng4 zai4 shang4 chuan2 zhao4 pian4",
+    "example_vi": "Tôi đang <u>tải lên</u> ảnh."
+  },
+  {
+    "id": 22,
+    "hanzi": "安装",
+    "pinyin": "ānzhuāng",
+    "meaning": "cài đặt",
+    "example_zh": "我帮你<u>安装</u>这个软件。",
+    "example_py": "Wǒ bāng nǐ <u>ānzhuāng</u> zhège ruǎnjiàn.",
+    "expected_pinyin": "wo3 bang1 ni3 an1 zhuang1 zhe4 ge0 ruan3 jian4",
+    "example_vi": "Tôi giúp bạn <u>cài đặt</u> phần mềm này."
+  },
+  {
+    "id": 23,
+    "hanzi": "更新",
+    "pinyin": "gēngxīn",
+    "meaning": "cập nhật",
+    "example_zh": "系统有一个新<u>更新</u>。",
+    "example_py": "Xìtǒng yǒu yí gè xīn <u>gēngxīn</u>.",
+    "expected_pinyin": "xi4 tong3 you3 yi2 ge4 xin1 geng1 xin1",
+    "example_vi": "Hệ thống có một bản <u>cập nhật</u> mới."
+  },
+  {
+    "id": 24,
+    "hanzi": "删除",
+    "pinyin": "shānchú",
+    "meaning": "xóa",
+    "example_zh": "请<u>删除</u>这个文件。",
+    "example_py": "Qǐng <u>shānchú</u> zhège wénjiàn.",
+    "expected_pinyin": "qing3 shan1 chu2 zhe4 ge0 wen2 jian4",
+    "example_vi": "Hãy <u>xóa</u> tệp này."
+  },
+  {
+    "id": 25,
+    "hanzi": "保存",
+    "pinyin": "bǎocún",
+    "meaning": "lưu (dữ liệu)",
+    "example_zh": "别忘了<u>保存</u>你的文件。",
+    "example_py": "Bié wàngle <u>bǎocún</u> nǐ de wénjiàn.",
+    "expected_pinyin": "bie2 wang4 le0 bao3 cun2 ni3 de0 wen2 jian4",
+    "example_vi": "Đừng quên <u>lưu</u> tệp của bạn."
+  },
+  {
+    "id": 26,
+    "hanzi": "复制",
+    "pinyin": "fùzhì",
+    "meaning": "sao chép",
+    "example_zh": "你可以<u>复制</u>这段文字。",
+    "example_py": "Nǐ kěyǐ <u>fùzhì</u> zhè duàn wénzì.",
+    "expected_pinyin": "ni3 ke3 yi3 fu4 zhi4 zhe4 duan4 wen2 zi4",
+    "example_vi": "Bạn có thể <u>sao chép</u> đoạn văn bản này."
+  },
+  {
+    "id": 27,
+    "hanzi": "粘贴",
+    "pinyin": "zhāntiē",
+    "meaning": "dán (paste)",
+    "example_zh": "把内容<u>粘贴</u>到这里。",
+    "example_py": "Bǎ nèiróng <u>zhāntiē</u> dào zhèlǐ.",
+    "expected_pinyin": "ba3 nei4 rong2 zhan1 tie1 dao4 zhe4 li3",
+    "example_vi": "Hãy <u>dán</u> nội dung vào đây."
+  },
+  {
+    "id": 28,
+    "hanzi": "点击",
+    "pinyin": "diǎnjī",
+    "meaning": "nhấp chuột",
+    "example_zh": "请<u>点击</u>这个按钮。",
+    "example_py": "Qǐng <u>diǎnjī</u> zhège ànniǔ.",
+    "expected_pinyin": "qing3 dian3 ji1 zhe4 ge0 an4 niu3",
+    "example_vi": "Hãy <u>nhấp chuột</u> vào nút này."
+  },
+  {
+    "id": 29,
+    "hanzi": "屏幕",
+    "pinyin": "píngmù",
+    "meaning": "màn hình",
+    "example_zh": "他的<u>屏幕</u>很大。",
+    "example_py": "Tā de <u>píngmù</u> hěn dà.",
+    "expected_pinyin": "ta1 de0 ping2 mu4 hen3 da4",
+    "example_vi": "<u>Màn hình</u> của anh ấy rất lớn."
+  },
+  {
+    "id": 30,
+    "hanzi": "键盘",
+    "pinyin": "jiànpán",
+    "meaning": "bàn phím",
+    "example_zh": "这个<u>键盘</u>打字很舒服。",
+    "example_py": "Zhège <u>jiànpán</u> dǎzì hěn shūfu.",
+    "expected_pinyin": "zhe4 ge0 jian4 pan2 da3 zi4 hen3 shu1 fu0",
+    "example_vi": "<u>Bàn phím</u> này gõ rất thoải mái."
+  },
+  {
+    "id": 31,
+    "hanzi": "鼠标",
+    "pinyin": "shǔbiāo",
+    "meaning": "chuột máy tính",
+    "example_zh": "我的<u>鼠标</u>坏了。",
+    "example_py": "Wǒ de <u>shǔbiāo</u> huài le.",
+    "expected_pinyin": "wo3 de0 shu3 biao1 huai4 le0",
+    "example_vi": "<u>Chuột máy tính</u> của tôi bị hỏng."
+  },
+  {
+    "id": 32,
+    "hanzi": "打印机",
+    "pinyin": "dǎyìnjī",
+    "meaning": "máy in",
+    "example_zh": "办公室的<u>打印机</u>没纸了。",
+    "example_py": "Bàngōngshì de <u>dǎyìnjī</u> méi zhǐ le.",
+    "expected_pinyin": "ban4 gong1 shi4 de0 da3 yin4 ji1 mei2 zhi3 le0",
+    "example_vi": "<u>Máy in</u> trong văn phòng hết giấy rồi."
+  },
+  {
+    "id": 33,
+    "hanzi": "应用",
+    "pinyin": "yìngyòng",
+    "meaning": "ứng dụng",
+    "example_zh": "这个<u>应用</u>很实用。",
+    "example_py": "Zhège <u>yìngyòng</u> hěn shíyòng.",
+    "expected_pinyin": "zhe4 ge0 ying4 yong4 hen3 shi2 yong4",
+    "example_vi": "<u>Ứng dụng</u> này rất hữu ích."
+  },
+  {
+    "id": 34,
+    "hanzi": "浏览器",
+    "pinyin": "liúlǎnqì",
+    "meaning": "trình duyệt",
+    "example_zh": "请打开<u>浏览器</u>搜索一下。",
+    "example_py": "Qǐng dǎkāi <u>liúlǎnqì</u> sōusuǒ yíxià.",
+    "expected_pinyin": "qing3 da3 kai1 liu2 lan3 qi4 sou1 suo3 yi2 xia4",
+    "example_vi": "Hãy mở <u>trình duyệt</u> tìm kiếm thử."
+  },
+  {
+    "id": 35,
+    "hanzi": "搜索",
+    "pinyin": "sōusuǒ",
+    "meaning": "tìm kiếm",
+    "example_zh": "我在网上<u>搜索</u>这个问题。",
+    "example_py": "Wǒ zài wǎngshàng <u>sōusuǒ</u> zhège wèntí.",
+    "expected_pinyin": "wo3 zai4 wang3 shang4 sou1 suo3 zhe4 ge0 wen4 ti2",
+    "example_vi": "Tôi <u>tìm kiếm</u> vấn đề này trên mạng."
+  },
+  {
+    "id": 36,
+    "hanzi": "邮件",
+    "pinyin": "yóujiàn",
+    "meaning": "thư điện tử, email",
+    "example_zh": "我给你发了一封<u>邮件</u>。",
+    "example_py": "Wǒ gěi nǐ fāle yì fēng <u>yóujiàn</u>.",
+    "expected_pinyin": "wo3 gei3 ni3 fa1 le0 yi4 feng1 you2 jian4",
+    "example_vi": "Tôi đã gửi cho bạn một <u>email</u>."
+  },
+  {
+    "id": 37,
+    "hanzi": "云",
+    "pinyin": "yún",
+    "meaning": "đám mây (điện toán đám mây)",
+    "example_zh": "这些文件都存在<u>云</u>上。",
+    "example_py": "Zhèxiē wénjiàn dōu cún zài <u>yún</u> shàng.",
+    "expected_pinyin": "zhe4 xie1 wen2 jian4 dou1 cun2 zai4 yun2 shang4",
+    "example_vi": "Các tệp này đều được lưu trên <u>đám mây</u>."
+  },
+  {
+    "id": 38,
+    "hanzi": "备份",
+    "pinyin": "bèifèn",
+    "meaning": "sao lưu",
+    "example_zh": "记得定期<u>备份</u>数据。",
+    "example_py": "Jìde dìngqī <u>bèifèn</u> shùjù.",
+    "expected_pinyin": "ji4 de0 ding4 qi1 bei4 fen4 shu4 ju4",
+    "example_vi": "Hãy nhớ <u>sao lưu</u> dữ liệu định kỳ."
+  },
+  {
+    "id": 39,
+    "hanzi": "病毒",
+    "pinyin": "bìngdú",
+    "meaning": "virus (máy tính)",
+    "example_zh": "我的电脑中<u>病毒</u>了。",
+    "example_py": "Wǒ de diànnǎo zhòng <u>bìngdú</u> le.",
+    "expected_pinyin": "wo3 de0 dian4 nao3 zhong4 bing4 du2 le0",
+    "example_vi": "Máy tính của tôi bị nhiễm <u>virus</u> rồi."
+  },
+  {
+    "id": 40,
+    "hanzi": "杀毒",
+    "pinyin": "shādú",
+    "meaning": "diệt virus",
+    "example_zh": "你需要<u>杀毒</u>软件。",
+    "example_py": "Nǐ xūyào <u>shādú</u> ruǎnjiàn.",
+    "expected_pinyin": "ni3 xu1 yao4 sha1 du2 ruan3 jian4",
+    "example_vi": "Bạn cần phần mềm <u>diệt virus</u>."
+  },
+  {
+    "id": 41,
+    "hanzi": "故障",
+    "pinyin": "gùzhàng",
+    "meaning": "sự cố, trục trặc",
+    "example_zh": "系统出现了<u>故障</u>。",
+    "example_py": "Xìtǒng chūxiànle <u>gùzhàng</u>.",
+    "expected_pinyin": "xi4 tong3 chu1 xian4 le0 gu4 zhang4",
+    "example_vi": "Hệ thống gặp <u>sự cố</u>."
+  },
+  {
+    "id": 42,
+    "hanzi": "修复",
+    "pinyin": "xiūfù",
+    "meaning": "sửa lỗi, khắc phục",
+    "example_zh": "工程师正在<u>修复</u>这个问题。",
+    "example_py": "Gōngchéngshī zhèngzài <u>xiūfù</u> zhège wèntí.",
+    "expected_pinyin": "gong1 cheng2 shi1 zheng4 zai4 xiu1 fu4 zhe4 ge0 wen4 ti2",
+    "example_vi": "Kỹ sư đang <u>khắc phục</u> vấn đề này."
+  },
+  {
+    "id": 43,
+    "hanzi": "重启",
+    "pinyin": "chóngqǐ",
+    "meaning": "khởi động lại",
+    "example_zh": "请<u>重启</u>你的电脑试试。",
+    "example_py": "Qǐng <u>chóngqǐ</u> nǐ de diànnǎo shìshi.",
+    "expected_pinyin": "qing3 chong2 qi3 ni3 de0 dian4 nao3 shi4 shi0",
+    "example_vi": "Hãy thử <u>khởi động lại</u> máy tính của bạn."
+  },
+  {
+    "id": 44,
+    "hanzi": "版本",
+    "pinyin": "bǎnběn",
+    "meaning": "phiên bản",
+    "example_zh": "请使用最新<u>版本</u>。",
+    "example_py": "Qǐng shǐyòng zuìxīn <u>bǎnběn</u>.",
+    "expected_pinyin": "qing3 shi3 yong4 zui4 xin1 ban3 ben3",
+    "example_vi": "Vui lòng sử dụng <u>phiên bản</u> mới nhất."
+  },
+  {
+    "id": 45,
+    "hanzi": "功能",
+    "pinyin": "gōngnéng",
+    "meaning": "chức năng",
+    "example_zh": "这个<u>功能</u>非常方便。",
+    "example_py": "Zhège <u>gōngnéng</u> fēicháng fāngbiàn.",
+    "expected_pinyin": "zhe4 ge0 gong1 neng2 fei1 chang2 fang1 bian4",
+    "example_vi": "<u>Chức năng</u> này rất tiện lợi."
+  },
+  {
+    "id": 46,
+    "hanzi": "开发",
+    "pinyin": "kāifā",
+    "meaning": "phát triển (phần mềm)",
+    "example_zh": "我们在<u>开发</u>一个新产品。",
+    "example_py": "Wǒmen zài <u>kāifā</u> yí gè xīn chǎnpǐn.",
+    "expected_pinyin": "wo3 men0 zai4 kai1 fa1 yi2 ge4 xin1 chan3 pin3",
+    "example_vi": "Chúng tôi đang <u>phát triển</u> một sản phẩm mới."
+  },
+  {
+    "id": 47,
+    "hanzi": "工程师",
+    "pinyin": "gōngchéngshī",
+    "meaning": "kỹ sư",
+    "example_zh": "他是一名软件<u>工程师</u>。",
+    "example_py": "Tā shì yì míng ruǎnjiàn <u>gōngchéngshī</u>.",
+    "expected_pinyin": "ta1 shi4 yi4 ming2 ruan3 jian4 gong1 cheng2 shi1",
+    "example_vi": "Anh ấy là một <u>kỹ sư</u> phần mềm."
+  },
+  {
+    "id": 48,
+    "hanzi": "测试",
+    "pinyin": "cèshì",
+    "meaning": "kiểm thử",
+    "example_zh": "这个功能还在<u>测试</u>阶段。",
+    "example_py": "Zhège gōngnéng hái zài <u>cèshì</u> jiēduàn.",
+    "expected_pinyin": "zhe4 ge0 gong1 neng2 hai2 zai4 ce4 shi4 jie1 duan4",
+    "example_vi": "Chức năng này vẫn đang trong giai đoạn <u>kiểm thử</u>."
+  },
+  {
+    "id": 49,
+    "hanzi": "调试",
+    "pinyin": "tiáoshì",
+    "meaning": "gỡ lỗi (debug)",
+    "example_zh": "我花了一个小时<u>调试</u>代码。",
+    "example_py": "Wǒ huāle yí gè xiǎoshí <u>tiáoshì</u> dàimǎ.",
+    "expected_pinyin": "wo3 hua1 le0 yi2 ge4 xiao3 shi2 tiao2 shi4 dai4 ma3",
+    "example_vi": "Tôi mất một tiếng để <u>gỡ lỗi</u> code."
+  },
+  {
+    "id": 50,
+    "hanzi": "人工智能",
+    "pinyin": "réngōng zhìnéng",
+    "meaning": "trí tuệ nhân tạo",
+    "example_zh": "<u>人工智能</u>正在改变世界。",
+    "example_py": "<u>Réngōng zhìnéng</u> zhèngzài gǎibiàn shìjiè.",
+    "expected_pinyin": "ren2 gong1 zhi4 neng2 zheng4 zai4 gai3 bian4 shi4 jie4",
+    "example_vi": "<u>Trí tuệ nhân tạo</u> đang thay đổi thế giới."
+  },
+  {
+    "id": 51,
+    "hanzi": "算法",
+    "pinyin": "suànfǎ",
+    "meaning": "thuật toán",
+    "example_zh": "这个<u>算法</u>很复杂。",
+    "example_py": "Zhège <u>suànfǎ</u> hěn fùzá.",
+    "expected_pinyin": "zhe4 ge0 suan4 fa3 hen3 fu4 za2",
+    "example_vi": "<u>Thuật toán</u> này rất phức tạp."
+  },
+  {
+    "id": 52,
+    "hanzi": "芯片",
+    "pinyin": "xīnpiàn",
+    "meaning": "chip (vi mạch)",
+    "example_zh": "这款手机用了新<u>芯片</u>。",
+    "example_py": "Zhè kuǎn shǒujī yòngle xīn <u>xīnpiàn</u>.",
+    "expected_pinyin": "zhe4 kuan3 shou3 ji1 yong4 le0 xin1 xin1 pian4",
+    "example_vi": "Mẫu điện thoại này dùng <u>chip</u> mới."
+  },
+  {
+    "id": 53,
+    "hanzi": "内存",
+    "pinyin": "nèicún",
+    "meaning": "bộ nhớ (RAM)",
+    "example_zh": "这台电脑<u>内存</u>不够大。",
+    "example_py": "Zhè tái diànnǎo <u>nèicún</u> bú gòu dà.",
+    "expected_pinyin": "zhe4 tai2 dian4 nao3 nei4 cun2 bu2 gou4 da4",
+    "example_vi": "<u>Bộ nhớ</u> của máy tính này không đủ lớn."
+  },
+  {
+    "id": 54,
+    "hanzi": "存储",
+    "pinyin": "cúnchǔ",
+    "meaning": "lưu trữ",
+    "example_zh": "手机<u>存储</u>空间不够了。",
+    "example_py": "Shǒujī <u>cúnchǔ</u> kōngjiān bú gòu le.",
+    "expected_pinyin": "shou3 ji1 cun2 chu3 kong1 jian1 bu2 gou4 le0",
+    "example_vi": "Dung lượng <u>lưu trữ</u> điện thoại không đủ nữa."
+  },
+  {
+    "id": 55,
+    "hanzi": "无线",
+    "pinyin": "wúxiàn",
+    "meaning": "không dây",
+    "example_zh": "这里有免费<u>无线</u>网络。",
+    "example_py": "Zhèlǐ yǒu miǎnfèi <u>wúxiàn</u> wǎngluò.",
+    "expected_pinyin": "zhe4 li3 you3 mian3 fei4 wu2 xian4 wang3 luo4",
+    "example_vi": "Ở đây có mạng <u>không dây</u> miễn phí."
+  },
+  {
+    "id": 56,
+    "hanzi": "在线",
+    "pinyin": "zàixiàn",
+    "meaning": "trực tuyến",
+    "example_zh": "我们可以<u>在线</u>开会。",
+    "example_py": "Wǒmen kěyǐ <u>zàixiàn</u> kāihuì.",
+    "expected_pinyin": "wo3 men0 ke3 yi3 zai4 xian4 kai1 hui4",
+    "example_vi": "Chúng ta có thể họp <u>trực tuyến</u>."
+  },
+  {
+    "id": 57,
+    "hanzi": "离线",
+    "pinyin": "líxiàn",
+    "meaning": "ngoại tuyến",
+    "example_zh": "没有网络时你可以<u>离线</u>使用。",
+    "example_py": "Méiyǒu wǎngluò shí nǐ kěyǐ <u>líxiàn</u> shǐyòng.",
+    "expected_pinyin": "mei2 you3 wang3 luo4 shi2 ni3 ke3 yi3 li2 xian4 shi3 yong4",
+    "example_vi": "Khi không có mạng bạn có thể dùng <u>ngoại tuyến</u>."
+  },
+  {
+    "id": 58,
+    "hanzi": "接口",
+    "pinyin": "jiēkǒu",
+    "meaning": "giao diện lập trình (API)",
+    "example_zh": "这个<u>接口</u>还没有文档。",
+    "example_py": "Zhège <u>jiēkǒu</u> hái méiyǒu wéndàng.",
+    "expected_pinyin": "zhe4 ge0 jie1 kou3 hai2 mei2 you3 wen2 dang4",
+    "example_vi": "<u>Giao diện lập trình</u> này chưa có tài liệu."
+  },
+  {
+    "id": 59,
+    "hanzi": "调试器",
+    "pinyin": "tiáoshìqì",
+    "meaning": "trình gỡ lỗi",
+    "example_zh": "我用<u>调试器</u>找到了问题。",
+    "example_py": "Wǒ yòng <u>tiáoshìqì</u> zhǎodàole wèntí.",
+    "expected_pinyin": "wo3 yong4 tiao2 shi4 qi4 zhao3 dao4 le0 wen4 ti2",
+    "example_vi": "Tôi đã tìm ra vấn đề bằng <u>trình gỡ lỗi</u>."
+  },
+  {
+    "id": 60,
+    "hanzi": "黑客",
+    "pinyin": "hēikè",
+    "meaning": "hacker, tin tặc",
+    "example_zh": "公司的系统被<u>黑客</u>攻击了。",
+    "example_py": "Gōngsī de xìtǒng bèi <u>hēikè</u> gōngjī le.",
+    "expected_pinyin": "gong1 si1 de0 xi4 tong3 bei4 hei1 ke4 gong1 ji1 le0",
+    "example_vi": "Hệ thống công ty bị <u>hacker</u> tấn công."
+  }
+]

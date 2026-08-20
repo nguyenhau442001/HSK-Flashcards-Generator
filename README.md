@@ -23,6 +23,10 @@ https://nguyenhau442001.github.io/HSK-Flashcards-Generator/flashcards.html
 
 Tổng cộng: **5.000 từ vựng**.
 
+## Chủ đề
+
+Ngoài học theo cấp độ HSK, có thể học từ vựng theo chủ đề (ví dụ: Công nghệ thông tin) ở tab **🏷️ Chủ đề**. Tiến trình học chủ đề được lưu riêng, không ảnh hưởng tiến trình HSK.
+
 ## Tính năng
 
 - Chọn và học riêng từng cấp độ HSK1–HSK6.
@@ -98,15 +102,18 @@ Danh sách **Từ chưa nhớ** chỉ được hiển thị trong ứng dụng; 
 │       ├── state.js
 │       ├── storage.js
 │       ├── theme.js
+│       ├── topics.js
 │       └── vocabulary-overview.js
 └── database/
-    └── text/
+    └── vocabs/
         ├── hsk1_vocabularies.json
         ├── hsk2_vocabularies.json
         ├── hsk3_vocabularies.json
         ├── hsk4_vocabularies.json
         ├── hsk5_vocabularies.json
-        └── hsk6_vocabularies.json
+        ├── hsk6_vocabularies.json
+        └── topics/
+            └── it.json
 ```
 
 ## Lưu ý về phát âm

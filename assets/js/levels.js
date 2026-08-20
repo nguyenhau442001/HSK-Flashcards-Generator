@@ -399,7 +399,7 @@ function startStudyHeartbeat() {
 }
 
 function learningProgressSummary() {
-  const levels = Object.keys(LEVELS).map(level => {
+  const levels = hskLevelKeys().map(level => {
     const saved = readSavedLevelProgress(level);
     const statuses = Object.values(saved);
     return {
@@ -584,11 +584,14 @@ function goBackToPicker() {
   stopSpeech();
   abandonReviewSession();
   document.body.classList.remove('study-mode');
-  document.getElementById('screenPicker').style.display = '';
+  const wasTopic = currentLevel && LEVELS[currentLevel] && LEVELS[currentLevel].isTopic;
+  document.getElementById('screenPicker').style.display = wasTopic ? 'none' : '';
+  document.getElementById('screenTopicPicker').style.display = wasTopic ? '' : 'none';
   document.getElementById('screenCards').style.display = 'none';
   document.getElementById('appTitle').textContent = 'HSK Flashcards';
   document.getElementById('primaryTabs').style.display = '';
-  document.getElementById('learningDashboard').style.display = '';
+  document.getElementById('learningDashboard').style.display = wasTopic ? 'none' : '';
+  if (wasTopic) setPrimaryTab('topics'); else setPrimaryTab('vocab');
   currentLevel = null;
   currentView = 'cards';
   overviewQuery = '';
@@ -613,6 +616,7 @@ async function selectLevel(level) {
   document.getElementById('learningDashboard').style.display = 'none';
   document.getElementById('transferPanel').hidden = true;
   document.getElementById('screenPicker').style.display = 'none';
+  document.getElementById('screenTopicPicker').style.display = 'none';
   document.getElementById('screenCards').style.display = '';
   document.getElementById('overviewTab').disabled = true;
   document.getElementById('cardArea').innerHTML = `

@@ -19,6 +19,18 @@ const LEVELS = {
   hsk5: { label: 'HSK5', dataUrl: 'database/vocabs/hsk5_vocabularies.json', available: true, total: 1300 },
   hsk6: { label: 'HSK6', dataUrl: 'database/vocabs/hsk6_vocabularies.json', available: true, total: 2500 },
 };
+
+// Topic decks: same word schema as LEVELS, browsed from the "Chủ đề" tab.
+// Keys are prefixed 'topic_' and merged into LEVELS so every existing
+// LEVELS[currentLevel] lookup (speech, overview, progress, backup) works unmodified.
+const TOPICS = {
+  topic_it: { label: 'Công nghệ thông tin', icon: '💻', dataUrl: 'database/vocabs/topics/it.json', available: true, total: 60, isTopic: true },
+};
+Object.assign(LEVELS, TOPICS);
+
+function hskLevelKeys() {
+  return Object.keys(LEVELS).filter(key => !TOPICS[key]);
+}
 const SPEECH_RATE = 0.85;
 const EXAMPLE_SPEECH_SPEEDS = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2];
 const DEFAULT_EXAMPLE_SPEECH_SPEED = 1;
