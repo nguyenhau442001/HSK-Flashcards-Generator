@@ -1,5 +1,5 @@
 // Application entry point — feature code lives in assets/js/.
-document.querySelectorAll('.level-card').forEach(card => {
+document.querySelectorAll('.level-card[data-level]').forEach(card => {
   const level = card.dataset.level;
   const cfg = LEVELS[level];
   if (!cfg.available) {

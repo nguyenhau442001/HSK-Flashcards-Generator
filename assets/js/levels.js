@@ -585,13 +585,12 @@ function goBackToPicker() {
   abandonReviewSession();
   document.body.classList.remove('study-mode');
   const wasTopic = currentLevel && LEVELS[currentLevel] && LEVELS[currentLevel].isTopic;
-  document.getElementById('screenPicker').style.display = wasTopic ? 'none' : '';
-  document.getElementById('screenTopicPicker').style.display = wasTopic ? '' : 'none';
   document.getElementById('screenCards').style.display = 'none';
   document.getElementById('appTitle').textContent = 'HSK Flashcards';
   document.getElementById('primaryTabs').style.display = '';
   document.getElementById('learningDashboard').style.display = wasTopic ? 'none' : '';
-  if (wasTopic) setPrimaryTab('topics'); else setPrimaryTab('vocab');
+  setPrimaryTab('vocab');
+  setVocabSubTab(wasTopic ? 'topic' : 'level');
   currentLevel = null;
   currentView = 'cards';
   overviewQuery = '';

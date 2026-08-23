@@ -24,26 +24,45 @@ async function ensureRadicalDataLoaded() {
   renderRadicalHub();
 }
 
+const PRIMARY_TAB_SCREENS = {
+  vocab: { tabId: 'primaryTabVocab', screenId: 'screenVocabHub' },
+  radicals: { tabId: 'primaryTabRadicals', screenId: 'screenRadicalHub' },
+  review: { tabId: 'primaryTabReview', screenId: 'screenReviewPicker' },
+  sentenceGame: { tabId: 'primaryTabSentenceGame', screenId: 'screenSentenceGame' },
+  guessWord: { tabId: 'primaryTabGuessWord', screenId: 'screenGuessWord' },
+  speedQuiz: { tabId: 'primaryTabSpeedQuiz', screenId: 'screenSpeedQuiz' },
+};
+
+let vocabSubTab = 'level';
+
+function setVocabSubTab(tab) {
+  vocabSubTab = tab;
+  document.getElementById('vocabSubTabLevel').classList.toggle('active', tab === 'level');
+  document.getElementById('vocabSubTabTopic').classList.toggle('active', tab === 'topic');
+  document.getElementById('vocabSubTabLevel').setAttribute('aria-selected', String(tab === 'level'));
+  document.getElementById('vocabSubTabTopic').setAttribute('aria-selected', String(tab === 'topic'));
+  document.getElementById('screenPicker').style.display = tab === 'level' ? '' : 'none';
+  document.getElementById('screenTopicPicker').style.display = tab === 'topic' ? '' : 'none';
+  if (tab === 'topic') renderTopicGrid();
+}
+
 function setPrimaryTab(tab) {
   const previousTab = primaryTab;
   primaryTab = tab;
-  document.getElementById('primaryTabVocab').classList.toggle('active', tab === 'vocab');
-  document.getElementById('primaryTabRadicals').classList.toggle('active', tab === 'radicals');
-  document.getElementById('primaryTabReview').classList.toggle('active', tab === 'review');
-  document.getElementById('primaryTabTopics').classList.toggle('active', tab === 'topics');
-  document.getElementById('primaryTabVocab').setAttribute('aria-selected', String(tab === 'vocab'));
-  document.getElementById('primaryTabRadicals').setAttribute('aria-selected', String(tab === 'radicals'));
-  document.getElementById('primaryTabReview').setAttribute('aria-selected', String(tab === 'review'));
-  document.getElementById('primaryTabTopics').setAttribute('aria-selected', String(tab === 'topics'));
-  document.getElementById('screenPicker').style.display = tab === 'vocab' ? '' : 'none';
-  document.getElementById('screenRadicalHub').style.display = tab === 'radicals' ? '' : 'none';
-  document.getElementById('screenReviewPicker').style.display = tab === 'review' ? '' : 'none';
-  document.getElementById('screenTopicPicker').style.display = tab === 'topics' ? '' : 'none';
+  Object.entries(PRIMARY_TAB_SCREENS).forEach(([key, { tabId, screenId }]) => {
+    const isActive = key === tab;
+    document.getElementById(tabId).classList.toggle('active', isActive);
+    document.getElementById(tabId).setAttribute('aria-selected', String(isActive));
+    document.getElementById(screenId).style.display = isActive ? '' : 'none';
+  });
   if (tab === 'radicals') ensureRadicalDataLoaded();
   if (tab === 'review') {
     updateReviewRangeLabel(document.getElementById('reviewRangeSlider').value);
   }
-  if (tab === 'topics') renderTopicGrid();
+  if (tab === 'vocab' && vocabSubTab === 'topic') renderTopicGrid();
+  if (tab === 'sentenceGame') startSentenceGame();
+  if (tab === 'guessWord') startGuessWordGame();
+  if (tab === 'speedQuiz') startSpeedQuizGame();
   if (previousTab === 'review' && tab !== 'review') {
     abandonReviewSession();
   }

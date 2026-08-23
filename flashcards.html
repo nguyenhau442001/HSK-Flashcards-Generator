@@ -12,8 +12,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="HSK Flashcards">
-<link rel="stylesheet" href="assets/flashcards.css?v=20260820">
-<link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20260820">
+<link rel="stylesheet" href="assets/flashcards.css?v=20260825">
+<link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20260825">
 <script>(function(){var t=localStorage.getItem('hsk_theme');if(t)document.documentElement.dataset.theme=t;})();</script>
 <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js');});}</script>
 </head>
@@ -72,64 +72,82 @@
 
   <div class="primary-tabs" id="primaryTabs" role="tablist" aria-label="Chế độ học">
     <button id="primaryTabVocab" class="primary-tab active" role="tab" aria-selected="true"
-      aria-controls="screenPicker" onclick="setPrimaryTab('vocab')">📚 Từ vựng</button>
+      aria-controls="screenVocabHub" onclick="setPrimaryTab('vocab')">📚 Từ vựng</button>
     <button id="primaryTabRadicals" class="primary-tab" role="tab" aria-selected="false"
       aria-controls="screenRadicalHub" onclick="setPrimaryTab('radicals')">部 Bộ thủ</button>
     <button id="primaryTabReview" class="primary-tab" role="tab" aria-selected="false"
       aria-controls="screenReviewPicker" onclick="setPrimaryTab('review')">⚡ Ôn nhanh</button>
-    <button id="primaryTabTopics" class="primary-tab" role="tab" aria-selected="false"
-      aria-controls="screenTopicPicker" onclick="setPrimaryTab('topics')">🏷️ Chủ đề</button>
+    <button id="primaryTabSentenceGame" class="primary-tab" role="tab" aria-selected="false"
+      aria-controls="screenSentenceGame" onclick="setPrimaryTab('sentenceGame')">🧩 Xếp câu</button>
+    <button id="primaryTabGuessWord" class="primary-tab" role="tab" aria-selected="false"
+      aria-controls="screenGuessWord" onclick="setPrimaryTab('guessWord')">🖼️ Đuổi hình bắt chữ</button>
+    <button id="primaryTabSpeedQuiz" class="primary-tab" role="tab" aria-selected="false"
+      aria-controls="screenSpeedQuiz" onclick="setPrimaryTab('speedQuiz')">📝 Điền từ</button>
   </div>
 
-  <!-- SCREEN 1: Level picker -->
-  <div id="screenPicker">
-    <div id="welcomeToast" class="welcome-toast" role="status" aria-live="polite" hidden>
-      <span id="welcomeToastMessage"></span>
+  <!-- SCREEN 1: Vocab hub (level picker + topic picker sub-tabs) -->
+  <div id="screenVocabHub">
+    <div class="view-tabs" role="tablist" aria-label="Loại từ vựng">
+      <button id="vocabSubTabLevel" class="view-tab active" role="tab" aria-selected="true"
+        aria-controls="screenPicker" onclick="setVocabSubTab('level')">Theo cấp độ</button>
+      <button id="vocabSubTabTopic" class="view-tab" role="tab" aria-selected="false"
+        aria-controls="screenTopicPicker" onclick="setVocabSubTab('topic')">Theo chủ đề</button>
     </div>
 
-    <div class="level-grid">
-      <div class="level-card" data-level="hsk1">
-        <div class="lvl-num">HSK1</div>
-        <div class="lvl-label">Sơ cấp</div>
-        <div class="lvl-count">150 từ</div>
-        <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk1"></div></div>
-        <div class="lvl-mastery-text" id="text-hsk1"></div>
+    <div id="screenPicker">
+      <div id="welcomeToast" class="welcome-toast" role="status" aria-live="polite" hidden>
+        <span id="welcomeToastMessage"></span>
       </div>
-      <div class="level-card" data-level="hsk2">
-        <div class="lvl-num">HSK2</div>
-        <div class="lvl-label">Sơ cấp</div>
-        <div class="lvl-count">150 từ</div>
-        <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk2"></div></div>
-        <div class="lvl-mastery-text" id="text-hsk2"></div>
+
+      <div class="level-grid">
+        <div class="level-card" data-level="hsk1">
+          <div class="lvl-num">HSK1</div>
+          <div class="lvl-label">Sơ cấp</div>
+          <div class="lvl-count">150 từ</div>
+          <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk1"></div></div>
+          <div class="lvl-mastery-text" id="text-hsk1"></div>
+        </div>
+        <div class="level-card" data-level="hsk2">
+          <div class="lvl-num">HSK2</div>
+          <div class="lvl-label">Sơ cấp</div>
+          <div class="lvl-count">150 từ</div>
+          <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk2"></div></div>
+          <div class="lvl-mastery-text" id="text-hsk2"></div>
+        </div>
+        <div class="level-card" data-level="hsk3">
+          <div class="lvl-num">HSK3</div>
+          <div class="lvl-label">Trung cấp</div>
+          <div class="lvl-count">300 từ</div>
+          <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk3"></div></div>
+          <div class="lvl-mastery-text" id="text-hsk3"></div>
+        </div>
+        <div class="level-card" data-level="hsk4">
+          <div class="lvl-num">HSK4</div>
+          <div class="lvl-label">Trung cấp</div>
+          <div class="lvl-count">600 từ</div>
+          <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk4"></div></div>
+          <div class="lvl-mastery-text" id="text-hsk4"></div>
+        </div>
+        <div class="level-card" data-level="hsk5">
+          <div class="lvl-num">HSK5</div>
+          <div class="lvl-label">Cao cấp</div>
+          <div class="lvl-count">1300 từ</div>
+          <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk5"></div></div>
+          <div class="lvl-mastery-text" id="text-hsk5"></div>
+        </div>
+        <div class="level-card" data-level="hsk6">
+          <div class="lvl-num">HSK6</div>
+          <div class="lvl-label">Cao cấp</div>
+          <div class="lvl-count">2500 từ</div>
+          <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk6"></div></div>
+          <div class="lvl-mastery-text" id="text-hsk6"></div>
+        </div>
       </div>
-      <div class="level-card" data-level="hsk3">
-        <div class="lvl-num">HSK3</div>
-        <div class="lvl-label">Trung cấp</div>
-        <div class="lvl-count">300 từ</div>
-        <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk3"></div></div>
-        <div class="lvl-mastery-text" id="text-hsk3"></div>
-      </div>
-      <div class="level-card" data-level="hsk4">
-        <div class="lvl-num">HSK4</div>
-        <div class="lvl-label">Trung cấp</div>
-        <div class="lvl-count">600 từ</div>
-        <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk4"></div></div>
-        <div class="lvl-mastery-text" id="text-hsk4"></div>
-      </div>
-      <div class="level-card" data-level="hsk5">
-        <div class="lvl-num">HSK5</div>
-        <div class="lvl-label">Cao cấp</div>
-        <div class="lvl-count">1300 từ</div>
-        <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk5"></div></div>
-        <div class="lvl-mastery-text" id="text-hsk5"></div>
-      </div>
-      <div class="level-card" data-level="hsk6">
-        <div class="lvl-num">HSK6</div>
-        <div class="lvl-label">Cao cấp</div>
-        <div class="lvl-count">2500 từ</div>
-        <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk6"></div></div>
-        <div class="lvl-mastery-text" id="text-hsk6"></div>
-      </div>
+    </div>
+
+    <!-- Topic picker sub-tab -->
+    <div id="screenTopicPicker" style="display:none">
+      <div class="topic-grid" id="topicGrid"></div>
     </div>
   </div>
 
@@ -322,9 +340,49 @@
     <div id="reviewPickerBody"></div>
   </div>
 
-  <!-- SCREEN 6: Topic picker -->
-  <div id="screenTopicPicker" style="display:none">
-    <div class="topic-grid" id="topicGrid"></div>
+  <!-- SCREEN 7: Sentence-ordering game -->
+  <div id="screenSentenceGame" style="display:none">
+    <div class="sentence-game">
+      <div class="sentence-game-meaning" id="sentenceGameMeaning"></div>
+      <div class="sentence-game-slots" id="sentenceGameSlots"></div>
+      <div class="sentence-game-bank" id="sentenceGameBank"></div>
+      <div class="sentence-game-feedback" id="sentenceGameFeedback" role="status" aria-live="polite"></div>
+      <div class="sentence-game-actions">
+        <button class="icon-btn" id="sentenceGameCheckBtn" onclick="checkSentenceGameAnswer()">Kiểm tra</button>
+        <button class="icon-btn" id="sentenceGameNextBtn" onclick="loadNextSentenceGameRound()" hidden>Câu tiếp →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCREEN 8: Guess-the-word (emoji) game -->
+  <div id="screenGuessWord" style="display:none">
+    <div class="guess-word-game">
+      <div class="guess-word-emoji" id="guessWordEmoji"></div>
+      <div class="guess-word-options" id="guessWordOptions"></div>
+      <div class="guess-word-feedback" id="guessWordFeedback" role="status" aria-live="polite"></div>
+      <div class="guess-word-actions">
+        <button class="icon-btn" id="guessWordNextBtn" onclick="loadNextGuessWordRound()" hidden>Câu tiếp →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCREEN 9: Speed quiz game -->
+  <div id="screenSpeedQuiz" style="display:none">
+    <div class="speed-quiz-game">
+      <div class="speed-quiz-scoreboard">
+        <span id="speedQuizScore">Điểm: 0</span>
+        <span id="speedQuizStreak" class="speed-quiz-streak"></span>
+        <span id="speedQuizBest">Kỷ lục: 0</span>
+      </div>
+      <div class="speed-quiz-timer-track"><div class="speed-quiz-timer-bar" id="speedQuizTimerBar"></div></div>
+      <div class="speed-quiz-word" id="speedQuizWord"></div>
+      <div class="speed-quiz-meaning" id="speedQuizMeaning"></div>
+      <div class="speed-quiz-options" id="speedQuizOptions"></div>
+      <div class="speed-quiz-feedback" id="speedQuizFeedback" role="status" aria-live="polite"></div>
+      <div class="speed-quiz-actions">
+        <button class="icon-btn" id="speedQuizNextBtn" onclick="loadNextSpeedQuizRound()" hidden>Câu tiếp →</button>
+      </div>
+    </div>
   </div>
 
   <footer class="app-footer">
@@ -345,22 +403,25 @@
   </footer>
 </div>
 
-<script src="assets/js/state.js?v=20260820"></script>
-<script src="assets/js/storage.js?v=20260820"></script>
-<script src="assets/js/levels.js?v=20260820"></script>
-<script src="assets/js/topics.js?v=20260820"></script>
-<script src="assets/js/vocabulary-overview.js?v=20260820"></script>
-<script src="assets/js/fast-review.js?v=20260820"></script>
-<script src="assets/js/flashcard.js?v=20260820"></script>
-<script src="assets/js/card-interactions.js?v=20260820"></script>
-<script src="assets/js/speech.js?v=20260820"></script>
-<script src="assets/js/progress.js?v=20260820"></script>
-<script src="assets/js/theme.js?v=20260820"></script>
-<script src="assets/js/backup.js?v=20260820"></script>
-<script src="assets/js/radicals-state.js?v=20260820"></script>
-<script src="assets/js/radicals.js?v=20260820"></script>
-<script src="assets/js/radical-card.js?v=20260820"></script>
-<script src="assets/flashcards.js?v=20260820"></script>
+<script src="assets/js/state.js?v=20260825"></script>
+<script src="assets/js/storage.js?v=20260825"></script>
+<script src="assets/js/levels.js?v=20260825"></script>
+<script src="assets/js/topics.js?v=20260825"></script>
+<script src="assets/js/sentence-game.js?v=20260825"></script>
+<script src="assets/js/guess-word-game.js?v=20260825"></script>
+<script src="assets/js/speed-quiz-game.js?v=20260825"></script>
+<script src="assets/js/vocabulary-overview.js?v=20260825"></script>
+<script src="assets/js/fast-review.js?v=20260825"></script>
+<script src="assets/js/flashcard.js?v=20260825"></script>
+<script src="assets/js/card-interactions.js?v=20260825"></script>
+<script src="assets/js/speech.js?v=20260825"></script>
+<script src="assets/js/progress.js?v=20260825"></script>
+<script src="assets/js/theme.js?v=20260825"></script>
+<script src="assets/js/backup.js?v=20260825"></script>
+<script src="assets/js/radicals-state.js?v=20260825"></script>
+<script src="assets/js/radicals.js?v=20260825"></script>
+<script src="assets/js/radical-card.js?v=20260825"></script>
+<script src="assets/flashcards.js?v=20260825"></script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "4568b250a19345538a47a2da396637af"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

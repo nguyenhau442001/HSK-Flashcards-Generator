@@ -1,0 +1,83 @@
+.sentence-game { max-width: 560px; margin: 24px auto 0; display: flex; flex-direction: column; gap: 16px; }
+
+.sentence-game-meaning { font-size: 15px; color: var(--text-secondary); text-align: center; }
+
+.sentence-game-slots, .sentence-game-bank { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; min-height: 44px; }
+
+.sentence-slot {
+  min-width: 44px; height: 40px; padding: 0 12px;
+  border: 1px solid var(--border); border-radius: 8px; background: var(--card-bg);
+  font-size: 18px; color: var(--text-primary);
+}
+.sentence-slot.empty { border-style: dashed; background: transparent; }
+.sentence-slot.filled { cursor: pointer; border-color: var(--accent); }
+.sentence-slot.filled:hover { background: var(--accent-light); }
+
+.sentence-chip {
+  height: 40px; padding: 0 14px; border: 1px solid var(--border); border-radius: 8px;
+  background: var(--card-bg); font-size: 18px; color: var(--text-primary); cursor: pointer;
+}
+.sentence-chip:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); transform: translateY(-1px); }
+
+.sentence-game-feedback { text-align: center; font-size: 14px; min-height: 20px; }
+.sentence-game-feedback.correct { color: var(--success-text); }
+.sentence-game-feedback.incorrect { color: var(--danger-text); }
+
+.sentence-game-actions { display: flex; justify-content: center; gap: 10px; }
+
+.guess-word-game { max-width: 480px; margin: 24px auto 0; display: flex; flex-direction: column; align-items: center; gap: 20px; }
+
+.guess-word-emoji { font-size: 72px; line-height: 1; }
+
+.guess-word-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; width: 100%; }
+
+.guess-word-option {
+  padding: 16px 10px; border: 1.5px solid var(--border); border-radius: var(--radius-lg);
+  background: var(--card-bg); font-size: 20px; color: var(--text-primary); cursor: pointer;
+}
+.guess-word-option:hover:not(:disabled) { box-shadow: 0 2px 8px rgba(0,0,0,0.08); transform: translateY(-1px); }
+.guess-word-option:disabled { cursor: not-allowed; }
+.guess-word-option.correct { border-color: var(--success-text); background: var(--success-bg); }
+.guess-word-option.incorrect { border-color: var(--danger-text); background: var(--danger-bg); }
+
+.guess-word-feedback { text-align: center; font-size: 14px; min-height: 20px; }
+.guess-word-feedback.correct { color: var(--success-text); }
+.guess-word-feedback.incorrect { color: var(--danger-text); }
+
+.guess-word-actions { display: flex; justify-content: center; }
+
+.speed-quiz-game { max-width: 480px; margin: 24px auto 0; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+
+.speed-quiz-scoreboard {
+  display: flex; justify-content: space-between; align-items: center; width: 100%;
+  font-size: 14px; color: var(--text-secondary); font-variant-numeric: tabular-nums;
+}
+.speed-quiz-streak { color: var(--danger-text, #e05a3d); font-weight: 700; }
+
+.speed-quiz-timer-track { width: 100%; height: 6px; border-radius: 3px; background: var(--border); overflow: hidden; }
+.speed-quiz-timer-bar {
+  height: 100%; width: 100%; background: var(--accent); border-radius: 3px;
+  transition: width 0.1s linear, background-color 0.2s;
+}
+.speed-quiz-timer-bar.low { background: var(--danger-text, #e05a3d); }
+
+.speed-quiz-word { font-size: 26px; font-weight: 700; line-height: 1.5; text-align: center; letter-spacing: 1px; }
+
+.speed-quiz-meaning { font-size: 14px; color: var(--text-secondary); text-align: center; }
+
+.speed-quiz-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; width: 100%; }
+
+.speed-quiz-option {
+  padding: 16px 10px; border: 1.5px solid var(--border); border-radius: var(--radius-lg);
+  background: var(--card-bg); font-size: 16px; color: var(--text-primary); cursor: pointer;
+}
+.speed-quiz-option:hover:not(:disabled) { box-shadow: 0 2px 8px rgba(0,0,0,0.08); transform: translateY(-1px); }
+.speed-quiz-option:disabled { cursor: not-allowed; }
+.speed-quiz-option.correct { border-color: var(--success-text); background: var(--success-bg); }
+.speed-quiz-option.incorrect { border-color: var(--danger-text); background: var(--danger-bg); }
+
+.speed-quiz-feedback { text-align: center; font-size: 14px; min-height: 20px; }
+.speed-quiz-feedback.correct { color: var(--success-text); }
+.speed-quiz-feedback.incorrect { color: var(--danger-text); }
+
+.speed-quiz-actions { display: flex; justify-content: center; }
