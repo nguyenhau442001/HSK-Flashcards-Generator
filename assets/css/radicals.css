@@ -8,11 +8,14 @@
   padding: 12px 6px; border-radius: var(--radius-lg); border: 1.5px solid var(--border);
   background: var(--card-bg); color: var(--text-secondary); font: inherit;
   font-size: 15px; font-weight: 700; cursor: pointer;
-  white-space: nowrap;
+  line-height: 1.2;
+  display: flex; align-items: center; justify-content: center; text-align: center;
+  overflow-wrap: break-word; word-break: break-word; hyphens: auto;
   transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease;
 }
 @container (max-width: 130px) { .primary-tab { font-size: 12px; } }
-@container (max-width: 105px) { .primary-tab { font-size: 10.5px; } }
+@container (max-width: 105px) { .primary-tab { font-size: 11px; padding: 10px 4px; } }
+@container (max-width: 88px) { .primary-tab { font-size: 9.5px; } }
 .primary-tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 .primary-tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
