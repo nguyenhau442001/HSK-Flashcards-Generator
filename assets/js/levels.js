@@ -598,6 +598,7 @@ function goBackToPicker() {
   const overlay = document.getElementById('celebrationOverlay');
   if (overlay) overlay.remove();
   renderLevelProgress();
+  if (pickerVersion === '3.0') renderHsk30Grid();
   renderLearningDashboard();
 }
 
