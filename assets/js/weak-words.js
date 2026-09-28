@@ -17,6 +17,7 @@ function isWeakWord(hanzi) {
 }
 
 function toggleWeakWord(hanzi, level) {
+  if (!hanzi) return false;
   const list = loadWeakWords();
   const existingIndex = list.findIndex(w => w.hanzi === hanzi);
   if (existingIndex >= 0) {
