@@ -63,7 +63,7 @@ body {
   color: var(--text-primary);
   padding: 20px 16px 60px;
 }
-.app { max-width: 560px; margin: 0 auto; }
+.app { width: 100%; max-width: none; margin: 0 auto; }
 .app-header { text-align: center; margin-bottom: 18px; position: relative; }
 .app-header h1 { font-size: 20px; font-weight: 600; margin: 0 0 4px; }
 .app-header p { font-size: 13px; color: var(--text-secondary); margin: 0; }
