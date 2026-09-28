@@ -117,7 +117,7 @@ function startReviewRangeLoad() {
 
   try {
     if (!reviewWorker) {
-      reviewWorker = new Worker('assets/js/fast-review-worker.js?v=20260817');
+      reviewWorker = new Worker('assets/js/fast-review-worker.js?v=20260928');
     }
   } catch (error) {
     loadWithoutWorker(error);
