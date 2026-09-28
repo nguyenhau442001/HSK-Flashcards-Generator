@@ -431,3 +431,10 @@ FodyWeavers.xsd
 
 # Superpowers SDD scratch workspace
 .superpowers/
+
+# Claude Code workspace & worktrees
+.claude/
+.playwright-mcp/
+
+# TTS audio review scratch files
+database/prebuilt_audio/**/review/
