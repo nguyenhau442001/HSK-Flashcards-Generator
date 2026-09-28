@@ -18,6 +18,8 @@ function calendarDayDifference(fromKey, toKey) {
 function hasSavedProgress() {
   return Object.keys(LEVELS).some(level => {
     try {
+      const srs = readSrsRecord(level);
+      if (srs && Object.keys(srs.cards).length > 0) return true;
       const raw = localStorage.getItem('hsk_' + level + '_progress_v2');
       return raw && Object.keys(JSON.parse(raw)).length > 0;
     } catch (e) {
@@ -33,6 +35,8 @@ const STUDY_ACTIVITY_KEY = 'hsk_study_activity_v1';
 const LAST_LEVEL_KEY = 'hsk_last_level_v1';
 
 function readSavedLevelProgress(level) {
+  const srs = readSrsRecord(level);
+  if (srs) return progressFromCards(srs.cards);
   try {
     const parsed = JSON.parse(localStorage.getItem('hsk_' + level + '_progress_v2'));
     return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
@@ -399,7 +403,7 @@ function startStudyHeartbeat() {
 }
 
 function learningProgressSummary() {
-  const levels = hskLevelKeys().map(level => {
+  const levels = Object.keys(LEVELS).filter(level => LEVELS[level].available).map(level => {
     const saved = readSavedLevelProgress(level);
     const statuses = Object.values(saved);
     return {

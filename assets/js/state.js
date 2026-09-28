@@ -64,6 +64,9 @@ let order = [];
 let filteredOrder = [];
 let idx = 0;
 let progress = {};
+let srsCards = {};
+let reviewLog = [];
+let srsRetention = 0.9;
 let showPinyin = true;
 let currentFilter = 'all';
 let transitionTimer = null;
@@ -90,6 +93,7 @@ let reviewAnswered = false;
 let reviewSessionLive = false;
 let reviewWordPool = [];
 let reviewProgressByLevel = {};
+let reviewCardsByLevel = {};
 let reviewLoadedRangeMax = 0;
 let reviewWorker = null;
 

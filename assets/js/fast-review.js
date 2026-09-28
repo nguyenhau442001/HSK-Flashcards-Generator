@@ -89,6 +89,13 @@ function startReviewRangeLoad() {
   const finishLoad = function (words) {
     startBtn.disabled = false;
     reviewWordPool = words;
+    reviewCardsByLevel = {};
+    for (const level of levels) {
+      const levelWords = words.filter(word => word._level === level);
+      const legacy = readSavedLevelProgressLegacy(level);
+      reviewCardsByLevel[level] = loadSrsForLevel(level, levelWords, legacy);
+      reviewProgressByLevel[level] = progressFromCards(reviewCardsByLevel[level]);
+    }
     reviewLoadedRangeMax = n;
     renderReviewStart();
   };
@@ -311,9 +318,9 @@ function gradeReviewAnswer(isCorrect) {
 
   const wordIdx = reviewCurrentQuestion.wordIdx;
   const word = reviewWordPool[wordIdx];
-  if (!reviewProgressByLevel[word._level]) reviewProgressByLevel[word._level] = {};
-  reviewProgressByLevel[word._level][word.id] = isCorrect ? 'known' : 'unknown';
-  saveLevelProgress(word._level, reviewProgressByLevel[word._level]);
+  if (!reviewCardsByLevel[word._level]) reviewCardsByLevel[word._level] = {};
+  reviewSrsCard(word._level, word.id, isCorrect ? 'good' : 'again', reviewCardsByLevel[word._level]);
+  reviewProgressByLevel[word._level] = progressFromCards(reviewCardsByLevel[word._level]);
   recordDailyStudy(word.id, word._level);
 
   if (isCorrect) {

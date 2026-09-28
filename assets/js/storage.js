@@ -1,25 +1,175 @@
 // Local persistence for the currently selected HSK level.
-function loadState() {
+const SRS_SCHEMA_VERSION = 3;
+const SRS_RETENTION_KEY = 'hsk_srs_prefs_v1';
+
+function srsCardsKey(level) { return 'hsk_' + level + '_srs_v3'; }
+function reviewLogKey(level) { return 'hsk_' + level + '_review_log_v1'; }
+
+function readSrsRecord(level) {
   try {
-    const p = localStorage.getItem(storageKey('progress'));
-    if (p) progress = JSON.parse(p);
+    const record = JSON.parse(localStorage.getItem(srsCardsKey(level)));
+    if (record && record.schemaVersion === SRS_SCHEMA_VERSION && record.cards && typeof record.cards === 'object') return record;
   } catch (e) {}
+  return null;
+}
+
+function readSrsReviewLog(level) {
+  try {
+    const log = JSON.parse(localStorage.getItem(reviewLogKey(level)));
+    return Array.isArray(log) ? log : [];
+  } catch (e) { return []; }
+}
+
+function saveSrsRecord(level, cards, migratedFromV2) {
+  try {
+    localStorage.setItem(srsCardsKey(level), JSON.stringify({
+      schemaVersion: SRS_SCHEMA_VERSION,
+      migratedFromV2: Boolean(migratedFromV2),
+      cards,
+    }));
+  } catch (e) {}
+}
+
+function appendReviewLog(level, entry) {
+  try {
+    const current = readSrsReviewLog(level);
+    current.push(entry);
+    localStorage.setItem(reviewLogKey(level), JSON.stringify(current));
+    if (level === currentLevel) reviewLog = current;
+  } catch (e) {}
+}
+
+function retentionFromPrefs() {
+  try {
+    const prefs = JSON.parse(localStorage.getItem(SRS_RETENTION_KEY));
+    if (prefs && Number.isFinite(Number(prefs.desiredRetention))) return SRS.normalizeRetention(prefs.desiredRetention);
+  } catch (e) {}
+  return SRS.DEFAULT_RETENTION;
+}
+
+function saveRetention(value) {
+  srsRetention = SRS.normalizeRetention(value);
+  try { localStorage.setItem(SRS_RETENTION_KEY, JSON.stringify({ desiredRetention: srsRetention })); } catch (e) {}
+  return srsRetention;
+}
+
+function statusFromCard(card) {
+  if (!card) return null;
+  if (card.state === SRS.State.Review) return 'known';
+  if (card.state === SRS.State.Learning || card.state === SRS.State.Relearning) return 'unknown';
+  return null;
+}
+
+function progressFromCards(cards) {
+  const statuses = {};
+  Object.keys(cards || {}).forEach(id => {
+    const status = statusFromCard(cards[id]);
+    if (status) statuses[id] = status;
+  });
+  return statuses;
+}
+
+function migrateLegacyProgress(level, words, legacyProgress, retention) {
+  const cards = {};
+  const now = new Date();
+  (words || []).forEach(word => {
+    let card = SRS.createNewCard(now);
+    const legacyStatus = legacyProgress && legacyProgress[word.id];
+    if (legacyStatus === 'known') {
+      card = SRS.review(card, 'good', now, retention).card;
+      card.state = SRS.State.Review;
+      const due = new Date(now.getTime());
+      due.setDate(due.getDate() + 1 + Math.floor(Math.random() * 7));
+      card.due = due.toISOString();
+    } else if (legacyStatus === 'unknown') {
+      card.due = now.toISOString();
+    }
+    cards[word.id] = card;
+  });
+  return cards;
+}
+
+function loadSrsForLevel(level, words, legacyProgress) {
+  srsRetention = retentionFromPrefs();
+  const existing = readSrsRecord(level);
+  let cards;
+  let migratedFromV2;
+  if (existing) {
+    cards = existing.cards;
+    migratedFromV2 = existing.migratedFromV2;
+    (words || []).forEach(word => {
+      if (!cards[word.id]) cards[word.id] = SRS.createNewCard();
+    });
+  } else {
+    cards = migrateLegacyProgress(level, words, legacyProgress || {}, srsRetention);
+    migratedFromV2 = true;
+  }
+  saveSrsRecord(level, cards, migratedFromV2);
+  return cards;
+}
+
+function loadState() {
+  let legacy = {};
+  try {
+    const p = localStorage.getItem('hsk_' + currentLevel + '_progress_v2');
+    if (p) legacy = JSON.parse(p);
+  } catch (e) {}
+  srsCards = loadSrsForLevel(currentLevel, WORDS, legacy);
+  progress = progressFromCards(srsCards);
+  reviewLog = readSrsReviewLog(currentLevel);
   try {
     const pref = localStorage.getItem(storageKey('prefs'));
     if (pref) {
       const parsed = JSON.parse(pref);
       if (typeof parsed.showPinyin === 'boolean') showPinyin = parsed.showPinyin;
       if (Array.isArray(parsed.order) && parsed.order.length === WORDS.length) order = parsed.order;
+      if (Number.isFinite(Number(parsed.desiredRetention))) srsRetention = SRS.normalizeRetention(parsed.desiredRetention);
     }
   } catch (e) {}
   filteredOrder = order.slice();
 }
 function saveProgress() {
-  try { localStorage.setItem(storageKey('progress'), JSON.stringify(progress)); } catch (e) {}
+  saveSrsRecord(currentLevel, srsCards, true);
 }
 function saveLevelProgress(level, progressObj) {
-  try { localStorage.setItem('hsk_' + level + '_progress_v2', JSON.stringify(progressObj)); } catch (e) {}
+  const existing = readSrsRecord(level);
+  if (existing) saveSrsRecord(level, existing.cards, existing.migratedFromV2);
+}
+
+function readSavedLevelProgressLegacy(level) {
+  try {
+    const parsed = JSON.parse(localStorage.getItem('hsk_' + level + '_progress_v2'));
+    return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
+  } catch (e) { return {}; }
 }
 function savePrefs() {
-  try { localStorage.setItem(storageKey('prefs'), JSON.stringify({ showPinyin, order })); } catch (e) {}
+  try { localStorage.setItem(storageKey('prefs'), JSON.stringify({ showPinyin, order, desiredRetention: srsRetention })); } catch (e) {}
+}
+
+function reviewSrsCard(level, wordId, rating, cardMap) {
+  const cards = cardMap || (level === currentLevel ? srsCards : readSrsRecord(level)?.cards || {});
+  let card = cards[wordId];
+  if (!card) card = SRS.createNewCard();
+  const now = new Date();
+  const result = SRS.review(card, rating, now, srsRetention);
+  cards[wordId] = result.card;
+  if (level === currentLevel) {
+    srsCards = cards;
+    progress = progressFromCards(srsCards);
+    reviewLog = readSrsReviewLog(level);
+  }
+  saveSrsRecord(level, cards, true);
+  appendReviewLog(level, {
+    wordId,
+    level,
+    rating,
+    timestamp: now.toISOString(),
+    stateBefore: result.stateBefore,
+    stateAfter: result.stateAfter,
+    elapsedDays: result.elapsedDays,
+    stabilityAfter: result.card.stability,
+    difficultyAfter: result.card.difficulty,
+    retrievabilityBefore: SRS.retrievability(card, now, srsRetention),
+  });
+  return result;
 }

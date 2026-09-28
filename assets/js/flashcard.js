@@ -5,8 +5,8 @@ function buildCardArea() {
       <div class="progress-bar-fill" id="progressBar"></div>
     </div>
     <div class="card" id="card">
-      <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Đã nhớ</div>
-      <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Chưa nhớ</div>
+      <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Được</div>
+      <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Quên</div>
       <div id="cardContent" class="card-content">
         <div class="hanzi" id="hanzi"></div>
         <div class="pinyin-row">
@@ -61,8 +61,10 @@ function buildCardArea() {
     </div>
 
     <div class="action-row">
-      <button class="btn-unknown" onclick="markUnknown()">Chưa nhớ</button>
-      <button class="btn-known" onclick="markKnown()">Đã nhớ</button>
+      <button class="btn-unknown" onclick="rateCurrentCard('again')">Quên <span class="review-preview" id="preview-again"></span></button>
+      <button class="btn-unknown" onclick="rateCurrentCard('hard')">Khó <span class="review-preview" id="preview-hard"></span></button>
+      <button class="btn-known" onclick="rateCurrentCard('good')">Được <span class="review-preview" id="preview-good"></span></button>
+      <button class="btn-known" onclick="rateCurrentCard('easy')">Dễ <span class="review-preview" id="preview-easy"></span></button>
       <button class="show-unknown-btn" id="unknownWordsToggle" onclick="toggleUnknownWords()"
         aria-controls="unknownWordsList" aria-expanded="false">
         Hiển thị từ chưa nhớ
@@ -111,6 +113,21 @@ function updateStats() {
   document.getElementById('s-unknown').textContent = unknown;
   document.getElementById('s-unseen').textContent = WORDS.length - known - unknown;
 }
+function formatSrsInterval(preview) {
+  const ms = preview && preview.intervalMs;
+  if (!Number.isFinite(ms)) return '';
+  if (ms < 86400000) return Math.max(1, Math.round(ms / 60000)) + 'p';
+  return Math.max(1, Math.round(ms / 86400000)) + 'n';
+}
+function updateSrsPreviews(word) {
+  const card = word && srsCards[word.id];
+  if (!card) return;
+  const previews = SRS.preview(card, new Date(), srsRetention);
+  Object.keys(previews).forEach(rating => {
+    const node = document.getElementById('preview-' + rating);
+    if (node) node.textContent = formatSrsInterval(previews[rating]);
+  });
+}
 function updateProgress(current, total) {
   document.getElementById('progress').textContent = total === 0 ? '0 / 0' : current + ' / ' + total;
   const bar = document.getElementById('progressBar');
@@ -145,6 +162,7 @@ function render(animate) {
     const wIdx = filteredOrder[idx % filteredOrder.length];
     const w = WORDS[wIdx];
     setActiveStudyWord(w);
+    updateSrsPreviews(w);
     document.getElementById('hanzi').textContent = w.hanzi;
     document.getElementById('pinyin').textContent = showPinyin ? w.pinyin : '';
     const m = document.getElementById('meaning');

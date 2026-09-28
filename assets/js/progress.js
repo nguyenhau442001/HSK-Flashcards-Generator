@@ -1,18 +1,23 @@
 // Study navigation, mastery actions, celebration, and progress controls.
 function nextCard() { if (filteredOrder.length===0) return; idx = (idx + 1) % filteredOrder.length; render('next'); }
 function prevCard() { if (filteredOrder.length===0) return; idx = (idx - 1 + filteredOrder.length) % filteredOrder.length; render('prev'); }
-function markKnown() {
+function rateCurrentCard(rating) {
   if (filteredOrder.length===0) return;
   const wIdx = filteredOrder[idx % filteredOrder.length];
-  progress[WORDS[wIdx].id] = 'known';
+  const word = WORDS[wIdx];
+  reviewSrsCard(currentLevel, word.id, rating, srsCards);
   saveProgress();
-  recordDailyStudy(WORDS[wIdx].id);
+  recordDailyStudy(word.id, currentLevel);
+  updateStats();
+  if (currentView === 'overview') renderOverview();
   checkCelebration();
   if (currentFilter !== 'all') advanceAfterMark(wIdx); else nextCard();
 }
+function markKnown() { rateCurrentCard('good'); }
+function markUnknown() { rateCurrentCard('again'); }
 function checkCelebration() {
   if (celebrationShown || WORDS.length === 0) return;
-  const known = Object.values(progress).filter(v => v === 'known').length;
+  const known = Object.values(srsCards).filter(card => card.state === SRS.State.Review).length;
   if (known === WORDS.length) {
     celebrationShown = true;
     showCelebration();
@@ -41,14 +46,6 @@ function showCelebration() {
     }
   }
   document.body.appendChild(overlay);
-}
-function markUnknown() {
-  if (filteredOrder.length===0) return;
-  const wIdx = filteredOrder[idx % filteredOrder.length];
-  progress[WORDS[wIdx].id] = 'unknown';
-  saveProgress();
-  recordDailyStudy(WORDS[wIdx].id);
-  if (currentFilter !== 'all') advanceAfterMark(wIdx); else nextCard();
 }
 function advanceAfterMark(prevWIdx) {
   const prevIdx = idx;
@@ -81,6 +78,8 @@ function shuffleDeck() {
 }
 function resetProgress() {
   if (!confirm('Học lại từ đầu? Toàn bộ tiến trình đã lưu cho cấp độ này sẽ bị xóa.')) return;
+  srsCards = {};
+  WORDS.forEach(word => { srsCards[word.id] = SRS.createNewCard(); });
   progress = {};
   saveProgress();
   setFilter(currentFilter);
@@ -117,3 +116,10 @@ function toggleUnknownWords() {
   button.textContent = 'Ẩn từ chưa nhớ';
   button.setAttribute('aria-expanded', 'true');
 }
+
+document.addEventListener('keydown', event => {
+  if (!currentLevel || currentView !== 'cards' || event.altKey || event.ctrlKey || event.metaKey) return;
+  if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement && document.activeElement.tagName)) return;
+  const rating = { '1': 'again', '2': 'hard', '3': 'good', '4': 'easy' }[event.key];
+  if (rating) { event.preventDefault(); rateCurrentCard(rating); }
+});
