@@ -5,7 +5,15 @@ function rateCurrentCard(rating) {
   if (filteredOrder.length===0) return;
   const wIdx = filteredOrder[idx % filteredOrder.length];
   const word = WORDS[wIdx];
+  const card = srsCards[word.id];
+  if (card && card.state === SRS.State.New && countNewReviewsToday() >= readDailyStudyGoal()) {
+    const message = document.getElementById('dailyNewLimitMessage');
+    if (message) message.textContent = 'Đã đạt giới hạn thẻ mới hôm nay. Bạn vẫn có thể ôn thẻ đến hạn ở mục “Ôn hôm nay”.';
+    return;
+  }
   reviewSrsCard(currentLevel, word.id, rating, srsCards);
+  const limitMessage = document.getElementById('dailyNewLimitMessage');
+  if (limitMessage) limitMessage.textContent = '';
   saveProgress();
   recordDailyStudy(word.id, currentLevel);
   updateStats();

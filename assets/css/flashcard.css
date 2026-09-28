@@ -138,6 +138,15 @@
 .action-row button { min-width: 0; font-size: 13.5px; padding: 11px 8px; border-radius: var(--radius-md); border: 1px solid var(--border); cursor: pointer; font-weight: 500; }
 .btn-unknown { background: var(--danger-bg); color: var(--danger-text); }
 .btn-known { background: var(--success-bg); color: var(--success-text); }
+.review-preview { display: inline-block; margin-left: 4px; opacity: 0.8; font-size: 0.9em; }
+.daily-new-limit-message { min-height: 1.2em; margin-top: 6px; color: var(--text-secondary); font-size: 13px; }
+.due-count-badge { display: inline-grid; min-width: 1.6em; height: 1.6em; place-items: center; margin-left: 5px; padding: 0 5px; border-radius: 99px; background: var(--danger-bg); color: var(--danger-text); font-size: 0.85em; }
+.today-review-heading { margin: 16px 0; }
+.today-review-heading h2 { margin-bottom: 4px; }
+.today-review-card { max-width: 640px; margin: 0 auto; padding: 20px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--card-bg); text-align: center; }
+.today-review-level { color: var(--text-secondary); font-size: 13px; }
+.today-review-actions { margin-top: 24px; }
+.today-review-empty { padding: 32px 16px; text-align: center; color: var(--text-secondary); }
 .show-unknown-btn {
   border: 1px solid var(--border);
   background: var(--card-bg); color: var(--text-secondary);

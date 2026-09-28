@@ -71,6 +71,7 @@ function buildCardArea() {
       </button>
       <button class="reset-progress-btn" onclick="resetProgress()">↻ Học lại từ đầu</button>
     </div>
+    <div id="dailyNewLimitMessage" class="daily-new-limit-message" role="status"></div>
     <div class="unknown-words-list" id="unknownWordsList"></div>
   `;
   const btn = document.getElementById('pinyinToggle');

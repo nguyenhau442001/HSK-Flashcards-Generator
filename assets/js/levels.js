@@ -442,6 +442,7 @@ function renderLearningDashboard() {
   const knownNode = document.getElementById('totalKnownCount');
   const studiedNode = document.getElementById('totalStudiedCount');
   const quickButton = document.getElementById('quickStudyButton');
+  const dueCount = document.getElementById('todayDueCount');
   if (!dailyCount || !dailyFill || !dailyMessage || !dailyGoalSelect || !streakNode || !knownNode || !studiedNode || !quickButton) return;
 
   const activity = readStudyActivity();
@@ -465,6 +466,7 @@ function renderLearningDashboard() {
   streakNode.textContent = `🔥 ${streak} ngày học`;
   knownNode.textContent = summary.totalKnown;
   studiedNode.textContent = summary.totalStudied;
+  if (dueCount) dueCount.textContent = String(countDueCardsAcrossLevels(new Date()));
 
   const target = summary.target;
   if (target) {

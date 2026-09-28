@@ -80,6 +80,9 @@
       <button class="quick-study-btn" id="quickStudyButton" type="button" onclick="quickStartLearning()">
         Bắt đầu HSK1 <span aria-hidden="true">→</span>
       </button>
+      <button class="quick-study-btn" id="todayReviewButton" type="button" onclick="openTodayReviews()">
+        📅 Ôn hôm nay <span class="due-count-badge" id="todayDueCount">0</span>
+      </button>
     </div>
 
     <div class="learning-totals" aria-label="Tổng quan tiến trình học">
@@ -259,6 +262,15 @@
       <div class="vocabulary-list" id="vocabularyList"></div>
     </div>
 
+  </div>
+
+  <div id="screenTodayReviews" style="display:none">
+    <button class="back-btn" type="button" onclick="closeTodayReviews()">← Quay lại</button>
+    <div class="today-review-heading">
+      <h2>📅 Ôn hôm nay</h2>
+      <p id="todayReviewProgress" role="status"></p>
+    </div>
+    <div id="todayReviewCardArea"></div>
   </div>
 
   <!-- SCREEN 3: Radical hub -->
@@ -451,6 +463,7 @@
 <script src="assets/js/card-interactions.js?v=20260828"></script>
 <script src="assets/js/speech.js?v=20260828"></script>
 <script src="assets/js/progress.js?v=20260828"></script>
+<script src="assets/js/due-review.js?v=20260928"></script>
 <script src="assets/js/theme.js?v=20260828"></script>
 <script src="assets/js/backup.js?v=20260828"></script>
 <script src="assets/js/radicals-state.js?v=20260828"></script>
