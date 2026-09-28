@@ -51,6 +51,10 @@ function importProgress(event) {
       if (Array.isArray(backupPrefs.order) && backupPrefs.order.length === WORDS.length) order = backupPrefs.order;
       if (typeof backupPrefs.showPinyin === 'boolean') showPinyin = backupPrefs.showPinyin;
       if (Number.isFinite(Number(backupPrefs.desiredRetention))) srsRetention = saveRetention(backupPrefs.desiredRetention);
+      const retentionSlider = document.getElementById('desiredRetentionSlider');
+      const retentionLabel = document.getElementById('desiredRetentionValue');
+      if (retentionSlider) retentionSlider.value = String(srsRetention);
+      if (retentionLabel) retentionLabel.textContent = Math.round(srsRetention * 100) + '%';
       saveProgress();
       savePrefs();
       renderLearningDashboard();

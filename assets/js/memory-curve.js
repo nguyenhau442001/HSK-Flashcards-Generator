@@ -104,8 +104,10 @@ function showCurvePointTooltip(event) {
   tooltip.textContent = point.dataset.tooltip;
   tooltip.hidden = false;
   const rect = tooltip.parentElement.getBoundingClientRect();
-  tooltip.style.left = Math.max(8, Math.min(rect.width - 230, event.clientX - rect.left)) + 'px';
-  tooltip.style.top = Math.max(8, event.clientY - rect.top - 42) + 'px';
+  const pointerX = Number.isFinite(event.clientX) ? event.clientX - rect.left : rect.width / 2;
+  const pointerY = Number.isFinite(event.clientY) ? event.clientY - rect.top : rect.height / 2;
+  tooltip.style.left = Math.max(8, Math.min(rect.width - 230, pointerX)) + 'px';
+  tooltip.style.top = Math.max(8, pointerY - 42) + 'px';
 }
 
 function closeMemoryCurve() {

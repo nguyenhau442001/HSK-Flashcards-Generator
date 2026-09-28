@@ -43,17 +43,18 @@ function appendImportedReviewLog(level, entries) {
   if (!Array.isArray(entries)) return;
   try {
     const current = readSrsReviewLog(level);
-    const seen = new Set(current.map(entry => [entry.level, entry.wordId, entry.timestamp, entry.rating, entry.stateBefore, entry.stateAfter].join('|')));
+    const seen = new Set(current.map(entry => [level, entry.wordId, entry.timestamp, entry.rating, entry.stateBefore, entry.stateAfter].join('|')));
     const additions = entries.filter(entry => {
       if (!entry || typeof entry !== 'object' || !entry.timestamp || !entry.rating) return false;
-      const key = [entry.level || level, entry.wordId, entry.timestamp, entry.rating, entry.stateBefore, entry.stateAfter].join('|');
+      const key = [level, entry.wordId, entry.timestamp, entry.rating, entry.stateBefore, entry.stateAfter].join('|');
       if (seen.has(key)) return false;
       seen.add(key);
       return true;
     });
     if (!additions.length) return;
-    localStorage.setItem(reviewLogKey(level), JSON.stringify(current.concat(additions)));
-    if (level === currentLevel) reviewLog = current.concat(additions);
+    const normalized = additions.map(entry => ({ ...entry, level }));
+    localStorage.setItem(reviewLogKey(level), JSON.stringify(current.concat(normalized)));
+    if (level === currentLevel) reviewLog = current.concat(normalized);
   } catch (e) {}
 }
 
