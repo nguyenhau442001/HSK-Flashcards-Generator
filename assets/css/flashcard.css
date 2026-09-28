@@ -147,6 +147,40 @@
 .today-review-level { color: var(--text-secondary); font-size: 13px; }
 .today-review-actions { margin-top: 24px; }
 .today-review-empty { padding: 32px 16px; text-align: center; color: var(--text-secondary); }
+.memory-curve-btn { display: block; margin: 12px auto 2px; padding: 7px 12px; border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--card-bg); color: var(--text-secondary); cursor: pointer; }
+.memory-curve-overlay { position: fixed; z-index: 3000; inset: 0; display: grid; place-items: center; padding: 16px; background: rgb(0 0 0 / 55%); }
+.memory-curve-dialog { position: relative; width: min(820px, 100%); max-height: min(90vh, 900px); overflow: auto; padding: 22px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--card-bg); color: var(--text-primary); box-shadow: 0 18px 70px rgb(0 0 0 / 28%); }
+.memory-curve-dialog h2 { margin: 0 42px 4px 0; font-size: 18px; }
+.memory-curve-subtitle { margin: 0 0 12px; color: var(--text-secondary); font-size: 13px; }
+.memory-curve-note { margin: 10px 0; padding: 9px 11px; border-radius: var(--radius-md); background: var(--bg); color: var(--text-secondary); font-size: 12px; }
+.memory-curve-close { position: absolute; top: 12px; right: 12px; width: 34px; height: 34px; border: 1px solid var(--border); border-radius: 50%; background: var(--card-bg); color: var(--text-secondary); cursor: pointer; }
+.memory-curve-chart-wrap { position: relative; width: 100%; }
+.memory-curve-svg { display: block; width: 100%; height: auto; overflow: visible; }
+.memory-curve-svg text { fill: var(--text-secondary); font: 11px sans-serif; }
+.curve-gridline line { stroke: var(--border); stroke-width: 1; }
+.curve-retention-line { stroke: var(--accent); stroke-width: 1.5; opacity: 0.85; }
+.curve-retention-label { fill: var(--accent) !important; }
+.curve-history-path { fill: none; stroke: var(--accent); stroke-width: 2.5; stroke-linejoin: round; }
+.curve-future-path { fill: none; stroke: var(--accent); stroke-width: 2.5; stroke-dasharray: 7 5; stroke-linejoin: round; }
+.curve-today-line { stroke: var(--text-tertiary); stroke-width: 1; stroke-dasharray: 3 4; }
+.curve-due-line { stroke: var(--danger-text); stroke-width: 1.2; stroke-dasharray: 2 3; }
+.curve-review-point { stroke: var(--card-bg); stroke-width: 1.5; cursor: pointer; }
+.curve-review-point:focus { outline: 2px solid var(--accent); outline-offset: 3px; }
+.memory-curve-tooltip { position: absolute; z-index: 2; max-width: 230px; padding: 7px 9px; border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--card-bg); color: var(--text-primary); box-shadow: 0 4px 20px rgb(0 0 0 / 14%); font-size: 11px; pointer-events: none; }
+.memory-curve-legend { display: flex; flex-wrap: wrap; gap: 9px 14px; margin: 7px 0 14px; color: var(--text-secondary); font-size: 11px; }
+.curve-line-swatch { display: inline-block; width: 17px; border-top: 2px solid var(--accent); vertical-align: middle; }
+.curve-line-swatch.future { border-top-style: dashed; }
+.curve-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--dot); vertical-align: middle; }
+.memory-curve-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 0; }
+.memory-curve-stats div { min-width: 0; padding: 9px; border-radius: var(--radius-md); background: var(--bg); }
+.memory-curve-stats dt { color: var(--text-tertiary); font-size: 10.5px; }
+.memory-curve-stats dd { margin: 3px 0 0; font-size: 13px; font-weight: 600; }
+@media (max-width: 520px) {
+  .memory-curve-overlay { padding: 7px; }
+  .memory-curve-dialog { max-height: 94vh; padding: 16px 12px; }
+  .memory-curve-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .memory-curve-dialog h2 { font-size: 16px; }
+}
 .show-unknown-btn {
   border: 1px solid var(--border);
   background: var(--card-bg); color: var(--text-secondary);

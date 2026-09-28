@@ -102,6 +102,8 @@ function renderOverview() {
 
   matches.forEach(({ word, wordIndex }) => {
     const status = wordLearningStatus(word);
+    const row = document.createElement('div');
+    row.className = 'vocabulary-row';
     const item = document.createElement('button');
     item.type = 'button';
     item.className = 'vocabulary-item';
@@ -137,7 +139,17 @@ function renderOverview() {
     wordLine.append(hanzi, pinyin);
     content.append(wordLine, meaning);
     item.append(number, content, badge);
-    fragment.appendChild(item);
+    const curveButton = document.createElement('button');
+    curveButton.type = 'button';
+    curveButton.className = 'vocabulary-curve-btn';
+    curveButton.textContent = '📈';
+    curveButton.setAttribute('aria-label', 'Xem đường cong ghi nhớ: ' + word.hanzi);
+    curveButton.onclick = event => {
+      event.stopPropagation();
+      openMemoryCurve(currentLevel, word.id);
+    };
+    row.append(item, curveButton);
+    fragment.appendChild(row);
   });
 
   list.appendChild(fragment);

@@ -49,6 +49,7 @@ function buildCardArea() {
           </div>
           <div class="ex-line ex-py" id="exPy"></div>
           <div class="ex-line ex-vi" id="exVi"></div>
+          <button type="button" class="memory-curve-btn card-interactive" onclick="event.stopPropagation(); openCurrentMemoryCurve()">📈 Đường cong</button>
         </div>
         <div class="hint" id="hint">Nhấn vào thẻ để xem nghĩa và ví dụ</div>
       </div>
