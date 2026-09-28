@@ -206,11 +206,16 @@
       <div class="transfer-panel" id="transferPanel" hidden>
         <div class="transfer-panel-title">Sao lưu và chuyển thiết bị</div>
         <div class="transfer-panel-content">
-          <div class="transfer-actions">
+        <div class="transfer-actions">
             <button onclick="exportProgress()">💾 Tải bản sao tiến trình</button>
             <button onclick="document.getElementById('importFile').click()">📂 Khôi phục từ bản sao</button>
-          </div>
-          <p class="transfer-note">Tiến trình đã được tự động lưu trên thiết bị này. Bạn chỉ cần sao lưu khi muốn chuyển sang thiết bị khác.</p>
+        </div>
+        <label class="retention-setting">
+          <span>Độ ghi nhớ mong muốn: <strong id="desiredRetentionValue">90%</strong></span>
+          <input id="desiredRetentionSlider" type="range" min="0.80" max="0.97" step="0.01" value="0.90"
+            aria-label="Độ ghi nhớ mong muốn" oninput="updateDesiredRetention(this.value)">
+        </label>
+        <p class="transfer-note">Tiến trình đã được tự động lưu trên thiết bị này. Bạn chỉ cần sao lưu khi muốn chuyển sang thiết bị khác.</p>
         </div>
       </div>
       <input type="file" id="importFile" accept="application/json" style="display:none" onchange="importProgress(event)">

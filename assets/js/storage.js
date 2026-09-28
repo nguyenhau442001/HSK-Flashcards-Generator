@@ -39,6 +39,24 @@ function appendReviewLog(level, entry) {
   } catch (e) {}
 }
 
+function appendImportedReviewLog(level, entries) {
+  if (!Array.isArray(entries)) return;
+  try {
+    const current = readSrsReviewLog(level);
+    const seen = new Set(current.map(entry => [entry.level, entry.wordId, entry.timestamp, entry.rating, entry.stateBefore, entry.stateAfter].join('|')));
+    const additions = entries.filter(entry => {
+      if (!entry || typeof entry !== 'object' || !entry.timestamp || !entry.rating) return false;
+      const key = [entry.level || level, entry.wordId, entry.timestamp, entry.rating, entry.stateBefore, entry.stateAfter].join('|');
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+    if (!additions.length) return;
+    localStorage.setItem(reviewLogKey(level), JSON.stringify(current.concat(additions)));
+    if (level === currentLevel) reviewLog = current.concat(additions);
+  } catch (e) {}
+}
+
 function retentionFromPrefs() {
   try {
     const prefs = JSON.parse(localStorage.getItem(SRS_RETENTION_KEY));
@@ -123,9 +141,12 @@ function loadState() {
       const parsed = JSON.parse(pref);
       if (typeof parsed.showPinyin === 'boolean') showPinyin = parsed.showPinyin;
       if (Array.isArray(parsed.order) && parsed.order.length === WORDS.length) order = parsed.order;
-      if (Number.isFinite(Number(parsed.desiredRetention))) srsRetention = SRS.normalizeRetention(parsed.desiredRetention);
     }
   } catch (e) {}
+  const retentionSlider = document.getElementById('desiredRetentionSlider');
+  const retentionLabel = document.getElementById('desiredRetentionValue');
+  if (retentionSlider) retentionSlider.value = String(srsRetention);
+  if (retentionLabel) retentionLabel.textContent = Math.round(srsRetention * 100) + '%';
   filteredOrder = order.slice();
 }
 function saveProgress() {

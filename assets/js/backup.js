@@ -1,6 +1,13 @@
 // Export and import progress snapshots between devices.
 function exportProgress() {
-  const data = JSON.stringify({ level: currentLevel, progress, order, showPinyin }, null, 2);
+  const data = JSON.stringify({
+    schemaVersion: 3,
+    level: currentLevel,
+    cards: srsCards,
+    reviewLog: readSrsReviewLog(currentLevel),
+    prefs: { showPinyin, order, desiredRetention: srsRetention },
+    progress,
+  }, null, 2);
   const blob = new Blob([data], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
@@ -23,9 +30,27 @@ function importProgress(event) {
         if (!confirm('Bản sao này thuộc cấp độ ' + data.level.toUpperCase() + ', không phải ' + currentLevel.toUpperCase() + '. Vẫn khôi phục?')) return;
       }
       if (!confirm('Khôi phục tiến trình từ một bản sao đã tải trước đó. Tiến trình hiện tại có thể bị thay thế.')) return;
-      if (data.progress) progress = data.progress;
-      if (Array.isArray(data.order) && data.order.length === WORDS.length) order = data.order;
-      if (typeof data.showPinyin === 'boolean') showPinyin = data.showPinyin;
+      const backupPrefs = data.prefs && typeof data.prefs === 'object' ? data.prefs : data;
+      if (data.schemaVersion >= 3 && data.cards && typeof data.cards === 'object') {
+        const restoredCards = {};
+        Object.entries(data.cards).forEach(([id, card]) => {
+          const normalized = SRS.serializeCard(card);
+          if (!normalized) throw new Error('invalid FSRS card');
+          restoredCards[id] = normalized;
+        });
+        WORDS.forEach(word => {
+          if (!restoredCards[word.id]) restoredCards[word.id] = SRS.createNewCard();
+        });
+        srsCards = restoredCards;
+      } else {
+        const legacyProgress = data.progress && typeof data.progress === 'object' ? data.progress : {};
+        srsCards = migrateLegacyProgress(currentLevel, WORDS, legacyProgress, srsRetention);
+      }
+      progress = progressFromCards(srsCards);
+      appendImportedReviewLog(currentLevel, data.reviewLog);
+      if (Array.isArray(backupPrefs.order) && backupPrefs.order.length === WORDS.length) order = backupPrefs.order;
+      if (typeof backupPrefs.showPinyin === 'boolean') showPinyin = backupPrefs.showPinyin;
+      if (Number.isFinite(Number(backupPrefs.desiredRetention))) srsRetention = saveRetention(backupPrefs.desiredRetention);
       saveProgress();
       savePrefs();
       renderLearningDashboard();
@@ -33,6 +58,7 @@ function importProgress(event) {
       btn.textContent = showPinyin ? '👁 Đang hiện pinyin' : '🙈 Chế độ thử thách: ẩn pinyin';
       btn.classList.toggle('on', !showPinyin);
       setFilter(currentFilter);
+      if (filteredOrder.length) updateSrsPreviews(WORDS[filteredOrder[idx % filteredOrder.length]]);
       alert('Đã khôi phục tiến trình thành công!');
     } catch (err) {
       alert('Bản sao tiến trình không hợp lệ.');
@@ -40,6 +66,17 @@ function importProgress(event) {
   };
   reader.readAsText(file);
   event.target.value = '';
+}
+
+function updateDesiredRetention(value) {
+  srsRetention = saveRetention(value);
+  savePrefs();
+  const display = document.getElementById('desiredRetentionValue');
+  if (display) display.textContent = Math.round(srsRetention * 100) + '%';
+  if (currentLevel && filteredOrder.length) {
+    updateSrsPreviews(WORDS[filteredOrder[idx % filteredOrder.length]]);
+  }
+  renderLearningDashboard();
 }
 
 function exportRadicalProgress() {
