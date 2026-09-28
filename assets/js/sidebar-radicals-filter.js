@@ -25,7 +25,9 @@ function renderSidebarRadicalExamples(radical, container) {
 }
 
 function initSidebarRadicalsFilter() {
-  const mount = document.getElementById('workstationLeft');
+  const mount = document.body.classList.contains('is-desktop-dock')
+    ? document.getElementById('workstationLeft')
+    : document.getElementById('mobileDockDialogBody');
   if (!mount) return;
   const wrap = document.createElement('div');
   wrap.className = 'sidebar-radicals-filter';

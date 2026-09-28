@@ -52,14 +52,26 @@ function updateGrammarBreakdown(word) {
 }
 
 function initGrammarBreakdown() {
-  const mount = document.getElementById('workstationRight');
+  const isDesktop = document.body.classList.contains('is-desktop-dock');
+  const mount = isDesktop
+    ? document.getElementById('workstationRight')
+    : document.getElementById('screenCards');
   if (!mount) return;
-  const wrap = document.createElement('div');
+  const wrap = document.createElement(isDesktop ? 'div' : 'details');
   wrap.className = 'grammar-breakdown-panel';
-  wrap.innerHTML = `
-    <div class="sidebar-panel-title">Phân tích ngữ pháp</div>
-    <div id="grammarBreakdownBody"></div>
-  `;
+  if (!isDesktop) {
+    const summary = document.createElement('summary');
+    summary.textContent = 'Phân tích ngữ pháp';
+    wrap.appendChild(summary);
+  } else {
+    const title = document.createElement('div');
+    title.className = 'sidebar-panel-title';
+    title.textContent = 'Phân tích ngữ pháp';
+    wrap.appendChild(title);
+  }
+  const body = document.createElement('div');
+  body.id = 'grammarBreakdownBody';
+  wrap.appendChild(body);
   mount.appendChild(wrap);
 
   // Register listener first so any early activeStudyWord changes are captured

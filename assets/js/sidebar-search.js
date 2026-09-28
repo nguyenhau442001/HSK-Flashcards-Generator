@@ -79,7 +79,9 @@ function onSidebarSearchInput(value, resultsEl) {
 }
 
 function initSidebarSearch() {
-  const mount = document.getElementById('workstationLeft');
+  const mount = document.body.classList.contains('is-desktop-dock')
+    ? document.getElementById('workstationLeft')
+    : document.getElementById('mobileDockDialogBody');
   if (!mount) return;
   const wrap = document.createElement('div');
   wrap.className = 'sidebar-search';
@@ -104,4 +106,14 @@ function initSidebarSearch() {
   });
 }
 
+function initMobileDockDialog() {
+  const trigger = document.getElementById('mobileDockTrigger');
+  const dialog = document.getElementById('mobileDockDialog');
+  const closeBtn = document.getElementById('mobileDockClose');
+  if (!trigger || !dialog || !closeBtn) return;
+  trigger.addEventListener('click', () => dialog.showModal());
+  closeBtn.addEventListener('click', () => dialog.close());
+}
+
 document.addEventListener('DOMContentLoaded', initSidebarSearch);
+document.addEventListener('DOMContentLoaded', initMobileDockDialog);

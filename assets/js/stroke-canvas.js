@@ -44,12 +44,25 @@ function quizStrokeCanvas() {
 }
 
 function initStrokeCanvas() {
-  const mount = document.getElementById('workstationRight');
+  const isDesktop = document.body.classList.contains('is-desktop-dock');
+  const mount = isDesktop
+    ? document.getElementById('workstationRight')
+    : document.getElementById('screenCards');
   if (!mount) return;
-  const wrap = document.createElement('div');
+  const wrap = document.createElement(isDesktop ? 'div' : 'details');
   wrap.className = 'stroke-canvas-panel';
-  wrap.innerHTML = `
-    <div class="sidebar-panel-title">Thứ tự nét</div>
+  if (!isDesktop) {
+    const summary = document.createElement('summary');
+    summary.textContent = 'Thứ tự nét';
+    wrap.appendChild(summary);
+  } else {
+    const title = document.createElement('div');
+    title.className = 'sidebar-panel-title';
+    title.textContent = 'Thứ tự nét';
+    wrap.appendChild(title);
+  }
+  const body = document.createElement('div');
+  body.innerHTML = `
     <div class="stroke-canvas-grid" id="strokeCanvasTarget"></div>
     <div class="stroke-canvas-fallback" id="strokeCanvasFallback" hidden></div>
     <div class="stroke-canvas-controls">
@@ -57,6 +70,7 @@ function initStrokeCanvas() {
       <button type="button" class="icon-btn" id="strokeQuizBtn">✍️ Luyện viết</button>
     </div>
   `;
+  wrap.appendChild(body);
   mount.appendChild(wrap);
 
   wrap.querySelector('#strokeAnimateBtn').addEventListener('click', animateStrokeCanvas);

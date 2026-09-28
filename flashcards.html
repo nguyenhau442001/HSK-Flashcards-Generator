@@ -32,6 +32,11 @@
 <div class="app">
   <div class="workstation">
     <aside class="workstation-left" id="workstationLeft" aria-label="Tra cứu nhanh"></aside>
+    <button type="button" id="mobileDockTrigger" class="mobile-dock-trigger">🔍 Tra cứu nhanh</button>
+    <dialog id="mobileDockDialog" class="mobile-dock-dialog">
+      <button type="button" id="mobileDockClose" class="mobile-dock-close" aria-label="Đóng">✕</button>
+      <div id="mobileDockDialogBody"></div>
+    </dialog>
     <div class="workstation-middle" id="workstationMiddle">
   <div class="app-header">
     <button id="themeToggle" class="theme-toggle-btn" onclick="toggleTheme()">🌙</button>
