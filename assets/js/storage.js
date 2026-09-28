@@ -104,6 +104,7 @@ function migrateLegacyProgress(level, words, legacyProgress, retention) {
       card = SRS.review(card, 'again', now, retention).card;
       card.due = now.toISOString();
     }
+    card.historyStartAt = now.toISOString();
     cards[word.id] = card;
   });
   return cards;

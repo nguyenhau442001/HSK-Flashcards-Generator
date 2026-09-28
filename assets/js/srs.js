@@ -72,8 +72,9 @@ const SRS = (function () {
     if (rating === undefined) throw new Error('Mức đánh giá FSRS không hợp lệ.');
     const reviewedAt = parseDate(now) || new Date();
     const result = scheduler(retention).next(card, reviewedAt, rating);
+    const nextCard = serializeCard({ ...result.card, historyStartAt: card.historyStartAt });
     return {
-      card: serializeCard(result.card),
+      card: nextCard,
       log: {
         ...result.log,
         rating: ratingName,

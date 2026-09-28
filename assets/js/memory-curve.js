@@ -124,7 +124,8 @@ function openMemoryCurve(level, wordId) {
   const word = (level === currentLevel ? WORDS : []).find(item => String(item.id) === String(wordId));
   const cardMap = level === currentLevel ? srsCards : readSrsRecord(level)?.cards || {};
   const card = cardMap[wordId] || SRS.createNewCard();
-  const logs = readSrsReviewLog(level).filter(entry => String(entry.wordId) === String(wordId));
+  const logs = readSrsReviewLog(level).filter(entry => String(entry.wordId) === String(wordId)
+    && (!card.historyStartAt || new Date(entry.timestamp) >= new Date(card.historyStartAt)));
   const targetWord = word || { hanzi: String(wordId), pinyin: '', meaning: '' };
   const retrievability = SRS.retrievability(card, new Date(), srsRetention);
   const due = new Date(card.due);
