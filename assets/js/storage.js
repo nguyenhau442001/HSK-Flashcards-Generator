@@ -100,6 +100,7 @@ function migrateLegacyProgress(level, words, legacyProgress, retention) {
       due.setDate(due.getDate() + 1 + Math.floor(Math.random() * 7));
       card.due = due.toISOString();
     } else if (legacyStatus === 'unknown') {
+      card = SRS.review(card, 'again', now, retention).card;
       card.due = now.toISOString();
     }
     cards[word.id] = card;
