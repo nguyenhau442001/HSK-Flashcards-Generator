@@ -21,3 +21,25 @@
   border-radius: var(--radius-md);
 }
 .stroke-canvas-controls { display: flex; gap: 8px; }
+.grammar-breakdown-panel { display: flex; flex-direction: column; gap: 8px; }
+.grammar-sentence {
+  font-size: 18px;
+  line-height: 1.8;
+  padding: 12px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+.grammar-role { padding: 0 2px; border-radius: 4px; }
+.grammar-role-S { color: var(--info-text); background: var(--info-bg); }
+.grammar-role-V { color: var(--success-text); background: var(--success-bg); }
+.grammar-role-O { color: var(--accent); background: var(--accent-light); }
+.grammar-role-M { color: var(--text-secondary); background: var(--border); }
+.grammar-note-card {
+  padding: 10px 12px;
+  background: var(--example-bg);
+  border: 1px solid var(--example-border);
+  border-radius: var(--radius-md);
+}
+.grammar-note-pattern { font-weight: 600; color: var(--text-primary); margin-bottom: 4px; }
+.grammar-note-text { color: var(--text-secondary); font-size: 13px; }
