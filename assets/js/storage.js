@@ -192,6 +192,7 @@ function reviewSrsCard(level, wordId, rating, cardMap) {
     stabilityAfter: result.card.stability,
     difficultyAfter: result.card.difficulty,
     retrievabilityBefore: SRS.retrievability(card, now, srsRetention),
+    fsrsLog: result.log,
   });
   return result;
 }

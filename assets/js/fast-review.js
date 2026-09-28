@@ -35,10 +35,12 @@ function updateReviewRangeLabel(sliderValue) {
 
 function buildReviewPool() {
   const pool = [];
+  const canIntroduceNewCards = countNewReviewsToday() < readDailyStudyGoal();
   for (let i = 0; i < reviewWordPool.length; i++) {
     const word = reviewWordPool[i];
     const levelProgress = reviewProgressByLevel[word._level] || {};
-    if (levelProgress[word.id] !== 'known') pool.push(i);
+    const card = reviewCardsByLevel[word._level] && reviewCardsByLevel[word._level][word.id];
+    if (levelProgress[word.id] !== 'known' && (canIntroduceNewCards || !card || card.state !== SRS.State.New)) pool.push(i);
   }
   for (let i = pool.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -161,8 +163,8 @@ function renderReviewStart() {
     start.innerHTML = `
       <div class="review-empty">
         <div class="review-empty-icon">🎉</div>
-        <div class="review-empty-title">Bạn đã thuộc hết từ trong phạm vi này!</div>
-        <div class="review-empty-msg">Không còn từ nào để ôn nhanh. Hãy học thêm từ mới hoặc chọn phạm vi rộng hơn.</div>
+        <div class="review-empty-title">${countNewReviewsToday() >= readDailyStudyGoal() ? 'Bạn đã hoàn thành mục tiêu thẻ mới hôm nay!' : 'Bạn đã thuộc hết từ trong phạm vi này!'}</div>
+        <div class="review-empty-msg">${countNewReviewsToday() >= readDailyStudyGoal() ? 'Thẻ mới sẽ mở lại ngày mai. Bạn vẫn có thể ôn thẻ đến hạn trong mục Ôn hôm nay.' : 'Không còn từ nào để ôn nhanh. Hãy học thêm từ mới hoặc chọn phạm vi rộng hơn.'}</div>
       </div>`;
     return;
   }
@@ -226,6 +228,12 @@ function renderReviewQuestion() {
   if (reviewAnswered && !reviewSessionLive) return;
   reviewSessionLive = true;
   if (reviewTimer) { clearInterval(reviewTimer); reviewTimer = null; }
+  while (reviewIndex < reviewPool.length && countNewReviewsToday() >= readDailyStudyGoal()) {
+    const candidate = reviewWordPool[reviewPool[reviewIndex]];
+    const candidateCard = candidate && reviewCardsByLevel[candidate._level] && reviewCardsByLevel[candidate._level][candidate.id];
+    if (!candidateCard || candidateCard.state !== SRS.State.New) break;
+    reviewIndex++;
+  }
   if (reviewLives <= 0 || reviewIndex >= reviewPool.length) { endReviewSession(); return; }
 
   const wordIdx = reviewPool[reviewIndex];
