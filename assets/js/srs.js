@@ -130,6 +130,7 @@ const SRS = (function () {
 
   return Object.freeze({
     DEFAULT_RETENTION,
+    State: library.State,
     RATINGS: Object.freeze({ ...RATINGS }),
     RATING_NAMES: Object.freeze({ ...RATING_NAMES }),
     normalizeRetention,
