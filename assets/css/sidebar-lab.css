@@ -1,7 +1,7 @@
 .stroke-canvas-panel { display: flex; flex-direction: column; gap: 8px; }
 .stroke-canvas-grid {
-  width: 200px;
-  height: 200px;
+  width: min(100%, 220px);
+  aspect-ratio: 1;
   background-color: var(--card-bg);
   background-image:
     linear-gradient(to right, var(--border) 1px, transparent 1px),

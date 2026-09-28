@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hsk-flashcards-v20260928-layout1';
+const CACHE_NAME = 'hsk-flashcards-v20260928-layout2';
 const FSRS_CDN_URL = 'https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js';
 const APP_SHELL_URL = new URL('./flashcards.html', self.registration.scope).href;
 
