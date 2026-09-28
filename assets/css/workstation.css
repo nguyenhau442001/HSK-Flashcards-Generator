@@ -74,3 +74,29 @@
 .ssr-pinyin { color: var(--text-secondary); font-size: 13px; }
 .ssr-level { margin-left: auto; font-size: 11px; color: var(--text-tertiary); }
 .sidebar-search-empty { padding: 12px; color: var(--text-secondary); font-size: 13px; }
+.sidebar-panel-title {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 13px;
+  margin-top: 8px;
+}
+.sidebar-stroke-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.sidebar-stroke-chip {
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text-secondary);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.sidebar-stroke-chip.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+.sidebar-radicals-grid { position: static; max-height: 240px; }
