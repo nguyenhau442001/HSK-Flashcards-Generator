@@ -33,8 +33,18 @@ function renderGrammarEntry(entry, container) {
 function updateGrammarBreakdown(word) {
   const container = document.getElementById('grammarBreakdownBody');
   if (!container) return;
-  if (!word || !grammarStarterData) {
+  if (!word) {
     renderGrammarEntry(null, container);
+    return;
+  }
+  if (!grammarStarterData) {
+    renderGrammarEntry(null, container);
+    loadGrammarStarterData().then(() => {
+      const currentWord = typeof activeStudyWord !== 'undefined' ? activeStudyWord : null;
+      if (currentWord && currentWord.hanzi === word.hanzi) {
+        updateGrammarBreakdown(currentWord);
+      }
+    });
     return;
   }
   const entry = grammarStarterData.find(e => e.hanzi === word.hanzi);
@@ -52,10 +62,16 @@ function initGrammarBreakdown() {
   `;
   mount.appendChild(wrap);
 
-  loadGrammarStarterData().then(() => {
-    updateGrammarBreakdown(typeof activeStudyWord !== 'undefined' ? activeStudyWord : null);
-  });
+  // Register listener first so any early activeStudyWord changes are captured
   onActiveWordChange(updateGrammarBreakdown);
+
+  // Load data, then re-read the CURRENT activeStudyWord (not a stale value)
+  // and render it. This ensures we show the correct entry even if
+  // setActiveStudyWord() fires before the dataset loads.
+  loadGrammarStarterData().then(() => {
+    const currentWord = typeof activeStudyWord !== 'undefined' ? activeStudyWord : null;
+    updateGrammarBreakdown(currentWord);
+  });
 }
 
 document.addEventListener('DOMContentLoaded', initGrammarBreakdown);
