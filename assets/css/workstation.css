@@ -1,0 +1,32 @@
+.workstation {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.workstation-left,
+.workstation-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 1025px) {
+  .workstation {
+    grid-template-columns: 25% 50% 25%;
+    grid-template-areas: "left middle right";
+    align-items: start;
+    gap: 24px;
+  }
+  .workstation-left   { grid-area: left; position: sticky; top: 16px; }
+  .workstation-middle { grid-area: middle; min-width: 0; }
+  .workstation-right  { grid-area: right; position: sticky; top: 16px; }
+}
+
+/* Mobile/tablet: left panel content is relocated into a dialog by
+   sidebar-search.js / sidebar-radicals-filter.js / weak-words.js;
+   right panel content is relocated into <details> accordions by
+   stroke-canvas.js / grammar-breakdown.js. Those modules read
+   document.body.classList.contains('is-desktop-dock') to decide
+   which container to render into. */

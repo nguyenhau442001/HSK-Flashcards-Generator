@@ -14,11 +14,24 @@
 <meta name="apple-mobile-web-app-title" content="HSK Flashcards">
 <link rel="stylesheet" href="assets/flashcards.css?v=20260927">
 <link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20260828">
+<link rel="stylesheet" href="assets/css/workstation.css?v=20260928">
 <script>(function(){var t=localStorage.getItem('hsk_theme');if(t)document.documentElement.dataset.theme=t;})();</script>
 <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js');});}</script>
 </head>
 <body>
+<script>(function(){
+  var mq = window.matchMedia('(min-width: 1025px)');
+  function applyLayoutMode(e){
+    document.body.classList.toggle('is-desktop-dock', e.matches);
+    document.body.classList.toggle('is-mobile-drawer', !e.matches);
+  }
+  applyLayoutMode(mq);
+  mq.addEventListener('change', applyLayoutMode);
+})();</script>
 <div class="app">
+  <div class="workstation">
+    <aside class="workstation-left" id="workstationLeft" aria-label="Tra cứu nhanh"></aside>
+    <div class="workstation-middle" id="workstationMiddle">
   <div class="app-header">
     <button id="themeToggle" class="theme-toggle-btn" onclick="toggleTheme()">🌙</button>
     <h1 id="appTitle">HSK Flashcards</h1>
@@ -410,6 +423,9 @@
       </p>
     </div>
   </footer>
+    </div>
+    <aside class="workstation-right" id="workstationRight" aria-label="Phòng thực hành tương tác"></aside>
+  </div>
 </div>
 
 <script src="assets/js/state.js?v=20260927"></script>
