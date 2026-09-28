@@ -1,0 +1,23 @@
+.stroke-canvas-panel { display: flex; flex-direction: column; gap: 8px; }
+.stroke-canvas-grid {
+  width: 200px;
+  height: 200px;
+  background-color: var(--card-bg);
+  background-image:
+    linear-gradient(to right, var(--border) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--border) 1px, transparent 1px),
+    linear-gradient(to right, transparent calc(50% - 1px), var(--border) calc(50% - 1px), var(--border) calc(50% + 1px), transparent calc(50% + 1px)),
+    linear-gradient(to bottom, transparent calc(50% - 1px), var(--border) calc(50% - 1px), var(--border) calc(50% + 1px), transparent calc(50% + 1px));
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+.stroke-canvas-fallback {
+  width: 200px;
+  padding: 12px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  background: var(--card-bg);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-md);
+}
+.stroke-canvas-controls { display: flex; gap: 8px; }
