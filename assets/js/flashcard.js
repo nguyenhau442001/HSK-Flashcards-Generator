@@ -138,11 +138,13 @@ function render(animate) {
       if (content) content.classList.add('is-empty');
       updateProgress(0, 0);
       updateStats();
+      setActiveStudyWord(null);
       return;
     }
     if (content) content.classList.remove('is-empty');
     const wIdx = filteredOrder[idx % filteredOrder.length];
     const w = WORDS[wIdx];
+    setActiveStudyWord(w);
     document.getElementById('hanzi').textContent = w.hanzi;
     document.getElementById('pinyin').textContent = showPinyin ? w.pinyin : '';
     const m = document.getElementById('meaning');

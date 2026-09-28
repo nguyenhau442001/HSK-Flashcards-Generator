@@ -149,3 +149,17 @@ document.addEventListener('click', warmUpSpeech, { once: true });
 function storageKey(suffix) {
   return 'hsk_' + currentLevel + '_' + suffix + '_v2';
 }
+
+let activeStudyWord = null;
+const activeWordListeners = [];
+
+function onActiveWordChange(fn) {
+  activeWordListeners.push(fn);
+}
+
+function setActiveStudyWord(word) {
+  activeStudyWord = word;
+  activeWordListeners.forEach(fn => {
+    try { fn(word); } catch (e) { /* one listener's failure must not block others */ }
+  });
+}
