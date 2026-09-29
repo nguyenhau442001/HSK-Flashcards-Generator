@@ -1,6 +1,12 @@
-const CACHE_NAME = 'hsk-flashcards-v20260929-hsk30a';
+const ASSET_VERSION = '20260929-home1';
+const CACHE_NAME = 'hsk-flashcards-v' + ASSET_VERSION;
 const FSRS_CDN_URL = 'https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js';
 const APP_SHELL_URL = new URL('./flashcards.html', self.registration.scope).href;
+// Other assets are cached on first use; the home widgets are precached so the home screen works offline right away.
+const PRECACHE_ASSET_URLS = [
+  './assets/js/home-widgets.js?v=' + ASSET_VERSION,
+  './assets/css/home-widgets.css?v=' + ASSET_VERSION,
+].map(path => new URL(path, self.registration.scope).href);
 // Vocabulary/audio JSON lives in its own cache so app deploys don't force every level to re-download.
 const DATA_CACHE_NAME = 'hsk-data-v1';
 const DATA_PATH = new URL('./database/', self.registration.scope).pathname;
@@ -10,6 +16,7 @@ self.addEventListener('install', event => {
     const cache = await caches.open(CACHE_NAME);
     await Promise.allSettled([
       cache.add(APP_SHELL_URL),
+      ...PRECACHE_ASSET_URLS.map(url => cache.add(url)),
       cache.add(new Request(FSRS_CDN_URL, { mode: 'cors' })),
     ]);
     await self.skipWaiting();
