@@ -433,6 +433,19 @@ function learningProgressSummary() {
   };
 }
 
+// Warm the service-worker data cache for the level the dashboard suggests, so tapping it is instant.
+function prefetchSuggestedLevel() {
+  const target = learningProgressSummary().target;
+  const config = target && LEVELS[target.level];
+  if (!config || !config.dataUrl) return;
+  const run = () => {
+    fetch(config.dataUrl).catch(() => {});
+    if (config.audioManifestUrl) fetch(config.audioManifestUrl).catch(() => {});
+  };
+  if ('requestIdleCallback' in window) requestIdleCallback(run, { timeout: 3000 });
+  else setTimeout(run, 1500);
+}
+
 function renderLearningDashboard() {
   const dailyCount = document.getElementById('dailyStudyCount');
   const dailyFill = document.getElementById('dailyGoalFill');
@@ -654,6 +667,9 @@ async function selectLevel(level) {
   await new Promise(r => requestAnimationFrame(r));
   await new Promise(r => requestAnimationFrame(r));
 
+  // Audio manifest is optional (speech falls back to Web Speech), so it loads alongside the words
+  // instead of delaying the first card.
+  loadPrebuiltAudioManifest(level);
   try {
     const res = await fetch(LEVELS[level].dataUrl);
     if (!res.ok) throw new Error('fetch failed');
@@ -662,8 +678,6 @@ async function selectLevel(level) {
     document.getElementById('cardArea').innerHTML = '<div class="error-text">Không thể tải dữ liệu. Vui lòng thử lại.</div>';
     return;
   }
-
-  await loadPrebuiltAudioManifest(level);
 
   document.getElementById('overviewTab').disabled = false;
   order = Array.from({length: WORDS.length}, (_, i) => i);

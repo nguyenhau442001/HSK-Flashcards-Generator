@@ -1,6 +1,9 @@
-const CACHE_NAME = 'hsk-flashcards-v20260929-ux2';
+const CACHE_NAME = 'hsk-flashcards-v20260929-data1';
 const FSRS_CDN_URL = 'https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js';
 const APP_SHELL_URL = new URL('./flashcards.html', self.registration.scope).href;
+// Vocabulary/audio JSON lives in its own cache so app deploys don't force every level to re-download.
+const DATA_CACHE_NAME = 'hsk-data-v1';
+const DATA_PATH = new URL('./database/', self.registration.scope).pathname;
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
@@ -40,6 +43,25 @@ self.addEventListener('fetch', event => {
   }
 
   if (url.origin !== self.location.origin) return;
+
+  // Data: serve the cached copy instantly, refresh it in the background.
+  if (url.pathname.startsWith(DATA_PATH)) {
+    event.respondWith((async () => {
+      const cache = await caches.open(DATA_CACHE_NAME);
+      const cached = await cache.match(request, { ignoreSearch: true });
+      const refresh = fetch(request).then(async response => {
+        if (response.ok) await cache.put(request, response.clone());
+        return response;
+      });
+      if (cached) {
+        event.waitUntil(refresh.catch(() => {}));
+        return cached;
+      }
+      return refresh;
+    })());
+    return;
+  }
+
   event.respondWith((async () => {
     const cache = await caches.open(CACHE_NAME);
     const cached = await cache.match(request);
