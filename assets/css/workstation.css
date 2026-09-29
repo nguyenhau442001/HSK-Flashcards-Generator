@@ -15,7 +15,7 @@
 @media (min-width: 1200px) {
   body { padding: 16px 24px 24px; }
   .workstation {
-    grid-template-columns: minmax(300px, 24%) minmax(0, 1fr) minmax(260px, 20%);
+    grid-template-columns: minmax(300px, 24%) minmax(0, 1fr) minmax(320px, 24%);
     grid-template-areas: "left middle right";
     align-items: stretch;
     gap: 24px;
@@ -25,6 +25,21 @@
   .workstation-left   { grid-area: left; position: sticky; top: 16px; }
   .workstation-middle { grid-area: middle; min-width: 0; }
   .workstation-right  { grid-area: right; position: sticky; top: 16px; }
+  .sidebar-radicals-filter,
+  .weak-words-panel,
+  .stroke-canvas-panel,
+  .grammar-breakdown-panel {
+    padding: 14px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+  }
+  .sidebar-radicals-filter .sidebar-panel-title,
+  .weak-words-panel .sidebar-panel-title,
+  .stroke-canvas-panel > .sidebar-panel-title,
+  .grammar-breakdown-panel > .sidebar-panel-title { margin-top: 0; }
+  .stroke-canvas-grid { margin-inline: auto; }
+  .stroke-canvas-controls { justify-content: center; flex-wrap: wrap; }
 }
 
 /* Mobile/tablet: left panel content is relocated into a dialog by
