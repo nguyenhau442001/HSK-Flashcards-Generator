@@ -117,10 +117,10 @@ function updateStats() {
   document.getElementById('s-unseen').textContent = WORDS.length - known - unknown;
 }
 const RATING_BUTTONS = [
-  { rating: 'again', label: 'Quên', key: '1' },
-  { rating: 'hard', label: 'Mơ hồ', key: '2' },
-  { rating: 'good', label: 'Nhớ', key: '3' },
-  { rating: 'easy', label: 'Thuộc', key: '4' },
+  { rating: 'again', emoji: '💀', label: 'Toang', key: '1' },
+  { rating: 'hard', emoji: '😵‍💫', label: 'Lú nhẹ', key: '2' },
+  { rating: 'good', emoji: '😌', label: 'Ổn áp', key: '3' },
+  { rating: 'easy', emoji: '😎', label: 'Dễ ợt', key: '4' },
 ];
 const RATING_KEYS = { '1': 'again', '2': 'hard', '3': 'good', '4': 'easy' };
 
@@ -129,7 +129,7 @@ function ratingButtonsHtml(handlerName, previewIdPrefix, previews) {
   return RATING_BUTTONS.map(button => `
     <button type="button" class="rating-btn rating-btn--${button.rating}"
       onclick="${handlerName}('${button.rating}')" aria-keyshortcuts="${button.key}">
-      <kbd class="key-badge" aria-hidden="true">${button.key}</kbd>
+      <span class="rating-emoji" aria-hidden="true">${button.emoji}</span>
       <span class="rating-label">${button.label}</span>
       <span class="rating-interval"${previewIdPrefix ? ` id="${previewIdPrefix}${button.rating}"` : ''}>${previews ? formatSrsInterval(previews[button.rating]) : ''}</span>
     </button>`).join('');

@@ -156,6 +156,7 @@
   background: var(--card-bg); color: var(--text-primary); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer;
 }
 .reveal-btn:hover { border-color: var(--text-tertiary); }
+@media (max-width: 360px) { .rating-label { font-size: 13.5px; } .rating-interval { font-size: 11px; } }
 .rating-row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
 .reveal-btn[hidden], .rating-row[hidden], .today-review-answer[hidden] { display: none; }
 .rating-btn {
@@ -166,7 +167,8 @@
 .rating-btn:hover { filter: brightness(0.97); }
 .rating-btn:active { transform: scale(0.97); }
 .rating-btn:focus-visible, .reveal-btn:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
-.rating-label { font-size: 15px; font-weight: 600; line-height: 1.2; }
+.rating-emoji { font-size: 20px; line-height: 1.1; }
+.rating-label { font-size: 15px; font-weight: 600; line-height: 1.2; white-space: nowrap; }
 .rating-interval { min-height: 1.2em; font-size: 12px; line-height: 1.2; opacity: 0.85; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .rating-btn--again { background: var(--danger-bg); color: var(--danger-text); }
 .rating-btn--hard { background: var(--warning-bg); color: var(--warning-text); }
@@ -178,7 +180,6 @@
     display: inline-block; padding: 0 4px; border: 1px solid currentColor; border-radius: 4px;
     font-family: inherit; font-size: 10px; font-weight: 600; line-height: 1.4; opacity: 0.55;
   }
-  .rating-btn .key-badge { position: absolute; top: 4px; right: 5px; }
   .reveal-btn .key-badge { color: var(--text-secondary); }
 }
 .today-review-answer .pinyin { margin-top: 6px; }
@@ -289,6 +290,7 @@
   .study-mode .action-row { margin-top: 10px; }
   .study-mode .action-row button { padding-top: 10px; padding-bottom: 10px; }
   .study-mode .rating-area { margin-top: 10px; }
-  .study-mode .rating-btn { padding-top: 8px; padding-bottom: 8px; }
+  .study-mode .rating-btn { padding-top: 7px; padding-bottom: 7px; }
+  .study-mode .rating-emoji { font-size: 18px; }
   .study-mode .reveal-btn { padding-top: 11px; padding-bottom: 11px; }
 }
