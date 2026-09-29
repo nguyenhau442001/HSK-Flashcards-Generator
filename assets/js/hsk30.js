@@ -21,34 +21,22 @@ function renderHsk30Grid() {
   const grid = document.getElementById('levelGrid30');
   if (!grid) return;
 
-  const bands = [];
-  hsk30LevelKeys().forEach(key => {
+  // Same card layout as the HSK 2.0 grid; one row per band (Sơ / Trung / Cao cấp).
+  grid.innerHTML = hsk30LevelKeys().map(key => {
     const cfg = LEVELS_HSK30[key];
-    let band = bands.find(b => b.name === cfg.band);
-    if (!band) { band = { name: cfg.band, levels: [] }; bands.push(band); }
-    band.levels.push(key);
-  });
-
-  grid.innerHTML = bands.map(band => `
-    <div class="hsk30-band">
-      <div class="hsk30-band-title">${band.name}</div>
-      <div class="level-grid">
-        ${band.levels.map(key => {
-          const cfg = LEVELS_HSK30[key];
-          const known = hsk30KnownCount(key);
-          const pct = cfg.total > 0 ? (known / cfg.total * 100) : 0;
-          return `
-            <button class="level-card ${cfg.available ? '' : 'disabled'}" type="button" data-level="${key}"
-              ${cfg.available ? `onclick="selectLevel('${key}')"` : 'disabled'}>
-              <div class="lvl-num">${cfg.label}</div>
-              <div class="lvl-label">${cfg.band}</div>
-              ${cfg.available
-                ? `<div class="lvl-count">${cfg.total} từ</div>
-                   <div class="lvl-mastery-track"><div class="lvl-mastery-fill" style="width:${pct}%"></div></div>
-                   <div class="lvl-mastery-text">${known} / ${cfg.total} đã nhớ</div>`
-                : `<div class="lvl-soon">Sắp có</div>`}
-            </button>`;
-        }).join('')}
-      </div>
-    </div>`).join('');
+    const known = hsk30KnownCount(key);
+    const pct = cfg.total > 0 ? (known / cfg.total * 100) : 0;
+    const shortLabel = 'HSK' + key.replace('hsk30_', '');
+    return `
+      <button class="level-card ${cfg.available ? '' : 'disabled'}" type="button" data-level="${key}"
+        aria-label="${cfg.label}" ${cfg.available ? `onclick="selectLevel('${key}')"` : 'disabled'}>
+        <div class="lvl-num">${shortLabel}</div>
+        <div class="lvl-label">${cfg.band}</div>
+        ${cfg.available
+          ? `<div class="lvl-count">${cfg.total} từ</div>
+             <div class="lvl-mastery-track"><div class="lvl-mastery-fill" style="width:${pct}%"></div></div>
+             <div class="lvl-mastery-text">${known} / ${cfg.total} đã nhớ</div>`
+          : `<div class="lvl-soon">Sắp có</div>`}
+      </button>`;
+  }).join('');
 }
