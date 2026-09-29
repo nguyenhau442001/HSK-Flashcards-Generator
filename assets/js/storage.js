@@ -138,11 +138,13 @@ function loadState() {
   srsCards = loadSrsForLevel(currentLevel, WORDS, legacy);
   progress = progressFromCards(srsCards);
   reviewLog = readSrsReviewLog(currentLevel);
+  // SRS review hides pinyin on the front by default; the old showPinyin pref is ignored on purpose.
+  showPinyin = false;
   try {
     const pref = localStorage.getItem(storageKey('prefs'));
     if (pref) {
       const parsed = JSON.parse(pref);
-      if (typeof parsed.showPinyin === 'boolean') showPinyin = parsed.showPinyin;
+      if (typeof parsed.frontPinyin === 'boolean') showPinyin = parsed.frontPinyin;
       if (Array.isArray(parsed.order) && parsed.order.length === WORDS.length) order = parsed.order;
     }
   } catch (e) {}
@@ -167,7 +169,7 @@ function readSavedLevelProgressLegacy(level) {
   } catch (e) { return {}; }
 }
 function savePrefs() {
-  try { localStorage.setItem(storageKey('prefs'), JSON.stringify({ showPinyin, order, desiredRetention: srsRetention })); } catch (e) {}
+  try { localStorage.setItem(storageKey('prefs'), JSON.stringify({ frontPinyin: showPinyin, order, desiredRetention: srsRetention })); } catch (e) {}
 }
 
 function reviewSrsCard(level, wordId, rating, cardMap) {

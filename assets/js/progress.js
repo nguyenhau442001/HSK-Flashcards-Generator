@@ -85,7 +85,21 @@ function shuffleDeck() {
   setFilter(currentFilter);
 }
 function resetProgress() {
-  if (!confirm('Học lại từ đầu? Toàn bộ tiến trình đã lưu cho cấp độ này sẽ bị xóa.')) return;
+  const cards = Object.values(srsCards);
+  const started = cards.filter(card => card.state !== SRS.State.New).length;
+  const known = cards.filter(card => card.state === SRS.State.Review).length;
+  const message = [
+    'Học lại ' + LEVELS[currentLevel].label + ' từ đầu?',
+    '',
+    'Sẽ bị reset:',
+    '• Lịch ôn FSRS của cả ' + WORDS.length + ' từ (' + started + ' từ đã học, ' + known + ' từ đã nhớ) — mọi thẻ quay về "chưa học".',
+    '• Trạng thái Đã nhớ / Chưa nhớ và số thẻ đến hạn của cấp độ này.',
+    '',
+    'Giữ nguyên: nhật ký ôn tập, chuỗi ngày học, từ khó đã đánh dấu và các cấp độ khác.',
+    '',
+    'Không thể hoàn tác. Nên bấm "Sao lưu" trước nếu muốn giữ lại.',
+  ].join('\n');
+  if (!confirm(message)) return;
   srsCards = {};
   WORDS.forEach(word => { srsCards[word.id] = SRS.createNewCard(); });
   progress = {};
@@ -128,6 +142,12 @@ function toggleUnknownWords() {
 document.addEventListener('keydown', event => {
   if (!currentLevel || currentView !== 'cards' || event.altKey || event.ctrlKey || event.metaKey) return;
   if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement && document.activeElement.tagName)) return;
-  const rating = { '1': 'again', '2': 'hard', '3': 'good', '4': 'easy' }[event.key];
-  if (rating) { event.preventDefault(); rateCurrentCard(rating); }
+  if (event.key === ' ') {
+    if (document.activeElement && document.activeElement.closest('button, summary, a')) return;
+    event.preventDefault();
+    if (!isCardRevealed()) flip();
+    return;
+  }
+  const rating = RATING_KEYS[event.key];
+  if (rating && ratingsVisible()) { event.preventDefault(); rateCurrentCard(rating); }
 });

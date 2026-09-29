@@ -144,4 +144,5 @@ function flip() {
     document.getElementById('pinyin').textContent = '';
   }
   document.getElementById('hint').textContent = willShow ? 'Nhấn lại để ẩn' : 'Nhấn vào thẻ để xem nghĩa và ví dụ';
+  syncRevealControls();
 }

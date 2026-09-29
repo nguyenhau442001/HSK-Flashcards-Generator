@@ -15,6 +15,8 @@
   --danger-solid: #b85b45;
   --info-bg: #eef0f8;
   --info-text: #444f8a;
+  --warning-bg: #fcf0e0;
+  --warning-text: #95550f;
   --example-bg: #fdf6ec;
   --example-border: #ecd9b8;
   --radius-lg: 16px;
@@ -29,6 +31,7 @@
     --success-bg: #192b1c; --success-text: #65bc78;
     --danger-bg: #2d1a15; --danger-text: #e07860;
     --info-bg: #1c2035; --info-text: #8090cc;
+    --warning-bg: #2e2313; --warning-text: #e3a54f;
     --example-bg: #211f1a; --example-border: #3d3628;
   }
 }
@@ -40,6 +43,7 @@
   --success-bg: #192b1c; --success-text: #65bc78;
   --danger-bg: #2d1a15; --danger-text: #e07860;
   --info-bg: #1c2035; --info-text: #8090cc;
+  --warning-bg: #2e2313; --warning-text: #e3a54f;
   --example-bg: #211f1a; --example-border: #3d3628;
 }
 :root[data-theme="light"] {
@@ -49,6 +53,7 @@
   --success-bg: #e8f3ea; --success-text: #2f6e3e;
   --danger-bg: #fbeae6; --danger-text: #a8432c;
   --info-bg: #eef0f8; --info-text: #444f8a;
+  --warning-bg: #fcf0e0; --warning-text: #95550f;
   --example-bg: #fdf6ec; --example-border: #ecd9b8;
 }
 /* Smooth theme switch — class added/removed by JS; !important overrides component transitions */

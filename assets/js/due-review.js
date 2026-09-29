@@ -45,16 +45,12 @@ async function loadTodayReviewQueue() {
   return queue;
 }
 
-function formatDuePreview(preview) {
-  const milliseconds = preview && preview.intervalMs;
-  if (!Number.isFinite(milliseconds)) return '';
-  if (milliseconds < 86400000) return Math.max(1, Math.round(milliseconds / 60000)) + 'p';
-  return Math.max(1, Math.round(milliseconds / 86400000)) + 'n';
-}
+let todayReviewRevealed = false;
 
 function renderTodayReviewCard() {
   const area = document.getElementById('todayReviewCardArea');
   const progressNode = document.getElementById('todayReviewProgress');
+  todayReviewRevealed = false;
   if (todayReviewIndex >= todayReviewQueue.length) {
     progressNode.textContent = 'Đã ôn xong tất cả thẻ đến hạn.';
     area.innerHTML = '<div class="today-review-empty">🎉 Không còn thẻ đến hạn hôm nay.</div>';
@@ -68,15 +64,25 @@ function renderTodayReviewCard() {
     <article class="today-review-card">
       <div class="today-review-level">${LEVELS[item.level].label}</div>
       <div class="hanzi">${escapeHtml(item.word.hanzi)}</div>
-      <div class="pinyin">${escapeHtml(item.word.pinyin)}</div>
-      <div class="meaning">${escapeHtml(item.word.meaning)}</div>
-      <div class="action-row today-review-actions">
-        <button class="btn-unknown" onclick="rateTodayReview('again')">Quên <span>${formatDuePreview(previews.again)}</span></button>
-        <button class="btn-unknown" onclick="rateTodayReview('hard')">Khó <span>${formatDuePreview(previews.hard)}</span></button>
-        <button class="btn-known" onclick="rateTodayReview('good')">Được <span>${formatDuePreview(previews.good)}</span></button>
-        <button class="btn-known" onclick="rateTodayReview('easy')">Dễ <span>${formatDuePreview(previews.easy)}</span></button>
+      <div class="today-review-answer" id="todayReviewAnswer" hidden>
+        <div class="pinyin">${escapeHtml(item.word.pinyin)}</div>
+        <div class="meaning show">${escapeHtml(item.word.meaning)}</div>
+      </div>
+      <div class="rating-area today-review-actions">
+        ${revealButtonHtml('revealTodayReview()', 'todayRevealBtn')}
+        <div class="rating-row" id="todayRatingRow" hidden>
+          ${ratingButtonsHtml('rateTodayReview', '', previews)}
+        </div>
       </div>
     </article>`;
+}
+
+function revealTodayReview() {
+  if (todayReviewRevealed || todayReviewIndex >= todayReviewQueue.length) return;
+  todayReviewRevealed = true;
+  document.getElementById('todayReviewAnswer').hidden = false;
+  document.getElementById('todayRevealBtn').hidden = true;
+  document.getElementById('todayRatingRow').hidden = false;
 }
 
 function escapeHtml(value) {
@@ -87,7 +93,7 @@ function escapeHtml(value) {
 
 function rateTodayReview(rating) {
   const item = todayReviewQueue[todayReviewIndex];
-  if (!item) return;
+  if (!item || !todayReviewRevealed) return;
   const record = readSrsRecord(item.level);
   const cards = record ? record.cards : {};
   reviewSrsCard(item.level, item.word.id, rating, cards);
@@ -104,6 +110,8 @@ async function openTodayReviews() {
   if (cards) cards.style.display = 'none';
   reviewScreen.style.display = '';
   document.getElementById('primaryTabs').style.display = 'none';
+  document.getElementById('pickerControls').style.display = 'none';
+  document.getElementById('learningDashboard').style.display = 'none';
   document.getElementById('todayReviewCardArea').innerHTML = '<div class="loading-text">Đang tìm thẻ đến hạn...</div>';
   try {
     todayReviewQueue = await loadTodayReviewQueue();
@@ -119,5 +127,21 @@ function closeTodayReviews() {
   document.getElementById('screenTodayReviews').style.display = 'none';
   document.getElementById('screenVocabHub').style.display = '';
   document.getElementById('primaryTabs').style.display = '';
+  document.getElementById('pickerControls').style.display = '';
+  document.getElementById('learningDashboard').style.display = '';
   renderLearningDashboard();
 }
+
+document.addEventListener('keydown', event => {
+  const screen = document.getElementById('screenTodayReviews');
+  if (!screen || screen.style.display === 'none' || event.altKey || event.ctrlKey || event.metaKey) return;
+  if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement && document.activeElement.tagName)) return;
+  if (event.key === ' ') {
+    if (document.activeElement && document.activeElement.closest('button, summary, a')) return;
+    event.preventDefault();
+    revealTodayReview();
+    return;
+  }
+  const rating = RATING_KEYS[event.key];
+  if (rating && todayReviewRevealed) { event.preventDefault(); rateTodayReview(rating); }
+});

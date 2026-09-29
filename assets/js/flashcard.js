@@ -55,22 +55,23 @@ function buildCardArea() {
       </div>
     </div>
 
-    <div class="nav-row">
-      <button onclick="prevCard()">← Trước</button>
+    <div class="nav-row nav-row--progress-only">
       <span class="progress-text" id="progress">1 / ${WORDS.length}</span>
-      <button onclick="nextCard()">Tiếp →</button>
     </div>
 
-    <div class="action-row">
-      <button class="btn-unknown" onclick="rateCurrentCard('again')">Quên <span class="review-preview" id="preview-again"></span></button>
-      <button class="btn-unknown" onclick="rateCurrentCard('hard')">Khó <span class="review-preview" id="preview-hard"></span></button>
-      <button class="btn-known" onclick="rateCurrentCard('good')">Được <span class="review-preview" id="preview-good"></span></button>
-      <button class="btn-known" onclick="rateCurrentCard('easy')">Dễ <span class="review-preview" id="preview-easy"></span></button>
+    <div class="rating-area">
+      ${revealButtonHtml('flip()', 'revealBtn')}
+      <div class="rating-row" id="ratingRow" hidden>
+        ${ratingButtonsHtml('rateCurrentCard', 'preview-')}
+      </div>
+    </div>
+
+    <div class="action-row secondary-actions">
       <button class="show-unknown-btn" id="unknownWordsToggle" onclick="toggleUnknownWords()"
         aria-controls="unknownWordsList" aria-expanded="false">
         Hiển thị từ chưa nhớ
       </button>
-      <button class="reset-progress-btn" onclick="resetProgress()">↻ Học lại từ đầu</button>
+      <button class="reset-progress-btn" type="button" onclick="resetProgress()">↻ Học lại từ đầu</button>
     </div>
     <div id="dailyNewLimitMessage" class="daily-new-limit-message" role="status"></div>
     <div class="unknown-words-list" id="unknownWordsList"></div>
@@ -115,20 +116,66 @@ function updateStats() {
   document.getElementById('s-unknown').textContent = unknown;
   document.getElementById('s-unseen').textContent = WORDS.length - known - unknown;
 }
+const RATING_BUTTONS = [
+  { rating: 'again', label: 'Quên', key: '1' },
+  { rating: 'hard', label: 'Mơ hồ', key: '2' },
+  { rating: 'good', label: 'Nhớ', key: '3' },
+  { rating: 'easy', label: 'Thuộc', key: '4' },
+];
+const RATING_KEYS = { '1': 'again', '2': 'hard', '3': 'good', '4': 'easy' };
+
+// Shared by the level deck and "Ôn hôm nay": label on top, repeat() interval below.
+function ratingButtonsHtml(handlerName, previewIdPrefix, previews) {
+  return RATING_BUTTONS.map(button => `
+    <button type="button" class="rating-btn rating-btn--${button.rating}"
+      onclick="${handlerName}('${button.rating}')" aria-keyshortcuts="${button.key}">
+      <kbd class="key-badge" aria-hidden="true">${button.key}</kbd>
+      <span class="rating-label">${button.label}</span>
+      <span class="rating-interval"${previewIdPrefix ? ` id="${previewIdPrefix}${button.rating}"` : ''}>${previews ? formatSrsInterval(previews[button.rating]) : ''}</span>
+    </button>`).join('');
+}
+function revealButtonHtml(onclick, id) {
+  return `<button type="button" class="reveal-btn" id="${id}" onclick="${onclick}" aria-keyshortcuts="Space">
+      <span>Lật thẻ</span><kbd class="key-badge" aria-hidden="true">Space</kbd>
+    </button>`;
+}
 function formatSrsInterval(preview) {
   const ms = preview && preview.intervalMs;
   if (!Number.isFinite(ms)) return '';
-  if (ms < 86400000) return Math.max(1, Math.round(ms / 60000)) + 'p';
-  return Math.max(1, Math.round(ms / 86400000)) + 'n';
+  const minutes = ms / 60000;
+  const days = ms / 86400000;
+  if (minutes < 60) return Math.max(1, Math.round(minutes)) + ' phút';
+  if (days < 1) return Math.round(minutes / 60) + ' giờ';
+  if (days < 14) return Math.round(days) + ' ngày';
+  if (days < 60) return Math.round(days / 7) + ' tuần';
+  if (days < 365) return Math.round(days / 30) + ' tháng';
+  return Math.round(days / 365) + ' năm';
 }
 function updateSrsPreviews(word) {
   const card = word && srsCards[word.id];
-  if (!card) return;
-  const previews = SRS.preview(card, new Date(), srsRetention);
-  Object.keys(previews).forEach(rating => {
+  const previews = card ? SRS.preview(card, new Date(), srsRetention) : {};
+  RATING_BUTTONS.forEach(({ rating }) => {
     const node = document.getElementById('preview-' + rating);
     if (node) node.textContent = formatSrsInterval(previews[rating]);
   });
+}
+function ratingsVisible() {
+  const ratingRow = document.getElementById('ratingRow');
+  return Boolean(ratingRow && !ratingRow.hidden);
+}
+function isCardRevealed() {
+  const meaning = document.getElementById('meaning');
+  return Boolean(meaning && meaning.classList.contains('show'));
+}
+// Rating buttons appear only once the answer is visible; before that, one "Lật thẻ" button.
+function syncRevealControls() {
+  const revealBtn = document.getElementById('revealBtn');
+  const ratingRow = document.getElementById('ratingRow');
+  if (!revealBtn || !ratingRow) return;
+  const hasCard = filteredOrder.length > 0;
+  const revealed = hasCard && isCardRevealed();
+  revealBtn.hidden = !hasCard || revealed;
+  ratingRow.hidden = !revealed;
 }
 function updateProgress(current, total) {
   document.getElementById('progress').textContent = total === 0 ? '0 / 0' : current + ' / ' + total;
@@ -138,6 +185,9 @@ function updateProgress(current, total) {
 function render(animate) {
   stopSpeech();
   if (transitionTimer) { clearTimeout(transitionTimer); transitionTimer = null; }
+  // Hide ratings right away so a double press cannot rate the next card during the exit animation.
+  const ratingRow = document.getElementById('ratingRow');
+  if (ratingRow) ratingRow.hidden = true;
 
   const content = document.getElementById('cardContent');
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -158,6 +208,7 @@ function render(animate) {
       updateProgress(0, 0);
       updateStats();
       setActiveStudyWord(null);
+      syncRevealControls();
       return;
     }
     if (content) content.classList.remove('is-empty');
@@ -176,6 +227,7 @@ function render(animate) {
     document.getElementById('hint').textContent = 'Nhấn vào thẻ để xem nghĩa và ví dụ';
     updateProgress(idx % filteredOrder.length + 1, filteredOrder.length);
     updateStats();
+    syncRevealControls();
     if (animate && content && !prefersReduced) {
       if (animate === 'next') content.classList.add('enter-right');
       else if (animate === 'prev') content.classList.add('enter-left');
