@@ -15,8 +15,10 @@
 @media (min-width: 1200px) {
   body { padding: 12px 14px 20px; }
   .workstation {
-    grid-template-columns: minmax(300px, 24%) minmax(0, 1fr);
-    grid-template-areas: "left middle";
+    /* Side columns are always equal and always reserved, so the middle column (cards, level grid,
+       games) stays centered on screen and doesn't jump when the right panel appears. */
+    grid-template-columns: minmax(300px, 24%) minmax(0, 1fr) minmax(300px, 24%);
+    grid-template-areas: "left middle right";
     align-items: stretch;
     gap: 20px;
     min-height: calc(100vh - 40px);
@@ -25,17 +27,14 @@
   .workstation-left   { grid-area: left; position: sticky; top: 16px; }
   .workstation-middle { grid-area: middle; min-width: 0; }
   .app-footer { grid-column: 1 / -1; }
-  .workstation-right { display: none; }
-  body.has-active-study-word .workstation {
-    grid-template-columns: minmax(300px, 24%) minmax(0, 1fr) minmax(320px, 24%);
-    grid-template-areas: "left middle right";
-  }
-  body.has-active-study-word .workstation-right {
-    display: flex;
+  .workstation-right {
     grid-area: right;
+    align-self: start;
     position: sticky;
     top: 16px;
+    visibility: hidden;
   }
+  body.has-active-study-word .workstation-right { visibility: visible; }
   .sidebar-radicals-filter,
   .weak-words-panel,
   .stroke-canvas-panel,
