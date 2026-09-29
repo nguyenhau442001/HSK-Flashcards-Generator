@@ -1,8 +1,8 @@
 // FSRS boundary. Application code should use SRS instead of ts-fsrs directly.
 const SRS = (function () {
-  const library = window.tsfsrs;
+  const library = window.FSRS;
   if (!library || typeof library.fsrs !== 'function') {
-    throw new Error('Không tải được ts-fsrs 5.4.1 (global tsfsrs không tồn tại).');
+    throw new Error('Không tải được ts-fsrs 5.4.1 (global FSRS không tồn tại).');
   }
 
   const RATINGS = {
