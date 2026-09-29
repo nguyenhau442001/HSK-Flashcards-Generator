@@ -631,7 +631,9 @@ async function selectLevel(level) {
   setActiveStudyWord(null);
   currentLevel = level;
   document.body.classList.add('study-mode');
+  if (transitionTimer) { clearTimeout(transitionTimer); transitionTimer = null; }
   WORDS = [];
+  filteredOrder = [];
   currentView = 'cards';
   overviewQuery = '';
   overviewStatus = 'all';
@@ -673,8 +675,11 @@ async function selectLevel(level) {
   try {
     const res = await fetch(LEVELS[level].dataUrl);
     if (!res.ok) throw new Error('fetch failed');
-    WORDS = await res.json();
+    const words = await res.json();
+    if (currentLevel !== level) return; // another level was picked while this one downloaded
+    WORDS = words;
   } catch (e) {
+    if (currentLevel !== level) return;
     document.getElementById('cardArea').innerHTML = '<div class="error-text">Không thể tải dữ liệu. Vui lòng thử lại.</div>';
     return;
   }

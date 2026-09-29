@@ -214,6 +214,7 @@ function render(animate) {
     if (content) content.classList.remove('is-empty');
     const wIdx = filteredOrder[idx % filteredOrder.length];
     const w = WORDS[wIdx];
+    if (!w) return; // deck was swapped out (level change) while this render was pending
     setActiveStudyWord(w);
     updateSrsPreviews(w);
     document.getElementById('hanzi').textContent = w.hanzi;
