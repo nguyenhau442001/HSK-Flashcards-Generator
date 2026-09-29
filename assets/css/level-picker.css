@@ -103,7 +103,7 @@
 }
 .quick-study-btn {
   border: 0; border-radius: var(--radius-md); padding: 10px 13px;
-  background: var(--accent); color: #fff;
+  background: var(--accent); color: var(--on-accent);
   font: inherit; font-size: 11px; font-weight: 650; white-space: nowrap;
   cursor: pointer; transition: filter 150ms ease, transform 100ms ease;
 }
@@ -124,15 +124,24 @@
   width: 3px; height: 3px; background: var(--text-tertiary); border-radius: 50%;
 }
 
-@media (max-width: 520px) {
+.daily-goal-actions { display: contents; }
+
+/* Touch layouts: keep the dashboard buttons at least 44px tall. */
+@media (max-width: 1279px) {
+  .quick-study-btn { min-height: 44px; }
+}
+
+@media (max-width: 767px) {
   .learning-dashboard { padding: 16px; }
-  .learning-dashboard-header { align-items: center; }
+  .learning-dashboard-header { align-items: center; flex-wrap: wrap; row-gap: 10px; }
+  .history-trigger { white-space: nowrap; }
   .learning-dashboard h2 { font-size: 15px; }
   .daily-goal {
     grid-template-columns: auto minmax(0, 1fr);
     gap: 12px;
   }
-  .quick-study-btn { grid-column: 1 / -1; width: 100%; }
+  .daily-goal-actions { grid-column: 1 / -1; display: flex; gap: 10px; }
+  .quick-study-btn { flex: 1 1 0; min-width: 0; min-height: 44px; font-size: 13px; }
 }
 
 .picker-controls {
@@ -140,9 +149,10 @@
 }
 .picker-controls > .view-tabs { flex: 1 1 0; min-width: 0; margin: 0; }
 .picker-controls .view-tab { padding: 7px 9px; font-size: 12px; }
-@media (max-width: 420px) {
-  .picker-controls { gap: 6px; }
-  .picker-controls .view-tab { padding-inline: 5px; font-size: 11px; }
+@media (max-width: 767px) {
+  .picker-controls { flex-direction: column; align-items: stretch; }
+  .picker-controls > .view-tabs { flex: 0 0 auto; width: 100%; }
+  .picker-controls .view-tab { min-height: 40px; font-size: 13px; }
 }
 
 @media (min-width: 1280px) {
