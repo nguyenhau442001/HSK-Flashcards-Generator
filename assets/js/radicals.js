@@ -5,23 +5,32 @@ async function fetchJson(url) {
   return res.json();
 }
 
+let radicalDataLoadPromise = null;
+
 async function ensureRadicalDataLoaded() {
-  if (radicalDataLoaded) { renderRadicalHub(); return; }
+  if (radicalDataLoaded) { renderRadicalHub(); return true; }
+  if (radicalDataLoadPromise) return radicalDataLoadPromise;
   const hub = document.getElementById('radicalHub');
   hub.innerHTML = '<div class="loading-text">Đang tải dữ liệu...</div>';
-  try {
-    const [basic50Groups, kangxi214Groups] = await Promise.all([
-      Promise.all(Array.from({ length: RADICAL_STROKE_COUNTS.basic50 }, (_, i) => fetchJson(radicalStrokeUrl('basic50', i + 1)))),
-      Promise.all(Array.from({ length: RADICAL_STROKE_COUNTS.kangxi214 }, (_, i) => fetchJson(radicalStrokeUrl('kangxi214', i + 1)))),
-    ]);
-    RADICAL_GROUPS.basic50 = basic50Groups;
-    RADICAL_GROUPS.kangxi214 = kangxi214Groups;
-    radicalDataLoaded = true;
-  } catch (e) {
-    hub.innerHTML = '<div class="error-text">Không thể tải dữ liệu. Vui lòng thử lại.</div>';
-    return;
-  }
-  renderRadicalHub();
+  radicalDataLoadPromise = (async () => {
+    try {
+      const [basic50Groups, kangxi214Groups] = await Promise.all([
+        Promise.all(Array.from({ length: RADICAL_STROKE_COUNTS.basic50 }, (_, i) => fetchJson(radicalStrokeUrl('basic50', i + 1)))),
+        Promise.all(Array.from({ length: RADICAL_STROKE_COUNTS.kangxi214 }, (_, i) => fetchJson(radicalStrokeUrl('kangxi214', i + 1)))),
+      ]);
+      RADICAL_GROUPS.basic50 = basic50Groups;
+      RADICAL_GROUPS.kangxi214 = kangxi214Groups;
+      radicalDataLoaded = true;
+      renderRadicalHub();
+      return true;
+    } catch (e) {
+      hub.innerHTML = '<div class="error-text">Không thể tải dữ liệu. Vui lòng thử lại.</div>';
+      return false;
+    } finally {
+      radicalDataLoadPromise = null;
+    }
+  })();
+  return radicalDataLoadPromise;
 }
 
 const PRIMARY_TAB_SCREENS = {
@@ -43,6 +52,7 @@ function setVocabSubTab(tab) {
   document.getElementById('vocabSubTabTopic').setAttribute('aria-selected', String(tab === 'topic'));
   document.getElementById('screenPicker').style.display = tab === 'level' ? '' : 'none';
   document.getElementById('screenTopicPicker').style.display = tab === 'topic' ? '' : 'none';
+  document.getElementById('pickerVersionControls').hidden = tab !== 'level';
   if (tab === 'topic') renderTopicGrid();
 }
 
@@ -52,9 +62,15 @@ function setPrimaryTab(tab) {
   Object.entries(PRIMARY_TAB_SCREENS).forEach(([key, { tabId, screenId }]) => {
     const isActive = key === tab;
     document.getElementById(tabId).classList.toggle('active', isActive);
-    document.getElementById(tabId).setAttribute('aria-selected', String(isActive));
+    document.getElementById(tabId).setAttribute('aria-pressed', String(isActive));
     document.getElementById(screenId).style.display = isActive ? '' : 'none';
   });
+  const isTool = ['radicals', 'sentenceGame', 'guessWord', 'speedQuiz'].includes(tab);
+  const gamesMenu = document.getElementById('primaryGamesMenu');
+  gamesMenu.open = false;
+  gamesMenu.classList.toggle('has-active-tool', isTool);
+  document.getElementById('learningDashboard').style.display = tab === 'vocab' ? '' : 'none';
+  if (tab !== 'vocab') setActiveStudyWord(null);
   if (tab === 'radicals') ensureRadicalDataLoaded();
   if (tab === 'review') {
     updateReviewRangeLabel(document.getElementById('reviewRangeSlider').value);
@@ -66,6 +82,14 @@ function setPrimaryTab(tab) {
   if (previousTab === 'review' && tab !== 'review') {
     abandonReviewSession();
   }
+}
+
+async function openRadicalDirectory() {
+  setPrimaryTab('radicals');
+  const loaded = await ensureRadicalDataLoaded();
+  if (!loaded || primaryTab !== 'radicals') return;
+  setRadicalTab('kangxi214');
+  openRadicalOverviewFromHub('kangxi214');
 }
 
 function setRadicalTab(tab) {

@@ -44,9 +44,13 @@ function renderWeakWordsList() {
   if (!container) return;
   const list = loadWeakWords();
   if (!list.length) {
-    container.innerHTML = '<div class="sidebar-search-empty">Chưa có từ nào được đánh dấu.</div>';
+    const panel = container.closest('.weak-words-panel');
+    if (panel) panel.hidden = true;
+    container.innerHTML = '';
     return;
   }
+  const panel = container.closest('.weak-words-panel');
+  if (panel) panel.hidden = false;
   container.innerHTML = list.map(w => `
     <li class="sidebar-search-result weak-word-item" data-hanzi="${w.hanzi}">
       <span class="ssr-hanzi">${w.hanzi}</span>
@@ -63,6 +67,7 @@ function initWeakWordsPanel() {
   if (!mount) return;
   const wrap = document.createElement('div');
   wrap.className = 'weak-words-panel';
+  wrap.id = 'weakWordsPanel';
   wrap.innerHTML = `
     <div class="sidebar-panel-title">Từ khó (đã đánh dấu)</div>
     <ul class="sidebar-search-results weak-words-list" id="weakWordsList"></ul>

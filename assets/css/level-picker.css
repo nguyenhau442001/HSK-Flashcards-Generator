@@ -27,8 +27,8 @@
 
 @media (min-width: 1200px) {
   .level-grid,
-  .topic-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 16px; }
-  .level-card { padding: 14px 12px; }
+  .topic-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 12px; }
+  .level-card { padding: 12px 10px; }
   .level-card .lvl-num { font-size: 23px; }
 }
 
@@ -75,7 +75,7 @@
   color: var(--accent); font-size: 10.5px; font-weight: 600;
 }
 .daily-goal {
-  display: grid; grid-template-columns: auto minmax(0, 1fr) auto;
+  display: grid; grid-template-columns: auto minmax(0, 1fr) auto auto;
   align-items: center; gap: 14px; margin-top: 16px;
 }
 .daily-goal-count {
@@ -118,7 +118,11 @@
   font: inherit; font-size: 11px; font-weight: 650; white-space: nowrap;
   cursor: pointer; transition: filter 150ms ease, transform 100ms ease;
 }
+.quick-study-btn--secondary {
+  border: 1px solid var(--accent); background: transparent; color: var(--accent);
+}
 .quick-study-btn:hover { filter: brightness(0.94); }
+.quick-study-btn--secondary:hover { background: var(--accent-light); filter: none; }
 .quick-study-btn:active { transform: translateY(1px); }
 .quick-study-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .learning-totals {
@@ -140,4 +144,18 @@
     gap: 12px;
   }
   .quick-study-btn { grid-column: 1 / -1; width: 100%; }
+}
+
+.picker-controls {
+  display: flex; align-items: center; gap: 8px; margin: 14px 0 8px;
+}
+.picker-controls > .view-tabs { flex: 1 1 0; min-width: 0; margin: 0; }
+.picker-controls .view-tab { padding: 7px 9px; font-size: 12px; }
+@media (max-width: 420px) {
+  .picker-controls { gap: 6px; }
+  .picker-controls .view-tab { padding-inline: 5px; font-size: 11px; }
+}
+
+@media (min-width: 1200px) {
+  .daily-goal { grid-template-columns: auto minmax(0, 1fr) auto auto; gap: 10px; }
 }

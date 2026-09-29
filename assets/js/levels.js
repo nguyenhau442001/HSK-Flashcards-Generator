@@ -443,6 +443,7 @@ function renderLearningDashboard() {
   const studiedNode = document.getElementById('totalStudiedCount');
   const quickButton = document.getElementById('quickStudyButton');
   const dueCount = document.getElementById('todayDueCount');
+  const todayReviewButton = document.getElementById('todayReviewButton');
   if (!dailyCount || !dailyFill || !dailyMessage || !dailyGoalSelect || !streakNode || !knownNode || !studiedNode || !quickButton) return;
 
   const activity = readStudyActivity();
@@ -466,7 +467,9 @@ function renderLearningDashboard() {
   streakNode.textContent = `🔥 ${streak} ngày học`;
   knownNode.textContent = summary.totalKnown;
   studiedNode.textContent = summary.totalStudied;
-  if (dueCount) dueCount.textContent = String(countDueCardsAcrossLevels(new Date()));
+  const dueTotal = countDueCardsAcrossLevels(new Date());
+  if (dueCount) dueCount.textContent = String(dueTotal);
+  if (todayReviewButton) todayReviewButton.hidden = dueTotal === 0;
 
   const target = summary.target;
   if (target) {
@@ -589,13 +592,15 @@ function renderLevelProgress() {
 function goBackToPicker() {
   stopSpeech();
   abandonReviewSession();
+  setActiveStudyWord(null);
   document.body.classList.remove('study-mode');
   const wasTopic = currentLevel && LEVELS[currentLevel] && LEVELS[currentLevel].isTopic;
   document.getElementById('screenCards').style.display = 'none';
   document.getElementById('appTitle').textContent = 'HSK Flashcards';
   document.getElementById('primaryTabs').style.display = '';
-  document.getElementById('learningDashboard').style.display = wasTopic ? 'none' : '';
+  document.getElementById('pickerControls').style.display = '';
   setPrimaryTab('vocab');
+  document.getElementById('learningDashboard').style.display = wasTopic ? 'none' : '';
   setVocabSubTab(wasTopic ? 'topic' : 'level');
   currentLevel = null;
   currentView = 'cards';
@@ -610,6 +615,7 @@ function goBackToPicker() {
 
 async function selectLevel(level) {
   celebrationShown = false;
+  setActiveStudyWord(null);
   currentLevel = level;
   document.body.classList.add('study-mode');
   WORDS = [];
@@ -619,6 +625,7 @@ async function selectLevel(level) {
   try { localStorage.setItem(LAST_LEVEL_KEY, level); } catch (e) {}
   document.getElementById('appTitle').textContent = LEVELS[level].label + ' Flashcards';
   document.getElementById('primaryTabs').style.display = 'none';
+  document.getElementById('pickerControls').style.display = 'none';
   document.getElementById('learningDashboard').style.display = 'none';
   document.getElementById('transferPanel').hidden = true;
   document.getElementById('screenPicker').style.display = 'none';

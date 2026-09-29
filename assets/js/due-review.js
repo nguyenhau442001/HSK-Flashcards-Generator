@@ -103,6 +103,7 @@ function rateTodayReview(rating) {
 }
 
 async function openTodayReviews() {
+  setActiveStudyWord(null);
   const hub = document.getElementById('screenVocabHub');
   const cards = document.getElementById('screenCards');
   const reviewScreen = document.getElementById('screenTodayReviews');

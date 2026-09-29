@@ -80,10 +80,7 @@ function initGrammarBreakdown() {
   // Load data, then re-read the CURRENT activeStudyWord (not a stale value)
   // and render it. This ensures we show the correct entry even if
   // setActiveStudyWord() fires before the dataset loads.
-  loadGrammarStarterData().then(() => {
-    const currentWord = typeof activeStudyWord !== 'undefined' ? activeStudyWord : null;
-    updateGrammarBreakdown(currentWord);
-  });
+  updateGrammarBreakdown(typeof activeStudyWord !== 'undefined' ? activeStudyWord : null);
 }
 
 document.addEventListener('DOMContentLoaded', initGrammarBreakdown);

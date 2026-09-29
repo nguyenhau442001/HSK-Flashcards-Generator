@@ -165,6 +165,7 @@ function onActiveWordChange(fn) {
 
 function setActiveStudyWord(word) {
   activeStudyWord = word;
+  document.body.classList.toggle('has-active-study-word', Boolean(word && word.hanzi));
   activeWordListeners.forEach(fn => {
     try { fn(word); } catch (e) { /* one listener's failure must not block others */ }
   });
