@@ -25,7 +25,7 @@
 .level-card .lvl-mastery-fill { height: 100%; width: 0%; background: var(--success-text); border-radius: 999px; transition: width 0.3s ease; }
 .level-card .lvl-mastery-text { font-size: 10.5px; color: var(--success-text); margin-top: 4px; }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .level-grid,
   .topic-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 12px; }
   .level-card { padding: 12px 10px; }
@@ -145,6 +145,6 @@
   .picker-controls .view-tab { padding-inline: 5px; font-size: 11px; }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .daily-goal { grid-template-columns: auto minmax(0, 1fr) auto auto; gap: 10px; }
 }

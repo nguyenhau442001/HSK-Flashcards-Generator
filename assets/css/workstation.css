@@ -12,12 +12,12 @@
   gap: 16px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   body { padding: 12px 14px 20px; }
   .workstation {
-    /* Side columns are always equal and always reserved, so the middle column (cards, level grid,
-       games) stays centered on screen and doesn't jump when the right panel appears. */
-    grid-template-columns: minmax(300px, 24%) minmax(0, 1fr) minmax(300px, 24%);
+    /* Side columns are always reserved, so the middle column (cards, level grid, games)
+       doesn't jump when the right panel switches between home widgets and study panels. */
+    grid-template-columns: 300px minmax(0, 1fr) 320px;
     grid-template-areas: "left middle right";
     align-items: stretch;
     gap: 20px;
@@ -155,7 +155,7 @@
 .mobile-dock-trigger { display: none; }
 .mobile-dock-dialog { display: none; }
 
-@media (max-width: 1199px) {
+@media (max-width: 1279px) {
   .app { max-width: 760px; }
   .mobile-dock-trigger {
     display: block;
