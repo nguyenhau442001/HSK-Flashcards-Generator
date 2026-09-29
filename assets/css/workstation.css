@@ -49,8 +49,7 @@
   .weak-words-panel .sidebar-panel-title,
   .stroke-canvas-panel > .sidebar-panel-title,
   .grammar-breakdown-panel > .sidebar-panel-title { margin-top: 0; }
-  .stroke-canvas-grid { margin-inline: auto; }
-  .stroke-canvas-controls { justify-content: center; flex-wrap: wrap; }
+  .stroke-canvas-panel { padding-bottom: 18px; }
 }
 
 /* Mobile/tablet: left panel content is relocated into a dialog by
@@ -199,6 +198,7 @@
   details.grammar-breakdown-panel {
     margin: 16px 0;
   }
+  details.stroke-canvas-panel .stroke-canvas-body { padding: 14px 0 16px; }
   details.stroke-canvas-panel summary,
   details.grammar-breakdown-panel summary {
     cursor: pointer;

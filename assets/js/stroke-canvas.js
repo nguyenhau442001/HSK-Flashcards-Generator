@@ -17,6 +17,7 @@ function loadStrokeCanvasWord(word) {
   if (!word || !word.hanzi || typeof HanziWriter === 'undefined') {
     fallback.hidden = false;
     fallback.textContent = !word ? 'Chọn một từ để xem thứ tự nét.' : 'Không thể tải thư viện viết chữ.';
+    syncStrokeCanvasControls();
     return;
   }
 
@@ -33,6 +34,15 @@ function loadStrokeCanvasWord(word) {
     fallback.hidden = false;
     fallback.textContent = 'Không thể tải nét chữ cho ký tự này (mất kết nối mạng hoặc ký tự chưa được hỗ trợ).';
   }
+  syncStrokeCanvasControls();
+}
+
+// Buttons do nothing without a writer (no word chosen, or the character failed to load).
+function syncStrokeCanvasControls() {
+  ['strokeAnimateBtn', 'strokeQuizBtn'].forEach(id => {
+    const button = document.getElementById(id);
+    if (button) button.disabled = !strokeCanvasWriter;
+  });
 }
 
 function animateStrokeCanvas() {
@@ -62,6 +72,7 @@ function initStrokeCanvas() {
     wrap.appendChild(title);
   }
   const body = document.createElement('div');
+  body.className = 'stroke-canvas-body';
   body.innerHTML = `
     <div class="stroke-canvas-grid" id="strokeCanvasTarget"></div>
     <div class="stroke-canvas-fallback" id="strokeCanvasFallback" hidden></div>
