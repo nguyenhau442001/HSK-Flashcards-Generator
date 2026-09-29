@@ -107,11 +107,15 @@ function initSidebarSearch() {
 }
 
 function initMobileDockDialog() {
-  const trigger = document.getElementById('mobileDockTrigger');
+  const trigger = document.getElementById('headerSearchBtn');
   const dialog = document.getElementById('mobileDockDialog');
   const closeBtn = document.getElementById('mobileDockClose');
   if (!trigger || !dialog || !closeBtn) return;
-  trigger.addEventListener('click', () => dialog.showModal());
+  trigger.addEventListener('click', () => {
+    dialog.showModal();
+    const input = document.getElementById('sidebarSearchInput');
+    if (input) input.focus();
+  });
   closeBtn.addEventListener('click', () => dialog.close());
 }
 

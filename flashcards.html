@@ -33,14 +33,18 @@
 <div class="app">
   <div class="workstation">
     <aside class="workstation-left" id="workstationLeft" aria-label="Tra cứu nhanh"></aside>
-    <button type="button" id="mobileDockTrigger" class="mobile-dock-trigger">🔍 Tra cứu nhanh</button>
     <dialog id="mobileDockDialog" class="mobile-dock-dialog">
       <button type="button" id="mobileDockClose" class="mobile-dock-close" aria-label="Đóng">✕</button>
       <div id="mobileDockDialogBody"></div>
     </dialog>
     <div class="workstation-middle" id="workstationMiddle">
   <div class="app-header">
-    <button id="themeToggle" class="theme-toggle-btn" onclick="toggleTheme()">🌙</button>
+    <div class="app-header-actions">
+      <button type="button" id="headerSearchBtn" class="header-search-btn" aria-label="Tìm từ vựng" aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </button>
+      <button id="themeToggle" class="theme-toggle-btn" onclick="toggleTheme()">🌙</button>
+    </div>
     <h1 id="appTitle">HSK Flashcards</h1>
     <p id="appSubtitle">Học từ vựng HSK · Bộ thủ · pinyin · nghĩa tiếng Việt · câu ví dụ</p>
   </div>
@@ -78,12 +82,14 @@
         </div>
         <div class="daily-goal-message" id="dailyGoalMessage">Học 10 từ để hoàn thành mục tiêu hôm nay.</div>
       </div>
-      <button class="quick-study-btn" id="quickStudyButton" type="button" onclick="quickStartLearning()">
-        Bắt đầu HSK1 <span aria-hidden="true">→</span>
-      </button>
-      <button class="quick-study-btn quick-study-btn--secondary" id="todayReviewButton" type="button" onclick="openTodayReviews()" hidden>
-        📅 Ôn hôm nay <span class="due-count-badge" id="todayDueCount">0</span>
-      </button>
+      <div class="daily-goal-actions">
+        <button class="quick-study-btn" id="quickStudyButton" type="button" onclick="quickStartLearning()">
+          Bắt đầu HSK1 <span aria-hidden="true">→</span>
+        </button>
+        <button class="quick-study-btn quick-study-btn--secondary" id="todayReviewButton" type="button" onclick="openTodayReviews()" hidden>
+          📅 Ôn hôm nay <span class="due-count-badge" id="todayDueCount">0</span>
+        </button>
+      </div>
     </div>
 
     <div class="learning-totals" aria-label="Tổng quan tiến trình học">
@@ -104,6 +110,8 @@
         <div class="primary-menu-section-title">Công cụ học</div>
         <button id="primaryTabRadicals" class="primary-tab" type="button" aria-pressed="false"
           aria-controls="screenRadicalHub" onclick="setPrimaryTab('radicals')">部 Bộ thủ</button>
+        <button class="primary-tab primary-menu-radical-lookup" type="button"
+          onclick="openRadicalDirectory()">⌕ Tra cứu 214 bộ thủ</button>
         <div class="primary-menu-section-title primary-menu-section-title--games">Trò chơi</div>
         <button id="primaryTabSentenceGame" class="primary-tab" type="button" aria-pressed="false"
           aria-controls="screenSentenceGame" onclick="setPrimaryTab('sentenceGame')">🧩 Xếp câu</button>

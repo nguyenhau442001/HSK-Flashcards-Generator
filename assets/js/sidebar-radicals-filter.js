@@ -1,8 +1,8 @@
 // Compact desktop entry point into the searchable 214-radical directory.
+// Below 1280px the same entry lives in the "Công cụ" menu instead (.primary-menu-radical-lookup).
 function initSidebarRadicalsFilter() {
-  const mount = document.body.classList.contains('is-desktop-dock')
-    ? document.getElementById('workstationLeft')
-    : document.getElementById('mobileDockDialogBody');
+  if (!document.body.classList.contains('is-desktop-dock')) return;
+  const mount = document.getElementById('workstationLeft');
   if (!mount) return;
 
   const wrap = document.createElement('section');

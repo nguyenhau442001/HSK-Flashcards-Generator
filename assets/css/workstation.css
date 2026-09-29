@@ -158,23 +158,10 @@
 }
 #weakWordToggleBtn.active { color: var(--accent); }
 
-.mobile-dock-trigger { display: none; }
 .mobile-dock-dialog { display: none; }
 
 @media (max-width: 1279px) {
   .app { max-width: 760px; }
-  .mobile-dock-trigger {
-    display: block;
-    width: calc(100% - 32px);
-    margin: 16px;
-    padding: 10px;
-    border-radius: var(--radius-md);
-    border: 1px solid var(--border);
-    background: var(--card-bg);
-    color: var(--text-primary);
-    font-size: 14px;
-    cursor: pointer;
-  }
   .mobile-dock-dialog[open] {
     display: block;
     width: min(90vw, 480px);
@@ -191,12 +178,18 @@
     position: sticky;
     top: 0;
     float: right;
+    width: 44px;
+    height: 44px;
+    margin: -8px -8px 4px 0;
     border: none;
     background: transparent;
     font-size: 16px;
     cursor: pointer;
     color: var(--text-secondary);
   }
+  .mobile-dock-close:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: var(--radius-md); }
+  /* Keep the search field below the close button instead of covering it. */
+  #mobileDockDialogBody { clear: both; }
   .workstation-left, .workstation-right { display: none; }
 
   details.stroke-canvas-panel,

@@ -42,11 +42,18 @@
 .primary-menu-section-title--games { margin-top: 4px; border-top: 1px solid var(--border); padding-top: 9px; }
 .primary-games-menu-panel .primary-tab { justify-content: flex-start; white-space: normal; border-color: transparent; }
 .primary-games-menu-panel .primary-tab.active { border-color: var(--accent); }
-@media (max-width: 520px) {
-  .primary-tabs { gap: 6px; }
-  .primary-tabs > .primary-tab { flex: 1 1 calc(50% - 6px); }
-  .primary-games-menu { flex: 1 1 calc(50% - 6px); }
-  .primary-menu-trigger { justify-content: center; }
+.primary-menu-radical-lookup { display: none; }
+@media (max-width: 1279px) {
+  .primary-tabs > .primary-tab,
+  .primary-menu-trigger { min-height: 44px; }
+  .primary-games-menu-panel .primary-menu-radical-lookup { display: flex; }
+}
+@media (max-width: 767px) {
+  .primary-tabs { flex-wrap: nowrap; gap: 6px; }
+  .primary-tabs > .primary-tab,
+  .primary-games-menu { flex: 1 1 0; min-width: 0; }
+  .primary-tabs > .primary-tab,
+  .primary-menu-trigger { min-height: 44px; padding-inline: 6px; justify-content: center; }
 }
 
 .radical-tabs { margin-bottom: 4px; }
