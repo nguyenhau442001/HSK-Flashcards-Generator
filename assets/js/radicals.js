@@ -82,6 +82,7 @@ function setPrimaryTab(tab) {
   if (previousTab === 'review' && tab !== 'review') {
     abandonReviewSession();
   }
+  syncHomeScreen();
 }
 
 async function openRadicalDirectory() {

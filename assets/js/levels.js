@@ -490,6 +490,7 @@ function renderLearningDashboard() {
     quickButton.dataset.level = target.level;
     quickButton.innerHTML = `${complete ? 'Ôn lại' : target.studied > 0 ? 'Tiếp tục' : 'Bắt đầu'} ${LEVELS[target.level].label} <span aria-hidden="true">→</span>`;
   }
+  invalidateHomeWidgets();
 }
 
 function quickStartLearning() {

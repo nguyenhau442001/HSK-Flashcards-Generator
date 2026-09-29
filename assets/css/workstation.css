@@ -32,9 +32,15 @@
     align-self: start;
     position: sticky;
     top: 16px;
-    visibility: hidden;
   }
-  body.has-active-study-word .workstation-right { visibility: visible; }
+  /* Home widgets are taller than the viewport, so the sidebar scrolls with the page there. */
+  body.home-screen .workstation-right { position: static; }
+  /* Right column: home widgets until a word is picked, then stroke order + grammar. */
+  .workstation-right > .stroke-canvas-panel,
+  .workstation-right > .grammar-breakdown-panel { display: none; }
+  body.has-active-study-word .workstation-right > .stroke-canvas-panel,
+  body.has-active-study-word .workstation-right > .grammar-breakdown-panel { display: flex; }
+  body.has-active-study-word .home-widgets { display: none; }
   .sidebar-radicals-filter,
   .weak-words-panel,
   .stroke-canvas-panel,

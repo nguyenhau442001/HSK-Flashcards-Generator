@@ -46,14 +46,15 @@ async function loadTodayReviewQueue() {
 }
 
 let todayReviewRevealed = false;
+let todayReviewDoneMessage = 'Không còn thẻ đến hạn hôm nay.';
 
 function renderTodayReviewCard() {
   const area = document.getElementById('todayReviewCardArea');
   const progressNode = document.getElementById('todayReviewProgress');
   todayReviewRevealed = false;
   if (todayReviewIndex >= todayReviewQueue.length) {
-    progressNode.textContent = 'Đã ôn xong tất cả thẻ đến hạn.';
-    area.innerHTML = '<div class="today-review-empty">🎉 Không còn thẻ đến hạn hôm nay.</div>';
+    progressNode.textContent = 'Đã ôn xong tất cả thẻ trong lượt này.';
+    area.innerHTML = '<div class="today-review-empty">🎉 ' + escapeHtml(todayReviewDoneMessage) + '</div>';
     renderLearningDashboard();
     return;
   }
@@ -102,8 +103,15 @@ function rateTodayReview(rating) {
   renderTodayReviewCard();
 }
 
-async function openTodayReviews() {
+function openTodayReviews() {
+  return openReviewQueue('📅 Ôn hôm nay', loadTodayReviewQueue, 'Không còn thẻ đến hạn hôm nay.');
+}
+
+// Shared by "Ôn hôm nay" and the home widgets' quick review; loadQueue resolves to [{ level, word, card, due }].
+async function openReviewQueue(title, loadQueue, doneMessage) {
   setActiveStudyWord(null);
+  document.getElementById('todayReviewTitle').textContent = title;
+  todayReviewDoneMessage = doneMessage;
   const hub = document.getElementById('screenVocabHub');
   const cards = document.getElementById('screenCards');
   const reviewScreen = document.getElementById('screenTodayReviews');
@@ -114,8 +122,9 @@ async function openTodayReviews() {
   document.getElementById('pickerControls').style.display = 'none';
   document.getElementById('learningDashboard').style.display = 'none';
   document.getElementById('todayReviewCardArea').innerHTML = '<div class="loading-text">Đang tìm thẻ đến hạn...</div>';
+  syncHomeScreen();
   try {
-    todayReviewQueue = await loadTodayReviewQueue();
+    todayReviewQueue = await loadQueue();
     todayReviewIndex = 0;
     renderTodayReviewCard();
   } catch (error) {
@@ -131,6 +140,7 @@ function closeTodayReviews() {
   document.getElementById('pickerControls').style.display = '';
   document.getElementById('learningDashboard').style.display = '';
   renderLearningDashboard();
+  syncHomeScreen();
 }
 
 document.addEventListener('keydown', event => {
