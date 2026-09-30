@@ -1,4 +1,4 @@
-// Lazy, per-card memory curve rendering using ts-fsrs retrievability.
+// Per-card memory recall projection using ts-fsrs retrievability.
 const CURVE_RATING_COLORS = { again: '#d94d4d', hard: '#e58b32', good: '#3b9b68', easy: '#4385d1' };
 
 function openCurrentMemoryCurve() {
@@ -26,9 +26,9 @@ function curveCardAt(stability, difficulty, reviewedAt) {
   return card;
 }
 
-function buildCurveSvg(card, logs, retention) {
-  const width = 760, height = 340;
-  const left = 54, right = 22, top = 22, bottom = 48;
+function buildCurveSvg(card, logs, retention, compact = false) {
+  const width = compact ? 360 : 760, height = compact ? 220 : 340;
+  const left = compact ? 40 : 54, right = compact ? 12 : 22, top = compact ? 20 : 22, bottom = compact ? 34 : 48;
   const plotWidth = width - left - right;
   const plotHeight = height - top - bottom;
   const now = new Date();
@@ -81,10 +81,13 @@ function buildCurveSvg(card, logs, retention) {
     return `<circle class="curve-review-point" cx="${x(entry.date)}" cy="${y(retrievability)}" r="5" fill="${color}"
       tabindex="0" role="button" aria-label="${escapeHtml(tooltip)}" data-tooltip="${escapeHtml(tooltip)}"><title>${escapeHtml(tooltip)}</title></circle>`;
   }).join('');
-  const dateLabels = `<text x="${left}" y="${height - 12}">${escapeHtml(formatCurveDate(start))}</text>
-    <text x="${width - right}" y="${height - 12}" text-anchor="end">${escapeHtml(formatCurveDate(end))}</text>`;
+  const dateFormatter = compact
+    ? new Intl.DateTimeFormat('vi-VN', { day: 'numeric', month: 'numeric' })
+    : { format: formatCurveDate };
+  const dateLabels = `<text x="${left}" y="${height - 8}">${escapeHtml(dateFormatter.format(start))}</text>
+    <text x="${width - right}" y="${height - 8}" text-anchor="end">${escapeHtml(dateFormatter.format(end))}</text>`;
 
-  return `<svg class="memory-curve-svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="Đường cong retrievability của từ vựng">
+  return `<svg class="memory-curve-svg${compact ? ' is-compact' : ''}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Biểu đồ dự đoán khả năng nhớ từ vựng theo thời gian">
     ${grid}
     <line class="curve-retention-line" x1="${left}" y1="${retentionY}" x2="${width - right}" y2="${retentionY}" />
     <text class="curve-retention-label" x="${width - right - 2}" y="${retentionY - 5}" text-anchor="end">Mục tiêu ${Math.round(retention * 100)}%</text>
@@ -96,6 +99,62 @@ function buildCurveSvg(card, logs, retention) {
     ${dateLabels}
   </svg>`;
 }
+
+function renderMemoryCurvePanel(word) {
+  const panel = document.getElementById('memoryCurvePanel');
+  if (!panel) return;
+  const chart = panel.querySelector('.memory-curve-panel-chart');
+  const subtitle = panel.querySelector('.memory-curve-panel-word');
+  const summary = panel.querySelector('.memory-curve-panel-summary');
+  if (!word || !currentLevel) {
+    panel.classList.add('is-empty');
+    subtitle.textContent = '';
+    summary.textContent = 'Chọn một từ để xem ước tính ghi nhớ.';
+    chart.innerHTML = '';
+    return;
+  }
+
+  const wordId = String(word.id);
+  const record = readSrsRecord(currentLevel);
+  const card = srsCards[wordId] || record?.cards?.[wordId] || SRS.createNewCard();
+  const logs = readSrsReviewLog(currentLevel).filter(entry => String(entry.wordId) === wordId
+    && (!card.historyStartAt || new Date(entry.timestamp) >= new Date(card.historyStartAt)));
+  subtitle.textContent = `${word.hanzi} · ${word.pinyin || ''} — ${word.meaning || ''}`;
+
+  if (!logs.length || card.state === SRS.State.New) {
+    panel.classList.add('is-empty');
+    summary.textContent = 'Ôn từ này ít nhất một lần để xem dự đoán khả năng nhớ. Đường liền là lịch sử ôn; đường nét đứt là dự đoán.';
+    chart.innerHTML = '<div class="memory-curve-empty">Biểu đồ sẽ có dữ liệu sau lượt ôn đầu tiên.</div>';
+    return;
+  }
+
+  panel.classList.remove('is-empty');
+  const recall = SRS.retrievability(card, new Date(), srsRetention);
+  const due = new Date(card.due);
+  summary.textContent = `Ước tính hiện nhớ ${formatCurvePercent(recall)} · Ôn tiếp: ${Number.isFinite(due.getTime()) ? formatCurveDate(due) : 'chưa lên lịch'}.`;
+  chart.innerHTML = buildCurveSvg(card, logs, srsRetention, true);
+}
+
+function initMemoryCurvePanel() {
+  const desktop = document.body.classList.contains('is-desktop-dock');
+  const mount = desktop ? document.getElementById('workstationRight') : document.getElementById('screenCards');
+  if (!mount) return;
+  const panel = document.createElement('section');
+  panel.id = 'memoryCurvePanel';
+  panel.className = 'memory-curve-panel';
+  panel.setAttribute('aria-labelledby', 'memoryCurvePanelTitle');
+  panel.innerHTML = `
+    <h2 id="memoryCurvePanelTitle">Khả năng nhớ từ này theo thời gian</h2>
+    <p class="memory-curve-panel-word"></p>
+    <p class="memory-curve-panel-summary">Chọn một từ để xem ước tính ghi nhớ.</p>
+    <div class="memory-curve-panel-chart"></div>
+    <div class="memory-curve-panel-key"><span><i></i>Lịch sử ôn</span><span class="is-prediction"><i></i>Dự đoán</span></div>`;
+  mount.appendChild(panel);
+  onActiveWordChange(renderMemoryCurvePanel);
+  renderMemoryCurvePanel(activeStudyWord);
+}
+
+document.addEventListener('DOMContentLoaded', initMemoryCurvePanel);
 
 function showCurvePointTooltip(event) {
   const tooltip = document.getElementById('memoryCurveTooltip');
@@ -136,16 +195,17 @@ function openMemoryCurve(level, wordId) {
   modal.innerHTML = `
     <section class="memory-curve-dialog" role="dialog" aria-modal="true" aria-labelledby="memoryCurveTitle">
       <button type="button" class="memory-curve-close" onclick="closeMemoryCurve()" aria-label="Đóng">✕</button>
-      <h2 id="memoryCurveTitle">📈 Đường cong ghi nhớ · ${escapeHtml(targetWord.hanzi)}</h2>
+      <h2 id="memoryCurveTitle">📈 Khả năng nhớ theo thời gian · ${escapeHtml(targetWord.hanzi)}</h2>
       <p class="memory-curve-subtitle">${escapeHtml(targetWord.pinyin)} · ${escapeHtml(targetWord.meaning)}</p>
+      <p class="memory-curve-note">Biểu đồ ước tính khả năng nhớ từ này theo thời gian. Đường liền là lịch sử ôn; đường nét đứt là dự đoán nếu bạn chưa ôn lại.</p>
       ${noHistory ? '<p class="memory-curve-note">Chưa có lịch sử ôn; biểu đồ chỉ hiển thị đường dự kiến từ hôm nay.</p>' : ''}
       <div class="memory-curve-chart-wrap">${buildCurveSvg(card, logs, srsRetention)}<div id="memoryCurveTooltip" class="memory-curve-tooltip" hidden></div></div>
       <div class="memory-curve-legend">
-        <span><i class="curve-line-swatch"></i> Quá khứ</span><span><i class="curve-line-swatch future"></i> Dự kiến</span>
-        <span><i class="curve-dot" style="--dot:${CURVE_RATING_COLORS.again}"></i> Again</span>
-        <span><i class="curve-dot" style="--dot:${CURVE_RATING_COLORS.hard}"></i> Hard</span>
-        <span><i class="curve-dot" style="--dot:${CURVE_RATING_COLORS.good}"></i> Good</span>
-        <span><i class="curve-dot" style="--dot:${CURVE_RATING_COLORS.easy}"></i> Easy</span>
+        <span><i class="curve-line-swatch"></i> Lịch sử ôn</span><span><i class="curve-line-swatch future"></i> Dự đoán</span>
+        <span><i class="curve-dot" style="--dot:${CURVE_RATING_COLORS.again}"></i> Quên</span>
+        <span><i class="curve-dot" style="--dot:${CURVE_RATING_COLORS.hard}"></i> Khó</span>
+        <span><i class="curve-dot" style="--dot:${CURVE_RATING_COLORS.good}"></i> Đúng</span>
+        <span><i class="curve-dot" style="--dot:${CURVE_RATING_COLORS.easy}"></i> Dễ</span>
       </div>
       <dl class="memory-curve-stats">
         <div><dt>Stability</dt><dd>${Number(card.stability).toFixed(1)} ngày</dd></div>

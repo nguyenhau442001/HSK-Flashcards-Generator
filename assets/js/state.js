@@ -21,21 +21,21 @@ const LEVELS = {
 };
 Object.keys(LEVELS).forEach(key => { LEVELS[key].version = '2.0'; });
 
-// HSK 3.0 levels (new exam format, effective Dec 2026): 9 levels in 3 bands
+// HSK 3.0 levels (2025 exam syllabus): 9 exam levels in 3 bands
 // (Sơ cấp 1–3, Trung cấp 4–6, Cao cấp 7–9). Separate syllabus from 2.0 above —
 // data/progress never overlap since keys (hsk30_N) share no prefix with hsk1..hsk6.
-// `total` is populated once each level's vocab JSON is actually filled in;
-// levels still at 0 words stay `available: false` (placeholder, "Sắp có").
+// Exam levels 7–9 share the same advanced vocabulary list in the syllabus;
+// separate copies preserve the app's per-level progress storage.
 const LEVELS_HSK30 = {
-  hsk30_1: { label: 'HSK 3.0 – 1', band: 'Sơ cấp', dataUrl: 'database/vocabs/hsk3_0/level1_vocabularies.json', available: true, total: 500, version: '3.0' },
-  hsk30_2: { label: 'HSK 3.0 – 2', band: 'Sơ cấp', dataUrl: 'database/vocabs/hsk3_0/level2_vocabularies.json', available: true, total: 300, version: '3.0' },
-  hsk30_3: { label: 'HSK 3.0 – 3', band: 'Sơ cấp', dataUrl: 'database/vocabs/hsk3_0/level3_vocabularies.json', available: true, total: 600, version: '3.0' },
-  hsk30_4: { label: 'HSK 3.0 – 4', band: 'Trung cấp', dataUrl: 'database/vocabs/hsk3_0/level4_vocabularies.json', available: false, total: 0, version: '3.0' },
-  hsk30_5: { label: 'HSK 3.0 – 5', band: 'Trung cấp', dataUrl: 'database/vocabs/hsk3_0/level5_vocabularies.json', available: false, total: 0, version: '3.0' },
-  hsk30_6: { label: 'HSK 3.0 – 6', band: 'Trung cấp', dataUrl: 'database/vocabs/hsk3_0/level6_vocabularies.json', available: false, total: 0, version: '3.0' },
-  hsk30_7: { label: 'HSK 3.0 – 7', band: 'Cao cấp', dataUrl: 'database/vocabs/hsk3_0/level7_vocabularies.json', available: false, total: 0, version: '3.0' },
-  hsk30_8: { label: 'HSK 3.0 – 8', band: 'Cao cấp', dataUrl: 'database/vocabs/hsk3_0/level8_vocabularies.json', available: false, total: 0, version: '3.0' },
-  hsk30_9: { label: 'HSK 3.0 – 9', band: 'Cao cấp', dataUrl: 'database/vocabs/hsk3_0/level9_vocabularies.json', available: false, total: 0, version: '3.0' },
+  hsk30_1: { label: 'HSK 3.0 – 1', band: 'Sơ cấp', dataUrl: 'database/vocabs/hsk3_0/level1_vocabularies.json', available: true, total: 300, version: '3.0' },
+  hsk30_2: { label: 'HSK 3.0 – 2', band: 'Sơ cấp', dataUrl: 'database/vocabs/hsk3_0/level2_vocabularies.json', available: true, total: 200, version: '3.0' },
+  hsk30_3: { label: 'HSK 3.0 – 3', band: 'Sơ cấp', dataUrl: 'database/vocabs/hsk3_0/level3_vocabularies.json', available: true, total: 500, version: '3.0' },
+  hsk30_4: { label: 'HSK 3.0 – 4', band: 'Trung cấp', dataUrl: 'database/vocabs/hsk3_0/level4_vocabularies.json', available: true, total: 1000, version: '3.0' },
+  hsk30_5: { label: 'HSK 3.0 – 5', band: 'Trung cấp', dataUrl: 'database/vocabs/hsk3_0/level5_vocabularies.json', available: true, total: 1600, version: '3.0' },
+  hsk30_6: { label: 'HSK 3.0 – 6', band: 'Trung cấp', dataUrl: 'database/vocabs/hsk3_0/level6_vocabularies.json', available: true, total: 1800, version: '3.0' },
+  hsk30_7: { label: 'HSK 3.0 – 7', band: 'Cao cấp', dataUrl: 'database/vocabs/hsk3_0/level7_vocabularies.json', available: true, total: 5600, version: '3.0', sharedVocabularyGroup: '7–9' },
+  hsk30_8: { label: 'HSK 3.0 – 8', band: 'Cao cấp', dataUrl: 'database/vocabs/hsk3_0/level8_vocabularies.json', available: true, total: 5600, version: '3.0', sharedVocabularyGroup: '7–9' },
+  hsk30_9: { label: 'HSK 3.0 – 9', band: 'Cao cấp', dataUrl: 'database/vocabs/hsk3_0/level9_vocabularies.json', available: true, total: 5600, version: '3.0', sharedVocabularyGroup: '7–9' },
 };
 Object.assign(LEVELS, LEVELS_HSK30);
 

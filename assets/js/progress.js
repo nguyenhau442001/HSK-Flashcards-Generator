@@ -71,8 +71,17 @@ function advanceAfterMark(prevWIdx) {
 function togglePinyin() {
   showPinyin = !showPinyin;
   const btn = document.getElementById('pinyinToggle');
-  btn.textContent = showPinyin ? '👁 Đang hiện pinyin' : '🙈 Chế độ thử thách: ẩn pinyin';
-  btn.classList.toggle('on', !showPinyin);
+  if (btn) {
+    const icon = document.getElementById('pinyinToggleIcon');
+    if (icon) {
+      icon.textContent = showPinyin ? '👁' : '🙈';
+      btn.title = showPinyin ? 'Ẩn pinyin' : 'Hiện pinyin';
+      btn.setAttribute('aria-label', showPinyin ? 'Ẩn pinyin' : 'Hiện pinyin');
+    } else {
+      btn.textContent = showPinyin ? '👁 Đang hiện pinyin' : '🙈 Chế độ thử thách: ẩn pinyin';
+    }
+    btn.classList.toggle('on', !showPinyin);
+  }
   savePrefs();
   render();
 }

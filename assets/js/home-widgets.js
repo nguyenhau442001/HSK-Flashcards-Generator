@@ -2,10 +2,15 @@
 // Desktop (≥1280px) mounts them in the right sidebar; smaller screens place them in the vocab hub
 // below the level grid. Data is recomputed once per progress change, and only while home is visible.
 const HOME_WORD_OF_DAY_KEY = 'hsk_word_of_day_v1';
+// Keep the daily suggestion stable even when older imported decks have stale translations.
+const HOME_WORD_DATA_FIXES = {
+  '算法': { pinyin: 'suànfǎ', meaning: 'thuật toán' },
+  '右边': { pinyin: 'yòubian', meaning: 'bên phải' },
+};
 const HOME_WEEKDAY_SHORT = ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'];
 const HOME_WEEKDAY_LONG = ['Chủ nhật', 'Thứ 2', 'Thứ 3', 'Thứ 4', 'Thứ 5', 'Thứ 6', 'Thứ 7'];
 const HOME_HEATMAP_WEEKS = 12;
-const HOME_FORECAST_BAR_HEIGHT = 84;
+const HOME_FORECAST_BAR_HEIGHT = 68;
 const HOME_SPEAKER_ICON = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
 
 let homeWidgetsDirty = true;
@@ -24,6 +29,9 @@ function loadHomeVocab(level) {
         if (!response.ok) throw new Error('fetch failed');
         return response.json();
       })
+      .then(words => words.map(word => HOME_WORD_DATA_FIXES[word.hanzi]
+        ? { ...word, ...HOME_WORD_DATA_FIXES[word.hanzi] }
+        : word))
       .catch(error => {
         delete homeVocabCache[level];
         throw error;
@@ -48,6 +56,18 @@ function homeCardHead(title, meta) {
 
 function homeEmptyState(text) {
   return homeElement('p', 'hw-empty', text);
+}
+
+function homeForgottenEmptyState() {
+  const state = homeElement('div', 'hw-forgot-empty');
+  state.setAttribute('role', 'status');
+  state.innerHTML = '<span class="hw-forgot-empty-icon" aria-hidden="true">🏅</span>';
+  const copy = homeElement('p', 'hw-forgot-empty-copy', 'Tuyệt vời! Không có từ tồn đọng');
+  const button = homeElement('button', 'hw-outline-btn', 'Học thêm từ mới');
+  button.type = 'button';
+  button.addEventListener('click', quickStartLearning);
+  state.append(copy, button);
+  return state;
 }
 
 // Examples mark the target word with <u>; keep that emphasis without trusting the markup.
@@ -106,11 +126,11 @@ function collectHomeSnapshot(now) {
 
 // ---- Từ của ngày -------------------------------------------------------------
 
-async function pickWordOfDay(snapshot) {
+async function pickWordOfDay(snapshot, forceRefresh = false) {
   const today = localDateKey(snapshot.now);
   let saved = null;
   try { saved = JSON.parse(localStorage.getItem(HOME_WORD_OF_DAY_KEY)); } catch (e) {}
-  if (saved && saved.date === today && LEVELS[saved.level] && LEVELS[saved.level].available) {
+  if (!forceRefresh && saved && saved.date === today && LEVELS[saved.level] && LEVELS[saved.level].available) {
     const words = await loadHomeVocab(saved.level);
     const word = words.find(item => item.id === saved.wordId);
     if (word) return { level: saved.level, word };
@@ -129,15 +149,21 @@ async function pickWordOfDay(snapshot) {
   const learning = words.filter(word => legacy
     ? legacy[word.id] === 'unknown'
     : isHomeLearningCard(cards[word.id]));
-  const pool = unseen.length ? unseen : learning.length ? learning : words;
-  const word = pool[homeHash(today + '|' + level) % pool.length];
+  const pool = forceRefresh ? words : unseen.length ? unseen : learning.length ? learning : words;
+  const candidates = forceRefresh && saved && saved.level === level
+    ? pool.filter(candidate => candidate.id !== saved.wordId)
+    : pool;
+  const source = candidates.length ? candidates : pool;
+  const word = forceRefresh
+    ? source[Math.floor(Math.random() * source.length)]
+    : source[homeHash(today + '|' + level) % source.length];
   try {
     localStorage.setItem(HOME_WORD_OF_DAY_KEY, JSON.stringify({ date: today, level, wordId: word.id }));
   } catch (e) {}
   return { level, word };
 }
 
-async function renderWordOfDay(snapshot, renderId) {
+async function renderWordOfDay(snapshot, renderId, forceRefresh = false) {
   const section = document.getElementById('hwWordOfDay');
   if (!section) return;
   if (!section.childElementCount) {
@@ -146,7 +172,7 @@ async function renderWordOfDay(snapshot, renderId) {
 
   let pick;
   try {
-    pick = await pickWordOfDay(snapshot);
+    pick = await pickWordOfDay(snapshot, forceRefresh);
   } catch (e) {
     pick = undefined;
   }
@@ -155,6 +181,13 @@ async function renderWordOfDay(snapshot, renderId) {
 
   const head = homeElement('div', 'hw-head');
   head.appendChild(homeElement('h2', 'hw-eyebrow', 'Từ của ngày'));
+  const refresh = homeElement('button', 'hw-refresh-btn');
+  refresh.type = 'button';
+  refresh.setAttribute('aria-label', 'Đổi từ của ngày');
+  refresh.title = 'Đổi từ khác';
+  refresh.innerHTML = '<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 7v5h-5M4 17v-5h5"/><path d="M5.5 9A7 7 0 0 1 18 6l2 6M4 12l2 6a7 7 0 0 0 12.5-3"/></svg>';
+  refresh.addEventListener('click', () => renderWordOfDay(collectHomeSnapshot(new Date()), homeWidgetsRenderId, true));
+  head.appendChild(refresh);
   section.appendChild(head);
   if (!pick) {
     section.appendChild(homeEmptyState(pick === null ? 'Chưa có từ nào để gợi ý.' : 'Không tải được từ của ngày. Kiểm tra kết nối rồi thử lại.'));
@@ -343,6 +376,7 @@ function renderActivity(snapshot) {
 function topForgottenCards(snapshot, limit) {
   const items = [];
   Object.entries(snapshot.cardsByLevel).forEach(([level, cards]) => {
+    if (!level.startsWith('hsk')) return;
     Object.entries(cards).forEach(([id, card]) => {
       if (card && card.lapses > 0) items.push({ level, id, card });
     });
@@ -355,9 +389,7 @@ function topForgottenCards(snapshot, limit) {
 async function renderForgotten(snapshot, renderId) {
   const section = document.getElementById('hwForgotten');
   if (!section) return;
-  const hasReviewedCards = Object.values(snapshot.cardsByLevel)
-    .some(cards => Object.values(cards).some(card => card && card.state !== SRS.State.New));
-  const top = topForgottenCards(snapshot, 3);
+  const top = topForgottenCards(snapshot, 4);
 
   let items = [];
   let failed = false;
@@ -376,35 +408,40 @@ async function renderForgotten(snapshot, renderId) {
   if (renderId !== homeWidgetsRenderId) return;
 
   section.replaceChildren();
-  section.appendChild(homeCardHead('Từ hay quên', items.length ? 'Bấm để xem lại' : ''));
+  section.appendChild(homeCardHead('Từ cần ôn gấp', items.length ? 'Hay nhầm lẫn' : ''));
   if (failed) {
     section.appendChild(homeEmptyState('Không tải được danh sách từ. Kiểm tra kết nối rồi thử lại.'));
     return;
   }
   if (!items.length) {
-    section.appendChild(homeEmptyState(hasReviewedCards
-      ? 'Chưa có từ nào bị quên. Giữ phong độ này nhé!'
-      : 'Bắt đầu ôn để xem những từ hay quên.'));
+    section.appendChild(homeForgottenEmptyState());
     return;
   }
 
   const list = homeElement('div', 'hw-forgot-list');
   items.forEach(item => {
-    const row = homeElement('button', 'hw-forgot-row');
-    row.type = 'button';
-    row.setAttribute('aria-label', item.word.hanzi + ', ' + item.word.pinyin + ', ' + item.word.meaning + ', quên ' + item.card.lapses + ' lần');
+    const row = homeElement('div', 'hw-forgot-row');
+    const open = homeElement('button', 'hw-forgot-open');
+    open.type = 'button';
+    open.setAttribute('aria-label', 'Ôn ' + item.word.hanzi + ', ' + item.word.pinyin + ', ' + item.word.meaning);
     const hanzi = homeElement('span', 'hw-forgot-hanzi hw-cjk', item.word.hanzi);
     hanzi.lang = 'zh-CN';
     const text = homeElement('span', 'hw-forgot-text');
     text.appendChild(homeElement('span', 'hw-forgot-pinyin', item.word.pinyin));
     text.appendChild(homeElement('span', 'hw-forgot-meaning', item.word.meaning));
-    row.append(hanzi, text, homeElement('span', 'hw-lapse-pill', 'quên ' + item.card.lapses + '×'));
-    row.addEventListener('click', () => openWordInLevel(item.level, item.word.id));
+    open.append(hanzi, text, homeElement('span', 'hw-level-pill', homeShortLevelLabel(item.level)), homeElement('span', 'hw-lapse-pill', item.card.lapses + '×'));
+    open.addEventListener('click', () => openWordInLevel(item.level, item.word.id));
+    const speak = homeElement('button', 'hw-review-speak hw-icon-btn');
+    speak.type = 'button';
+    speak.setAttribute('aria-label', 'Nghe ' + item.word.hanzi);
+    speak.innerHTML = HOME_SPEAKER_ICON;
+    speak.addEventListener('click', () => speakText(item.word.hanzi, speak, SPEECH_RATE));
+    row.append(open, speak);
     list.appendChild(row);
   });
   section.appendChild(list);
 
-  const review = homeElement('button', 'hw-outline-btn', 'Ôn nhanh ' + items.length + ' từ này');
+  const review = homeElement('button', 'hw-primary-btn', '⚡ Ôn tập ngay (' + items.length + ' từ)');
   review.type = 'button';
   review.addEventListener('click', () => openForgottenReview(items));
   section.appendChild(review);

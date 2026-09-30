@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HSK Flashcards - Học từ vựng HSK1-6</title>
+<title>HSK Flashcards - Học từ vựng HSK1–9</title>
 <link rel="manifest" href="config/pwa-manifest.json">
 <link rel="icon" href="assets/images/favicon.png"> <!-- favicon: tab/bookmark, simplified for small size -->
 <link rel="apple-touch-icon" href="assets/images/icon-512.png"> <!-- iOS home screen shortcut icon -->
@@ -12,11 +12,12 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="HSK Flashcards">
-<link rel="stylesheet" href="assets/flashcards.css?v=20260929-home1">
-<link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20260929-home1">
-<link rel="stylesheet" href="assets/css/workstation.css?v=20260929-home1">
-<link rel="stylesheet" href="assets/css/sidebar-lab.css?v=20260929-home1">
-<link rel="stylesheet" href="assets/css/home-widgets.css?v=20260929-home1">
+<link rel="stylesheet" href="assets/flashcards.css?v=20260929-studyview1">
+<link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20260929-studyview1">
+<link rel="stylesheet" href="assets/css/workstation.css?v=20260929-studyview1">
+<link rel="stylesheet" href="assets/css/sidebar-lab.css?v=20260929-studyview1">
+<link rel="stylesheet" href="assets/css/home-widgets.css?v=20260929-studyview1">
+<link rel="stylesheet" href="assets/css/dashboard-enhancements.css?v=20260929-studyview1">
 <script>(function(){var t=localStorage.getItem('hsk_theme');if(t)document.documentElement.dataset.theme=t;})();</script>
 <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js');});}</script>
 </head>
@@ -53,10 +54,13 @@
     <div class="learning-dashboard-header">
       <div>
         <div class="learning-dashboard-eyebrow">🎯 MỤC TIÊU HỌC TẬP</div>
-        <h2 id="learningDashboardTitle">Mỗi ngày một chút, nhớ lâu hơn</h2>
+        <div class="learning-title-row">
+          <h2 id="learningDashboardTitle">Mỗi ngày một chút, nhớ lâu hơn</h2>
+          <button class="goal-settings-btn" type="button" aria-label="Sửa mục tiêu học mỗi ngày" title="Sửa mục tiêu" onclick="focusDailyGoalSelector()">⚙️</button>
+        </div>
       </div>
       <div class="learning-dashboard-header-right">
-        <button class="history-trigger" type="button" onclick="showHistoryModal()">Xem lịch sử học tập 📊</button>
+        <button class="history-trigger" type="button" onclick="showHistoryModal()">Lịch sử học tập <span aria-hidden="true">↗</span></button>
         <div class="learning-streak" id="learningStreak">🔥 0 ngày học</div>
       </div>
     </div>
@@ -99,6 +103,15 @@
     </div>
   </section>
 
+  <section class="continue-learning-card" id="continueLearningCard" aria-labelledby="continueLearningTitle">
+    <div class="continue-learning-copy">
+      <span class="dashboard-kicker">▶ TIẾP TỤC BÀI HỌC</span>
+      <h2 id="continueLearningTitle">Đang tìm bài học phù hợp…</h2>
+      <p id="continueLearningProgress">Tiến độ sẽ được cập nhật theo dữ liệu học của bạn.</p>
+    </div>
+    <button class="dashboard-primary-btn" type="button" onclick="quickStartLearning()">Tiếp tục học ngay <span aria-hidden="true">→</span></button>
+  </section>
+
   <nav class="primary-tabs" id="primaryTabs" aria-label="Chế độ học">
     <button id="primaryTabVocab" class="primary-tab active" type="button" aria-pressed="true"
       aria-controls="screenVocabHub" onclick="setPrimaryTab('vocab')">📚 Từ vựng</button>
@@ -132,12 +145,13 @@
         <button id="vocabSubTabTopic" class="view-tab" role="tab" aria-selected="false"
           aria-controls="screenTopicPicker" onclick="setVocabSubTab('topic')">Theo chủ đề</button>
       </div>
-      <div class="view-tabs" id="pickerVersionControls" role="tablist" aria-label="Phiên bản HSK">
-        <button id="pickerVersionTab20" class="view-tab active" role="tab" aria-selected="true"
-          aria-controls="levelGrid20" onclick="setPickerVersion('2.0')">HSK 2.0</button>
-        <button id="pickerVersionTab30" class="view-tab" role="tab" aria-selected="false"
-          aria-controls="levelGrid30" onclick="setPickerVersion('3.0')">HSK 3.0</button>
-      </div>
+      <label class="picker-version-control" id="pickerVersionControls" for="pickerVersionSelect">
+        <span>Phiên bản</span>
+        <select id="pickerVersionSelect" aria-label="Phiên bản HSK" onchange="setPickerVersion(this.value)">
+          <option value="2.0" selected>HSK 2.0</option>
+          <option value="3.0">HSK 3.0</option>
+        </select>
+      </label>
     </div>
     <div id="screenPicker">
       <div id="welcomeToast" class="welcome-toast" role="status" aria-live="polite" hidden>
@@ -146,50 +160,98 @@
 
       <div id="levelGrid20" class="level-grid">
         <div class="level-card" data-level="hsk1">
-          <div class="lvl-num">HSK1</div>
-          <div class="lvl-label">Sơ cấp</div>
-          <div class="lvl-count">150 từ</div>
-          <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk1"></div></div>
+          <div class="level-card-top">
+            <div class="level-card-heading"><div class="lvl-num">HSK1</div></div>
+            <div class="level-card-meta"><span class="lvl-label">Sơ cấp</span><span aria-hidden="true">·</span><span class="lvl-count">150 từ</span></div>
+          </div>
+          <div class="level-card-progress">
+            <div class="level-card-progress-heading"><strong class="lvl-percent-value">0%</strong><span class="lvl-today-count" id="today-hsk1">+0 từ hôm nay</span></div>
+            <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk1"></div></div>
+          </div>
           <div class="lvl-mastery-text" id="text-hsk1"></div>
         </div>
         <div class="level-card" data-level="hsk2">
-          <div class="lvl-num">HSK2</div>
-          <div class="lvl-label">Sơ cấp</div>
-          <div class="lvl-count">150 từ</div>
-          <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk2"></div></div>
+          <div class="level-card-top">
+            <div class="level-card-heading"><div class="lvl-num">HSK2</div></div>
+            <div class="level-card-meta"><span class="lvl-label">Sơ cấp</span><span aria-hidden="true">·</span><span class="lvl-count">150 từ</span></div>
+          </div>
+          <div class="level-card-progress">
+            <div class="level-card-progress-heading"><strong class="lvl-percent-value">0%</strong><span class="lvl-today-count" id="today-hsk2">+0 từ hôm nay</span></div>
+            <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk2"></div></div>
+          </div>
           <div class="lvl-mastery-text" id="text-hsk2"></div>
         </div>
         <div class="level-card" data-level="hsk3">
-          <div class="lvl-num">HSK3</div>
-          <div class="lvl-label">Trung cấp</div>
-          <div class="lvl-count">300 từ</div>
-          <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk3"></div></div>
+          <div class="level-card-top">
+            <div class="level-card-heading"><div class="lvl-num">HSK3</div></div>
+            <div class="level-card-meta"><span class="lvl-label">Trung cấp</span><span aria-hidden="true">·</span><span class="lvl-count">300 từ</span></div>
+          </div>
+          <div class="level-card-progress">
+            <div class="level-card-progress-heading"><strong class="lvl-percent-value">0%</strong><span class="lvl-today-count" id="today-hsk3">+0 từ hôm nay</span></div>
+            <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk3"></div></div>
+          </div>
           <div class="lvl-mastery-text" id="text-hsk3"></div>
         </div>
         <div class="level-card" data-level="hsk4">
-          <div class="lvl-num">HSK4</div>
-          <div class="lvl-label">Trung cấp</div>
-          <div class="lvl-count">600 từ</div>
-          <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk4"></div></div>
+          <div class="level-card-top">
+            <div class="level-card-heading"><div class="lvl-num">HSK4</div></div>
+            <div class="level-card-meta"><span class="lvl-label">Trung cấp</span><span aria-hidden="true">·</span><span class="lvl-count">600 từ</span></div>
+          </div>
+          <div class="level-card-progress">
+            <div class="level-card-progress-heading"><strong class="lvl-percent-value">0%</strong><span class="lvl-today-count" id="today-hsk4">+0 từ hôm nay</span></div>
+            <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk4"></div></div>
+          </div>
           <div class="lvl-mastery-text" id="text-hsk4"></div>
         </div>
         <div class="level-card" data-level="hsk5">
-          <div class="lvl-num">HSK5</div>
-          <div class="lvl-label">Cao cấp</div>
-          <div class="lvl-count">1300 từ</div>
-          <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk5"></div></div>
+          <div class="level-card-top">
+            <div class="level-card-heading"><div class="lvl-num">HSK5</div></div>
+            <div class="level-card-meta"><span class="lvl-label">Cao cấp</span><span aria-hidden="true">·</span><span class="lvl-count">1300 từ</span></div>
+          </div>
+          <div class="level-card-progress">
+            <div class="level-card-progress-heading"><strong class="lvl-percent-value">0%</strong><span class="lvl-today-count" id="today-hsk5">+0 từ hôm nay</span></div>
+            <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk5"></div></div>
+          </div>
           <div class="lvl-mastery-text" id="text-hsk5"></div>
         </div>
         <div class="level-card" data-level="hsk6">
-          <div class="lvl-num">HSK6</div>
-          <div class="lvl-label">Cao cấp</div>
-          <div class="lvl-count">2500 từ</div>
-          <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk6"></div></div>
+          <div class="level-card-top">
+            <div class="level-card-heading"><div class="lvl-num">HSK6</div></div>
+            <div class="level-card-meta"><span class="lvl-label">Cao cấp</span><span aria-hidden="true">·</span><span class="lvl-count">2500 từ</span></div>
+          </div>
+          <div class="level-card-progress">
+            <div class="level-card-progress-heading"><strong class="lvl-percent-value">0%</strong><span class="lvl-today-count" id="today-hsk6">+0 từ hôm nay</span></div>
+            <div class="lvl-mastery-track"><div class="lvl-mastery-fill" id="bar-hsk6"></div></div>
+          </div>
           <div class="lvl-mastery-text" id="text-hsk6"></div>
         </div>
       </div>
 
       <div id="levelGrid30" class="level-grid" style="display:none"></div>
+    </div>
+
+    <div class="dashboard-aux-column">
+      <section class="quick-quiz-card" aria-labelledby="quickQuizTitle">
+        <div class="quick-quiz-icon" aria-hidden="true">⚡</div>
+        <div class="quick-quiz-copy">
+          <h2 id="quickQuizTitle">Thử thách 1 phút</h2>
+          <p>5 từ ngẫu nhiên — thử ngay trong 1 phút.</p>
+        </div>
+        <button class="dashboard-primary-btn" type="button" onclick="setPrimaryTab('speedQuiz', { roundLimit: 5 })">Kiểm tra ngay <span aria-hidden="true">→</span></button>
+      </section>
+
+      <section class="featured-topics" aria-labelledby="featuredTopicsTitle">
+        <div class="featured-topics-heading">
+          <div><span class="dashboard-kicker">HỌC THEO NGỮ CẢNH</span><h2 id="featuredTopicsTitle">Chủ đề nổi bật</h2></div>
+          <button type="button" class="featured-topic-more" onclick="setVocabSubTab('topic')">Xem chủ đề →</button>
+        </div>
+        <div class="featured-topic-list" aria-label="Một số chủ đề học phổ biến">
+          <button type="button" class="featured-topic-pill" onclick="setVocabSubTab('topic')"><span aria-hidden="true">🍜</span> Ẩm thực</button>
+          <button type="button" class="featured-topic-pill" onclick="setVocabSubTab('topic')"><span aria-hidden="true">✈️</span> Du lịch</button>
+          <button type="button" class="featured-topic-pill" onclick="setVocabSubTab('topic')"><span aria-hidden="true">💼</span> Công sở</button>
+          <button type="button" class="featured-topic-pill" onclick="setVocabSubTab('topic')"><span aria-hidden="true">🛍️</span> Mua sắm</button>
+        </div>
+      </section>
     </div>
 
     <!-- Topic picker sub-tab -->
@@ -200,50 +262,38 @@
 
   <!-- SCREEN 2: Flashcards -->
   <div id="screenCards" style="display:none">
-    <button class="back-btn" onclick="goBackToPicker()">← Chọn cấp độ khác</button>
-
-    <div class="view-tabs" role="tablist" aria-label="Chế độ xem">
-      <button id="flashcardTab" class="view-tab active" role="tab" aria-selected="true"
-        aria-controls="studyView" onclick="setViewMode('cards')">🗂 Học flashcard</button>
-      <button id="overviewTab" class="view-tab" role="tab" aria-selected="false"
-        aria-controls="overviewView" onclick="setViewMode('overview')">📋 Tổng quan từ vựng</button>
+    <div class="study-view-topbar">
+      <div class="study-view-topbar-left">
+        <button class="back-btn" onclick="goBackToPicker()">← Chọn cấp độ khác</button>
+        <span class="study-level-badge" id="studyLevelBadge"></span>
+      </div>
+      <div class="view-tabs" role="tablist" aria-label="Chế độ xem">
+        <button id="flashcardTab" class="view-tab active" role="tab" aria-selected="true"
+          aria-controls="studyView" onclick="setViewMode('cards')">🗂 Học flashcard</button>
+        <button id="overviewTab" class="view-tab" role="tab" aria-selected="false"
+          aria-controls="overviewView" onclick="setViewMode('overview')">📋 Tổng quan từ vựng</button>
+      </div>
     </div>
 
     <div id="studyView" role="tabpanel" aria-labelledby="flashcardTab">
-      <div class="stat-grid">
-        <div class="stat-box"><div class="stat-num" id="s-total">0</div><div class="stat-lbl">tổng số từ</div></div>
-        <div class="stat-box"><div class="stat-num" id="s-unknown" style="color:var(--danger-text)">0</div><div class="stat-lbl">chưa nhớ</div></div>
-        <div class="stat-box"><div class="stat-num" id="s-known" style="color:var(--success-text)">0</div><div class="stat-lbl">đã nhớ</div></div>
-        <div class="stat-box"><div class="stat-num" id="s-unseen" style="color:var(--text-secondary)">0</div><div class="stat-lbl">chưa học</div></div>
-      </div>
-
       <div class="filter-row" id="filterRow"></div>
 
       <div class="transfer-panel" id="transferPanel" hidden>
         <div class="transfer-panel-title">Sao lưu và chuyển thiết bị</div>
         <div class="transfer-panel-content">
-        <div class="transfer-actions">
+          <div class="transfer-actions">
             <button onclick="exportProgress()">💾 Tải bản sao tiến trình</button>
             <button onclick="document.getElementById('importFile').click()">📂 Khôi phục từ bản sao</button>
-        </div>
-        <label class="retention-setting">
-          <span>Độ ghi nhớ mong muốn: <strong id="desiredRetentionValue">90%</strong></span>
-          <input id="desiredRetentionSlider" type="range" min="0.80" max="0.97" step="0.01" value="0.90"
-            aria-label="Độ ghi nhớ mong muốn" oninput="updateDesiredRetention(this.value)">
-        </label>
-        <p class="transfer-note">Tiến trình đã được tự động lưu trên thiết bị này. Bạn chỉ cần sao lưu khi muốn chuyển sang thiết bị khác.</p>
+          </div>
+          <label class="retention-setting">
+            <span>Độ ghi nhớ mong muốn: <strong id="desiredRetentionValue">90%</strong></span>
+            <input id="desiredRetentionSlider" type="range" min="0.80" max="0.97" step="0.01" value="0.90"
+              aria-label="Độ ghi nhớ mong muốn" oninput="updateDesiredRetention(this.value)">
+          </label>
+          <p class="transfer-note">Tiến trình đã được tự động lưu trên thiết bị này. Bạn chỉ cần sao lưu khi muốn chuyển sang thiết bị khác.</p>
         </div>
       </div>
       <input type="file" id="importFile" accept="application/json" style="display:none" onchange="importProgress(event)">
-
-      <div class="toolbar">
-        <div class="tool-group">
-          <button class="icon-btn" id="shuffleBtn" onclick="shuffleDeck()">🔀 Xáo trộn</button>
-          <button class="icon-btn" id="pinyinToggle" onclick="togglePinyin()">👁 Đang hiện pinyin</button>
-          <button class="icon-btn" id="weakWordToggleBtn" onclick="toggleWeakWord(activeStudyWord && activeStudyWord.hanzi, currentLevel)">☆ Đánh dấu từ khó</button>
-          <button class="icon-btn" id="transferToggle" onclick="toggleTransferPanel()" aria-controls="transferPanel" aria-expanded="false">💾 Sao lưu</button>
-        </div>
-      </div>
 
       <div id="cardArea">
         <div class="loading-text" id="loadingText">Đang tải dữ liệu...</div>
@@ -450,55 +500,44 @@
     </div>
     <aside class="workstation-right" id="workstationRight" aria-label="Phòng thực hành tương tác"></aside>
     <footer class="app-footer">
-      <div class="footer-note">
-        Tiến trình được tự động lưu trên thiết bị này. Bạn có thể đóng trang và quay lại học tiếp bất cứ lúc nào.<br>
-        Đổi sang thiết bị khác? Hãy tải bản sao tiến trình và khôi phục trên thiết bị mới.
-      </div>
-      <div class="footer-credits">
-        <p class="author-credit">
-          <span aria-hidden="true">👨🏻‍💻</span> Phát triển bởi
-          <a href="https://github.com/nguyenhau442001/HSK-Flashcards-Generator/" target="_blank" rel="noopener noreferrer">haunguyenngoc442001</a>
-        </p>
-        <p class="contact-credit">
-          Mọi đóng góp hoặc thắc mắc, xin liên hệ
-          <a href="https://www.facebook.com/haunguyenngoc442001/" target="_blank" rel="noopener noreferrer">Facebook</a>
-        </p>
-      </div>
+      <p class="footer-note">Tiến trình tự lưu trên thiết bị này · Phát triển bởi <a href="https://github.com/nguyenhau442001/HSK-Flashcards-Generator/" target="_blank" rel="noopener noreferrer">haunguyenngoc442001</a> · <a href="https://www.facebook.com/haunguyenngoc442001/" target="_blank" rel="noopener noreferrer">Facebook</a></p>
     </footer>
   </div>
 </div>
 
-<script src="assets/js/state.js?v=20260929-home1"></script>
-<script src="assets/js/storage.js?v=20260929-home1"></script>
+<script src="assets/js/state.js?v=20260929-studyview1"></script>
+<script src="assets/js/storage.js?v=20260929-studyview1"></script>
 <script src="https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js" crossorigin="anonymous"></script>
-<script src="assets/js/srs.js?v=20260929-home1"></script>
-<script src="assets/js/levels.js?v=20260929-home1"></script>
-<script src="assets/js/topics.js?v=20260929-home1"></script>
-<script src="assets/js/hsk30.js?v=20260929-home1"></script>
-<script src="assets/js/sentence-game.js?v=20260929-home1"></script>
-<script src="assets/js/guess-word-game.js?v=20260929-home1"></script>
-<script src="assets/js/speed-quiz-game.js?v=20260929-home1"></script>
-<script src="assets/js/vocabulary-overview.js?v=20260929-home1"></script>
-<script src="assets/js/fast-review.js?v=20260929-home1"></script>
-<script src="assets/js/flashcard.js?v=20260929-home1"></script>
-<script src="assets/js/card-interactions.js?v=20260929-home1"></script>
-<script src="assets/js/speech.js?v=20260929-home1"></script>
-<script src="assets/js/progress.js?v=20260929-home1"></script>
-<script src="assets/js/due-review.js?v=20260929-home1"></script>
-<script src="assets/js/theme.js?v=20260929-home1"></script>
-<script src="assets/js/backup.js?v=20260929-home1"></script>
-<script src="assets/js/memory-curve.js?v=20260929-home1"></script>
-<script src="assets/js/radicals-state.js?v=20260929-home1"></script>
-<script src="assets/js/radicals.js?v=20260929-home1"></script>
-<script src="assets/js/radical-card.js?v=20260929-home1"></script>
+<script src="assets/js/srs.js?v=20260929-studyview1"></script>
+<script src="assets/js/levels.js?v=20260929-studyview1"></script>
+<script src="assets/js/topics.js?v=20260929-studyview1"></script>
+<script src="assets/js/hsk30.js?v=20260929-studyview1"></script>
+<script src="assets/js/sentence-game.js?v=20260929-studyview1"></script>
+<script src="assets/js/guess-word-game.js?v=20260929-studyview1"></script>
+<script src="assets/js/speed-quiz-game.js?v=20260929-studyview1"></script>
+<script src="assets/js/vocabulary-overview.js?v=20260929-studyview1"></script>
+<script src="assets/js/fast-review.js?v=20260929-studyview1"></script>
+<script src="assets/js/flashcard.js?v=20260929-studyview1"></script>
+<script src="assets/js/card-interactions.js?v=20260929-studyview1"></script>
+<script src="assets/js/speech.js?v=20260929-studyview1"></script>
+<script src="assets/js/progress.js?v=20260929-studyview1"></script>
+<script src="assets/js/due-review.js?v=20260929-studyview1"></script>
+<script src="assets/js/theme.js?v=20260929-studyview1"></script>
+<script src="assets/js/backup.js?v=20260929-studyview1"></script>
+<script src="assets/js/memory-curve.js?v=20260929-studyview1"></script>
+<script src="assets/js/radicals-state.js?v=20260929-studyview1"></script>
+<script src="assets/js/radicals.js?v=20260929-studyview1"></script>
+<script src="assets/js/radical-card.js?v=20260929-studyview1"></script>
 <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3/dist/hanzi-writer.min.js"></script>
-<script src="assets/js/sidebar-search.js?v=20260929-home1"></script>
-<script src="assets/js/sidebar-radicals-filter.js?v=20260929-home1"></script>
-<script src="assets/js/weak-words.js?v=20260929-home1"></script>
-<script src="assets/js/stroke-canvas.js?v=20260929-home1"></script>
-<script src="assets/js/grammar-breakdown.js?v=20260929-home1"></script>
-<script src="assets/js/home-widgets.js?v=20260929-home1"></script>
-<script src="assets/flashcards.js?v=20260929-home1"></script>
+<script src="assets/js/sidebar-search.js?v=20260929-studyview1"></script>
+<script src="assets/js/sidebar-radicals-filter.js?v=20260929-studyview1"></script>
+<script src="assets/js/weak-words.js?v=20260929-studyview1"></script>
+<script src="assets/js/stroke-canvas.js?v=20260929-studyview1"></script>
+<script src="assets/js/word-companion.js?v=20260929-studyview1"></script>
+<script src="assets/js/grammar-breakdown.js?v=20260929-studyview1"></script>
+<script src="assets/js/home-widgets.js?v=20260929-studyview1"></script>
+<script src="assets/js/dashboard-enhancements.js?v=20260929-studyview1"></script>
+<script src="assets/flashcards.js?v=20260929-studyview1"></script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "4568b250a19345538a47a2da396637af"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

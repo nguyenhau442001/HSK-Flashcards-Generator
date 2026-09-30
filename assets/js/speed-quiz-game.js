@@ -2,7 +2,6 @@
 const SPEED_QUIZ_TIME_LIMIT = 8;
 const SPEED_QUIZ_BASE_SCORE = 100;
 const SPEED_QUIZ_STORAGE_KEY = 'hsk_speed_quiz_best';
-const SPEED_QUIZ_BLANK = '＿＿';
 
 let speedQuizBankData = null;
 let speedQuizOrder = [];
@@ -14,6 +13,7 @@ let speedQuizStreak = 0;
 let speedQuizBest = 0;
 let speedQuizTimeLeft = SPEED_QUIZ_TIME_LIMIT;
 let speedQuizTimerId = null;
+let speedQuizRoundLimit = 0;
 
 async function ensureSpeedQuizBankLoaded() {
   if (speedQuizBankData) return;
@@ -30,7 +30,8 @@ function shuffleSpeedQuizArray(arr) {
   return copy;
 }
 
-async function startSpeedQuizGame() {
+async function startSpeedQuizGame(options = {}) {
+  speedQuizRoundLimit = Number(options.roundLimit) > 0 ? Number(options.roundLimit) : 0;
   document.getElementById('speedQuizOptions').innerHTML = '<div class="loading-text">Đang tải dữ liệu...</div>';
   await ensureSpeedQuizBankLoaded();
 
@@ -53,12 +54,24 @@ function buildSpeedQuizRound(sentence) {
   const blankIdx = 1 + Math.floor(Math.random() * (sentence.zh_tokens.length - 1));
   const answer = sentence.zh_tokens[blankIdx];
   const displayTokens = sentence.zh_tokens.slice();
-  displayTokens[blankIdx] = SPEED_QUIZ_BLANK;
+  // Match the visible gap to the answer length so a one-character particle such as 了
+  // does not look like a missing two-character word.
+  displayTokens[blankIdx] = '＿'.repeat(Math.max(1, Array.from(String(answer)).length));
   return { sentence, answer, sentenceText: displayTokens.join('') };
 }
 
 function loadNextSpeedQuizRound() {
   clearInterval(speedQuizTimerId);
+  if (speedQuizRoundLimit && speedQuizIdx >= speedQuizRoundLimit) {
+    document.getElementById('speedQuizWord').textContent = 'Hoàn thành thử thách!';
+    document.getElementById('speedQuizMeaning').textContent = `Bạn đã trả lời ${speedQuizRoundLimit} câu trắc nghiệm.`;
+    document.getElementById('speedQuizOptions').replaceChildren();
+    document.getElementById('speedQuizFeedback').textContent = `Tổng điểm: ${speedQuizScore}`;
+    document.getElementById('speedQuizFeedback').className = 'speed-quiz-feedback correct';
+    document.getElementById('speedQuizNextBtn').hidden = true;
+    speedQuizRoundLimit = 0;
+    return;
+  }
   if (speedQuizIdx >= speedQuizOrder.length) {
     speedQuizOrder = shuffleSpeedQuizArray(speedQuizOrder);
     speedQuizIdx = 0;

@@ -7,6 +7,20 @@ function buildCardArea() {
     <div class="card" id="card">
       <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Được</div>
       <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Quên</div>
+      <div class="card-toolbar card-interactive" id="cardToolbar" onclick="event.stopPropagation()">
+        <button type="button" class="card-tool-btn" id="shuffleBtn" onclick="shuffleDeck()" aria-label="Xáo trộn bộ từ" title="Xáo trộn bộ từ">
+          <span aria-hidden="true">🔀</span>
+        </button>
+        <button type="button" class="card-tool-btn" id="pinyinToggle" onclick="togglePinyin()" aria-label="Ẩn hoặc hiện pinyin" title="Ẩn hoặc hiện pinyin">
+          <span id="pinyinToggleIcon" aria-hidden="true">👁</span>
+        </button>
+        <button type="button" class="card-tool-btn" id="weakWordToggleBtn" onclick="toggleWeakWord(activeStudyWord && activeStudyWord.hanzi, currentLevel)" aria-label="Đánh dấu từ khó" title="Đánh dấu từ khó">
+          <span id="weakWordToggleIcon" aria-hidden="true">☆</span>
+        </button>
+        <button type="button" class="card-tool-btn" id="transferToggle" onclick="toggleTransferPanel()" aria-label="Sao lưu tiến trình" title="Sao lưu tiến trình" aria-controls="transferPanel" aria-expanded="false">
+          <span aria-hidden="true">💾</span>
+        </button>
+      </div>
       <div id="cardContent" class="card-content">
         <div class="hanzi" id="hanzi"></div>
         <div class="pinyin-row">
@@ -49,7 +63,6 @@ function buildCardArea() {
           </div>
           <div class="ex-line ex-py" id="exPy"></div>
           <div class="ex-line ex-vi" id="exVi"></div>
-          <button type="button" class="memory-curve-btn card-interactive" onclick="event.stopPropagation(); openCurrentMemoryCurve()">📈 Đường cong</button>
         </div>
         <div class="hint" id="hint">Nhấn vào thẻ để xem nghĩa và ví dụ</div>
       </div>
@@ -76,25 +89,43 @@ function buildCardArea() {
     <div id="dailyNewLimitMessage" class="daily-new-limit-message" role="status"></div>
     <div class="unknown-words-list" id="unknownWordsList"></div>
   `;
-  const btn = document.getElementById('pinyinToggle');
-  btn.textContent = showPinyin ? '👁 Đang hiện pinyin' : '🙈 Chế độ thử thách: ẩn pinyin';
-  btn.classList.toggle('on', !showPinyin);
+  const pinyinBtn = document.getElementById('pinyinToggle');
+  const pinyinIcon = document.getElementById('pinyinToggleIcon');
+  if (pinyinIcon) {
+    pinyinIcon.textContent = showPinyin ? '👁' : '🙈';
+    pinyinBtn.title = showPinyin ? 'Ẩn pinyin' : 'Hiện pinyin';
+    pinyinBtn.setAttribute('aria-label', showPinyin ? 'Ẩn pinyin' : 'Hiện pinyin');
+  } else if (pinyinBtn) {
+    pinyinBtn.textContent = showPinyin ? '👁 Đang hiện pinyin' : '🙈 Chế độ thử thách: ẩn pinyin';
+  }
+  if (pinyinBtn) pinyinBtn.classList.toggle('on', !showPinyin);
+  if (typeof updateWeakWordToggleButton === 'function') updateWeakWordToggleButton();
   initSwipe();
 }
 
 function renderFilters() {
   const row = document.getElementById('filterRow');
+  if (!row) return;
   row.innerHTML = '';
+  const known = Object.values(progress).filter(value => value === 'known').length;
+  const unknown = Object.values(progress).filter(value => value === 'unknown').length;
+  const counts = {
+    all: WORDS.length,
+    unknown,
+    known,
+    unseen: Math.max(0, WORDS.length - known - unknown),
+  };
   const filters = [
-    {key:'all', label:'Tất cả'},
-    {key:'unknown', label:'Chưa nhớ'},
-    {key:'known', label:'Đã nhớ'},
-    {key:'unseen', label:'Chưa học'}
+    { key: 'all', label: 'Tất cả', count: counts.all },
+    { key: 'unknown', label: 'Chưa nhớ', count: counts.unknown, modifier: 'unknown' },
+    { key: 'known', label: 'Đã nhớ', count: counts.known, modifier: 'known' },
+    { key: 'unseen', label: 'Chưa học', count: counts.unseen, modifier: 'unseen' },
   ];
   filters.forEach(f => {
     const b = document.createElement('button');
-    b.className = 'filter-btn' + (currentFilter === f.key ? ' active' : '');
-    b.textContent = f.label;
+    b.type = 'button';
+    b.className = 'filter-btn' + (f.modifier ? ' filter-btn--' + f.modifier : '') + (currentFilter === f.key ? ' active' : '');
+    b.innerHTML = `<span class="filter-label">${f.label}</span> <span class="filter-count">(${f.count})</span>`;
     b.onclick = () => setFilter(f.key);
     row.appendChild(b);
   });
@@ -106,15 +137,21 @@ function setFilter(key) {
   else filteredOrder = order.filter(i => progress[WORDS[i].id] === key);
   idx = 0;
   renderFilters();
+  renderStudyWordList();
   render('fade');
 }
 function updateStats() {
   let known = 0, unknown = 0;
   Object.values(progress).forEach(v => { if (v === 'known') known++; else if (v === 'unknown') unknown++; });
-  document.getElementById('s-total').textContent = WORDS.length;
-  document.getElementById('s-known').textContent = known;
-  document.getElementById('s-unknown').textContent = unknown;
-  document.getElementById('s-unseen').textContent = WORDS.length - known - unknown;
+  const sTotal = document.getElementById('s-total');
+  if (sTotal) sTotal.textContent = WORDS.length;
+  const sKnown = document.getElementById('s-known');
+  if (sKnown) sKnown.textContent = known;
+  const sUnknown = document.getElementById('s-unknown');
+  if (sUnknown) sUnknown.textContent = unknown;
+  const sUnseen = document.getElementById('s-unseen');
+  if (sUnseen) sUnseen.textContent = Math.max(0, WORDS.length - known - unknown);
+  renderFilters();
 }
 const RATING_BUTTONS = [
   { rating: 'again', emoji: '💀', label: 'Toang', key: '1' },
@@ -182,6 +219,110 @@ function updateProgress(current, total) {
   const bar = document.getElementById('progressBar');
   if (bar) bar.style.width = (total === 0 ? 0 : (current / total * 100)) + '%';
 }
+function ensureStudyWordList() {
+  if (!document.body.classList.contains('is-desktop-dock')) return null;
+  let panel = document.getElementById('studyWordListPanel');
+  if (panel) return panel;
+  const mount = document.getElementById('workstationLeft');
+  if (!mount) return null;
+  panel = document.createElement('section');
+  panel.id = 'studyWordListPanel';
+  panel.className = 'study-word-list-panel';
+  panel.setAttribute('aria-label', 'Danh sách từ trong bài học hiện tại');
+  panel.innerHTML = `
+    <div class="study-word-list-heading">
+      <div class="study-word-list-header-row">
+        <strong id="studyWordListTitle">Danh sách từ</strong>
+        <span id="studyWordListCount" class="study-word-count-badge"></span>
+      </div>
+      <div id="studyWordListActiveWord" class="study-word-active-banner"></div>
+      <label class="study-word-list-search">
+        <span class="sr-only">Tìm trong bài học</span>
+        <input type="search" id="studyWordListSearch" placeholder="Tìm kiếm từ trong bài..." autocomplete="off">
+      </label>
+    </div>
+    <div class="study-word-list-items" id="studyWordListItems" role="listbox" aria-label="Chọn từ trong bài học"></div>`;
+  mount.appendChild(panel);
+  panel.querySelector('#studyWordListSearch').addEventListener('input', renderStudyWordList);
+  return panel;
+}
+
+function renderStudyWordList() {
+  const panel = ensureStudyWordList();
+  if (!panel) return;
+  const items = panel.querySelector('#studyWordListItems');
+  const query = panel.querySelector('#studyWordListSearch').value.trim().toLowerCase();
+  const currentIndex = filteredOrder.length ? filteredOrder[idx % filteredOrder.length] : -1;
+  const activeWord = currentIndex >= 0 ? WORDS[currentIndex] : null;
+
+  const countBadge = panel.querySelector('#studyWordListCount');
+  if (countBadge) {
+    const levelLabel = currentLevel && LEVELS[currentLevel] ? LEVELS[currentLevel].label : '';
+    countBadge.textContent = WORDS.length ? `${levelLabel} · ${WORDS.length} từ` : '';
+  }
+
+  const activeBanner = panel.querySelector('#studyWordListActiveWord');
+  if (activeBanner) {
+    if (activeWord) {
+      const status = progress[activeWord.id];
+      const statusText = status === 'known' ? 'Đã nhớ' : status === 'unknown' ? 'Chưa nhớ' : 'Chưa học';
+      const statusClass = status === 'known' ? 'badge-known' : status === 'unknown' ? 'badge-unknown' : 'badge-unseen';
+      activeBanner.innerHTML = `
+        <div class="active-word-info">
+          <span class="active-kicker">Từ số ${currentIndex + 1}:</span>
+          <strong class="active-hanzi">${activeWord.hanzi}</strong>
+          <span class="active-py">${activeWord.pinyin || ''}</span>
+        </div>
+        <span class="active-status ${statusClass}">${statusText}</span>
+      `;
+    } else {
+      activeBanner.innerHTML = '<span class="active-kicker">Chọn một từ để học</span>';
+    }
+  }
+
+  items.innerHTML = WORDS.map((word, wordIndex) => ({ word, wordIndex }))
+    .filter(({ word }) => !query || `${word.hanzi} ${word.pinyin} ${word.meaning}`.toLowerCase().includes(query))
+    .map(({ word, wordIndex }) => {
+      const isCurrent = wordIndex === currentIndex;
+      const status = progress[word.id];
+      const statusIcon = status === 'known' ? '✓' : status === 'unknown' ? '✗' : '·';
+      const statusClass = status === 'known' ? 'status-known' : status === 'unknown' ? 'status-unknown' : 'status-unseen';
+      return `
+        <button type="button" class="study-word-list-item${isCurrent ? ' active' : ''}"
+          role="option" aria-selected="${isCurrent}" data-word-index="${wordIndex}">
+          <span class="study-word-status ${statusClass}" aria-hidden="true">${statusIcon}</span>
+          <span class="study-word-list-hanzi">${word.hanzi}</span>
+          <span class="study-word-list-copy">
+            <span class="word-py">${word.pinyin || ''}</span>
+            <small class="word-vi">${word.meaning || ''}</small>
+          </span>
+          <span class="study-word-list-number">#${wordIndex + 1}</span>
+        </button>
+      `;
+    }).join('');
+
+  items.querySelectorAll('[data-word-index]').forEach(button => {
+    button.addEventListener('click', () => {
+      const wordIndex = Number(button.dataset.wordIndex);
+      let filteredIndex = filteredOrder.indexOf(wordIndex);
+      if (filteredIndex < 0) {
+        currentFilter = 'all';
+        filteredOrder = order.slice();
+        renderFilters();
+        filteredIndex = filteredOrder.indexOf(wordIndex);
+      }
+      if (filteredIndex >= 0) {
+        idx = filteredIndex;
+        render('fade');
+      }
+    });
+  });
+
+  if (currentIndex >= 0) {
+    const activeButton = items.querySelector('.active');
+    if (activeButton && !query) activeButton.scrollIntoView({ block: 'nearest' });
+  }
+}
 function render(animate) {
   stopSpeech();
   if (transitionTimer) { clearTimeout(transitionTimer); transitionTimer = null; }
@@ -208,6 +349,7 @@ function render(animate) {
       updateProgress(0, 0);
       updateStats();
       setActiveStudyWord(null);
+      renderStudyWordList();
       syncRevealControls();
       return;
     }
@@ -216,16 +358,22 @@ function render(animate) {
     const w = WORDS[wIdx];
     if (!w) return; // deck was swapped out (level change) while this render was pending
     setActiveStudyWord(w);
+    renderStudyWordList();
     updateSrsPreviews(w);
     document.getElementById('hanzi').textContent = w.hanzi;
     document.getElementById('pinyin').textContent = showPinyin ? w.pinyin : '';
     const m = document.getElementById('meaning');
     m.textContent = w.meaning;
     m.classList.remove('show');
+    const hasExample = Boolean(w.example_zh || w.example_py || w.example_vi);
+    const exampleBox = document.getElementById('exampleBox');
+    if (exampleBox) exampleBox.hidden = !hasExample;
     document.getElementById('exZh').innerHTML = w.example_zh;
     document.getElementById('exPy').innerHTML = w.example_py;
     document.getElementById('exVi').innerHTML = w.example_vi;
-    document.getElementById('hint').textContent = 'Nhấn vào thẻ để xem nghĩa và ví dụ';
+    document.getElementById('hint').textContent = hasExample
+      ? 'Nhấn vào thẻ để xem nghĩa và ví dụ'
+      : 'Nhấn vào thẻ để xem nghĩa';
     updateProgress(idx % filteredOrder.length + 1, filteredOrder.length);
     updateStats();
     syncRevealControls();

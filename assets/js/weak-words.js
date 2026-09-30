@@ -35,7 +35,14 @@ function updateWeakWordToggleButton() {
   const btn = document.getElementById('weakWordToggleBtn');
   if (!btn || !activeStudyWord) return;
   const starred = isWeakWord(activeStudyWord.hanzi);
-  btn.textContent = starred ? '★ Đã đánh dấu' : '☆ Đánh dấu từ khó';
+  const icon = document.getElementById('weakWordToggleIcon');
+  if (icon) {
+    icon.textContent = starred ? '★' : '☆';
+    btn.title = starred ? 'Bỏ đánh dấu từ khó' : 'Đánh dấu từ khó';
+    btn.setAttribute('aria-label', starred ? 'Bỏ đánh dấu từ khó' : 'Đánh dấu từ khó');
+  } else {
+    btn.textContent = starred ? '★ Đã đánh dấu' : '☆ Đánh dấu từ khó';
+  }
   btn.classList.toggle('active', starred);
 }
 

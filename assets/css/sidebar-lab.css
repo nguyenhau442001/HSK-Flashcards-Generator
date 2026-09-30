@@ -20,6 +20,16 @@
     linear-gradient(to bottom, transparent calc(50% - 1px), var(--border) calc(50% - 1px), var(--border) calc(50% + 1px), transparent calc(50% + 1px));
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.stroke-canvas-grid:hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 25%, transparent);
+}
+.stroke-canvas-grid.is-quiz-mode {
+  cursor: crosshair;
+  border-color: var(--accent);
 }
 .stroke-canvas-fallback {
   width: var(--stroke-canvas-width);
@@ -70,3 +80,173 @@
 }
 .grammar-note-pattern { font-weight: 600; color: var(--text-primary); margin-bottom: 4px; }
 .grammar-note-text { color: var(--text-secondary); font-size: 13px; }
+
+/* Word Companion Panel */
+.word-companion-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 12px;
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+}
+.word-companion-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  min-height: 0;
+}
+.companion-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.companion-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.companion-section-title {
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-tertiary);
+}
+.companion-sound-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.15s ease;
+}
+.companion-sound-btn:hover {
+  background: var(--surface-subtle);
+  color: var(--accent);
+}
+.companion-example-card {
+  padding: 8px 10px;
+  background: var(--example-bg);
+  border: 1px solid var(--example-border);
+  border-radius: var(--radius-md);
+  font-size: 12px;
+  line-height: 1.45;
+}
+.companion-ex-zh {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+.companion-ex-py {
+  font-size: 11px;
+  color: var(--accent-text);
+  margin-bottom: 2px;
+}
+.companion-ex-vi {
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+.companion-chips-row {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.companion-chip {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  align-items: baseline;
+  gap: 6px;
+  padding: 5px 8px;
+  border-radius: var(--radius-md);
+  font-size: 11.5px;
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+}
+.companion-chip--antonym {
+  background: color-mix(in srgb, var(--danger-bg) 60%, var(--card-bg));
+  border-color: color-mix(in srgb, var(--danger-border, var(--border)) 70%, transparent);
+}
+.companion-chip--synonym {
+  background: color-mix(in srgb, var(--success-bg) 60%, var(--card-bg));
+  border-color: color-mix(in srgb, var(--success-border, var(--border)) 70%, transparent);
+}
+.companion-chip-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: var(--card-bg);
+  color: var(--text-secondary);
+}
+.companion-chip-word {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.companion-chip-py {
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+.companion-chip-vi {
+  grid-column: 1 / -1;
+  font-size: 10.5px;
+  color: var(--text-secondary);
+  padding-left: 2px;
+}
+.companion-compounds-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.companion-compound-pill {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  padding: 3px 7px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  cursor: pointer;
+  font-size: 11px;
+  transition: all 0.15s ease;
+  color: var(--text-primary);
+}
+.companion-compound-pill:hover {
+  background: var(--accent-light);
+  border-color: var(--accent);
+}
+.compound-hanzi {
+  font-weight: 700;
+  font-size: 12px;
+}
+.compound-py {
+  color: var(--text-secondary);
+  font-size: 10.5px;
+}
+.compound-vi {
+  color: var(--text-tertiary);
+  font-size: 10px;
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.companion-empty {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  text-align: center;
+  padding: 8px 4px;
+  font-style: italic;
+}

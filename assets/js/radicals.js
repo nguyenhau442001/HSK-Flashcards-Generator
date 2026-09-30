@@ -56,7 +56,7 @@ function setVocabSubTab(tab) {
   if (tab === 'topic') renderTopicGrid();
 }
 
-function setPrimaryTab(tab) {
+function setPrimaryTab(tab, options) {
   const previousTab = primaryTab;
   primaryTab = tab;
   Object.entries(PRIMARY_TAB_SCREENS).forEach(([key, { tabId, screenId }]) => {
@@ -78,7 +78,7 @@ function setPrimaryTab(tab) {
   if (tab === 'vocab' && vocabSubTab === 'topic') renderTopicGrid();
   if (tab === 'sentenceGame') startSentenceGame();
   if (tab === 'guessWord') startGuessWordGame();
-  if (tab === 'speedQuiz') startSpeedQuizGame();
+  if (tab === 'speedQuiz') startSpeedQuizGame(options || {});
   if (previousTab === 'review' && tab !== 'review') {
     abandonReviewSession();
   }

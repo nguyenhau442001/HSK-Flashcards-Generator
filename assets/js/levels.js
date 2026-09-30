@@ -96,6 +96,15 @@ function updateDailyStudyGoal(value) {
   renderLearningDashboard();
 }
 
+function focusDailyGoalSelector() {
+  const select = document.getElementById('dailyGoalSelect');
+  if (!select) return;
+  select.focus();
+  if (typeof select.showPicker === 'function') {
+    try { select.showPicker(); } catch (e) {}
+  }
+}
+
 function studyStreak(days) {
   const cursor = new Date();
   cursor.setHours(12, 0, 0, 0);
@@ -490,6 +499,7 @@ function renderLearningDashboard() {
     quickButton.dataset.level = target.level;
     quickButton.innerHTML = `${complete ? 'Ôn lại' : target.studied > 0 ? 'Tiếp tục' : 'Bắt đầu'} ${LEVELS[target.level].label} <span aria-hidden="true">→</span>`;
   }
+  if (typeof renderDashboardEnhancements === 'function') renderDashboardEnhancements();
   invalidateHomeWidgets();
 }
 
@@ -608,8 +618,17 @@ function goBackToPicker() {
   abandonReviewSession();
   setActiveStudyWord(null);
   document.body.classList.remove('study-mode');
+  document.body.classList.remove('flashcard-study-mode');
   const wasTopic = currentLevel && LEVELS[currentLevel] && LEVELS[currentLevel].isTopic;
   document.getElementById('screenCards').style.display = 'none';
+  const studyLevelBadge = document.getElementById('studyLevelBadge');
+  if (studyLevelBadge) studyLevelBadge.textContent = '';
+  const vocabHub = document.getElementById('screenVocabHub');
+  if (vocabHub) vocabHub.style.display = '';
+  const auxCol = document.querySelector('.dashboard-aux-column');
+  if (auxCol) auxCol.style.display = '';
+  const continueCard = document.getElementById('continueLearningCard');
+  if (continueCard) continueCard.style.display = '';
   document.getElementById('appTitle').textContent = 'HSK Flashcards';
   document.getElementById('primaryTabs').style.display = '';
   document.getElementById('pickerControls').style.display = '';
@@ -632,17 +651,29 @@ async function selectLevel(level) {
   setActiveStudyWord(null);
   currentLevel = level;
   document.body.classList.add('study-mode');
+  document.body.classList.add('flashcard-study-mode');
   if (transitionTimer) { clearTimeout(transitionTimer); transitionTimer = null; }
   WORDS = [];
   filteredOrder = [];
+  const studyWordSearch = document.getElementById('studyWordListSearch');
+  if (studyWordSearch) studyWordSearch.value = '';
+  if (typeof renderStudyWordList === 'function') renderStudyWordList();
   currentView = 'cards';
   overviewQuery = '';
   overviewStatus = 'all';
   try { localStorage.setItem(LAST_LEVEL_KEY, level); } catch (e) {}
   document.getElementById('appTitle').textContent = LEVELS[level].label + ' Flashcards';
+  const studyLevelBadge = document.getElementById('studyLevelBadge');
+  if (studyLevelBadge && LEVELS[level]) studyLevelBadge.textContent = LEVELS[level].label;
   document.getElementById('primaryTabs').style.display = 'none';
   document.getElementById('pickerControls').style.display = 'none';
   document.getElementById('learningDashboard').style.display = 'none';
+  const continueCard = document.getElementById('continueLearningCard');
+  if (continueCard) continueCard.style.display = 'none';
+  const vocabHub = document.getElementById('screenVocabHub');
+  if (vocabHub) vocabHub.style.display = 'none';
+  const auxCol = document.querySelector('.dashboard-aux-column');
+  if (auxCol) auxCol.style.display = 'none';
   document.getElementById('transferPanel').hidden = true;
   document.getElementById('screenPicker').style.display = 'none';
   document.getElementById('screenTopicPicker').style.display = 'none';

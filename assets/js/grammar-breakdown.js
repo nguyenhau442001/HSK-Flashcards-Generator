@@ -15,7 +15,7 @@ const GRAMMAR_ROLE_LABELS = { S: 'Chủ ngữ', V: 'Vị ngữ', O: 'Tân ngữ'
 
 function renderGrammarEntry(entry, container) {
   if (!entry) {
-    container.innerHTML = '<div class="sidebar-search-empty">Chưa có phân tích ngữ pháp cho từ này.</div>';
+    container.innerHTML = '';
     return;
   }
   const rolesHtml = entry.roles.map(r =>
@@ -33,12 +33,15 @@ function renderGrammarEntry(entry, container) {
 function updateGrammarBreakdown(word) {
   const container = document.getElementById('grammarBreakdownBody');
   if (!container) return;
+  const panel = container.closest('.grammar-breakdown-panel');
   if (!word) {
     renderGrammarEntry(null, container);
+    if (panel) panel.hidden = true;
     return;
   }
   if (!grammarStarterData) {
     renderGrammarEntry(null, container);
+    if (panel) panel.hidden = true;
     loadGrammarStarterData().then(() => {
       const currentWord = typeof activeStudyWord !== 'undefined' ? activeStudyWord : null;
       if (currentWord && currentWord.hanzi === word.hanzi) {
@@ -49,6 +52,7 @@ function updateGrammarBreakdown(word) {
   }
   const entry = grammarStarterData.find(e => e.hanzi === word.hanzi);
   renderGrammarEntry(entry, container);
+  if (panel) panel.hidden = !entry;
 }
 
 function initGrammarBreakdown() {
