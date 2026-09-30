@@ -1,0 +1,292 @@
+#!/usr/bin/env python3
+"""Build the HSK 3.0 decks from the 2025 exam syllabus CSV.
+
+The official syllabus data supplies the word, pinyin, part of speech, and
+level. Vietnamese meanings are loaded from the local 2.0 decks where possible
+and from a checked-in translation map for the remaining terms. Examples are
+reused from the project's Vietnamese sentence bank when a matching sentence
+is available; the card UI supports entries without examples.
+"""
+
+import csv
+import json
+import re
+import argparse
+import time
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
+from collections import Counter, defaultdict
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+VOCAB_DIR = ROOT / 'database/vocabs'
+HSK30_DIR = VOCAB_DIR / 'hsk3_0'
+SOURCE_CSV = HSK30_DIR / 'source_hsk_2025.csv'
+TRANSLATIONS = HSK30_DIR / 'translations_vi.json'
+SENTENCE_BANK = VOCAB_DIR / 'sentence_bank.json'
+OLD_LEVELS = [VOCAB_DIR / f'hsk{i}_vocabularies.json' for i in range(1, 7)]
+
+LEVEL_NAMES = {
+    '一级': 1,
+    '二级': 2,
+    '三级': 3,
+    '四级': 4,
+    '五级': 5,
+    '六级': 6,
+    '七-九级': 7,
+}
+POS_FULL = {
+    '名': '名词', '动': '动词', '形': '形容词', '副': '副词', '代': '代词',
+    '数': '数词', '量': '量词', '数量': '数量词', '介': '介词', '连': '连词',
+    '助': '助词', '叹': '叹词', '拟声': '拟声词', '前缀': '前缀', '后缀': '后缀',
+}
+DISPLAY_DIGITS = str.maketrans('0123456789', '⁰¹²³⁴⁵⁶⁷⁸⁹')
+
+
+def load_json(path):
+    with path.open(encoding='utf-8') as file:
+        return json.load(file)
+
+
+def load_local_words():
+    words = {}
+    for path in OLD_LEVELS:
+        for word in load_json(path):
+            words.setdefault(word['hanzi'], word)
+    return words
+
+
+def load_examples():
+    examples = defaultdict(list)
+    for sentence in load_json(SENTENCE_BANK):
+        tokens = sentence.get('zh_tokens') or []
+        pinyin = sentence.get('pinyin_tokens') or []
+        if len(tokens) != len(pinyin):
+            continue
+        for index, token in enumerate(tokens):
+            examples[token].append((sentence, index))
+    return examples
+
+
+def clean_word(raw):
+    """The syllabus uses trailing digits to distinguish senses; show them as superscripts."""
+    match = re.fullmatch(r'(.+?)(\d+)', raw)
+    return match.group(1) + match.group(2).translate(DISPLAY_DIGITS) if match else raw
+
+
+def normalize_pinyin(value):
+    tone_chars = {
+        'ā': 'a1', 'á': 'a2', 'ǎ': 'a3', 'à': 'a4', 'ē': 'e1', 'é': 'e2', 'ě': 'e3', 'è': 'e4',
+        'ī': 'i1', 'í': 'i2', 'ǐ': 'i3', 'ì': 'i4', 'ō': 'o1', 'ó': 'o2', 'ǒ': 'o3', 'ò': 'o4',
+        'ū': 'u1', 'ú': 'u2', 'ǔ': 'u3', 'ù': 'u4', 'ǖ': 'ü1', 'ǘ': 'ü2', 'ǚ': 'ü3', 'ǜ': 'ü4',
+    }
+    return ''.join(tone_chars.get(char.lower(), char.lower()) for char in str(value)
+                   if char not in " '\t\n’'/-")
+
+
+def pinyin_matches(left, right):
+    left_readings = {normalize_pinyin(part) for part in str(left).split('/')}
+    right_readings = {normalize_pinyin(part) for part in str(right).split('/')}
+    return bool(left_readings & right_readings)
+
+
+def translation_key(row):
+    canonical = re.sub(r'\d+$', '', row['word'])
+    return '|'.join((canonical, row['pinyin'], translation_context(row.get('cixing', ''))))
+
+
+def translation_context(raw_pos):
+    parts = []
+    for part in raw_pos.replace('（', '').replace('）', '').split('、'):
+        name = POS_FULL.get(part.strip())
+        if name and name not in parts:
+            parts.append(name)
+    return '、'.join(parts)
+
+
+def syllabus_rows():
+    with SOURCE_CSV.open(encoding='utf-8-sig', newline='') as file:
+        return list(csv.DictReader(file))
+
+
+def pronunciation_sets(rows):
+    result = defaultdict(set)
+    for row in rows:
+        canonical = re.sub(r'\d+$', '', row['word'])
+        for reading in row['pinyin'].split('/'):
+            result[canonical].add(normalize_pinyin(reading))
+    return result
+
+
+def can_reuse_local_meaning(old_word, canonical, pinyin, readings):
+    return bool(old_word.get('meaning')) and (
+        pinyin_matches(old_word.get('pinyin', ''), pinyin) or len(readings.get(canonical, set())) <= 1
+    )
+
+
+def translate_missing():
+    """Create draft Vietnamese meanings for terms without a local gloss."""
+    translations = load_json(TRANSLATIONS) if TRANSLATIONS.exists() else {}
+    local = load_local_words()
+    rows = syllabus_rows()
+    readings = pronunciation_sets(rows)
+    pending = []
+    seen = set()
+    for row in rows:
+        canonical = re.sub(r'\d+$', '', row['word'])
+        key = translation_key(row)
+        old = local.get(canonical, {})
+        cached_meaning = translations.get(key, '')
+        has_untranslated_hanzi = bool(re.search(r'[\u3400-\u9fff]', cached_meaning))
+        if can_reuse_local_meaning(old, canonical, row['pinyin'], readings) or (cached_meaning and not has_untranslated_hanzi) or key in seen:
+            continue
+        seen.add(key)
+        pending.append((key, canonical, translation_context(row['cixing']), has_untranslated_hanzi))
+
+    # Google Translate's public web endpoint accepts a newline-separated batch
+    # and preserves one translated line per source term. This is an offline
+    # data-preparation step; the app itself never calls the service.
+    endpoint = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=vi&dt=t&'
+    batch_size = 35
+    for offset in range(0, len(pending), batch_size):
+        batch = pending[offset:offset + batch_size]
+        queries = [f'{word}的含义（{pos}）' if retry and pos else
+                   f'{word}的含义' if retry else
+                   f'{word}（{pos}）' if pos else word
+                   for _, word, pos, retry in batch]
+        url = endpoint + urlencode({'q': '\n'.join(queries)})
+        for attempt in range(4):
+            try:
+                request = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+                payload = json.loads(urlopen(request, timeout=30).read().decode('utf-8'))
+                translated = ''.join(part[0] for part in payload[0] if part and isinstance(part[0], str))
+                lines = [line.strip() for line in translated.splitlines()]
+                if len(lines) != len(batch):
+                    raise ValueError(f'expected {len(batch)} translated lines, got {len(lines)}')
+                for (key, _, _, _), meaning in zip(batch, lines):
+                    meaning = re.sub(r'^(?:ý nghĩa của(?: việc)?\s+)', '', meaning, flags=re.IGNORECASE)
+                    translations[key] = meaning
+                break
+            except Exception:
+                if attempt == 3:
+                    raise
+                time.sleep(1.5 * (attempt + 1))
+        if (offset // batch_size + 1) % 20 == 0 or offset + batch_size >= len(pending):
+            TRANSLATIONS.write_text(json.dumps(translations, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+            print(f'Translated {min(offset + batch_size, len(pending))}/{len(pending)} missing terms', flush=True)
+        time.sleep(0.2)
+    TRANSLATIONS.write_text(json.dumps(translations, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+
+def highlighted_example(sentence, index):
+    tokens = sentence['zh_tokens']
+    pinyin_tokens = sentence['pinyin_tokens']
+    zh = ''.join(f'<u>{token}</u>' if token_index == index else token for token_index, token in enumerate(tokens))
+    py = ' '.join(f'<u>{token_py}</u>' if token_index == index else token_py
+                  for token_index, token_py in enumerate(pinyin_tokens))
+    return zh, py, sentence.get('meaning', '')
+
+
+def build():
+    translations = load_json(TRANSLATIONS)
+    local = load_local_words()
+    examples = load_examples()
+    rows = syllabus_rows()
+    readings = pronunciation_sets(rows)
+    groups = defaultdict(list)
+    for row in rows:
+        raw_level = row['levelName'].split('（', 1)[0]
+        level = LEVEL_NAMES.get(raw_level)
+        if level is None:
+            raise ValueError(f"Unknown HSK level label: {row['levelName']}")
+
+        hanzi = clean_word(row['word'])
+        canonical = re.sub(r'\d+$', '', row['word'])
+        old = local.get(canonical, {})
+        old_matches_pronunciation = pinyin_matches(old.get('pinyin', ''), row['pinyin'])
+        old_meaning_is_safe = can_reuse_local_meaning(old, canonical, row['pinyin'], readings)
+        meaning = (old.get('meaning') if old_meaning_is_safe else '') or translations.get(translation_key(row), '') or translations.get(canonical, '')
+        if not meaning:
+            raise ValueError(f'Missing Vietnamese meaning for {canonical!r}')
+        meaning = meaning.strip()
+        if meaning:
+            meaning = meaning[:1].lower() + meaning[1:]
+
+        example_zh = old.get('example_zh', '') if old_matches_pronunciation else ''
+        example_py = old.get('example_py', '') if old_matches_pronunciation else ''
+        example_vi = old.get('example_vi', '') if old_matches_pronunciation else ''
+        if not example_zh:
+            candidate = next((candidate for candidate in examples.get(canonical, [])
+                              if pinyin_matches(candidate[0]['pinyin_tokens'][candidate[1]], row['pinyin'])), None)
+            if candidate:
+                example_zh, example_py, example_vi = highlighted_example(*candidate)
+
+        groups[level].append({
+            'id': len(groups[level]) + 1,
+            '_source_key': (canonical, row['pinyin']),
+            'hanzi': hanzi,
+            'pinyin': row['pinyin'],
+            'meaning': meaning,
+            'example_zh': example_zh,
+            'example_py': example_py,
+            'expected_pinyin': old.get('expected_pinyin', '') if old_matches_pronunciation else '',
+            'example_vi': example_vi,
+        })
+
+    expected = {1: 300, 2: 200, 3: 500, 4: 1000, 5: 1600, 6: 1800, 7: 5600}
+    for level, count in expected.items():
+        if len(groups[level]) != count:
+            raise ValueError(f'Level {level} expected {count} rows; found {len(groups[level])}')
+
+    for level in range(1, 7):
+        previous_path = HSK30_DIR / f'level{level}_vocabularies.json'
+        previous = load_json(previous_path) if previous_path.exists() else []
+        previous_ids = {}
+        previous_ids_by_hanzi = defaultdict(list)
+        used_ids = set()
+        for old_word in previous:
+            old_key = (re.sub(r'[⁰¹²³⁴⁵⁶⁷⁸⁹]+$', '', old_word['hanzi']), old_word['pinyin'])
+            if old_key not in previous_ids:
+                previous_ids[old_key] = old_word['id']
+            previous_ids_by_hanzi[old_key[0]].append(old_word['id'])
+            used_ids.add(old_word['id'])
+        next_id = max((int(value) for value in used_ids), default=0) + 1
+        assigned_ids = set()
+        current_hanzi_counts = Counter(re.sub(r'[⁰¹²³⁴⁵⁶⁷⁸⁹]+$', '', word['hanzi']) for word in groups[level])
+        for word in groups[level]:
+            key = word.pop('_source_key')
+            preserved_id = previous_ids.get(key)
+            plain_hanzi = re.sub(r'[⁰¹²³⁴⁵⁶⁷⁸⁹]+$', '', word['hanzi'])
+            if preserved_id is None and current_hanzi_counts[plain_hanzi] == 1 and len(previous_ids_by_hanzi[plain_hanzi]) == 1:
+                preserved_id = previous_ids_by_hanzi[plain_hanzi][0]
+            if preserved_id is not None and preserved_id not in assigned_ids:
+                word['id'] = preserved_id
+            else:
+                while next_id in used_ids:
+                    next_id += 1
+                word['id'] = next_id
+                used_ids.add(next_id)
+                next_id += 1
+            assigned_ids.add(word['id'])
+        output = HSK30_DIR / f'level{level}_vocabularies.json'
+        output.write_text(json.dumps(groups[level], ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    # The 2025 syllabus has a single advanced word pool shared by exam levels 7–9.
+    # Separate copies keep each level's existing progress storage independent.
+    for level in range(7, 10):
+        output = HSK30_DIR / f'level{level}_vocabularies.json'
+        public_words = [{key: value for key, value in word.items() if not key.startswith('_')} for word in groups[7]]
+        output.write_text(json.dumps(public_words, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+    print('Built HSK 3.0 decks:', ', '.join(f'{level}={expected[level]}' for level in expected))
+    print('Rows with examples:', sum(bool(word['example_zh']) for group in groups.values() for word in group))
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--translate-missing', action='store_true', help='generate draft Vietnamese meanings for terms without local glosses')
+    parser.add_argument('--build', action='store_true', help='build the nine JSON decks')
+    args = parser.parse_args()
+    if args.translate_missing:
+        translate_missing()
+    if args.build:
+        build()

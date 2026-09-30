@@ -1,3002 +1,2002 @@
 [
   {
-    "id": 1,
-    "hanzi": "阿姨们",
-    "pinyin": "āyímen",
-    "meaning": "các dì, các cô",
-    "example_zh": "<u>阿姨们</u>在公园跳舞。",
-    "example_py": "<u>Āyímen</u> zài gōngyuán tiàowǔ.",
-    "expected_pinyin": "a1 yi2 men0 zai4 gong1 yuan2 tiao4 wu3",
-    "example_vi": "<u>Các dì</u> đang nhảy múa trong công viên."
+    "id": 301,
+    "hanzi": "啊",
+    "pinyin": "a",
+    "meaning": "à (trợ từ ngữ khí)",
+    "example_zh": "<u>啊</u>，你来了！",
+    "example_py": "<u>A</u>, nǐ lái le!",
+    "expected_pinyin": "a0 | ni3 lai2 le0",
+    "example_vi": "<u>À</u>, bạn đến rồi!"
   },
   {
-    "id": 2,
-    "hanzi": "爱护",
-    "pinyin": "àihù",
-    "meaning": "yêu quý, bảo vệ",
-    "example_zh": "我们要<u>爱护</u>环境。",
-    "example_py": "Wǒmen yào <u>àihù</u> huánjìng.",
-    "expected_pinyin": "wo3 men0 yao4 ai4 hu4 huan2 jing4",
-    "example_vi": "Chúng ta phải <u>bảo vệ</u> môi trường."
+    "id": 302,
+    "hanzi": "爱好",
+    "pinyin": "àihào",
+    "meaning": "sở thích",
+    "example_zh": "我的<u>爱好</u>是读书。",
+    "example_py": "Wǒ de <u>àihào</u> shì dúshū.",
+    "expected_pinyin": "wo3 de0 ai4 hao4 shi4 du2 shu1",
+    "example_vi": "<u>Sở thích</u> của tôi là đọc sách."
   },
   {
-    "id": 3,
-    "hanzi": "安排",
-    "pinyin": "ānpái",
-    "meaning": "sắp xếp, bố trí",
-    "example_zh": "老师<u>安排</u>了新的座位。",
-    "example_py": "Lǎoshī <u>ānpái</u> le xīn de zuòwèi.",
-    "expected_pinyin": "lao3 shi1 an1 pai2 le0 xin1 de0 zuo4 wei4",
-    "example_vi": "Giáo viên đã <u>sắp xếp</u> chỗ ngồi mới."
+    "id": 303,
+    "hanzi": "白色",
+    "pinyin": "báisè",
+    "meaning": "trắng (danh từ)",
+    "example_zh": "她穿<u>白色</u>的衣服",
+    "example_py": "tā chuān <u>báisè</u> de yīfú",
+    "expected_pinyin": "",
+    "example_vi": "Cô ấy mặc quần áo màu trắng."
   },
   {
-    "id": 4,
-    "hanzi": "安全",
-    "pinyin": "ānquán",
-    "meaning": "an toàn",
-    "example_zh": "开车要注意<u>安全</u>。",
-    "example_py": "Kāichē yào zhùyì <u>ānquán</u>.",
-    "expected_pinyin": "kai1 che1 yao4 zhu4 yi4 an1 quan2",
-    "example_vi": "Lái xe phải chú ý <u>an toàn</u>."
+    "id": 304,
+    "hanzi": "班",
+    "pinyin": "bān",
+    "meaning": "lớp",
+    "example_zh": "我们<u>班</u>有三十个学生。",
+    "example_py": "Wǒmen <u>bān</u> yǒu sānshí ge xuésheng.",
+    "expected_pinyin": "wo3 men0 ban1 you3 san1 shi2 ge0 xue2 sheng0",
+    "example_vi": "<u>Lớp</u> chúng tôi có ba mươi học sinh."
   },
   {
-    "id": 5,
-    "hanzi": "按时",
-    "pinyin": "ànshí",
-    "meaning": "đúng giờ",
-    "example_zh": "请<u>按时</u>吃药。",
-    "example_py": "Qǐng <u>ànshí</u> chī yào.",
+    "id": 305,
+    "hanzi": "帮",
+    "pinyin": "bāng",
+    "meaning": "giúp đỡ (động từ)",
+    "example_zh": "我能<u>帮</u>你吗",
+    "example_py": "wǒnéng <u>bāng</u> nǐ ma",
+    "expected_pinyin": "",
+    "example_vi": "Tôi có thể giúp bạn không?"
+  },
+  {
+    "id": 306,
+    "hanzi": "帮忙",
+    "pinyin": "bāngmáng",
+    "meaning": "giúp đỡ",
+    "example_zh": "谢谢你<u>帮忙</u>。",
+    "example_py": "Xièxie nǐ <u>bāngmáng</u>.",
+    "expected_pinyin": "xie4 xie0 ni3 bang1 mang2",
+    "example_vi": "Cảm ơn bạn đã <u>giúp đỡ</u>."
+  },
+  {
+    "id": 307,
+    "hanzi": "包",
+    "pinyin": "bāo",
+    "meaning": "cái túi; bao gồm",
+    "example_zh": "我的<u>包</u>里有钱包。",
+    "example_py": "Wǒ de <u>bāo</u> lǐ yǒu qiánbāo.",
+    "expected_pinyin": "wo3 de0 bao1 li3 you3 qian2 bao1",
+    "example_vi": "Trong <u>túi</u> của tôi có ví tiền."
+  },
+  {
+    "id": 308,
+    "hanzi": "本子",
+    "pinyin": "běnzi",
+    "meaning": "sổ tay (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 309,
+    "hanzi": "比",
+    "pinyin": "bǐ",
+    "meaning": "so với",
+    "example_zh": "今天<u>比</u>昨天热。",
+    "example_py": "Jīntiān <u>bǐ</u> zuótiān rè.",
+    "expected_pinyin": "jin1 tian1 bi3 zuo2 tian1 re4",
+    "example_vi": "Hôm nay nóng <u>hơn</u> hôm qua."
+  },
+  {
+    "id": 310,
+    "hanzi": "笔",
+    "pinyin": "bǐ",
+    "meaning": "bút (danh từ, số lượng)",
+    "example_zh": "请把<u>笔</u>递给我",
+    "example_py": "qǐng bǎ <u>bǐ</u> dìgěi wǒ",
+    "expected_pinyin": "",
+    "example_vi": "Xin hãy đưa bút cho tôi."
+  },
+  {
+    "id": 311,
+    "hanzi": "别¹",
+    "pinyin": "bié",
+    "meaning": "đừng",
+    "example_zh": "<u>别</u>担心。",
+    "example_py": "<u>Bié</u> dānxīn.",
+    "expected_pinyin": "bie2 dan1 xin1",
+    "example_vi": "<u>Đừng</u> lo lắng."
+  },
+  {
+    "id": 312,
+    "hanzi": "不错",
+    "pinyin": "búcuò",
+    "meaning": "không tệ (tính từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 313,
+    "hanzi": "不好意思",
+    "pinyin": "bù hǎoyìsi",
+    "meaning": "ngại ngùng, xin lỗi",
+    "example_zh": "<u>不好意思</u>，打扰你一下。",
+    "example_py": "<u>Bùhǎoyìsi</u>, dǎrǎo nǐ yīxià.",
+    "expected_pinyin": "",
+    "example_vi": "<u>Xin lỗi</u>, làm phiền bạn một chút."
+  },
+  {
+    "id": 314,
+    "hanzi": "长",
+    "pinyin": "cháng",
+    "meaning": "dài",
+    "example_zh": "她的头发很<u>长</u>。",
+    "example_py": "Tā de tóufa hěn <u>cháng</u>.",
+    "expected_pinyin": "ta1 de0 tou2 fa0 hen3 chang2",
+    "example_vi": "Tóc của cô ấy rất <u>dài</u>."
+  },
+  {
+    "id": 315,
+    "hanzi": "车站",
+    "pinyin": "chēzhàn",
+    "meaning": "trạm (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 316,
+    "hanzi": "出",
+    "pinyin": "chū",
+    "meaning": "ra, đi ra",
+    "example_zh": "他从家里<u>出</u>来了。",
+    "example_py": "Tā cóng jiālǐ <u>chū</u>lái le.",
+    "expected_pinyin": "ta1 cong2 jia1 li3 chu1 lai2 le0",
+    "example_vi": "Anh ấy đã <u>ra</u> khỏi nhà."
+  },
+  {
+    "id": 317,
+    "hanzi": "出国",
+    "pinyin": "chūguó",
+    "meaning": "đi nước ngoài (động từ)",
+    "example_zh": "<u>出国</u>旅行需要护照",
+    "example_py": "<u>chūguó</u> lǚxíng xūyào hùzhào",
+    "expected_pinyin": "",
+    "example_vi": "Du lịch nước ngoài cần hộ chiếu."
+  },
+  {
+    "id": 318,
+    "hanzi": "出来",
+    "pinyin": "chūlái",
+    "meaning": "đi ra (động từ)",
+    "example_zh": "他从家里<u>出来</u>了",
+    "example_py": "tā cóng jiālǐ <u>chūlái</u> le",
+    "expected_pinyin": "",
+    "example_vi": "Anh ấy đã ra khỏi nhà."
+  },
+  {
+    "id": 319,
+    "hanzi": "出门",
+    "pinyin": "chūmén",
+    "meaning": "đi ra ngoài (động từ)",
+    "example_zh": "我正要<u>出门</u>，偏偏下起了雨",
+    "example_py": "wǒ zhèngyào <u>chūmén</u> ， piānpiān xiàqǐ le yǔ",
+    "expected_pinyin": "",
+    "example_vi": "Tôi đang muốn ra ngoài thì lại cứ đổ mưa."
+  },
+  {
+    "id": 320,
+    "hanzi": "出去",
+    "pinyin": "chūqù",
+    "meaning": "đi ra ngoài (động từ)",
+    "example_zh": "因为下雨，所以我们没<u>出去</u>",
+    "example_py": "yīnwèi xiàyǔ ， suǒyǐ wǒmen méi <u>chūqù</u>",
+    "expected_pinyin": "",
+    "example_vi": "Vì trời mưa, nên chúng tôi không ra ngoài."
+  },
+  {
+    "id": 321,
+    "hanzi": "床",
+    "pinyin": "chuáng",
+    "meaning": "giường (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 322,
+    "hanzi": "词",
+    "pinyin": "cí",
+    "meaning": "từ (danh từ)",
+    "example_zh": "这个<u>词</u>怎么用",
+    "example_py": "zhège <u>cí</u> zěnme yòng",
+    "expected_pinyin": "",
+    "example_vi": "Từ này dùng thế nào?"
+  },
+  {
+    "id": 323,
+    "hanzi": "次",
+    "pinyin": "cì",
+    "meaning": "lần",
+    "example_zh": "我去过中国两<u>次</u>。",
+    "example_py": "Wǒ qù guò zhōngguó liǎng <u>cì</u>.",
+    "expected_pinyin": "wo3 qu4 guo4 zhong1 guo2 liang3 ci4",
+    "example_vi": "Tôi đã đến Trung Quốc hai <u>lần</u>."
+  },
+  {
+    "id": 324,
+    "hanzi": "从",
+    "pinyin": "cóng",
+    "meaning": "từ",
+    "example_zh": "他<u>从</u>北京来。",
+    "example_py": "Tā <u>cóng</u> běijīng lái.",
+    "expected_pinyin": "ta1 cong2 bei3 jing1 lai2",
+    "example_vi": "Anh ấy đến <u>từ</u> Bắc Kinh."
+  },
+  {
+    "id": 325,
+    "hanzi": "从小",
+    "pinyin": "cóngxiǎo",
+    "meaning": "từ khi còn nhỏ (trạng từ)",
+    "example_zh": "他<u>从小</u>挨了不少苦",
+    "example_py": "tā <u>cóngxiǎo</u> āi le bùshǎo kǔ",
+    "expected_pinyin": "",
+    "example_vi": "Anh ấy từ nhỏ đã chịu đựng không ít khổ cực."
+  },
+  {
+    "id": 326,
+    "hanzi": "错",
+    "pinyin": "cuò",
+    "meaning": "sai, nhầm",
+    "example_zh": "这个答案<u>错</u>了。",
+    "example_py": "Zhège dá'àn <u>cuò</u> le.",
+    "expected_pinyin": "zhe4 ge0 da2 an4 cuo4 le0",
+    "example_vi": "Câu trả lời này <u>sai</u> rồi."
+  },
+  {
+    "id": 327,
+    "hanzi": "打¹",
+    "pinyin": "dǎ",
+    "meaning": "đánh (động từ)",
+    "example_zh": "你打篮球<u>打</u>得真棒",
+    "example_py": "nǐ dǎlánqiú <u>dǎ</u> dé zhēnbàng",
+    "expected_pinyin": "",
+    "example_vi": "Bạn chơi bóng rổ giỏi quá!"
+  },
+  {
+    "id": 328,
+    "hanzi": "打车",
+    "pinyin": "dǎchē",
+    "meaning": "đi taxi (động từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 329,
+    "hanzi": "打开",
+    "pinyin": "dǎkāi",
+    "meaning": "mở (động từ)",
+    "example_zh": "请把灯<u>打开</u>",
+    "example_py": "qǐng bǎ dēng <u>dǎkāi</u>",
+    "expected_pinyin": "",
+    "example_vi": "Xin hãy mở đèn lên."
+  },
+  {
+    "id": 330,
+    "hanzi": "但",
+    "pinyin": "dàn",
+    "meaning": "nhưng (liên từ, trạng từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 331,
+    "hanzi": "但是",
+    "pinyin": "dànshì",
+    "meaning": "nhưng (liên từ)",
+    "example_zh": "虽然下雨，<u>但是</u>我们还是去了",
+    "example_py": "suīrán xiàyǔ ， <u>dànshì</u> wǒmen háishì qù le",
+    "expected_pinyin": "",
+    "example_vi": "Mặc dù trời mưa, nhưng chúng tôi vẫn đi."
+  },
+  {
+    "id": 332,
+    "hanzi": "得",
+    "pinyin": "de",
+    "meaning": "được (trợ từ)",
+    "example_zh": "她说<u>得</u>很好。",
+    "example_py": "Tā shuō <u>de</u> hěn hǎo.",
+    "expected_pinyin": "ta1 shuo1 de0 hen3 hao3",
+    "example_vi": "Cô ấy nói <u>rất giỏi</u>."
+  },
+  {
+    "id": 333,
+    "hanzi": "地",
+    "pinyin": "de",
+    "meaning": "cách (trợ từ trạng ngữ)",
+    "example_zh": "他高兴<u>地</u>笑了。",
+    "example_py": "Tā gāoxìng <u>de</u> xiào le.",
+    "expected_pinyin": "ta1 gao1 xing4 de0 xiao4 le0",
+    "example_vi": "Anh ấy đã cười một <u>cách</u> vui vẻ."
+  },
+  {
+    "id": 334,
+    "hanzi": "等¹",
+    "pinyin": "děng",
+    "meaning": "đợi, chờ",
+    "example_zh": "请<u>等</u>我一下。",
+    "example_py": "Qǐng <u>děng</u> wǒ yīxià.",
+    "expected_pinyin": "qing3 deng3 wo3 yi1 xia4",
+    "example_vi": "Xin hãy <u>chờ</u> tôi một chút."
+  },
+  {
+    "id": 335,
+    "hanzi": "地铁",
+    "pinyin": "dìtiě",
+    "meaning": "tàu điện ngầm",
+    "example_zh": "我每天坐<u>地铁</u>上班。",
+    "example_py": "Wǒ měitiān zuò <u>dìtiě</u> shàngbān.",
+    "expected_pinyin": "wo3 mei3 tian1 zuo4 di4 tie3 shang4 ban1",
+    "example_vi": "Tôi mỗi ngày đi <u>tàu điện ngầm</u> đi làm."
+  },
+  {
+    "id": 336,
+    "hanzi": "点²",
+    "pinyin": "diǎn",
+    "meaning": "giờ, điểm",
+    "example_zh": "现在几<u>点</u>？",
+    "example_py": "Xiànzài jǐ <u>diǎn</u>?",
+    "expected_pinyin": "xian4 zai4 ji3 dian3",
+    "example_vi": "Bây <u>giờ</u> là mấy giờ?"
+  },
+  {
+    "id": 337,
+    "hanzi": "懂",
+    "pinyin": "dǒng",
+    "meaning": "hiểu",
+    "example_zh": "我不<u>懂</u>这个问题。",
+    "example_py": "Wǒ bù <u>dǒng</u> zhège wèntí.",
+    "expected_pinyin": "wo3 bu4 dong3 zhe4 ge0 wen4 ti2",
+    "example_vi": "Tôi không <u>hiểu</u> câu hỏi này."
+  },
+  {
+    "id": 338,
+    "hanzi": "动",
+    "pinyin": "dòng",
+    "meaning": "di chuyển (động từ)",
+    "example_zh": "钟的摆在<u>动</u>",
+    "example_py": "zhōng de bǎizài <u>dòng</u>",
+    "expected_pinyin": "",
+    "example_vi": "Quả lắc của đồng hồ đang chuyển động."
+  },
+  {
+    "id": 339,
+    "hanzi": "饭馆",
+    "pinyin": "fànguǎn",
+    "meaning": "quán ăn, nhà hàng",
+    "example_zh": "我们去那家<u>饭馆</u>吃饭。",
+    "example_py": "Wǒmen qù nà jiā <u>fànguǎn</u> chīfàn.",
+    "expected_pinyin": "",
+    "example_vi": "Chúng tôi đi ăn ở <u>quán ăn</u> đó."
+  },
+  {
+    "id": 340,
+    "hanzi": "飞",
+    "pinyin": "fēi",
+    "meaning": "bay (động từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 341,
+    "hanzi": "高",
+    "pinyin": "gāo",
+    "meaning": "cao",
+    "example_zh": "他个子很<u>高</u>。",
+    "example_py": "Tā gèzi hěn <u>gāo</u>.",
+    "expected_pinyin": "ta1 ge4 zi0 hen3 gao1",
+    "example_vi": "Anh ấy có chiều <u>cao</u> rất cao."
+  },
+  {
+    "id": 342,
+    "hanzi": "高中",
+    "pinyin": "gāozhōng",
+    "meaning": "trường trung học (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 343,
+    "hanzi": "告诉",
+    "pinyin": "gàosu",
+    "meaning": "nói cho biết",
+    "example_zh": "请<u>告诉</u>我你的名字。",
+    "example_py": "Qǐng <u>gàosu</u> wǒ nǐ de míngzi.",
+    "expected_pinyin": "qing3 gao4 su0 wo3 ni3 de0 ming2 zi0",
+    "example_vi": "Xin hãy <u>cho tôi biết</u> tên của bạn."
+  },
+  {
+    "id": 344,
+    "hanzi": "个子",
+    "pinyin": "gèzi",
+    "meaning": "chiều cao, vóc người",
+    "example_zh": "他的<u>个子</u>很高。",
+    "example_py": "Tā de <u>gèzi</u> hěn gāo.",
+    "expected_pinyin": "ta1 de0 ge4 zi0 hen3 gao1",
+    "example_vi": "Anh ấy có <u>chiều cao</u> rất cao."
+  },
+  {
+    "id": 345,
+    "hanzi": "跟",
+    "pinyin": "gēn",
+    "meaning": "cùng với, theo",
+    "example_zh": "我<u>跟</u>他一起去。",
+    "example_py": "Wǒ <u>gēn</u> tā yīqǐ qù.",
+    "expected_pinyin": "wo3 gen1 ta1 yi1 qi3 qu4",
+    "example_vi": "Tôi <u>cùng với</u> anh ấy đi."
+  },
+  {
+    "id": 346,
+    "hanzi": "公交车",
+    "pinyin": "gōngjiāochē",
+    "meaning": "xe buýt (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 347,
+    "hanzi": "过",
+    "pinyin": "guò",
+    "meaning": "vượt qua (động từ)",
+    "example_zh": "<u>过</u>马路要小心",
+    "example_py": "<u>guò</u> mǎlù yào xiǎoxīn",
+    "expected_pinyin": "",
+    "example_vi": "Qua đường phải cẩn thận."
+  },
+  {
+    "id": 348,
+    "hanzi": "过来",
+    "pinyin": "guòlái",
+    "meaning": "đến (động từ)",
+    "example_zh": "她端着一盘水果走<u>过来</u>",
+    "example_py": "tā duān zhe yīpán shuǐguǒ zǒu <u>guòlái</u>",
+    "expected_pinyin": "",
+    "example_vi": "Cô ấy bưng một đĩa trái cây đi qua."
+  },
+  {
+    "id": 349,
+    "hanzi": "过年",
+    "pinyin": "guònián",
+    "meaning": "năm mới (động từ)",
+    "example_zh": "<u>过年</u>的时候我们一起包饺子",
+    "example_py": "<u>guònián</u> de shíhòu wǒmen yìqǐ bāo jiǎozi",
+    "expected_pinyin": "",
+    "example_vi": "Vào Tết chúng tôi cùng nhau gói bánh chẻo."
+  },
+  {
+    "id": 350,
+    "hanzi": "过去¹",
+    "pinyin": "guòqù",
+    "meaning": "quá khứ",
+    "example_zh": "<u>过去</u>我住在北京。",
+    "example_py": "<u>Guòqù</u> wǒ zhù zài běijīng.",
+    "expected_pinyin": "guo4 qu4 wo3 zhu4 zai4 bei3 jing1",
+    "example_vi": "<u>Trước đây</u> tôi sống ở Bắc Kinh."
+  },
+  {
+    "id": 351,
+    "hanzi": "过",
+    "pinyin": "guo",
+    "meaning": "đã từng (trợ từ)",
+    "example_zh": "我去<u>过</u>中国。",
+    "example_py": "Wǒ qù <u>guò</u> zhōngguó.",
+    "expected_pinyin": "wo3 qu4 guo4 zhong1 guo2",
+    "example_vi": "Tôi <u>đã từng</u> đến Trung Quốc."
+  },
+  {
+    "id": 352,
+    "hanzi": "还是",
+    "pinyin": "háishi",
+    "meaning": "hay là, vẫn là",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 353,
+    "hanzi": "黑色",
+    "pinyin": "hēisè",
+    "meaning": "màu đen (danh từ)",
+    "example_zh": "老虎身上有<u>黑色</u>斑纹",
+    "example_py": "lǎohǔ shēnshàng yǒu <u>hēisè</u> bānwén",
+    "expected_pinyin": "",
+    "example_vi": "Trên thân hổ có những vết sọc màu đen."
+  },
+  {
+    "id": 354,
+    "hanzi": "红茶",
+    "pinyin": "hóngchá",
+    "meaning": "trà đen (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 355,
+    "hanzi": "红色",
+    "pinyin": "hóngsè",
+    "meaning": "màu đỏ (danh từ)",
+    "example_zh": "她喜欢<u>红色</u>",
+    "example_py": "tā xǐhuān <u>hóngsè</u>",
+    "expected_pinyin": "",
+    "example_vi": "Cô ấy thích màu đỏ."
+  },
+  {
+    "id": 356,
+    "hanzi": "后面",
+    "pinyin": "hòumiàn",
+    "meaning": "phía sau",
+    "example_zh": "学校在饭店<u>后面</u>。",
+    "example_py": "Xuéxiào zài fàndiàn <u>hòumiàn</u>.",
+    "expected_pinyin": "xue2 xiao4 zai4 fan4 dian4 hou4 mian4",
+    "example_vi": "Trường học ở <u>phía sau</u> nhà hàng."
+  },
+  {
+    "id": 357,
+    "hanzi": "花¹",
+    "pinyin": "huā",
+    "meaning": "hoa (động từ)",
+    "example_zh": "草地上有很多<u>花</u>",
+    "example_py": "cǎodì shàng yǒu hěnduō <u>huā</u>",
+    "expected_pinyin": "",
+    "example_vi": "Trên bãi cỏ có nhiều hoa."
+  },
+  {
+    "id": 505,
+    "hanzi": "花²",
+    "pinyin": "huā",
+    "meaning": "hoa (danh từ, tính từ)",
+    "example_zh": "草地上有很多<u>花</u>",
+    "example_py": "cǎodì shàng yǒu hěnduō <u>huā</u>",
+    "expected_pinyin": "",
+    "example_vi": "Trên bãi cỏ có nhiều hoa."
+  },
+  {
+    "id": 359,
+    "hanzi": "画",
+    "pinyin": "huà",
+    "meaning": "vẽ, tranh vẽ",
+    "example_zh": "他<u>画</u>了一张画。",
+    "example_py": "Tā <u>huà</u> le yī zhāng huà.",
+    "expected_pinyin": "ta1 hua4 le0 yi1 zhang1 hua4",
+    "example_vi": "Anh ấy đã <u>vẽ</u> một bức tranh."
+  },
+  {
+    "id": 360,
+    "hanzi": "坏",
+    "pinyin": "huài",
+    "meaning": "hỏng, xấu",
+    "example_zh": "这个手机<u>坏</u>了。",
+    "example_py": "Zhège shǒujī <u>huài</u> le.",
+    "expected_pinyin": "zhe4 ge0 shou3 ji1 huai4 le0",
+    "example_vi": "Cái điện thoại này bị <u>hỏng</u> rồi."
+  },
+  {
+    "id": 361,
+    "hanzi": "回来",
+    "pinyin": "huílái",
+    "meaning": "trở lại (động từ)",
+    "example_zh": "从此，他再也没<u>回来</u>过",
+    "example_py": "cóngcǐ ， tā zàiyě méi <u>huílái</u> guò",
+    "expected_pinyin": "",
+    "example_vi": "Từ đó, anh ấy không bao giờ trở lại nữa."
+  },
+  {
+    "id": 362,
+    "hanzi": "回去",
+    "pinyin": "huíqù",
+    "meaning": "quay trở lại (động từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 363,
+    "hanzi": "机场",
+    "pinyin": "jīchǎng",
+    "meaning": "sân bay",
+    "example_zh": "我去<u>机场</u>接朋友。",
+    "example_py": "Wǒ qù <u>jīchǎng</u> jiē péngyou.",
+    "expected_pinyin": "wo3 qu4 ji1 chang3 jie1 peng2 you0",
+    "example_vi": "Tôi đến <u>sân bay</u> đón bạn."
+  },
+  {
+    "id": 364,
+    "hanzi": "机票",
+    "pinyin": "jīpiào",
+    "meaning": "vé máy bay (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 365,
+    "hanzi": "记得",
+    "pinyin": "jìde",
+    "meaning": "nhớ (việc gì)",
+    "example_zh": "我<u>记得</u>他的名字。",
+    "example_py": "Wǒ <u>jìde</u> tā de míngzi.",
+    "expected_pinyin": "wo3 ji4 de0 ta1 de0 ming2 zi0",
+    "example_vi": "Tôi <u>nhớ</u> tên của anh ấy."
+  },
+  {
+    "id": 366,
+    "hanzi": "间",
+    "pinyin": "jiān",
+    "meaning": "giữa (số lượng, danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 367,
+    "hanzi": "教",
+    "pinyin": "jiāo",
+    "meaning": "dạy",
+    "example_zh": "她<u>教</u>我们汉语。",
+    "example_py": "Tā <u>jiāo</u> wǒmen hànyǔ.",
+    "expected_pinyin": "ta1 jiao1 wo3 men0 han4 yu3",
+    "example_vi": "Cô ấy <u>dạy</u> chúng tôi tiếng Trung."
+  },
+  {
+    "id": 368,
+    "hanzi": "教室",
+    "pinyin": "jiàoshì",
+    "meaning": "phòng học",
+    "example_zh": "学生们在<u>教室</u>里。",
+    "example_py": "Xuéshēngmen zài <u>jiàoshì</u> lǐ.",
+    "expected_pinyin": "xue2 sheng1 men0 zai4 jiao4 shi4 li3",
+    "example_vi": "Các học sinh ở trong <u>phòng học</u>."
+  },
+  {
+    "id": 369,
+    "hanzi": "介绍",
+    "pinyin": "jièshào",
+    "meaning": "giới thiệu",
+    "example_zh": "我来<u>介绍</u>一下我的朋友。",
+    "example_py": "Wǒ lái <u>jièshào</u> yīxià wǒ de péngyou.",
+    "expected_pinyin": "wo3 lai2 jie4 shao4 yi1 xia4 wo3 de0 peng2 you0",
+    "example_vi": "Tôi xin <u>giới thiệu</u> bạn của tôi."
+  },
+  {
+    "id": 370,
+    "hanzi": "进",
+    "pinyin": "jìn",
+    "meaning": "vào",
+    "example_zh": "请<u>进</u>。",
+    "example_py": "Qǐng <u>jìn</u>.",
+    "expected_pinyin": "qing3 jin4",
+    "example_vi": "Xin hãy <u>vào</u>."
+  },
+  {
+    "id": 371,
+    "hanzi": "近",
+    "pinyin": "jìn",
+    "meaning": "gần",
+    "example_zh": "学校离我家很<u>近</u>。",
+    "example_py": "Xuéxiào lí wǒ jiā hěn <u>jìn</u>.",
+    "expected_pinyin": "xue2 xiao4 li2 wo3 jia1 hen3 jin4",
+    "example_vi": "Trường học rất <u>gần</u> nhà tôi."
+  },
+  {
+    "id": 372,
+    "hanzi": "进来",
+    "pinyin": "jìnlái",
+    "meaning": "đi vào (động từ)",
+    "example_zh": "我可以<u>进来</u>吗",
+    "example_py": "wǒ kěyǐ <u>jìnlái</u> ma",
+    "expected_pinyin": "",
+    "example_vi": "Tôi có thể vào được không?"
+  },
+  {
+    "id": 373,
+    "hanzi": "进去",
+    "pinyin": "jìnqù",
+    "meaning": "đi vào (động từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 374,
+    "hanzi": "经常",
+    "pinyin": "jīngcháng",
+    "meaning": "thường xuyên",
+    "example_zh": "他<u>经常</u>去图书馆。",
+    "example_py": "Tā <u>jīngcháng</u> qù túshūguǎn.",
+    "expected_pinyin": "ta1 jing1 chang2 qu4 tu2 shu1 guan3",
+    "example_vi": "Anh ấy <u>thường xuyên</u> đi thư viện."
+  },
+  {
+    "id": 375,
+    "hanzi": "酒店",
+    "pinyin": "jiǔdiàn",
+    "meaning": "khách sạn (danh từ)",
+    "example_zh": "这是一个高级<u>酒店</u>",
+    "example_py": "zhèshì yígè gāojí <u>jiǔdiàn</u>",
+    "expected_pinyin": "",
+    "example_vi": "Đây là một khách sạn cao cấp."
+  },
+  {
+    "id": 376,
+    "hanzi": "就",
+    "pinyin": "jiù",
+    "meaning": "là, ngay (trợ từ nhấn mạnh)",
+    "example_zh": "我马上<u>就</u>来。",
+    "example_py": "Wǒ mǎshàng <u>jiù</u> lái.",
+    "expected_pinyin": "wo3 ma3 shang4 jiu4 lai2",
+    "example_vi": "Tôi sẽ đến <u>ngay</u>."
+  },
+  {
+    "id": 377,
+    "hanzi": "咖啡",
+    "pinyin": "kāfēi",
+    "meaning": "cà phê",
+    "example_zh": "我每天喝<u>咖啡</u>。",
+    "example_py": "Wǒ měitiān hē <u>kāfēi</u>.",
+    "expected_pinyin": "wo3 mei3 tian1 he1 ka1 fei1",
+    "example_vi": "Tôi mỗi ngày uống <u>cà phê</u>."
+  },
+  {
+    "id": 378,
+    "hanzi": "开始",
+    "pinyin": "kāishǐ",
+    "meaning": "bắt đầu",
+    "example_zh": "电影<u>开始</u>了。",
+    "example_py": "Diànyǐng <u>kāishǐ</u> le.",
+    "expected_pinyin": "dian4 ying3 kai1 shi3 le0",
+    "example_vi": "Phim đã <u>bắt đầu</u> rồi."
+  },
+  {
+    "id": 379,
+    "hanzi": "开学",
+    "pinyin": "kāixué",
+    "meaning": "bắt đầu đi học (động từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 380,
+    "hanzi": "考",
+    "pinyin": "kǎo",
+    "meaning": "kiểm tra (động từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 381,
+    "hanzi": "考试",
+    "pinyin": "kǎoshì",
+    "meaning": "thi cử",
+    "example_zh": "明天有<u>考试</u>。",
+    "example_py": "Míngtiān yǒu <u>kǎoshì</u>.",
+    "expected_pinyin": "ming2 tian1 you3 kao3 shi4",
+    "example_vi": "Ngày mai có <u>kỳ thi</u>."
+  },
+  {
+    "id": 382,
+    "hanzi": "可能",
+    "pinyin": "kěnéng",
+    "meaning": "có thể",
+    "example_zh": "他<u>可能</u>不来了。",
+    "example_py": "Tā <u>kěnéng</u> bù lái le.",
+    "expected_pinyin": "ta1 ke3 neng2 bu4 lai2 le0",
+    "example_vi": "Anh ấy <u>có thể</u> sẽ không đến."
+  },
+  {
+    "id": 383,
+    "hanzi": "裤子",
+    "pinyin": "kùzi",
+    "meaning": "quần",
+    "example_zh": "他穿了一条新<u>裤子</u>。",
+    "example_py": "Tā chuān le yī tiáo xīn <u>kùzi</u>.",
+    "expected_pinyin": "ta1 chuan1 le0 yi1 tiao2 xin1 ku4 zi0",
+    "example_vi": "Anh ấy mặc một cái <u>quần</u> mới."
+  },
+  {
+    "id": 384,
+    "hanzi": "快",
+    "pinyin": "kuài",
+    "meaning": "nhanh",
+    "example_zh": "请<u>快</u>一点。",
+    "example_py": "Qǐng <u>kuài</u> yīdiǎn.",
+    "expected_pinyin": "qing3 kuai4 yi1 dian3",
+    "example_vi": "Xin hãy <u>nhanh</u> một chút."
+  },
+  {
+    "id": 385,
+    "hanzi": "快乐",
+    "pinyin": "kuàilè",
+    "meaning": "vui vẻ",
+    "example_zh": "祝你生日<u>快乐</u>！",
+    "example_py": "Zhù nǐ shēngrì <u>kuàilè</u>!",
+    "expected_pinyin": "zhu4 ni3 sheng1 ri4 kuai4 le4",
+    "example_vi": "Chúc bạn sinh nhật <u>vui vẻ</u>!"
+  },
+  {
+    "id": 386,
+    "hanzi": "快要",
+    "pinyin": "kuàiyào",
+    "meaning": "gần như (trạng từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 387,
+    "hanzi": "篮球",
+    "pinyin": "lánqiú",
+    "meaning": "bóng rổ (danh từ)",
+    "example_zh": "他加入了一个<u>篮球</u>俱乐部",
+    "example_py": "tā jiārù le yígè <u>lánqiú</u> jùlèbù",
+    "expected_pinyin": "",
+    "example_vi": "Anh ấy gia nhập một câu lạc bộ bóng rổ."
+  },
+  {
+    "id": 388,
+    "hanzi": "累",
+    "pinyin": "lèi",
+    "meaning": "mệt",
+    "example_zh": "我今天很<u>累</u>。",
+    "example_py": "Wǒ jīntiān hěn <u>lèi</u>.",
+    "expected_pinyin": "wo3 jin1 tian1 hen3 lei4",
+    "example_vi": "Hôm nay tôi rất <u>mệt</u>."
+  },
+  {
+    "id": 389,
+    "hanzi": "离",
+    "pinyin": "lí",
+    "meaning": "cách (khoảng cách)",
+    "example_zh": "我家<u>离</u>学校不远。",
+    "example_py": "Wǒ jiā <u>lí</u> xuéxiào bù yuǎn.",
+    "expected_pinyin": "wo3 jia1 li2 xue2 xiao4 bu4 yuan3",
+    "example_vi": "Nhà tôi <u>cách</u> trường không xa."
+  },
+  {
+    "id": 390,
+    "hanzi": "里面",
+    "pinyin": "lǐmiàn",
+    "meaning": "bên trong (danh từ)",
+    "example_zh": "鸡蛋壳<u>里面</u>有一层膜",
+    "example_py": "jīdànké <u>lǐmiàn</u> yǒu yīcéng mó",
+    "expected_pinyin": "",
+    "example_vi": "Bên trong vỏ trứng có một lớp màng."
+  },
+  {
+    "id": 391,
+    "hanzi": "楼",
+    "pinyin": "lóu",
+    "meaning": "tầng, tòa nhà",
+    "example_zh": "我住在五<u>楼</u>。",
+    "example_py": "Wǒ zhù zài wǔ <u>lóu</u>.",
+    "expected_pinyin": "wo3 zhu4 zai4 wu3 lou2",
+    "example_vi": "Tôi sống ở <u>tầng</u> năm."
+  },
+  {
+    "id": 392,
+    "hanzi": "路",
+    "pinyin": "lù",
+    "meaning": "đường",
+    "example_zh": "这条<u>路</u>很长。",
+    "example_py": "Zhè tiáo <u>lù</u> hěn cháng.",
+    "expected_pinyin": "zhe4 tiao2 lu4 hen3 chang2",
+    "example_vi": "Con <u>đường</u> này rất dài."
+  },
+  {
+    "id": 393,
+    "hanzi": "路上",
+    "pinyin": "lùshang",
+    "meaning": "trên đường (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 394,
+    "hanzi": "旅游",
+    "pinyin": "lǚyóu",
+    "meaning": "du lịch",
+    "example_zh": "暑假我们去<u>旅游</u>",
+    "example_py": "shǔjià wǒmen qù <u>lǚyóu</u>",
+    "expected_pinyin": "",
+    "example_vi": "Nghỉ hè chúng tôi đi du lịch."
+  },
+  {
+    "id": 395,
+    "hanzi": "绿茶",
+    "pinyin": "lǜchá",
+    "meaning": "trà xanh (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 396,
+    "hanzi": "绿色",
+    "pinyin": "lǜsè",
+    "meaning": "xanh (danh từ, tính từ)",
+    "example_zh": "这片叶子是<u>绿色</u>的",
+    "example_py": "zhèpiàn yèzi shì <u>lǜsè</u> de",
+    "expected_pinyin": "",
+    "example_vi": "Lá cây này có màu xanh lá."
+  },
+  {
+    "id": 397,
+    "hanzi": "慢",
+    "pinyin": "màn",
+    "meaning": "chậm",
+    "example_zh": "请说<u>慢</u>一点。",
+    "example_py": "Qǐng shuō <u>màn</u> yīdiǎn.",
+    "expected_pinyin": "qing3 shuo1 man4 yi1 dian3",
+    "example_vi": "Xin hãy nói <u>chậm</u> một chút."
+  },
+  {
+    "id": 398,
+    "hanzi": "没意思",
+    "pinyin": "méi yìsi",
+    "meaning": "không thú vị",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 399,
+    "hanzi": "每",
+    "pinyin": "měi",
+    "meaning": "mỗi",
+    "example_zh": "我<u>每</u>天学习汉语。",
+    "example_py": "Wǒ <u>měi</u>tiān xuéxí hànyǔ.",
+    "expected_pinyin": "wo3 mei3 tian1 xue2 xi2 han4 yu3",
+    "example_vi": "Tôi <u>mỗi</u> ngày học tiếng Trung."
+  },
+  {
+    "id": 400,
+    "hanzi": "门",
+    "pinyin": "mén",
+    "meaning": "cửa",
+    "example_zh": "请关上<u>门</u>。",
+    "example_py": "Qǐng guānshàng <u>mén</u>.",
+    "expected_pinyin": "qing3 guan1 shang4 men2",
+    "example_vi": "Xin hãy đóng <u>cửa</u> lại."
+  },
+  {
+    "id": 401,
+    "hanzi": "门口",
+    "pinyin": "ménkǒu",
+    "meaning": "ô cửa (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 402,
+    "hanzi": "门票",
+    "pinyin": "ménpiào",
+    "meaning": "vé (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 403,
+    "hanzi": "面¹",
+    "pinyin": "miàn",
+    "meaning": "khuôn mặt (hậu tố, động từ, danh từ, định lượng)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 404,
+    "hanzi": "名",
+    "pinyin": "míng",
+    "meaning": "danh từ (danh từ, định lượng)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 405,
+    "hanzi": "拿",
+    "pinyin": "ná",
+    "meaning": "cầm, lấy",
+    "example_zh": "请<u>拿</u>一本书给我。",
+    "example_py": "Qǐng <u>ná</u> yī běn shū gěi wǒ.",
+    "expected_pinyin": "qing3 na2 yi1 ben3 shu1 gei3 wo3",
+    "example_vi": "Xin hãy <u>lấy</u> một cuốn sách cho tôi."
+  },
+  {
+    "id": 406,
+    "hanzi": "那么",
+    "pinyin": "nàme",
+    "meaning": "sau đó (đại từ, liên từ)",
+    "example_zh": "事情并非<u>那么</u>简单",
+    "example_py": "shìqíng bìngfēi <u>nàme</u> jiǎndān",
+    "expected_pinyin": "",
+    "example_vi": "Việc này thực ra không đơn giản như vậy."
+  },
+  {
+    "id": 407,
+    "hanzi": "那样",
+    "pinyin": "nàyàng",
+    "meaning": "như thế (đại từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 408,
+    "hanzi": "奶茶",
+    "pinyin": "nǎichá",
+    "meaning": "trà sữa (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 409,
+    "hanzi": "奶奶",
+    "pinyin": "nǎinai",
+    "meaning": "bà nội",
+    "example_zh": "我<u>奶奶</u>身体很健康。",
+    "example_py": "Wǒ <u>nǎinai</u> shēntǐ hěn jiànkāng.",
+    "expected_pinyin": "wo3 nai3 nai0 shen1 ti3 hen3 jian4 kang1",
+    "example_vi": "<u>Bà nội</u> tôi sức khỏe rất tốt."
+  },
+  {
+    "id": 410,
+    "hanzi": "男孩儿",
+    "pinyin": "nánháir",
+    "meaning": "cậu bé (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 411,
+    "hanzi": "鸟",
+    "pinyin": "niǎo",
+    "meaning": "con chim",
+    "example_zh": "树上有一只<u>鸟</u>。",
+    "example_py": "Shùshàng yǒu yī zhī <u>niǎo</u>.",
+    "expected_pinyin": "shu4 shang4 you3 yi1 zhi1 niao3",
+    "example_vi": "Trên cây có một <u>con chim</u>."
+  },
+  {
+    "id": 412,
+    "hanzi": "女孩儿",
+    "pinyin": "nǚháir",
+    "meaning": "cô gái (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 413,
+    "hanzi": "旁边",
+    "pinyin": "pángbiān",
+    "meaning": "bên cạnh",
+    "example_zh": "邮局在银行<u>旁边</u>。",
+    "example_py": "Yóujú zài yínháng <u>pángbiān</u>.",
+    "expected_pinyin": "you2 ju2 zai4 yin2 hang2 pang2 bian1",
+    "example_vi": "Bưu điện ở <u>cạnh</u> ngân hàng."
+  },
+  {
+    "id": 414,
+    "hanzi": "跑",
+    "pinyin": "pǎo",
+    "meaning": "chạy (động từ)",
+    "example_zh": "他迟到了，于是<u>跑</u>了起来",
+    "example_py": "tā chídào le ， yúshì <u>pǎo</u> le qǐlái",
+    "expected_pinyin": "",
+    "example_vi": "Anh ấy bị muộn, vì vậy đã chạy lên."
+  },
+  {
+    "id": 415,
+    "hanzi": "跑步",
+    "pinyin": "pǎobù",
+    "meaning": "chạy bộ",
+    "example_zh": "他每天早上<u>跑步</u>。",
+    "example_py": "Tā měitiān zǎoshang <u>pǎobù</u>.",
+    "expected_pinyin": "ta1 mei3 tian1 zao3 shang0 pao3 bu4",
+    "example_vi": "Anh ấy mỗi sáng <u>chạy bộ</u>."
+  },
+  {
+    "id": 416,
+    "hanzi": "票",
+    "pinyin": "piào",
+    "meaning": "vé",
+    "example_zh": "请给我一张<u>票</u>。",
+    "example_py": "Qǐng gěi wǒ yī zhāng <u>piào</u>.",
+    "expected_pinyin": "qing3 gei3 wo3 yi1 zhang1 piao4",
+    "example_vi": "Xin hãy cho tôi một tấm <u>vé</u>."
+  },
+  {
+    "id": 417,
+    "hanzi": "妻子",
+    "pinyin": "qīzi",
+    "meaning": "vợ",
+    "example_zh": "他的<u>妻子</u>是医生。",
+    "example_py": "Tā de <u>qīzi</u> shì yīshēng.",
+    "expected_pinyin": "ta1 de0 qi1 zi0 shi4 yi1 sheng1",
+    "example_vi": "<u>Vợ</u> của anh ấy là bác sĩ."
+  },
+  {
+    "id": 418,
+    "hanzi": "起来",
+    "pinyin": "qǐlái",
+    "meaning": "dậy, lên (chỉ hướng)",
+    "example_zh": "请站<u>起来</u>。",
+    "example_py": "Qǐng zhàn <u>qǐlái</u>.",
+    "expected_pinyin": "qing3 zhan4 qi3 lai2",
+    "example_vi": "Xin hãy đứng <u>dậy</u>."
+  },
+  {
+    "id": 419,
+    "hanzi": "前面",
+    "pinyin": "qiánmiàn",
+    "meaning": "phía trước",
+    "example_zh": "学校在<u>前面</u>。",
+    "example_py": "Xuéxiào zài <u>qiánmiàn</u>.",
+    "expected_pinyin": "xue2 xiao4 zai4 qian2 mian4",
+    "example_vi": "Trường học ở <u>phía trước</u>."
+  },
+  {
+    "id": 420,
+    "hanzi": "晴",
+    "pinyin": "qíng",
+    "meaning": "trời quang, nắng đẹp",
+    "example_zh": "今天天气<u>晴</u>。",
+    "example_py": "Jīntiān tiānqì <u>qíng</u>.",
+    "expected_pinyin": "jin1 tian1 tian1 qi4 qing2",
+    "example_vi": "Hôm nay trời <u>nắng đẹp</u>."
+  },
+  {
+    "id": 421,
+    "hanzi": "球",
+    "pinyin": "qiú",
+    "meaning": "quả bóng (danh từ)",
+    "example_zh": "<u>球</u>从山上滚下来",
+    "example_py": "<u>qiú</u> cóng shānshàng gǔnxiàlái",
+    "expected_pinyin": "",
+    "example_vi": "Quả bóng lăn xuống từ trên núi."
+  },
+  {
+    "id": 422,
+    "hanzi": "让",
+    "pinyin": "ràng",
+    "meaning": "để cho, khiến",
+    "example_zh": "妈妈<u>让</u>我洗碗。",
+    "example_py": "Māma <u>ràng</u> wǒ xǐ wǎn.",
+    "expected_pinyin": "ma1 ma0 rang4 wo3 xi3 wan3",
+    "example_vi": "Mẹ <u>để</u> tôi rửa bát."
+  },
+  {
+    "id": 423,
+    "hanzi": "肉",
+    "pinyin": "ròu",
+    "meaning": "thịt (danh từ)",
+    "example_zh": "这块<u>肉</u>有五百克",
+    "example_py": "zhèkuài <u>ròu</u> yǒu wǔbǎi kè",
+    "expected_pinyin": "",
+    "example_vi": "Tảng thịt này nặng năm trăm gram."
+  },
+  {
+    "id": 424,
+    "hanzi": "商场",
+    "pinyin": "shāngchǎng",
+    "meaning": "trung tâm mua sắm (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 425,
+    "hanzi": "上来",
+    "pinyin": "shànglái",
+    "meaning": "hãy lên (động từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 426,
+    "hanzi": "上面",
+    "pinyin": "shàngmiàn",
+    "meaning": "ở trên (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 427,
+    "hanzi": "上去",
+    "pinyin": "shàngqù",
+    "meaning": "đi lên (động từ)",
+    "example_zh": "请把图片粘贴<u>上去</u>",
+    "example_py": "qǐng bǎ túpiàn zhāntiē <u>shàngqù</u>",
+    "expected_pinyin": "",
+    "example_vi": "Xin hãy dán hình ảnh lên."
+  },
+  {
+    "id": 428,
+    "hanzi": "上网",
+    "pinyin": "shàngwǎng",
+    "meaning": "lên mạng",
+    "example_zh": "他在<u>上网</u>。",
+    "example_py": "Tā zài <u>shàngwǎng</u>.",
+    "expected_pinyin": "ta1 zai4 shang4 wang3",
+    "example_vi": "Anh ấy đang <u>lên mạng</u>."
+  },
+  {
+    "id": 429,
+    "hanzi": "身体",
+    "pinyin": "shēntǐ",
+    "meaning": "cơ thể, sức khỏe",
+    "example_zh": "你的<u>身体</u>怎么样？",
+    "example_py": "Nǐ de <u>shēntǐ</u> zěnmeyàng?",
+    "expected_pinyin": "ni3 de0 shen1 ti3 zen3 me0 yang4",
+    "example_vi": "<u>Sức khỏe</u> của bạn thế nào?"
+  },
+  {
+    "id": 430,
+    "hanzi": "生日",
+    "pinyin": "shēngrì",
+    "meaning": "sinh nhật",
+    "example_zh": "今天是我的<u>生日</u>。",
+    "example_py": "Jīntiān shì wǒ de <u>shēngrì</u>.",
+    "expected_pinyin": "jin1 tian1 shi4 wo3 de0 sheng1 ri4",
+    "example_vi": "Hôm nay là <u>sinh nhật</u> của tôi."
+  },
+  {
+    "id": 431,
+    "hanzi": "时",
+    "pinyin": "shí",
+    "meaning": "thời gian (danh từ, số lượng)",
+    "example_zh": "过年<u>时</u>大家放鞭炮",
+    "example_py": "guònián <u>shí</u> dàjiā fàngbiānpào",
+    "expected_pinyin": "",
+    "example_vi": "Vào dịp Tết mọi người đốt pháo."
+  },
+  {
+    "id": 432,
+    "hanzi": "事情",
+    "pinyin": "shìqing",
+    "meaning": "việc, sự việc",
+    "example_zh": "我有点<u>事情</u>。",
+    "example_py": "Wǒ yǒudiǎn <u>shìqing</u>.",
+    "expected_pinyin": "wo3 you3 dian3 shi4 qing0",
+    "example_vi": "Tôi có một chút <u>việc</u>."
+  },
+  {
+    "id": 433,
+    "hanzi": "手",
+    "pinyin": "shǒu",
+    "meaning": "bàn tay (danh từ)",
+    "example_zh": "请抓住我的<u>手</u>",
+    "example_py": "qǐng zhuāzhù wǒ de <u>shǒu</u>",
+    "expected_pinyin": "",
+    "example_vi": "Xin hãy nắm chắc tay tôi."
+  },
+  {
+    "id": 434,
+    "hanzi": "手表",
+    "pinyin": "shǒubiǎo",
+    "meaning": "đồng hồ đeo tay",
+    "example_zh": "这是我的<u>手表</u>。",
+    "example_py": "Zhè shì wǒ de <u>shǒubiǎo</u>.",
+    "expected_pinyin": "zhe4 shi4 wo3 de0 shou3 biao3",
+    "example_vi": "Đây là <u>đồng hồ đeo tay</u> của tôi."
+  },
+  {
+    "id": 435,
+    "hanzi": "书包",
+    "pinyin": "shūbāo",
+    "meaning": "cặp sách (danh từ)",
+    "example_zh": "书在<u>书包</u>里",
+    "example_py": "shū zài <u>shūbāo</u> lǐ",
+    "expected_pinyin": "",
+    "example_vi": "Sách ở trong cặp."
+  },
+  {
+    "id": 436,
+    "hanzi": "舒服",
+    "pinyin": "shūfu",
+    "meaning": "thoải mái, dễ chịu",
+    "example_zh": "躺在床上很<u>舒服</u>。",
+    "example_py": "Tǎng zài chuángshàng hěn <u>shūfu</u>.",
+    "expected_pinyin": "tang3 zai4 chuang2 shang4 hen3 shu1 fu0",
+    "example_vi": "Nằm trên giường rất <u>thoải mái</u>."
+  },
+  {
+    "id": 437,
+    "hanzi": "送",
+    "pinyin": "sòng",
+    "meaning": "tặng, đưa",
+    "example_zh": "他<u>送</u>我一本书。",
+    "example_py": "Tā <u>sòng</u> wǒ yī běn shū.",
+    "expected_pinyin": "ta1 song4 wo3 yi1 ben3 shu1",
+    "example_vi": "Anh ấy <u>tặng</u> tôi một cuốn sách."
+  },
+  {
+    "id": 438,
+    "hanzi": "虽然",
+    "pinyin": "suīrán",
+    "meaning": "mặc dù (liên từ)",
+    "example_zh": "<u>虽然</u>下雨，但是我们还是去了",
+    "example_py": "<u>suīrán</u> xiàyǔ ， dànshì wǒmen háishì qù le",
+    "expected_pinyin": "",
+    "example_vi": "Mặc dù trời mưa, nhưng chúng tôi vẫn đi."
+  },
+  {
+    "id": 439,
+    "hanzi": "所以",
+    "pinyin": "suǒyǐ",
+    "meaning": "vì vậy (liên từ)",
+    "example_zh": "因为下雨，<u>所以</u>我们没出去",
+    "example_py": "yīnwèi xiàyǔ ， <u>suǒyǐ</u> wǒmen méi chūqù",
+    "expected_pinyin": "",
+    "example_vi": "Vì trời mưa, nên chúng tôi không ra ngoài."
+  },
+  {
+    "id": 440,
+    "hanzi": "疼",
+    "pinyin": "téng",
+    "meaning": "đau",
+    "example_zh": "我的头很<u>疼</u>。",
+    "example_py": "Wǒ de tóu hěn <u>téng</u>.",
+    "expected_pinyin": "wo3 de0 tou2 hen3 teng2",
+    "example_vi": "Đầu tôi rất <u>đau</u>."
+  },
+  {
+    "id": 441,
+    "hanzi": "踢",
+    "pinyin": "tī",
+    "meaning": "đá (động từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 442,
+    "hanzi": "题",
+    "pinyin": "tí",
+    "meaning": "câu hỏi, đề bài",
+    "example_zh": "这个<u>题</u>很难。",
+    "example_py": "Zhège <u>tí</u> hěn nán.",
+    "expected_pinyin": "zhe4 ge0 ti2 hen3 nan2",
+    "example_vi": "<u>Câu hỏi</u> này rất khó."
+  },
+  {
+    "id": 443,
+    "hanzi": "条",
+    "pinyin": "tiáo",
+    "meaning": "con, dải (lượng từ)",
+    "example_zh": "这<u>条</u>路很长。",
+    "example_py": "Zhè <u>tiáo</u> lù hěn cháng.",
+    "expected_pinyin": "zhe4 tiao2 lu4 hen3 chang2",
+    "example_vi": "<u>Con</u> đường này rất dài."
+  },
+  {
+    "id": 444,
+    "hanzi": "跳舞",
+    "pinyin": "tiàowǔ",
+    "meaning": "nhảy múa",
+    "example_zh": "她喜欢<u>跳舞</u>。",
+    "example_py": "Tā xǐhuan <u>tiàowǔ</u>.",
+    "expected_pinyin": "ta1 xi3 huan0 tiao4 wu3",
+    "example_vi": "Cô ấy thích <u>nhảy múa</u>."
+  },
+  {
+    "id": 445,
+    "hanzi": "头",
+    "pinyin": "tóu",
+    "meaning": "đầu (danh từ, số lượng, tính từ)",
+    "example_zh": "我的<u>头</u>很疼",
+    "example_py": "wǒ de <u>tóu</u> hěn téng",
+    "expected_pinyin": "",
+    "example_vi": "Đầu tôi rất đau."
+  },
+  {
+    "id": 446,
+    "hanzi": "外国",
+    "pinyin": "wàiguó",
+    "meaning": "nước ngoài (danh từ)",
+    "example_zh": "我经常跟<u>外国</u>客户打交道",
+    "example_py": "wǒ jīngcháng gēn <u>wàiguó</u> kèhù dǎjiāodào",
+    "expected_pinyin": "",
+    "example_vi": "Tôi thường tiếp xúc với khách hàng nước ngoài."
+  },
+  {
+    "id": 447,
+    "hanzi": "外面",
+    "pinyin": "wàimiàn",
+    "meaning": "bên ngoài (danh từ)",
+    "example_zh": "<u>外面</u>在下雨",
+    "example_py": "<u>wàimiàn</u> zài xiàyǔ",
+    "expected_pinyin": "",
+    "example_vi": "Bên ngoài đang mưa."
+  },
+  {
+    "id": 448,
+    "hanzi": "完",
+    "pinyin": "wán",
+    "meaning": "hoàn thành, xong",
+    "example_zh": "我吃<u>完</u>饭了。",
+    "example_py": "Wǒ chī <u>wán</u> fàn le.",
+    "expected_pinyin": "wo3 chi1 wan2 fan4 le0",
+    "example_vi": "Tôi đã ăn <u>xong</u> cơm rồi."
+  },
+  {
+    "id": 449,
+    "hanzi": "万",
+    "pinyin": "wàn",
+    "meaning": "vạn (mười nghìn)",
+    "example_zh": "这个城市有一<u>万</u>人。",
+    "example_py": "Zhège chéngshì yǒu yī <u>wàn</u> rén.",
+    "expected_pinyin": "zhe4 ge0 cheng2 shi4 you3 yi1 wan4 ren2",
+    "example_vi": "Thành phố này có một <u>vạn</u> người."
+  },
+  {
+    "id": 450,
+    "hanzi": "往",
+    "pinyin": "wǎng",
+    "meaning": "hướng về, đi về",
+    "example_zh": "请<u>往</u>前走。",
+    "example_py": "Qǐng <u>wǎng</u> qián zǒu.",
+    "expected_pinyin": "qing3 wang3 qian2 zou3",
+    "example_vi": "Xin hãy <u>đi về</u> phía trước."
+  },
+  {
+    "id": 451,
+    "hanzi": "网上",
+    "pinyin": "wǎngshang",
+    "meaning": "trực tuyến (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 452,
+    "hanzi": "忘",
+    "pinyin": "wàng",
+    "meaning": "quên (động từ)",
+    "example_zh": "他竟然<u>忘</u>了我的生日",
+    "example_py": "tā jìngrán <u>wàng</u> le wǒ de shēngrì",
+    "expected_pinyin": "",
+    "example_vi": "Anh ấy lại quên sinh nhật của tôi."
+  },
+  {
+    "id": 453,
+    "hanzi": "位",
+    "pinyin": "wèi",
+    "meaning": "vị (lượng từ kính trọng)",
+    "example_zh": "这<u>位</u>是我的老师。",
+    "example_py": "Zhè <u>wèi</u> shì wǒ de lǎoshī.",
+    "expected_pinyin": "zhe4 wei4 shi4 wo3 de0 lao3 shi1",
+    "example_vi": "<u>Đây là</u> thầy giáo của tôi."
+  },
+  {
+    "id": 454,
+    "hanzi": "为什么",
+    "pinyin": "wèi shénme",
+    "meaning": "tại sao",
+    "example_zh": "你<u>为什么</u>不来？",
+    "example_py": "Nǐ <u>wèishénme</u> bù lái?",
+    "expected_pinyin": "ni3 wei4 shen2 me0 bu4 lai2",
+    "example_vi": "<u>Tại sao</u> bạn không đến?"
+  },
+  {
+    "id": 455,
+    "hanzi": "希望",
+    "pinyin": "xīwàng",
+    "meaning": "hy vọng",
+    "example_zh": "我<u>希望</u>你来。",
+    "example_py": "Wǒ <u>xīwàng</u> nǐ lái.",
+    "expected_pinyin": "wo3 xi1 wang4 ni3 lai2",
+    "example_vi": "Tôi <u>hy vọng</u> bạn sẽ đến."
+  },
+  {
+    "id": 456,
+    "hanzi": "洗",
+    "pinyin": "xǐ",
+    "meaning": "rửa, tắm giặt",
+    "example_zh": "我去<u>洗</u>手。",
+    "example_py": "Wǒ qù <u>xǐ</u> shǒu.",
+    "expected_pinyin": "wo3 qu4 xi3 shou3",
+    "example_vi": "Tôi đi <u>rửa</u> tay."
+  },
+  {
+    "id": 457,
+    "hanzi": "洗手间",
+    "pinyin": "xǐshǒujiān",
+    "meaning": "nhà vệ sinh",
+    "example_zh": "请问<u>洗手间</u>在哪儿？",
+    "example_py": "Qǐngwèn <u>xǐshǒujiān</u> zài nǎr?",
+    "expected_pinyin": "qing3 wen4 xi3 shou3 jian1 zai4 nar3",
+    "example_vi": "Xin hỏi <u>nhà vệ sinh</u> ở đâu?"
+  },
+  {
+    "id": 458,
+    "hanzi": "下来",
+    "pinyin": "xiàlái",
+    "meaning": "đi xuống (động từ)",
+    "example_zh": "把帘子放<u>下来</u>",
+    "example_py": "bǎ liánzi fàng <u>xiàlái</u>",
+    "expected_pinyin": "",
+    "example_vi": "Hãy kéo màn xuống."
+  },
+  {
+    "id": 459,
+    "hanzi": "下面",
+    "pinyin": "xiàmiàn",
+    "meaning": "bên dưới (danh từ)",
+    "example_zh": "球滚到了桌子<u>下面</u>",
+    "example_py": "qiúgǔn dào le zhuōzi <u>xiàmiàn</u>",
+    "expected_pinyin": "",
+    "example_vi": "Quả bóng đã lăn xuống dưới bàn."
+  },
+  {
+    "id": 460,
+    "hanzi": "下去",
+    "pinyin": "xiàqù",
+    "meaning": "đi xuống (động từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 461,
+    "hanzi": "小孩儿",
+    "pinyin": "xiǎoháir",
+    "meaning": "đứa trẻ (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 462,
+    "hanzi": "小时候",
+    "pinyin": "xiǎoshíhou",
+    "meaning": "tuổi thơ (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 463,
+    "hanzi": "笑",
+    "pinyin": "xiào",
+    "meaning": "cười",
+    "example_zh": "她<u>笑</u>得很开心。",
+    "example_py": "Tā <u>xiào</u> de hěn kāixīn.",
+    "expected_pinyin": "ta1 xiao4 de0 hen3 kai1 xin1",
+    "example_vi": "Cô ấy <u>cười</u> rất vui vẻ."
+  },
+  {
+    "id": 464,
+    "hanzi": "姓",
+    "pinyin": "xìng",
+    "meaning": "họ (tên)",
+    "example_zh": "您<u>姓</u>什么？",
+    "example_py": "Nín <u>xìng</u> shénme?",
+    "expected_pinyin": "nin2 xing4 shen2 me0",
+    "example_vi": "Ngài <u>họ</u> gì?"
+  },
+  {
+    "id": 465,
+    "hanzi": "姓名",
+    "pinyin": "xìngmíng",
+    "meaning": "tên (danh từ)",
+    "example_zh": "申请表上需要填写配偶<u>姓名</u>",
+    "example_py": "shēnqǐngbiǎo shàng xūyào tiánxiě pèiǒu <u>xìngmíng</u>",
+    "expected_pinyin": "",
+    "example_vi": "Trên đơn xin cần điền tên người phối ngẫu."
+  },
+  {
+    "id": 466,
+    "hanzi": "颜色",
+    "pinyin": "yánsè",
+    "meaning": "màu sắc",
+    "example_zh": "你喜欢什么<u>颜色</u>？",
+    "example_py": "Nǐ xǐhuan shénme <u>yánsè</u>?",
+    "expected_pinyin": "ni3 xi3 huan0 shen2 me0 yan2 se4",
+    "example_vi": "Bạn thích <u>màu</u> gì?"
+  },
+  {
+    "id": 467,
+    "hanzi": "眼睛",
+    "pinyin": "yǎnjing",
+    "meaning": "mắt",
+    "example_zh": "她的<u>眼睛</u>很漂亮。",
+    "example_py": "Tā de <u>yǎnjing</u> hěn piàoliang.",
+    "expected_pinyin": "ta1 de0 yan3 jing0 hen3 piao4 liang0",
+    "example_vi": "<u>Mắt</u> của cô ấy rất đẹp."
+  },
+  {
+    "id": 468,
+    "hanzi": "药",
+    "pinyin": "yào",
+    "meaning": "thuốc",
+    "example_zh": "请按时吃<u>药</u>。",
+    "example_py": "Qǐng ànshí chī <u>yào</u>.",
     "expected_pinyin": "qing3 an4 shi2 chi1 yao4",
-    "example_vi": "Hãy uống thuốc <u>đúng giờ</u>."
-  },
-  {
-    "id": 6,
-    "hanzi": "按照",
-    "pinyin": "ànzhào",
-    "meaning": "theo, căn cứ vào",
-    "example_zh": "请<u>按照</u>说明使用。",
-    "example_py": "Qǐng <u>ànzhào</u> shuōmíng shǐyòng.",
-    "expected_pinyin": "qing3 an4 zhao4 shuo1 ming2 shi3 yong4",
-    "example_vi": "Hãy sử dụng <u>theo</u> hướng dẫn."
-  },
-  {
-    "id": 7,
-    "hanzi": "百分之",
-    "pinyin": "bǎifēnzhī",
-    "meaning": "phần trăm",
-    "example_zh": "成功率是<u>百分之</u>九十。",
-    "example_py": "Chénggōnglǜ shì <u>bǎifēnzhī</u> jiǔshí.",
-    "expected_pinyin": "cheng2 gong1 lv4 shi4 bai3 fen1 zhi1 jiu3 shi2",
-    "example_vi": "Tỷ lệ thành công là chín mươi <u>phần trăm</u>."
-  },
-  {
-    "id": 8,
-    "hanzi": "闹钟",
-    "pinyin": "nàozhōng",
-    "meaning": "đồng hồ báo thức",
-    "example_zh": "我的<u>闹钟</u>坏了。",
-    "example_py": "Wǒ de <u>nàozhōng</u> huài le.",
-    "expected_pinyin": "wo3 de0 nao4 zhong1 huai4 le0",
-    "example_vi": "<u>Đồng hồ báo thức</u> của tôi bị hỏng."
-  },
-  {
-    "id": 9,
-    "hanzi": "包括",
-    "pinyin": "bāokuò",
-    "meaning": "bao gồm",
-    "example_zh": "价格<u>包括</u>早餐。",
-    "example_py": "Jiàgé <u>bāokuò</u> zǎocān.",
-    "expected_pinyin": "jia4 ge2 bao1 kuo4 zao3 can1",
-    "example_vi": "Giá <u>bao gồm</u> bữa sáng."
-  },
-  {
-    "id": 10,
-    "hanzi": "保护",
-    "pinyin": "bǎohù",
-    "meaning": "bảo vệ",
-    "example_zh": "我们要<u>保护</u>动物。",
-    "example_py": "Wǒmen yào <u>bǎohù</u> dòngwù.",
-    "expected_pinyin": "wo3 men0 yao4 bao3 hu4 dong4 wu4",
-    "example_vi": "Chúng ta phải <u>bảo vệ</u> động vật."
-  },
-  {
-    "id": 11,
-    "hanzi": "保证",
-    "pinyin": "bǎozhèng",
-    "meaning": "đảm bảo",
-    "example_zh": "我<u>保证</u>按时完成。",
-    "example_py": "Wǒ <u>bǎozhèng</u> ànshí wánchéng.",
-    "expected_pinyin": "wo3 bao3 zheng4 an4 shi2 wan2 cheng2",
-    "example_vi": "Tôi <u>đảm bảo</u> hoàn thành đúng giờ."
-  },
-  {
-    "id": 12,
-    "hanzi": "报名",
-    "pinyin": "bàomíng",
-    "meaning": "đăng ký",
-    "example_zh": "我想<u>报名</u>参加比赛。",
-    "example_py": "Wǒ xiǎng <u>bàomíng</u> cānjiā bǐsài.",
-    "expected_pinyin": "wo3 xiang3 bao4 ming2 can1 jia1 bi3 sai4",
-    "example_vi": "Tôi muốn <u>đăng ký</u> tham gia thi đấu."
-  },
-  {
-    "id": 13,
-    "hanzi": "抱",
-    "pinyin": "bào",
-    "meaning": "ôm",
-    "example_zh": "妈妈<u>抱</u>着孩子。",
-    "example_py": "Māma <u>bào</u> zhe háizi.",
-    "expected_pinyin": "ma1 ma0 bao4 zhe0 hai2 zi0",
-    "example_vi": "Mẹ đang <u>ôm</u> con."
-  },
-  {
-    "id": 14,
-    "hanzi": "倍",
-    "pinyin": "bèi",
-    "meaning": "gấp, lần",
-    "example_zh": "这个是那个的两<u>倍</u>。",
-    "example_py": "Zhège shì nàge de liǎng <u>bèi</u>.",
-    "expected_pinyin": "zhe4 ge0 shi4 na4 ge0 de0 liang3 bei4",
-    "example_vi": "Cái này <u>gấp đôi</u> cái kia."
-  },
-  {
-    "id": 15,
-    "hanzi": "背",
-    "pinyin": "bèi",
-    "meaning": "học thuộc, lưng",
-    "example_zh": "我在<u>背</u>课文。",
-    "example_py": "Wǒ zài <u>bèi</u> kèwén.",
-    "expected_pinyin": "wo3 zai4 bei4 ke4 wen2",
-    "example_vi": "Tôi đang <u>học thuộc</u> bài văn."
-  },
-  {
-    "id": 16,
-    "hanzi": "本来",
-    "pinyin": "běnlái",
-    "meaning": "vốn dĩ, ban đầu",
-    "example_zh": "我<u>本来</u>想去,但下雨了。",
-    "example_py": "Wǒ <u>běnlái</u> xiǎng qù, dàn xiàyǔ le.",
-    "expected_pinyin": "wo3 ben3 lai2 xiang3 qu4 dan4 xia4 yu3 le0",
-    "example_vi": "<u>Vốn dĩ</u> tôi muốn đi, nhưng trời mưa rồi."
-  },
-  {
-    "id": 17,
-    "hanzi": "尊重",
-    "pinyin": "zūnzhòng",
-    "meaning": "tôn trọng",
-    "example_zh": "我们要<u>尊重</u>别人。",
-    "example_py": "Wǒmen yào <u>zūnzhòng</u> biérén.",
-    "expected_pinyin": "wo3 men0 yao4 zun1 zhong4 bie2 ren2",
-    "example_vi": "Chúng ta phải <u>tôn trọng</u> người khác."
-  },
-  {
-    "id": 18,
-    "hanzi": "笔记本电脑",
-    "pinyin": "bǐjìběn diànnǎo",
-    "meaning": "máy tính xách tay",
-    "example_zh": "我买了一台<u>笔记本电脑</u>。",
-    "example_py": "Wǒ mǎi le yì tái <u>bǐjìběn diànnǎo</u>.",
-    "expected_pinyin": "wo3 mai3 le0 yi1 tai2 bi3 ji4 ben3 dian4 nao3",
-    "example_vi": "Tôi đã mua một chiếc <u>máy tính xách tay</u>."
-  },
-  {
-    "id": 19,
-    "hanzi": "毛病",
-    "pinyin": "máobìng",
-    "meaning": "khuyết điểm, hỏng hóc",
-    "example_zh": "这台电脑有<u>毛病</u>。",
-    "example_py": "Zhè tái diànnǎo yǒu <u>máobìng</u>.",
-    "expected_pinyin": "zhe4 tai2 dian4 nao3 you3 mao2 bing4",
-    "example_vi": "Chiếc máy tính này bị <u>hỏng hóc</u>."
-  },
-  {
-    "id": 20,
-    "hanzi": "礼貌",
-    "pinyin": "lǐmào",
-    "meaning": "lễ phép, lịch sự",
-    "example_zh": "他说话很有<u>礼貌</u>。",
-    "example_py": "Tā shuōhuà hěn yǒu <u>lǐmào</u>.",
-    "expected_pinyin": "ta1 shuo1 hua4 hen3 you3 li3 mao4",
-    "example_vi": "Anh ấy nói chuyện rất <u>lịch sự</u>."
-  },
-  {
-    "id": 21,
-    "hanzi": "毕业",
-    "pinyin": "bìyè",
-    "meaning": "tốt nghiệp",
-    "example_zh": "我明年<u>毕业</u>。",
-    "example_py": "Wǒ míngnián <u>bìyè</u>.",
-    "expected_pinyin": "wo3 ming2 nian2 bi4 ye4",
-    "example_vi": "Sang năm tôi <u>tốt nghiệp</u>."
-  },
-  {
-    "id": 22,
-    "hanzi": "果然",
-    "pinyin": "guǒrán",
-    "meaning": "quả nhiên, đúng như dự đoán",
-    "example_zh": "天气预报说会下雨,<u>果然</u>下了。",
-    "example_py": "Tiānqì yùbào shuō huì xiàyǔ, <u>guǒrán</u> xià le.",
-    "expected_pinyin": "tian1 qi4 yu4 bao4 shuo1 hui4 xia4 yu3 guo3 ran2 xia4 le0",
-    "example_vi": "Dự báo thời tiết nói sẽ mưa, <u>quả nhiên</u> đã mưa."
-  },
-  {
-    "id": 23,
-    "hanzi": "结果",
-    "pinyin": "jiéguǒ",
-    "meaning": "kết quả",
-    "example_zh": "考试<u>结果</u>出来了。",
-    "example_py": "Kǎoshì <u>jiéguǒ</u> chūlái le.",
-    "expected_pinyin": "kao3 shi4 jie2 guo3 chu1 lai2 le0",
-    "example_vi": "<u>Kết quả</u> thi đã có rồi."
-  },
-  {
-    "id": 24,
-    "hanzi": "允许",
-    "pinyin": "yǔnxǔ",
-    "meaning": "cho phép",
-    "example_zh": "这里不<u>允许</u>抽烟。",
-    "example_py": "Zhèlǐ bù <u>yǔnxǔ</u> chōuyān.",
-    "expected_pinyin": "zhe4 li3 bu4 yun3 xu3 chou1 yan1",
-    "example_vi": "Ở đây không <u>cho phép</u> hút thuốc."
-  },
-  {
-    "id": 25,
-    "hanzi": "证明",
-    "pinyin": "zhèngmíng",
-    "meaning": "chứng minh",
-    "example_zh": "请<u>证明</u>你的身份。",
-    "example_py": "Qǐng <u>zhèngmíng</u> nǐ de shēnfèn.",
-    "expected_pinyin": "qing3 zheng4 ming2 ni3 de0 shen1 fen4",
-    "example_vi": "Hãy <u>chứng minh</u> danh tính của bạn."
-  },
-  {
-    "id": 26,
-    "hanzi": "表演",
-    "pinyin": "biǎoyǎn",
-    "meaning": "biểu diễn",
-    "example_zh": "他们的<u>表演</u>很精彩。",
-    "example_py": "Tāmen de <u>biǎoyǎn</u> hěn jīngcǎi.",
-    "expected_pinyin": "ta1 men0 de0 biao3 yan3 hen3 jing1 cai3",
-    "example_vi": "<u>Buổi biểu diễn</u> của họ rất tuyệt vời."
-  },
-  {
-    "id": 27,
-    "hanzi": "表扬",
-    "pinyin": "biǎoyáng",
-    "meaning": "khen ngợi",
-    "example_zh": "老师<u>表扬</u>了她。",
-    "example_py": "Lǎoshī <u>biǎoyáng</u> le tā.",
-    "expected_pinyin": "lao3 shi1 biao3 yang2 le0 ta1",
-    "example_vi": "Giáo viên đã <u>khen ngợi</u> cô ấy."
-  },
-  {
-    "id": 28,
-    "hanzi": "饼干",
-    "pinyin": "bǐnggān",
-    "meaning": "bánh quy",
-    "example_zh": "孩子喜欢吃<u>饼干</u>。",
-    "example_py": "Háizi xǐhuan chī <u>bǐnggān</u>.",
-    "expected_pinyin": "hai2 zi0 xi3 huan0 chi1 bing3 gan1",
-    "example_vi": "Trẻ con thích ăn <u>bánh quy</u>."
-  },
-  {
-    "id": 29,
-    "hanzi": "并且",
-    "pinyin": "bìngqiě",
-    "meaning": "và, hơn nữa",
-    "example_zh": "他聪明<u>并且</u>努力。",
-    "example_py": "Tā cōngmíng <u>bìngqiě</u> nǔlì.",
-    "expected_pinyin": "ta1 cong1 ming2 bing4 qie3 nu3 li4",
-    "example_vi": "Anh ấy thông minh <u>và</u> chăm chỉ."
-  },
-  {
-    "id": 30,
-    "hanzi": "博物馆",
-    "pinyin": "bówùguǎn",
-    "meaning": "bảo tàng",
-    "example_zh": "我们去<u>博物馆</u>参观。",
-    "example_py": "Wǒmen qù <u>bówùguǎn</u> cānguān.",
-    "expected_pinyin": "wo3 men0 qu4 bo2 wu4 guan3 can1 guan1",
-    "example_vi": "Chúng tôi đi tham quan <u>bảo tàng</u>."
-  },
-  {
-    "id": 31,
-    "hanzi": "不得不",
-    "pinyin": "bùdébù",
-    "meaning": "bất đắc dĩ phải",
-    "example_zh": "下雨了,我<u>不得不</u>回家。",
-    "example_py": "Xiàyǔ le, wǒ <u>bùdébù</u> huíjiā.",
-    "expected_pinyin": "xia4 yu3 le0 wo3 bu4 de2 bu4 hui2 jia1",
-    "example_vi": "Trời mưa rồi, tôi <u>đành phải</u> về nhà."
-  },
-  {
-    "id": 32,
-    "hanzi": "不管",
-    "pinyin": "bùguǎn",
-    "meaning": "dù cho, bất kể",
-    "example_zh": "<u>不管</u>怎样,我都支持你。",
-    "example_py": "<u>Bùguǎn</u> zěnyàng, wǒ dōu zhīchí nǐ.",
-    "expected_pinyin": "bu4 guan3 zen3 yang4 wo3 dou1 zhi1 chi2 ni3",
-    "example_vi": "<u>Dù thế nào</u>, tôi cũng ủng hộ bạn."
-  },
-  {
-    "id": 33,
-    "hanzi": "不仅",
-    "pinyin": "bùjǐn",
-    "meaning": "không chỉ",
-    "example_zh": "她<u>不仅</u>漂亮还很聪明。",
-    "example_py": "Tā <u>bùjǐn</u> piàoliang hái hěn cōngmíng.",
-    "expected_pinyin": "ta1 bu4 jin3 piao4 liang0 hai2 hen3 cong1 ming2",
-    "example_vi": "Cô ấy <u>không chỉ</u> xinh đẹp mà còn thông minh."
-  },
-  {
-    "id": 34,
-    "hanzi": "部门",
-    "pinyin": "bùmén",
-    "meaning": "bộ phận, phòng ban",
-    "example_zh": "他在销售<u>部门</u>工作。",
-    "example_py": "Tā zài xiāoshòu <u>bùmén</u> gōngzuò.",
-    "expected_pinyin": "ta1 zai4 xiao1 shou4 bu4 men2 gong1 zuo4",
-    "example_vi": "Anh ấy làm việc ở <u>bộ phận</u> bán hàng."
-  },
-  {
-    "id": 35,
-    "hanzi": "秘密",
-    "pinyin": "mìmì",
-    "meaning": "bí mật",
-    "example_zh": "这是我们的<u>秘密</u>。",
-    "example_py": "Zhè shì wǒmen de <u>mìmì</u>.",
-    "expected_pinyin": "zhe4 shi4 wo3 men0 de0 mi4 mi4",
-    "example_vi": "Đây là <u>bí mật</u> của chúng ta."
-  },
-  {
-    "id": 36,
-    "hanzi": "擦",
-    "pinyin": "cā",
-    "meaning": "lau, chùi",
-    "example_zh": "她在<u>擦</u>桌子。",
-    "example_py": "Tā zài <u>cā</u> zhuōzi.",
-    "expected_pinyin": "ta1 zai4 ca1 zhuo1 zi0",
-    "example_vi": "Cô ấy đang <u>lau</u> bàn."
-  },
-  {
-    "id": 37,
-    "hanzi": "猜",
-    "pinyin": "cāi",
-    "meaning": "đoán",
-    "example_zh": "你<u>猜</u>猜这是什么。",
-    "example_py": "Nǐ <u>cāi</u> cāi zhè shì shénme.",
-    "expected_pinyin": "ni3 cai1 cai1 zhe4 shi4 shen2 me0",
-    "example_vi": "Bạn <u>đoán</u> xem đây là gì."
-  },
-  {
-    "id": 38,
-    "hanzi": "材料",
-    "pinyin": "cáiliào",
-    "meaning": "nguyên liệu, tài liệu",
-    "example_zh": "请准备好<u>材料</u>。",
-    "example_py": "Qǐng zhǔnbèi hǎo <u>cáiliào</u>.",
-    "expected_pinyin": "qing3 zhun3 bei4 hao3 cai2 liao4",
-    "example_vi": "Hãy chuẩn bị sẵn <u>tài liệu</u>."
-  },
-  {
-    "id": 39,
-    "hanzi": "参观",
-    "pinyin": "cānguān",
-    "meaning": "tham quan",
-    "example_zh": "我们去<u>参观</u>工厂。",
-    "example_py": "Wǒmen qù <u>cānguān</u> gōngchǎng.",
-    "expected_pinyin": "wo3 men0 qu4 can1 guan1 gong1 chang3",
-    "example_vi": "Chúng tôi đi <u>tham quan</u> nhà máy."
-  },
-  {
-    "id": 40,
-    "hanzi": "温度",
-    "pinyin": "wēndù",
-    "meaning": "nhiệt độ",
-    "example_zh": "今天<u>温度</u>很高。",
-    "example_py": "Jīntiān <u>wēndù</u> hěn gāo.",
-    "expected_pinyin": "jin1 tian1 wen1 du4 hen3 gao1",
-    "example_vi": "<u>Nhiệt độ</u> hôm nay rất cao."
-  },
-  {
-    "id": 41,
-    "hanzi": "空气",
-    "pinyin": "kōngqì",
-    "meaning": "không khí",
-    "example_zh": "这里的<u>空气</u>很新鲜。",
-    "example_py": "Zhèlǐ de <u>kōngqì</u> hěn xīnxiān.",
-    "expected_pinyin": "zhe4 li3 de0 kong1 qi4 hen3 xin1 xian1",
-    "example_vi": "<u>Không khí</u> ở đây rất trong lành."
-  },
-  {
-    "id": 42,
-    "hanzi": "曾经",
-    "pinyin": "céngjīng",
-    "meaning": "đã từng",
-    "example_zh": "我<u>曾经</u>去过北京。",
-    "example_py": "Wǒ <u>céngjīng</u> qùguo Běijīng.",
-    "expected_pinyin": "wo3 ceng2 jing1 qu4 guo0 bei3 jing1",
-    "example_vi": "Tôi <u>đã từng</u> đến Bắc Kinh."
-  },
-  {
-    "id": 43,
-    "hanzi": "污染",
-    "pinyin": "wūrǎn",
-    "meaning": "ô nhiễm",
-    "example_zh": "空气<u>污染</u>很严重。",
-    "example_py": "Kōngqì <u>wūrǎn</u> hěn yánzhòng.",
-    "expected_pinyin": "kong1 qi4 wu1 ran3 hen3 yan2 zhong4",
-    "example_vi": "<u>Ô nhiễm</u> không khí rất nghiêm trọng."
-  },
-  {
-    "id": 44,
-    "hanzi": "严重",
-    "pinyin": "yánzhòng",
-    "meaning": "nghiêm trọng",
-    "example_zh": "这个问题很<u>严重</u>。",
-    "example_py": "Zhège wèntí hěn <u>yánzhòng</u>.",
-    "expected_pinyin": "zhe4 ge0 wen4 ti2 hen3 yan2 zhong4",
-    "example_vi": "Vấn đề này rất <u>nghiêm trọng</u>."
-  },
-  {
-    "id": 45,
-    "hanzi": "长城",
-    "pinyin": "Chángchéng",
-    "meaning": "Vạn Lý Trường Thành",
-    "example_zh": "我们去爬<u>长城</u>。",
-    "example_py": "Wǒmen qù pá <u>Chángchéng</u>.",
-    "expected_pinyin": "wo3 men0 qu4 pa2 chang2 cheng2",
-    "example_vi": "Chúng tôi đi leo <u>Vạn Lý Trường Thành</u>."
-  },
-  {
-    "id": 46,
-    "hanzi": "长江",
-    "pinyin": "Chángjiāng",
-    "meaning": "sông Trường Giang",
-    "example_zh": "<u>长江</u>很长。",
-    "example_py": "<u>Chángjiāng</u> hěn cháng.",
-    "expected_pinyin": "chang2 jiang1 hen3 chang2",
-    "example_vi": "<u>Sông Trường Giang</u> rất dài."
-  },
-  {
-    "id": 47,
-    "hanzi": "详细",
-    "pinyin": "xiángxì",
-    "meaning": "chi tiết",
-    "example_zh": "请说得<u>详细</u>一点。",
-    "example_py": "Qǐng shuō de <u>xiángxì</u> yìdiǎn.",
-    "expected_pinyin": "qing3 shuo1 de0 xiang2 xi4 yi4 dian3",
-    "example_vi": "Hãy nói <u>chi tiết</u> hơn một chút."
-  },
-  {
-    "id": 48,
-    "hanzi": "超过",
-    "pinyin": "chāoguò",
-    "meaning": "vượt qua",
-    "example_zh": "他的成绩<u>超过</u>了我。",
-    "example_py": "Tā de chéngjì <u>chāoguò</u> le wǒ.",
-    "expected_pinyin": "ta1 de0 cheng2 ji4 chao1 guo4 le0 wo3",
-    "example_vi": "Thành tích của anh ấy <u>vượt qua</u> tôi."
-  },
-  {
-    "id": 49,
-    "hanzi": "目的",
-    "pinyin": "mùdì",
-    "meaning": "mục đích",
-    "example_zh": "你的<u>目的</u>是什么?",
-    "example_py": "Nǐ de <u>mùdì</u> shì shénme?",
-    "expected_pinyin": "ni3 de0 mu4 di4 shi4 shen2 me0",
-    "example_vi": "<u>Mục đích</u> của bạn là gì?"
-  },
-  {
-    "id": 50,
-    "hanzi": "吵",
-    "pinyin": "chǎo",
-    "meaning": "ồn ào, cãi nhau",
-    "example_zh": "外面太<u>吵</u>了。",
-    "example_py": "Wàimiàn tài <u>chǎo</u> le.",
-    "expected_pinyin": "wai4 mian4 tai4 chao3 le0",
-    "example_vi": "Bên ngoài quá <u>ồn ào</u>."
-  },
-  {
-    "id": 51,
-    "hanzi": "炒",
-    "pinyin": "chǎo",
-    "meaning": "xào",
-    "example_zh": "妈妈在<u>炒</u>菜。",
-    "example_py": "Māma zài <u>chǎo</u> cài.",
-    "expected_pinyin": "ma1 ma0 zai4 chao3 cai4",
-    "example_vi": "Mẹ đang <u>xào</u> rau."
-  },
-  {
-    "id": 52,
-    "hanzi": "态度",
-    "pinyin": "tàidù",
-    "meaning": "thái độ",
-    "example_zh": "他的<u>态度</u>很认真。",
-    "example_py": "Tā de <u>tàidù</u> hěn rènzhēn.",
-    "expected_pinyin": "ta1 de0 tai4 du4 hen3 ren4 zhen1",
-    "example_vi": "<u>Thái độ</u> của anh ấy rất nghiêm túc."
-  },
-  {
-    "id": 53,
-    "hanzi": "机会",
-    "pinyin": "jīhuì",
-    "meaning": "cơ hội",
-    "example_zh": "这是一个好<u>机会</u>。",
-    "example_py": "Zhè shì yí ge hǎo <u>jīhuì</u>.",
-    "expected_pinyin": "zhe4 shi4 yi2 ge0 hao3 ji1 hui4",
-    "example_vi": "Đây là một <u>cơ hội</u> tốt."
-  },
-  {
-    "id": 54,
-    "hanzi": "成为",
-    "pinyin": "chéngwéi",
-    "meaning": "trở thành",
-    "example_zh": "他想<u>成为</u>医生。",
-    "example_py": "Tā xiǎng <u>chéngwéi</u> yīshēng.",
-    "expected_pinyin": "ta1 xiang3 cheng2 wei2 yi1 sheng1",
-    "example_vi": "Anh ấy muốn <u>trở thành</u> bác sĩ."
-  },
-  {
-    "id": 55,
-    "hanzi": "竞争",
-    "pinyin": "jìngzhēng",
-    "meaning": "cạnh tranh",
-    "example_zh": "市场<u>竞争</u>很激烈。",
-    "example_py": "Shìchǎng <u>jìngzhēng</u> hěn jīliè.",
-    "expected_pinyin": "shi4 chang3 jing4 zheng1 hen3 ji1 lie4",
-    "example_vi": "<u>Cạnh tranh</u> thị trường rất khốc liệt."
-  },
-  {
-    "id": 56,
-    "hanzi": "乘坐",
-    "pinyin": "chéngzuò",
-    "meaning": "đi (xe, tàu)",
-    "example_zh": "我们<u>乘坐</u>火车去。",
-    "example_py": "Wǒmen <u>chéngzuò</u> huǒchē qù.",
-    "expected_pinyin": "wo3 men0 cheng2 zuo4 huo3 che1 qu4",
-    "example_vi": "Chúng tôi <u>đi</u> tàu hỏa."
-  },
-  {
-    "id": 57,
-    "hanzi": "压力",
-    "pinyin": "yālì",
-    "meaning": "áp lực",
-    "example_zh": "工作<u>压力</u>很大。",
-    "example_py": "Gōngzuò <u>yālì</u> hěn dà.",
-    "expected_pinyin": "gong1 zuo4 ya1 li4 hen3 da4",
-    "example_vi": "<u>Áp lực</u> công việc rất lớn."
-  },
-  {
-    "id": 58,
-    "hanzi": "重新",
-    "pinyin": "chóngxīn",
-    "meaning": "lại, một lần nữa",
-    "example_zh": "请<u>重新</u>检查一下。",
-    "example_py": "Qǐng <u>chóngxīn</u> jiǎnchá yíxià.",
-    "expected_pinyin": "qing3 chong2 xin1 jian3 cha2 yi2 xia4",
-    "example_vi": "Hãy kiểm tra <u>lại</u> lần nữa."
-  },
-  {
-    "id": 59,
-    "hanzi": "适应",
-    "pinyin": "shìyìng",
-    "meaning": "thích nghi",
-    "example_zh": "他很快就<u>适应</u>了新环境。",
-    "example_py": "Tā hěn kuài jiù <u>shìyìng</u> le xīn huánjìng.",
-    "expected_pinyin": "ta1 hen3 kuai4 jiu4 shi4 ying4 le0 xin1 huan2 jing4",
-    "example_vi": "Anh ấy nhanh chóng <u>thích nghi</u> với môi trường mới."
-  },
-  {
-    "id": 60,
-    "hanzi": "出差",
-    "pinyin": "chūchāi",
-    "meaning": "đi công tác",
-    "example_zh": "我下周要<u>出差</u>。",
-    "example_py": "Wǒ xiàzhōu yào <u>chūchāi</u>.",
-    "expected_pinyin": "wo3 xia4 zhou1 yao4 chu1 chai1",
-    "example_vi": "Tuần sau tôi phải <u>đi công tác</u>."
-  },
-  {
-    "id": 61,
-    "hanzi": "坚持",
-    "pinyin": "jiānchí",
-    "meaning": "kiên trì",
-    "example_zh": "你要<u>坚持</u>下去。",
-    "example_py": "Nǐ yào <u>jiānchí</u> xiàqù.",
-    "expected_pinyin": "ni3 yao4 jian1 chi2 xia4 qu4",
-    "example_vi": "Bạn phải <u>kiên trì</u> tiếp tục."
-  },
-  {
-    "id": 62,
-    "hanzi": "值得",
-    "pinyin": "zhídé",
-    "meaning": "đáng giá",
-    "example_zh": "这本书很<u>值得</u>看。",
-    "example_py": "Zhè běn shū hěn <u>zhídé</u> kàn.",
-    "expected_pinyin": "zhe4 ben3 shu1 hen3 zhi2 de2 kan4",
-    "example_vi": "Cuốn sách này rất <u>đáng</u> đọc."
-  },
-  {
-    "id": 63,
-    "hanzi": "羡慕",
-    "pinyin": "xiànmù",
-    "meaning": "ngưỡng mộ, ghen tị",
-    "example_zh": "我很<u>羡慕</u>你。",
-    "example_py": "Wǒ hěn <u>xiànmù</u> nǐ.",
-    "expected_pinyin": "wo3 hen3 xian4 mu4 ni3",
-    "example_vi": "Tôi rất <u>ngưỡng mộ</u> bạn."
-  },
-  {
-    "id": 64,
-    "hanzi": "后悔",
-    "pinyin": "hòuhuǐ",
-    "meaning": "hối hận",
-    "example_zh": "他很<u>后悔</u>说了那句话。",
-    "example_py": "Tā hěn <u>hòuhuǐ</u> shuō le nà jù huà.",
-    "expected_pinyin": "ta1 hen3 hou4 hui3 shuo1 le0 na4 ju4 hua4",
-    "example_vi": "Anh ấy rất <u>hối hận</u> vì đã nói câu đó."
-  },
-  {
-    "id": 65,
-    "hanzi": "处理",
-    "pinyin": "chǔlǐ",
-    "meaning": "xử lý",
-    "example_zh": "这件事我会<u>处理</u>。",
-    "example_py": "Zhè jiàn shì wǒ huì <u>chǔlǐ</u>.",
-    "expected_pinyin": "zhe4 jian4 shi4 wo3 hui4 chu3 li3",
-    "example_vi": "Việc này tôi sẽ <u>xử lý</u>."
-  },
-  {
-    "id": 66,
-    "hanzi": "传真",
-    "pinyin": "chuánzhēn",
-    "meaning": "fax",
-    "example_zh": "请发<u>传真</u>给我。",
-    "example_py": "Qǐng fā <u>chuánzhēn</u> gěi wǒ.",
-    "expected_pinyin": "qing3 fa1 chuan2 zhen1 gei3 wo3",
-    "example_vi": "Hãy gửi <u>fax</u> cho tôi."
-  },
-  {
-    "id": 67,
-    "hanzi": "羡慕不已",
-    "pinyin": "xiànmùbùyǐ",
-    "meaning": "ngưỡng mộ không thôi",
-    "example_zh": "大家都对他<u>羡慕不已</u>。",
-    "example_py": "Dàjiā dōu duì tā <u>xiànmùbùyǐ</u>.",
-    "expected_pinyin": "da4 jia1 dou1 dui4 ta1 xian4 mu4 bu4 yi3",
-    "example_vi": "Mọi người đều <u>ngưỡng mộ</u> anh ấy không thôi."
-  },
-  {
-    "id": 68,
-    "hanzi": "词语",
-    "pinyin": "cíyǔ",
-    "meaning": "từ ngữ",
-    "example_zh": "这个<u>词语</u>很难。",
-    "example_py": "Zhège <u>cíyǔ</u> hěn nán.",
-    "expected_pinyin": "zhe4 ge0 ci2 yu3 hen3 nan2",
-    "example_vi": "<u>Từ ngữ</u> này rất khó."
-  },
-  {
-    "id": 69,
-    "hanzi": "此外",
-    "pinyin": "cǐwài",
-    "meaning": "ngoài ra",
-    "example_zh": "<u>此外</u>,我还想说一点。",
-    "example_py": "<u>Cǐwài</u>, wǒ hái xiǎng shuō yìdiǎn.",
-    "expected_pinyin": "ci3 wai4 wo3 hai2 xiang3 shuo1 yi4 dian3",
-    "example_vi": "<u>Ngoài ra</u>, tôi còn muốn nói thêm."
-  },
-  {
-    "id": 70,
-    "hanzi": "从来",
-    "pinyin": "cónglái",
-    "meaning": "xưa nay, từ trước đến nay",
-    "example_zh": "他<u>从来</u>不迟到。",
-    "example_py": "Tā <u>cónglái</u> bù chídào.",
-    "expected_pinyin": "ta1 cong2 lai2 bu4 chi2 dao4",
-    "example_vi": "Anh ấy <u>từ trước đến nay</u> không bao giờ trễ."
-  },
-  {
-    "id": 71,
-    "hanzi": "粗心",
-    "pinyin": "cūxīn",
-    "meaning": "cẩu thả, bất cẩn",
-    "example_zh": "他做事太<u>粗心</u>了。",
-    "example_py": "Tā zuòshì tài <u>cūxīn</u> le.",
-    "expected_pinyin": "ta1 zuo4 shi4 tai4 cu1 xin1 le0",
-    "example_vi": "Anh ấy làm việc quá <u>cẩu thả</u>."
-  },
-  {
-    "id": 72,
-    "hanzi": "存在",
-    "pinyin": "cúnzài",
-    "meaning": "tồn tại",
-    "example_zh": "这个问题一直<u>存在</u>。",
-    "example_py": "Zhège wèntí yìzhí <u>cúnzài</u>.",
-    "expected_pinyin": "zhe4 ge0 wen4 ti2 yi4 zhi2 cun2 zai4",
-    "example_vi": "Vấn đề này luôn <u>tồn tại</u>."
-  },
-  {
-    "id": 73,
-    "hanzi": "答案",
-    "pinyin": "dá'àn",
-    "meaning": "đáp án",
-    "example_zh": "这道题的<u>答案</u>是什么?",
-    "example_py": "Zhè dào tí de <u>dá'àn</u> shì shénme?",
-    "expected_pinyin": "zhe4 dao4 ti2 de0 da2 an4 shi4 shen2 me0",
-    "example_vi": "<u>Đáp án</u> của câu này là gì?"
-  },
-  {
-    "id": 74,
-    "hanzi": "打扮",
-    "pinyin": "dǎbàn",
-    "meaning": "trang điểm, ăn diện",
-    "example_zh": "她今天<u>打扮</u>得很漂亮。",
-    "example_py": "Tā jīntiān <u>dǎbàn</u> de hěn piàoliang.",
-    "expected_pinyin": "ta1 jin1 tian1 da3 ban4 de0 hen3 piao4 liang0",
-    "example_vi": "Hôm nay cô ấy <u>ăn diện</u> rất đẹp."
-  },
-  {
-    "id": 75,
-    "hanzi": "打扰",
-    "pinyin": "dǎrǎo",
-    "meaning": "làm phiền",
-    "example_zh": "对不起,<u>打扰</u>你了。",
-    "example_py": "Duìbuqǐ, <u>dǎrǎo</u> nǐ le.",
-    "expected_pinyin": "dui4 bu0 qi3 da3 rao3 ni3 le0",
-    "example_vi": "Xin lỗi, <u>làm phiền</u> bạn rồi."
-  },
-  {
-    "id": 76,
-    "hanzi": "打印",
-    "pinyin": "dǎyìn",
-    "meaning": "in ấn",
-    "example_zh": "请帮我<u>打印</u>这份文件。",
-    "example_py": "Qǐng bāng wǒ <u>dǎyìn</u> zhè fèn wénjiàn.",
-    "expected_pinyin": "qing3 bang1 wo3 da3 yin4 zhe4 fen4 wen2 jian4",
-    "example_vi": "Hãy giúp tôi <u>in</u> tài liệu này."
-  },
-  {
-    "id": 77,
-    "hanzi": "大概",
-    "pinyin": "dàgài",
-    "meaning": "đại khái, khoảng chừng",
-    "example_zh": "<u>大概</u>需要一个小时。",
-    "example_py": "<u>Dàgài</u> xūyào yí ge xiǎoshí.",
-    "expected_pinyin": "da4 gai4 xu1 yao4 yi2 ge0 xiao3 shi2",
-    "example_vi": "<u>Khoảng chừng</u> mất một tiếng."
-  },
-  {
-    "id": 78,
-    "hanzi": "大使馆",
-    "pinyin": "dàshǐguǎn",
-    "meaning": "đại sứ quán",
-    "example_zh": "他在<u>大使馆</u>工作。",
-    "example_py": "Tā zài <u>dàshǐguǎn</u> gōngzuò.",
-    "expected_pinyin": "ta1 zai4 da4 shi3 guan3 gong1 zuo4",
-    "example_vi": "Anh ấy làm việc ở <u>đại sứ quán</u>."
-  },
-  {
-    "id": 79,
-    "hanzi": "大约",
-    "pinyin": "dàyuē",
-    "meaning": "khoảng chừng",
-    "example_zh": "他们<u>大约</u>五点到。",
-    "example_py": "Tāmen <u>dàyuē</u> wǔ diǎn dào.",
-    "expected_pinyin": "ta1 men0 da4 yue1 wu3 dian3 dao4",
-    "example_vi": "Họ đến <u>khoảng</u> năm giờ."
-  },
-  {
-    "id": 80,
-    "hanzi": "顺利",
-    "pinyin": "shùnlì",
-    "meaning": "thuận lợi",
-    "example_zh": "祝你工作<u>顺利</u>。",
-    "example_py": "Zhù nǐ gōngzuò <u>shùnlì</u>.",
-    "expected_pinyin": "zhu4 ni3 gong1 zuo4 shun4 li4",
-    "example_vi": "Chúc bạn công việc <u>thuận lợi</u>."
-  },
-  {
-    "id": 81,
-    "hanzi": "当地",
-    "pinyin": "dāngdì",
-    "meaning": "địa phương, bản địa",
-    "example_zh": "我们要尝尝<u>当地</u>的美食。",
-    "example_py": "Wǒmen yào chángchang <u>dāngdì</u> de měishí.",
-    "expected_pinyin": "wo3 men0 yao4 chang2 chang0 dang1 di4 de0 mei3 shi2",
-    "example_vi": "Chúng tôi muốn nếm thử món ăn <u>địa phương</u>."
-  },
-  {
-    "id": 82,
-    "hanzi": "情况",
-    "pinyin": "qíngkuàng",
-    "meaning": "tình hình",
-    "example_zh": "现在<u>情况</u>怎么样?",
-    "example_py": "Xiànzài <u>qíngkuàng</u> zěnmeyàng?",
-    "expected_pinyin": "xian4 zai4 qing2 kuang4 zen3 me0 yang4",
-    "example_vi": "<u>Tình hình</u> bây giờ thế nào?"
-  },
-  {
-    "id": 83,
-    "hanzi": "条件",
-    "pinyin": "tiáojiàn",
-    "meaning": "điều kiện",
-    "example_zh": "这个工作<u>条件</u>不错。",
-    "example_py": "Zhège gōngzuò <u>tiáojiàn</u> búcuò.",
-    "expected_pinyin": "zhe4 ge0 gong1 zuo4 tiao2 jian4 bu2 cuo4",
-    "example_vi": "<u>Điều kiện</u> công việc này khá tốt."
-  },
-  {
-    "id": 84,
-    "hanzi": "方面",
-    "pinyin": "fāngmiàn",
-    "meaning": "phương diện, mặt",
-    "example_zh": "在这个<u>方面</u>他很专业。",
-    "example_py": "Zài zhège <u>fāngmiàn</u> tā hěn zhuānyè.",
-    "expected_pinyin": "zai4 zhe4 ge0 fang1 mian4 ta1 hen3 zhuan1 ye4",
-    "example_vi": "Về <u>phương diện</u> này anh ấy rất chuyên nghiệp."
-  },
-  {
-    "id": 85,
-    "hanzi": "举办",
-    "pinyin": "jǔbàn",
-    "meaning": "tổ chức (sự kiện)",
-    "example_zh": "学校<u>举办</u>了运动会。",
-    "example_py": "Xuéxiào <u>jǔbàn</u> le yùndònghuì.",
-    "expected_pinyin": "xue2 xiao4 ju3 ban4 le0 yun4 dong4 hui4",
-    "example_vi": "Nhà trường đã <u>tổ chức</u> hội thao."
-  },
-  {
-    "id": 86,
-    "hanzi": "得意",
-    "pinyin": "déyì",
-    "meaning": "đắc ý, tự mãn",
-    "example_zh": "他考得好,很<u>得意</u>。",
-    "example_py": "Tā kǎo de hǎo, hěn <u>déyì</u>.",
-    "expected_pinyin": "ta1 kao3 de0 hao3 hen3 de2 yi4",
-    "example_vi": "Anh ấy thi tốt nên rất <u>đắc ý</u>."
-  },
-  {
-    "id": 87,
-    "hanzi": "的确",
-    "pinyin": "díquè",
-    "meaning": "quả thực, đúng là",
-    "example_zh": "这<u>的确</u>是个好办法。",
-    "example_py": "Zhè <u>díquè</u> shì ge hǎo bànfǎ.",
-    "expected_pinyin": "zhe4 di2 que4 shi4 ge0 hao3 ban4 fa3",
-    "example_vi": "Đây <u>quả thực</u> là một cách hay."
-  },
-  {
-    "id": 88,
-    "hanzi": "登机牌",
-    "pinyin": "dēngjīpái",
-    "meaning": "thẻ lên máy bay",
-    "example_zh": "请出示您的<u>登机牌</u>。",
-    "example_py": "Qǐng chūshì nín de <u>dēngjīpái</u>.",
-    "expected_pinyin": "qing3 chu1 shi4 nin2 de0 deng1 ji1 pai2",
-    "example_vi": "Xin vui lòng xuất trình <u>thẻ lên máy bay</u>."
-  },
-  {
-    "id": 89,
-    "hanzi": "举行",
-    "pinyin": "jǔxíng",
-    "meaning": "tổ chức, tiến hành",
-    "example_zh": "婚礼将<u>举行</u>。",
-    "example_py": "Hūnlǐ jiāng <u>jǔxíng</u>.",
-    "expected_pinyin": "hun1 li3 jiang1 ju3 xing2",
-    "example_vi": "Lễ cưới sẽ được <u>tổ chức</u>."
-  },
-  {
-    "id": 90,
-    "hanzi": "底",
-    "pinyin": "dǐ",
-    "meaning": "đáy, cuối",
-    "example_zh": "杯子<u>底</u>有点脏。",
-    "example_py": "Bēizi <u>dǐ</u> yǒudiǎn zāng.",
-    "expected_pinyin": "bei1 zi0 di3 you3 dian3 zang1",
-    "example_vi": "<u>Đáy</u> cốc có hơi bẩn."
-  },
-  {
-    "id": 91,
-    "hanzi": "地址",
-    "pinyin": "dìzhǐ",
-    "meaning": "địa chỉ",
-    "example_zh": "请写下你的<u>地址</u>。",
-    "example_py": "Qǐng xiěxià nǐ de <u>dìzhǐ</u>.",
-    "expected_pinyin": "qing3 xie3 xia4 ni3 de0 di4 zhi3",
-    "example_vi": "Hãy viết <u>địa chỉ</u> của bạn."
-  },
-  {
-    "id": 92,
-    "hanzi": "地铁站",
-    "pinyin": "dìtiězhàn",
-    "meaning": "ga tàu điện ngầm",
-    "example_zh": "<u>地铁站</u>离这儿不远。",
-    "example_py": "<u>Dìtiězhàn</u> lí zhèr bù yuǎn.",
-    "expected_pinyin": "di4 tie3 zhan4 li2 zher4 bu4 yuan3",
-    "example_vi": "<u>Ga tàu điện ngầm</u> không xa đây."
-  },
-  {
-    "id": 93,
-    "hanzi": "调查",
-    "pinyin": "diàochá",
-    "meaning": "điều tra",
-    "example_zh": "警察正在<u>调查</u>这件事。",
-    "example_py": "Jǐngchá zhèngzài <u>diàochá</u> zhè jiàn shì.",
-    "expected_pinyin": "jing3 cha2 zheng4 zai4 diao4 cha2 zhe4 jian4 shi4",
-    "example_vi": "Cảnh sát đang <u>điều tra</u> vụ việc này."
-  },
-  {
-    "id": 94,
-    "hanzi": "掉",
-    "pinyin": "diào",
-    "meaning": "rơi, mất",
-    "example_zh": "钱包<u>掉</u>了。",
-    "example_py": "Qiánbāo <u>diào</u> le.",
-    "expected_pinyin": "qian2 bao1 diao4 le0",
-    "example_vi": "Ví tiền bị <u>rơi</u> mất."
-  },
-  {
-    "id": 95,
-    "hanzi": "丢",
-    "pinyin": "diū",
-    "meaning": "mất, đánh mất",
-    "example_zh": "我<u>丢</u>了手机。",
-    "example_py": "Wǒ <u>diū</u> le shǒujī.",
-    "expected_pinyin": "wo3 diu1 le0 shou3 ji1",
-    "example_vi": "Tôi <u>mất</u> điện thoại rồi."
-  },
-  {
-    "id": 96,
-    "hanzi": "动作",
-    "pinyin": "dòngzuò",
-    "meaning": "động tác, hành động",
-    "example_zh": "他的<u>动作</u>很快。",
-    "example_py": "Tā de <u>dòngzuò</u> hěn kuài.",
-    "expected_pinyin": "ta1 de0 dong4 zuo4 hen3 kuai4",
-    "example_vi": "<u>Động tác</u> của anh ấy rất nhanh."
-  },
-  {
-    "id": 97,
-    "hanzi": "堵车",
-    "pinyin": "dǔchē",
-    "meaning": "tắc đường",
-    "example_zh": "今天路上<u>堵车</u>。",
-    "example_py": "Jīntiān lùshang <u>dǔchē</u>.",
-    "expected_pinyin": "jin1 tian1 lu4 shang0 du3 che1",
-    "example_vi": "Hôm nay đường bị <u>tắc</u>."
-  },
-  {
-    "id": 98,
-    "hanzi": "肚子",
-    "pinyin": "dùzi",
-    "meaning": "cái bụng",
-    "example_zh": "我<u>肚子</u>疼。",
-    "example_py": "Wǒ <u>dùzi</u> téng.",
-    "expected_pinyin": "wo3 du4 zi0 teng2",
-    "example_vi": "<u>Bụng</u> tôi đau."
-  },
-  {
-    "id": 99,
-    "hanzi": "对话",
-    "pinyin": "duìhuà",
-    "meaning": "đối thoại",
-    "example_zh": "请听这段<u>对话</u>。",
-    "example_py": "Qǐng tīng zhè duàn <u>duìhuà</u>.",
-    "expected_pinyin": "qing3 ting1 zhe4 duan4 dui4 hua4",
-    "example_vi": "Hãy nghe đoạn <u>đối thoại</u> này."
-  },
-  {
-    "id": 100,
-    "hanzi": "对面",
-    "pinyin": "duìmiàn",
-    "meaning": "đối diện",
-    "example_zh": "银行在超市<u>对面</u>。",
-    "example_py": "Yínháng zài chāoshì <u>duìmiàn</u>.",
-    "expected_pinyin": "yin2 hang2 zai4 chao1 shi4 dui4 mian4",
-    "example_vi": "Ngân hàng ở <u>đối diện</u> siêu thị."
-  },
-  {
-    "id": 101,
-    "hanzi": "对于",
-    "pinyin": "duìyú",
-    "meaning": "đối với",
-    "example_zh": "<u>对于</u>这个问题,我有不同的看法。",
-    "example_py": "<u>Duìyú</u> zhège wèntí, wǒ yǒu bùtóng de kànfǎ.",
-    "expected_pinyin": "dui4 yu2 zhe4 ge0 wen4 ti2 wo3 you3 bu4 tong2 de0 kan4 fa3",
-    "example_vi": "<u>Đối với</u> vấn đề này, tôi có ý kiến khác."
-  },
-  {
-    "id": 102,
-    "hanzi": "顿",
-    "pinyin": "dùn",
-    "meaning": "bữa (lượng từ)",
-    "example_zh": "我们一天吃三<u>顿</u>饭。",
-    "example_py": "Wǒmen yìtiān chī sān <u>dùn</u> fàn.",
-    "expected_pinyin": "wo3 men0 yi2 tian1 chi1 san1 dun4 fan4",
-    "example_vi": "Chúng tôi ăn ba <u>bữa</u> một ngày."
-  },
-  {
-    "id": 103,
-    "hanzi": "多么",
-    "pinyin": "duōme",
-    "meaning": "biết bao, thật là",
-    "example_zh": "这风景<u>多么</u>美啊!",
-    "example_py": "Zhè fēngjǐng <u>duōme</u> měi a!",
-    "expected_pinyin": "zhe4 feng1 jing3 duo1 me0 mei3 a0",
-    "example_vi": "Phong cảnh này <u>thật là</u> đẹp!"
-  },
-  {
-    "id": 104,
-    "hanzi": "儿童",
-    "pinyin": "értóng",
-    "meaning": "trẻ em",
-    "example_zh": "这是<u>儿童</u>公园。",
-    "example_py": "Zhè shì <u>értóng</u> gōngyuán.",
-    "expected_pinyin": "zhe4 shi4 er2 tong2 gong1 yuan2",
-    "example_vi": "Đây là công viên <u>trẻ em</u>."
-  },
-  {
-    "id": 105,
-    "hanzi": "发生",
-    "pinyin": "fāshēng",
-    "meaning": "xảy ra",
-    "example_zh": "昨天<u>发生</u>了一件怪事。",
-    "example_py": "Zuótiān <u>fāshēng</u> le yí jiàn guàishì.",
-    "expected_pinyin": "zuo2 tian1 fa1 sheng1 le0 yi2 jian4 guai4 shi4",
-    "example_vi": "Hôm qua đã <u>xảy ra</u> một chuyện kỳ lạ."
-  },
-  {
-    "id": 106,
-    "hanzi": "发展",
-    "pinyin": "fāzhǎn",
-    "meaning": "phát triển",
-    "example_zh": "这个城市<u>发展</u>很快。",
-    "example_py": "Zhège chéngshì <u>fāzhǎn</u> hěn kuài.",
-    "expected_pinyin": "zhe4 ge0 cheng2 shi4 fa1 zhan3 hen3 kuai4",
-    "example_vi": "Thành phố này <u>phát triển</u> rất nhanh."
-  },
-  {
-    "id": 107,
-    "hanzi": "法律",
-    "pinyin": "fǎlǜ",
-    "meaning": "pháp luật",
-    "example_zh": "我们要遵守<u>法律</u>。",
-    "example_py": "Wǒmen yào zūnshǒu <u>fǎlǜ</u>.",
-    "expected_pinyin": "wo3 men0 yao4 zun1 shou3 fa3 lv4",
-    "example_vi": "Chúng ta phải tuân thủ <u>pháp luật</u>."
-  },
-  {
-    "id": 108,
-    "hanzi": "翻译",
-    "pinyin": "fānyì",
-    "meaning": "phiên dịch",
-    "example_zh": "他是我的<u>翻译</u>。",
-    "example_py": "Tā shì wǒ de <u>fānyì</u>.",
-    "expected_pinyin": "ta1 shi4 wo3 de0 fan1 yi4",
-    "example_vi": "Anh ấy là <u>phiên dịch</u> của tôi."
-  },
-  {
-    "id": 109,
-    "hanzi": "烦恼",
-    "pinyin": "fánnǎo",
-    "meaning": "phiền não, lo lắng",
-    "example_zh": "别为这点小事<u>烦恼</u>。",
-    "example_py": "Bié wèi zhè diǎn xiǎoshì <u>fánnǎo</u>.",
-    "expected_pinyin": "bie2 wei4 zhe4 dian3 xiao3 shi4 fan2 nao3",
-    "example_vi": "Đừng <u>phiền não</u> vì chuyện nhỏ này."
-  },
-  {
-    "id": 110,
-    "hanzi": "反对",
-    "pinyin": "fǎnduì",
-    "meaning": "phản đối",
-    "example_zh": "大家都<u>反对</u>这个计划。",
-    "example_py": "Dàjiā dōu <u>fǎnduì</u> zhège jìhuà.",
-    "expected_pinyin": "da4 jia1 dou1 fan3 dui4 zhe4 ge0 ji4 hua4",
-    "example_vi": "Mọi người đều <u>phản đối</u> kế hoạch này."
-  },
-  {
-    "id": 111,
-    "hanzi": "反映",
-    "pinyin": "fǎnyìng",
-    "meaning": "phản ánh",
-    "example_zh": "这份报告<u>反映</u>了真实情况。",
-    "example_py": "Zhè fèn bàogào <u>fǎnyìng</u> le zhēnshí qíngkuàng.",
-    "expected_pinyin": "zhe4 fen4 bao4 gao4 fan3 ying4 le0 zhen1 shi2 qing2 kuang4",
-    "example_vi": "Bản báo cáo này <u>phản ánh</u> tình hình thực tế."
-  },
-  {
-    "id": 112,
-    "hanzi": "方法",
-    "pinyin": "fāngfǎ",
-    "meaning": "phương pháp",
-    "example_zh": "这个<u>方法</u>很有效。",
-    "example_py": "Zhège <u>fāngfǎ</u> hěn yǒuxiào.",
-    "expected_pinyin": "zhe4 ge0 fang1 fa3 hen3 you3 xiao4",
-    "example_vi": "<u>Phương pháp</u> này rất hiệu quả."
-  },
-  {
-    "id": 113,
-    "hanzi": "方向",
-    "pinyin": "fāngxiàng",
-    "meaning": "phương hướng",
-    "example_zh": "我们走错<u>方向</u>了。",
-    "example_py": "Wǒmen zǒu cuò <u>fāngxiàng</u> le.",
-    "expected_pinyin": "wo3 men0 zou3 cuo4 fang1 xiang4 le0",
-    "example_vi": "Chúng tôi đi sai <u>hướng</u> rồi."
-  },
-  {
-    "id": 114,
-    "hanzi": "放弃",
-    "pinyin": "fàngqì",
-    "meaning": "từ bỏ",
-    "example_zh": "不要轻易<u>放弃</u>。",
-    "example_py": "Búyào qīngyì <u>fàngqì</u>.",
-    "expected_pinyin": "bu2 yao4 qing1 yi4 fang4 qi4",
-    "example_vi": "Đừng dễ dàng <u>từ bỏ</u>."
-  },
-  {
-    "id": 115,
-    "hanzi": "分别",
-    "pinyin": "fēnbié",
-    "meaning": "chia tay, phân biệt",
-    "example_zh": "我们在车站<u>分别</u>了。",
-    "example_py": "Wǒmen zài chēzhàn <u>fēnbié</u> le.",
-    "expected_pinyin": "wo3 men0 zai4 che1 zhan4 fen1 bie2 le0",
-    "example_vi": "Chúng tôi <u>chia tay</u> ở nhà ga."
-  },
-  {
-    "id": 116,
-    "hanzi": "分析",
-    "pinyin": "fēnxī",
-    "meaning": "phân tích",
-    "example_zh": "请<u>分析</u>一下原因。",
-    "example_py": "Qǐng <u>fēnxī</u> yíxià yuányīn.",
-    "expected_pinyin": "qing3 fen1 xi1 yi2 xia4 yuan2 yin1",
-    "example_vi": "Hãy <u>phân tích</u> nguyên nhân."
-  },
-  {
-    "id": 117,
-    "hanzi": "否则",
-    "pinyin": "fǒuzé",
-    "meaning": "nếu không thì",
-    "example_zh": "快点走,<u>否则</u>要迟到了。",
-    "example_py": "Kuài diǎn zǒu, <u>fǒuzé</u> yào chídào le.",
-    "expected_pinyin": "kuai4 dian3 zou3 fou3 ze2 yao4 chi2 dao4 le0",
-    "example_vi": "Đi nhanh lên, <u>nếu không</u> sẽ trễ."
-  },
-  {
-    "id": 118,
-    "hanzi": "符合",
-    "pinyin": "fúhé",
-    "meaning": "phù hợp",
-    "example_zh": "这个条件<u>符合</u>要求。",
-    "example_py": "Zhège tiáojiàn <u>fúhé</u> yāoqiú.",
-    "expected_pinyin": "zhe4 ge0 tiao2 jian4 fu2 he2 yao1 qiu2",
-    "example_vi": "Điều kiện này <u>phù hợp</u> yêu cầu."
-  },
-  {
-    "id": 119,
-    "hanzi": "父母",
-    "pinyin": "fùmǔ",
-    "meaning": "cha mẹ",
-    "example_zh": "<u>父母</u>很爱我。",
-    "example_py": "<u>Fùmǔ</u> hěn ài wǒ.",
-    "expected_pinyin": "fu4 mu3 hen3 ai4 wo3",
-    "example_vi": "<u>Cha mẹ</u> rất yêu tôi."
-  },
-  {
-    "id": 120,
-    "hanzi": "负责",
-    "pinyin": "fùzé",
-    "meaning": "phụ trách, chịu trách nhiệm",
-    "example_zh": "这件事由我<u>负责</u>。",
-    "example_py": "Zhè jiàn shì yóu wǒ <u>fùzé</u>.",
-    "expected_pinyin": "zhe4 jian4 shi4 you2 wo3 fu4 ze2",
-    "example_vi": "Việc này do tôi <u>phụ trách</u>."
-  },
-  {
-    "id": 121,
-    "hanzi": "富",
-    "pinyin": "fù",
-    "meaning": "giàu có",
-    "example_zh": "他家很<u>富</u>。",
-    "example_py": "Tā jiā hěn <u>fù</u>.",
-    "expected_pinyin": "ta1 jia1 hen3 fu4",
-    "example_vi": "Nhà anh ấy rất <u>giàu</u>."
-  },
-  {
-    "id": 122,
-    "hanzi": "改变",
-    "pinyin": "gǎibiàn",
-    "meaning": "thay đổi",
-    "example_zh": "他<u>改变</u>了主意。",
-    "example_py": "Tā <u>gǎibiàn</u> le zhǔyì.",
-    "expected_pinyin": "ta1 gai3 bian4 le0 zhu3 yi4",
-    "example_vi": "Anh ấy đã <u>thay đổi</u> ý định."
-  },
-  {
-    "id": 123,
-    "hanzi": "干杯",
-    "pinyin": "gānbēi",
-    "meaning": "cạn ly",
-    "example_zh": "大家一起<u>干杯</u>!",
-    "example_py": "Dàjiā yìqǐ <u>gānbēi</u>!",
-    "expected_pinyin": "da4 jia1 yi4 qi3 gan1 bei1",
-    "example_vi": "Mọi người cùng <u>cạn ly</u>!"
-  },
-  {
-    "id": 124,
-    "hanzi": "赶",
-    "pinyin": "gǎn",
-    "meaning": "vội, đuổi kịp",
-    "example_zh": "我要<u>赶</u>飞机。",
-    "example_py": "Wǒ yào <u>gǎn</u> fēijī.",
-    "expected_pinyin": "wo3 yao4 gan3 fei1 ji1",
-    "example_vi": "Tôi phải <u>vội</u> kịp chuyến bay."
-  },
-  {
-    "id": 125,
-    "hanzi": "感动",
-    "pinyin": "gǎndòng",
-    "meaning": "cảm động",
-    "example_zh": "这个故事让我很<u>感动</u>。",
-    "example_py": "Zhège gùshi ràng wǒ hěn <u>gǎndòng</u>.",
-    "expected_pinyin": "zhe4 ge0 gu4 shi0 rang4 wo3 hen3 gan3 dong4",
-    "example_vi": "Câu chuyện này khiến tôi rất <u>cảm động</u>."
-  },
-  {
-    "id": 126,
-    "hanzi": "感觉",
-    "pinyin": "gǎnjué",
-    "meaning": "cảm giác",
-    "example_zh": "我<u>感觉</u>很累。",
-    "example_py": "Wǒ <u>gǎnjué</u> hěn lèi.",
-    "expected_pinyin": "wo3 gan3 jue2 hen3 lei4",
-    "example_vi": "Tôi <u>cảm thấy</u> rất mệt."
-  },
-  {
-    "id": 127,
-    "hanzi": "感谢",
-    "pinyin": "gǎnxiè",
-    "meaning": "cảm tạ",
-    "example_zh": "非常<u>感谢</u>你的帮助。",
-    "example_py": "Fēicháng <u>gǎnxiè</u> nǐ de bāngzhù.",
-    "expected_pinyin": "fei1 chang2 gan3 xie4 ni3 de0 bang1 zhu4",
-    "example_vi": "Rất <u>cảm ơn</u> sự giúp đỡ của bạn."
-  },
-  {
-    "id": 128,
-    "hanzi": "刚才",
-    "pinyin": "gāngcái",
-    "meaning": "vừa nãy, lúc nãy",
-    "example_zh": "<u>刚才</u>谁给我打电话了?",
-    "example_py": "<u>Gāngcái</u> shéi gěi wǒ dǎ diànhuà le?",
-    "expected_pinyin": "gang1 cai2 shei2 gei3 wo3 da3 dian4 hua4 le0",
-    "example_vi": "<u>Vừa nãy</u> ai gọi điện cho tôi vậy?"
-  },
-  {
-    "id": 129,
-    "hanzi": "高速公路",
-    "pinyin": "gāosù gōnglù",
-    "meaning": "đường cao tốc",
-    "example_zh": "我们走<u>高速公路</u>去吧。",
-    "example_py": "Wǒmen zǒu <u>gāosù gōnglù</u> qù ba.",
-    "expected_pinyin": "wo3 men0 zou3 gao1 su4 gong1 lu4 qu4 ba0",
-    "example_vi": "Chúng ta đi <u>đường cao tốc</u> đi."
-  },
-  {
-    "id": 130,
-    "hanzi": "格外",
-    "pinyin": "géwài",
-    "meaning": "đặc biệt là",
-    "example_zh": "今天天气<u>格外</u>好。",
-    "example_py": "Jīntiān tiānqì <u>géwài</u> hǎo.",
-    "expected_pinyin": "jin1 tian1 tian1 qi4 ge2 wai4 hao3",
-    "example_vi": "Hôm nay thời tiết <u>đặc biệt</u> đẹp."
-  },
-  {
-    "id": 131,
-    "hanzi": "个人",
-    "pinyin": "gèrén",
-    "meaning": "cá nhân",
-    "example_zh": "这是我<u>个人</u>的意见。",
-    "example_py": "Zhè shì wǒ <u>gèrén</u> de yìjiàn.",
-    "expected_pinyin": "zhe4 shi4 wo3 ge4 ren2 de0 yi4 jian4",
-    "example_vi": "Đây là ý kiến <u>cá nhân</u> tôi."
-  },
-  {
-    "id": 132,
-    "hanzi": "各",
-    "pinyin": "gè",
-    "meaning": "mỗi, các",
-    "example_zh": "<u>各</u>位请注意。",
-    "example_py": "<u>Gè</u> wèi qǐng zhùyì.",
-    "expected_pinyin": "ge4 wei4 qing3 zhu4 yi4",
-    "example_vi": "<u>Mỗi</u> vị xin chú ý."
-  },
-  {
-    "id": 133,
-    "hanzi": "工资",
-    "pinyin": "gōngzī",
-    "meaning": "tiền lương",
-    "example_zh": "这个月<u>工资</u>发了吗?",
-    "example_py": "Zhège yuè <u>gōngzī</u> fā le ma?",
-    "expected_pinyin": "zhe4 ge0 yue4 gong1 zi1 fa1 le0 ma0",
-    "example_vi": "<u>Lương</u> tháng này phát chưa?"
-  },
-  {
-    "id": 134,
-    "hanzi": "公里",
-    "pinyin": "gōnglǐ",
-    "meaning": "kilômét",
-    "example_zh": "这儿离机场十<u>公里</u>。",
-    "example_py": "Zhèr lí jīchǎng shí <u>gōnglǐ</u>.",
-    "expected_pinyin": "zher4 li2 ji1 chang3 shi2 gong1 li3",
-    "example_vi": "Từ đây đến sân bay mười <u>kilômét</u>."
-  },
-  {
-    "id": 135,
-    "hanzi": "功夫",
-    "pinyin": "gōngfu",
-    "meaning": "công phu, thời gian",
-    "example_zh": "他很喜欢练<u>功夫</u>。",
-    "example_py": "Tā hěn xǐhuan liàn <u>gōngfu</u>.",
-    "expected_pinyin": "ta1 hen3 xi3 huan0 lian4 gong1 fu0",
-    "example_vi": "Anh ấy rất thích luyện <u>công phu</u>."
-  },
-  {
-    "id": 136,
-    "hanzi": "共同",
-    "pinyin": "gòngtóng",
-    "meaning": "chung, cùng nhau",
-    "example_zh": "这是我们<u>共同</u>的目标。",
-    "example_py": "Zhè shì wǒmen <u>gòngtóng</u> de mùbiāo.",
-    "expected_pinyin": "zhe4 shi4 wo3 men0 gong4 tong2 de0 mu4 biao1",
-    "example_vi": "Đây là mục tiêu <u>chung</u> của chúng ta."
-  },
-  {
-    "id": 137,
-    "hanzi": "购物",
-    "pinyin": "gòuwù",
-    "meaning": "mua sắm",
-    "example_zh": "我喜欢去<u>购物</u>。",
-    "example_py": "Wǒ xǐhuan qù <u>gòuwù</u>.",
-    "expected_pinyin": "wo3 xi3 huan0 qu4 gou4 wu4",
-    "example_vi": "Tôi thích đi <u>mua sắm</u>."
-  },
-  {
-    "id": 138,
-    "hanzi": "够",
-    "pinyin": "gòu",
-    "meaning": "đủ",
-    "example_zh": "这些钱<u>够</u>用了。",
-    "example_py": "Zhèxiē qián <u>gòu</u> yòng le.",
-    "expected_pinyin": "zhe4 xie1 qian2 gou4 yong4 le0",
-    "example_vi": "Số tiền này <u>đủ</u> dùng rồi."
-  },
-  {
-    "id": 139,
-    "hanzi": "估计",
-    "pinyin": "gūjì",
-    "meaning": "ước tính",
-    "example_zh": "我<u>估计</u>他会来。",
-    "example_py": "Wǒ <u>gūjì</u> tā huì lái.",
-    "expected_pinyin": "wo3 gu1 ji4 ta1 hui4 lai2",
-    "example_vi": "Tôi <u>ước tính</u> anh ấy sẽ đến."
-  },
-  {
-    "id": 140,
-    "hanzi": "古代",
-    "pinyin": "gǔdài",
-    "meaning": "thời cổ đại",
-    "example_zh": "这是<u>古代</u>的建筑。",
-    "example_py": "Zhè shì <u>gǔdài</u> de jiànzhù.",
-    "expected_pinyin": "zhe4 shi4 gu3 dai4 de0 jian4 zhu4",
-    "example_vi": "Đây là công trình <u>thời cổ đại</u>."
-  },
-  {
-    "id": 141,
-    "hanzi": "鼓励",
-    "pinyin": "gǔlì",
-    "meaning": "khích lệ, cổ vũ",
-    "example_zh": "老师<u>鼓励</u>我继续努力。",
-    "example_py": "Lǎoshī <u>gǔlì</u> wǒ jìxù nǔlì.",
-    "expected_pinyin": "lao3 shi1 gu3 li4 wo3 ji4 xu4 nu3 li4",
-    "example_vi": "Giáo viên <u>khích lệ</u> tôi tiếp tục cố gắng."
-  },
-  {
-    "id": 142,
-    "hanzi": "顾客",
-    "pinyin": "gùkè",
-    "meaning": "khách hàng",
-    "example_zh": "<u>顾客</u>就是上帝。",
-    "example_py": "<u>Gùkè</u> jiùshì shàngdì.",
-    "expected_pinyin": "gu4 ke4 jiu4 shi4 shang4 di4",
-    "example_vi": "<u>Khách hàng</u> là thượng đế."
-  },
-  {
-    "id": 143,
-    "hanzi": "故意",
-    "pinyin": "gùyì",
-    "meaning": "cố ý",
-    "example_zh": "他不是<u>故意</u>的。",
-    "example_py": "Tā búshì <u>gùyì</u> de.",
-    "expected_pinyin": "ta1 bu2 shi4 gu4 yi4 de0",
-    "example_vi": "Anh ấy không <u>cố ý</u>."
-  },
-  {
-    "id": 144,
-    "hanzi": "挂",
-    "pinyin": "guà",
-    "meaning": "treo",
-    "example_zh": "墙上<u>挂</u>着一幅画。",
-    "example_py": "Qiáng shàng <u>guà</u> zhe yì fú huà.",
-    "expected_pinyin": "qiang2 shang4 gua4 zhe0 yi2 fu2 hua4",
-    "example_vi": "Trên tường <u>treo</u> một bức tranh."
-  },
-  {
-    "id": 145,
-    "hanzi": "关键",
-    "pinyin": "guānjiàn",
-    "meaning": "then chốt, mấu chốt",
-    "example_zh": "这是问题的<u>关键</u>。",
-    "example_py": "Zhè shì wèntí de <u>guānjiàn</u>.",
-    "expected_pinyin": "zhe4 shi4 wen4 ti2 de0 guan1 jian4",
-    "example_vi": "Đây là điểm <u>then chốt</u> của vấn đề."
-  },
-  {
-    "id": 146,
-    "hanzi": "管理",
-    "pinyin": "guǎnlǐ",
-    "meaning": "quản lý",
-    "example_zh": "他负责<u>管理</u>公司。",
-    "example_py": "Tā fùzé <u>guǎnlǐ</u> gōngsī.",
-    "expected_pinyin": "ta1 fu4 ze2 guan3 li3 gong1 si1",
-    "example_vi": "Anh ấy phụ trách <u>quản lý</u> công ty."
-  },
-  {
-    "id": 147,
-    "hanzi": "光",
-    "pinyin": "guāng",
-    "meaning": "ánh sáng, chỉ",
-    "example_zh": "房间里没有<u>光</u>线。",
-    "example_py": "Fángjiān lǐ méiyǒu <u>guāng</u>xiàn.",
-    "expected_pinyin": "fang2 jian1 li3 mei2 you3 guang1 xian4",
-    "example_vi": "Trong phòng không có <u>ánh sáng</u>."
-  },
-  {
-    "id": 148,
-    "hanzi": "广播",
-    "pinyin": "guǎngbō",
-    "meaning": "phát thanh",
-    "example_zh": "请听机场<u>广播</u>。",
-    "example_py": "Qǐng tīng jīchǎng <u>guǎngbō</u>.",
-    "expected_pinyin": "qing3 ting1 ji1 chang3 guang3 bo1",
-    "example_vi": "Hãy nghe <u>phát thanh</u> sân bay."
-  },
-  {
-    "id": 149,
-    "hanzi": "广告",
-    "pinyin": "guǎnggào",
-    "meaning": "quảng cáo",
-    "example_zh": "这个<u>广告</u>很有意思。",
-    "example_py": "Zhège <u>guǎnggào</u> hěn yǒuyìsi.",
-    "expected_pinyin": "zhe4 ge0 guang3 gao4 hen3 you3 yi4 si0",
-    "example_vi": "<u>Quảng cáo</u> này rất thú vị."
-  },
-  {
-    "id": 150,
-    "hanzi": "规定",
-    "pinyin": "guīdìng",
-    "meaning": "quy định",
-    "example_zh": "请遵守学校的<u>规定</u>。",
-    "example_py": "Qǐng zūnshǒu xuéxiào de <u>guīdìng</u>.",
-    "expected_pinyin": "qing3 zun1 shou3 xue2 xiao4 de0 gui1 ding4",
-    "example_vi": "Hãy tuân thủ <u>quy định</u> của trường."
-  },
-  {
-    "id": 151,
-    "hanzi": "规律",
-    "pinyin": "guīlǜ",
-    "meaning": "quy luật",
-    "example_zh": "生活要有<u>规律</u>。",
-    "example_py": "Shēnghuó yào yǒu <u>guīlǜ</u>.",
-    "expected_pinyin": "sheng1 huo2 yao4 you3 gui1 lv4",
-    "example_vi": "Cuộc sống cần có <u>quy luật</u>."
-  },
-  {
-    "id": 152,
-    "hanzi": "国际",
-    "pinyin": "guójì",
-    "meaning": "quốc tế",
-    "example_zh": "这是一个<u>国际</u>会议。",
-    "example_py": "Zhè shì yí ge <u>guójì</u> huìyì.",
-    "expected_pinyin": "zhe4 shi4 yi2 ge0 guo2 ji4 hui4 yi4",
-    "example_vi": "Đây là một hội nghị <u>quốc tế</u>."
-  },
-  {
-    "id": 153,
-    "hanzi": "果汁",
-    "pinyin": "guǒzhī",
-    "meaning": "nước trái cây",
-    "example_zh": "我要一杯<u>果汁</u>。",
-    "example_py": "Wǒ yào yì bēi <u>guǒzhī</u>.",
-    "expected_pinyin": "wo3 yao4 yi4 bei1 guo3 zhi1",
-    "example_vi": "Tôi muốn một ly <u>nước trái cây</u>."
-  },
-  {
-    "id": 154,
-    "hanzi": "过程",
-    "pinyin": "guòchéng",
-    "meaning": "quá trình",
-    "example_zh": "学习是一个漫长的<u>过程</u>。",
-    "example_py": "Xuéxí shì yí ge màncháng de <u>guòchéng</u>.",
-    "expected_pinyin": "xue2 xi2 shi4 yi2 ge0 man4 chang2 de0 guo4 cheng2",
-    "example_vi": "Học tập là một <u>quá trình</u> dài."
-  },
-  {
-    "id": 155,
-    "hanzi": "海洋",
-    "pinyin": "hǎiyáng",
-    "meaning": "biển cả, đại dương",
-    "example_zh": "<u>海洋</u>里有很多鱼。",
-    "example_py": "<u>Hǎiyáng</u> lǐ yǒu hěnduō yú.",
-    "expected_pinyin": "hai3 yang2 li3 you3 hen3 duo1 yu2",
-    "example_vi": "<u>Đại dương</u> có rất nhiều cá."
-  },
-  {
-    "id": 156,
-    "hanzi": "害怕",
-    "pinyin": "hàipà",
-    "meaning": "sợ hãi",
-    "example_zh": "她很<u>害怕</u>黑暗。",
-    "example_py": "Tā hěn <u>hàipà</u> hēi'àn.",
-    "expected_pinyin": "ta1 hen3 hai4 pa4 hei1 an4",
-    "example_vi": "Cô ấy rất <u>sợ</u> bóng tối."
-  },
-  {
-    "id": 157,
-    "hanzi": "寒假",
-    "pinyin": "hánjià",
-    "meaning": "kỳ nghỉ đông",
-    "example_zh": "<u>寒假</u>你打算做什么?",
-    "example_py": "<u>Hánjià</u> nǐ dǎsuàn zuò shénme?",
-    "expected_pinyin": "han2 jia4 ni3 da3 suan4 zuo4 shen2 me0",
-    "example_vi": "<u>Nghỉ đông</u> bạn định làm gì?"
-  },
-  {
-    "id": 158,
-    "hanzi": "汗",
-    "pinyin": "hàn",
-    "meaning": "mồ hôi",
-    "example_zh": "他出了很多<u>汗</u>。",
-    "example_py": "Tā chū le hěnduō <u>hàn</u>.",
-    "expected_pinyin": "ta1 chu1 le0 hen3 duo1 han4",
-    "example_vi": "Anh ấy ra rất nhiều <u>mồ hôi</u>."
-  },
-  {
-    "id": 159,
-    "hanzi": "好处",
-    "pinyin": "hǎochu",
-    "meaning": "lợi ích",
-    "example_zh": "运动对身体有<u>好处</u>。",
-    "example_py": "Yùndòng duì shēntǐ yǒu <u>hǎochu</u>.",
-    "expected_pinyin": "yun4 dong4 dui4 shen1 ti3 you3 hao3 chu0",
-    "example_vi": "Thể dục có <u>lợi ích</u> cho sức khỏe."
-  },
-  {
-    "id": 160,
-    "hanzi": "合适",
-    "pinyin": "héshì",
-    "meaning": "thích hợp",
-    "example_zh": "这件衣服很<u>合适</u>你。",
-    "example_py": "Zhè jiàn yīfu hěn <u>héshì</u> nǐ.",
-    "expected_pinyin": "zhe4 jian4 yi1 fu0 hen3 he2 shi4 ni3",
-    "example_vi": "Bộ quần áo này rất <u>hợp</u> với bạn."
-  },
-  {
-    "id": 161,
-    "hanzi": "厚",
-    "pinyin": "hòu",
-    "meaning": "dày",
-    "example_zh": "这本书很<u>厚</u>。",
-    "example_py": "Zhè běn shū hěn <u>hòu</u>.",
-    "expected_pinyin": "zhe4 ben3 shu1 hen3 hou4",
-    "example_vi": "Cuốn sách này rất <u>dày</u>."
-  },
-  {
-    "id": 162,
-    "hanzi": "互相",
-    "pinyin": "hùxiāng",
-    "meaning": "lẫn nhau",
-    "example_zh": "我们要<u>互相</u>帮助。",
-    "example_py": "Wǒmen yào <u>hùxiāng</u> bāngzhù.",
-    "expected_pinyin": "wo3 men0 yao4 hu4 xiang1 bang1 zhu4",
-    "example_vi": "Chúng ta phải giúp đỡ <u>lẫn nhau</u>."
-  },
-  {
-    "id": 163,
-    "hanzi": "护士",
-    "pinyin": "hùshi",
-    "meaning": "y tá",
-    "example_zh": "她是一名<u>护士</u>。",
-    "example_py": "Tā shì yì míng <u>hùshi</u>.",
-    "expected_pinyin": "ta1 shi4 yi4 ming2 hu4 shi0",
-    "example_vi": "Cô ấy là một <u>y tá</u>."
-  },
-  {
-    "id": 164,
-    "hanzi": "花费",
-    "pinyin": "huāfèi",
-    "meaning": "chi phí, tiêu tốn",
-    "example_zh": "这次旅行<u>花费</u>不少。",
-    "example_py": "Zhè cì lǚxíng <u>huāfèi</u> bùshǎo.",
-    "expected_pinyin": "zhe4 ci4 lv3 xing2 hua1 fei4 bu4 shao3",
-    "example_vi": "Chuyến đi này <u>tốn</u> khá nhiều."
-  },
-  {
-    "id": 165,
-    "hanzi": "划",
-    "pinyin": "huá",
-    "meaning": "chèo, vạch",
-    "example_zh": "他们在湖上<u>划</u>船。",
-    "example_py": "Tāmen zài hú shàng <u>huá</u> chuán.",
-    "expected_pinyin": "ta1 men0 zai4 hu2 shang4 hua2 chuan2",
-    "example_vi": "Họ <u>chèo</u> thuyền trên hồ."
-  },
-  {
-    "id": 166,
-    "hanzi": "怀疑",
-    "pinyin": "huáiyí",
-    "meaning": "nghi ngờ",
-    "example_zh": "我<u>怀疑</u>他在撒谎。",
-    "example_py": "Wǒ <u>huáiyí</u> tā zài sāhuǎng.",
-    "expected_pinyin": "wo3 huai2 yi2 ta1 zai4 sa1 huang3",
-    "example_vi": "Tôi <u>nghi ngờ</u> anh ấy đang nói dối."
-  },
-  {
-    "id": 167,
-    "hanzi": "环境",
-    "pinyin": "huánjìng",
-    "meaning": "môi trường",
-    "example_zh": "这里的<u>环境</u>很好。",
-    "example_py": "Zhèlǐ de <u>huánjìng</u> hěn hǎo.",
-    "expected_pinyin": "zhe4 li3 de0 huan2 jing4 hen3 hao3",
-    "example_vi": "<u>Môi trường</u> ở đây rất tốt."
-  },
-  {
-    "id": 168,
-    "hanzi": "换",
-    "pinyin": "huàn",
-    "meaning": "đổi, thay",
-    "example_zh": "我想<u>换</u>一件衣服。",
-    "example_py": "Wǒ xiǎng <u>huàn</u> yí jiàn yīfu.",
-    "expected_pinyin": "wo3 xiang3 huan4 yi2 jian4 yi1 fu0",
-    "example_vi": "Tôi muốn <u>đổi</u> một bộ quần áo."
-  },
-  {
-    "id": 169,
-    "hanzi": "恢复",
-    "pinyin": "huīfù",
-    "meaning": "hồi phục",
-    "example_zh": "他的身体正在<u>恢复</u>。",
-    "example_py": "Tā de shēntǐ zhèngzài <u>huīfù</u>.",
-    "expected_pinyin": "ta1 de0 shen1 ti3 zheng4 zai4 hui1 fu4",
-    "example_vi": "Sức khỏe anh ấy đang <u>hồi phục</u>."
-  },
-  {
-    "id": 170,
-    "hanzi": "活动",
-    "pinyin": "huódòng",
-    "meaning": "hoạt động",
-    "example_zh": "学校有很多<u>活动</u>。",
-    "example_py": "Xuéxiào yǒu hěnduō <u>huódòng</u>.",
-    "expected_pinyin": "xue2 xiao4 you3 hen3 duo1 huo2 dong4",
-    "example_vi": "Trường có nhiều <u>hoạt động</u>."
-  },
-  {
-    "id": 171,
-    "hanzi": "获得",
-    "pinyin": "huòdé",
-    "meaning": "giành được",
-    "example_zh": "她<u>获得</u>了第一名。",
-    "example_py": "Tā <u>huòdé</u> le dì yī míng.",
-    "expected_pinyin": "ta1 huo4 de2 le0 di4 yi1 ming2",
-    "example_vi": "Cô ấy <u>giành được</u> hạng nhất."
-  },
-  {
-    "id": 172,
-    "hanzi": "基础",
-    "pinyin": "jīchǔ",
-    "meaning": "cơ sở, nền tảng",
-    "example_zh": "这是学习的<u>基础</u>。",
-    "example_py": "Zhè shì xuéxí de <u>jīchǔ</u>.",
-    "expected_pinyin": "zhe4 shi4 xue2 xi2 de0 ji1 chu3",
-    "example_vi": "Đây là <u>nền tảng</u> của việc học."
-  },
-  {
-    "id": 173,
-    "hanzi": "激动",
-    "pinyin": "jīdòng",
-    "meaning": "xúc động, phấn khích",
-    "example_zh": "听到好消息她很<u>激动</u>。",
-    "example_py": "Tīngdào hǎo xiāoxi tā hěn <u>jīdòng</u>.",
-    "expected_pinyin": "ting1 dao4 hao3 xiao1 xi0 ta1 hen3 ji1 dong4",
-    "example_vi": "Nghe tin tốt cô ấy rất <u>phấn khích</u>."
-  },
-  {
-    "id": 174,
-    "hanzi": "及时",
-    "pinyin": "jíshí",
-    "meaning": "kịp thời",
-    "example_zh": "谢谢你<u>及时</u>提醒我。",
-    "example_py": "Xièxiè nǐ <u>jíshí</u> tíxǐng wǒ.",
-    "expected_pinyin": "xie4 xie0 ni3 ji2 shi2 ti2 xing3 wo3",
-    "example_vi": "Cảm ơn bạn đã nhắc <u>kịp thời</u>."
-  },
-  {
-    "id": 175,
-    "hanzi": "即使",
-    "pinyin": "jíshǐ",
-    "meaning": "ngay cả khi, dù cho",
-    "example_zh": "<u>即使</u>下雨,我也要去。",
-    "example_py": "<u>Jíshǐ</u> xiàyǔ, wǒ yě yào qù.",
-    "expected_pinyin": "ji2 shi3 xia4 yu3 wo3 ye3 yao4 qu4",
-    "example_vi": "<u>Ngay cả khi</u> trời mưa, tôi cũng phải đi."
-  },
-  {
-    "id": 176,
-    "hanzi": "计划",
-    "pinyin": "jìhuà",
-    "meaning": "kế hoạch",
-    "example_zh": "我们有一个新<u>计划</u>。",
-    "example_py": "Wǒmen yǒu yí ge xīn <u>jìhuà</u>.",
-    "expected_pinyin": "wo3 men0 you3 yi2 ge0 xin1 ji4 hua4",
-    "example_vi": "Chúng tôi có một <u>kế hoạch</u> mới."
-  },
-  {
-    "id": 177,
-    "hanzi": "记者",
-    "pinyin": "jìzhě",
-    "meaning": "nhà báo",
-    "example_zh": "他是一名<u>记者</u>。",
-    "example_py": "Tā shì yì míng <u>jìzhě</u>.",
-    "expected_pinyin": "ta1 shi4 yi4 ming2 ji4 zhe3",
-    "example_vi": "Anh ấy là một <u>nhà báo</u>."
-  },
-  {
-    "id": 178,
-    "hanzi": "既然",
-    "pinyin": "jìrán",
-    "meaning": "đã như vậy thì",
-    "example_zh": "<u>既然</u>你来了,就坐下吧。",
-    "example_py": "<u>Jìrán</u> nǐ lái le, jiù zuòxià ba.",
-    "expected_pinyin": "ji4 ran2 ni3 lai2 le0 jiu4 zuo4 xia4 ba0",
-    "example_vi": "<u>Đã</u> bạn đến rồi thì ngồi xuống đi."
-  },
-  {
-    "id": 179,
-    "hanzi": "继续",
-    "pinyin": "jìxù",
-    "meaning": "tiếp tục",
-    "example_zh": "请<u>继续</u>说下去。",
-    "example_py": "Qǐng <u>jìxù</u> shuō xiàqù.",
-    "expected_pinyin": "qing3 ji4 xu4 shuo1 xia4 qu4",
-    "example_vi": "Xin hãy <u>tiếp tục</u> nói."
-  },
-  {
-    "id": 180,
-    "hanzi": "加班",
-    "pinyin": "jiābān",
-    "meaning": "làm thêm giờ",
-    "example_zh": "他今晚要<u>加班</u>。",
-    "example_py": "Tā jīnwǎn yào <u>jiābān</u>.",
-    "expected_pinyin": "ta1 jin1 wan3 yao4 jia1 ban1",
-    "example_vi": "Tối nay anh ấy phải <u>làm thêm giờ</u>."
-  },
-  {
-    "id": 181,
-    "hanzi": "家务",
-    "pinyin": "jiāwù",
-    "meaning": "việc nhà",
-    "example_zh": "我帮妈妈做<u>家务</u>。",
-    "example_py": "Wǒ bāng māma zuò <u>jiāwù</u>.",
-    "expected_pinyin": "wo3 bang1 ma1 ma0 zuo4 jia1 wu4",
-    "example_vi": "Tôi giúp mẹ làm <u>việc nhà</u>."
-  },
-  {
-    "id": 182,
-    "hanzi": "价格",
-    "pinyin": "jiàgé",
-    "meaning": "giá cả",
-    "example_zh": "这个<u>价格</u>很合理。",
-    "example_py": "Zhège <u>jiàgé</u> hěn hélǐ.",
-    "expected_pinyin": "zhe4 ge0 jia4 ge2 hen3 he2 li3",
-    "example_vi": "<u>Giá cả</u> này rất hợp lý."
-  },
-  {
-    "id": 183,
-    "hanzi": "坚决",
-    "pinyin": "jiānjué",
-    "meaning": "kiên quyết",
-    "example_zh": "他<u>坚决</u>反对这个决定。",
-    "example_py": "Tā <u>jiānjué</u> fǎnduì zhège juédìng.",
-    "expected_pinyin": "ta1 jian1 jue2 fan3 dui4 zhe4 ge0 jue2 ding4",
-    "example_vi": "Anh ấy <u>kiên quyết</u> phản đối quyết định này."
-  },
-  {
-    "id": 184,
-    "hanzi": "减肥",
-    "pinyin": "jiǎnféi",
-    "meaning": "giảm cân",
-    "example_zh": "她在<u>减肥</u>。",
-    "example_py": "Tā zài <u>jiǎnféi</u>.",
-    "expected_pinyin": "ta1 zai4 jian3 fei2",
-    "example_vi": "Cô ấy đang <u>giảm cân</u>."
-  },
-  {
-    "id": 185,
-    "hanzi": "减少",
-    "pinyin": "jiǎnshǎo",
-    "meaning": "giảm bớt",
-    "example_zh": "污染正在<u>减少</u>。",
-    "example_py": "Wūrǎn zhèngzài <u>jiǎnshǎo</u>.",
-    "expected_pinyin": "wu1 ran3 zheng4 zai4 jian3 shao3",
-    "example_vi": "Ô nhiễm đang <u>giảm bớt</u>."
-  },
-  {
-    "id": 186,
-    "hanzi": "建议",
-    "pinyin": "jiànyì",
-    "meaning": "đề nghị, kiến nghị",
-    "example_zh": "我<u>建议</u>你早点休息。",
-    "example_py": "Wǒ <u>jiànyì</u> nǐ zǎodiǎn xiūxi.",
-    "expected_pinyin": "wo3 jian4 yi4 ni3 zao3 dian3 xiu1 xi0",
-    "example_vi": "Tôi <u>đề nghị</u> bạn nghỉ sớm."
-  },
-  {
-    "id": 187,
-    "hanzi": "健康",
-    "pinyin": "jiànkāng",
-    "meaning": "sức khỏe",
-    "example_zh": "祝你身体<u>健康</u>。",
-    "example_py": "Zhù nǐ shēntǐ <u>jiànkāng</u>.",
-    "expected_pinyin": "zhu4 ni3 shen1 ti3 jian4 kang1",
-    "example_vi": "Chúc bạn <u>sức khỏe</u>."
-  },
-  {
-    "id": 188,
-    "hanzi": "将来",
-    "pinyin": "jiānglái",
-    "meaning": "tương lai",
-    "example_zh": "<u>将来</u>我想当老师。",
-    "example_py": "<u>Jiānglái</u> wǒ xiǎng dāng lǎoshī.",
-    "expected_pinyin": "jiang1 lai2 wo3 xiang3 dang1 lao3 shi1",
-    "example_vi": "<u>Tương lai</u> tôi muốn làm giáo viên."
-  },
-  {
-    "id": 189,
-    "hanzi": "奖金",
-    "pinyin": "jiǎngjīn",
-    "meaning": "tiền thưởng",
-    "example_zh": "他得到了<u>奖金</u>。",
-    "example_py": "Tā dédào le <u>jiǎngjīn</u>.",
-    "expected_pinyin": "ta1 de2 dao4 le0 jiang3 jin1",
-    "example_vi": "Anh ấy nhận được <u>tiền thưởng</u>."
-  },
-  {
-    "id": 190,
-    "hanzi": "交流",
-    "pinyin": "jiāoliú",
-    "meaning": "giao lưu",
-    "example_zh": "我们经常<u>交流</u>想法。",
-    "example_py": "Wǒmen jīngcháng <u>jiāoliú</u> xiǎngfǎ.",
-    "expected_pinyin": "wo3 men0 jing1 chang2 jiao1 liu2 xiang3 fa3",
-    "example_vi": "Chúng tôi thường xuyên <u>trao đổi</u> ý tưởng."
-  },
-  {
-    "id": 191,
-    "hanzi": "交通",
-    "pinyin": "jiāotōng",
-    "meaning": "giao thông",
-    "example_zh": "这里的<u>交通</u>很方便。",
-    "example_py": "Zhèlǐ de <u>jiāotōng</u> hěn fāngbiàn.",
-    "expected_pinyin": "zhe4 li3 de0 jiao1 tong1 hen3 fang1 bian4",
-    "example_vi": "<u>Giao thông</u> ở đây rất thuận tiện."
-  },
-  {
-    "id": 192,
-    "hanzi": "郊区",
-    "pinyin": "jiāoqū",
-    "meaning": "ngoại ô",
-    "example_zh": "他住在<u>郊区</u>。",
-    "example_py": "Tā zhù zài <u>jiāoqū</u>.",
-    "expected_pinyin": "ta1 zhu4 zai4 jiao1 qu1",
-    "example_vi": "Anh ấy sống ở <u>ngoại ô</u>."
-  },
-  {
-    "id": 193,
-    "hanzi": "教育",
-    "pinyin": "jiàoyù",
-    "meaning": "giáo dục",
-    "example_zh": "<u>教育</u>很重要。",
-    "example_py": "<u>Jiàoyù</u> hěn zhòngyào.",
-    "expected_pinyin": "jiao4 yu4 hen3 zhong4 yao4",
-    "example_vi": "<u>Giáo dục</u> rất quan trọng."
-  },
-  {
-    "id": 194,
-    "hanzi": "接受",
-    "pinyin": "jiēshòu",
-    "meaning": "tiếp nhận, chấp nhận",
-    "example_zh": "我<u>接受</u>你的建议。",
-    "example_py": "Wǒ <u>jiēshòu</u> nǐ de jiànyì.",
-    "expected_pinyin": "wo3 jie1 shou4 ni3 de0 jian4 yi4",
-    "example_vi": "Tôi <u>chấp nhận</u> đề nghị của bạn."
-  },
-  {
-    "id": 195,
-    "hanzi": "结合",
-    "pinyin": "jiéhé",
-    "meaning": "kết hợp",
-    "example_zh": "理论要<u>结合</u>实践。",
-    "example_py": "Lǐlùn yào <u>jiéhé</u> shíjiàn.",
-    "expected_pinyin": "li3 lun4 yao4 jie2 he2 shi2 jian4",
-    "example_vi": "Lý thuyết phải <u>kết hợp</u> với thực tiễn."
-  },
-  {
-    "id": 196,
-    "hanzi": "节约",
-    "pinyin": "jiéyuē",
-    "meaning": "tiết kiệm",
-    "example_zh": "我们要<u>节约</u>用水。",
-    "example_py": "Wǒmen yào <u>jiéyuē</u> yòngshuǐ.",
-    "expected_pinyin": "wo3 men0 yao4 jie2 yue1 yong4 shui3",
-    "example_vi": "Chúng ta phải <u>tiết kiệm</u> nước."
-  },
-  {
-    "id": 197,
-    "hanzi": "解释",
-    "pinyin": "jiěshì",
-    "meaning": "giải thích",
-    "example_zh": "请你<u>解释</u>一下。",
-    "example_py": "Qǐng nǐ <u>jiěshì</u> yíxià.",
-    "expected_pinyin": "qing3 ni3 jie3 shi4 yi2 xia4",
-    "example_vi": "Xin hãy <u>giải thích</u> một chút."
-  },
-  {
-    "id": 198,
-    "hanzi": "紧张",
-    "pinyin": "jǐnzhāng",
-    "meaning": "căng thẳng, hồi hộp",
-    "example_zh": "考试前她很<u>紧张</u>。",
-    "example_py": "Kǎoshì qián tā hěn <u>jǐnzhāng</u>.",
-    "expected_pinyin": "kao3 shi4 qian2 ta1 hen3 jin3 zhang1",
-    "example_vi": "Trước kỳ thi cô ấy rất <u>căng thẳng</u>."
-  },
-  {
-    "id": 199,
-    "hanzi": "尽量",
-    "pinyin": "jǐnliàng",
-    "meaning": "cố gắng hết sức",
-    "example_zh": "请<u>尽量</u>早点到。",
-    "example_py": "Qǐng <u>jǐnliàng</u> zǎodiǎn dào.",
-    "expected_pinyin": "qing3 jin3 liang4 zao3 dian3 dao4",
-    "example_vi": "Xin <u>cố gắng hết sức</u> đến sớm."
-  },
-  {
-    "id": 200,
-    "hanzi": "进步",
-    "pinyin": "jìnbù",
-    "meaning": "tiến bộ",
-    "example_zh": "他的中文<u>进步</u>很快。",
-    "example_py": "Tā de Zhōngwén <u>jìnbù</u> hěn kuài.",
-    "expected_pinyin": "ta1 de0 zhong1 wen2 jin4 bu4 hen3 kuai4",
-    "example_vi": "Tiếng Trung của anh ấy <u>tiến bộ</u> rất nhanh."
-  },
-  {
-    "id": 201,
-    "hanzi": "禁止",
-    "pinyin": "jìnzhǐ",
-    "meaning": "cấm",
-    "example_zh": "这里<u>禁止</u>停车。",
-    "example_py": "Zhèlǐ <u>jìnzhǐ</u> tíngchē.",
-    "expected_pinyin": "zhe4 li3 jin4 zhi3 ting2 che1",
-    "example_vi": "Ở đây <u>cấm</u> đỗ xe."
-  },
-  {
-    "id": 202,
-    "hanzi": "精彩",
-    "pinyin": "jīngcǎi",
-    "meaning": "hay, đặc sắc",
-    "example_zh": "这场演出很<u>精彩</u>。",
-    "example_py": "Zhè chǎng yǎnchū hěn <u>jīngcǎi</u>.",
-    "expected_pinyin": "zhe4 chang3 yan3 chu1 hen3 jing1 cai3",
-    "example_vi": "Buổi biểu diễn này rất <u>đặc sắc</u>."
-  },
-  {
-    "id": 203,
-    "hanzi": "经济",
-    "pinyin": "jīngjì",
-    "meaning": "kinh tế",
-    "example_zh": "这个国家<u>经济</u>发展很快。",
-    "example_py": "Zhège guójiā <u>jīngjì</u> fāzhǎn hěn kuài.",
-    "expected_pinyin": "zhe4 ge0 guo2 jia1 jing1 ji4 fa1 zhan3 hen3 kuai4",
-    "example_vi": "<u>Kinh tế</u> nước này phát triển rất nhanh."
-  },
-  {
-    "id": 204,
-    "hanzi": "经理",
-    "pinyin": "jīnglǐ",
-    "meaning": "giám đốc, quản lý",
-    "example_zh": "他是公司<u>经理</u>。",
-    "example_py": "Tā shì gōngsī <u>jīnglǐ</u>.",
-    "expected_pinyin": "ta1 shi4 gong1 si1 jing1 li3",
-    "example_vi": "Anh ấy là <u>giám đốc</u> công ty."
-  },
-  {
-    "id": 205,
-    "hanzi": "警察",
-    "pinyin": "jǐngchá",
-    "meaning": "cảnh sát",
-    "example_zh": "<u>警察</u>来了。",
-    "example_py": "<u>Jǐngchá</u> lái le.",
-    "expected_pinyin": "jing3 cha2 lai2 le0",
-    "example_vi": "<u>Cảnh sát</u> đến rồi."
-  },
-  {
-    "id": 206,
-    "hanzi": "竞赛",
-    "pinyin": "jìngsài",
-    "meaning": "cuộc thi",
-    "example_zh": "他参加了数学<u>竞赛</u>。",
-    "example_py": "Tā cānjiā le shùxué <u>jìngsài</u>.",
-    "expected_pinyin": "ta1 can1 jia1 le0 shu4 xue2 jing4 sai4",
-    "example_vi": "Anh ấy tham gia <u>cuộc thi</u> toán."
-  },
-  {
-    "id": 207,
-    "hanzi": "镜子",
-    "pinyin": "jìngzi",
-    "meaning": "cái gương",
-    "example_zh": "她在照<u>镜子</u>。",
-    "example_py": "Tā zài zhào <u>jìngzi</u>.",
-    "expected_pinyin": "ta1 zai4 zhao4 jing4 zi0",
-    "example_vi": "Cô ấy đang soi <u>gương</u>."
-  },
-  {
-    "id": 208,
-    "hanzi": "究竟",
-    "pinyin": "jiūjìng",
-    "meaning": "rốt cuộc, cuối cùng",
-    "example_zh": "你<u>究竟</u>想说什么?",
-    "example_py": "Nǐ <u>jiūjìng</u> xiǎng shuō shénme?",
-    "expected_pinyin": "ni3 jiu1 jing4 xiang3 shuo1 shen2 me0",
-    "example_vi": "<u>Rốt cuộc</u> bạn muốn nói gì?"
-  },
-  {
-    "id": 209,
-    "hanzi": "举例",
-    "pinyin": "jǔlì",
-    "meaning": "nêu ví dụ",
-    "example_zh": "请<u>举例</u>说明。",
-    "example_py": "Qǐng <u>jǔlì</u> shuōmíng.",
-    "expected_pinyin": "qing3 ju3 li4 shuo1 ming2",
-    "example_vi": "Xin hãy <u>nêu ví dụ</u> để giải thích."
-  },
-  {
-    "id": 210,
-    "hanzi": "拒绝",
-    "pinyin": "jùjué",
-    "meaning": "từ chối",
-    "example_zh": "他<u>拒绝</u>了我的请求。",
-    "example_py": "Tā <u>jùjué</u> le wǒ de qǐngqiú.",
-    "expected_pinyin": "ta1 ju4 jue2 le0 wo3 de0 qing3 qiu2",
-    "example_vi": "Anh ấy đã <u>từ chối</u> yêu cầu của tôi."
-  },
-  {
-    "id": 211,
-    "hanzi": "具体",
-    "pinyin": "jùtǐ",
-    "meaning": "cụ thể",
-    "example_zh": "请给我<u>具体</u>的信息。",
-    "example_py": "Qǐng gěi wǒ <u>jùtǐ</u> de xìnxī.",
-    "expected_pinyin": "qing3 gei3 wo3 ju4 ti3 de0 xin4 xi1",
-    "example_vi": "Xin cho tôi thông tin <u>cụ thể</u>."
-  },
-  {
-    "id": 212,
-    "hanzi": "距离",
-    "pinyin": "jùlí",
-    "meaning": "khoảng cách",
-    "example_zh": "两地<u>距离</u>不远。",
-    "example_py": "Liǎng dì <u>jùlí</u> bù yuǎn.",
-    "expected_pinyin": "liang3 di4 ju4 li2 bu4 yuan3",
-    "example_vi": "<u>Khoảng cách</u> hai nơi không xa."
-  },
-  {
-    "id": 213,
-    "hanzi": "聚会",
-    "pinyin": "jùhuì",
-    "meaning": "buổi họp mặt",
-    "example_zh": "我们周末有<u>聚会</u>。",
-    "example_py": "Wǒmen zhōumò yǒu <u>jùhuì</u>.",
-    "expected_pinyin": "wo3 men0 zhou1 mo4 you3 ju4 hui4",
-    "example_vi": "Cuối tuần chúng tôi có <u>buổi họp mặt</u>."
-  },
-  {
-    "id": 214,
-    "hanzi": "卷子",
-    "pinyin": "juànzi",
-    "meaning": "bài thi, tờ đề",
-    "example_zh": "请交<u>卷子</u>。",
-    "example_py": "Qǐng jiāo <u>juànzi</u>.",
-    "expected_pinyin": "qing3 jiao1 juan4 zi0",
-    "example_vi": "Xin nộp <u>bài thi</u>."
-  },
-  {
-    "id": 215,
-    "hanzi": "决定",
-    "pinyin": "juédìng",
-    "meaning": "quyết định",
-    "example_zh": "我已经<u>决定</u>了。",
-    "example_py": "Wǒ yǐjīng <u>juédìng</u> le.",
-    "expected_pinyin": "wo3 yi3 jing1 jue2 ding4 le0",
-    "example_vi": "Tôi đã <u>quyết định</u> rồi."
-  },
-  {
-    "id": 216,
-    "hanzi": "开发",
-    "pinyin": "kāifā",
-    "meaning": "khai phá, phát triển",
-    "example_zh": "公司在<u>开发</u>新产品。",
-    "example_py": "Gōngsī zài <u>kāifā</u> xīn chǎnpǐn.",
-    "expected_pinyin": "gong1 si1 zai4 kai1 fa1 xin1 chan3 pin3",
-    "example_vi": "Công ty đang <u>phát triển</u> sản phẩm mới."
-  },
-  {
-    "id": 217,
-    "hanzi": "开放",
-    "pinyin": "kāifàng",
-    "meaning": "mở cửa, khai phóng",
-    "example_zh": "公园全天<u>开放</u>。",
-    "example_py": "Gōngyuán quántiān <u>kāifàng</u>.",
-    "expected_pinyin": "gong1 yuan2 quan2 tian1 kai1 fang4",
-    "example_vi": "Công viên <u>mở cửa</u> cả ngày."
-  },
-  {
-    "id": 218,
-    "hanzi": "看法",
-    "pinyin": "kànfǎ",
-    "meaning": "quan điểm, cách nhìn",
-    "example_zh": "你对这件事有什么<u>看法</u>?",
-    "example_py": "Nǐ duì zhè jiàn shì yǒu shénme <u>kànfǎ</u>?",
-    "expected_pinyin": "ni3 dui4 zhe4 jian4 shi4 you3 shen2 me0 kan4 fa3",
-    "example_vi": "Bạn có <u>quan điểm</u> gì về việc này?"
-  },
-  {
-    "id": 219,
-    "hanzi": "科学",
-    "pinyin": "kēxué",
-    "meaning": "khoa học",
-    "example_zh": "<u>科学</u>改变了世界。",
-    "example_py": "<u>Kēxué</u> gǎibiàn le shìjiè.",
-    "expected_pinyin": "ke1 xue2 gai3 bian4 le0 shi4 jie4",
-    "example_vi": "<u>Khoa học</u> đã thay đổi thế giới."
-  },
-  {
-    "id": 220,
-    "hanzi": "可怜",
-    "pinyin": "kělián",
-    "meaning": "đáng thương",
-    "example_zh": "那只小狗很<u>可怜</u>。",
-    "example_py": "Nà zhī xiǎo gǒu hěn <u>kělián</u>.",
-    "expected_pinyin": "na4 zhi1 xiao3 gou3 hen3 ke3 lian2",
-    "example_vi": "Con chó nhỏ đó thật <u>đáng thương</u>."
-  },
-  {
-    "id": 221,
-    "hanzi": "克服",
-    "pinyin": "kèfú",
-    "meaning": "khắc phục",
-    "example_zh": "我们要<u>克服</u>困难。",
-    "example_py": "Wǒmen yào <u>kèfú</u> kùnnán.",
-    "expected_pinyin": "wo3 men0 yao4 ke4 fu2 kun4 nan2",
-    "example_vi": "Chúng ta phải <u>khắc phục</u> khó khăn."
-  },
-  {
-    "id": 222,
-    "hanzi": "客观",
-    "pinyin": "kèguān",
-    "meaning": "khách quan",
-    "example_zh": "请<u>客观</u>地评价。",
-    "example_py": "Qǐng <u>kèguān</u> de píngjià.",
-    "expected_pinyin": "qing3 ke4 guan1 de0 ping2 jia4",
-    "example_vi": "Xin đánh giá một cách <u>khách quan</u>."
-  },
-  {
-    "id": 223,
-    "hanzi": "空间",
-    "pinyin": "kōngjiān",
-    "meaning": "không gian",
-    "example_zh": "这个房间<u>空间</u>很大。",
-    "example_py": "Zhège fángjiān <u>kōngjiān</u> hěn dà.",
-    "expected_pinyin": "zhe4 ge0 fang2 jian1 kong1 jian1 hen3 da4",
-    "example_vi": "<u>Không gian</u> phòng này rất rộng."
-  },
-  {
-    "id": 224,
-    "hanzi": "恐怕",
-    "pinyin": "kǒngpà",
-    "meaning": "e rằng, sợ là",
-    "example_zh": "<u>恐怕</u>要下雨了。",
-    "example_py": "<u>Kǒngpà</u> yào xiàyǔ le.",
-    "expected_pinyin": "kong3 pa4 yao4 xia4 yu3 le0",
-    "example_vi": "<u>E rằng</u> trời sắp mưa."
-  },
-  {
-    "id": 225,
-    "hanzi": "苦",
-    "pinyin": "kǔ",
-    "meaning": "đắng, khổ",
-    "example_zh": "这个药很<u>苦</u>。",
-    "example_py": "Zhège yào hěn <u>kǔ</u>.",
-    "expected_pinyin": "zhe4 ge0 yao4 hen3 ku3",
-    "example_vi": "Thuốc này rất <u>đắng</u>."
-  },
-  {
-    "id": 226,
-    "hanzi": "夸",
-    "pinyin": "kuā",
-    "meaning": "khen ngợi",
-    "example_zh": "老师<u>夸</u>了他。",
-    "example_py": "Lǎoshī <u>kuā</u> le tā.",
-    "expected_pinyin": "lao3 shi1 kua1 le0 ta1",
-    "example_vi": "Giáo viên đã <u>khen</u> anh ấy."
-  },
-  {
-    "id": 227,
-    "hanzi": "宽",
-    "pinyin": "kuān",
-    "meaning": "rộng",
-    "example_zh": "这条路很<u>宽</u>。",
-    "example_py": "Zhè tiáo lù hěn <u>kuān</u>.",
-    "expected_pinyin": "zhe4 tiao2 lu4 hen3 kuan1",
-    "example_vi": "Con đường này rất <u>rộng</u>."
-  },
-  {
-    "id": 228,
-    "hanzi": "困难",
-    "pinyin": "kùnnán",
-    "meaning": "khó khăn",
-    "example_zh": "我们遇到了<u>困难</u>。",
-    "example_py": "Wǒmen yùdào le <u>kùnnán</u>.",
-    "expected_pinyin": "wo3 men0 yu4 dao4 le0 kun4 nan2",
-    "example_vi": "Chúng tôi gặp phải <u>khó khăn</u>."
-  },
-  {
-    "id": 229,
-    "hanzi": "扩大",
-    "pinyin": "kuòdà",
-    "meaning": "mở rộng",
-    "example_zh": "公司要<u>扩大</u>规模。",
-    "example_py": "Gōngsī yào <u>kuòdà</u> guīmó.",
-    "expected_pinyin": "gong1 si1 yao4 kuo4 da4 gui1 mo2",
-    "example_vi": "Công ty muốn <u>mở rộng</u> quy mô."
-  },
-  {
-    "id": 230,
-    "hanzi": "垃圾桶",
-    "pinyin": "lājītǒng",
-    "meaning": "thùng rác",
-    "example_zh": "请把垃圾扔进<u>垃圾桶</u>。",
-    "example_py": "Qǐng bǎ lājī rēng jìn <u>lājītǒng</u>.",
-    "expected_pinyin": "qing3 ba3 la1 ji1 reng1 jin4 la1 ji1 tong3",
-    "example_vi": "Hãy vứt rác vào <u>thùng rác</u>."
-  },
-  {
-    "id": 231,
-    "hanzi": "拉",
-    "pinyin": "lā",
-    "meaning": "kéo",
-    "example_zh": "请<u>拉</u>一下门。",
-    "example_py": "Qǐng <u>lā</u> yíxià mén.",
-    "expected_pinyin": "qing3 la1 yi2 xia4 men2",
-    "example_vi": "Xin <u>kéo</u> cửa một chút."
-  },
-  {
-    "id": 232,
-    "hanzi": "浪费",
-    "pinyin": "làngfèi",
-    "meaning": "lãng phí",
-    "example_zh": "不要<u>浪费</u>时间。",
-    "example_py": "Búyào <u>làngfèi</u> shíjiān.",
-    "expected_pinyin": "bu2 yao4 lang4 fei4 shi2 jian1",
-    "example_vi": "Đừng <u>lãng phí</u> thời gian."
-  },
-  {
-    "id": 233,
-    "hanzi": "老实",
-    "pinyin": "lǎoshi",
-    "meaning": "thật thà",
-    "example_zh": "他是个<u>老实</u>人。",
-    "example_py": "Tā shì ge <u>lǎoshi</u> rén.",
-    "expected_pinyin": "ta1 shi4 ge0 lao3 shi0 ren2",
-    "example_vi": "Anh ấy là người <u>thật thà</u>."
-  },
-  {
-    "id": 234,
-    "hanzi": "冷静",
-    "pinyin": "lěngjìng",
-    "meaning": "bình tĩnh",
-    "example_zh": "请<u>冷静</u>一下。",
-    "example_py": "Qǐng <u>lěngjìng</u> yíxià.",
-    "expected_pinyin": "qing3 leng3 jing4 yi2 xia4",
-    "example_vi": "Xin hãy <u>bình tĩnh</u>."
-  },
-  {
-    "id": 235,
-    "hanzi": "力量",
-    "pinyin": "lìliàng",
-    "meaning": "sức mạnh, lực lượng",
-    "example_zh": "团结就是<u>力量</u>。",
-    "example_py": "Tuánjié jiùshì <u>lìliàng</u>.",
-    "expected_pinyin": "tuan2 jie2 jiu4 shi4 li4 liang4",
-    "example_vi": "Đoàn kết chính là <u>sức mạnh</u>."
-  },
-  {
-    "id": 236,
-    "hanzi": "利用",
-    "pinyin": "lìyòng",
-    "meaning": "tận dụng, lợi dụng",
-    "example_zh": "要好好<u>利用</u>时间。",
-    "example_py": "Yào hǎohǎo <u>lìyòng</u> shíjiān.",
-    "expected_pinyin": "yao4 hao3 hao3 li4 yong4 shi2 jian1",
-    "example_vi": "Phải <u>tận dụng</u> tốt thời gian."
-  },
-  {
-    "id": 237,
-    "hanzi": "连忙",
-    "pinyin": "liánmáng",
-    "meaning": "vội vàng",
-    "example_zh": "他<u>连忙</u>说对不起。",
-    "example_py": "Tā <u>liánmáng</u> shuō duìbuqǐ.",
-    "expected_pinyin": "ta1 lian2 mang2 shuo1 dui4 bu0 qi3",
-    "example_vi": "Anh ấy <u>vội vàng</u> xin lỗi."
-  },
-  {
-    "id": 238,
-    "hanzi": "联系",
-    "pinyin": "liánxì",
-    "meaning": "liên lạc",
-    "example_zh": "有事请<u>联系</u>我。",
-    "example_py": "Yǒushì qǐng <u>liánxì</u> wǒ.",
-    "expected_pinyin": "you3 shi4 qing3 lian2 xi4 wo3",
-    "example_vi": "Có việc gì xin <u>liên lạc</u> với tôi."
-  },
-  {
-    "id": 239,
-    "hanzi": "良好",
-    "pinyin": "liánghǎo",
-    "meaning": "tốt đẹp",
-    "example_zh": "他有<u>良好</u>的习惯。",
-    "example_py": "Tā yǒu <u>liánghǎo</u> de xíguàn.",
-    "expected_pinyin": "ta1 you3 liang2 hao3 de0 xi2 guan4",
-    "example_vi": "Anh ấy có thói quen <u>tốt</u>."
-  },
-  {
-    "id": 240,
-    "hanzi": "了不起",
-    "pinyin": "liǎobuqǐ",
-    "meaning": "tuyệt vời, giỏi giang",
-    "example_zh": "你真<u>了不起</u>!",
-    "example_py": "Nǐ zhēn <u>liǎobuqǐ</u>!",
-    "expected_pinyin": "ni3 zhen1 liao3 bu4 qi3",
-    "example_vi": "Bạn thật <u>tuyệt vời</u>!"
-  },
-  {
-    "id": 241,
-    "hanzi": "另外",
-    "pinyin": "lìngwài",
-    "meaning": "ngoài ra, khác",
-    "example_zh": "<u>另外</u>,我还要说一件事。",
-    "example_py": "<u>Lìngwài</u>, wǒ hái yào shuō yí jiàn shì.",
-    "expected_pinyin": "ling4 wai4 wo3 hai2 yao4 shuo1 yi2 jian4 shi4",
-    "example_vi": "<u>Ngoài ra</u>, tôi còn muốn nói một việc."
-  },
-  {
-    "id": 242,
-    "hanzi": "流利",
-    "pinyin": "liúlì",
-    "meaning": "trôi chảy, lưu loát",
-    "example_zh": "他中文说得很<u>流利</u>。",
-    "example_py": "Tā Zhōngwén shuō de hěn <u>liúlì</u>.",
-    "expected_pinyin": "ta1 zhong1 wen2 shuo1 de0 hen3 liu2 li4",
-    "example_vi": "Anh ấy nói tiếng Trung rất <u>lưu loát</u>."
-  },
-  {
-    "id": 243,
-    "hanzi": "流行",
-    "pinyin": "liúxíng",
-    "meaning": "thịnh hành, phổ biến",
-    "example_zh": "这首歌很<u>流行</u>。",
-    "example_py": "Zhè shǒu gē hěn <u>liúxíng</u>.",
-    "expected_pinyin": "zhe4 shou3 ge1 hen3 liu2 xing2",
-    "example_vi": "Bài hát này rất <u>thịnh hành</u>."
-  },
-  {
-    "id": 244,
-    "hanzi": "旅行",
-    "pinyin": "lǚxíng",
-    "meaning": "du lịch, đi chơi xa",
-    "example_zh": "我喜欢<u>旅行</u>。",
-    "example_py": "Wǒ xǐhuan <u>lǚxíng</u>.",
-    "expected_pinyin": "wo3 xi3 huan0 lv3 xing2",
-    "example_vi": "Tôi thích <u>du lịch</u>."
-  },
-  {
-    "id": 245,
-    "hanzi": "乱",
-    "pinyin": "luàn",
-    "meaning": "lộn xộn, hỗn loạn",
-    "example_zh": "房间很<u>乱</u>。",
-    "example_py": "Fángjiān hěn <u>luàn</u>.",
-    "expected_pinyin": "fang2 jian1 hen3 luan4",
-    "example_vi": "Căn phòng rất <u>lộn xộn</u>."
-  },
-  {
-    "id": 246,
-    "hanzi": "满意",
-    "pinyin": "mǎnyì",
-    "meaning": "hài lòng",
-    "example_zh": "老板对结果很<u>满意</u>。",
-    "example_py": "Lǎobǎn duì jiéguǒ hěn <u>mǎnyì</u>.",
-    "expected_pinyin": "lao3 ban3 dui4 jie2 guo3 hen3 man3 yi4",
-    "example_vi": "Ông chủ rất <u>hài lòng</u> với kết quả."
-  },
-  {
-    "id": 247,
-    "hanzi": "毛巾",
-    "pinyin": "máojīn",
-    "meaning": "khăn mặt",
-    "example_zh": "请把<u>毛巾</u>递给我。",
-    "example_py": "Qǐng bǎ <u>máojīn</u> dì gěi wǒ.",
-    "expected_pinyin": "qing3 ba3 mao2 jin1 di4 gei3 wo3",
-    "example_vi": "Hãy đưa <u>khăn mặt</u> cho tôi."
-  },
-  {
-    "id": 248,
-    "hanzi": "矛盾",
-    "pinyin": "máodùn",
-    "meaning": "mâu thuẫn",
-    "example_zh": "他们之间有<u>矛盾</u>。",
-    "example_py": "Tāmen zhījiān yǒu <u>máodùn</u>.",
-    "expected_pinyin": "ta1 men0 zhi1 jian1 you3 mao2 dun4",
-    "example_vi": "Giữa họ có <u>mâu thuẫn</u>."
-  },
-  {
-    "id": 249,
-    "hanzi": "美丽",
-    "pinyin": "měilì",
-    "meaning": "xinh đẹp",
-    "example_zh": "这里的风景很<u>美丽</u>。",
-    "example_py": "Zhèlǐ de fēngjǐng hěn <u>měilì</u>.",
-    "expected_pinyin": "zhe4 li3 de0 feng1 jing3 hen3 mei3 li4",
-    "example_vi": "Phong cảnh nơi đây rất <u>xinh đẹp</u>."
-  },
-  {
-    "id": 250,
-    "hanzi": "梦想",
-    "pinyin": "mèngxiǎng",
-    "meaning": "ước mơ",
-    "example_zh": "每个人都有自己的<u>梦想</u>。",
-    "example_py": "Měi ge rén dōu yǒu zìjǐ de <u>mèngxiǎng</u>.",
-    "expected_pinyin": "mei3 ge0 ren2 dou1 you3 zi4 ji3 de0 meng4 xiang3",
-    "example_vi": "Mỗi người đều có <u>ước mơ</u> của riêng mình."
-  },
-  {
-    "id": 251,
-    "hanzi": "迷路",
-    "pinyin": "mílù",
-    "meaning": "lạc đường",
-    "example_zh": "我们<u>迷路</u>了。",
-    "example_py": "Wǒmen <u>mílù</u> le.",
-    "expected_pinyin": "wo3 men0 mi2 lu4 le0",
-    "example_vi": "Chúng tôi bị <u>lạc đường</u> rồi."
-  },
-  {
-    "id": 252,
-    "hanzi": "密码",
-    "pinyin": "mìmǎ",
-    "meaning": "mật khẩu",
-    "example_zh": "我忘记<u>密码</u>了。",
-    "example_py": "Wǒ wàngjì <u>mìmǎ</u> le.",
-    "expected_pinyin": "wo3 wang4 ji4 mi4 ma3 le0",
-    "example_vi": "Tôi quên <u>mật khẩu</u> rồi."
-  },
-  {
-    "id": 253,
-    "hanzi": "免费",
-    "pinyin": "miǎnfèi",
-    "meaning": "miễn phí",
-    "example_zh": "这个是<u>免费</u>的。",
-    "example_py": "Zhège shì <u>miǎnfèi</u> de.",
-    "expected_pinyin": "zhe4 ge0 shi4 mian3 fei4 de0",
-    "example_vi": "Cái này là <u>miễn phí</u>."
-  },
-  {
-    "id": 254,
-    "hanzi": "面对",
-    "pinyin": "miànduì",
-    "meaning": "đối mặt",
-    "example_zh": "我们要勇敢<u>面对</u>困难。",
-    "example_py": "Wǒmen yào yǒnggǎn <u>miànduì</u> kùnnán.",
-    "expected_pinyin": "wo3 men0 yao4 yong3 gan3 mian4 dui4 kun4 nan2",
-    "example_vi": "Chúng ta phải dũng cảm <u>đối mặt</u> khó khăn."
-  },
-  {
-    "id": 255,
-    "hanzi": "民族",
-    "pinyin": "mínzú",
-    "meaning": "dân tộc",
-    "example_zh": "中国有五十六个<u>民族</u>。",
-    "example_py": "Zhōngguó yǒu wǔshíliù ge <u>mínzú</u>.",
-    "expected_pinyin": "zhong1 guo2 you3 wu3 shi2 liu4 ge0 min2 zu2",
-    "example_vi": "Trung Quốc có năm mươi sáu <u>dân tộc</u>."
-  },
-  {
-    "id": 256,
-    "hanzi": "明确",
-    "pinyin": "míngquè",
-    "meaning": "rõ ràng, minh xác",
-    "example_zh": "请给出<u>明确</u>的答案。",
-    "example_py": "Qǐng gěichū <u>míngquè</u> de dá'àn.",
-    "expected_pinyin": "qing3 gei3 chu1 ming2 que4 de0 da2 an4",
-    "example_vi": "Xin đưa ra câu trả lời <u>rõ ràng</u>."
-  },
-  {
-    "id": 257,
-    "hanzi": "母亲",
-    "pinyin": "mǔqīn",
-    "meaning": "mẹ",
-    "example_zh": "我爱我的<u>母亲</u>。",
-    "example_py": "Wǒ ài wǒ de <u>mǔqīn</u>.",
-    "expected_pinyin": "wo3 ai4 wo3 de0 mu3 qin1",
-    "example_vi": "Tôi yêu <u>mẹ</u> tôi."
-  },
-  {
-    "id": 258,
-    "hanzi": "耐心",
-    "pinyin": "nàixīn",
-    "meaning": "kiên nhẫn",
-    "example_zh": "老师很有<u>耐心</u>。",
-    "example_py": "Lǎoshī hěn yǒu <u>nàixīn</u>.",
-    "expected_pinyin": "lao3 shi1 hen3 you3 nai4 xin1",
-    "example_vi": "Giáo viên rất <u>kiên nhẫn</u>."
-  },
-  {
-    "id": 259,
-    "hanzi": "难怪",
-    "pinyin": "nánguài",
-    "meaning": "thảo nào",
-    "example_zh": "<u>难怪</u>他这么高兴。",
-    "example_py": "<u>Nánguài</u> tā zhème gāoxìng.",
-    "expected_pinyin": "nan2 guai4 ta1 zhe4 me0 gao1 xing4",
-    "example_vi": "<u>Thảo nào</u> anh ấy vui thế."
-  },
-  {
-    "id": 260,
-    "hanzi": "难受",
-    "pinyin": "nánshòu",
-    "meaning": "khó chịu, buồn",
-    "example_zh": "听到这个消息我很<u>难受</u>。",
-    "example_py": "Tīngdào zhège xiāoxi wǒ hěn <u>nánshòu</u>.",
-    "expected_pinyin": "ting1 dao4 zhe4 ge0 xiao1 xi0 wo3 hen3 nan2 shou4",
-    "example_vi": "Nghe tin này tôi rất <u>buồn</u>."
-  },
-  {
-    "id": 261,
-    "hanzi": "内容",
-    "pinyin": "nèiróng",
-    "meaning": "nội dung",
-    "example_zh": "这本书的<u>内容</u>很有趣。",
-    "example_py": "Zhè běn shū de <u>nèiróng</u> hěn yǒuqù.",
-    "expected_pinyin": "zhe4 ben3 shu1 de0 nei4 rong2 hen3 you3 qu4",
-    "example_vi": "<u>Nội dung</u> cuốn sách này rất thú vị."
-  },
-  {
-    "id": 262,
-    "hanzi": "能力",
-    "pinyin": "nénglì",
-    "meaning": "năng lực",
-    "example_zh": "他的工作<u>能力</u>很强。",
-    "example_py": "Tā de gōngzuò <u>nénglì</u> hěn qiáng.",
-    "expected_pinyin": "ta1 de0 gong1 zuo4 neng2 li4 hen3 qiang2",
-    "example_vi": "<u>Năng lực</u> làm việc của anh ấy rất mạnh."
-  },
-  {
-    "id": 263,
-    "hanzi": "年龄",
-    "pinyin": "niánlíng",
-    "meaning": "tuổi tác",
-    "example_zh": "请问您的<u>年龄</u>?",
-    "example_py": "Qǐngwèn nín de <u>niánlíng</u>?",
-    "expected_pinyin": "qing3 wen4 nin2 de0 nian2 ling2",
-    "example_vi": "Xin hỏi <u>tuổi</u> của ông bao nhiêu?"
-  },
-  {
-    "id": 264,
-    "hanzi": "农村",
-    "pinyin": "nóngcūn",
-    "meaning": "nông thôn",
-    "example_zh": "他在<u>农村</u>长大。",
-    "example_py": "Tā zài <u>nóngcūn</u> zhǎngdà.",
-    "expected_pinyin": "ta1 zai4 nong2 cun1 zhang3 da4",
-    "example_vi": "Anh ấy lớn lên ở <u>nông thôn</u>."
-  },
-  {
-    "id": 265,
-    "hanzi": "偶尔",
-    "pinyin": "ǒu'ěr",
-    "meaning": "thỉnh thoảng",
-    "example_zh": "我<u>偶尔</u>去健身房。",
-    "example_py": "Wǒ <u>ǒu'ěr</u> qù jiànshēnfáng.",
-    "expected_pinyin": "wo3 ou3 er3 qu4 jian4 shen1 fang2",
-    "example_vi": "Tôi <u>thỉnh thoảng</u> đi phòng gym."
-  },
-  {
-    "id": 266,
-    "hanzi": "排队",
-    "pinyin": "páiduì",
-    "meaning": "xếp hàng",
-    "example_zh": "请大家<u>排队</u>等候。",
-    "example_py": "Qǐng dàjiā <u>páiduì</u> děnghòu.",
-    "expected_pinyin": "qing3 da4 jia1 pai2 dui4 deng3 hou4",
-    "example_vi": "Xin mọi người <u>xếp hàng</u> chờ."
-  },
-  {
-    "id": 267,
-    "hanzi": "判断",
-    "pinyin": "pànduàn",
-    "meaning": "phán đoán",
-    "example_zh": "我无法<u>判断</u>真假。",
-    "example_py": "Wǒ wúfǎ <u>pànduàn</u> zhēnjiǎ.",
-    "expected_pinyin": "wo3 wu2 fa3 pan4 duan4 zhen1 jia3",
-    "example_vi": "Tôi không thể <u>phán đoán</u> thật giả."
-  },
-  {
-    "id": 268,
-    "hanzi": "陪",
-    "pinyin": "péi",
-    "meaning": "đi cùng, tháp tùng",
-    "example_zh": "我<u>陪</u>你去医院。",
-    "example_py": "Wǒ <u>péi</u> nǐ qù yīyuàn.",
-    "expected_pinyin": "wo3 pei2 ni3 qu4 yi1 yuan4",
-    "example_vi": "Tôi <u>đi cùng</u> bạn đến bệnh viện."
-  },
-  {
-    "id": 269,
-    "hanzi": "皮肤",
-    "pinyin": "pífū",
-    "meaning": "làn da",
-    "example_zh": "她的<u>皮肤</u>很白。",
-    "example_py": "Tā de <u>pífū</u> hěn bái.",
-    "expected_pinyin": "ta1 de0 pi2 fu1 hen3 bai2",
-    "example_vi": "<u>Làn da</u> của cô ấy rất trắng."
-  },
-  {
-    "id": 270,
-    "hanzi": "脾气",
-    "pinyin": "píqi",
-    "meaning": "tính khí",
-    "example_zh": "他的<u>脾气</u>不太好。",
-    "example_py": "Tā de <u>píqi</u> bútài hǎo.",
-    "expected_pinyin": "ta1 de0 pi2 qi0 bu2 tai4 hao3",
-    "example_vi": "<u>Tính khí</u> của anh ấy không tốt lắm."
-  },
-  {
-    "id": 271,
-    "hanzi": "批评",
-    "pinyin": "pīpíng",
-    "meaning": "phê bình",
-    "example_zh": "老师<u>批评</u>了他。",
-    "example_py": "Lǎoshī <u>pīpíng</u> le tā.",
-    "expected_pinyin": "lao3 shi1 pi1 ping2 le0 ta1",
-    "example_vi": "Giáo viên đã <u>phê bình</u> anh ấy."
-  },
-  {
-    "id": 272,
-    "hanzi": "平时",
-    "pinyin": "píngshí",
-    "meaning": "bình thường, ngày thường",
-    "example_zh": "<u>平时</u>我很少运动。",
-    "example_py": "<u>Píngshí</u> wǒ hěn shǎo yùndòng.",
-    "expected_pinyin": "ping2 shi2 wo3 hen3 shao3 yun4 dong4",
-    "example_vi": "<u>Bình thường</u> tôi ít khi tập thể dục."
-  },
-  {
-    "id": 273,
-    "hanzi": "破坏",
-    "pinyin": "pòhuài",
-    "meaning": "phá hoại",
-    "example_zh": "请不要<u>破坏</u>环境。",
-    "example_py": "Qǐng búyào <u>pòhuài</u> huánjìng.",
-    "expected_pinyin": "qing3 bu2 yao4 po4 huai4 huan2 jing4",
-    "example_vi": "Xin đừng <u>phá hoại</u> môi trường."
-  },
-  {
-    "id": 274,
-    "hanzi": "普遍",
-    "pinyin": "pǔbiàn",
-    "meaning": "phổ biến",
-    "example_zh": "这是一个<u>普遍</u>的问题。",
-    "example_py": "Zhè shì yí ge <u>pǔbiàn</u> de wèntí.",
-    "expected_pinyin": "zhe4 shi4 yi2 ge0 pu3 bian4 de0 wen4 ti2",
-    "example_vi": "Đây là một vấn đề <u>phổ biến</u>."
-  },
-  {
-    "id": 275,
-    "hanzi": "普通",
-    "pinyin": "pǔtōng",
-    "meaning": "bình thường, phổ thông",
-    "example_zh": "这是一个很<u>普通</u>的杯子。",
-    "example_py": "Zhè shì yí ge hěn <u>pǔtōng</u> de bēizi.",
-    "expected_pinyin": "zhe4 shi4 yi2 ge0 hen3 pu3 tong1 de0 bei1 zi0",
-    "example_vi": "Đây là một cái cốc rất <u>bình thường</u>."
-  },
-  {
-    "id": 276,
-    "hanzi": "期间",
-    "pinyin": "qījiān",
-    "meaning": "thời gian, khoảng thời gian",
-    "example_zh": "假期<u>期间</u>我去了很多地方。",
-    "example_py": "Jiàqī <u>qījiān</u> wǒ qù le hěnduō dìfāng.",
-    "expected_pinyin": "jia4 qi1 qi1 jian1 wo3 qu4 le0 hen3 duo1 di4 fang1",
-    "example_vi": "<u>Trong thời gian</u> nghỉ lễ tôi đã đi nhiều nơi."
-  },
-  {
-    "id": 277,
-    "hanzi": "其余",
-    "pinyin": "qíyú",
-    "meaning": "còn lại",
-    "example_zh": "<u>其余</u>的人都走了。",
-    "example_py": "<u>Qíyú</u> de rén dōu zǒu le.",
-    "expected_pinyin": "qi2 yu2 de0 ren2 dou1 zou3 le0",
-    "example_vi": "Những người <u>còn lại</u> đều đã đi."
-  },
-  {
-    "id": 278,
-    "hanzi": "奇怪",
-    "pinyin": "qíguài",
-    "meaning": "kỳ lạ",
-    "example_zh": "这件事很<u>奇怪</u>。",
-    "example_py": "Zhè jiàn shì hěn <u>qíguài</u>.",
-    "expected_pinyin": "zhe4 jian4 shi4 hen3 qi2 guai4",
-    "example_vi": "Chuyện này rất <u>kỳ lạ</u>."
-  },
-  {
-    "id": 279,
-    "hanzi": "启发",
-    "pinyin": "qǐfā",
-    "meaning": "gợi mở, khơi gợi",
-    "example_zh": "这本书给了我很大<u>启发</u>。",
-    "example_py": "Zhè běn shū gěi le wǒ hěn dà <u>qǐfā</u>.",
-    "expected_pinyin": "zhe4 ben3 shu1 gei3 le0 wo3 hen3 da4 qi3 fa1",
-    "example_vi": "Cuốn sách này <u>gợi mở</u> cho tôi rất nhiều."
-  },
-  {
-    "id": 280,
-    "hanzi": "气候",
-    "pinyin": "qìhòu",
-    "meaning": "khí hậu",
-    "example_zh": "这里的<u>气候</u>很好。",
-    "example_py": "Zhèlǐ de <u>qìhòu</u> hěn hǎo.",
-    "expected_pinyin": "zhe4 li3 de0 qi4 hou4 hen3 hao3",
-    "example_vi": "<u>Khí hậu</u> ở đây rất tốt."
-  },
-  {
-    "id": 281,
-    "hanzi": "谦虚",
-    "pinyin": "qiānxū",
-    "meaning": "khiêm tốn",
-    "example_zh": "他为人很<u>谦虚</u>。",
-    "example_py": "Tā wéirén hěn <u>qiānxū</u>.",
-    "expected_pinyin": "ta1 wei2 ren2 hen3 qian1 xu1",
-    "example_vi": "Anh ấy đối nhân xử thế rất <u>khiêm tốn</u>."
-  },
-  {
-    "id": 282,
-    "hanzi": "签证",
-    "pinyin": "qiānzhèng",
-    "meaning": "thị thực, visa",
-    "example_zh": "我申请了旅游<u>签证</u>。",
-    "example_py": "Wǒ shēnqǐng le lǚyóu <u>qiānzhèng</u>.",
-    "expected_pinyin": "wo3 shen1 qing3 le0 lv3 you2 qian1 zheng4",
-    "example_vi": "Tôi đã xin <u>visa</u> du lịch."
-  },
-  {
-    "id": 283,
-    "hanzi": "强调",
-    "pinyin": "qiángdiào",
-    "meaning": "nhấn mạnh",
-    "example_zh": "老师<u>强调</u>了这一点。",
-    "example_py": "Lǎoshī <u>qiángdiào</u> le zhè yìdiǎn.",
-    "expected_pinyin": "lao3 shi1 qiang2 diao4 le0 zhe4 yi4 dian3",
-    "example_vi": "Giáo viên đã <u>nhấn mạnh</u> điểm này."
-  },
-  {
-    "id": 284,
-    "hanzi": "巧",
-    "pinyin": "qiǎo",
-    "meaning": "khéo, khéo léo",
-    "example_zh": "真<u>巧</u>,我们又见面了。",
-    "example_py": "Zhēn <u>qiǎo</u>, wǒmen yòu jiànmiàn le.",
-    "expected_pinyin": "zhen1 qiao3 wo3 men0 you4 jian4 mian4 le0",
-    "example_vi": "Thật <u>trùng hợp</u>, chúng ta lại gặp nhau."
-  },
-  {
-    "id": 285,
-    "hanzi": "亲切",
-    "pinyin": "qīnqiè",
-    "meaning": "thân thiết, thân mật",
-    "example_zh": "她说话很<u>亲切</u>。",
-    "example_py": "Tā shuōhuà hěn <u>qīnqiè</u>.",
-    "expected_pinyin": "ta1 shuo1 hua4 hen3 qin1 qie4",
-    "example_vi": "Cô ấy nói chuyện rất <u>thân mật</u>."
-  },
-  {
-    "id": 286,
-    "hanzi": "轻松",
-    "pinyin": "qīngsōng",
-    "meaning": "nhẹ nhàng, thoải mái",
-    "example_zh": "今天的工作很<u>轻松</u>。",
-    "example_py": "Jīntiān de gōngzuò hěn <u>qīngsōng</u>.",
-    "expected_pinyin": "jin1 tian1 de0 gong1 zuo4 hen3 qing1 song1",
-    "example_vi": "Công việc hôm nay rất <u>nhẹ nhàng</u>."
-  },
-  {
-    "id": 287,
-    "hanzi": "情绪",
-    "pinyin": "qíngxù",
-    "meaning": "cảm xúc, tâm trạng",
-    "example_zh": "他今天<u>情绪</u>不好。",
-    "example_py": "Tā jīntiān <u>qíngxù</u> bùhǎo.",
-    "expected_pinyin": "ta1 jin1 tian1 qing2 xu4 bu4 hao3",
-    "example_vi": "Hôm nay <u>tâm trạng</u> anh ấy không tốt."
-  },
-  {
-    "id": 288,
-    "hanzi": "请假",
-    "pinyin": "qǐngjià",
-    "meaning": "xin nghỉ phép",
-    "example_zh": "我想<u>请假</u>一天。",
-    "example_py": "Wǒ xiǎng <u>qǐngjià</u> yìtiān.",
-    "expected_pinyin": "wo3 xiang3 qing3 jia4 yi4 tian1",
-    "example_vi": "Tôi muốn <u>xin nghỉ phép</u> một ngày."
-  },
-  {
-    "id": 289,
-    "hanzi": "取消",
-    "pinyin": "qǔxiāo",
-    "meaning": "hủy bỏ",
-    "example_zh": "会议被<u>取消</u>了。",
-    "example_py": "Huìyì bèi <u>qǔxiāo</u> le.",
-    "expected_pinyin": "hui4 yi4 bei4 qu3 xiao1 le0",
-    "example_vi": "Cuộc họp đã bị <u>hủy</u>."
-  },
-  {
-    "id": 290,
-    "hanzi": "全部",
-    "pinyin": "quánbù",
-    "meaning": "toàn bộ",
-    "example_zh": "这是<u>全部</u>的钱。",
-    "example_py": "Zhè shì <u>quánbù</u> de qián.",
-    "expected_pinyin": "zhe4 shi4 quan2 bu4 de0 qian2",
-    "example_vi": "Đây là <u>toàn bộ</u> số tiền."
-  },
-  {
-    "id": 291,
-    "hanzi": "缺点",
-    "pinyin": "quēdiǎn",
-    "meaning": "khuyết điểm",
-    "example_zh": "每个人都有<u>缺点</u>。",
-    "example_py": "Měi ge rén dōu yǒu <u>quēdiǎn</u>.",
-    "expected_pinyin": "mei3 ge0 ren2 dou1 you3 que1 dian3",
-    "example_vi": "Mỗi người đều có <u>khuyết điểm</u>."
-  },
-  {
-    "id": 292,
-    "hanzi": "确定",
-    "pinyin": "quèdìng",
-    "meaning": "xác định, chắc chắn",
-    "example_zh": "请<u>确定</u>一下时间。",
-    "example_py": "Qǐng <u>quèdìng</u> yíxià shíjiān.",
-    "expected_pinyin": "qing3 que4 ding4 yi2 xia4 shi2 jian1",
-    "example_vi": "Xin <u>xác định</u> thời gian."
-  },
-  {
-    "id": 293,
-    "hanzi": "热闹",
-    "pinyin": "rènao",
-    "meaning": "náo nhiệt",
-    "example_zh": "这里很<u>热闹</u>。",
-    "example_py": "Zhèlǐ hěn <u>rènao</u>.",
-    "expected_pinyin": "zhe4 li3 hen3 re4 nao0",
-    "example_vi": "Nơi đây rất <u>náo nhiệt</u>."
-  },
-  {
-    "id": 294,
-    "hanzi": "任何",
-    "pinyin": "rènhé",
-    "meaning": "bất kỳ",
-    "example_zh": "<u>任何</u>人都可以参加。",
-    "example_py": "<u>Rènhé</u> rén dōu kěyǐ cānjiā.",
-    "expected_pinyin": "ren4 he2 ren2 dou1 ke3 yi3 can1 jia1",
-    "example_vi": "<u>Bất kỳ</u> ai cũng có thể tham gia."
-  },
-  {
-    "id": 295,
-    "hanzi": "任务",
-    "pinyin": "rènwu",
-    "meaning": "nhiệm vụ",
-    "example_zh": "这是我的<u>任务</u>。",
-    "example_py": "Zhè shì wǒ de <u>rènwu</u>.",
-    "expected_pinyin": "zhe4 shi4 wo3 de0 ren4 wu0",
-    "example_vi": "Đây là <u>nhiệm vụ</u> của tôi."
-  },
-  {
-    "id": 296,
-    "hanzi": "仍然",
-    "pinyin": "réngrán",
-    "meaning": "vẫn còn",
-    "example_zh": "他<u>仍然</u>没有回复。",
-    "example_py": "Tā <u>réngrán</u> méiyǒu huífù.",
-    "expected_pinyin": "ta1 reng2 ran2 mei2 you3 hui2 fu4",
-    "example_vi": "Anh ấy <u>vẫn</u> chưa trả lời."
-  },
-  {
-    "id": 297,
-    "hanzi": "日记",
-    "pinyin": "rìjì",
-    "meaning": "nhật ký",
-    "example_zh": "我每天写<u>日记</u>。",
-    "example_py": "Wǒ měitiān xiě <u>rìjì</u>.",
-    "expected_pinyin": "wo3 mei3 tian1 xie3 ri4 ji4",
-    "example_vi": "Mỗi ngày tôi viết <u>nhật ký</u>."
-  },
-  {
-    "id": 298,
-    "hanzi": "如今",
-    "pinyin": "rújīn",
-    "meaning": "ngày nay, hiện nay",
-    "example_zh": "<u>如今</u>生活越来越好。",
-    "example_py": "<u>Rújīn</u> shēnghuó yuèláiyuè hǎo.",
-    "expected_pinyin": "ru2 jin1 sheng1 huo2 yue4 lai2 yue4 hao3",
-    "example_vi": "<u>Ngày nay</u> cuộc sống ngày càng tốt hơn."
-  },
-  {
-    "id": 299,
-    "hanzi": "入口",
-    "pinyin": "rùkǒu",
-    "meaning": "lối vào",
-    "example_zh": "<u>入口</u>在那边。",
-    "example_py": "<u>Rùkǒu</u> zài nàbiān.",
-    "expected_pinyin": "ru4 kou3 zai4 na4 bian1",
-    "example_vi": "<u>Lối vào</u> ở đằng kia."
-  },
-  {
-    "id": 300,
-    "hanzi": "散步",
-    "pinyin": "sànbù",
-    "meaning": "đi dạo",
-    "example_zh": "晚饭后我们去<u>散步</u>。",
-    "example_py": "Wǎnfàn hòu wǒmen qù <u>sànbù</u>.",
-    "expected_pinyin": "wan3 fan4 hou4 wo3 men0 qu4 san4 bu4",
-    "example_vi": "Sau bữa tối chúng tôi đi <u>dạo</u>."
+    "example_vi": "Xin hãy uống <u>thuốc</u> đúng giờ."
+  },
+  {
+    "id": 469,
+    "hanzi": "药店",
+    "pinyin": "yàodiàn",
+    "meaning": "hiệu thuốc (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 470,
+    "hanzi": "爷爷",
+    "pinyin": "yéye",
+    "meaning": "ông nội",
+    "example_zh": "我<u>爷爷</u>今年八十岁。",
+    "example_py": "Wǒ <u>yéye</u> jīnnián bāshí suì.",
+    "expected_pinyin": "wo3 ye2 ye0 jin1 nian2 ba1 shi2 sui4",
+    "example_vi": "<u>Ông nội</u> tôi năm nay tám mươi tuổi."
+  },
+  {
+    "id": 471,
+    "hanzi": "一会儿",
+    "pinyin": "yíhuìr",
+    "meaning": "một lúc, một chút",
+    "example_zh": "请等我<u>一会儿</u>。",
+    "example_py": "Qǐng děng wǒ <u>yíhuìr</u>.",
+    "expected_pinyin": "qing3 deng3 wo3 yi2 huir4",
+    "example_vi": "Xin hãy chờ tôi <u>một chút</u>."
+  },
+  {
+    "id": 472,
+    "hanzi": "已经",
+    "pinyin": "yǐjīng",
+    "meaning": "đã",
+    "example_zh": "他<u>已经</u>走了。",
+    "example_py": "Tā <u>yǐjīng</u> zǒu le.",
+    "expected_pinyin": "ta1 yi3 jing1 zou3 le0",
+    "example_vi": "Anh ấy <u>đã</u> đi rồi."
+  },
+  {
+    "id": 473,
+    "hanzi": "一起",
+    "pinyin": "yìqǐ",
+    "meaning": "cùng nhau",
+    "example_zh": "我们<u>一起</u>看电视吧",
+    "example_py": "wǒmen <u>yìqǐ</u> kàndiànshì ba",
+    "expected_pinyin": "",
+    "example_vi": "Chúng ta cùng xem tivi đi."
+  },
+  {
+    "id": 474,
+    "hanzi": "意思",
+    "pinyin": "yìsi",
+    "meaning": "ý nghĩa",
+    "example_zh": "这句话是什么<u>意思</u>？",
+    "example_py": "Zhè jù huà shì shénme <u>yìsi</u>?",
+    "expected_pinyin": "zhe4 ju4 hua4 shi4 shen2 me0 yi4 si0",
+    "example_vi": "Câu này có <u>nghĩa</u> là gì?"
+  },
+  {
+    "id": 475,
+    "hanzi": "阴",
+    "pinyin": "yīn",
+    "meaning": "âm u, nhiều mây",
+    "example_zh": "今天天气<u>阴</u>。",
+    "example_py": "Jīntiān tiānqì <u>yīn</u>.",
+    "expected_pinyin": "jin1 tian1 tian1 qi4 yin1",
+    "example_vi": "Hôm nay trời <u>âm u</u>."
+  },
+  {
+    "id": 476,
+    "hanzi": "因为",
+    "pinyin": "yīnwèi",
+    "meaning": "bởi vì (giới từ, liên từ)",
+    "example_zh": "<u>因为</u>下雨，所以我们没出去",
+    "example_py": "<u>yīnwèi</u> xiàyǔ ， suǒyǐ wǒmen méi chūqù",
+    "expected_pinyin": "",
+    "example_vi": "Vì trời mưa, nên chúng tôi không ra ngoài."
+  },
+  {
+    "id": 477,
+    "hanzi": "游",
+    "pinyin": "yóu",
+    "meaning": "bơi (động từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 478,
+    "hanzi": "游泳",
+    "pinyin": "yóuyǒng",
+    "meaning": "bơi lội",
+    "example_zh": "我喜欢<u>游泳</u>。",
+    "example_py": "Wǒ xǐhuan <u>yóuyǒng</u>.",
+    "expected_pinyin": "wo3 xi3 huan0 you2 yong3",
+    "example_vi": "Tôi thích <u>bơi lội</u>."
+  },
+  {
+    "id": 479,
+    "hanzi": "有意思",
+    "pinyin": "yǒu yìsi",
+    "meaning": "thú vị",
+    "example_zh": "这个问题很<u>有意思</u>",
+    "example_py": "zhège wèntí hěn <u>yǒuyìsi</u>",
+    "expected_pinyin": "",
+    "example_vi": "Câu hỏi này rất thú vị."
+  },
+  {
+    "id": 480,
+    "hanzi": "有时",
+    "pinyin": "yǒushí",
+    "meaning": "đôi khi (trạng từ)",
+    "example_zh": "老实人<u>有时</u>会吃亏",
+    "example_py": "lǎoshírén <u>yǒushí</u> huì chīkuī",
+    "expected_pinyin": "",
+    "example_vi": "Người thật thà đôi khi sẽ chịu thiệt."
+  },
+  {
+    "id": 481,
+    "hanzi": "右",
+    "pinyin": "yòu",
+    "meaning": "đúng (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 482,
+    "hanzi": "右边",
+    "pinyin": "yòubian",
+    "meaning": "bên phải",
+    "example_zh": "银行在<u>右边</u>。",
+    "example_py": "Yínháng zài <u>yòubian</u>.",
+    "expected_pinyin": "yin2 hang2 zai4 you4 bian0",
+    "example_vi": "Ngân hàng ở <u>bên phải</u>."
+  },
+  {
+    "id": 483,
+    "hanzi": "鱼",
+    "pinyin": "yú",
+    "meaning": "con cá",
+    "example_zh": "他喜欢吃<u>鱼</u>。",
+    "example_py": "Tā xǐhuan chī <u>yú</u>.",
+    "expected_pinyin": "ta1 xi3 huan0 chi1 yu2",
+    "example_vi": "Anh ấy thích ăn <u>cá</u>."
+  },
+  {
+    "id": 484,
+    "hanzi": "远",
+    "pinyin": "yuǎn",
+    "meaning": "xa",
+    "example_zh": "学校离我家很<u>远</u>。",
+    "example_py": "Xuéxiào lí wǒ jiā hěn <u>yuǎn</u>.",
+    "expected_pinyin": "xue2 xiao4 li2 wo3 jia1 hen3 yuan3",
+    "example_vi": "Trường học cách nhà tôi rất <u>xa</u>."
+  },
+  {
+    "id": 485,
+    "hanzi": "运动",
+    "pinyin": "yùndòng",
+    "meaning": "vận động, thể thao",
+    "example_zh": "我每天都<u>运动</u>。",
+    "example_py": "Wǒ měitiān dōu <u>yùndòng</u>.",
+    "expected_pinyin": "wo3 mei3 tian1 dou1 yun4 dong4",
+    "example_vi": "Tôi mỗi ngày đều <u>tập thể dục</u>."
+  },
+  {
+    "id": 486,
+    "hanzi": "站¹",
+    "pinyin": "zhàn",
+    "meaning": "ga, bến; đứng",
+    "example_zh": "下一<u>站</u>是火车站。",
+    "example_py": "Xià yī <u>zhàn</u> shì huǒchēzhàn.",
+    "expected_pinyin": "xia4 yi1 zhan4 shi4 huo3 che1 zhan4",
+    "example_vi": "Bến tiếp theo là <u>ga</u> tàu hỏa."
+  },
+  {
+    "id": 487,
+    "hanzi": "丈夫",
+    "pinyin": "zhàngfu",
+    "meaning": "chồng",
+    "example_zh": "她的<u>丈夫</u>是医生。",
+    "example_py": "Tā de <u>zhàngfu</u> shì yīshēng.",
+    "expected_pinyin": "ta1 de0 zhang4 fu0 shi4 yi1 sheng1",
+    "example_vi": "<u>Chồng</u> của cô ấy là bác sĩ."
+  },
+  {
+    "id": 488,
+    "hanzi": "这么",
+    "pinyin": "zhème",
+    "meaning": "vì vậy (đại từ)",
+    "example_zh": "怪不得他<u>这么</u>高兴，他考上大学了",
+    "example_py": "guàibùdé tā <u>zhème</u> gāoxìng ， tā kǎoshàng dàxué le",
+    "expected_pinyin": "",
+    "example_vi": "Chẳng trách anh ấy vui như vậy, anh ấy đã đỗ đại học."
+  },
+  {
+    "id": 489,
+    "hanzi": "这样",
+    "pinyin": "zhèyàng",
+    "meaning": "như thế này (đại từ)",
+    "example_zh": "好的，<u>这样</u>行",
+    "example_py": "hǎo de ， <u>zhèyàng</u> xíng",
+    "expected_pinyin": "",
+    "example_vi": "Được, như vậy thì ổn."
+  },
+  {
+    "id": 490,
+    "hanzi": "着",
+    "pinyin": "zhe",
+    "meaning": "đang (trợ từ)",
+    "example_zh": "他笑<u>着</u>说。",
+    "example_py": "Tā xiào<u>zhe</u> shuō.",
+    "expected_pinyin": "ta1 xiao4 zhe0 shuo1",
+    "example_vi": "Anh ấy <u>vừa</u> cười vừa nói."
+  },
+  {
+    "id": 491,
+    "hanzi": "正",
+    "pinyin": "zhèng",
+    "meaning": "vừa, đang (trạng từ)",
+    "example_zh": "我<u>正</u>在吃饭。",
+    "example_py": "Wǒ <u>zhèng</u> zài chīfàn.",
+    "expected_pinyin": "",
+    "example_vi": "Tôi vừa <u>đang</u> ăn cơm."
+  },
+  {
+    "id": 492,
+    "hanzi": "周",
+    "pinyin": "zhōu",
+    "meaning": "chu (danh từ, định lượng)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 493,
+    "hanzi": "准备",
+    "pinyin": "zhǔnbèi",
+    "meaning": "chuẩn bị",
+    "example_zh": "我们<u>准备</u>去旅游。",
+    "example_py": "Wǒmen <u>zhǔnbèi</u> qù lǜyóu.",
+    "expected_pinyin": "wo3 men0 zhun3 bei4 qu4 lv4 you2",
+    "example_vi": "Chúng tôi <u>chuẩn bị</u> đi du lịch."
+  },
+  {
+    "id": 494,
+    "hanzi": "自己",
+    "pinyin": "zìjǐ",
+    "meaning": "tự mình, bản thân",
+    "example_zh": "他相信<u>自己</u>。",
+    "example_py": "Tā xiāngxìn <u>zìjǐ</u>.",
+    "expected_pinyin": "ta1 xiang1 xin4 zi4 ji3",
+    "example_vi": "Anh ấy tin tưởng <u>bản thân</u>."
+  },
+  {
+    "id": 495,
+    "hanzi": "走",
+    "pinyin": "zǒu",
+    "meaning": "đi bộ, rời đi",
+    "example_zh": "我们<u>走</u>吧。",
+    "example_py": "Wǒmen <u>zǒu</u> ba.",
+    "expected_pinyin": "wo3 men0 zou3 ba0",
+    "example_vi": "Chúng ta <u>đi</u> thôi."
+  },
+  {
+    "id": 496,
+    "hanzi": "走路",
+    "pinyin": "zǒulù",
+    "meaning": "đi bộ (động từ)",
+    "example_zh": "你可以坐车或者<u>走路</u>",
+    "example_py": "nǐ kěyǐ zuòchē huòzhě <u>zǒulù</u>",
+    "expected_pinyin": "",
+    "example_vi": "Bạn có thể đi xe hoặc đi bộ."
+  },
+  {
+    "id": 497,
+    "hanzi": "足球",
+    "pinyin": "zúqiú",
+    "meaning": "bóng đá (danh từ)",
+    "example_zh": "他是一个<u>足球</u>球迷",
+    "example_py": "tā shì yígè <u>zúqiú</u> qiúmí",
+    "expected_pinyin": "",
+    "example_vi": "Anh ấy là một người mê bóng đá."
+  },
+  {
+    "id": 498,
+    "hanzi": "最",
+    "pinyin": "zuì",
+    "meaning": "nhất",
+    "example_zh": "他是我<u>最</u>好的朋友。",
+    "example_py": "Tā shì wǒ <u>zuì</u> hǎo de péngyou.",
+    "expected_pinyin": "ta1 shi4 wo3 zui4 hao3 de0 peng2 you0",
+    "example_vi": "Anh ấy là người bạn tốt <u>nhất</u> của tôi."
+  },
+  {
+    "id": 499,
+    "hanzi": "左",
+    "pinyin": "zuǒ",
+    "meaning": "trái (danh từ)",
+    "example_zh": "",
+    "example_py": "",
+    "expected_pinyin": "",
+    "example_vi": ""
+  },
+  {
+    "id": 500,
+    "hanzi": "左边",
+    "pinyin": "zuǒbian",
+    "meaning": "bên trái",
+    "example_zh": "学校在<u>左边</u>。",
+    "example_py": "Xuéxiào zài <u>zuǒbian</u>.",
+    "expected_pinyin": "xue2 xiao4 zai4 zuo3 bian0",
+    "example_vi": "Trường học ở <u>bên trái</u>."
   }
 ]
