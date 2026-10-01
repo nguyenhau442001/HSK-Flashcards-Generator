@@ -8707,5 +8707,615 @@
   "meaning": "trúng tuyển, được tuyển chọn",
   "zh": "凭借优异的体能和过硬的技术，他成功<u>入选</u>了国家足球队。",
   "vi": "Nhờ vào thể lực vượt trội và kỹ thuật vững vàng, anh ấy đã thành công <u>được tuyển chọn</u> vào đội tuyển bóng đá quốc gia."
+ },
+ "撒|sǎ": {
+  "meaning": "rắc, gieo, rải",
+  "zh": "炒青菜起锅前，可以轻轻<u>撒</u>上一点胡椒粉调味。",
+  "vi": "Trước khi tắt bếp món rau xào, có thể nhẹ nhàng <u>rắc</u> thêm chút tiêu để tăng hương vị."
+ },
+ "塞|sāi": {
+  "meaning": "nhét, đút, nút lại",
+  "zh": "他把换洗的衣服匆匆忙忙地<u>塞</u>进了旅行箱里。",
+  "vi": "Anh ấy vội vàng <u>nhét</u> đống quần áo thay ra vào trong vali du lịch."
+ },
+ "赛事|sàishì": {
+  "meaning": "giải đấu, sự kiện thể thao",
+  "zh": "这场备受瞩目的国际网球<u>赛事</u>吸引了全球球迷的目光。",
+  "vi": "<u>Giải đấu</u> quần vợt quốc tế rất được mong đợi này đã thu hút ánh nhìn của người hâm mộ toàn cầu."
+ },
+ "散|sǎn": {
+  "meaning": "rời rạc, tơi ra, rã",
+  "zh": "这份资料装订得不够牢固，轻轻一翻页就<u>散</u>了。",
+  "vi": "Tài liệu này đóng gáy chưa đủ chắc, vừa nhẹ nhàng lật trang là đã bị <u>rời ra</u> rồi."
+ },
+ "散|sàn": {
+  "meaning": "tan, giải tán, tản ra",
+  "zh": "经过两个小时的热烈讨论，会议终于在下午五点准时<u>散</u>了。",
+  "vi": "Sau hai tiếng thảo luận sôi nổi, cuộc họp cuối cùng đã <u>tan</u> đúng giờ lúc 5 giờ chiều."
+ },
+ "扫描|sǎomiáo": {
+  "meaning": "quét (mã, tài liệu)",
+  "zh": "请用手机<u>扫描</u>屏幕上的二维码进行快速付款。",
+  "vi": "Xin vui lòng dùng điện thoại di động <u>quét</u> mã QR trên màn hình để thanh toán nhanh chóng."
+ },
+ "鲨鱼|shāyú": {
+  "meaning": "cá mập",
+  "zh": "<u>鲨鱼</u>拥有极其敏锐的嗅觉，能在很远处闻到血腥味。",
+  "vi": "<u>Cá mập</u> sở hữu khứu giác cực kỳ nhạy bén, có thể ngửi thấy mùi máu tanh từ khoảng cách rất xa."
+ },
+ "山峰|shānfēng": {
+  "meaning": "đỉnh núi, ngọn núi",
+  "zh": "远处高耸入云的座座<u>山峰</u>被厚厚的白雪完全覆盖。",
+  "vi": "Từng ngọn <u>núi</u> cao vút tận mây trời đằng xa bị bao phủ hoàn toàn bởi lớp tuyết trắng dày đặc."
+ },
+ "闪|shǎn": {
+  "meaning": "lóe sáng, nhấp nháy, né",
+  "zh": "乌云密布的天空中忽然<u>闪</u>过一道刺眼的亮光。",
+  "vi": "Bầu trời mây đen mù mịt bỗng nhiên <u>lóe sáng</u> lên một tia sáng chói mắt."
+ },
+ "扇|shàn": {
+  "meaning": "cánh (cửa, cửa sổ)",
+  "zh": "他轻轻推开那<u>扇</u>紧闭的大门，走进了安静的院落。",
+  "vi": "Anh ấy nhẹ nhàng đẩy <u>cánh</u> cửa lớn đang đóng chặt, bước vào khoảng sân tĩnh mịch."
+ },
+ "伤亡|shāngwáng": {
+  "meaning": "thương vong",
+  "zh": "由于疏散及时，本次地震没有造成任何人员<u>伤亡</u>。",
+  "vi": "Nhờ sơ tán kịp thời, trận động đất lần này không gây ra bất kỳ <u>thương vong</u> nào về người."
+ },
+ "上市|shàngshì": {
+  "meaning": "ra mắt thị trường, lên sàn chứng khoán",
+  "zh": "这款最新研发的智能手表将于下个月正式<u>上市</u>发售。",
+  "vi": "Chiếc đồng hồ thông minh mới nghiên cứu phát triển này sẽ chính thức <u>ra mắt thị trường</u> mở bán vào tháng tới."
+ },
+ "上述|shàngshù": {
+  "meaning": "đã nêu ở trên, nói trên",
+  "zh": "请各位仔细核对<u>上述</u>条款内容，确认无误后签字。",
+  "vi": "Xin các vị hãy kiểm tra kỹ càng nội dung các điều khoản <u>đã nêu ở trên</u>, sau khi xác nhận không có sai sót thì ký tên."
+ },
+ "上台|shàngtái": {
+  "meaning": "lên sân khấu, lên bục phát biểu",
+  "zh": "主持人报出名字后，获奖演员面带微笑快步<u>上台</u>领奖。",
+  "vi": "Sau khi người dẫn chương trình xướng tên, diễn viên đoạt giải mỉm cười rảo bước <u>lên sân khấu</u> nhận giải."
+ },
+ "上旬|shàngxún": {
+  "meaning": "thượng tuần, mười ngày đầu tháng",
+  "zh": "新一批教材预计将于下月<u>上旬</u>送达各个学校。",
+  "vi": "Đợt sách giáo khoa mới dự kiến sẽ được chuyển đến các trường học vào <u>thượng tuần</u> tháng tới."
+ },
+ "少儿|shào’ér": {
+  "meaning": "thiếu nhi, trẻ em",
+  "zh": "这家电视台专门为学龄前儿童开辟了一个有趣的<u>少儿</u>频道。",
+  "vi": "Đài truyền hình này đã mở riêng một kênh <u>thiếu nhi</u> thú vị dành cho các em nhỏ lứa tuổi mầm non."
+ },
+ "社|shè": {
+  "meaning": "câu lạc bộ, tòa soạn, đoàn thể",
+  "zh": "刚进入大学，他就兴致勃勃地加入了摄影<u>社</u>。",
+  "vi": "Vừa bước chân vào trường đại học, cậu ấy đã hào hứng tham gia vào <u>câu lạc bộ</u> nhiếp ảnh."
+ },
+ "射|shè": {
+  "meaning": "bắn, chiếu (tia)",
+  "zh": "清晨的第一缕金色阳光透过窗户直<u>射</u>在书桌上。",
+  "vi": "Tia nắng vàng đầu tiên của buổi sớm mai xuyên qua khung cửa sổ <u>chiếu</u> thẳng vào bàn học."
+ },
+ "摄像|shèxiàng": {
+  "meaning": "quay phim, ghi hình",
+  "zh": "在户外徒步旅行时，他喜欢用手持设备进行即兴<u>摄像</u>。",
+  "vi": "Khi đi bộ đường dài ngoài trời, anh ấy thích dùng thiết bị cầm tay để ngẫu hứng <u>quay phim</u>."
+ },
+ "摄像头|shèxiàngtóu": {
+  "meaning": "camera, ống kính quay phim",
+  "zh": "许多十字路口都安装了高清<u>摄像头</u>以监控交通状况。",
+  "vi": "Nhiều ngã tư đều được lắp đặt <u>camera</u> độ nét cao để giám sát tình trạng giao thông."
+ },
+ "身心|shēnxīn": {
+  "meaning": "thể xác và tinh thần, thân tâm",
+  "zh": "规律的作息和适度运动有助于保持<u>身心</u>健康。",
+  "vi": "Chế độ sinh hoạt điều độ và vận động vừa phải giúp duy trì sức khỏe cả về <u>thể xác và tinh thần</u>."
+ },
+ "深夜|shēnyè": {
+  "meaning": "đêm khuya",
+  "zh": "尽管已是<u>深夜</u>，实验室里的灯光依然通亮。",
+  "vi": "Dù đã là <u>đêm khuya</u> nhưng ánh đèn trong phòng thí nghiệm vẫn sáng rực."
+ },
+ "神|shén": {
+  "meaning": "thần kỳ, kỳ diệu; thần linh",
+  "zh": "老中医开出的这剂药方真<u>神</u>，吃了两天病情就大有好转。",
+  "vi": "Thang thuốc mà vị lương y già kê thật <u>kỳ diệu</u>, uống mới hai hôm mà bệnh tình đã thuyên giảm rõ rệt."
+ },
+ "生成|shēngchéng": {
+  "meaning": "tạo ra, sinh ra",
+  "zh": "点击这个按钮后，系统会自动<u>生成</u>一份详细的数据分析报告。",
+  "vi": "Sau khi nhấp vào nút này, hệ thống sẽ tự động <u>tạo ra</u> một bản báo cáo phân tích số liệu chi tiết."
+ },
+ "生命力|shēngmìnglì": {
+  "meaning": "sức sống, sức sống mãnh liệt",
+  "zh": "野草即使生长在石缝中，也展现出顽强的<u>生命力</u>。",
+  "vi": "Cỏ dại dù mọc trong kẽ đá cũng thể hiện <u>sức sống</u> kiên cường bền bỉ."
+ },
+ "升学|shēngxué": {
+  "meaning": "lên lớp trên, học lên bậc cao hơn",
+  "zh": "初三的学生们目前正处于紧张的<u>升学</u>备考阶段。",
+  "vi": "Các em học sinh lớp 9 hiện đang trong giai đoạn ôn thi <u>lên lớp trên</u> hết sức căng thẳng."
+ },
+ "剩余|shèngyú": {
+  "meaning": "còn lại, thặng dư",
+  "zh": "扣除所有开支后，他把每个月<u>剩余</u>的工资存进了银行。",
+  "vi": "Sau khi khấu trừ mọi chi tiêu, anh ấy gửi phần tiền lương <u>còn lại</u> mỗi tháng vào ngân hàng."
+ },
+ "诗词|shīcí": {
+  "meaning": "thơ từ, thơ ca cổ điển",
+  "zh": "他从小就非常热爱中国古典<u>诗词</u>，背诵了许多名篇。",
+  "vi": "Từ nhỏ cậu ấy đã rất yêu thích <u>thơ từ</u> cổ điển Trung Quốc và thuộc lòng nhiều danh tác."
+ },
+ "湿度|shīdù": {
+  "meaning": "độ ẩm",
+  "zh": "南方夏天的空气<u>湿度</u>非常高，让人感觉闷热难耐。",
+  "vi": "<u>Độ ẩm</u> không khí mùa hè ở miền nam rất cao, khiến người ta cảm thấy oi bức khó chịu."
+ },
+ "师父|shīfu": {
+  "meaning": "sư phụ, thầy (dạy nghề/võ)",
+  "zh": "在<u>师父</u>的耐心指点下，他很快掌握了这门传统手艺。",
+  "vi": "Dưới sự chỉ bảo kiên nhẫn của <u>sư phụ</u>, cậu ấy đã nhanh chóng nắm vững ngón nghề truyền thống này."
+ },
+ "诗歌|shīgē": {
+  "meaning": "thơ ca",
+  "zh": "这首优美的现代<u>诗歌</u>深深打动了现场每一位听众的心。",
+  "vi": "Bài <u>thơ ca</u> hiện đại tuyệt đẹp này đã làm rung động sâu sắc trái tim của từng khán giả có mặt."
+ },
+ "识|shí": {
+  "meaning": "nhận biết, biết chữ, hiểu biết",
+  "zh": "经过夜校的学习，村里许多以前不<u>识</u>字的老人也能看懂报纸了。",
+  "vi": "Sau khi học lớp bổ túc ban đêm, nhiều cụ già trước đây không <u>biết</u> chữ trong làng cũng có thể đọc hiểu báo rồi."
+ },
+ "实时|shíshí": {
+  "meaning": "thời gian thực",
+  "zh": "导航软件能够向驾驶员提供<u>实时</u>的路况拥堵信息。",
+  "vi": "Phần mềm dẫn đường có thể cung cấp thông tin tắc đường theo <u>thời gian thực</u> cho các tài xế."
+ },
+ "时速|shísù": {
+  "meaning": "tốc độ theo giờ, vận tốc",
+  "zh": "新型高速列车的最高运行<u>时速</u>可以达到每小时三百五十公里。",
+  "vi": "<u>Vận tốc</u> chạy tối đa của loại tàu cao tốc kiểu mới có thể đạt tới 350 cây số một giờ."
+ },
+ "食欲|shíyù": {
+  "meaning": "sự thèm ăn, cảm giác ngon miệng",
+  "zh": "感冒发烧的时候，人往往会感到全身乏力且没有<u>食欲</u>。",
+  "vi": "Khi bị cảm sốt, con người thường cảm thấy toàn thân mệt mỏi và không có <u>cảm giác thèm ăn</u>."
+ },
+ "使劲|shǐjìn": {
+  "meaning": "ra sức, dùng sức",
+  "zh": "大家一起<u>使劲</u>推，终于把陷在泥里的货车给推了出来。",
+  "vi": "Mọi người cùng nhau <u>dùng sức</u> đẩy, cuối cùng đã đẩy được chiếc xe tải bị sa lầy ra ngoài."
+ },
+ "适度|shìdù": {
+  "meaning": "vừa phải, có chừng mực, điều độ",
+  "zh": "保持<u>适度</u>的体育锻炼对增强身体免疫力非常有益。",
+  "vi": "Duy trì rèn luyện thể thao <u>vừa phải</u> rất có ích cho việc nâng cao khả năng miễn dịch của cơ thể."
+ },
+ "事后|shìhòu": {
+  "meaning": "sau sự việc, sau đó",
+  "zh": "直到事故发生很久以后，他们才在<u>事后</u>调查中发现了真正的原因。",
+  "vi": "Mãi rất lâu sau khi sự cố xảy ra, họ mới phát hiện ra nguyên nhân thực sự trong cuộc điều tra <u>sau đó</u>."
+ },
+ "视觉|shìjué": {
+  "meaning": "thị giác",
+  "zh": "这部科幻大片精美的特效给观众带来了强烈的<u>视觉</u>震撼。",
+  "vi": "Kỹ xảo tinh xảo của bộ phim bom tấn viễn tưởng này đã mang lại cho khán giả cú sốc <u>thị giác</u> mạnh mẽ."
+ },
+ "收购|shōugòu": {
+  "meaning": "thu mua, mua lại",
+  "zh": "每到丰收季节，国家粮食部门都会以合理价格<u>收购</u>农户的小麦。",
+  "vi": "Cứ đến mùa thu hoạch, cơ quan lương thực quốc gia đều <u>thu mua</u> lúa mì của bà con nông dân với giá hợp lý."
+ },
+ "收取|shōuqǔ": {
+  "meaning": "thu nhận, thu (phí)",
+  "zh": "在这家银行跨行转账时，无需支付任何额外<u>收取</u>的手续费。",
+  "vi": "Khi chuyển tiền liên ngân hàng tại ngân hàng này, không cần trả bất kỳ khoản phí giao dịch nào bị <u>thu</u> thêm."
+ },
+ "手臂|shǒubì": {
+  "meaning": "cánh tay",
+  "zh": "长时间伏案用电脑工作容易导致肩膀和<u>手臂</u>酸痛。",
+  "vi": "Ngồi làm việc bên máy tính trong thời gian dài rất dễ dẫn tới đau mỏi vai và <u>cánh tay</u>."
+ },
+ "受灾|shòuzāi": {
+  "meaning": "gặp thiên tai, chịu nạn",
+  "zh": "政府迅速向洪水<u>受灾</u>地区调拨了大量帐篷和食品。",
+  "vi": "Chính phủ đã nhanh chóng điều động nhiều lều bạt và thực phẩm đến khu vực <u>chịu nạn</u> lũ lụt."
+ },
+ "输出|shūchū": {
+  "meaning": "đầu ra, xuất khẩu, truyền tải",
+  "zh": "这台发电机的电力<u>输出</u>十分平稳，能够满足全厂的生产需求。",
+  "vi": "<u>Đầu ra</u> điện năng của máy phát điện này rất ổn định, có thể đáp ứng nhu cầu sản xuất của toàn nhà máy."
+ },
+ "书画|shūhuà": {
+  "meaning": "thư pháp và hội họa",
+  "zh": "博物馆今天展出了多幅明清时期的珍贵名家<u>书画</u>。",
+  "vi": "Hôm nay bảo tàng đã triển lãm nhiều tác phẩm <u>thư pháp và hội họa</u> quý giá của các danh gia thời Minh - Thanh."
+ },
+ "输送|shūsòng": {
+  "meaning": "vận chuyển, truyền tải, tiếp tế",
+  "zh": "这条大型管道每天负责向城市<u>输送</u>数百万立方米的天然气。",
+  "vi": "Đường ống dẫn lớn này mỗi ngày chịu trách nhiệm <u>truyền tải</u> hàng triệu mét khối khí thiên nhiên tới thành phố."
+ },
+ "属|shǔ": {
+  "meaning": "thuộc về, thuộc",
+  "zh": "从生物学分类来看，大熊猫其实<u>属</u>于食肉目动物。",
+  "vi": "Xét theo phân loại sinh học, gấu trúc lớn thực ra <u>thuộc</u> bộ động vật ăn thịt."
+ },
+ "薯片|shǔpiàn": {
+  "meaning": "khoai tây chiên giòn",
+  "zh": "边看电影边吃脆香的<u>薯片</u>，是许多年轻人喜爱的休闲方式。",
+  "vi": "Vừa xem phim vừa ăn <u>khoai tây chiên</u> giòn rụm là phương thức thư giãn ưa thích của nhiều bạn trẻ."
+ },
+ "数目|shùmù": {
+  "meaning": "số lượng, con số",
+  "zh": "今年报考这所知名大学研究生的学生<u>数目</u>创下了历史新高。",
+  "vi": "<u>Số lượng</u> sinh viên đăng ký thi cao học vào trường đại học danh tiếng này năm nay đã lập kỷ lục mới."
+ },
+ "数字化|shùzìhuà": {
+  "meaning": "số hóa",
+  "zh": "推动传统图书馆的<u>数字化</u>建设，极大地方便了读者的远程借阅。",
+  "vi": "Đẩy mạnh công cuộc <u>số hóa</u> thư viện truyền thống đã tạo điều kiện cực kỳ thuận tiện cho bạn đọc mượn sách từ xa."
+ },
+ "率先|shuàixiān": {
+  "meaning": "dẫn đầu, đi đầu",
+  "zh": "在新能源技术领域，这家高新技术企业<u>率先</u>取得了重大突破。",
+  "vi": "Trong lĩnh vực công nghệ năng lượng mới, doanh nghiệp công nghệ cao này đã <u>đi đầu</u> đạt được đột phá trọng đại."
+ },
+ "水稻|shuǐdào": {
+  "meaning": "lúa nước",
+  "zh": "中国南方大部分农田都广泛种植高产优质的<u>水稻</u>。",
+  "vi": "Phần lớn ruộng đồng ở miền nam Trung Quốc đều gieo cấy rộng rãi giống <u>lúa nước</u> năng suất cao chất lượng tốt."
+ },
+ "水库|shuǐkù": {
+  "meaning": "hồ chứa nước",
+  "zh": "这座建在山谷中的大型<u>水库</u>在防洪和灌溉中起着关键作用。",
+  "vi": "Chiếc <u>hồ chứa nước</u> lớn xây dựng trong thung lũng này đóng vai trò then chốt trong việc chống lũ và tưới tiêu."
+ },
+ "水流|shuǐliú": {
+  "meaning": "dòng nước, dòng chảy",
+  "zh": "山谷里的<u>水流</u>非常湍急，划船时一定要格外小心。",
+  "vi": "<u>Dòng nước</u> trong thung lũng chảy xiết vô cùng, khi chèo thuyền nhất định phải hết sức cẩn thận."
+ },
+ "松|sōng": {
+  "meaning": "lỏng, lỏng lẻo; nới lỏng",
+  "zh": "鞋带有些<u>松</u>了，他停下脚步蹲在路边重新系紧。",
+  "vi": "Dây giày hơi <u>lỏng</u> rồi, cậu ấy dừng bước ngồi xổm ven đường buộc lại thật chặt."
+ },
+ "搜集|sōují": {
+  "meaning": "thu thập, tìm tòi",
+  "zh": "撰写毕业论文之前，必须广泛<u>搜集</u>各方面的第一手学术资料。",
+  "vi": "Trước khi viết luận văn tốt nghiệp, bắt buộc phải <u>thu thập</u> rộng rãi các tài liệu học thuật sơ cấp từ mọi phía."
+ },
+ "算了|suànle": {
+  "meaning": "thôi bỏ đi, thôi vậy",
+  "zh": "既然天一直在下大雨，那我们今天的露营计划就<u>算了</u>吧。",
+  "vi": "Đã là trời cứ mưa to suốt, vậy thì kế hoạch cắm trại hôm nay của chúng ta đành <u>thôi vậy</u>."
+ },
+ "算是|suànshì": {
+  "meaning": "coi như là, xem như",
+  "zh": "经过三轮严格面试顺利入职，今天总<u>算是</u>落下了心头大石。",
+  "vi": "Sau ba vòng phỏng vấn gắt gao đã thuận lợi vào làm việc, hôm nay tổng <u>coi như là</u> trút được gánh nặng trong lòng."
+ },
+ "虽|suī": {
+  "meaning": "tuy, mặc dù",
+  "zh": "良药<u>虽</u>苦口却利于病，忠言逆耳却利于行。",
+  "vi": "Thuốc tốt <u>tuy</u> đắng miệng nhưng lợi cho bệnh, lời ngay trái tai nhưng có ích cho hành vi."
+ },
+ "岁数|suìshu": {
+  "meaning": "tuổi tác, tuổi",
+  "zh": "奶奶虽然上了<u>岁数</u>，但耳聪目明，精神头依然很足。",
+  "vi": "Bà nội tuy đã có <u>tuổi</u> nhưng tai mắt tinh anh, tinh thần vẫn còn rất sảng khoái."
+ },
+ "台球|táiqiú": {
+  "meaning": "bi-a, bida",
+  "zh": "周末空闲时，他和朋友们常常去俱乐部打两局<u>台球</u>。",
+  "vi": "Khi rảnh rỗi vào cuối tuần, anh ấy và bạn bè thường đến câu lạc bộ chơi vài ván <u>bi-a</u>."
+ },
+ "谈论|tánlùn": {
+  "meaning": "bàn luận, trò chuyện",
+  "zh": "大家围坐在温暖的壁炉旁，愉快地<u>谈论</u>着假期的旅行计划。",
+  "vi": "Mọi người quây quần bên lò sưởi ấm áp, vui vẻ <u>bàn luận</u> về kế hoạch du lịch cho kỳ nghỉ."
+ },
+ "糖果|tángguǒ": {
+  "meaning": "kẹo",
+  "zh": "过年的时候，家里总会准备各种各样的美味<u>糖果</u>招待客人。",
+  "vi": "Mỗi dịp tết đến, trong nhà luôn chuẩn bị đủ loại <u>kẹo</u> ngon miệng để đãi khách."
+ },
+ "逃跑|táopǎo": {
+  "meaning": "chạy trốn, bỏ trốn",
+  "zh": "小偷听到警笛声越来越近，立刻慌不择路地转身<u>逃跑</u>。",
+  "vi": "Tên trộm nghe thấy tiếng còi cảnh sát ngày càng đến gần, lập tức cuống cuồng quay đầu <u>bỏ trốn</u>."
+ },
+ "套餐|tàocān": {
+  "meaning": "suất ăn theo set, gói cước/dịch vụ",
+  "zh": "这家快餐店推出的午市超值<u>套餐</u>深受附近上班族的欢迎。",
+  "vi": "<u>Suất ăn theo set</u> trưa siêu tiết kiệm của quán thức ăn nhanh này rất được lòng dân văn phòng gần đó."
+ },
+ "特|tè": {
+  "meaning": "đặc biệt, cực kỳ",
+  "zh": "今天妈妈做的那道红烧肉味道<u>特</u>香，大家都赞不绝口。",
+  "vi": "Hôm nay món thịt kho mà mẹ nấu có mùi vị <u>đặc biệt</u> thơm, mọi người đều khen tấm tắc."
+ },
+ "特地|tèdì": {
+  "meaning": "đặc biệt, cất công, có ý",
+  "zh": "听说你今天过生日，他<u>特地</u>坐了两个小时的高铁赶来祝贺。",
+  "vi": "Nghe tin hôm nay là sinh nhật bạn, anh ấy đã <u>cất công</u> ngồi tàu cao tốc hai tiếng đồng hồ tới đây chúc mừng."
+ },
+ "特性|tèxìng": {
+  "meaning": "đặc tính",
+  "zh": "这种新型合成材料具备耐高温与耐腐蚀的物理<u>特性</u>。",
+  "vi": "Loại vật liệu tổng hợp mới này sở hữu <u>đặc tính</u> vật lý chịu nhiệt độ cao và chống ăn mòn."
+ },
+ "提取|tíqǔ": {
+  "meaning": "rút (tiền), chiết xuất, trích xuất",
+  "zh": "你可以持银行卡在自动取款机上快速<u>提取</u>现金。",
+  "vi": "Bạn có thể mang thẻ ngân hàng tới cây ATM để <u>rút</u> tiền mặt một cách nhanh chóng."
+ },
+ "体操|tǐcāo": {
+  "meaning": "thể dục dụng cụ",
+  "zh": "那位年轻选手在女子自由<u>体操</u>决赛中发挥极为稳定出色。",
+  "vi": "Vận động viên trẻ tuổi đó đã thể hiện vô cùng ổn định và xuất sắc trong trận chung kết <u>thể dục dụng cụ</u> tự do nữ."
+ },
+ "添|tiān": {
+  "meaning": "thêm, thêm vào",
+  "zh": "天凉了，出门记得多<u>添</u>一件外套防止着凉感冒。",
+  "vi": "Trời trở lạnh rồi, ra ngoài nhớ <u>thêm</u> một chiếc áo khoác để tránh bị nhiễm lạnh cảm cúm."
+ },
+ "添加|tiānjiā": {
+  "meaning": "thêm vào, bổ sung",
+  "zh": "本款纯天然果汁完全没有<u>添加</u>任何人工防腐剂或色素。",
+  "vi": "Dòng nước ép trái cây nguyên chất tự nhiên này hoàn toàn không <u>thêm vào</u> bất kỳ chất bảo quản hay phẩm màu nhân tạo nào."
+ },
+ "天下|tiānxià": {
+  "meaning": "thiên hạ, thế giới, khắp nơi",
+  "zh": "俗话说得好，<u>天下</u>没有不散的筵席，大家各自珍重。",
+  "vi": "Tục ngữ có câu rất hay, trong <u>thiên hạ</u> không có bữa tiệc nào không tàn, mọi người hãy bảo trọng."
+ },
+ "田|tián": {
+  "meaning": "ruộng đồng, ruộng lúa",
+  "zh": "农民伯伯正在自家的水<u>田</u>里辛勤地劳作。",
+  "vi": "Bác nông dân đang cần mẫn lao động trên thửa <u>ruộng</u> nước của nhà mình."
+ },
+ "跳水|tiàoshuǐ": {
+  "meaning": "nhảy cầu, lặn",
+  "zh": "中国国家<u>跳水</u>队在历届奥运会上屡获金牌，实力超群。",
+  "vi": "Đội tuyển <u>nhảy cầu</u> quốc gia Trung Quốc đã nhiều lần giành huy chương vàng tại các kỳ Olympic với thực lực vượt trội."
+ },
+ "贴近|tiējìn": {
+  "meaning": "áp sát, gần gũi, bám sát",
+  "zh": "文艺创作应当深入基层群众，创作出<u>贴近</u>普通人生活的优秀作品。",
+  "vi": "Sáng tác văn nghệ nên thâm nhập vào quần chúng cơ sở để tạo ra những tác phẩm xuất sắc <u>gần gũi</u> với đời sống người bình dân."
+ },
+ "听话|tīnghuà": {
+  "meaning": "ngoan ngoãn, nghe lời",
+  "zh": "这个小男孩平时非常懂事，在家里也很<u>听话</u>。",
+  "vi": "Cậu bé này thường ngày rất hiểu chuyện, ở nhà cũng rất <u>nghe lời</u>."
+ },
+ "听觉|tīngjué": {
+  "meaning": "thính giác",
+  "zh": "经常佩戴大音量耳机会对我们的<u>听觉</u>神经造成不可逆的损伤。",
+  "vi": "Thường xuyên đeo tai nghe âm lượng lớn sẽ gây tổn hại khó hồi phục cho dây thần kinh <u>thính giác</u> của chúng ta."
+ },
+ "听取|tīngqǔ": {
+  "meaning": "lắng nghe (ý kiến, báo cáo)",
+  "zh": "领导层认真<u>听取</u>了基层一线工人们提出的合理化改进建议。",
+  "vi": "Ban lãnh đạo đã nghiêm túc <u>lắng nghe</u> những ý kiến đề xuất cải tiến hợp lý do công nhân tuyến đầu đưa ra."
+ },
+ "通道|tōngdào": {
+  "meaning": "lối đi, hành lang, kênh dẫn",
+  "zh": "商场的消防安全<u>通道</u>严禁堆放任何杂物以防阻塞。",
+  "vi": "<u>Lối đi</u> an toàn phòng cháy chữa cháy của trung tâm thương mại nghiêm cấm chất đống đồ đạc để phòng tắc nghẽn."
+ },
+ "通风|tōngfēng": {
+  "meaning": "thông gió, thoáng khí",
+  "zh": "早晨起床后最好开窗半小时，保持室内空气良好<u>通风</u>。",
+  "vi": "Buổi sáng sau khi thức dậy tốt nhất nên mở cửa sổ nửa tiếng để giữ cho không khí trong phòng <u>thông gió</u> thoáng đãng."
+ },
+ "通话|tōnghuà": {
+  "meaning": "gọi điện thoại, đàm thoại",
+  "zh": "在飞机起飞和降落的关键阶段，乘客严禁使用手机<u>通话</u>。",
+  "vi": "Trong giai đoạn then chốt khi máy bay cất cánh và hạ cánh, hành khách bị nghiêm cấm dùng điện thoại để <u>gọi điện</u>."
+ },
+ "通信|tōngxìn": {
+  "meaning": "thông tin liên lạc, viễn thông",
+  "zh": "第五代移动<u>通信</u>技术极大地提高了网络数据的传输速度。",
+  "vi": "Công nghệ <u>thông tin liên lạc</u> di động thế hệ thứ năm đã nâng cao đáng kể tốc độ truyền tải dữ liệu mạng."
+ },
+ "同伴|tóngbàn": {
+  "meaning": "bạn đồng hành, bạn cùng chơi",
+  "zh": "在森林探险过程中，千万不要脱离自己的团队和<u>同伴</u>。",
+  "vi": "Trong quá trình thám hiểm rừng rậm, tuyệt đối không được tách rời đoàn đội và <u>bạn đồng hành</u> của mình."
+ },
+ "同行|tóngháng": {
+  "meaning": "người cùng ngành, đồng nghiệp trong ngành",
+  "zh": "他的这项学术创新受到了国内外众多业内<u>同行</u>的高度评价。",
+  "vi": "Đổi mới học thuật này của ông đã nhận được sự đánh giá rất cao từ đông đảo <u>người cùng ngành</u> trong và ngoài nước."
+ },
+ "同类|tónglèi": {
+  "meaning": "cùng loại, đồng loại",
+  "zh": "与市场上<u>同类</u>产品相比，这款软件的运行速度更快更稳定。",
+  "vi": "So với các sản phẩm <u>cùng loại</u> trên thị trường, phần mềm này có tốc độ chạy nhanh hơn và ổn định hơn."
+ },
+ "铜牌|tóngpái": {
+  "meaning": "huy chương đồng",
+  "zh": "经过顽强拼搏，他在男子百米自由泳决赛中夺得了一枚宝贵的<u>铜牌</u>。",
+  "vi": "Sau nỗ lực thi đấu ngoan cường, anh ấy đã giành được một tấm <u>huy chương đồng</u> quý giá ở cự ly bơi tự do 100m nam."
+ },
+ "透|tòu": {
+  "meaning": "thấm đẫm, thấu, thông suốt",
+  "zh": "突然下起了一场暴雨，把他浑身上下的衣服都淋<u>透</u>了。",
+  "vi": "Đột nhiên một cơn mưa như trút nước ập xuống, làm <u>thấm đẫm</u> toàn bộ quần áo trên người anh."
+ },
+ "透过|tòuguò": {
+  "meaning": "xuyên qua, thông qua",
+  "zh": "<u>透过</u>明净的大玻璃窗，可以清晰地俯瞰整个城市的夜景。",
+  "vi": "<u>Xuyên qua</u> khung cửa kính lớn trong suốt, có thể ngắm nhìn bao quát cảnh đêm toàn thành phố một cách rõ nét."
+ },
+ "突发|tūfā": {
+  "meaning": "bùng phát đột ngột, bất ngờ xảy ra",
+  "zh": "面对各种<u>突发</u>的紧急情况，救援人员表现得沉着而果断。",
+  "vi": "Đối mặt với các tình huống khẩn cấp <u>bất ngờ xảy ra</u>, nhân viên cứu hộ đã thể hiện sự bình tĩnh và quyết đoán."
+ },
+ "图像|túxiàng": {
+  "meaning": "hình ảnh, đồ họa",
+  "zh": "这台超高清电视呈现出的彩色<u>图像</u>细节格外生动逼真。",
+  "vi": "<u>Hình ảnh</u> màu sắc hiển thị trên chiếc ti vi siêu nét này có chi tiết vô cùng sống động như thật."
+ },
+ "推行|tuīxíng": {
+  "meaning": "thúc đẩy thực hiện, triển khai rộng rãi",
+  "zh": "市政府正在全市各大社区全面<u>推行</u>生活垃圾分类制度。",
+  "vi": "Chính quyền thành phố đang toàn diện <u>thúc đẩy thực hiện</u> chế độ phân loại rác thải sinh hoạt tại khắp các khu dân cư."
+ },
+ "退税|tuìshuì": {
+  "meaning": "hoàn thuế",
+  "zh": "外国游客在指定商场购物满一定金额后，离境前可以申请办理<u>退税</u>。",
+  "vi": "Khách du lịch nước ngoài sau khi mua sắm đạt mức quy định tại các trung tâm thương mại chỉ định có thể làm thủ tục <u>hoàn thuế</u> trước khi xuất cảnh."
+ },
+ "吞|tūn": {
+  "meaning": "nuốt",
+  "zh": "吃鱼的时候一定要细嚼慢咽，千万不要囫囵硬<u>吞</u>下去。",
+  "vi": "Khi ăn cá nhất định phải nhai kỹ nuốt chậm, tuyệt đối không được <u>nuốt</u> vội cả miếng xuống."
+ },
+ "拖|tuō": {
+  "meaning": "lau (nhà), kéo, kéo lê",
+  "zh": "他每天早上起床后的第一件事就是把客厅地板仔仔细细<u>拖</u>一遍。",
+  "vi": "Việc đầu tiên sau khi ngủ dậy mỗi sáng của anh ấy là <u>lau</u> sàn phòng khách thật cẩn thận một lượt."
+ },
+ "挖|wā": {
+  "meaning": "đào, bới",
+  "zh": "工人们在路边小心翼翼地<u>挖</u>了一条沟渠来铺设电缆。",
+  "vi": "Các công nhân cẩn thận <u>đào</u> một con mương ven đường để đặt cáp điện."
+ },
+ "哇|wā": {
+  "meaning": "oa (thán từ thán phục/tiếng khóc)",
+  "zh": "<u>哇</u>，这里的湖光山色真是太壮观迷人了！",
+  "vi": "<u>Oa</u>, non nước mây trời nơi đây thật là tráng lệ mê hồn làm sao!"
+ },
+ "外科|wàikē": {
+  "meaning": "ngoại khoa",
+  "zh": "他从医学院毕业后，成为了一名技艺高超的<u>外科</u>医生。",
+  "vi": "Sau khi tốt nghiệp trường y, anh ấy đã trở thành một bác sĩ <u>ngoại khoa</u> tay nghề cao."
+ },
+ "外来|wàilái": {
+  "meaning": "từ bên ngoài vào, ngoại lai",
+  "zh": "当地政府出台了一系列暖心优惠政策来吸引更多<u>外来</u>人才。",
+  "vi": "Chính quyền địa phương đã ban hành hàng loạt chính sách ưu đãi ấm lòng để thu hút thêm nhân tài <u>từ bên ngoài vào</u>."
+ },
+ "外甥|wàisheng": {
+  "meaning": "cháu trai (con chị/em gái)",
+  "zh": "今天是我姐姐家小<u>外甥</u>的六岁生日，我特意买了一套玩具送他。",
+  "vi": "Hôm nay là sinh nhật tròn sáu tuổi của cậu <u>cháu trai</u> con chị gái, tôi đã đặc ý mua một bộ đồ chơi tặng cháu."
+ },
+ "弯曲|wānqū": {
+  "meaning": "quanh co, cong queo, uốn khúc",
+  "zh": "汽车沿着一条<u>弯曲</u>起伏的盘山公路缓缓向前行驶。",
+  "vi": "Chiếc xe hơi từ từ lăn bánh chạy theo con đường đèo uốn lượn <u>quanh co</u>."
+ },
+ "万物|wànwù": {
+  "meaning": "vạn vật, muôn loài",
+  "zh": "温暖的春风吹绿了大江南北，世间<u>万物</u>展现出蓬勃的生机。",
+  "vi": "Gió xuân ấm áp nhuộm xanh đôi bờ nam bắc, <u>vạn vật</u> trên thế gian khoác lên mình sức sống tràn trề."
+ },
+ "网|wǎng": {
+  "meaning": "mạng lưới, giăng lưới, mạng internet",
+  "zh": "渔民们清晨就驾驶着渔船出海撒<u>网</u>捕鱼。",
+  "vi": "Bà con ngư dân từ sáng sớm đã lái thuyền ra khơi quăng <u>lưới</u> bắt cá."
+ },
+ "往后|wǎnghòu": {
+  "meaning": "về sau, sau này",
+  "zh": "吸取了这次教训，他表示<u>往后</u>做事一定会更加谨慎细致。",
+  "vi": "Rút kinh nghiệm sâu sắc từ bài học lần này, anh ấy khẳng định <u>về sau</u> làm việc nhất định sẽ cẩn trọng tỉ mỉ hơn."
+ },
+ "往来|wǎnglái": {
+  "meaning": "qua lại, giao thiệp",
+  "zh": "两家公司多年来一直保持着十分紧密的商业贸易<u>往来</u>。",
+  "vi": "Hai công ty nhiều năm nay luôn duy trì mối quan hệ giao thương <u>qua lại</u> vô cùng gắn bó."
+ },
+ "往年|wǎngnián": {
+  "meaning": "những năm trước",
+  "zh": "今年春季的气温相比<u>往年</u>同期明显偏高了一些。",
+  "vi": "Nhiệt độ mùa xuân năm nay so với cùng kỳ <u>những năm trước</u> rõ ràng cao hơn một chút."
+ },
+ "望|wàng": {
+  "meaning": "nhìn xa, trông ngóng",
+  "zh": "登上高耸的塔顶，可以远<u>望</u>远方连绵起伏的群山。",
+  "vi": "Bước lên đỉnh tháp cao vút, có thể phóng tầm mắt ngắm <u>nhìn</u> dãy núi nhấp nhô xa xăm."
+ },
+ "微小|wēixiǎo": {
+  "meaning": "vi mô, nhỏ bé",
+  "zh": "借助高倍电子显微镜，科学家可以观察到许多极其<u>微小</u>的细菌结构。",
+  "vi": "Nhờ vào kính hiển vi điện tử độ phóng đại cao, các nhà khoa học có thể quan sát thấy nhiều cấu trúc vi khuẩn vô cùng <u>nhỏ bé</u>."
+ },
+ "违规|wéiguī": {
+  "meaning": "vi phạm quy định",
+  "zh": "任何<u>违规</u>停放的车辆都将面临交管部门的严厉处罚。",
+  "vi": "Bất kỳ phương tiện giao thông nào dừng đỗ <u>vi phạm quy định</u> đều sẽ phải đối mặt với mức xử phạt nghiêm khắc từ cơ quan quản lý giao thông."
+ },
+ "围棋|wéiqí": {
+  "meaning": "cờ vây",
+  "zh": "<u>围棋</u>是中国古老的智力博弈游戏，规则简单但变化深奥万千。",
+  "vi": "<u>Cờ vây</u> là trò chơi đấu trí cổ xưa của Trung Hoa, luật chơi đơn giản nhưng biến hóa muôn hình vạn trạng."
+ },
+ "为止|wéizhǐ": {
+  "meaning": "cho đến, cho tới khi",
+  "zh": "到目前<u>为止</u>，所有的前期筹备工作都已经全部顺利就绪。",
+  "vi": "Tính <u>cho đến</u> thời điểm hiện tại, mọi công tác chuẩn bị giai đoạn đầu đều đã sẵn sàng thuận lợi."
+ },
+ "未|wèi": {
+  "meaning": "chưa, không",
+  "zh": "这项重要的科学假说在目前的研究中<u>未</u>能得到充分的实验证实。",
+  "vi": "Giả thuyết khoa học quan trọng này trong nghiên cứu hiện tại vẫn <u>chưa</u> được chứng minh đầy đủ bằng thực nghiệm."
+ },
+ "未成年人|wèichéngniánrén": {
+  "meaning": "người chưa thành niên, vị thành niên",
+  "zh": "法律严格禁止任何商业场所向<u>未成年人</u>出售烟酒制品。",
+  "vi": "Pháp luật nghiêm cấm bất kỳ địa điểm kinh doanh nào bán các sản phẩm thuốc lá, rượu bia cho <u>người chưa thành niên</u>."
+ },
+ "为何|wèihé": {
+  "meaning": "tại sao, vì sao",
+  "zh": "大家都很纳闷，他平时做事雷厉风行，这次<u>为何</u>如此犹豫不决。",
+  "vi": "Mọi người đều rất khó hiểu, anh ấy bình thường làm việc quyết đoán, lần này <u>vì sao</u> lại ngập ngừng do dự đến thế."
+ },
+ "味觉|wèijué": {
+  "meaning": "vị giác",
+  "zh": "严重的感冒往往会暂时影响人的嗅觉和<u>味觉</u>灵敏度。",
+  "vi": "Bệnh cảm nặng thường sẽ ảnh hưởng tạm thời đến độ nhạy của khứu giác và <u>vị giác</u> con người."
+ },
+ "文科|wénkē": {
+  "meaning": "khoa học xã hội và nhân văn, văn khoa",
+  "zh": "他从小酷爱历史和哲学，高中分科时毫不犹豫地选择了<u>文科</u>。",
+  "vi": "Từ nhỏ cậu ấy đã đam mê lịch sử và triết học, khi phân ban ở trường cấp ba đã không ngần ngại chọn ban <u>văn khoa</u>."
+ },
+ "闻名|wénmíng": {
+  "meaning": "nổi tiếng, lừng danh",
+  "zh": "景德镇凭借其精美绝伦的瓷器制作工艺而享誉中外、举世<u>闻名</u>。",
+  "vi": "Cảnh Đức Trấn nhờ kỹ nghệ chế tác gốm sứ tinh xảo mà nổi tiếng trong ngoài nước, khắp thế giới đều <u>lừng danh</u>."
+ },
+ "乌龟|wūguī": {
+  "meaning": "con rùa",
+  "zh": "那只生活在后院池塘里的小<u>乌龟</u>正趴在石头上惬意地晒太阳。",
+  "vi": "Chú <u>rùa</u> nhỏ sống trong hồ nước sau sân đang nằm bò trên tảng đá thảnh thơi tắm nắng."
+ },
+ "污水|wūshuǐ": {
+  "meaning": "nước thải, nước bẩn",
+  "zh": "工厂排出的工业<u>污水</u>必须经过严格净化处理后才能排放。",
+  "vi": "Nguồn <u>nước thải</u> công nghiệp do nhà máy thải ra bắt buộc phải qua xử lý lọc nghiêm ngặt mới được xả thải."
+ },
+ "无疑|wúyí": {
+  "meaning": "không nghi ngờ gì, chắc chắn",
+  "zh": "这项新技术的成功研发，<u>无疑</u>将大大提升整个行业的生产效率。",
+  "vi": "Sự nghiên cứu phát triển thành công của công nghệ mới này, <u>chắc chắn</u> sẽ nâng cao rất lớn hiệu suất sản xuất của toàn ngành."
+ },
+ "误|wù": {
+  "meaning": "làm lỡ, làm chậm trễ, sai sót",
+  "zh": "出门前一定要提前看好发车时间，千万别因为迟到而<u>误</u>了大事。",
+  "vi": "Trước khi ra khỏi nhà nhất định phải xem trước giờ xe chạy, tuyệt đối đừng vì trễ giờ mà <u>làm lỡ</u> việc lớn."
+ },
+ "物体|wùtǐ": {
+  "meaning": "vật thể",
+  "zh": "在重力作用下，任何处于高处的自由<u>物体</u>都会自然加速向下坠落。",
+  "vi": "Dưới tác dụng của trọng lực, bất kỳ <u>vật thể</u> tự do nào ở trên cao đều sẽ tự nhiên tăng tốc rơi xuống phía dưới."
  }
 }
