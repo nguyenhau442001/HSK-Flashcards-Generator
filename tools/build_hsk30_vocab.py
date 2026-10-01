@@ -366,7 +366,9 @@ def build():
         old_meaning_is_safe = can_reuse_local_meaning(old, canonical, row['pinyin'], readings)
         review = curated.get(f"{row['word']}|{row['pinyin']}", {})
         curated_applied += bool(review)
-        meaning = review.get('meaning') or (old.get('meaning') if old_meaning_is_safe else '') or translations.get(translation_key(row), '') or translations.get(canonical, '')
+        fallback_meaning = translations.get(translation_key(row), '') or translations.get(canonical, '')
+        fallback_meaning = re.sub(r'\s*\((?:danh|động|tính|phó|trạng|liên|giới|trợ|thán) từ(?:,\s*(?:danh|động|tính|phó|trạng|liên|giới|trợ|thán) từ)*\)$', '', fallback_meaning)
+        meaning = review.get('meaning') or (old.get('meaning') if old_meaning_is_safe else '') or fallback_meaning
         if not meaning:
             raise ValueError(f'Missing Vietnamese meaning for {canonical!r}')
         meaning = meaning.strip()
