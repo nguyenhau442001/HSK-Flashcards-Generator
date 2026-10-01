@@ -6,6 +6,10 @@ level. Vietnamese meanings are loaded from the local 2.0 decks where possible
 and from a checked-in translation map for the remaining terms. Examples are
 reused from the project's Vietnamese sentence bank when a matching sentence
 is available; the card UI supports entries without examples.
+
+Hand-reviewed meanings and example sentences in curated_vi.json take
+precedence over both sources. Their example pinyin is generated here so the
+Chinese text, pinyin, and expected_pinyin always stay aligned.
 """
 
 import csv
@@ -23,6 +27,7 @@ VOCAB_DIR = ROOT / 'database/vocabs'
 HSK30_DIR = VOCAB_DIR / 'hsk3_0'
 SOURCE_CSV = HSK30_DIR / 'source_hsk_2025.csv'
 TRANSLATIONS = HSK30_DIR / 'translations_vi.json'
+CURATED = HSK30_DIR / 'curated_vi.json'
 SENTENCE_BANK = VOCAB_DIR / 'sentence_bank.json'
 OLD_LEVELS = [VOCAB_DIR / f'hsk{i}_vocabularies.json' for i in range(1, 7)]
 
@@ -187,13 +192,167 @@ def highlighted_example(sentence, index):
     return zh, py, sentence.get('meaning', '')
 
 
+PUNCTUATION = {'，': ', ', '、': ', ', '。': '. ', '？': '? ', '！': '! ', '：': ': ', '；': '; ',
+               '“': ' "', '”': '" ', '‘': " '", '’': "' ", '（': ' (', '）': ') ', '…': '… ', '—': ' — '}
+
+
+TONE_BASES = str.maketrans('āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜü', 'aaaaeeeeiiiioooouuuuvvvvv')
+PROPER_NOUNS = {
+    '中国', '汉语', '汉字', '中文', '英语', '英文', '法语', '日语', '北京', '上海', '广州', '香港', '台湾',
+    '长城', '长江', '黄河', '春节', '中秋节', '国庆节', '端午节', '日本', '美国', '英国', '法国', '德国',
+    '越南', '河内', '亚洲', '欧洲', '非洲', '中国人', '中华', '奥运会', '世界杯', '西安', '南京', '天津',
+    '杭州', '深圳', '成都', '重庆', '西藏', '新疆', '云南', '四川', '广东', '山东', '海南', '黄山', '泰山',
+    '故宫', '西湖', '东京', '首尔', '纽约', '伦敦', '巴黎', '韩国', '俄罗斯', '美洲',
+    '天安门', '韩语', '越南语', '普通话', '元旦', '圣诞节',
+}
+_LEXICON = None
+
+
+def word_syllables(hanzi, reading):
+    """Split a word's tone-marked pinyin into one syllable per character, or None if it does not align."""
+    from pypinyin import Style, lazy_pinyin
+
+    bases = lazy_pinyin(hanzi, style=Style.NORMAL, v_to_u=False)
+    letters = re.sub(r"[\s'’\-·]", '', reading).lower()
+    if len(hanzi) > 1 and hanzi.endswith('儿') and letters.endswith('r') and not letters.translate(TONE_BASES).endswith('er'):
+        bases[-1] = 'r'
+    syllables, offset = [], 0
+    for base in bases:
+        chunk = letters[offset:offset + len(base)]
+        if chunk.translate(TONE_BASES) != base.replace('ü', 'v'):
+            return None
+        syllables.append(chunk)
+        offset += len(base)
+    return syllables if offset == len(letters) else None
+
+
+def lexicon():
+    """Multi-character words with reviewed readings (neutral tones included) from the syllabus and 2.0 decks."""
+    global _LEXICON
+    if _LEXICON is None:
+        import jieba
+        import pypinyin
+
+        jieba.setLogLevel(60)
+        # The 2025 syllabus wins over the older decks; a word read two ways in one source is left to pypinyin.
+        sources = [[(re.sub(r'\d+$', '', row['word']), row['pinyin']) for row in syllabus_rows()],
+                   [(word['hanzi'], word['pinyin']) for word in load_local_words().values()]]
+        _LEXICON = {}
+        for entries in sources:
+            readings = defaultdict(set)
+            for hanzi, reading in entries:
+                if len(hanzi) > 1 and hanzi not in _LEXICON and re.fullmatch(r'[\u3400-\u9fff]+', hanzi):
+                    syllables = word_syllables(hanzi, reading.split('/')[0])
+                    if syllables:
+                        readings[hanzi].add(tuple(syllables))
+            _LEXICON.update((hanzi, list(options.pop())) for hanzi, options in readings.items() if len(options) == 1)
+        pypinyin.load_phrases_dict({hanzi: [[syllable] for syllable in syllables] for hanzi, syllables in _LEXICON.items()})
+        for hanzi in _LEXICON:
+            jieba.add_word(hanzi)
+    return _LEXICON
+
+
+NUMERALS = set('零一二三四五六七八九十百千万亿')
+
+
+def split_known(token, known):
+    """Forward maximum match a jieba token into known words; runs of numerals stay together (十八 shíbā)."""
+    pieces, index = [], 0
+    while index < len(token):
+        if token[index] in NUMERALS:
+            end = index
+            while end < len(token) and token[end] in NUMERALS:
+                end += 1
+            if end - index > 1:
+                pieces.append(token[index:end])
+                index = end
+                continue
+        for size in range(min(4, len(token) - index), 0, -1):
+            piece = token[index:index + size]
+            if size == 1 or piece in known:
+                pieces.append(piece)
+                index += size
+                break
+    return pieces
+
+
+def sentence_pinyin(text):
+    """Word-separated pinyin for plain Chinese text; readings come from whole jieba tokens for context."""
+    import jieba
+    from pypinyin import Style, lazy_pinyin
+
+    known = lexicon()
+    parts = []
+    previous = ''
+    position = 0
+    for token in jieba.lcut(text, HMM=False):
+        following = text[position + len(token):position + len(token) + 1]
+        position += len(token)
+        if token in PUNCTUATION:
+            parts.append(PUNCTUATION[token])
+            previous = token
+            continue
+        if not re.search(r'[\u3400-\u9fff]', token):
+            parts.append(' ' + token + ' ')
+            continue
+        syllables = lazy_pinyin(token, style=Style.TONE)
+        offset = 0
+        for piece in ([token] if token in known or token in PROPER_NOUNS else split_known(token, known)):
+            piece_syllables = known.get(piece) or syllables[offset:offset + len(piece)]
+            offset += len(piece)
+            if piece in ('儿', '们') and parts and parts[-1].strip():
+                # Erhua and the plural suffix belong to the previous word: 玩儿 wánr, 孩子们 háizimen.
+                parts[-1] = parts[-1].rstrip() + ('r' if piece == '儿' else 'men') + ' '
+                continue
+            if len(piece) > 1 and piece.endswith('儿') and piece not in ('女儿', '婴儿', '幼儿', '儿子', '儿童'):
+                piece_syllables = piece_syllables[:-1] + ['r']
+            if piece == '得':
+                piece_syllables = ['de']  # structural particle; the verb 得 děi is marked with a py override
+            if piece == '地' and offset == len(token) and previous and re.search(r'[\u3400-\u9fff]$', previous) \
+                    and previous[-1] not in '在到满一大土' and following not in '上下里面方区铁图点址':
+                piece_syllables = ['de']  # adverbial particle: 慢慢地走
+            if piece == '只' and previous[-1:] in NUMERALS | set('两几这那每哪'):
+                piece_syllables = ['zhī']  # measure word: 两只猫
+            word = piece_syllables[0] + ''.join("'" + syllable if syllable[:1] in 'aāáǎàoōóǒòeēéěè' else syllable
+                                                 for syllable in piece_syllables[1:])
+            if piece in PROPER_NOUNS:
+                word = word[:1].upper() + word[1:]
+            parts.append(' ' + word + ' ')
+            previous = piece
+    return ''.join(parts)
+
+
+def curated_example(marked_zh, marked_vi, word_pinyin, marked_py=None):
+    """Build example fields from a curated sentence whose target word is wrapped in <u>…</u>."""
+    from normalize_expected_pinyin import normalize_expected_pinyin
+
+    match = re.fullmatch(r'(.*?)<u>(.+?)</u>(.*)', marked_zh)
+    if not match:
+        raise ValueError(f'Curated example must mark the target word: {marked_zh!r}')
+    before, _, after = match.groups()
+    target = word_pinyin.split('/')[0].strip()
+    py = marked_py or sentence_pinyin(before) + f' <u>{target}</u> ' + sentence_pinyin(after)
+    py = re.sub(r'\s+', ' ', py).strip()
+    py = re.sub(r'\s+([,.?!:;"\')…])(?=\s|$)', r'\1', py)
+    py = re.sub(r'([("\'])\s+', r'\1', py)
+    # Capitalize the first letter of the example and of each sentence inside it.
+    py = re.sub(r'(^|[.!?] )(<u>)?([^\W\d_])', lambda m: m.group(1) + (m.group(2) or '') + m.group(3).upper(), py)
+    try:
+        expected = normalize_expected_pinyin(marked_zh, py)
+    except ValueError:
+        expected = ''
+    return marked_zh, py, marked_vi, expected
+
+
 def build():
     translations = load_json(TRANSLATIONS)
+    curated = load_json(CURATED) if CURATED.exists() else {}
     local = load_local_words()
     examples = load_examples()
     rows = syllabus_rows()
     readings = pronunciation_sets(rows)
     groups = defaultdict(list)
+    curated_applied = 0
     for row in rows:
         raw_level = row['levelName'].split('（', 1)[0]
         level = LEVEL_NAMES.get(raw_level)
@@ -205,7 +364,9 @@ def build():
         old = local.get(canonical, {})
         old_matches_pronunciation = pinyin_matches(old.get('pinyin', ''), row['pinyin'])
         old_meaning_is_safe = can_reuse_local_meaning(old, canonical, row['pinyin'], readings)
-        meaning = (old.get('meaning') if old_meaning_is_safe else '') or translations.get(translation_key(row), '') or translations.get(canonical, '')
+        review = curated.get(f"{row['word']}|{row['pinyin']}", {})
+        curated_applied += bool(review)
+        meaning = review.get('meaning') or (old.get('meaning') if old_meaning_is_safe else '') or translations.get(translation_key(row), '') or translations.get(canonical, '')
         if not meaning:
             raise ValueError(f'Missing Vietnamese meaning for {canonical!r}')
         meaning = meaning.strip()
@@ -215,6 +376,9 @@ def build():
         example_zh = old.get('example_zh', '') if old_matches_pronunciation else ''
         example_py = old.get('example_py', '') if old_matches_pronunciation else ''
         example_vi = old.get('example_vi', '') if old_matches_pronunciation else ''
+        expected_pinyin = old.get('expected_pinyin', '') if old_matches_pronunciation else ''
+        if review.get('zh'):
+            example_zh, example_py, example_vi, expected_pinyin = curated_example(review['zh'], review['vi'], row['pinyin'], review.get('py'))
         if not example_zh:
             candidate = next((candidate for candidate in examples.get(canonical, [])
                               if pinyin_matches(candidate[0]['pinyin_tokens'][candidate[1]], row['pinyin'])), None)
@@ -229,7 +393,7 @@ def build():
             'meaning': meaning,
             'example_zh': example_zh,
             'example_py': example_py,
-            'expected_pinyin': old.get('expected_pinyin', '') if old_matches_pronunciation else '',
+            'expected_pinyin': expected_pinyin,
             'example_vi': example_vi,
         })
 
@@ -242,6 +406,7 @@ def build():
         previous_path = HSK30_DIR / f'level{level}_vocabularies.json'
         previous = load_json(previous_path) if previous_path.exists() else []
         previous_ids = {}
+        exact_ids = {(old_word['hanzi'], old_word['pinyin']): old_word['id'] for old_word in previous}
         previous_ids_by_hanzi = defaultdict(list)
         used_ids = set()
         for old_word in previous:
@@ -255,7 +420,9 @@ def build():
         current_hanzi_counts = Counter(re.sub(r'[⁰¹²³⁴⁵⁶⁷⁸⁹]+$', '', word['hanzi']) for word in groups[level])
         for word in groups[level]:
             key = word.pop('_source_key')
-            preserved_id = previous_ids.get(key)
+            preserved_id = exact_ids.get((word['hanzi'], word['pinyin']))
+            if preserved_id is None or preserved_id in assigned_ids:
+                preserved_id = previous_ids.get(key)
             plain_hanzi = re.sub(r'[⁰¹²³⁴⁵⁶⁷⁸⁹]+$', '', word['hanzi'])
             if preserved_id is None and current_hanzi_counts[plain_hanzi] == 1 and len(previous_ids_by_hanzi[plain_hanzi]) == 1:
                 preserved_id = previous_ids_by_hanzi[plain_hanzi][0]
@@ -279,6 +446,7 @@ def build():
 
     print('Built HSK 3.0 decks:', ', '.join(f'{level}={expected[level]}' for level in expected))
     print('Rows with examples:', sum(bool(word['example_zh']) for group in groups.values() for word in group))
+    print('Curated entries applied:', curated_applied)
 
 
 if __name__ == '__main__':

@@ -349,6 +349,34 @@ body:not(.home-screen) .continue-learning-card { display: none; }
     color: var(--text-progress-detail); font-size: 11px; font-weight: 600; line-height: 1.25;
   }
   body.home-screen #screenPicker .level-card.is-active-level { border-color: var(--accent); }
+  /* HSK 3.0 has 3 rows in the same height: put percent/today beside the title so nothing overlaps. */
+  body.home-screen #screenPicker:has(#levelGrid30:not([style*="none"])) { overflow-y: auto; }
+  body.home-screen #screenPicker #levelGrid30 {
+    height: auto; min-height: 100%;
+    grid-template-rows: repeat(3, minmax(min-content, 1fr)); grid-auto-rows: minmax(min-content, 1fr);
+  }
+  body.home-screen #screenPicker #levelGrid30 .level-card {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-rows: auto minmax(0, 1fr) auto auto;
+    grid-template-areas: "top pct" "top ." "track track" "text today";
+    gap: 3px 10px; padding: 9px 14px; align-content: center;
+  }
+  body.home-screen #screenPicker #levelGrid30 .level-card-top { grid-area: top; gap: 2px; }
+  body.home-screen #screenPicker #levelGrid30 .level-card-meta { white-space: nowrap; line-height: 1.2; }
+  body.home-screen #screenPicker #levelGrid30 .lvl-shared-note { line-height: 1.2; }
+  body.home-screen #screenPicker #levelGrid30 .level-card-progress,
+  body.home-screen #screenPicker #levelGrid30 .level-card-progress-heading { display: contents; }
+  body.home-screen #screenPicker #levelGrid30 .lvl-num { font-size: 21px; }
+  body.home-screen #screenPicker #levelGrid30 .lvl-percent-value { grid-area: pct; justify-self: end; font-size: 22px; }
+  body.home-screen #screenPicker #levelGrid30 .lvl-today-count { grid-area: today; justify-self: end; padding: 2px 7px; font-size: 10px; }
+  body.home-screen #screenPicker #levelGrid30 .lvl-mastery-track { grid-area: track; margin-top: 2px; }
+  body.home-screen #screenPicker #levelGrid30 .lvl-mastery-text { grid-area: text; align-self: center; min-width: 0; padding-top: 0; border-top: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  body.home-screen #screenPicker #levelGrid30 .lvl-soon { grid-column: 1 / -1; margin: 0; }
+  @media (max-width: 1439px) {
+    body.home-screen #screenPicker #levelGrid30 .level-card { column-gap: 6px; padding-inline: 10px; }
+    body.home-screen #screenPicker #levelGrid30 .lvl-mastery-text { font-size: 10px; }
+    body.home-screen #screenPicker #levelGrid30 .lvl-today-count { padding-inline: 5px; font-size: 9px; }
+  }
   body.home-screen .dashboard-aux-column {
     grid-area: aux; align-self: stretch; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 10px;
   }
