@@ -13,21 +13,21 @@
     "id": 2,
     "hanzi": "挨家挨户",
     "pinyin": "āijiā-āihù",
-    "meaning": "cửa đến cửa",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "từng nhà từng hộ, gõ cửa từng nhà",
+    "example_zh": "社区志愿者<u>挨家挨户</u>走访，向居民宣传垃圾分类知识。",
+    "example_py": "Shèqū zhìyuànzhě <u>āijiā-āihù</u> zǒu fǎng, xiàng jūmín xuānchuán lājī fēnlèi zhīshi.",
+    "expected_pinyin": "she4 qu1 zhi4 yuan4 zhe3 ai1 jia1 ai1 hu4 zou3 fang3 | xiang4 ju1 min2 xuan1 chuan2 la1 ji1 fen1 lei4 zhi1 shi0",
+    "example_vi": "Tình nguyện viên khu phố đi gõ cửa <u>từng nhà từng hộ</u> để tuyên truyền kiến thức phân loại rác cho người dân."
   },
   {
     "id": 3,
     "hanzi": "哀求",
     "pinyin": "āiqiú",
-    "meaning": "cầu xin",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "van xin, tha thiết cầu xin",
+    "example_zh": "小男孩眼含泪水，苦苦<u>哀求</u>妈妈再给他买一本喜爱的童话书。",
+    "example_py": "Xiǎo nán hái yǎn hán lèishuǐ, kǔ kǔ <u>āiqiú</u> māma zài gěi tā mǎi yī běn xǐ'ài de tónghuà shū.",
+    "expected_pinyin": "xiao3 nan2 hai2 yan3 han2 lei4 shui3 | ku3 ku3 ai1 qiu2 ma1 ma0 zai4 gei3 ta1 mai3 yi1 ben3 xi3 ai4 de0 tong2 hua4 shu1",
+    "example_vi": "Cậu bé rơm rớm nước mắt, khổ sở <u>van xin</u> mẹ mua thêm cho mình một cuốn truyện cổ tích yêu thích."
   },
   {
     "id": 4,
@@ -44,10 +44,10 @@
     "hanzi": "癌",
     "pinyin": "ái",
     "meaning": "ung thư",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "example_zh": "早发现、早诊断和早治疗是提高各种<u>癌</u>症治愈率的关键。",
+    "example_py": "Zǎo fāxiàn, zǎo zhěnduàn hé zǎo zhìliáo shì tígāo gèzhǒng <u>ái</u> zhèng zhìyù lǜ de guānjiàn.",
+    "expected_pinyin": "zao3 fa1 xian4 zao3 zhen3 duan4 he2 zao3 zhi4 liao2 shi4 ti2 gao1 ge4 zhong3 ai2 zheng4 zhi4 yu4 lv4 de0 guan1 jian4",
+    "example_vi": "Phát hiện sớm, chẩn đoán sớm và điều trị sớm là chìa khóa nâng cao tỷ lệ chữa khỏi các bệnh <u>ung thư</u>."
   },
   {
     "id": 6,
@@ -63,11 +63,11 @@
     "id": 7,
     "hanzi": "爱不释手",
     "pinyin": "àibúshìshǒu",
-    "meaning": "yêu thích đến mức không muốn rời tay",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "yêu thích đến mức không nỡ rời tay",
+    "example_zh": "收到这件做工精美的玉雕礼物，他高兴得<u>爱不释手</u>。",
+    "example_py": "Shōudào zhè jiàn zuò gōng jīngměi de yù diāo lǐwù, tā gāoxìng de <u>àibúshìshǒu</u>.",
+    "expected_pinyin": "shou1 dao4 zhe4 jian4 zuo4 gong1 jing1 mei3 de0 yu4 diao1 li3 wu4 | ta1 gao1 xing4 de0 ai4 bu2 shi4 shou3",
+    "example_vi": "Nhận được món quà ngọc điêu khắc tinh xảo này, anh ấy vui mừng đến mức <u>yêu thích không nỡ rời tay</u>."
   },
   {
     "id": 8,
@@ -103,11 +103,11 @@
     "id": 11,
     "hanzi": "碍事",
     "pinyin": "àishì",
-    "meaning": "cản đường",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "vướng víu, cản trở, cản đường",
+    "example_zh": "请把走廊里堆放的杂物挪走，放在这里实在太<u>碍事</u>了。",
+    "example_py": "Qǐng bǎ zǒuláng lǐ duī fàng de zá wù nuó zǒu, fàng zài zhèlǐ shízài tài <u>àishì</u> le.",
+    "expected_pinyin": "qing3 ba3 zou3 lang2 li3 dui1 fang4 de0 za2 wu4 nuo2 zou3 | fang4 zai4 zhe4 li3 shi2 zai4 tai4 ai4 shi4 le0",
+    "example_vi": "Xin hãy chuyển đống đồ đạc để ở hành lang đi, để ở đây thật sự quá <u>vướng víu</u>."
   },
   {
     "id": 12,
@@ -123,41 +123,41 @@
     "id": 13,
     "hanzi": "艾滋病",
     "pinyin": "àizībìng",
-    "meaning": "aIDS",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "bệnh AIDS, hội chứng suy giảm miễn dịch",
+    "example_zh": "全社会应当消除歧视，给予<u>艾滋病</u>患者更多的关怀与理解。",
+    "example_py": "Quán shèhuì yīngdāng xiāochú qíshì, jǐyǔ <u>àizībìng</u> huànzhě gèng duō de guānhuái yǔ lǐjiě.",
+    "expected_pinyin": "quan2 she4 hui4 ying1 dang1 xiao1 chu2 qi2 shi4 | ji3 yu3 ai4 zi1 bing4 huan4 zhe3 geng4 duo1 de0 guan1 huai2 yu3 li3 jie3",
+    "example_vi": "Toàn xã hội nên xóa bỏ kỳ thị, dành cho các bệnh nhân <u>AIDS</u> nhiều sự quan tâm và thấu hiểu hơn."
   },
   {
     "id": 14,
     "hanzi": "安定",
     "pinyin": "āndìng",
-    "meaning": "tính ổn định",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "an định, ổn định, yên lòng",
+    "example_zh": "只有国家繁荣富强，人民才能过上和平<u>安定</u>的幸福生活。",
+    "example_py": "Zhǐyǒu guójiā fánróng fùqiáng, rénmín cáinéng guò shàng hépíng <u>āndìng</u> de xìngfú shēnghuó.",
+    "expected_pinyin": "zhi3 you3 guo2 jia1 fan2 rong2 fu4 qiang2 | ren2 min2 cai2 neng2 guo4 shang4 he2 ping2 an1 ding4 de0 xing4 fu2 sheng1 huo2",
+    "example_vi": "Chỉ khi đất nước phồn vinh giàu mạnh, nhân dân mới có thể sống cuộc đời hạnh phúc hòa bình <u>ổn định</u>."
   },
   {
     "id": 15,
     "hanzi": "安抚",
     "pinyin": "ānfǔ",
-    "meaning": "sự thoải mái",
-    "example_zh": "",
-    "example_py": "",
+    "meaning": "an ủi vỗ về, xoa dịu",
+    "example_zh": "老师温柔地搂住受惊吓的小女孩，轻声<u>安抚</u>她紧张的情绪。",
+    "example_py": "Lǎoshī wēnróu de lǒu zhù shòujīng xià de xiǎo nǚ hái, qīng shēng <u>ānfǔ</u> tā jǐnzhāng de qíngxù.",
     "expected_pinyin": "",
-    "example_vi": ""
+    "example_vi": "Cô giáo dịu dàng ôm lấy bé gái bị hoảng sợ, cất lời <u>vỗ về</u> tâm trạng căng thẳng của em."
   },
   {
     "id": 16,
     "hanzi": "安眠药",
     "pinyin": "ānmiányào",
     "meaning": "thuốc ngủ",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "example_zh": "长期依赖大剂量<u>安眠药</u>入睡容易对身体健康产生负面影响。",
+    "example_py": "Chángqī yīlài dà jìliàng <u>ānmiányào</u> rù shuì róngyì duì shēntǐ jiànkāng chǎnshēng fùmiàn yǐngxiǎng.",
+    "expected_pinyin": "chang2 qi1 yi1 lai4 da4 ji4 liang4 an1 mian2 yao4 ru4 shui4 rong2 yi4 dui4 shen1 ti3 jian4 kang1 chan3 sheng1 fu4 mian4 ying3 xiang3",
+    "example_vi": "Lạm dụng liều lượng lớn <u>thuốc ngủ</u> lâu ngày để vào giấc dễ gây ra tác động tiêu cực tới sức khỏe."
   },
   {
     "id": 17,
@@ -173,11 +173,11 @@
     "id": 18,
     "hanzi": "安稳",
     "pinyin": "ānwěn",
-    "meaning": "ổn định",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "yên ổn, vững vàng, êm đềm",
+    "example_zh": "忙碌奔波了一整天，今晚他终于能够睡一个<u>安稳</u>觉了。",
+    "example_py": "Mánglù bēnbō le yī zhěng tiān, jīn wǎn tā zhōngyú nénggòu shuì yí gè <u>ānwěn</u> jué le.",
+    "expected_pinyin": "mang2 lu4 ben1 bo1 le0 yi1 zheng3 tian1 | jin1 wan3 ta1 zhong1 yu2 neng2 gou4 shui4 yi2 ge4 an1 wen3 jue2 le0",
+    "example_vi": "Bận rộn bôn ba suốt cả ngày, tối nay anh ấy cuối cùng cũng được ngủ một giấc thật <u>yên ổn</u>."
   },
   {
     "id": 19,
@@ -193,21 +193,21 @@
     "id": 20,
     "hanzi": "安心",
     "pinyin": "ānxīn",
-    "meaning": "yên tâm",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "an tâm, yên tâm",
+    "example_zh": "有了大家的齐心协助，他终于能够<u>安心</u>投入到手术治疗中。",
+    "example_py": "Yǒu le dàjiā de qí xīn xiézhù, tā zhōngyú nénggòu <u>ānxīn</u> tóurù dào shǒushù zhìliáo zhōng.",
+    "expected_pinyin": "you3 le0 da4 jia1 de0 qi2 xin1 xie2 zhu4 | ta1 zhong1 yu2 neng2 gou4 an1 xin1 tou2 ru4 dao4 shou3 shu4 zhi4 liao2 zhong1",
+    "example_vi": "Có sự đồng lòng hỗ trợ của mọi người, anh ấy cuối cùng đã có thể <u>yên tâm</u> bước vào đợt điều trị phẫu thuật."
   },
   {
     "id": 21,
     "hanzi": "安逸",
     "pinyin": "ānyì",
-    "meaning": "thoải mái",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "an nhàn, thảnh thơi",
+    "example_zh": "年轻人不应该过早贪图<u>安逸</u>舒适的生活，而应勇于拼搏创业。",
+    "example_py": "Niánqīng rén bù yīnggāi guò zǎo tān tú <u>ānyì</u> shūshì de shēnghuó, ér yīng yǒngyú pīnbó chuàngyè.",
+    "expected_pinyin": "nian2 qing1 ren2 bu4 ying1 gai1 guo4 zao3 tan1 tu2 an1 yi4 shu1 shi4 de0 sheng1 huo2 | er2 ying1 yong3 yu2 pin1 bo2 chuang4 ye4",
+    "example_vi": "Người trẻ không nên quá sớm tham lam một cuộc sống <u>an nhàn</u> thoải mái, mà cần dũng cảm phấn đấu lập nghiệp."
   },
   {
     "id": 22,
@@ -223,11 +223,11 @@
     "id": 23,
     "hanzi": "暗地里",
     "pinyin": "àndìlǐ",
-    "meaning": "bí mật",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "ngấm ngầm, lén lút sau lưng",
+    "example_zh": "表面上他和颜悦色，<u>暗地里</u>却在处心积虑给同事设置障碍。",
+    "example_py": "Biǎomiàn shàng tā hé yán yuè sè, <u>àndìlǐ</u> què zài chǔ xīn jī lǜ gěi tóngshì shèzhì zhàng'ài.",
+    "expected_pinyin": "biao3 mian4 shang4 ta1 he2 yan2 yue4 se4 | an4 di4 li3 que4 zai4 chu3 xin1 ji1 lv4 gei3 tong2 shi4 she4 zhi4 zhang4 ai4",
+    "example_vi": "Bề ngoài anh ta tỏ ra nhã nhặn ôn hòa, nhưng <u>ngấm ngầm</u> sau lưng lại tìm mọi cách tạo rào cản cho đồng nghiệp."
   },
   {
     "id": 24,
@@ -243,11 +243,11 @@
     "id": 25,
     "hanzi": "按理",
     "pinyin": "ànlǐ",
-    "meaning": "hợp lý",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "theo lẽ thường, đúng lý ra",
+    "example_zh": "<u>按理</u>说他今天上午就该抵达，可能是因为航班延误耽搁了。",
+    "example_py": "<u>Ànlǐ</u> shuō tā jīntiān shàngwǔ jiù gāi dǐdá, kěnéng shì yīnwèi hángbān yánwù dānge le.",
+    "expected_pinyin": "an4 li3 shuo1 ta1 jin1 tian1 shang4 wu3 jiu4 gai1 di3 da2 | ke3 neng2 shi4 yin1 wei4 hang2 ban1 yan2 wu4 dan1 ge0 le0",
+    "example_vi": "<u>Đúng lý ra</u> sáng nay anh ấy đã phải tới nơi, có lẽ do chuyến bay bị hoãn nên trễ giờ."
   },
   {
     "id": 26,
@@ -263,31 +263,31 @@
     "id": 27,
     "hanzi": "按说",
     "pinyin": "ànshuō",
-    "meaning": "thông thường",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "lẽ ra, thông thường mà nói",
+    "example_zh": "这道数学题难度并不大，<u>按说</u>初中生都应该能够轻松解出来。",
+    "example_py": "Zhè dào shùxué tí nándù bìng bù dà, <u>ànshuō</u> chūzhōng shēng dōu yīnggāi nénggòu qīngsōng jiě chūlái.",
+    "expected_pinyin": "zhe4 dao4 shu4 xue2 ti2 nan2 du4 bing4 bu4 da4 | an4 shuo1 chu1 zhong1 sheng1 dou1 ying1 gai1 neng2 gou4 qing1 song1 jie3 chu1 lai2",
+    "example_vi": "Bài toán này độ khó không hề lớn, <u>lẽ ra</u> học sinh cấp hai đều có thể dễ dàng giải ra được."
   },
   {
     "id": 28,
     "hanzi": "暗中",
     "pinyin": "ànzhōng",
-    "meaning": "bí mật",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "ngầm, lén lút, trong bóng tối",
+    "example_zh": "便衣警察在<u>暗中</u>密切注视着犯罪嫌疑人的一举一动。",
+    "example_py": "Biàn yī jǐngchá zài <u>ànzhōng</u> mìqiè zhùshì zhe fànzuì xiányí rén de yìjǔyídòng.",
+    "expected_pinyin": "bian4 yi1 jing3 cha2 zai4 an4 zhong1 mi4 qie4 zhu4 shi4 zhe0 fan4 zui4 xian2 yi2 ren2 de0 yi4 ju3 yi2 dong4",
+    "example_vi": "Cảnh sát mặc thường phục đã <u>ngầm</u> theo dõi sát sao từng cử chỉ hành động của kẻ tình nghi phạm tội."
   },
   {
     "id": 29,
     "hanzi": "凹",
     "pinyin": "āo",
-    "meaning": "lõm",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "lõm, trũng xuống",
+    "example_zh": "经过千万年雨水的冲刷，坚硬的岩石表面形成了一块浅浅的<u>凹</u>坑。",
+    "example_py": "Jīngguò qiānwàn nián yǔshuǐ de chōng shuā, jiānyìng de yánshí biǎomiàn xíngchéng le yī kuài qiǎn qiǎn de <u>āo</u> kēng.",
+    "expected_pinyin": "jing1 guo4 qian1 wan4 nian2 yu3 shui3 de0 chong1 shua1 | jian1 ying4 de0 yan2 shi2 biao3 mian4 xing2 cheng2 le0 yi1 kuai4 qian3 qian3 de0 ao1 keng1",
+    "example_vi": "Trải qua hàng ngàn năm mưa xối xả, trên bề mặt tảng đá cứng đã hình thành một hố <u>lõm</u> nông."
   },
   {
     "id": 30,
@@ -303,21 +303,21 @@
     "id": 31,
     "hanzi": "傲",
     "pinyin": "ào",
-    "meaning": "tự hào",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "kiêu ngạo, ngạo nghễ",
+    "example_zh": "做人应当谦虚低调，千万不可自以为是有半点骄<u>傲</u>之气。",
+    "example_py": "Zuò rén yīngdāng qiānxū dīdiào, qiānwàn bù kě zìyǐwéishì yǒu bàn diǎn jiāo <u>ào</u> zhī qì.",
+    "expected_pinyin": "zuo4 ren2 ying1 dang1 qian1 xu1 di1 diao4 | qian1 wan4 bu4 ke3 zi4 yi3 wei2 shi4 you3 ban4 dian3 jiao1 ao4 zhi1 qi4",
+    "example_vi": "Làm người nên khiêm tốn nhã nhặn, chớ tự cho mình là đúng mà mang chút tính <u>kiêu ngạo</u>."
   },
   {
     "id": 32,
     "hanzi": "傲慢",
     "pinyin": "àomàn",
-    "meaning": "kiêu ngạo",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "kiêu ngạo, ngạo mạn",
+    "example_zh": "他那种目中无人且十分<u>傲慢</u>的态度引起了在场所有人的反感。",
+    "example_py": "Tā nà zhǒng mùzhōngwúrén qiě shífēn <u>àomàn</u> de tàidù yǐnqǐ le zàichǎng suǒyǒu rén de fǎngǎn.",
+    "expected_pinyin": "ta1 na4 zhong3 mu4 zhong1 wu2 ren2 qie3 shi2 fen1 ao4 man4 de0 tai4 du4 yin3 qi3 le0 zai4 chang3 suo3 you3 ren2 de0 fan3 gan3",
+    "example_vi": "Thái độ coi trời bằng vung vô cùng <u>ngạo mạn</u> của hắn đã gây ra ác cảm cho tất cả mọi người có mặt."
   },
   {
     "id": 33,
@@ -333,21 +333,21 @@
     "id": 34,
     "hanzi": "扒",
     "pinyin": "bā",
-    "meaning": "bít tết",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "bóc, lột, vạch ra, cào",
+    "example_zh": "他坐在火炉旁，一边烤火一边慢慢地<u>扒</u>开热气腾腾的烤红薯皮。",
+    "example_py": "Tā zuò zài huǒ lú páng, yìbiān kǎo huǒ yìbiān màn màn dì <u>bā</u> kāi rè qì téng téng de kǎo hóngshǔ pí.",
+    "expected_pinyin": "ta1 zuo4 zai4 huo3 lu2 pang2 | yi4 bian1 kao3 huo3 yi4 bian1 man4 man4 di4 ba1 kai1 re4 qi4 teng2 teng2 de0 kao3 hong2 shu3 pi2",
+    "example_vi": "Anh ấy ngồi bên lò sưởi, vừa sưởi ấm vừa từ từ <u>bóc</u> vỏ củ khoai lang nướng nóng hổi."
   },
   {
     "id": 35,
     "hanzi": "疤",
     "pinyin": "bā",
     "meaning": "vết sẹo",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "example_zh": "那次意外摔伤在他手臂上留下了一道长长的浅浅伤<u>疤</u>。",
+    "example_py": "Nà cì yìwài shuāi shāng zài tā shǒubì shàng liúxia le yídào cháng cháng de qiǎn qiǎn shāng <u>bā</u>.",
+    "expected_pinyin": "na4 ci4 yi4 wai4 shuai1 shang1 zai4 ta1 shou3 bi4 shang4 liu2 xia0 le0 yi2 dao4 chang2 chang2 de0 qian3 qian3 shang1 ba1",
+    "example_vi": "Lần ngã bất cẩn đó đã để lại một vết <u>sẹo</u> dài mờ mờ trên cánh tay anh ấy."
   },
   {
     "id": 36,
@@ -363,21 +363,21 @@
     "id": 37,
     "hanzi": "八成",
     "pinyin": "bāchéng",
-    "meaning": "80% (định lượng, trạng từ)",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "tám phần mười; có lẽ, chắc mẩm",
+    "example_zh": "看着天空中密布的乌云，今天傍晚<u>八成</u>要下大雨。",
+    "example_py": "Kàn zhe tiānkōng zhōng mìbù de wūyún, jīntiān bàngwǎn <u>bāchéng</u> yào xià dà yǔ.",
+    "expected_pinyin": "kan4 zhe0 tian1 kong1 zhong1 mi4 bu4 de0 wu1 yun2 | jin1 tian1 bang4 wan3 ba1 cheng2 yao4 xia4 da4 yu3",
+    "example_vi": "Nhìn mây đen vần vũ trên bầu trời, chiều tối nay <u>có đến tám phần mười</u> là sẽ đổ mưa to."
   },
   {
     "id": 38,
     "hanzi": "八卦",
     "pinyin": "bāguà",
-    "meaning": "bát quái",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "bát quái; chuyện phiếm, tin đồn giật gân",
+    "example_zh": "大家休息时常常聚在一起聊一些娱乐圈里的花边<u>八卦</u>新闻。",
+    "example_py": "Dàjiā xiūxi shí chángcháng jù zài yìqǐ liáo yìxiē yúlè quān lǐ de huā biān <u>bāguà</u> xīnwén.",
+    "expected_pinyin": "da4 jia1 xiu1 xi0 shi2 chang2 chang2 ju4 zai4 yi4 qi3 liao2 yi4 xie1 yu2 le4 quan1 li3 de0 hua1 bian1 ba1 gua4 xin1 wen2",
+    "example_vi": "Khi nghỉ ngơi mọi người thường tụ tập buôn mấy tin đồn <u>chuyện phiếm</u> giật gân trong giới giải trí."
   },
   {
     "id": 39,
@@ -393,41 +393,41 @@
     "id": 40,
     "hanzi": "芭蕾",
     "pinyin": "bālěi",
-    "meaning": "múa ba lê",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "múa ba-lê, ballet",
+    "example_zh": "她在舞台上轻盈优美的<u>芭蕾</u>舞姿赢得了全场雷鸣般的掌声。",
+    "example_py": "Tā zài wǔtái shàng qīng yíng yōuměi de <u>bālěi</u> wǔ zī yíngdé le quán chǎng léi míng bān de zhǎngshēng.",
+    "expected_pinyin": "ta1 zai4 wu3 tai2 shang4 qing1 ying2 you1 mei3 de0 ba1 lei3 wu3 zi1 ying2 de2 le0 quan2 chang3 lei2 ming2 ban1 de0 zhang3 sheng1",
+    "example_vi": "Điệu múa <u>ba-lê</u> uyển chuyển nhẹ nhàng của cô trên sân khấu đã nhận được tràng pháo tay như sấm dậy khắp khán phòng."
   },
   {
     "id": 41,
     "hanzi": "巴掌",
     "pinyin": "bāzhang",
-    "meaning": "cái tát",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "lòng bàn tay, cái tát tay",
+    "example_zh": "这块精巧的袖珍电脑主机体积小巧得只有成年人<u>巴掌</u>那么大。",
+    "example_py": "Zhè kuài jīngqiǎo de xiùzhēn diànnǎo zhǔ jī tǐjī xiǎo qiǎo de zhǐyǒu chéngnián rén <u>bāzhang</u> nàme dà.",
+    "expected_pinyin": "zhe4 kuai4 jing1 qiao3 de0 xiu4 zhen1 dian4 nao3 zhu3 ji1 ti3 ji1 xiao3 qiao3 de0 zhi3 you3 cheng2 nian2 ren2 ba1 zhang0 na4 me0 da4",
+    "example_vi": "Chiếc thân máy vi tính mini tinh xảo này thể tích nhỏ gọn chỉ bằng <u>lòng bàn tay</u> người lớn."
   },
   {
     "id": 42,
     "hanzi": "拔",
     "pinyin": "bá",
-    "meaning": "rút ra",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "nhổ, rút, vút cao",
+    "example_zh": "菜农们清晨顶着露水在田地里忙着<u>拔</u>新鲜水灵的萝卜。",
+    "example_py": "Cài nóngmen qīngchén dǐng zhe lù shuǐ zài tián dì lǐ máng zhe <u>bá</u> xīnxiān shuǐ líng de luóbo.",
+    "expected_pinyin": "cai4 nong2 men0 qing1 chen2 ding3 zhe0 lu4 shui3 zai4 tian2 di4 li3 mang2 zhe0 ba2 xin1 xian1 shui3 ling2 de0 luo2 bo0",
+    "example_vi": "Các bác nông dân sớm tinh mơ đội sương bận rộn trên luống ruộng để <u>nhổ</u> những củ cải tươi non mơn mởn."
   },
   {
     "id": 43,
     "hanzi": "把柄",
     "pinyin": "bǎbǐng",
-    "meaning": "tay cầm",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "thóp, bằng cớ sơ hở (bị nắm thóp)",
+    "example_zh": "身正不怕影子斜，只要行事光明磊落，就绝不会让对手抓到任何<u>把柄</u>。",
+    "example_py": "Shēn zhèng bù pà yǐngzi xié, zhǐyào xíng shì guāngmínglěiluò, jiù jué bú huì ràng duìshǒu zhuā dào rènhé <u>bǎbǐng</u>.",
+    "expected_pinyin": "shen1 zheng4 bu4 pa4 ying3 zi0 xie2 | zhi3 yao4 xing2 shi4 guang1 ming2 lei3 luo4 | jiu4 jue2 bu2 hui4 rang4 dui4 shou3 zhua1 dao4 ren4 he2 ba3 bing3",
+    "example_vi": "Cây ngay không sợ chết đứng, chỉ cần hành sự quang minh chính đại thì tuyệt đối sẽ không để đối thủ nắm được bất kỳ cái <u>thóp</u> nào."
   },
   {
     "id": 44,
@@ -443,31 +443,31 @@
     "id": 45,
     "hanzi": "把手",
     "pinyin": "bǎshou",
-    "meaning": "tay cầm",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "tay nắm, tay cầm (cửa/xe)",
+    "example_zh": "请握紧车厢内的安全<u>把手</u>，防止列车急刹车时摔倒。",
+    "example_py": "Qǐng wò jǐn chēxiāng nèi de ānquán <u>bǎshou</u>, fángzhǐ lièchē jí shāchē shí shuāidǎo.",
+    "expected_pinyin": "qing3 wo4 jin3 che1 xiang1 nei4 de0 an1 quan2 ba3 shou0 | fang2 zhi3 lie4 che1 ji2 sha1 che1 shi2 shuai1 dao3",
+    "example_vi": "Xin hãy nắm chặt <u>tay cầm</u> an toàn trong toa xe để tránh bị ngã khi đoàn tàu phanh gấp."
   },
   {
     "id": 46,
     "hanzi": "靶子",
     "pinyin": "bǎzi",
-    "meaning": "mục tiêu",
-    "example_zh": "",
-    "example_py": "",
+    "meaning": "bia bắn, mục tiêu ngắm",
+    "example_zh": "射箭运动员沉着冷静地拉开强弓，利箭稳稳命中了百米外的<u>靶子</u>红心。",
+    "example_py": "Shè jiàn yùndòngyuán chénzhuó lěngjìng de lā kāi qiáng gōng, lì jiàn wěn wěn mìng zhòng le bǎi mǐ wài de <u>bǎzi</u> hóng xīn.",
     "expected_pinyin": "",
-    "example_vi": ""
+    "example_vi": "Vận động viên bắn cung bình tĩnh giương cây cung lớn, mũi tên sắc bén trúng phóc tâm <u>bia</u> cách xa trăm mét."
   },
   {
     "id": 47,
     "hanzi": "坝",
     "pinyin": "bà",
-    "meaning": "đập",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "con đập, đập ngăn nước",
+    "example_zh": "横跨大江的三峡水利大<u>坝</u>在防洪抗旱中发挥着无可替代的巨大作用。",
+    "example_py": "Héng kuà dà jiāng de sān xiá shuǐlì dà <u>bà</u> zài fáng hóng kàng hàn zhōng fāhuī zhe wú kě tì dài de jùdà zuòyòng.",
+    "expected_pinyin": "heng2 kua4 da4 jiang1 de0 san1 xia2 shui3 li4 da4 ba4 zai4 fang2 hong2 kang4 han4 zhong1 fa1 hui1 zhe0 wu2 ke3 ti4 dai4 de0 ju4 da4 zuo4 yong4",
+    "example_vi": "Con <u>đập</u> thủy lợi Tam Hiệp bắc qua dòng sông lớn phát huy tác dụng to lớn không gì thay thế được trong việc chống lũ ngừa hạn."
   },
   {
     "id": 48,
@@ -493,41 +493,41 @@
     "id": 50,
     "hanzi": "罢了",
     "pinyin": "bàle",
-    "meaning": "chỉ (hạt)",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "mà thôi, vậy thôi",
+    "example_zh": "这只是一次普通的模拟测验<u>罢了</u>，没考好也不必过于灰心丧气。",
+    "example_py": "Zhè zhǐshì yī cì pǔtōng de mónǐ cèyàn <u>bàle</u>, méi kǎo hǎo yě búbì guòyú huīxīn sàng qì.",
+    "expected_pinyin": "zhe4 zhi3 shi4 yi1 ci4 pu3 tong1 de0 mo2 ni3 ce4 yan4 ba4 le0 | mei2 kao3 hao3 ye3 bu2 bi4 guo4 yu2 hui1 xin1 sang4 qi4",
+    "example_vi": "Đây chỉ là một lần kiểm tra thử bình thường <u>mà thôi</u>, thi chưa tốt cũng không cần quá nản lòng thối chí."
   },
   {
     "id": 51,
     "hanzi": "罢免",
     "pinyin": "bàmiǎn",
-    "meaning": "loại bỏ",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "bãi miễn, cách chức",
+    "example_zh": "董事会经过严肃审议和表决，依法<u>罢免</u>了严重失职的原总经理职务。",
+    "example_py": "Dǒngshìhuì jīngguò yánsù shěn yì hé biǎojué, yīfǎ <u>bàmiǎn</u> le yánzhòng shī zhí de yuán zǒng jīnglǐ zhíwù.",
+    "expected_pinyin": "dong3 shi4 hui4 jing1 guo4 yan2 su4 shen3 yi4 he2 biao3 jue2 | yi1 fa3 ba4 mian3 le0 yan2 zhong4 shi1 zhi2 de0 yuan2 zong3 jing1 li3 zhi2 wu4",
+    "example_vi": "Hội đồng quản trị sau khi xem xét và bỏ phiếu nghiêm túc đã <u>bãi miễn</u> chức vụ của vị cựu tổng giám đốc thiếu trách nhiệm nghiêm trọng theo đúng quy định."
   },
   {
     "id": 52,
     "hanzi": "罢休",
     "pinyin": "bàxiū",
-    "meaning": "từ bỏ",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "thôi, chịu thôi, bỏ cuộc",
+    "example_zh": "他是一个性格极其执着的人，不达目的誓不<u>罢休</u>。",
+    "example_py": "Tā shì yí gè xìnggé jíqí zhízhuó de rén, bù dá mùdì shì bù <u>bàxiū</u>.",
+    "expected_pinyin": "ta1 shi4 yi2 ge4 xing4 ge2 ji2 qi2 zhi2 zhuo2 de0 ren2 | bu4 da2 mu4 di4 shi4 bu4 ba4 xiu1",
+    "example_vi": "Anh ấy là người có tính cách vô cùng kiên trì, chưa đạt được mục đích thì thề không <u>chịu thôi</u>."
   },
   {
     "id": 53,
     "hanzi": "霸占",
     "pinyin": "bàzhàn",
-    "meaning": "chiếm giữ",
-    "example_zh": "",
-    "example_py": "",
+    "meaning": "bá chiếm, chiếm đoạt ngang ngược",
+    "example_zh": "任何个人都绝不能自私地长期强行<u>霸占</u>公共停车位。",
+    "example_py": "Rènhé gèrén dōu jué bù néng zìsī de chángqī qiángxíng <u>bàzhàn</u> gōnggòng tíngchē wèi.",
     "expected_pinyin": "",
-    "example_vi": ""
+    "example_vi": "Bất kỳ cá nhân nào cũng tuyệt đối không được ích kỷ ngang ngược <u>chiếm đoạt</u> chỗ đỗ xe công cộng lâu dài."
   },
   {
     "id": 54,
@@ -543,81 +543,81 @@
     "id": 55,
     "hanzi": "百般",
     "pinyin": "bǎibān",
-    "meaning": "khác nhau (trạng từ, định lượng)",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "trăm phương nghìn kế, đủ mọi cách",
+    "example_zh": "面对专家的严谨质询，负责人<u>百般</u>辩解却始终无法自圆其说。",
+    "example_py": "Miànduì zhuānjiā de yánjǐn zhì xún, fùzérén <u>bǎibān</u> biànjiě què shǐzhōng wúfǎ zì yuán qí shuō.",
+    "expected_pinyin": "mian4 dui4 zhuan1 jia1 de0 yan2 jin3 zhi4 xun2 | fu4 ze2 ren2 bai3 ban1 bian4 jie3 que4 shi3 zhong1 wu2 fa3 zi4 yuan2 qi2 shuo1",
+    "example_vi": "Đối mặt với sự chất vấn nghiêm cẩn của các chuyên gia, người phụ trách <u>đủ mọi cách</u> giải thích nhưng rốt cuộc không thể biện bạch hợp lý."
   },
   {
     "id": 56,
     "hanzi": "摆动",
     "pinyin": "bǎidòng",
-    "meaning": "đu đưa",
-    "example_zh": "",
-    "example_py": "",
+    "meaning": "đung đưa, lắc lư",
+    "example_zh": "挂钟下方的金色钟摆在墙上不紧不慢、十分均匀地左右<u>摆动</u>着。",
+    "example_py": "Guà zhōng xià fāng de jīn sè zhōng bǎi zài qiáng shàng bù jǐn bù màn, shífēn jūnyún de zuǒyòu <u>bǎidòng</u> zhe.",
     "expected_pinyin": "",
-    "example_vi": ""
+    "example_vi": "Quả lắc màu vàng phía dưới chiếc đồng hồ treo tường trên vách khoan thai <u>đung đưa</u> sang trái sang phải rất đều đặn."
   },
   {
     "id": 57,
     "hanzi": "百分比",
     "pinyin": "bǎifēnbǐ",
     "meaning": "tỷ lệ phần trăm",
-    "example_zh": "",
-    "example_py": "",
+    "example_zh": "统计图表清晰地展示了各项财政支出在总预算中所占的<u>百分比</u>。",
+    "example_py": "Tǒngjì túbiǎo qīngxī de zhǎnshì le gè xiàng cáizhèng zhīchū zài zǒng yùsuàn zhōng suǒ zhàn de <u>bǎifēnbǐ</u>.",
     "expected_pinyin": "",
-    "example_vi": ""
+    "example_vi": "Biểu đồ thống kê đã thể hiện rõ ràng <u>tỷ lệ phần trăm</u> của từng khoản chi ngân sách trong tổng dự toán."
   },
   {
     "id": 58,
     "hanzi": "百合",
     "pinyin": "bǎihé",
-    "meaning": "hoa huệ",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "hoa bách hợp, hoa loa kèn",
+    "example_zh": "花瓶里插着几枝洁白淡雅的<u>百合</u>花，满屋飘散着淡淡的清香。",
+    "example_py": "Huā píng lǐ chā zhe jǐ zhī jiébái dàn yǎ de <u>bǎihé</u> huā, mǎn wū piāo sàn zhe dàn dàn de qīng xiāng.",
+    "expected_pinyin": "hua1 ping2 li3 cha1 zhe0 ji3 zhi1 jie2 bai2 dan4 ya3 de0 bai3 he2 hua1 | man3 wu1 piao1 san4 zhe0 dan4 dan4 de0 qing1 xiang1",
+    "example_vi": "Trong bình hoa cắm mấy cành hoa <u>bách hợp</u> trắng muốt thanh tao, khắp phòng thoang thoảng hương thơm dịu nhẹ."
   },
   {
     "id": 59,
     "hanzi": "百科全书",
     "pinyin": "bǎikē quánshū",
     "meaning": "bách khoa toàn thư",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "example_zh": "这部厚重权威的《中国大<u>百科全书</u>》涵盖了自然科学与人文社科的方方面面。",
+    "example_py": "Zhè bù hòu zhòng quánwēi de 《 Zhōngguó dà <u>bǎikē quánshū</u> 》 hángài le zìrán kēxué yǔ rénwén shè kē de fāngfāngmiànmiàn.",
+    "expected_pinyin": "zhe4 bu4 hou4 zhong4 quan2 wei1 de0 zhong1 guo2 da4 bai3 ke1 quan2 shu1 han2 gai4 le0 zi4 ran2 ke1 xue2 yu3 ren2 wen2 she4 ke1 de0 fang1 fang1 mian4 mian4",
+    "example_vi": "Bộ sách Đại <u>Bách khoa toàn thư</u> Trung Quốc đồ sộ uy tín này bao quát mọi mặt của khoa học tự nhiên và khoa học xã hội nhân văn."
   },
   {
     "id": 60,
     "hanzi": "摆平",
     "pinyin": "bǎipíng",
-    "meaning": "vuông góc",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "dàn xếp ổn thỏa, giải quyết êm thấm",
+    "example_zh": "经过经理耐心的沟通协调，双方这场棘手的商业纠纷终于被成功<u>摆平</u>了。",
+    "example_py": "Jīngguò jīnglǐ nàixīn de gōutōng xiétiáo, shuāngfāng zhè chǎng jíshǒu de shāngyè jiūfēn zhōngyú bèi chénggōng <u>bǎipíng</u> le.",
+    "expected_pinyin": "jing1 guo4 jing1 li3 nai4 xin1 de0 gou1 tong1 xie2 tiao2 | shuang1 fang1 zhe4 chang3 ji2 shou3 de0 shang1 ye4 jiu1 fen1 zhong1 yu2 bei4 cheng2 gong1 bai3 ping2 le0",
+    "example_vi": "Sau cuộc thương lượng hòa giải kiên nhẫn của người quản lý, vụ tranh chấp thương mại hóc búa của đôi bên cuối cùng đã được <u>dàn xếp ổn thỏa</u>."
   },
   {
     "id": 61,
     "hanzi": "摆设",
     "pinyin": "bǎishe",
-    "meaning": "trang trí",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "đồ bài trí; đồ trưng bày cho có",
+    "example_zh": "放在客厅书架上的那些精巧瓷器不仅是美观的艺术品，也是很有品味的家庭<u>摆设</u>。",
+    "example_py": "Fàng zài kètīng shūjià shàng de nàxiē jīngqiǎo cíqì bùjǐn shì měiguān de yìshù pǐn, yě shì hěn yǒu pǐnwèi de jiātíng <u>bǎishe</u>.",
+    "expected_pinyin": "fang4 zai4 ke4 ting1 shu1 jia4 shang4 de0 na4 xie1 jing1 qiao3 ci2 qi4 bu4 jin3 shi4 mei3 guan1 de0 yi4 shu4 pin3 | ye3 shi4 hen3 you3 pin3 wei4 de0 jia1 ting2 bai3 she0",
+    "example_vi": "Những món đồ gốm sứ tinh xảo đặt trên giá sách phòng khách không chỉ là tác phẩm nghệ thuật đẹp mắt mà còn là <u>đồ bài trí</u> trong nhà rất có gu."
   },
   {
     "id": 62,
     "hanzi": "柏树",
     "pinyin": "bǎishù",
     "meaning": "cây bách",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "example_zh": "古老陵园两侧挺拔的翠绿<u>柏树</u>在严冬寒风中依然苍翠挺立。",
+    "example_py": "Gǔlǎo líng yuán liǎng cè tǐngbá de cuìlǜ <u>bǎishù</u> zài yán dōng hán fēng zhōng yīrán cāng cuì tǐng lì.",
+    "expected_pinyin": "gu3 lao3 ling2 yuan2 liang3 ce4 ting3 ba2 de0 cui4 lv4 bai3 shu4 zai4 yan2 dong1 han2 feng1 zhong1 yi1 ran2 cang1 cui4 ting3 li4",
+    "example_vi": "Những hàng cây <u>bách</u> xanh ngắt sừng sững hai bên lăng mộ cổ kính vẫn hiên ngang xanh tươi trong gió rét mùa đông."
   },
   {
     "id": 63,
@@ -633,21 +633,21 @@
     "id": 64,
     "hanzi": "拜会",
     "pinyin": "bàihuì",
-    "meaning": "thăm viếng",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "bái hội, đến thăm kiến diện",
+    "example_zh": "访问期间，大使专门前往总统府礼节性<u>拜会</u>了东道国元首。",
+    "example_py": "Fǎngwèn qījiān, dàshǐ zhuānmén qiánwǎng zǒngtǒng fǔ lǐjié xìng <u>bàihuì</u> le dōng dào guó yuánshǒu.",
+    "expected_pinyin": "fang3 wen4 qi1 jian1 | da4 shi3 zhuan1 men2 qian2 wang3 zong3 tong3 fu3 li3 jie2 xing4 bai4 hui4 le0 dong1 dao4 guo2 yuan2 shou3",
+    "example_vi": "Trong thời gian thăm viếng, đại sứ đã tới phủ tổng thống để <u>bái hội</u> mang tính nghi lễ với nguyên thủ nước chủ nhà."
   },
   {
     "id": 65,
     "hanzi": "拜见",
     "pinyin": "bàijiàn",
-    "meaning": "chào",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "bái kiến, yết kiến",
+    "example_zh": "阔别故乡多年的游子特地登门<u>拜见</u>了德高望重的恩师。",
+    "example_py": "Kuò bié gùxiāng duō nián de yóu zi tèdì dēng mén <u>bàijiàn</u> le dé gāo wàng zhòng de ēn shī.",
+    "expected_pinyin": "kuo4 bie2 gu4 xiang1 duo1 nian2 de0 you2 zi0 te4 di4 deng1 men2 bai4 jian4 le0 de2 gao1 wang4 zhong4 de0 en1 shi1",
+    "example_vi": "Người con xa quê nhiều năm đã đặc ý tìm đến tận nhà để <u>bái kiến</u> người thầy kính yêu đức cao vọng trọng."
   },
   {
     "id": 66,
@@ -663,11 +663,11 @@
     "id": 67,
     "hanzi": "扳",
     "pinyin": "bān",
-    "meaning": "kéo",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "bẻ, gạt, lật ngược (tình thế)",
+    "example_zh": "在总比分落后的严峻形势下，全队奋勇拼搏终于顽强地<u>扳</u>平了比分。",
+    "example_py": "Zài zǒng bǐfēn luòhòu de yánjùn xíngshì xià, quán duì fènyǒng pīnbó zhōngyú wánqiáng dì <u>bān</u> píng le bǐfēn.",
+    "expected_pinyin": "zai4 zong3 bi3 fen1 luo4 hou4 de0 yan2 jun4 xing2 shi4 xia4 | quan2 dui4 fen4 yong3 pin1 bo2 zhong1 yu2 wan2 qiang2 di4 ban1 ping2 le0 bi3 fen1",
+    "example_vi": "Trước tình thế nghiêm trọng bị dẫn trước tổng tỷ số, cả đội đã dũng cảm thi đấu và cuối cùng kiên cường <u>lật ngược</u> san bằng tỷ số."
   },
   {
     "id": 68,
@@ -683,11 +683,11 @@
     "id": 69,
     "hanzi": "斑点",
     "pinyin": "bāndiǎn",
-    "meaning": "đốm",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "vết đốm, đốm",
+    "example_zh": "梅花鹿身上布满了一圈圈整齐漂亮的白色<u>斑点</u>。",
+    "example_py": "Méihuā lù shēn shàng bù mǎn le yī quān quān zhěngqí piàoliang de báisè <u>bāndiǎn</u>.",
+    "expected_pinyin": "mei2 hua1 lu4 shen1 shang4 bu4 man3 le0 yi1 quan1 quan1 zheng3 qi2 piao4 liang0 de0 bai2 se4 ban1 dian3",
+    "example_vi": "Trên mình chú hươu sao phủ kín từng vòng <u>vết đốm</u> màu trắng đều đặn xinh đẹp."
   },
   {
     "id": 70,
@@ -703,171 +703,171 @@
     "id": 71,
     "hanzi": "颁奖",
     "pinyin": "bānjiǎng",
-    "meaning": "giải thưởng",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "trao giải, phát thưởng",
+    "example_zh": "在热烈的掌声与欢呼声中，组委会嘉宾登上主席台为冠军选手<u>颁奖</u>。",
+    "example_py": "Zài rèliè de zhǎngshēng yǔ huānhū shēng zhōng, zǔ wěi huì jiābīn dēng shàng zhǔxí tái wèi guànjūn xuǎnshǒu <u>bānjiǎng</u>.",
+    "expected_pinyin": "zai4 re4 lie4 de0 zhang3 sheng1 yu3 huan1 hu1 sheng1 zhong1 | zu3 wei3 hui4 jia1 bin1 deng1 shang4 zhu3 xi2 tai2 wei4 guan4 jun1 xuan3 shou3 ban1 jiang3",
+    "example_vi": "Trong tiếng pháo tay và reo hò rộn rã, các vị khách quý của ban tổ chức đã bước lên bục danh dự để <u>trao giải</u> cho vận động viên quán quân."
   },
   {
     "id": 72,
     "hanzi": "斑马线",
     "pinyin": "bānmǎxiàn",
-    "meaning": "ngựa vằn băng qua",
-    "example_zh": "",
-    "example_py": "",
+    "meaning": "vạch sang đường cho người đi bộ, vạch ngựa vằn",
+    "example_zh": "车辆在行驶途经路口时，遇到行人正在过<u>斑马线</u>应当主动减速礼让。",
+    "example_py": "Chēliàng zài xíngshǐ tú jīng lùkǒu shí, yùdào xíngrén zhèngzài guò <u>bānmǎxiàn</u> yīngdāng zhǔdòng jiǎn sù lǐ ràng.",
     "expected_pinyin": "",
-    "example_vi": ""
+    "example_vi": "Xe cộ khi lưu thông qua ngã tư gặp người đi bộ đang qua <u>vạch ngựa vằn</u> nên chủ động giảm tốc độ nhường đường."
   },
   {
     "id": 73,
     "hanzi": "搬迁",
     "pinyin": "bānqiān",
-    "meaning": "di chuyển",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "di dời, chuyển chỗ ở",
+    "example_zh": "随着旧城改造工程的全面启动，上千户居民有序办理了新居<u>搬迁</u>手续。",
+    "example_py": "Suízhe jiù chéng gǎizào gōngchéng de quánmiàn qǐdòng, shàng qiān hù jūmín yǒuxù bànlǐ le xīn jū <u>bānqiān</u> shǒuxù.",
+    "expected_pinyin": "sui2 zhe0 jiu4 cheng2 gai3 zao4 gong1 cheng2 de0 quan2 mian4 qi3 dong4 | shang4 qian1 hu4 ju1 min2 you3 xu4 ban4 li3 le0 xin1 ju1 ban1 qian1 shou3 xu4",
+    "example_vi": "Cùng với việc khởi động toàn diện dự án cải tạo đô thị cũ, hàng ngàn hộ dân đã trật tự làm thủ tục <u>di dời</u> tới nơi ở mới."
   },
   {
     "id": 74,
     "hanzi": "板块",
     "pinyin": "bǎnkuài",
-    "meaning": "phần",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "mảng kiến tạo; mảng, nhóm cổ phiếu",
+    "example_zh": "地壳运动导致各大地质<u>板块</u>之间发生了持续的碰撞与挤压。",
+    "example_py": "Dì qiào yùndòng dǎozhì gè dà dìzhì <u>bǎnkuài</u> zhījiān fāshēng le chíxù de pèngzhuàng yǔ jǐyā.",
+    "expected_pinyin": "di4 qiao4 yun4 dong4 dao3 zhi4 ge4 da4 di4 zhi4 ban3 kuai4 zhi1 jian1 fa1 sheng1 le0 chi2 xu4 de0 peng4 zhuang4 yu3 ji3 ya1",
+    "example_vi": "Vận động vỏ trái đất đã dẫn đến sự va chạm và xô ép liên tục giữa các <u>mảng</u> kiến tạo địa chất lớn."
   },
   {
     "id": 75,
     "hanzi": "版权",
     "pinyin": "bǎnquán",
-    "meaning": "bản quyền",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "bản quyền, quyền tác giả",
+    "example_zh": "未经原作者正式书面授权，任何机构不得侵犯该小说的影视改编<u>版权</u>。",
+    "example_py": "Wèi jīng yuán zuòzhě zhèngshì shūmiàn shòuquán, rènhé jīgòu bùdé qīnfàn gāi xiǎoshuō de yǐngshì gǎibiān <u>bǎnquán</u>.",
+    "expected_pinyin": "wei4 jing1 yuan2 zuo4 zhe3 zheng4 shi4 shu1 mian4 shou4 quan2 | ren4 he2 ji1 gou4 bu4 de2 qin1 fan4 gai1 xiao3 shuo1 de0 ying3 shi4 gai3 bian1 ban3 quan2",
+    "example_vi": "Khi chưa có sự ủy quyền chính thức bằng văn bản của tác giả gốc, bất kỳ cơ quan nào cũng không được xâm phạm <u>bản quyền</u> chuyển thể phim ảnh của cuốn tiểu thuyết này."
   },
   {
     "id": 76,
     "hanzi": "扮",
     "pinyin": "bàn",
-    "meaning": "giả vờ",
-    "example_zh": "",
-    "example_py": "",
+    "meaning": "hóa trang, đóng vai, làm ra vẻ",
+    "example_zh": "万圣节派对上，他巧妙地把自己打<u>扮</u>成了一位神秘的古代巫师。",
+    "example_py": "Wàn shèng jié pài duì shàng, tā qiǎomiào de bǎ zìjǐ dǎ <u>bàn</u> chéng le yī wèi shénmì de gǔdài wū shī.",
     "expected_pinyin": "",
-    "example_vi": ""
+    "example_vi": "Trong bữa tiệc Halloween, cậu ấy đã khéo léo tự hóa <u>trang</u> thành một vị pháp sư cổ đại bí ẩn."
   },
   {
     "id": 77,
     "hanzi": "伴",
     "pinyin": "bàn",
-    "meaning": "bạn đồng hành",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "bạn đồng hành, bồi bạn, cùng",
+    "example_zh": "童年时有几个知心的小伙<u>伴</u>一起成长，是一件无比幸福的事情。",
+    "example_py": "Tóngnián shí yǒu jǐ gè zhī xīn de xiǎo huǒ <u>bàn</u> yìqǐ chéngzhǎng, shì yī jiàn wúbǐ xìngfú de shìqing.",
+    "expected_pinyin": "tong2 nian2 shi2 you3 ji3 ge4 zhi1 xin1 de0 xiao3 huo3 ban4 yi4 qi3 cheng2 zhang3 | shi4 yi1 jian4 wu2 bi3 xing4 fu2 de0 shi4 qing0",
+    "example_vi": "Thuở ấu thơ có vài người <u>bạn</u> nhỏ tri kỷ cùng nhau lớn lên là một điều vô cùng hạnh phúc."
   },
   {
     "id": 78,
     "hanzi": "拌",
     "pinyin": "bàn",
-    "meaning": "trộn",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "trộn, nhào (nộm, gia vị)",
+    "example_zh": "夏天的餐桌上，来一盘清脆爽口、酸辣开胃的凉<u>拌</u>黄瓜再合适不过了。",
+    "example_py": "Xiàtiān de cān zhuō shàng, lái yī pán qīngcuì shuǎng kǒu, suān là kāi wèi de liáng <u>bàn</u> huángguā zài héshì búguò le.",
+    "expected_pinyin": "xia4 tian1 de0 can1 zhuo1 shang4 | lai2 yi1 pan2 qing1 cui4 shuang3 kou3 suan1 la4 kai1 wei4 de0 liang2 ban4 huang2 gua1 zai4 he2 shi4 bu2 guo4 le0",
+    "example_vi": "Trên bàn ăn mùa hè, có một đĩa dưa chuột <u>trộn</u> chua cay giòn tan kích thích vị giác thì không còn gì thích hợp hơn."
   },
   {
     "id": 79,
     "hanzi": "绊",
     "pinyin": "bàn",
-    "meaning": "chuyến đi",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "vướng chân, vấp chân, trượt chân",
+    "example_zh": "由于夜色昏暗没看清路面，他差点被路旁凸起的树根给<u>绊</u>倒。",
+    "example_py": "Yóuyú yè sè hūn àn méi kàn qīng lùmiàn, tā chà diǎn bèi lù páng tū qǐ de shù gēn gěi <u>bàn</u> dào.",
+    "expected_pinyin": "you2 yu2 ye4 se4 hun1 an4 mei2 kan4 qing1 lu4 mian4 | ta1 cha4 dian3 bei4 lu4 pang2 tu1 qi3 de0 shu4 gen1 gei3 ban4 dao4",
+    "example_vi": "Do trời nhá nhem tối không nhìn rõ mặt đường, anh ấy suýt nữa bị rễ cây trồi lên ven đường làm cho <u>vấp</u> ngã."
   },
   {
     "id": 80,
     "hanzi": "半边天",
     "pinyin": "bànbiāntiān",
-    "meaning": "một nửa bầu trời",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "nửa bầu trời, phái nữ, phụ nữ",
+    "example_zh": "广大妇女同胞在现代各行各业的建设发展中真正顶起了<u>半边天</u>。",
+    "example_py": "Guǎngdà fùnǚ tóngbāo zài xiàndài gèhánggèyè de jiànshè fāzhǎn zhōng zhēnzhèng dǐng qǐ le <u>bànbiāntiān</u>.",
+    "expected_pinyin": "guang3 da4 fu4 nv3 tong2 bao1 zai4 xian4 dai4 ge4 hang2 ge4 ye4 de0 jian4 she4 fa1 zhan3 zhong1 zhen1 zheng4 ding3 qi3 le0 ban4 bian1 tian1",
+    "example_vi": "Đông đảo chị em phụ nữ trong công cuộc xây dựng phát triển mọi ngành nghề thời hiện đại đã thực sự gánh vác <u>nửa bầu trời</u>."
   },
   {
     "id": 81,
     "hanzi": "半岛",
     "pinyin": "bàndǎo",
     "meaning": "bán đảo",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "example_zh": "马来<u>半岛</u>地处东南亚交通要冲，周边海运贸易历史极为悠久。",
+    "example_py": "Mǎ lái <u>bàndǎo</u> dì chǔ dōngnán yà jiāotōng yào chōng, zhōubiān hǎiyùn màoyì lìshǐ jíwéi yōujiǔ.",
+    "expected_pinyin": "ma3 lai2 ban4 dao3 di4 chu3 dong1 nan2 ya4 jiao1 tong1 yao4 chong1 | zhou1 bian1 hai3 yun4 mao4 yi4 li4 shi3 ji2 wei2 you1 jiu3",
+    "example_vi": "<u>Bán đảo</u> Mã Lai nằm ở vị trí giao thông hiểm yếu của Đông Nam Á, mậu dịch hàng hải xung quanh có lịch sử cực kỳ lâu đời."
   },
   {
     "id": 82,
     "hanzi": "半导体",
     "pinyin": "bàndǎotǐ",
     "meaning": "chất bán dẫn",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "example_zh": "芯片制造是现代高端<u>半导体</u>产业中最具战略意义的核心技术领域。",
+    "example_py": "Xīnpiàn zhìzào shì xiàndài gāoduān <u>bàndǎotǐ</u> chǎnyè zhōng zuì jù zhànlüè yìyì de héxīn jìshù lǐngyù.",
+    "expected_pinyin": "xin1 pian4 zhi4 zao4 shi4 xian4 dai4 gao1 duan1 ban4 dao3 ti3 chan3 ye4 zhong1 zui4 ju4 zhan4 lve4 yi4 yi4 de0 he2 xin1 ji4 shu4 ling3 yu4",
+    "example_vi": "Sản xuất chip là lĩnh vực công nghệ cốt lõi mang ý nghĩa chiến lược nhất trong ngành công nghiệp <u>bán dẫn</u> cao cấp hiện đại."
   },
   {
     "id": 83,
     "hanzi": "绊脚石",
     "pinyin": "bànjiǎoshí",
-    "meaning": "vật cản trở",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "hòn đá ngáng đường, chướng ngại vật",
+    "example_zh": "怯懦与自满往往是阻碍一个人在事业道路上迈向卓越的最大<u>绊脚石</u>。",
+    "example_py": "Qiè nuò yǔ zìmǎn wǎngwǎng shì zǔ'ài yí gè rén zài shìyè dàolù shàng mài xiàng zhuóyuè de zuì dà <u>bànjiǎoshí</u>.",
+    "expected_pinyin": "qie4 nuo4 yu3 zi4 man3 wang3 wang3 shi4 zu3 ai4 yi2 ge4 ren2 zai4 shi4 ye4 dao4 lu4 shang4 mai4 xiang4 zhuo2 yue4 de0 zui4 da4 ban4 jiao3 shi2",
+    "example_vi": "Nhút nhát hèn yếu và tự mãn thường là <u>hòn đá ngáng đường</u> lớn nhất cản bước một người vươn tới đỉnh cao trong sự nghiệp."
   },
   {
     "id": 84,
     "hanzi": "半径",
     "pinyin": "bànjìng",
     "meaning": "bán kính",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "example_zh": "在这个以社区中心为圆心、五百米为<u>半径</u>的范围内，生活配套十分齐全。",
+    "example_py": "Zài zhège yǐ shèqū zhōngxīn wèi yuán xīn, wǔbǎi mǐ wèi <u>bànjìng</u> de fànwéi nèi, shēnghuó pèitào shífēn qíquán.",
+    "expected_pinyin": "zai4 zhe4 ge0 yi3 she4 qu1 zhong1 xin1 wei4 yuan2 xin1 wu3 bai3 mi3 wei4 ban4 jing4 de0 fan4 wei2 nei4 | sheng1 huo2 pei4 tao4 shi2 fen1 qi2 quan2",
+    "example_vi": "Trong phạm vi lấy trung tâm cộng đồng làm tâm và 500 mét làm <u>bán kính</u> này, tiện ích sinh hoạt vô cùng đầy đủ."
   },
   {
     "id": 85,
     "hanzi": "伴侣",
     "pinyin": "bànlǚ",
-    "meaning": "đối tác",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "bạn đời, người bạn đồng hành",
+    "example_zh": "在漫长的人生旅途中，能够找到一位志同道合的人生<u>伴侣</u>是最宝贵的财富。",
+    "example_py": "Zài màncháng de rénshēng lǚtú zhōng, nénggòu zhǎo dào yī wèi zhì tóng dào hé de rénshēng <u>bànlǚ</u> shì zuì bǎoguì de cáifù.",
+    "expected_pinyin": "zai4 man4 chang2 de0 ren2 sheng1 lv3 tu2 zhong1 | neng2 gou4 zhao3 dao4 yi1 wei4 zhi4 tong2 dao4 he2 de0 ren2 sheng1 ban4 lv3 shi4 zui4 bao3 gui4 de0 cai2 fu4",
+    "example_vi": "Trên hành trình cuộc đời dài đằng đẵng, có thể tìm được một người <u>bạn đời</u> chung chí hướng là tài sản quý báu nhất."
   },
   {
     "id": 86,
     "hanzi": "办事处",
     "pinyin": "bànshìchù",
-    "meaning": "văn phòng",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "văn phòng đại diện",
+    "example_zh": "为了拓展华东区域业务，总公司决定在上海设立一家常驻<u>办事处</u>。",
+    "example_py": "Wèile tuòzhǎn huá dōng qūyù yèwù, zǒng gōngsī juédìng zài Shànghǎi shèlì yī jiā cháng zhù <u>bànshìchù</u>.",
+    "expected_pinyin": "wei4 le0 tuo4 zhan3 hua2 dong1 qu1 yu4 ye4 wu4 | zong3 gong1 si1 jue2 ding4 zai4 shang4 hai3 she4 li4 yi1 jia1 chang2 zhu4 ban4 shi4 chu4",
+    "example_vi": "Nhằm mở rộng nghiệp vụ khu vực Hoa Đông, tổng công ty quyết định thành lập một <u>văn phòng đại diện</u> thường trú tại Thượng Hải."
   },
   {
     "id": 87,
     "hanzi": "半数",
     "pinyin": "bànshù",
-    "meaning": "một nửa",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "một nửa, phân nửa",
+    "example_zh": "本次大会出席代表人数已经超过了全体成员的<u>半数</u>，符合法定开会标准。",
+    "example_py": "Běn cì dàhuì chūxí dàibiǎo rénshù yǐjīng chāoguò le quántǐ chéngyuán de <u>bànshù</u>, fúhé fǎdìng kāihuì biāozhǔn.",
+    "expected_pinyin": "ben3 ci4 da4 hui4 chu1 xi2 dai4 biao3 ren2 shu4 yi3 jing1 chao1 guo4 le0 quan2 ti3 cheng2 yuan2 de0 ban4 shu4 | fu2 he2 fa3 ding4 kai1 hui4 biao1 zhun3",
+    "example_vi": "Số đại biểu tham dự đại hội lần này đã vượt quá <u>một nửa</u> tổng số thành viên, phù hợp với tiêu chuẩn họp theo quy định."
   },
   {
     "id": 88,
@@ -883,11 +883,11 @@
     "id": 89,
     "hanzi": "半信半疑",
     "pinyin": "bànxìn-bànyí",
-    "meaning": "nghi ngờ",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "nửa tin nửa ngờ",
+    "example_zh": "面对这个听起来匪夷所思的神奇传闻，大家都感到<u>半信半疑</u>。",
+    "example_py": "Miànduì zhège tīng qǐlái fěi yí suǒ sī de shénqí chuánwén, dàjiā dōu gǎndào <u>bànxìn-bànyí</u>.",
+    "expected_pinyin": "mian4 dui4 zhe4 ge0 ting1 qi3 lai2 fei3 yi2 suo3 si1 de0 shen2 qi2 chuan2 wen2 | da4 jia1 dou1 gan3 dao4 ban4 xin4 ban4 yi2",
+    "example_vi": "Trước lời đồn kỳ lạ nghe có vẻ hoang đường này, mọi người đều cảm thấy <u>nửa tin nửa ngờ</u>."
   },
   {
     "id": 90,
@@ -10103,21 +10103,21 @@
     "id": 1011,
     "hanzi": "鹅",
     "pinyin": "é",
-    "meaning": "ngỗng",
-    "example_zh": "",
-    "example_py": "",
+    "meaning": "con ngỗng",
+    "example_zh": "农场池塘边有一大群洁白肥硕的大白<u>鹅</u>在欢快地游水嬉戏。",
+    "example_py": "Nóngchǎng chítáng biān yǒu yī dà qún jiébái féi shuò de dà bái <u>é</u> zài huānkuài de yóu shuǐ xī xì.",
     "expected_pinyin": "",
-    "example_vi": ""
+    "example_vi": "Ven hồ nước trong trang trại có một đàn <u>ngỗng</u> trắng to béo đang tung tăng bơi lội nô đùa."
   },
   {
     "id": 1012,
     "hanzi": "额度",
     "pinyin": "édù",
-    "meaning": "hạn ngạch",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "hạn mức, mức trần",
+    "example_zh": "根据客户良好的信用记录，银行主动为他的信用卡提升了透支<u>额度</u>。",
+    "example_py": "Gēnjù kèhù liánghǎo de xìnyòng jìlù, yínháng zhǔdòng wèi tā de xìnyòngkǎ tíshēng le tòuzhī <u>édù</u>.",
+    "expected_pinyin": "gen1 ju4 ke4 hu4 liang2 hao3 de0 xin4 yong4 ji4 lu4 | yin2 hang2 zhu3 dong4 wei4 ta1 de0 xin4 yong4 ka3 ti2 sheng1 le0 tou4 zhi1 e2 du4",
+    "example_vi": "Căn cứ vào lịch sử tín dụng tốt của khách hàng, ngân hàng đã chủ động nâng <u>hạn mức</u> thấu chi cho thẻ tín dụng của anh ấy."
   },
   {
     "id": 1013,
@@ -10133,31 +10133,31 @@
     "id": 1014,
     "hanzi": "讹诈",
     "pinyin": "ézhà",
-    "meaning": "tống tiền",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "tống tiền, lừa gạt ép buộc",
+    "example_zh": "不法分子利用非法获取的个人隐私信息对受害人实施勒索与<u>讹诈</u>。",
+    "example_py": "Bùfǎ fèn zǐ lìyòng fēifǎ huòqǔ de gèrén yǐnsī xìnxī duì shòuhàirén shíshī lè suǒ yǔ <u>ézhà</u>.",
+    "expected_pinyin": "bu4 fa3 fen4 zi3 li4 yong4 fei1 fa3 huo4 qu3 de0 ge4 ren2 yin3 si1 xin4 xi1 dui4 shou4 hai4 ren2 shi2 shi1 le4 suo3 yu3 e2 zha4",
+    "example_vi": "Những kẻ bất hảo đã lợi dụng thông tin cá nhân thu thập bất hợp pháp để tống tiền và <u>lừa đảo ép buộc</u> nạn nhân."
   },
   {
     "id": 1015,
     "hanzi": "恶",
     "pinyin": "è",
-    "meaning": "ác",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "xấu xa, ác độc, độc ác",
+    "example_zh": "一个人若心存善良，便能自觉远离一切邪<u>恶</u>与不道德的行为。",
+    "example_py": "Yí gè rén ruò xīn cún shànliáng, biàn néng zìjué yuǎnlí yíqiè xié <u>è</u> yǔ bù dàodé de xíngwéi.",
+    "expected_pinyin": "yi2 ge4 ren2 ruo4 xin1 cun2 shan4 liang2 | bian4 neng2 zi4 jue2 yuan3 li2 yi2 qie4 xie2 e4 yu3 bu4 dao4 de2 de0 xing2 wei2",
+    "example_vi": "Một con người nếu trong lòng luôn giữ thiện lương thì có thể tự giác tránh xa mọi hành vi tà <u>ác</u> và vô đạo đức."
   },
   {
     "id": 1016,
     "hanzi": "噩耗",
     "pinyin": "èhào",
-    "meaning": "tin xấu",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "hung tin, tin dữ",
+    "example_zh": "突如其来的飞机失事<u>噩耗</u>让在场所有家属悲痛万分。",
+    "example_py": "Tūrúqílái de fēijī shīshì <u>èhào</u> ràng zàichǎng suǒyǒu jiāshǔ bēitòng wànfēn.",
+    "expected_pinyin": "tu1 ru2 qi2 lai2 de0 fei1 ji1 shi1 shi4 e4 hao4 rang4 zai4 chang3 suo3 you3 jia1 shu3 bei1 tong4 wan4 fen1",
+    "example_vi": "<u>Tin dữ</u> tai nạn máy bay bất ngờ xảy ra đã khiến toàn thể người nhà có mặt đau đớn khôn xiết."
   },
   {
     "id": 1017,
@@ -10174,40 +10174,40 @@
     "hanzi": "恶性",
     "pinyin": "èxìng",
     "meaning": "ác tính",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "example_zh": "经权威医院病理切片检查，患者体内的肿瘤被确诊为<u>恶性</u>肿瘤。",
+    "example_py": "Jīng quánwēi yīyuàn bìng lǐ qiē piàn jiǎnchá, huànzhě tǐ nèi de zhǒngliú bèi quèzhěn wèi <u>èxìng</u> zhǒngliú.",
+    "expected_pinyin": "jing1 quan2 wei1 yi1 yuan4 bing4 li3 qie1 pian4 jian3 cha2 | huan4 zhe3 ti3 nei4 de0 zhong3 liu2 bei4 que4 zhen3 wei4 e4 xing4 zhong3 liu2",
+    "example_vi": "Qua kiểm tra lát cắt bệnh lý tại bệnh viện uy tín, khối u trong cơ thể bệnh nhân đã được chẩn đoán là khối u <u>ác tính</u>."
   },
   {
     "id": 1019,
     "hanzi": "恶意",
     "pinyin": "èyì",
-    "meaning": "ác ý",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "ác ý, ý đồ xấu",
+    "example_zh": "无论在任何网络论坛上，我们都坚决反对进行带有人身攻击的<u>恶意</u>造谣。",
+    "example_py": "Wúlùn zài rènhé wǎngluò lùntán shàng, wǒmen dōu jiānjué fǎnduì jìnxíng dài yǒu rénshēn gōngjī de <u>èyì</u> zào yáo.",
+    "expected_pinyin": "wu2 lun4 zai4 ren4 he2 wang3 luo4 lun4 tan2 shang4 | wo3 men0 dou1 jian1 jue2 fan3 dui4 jin4 xing2 dai4 you3 ren2 shen1 gong1 ji1 de0 e4 yi4 zao4 yao2",
+    "example_vi": "Dù trên bất kỳ diễn đàn mạng nào, chúng tôi đều kiên quyết phản đối việc tung tin đồn <u>ác ý</u> mang tính công kích cá nhân."
   },
   {
     "id": 1020,
     "hanzi": "鳄鱼",
     "pinyin": "èyú",
     "meaning": "cá sấu",
-    "example_zh": "",
-    "example_py": "",
+    "example_zh": "身躯庞大的<u>鳄鱼</u>静静地潜伏在浑浊的河水中等待猎物靠近。",
+    "example_py": "Shēnqū pángdà de <u>èyú</u> jìng jìng de qiánfú zài hún zhuó de hé shuǐ zhōng děngdài lièwù kàojìn.",
     "expected_pinyin": "",
-    "example_vi": ""
+    "example_vi": "Con <u>cá sấu</u> với thân hình khổng lồ lặng lẽ phục kích dưới dòng sông đục ngầu chờ con mồi tiến lại gần."
   },
   {
     "id": 1021,
     "hanzi": "厄运",
     "pinyin": "èyùn",
-    "meaning": "xui xẻo",
-    "example_zh": "",
-    "example_py": "",
+    "meaning": "vận rủi, tai ương, bất hạnh",
+    "example_zh": "尽管生活中接二连三遭遇<u>厄运</u>，但她依然坚强乐观地微笑着面对。",
+    "example_py": "Jǐnguǎn shēnghuó zhōng jiē'èrliánsān zāoyù <u>èyùn</u>, dàn tā yīrán jiānqiáng lèguān de wēixiào zhe miànduì.",
     "expected_pinyin": "",
-    "example_vi": ""
+    "example_vi": "Dẫu trong cuộc sống liên tiếp gặp phải <u>vận rủi</u>, nhưng cô ấy vẫn kiên cường lạc quan mỉm cười đón nhận."
   },
   {
     "id": 1022,
@@ -10223,41 +10223,41 @@
     "id": 1023,
     "hanzi": "恶作剧",
     "pinyin": "èzuòjù",
-    "meaning": "trò đùa",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "trò chơi khăm, trò đùa dai",
+    "example_zh": "愚人节那天，调皮的小李故意搞了一出无伤大雅的搞笑<u>恶作剧</u>。",
+    "example_py": "Yú rén jié nà tiān, tiáopí de xiǎo lǐ gùyì gǎo le yī chū wú shāng dà yǎ de gǎoxiào <u>èzuòjù</u>.",
+    "expected_pinyin": "yu2 ren2 jie2 na4 tian1 | tiao2 pi2 de0 xiao3 li3 gu4 yi4 gao3 le0 yi1 chu1 wu2 shang1 da4 ya3 de0 gao3 xiao4 e4 zuo4 ju4",
+    "example_vi": "Vào ngày Cá tháng Tư, Tiểu Lý nghịch ngợm đã cố ý bày ra một <u>trò đùa dai</u> hài hước vô hại."
   },
   {
     "id": 1024,
     "hanzi": "恩爱",
     "pinyin": "ēn’ài",
-    "meaning": "yêu",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "ân ái, mặn nồng (vợ chồng)",
+    "example_zh": "结婚四十年来，这对相濡以沫的夫妻感情一直非常和睦<u>恩爱</u>。",
+    "example_py": "Jiéhūn sìshí nián lái, zhè duì xiāng rú yǐ mò de fūqī gǎnqíng yìzhí fēicháng hémù <u>ēn’ài</u>.",
+    "expected_pinyin": "jie2 hun1 si4 shi2 nian2 lai2 | zhe4 dui4 xiang1 ru2 yi3 mo4 de0 fu1 qi1 gan3 qing2 yi4 zhi2 fei1 chang2 he2 mu4 en1 ai4",
+    "example_vi": "Suốt 40 năm kết hôn, tình cảm của cặp vợ chồng đồng cam cộng khổ này luôn hòa thuận <u>mặn nồng</u>."
   },
   {
     "id": 1025,
     "hanzi": "恩情",
     "pinyin": "ēnqíng",
-    "meaning": "ủng hộ",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "ân tình, ơn nghĩa",
+    "example_zh": "父母含辛茹苦抚育我们长大的深厚<u>恩情</u>，儿女一辈子也报答不完。",
+    "example_py": "Fùmǔ hán xīn rú kǔ fǔ yù wǒmen zhǎng dà de shēnhòu <u>ēnqíng</u>, érnǚ yíbèizi yě bàodá bù wán.",
+    "expected_pinyin": "fu4 mu3 han2 xin1 ru2 ku3 fu3 yu4 wo3 men0 zhang3 da4 de0 shen1 hou4 en1 qing2 | er2 nv3 yi2 bei4 zi0 ye3 bao4 da2 bu4 wan2",
+    "example_vi": "<u>Ơn nghĩa</u> sâu nặng của cha mẹ ngậm đắng nuốt cay nuôi dạy chúng ta nên người, con cái cả đời cũng không đền đáp hết."
   },
   {
     "id": 1026,
     "hanzi": "恩人",
     "pinyin": "ēnrén",
     "meaning": "ân nhân",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "example_zh": "面对在熊熊大火中冒险救出自己孩子的救命<u>恩人</u>，他激动得连连鞠躬。",
+    "example_py": "Miànduì zài xióng xióng dà huǒ zhōng màoxiǎn jiù chū zìjǐ háizi de jiùmìng <u>ēnrén</u>, tā jīdòng de liánlián jūgōng.",
+    "expected_pinyin": "mian4 dui4 zai4 xiong2 xiong2 da4 huo3 zhong1 mao4 xian3 jiu4 chu1 zi4 ji3 hai2 zi0 de0 jiu4 ming4 en1 ren2 | ta1 ji1 dong4 de0 lian2 lian2 ju1 gong1",
+    "example_vi": "Trước vị <u>ân nhân</u> cứu mạng mạo hiểm cứu con mình thoát khỏi đám cháy ngùn ngụt, anh cảm kích cúi đầu cảm tạ liên tục."
   },
   {
     "id": 1027,
@@ -10283,31 +10283,31 @@
     "id": 1029,
     "hanzi": "耳光",
     "pinyin": "ěrguāng",
-    "meaning": "cái tát",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "cái tát, bạt tai",
+    "example_zh": "电影剧情里，愤怒的母亲狠狠甩了那个叛徒一个响亮的<u>耳光</u>。",
+    "example_py": "Diànyǐng jùqíng lǐ, fènnù de mǔqīn hěn hěn shuǎi le nàge pàn tú yí gè xiǎngliàng de <u>ěrguāng</u>.",
+    "expected_pinyin": "dian4 ying3 ju4 qing2 li3 | fen4 nu4 de0 mu3 qin1 hen3 hen3 shuai3 le0 na4 ge0 pan4 tu2 yi2 ge4 xiang3 liang4 de0 er3 guang1",
+    "example_vi": "Trong tình tiết phim, người mẹ phẫn nộ đã tống cho tên phản bội một <u>cái tát</u> nảy lửa giòn giã."
   },
   {
     "id": 1030,
     "hanzi": "耳目一新",
     "pinyin": "ěrmù-yìxīn",
-    "meaning": "sảng khoái",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "mới mẻ tinh khôi, mở mang tầm mắt",
+    "example_zh": "这场独具匠心的现代艺术展给每一位前来参观的观众带来了<u>耳目一新</u>的感受。",
+    "example_py": "Zhè chǎng dú jù jiàng xīn de xiàndài yìshù zhǎn gěi měi yī wèi qiánlái cānguān de guānzhòng dài lái le <u>ěrmù-yìxīn</u> de gǎnshòu.",
+    "expected_pinyin": "zhe4 chang3 du2 ju4 jiang4 xin1 de0 xian4 dai4 yi4 shu4 zhan3 gei3 mei3 yi1 wei4 qian2 lai2 can1 guan1 de0 guan1 zhong4 dai4 lai2 le0 er3 mu4 yi4 xin1 de0 gan3 shou4",
+    "example_vi": "Triển lãm nghệ thuật hiện đại độc đáo này đã mang lại cảm giác <u>mới mẻ tinh khôi</u> cho từng khán giả đến tham quan."
   },
   {
     "id": 1031,
     "hanzi": "耳熟能详",
     "pinyin": "ěrshú-néngxiáng",
-    "meaning": "quen thuộc",
-    "example_zh": "",
-    "example_py": "",
-    "expected_pinyin": "",
-    "example_vi": ""
+    "meaning": "quá đỗi quen thuộc, nghe quen tai",
+    "example_zh": "这首经典老歌旋律动听，在海内外华人圈里可谓是妇孺皆知、<u>耳熟能详</u>。",
+    "example_py": "Zhè shǒu jīngdiǎn lǎo gē xuánlǜ dòngtīng, zài hǎinèiwài huárén quān lǐ kěwèi shì fù rú jiē zhī, <u>ěrshú-néngxiáng</u>.",
+    "expected_pinyin": "zhe4 shou3 jing1 dian3 lao3 ge1 xuan2 lv4 dong4 ting1 | zai4 hai3 nei4 wai4 hua2 ren2 quan1 li3 ke3 wei4 shi4 fu4 ru2 jie1 zhi1 er3 shu2 neng2 xiang2",
+    "example_vi": "Giai điệu bài hát xưa kinh điển này vô cùng êm tai, trong cộng đồng người Hoa trong và ngoài nước có thể nói là <u>quá đỗi quen thuộc</u> nhà nhà đều biết."
   },
   {
     "id": 1032,
