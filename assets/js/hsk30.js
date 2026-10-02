@@ -1,14 +1,40 @@
 // HSK 3.0 level picker: version switcher + dynamic grid, reusing the LEVELS/selectLevel pipeline.
+const PICKER_VERSION_STORAGE_KEY = 'hsk_picker_version';
 let pickerVersion = '2.0';
+
+function getInitialPickerVersion() {
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const paramVer = params.get('version');
+    if (paramVer === '2.0' || paramVer === '3.0') return paramVer;
+  } catch (e) {}
+  try {
+    const saved = localStorage.getItem(PICKER_VERSION_STORAGE_KEY);
+    if (saved === '2.0' || saved === '3.0') return saved;
+  } catch (e) {}
+  return '2.0';
+}
 
 function setPickerVersion(version) {
   pickerVersion = version;
+  try {
+    localStorage.setItem(PICKER_VERSION_STORAGE_KEY, version);
+  } catch (e) {}
   const selector = document.getElementById('pickerVersionSelect');
   if (selector) selector.value = version;
-  document.getElementById('levelGrid20').style.display = version === '2.0' ? '' : 'none';
-  document.getElementById('levelGrid30').style.display = version === '3.0' ? '' : 'none';
+  const g20 = document.getElementById('levelGrid20');
+  const g30 = document.getElementById('levelGrid30');
+  if (g20) g20.style.display = version === '2.0' ? '' : 'none';
+  if (g30) g30.style.display = version === '3.0' ? '' : 'none';
   if (version === '3.0') renderHsk30Grid();
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const initVer = getInitialPickerVersion();
+  if (initVer && initVer !== '2.0') {
+    setPickerVersion(initVer);
+  }
+});
 
 function hsk30KnownCount(level) {
   const data = readSavedLevelProgress(level);
@@ -34,8 +60,7 @@ function renderHsk30Grid() {
         aria-label="${cfg.label}" ${cfg.available ? `onclick="selectLevel('${key}')"` : 'disabled'}>
         <div class="level-card-top">
           <div class="level-card-heading"><div class="lvl-num">${shortLabel}</div><span class="level-status-badge${statusClass}">${cfg.available ? statusText : 'Sắp có'}</span></div>
-          <div class="level-card-meta"><span class="lvl-label">${cfg.band}</span><span aria-hidden="true">·</span><span class="lvl-count">${cfg.total.toLocaleString('vi-VN')} từ</span></div>
-          ${cfg.sharedVocabularyGroup ? `<div class="lvl-shared-note">Danh sách dùng chung cấp ${cfg.sharedVocabularyGroup}</div>` : ''}
+          <div class="level-card-meta" title="${cfg.sharedVocabularyGroup ? 'HSK 3.0 cấp ' + cfg.sharedVocabularyGroup + ': danh sách từ vựng dùng chung' : ''}"><span class="lvl-label">${cfg.band}</span><span aria-hidden="true">·</span><span class="lvl-count">${cfg.total.toLocaleString('vi-VN')} từ</span></div>
         </div>
         ${cfg.available
           ? `<div class="level-card-progress">

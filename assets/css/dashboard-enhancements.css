@@ -67,122 +67,7 @@ body:not(.home-screen) .continue-learning-card { display: none; }
 .featured-topic-pill:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 /* One-screen desktop home: keep the learning picker and its quick links side by side. */
-@media (min-width: 1280px) {
-  body.home-screen .workstation-middle {
-    display: grid;
-    grid-template-rows: auto auto auto auto minmax(0, 1fr);
-    gap: 8px;
-    overflow: hidden;
-  }
-  body.home-screen .app-header { margin: 0; }
-  body.home-screen .learning-dashboard { min-height: 0; margin: 0; padding: 14px 16px; }
-  body.home-screen .learning-dashboard h2 { margin-top: 3px; font-size: 16px; }
-  body.home-screen .daily-goal { grid-template-columns: auto minmax(0, 1fr); margin-top: 11px; gap: 10px; }
-  body.home-screen .daily-goal-actions { display: none; }
-  body.home-screen .daily-goal-count strong { font-size: 24px; }
-  body.home-screen .quick-study-btn { min-height: 38px; padding: 8px 11px; font-size: 11px; }
-  body.home-screen .learning-totals { margin-top: 10px; padding-top: 9px; }
-  body.home-screen .continue-learning-card { min-height: 0; margin: 0; padding: 12px 16px; gap: 12px; }
-  body.home-screen .continue-learning-card h2 { margin-top: 2px; font-size: 15px; }
-  body.home-screen .continue-learning-card p { margin-top: 3px; font-size: 12px; }
-  body.home-screen .dashboard-primary-btn { min-height: 36px; padding-inline: 11px; font-size: 11px; }
-  body.home-screen .primary-tabs { margin: 0; gap: 7px; }
-  body.home-screen .primary-tab,
-  body.home-screen .primary-menu-trigger { min-height: 36px; padding: 8px 12px; font-size: 12px; }
 
-  body.home-screen #screenVocabHub {
-    display: grid;
-    min-height: 0;
-    grid-template-columns: minmax(0, 1fr);
-    grid-template-rows: auto auto minmax(0, 1fr);
-    grid-template-areas: "controls" "levels" "aux";
-    align-content: stretch;
-    gap: 8px;
-  }
-  body.home-screen #pickerControls { grid-area: controls; min-width: 0; margin: 0; gap: 8px; }
-  body.home-screen #pickerControls .view-tabs { gap: 5px; padding: 4px; }
-  body.home-screen #pickerControls .view-tab { min-height: 34px; padding: 6px 9px; font-size: 11px; }
-  body.home-screen #screenPicker { grid-area: levels; align-self: start; min-width: 0; min-height: 0; }
-  body.home-screen #screenPicker .level-grid { height: auto; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-auto-rows: minmax(94px, auto); align-content: start; gap: 8px; margin-top: 0; }
-  body.home-screen #screenPicker .level-card { min-height: 0; padding: 8px 10px; }
-  body.home-screen #screenPicker .level-status-badge { min-height: 17px; margin-bottom: 3px; padding: 1px 6px; font-size: 9px; }
-  body.home-screen #screenPicker .level-card:not(.is-active-level) .level-status-badge { display: none; }
-  body.home-screen #screenPicker .level-card:not(.is-active-level) .lvl-num { color: var(--text-primary); }
-  body.home-screen #screenPicker .level-card.is-active-level .level-status-badge { display: inline-flex; border-color: var(--accent); background: var(--accent-light); color: var(--accent-text); }
-  body.home-screen #screenPicker .level-card.is-active-level .lvl-num { color: var(--accent); }
-  body.home-screen #screenPicker .level-card .lvl-num { font-size: 20px; line-height: 1.15; }
-  body.home-screen #screenPicker .level-card .lvl-label { margin-top: 2px; font-size: 11px; line-height: 1.25; }
-  body.home-screen #screenPicker .level-card .lvl-count { margin-top: 1px; font-size: 10px; line-height: 1.25; }
-  body.home-screen #screenPicker .level-card .lvl-today-count { margin-top: 4px; font-size: 10px; line-height: 1.25; }
-  body.home-screen #screenPicker .level-card .lvl-mastery-track { height: 4px; margin-top: 6px; }
-  body.home-screen #screenPicker .level-card .lvl-mastery-text { margin-top: 3px; font-size: 9px; line-height: 1.25; }
-  body.home-screen .dashboard-aux-column {
-    grid-area: aux; display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); align-items: stretch; gap: 10px;
-    min-width: 0; min-height: 0; align-self: end;
-  }
-  body.home-screen .quick-quiz-card {
-    display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; align-content: center; gap: 4px 8px;
-    margin: 0; padding: 10px 12px; background: var(--card-bg); border-color: var(--border);
-  }
-  body.home-screen .quick-quiz-icon { grid-row: 1 / 3; flex-basis: 28px; width: 28px; height: 28px; font-size: 15px; }
-  body.home-screen .quick-quiz-copy { align-self: center; }
-  body.home-screen .quick-quiz-card h2 { margin: 0; font-size: 12px; line-height: 1.25; }
-  body.home-screen .quick-quiz-card p { margin: 2px 0 0; overflow: hidden; font-size: 10px; line-height: 1.25; text-overflow: ellipsis; white-space: nowrap; }
-  body.home-screen .quick-quiz-card .dashboard-primary-btn { grid-column: 3; grid-row: 1 / 3; min-height: 30px; padding-inline: 9px; font-size: 10px; white-space: nowrap; }
-  body.home-screen .featured-topics { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 8px; margin: 0; padding: 8px 10px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--card-bg); }
-  body.home-screen .featured-topics-heading { align-items: center; gap: 6px; }
-  body.home-screen .featured-topics h2 { margin-top: 1px; font-size: 13px; white-space: nowrap; }
-  body.home-screen .featured-topics .dashboard-kicker { font-size: 8px; }
-  body.home-screen .featured-topic-more { display: none; }
-  body.home-screen .featured-topic-list { display: flex; flex-wrap: nowrap; align-items: center; justify-content: flex-end; gap: 5px; min-width: 0; margin: 0; }
-  body.home-screen .featured-topic-pill { min-width: 0; min-height: 28px; justify-content: center; gap: 4px; padding: 0 7px; font-size: 9px; }
-}
-
-@media (min-width: 1280px) and (max-height: 760px) {
-  body.home-screen { padding-block: 6px; }
-  body.home-screen .app-header h1 { font-size: 17px; }
-  body.home-screen .app-header p { font-size: 11px; }
-  body.home-screen .workstation-middle { gap: 4px; }
-  body.home-screen .learning-dashboard { padding: 6px 10px; }
-  body.home-screen .learning-dashboard h2 { margin-top: 1px; font-size: 14px; }
-  body.home-screen .daily-goal { margin-top: 5px; }
-  body.home-screen .daily-goal-count strong { font-size: 20px; }
-  body.home-screen .daily-goal-message { margin-top: 2px; font-size: 9px; }
-  body.home-screen .learning-totals { margin-top: 5px; padding-top: 5px; }
-  body.home-screen .continue-learning-card { padding: 6px 10px; }
-  body.home-screen .continue-learning-card h2 { font-size: 13px; }
-  body.home-screen .continue-learning-card p { margin-top: 1px; font-size: 10px; }
-  body.home-screen .dashboard-primary-btn { min-height: 28px; font-size: 10px; }
-  body.home-screen .primary-tabs { gap: 5px; }
-  body.home-screen .primary-tab,
-  body.home-screen .primary-menu-trigger { min-height: 29px; padding: 5px 9px; font-size: 10px; }
-  body.home-screen #screenVocabHub { grid-template-rows: auto auto minmax(0, 1fr); align-content: stretch; gap: 5px; }
-  body.home-screen #pickerControls { gap: 5px; }
-  body.home-screen #pickerControls .view-tabs { gap: 3px; padding: 3px; }
-  body.home-screen #pickerControls .view-tab { min-height: 28px; padding: 4px 6px; font-size: 9px; }
-  body.home-screen #screenPicker { overflow: hidden; }
-  body.home-screen #screenPicker .level-grid { grid-auto-rows: minmax(90px, auto); gap: 5px; }
-  body.home-screen #screenPicker .level-card { padding: 4px 7px; }
-  body.home-screen #screenPicker .level-status-badge { min-height: 14px; margin-bottom: 1px; padding: 0 5px; font-size: 8px; }
-  body.home-screen #screenPicker .level-card .lvl-num { font-size: 16px; }
-  body.home-screen #screenPicker .level-card .lvl-label { margin-top: 0; font-size: 9px; line-height: 1.1; }
-  body.home-screen #screenPicker .level-card .lvl-count { margin-top: 0; font-size: 8px; line-height: 1.1; }
-  body.home-screen #screenPicker .level-card .lvl-shared-note { margin-top: 1px; font-size: 7px; line-height: 1.1; }
-  body.home-screen #screenPicker .level-card .lvl-today-count { margin-top: 1px; font-size: 8px; line-height: 1.1; }
-  body.home-screen #screenPicker .level-card .lvl-mastery-track { height: 3px; margin-top: 2px; }
-  body.home-screen #screenPicker .level-card .lvl-mastery-text { margin-top: 1px; font-size: 8px; line-height: 1.1; }
-  body.home-screen .dashboard-aux-column { gap: 5px; }
-  body.home-screen .quick-quiz-card { min-height: 35px; gap: 2px 6px; padding: 5px 7px; }
-  body.home-screen .quick-quiz-icon { width: 24px; height: 24px; flex-basis: 24px; font-size: 13px; }
-  body.home-screen .quick-quiz-card h2 { font-size: 10px; }
-  body.home-screen .quick-quiz-card p { font-size: 8px; }
-  body.home-screen .quick-quiz-card .dashboard-primary-btn { min-height: 25px; padding-inline: 6px; font-size: 8px; }
-  body.home-screen .featured-topics { gap: 4px; padding: 5px 7px; }
-  body.home-screen .featured-topics h2 { font-size: 11px; }
-  body.home-screen .featured-topics .dashboard-kicker { font-size: 7px; }
-  body.home-screen .featured-topic-list { gap: 3px; }
-  body.home-screen .featured-topic-pill { min-height: 23px; gap: 2px; padding: 0 4px; font-size: 8px; }
-}
 
 .dashboard-sidebar-card,
 .workstation-left > .hw-card {
@@ -302,94 +187,150 @@ body:not(.home-screen) .continue-learning-card { display: none; }
 
 @media (min-width: 1280px) {
   body.home-screen .workstation-middle {
+    display: grid;
     grid-template-rows: auto auto auto auto minmax(0, 1fr);
-    min-height: 0; overflow: hidden;
+    gap: 6px;
+    min-height: 0;
+    overflow: hidden;
   }
+  body.home-screen .app-header { margin: 0; }
+  body.home-screen .app-header h1 { font-size: 19px; line-height: 1.2; }
+  body.home-screen .app-header p { margin-top: 1px; font-size: 11px; line-height: 1.2; }
+
+  body.home-screen .learning-dashboard { min-height: 0; margin: 0; padding: 10px 14px; box-shadow: var(--card-shadow); }
+  body.home-screen .learning-dashboard h2 { margin-top: 1px; font-size: 15px; }
+  body.home-screen .daily-goal { grid-template-columns: auto minmax(0, 1fr); margin-top: 8px; gap: 8px; }
+  body.home-screen .daily-goal-actions { display: none; }
+  body.home-screen .daily-goal-count strong { font-size: 22px; }
+  body.home-screen .quick-study-btn { min-height: 32px; padding: 6px 10px; font-size: 11px; }
+  body.home-screen .learning-totals { margin-top: 7px; padding-top: 6px; }
+
+  body.home-screen .continue-learning-card { min-height: 0; margin: 0; padding: 8px 14px; gap: 10px; box-shadow: var(--card-shadow); }
+  body.home-screen .continue-learning-card h2 { margin-top: 1px; font-size: 14px; }
+  body.home-screen .continue-learning-card p { margin-top: 2px; font-size: 11px; }
+  body.home-screen .dashboard-primary-btn { min-height: 32px; padding-inline: 11px; font-size: 11px; }
+
+  body.home-screen .primary-tabs { margin: 0; gap: 6px; }
+  body.home-screen .primary-tab,
+  body.home-screen .primary-menu-trigger { min-height: 32px; padding: 6px 11px; font-size: 11.5px; }
+
   body.home-screen #screenVocabHub {
-    min-height: 0; grid-template-rows: auto minmax(0, 1fr) auto;
-    grid-template-areas: "controls" "levels" "aux";
-    align-content: stretch; gap: 8px;
+    display: grid;
+    min-height: 0;
+    height: 100%;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    grid-template-areas:
+      "controls"
+      "levels"
+      "aux";
+    align-content: stretch;
+    gap: 6px;
   }
-  body.home-screen #pickerControls { gap: 12px; }
-  body.home-screen #pickerControls .view-tabs { gap: 18px; padding: 0; }
-  body.home-screen #pickerControls .view-tab { min-height: 33px; padding: 5px 2px; font-size: 11px; }
-  body.home-screen #pickerControls .picker-version-control select { min-height: 31px; }
+  body.home-screen #pickerControls { grid-area: controls; min-width: 0; margin: 0; gap: 8px; }
+  body.home-screen #pickerControls .view-tabs { gap: 6px; padding: 0; }
+  body.home-screen #pickerControls .view-tab { min-height: 30px; padding: 4px 8px; font-size: 11px; }
+  body.home-screen #pickerControls .picker-version-control select { min-height: 30px; font-size: 11px; }
+
   body.home-screen #screenPicker {
     grid-area: levels; height: 100%; min-height: 0; overflow: hidden;
   }
   body.home-screen #screenTopicPicker { grid-area: levels; height: 100%; min-height: 0; overflow: auto; }
   body.home-screen #screenPicker .level-grid {
-    height: 100%; grid-template-rows: repeat(2, minmax(0, 1fr)); grid-auto-rows: minmax(0, 1fr);
-    align-content: stretch; gap: 8px; margin: 0;
+    height: 100%; min-height: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-content: stretch; margin: 0;
   }
-  body.home-screen #screenPicker #levelGrid30 { grid-template-rows: repeat(3, minmax(0, 1fr)); }
-  body.home-screen #screenPicker .level-card {
-    display: grid; height: 100%; min-height: 0; grid-template-rows: auto minmax(0, 1fr) auto; gap: 8px;
-    padding: 16px; border-radius: 13px; box-shadow: var(--card-shadow);
-    background: var(--card-bg); border-color: var(--border); text-align: left;
+
+  body.home-screen #screenPicker #levelGrid20 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: 6px;
   }
-  body.home-screen #screenPicker .level-card-top { display: flex; min-width: 0; flex-direction: column; gap: 4px; }
-  body.home-screen #screenPicker .level-card-heading { display: flex; align-items: center; justify-content: flex-start; gap: 8px; }
-  body.home-screen #screenPicker .level-card .lvl-num { color: var(--text-primary); font-size: 24px; font-weight: 750; line-height: 1.1; }
-  body.home-screen #screenPicker .level-card .level-status-badge { display: inline-flex; min-height: 20px; margin: 0; padding: 2px 8px; font-size: 10px; }
-  body.home-screen #screenPicker .level-card-meta { display: flex; align-items: baseline; gap: 5px; }
-  body.home-screen #screenPicker .level-card-meta .lvl-label,
-  body.home-screen #screenPicker .level-card-meta .lvl-count { margin: 0; color: var(--text-progress-detail); font-size: 12px; line-height: 1.3; }
-  body.home-screen #screenPicker .level-card .lvl-shared-note { margin: 0; font-size: 10px; }
-  body.home-screen #screenPicker .level-card-progress { display: flex; min-width: 0; flex-direction: column; justify-content: center; gap: 8px; }
-  body.home-screen #screenPicker .level-card-progress-heading { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
-  body.home-screen #screenPicker .level-card .lvl-percent-value { color: var(--text-primary); font-size: 27px; font-weight: 750; line-height: 1; font-variant-numeric: tabular-nums; }
-  body.home-screen #screenPicker .level-card .lvl-today-count {
-    margin: 0; padding: 4px 8px; border-radius: 999px; background: var(--accent-light);
-    color: var(--accent-text); font-size: 11px; font-weight: 650; line-height: 1.2; white-space: nowrap;
+  body.home-screen #screenPicker #levelGrid20 .level-card {
+    display: grid; height: 100%; min-height: 0;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    gap: 6px; padding: 10px 14px;
+    border-radius: 11px; box-shadow: var(--card-shadow);
+    background: var(--card-bg); border: 1px solid var(--border); text-align: left;
   }
-  body.home-screen #screenPicker .level-card .lvl-mastery-track { width: 100%; height: 6px; margin: 8px 0 0; background: var(--progress-track); border-radius: 999px; overflow: hidden; }
-  body.home-screen #screenPicker .level-card .lvl-mastery-text {
-    align-self: stretch; margin: 0; padding-top: 7px; border-top: 1px solid var(--border);
-    color: var(--text-progress-detail); font-size: 11px; font-weight: 600; line-height: 1.25;
+  body.home-screen #screenPicker #levelGrid20 .level-card-top { display: flex; min-width: 0; flex-direction: column; gap: 3px; }
+  body.home-screen #screenPicker #levelGrid20 .level-card-heading { display: flex; align-items: center; justify-content: flex-start; gap: 8px; }
+  body.home-screen #screenPicker #levelGrid20 .lvl-num { color: var(--text-primary); font-size: 22px; font-weight: 750; line-height: 1.1; }
+  body.home-screen #screenPicker #levelGrid20 .level-card-meta { display: flex; align-items: baseline; gap: 5px; }
+  body.home-screen #screenPicker #levelGrid20 .lvl-label,
+  body.home-screen #screenPicker #levelGrid20 .lvl-count { margin: 0; color: var(--text-progress-detail); font-size: 11px; line-height: 1.3; }
+  body.home-screen #screenPicker #levelGrid20 .level-card-progress { display: flex; min-width: 0; flex-direction: column; justify-content: center; gap: 6px; }
+  body.home-screen #screenPicker #levelGrid20 .level-card-progress-heading { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  body.home-screen #screenPicker #levelGrid20 .lvl-percent-value { color: var(--text-primary); font-size: 24px; font-weight: 750; line-height: 1; font-variant-numeric: tabular-nums; }
+  body.home-screen #screenPicker #levelGrid20 .lvl-today-count {
+    margin: 0; padding: 3px 7px; border-radius: 999px; background: var(--accent-light);
+    color: var(--accent-text); font-size: 10px; font-weight: 650; line-height: 1.2; white-space: nowrap;
   }
-  body.home-screen #screenPicker .level-card.is-active-level { border-color: var(--accent); }
-  /* HSK 3.0 has 3 rows in the same height: put percent/today beside the title so nothing overlaps. */
-  body.home-screen #screenPicker:has(#levelGrid30:not([style*="none"])) { overflow-y: auto; }
+  body.home-screen #screenPicker #levelGrid20 .lvl-mastery-track { width: 100%; height: 5px; margin: 4px 0 0; background: var(--progress-track); border-radius: 999px; overflow: hidden; }
+  body.home-screen #screenPicker #levelGrid20 .lvl-mastery-text {
+    align-self: stretch; margin: 0; padding-top: 5px; border-top: 1px solid var(--border);
+    color: var(--text-progress-detail); font-size: 10px; font-weight: 600; line-height: 1.25;
+  }
+
   body.home-screen #screenPicker #levelGrid30 {
-    height: auto; min-height: 100%;
-    grid-template-rows: repeat(3, minmax(min-content, 1fr)); grid-auto-rows: minmax(min-content, 1fr);
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+    gap: 5px;
   }
   body.home-screen #screenPicker #levelGrid30 .level-card {
+    display: grid; height: 100%; min-height: 0;
     grid-template-columns: minmax(0, 1fr) auto;
-    grid-template-rows: auto minmax(0, 1fr) auto auto;
-    grid-template-areas: "top pct" "top ." "track track" "text today";
-    gap: 3px 10px; padding: 9px 14px; align-content: center;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "top   pct"
+      "track track"
+      "text  today";
+    gap: 2px 8px; padding: 6px 10px; align-content: space-between;
+    border-radius: 10px; box-shadow: var(--card-shadow);
+    background: var(--card-bg); border: 1px solid var(--border); text-align: left;
   }
-  body.home-screen #screenPicker #levelGrid30 .level-card-top { grid-area: top; gap: 2px; }
-  body.home-screen #screenPicker #levelGrid30 .level-card-meta { white-space: nowrap; line-height: 1.2; }
-  body.home-screen #screenPicker #levelGrid30 .lvl-shared-note { line-height: 1.2; }
+  body.home-screen #screenPicker #levelGrid30 .level-card-top { grid-area: top; display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+  body.home-screen #screenPicker #levelGrid30 .level-card-heading { display: flex; align-items: center; justify-content: flex-start; gap: 6px; }
+  body.home-screen #screenPicker #levelGrid30 .lvl-num { color: var(--text-primary); font-size: 19px; font-weight: 750; line-height: 1.1; }
+  body.home-screen #screenPicker #levelGrid30 .level-status-badge { display: inline-flex; min-height: 16px; margin: 0; padding: 1px 6px; font-size: 8.5px; }
+  body.home-screen #screenPicker #levelGrid30 .level-card-meta { display: flex; align-items: baseline; gap: 4px; white-space: nowrap; line-height: 1.2; overflow: hidden; text-overflow: ellipsis; }
+  body.home-screen #screenPicker #levelGrid30 .lvl-label,
+  body.home-screen #screenPicker #levelGrid30 .lvl-count { margin: 0; color: var(--text-progress-detail); font-size: 10.5px; line-height: 1.2; }
   body.home-screen #screenPicker #levelGrid30 .level-card-progress,
   body.home-screen #screenPicker #levelGrid30 .level-card-progress-heading { display: contents; }
-  body.home-screen #screenPicker #levelGrid30 .lvl-num { font-size: 21px; }
-  body.home-screen #screenPicker #levelGrid30 .lvl-percent-value { grid-area: pct; justify-self: end; font-size: 22px; }
-  body.home-screen #screenPicker #levelGrid30 .lvl-today-count { grid-area: today; justify-self: end; padding: 2px 7px; font-size: 10px; }
-  body.home-screen #screenPicker #levelGrid30 .lvl-mastery-track { grid-area: track; margin-top: 2px; }
-  body.home-screen #screenPicker #levelGrid30 .lvl-mastery-text { grid-area: text; align-self: center; min-width: 0; padding-top: 0; border-top: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  body.home-screen #screenPicker #levelGrid30 .lvl-soon { grid-column: 1 / -1; margin: 0; }
+  body.home-screen #screenPicker #levelGrid30 .lvl-percent-value { grid-area: pct; justify-self: end; align-self: start; font-size: 20px; font-weight: 750; line-height: 1.1; color: var(--text-primary); font-variant-numeric: tabular-nums; }
+  body.home-screen #screenPicker #levelGrid30 .lvl-mastery-track { grid-area: track; width: 100%; height: 4px; margin: 2px 0; background: var(--progress-track); border-radius: 999px; overflow: hidden; }
+  body.home-screen #screenPicker #levelGrid30 .lvl-mastery-text { grid-area: text; align-self: center; min-width: 0; margin: 0; padding: 0; border: 0; font-size: 9.5px; font-weight: 600; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text-progress-detail); }
+  body.home-screen #screenPicker #levelGrid30 .lvl-today-count { grid-area: today; justify-self: end; align-self: center; margin: 0; padding: 1px 6px; border-radius: 999px; background: var(--accent-light); color: var(--accent-text); font-size: 9px; font-weight: 650; line-height: 1.2; white-space: nowrap; }
+  body.home-screen #screenPicker #levelGrid30 .lvl-soon { grid-column: 1 / -1; margin: 0; font-size: 11px; }
+
+  body.home-screen #screenPicker .level-card.is-active-level { border-color: var(--accent); }
   @media (max-width: 1439px) {
-    body.home-screen #screenPicker #levelGrid30 .level-card { column-gap: 6px; padding-inline: 10px; }
-    body.home-screen #screenPicker #levelGrid30 .lvl-mastery-text { font-size: 10px; }
-    body.home-screen #screenPicker #levelGrid30 .lvl-today-count { padding-inline: 5px; font-size: 9px; }
+    body.home-screen #screenPicker #levelGrid30 .level-card { column-gap: 5px; padding-inline: 8px; }
+    body.home-screen #screenPicker #levelGrid30 .lvl-mastery-text { font-size: 9px; }
+    body.home-screen #screenPicker #levelGrid30 .lvl-today-count { padding-inline: 4px; font-size: 8.5px; }
+    body.home-screen #screenPicker #levelGrid30 .lvl-num { font-size: 17px; }
+    body.home-screen #screenPicker #levelGrid30 .lvl-percent-value { font-size: 18px; }
   }
+
   body.home-screen .dashboard-aux-column {
-    grid-area: aux; align-self: stretch; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 10px;
+    grid-area: aux; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); align-items: stretch; gap: 8px;
+    min-width: 0; min-height: 0; align-self: end;
   }
-  body.home-screen .quick-quiz-card { min-height: 76px; padding: 12px 13px; gap: 7px 10px; }
-  body.home-screen .quick-quiz-icon { width: 34px; height: 34px; flex-basis: 34px; font-size: 17px; }
-  body.home-screen .quick-quiz-card h2 { font-size: 13px; }
-  body.home-screen .quick-quiz-card p { font-size: 10px; }
-  body.home-screen .quick-quiz-card .dashboard-primary-btn { min-height: 34px; padding-inline: 10px; font-size: 10px; }
-  body.home-screen .featured-topics { min-height: 76px; padding: 11px 13px; gap: 8px; }
-  body.home-screen .featured-topics h2 { font-size: 14px; }
+  body.home-screen .quick-quiz-card {
+    display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; align-content: center; gap: 3px 8px;
+    min-height: 52px; margin: 0; padding: 7px 10px; background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg); box-shadow: var(--card-shadow);
+  }
+  body.home-screen .quick-quiz-icon { grid-row: 1 / 3; width: 28px; height: 28px; flex-basis: 28px; font-size: 14px; }
+  body.home-screen .quick-quiz-copy { align-self: center; min-width: 0; }
+  body.home-screen .quick-quiz-card h2 { margin: 0; font-size: 12px; line-height: 1.25; }
+  body.home-screen .quick-quiz-card p { margin: 1px 0 0; overflow: hidden; font-size: 9.5px; line-height: 1.2; text-overflow: ellipsis; white-space: nowrap; }
+  body.home-screen .quick-quiz-card .dashboard-primary-btn { grid-column: 3; grid-row: 1 / 3; min-height: 28px; padding-inline: 9px; font-size: 10px; white-space: nowrap; }
+  body.home-screen .featured-topics { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 6px; min-height: 52px; margin: 0; padding: 7px 10px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--card-bg); box-shadow: var(--card-shadow); }
+  body.home-screen .featured-topics-heading { align-items: center; gap: 5px; }
+  body.home-screen .featured-topics h2 { margin-top: 1px; font-size: 12px; white-space: nowrap; }
   body.home-screen .featured-topics .dashboard-kicker { font-size: 8px; }
-  body.home-screen .featured-topic-list { justify-content: flex-end; gap: 6px; }
-  body.home-screen .featured-topic-pill { min-height: 31px; padding-inline: 8px; font-size: 10px; }
+  body.home-screen .featured-topic-more { display: none; }
+  body.home-screen .featured-topic-list { display: flex; flex-wrap: nowrap; align-items: center; justify-content: flex-end; gap: 4px; min-width: 0; margin: 0; }
+  body.home-screen .featured-topic-pill { min-width: 0; min-height: 26px; justify-content: center; gap: 4px; padding: 0 6px; font-size: 9px; }
 
   body.home-screen .workstation-left > .sidebar-search { flex: 0 0 auto; }
   body.home-screen .workstation-left > .sidebar-radicals-filter,
@@ -407,10 +348,6 @@ body:not(.home-screen) .continue-learning-card { display: none; }
     display: flex; align-items: baseline; gap: 9px; margin: 0; flex: 0 0 auto;
   }
   body.home-screen .workstation-left > .radical-tip-card p { margin: 0; }
-  body.home-screen .learning-dashboard,
-  body.home-screen .continue-learning-card,
-  body.home-screen .quick-quiz-card,
-  body.home-screen .featured-topics { box-shadow: var(--card-shadow); }
   body.home-screen .workstation-left > #hwForgotten .hw-forgot-empty {
     display: flex; flex: 1 1 auto; flex-direction: column; align-items: center; justify-content: center;
     gap: 10px; min-height: 0; margin: 10px 0; text-align: center;
@@ -428,15 +365,19 @@ body:not(.home-screen) .continue-learning-card { display: none; }
   body.home-screen .workstation-right .hw-activity .hw-heatmap { margin-block: auto; }
 }
 
-@media (min-width: 1280px) and (max-height: 760px) {
+@media (min-width: 1280px) and (max-height: 720px) {
+  body.home-screen { padding-block: 6px; }
   body.home-screen .workstation-middle { gap: 4px; }
-  body.home-screen #screenVocabHub { grid-template-rows: auto minmax(0, 1fr) auto; gap: 5px; }
-  body.home-screen #screenPicker .level-grid { grid-auto-rows: minmax(0, 1fr); }
-  body.home-screen #screenPicker .level-grid { gap: 5px; }
-  body.home-screen #screenPicker .level-card { padding: 10px; gap: 5px; }
-  body.home-screen .dashboard-aux-column { gap: 5px; }
+  body.home-screen .learning-dashboard { padding: 6px 10px; }
+  body.home-screen .continue-learning-card { padding: 6px 10px; }
+  body.home-screen #screenVocabHub { gap: 4px; }
+  body.home-screen #screenPicker { overflow-y: auto; scrollbar-width: thin; }
+  body.home-screen #screenPicker .level-grid { gap: 4px; }
+  body.home-screen #screenPicker #levelGrid20 .level-card { padding: 7px 10px; }
+  body.home-screen #screenPicker #levelGrid30 .level-card { padding: 4px 7px; gap: 1px 6px; }
+  body.home-screen .dashboard-aux-column { gap: 4px; }
   body.home-screen .quick-quiz-card,
-  body.home-screen .featured-topics { min-height: 60px; padding: 7px 9px; }
+  body.home-screen .featured-topics { min-height: 44px; padding: 5px 8px; }
 }
 
 @media (max-width: 767px) {
