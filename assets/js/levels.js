@@ -608,10 +608,14 @@ function renderLevelProgress() {
     const pct = total > 0 ? (known / total * 100) : 0;
     const bar = document.getElementById('bar-' + level);
     const text = document.getElementById('text-' + level);
+    const card = document.querySelector(`.level-card[data-level="${level}"]`);
+    const pctEl = card ? card.querySelector('.lvl-percent-value') : null;
     if (bar) bar.style.width = pct + '%';
-    if (text) text.textContent = known + ' / ' + total + ' đã nhớ';
+    if (text) text.textContent = known.toLocaleString('vi-VN') + ' / ' + total.toLocaleString('vi-VN') + ' từ';
+    if (pctEl) pctEl.textContent = Math.round(pct) + '%';
   });
 }
+
 
 function goBackToPicker() {
   stopSpeech();

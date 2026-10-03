@@ -52,25 +52,40 @@ function renderHsk30Grid() {
     const complete = known >= cfg.total;
     const isLearning = known > 0 && !complete;
     const shortLabel = 'HSK' + key.replace('hsk30_', '');
-    const tooltip = cfg.sharedVocabularyGroup
-      ? `${cfg.label} · ${cfg.band} (dùng chung 7–9) · ${known}/${cfg.total} từ (${pct}%)`
-      : `${cfg.label} · ${cfg.band} · ${known}/${cfg.total} từ (${pct}%)`;
+    const metaText = cfg.sharedVocabularyGroup
+      ? `${cfg.band} · ${cfg.total.toLocaleString('vi-VN')} từ (dùng chung 7–9)`
+      : `${cfg.band} · ${cfg.total.toLocaleString('vi-VN')} từ`;
+    const tooltip = `${cfg.label} · ${cfg.band} · ${known}/${cfg.total} từ (${pct}%)`;
+
+    const statusBadge = complete
+      ? '<span class="level-status-badge is-complete">✓ Hoàn thành</span>'
+      : isLearning
+      ? '<span class="level-status-badge is-learning">● Đang học</span>'
+      : '<span class="level-status-badge">Chưa học</span>';
 
     return `
-      <button class="level-card compact-card ${cfg.available ? '' : 'disabled'}${complete ? ' is-complete-level' : ''}${isLearning ? ' is-learning-level' : ''}"
+      <button class="level-card hsk30-level-card ${cfg.available ? '' : 'disabled'}${complete ? ' is-complete-level' : ''}${isLearning ? ' is-learning-level' : ''}"
         type="button" data-level="${key}" title="${tooltip}" aria-label="${cfg.label}"
         ${cfg.available ? `onclick="selectLevel('${key}')"` : 'disabled'}>
-        <div class="level-card-top-row">
-          <div class="lvl-label-group">
+        <div class="level-card-top">
+          <div class="level-card-heading">
             <strong class="lvl-num">${shortLabel}</strong>
-            <span class="lvl-band-tag">${cfg.band}</span>
-            ${complete ? '<span class="lvl-status-dot is-complete" title="Đã hoàn thành">✓</span>' : isLearning ? '<span class="lvl-status-dot is-learning" title="Đang học">●</span>' : ''}
           </div>
-          <div class="lvl-count-stat">${known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} từ</div>
+          <strong class="lvl-percent-value">${pct}%</strong>
         </div>
-        <div class="lvl-mastery-track" aria-hidden="true">
-          <div class="lvl-mastery-fill" style="width:${pct}%"></div>
+        <div class="level-card-meta">
+          <span class="lvl-label">${metaText}</span>
+        </div>
+        <div class="level-card-progress">
+          <div class="lvl-mastery-track" aria-hidden="true">
+            <div class="lvl-mastery-fill" style="width:${pct}%"></div>
+          </div>
+        </div>
+        <div class="level-card-bottom">
+          <span class="lvl-mastery-text">${known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} đã nhớ</span>
+          ${statusBadge}
         </div>
       </button>`;
   }).join('');
 }
+

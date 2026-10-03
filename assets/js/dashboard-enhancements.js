@@ -49,15 +49,16 @@ function renderDashboardEnhancements() {
     const isLearning = !complete && (studied > 0 || (target && target.level === level));
     card.classList.toggle('is-active-level', Boolean(target && target.level === level && !complete));
     card.classList.toggle('is-complete-level', complete);
+    card.classList.toggle('is-learning-level', isLearning);
     let badge = card.querySelector('.level-status-badge');
     if (!badge) {
       badge = document.createElement('span');
-      badge.className = 'level-status-badge';
-      const heading = card.querySelector('.level-card-heading') || card;
-      heading.appendChild(badge);
+      badge.className = 'lvl-status-pill level-status-badge';
+      const bottom = card.querySelector('.level-card-bottom-row') || card;
+      bottom.appendChild(badge);
     }
-    badge.className = `level-status-badge${complete ? ' is-complete' : isLearning ? ' is-learning' : ''}`;
-    badge.textContent = complete ? 'Đã hoàn thành' : isLearning ? 'Đang học' : 'Chưa học';
+    badge.className = `lvl-status-pill level-status-badge${complete ? ' is-complete' : isLearning ? ' is-learning' : ' is-not-started'}`;
+    badge.textContent = complete ? '✓ Hoàn thành' : isLearning ? '● Đang học' : 'Chưa học';
 
     let daily = card.querySelector('.lvl-today-count');
     if (!daily) {

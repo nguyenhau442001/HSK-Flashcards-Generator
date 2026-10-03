@@ -1,14 +1,17 @@
-const ASSET_VERSION = '20261003-compact-grid2';
+const ASSET_VERSION = '20261003-balanced-cards1';
 const CACHE_NAME = 'hsk-flashcards-v' + ASSET_VERSION;
 const FSRS_CDN_URL = 'https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js';
 const APP_SHELL_URL = new URL('./flashcards.html', self.registration.scope).href;
 // Dashboard assets are precached so the home screen works offline right away.
 const PRECACHE_ASSET_URLS = [
+  './assets/flashcards.css?v=' + ASSET_VERSION,
   './assets/js/home-widgets.js?v=' + ASSET_VERSION,
   './assets/css/home-widgets.css?v=' + ASSET_VERSION,
   './assets/js/dashboard-enhancements.js?v=' + ASSET_VERSION,
   './assets/css/dashboard-enhancements.css?v=' + ASSET_VERSION,
   './assets/js/word-companion.js?v=' + ASSET_VERSION,
+  './assets/js/hsk30.js?v=' + ASSET_VERSION,
+  './assets/js/levels.js?v=' + ASSET_VERSION,
 ].map(path => new URL(path, self.registration.scope).href);
 // Vocabulary/audio JSON lives in its own cache so app deploys don't force every level to re-download.
 const DATA_CACHE_NAME = 'hsk-data-v2';
