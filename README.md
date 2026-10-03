@@ -8,7 +8,8 @@ Không cần cài package hay chạy bước build. Toàn bộ dữ liệu từ 
 
 Mở ứng dụng tại:
 
-https://nguyenhau442001.github.io/HSK-Flashcards-Generator/flashcards.html
+https://nguyenhau442001.github.io/HSK-Flashcards-Generator/
+(hoặc https://nguyenhau442001.github.io/HSK-Flashcards-Generator/flashcards.html)
 
 ## Cấp độ
 

@@ -53,12 +53,12 @@ function renderDashboardEnhancements() {
     let badge = card.querySelector('.level-status-badge');
     if (!badge) {
       badge = document.createElement('span');
-      badge.className = 'lvl-status-pill level-status-badge';
-      const bottom = card.querySelector('.level-card-bottom-row') || card;
-      bottom.appendChild(badge);
+      badge.className = 'level-status-badge';
+      const heading = card.querySelector('.level-card-heading') || card;
+      heading.appendChild(badge);
     }
-    badge.className = `lvl-status-pill level-status-badge${complete ? ' is-complete' : isLearning ? ' is-learning' : ' is-not-started'}`;
-    badge.textContent = complete ? '✓ Hoàn thành' : isLearning ? '● Đang học' : 'Chưa học';
+    badge.className = `level-status-badge${complete ? ' is-complete' : isLearning ? ' is-learning' : ''}`;
+    badge.textContent = complete ? 'Đã hoàn thành' : isLearning ? 'Đang học' : 'Chưa học';
 
     let daily = card.querySelector('.lvl-today-count');
     if (!daily) {
@@ -81,6 +81,12 @@ function renderDashboardEnhancements() {
     if (legacyPercent) legacyPercent.remove();
     const progressText = card.querySelector('.lvl-mastery-text');
     if (progressText) progressText.textContent = `${known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} đã nhớ`;
+    const bar = card.querySelector('.lvl-mastery-fill');
+    if (bar) bar.style.width = `${pct}%`;
+    const actionHint = card.querySelector('.lvl-action-hint');
+    if (actionHint) {
+      actionHint.innerHTML = `${complete ? 'Ôn lại' : isLearning ? 'Học tiếp' : 'Học ngay'} <span aria-hidden="true">→</span>`;
+    }
   });
 }
 

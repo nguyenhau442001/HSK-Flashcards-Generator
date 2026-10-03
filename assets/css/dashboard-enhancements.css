@@ -277,49 +277,226 @@ body:not(.home-screen) .continue-learning-card { display: none; }
     overflow: hidden !important;
   }
 
+  /* ========================================================
+     HSK 2.0 Grid (6 cards, 2 rows)
+     - Rich, spacious, filled layout with large typography
+     - Top: HSK number + status badge + subtitle
+     - Middle: Big % number + +today pill + progress track
+     - Bottom: Divider + words remembered count + action hint
+     ======================================================== */
   body.home-screen #screenPicker #levelGrid20 {
     grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    min-height: 0;
+    padding: 13px 16px;
+    border-radius: 13px;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.035) 0%, rgba(255, 255, 255, 0.01) 100%), var(--card-bg, #1a1a1f);
+    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 160ms ease, border-color 160ms ease, background-color 160ms ease, box-shadow 160ms ease;
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-card:hover {
+    border-color: var(--accent);
+    background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 8%, var(--card-bg, #1a1a1f)) 0%, var(--card-bg, #1a1a1f) 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-card.is-active-level {
+    border-color: var(--accent);
+    background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 12%, var(--card-bg, #1a1a1f)) 0%, var(--card-bg, #1a1a1f) 100%);
+    box-shadow: 0 0 16px color-mix(in srgb, var(--accent) 18%, transparent);
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-card-top {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-card-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 8px;
   }
+  body.home-screen #screenPicker #levelGrid20 .lvl-num {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--text-primary, #ffffff);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-status-badge {
+    font-size: 10.5px;
+    font-weight: 650;
+    color: var(--text-tertiary, #94a3b8);
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 2px 8px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-status-badge.is-learning {
+    color: var(--accent, #ff7b54);
+    background: var(--accent-light, rgba(255, 107, 74, 0.14));
+    border-color: color-mix(in srgb, var(--accent) 35%, transparent);
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-status-badge.is-complete {
+    color: var(--success-text, #10b981);
+    background: rgba(16, 185, 129, 0.14);
+    border-color: rgba(16, 185, 129, 0.3);
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    color: var(--text-tertiary, #94a3b8);
+    margin: 0;
+  }
+  body.home-screen #screenPicker #levelGrid20 .lvl-label {
+    font-weight: 600;
+    color: var(--text-secondary, #cbd5e1);
+  }
+  body.home-screen #screenPicker #levelGrid20 .lvl-count {
+    font-weight: 500;
+    color: var(--text-tertiary, #94a3b8);
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-card-progress {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    min-width: 0;
+    margin: 4px 0;
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-card-progress-heading {
+    display: flex !important;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  body.home-screen #screenPicker #levelGrid20 .lvl-percent-value {
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--text-primary, #ffffff);
+    font-variant-numeric: tabular-nums;
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-card.is-learning-level .lvl-percent-value {
+    color: var(--accent, #ff7b54);
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-card.is-complete-level .lvl-percent-value {
+    color: var(--success-text, #10b981);
+  }
+  body.home-screen #screenPicker #levelGrid20 .lvl-today-count {
+    display: inline-flex !important;
+    align-items: center;
+    font-size: 10.5px;
+    font-weight: 600;
+    color: var(--text-tertiary, #94a3b8);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    padding: 2.5px 8px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  body.home-screen #screenPicker #levelGrid20 .lvl-today-count.has-activity {
+    color: var(--accent, #ff7b54);
+    background: var(--accent-light, rgba(255, 107, 74, 0.12));
+    border-color: color-mix(in srgb, var(--accent) 35%, transparent);
+  }
+  body.home-screen #screenPicker #levelGrid20 .lvl-mastery-track {
+    width: 100%;
+    height: 7px;
+    margin: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  body.home-screen #screenPicker #levelGrid20 .lvl-mastery-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent, #ff7b54), #ff9776);
+    border-radius: 999px;
+    transition: width 240ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-card.is-complete-level .lvl-mastery-fill {
+    background: linear-gradient(90deg, var(--success-text, #10b981), #34d399);
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    margin-top: 2px;
+  }
+  body.home-screen #screenPicker #levelGrid20 .lvl-mastery-text {
+    color: var(--text-secondary, #cbd5e1);
+    font-size: 11.5px;
+    font-weight: 600;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+  body.home-screen #screenPicker #levelGrid20 .lvl-action-hint {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 11px;
+    font-weight: 650;
+    color: var(--accent-text, #ff7b54);
+    opacity: 0.85;
+    transition: opacity 140ms ease, transform 140ms ease;
+  }
+  body.home-screen #screenPicker #levelGrid20 .level-card:hover .lvl-action-hint {
+    opacity: 1;
+    transform: translateX(2px);
+  }
 
+  /* ========================================================
+     HSK 3.0 Grid (9 cards, 3 rows)
+     - Compact 4-layer layout fitted for 3 rows
+     ======================================================== */
   body.home-screen #screenPicker #levelGrid30 {
     grid-template-rows: repeat(3, minmax(0, 1fr));
     gap: 6px;
   }
-
-  body.home-screen #screenPicker .level-card {
+  body.home-screen #screenPicker #levelGrid30 .level-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
     min-height: 0;
     padding: 8px 12px;
-    border-radius: 9px;
-    box-shadow: none;
+    border-radius: 10px;
     background: var(--card-bg, #1a1a1f);
     border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
     text-align: left;
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    transition: transform 150ms ease, border-color 150ms ease, background-color 150ms ease, box-shadow 150ms ease;
+    transition: transform 140ms ease, border-color 140ms ease, background-color 140ms ease, box-shadow 140ms ease;
   }
-
-  body.home-screen #screenPicker .level-card:hover {
+  body.home-screen #screenPicker #levelGrid30 .level-card:hover {
     border-color: var(--accent);
     background: var(--surface-subtle, rgba(255, 255, 255, 0.04));
     transform: translateY(-2px);
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
   }
-
-  body.home-screen #screenPicker .level-card.is-active-level {
+  body.home-screen #screenPicker #levelGrid30 .level-card.is-active-level {
     border-color: var(--accent);
     background: var(--accent-light, rgba(255, 107, 74, 0.08));
   }
-
-  /* Line 1: Header (Num + Percent) */
-  body.home-screen #screenPicker .level-card-top,
-  body.home-screen #screenPicker .level-card-top-row {
+  body.home-screen #screenPicker #levelGrid30 .level-card-top {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -327,36 +504,27 @@ body:not(.home-screen) .continue-learning-card { display: none; }
     min-width: 0;
     line-height: 1;
   }
-
-  body.home-screen #screenPicker .lvl-num {
+  body.home-screen #screenPicker #levelGrid30 .lvl-num {
     font-size: 18px;
     font-weight: 750;
-    line-height: 1;
     color: var(--text-primary, #ffffff);
+    line-height: 1;
     letter-spacing: -0.01em;
   }
-
-  body.home-screen #screenPicker .lvl-percent-value,
-  body.home-screen #screenPicker .lvl-percent-badge {
+  body.home-screen #screenPicker #levelGrid30 .lvl-percent-value {
     font-size: 18px;
     font-weight: 750;
     color: var(--text-tertiary, #777777);
     font-variant-numeric: tabular-nums;
     line-height: 1;
   }
-
-  body.home-screen #screenPicker .level-card.is-learning-level .lvl-percent-value,
-  body.home-screen #screenPicker .level-card.is-learning-level .lvl-percent-badge {
+  body.home-screen #screenPicker #levelGrid30 .level-card.is-learning-level .lvl-percent-value {
     color: var(--accent, #ff7b54);
   }
-
-  body.home-screen #screenPicker .level-card.is-complete-level .lvl-percent-value,
-  body.home-screen #screenPicker .level-card.is-complete-level .lvl-percent-badge {
+  body.home-screen #screenPicker #levelGrid30 .level-card.is-complete-level .lvl-percent-value {
     color: var(--success-text, #10b981);
   }
-
-  /* Line 2: Meta (Band + Total) */
-  body.home-screen #screenPicker .level-card-meta {
+  body.home-screen #screenPicker #levelGrid30 .level-card-meta {
     font-size: 11px;
     color: var(--text-tertiary, #94a3b8);
     white-space: nowrap;
@@ -365,22 +533,17 @@ body:not(.home-screen) .continue-learning-card { display: none; }
     line-height: 1.2;
     margin: 1px 0;
   }
-
-  body.home-screen #screenPicker .level-card-meta .lvl-label,
-  body.home-screen #screenPicker .level-card-meta .lvl-count {
+  body.home-screen #screenPicker #levelGrid30 .level-card-meta .lvl-label {
     color: var(--text-tertiary, #94a3b8);
     font-size: 11px;
     font-weight: 500;
   }
-
-  /* Line 3: Progress Track */
-  body.home-screen #screenPicker .level-card-progress {
+  body.home-screen #screenPicker #levelGrid30 .level-card-progress {
     display: block;
     width: 100%;
     margin: 2px 0;
   }
-
-  body.home-screen #screenPicker .lvl-mastery-track {
+  body.home-screen #screenPicker #levelGrid30 .lvl-mastery-track {
     width: 100%;
     height: 4px;
     margin: 2px 0;
@@ -388,21 +551,16 @@ body:not(.home-screen) .continue-learning-card { display: none; }
     border-radius: 999px;
     overflow: hidden;
   }
-
-  body.home-screen #screenPicker .lvl-mastery-fill {
+  body.home-screen #screenPicker #levelGrid30 .lvl-mastery-fill {
     height: 100%;
     background: var(--accent, #ff7b54);
     border-radius: 999px;
     transition: width 200ms ease;
   }
-
-  body.home-screen #screenPicker .level-card.is-complete-level .lvl-mastery-fill {
+  body.home-screen #screenPicker #levelGrid30 .level-card.is-complete-level .lvl-mastery-fill {
     background: var(--success-text, #10b981);
   }
-
-  /* Line 4: Bottom (Known words + Status Badge) */
-  body.home-screen #screenPicker .level-card-bottom,
-  body.home-screen #screenPicker .level-card-bottom-row {
+  body.home-screen #screenPicker #levelGrid30 .level-card-bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -410,18 +568,14 @@ body:not(.home-screen) .continue-learning-card { display: none; }
     min-width: 0;
     line-height: 1.1;
   }
-
-  body.home-screen #screenPicker .lvl-mastery-text,
-  body.home-screen #screenPicker .lvl-count-stat {
+  body.home-screen #screenPicker #levelGrid30 .lvl-mastery-text {
     font-size: 11.5px;
     font-weight: 500;
     color: var(--text-secondary, #b3b3b3);
     white-space: nowrap;
     font-variant-numeric: tabular-nums;
   }
-
-  body.home-screen #screenPicker .level-status-badge,
-  body.home-screen #screenPicker .lvl-status-pill {
+  body.home-screen #screenPicker #levelGrid30 .level-status-badge {
     font-size: 10px;
     font-weight: 500;
     color: var(--text-tertiary, #777777);
@@ -430,23 +584,18 @@ body:not(.home-screen) .continue-learning-card { display: none; }
     border-radius: 4px;
     white-space: nowrap;
   }
-
-  body.home-screen #screenPicker .level-status-badge.is-learning,
-  body.home-screen #screenPicker .lvl-status-pill.is-learning {
+  body.home-screen #screenPicker #levelGrid30 .level-status-badge.is-learning {
     color: var(--accent, #ff7b54);
     background: var(--accent-light, rgba(255, 107, 74, 0.12));
     font-weight: 600;
   }
-
-  body.home-screen #screenPicker .level-status-badge.is-complete,
-  body.home-screen #screenPicker .lvl-status-pill.is-complete {
+  body.home-screen #screenPicker #levelGrid30 .level-status-badge.is-complete {
     color: var(--success-text, #10b981);
     background: rgba(16, 185, 129, 0.12);
     font-weight: 600;
   }
-
-  body.home-screen #screenPicker .lvl-today-count,
-  body.home-screen #screenPicker .level-card-progress-heading {
+  body.home-screen #screenPicker #levelGrid30 .lvl-today-count,
+  body.home-screen #screenPicker #levelGrid30 .level-card-progress-heading {
     display: none !important;
   }
 
