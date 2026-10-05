@@ -9,10 +9,20 @@
 .review-rules { text-align: left; margin: 0 0 20px; padding-left: 20px; color: var(--text-secondary); font-size: 14px; line-height: 1.7; }
 .review-rules strong { color: var(--text-primary); }
 .review-start-btn, .review-again-btn {
-  background: var(--accent); color: #fff; border: none; border-radius: 999px;
-  padding: 11px 28px; font-size: 14.5px; font-weight: 600; cursor: pointer;
+  background: var(--accent-gradient, var(--accent)); color: #fff;
+  border: 1px solid color-mix(in srgb, var(--accent) 75%, black 15%);
+  border-radius: 999px;
+  padding: 11px 28px; font-size: 14.5px; font-weight: 700; cursor: pointer;
+  letter-spacing: 0.01em;
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--accent) 26%, transparent);
+  transition: transform 140ms ease, box-shadow 140ms ease, filter 140ms ease;
 }
-.review-start-btn:hover, .review-again-btn:hover { opacity: 0.9; }
+.review-start-btn:hover, .review-again-btn:hover {
+  background: var(--accent-gradient-hover, var(--accent));
+  filter: brightness(1.04);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px color-mix(in srgb, var(--accent) 34%, transparent);
+}
 .review-back-btn {
   background: transparent; color: var(--text-secondary); border: 1px solid var(--border); border-radius: 999px;
   padding: 11px 28px; font-size: 14.5px; font-weight: 500; cursor: pointer;
@@ -22,8 +32,8 @@
 .review-lives { font-size: 18px; letter-spacing: 2px; color: var(--danger-text); }
 .review-progress-text { font-size: 13px; color: var(--text-secondary); }
 
-.review-timer-track { height: 6px; background: var(--border); border-radius: 999px; overflow: hidden; margin-bottom: 18px; }
-.review-timer-fill { height: 100%; background: var(--accent); width: 100%; transition: width 1s linear; }
+.review-timer-track { height: 6px; background: var(--progress-track, var(--border)); border-radius: 999px; overflow: hidden; margin-bottom: 18px; }
+.review-timer-fill { height: 100%; background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 80%, #ffffff)); width: 100%; transition: width 1s linear; }
 .review-timer-fill.review-timer-low { background: var(--danger-solid); }
 
 .review-question-word { text-align: center; margin-bottom: 22px; }
@@ -37,8 +47,15 @@
 }
 .review-type-input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
 .review-submit-btn {
-  background: var(--accent); color: #fff; border: none; border-radius: var(--radius-md);
-  padding: 0 18px; font-size: 14px; font-weight: 600; cursor: pointer;
+  background: var(--accent-gradient, var(--accent)); color: #fff;
+  border: 1px solid color-mix(in srgb, var(--accent) 75%, black 15%);
+  border-radius: var(--radius-md);
+  padding: 0 18px; font-size: 14px; font-weight: 700; cursor: pointer;
+  transition: filter 140ms ease;
+}
+.review-submit-btn:hover {
+  background: var(--accent-gradient-hover, var(--accent));
+  filter: brightness(1.04);
 }
 
 .review-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }

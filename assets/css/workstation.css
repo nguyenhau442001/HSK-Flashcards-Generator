@@ -223,13 +223,14 @@ body.flashcard-study-mode .featured-topics {
   body.flashcard-study-mode .rating-area { flex: 0 0 auto; margin: 6px 0 0; }
   body.flashcard-study-mode .reveal-btn {
     padding: 12px 18px; font-size: 15px; font-weight: 700;
-    background: var(--accent); color: #ffffff; border: 1.5px solid var(--accent);
+    background: var(--accent-gradient, var(--accent)); color: #ffffff;
+    border: 1px solid color-mix(in srgb, var(--accent) 75%, black 15%);
     border-radius: var(--radius-lg); box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 30%, transparent);
-    transition: all 0.15s ease;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
   }
   body.flashcard-study-mode .reveal-btn:hover {
-    background: color-mix(in srgb, var(--accent) 85%, black);
-    border-color: color-mix(in srgb, var(--accent) 85%, black);
+    background: var(--accent-gradient-hover, var(--accent));
+    filter: brightness(1.04);
     transform: translateY(-1px);
     box-shadow: 0 6px 18px color-mix(in srgb, var(--accent) 40%, transparent);
   }
