@@ -12,13 +12,13 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="HSK Flashcards">
-<link rel="stylesheet" href="assets/flashcards.css?v=20261006-studio-layout1">
+<link rel="stylesheet" href="assets/flashcards.css?v=20261006-hanviet1">
 <link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20261006-ui-refinement1">
-<link rel="stylesheet" href="assets/css/workstation.css?v=20261006-studio-layout1">
+<link rel="stylesheet" href="assets/css/workstation.css?v=20261006-hanviet1">
 <link rel="stylesheet" href="assets/css/sidebar-lab.css?v=20261006-multichar-grid1">
 <link rel="stylesheet" href="assets/css/home-widgets.css?v=20261006-ui-refinement1">
 <link rel="stylesheet" href="assets/css/dashboard-enhancements.css?v=20261006-ui-refinement1">
-<script>(function(){try{var p=new URLSearchParams(window.location.search).get('theme');if(p==='dark'||p==='light'){document.documentElement.dataset.theme=p;return;}}catch(e){}var h=new Date().getHours();var d=(h>=6&&h<18)?'light':'dark';var m=localStorage.getItem('hsk_theme_manual');var e=parseInt(localStorage.getItem('hsk_theme_manual_expiry')||'0',10);document.documentElement.dataset.theme=(m&&Date.now()<e)?m:d;})();</script>
+<script>(function(){try{var p=new URLSearchParams(window.location.search).get('theme');if(p==='dark'||p==='light'){document.documentElement.dataset.theme=p;return;}}catch(e){}var h=new Date().getHours();var d=(h>=6&&h<18)?'light':'dark';var m=localStorage.getItem('hsk_theme_manual');var e=parseInt(localStorage.getItem('hsk_theme_manual_expiry')||'0',10);document.documentElement.dataset.theme=(m&&Date.now()<e)?m:d;if(localStorage.getItem('hsk_show_hanviet')==='false'){document.documentElement.classList.add('hide-hanviet');}})();</script>
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
@@ -380,6 +380,9 @@ if ('serviceWorker' in navigator) {
       </div>
 
       <div class="study-view-topbar-actions">
+        <button type="button" class="study-drawer-btn" id="studyHanvietToggleBtn" onclick="toggleHanViet()" title="Bật / Tắt âm Hán - Việt (H)" aria-label="Bật / Tắt âm Hán - Việt (H)">
+          <span aria-hidden="true">漢</span> <span class="study-drawer-btn-label">Hán - Việt</span>
+        </button>
         <button type="button" class="study-drawer-btn" id="studyWritingToggleBtn" onclick="toggleStudyWritingPanel()" title="Luyện viết &amp; thứ tự nét (W)">
           <span aria-hidden="true">✍️</span> <span class="study-drawer-btn-label">Luyện viết</span>
         </button>
@@ -788,12 +791,13 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/sentence-game.js?v=20261006-sentence-ux1"></script>
 <script src="assets/js/guess-word-game.js?v=20261006-fix-chair1"></script>
 <script src="assets/js/speed-quiz-game.js?v=20261006-speedquiz-card1"></script>
-<script src="assets/js/vocabulary-overview.js?v=20261006-nav-fix1"></script>
+<script src="assets/js/vocabulary-overview.js?v=20261006-hanviet1"></script>
 <script src="assets/js/fast-review.js?v=20261006-review-mistakes1"></script>
-<script src="assets/js/flashcard.js?v=20261006-studio-layout1"></script>
+<script src="assets/js/hanviet-dict.js?v=20261006-hanviet1"></script>
+<script src="assets/js/flashcard.js?v=20261006-hanviet1"></script>
 <script src="assets/js/card-interactions.js?v=20261006-swipe-fix1"></script>
 <script src="assets/js/speech.js?v=20261003-hsk20-rich1"></script>
-<script src="assets/js/progress.js?v=20261006-darkmode-focus1"></script>
+<script src="assets/js/progress.js?v=20261006-hanviet1"></script>
 <script src="assets/js/due-review.js?v=20261006-srs-sync1"></script>
 <script src="assets/js/theme.js?v=20261006-ui-refinement1"></script>
 <script src="assets/js/backup.js?v=20261003-hsk20-rich1"></script>

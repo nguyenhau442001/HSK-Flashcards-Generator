@@ -14,6 +14,9 @@ function buildCardArea() {
         <button type="button" class="card-tool-btn" id="pinyinToggle" onclick="togglePinyin()" aria-label="Ẩn hoặc hiện pinyin" title="Ẩn hoặc hiện pinyin">
           <span id="pinyinToggleIcon" aria-hidden="true">👁</span>
         </button>
+        <button type="button" class="card-tool-btn" id="hanvietToggle" onclick="toggleHanViet()" aria-label="Bật hoặc tắt âm Hán - Việt (H)" title="Bật hoặc tắt âm Hán - Việt (H)">
+          <span id="hanvietToggleIcon" aria-hidden="true">漢</span>
+        </button>
         <button type="button" class="card-tool-btn" id="cardWritingBtn" onclick="toggleStudyWritingPanel()" aria-label="Luyện viết chữ Hán (W)" title="Luyện viết chữ Hán (W)">
           <span aria-hidden="true">✍️</span>
         </button>
@@ -26,8 +29,9 @@ function buildCardArea() {
       </div>
       <div id="cardContent" class="card-content">
         <div class="hanzi" id="hanzi"></div>
-        <div class="pinyin-row">
+        <div class="pinyin-row" id="pinyinRow">
           <div class="pinyin" id="pinyin"></div>
+          <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
           <button class="sound-btn speech-btn" id="soundBtn" type="button"
             onclick="event.stopPropagation(); speakWord()"
             aria-label="Nghe phát âm" aria-live="polite">
@@ -99,9 +103,44 @@ function buildCardArea() {
     pinyinBtn.textContent = showPinyin ? '👁 Đang hiện pinyin' : '🙈 Chế độ thử thách: ẩn pinyin';
   }
   if (pinyinBtn) pinyinBtn.classList.toggle('on', !showPinyin);
+  const hanvietBtn = document.getElementById('hanvietToggle');
+  if (hanvietBtn) {
+    hanvietBtn.classList.toggle('on', !showHanViet);
+    hanvietBtn.title = showHanViet ? 'Ẩn âm Hán - Việt (H)' : 'Hiện âm Hán - Việt (H)';
+    hanvietBtn.setAttribute('aria-label', showHanViet ? 'Ẩn âm Hán - Việt (H)' : 'Hiện âm Hán - Việt (H)');
+  }
+  const topbarHanvietBtn = document.getElementById('studyHanvietToggleBtn');
+  if (topbarHanvietBtn) {
+    topbarHanvietBtn.classList.toggle('active', showHanViet);
+  }
   if (typeof updateWeakWordToggleButton === 'function') updateWeakWordToggleButton();
   initSwipe();
 }
+
+function toggleHanViet() {
+  showHanViet = !showHanViet;
+  try { localStorage.setItem('hsk_show_hanviet', String(showHanViet)); } catch (e) {}
+  document.body.classList.toggle('hide-hanviet', !showHanViet);
+  document.documentElement.classList.toggle('hide-hanviet', !showHanViet);
+  const badge = document.getElementById('hanvietBadge');
+  if (badge) {
+    badge.style.display = showHanViet && badge.textContent ? 'inline-flex' : 'none';
+  }
+  const btn = document.getElementById('hanvietToggle');
+  if (btn) {
+    btn.classList.toggle('on', !showHanViet);
+    btn.title = showHanViet ? 'Ẩn âm Hán - Việt (H)' : 'Hiện âm Hán - Việt (H)';
+    btn.setAttribute('aria-label', showHanViet ? 'Ẩn âm Hán - Việt (H)' : 'Hiện âm Hán - Việt (H)');
+  }
+  const topbarBtn = document.getElementById('studyHanvietToggleBtn');
+  if (topbarBtn) {
+    topbarBtn.classList.toggle('active', showHanViet);
+  }
+  document.querySelectorAll('.hanviet-badge, .study-word-hanviet, .active-hv, .vocabulary-hanviet').forEach(el => {
+    el.style.display = showHanViet ? '' : 'none';
+  });
+}
+window.toggleHanViet = toggleHanViet;
 
 function renderFilters() {
   const row = document.getElementById('filterRow');
@@ -350,6 +389,7 @@ function renderStudyWordList() {
           <span class="active-kicker">Từ số ${currentIndex + 1}:</span>
           <strong class="active-hanzi">${activeWord.hanzi}</strong>
           <span class="active-py">${activeWord.pinyin || ''}</span>
+          ${activeWord.hanviet ? `<span class="active-hv">［${activeWord.hanviet}］</span>` : ''}
         </div>
         <span class="active-status ${statusClass}">${statusText}</span>
       `;
@@ -359,7 +399,7 @@ function renderStudyWordList() {
   }
 
   items.innerHTML = WORDS.map((word, wordIndex) => ({ word, wordIndex }))
-    .filter(({ word }) => !query || `${word.hanzi} ${word.pinyin} ${word.meaning}`.toLowerCase().includes(query))
+    .filter(({ word }) => !query || `${word.hanzi} ${word.pinyin} ${word.hanviet || ''} ${word.meaning}`.toLowerCase().includes(query))
     .map(({ word, wordIndex }) => {
       const isCurrent = wordIndex === currentIndex;
       const status = progress[word.id];
@@ -368,12 +408,13 @@ function renderStudyWordList() {
       return `
         <button type="button" class="study-word-list-item${isCurrent ? ' active' : ''}"
           role="option" aria-selected="${isCurrent}" data-word-index="${wordIndex}"
-          title="${word.hanzi} ${word.pinyin || ''} - ${word.meaning || ''}">
+          title="${word.hanzi} ${word.pinyin || ''}${word.hanviet ? ' ［' + word.hanviet + '］' : ''} - ${word.meaning || ''}">
           <span class="study-word-status ${statusClass}" aria-hidden="true">${statusIcon}</span>
           <span class="study-word-list-content">
             <span class="study-word-list-main">
               <span class="study-word-list-hanzi">${word.hanzi}</span>
               <span class="word-py">${word.pinyin || ''}</span>
+              ${word.hanviet ? `<span class="study-word-hanviet">［${word.hanviet}］</span>` : ''}
             </span>
             <small class="word-vi">${word.meaning || ''}</small>
           </span>
@@ -426,6 +467,8 @@ function render(animate) {
     if (filteredOrder.length === 0) {
       document.getElementById('hanzi').textContent = '';
       document.getElementById('pinyin').textContent = '';
+      const emptyHv = document.getElementById('hanvietBadge');
+      if (emptyHv) { emptyHv.textContent = ''; emptyHv.style.display = 'none'; }
       document.getElementById('meaning').textContent = 'Không có từ trong bộ lọc này';
       document.getElementById('meaning').classList.add('show');
       document.getElementById('hint').textContent = '';
@@ -446,6 +489,19 @@ function render(animate) {
     updateSrsPreviews(w);
     document.getElementById('hanzi').textContent = w.hanzi;
     document.getElementById('pinyin').textContent = showPinyin ? w.pinyin : '';
+    const hvBadge = document.getElementById('hanvietBadge');
+    if (hvBadge) {
+      const hv = w.hanviet || (typeof getWordHanViet === 'function' ? getWordHanViet(w) : '');
+      if (hv) {
+        hvBadge.textContent = `［${hv}］`;
+        hvBadge.hidden = false;
+        hvBadge.style.display = showHanViet ? 'inline-flex' : 'none';
+      } else {
+        hvBadge.textContent = '';
+        hvBadge.hidden = true;
+        hvBadge.style.display = 'none';
+      }
+    }
     const m = document.getElementById('meaning');
     m.textContent = w.meaning;
     m.classList.remove('show');

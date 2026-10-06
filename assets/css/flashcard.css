@@ -412,3 +412,75 @@
   .study-mode .rating-emoji { font-size: 18px; }
   .study-mode .reveal-btn { padding-top: 11px; padding-bottom: 11px; }
 }
+
+/* Sino-Vietnamese (Hán - Việt) Badge and controls */
+.hanviet-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #b45309;
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.24);
+  padding: 1px 7px;
+  border-radius: 5px;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+  user-select: text;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+:root[data-theme="dark"] .hanviet-badge {
+  color: #f39c12;
+  background: rgba(243, 156, 18, 0.12);
+  border-color: rgba(243, 156, 18, 0.24);
+}
+
+body.hide-hanviet .hanviet-badge,
+html.hide-hanviet .hanviet-badge,
+.hanviet-badge[hidden] {
+  display: none !important;
+}
+
+.study-word-hanviet {
+  font-size: 11px;
+  font-weight: 600;
+  color: #b45309;
+  background: rgba(245, 158, 11, 0.1);
+  padding: 1px 5px;
+  border-radius: 4px;
+  margin-left: 4px;
+  letter-spacing: 0.01em;
+}
+
+:root[data-theme="dark"] .study-word-hanviet {
+  color: #f39c12;
+  background: rgba(243, 156, 18, 0.12);
+}
+
+body.hide-hanviet .study-word-hanviet,
+html.hide-hanviet .study-word-hanviet {
+  display: none !important;
+}
+
+.active-hv {
+  font-size: 13px;
+  font-weight: 600;
+  color: #b45309;
+  margin-left: 6px;
+}
+
+:root[data-theme="dark"] .active-hv {
+  color: #f39c12;
+}
+
+body.hide-hanviet .active-hv,
+html.hide-hanviet .active-hv {
+  display: none !important;
+}
+
+.vocabulary-hanviet {
+  font-size: 12px;
+  margin-left: 6px;
+}
+

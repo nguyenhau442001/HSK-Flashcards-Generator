@@ -68,6 +68,14 @@ let srsCards = {};
 let reviewLog = [];
 let srsRetention = 0.9;
 let showPinyin = true;
+let showHanViet = (function() {
+  try {
+    const saved = localStorage.getItem('hsk_show_hanviet');
+    return saved !== null ? saved === 'true' : true;
+  } catch (e) {
+    return true;
+  }
+})();
 let currentFilter = 'all';
 let transitionTimer = null;
 let celebrationShown = false;

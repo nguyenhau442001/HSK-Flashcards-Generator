@@ -74,7 +74,7 @@ function renderOverview() {
       const matchesStatus = overviewStatus === 'all' || wordLearningStatus(word) === overviewStatus;
       if (!matchesStatus) return false;
       if (!normalizedQuery) return true;
-      return normalizeSearchText(`${word.hanzi} ${word.pinyin} ${word.meaning}`).includes(normalizedQuery);
+      return normalizeSearchText(`${word.hanzi} ${word.pinyin} ${word.hanviet || ''} ${word.meaning}`).includes(normalizedQuery);
     });
 
   document.getElementById('overviewTitle').textContent = `Trọn bộ từ vựng ${LEVELS[currentLevel].label}`;
@@ -141,6 +141,13 @@ function renderOverview() {
     badge.textContent = statusLabels[status];
 
     wordLine.append(hanzi, pinyin);
+    const hv = word.hanviet || (typeof getWordHanViet === 'function' ? getWordHanViet(word) : '');
+    if (hv) {
+      const hanviet = document.createElement('span');
+      hanviet.className = 'vocabulary-hanviet hanviet-badge';
+      hanviet.textContent = `［${hv}］`;
+      wordLine.append(hanviet);
+    }
     content.append(wordLine, meaning);
     item.append(number, content, badge);
     const curveButton = document.createElement('button');

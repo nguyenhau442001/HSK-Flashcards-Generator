@@ -195,6 +195,11 @@ document.addEventListener('keydown', event => {
     if (typeof toggleStudySidebar === 'function') toggleStudySidebar();
     return;
   }
+  if (event.key === 'h' || event.key === 'H') {
+    event.preventDefault();
+    if (typeof toggleHanViet === 'function') toggleHanViet();
+    return;
+  }
   if (event.key === ' ') {
     if (document.activeElement && document.activeElement.closest('button, summary, a')) return;
     event.preventDefault();
