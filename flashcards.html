@@ -12,7 +12,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="HSK Flashcards">
-<link rel="stylesheet" href="assets/flashcards.css?v=20261006-guessword-ui1">
+<link rel="stylesheet" href="assets/flashcards.css?v=20261006-guessword-flat1">
 <link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20261006-ui-refinement1">
 <link rel="stylesheet" href="assets/css/workstation.css?v=20261006-search-examples1">
 <link rel="stylesheet" href="assets/css/sidebar-lab.css?v=20261006-multichar-grid1">
@@ -646,15 +646,45 @@ if ('serviceWorker' in navigator) {
   <!-- SCREEN 8: Guess-the-word (emoji) game -->
   <div id="screenGuessWord" style="display:none">
     <div class="guess-word-game">
-      <div class="guess-word-emoji" id="guessWordEmoji"></div>
-      <div class="guess-word-options" id="guessWordOptions"></div>
-      <div class="guess-word-feedback" id="guessWordFeedback" role="status" aria-live="polite"></div>
-      <div class="guess-word-actions">
-        <button type="button" class="game-next-btn guess-word-next-btn" id="guessWordNextBtn" onclick="loadNextGuessWordRound()" hidden>
-          <span>Câu tiếp theo</span>
-          <span class="next-btn-arrow">→</span>
-        </button>
-      </div>
+      <header class="guess-word-header">
+        <div class="guess-word-header-main">
+          <div class="guess-word-title-group">
+            <h2 class="guess-word-title">🎨 Đuổi hình bắt chữ</h2>
+            <span class="guess-word-level-badge" id="guessWordLevelBadge">HSK 1</span>
+          </div>
+          <div class="guess-word-meta">
+            <span class="guess-word-counter" id="guessWordCounter">Đang tải...</span>
+          </div>
+        </div>
+      </header>
+
+      <section class="guess-word-card" aria-label="Bảng câu hỏi đuổi hình bắt chữ">
+        <div class="guess-word-prompt-box">
+          <div class="guess-word-prompt-label">Gợi ý hình ảnh</div>
+          <div class="guess-word-clue-frame">
+            <span class="guess-word-emoji" id="guessWordEmoji" role="img" aria-label="Gợi ý hình ảnh"></span>
+          </div>
+          <p class="guess-word-question-text">Chọn từ chữ Hán phù hợp nhất với hình ảnh trên:</p>
+        </div>
+
+        <div class="guess-word-options" id="guessWordOptions" role="group" aria-label="Các lựa chọn chữ Hán"></div>
+
+        <div class="guess-word-feedback" id="guessWordFeedback" role="status" aria-live="polite"></div>
+
+        <div class="guess-word-explanation" id="guessWordExplanation" hidden></div>
+
+        <div class="guess-word-actions">
+          <button type="button" class="game-next-btn guess-word-next-btn" id="guessWordNextBtn" onclick="loadNextGuessWordRound()" hidden>
+            <span>Câu tiếp theo</span>
+            <span class="next-btn-arrow">→</span>
+          </button>
+        </div>
+
+        <div class="guess-word-hints-footer">
+          <span class="guess-word-hint-item"><kbd>1</kbd>–<kbd>4</kbd> Chọn đáp án</span>
+          <span class="guess-word-hint-item"><kbd>Enter</kbd> hoặc <kbd>Space</kbd> Sang câu tiếp</span>
+        </div>
+      </section>
     </div>
   </div>
 
@@ -697,7 +727,7 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/topics.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/hsk30.js?v=20261006-hsk79-clean1"></script>
 <script src="assets/js/sentence-game.js?v=20261006-sentence-ux1"></script>
-<script src="assets/js/guess-word-game.js?v=20261006-guessword-ui1"></script>
+<script src="assets/js/guess-word-game.js?v=20261006-guessword-flat1"></script>
 <script src="assets/js/speed-quiz-game.js?v=20261006-speedquiz-exp1"></script>
 <script src="assets/js/vocabulary-overview.js?v=20261006-nav-fix1"></script>
 <script src="assets/js/fast-review.js?v=20261003-hsk20-rich1"></script>

@@ -39,19 +39,42 @@ function loadNextGuessWordRound() {
   guessWordIdx++;
   guessWordSolved = false;
 
+  const counterEl = document.getElementById('guessWordCounter');
+  if (counterEl) {
+    counterEl.textContent = `Câu ${guessWordIdx} / ${guessWordBankData.length}`;
+  }
+  const levelBadge = document.getElementById('guessWordLevelBadge');
+  if (levelBadge) {
+    levelBadge.textContent = (entry.source || 'HSK 1').toUpperCase();
+  }
+
   const distractors = shuffleGuessWordArray(
     guessWordBankData.filter(w => w.hanzi !== entry.hanzi)
   ).slice(0, 3);
   const options = shuffleGuessWordArray([entry, ...distractors]);
 
-  document.getElementById('guessWordEmoji').textContent = entry.emoji;
-  document.getElementById('guessWordFeedback').textContent = '';
-  document.getElementById('guessWordFeedback').className = 'guess-word-feedback';
+  const emojiEl = document.getElementById('guessWordEmoji');
+  if (emojiEl) emojiEl.textContent = entry.emoji;
+
+  const feedbackEl = document.getElementById('guessWordFeedback');
+  if (feedbackEl) {
+    feedbackEl.textContent = '';
+    feedbackEl.className = 'guess-word-feedback';
+  }
+
+  const explanationEl = document.getElementById('guessWordExplanation');
+  if (explanationEl) {
+    explanationEl.hidden = true;
+    explanationEl.innerHTML = '';
+  }
+
   const nextBtn = document.getElementById('guessWordNextBtn');
   if (nextBtn) nextBtn.hidden = true;
+
   document.getElementById('guessWordOptions').innerHTML = options.map((opt, i) => `
-    <button class="guess-word-option" type="button" onclick="pickGuessWordOption('${opt.hanzi}')" data-hanzi="${opt.hanzi}" data-index="${i}">
-      ${opt.hanzi}
+    <button class="guess-word-option" type="button" onclick="pickGuessWordOption('${escapeHtml(opt.hanzi)}')" data-hanzi="${escapeHtml(opt.hanzi)}" data-index="${i}">
+      <span class="option-key-badge">${i + 1}</span>
+      <span class="option-hanzi">${escapeHtml(opt.hanzi)}</span>
     </button>
   `).join('');
 }
@@ -64,8 +87,26 @@ function pickGuessWordOption(hanzi) {
 
   if (isCorrect) {
     guessWordSolved = true;
-    feedbackEl.textContent = `✓ ${entry.hanzi} (${entry.pinyin}) — ${entry.meaning}`;
-    feedbackEl.className = 'guess-word-feedback correct';
+    if (feedbackEl) {
+      feedbackEl.textContent = '🎉 Chính xác! Bạn đã chọn đúng từ vựng.';
+      feedbackEl.className = 'guess-word-feedback correct';
+    }
+
+    const explanationEl = document.getElementById('guessWordExplanation');
+    if (explanationEl) {
+      explanationEl.innerHTML = `
+        <div class="gwe-card">
+          <div class="gwe-word-row">
+            <strong class="gwe-hanzi">${escapeHtml(entry.hanzi)}</strong>
+            <span class="gwe-pinyin">${escapeHtml(entry.pinyin || '')}</span>
+            <button class="gwe-audio-btn speech-btn" type="button" onclick="speakGuessWord('${escapeHtml(entry.hanzi)}')" aria-label="Nghe phát âm" title="Nghe phát âm">🔊</button>
+          </div>
+          <div class="gwe-meaning"><strong>Nghĩa:</strong> ${escapeHtml(entry.meaning || '')}</div>
+        </div>
+      `;
+      explanationEl.hidden = false;
+    }
+
     const nextBtn = document.getElementById('guessWordNextBtn');
     if (nextBtn) {
       nextBtn.hidden = false;
@@ -75,19 +116,38 @@ function pickGuessWordOption(hanzi) {
     }
     document.querySelectorAll('.guess-word-option').forEach(btn => {
       btn.disabled = true;
-      if (btn.dataset.hanzi === entry.hanzi || btn.textContent.trim() === entry.hanzi) {
+      if (btn.dataset.hanzi === entry.hanzi || btn.textContent.trim().includes(entry.hanzi)) {
         btn.classList.add('correct');
       }
     });
+
+    speakGuessWord(entry.hanzi);
   } else {
-    feedbackEl.textContent = '✗ Chưa đúng, thử lại nhé.';
-    feedbackEl.className = 'guess-word-feedback incorrect';
+    if (feedbackEl) {
+      feedbackEl.textContent = '✗ Chưa đúng, hãy quan sát kỹ và thử lại!';
+      feedbackEl.className = 'guess-word-feedback incorrect';
+    }
     document.querySelectorAll('.guess-word-option').forEach(btn => {
-      if (btn.dataset.hanzi === hanzi || btn.textContent.trim() === hanzi) {
+      if (btn.dataset.hanzi === hanzi || btn.textContent.trim().includes(hanzi)) {
         btn.classList.add('incorrect');
       }
     });
   }
+}
+
+function speakGuessWord(text) {
+  if (!text) return;
+  const btn = document.querySelector('.gwe-audio-btn');
+  if (typeof speakText === 'function') {
+    speakText(text, btn, typeof SPEECH_RATE !== 'undefined' ? SPEECH_RATE : 0.85);
+  }
+}
+window.speakGuessWord = speakGuessWord;
+
+function escapeHtml(str) {
+  return String(str == null ? '' : str).replace(/[&<>"']/g, c => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  })[c]);
 }
 
 // Keyboard navigation for guess word game

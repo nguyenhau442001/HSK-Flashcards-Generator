@@ -66,6 +66,8 @@ function setPrimaryTab(tab, options) {
     document.getElementById(screenId).style.display = isActive ? '' : 'none';
   });
   const isTool = ['radicals', 'sentenceGame', 'guessWord', 'speedQuiz'].includes(tab);
+  const isGame = ['sentenceGame', 'guessWord', 'speedQuiz'].includes(tab);
+  document.body.classList.toggle('is-game-view', isGame);
   const gamesMenu = document.getElementById('primaryGamesMenu');
   gamesMenu.open = false;
   gamesMenu.classList.toggle('has-active-tool', isTool);
