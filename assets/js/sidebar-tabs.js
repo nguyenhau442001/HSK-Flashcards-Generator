@@ -2,11 +2,25 @@
 // and Memory curve into compact, zero-scroll tabs on desktop.
 
 function initSidebarTabs() {
-  const isDesktop = document.body.classList.contains('is-desktop-dock');
+  const isDesktop = document.body.classList.contains('is-desktop-dock') || document.body.classList.contains('flashcard-study-mode');
   const mount = isDesktop ? document.getElementById('workstationRight') : null;
   if (!mount) return;
 
   if (document.getElementById('sidebarStudyTabs')) return;
+
+  if (!document.getElementById('studyWritingDrawerHeader')) {
+    const header = document.createElement('div');
+    header.id = 'studyWritingDrawerHeader';
+    header.className = 'study-drawer-header';
+    header.innerHTML = `
+      <div class="study-drawer-title-group">
+        <span class="study-drawer-icon">✍️</span>
+        <strong class="study-drawer-title">Thứ tự nét & Luyện viết</strong>
+      </div>
+      <button type="button" class="study-drawer-close-btn" onclick="toggleStudyWritingPanel(false)" aria-label="Đóng bảng luyện viết">✕</button>
+    `;
+    mount.insertBefore(header, mount.firstChild);
+  }
 
   const savedTab = localStorage.getItem('hsk_sidebar_tab') || 'stroke';
 
@@ -34,7 +48,12 @@ function initSidebarTabs() {
     </button>
   `;
 
-  mount.insertBefore(nav, mount.firstChild);
+  const headerEl = document.getElementById('studyWritingDrawerHeader');
+  if (headerEl && headerEl.nextSibling) {
+    mount.insertBefore(nav, headerEl.nextSibling);
+  } else {
+    mount.appendChild(nav);
+  }
 
   function setActiveTab(tabKey, save = true) {
     const validTabs = ['stroke', 'companion', 'curve', 'all'];

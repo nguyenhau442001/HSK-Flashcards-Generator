@@ -12,9 +12,9 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="HSK Flashcards">
-<link rel="stylesheet" href="assets/flashcards.css?v=20261006-review-mistakes1">
+<link rel="stylesheet" href="assets/flashcards.css?v=20261006-darkmode-focus1">
 <link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20261006-ui-refinement1">
-<link rel="stylesheet" href="assets/css/workstation.css?v=20261006-search-examples1">
+<link rel="stylesheet" href="assets/css/workstation.css?v=20261006-darkmode-focus1">
 <link rel="stylesheet" href="assets/css/sidebar-lab.css?v=20261006-multichar-grid1">
 <link rel="stylesheet" href="assets/css/home-widgets.css?v=20261006-ui-refinement1">
 <link rel="stylesheet" href="assets/css/dashboard-enhancements.css?v=20261006-ui-refinement1">
@@ -360,6 +360,14 @@ if ('serviceWorker' in navigator) {
         <button class="back-btn" onclick="goBackToPicker()">← Chọn cấp độ khác</button>
         <span class="study-level-badge" id="studyLevelBadge"></span>
       </div>
+      <div class="study-view-topbar-actions">
+        <button type="button" class="study-drawer-btn" id="studySidebarToggleBtn" onclick="toggleStudySidebar()" title="Xem danh sách từ vựng (B)">
+          <span aria-hidden="true">📖</span> <span class="study-drawer-btn-label">Danh sách từ</span>
+        </button>
+        <button type="button" class="study-drawer-btn" id="studyWritingToggleBtn" onclick="toggleStudyWritingPanel()" title="Phòng luyện viết & thứ tự nét (W)">
+          <span aria-hidden="true">✍️</span> <span class="study-drawer-btn-label">Luyện viết</span>
+        </button>
+      </div>
       <div class="view-tabs" role="tablist" aria-label="Chế độ xem">
         <button id="flashcardTab" class="view-tab active" role="tab" aria-selected="true"
           aria-controls="studyView" onclick="setViewMode('cards')">🗂 Học flashcard</button>
@@ -367,6 +375,7 @@ if ('serviceWorker' in navigator) {
           aria-controls="overviewView" onclick="setViewMode('overview')">📋 Tổng quan từ vựng</button>
       </div>
     </div>
+    <div class="study-drawer-backdrop" id="studyDrawerBackdrop" onclick="closeAllStudyDrawers()"></div>
 
     <div id="studyView" role="tabpanel" aria-labelledby="flashcardTab">
       <div class="filter-row" id="filterRow"></div>
@@ -757,7 +766,7 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/storage.js?v=20261006-srs-sync1"></script>
 <script src="https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js" crossorigin="anonymous"></script>
 <script src="assets/js/srs.js?v=20261006-2tier-srs1"></script>
-<script src="assets/js/levels.js?v=20261006-decimal-pct1"></script>
+<script src="assets/js/levels.js?v=20261006-darkmode-focus1"></script>
 <script src="assets/js/topics.js?v=20261006-decimal-pct1"></script>
 <script src="assets/js/hsk30.js?v=20261006-decimal-pct1"></script>
 <script src="assets/js/sentence-game.js?v=20261006-sentence-ux1"></script>
@@ -765,10 +774,10 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/speed-quiz-game.js?v=20261006-speedquiz-card1"></script>
 <script src="assets/js/vocabulary-overview.js?v=20261006-nav-fix1"></script>
 <script src="assets/js/fast-review.js?v=20261006-review-mistakes1"></script>
-<script src="assets/js/flashcard.js?v=20261006-swipe-fix1"></script>
+<script src="assets/js/flashcard.js?v=20261006-darkmode-focus1"></script>
 <script src="assets/js/card-interactions.js?v=20261006-swipe-fix1"></script>
 <script src="assets/js/speech.js?v=20261003-hsk20-rich1"></script>
-<script src="assets/js/progress.js?v=20261006-swipe-fix1"></script>
+<script src="assets/js/progress.js?v=20261006-darkmode-focus1"></script>
 <script src="assets/js/due-review.js?v=20261006-srs-sync1"></script>
 <script src="assets/js/theme.js?v=20261006-ui-refinement1"></script>
 <script src="assets/js/backup.js?v=20261003-hsk20-rich1"></script>
@@ -780,8 +789,8 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/sidebar-search.js?v=20261006-nav-fix1"></script>
 <script src="assets/js/sidebar-radicals-filter.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/weak-words.js?v=20261003-hsk20-rich1"></script>
-<script src="assets/js/stroke-canvas.js?v=20261006-multichar-grid1"></script>
-<script src="assets/js/sidebar-tabs.js?v=20261006-2tier-srs1"></script>
+<script src="assets/js/stroke-canvas.js?v=20261006-darkmode-focus1"></script>
+<script src="assets/js/sidebar-tabs.js?v=20261006-darkmode-focus1"></script>
 <script src="assets/js/word-companion.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/grammar-breakdown.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/home-widgets.js?v=20261006-search-examples1"></script>

@@ -178,6 +178,23 @@ function toggleUnknownWords() {
 document.addEventListener('keydown', event => {
   if (!currentLevel || currentView !== 'cards' || event.altKey || event.ctrlKey || event.metaKey) return;
   if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement && document.activeElement.tagName)) return;
+  if (event.key === 'Escape') {
+    if (document.body.classList.contains('study-sidebar-open') || document.body.classList.contains('study-writing-panel-open')) {
+      event.preventDefault();
+      if (typeof closeAllStudyDrawers === 'function') closeAllStudyDrawers();
+      return;
+    }
+  }
+  if (event.key === 'w' || event.key === 'W') {
+    event.preventDefault();
+    if (typeof toggleStudyWritingPanel === 'function') toggleStudyWritingPanel();
+    return;
+  }
+  if (event.key === 'b' || event.key === 'B') {
+    event.preventDefault();
+    if (typeof toggleStudySidebar === 'function') toggleStudySidebar();
+    return;
+  }
   if (event.key === ' ') {
     if (document.activeElement && document.activeElement.closest('button, summary, a')) return;
     event.preventDefault();

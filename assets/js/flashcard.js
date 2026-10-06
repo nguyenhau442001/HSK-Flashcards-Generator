@@ -1,8 +1,17 @@
 // Flashcard markup, filtering, statistics, and rendering.
 function buildCardArea() {
   document.getElementById('cardArea').innerHTML = `
-    <div class="progress-bar-track">
-      <div class="progress-bar-fill" id="progressBar"></div>
+    <div class="study-progress-card">
+      <div class="study-progress-info">
+        <span class="study-progress-label">Tiến độ bài học</span>
+        <div class="study-progress-numbers">
+          <span class="progress-text" id="progress">1 / ${WORDS.length}</span>
+          <span class="study-progress-pct" id="progressPct">0%</span>
+        </div>
+      </div>
+      <div class="progress-bar-track">
+        <div class="progress-bar-fill" id="progressBar"></div>
+      </div>
     </div>
     <div class="card" id="card">
       <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Đã nhớ</div>
@@ -16,6 +25,9 @@ function buildCardArea() {
         </button>
         <button type="button" class="card-tool-btn" id="pinyinToggle" onclick="togglePinyin()" aria-label="Ẩn hoặc hiện pinyin" title="Ẩn hoặc hiện pinyin">
           <span id="pinyinToggleIcon" aria-hidden="true">👁</span>
+        </button>
+        <button type="button" class="card-tool-btn" id="cardWritingBtn" onclick="toggleStudyWritingPanel()" aria-label="Luyện viết chữ Hán (W)" title="Luyện viết chữ Hán (W)">
+          <span aria-hidden="true">✍️</span>
         </button>
         <button type="button" class="card-tool-btn" id="weakWordToggleBtn" onclick="toggleWeakWord(activeStudyWord && activeStudyWord.hanzi, currentLevel)" aria-label="Đánh dấu từ khó" title="Đánh dấu từ khó">
           <span id="weakWordToggleIcon" aria-hidden="true">☆</span>
@@ -71,9 +83,6 @@ function buildCardArea() {
       </div>
     </div>
 
-    <div class="nav-row nav-row--progress-only">
-      <span class="progress-text" id="progress">1 / ${WORDS.length}</span>
-    </div>
 
     <div class="rating-area">
       ${revealButtonHtml('flip()', 'revealBtn')}
@@ -224,12 +233,58 @@ function syncRevealControls() {
   ratingRow.hidden = !revealed;
 }
 function updateProgress(current, total) {
-  document.getElementById('progress').textContent = total === 0 ? '0 / 0' : current + ' / ' + total;
+  const el = document.getElementById('progress');
+  if (el) el.textContent = total === 0 ? '0 / 0' : current + ' / ' + total;
+  const pct = total === 0 ? 0 : Math.round((current / total) * 100);
   const bar = document.getElementById('progressBar');
-  if (bar) bar.style.width = (total === 0 ? 0 : (current / total * 100)) + '%';
+  if (bar) bar.style.width = pct + '%';
+  const pctEl = document.getElementById('progressPct');
+  if (pctEl) pctEl.textContent = pct + '%';
 }
+
+function toggleStudySidebar(forceOpen) {
+  const shouldOpen = typeof forceOpen === 'boolean' ? forceOpen : !document.body.classList.contains('study-sidebar-open');
+  if (shouldOpen) {
+    document.body.classList.remove('study-writing-panel-open');
+    document.body.classList.add('study-sidebar-open');
+    if (typeof renderStudyWordList === 'function') renderStudyWordList();
+  } else {
+    document.body.classList.remove('study-sidebar-open');
+  }
+  updateStudyDrawerButtons();
+}
+
+function toggleStudyWritingPanel(forceOpen) {
+  const shouldOpen = typeof forceOpen === 'boolean' ? forceOpen : !document.body.classList.contains('study-writing-panel-open');
+  if (shouldOpen) {
+    document.body.classList.remove('study-sidebar-open');
+    document.body.classList.add('study-writing-panel-open');
+    if (typeof renderActiveStrokeChar === 'function') {
+      setTimeout(() => renderActiveStrokeChar(true), 60);
+    }
+  } else {
+    document.body.classList.remove('study-writing-panel-open');
+  }
+  updateStudyDrawerButtons();
+}
+
+function closeAllStudyDrawers() {
+  document.body.classList.remove('study-sidebar-open');
+  document.body.classList.remove('study-writing-panel-open');
+  updateStudyDrawerButtons();
+}
+
+function updateStudyDrawerButtons() {
+  const sidebarBtn = document.getElementById('studySidebarToggleBtn');
+  if (sidebarBtn) sidebarBtn.classList.toggle('active', document.body.classList.contains('study-sidebar-open'));
+  const writingBtn = document.getElementById('studyWritingToggleBtn');
+  if (writingBtn) writingBtn.classList.toggle('active', document.body.classList.contains('study-writing-panel-open'));
+  const cardWritingBtn = document.getElementById('cardWritingBtn');
+  if (cardWritingBtn) cardWritingBtn.classList.toggle('active', document.body.classList.contains('study-writing-panel-open'));
+}
+
 function ensureStudyWordList() {
-  if (!document.body.classList.contains('is-desktop-dock')) return null;
+  if (!document.body.classList.contains('is-desktop-dock') && !document.body.classList.contains('flashcard-study-mode')) return null;
   let panel = document.getElementById('studyWordListPanel');
   if (panel) return panel;
   const mount = document.getElementById('workstationLeft');
@@ -243,6 +298,7 @@ function ensureStudyWordList() {
       <div class="study-word-list-header-row">
         <strong id="studyWordListTitle">Danh sách từ</strong>
         <span id="studyWordListCount" class="study-word-count-badge"></span>
+        <button type="button" class="study-drawer-close-btn" onclick="toggleStudySidebar(false)" aria-label="Đóng danh sách">✕</button>
       </div>
       <div id="studyWordListActiveWord" class="study-word-active-banner"></div>
       <label class="study-word-list-search">
@@ -326,6 +382,9 @@ function renderStudyWordList() {
       if (filteredIndex >= 0) {
         idx = filteredIndex;
         render('fade');
+        if (window.innerWidth < 768) {
+          closeAllStudyDrawers();
+        }
       }
     });
   });

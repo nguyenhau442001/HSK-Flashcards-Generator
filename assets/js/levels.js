@@ -633,6 +633,7 @@ function renderLevelProgress() {
 function goBackToPicker() {
   stopSpeech();
   abandonReviewSession();
+  if (typeof closeAllStudyDrawers === 'function') closeAllStudyDrawers();
   setActiveStudyWord(null);
   document.body.classList.remove('study-mode');
   document.body.classList.remove('flashcard-study-mode');

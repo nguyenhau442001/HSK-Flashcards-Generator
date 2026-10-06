@@ -68,8 +68,17 @@
   background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg);
   padding: 44px 24px 28px; text-align: center; cursor: pointer; min-height: 190px;
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;
-  user-select: none; box-shadow: 0 1px 3px rgba(0,0,0,0.04); transition: box-shadow 0.15s ease;
+  user-select: none; box-shadow: 0 1px 3px rgba(0,0,0,0.04); transition: box-shadow 0.15s ease, background 0.2s ease, border-color 0.2s ease;
   overflow: hidden; position: relative; touch-action: pan-y;
+}
+:root[data-theme="dark"] .card {
+  background: linear-gradient(180deg, #181920 0%, #15161c 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.03);
+}
+.card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+:root[data-theme="dark"] .card:hover {
+  box-shadow: 0 14px 36px -4px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.06);
 }
 .swipe-badge {
   position: absolute; top: 20px; padding: 5px 11px; border-radius: var(--radius-md);
@@ -78,7 +87,6 @@
 .swipe-badge--known  { right: 14px; background: var(--success-bg); color: var(--success-text); border: 1.5px solid var(--success-text); }
 .swipe-badge--unknown { left: 14px;  background: var(--danger-bg);  color: var(--danger-text);  border: 1.5px solid var(--danger-text); }
 @media (prefers-reduced-motion: reduce) { .swipe-badge { display: none; } }
-.card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
 .card-content { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 8px; }
 .card-content.exit-left  { animation: cardSlideOutLeft  150ms ease forwards; }
 .card-content.exit-right { animation: cardSlideOutRight 150ms ease forwards; }
@@ -174,6 +182,75 @@
 .review-preview { display: inline-block; margin-left: 4px; opacity: 0.8; font-size: 0.9em; }
 .nav-row--progress-only { justify-content: center; }
 
+/* Prominent study progress card */
+.study-progress-card {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 100%;
+  padding: 10px 14px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  margin-bottom: 8px;
+  flex: 0 0 auto;
+}
+:root[data-theme="dark"] .study-progress-card {
+  background: linear-gradient(180deg, #181920 0%, #15161c 100%);
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+.study-progress-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.study-progress-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.02em;
+}
+.study-progress-stats {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.study-progress-numbers {
+  font-size: 13px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-primary);
+}
+.study-progress-pct {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--accent-light);
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.study-progress-card .progress-bar-track {
+  width: 100%;
+  height: 6px;
+  background: var(--surface-subtle);
+  border-radius: 999px;
+  overflow: hidden;
+  margin: 0;
+}
+:root[data-theme="dark"] .study-progress-card .progress-bar-track {
+  background: rgba(255, 255, 255, 0.08);
+}
+.study-progress-card .progress-bar-fill {
+  height: 100%;
+  background: var(--accent-gradient, var(--accent));
+  border-radius: 999px;
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* SRS rating: one "Lật thẻ" button before the answer, four colored ratings after it. */
 .rating-area { margin-top: 12px; }
 .reveal-btn {
@@ -231,6 +308,30 @@
   background: var(--success-bg);
   border-color: var(--success-text);
   box-shadow: 0 4px 14px color-mix(in srgb, var(--success-text) 20%, transparent);
+}
+:root[data-theme="dark"] .rating-btn--again {
+  background: rgba(244, 63, 94, 0.09);
+  color: #fb7185;
+  border-color: rgba(244, 63, 94, 0.28);
+  box-shadow: 0 3px 12px rgba(244, 63, 94, 0.07);
+}
+:root[data-theme="dark"] .rating-btn--again:hover {
+  background: rgba(244, 63, 94, 0.18);
+  border-color: rgba(244, 63, 94, 0.5);
+  color: #fda4af;
+  box-shadow: 0 6px 18px rgba(244, 63, 94, 0.2);
+}
+:root[data-theme="dark"] .rating-btn--good {
+  background: rgba(16, 185, 129, 0.09);
+  color: #34d399;
+  border-color: rgba(16, 185, 129, 0.28);
+  box-shadow: 0 3px 12px rgba(16, 185, 129, 0.07);
+}
+:root[data-theme="dark"] .rating-btn--good:hover {
+  background: rgba(16, 185, 129, 0.18);
+  border-color: rgba(16, 185, 129, 0.5);
+  color: #6ee7b7;
+  box-shadow: 0 6px 18px rgba(16, 185, 129, 0.2);
 }
 .key-badge { display: none; }
 @media (pointer: fine) {

@@ -437,7 +437,7 @@ function syncStrokeCanvasControls() {
 }
 
 function initStrokeCanvas() {
-  const isDesktop = document.body.classList.contains('is-desktop-dock');
+  const isDesktop = document.body.classList.contains('is-desktop-dock') || document.body.classList.contains('flashcard-study-mode');
   const mount = isDesktop
     ? document.getElementById('workstationRight')
     : document.getElementById('screenCards');
