@@ -29,7 +29,11 @@ function setViewMode(mode) {
   }
 
   if (mode === 'cards') {
-    setFilter(currentFilter);
+    if (!filteredOrder || filteredOrder.length === 0) {
+      setFilter(currentFilter);
+    } else {
+      render();
+    }
   }
 }
 

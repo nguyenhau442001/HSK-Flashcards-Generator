@@ -109,7 +109,7 @@ function renderSidebarSearchResults(results, container) {
   container.innerHTML = results.map((w, idx) => {
     const hasExample = Boolean(w.example_zh || w.example_vi);
     return `
-      <li class="sidebar-search-result" data-hanzi="${escapeHtml(w.hanzi)}" data-level="${w.levelKey}" data-index="${idx}" tabindex="0" role="option">
+      <li class="sidebar-search-result" data-id="${w.id != null ? w.id : ''}" data-hanzi="${escapeHtml(w.hanzi)}" data-level="${w.levelKey}" data-index="${idx}" tabindex="0" role="option">
         <div class="ssr-head">
           <div class="ssr-title-group">
             <span class="ssr-hanzi">${escapeHtml(w.hanzi)}</span>
@@ -201,9 +201,11 @@ function initSidebarSearch() {
   results.addEventListener('click', async e => {
     const li = e.target.closest('.sidebar-search-result');
     if (!li) return;
+    const wordId = li.dataset.id;
     const hanzi = li.dataset.hanzi;
     const levelKey = li.dataset.level;
-    const word = (sidebarSearchIndex && sidebarSearchIndex.find(w => w.hanzi === hanzi && (!levelKey || w.levelKey === levelKey))) ||
+    const word = (sidebarSearchIndex && sidebarSearchIndex.find(w => (wordId && String(w.id) === String(wordId)) && (!levelKey || w.levelKey === levelKey))) ||
+                 (sidebarSearchIndex && sidebarSearchIndex.find(w => w.hanzi === hanzi && (!levelKey || w.levelKey === levelKey))) ||
                  (sidebarSearchIndex && sidebarSearchIndex.find(w => w.hanzi === hanzi));
     if (!word) return;
 
@@ -216,7 +218,7 @@ function initSidebarSearch() {
     }
 
     if (typeof openWordInLevel === 'function') {
-      await openWordInLevel(word.levelKey, word.hanzi || word.id, true);
+      await openWordInLevel(word.levelKey, word.id || word.hanzi, true);
     }
   });
 

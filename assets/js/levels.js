@@ -729,23 +729,44 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
 
   loadState();
 
+  buildCardArea();
+  renderFilters();
+
+  currentView = 'cards';
+  const studyView = document.getElementById('studyView');
+  const overviewView = document.getElementById('overviewView');
+  if (studyView) studyView.hidden = false;
+  if (overviewView) overviewView.hidden = true;
+  const flashcardTab = document.getElementById('flashcardTab');
+  const overviewTab = document.getElementById('overviewTab');
+  if (flashcardTab) {
+    flashcardTab.classList.add('active');
+    flashcardTab.setAttribute('aria-selected', 'true');
+  }
+  if (overviewTab) {
+    overviewTab.classList.remove('active');
+    overviewTab.setAttribute('aria-selected', 'false');
+  }
+
+  if (transitionTimer) {
+    clearTimeout(transitionTimer);
+    transitionTimer = null;
+  }
+
   if (targetWordIdOrHanzi) {
     const targetIdx = WORDS.findIndex(w => (w.id && String(w.id) === String(targetWordIdOrHanzi)) || w.hanzi === targetWordIdOrHanzi);
     if (targetIdx >= 0) {
       currentFilter = 'all';
       filteredOrder = order.slice();
       const pos = filteredOrder.indexOf(targetIdx);
-      if (pos >= 0) idx = pos;
+      idx = pos >= 0 ? pos : 0;
     }
   } else if (filteredOrder.length > 0) {
     // Start with a completely random word whenever entering flashcard study mode
     idx = Math.floor(Math.random() * filteredOrder.length);
   }
 
-  buildCardArea();
-  renderFilters();
   render();
-  setViewMode('cards');
 
   if (targetWordIdOrHanzi) {
     const targetIdx = WORDS.findIndex(w => (w.id && String(w.id) === String(targetWordIdOrHanzi)) || w.hanzi === targetWordIdOrHanzi);
@@ -774,7 +795,26 @@ async function openWordInLevel(level, wordIdOrHanzi, autoReveal = true) {
     return;
   }
 
-  if (typeof setViewMode === 'function') setViewMode('cards');
+  if (transitionTimer) {
+    clearTimeout(transitionTimer);
+    transitionTimer = null;
+  }
+
+  currentView = 'cards';
+  const studyView = document.getElementById('studyView');
+  const overviewView = document.getElementById('overviewView');
+  if (studyView) studyView.hidden = false;
+  if (overviewView) overviewView.hidden = true;
+  const flashcardTab = document.getElementById('flashcardTab');
+  const overviewTab = document.getElementById('overviewTab');
+  if (flashcardTab) {
+    flashcardTab.classList.add('active');
+    flashcardTab.setAttribute('aria-selected', 'true');
+  }
+  if (overviewTab) {
+    overviewTab.classList.remove('active');
+    overviewTab.setAttribute('aria-selected', 'false');
+  }
 
   const wordIndex = WORDS.findIndex(w => (w.id && String(w.id) === String(wordIdOrHanzi)) || w.hanzi === wordIdOrHanzi);
   if (wordIndex < 0) return;
