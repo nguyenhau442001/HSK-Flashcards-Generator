@@ -8,6 +8,9 @@ function buildCardArea() {
       <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Được</div>
       <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Quên</div>
       <div class="card-toolbar card-interactive" id="cardToolbar" onclick="event.stopPropagation()">
+        <button type="button" class="card-tool-btn" id="randomWordBtn" onclick="jumpToRandomWord()" aria-label="Hiện từ ngẫu nhiên (R)" title="Hiện từ ngẫu nhiên (R)">
+          <span aria-hidden="true">🎲</span>
+        </button>
         <button type="button" class="card-tool-btn" id="shuffleBtn" onclick="shuffleDeck()" aria-label="Xáo trộn bộ từ" title="Xáo trộn bộ từ">
           <span aria-hidden="true">🔀</span>
         </button>

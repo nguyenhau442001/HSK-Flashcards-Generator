@@ -737,6 +737,9 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
       const pos = filteredOrder.indexOf(targetIdx);
       if (pos >= 0) idx = pos;
     }
+  } else if (filteredOrder.length > 0) {
+    // Start with a completely random word whenever entering flashcard study mode
+    idx = Math.floor(Math.random() * filteredOrder.length);
   }
 
   buildCardArea();

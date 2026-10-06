@@ -1,6 +1,38 @@
 // Study navigation, mastery actions, celebration, and progress controls.
 function nextCard() { if (filteredOrder.length===0) return; idx = (idx + 1) % filteredOrder.length; render('next'); }
 function prevCard() { if (filteredOrder.length===0) return; idx = (idx - 1 + filteredOrder.length) % filteredOrder.length; render('prev'); }
+function jumpToRandomWord() {
+  if (!filteredOrder || filteredOrder.length === 0) return;
+  if (filteredOrder.length === 1) {
+    idx = 0;
+    render('fade');
+    return;
+  }
+  const currentPos = idx % filteredOrder.length;
+  let nextPos;
+  // Pick a random index distinct from the current one
+  do {
+    nextPos = Math.floor(Math.random() * filteredOrder.length);
+  } while (nextPos === currentPos && filteredOrder.length > 1);
+
+  idx = nextPos;
+  render('fade');
+
+  // Sync stroke order and sidebar list
+  const wIdx = filteredOrder[idx % filteredOrder.length];
+  if (wIdx >= 0 && WORDS[wIdx]) {
+    setActiveStudyWord(WORDS[wIdx]);
+    setTimeout(() => {
+      const listBtn = document.querySelector(`.study-word-list-item[data-word-index="${wIdx}"]`);
+      if (listBtn) listBtn.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    }, 60);
+  }
+}
+
+// Global aliases so users and other components can invoke it easily
+window.jumpToRandomWord = jumpToRandomWord;
+window.randomWord = jumpToRandomWord;
+window.randomizeFlashcardWord = jumpToRandomWord;
 function rateCurrentCard(rating) {
   if (filteredOrder.length===0) return;
   const wIdx = filteredOrder[idx % filteredOrder.length];
@@ -158,5 +190,10 @@ document.addEventListener('keydown', event => {
     return;
   }
   const rating = RATING_KEYS[event.key];
-  if (rating && ratingsVisible()) { event.preventDefault(); rateCurrentCard(rating); }
+  if (rating && ratingsVisible()) { event.preventDefault(); rateCurrentCard(rating); return; }
+  if (event.key === 'r' || event.key === 'R') {
+    event.preventDefault();
+    jumpToRandomWord();
+    return;
+  }
 });
