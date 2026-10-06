@@ -650,7 +650,7 @@ function goBackToPicker() {
   renderLearningDashboard();
 }
 
-async function selectLevel(level) {
+async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false) {
   celebrationShown = false;
   setActiveStudyWord(null);
   currentLevel = level;
@@ -728,8 +728,73 @@ async function selectLevel(level) {
   idx = 0;
 
   loadState();
+
+  if (targetWordIdOrHanzi) {
+    const targetIdx = WORDS.findIndex(w => (w.id && String(w.id) === String(targetWordIdOrHanzi)) || w.hanzi === targetWordIdOrHanzi);
+    if (targetIdx >= 0) {
+      currentFilter = 'all';
+      filteredOrder = order.slice();
+      const pos = filteredOrder.indexOf(targetIdx);
+      if (pos >= 0) idx = pos;
+    }
+  }
+
   buildCardArea();
   renderFilters();
   render();
   setViewMode('cards');
+
+  if (targetWordIdOrHanzi) {
+    const targetIdx = WORDS.findIndex(w => (w.id && String(w.id) === String(targetWordIdOrHanzi)) || w.hanzi === targetWordIdOrHanzi);
+    if (targetIdx >= 0) {
+      setActiveStudyWord(WORDS[targetIdx]);
+      if (autoReveal && typeof flip === 'function') {
+        const meaning = document.getElementById('meaning');
+        if (meaning && !meaning.classList.contains('show')) {
+          flip();
+        }
+      }
+      setTimeout(() => {
+        const listBtn = document.querySelector(`.study-word-list-item[data-word-index="${targetIdx}"]`);
+        if (listBtn) listBtn.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      }, 100);
+    }
+  }
 }
+
+async function openWordInLevel(level, wordIdOrHanzi, autoReveal = true) {
+  if (typeof primaryTab !== 'undefined' && primaryTab !== 'vocab') setPrimaryTab('vocab');
+  window.scrollTo(0, 0);
+
+  if (currentLevel !== level || !Array.isArray(WORDS) || WORDS.length === 0) {
+    await selectLevel(level, wordIdOrHanzi, autoReveal);
+    return;
+  }
+
+  if (typeof setViewMode === 'function') setViewMode('cards');
+
+  const wordIndex = WORDS.findIndex(w => (w.id && String(w.id) === String(wordIdOrHanzi)) || w.hanzi === wordIdOrHanzi);
+  if (wordIndex < 0) return;
+
+  currentFilter = 'all';
+  filteredOrder = order.slice();
+  const position = filteredOrder.indexOf(wordIndex);
+  idx = position >= 0 ? position : 0;
+  if (typeof renderFilters === 'function') renderFilters();
+  if (typeof render === 'function') render();
+  if (typeof setActiveStudyWord === 'function') setActiveStudyWord(WORDS[wordIndex]);
+
+  if (autoReveal && typeof flip === 'function') {
+    const meaning = document.getElementById('meaning');
+    if (meaning && !meaning.classList.contains('show')) {
+      flip();
+    }
+  }
+
+  setTimeout(() => {
+    const listBtn = document.querySelector(`.study-word-list-item[data-word-index="${wordIndex}"]`);
+    if (listBtn) listBtn.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  }, 100);
+}
+
+window.openWordInLevel = openWordInLevel;

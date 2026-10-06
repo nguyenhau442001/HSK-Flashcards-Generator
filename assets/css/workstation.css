@@ -197,14 +197,15 @@ body.flashcard-study-mode .featured-topics {
   body.flashcard-study-mode .app-footer { display: none !important; }
   body.flashcard-study-mode .workstation-left {
     position: static; align-self: stretch; height: 100%; min-height: 0;
-    overflow: hidden; gap: 10px;
+    overflow: visible; gap: 8px;
   }
   body.flashcard-study-mode .workstation-right {
     position: static; align-self: stretch; height: 100%; min-height: 0;
     overflow-y: auto; gap: 8px;
   }
-  body.flashcard-study-mode .workstation-left > :not(#studyWordListPanel) { display: none !important; }
-  body.flashcard-study-mode .study-word-list-panel { display: flex; }
+  body.flashcard-study-mode .workstation-left > :not(#studyWordListPanel):not(.sidebar-search) { display: none !important; }
+  body.flashcard-study-mode .workstation-left > .sidebar-search { display: block; flex: 0 0 auto; }
+  body.flashcard-study-mode .study-word-list-panel { display: flex; flex: 1 1 auto; min-height: 0; }
   body.flashcard-study-mode .workstation-middle {
     display: flex; flex-direction: column; min-width: 0; min-height: 0; height: 100%;
     gap: 0; overflow: hidden;
@@ -443,37 +444,171 @@ body.flashcard-study-mode .featured-topics {
    which container to render into. */
 
 .sidebar-search { position: relative; }
+.sidebar-search-input-wrap { position: relative; width: 100%; }
 .sidebar-search-input {
   width: 100%;
   box-sizing: border-box;
-  padding: 10px 12px;
+  padding: 9px 12px;
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
   background: var(--card-bg);
   color: var(--text-primary);
-  font-size: 14px;
+  font-size: 13.5px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.sidebar-search-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 25%, transparent);
+  outline: none;
 }
 .sidebar-search-results {
   position: absolute;
-  top: calc(100% + 4px);
+  top: calc(100% + 6px);
   left: 0;
-  right: 0;
-  z-index: 20;
-  max-height: 320px;
+  width: max(100%, 340px);
+  max-width: 440px;
+  z-index: 150;
+  max-height: 440px;
   overflow-y: auto;
+  overscroll-behavior: contain;
   margin: 0;
-  padding: 4px;
+  padding: 6px;
   list-style: none;
   background: var(--card-bg);
   border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.18);
 }
 .weak-words-list {
   position: static;
   width: 100%;
   max-height: 240px;
   overflow-y: auto;
+}
+.sidebar-search-results .sidebar-search-result {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 4px;
+  padding: 9px 11px;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+  text-align: left;
+}
+.sidebar-search-results .sidebar-search-result:hover,
+.sidebar-search-results .sidebar-search-result:focus,
+.sidebar-search-results .sidebar-search-result.is-selected {
+  background: var(--surface-subtle);
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.ssr-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+.ssr-title-group {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
+}
+.ssr-hanzi {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+.ssr-pinyin {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--accent);
+}
+.ssr-level-pill {
+  flex-shrink: 0;
+  padding: 2px 8px;
+  font-size: 10.5px;
+  font-weight: 700;
+  border-radius: 999px;
+  background: var(--accent-light);
+  color: var(--accent-text, var(--accent));
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  letter-spacing: 0.03em;
+}
+.ssr-meaning {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+  line-height: 1.35;
+}
+.ssr-example-snippet {
+  margin-top: 3px;
+  padding: 6px 9px;
+  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--accent-light) 35%, var(--card-bg));
+  border-left: 3px solid var(--accent);
+  font-size: 12px;
+  line-height: 1.45;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.ssr-example-zh {
+  color: var(--text-primary);
+  font-weight: 500;
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+.ssr-example-icon {
+  font-size: 12px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.ssr-example-text {
+  flex: 1 1 auto;
+}
+.ssr-example-zh u,
+.ssr-example-vi u {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent-light) 65%, transparent);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+.ssr-example-vi {
+  color: var(--text-secondary);
+  font-size: 11px;
+  padding-left: 16px;
+}
+.ssr-footer-cta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  opacity: 0.75;
+  transition: all 0.15s ease;
+  margin-top: 2px;
+}
+.sidebar-search-results .sidebar-search-result:hover .ssr-footer-cta,
+.sidebar-search-results .sidebar-search-result:focus .ssr-footer-cta {
+  opacity: 1;
+  color: var(--accent);
+}
+.ssr-footer-cta .ssr-cta-arrow {
+  transition: transform 0.15s ease;
+}
+.sidebar-search-results .sidebar-search-result:hover .ssr-cta-arrow {
+  transform: translateX(3px);
 }
 .sidebar-search-result {
   display: flex;
@@ -487,10 +622,8 @@ body.flashcard-study-mode .featured-topics {
 .sidebar-search-result:focus {
   background: var(--accent-light);
 }
-.ssr-hanzi { font-size: 18px; color: var(--text-primary); }
-.ssr-pinyin { color: var(--text-secondary); font-size: 13px; }
-.ssr-level { margin-left: auto; font-size: 11px; color: var(--text-tertiary); }
-.sidebar-search-empty { padding: 12px; color: var(--text-secondary); font-size: 13px; }
+.sidebar-search-result .ssr-level { margin-left: auto; font-size: 11px; color: var(--text-tertiary); }
+.sidebar-search-empty { padding: 14px 12px; color: var(--text-secondary); font-size: 13px; text-align: center; }
 .sidebar-panel-title {
   font-weight: 600;
   color: var(--text-primary);

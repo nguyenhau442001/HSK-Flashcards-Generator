@@ -464,6 +464,9 @@ function openForgottenReview(items) {
 // ---- Navigation --------------------------------------------------------------
 
 async function openWordInLevel(level, wordId) {
+  if (typeof window.openWordInLevel === 'function' && window.openWordInLevel !== openWordInLevel) {
+    return window.openWordInLevel(level, wordId, true);
+  }
   if (typeof primaryTab !== 'undefined' && primaryTab !== 'vocab') setPrimaryTab('vocab');
   window.scrollTo(0, 0);
   await selectLevel(level);
