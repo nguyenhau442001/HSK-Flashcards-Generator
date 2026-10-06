@@ -236,6 +236,14 @@ function renderSentenceGameBoard() {
 
   const targetCount = (entry.zh_tokens || []).length;
 
+  // Update reset button state
+  const resetBtn = document.getElementById('sentenceGameResetBtn');
+  if (resetBtn) {
+    const hasPlaced = sentenceGameSlots.length > 0;
+    resetBtn.disabled = !hasPlaced;
+    resetBtn.classList.toggle('has-items', hasPlaced);
+  }
+
   // Render slots (exactly targetCount slots)
   slotsEl.innerHTML = Array.from({ length: targetCount }, (_, slotIdx) => {
     const filledToken = sentenceGameSlots[slotIdx];
@@ -243,8 +251,9 @@ function renderSentenceGameBoard() {
       return `
         <div class="sentence-slot empty"
           ondragover="handleSlotDragOver(event)"
+          ondragleave="handleSlotDragLeave(event)"
           ondrop="handleSlotDrop(event, ${slotIdx})">
-          <span>#${slotIdx + 1}</span>
+          <span class="slot-idx-num">${slotIdx + 1}</span>
         </div>`;
     }
     const rubyPy = sentenceGameShowPinyin && filledToken.py ? `<span class="chip-ruby-py">${escapeHtml(filledToken.py)}</span>` : '';
@@ -253,7 +262,9 @@ function renderSentenceGameBoard() {
       <button class="sentence-slot filled${distractorClass}" type="button"
         draggable="true"
         ondragstart="handleSlotDragStart(event, ${slotIdx})"
+        ondragend="handleDragEnd(event)"
         ondragover="handleSlotDragOver(event)"
+        ondragleave="handleSlotDragLeave(event)"
         ondrop="handleSlotDrop(event, ${slotIdx})"
         onclick="removeSentenceGameSlot(${slotIdx})"
         title="Nhấn để gỡ từ này">
@@ -262,18 +273,26 @@ function renderSentenceGameBoard() {
       </button>`;
   }).join('');
 
-  // Render word bank (available tokens)
+  // Render word bank (available tokens + ghost placeholders for used ones)
   const usedIds = new Set(sentenceGameSlots.map(s => s.id));
   bankEl.innerHTML = sentenceGameBankTokens
-    .filter(item => !usedIds.has(item.id))
     .map(item => {
+      const isUsed = usedIds.has(item.id);
       const rubyPy = sentenceGameShowPinyin && item.py ? `<span class="chip-ruby-py">${escapeHtml(item.py)}</span>` : '';
+      if (isUsed) {
+        return `
+          <div class="sentence-chip is-used" aria-hidden="true" title="Từ này đã được xếp vào câu">
+            ${rubyPy}
+            <span class="chip-hanzi">${escapeHtml(item.tok)}</span>
+          </div>`;
+      }
       return `
         <button class="sentence-chip" type="button"
           draggable="true"
           ondragstart="handleTokenDragStart(event, '${item.id}')"
+          ondragend="handleDragEnd(event)"
           onclick="pickSentenceGameToken('${item.id}')"
-          title="Nhấn hoặc kéo vào ô xếp câu">
+          title="Nhấn hoặc kéo vào ô ghép câu">
           ${rubyPy}
           <span class="chip-hanzi">${escapeHtml(item.tok)}</span>
         </button>`;
@@ -308,18 +327,31 @@ function resetSentenceGameSlots() {
 
 // Drag & drop handlers
 function handleTokenDragStart(event, tokenId) {
+  event.target.classList.add('dragging');
   event.dataTransfer.setData('text/plain', JSON.stringify({ type: 'bank', id: tokenId }));
   event.dataTransfer.effectAllowed = 'move';
 }
 
 function handleSlotDragStart(event, slotIdx) {
+  event.target.classList.add('dragging');
   event.dataTransfer.setData('text/plain', JSON.stringify({ type: 'slot', slotIdx }));
   event.dataTransfer.effectAllowed = 'move';
+}
+
+function handleDragEnd(event) {
+  event.target.classList.remove('dragging');
 }
 
 function handleSlotDragOver(event) {
   event.preventDefault();
   event.dataTransfer.dropEffect = 'move';
+  const slot = event.currentTarget;
+  if (slot && !slot.classList.contains('dragover')) slot.classList.add('dragover');
+}
+
+function handleSlotDragLeave(event) {
+  const slot = event.currentTarget;
+  if (slot) slot.classList.remove('dragover');
 }
 
 function handleSlotDrop(event, targetSlotIdx) {

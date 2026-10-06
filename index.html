@@ -590,28 +590,34 @@ if ('serviceWorker' in navigator) {
 
       <!-- Sentence card board -->
       <section class="sentence-card-board" aria-label="Bàn sắp xếp câu">
-        <div class="sentence-card-meta">
-          <span class="sentence-level-tag" id="sentenceLevelTag">HSK 1</span>
-          <span class="sentence-grammar-tag" id="sentenceGrammarTag">Cấu trúc S + V + O cơ bản</span>
-          <span class="sentence-distractor-tag" id="sentenceDistractorTag" hidden>⚠️ Có từ bẫy ngữ pháp</span>
-        </div>
-
         <div class="sentence-prompt">
+          <div class="sentence-prompt-header">
+            <span class="sentence-prompt-title">Dịch câu sang tiếng Trung:</span>
+            <div class="sentence-card-meta">
+              <span class="sentence-level-tag" id="sentenceLevelTag">HSK 1</span>
+              <span class="sentence-grammar-tag" id="sentenceGrammarTag">Cấu trúc S + V + O cơ bản</span>
+              <span class="sentence-distractor-tag" id="sentenceDistractorTag" hidden>⚠️ Có từ bẫy</span>
+            </div>
+          </div>
           <div class="sentence-game-meaning" id="sentenceGameMeaning">Đang tải câu hỏi...</div>
         </div>
 
         <!-- Target slots area -->
         <div class="sentence-slots-wrapper">
           <div class="sentence-slots-label">
-            <span>Kéo thả hoặc nhấn từ để xếp câu:</span>
-            <button type="button" class="sentence-reset-slots-btn" id="sentenceGameResetBtn" onclick="resetSentenceGameSlots()" title="Xóa tất cả các từ trong ô xếp">↻ Xóa hết</button>
+            <span class="sentence-sub-title">Ghép các thẻ từ thành câu hoàn chỉnh:</span>
+            <button type="button" class="sentence-reset-slots-btn" id="sentenceGameResetBtn" onclick="resetSentenceGameSlots()" title="Đặt lại câu để ghép lại từ đầu" disabled>
+              <span class="reset-icon">↺</span> <span>Làm lại</span>
+            </button>
           </div>
           <div class="sentence-game-slots" id="sentenceGameSlots" role="region" aria-label="Khu vực xếp từ"></div>
         </div>
 
         <!-- Word bank area -->
         <div class="sentence-bank-wrapper">
-          <div class="sentence-bank-label">Kho từ vựng (Nhấn từ hoặc kéo vào ô phía trên):</div>
+          <div class="sentence-bank-label">
+            <span class="sentence-sub-title">Kho từ vựng (Nhấn hoặc kéo thẻ vào ô trên):</span>
+          </div>
           <div class="sentence-game-bank" id="sentenceGameBank" role="group" aria-label="Kho từ vựng để chọn"></div>
         </div>
 
@@ -620,6 +626,7 @@ if ('serviceWorker' in navigator) {
 
         <!-- Result solution & audio when solved -->
         <div class="sentence-solution-box" id="sentenceSolutionBox" hidden>
+          <div class="sentence-solution-badge">✨ Câu mẫu chuẩn xác</div>
           <div class="sentence-solution-zh" id="sentenceSolutionZh"></div>
           <div class="sentence-solution-py" id="sentenceSolutionPy"></div>
           <div class="sentence-solution-grammar" id="sentenceSolutionGrammar"></div>
@@ -630,7 +637,7 @@ if ('serviceWorker' in navigator) {
           <button type="button" class="sentence-action-btn sentence-action-btn--secondary" id="sentenceGameHintBtn" onclick="revealSentenceHint()" title="Xem gợi ý câu">💡 Gợi ý</button>
           <button type="button" class="sentence-action-btn sentence-action-btn--primary" id="sentenceGameCheckBtn" onclick="checkSentenceGameAnswer()">Kiểm tra đáp án</button>
           <button type="button" class="sentence-action-btn sentence-action-btn--success" id="sentenceGameNextBtn" onclick="loadNextSentenceGameRound()" hidden>Câu tiếp theo →</button>
-          <button type="button" class="sentence-action-btn sentence-action-btn--audio" id="sentenceGameSpeakBtn" onclick="speakCurrentSentence()" hidden aria-label="Nghe đọc câu">🔊 Nghe</button>
+          <button type="button" class="sentence-action-btn sentence-action-btn--audio" id="sentenceGameSpeakBtn" onclick="speakCurrentSentence()" hidden aria-label="Nghe đọc câu">🔊 Nghe đọc</button>
         </div>
       </section>
     </div>
@@ -689,7 +696,7 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/levels.js?v=20261006-nav-fix1"></script>
 <script src="assets/js/topics.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/hsk30.js?v=20261006-hsk79-clean1"></script>
-<script src="assets/js/sentence-game.js?v=20261006-sentence-game1"></script>
+<script src="assets/js/sentence-game.js?v=20261006-sentence-ux1"></script>
 <script src="assets/js/guess-word-game.js?v=20261006-guessword-ui1"></script>
 <script src="assets/js/speed-quiz-game.js?v=20261006-speedquiz-exp1"></script>
 <script src="assets/js/vocabulary-overview.js?v=20261006-nav-fix1"></script>
@@ -703,7 +710,7 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/backup.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/memory-curve.js?v=20261006-2tier-srs1"></script>
 <script src="assets/js/radicals-state.js?v=20261003-hsk20-rich1"></script>
-<script src="assets/js/radicals.js?v=20261006-sentence-game1"></script>
+<script src="assets/js/radicals.js?v=20261006-sentence-ux1"></script>
 <script src="assets/js/radical-card.js?v=20261003-hsk20-rich1"></script>
 <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3/dist/hanzi-writer.min.js"></script>
 <script src="assets/js/sidebar-search.js?v=20261006-nav-fix1"></script>

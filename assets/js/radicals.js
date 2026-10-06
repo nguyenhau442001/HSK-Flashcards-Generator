@@ -228,3 +228,11 @@ function goBackToRadicalHub() {
   radicalCurrentView = 'cards';
   renderRadicalHub();
 }
+
+// Close primary tools & games menu on click outside
+document.addEventListener('click', event => {
+  const menu = document.getElementById('primaryGamesMenu');
+  if (menu && menu.open && !menu.contains(event.target)) {
+    menu.open = false;
+  }
+});
