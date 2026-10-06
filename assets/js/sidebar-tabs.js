@@ -15,9 +15,9 @@ function initSidebarTabs() {
     header.innerHTML = `
       <div class="study-drawer-title-group">
         <span class="study-drawer-icon">✍️</span>
-        <strong class="study-drawer-title">Thứ tự nét & Luyện viết</strong>
+        <strong class="study-drawer-title">Bảng trợ giúp học tập</strong>
       </div>
-      <button type="button" class="study-drawer-close-btn" onclick="toggleStudyWritingPanel(false)" aria-label="Đóng bảng luyện viết">✕</button>
+      <button type="button" class="study-drawer-close-btn" onclick="closeAllStudyDrawers()" aria-label="Đóng bảng">✕</button>
     `;
     mount.insertBefore(header, mount.firstChild);
   }
@@ -30,12 +30,16 @@ function initSidebarTabs() {
   nav.setAttribute('role', 'tablist');
   nav.setAttribute('aria-label', 'Chế độ xem các tiện ích từ vựng');
   nav.innerHTML = `
-    <button type="button" class="sidebar-study-tab" data-tab="stroke" role="tab" aria-selected="false" title="Luyện thứ tự nét & viết chữ Hán">
+    <button type="button" class="sidebar-study-tab" data-tab="stroke" role="tab" aria-selected="false" title="Luyện thứ tự nét &amp; viết chữ Hán (W)">
       <span class="sidebar-tab-icon">✍️</span>
       <span class="sidebar-tab-label">Nét chữ</span>
     </button>
-    <button type="button" class="sidebar-study-tab" data-tab="companion" role="tab" aria-selected="false" title="Câu ví dụ, ngữ pháp & từ liên quan">
+    <button type="button" class="sidebar-study-tab" data-tab="words" role="tab" aria-selected="false" title="Danh sách từ trong bài học (B)">
       <span class="sidebar-tab-icon">📖</span>
+      <span class="sidebar-tab-label">Từ vựng</span>
+    </button>
+    <button type="button" class="sidebar-study-tab" data-tab="companion" role="tab" aria-selected="false" title="Câu ví dụ, ngữ pháp &amp; từ liên quan">
+      <span class="sidebar-tab-icon">💡</span>
       <span class="sidebar-tab-label">Ngữ cảnh</span>
     </button>
     <button type="button" class="sidebar-study-tab" data-tab="curve" role="tab" aria-selected="false" title="Dự đoán khả năng ghi nhớ (Ebbinghaus)">
@@ -56,7 +60,7 @@ function initSidebarTabs() {
   }
 
   function setActiveTab(tabKey, save = true) {
-    const validTabs = ['stroke', 'companion', 'curve', 'all'];
+    const validTabs = ['stroke', 'words', 'companion', 'curve', 'all'];
     const active = validTabs.includes(tabKey) ? tabKey : 'stroke';
     document.body.dataset.sidebarTab = active;
 
@@ -66,6 +70,16 @@ function initSidebarTabs() {
       btn.classList.toggle('active', isMatch);
       btn.setAttribute('aria-selected', isMatch ? 'true' : 'false');
     });
+
+    if (active === 'words' && typeof renderStudyWordList === 'function') {
+      renderStudyWordList();
+    }
+    if (active === 'stroke' && typeof renderActiveStrokeChar === 'function') {
+      setTimeout(() => renderActiveStrokeChar(true), 50);
+    }
+    if (typeof updateStudyDrawerButtons === 'function') {
+      updateStudyDrawerButtons();
+    }
 
     if (save) {
       try { localStorage.setItem('hsk_sidebar_tab', active); } catch (e) {}

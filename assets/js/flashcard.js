@@ -1,18 +1,6 @@
 // Flashcard markup, filtering, statistics, and rendering.
 function buildCardArea() {
   document.getElementById('cardArea').innerHTML = `
-    <div class="study-progress-card">
-      <div class="study-progress-info">
-        <span class="study-progress-label">Tiến độ bài học</span>
-        <div class="study-progress-numbers">
-          <span class="progress-text" id="progress">1 / ${WORDS.length}</span>
-          <span class="study-progress-pct" id="progressPct">0%</span>
-        </div>
-      </div>
-      <div class="progress-bar-track">
-        <div class="progress-bar-fill" id="progressBar"></div>
-      </div>
-    </div>
     <div class="card" id="card">
       <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Đã nhớ</div>
       <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Chưa nhớ</div>
@@ -243,51 +231,76 @@ function updateProgress(current, total) {
 }
 
 function toggleStudySidebar(forceOpen) {
-  const shouldOpen = typeof forceOpen === 'boolean' ? forceOpen : !document.body.classList.contains('study-sidebar-open');
-  if (shouldOpen) {
-    document.body.classList.remove('study-writing-panel-open');
-    document.body.classList.add('study-sidebar-open');
-    if (typeof renderStudyWordList === 'function') renderStudyWordList();
+  if (window.innerWidth >= 1080) {
+    if (document.body.classList.contains('study-sidebar-collapsed')) {
+      document.body.classList.remove('study-sidebar-collapsed');
+    }
+    if (typeof window.setSidebarStudyTab === 'function') {
+      window.setSidebarStudyTab('words');
+    }
   } else {
-    document.body.classList.remove('study-sidebar-open');
+    const shouldOpen = typeof forceOpen === 'boolean' ? forceOpen : !document.body.classList.contains('study-sidebar-open');
+    if (shouldOpen) {
+      document.body.classList.add('study-sidebar-open');
+      if (typeof window.setSidebarStudyTab === 'function') window.setSidebarStudyTab('words');
+      if (typeof renderStudyWordList === 'function') renderStudyWordList();
+    } else {
+      document.body.classList.remove('study-sidebar-open');
+    }
   }
   updateStudyDrawerButtons();
 }
 
 function toggleStudyWritingPanel(forceOpen) {
-  const shouldOpen = typeof forceOpen === 'boolean' ? forceOpen : !document.body.classList.contains('study-writing-panel-open');
-  if (shouldOpen) {
-    document.body.classList.remove('study-sidebar-open');
-    document.body.classList.add('study-writing-panel-open');
-    if (typeof renderActiveStrokeChar === 'function') {
-      setTimeout(() => renderActiveStrokeChar(true), 60);
+  if (window.innerWidth >= 1080) {
+    if (document.body.classList.contains('study-sidebar-collapsed')) {
+      document.body.classList.remove('study-sidebar-collapsed');
+      if (typeof window.setSidebarStudyTab === 'function') window.setSidebarStudyTab('stroke');
+    } else if (document.body.dataset.sidebarTab === 'stroke' && forceOpen === undefined) {
+      document.body.classList.add('study-sidebar-collapsed');
+    } else {
+      if (typeof window.setSidebarStudyTab === 'function') window.setSidebarStudyTab('stroke');
     }
   } else {
-    document.body.classList.remove('study-writing-panel-open');
+    const shouldOpen = typeof forceOpen === 'boolean' ? forceOpen : !document.body.classList.contains('study-sidebar-open');
+    if (shouldOpen) {
+      document.body.classList.add('study-sidebar-open');
+      if (typeof window.setSidebarStudyTab === 'function') window.setSidebarStudyTab('stroke');
+    } else {
+      document.body.classList.remove('study-sidebar-open');
+    }
   }
   updateStudyDrawerButtons();
 }
 
 function closeAllStudyDrawers() {
   document.body.classList.remove('study-sidebar-open');
-  document.body.classList.remove('study-writing-panel-open');
   updateStudyDrawerButtons();
 }
 
 function updateStudyDrawerButtons() {
+  const isDesktop = window.innerWidth >= 1080;
+  const isPanelOpen = isDesktop
+    ? !document.body.classList.contains('study-sidebar-collapsed')
+    : document.body.classList.contains('study-sidebar-open');
+  const activeTab = document.body.dataset.sidebarTab || 'stroke';
+
   const sidebarBtn = document.getElementById('studySidebarToggleBtn');
-  if (sidebarBtn) sidebarBtn.classList.toggle('active', document.body.classList.contains('study-sidebar-open'));
+  if (sidebarBtn) sidebarBtn.classList.toggle('active', isPanelOpen && activeTab === 'words');
   const writingBtn = document.getElementById('studyWritingToggleBtn');
-  if (writingBtn) writingBtn.classList.toggle('active', document.body.classList.contains('study-writing-panel-open'));
+  if (writingBtn) writingBtn.classList.toggle('active', isPanelOpen && activeTab === 'stroke');
   const cardWritingBtn = document.getElementById('cardWritingBtn');
-  if (cardWritingBtn) cardWritingBtn.classList.toggle('active', document.body.classList.contains('study-writing-panel-open'));
+  if (cardWritingBtn) cardWritingBtn.classList.toggle('active', isPanelOpen && activeTab === 'stroke');
 }
 
 function ensureStudyWordList() {
   if (!document.body.classList.contains('is-desktop-dock') && !document.body.classList.contains('flashcard-study-mode')) return null;
   let panel = document.getElementById('studyWordListPanel');
   if (panel) return panel;
-  const mount = document.getElementById('workstationLeft');
+  const isStudy = document.body.classList.contains('flashcard-study-mode');
+  const mount = isStudy
+    ? (document.getElementById('workstationRight') || document.getElementById('workstationLeft'))
+    : document.getElementById('workstationLeft');
   if (!mount) return null;
   panel = document.createElement('section');
   panel.id = 'studyWordListPanel';
@@ -298,7 +311,7 @@ function ensureStudyWordList() {
       <div class="study-word-list-header-row">
         <strong id="studyWordListTitle">Danh sách từ</strong>
         <span id="studyWordListCount" class="study-word-count-badge"></span>
-        <button type="button" class="study-drawer-close-btn" onclick="toggleStudySidebar(false)" aria-label="Đóng danh sách">✕</button>
+        <button type="button" class="study-drawer-close-btn" onclick="closeAllStudyDrawers()" aria-label="Đóng danh sách">✕</button>
       </div>
       <div id="studyWordListActiveWord" class="study-word-active-banner"></div>
       <label class="study-word-list-search">

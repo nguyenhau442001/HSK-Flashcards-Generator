@@ -12,9 +12,9 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="HSK Flashcards">
-<link rel="stylesheet" href="assets/flashcards.css?v=20261006-darkmode-focus1">
+<link rel="stylesheet" href="assets/flashcards.css?v=20261006-studio-layout1">
 <link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20261006-ui-refinement1">
-<link rel="stylesheet" href="assets/css/workstation.css?v=20261006-darkmode-focus1">
+<link rel="stylesheet" href="assets/css/workstation.css?v=20261006-studio-layout1">
 <link rel="stylesheet" href="assets/css/sidebar-lab.css?v=20261006-multichar-grid1">
 <link rel="stylesheet" href="assets/css/home-widgets.css?v=20261006-ui-refinement1">
 <link rel="stylesheet" href="assets/css/dashboard-enhancements.css?v=20261006-ui-refinement1">
@@ -357,22 +357,38 @@ if ('serviceWorker' in navigator) {
   <div id="screenCards" style="display:none">
     <div class="study-view-topbar">
       <div class="study-view-topbar-left">
-        <button class="back-btn" onclick="goBackToPicker()">← Chọn cấp độ khác</button>
-        <span class="study-level-badge" id="studyLevelBadge"></span>
-      </div>
-      <div class="study-view-topbar-actions">
-        <button type="button" class="study-drawer-btn" id="studySidebarToggleBtn" onclick="toggleStudySidebar()" title="Xem danh sách từ vựng (B)">
-          <span aria-hidden="true">📖</span> <span class="study-drawer-btn-label">Danh sách từ</span>
+        <button class="back-btn study-back-btn" onclick="goBackToPicker()" title="Quay lại chọn cấp độ (Esc)">
+          <span class="back-arrow" aria-hidden="true">←</span>
+          <span class="study-level-badge" id="studyLevelBadge"></span>
         </button>
-        <button type="button" class="study-drawer-btn" id="studyWritingToggleBtn" onclick="toggleStudyWritingPanel()" title="Phòng luyện viết & thứ tự nét (W)">
+        <div class="view-tabs" role="tablist" aria-label="Chế độ xem">
+          <button id="flashcardTab" class="view-tab active" role="tab" aria-selected="true"
+            aria-controls="studyView" onclick="setViewMode('cards')">🗂 Thẻ</button>
+          <button id="overviewTab" class="view-tab" role="tab" aria-selected="false"
+            aria-controls="overviewView" onclick="setViewMode('overview')">📋 Tổng quan</button>
+        </div>
+      </div>
+
+      <div class="study-topbar-progress" id="studyTopbarProgress" title="Tiến độ học">
+        <div class="study-topbar-progress-info">
+          <span class="study-progress-numbers" id="progress">0 / 0</span>
+          <span class="study-progress-pct" id="progressPct">0%</span>
+        </div>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="progressBar"></div>
+        </div>
+      </div>
+
+      <div class="study-view-topbar-actions">
+        <button type="button" class="study-drawer-btn" id="studyWritingToggleBtn" onclick="toggleStudyWritingPanel()" title="Luyện viết &amp; thứ tự nét (W)">
           <span aria-hidden="true">✍️</span> <span class="study-drawer-btn-label">Luyện viết</span>
         </button>
-      </div>
-      <div class="view-tabs" role="tablist" aria-label="Chế độ xem">
-        <button id="flashcardTab" class="view-tab active" role="tab" aria-selected="true"
-          aria-controls="studyView" onclick="setViewMode('cards')">🗂 Học flashcard</button>
-        <button id="overviewTab" class="view-tab" role="tab" aria-selected="false"
-          aria-controls="overviewView" onclick="setViewMode('overview')">📋 Tổng quan từ vựng</button>
+        <button type="button" class="study-drawer-btn" id="studySidebarToggleBtn" onclick="toggleStudySidebar()" title="Danh sách từ vựng (B)">
+          <span aria-hidden="true">📖</span> <span class="study-drawer-btn-label">Từ vựng</span>
+        </button>
+        <button type="button" class="study-drawer-btn study-theme-toggle-btn" onclick="toggleTheme()" title="Đổi giao diện Sáng / Tối" aria-label="Đổi giao diện Sáng / Tối">
+          <span aria-hidden="true">🌓</span>
+        </button>
       </div>
     </div>
     <div class="study-drawer-backdrop" id="studyDrawerBackdrop" onclick="closeAllStudyDrawers()"></div>
@@ -774,7 +790,7 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/speed-quiz-game.js?v=20261006-speedquiz-card1"></script>
 <script src="assets/js/vocabulary-overview.js?v=20261006-nav-fix1"></script>
 <script src="assets/js/fast-review.js?v=20261006-review-mistakes1"></script>
-<script src="assets/js/flashcard.js?v=20261006-darkmode-focus1"></script>
+<script src="assets/js/flashcard.js?v=20261006-studio-layout1"></script>
 <script src="assets/js/card-interactions.js?v=20261006-swipe-fix1"></script>
 <script src="assets/js/speech.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/progress.js?v=20261006-darkmode-focus1"></script>
@@ -790,7 +806,7 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/sidebar-radicals-filter.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/weak-words.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/stroke-canvas.js?v=20261006-darkmode-focus1"></script>
-<script src="assets/js/sidebar-tabs.js?v=20261006-darkmode-focus1"></script>
+<script src="assets/js/sidebar-tabs.js?v=20261006-studio-layout1"></script>
 <script src="assets/js/word-companion.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/grammar-breakdown.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/home-widgets.js?v=20261006-search-examples1"></script>
