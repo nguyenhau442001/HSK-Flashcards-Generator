@@ -80,33 +80,24 @@ const SRS = (function () {
     let lapses = card.lapses || 0;
     let status = 'known';
 
-    if (ratingName === 'again') {
-      // 💀 Toang: Ôn lại ngay trong ngày / Hôm nay (0 - 1 ngày)
+    if (ratingName === 'again' || ratingName === 'hard') {
+      // ❌ Chưa nhớ: Ôn lại ngay trong ngày / Hôm nay (0 ngày)
       scheduled_days = 0;
       due = new Date(reviewedAt.getTime());
       lapses = Math.max(1, lapses + 1);
       state = lapses > 1 ? library.State.Relearning : library.State.Learning;
       status = 'unknown';
-    } else if (ratingName === 'hard') {
-      // 🫨 Lú nhẹ: 2 - 3 ngày
-      scheduled_days = (reps >= 2 || (card.stability && card.stability >= 2)) ? 3 : 2;
-      due = new Date(reviewedAt.getTime() + scheduled_days * 86400000);
-      state = lapses > 0 ? library.State.Relearning : library.State.Learning;
-      status = 'unknown';
-    } else if (ratingName === 'good') {
-      // 😌 Ổn áp: 7 ngày (1 tuần)
-      scheduled_days = 7;
-      due = new Date(reviewedAt.getTime() + 7 * 86400000);
-      state = library.State.Review;
-      status = 'known';
-    } else if (ratingName === 'easy') {
-      // 😎 Dễ ợt: 14 - 30 ngày (2 tuần đến 1 tháng)
-      if (reps >= 3 || (card.stability && card.stability >= 14)) {
-        scheduled_days = 30;
-      } else if (reps >= 2) {
-        scheduled_days = 21;
+    } else {
+      // ✅ Đã nhớ: Lên lịch lặp lại ngắt quãng (3 -> 7 -> 14 -> 30+ ngày)
+      const fsrsDays = (result && result.card && Number.isFinite(result.card.scheduled_days)) ? result.card.scheduled_days : 0;
+      if (reps <= 1) {
+        scheduled_days = Math.max(3, fsrsDays || 3);
+      } else if (reps === 2) {
+        scheduled_days = Math.max(7, fsrsDays || 7);
+      } else if (reps === 3) {
+        scheduled_days = Math.max(14, fsrsDays || 14);
       } else {
-        scheduled_days = 14;
+        scheduled_days = Math.max(30, fsrsDays || 30);
       }
       due = new Date(reviewedAt.getTime() + scheduled_days * 86400000);
       state = library.State.Review;
@@ -152,14 +143,8 @@ const SRS = (function () {
     const reps = (card.reps || 0) + 1;
     const lapses = card.lapses || 0;
 
-    const hardDays = (reps >= 2 || (card.stability && card.stability >= 2)) ? 3 : 2;
-    const hardDue = new Date(reviewedAt.getTime() + hardDays * 86400000);
-
-    const goodDays = 7;
+    const goodDays = reps <= 1 ? 3 : reps === 2 ? 7 : reps === 3 ? 14 : 30;
     const goodDue = new Date(reviewedAt.getTime() + goodDays * 86400000);
-
-    const easyDays = (reps >= 3 || (card.stability && card.stability >= 14)) ? 30 : (reps >= 2 ? 21 : 14);
-    const easyDue = new Date(reviewedAt.getTime() + easyDays * 86400000);
 
     return {
       again: {
@@ -178,22 +163,6 @@ const SRS = (function () {
         scheduledDays: 0,
         intervalText: 'Hôm nay',
       },
-      hard: {
-        card: serializeCard({
-          ...card,
-          status: 'unknown',
-          last_rating: 'hard',
-          lapses,
-          reps,
-          scheduled_days: hardDays,
-          due: hardDue,
-          state: lapses > 0 ? library.State.Relearning : library.State.Learning,
-        }),
-        due: hardDue.toISOString(),
-        intervalMs: hardDays * 86400000,
-        scheduledDays: hardDays,
-        intervalText: '2 - 3 ngày',
-      },
       good: {
         card: serializeCard({
           ...card,
@@ -208,23 +177,17 @@ const SRS = (function () {
         due: goodDue.toISOString(),
         intervalMs: goodDays * 86400000,
         scheduledDays: goodDays,
-        intervalText: '7 ngày',
+        intervalText: `${goodDays} ngày`,
+      },
+      hard: {
+        intervalMs: 0,
+        scheduledDays: 0,
+        intervalText: 'Hôm nay',
       },
       easy: {
-        card: serializeCard({
-          ...card,
-          status: 'known',
-          last_rating: 'easy',
-          lapses,
-          reps,
-          scheduled_days: easyDays,
-          due: easyDue,
-          state: library.State.Review,
-        }),
-        due: easyDue.toISOString(),
-        intervalMs: easyDays * 86400000,
-        scheduledDays: easyDays,
-        intervalText: '14 - 30 ngày',
+        intervalMs: goodDays * 86400000,
+        scheduledDays: goodDays,
+        intervalText: `${goodDays} ngày`,
       },
     };
   }

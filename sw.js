@@ -1,4 +1,4 @@
-const ASSET_VERSION = '20261006-stroke-multichar1';
+const ASSET_VERSION = '20261006-2tier-srs1';
 const CACHE_NAME = 'hsk-flashcards-v' + ASSET_VERSION;
 const FSRS_CDN_URL = 'https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js';
 const APP_SHELL_URL = new URL('./flashcards.html', self.registration.scope).href;
@@ -16,6 +16,7 @@ const PRECACHE_ASSET_URLS = [
   './assets/js/dashboard-enhancements.js?v=' + ASSET_VERSION,
   './assets/css/dashboard-enhancements.css?v=' + ASSET_VERSION,
   './assets/js/word-companion.js?v=' + ASSET_VERSION,
+  './assets/js/sidebar-tabs.js?v=' + ASSET_VERSION,
   './assets/js/hsk30.js?v=' + ASSET_VERSION,
   './assets/js/levels.js?v=' + ASSET_VERSION,
 ].map(path => (path.startsWith('http') ? path : new URL(path, self.registration.scope).href));

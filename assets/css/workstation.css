@@ -47,7 +47,7 @@ body.flashcard-study-mode .featured-topics {
     position: sticky;
     top: 24px;
   }
-  /* Right column: home widgets until a word is picked, then stroke order + grammar + companion. */
+  /* Right column: study tabs and modular panels */
   .workstation-right > .stroke-canvas-panel,
   .workstation-right > .grammar-breakdown-panel,
   .workstation-right > .memory-curve-panel,
@@ -62,12 +62,87 @@ body.flashcard-study-mode .featured-topics {
   .workstation-right > .memory-curve-panel { order: 4; }
   body.has-active-study-word .home-widgets { display: none; }
   body.home-screen .word-companion-panel { display: none !important; }
+
+  /* Workstation Right Sidebar Study Tabs */
+  .sidebar-study-tabs { display: none; }
+  body.has-active-study-word .sidebar-study-tabs {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 3px;
+    background: var(--surface-subtle);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    order: 0;
+    margin-bottom: 2px;
+    flex: 0 0 auto;
+  }
+  .sidebar-study-tab {
+    flex: 1 1 0;
+    min-width: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 6px 4px;
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: 11.5px;
+    font-weight: 600;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+    user-select: none;
+  }
+  .sidebar-study-tab:hover {
+    color: var(--text-primary);
+    background: color-mix(in srgb, var(--accent-light) 60%, transparent);
+  }
+  .sidebar-study-tab.active {
+    background: var(--card-bg);
+    color: var(--accent);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    font-weight: 700;
+  }
+  .sidebar-study-tab--all {
+    flex: 0 0 auto;
+    padding: 6px 8px;
+  }
+  .sidebar-tab-icon { font-size: 12px; line-height: 1; }
+
+  /* Tab-based visibility of panels in desktop sidebar */
+  /* 1. Stroke tab (default if no attribute set or data-sidebar-tab="stroke") */
+  body.has-active-study-word:not([data-sidebar-tab="companion"]):not([data-sidebar-tab="curve"]):not([data-sidebar-tab="all"]) .workstation-right > .grammar-breakdown-panel,
+  body.has-active-study-word:not([data-sidebar-tab="companion"]):not([data-sidebar-tab="curve"]):not([data-sidebar-tab="all"]) .workstation-right > .word-companion-panel,
+  body.has-active-study-word:not([data-sidebar-tab="companion"]):not([data-sidebar-tab="curve"]):not([data-sidebar-tab="all"]) .workstation-right > .memory-curve-panel,
+  body.has-active-study-word[data-sidebar-tab="stroke"] .workstation-right > .grammar-breakdown-panel,
+  body.has-active-study-word[data-sidebar-tab="stroke"] .workstation-right > .word-companion-panel,
+  body.has-active-study-word[data-sidebar-tab="stroke"] .workstation-right > .memory-curve-panel {
+    display: none !important;
+  }
+
+  /* 2. Companion tab (shows grammar breakdown + word companion) */
+  body.has-active-study-word[data-sidebar-tab="companion"] .workstation-right > .stroke-canvas-panel,
+  body.has-active-study-word[data-sidebar-tab="companion"] .workstation-right > .memory-curve-panel {
+    display: none !important;
+  }
+
+  /* 3. Memory curve tab */
+  body.has-active-study-word[data-sidebar-tab="curve"] .workstation-right > .stroke-canvas-panel,
+  body.has-active-study-word[data-sidebar-tab="curve"] .workstation-right > .grammar-breakdown-panel,
+  body.has-active-study-word[data-sidebar-tab="curve"] .workstation-right > .word-companion-panel {
+    display: none !important;
+  }
+
   .sidebar-radicals-filter,
   .weak-words-panel,
   .stroke-canvas-panel,
   .grammar-breakdown-panel,
-  .word-companion-panel {
-    padding: 16px 18px;
+  .word-companion-panel,
+  .memory-curve-panel {
+    padding: 12px 14px;
     background: var(--card-bg);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
@@ -120,10 +195,13 @@ body.flashcard-study-mode .featured-topics {
     align-items: stretch;
   }
   body.flashcard-study-mode .app-footer { display: none !important; }
-  body.flashcard-study-mode .workstation-left,
-  body.flashcard-study-mode .workstation-right {
+  body.flashcard-study-mode .workstation-left {
     position: static; align-self: stretch; height: 100%; min-height: 0;
     overflow: hidden; gap: 10px;
+  }
+  body.flashcard-study-mode .workstation-right {
+    position: static; align-self: stretch; height: 100%; min-height: 0;
+    overflow-y: auto; gap: 8px;
   }
   body.flashcard-study-mode .workstation-left > :not(#studyWordListPanel) { display: none !important; }
   body.flashcard-study-mode .study-word-list-panel { display: flex; }

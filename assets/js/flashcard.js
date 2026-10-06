@@ -154,12 +154,15 @@ function updateStats() {
   renderFilters();
 }
 const RATING_BUTTONS = [
-  { rating: 'again', emoji: '💀', label: 'Toang', key: '1', interval: 'Hôm nay' },
-  { rating: 'hard', emoji: '🫨', label: 'Lú nhẹ', key: '2', interval: '2 - 3 ngày' },
-  { rating: 'good', emoji: '😌', label: 'Ổn áp', key: '3', interval: '7 ngày' },
-  { rating: 'easy', emoji: '😎', label: 'Dễ ợt', key: '4', interval: '14 - 30 ngày' },
+  { rating: 'again', emoji: '❌', label: 'Chưa nhớ', key: '1', interval: 'Hôm nay' },
+  { rating: 'good', emoji: '✅', label: 'Đã nhớ', key: '2', interval: 'Ôn ngắt quãng' },
 ];
-const RATING_KEYS = { '1': 'again', '2': 'hard', '3': 'good', '4': 'easy' };
+const RATING_KEYS = {
+  '1': 'again',
+  '2': 'good',
+  'ArrowLeft': 'again',
+  'ArrowRight': 'good',
+};
 
 // Shared by the level deck and "Ôn hôm nay": label on top, repeat() interval below.
 function ratingButtonsHtml(handlerName, previewIdPrefix, previews) {
@@ -184,17 +187,11 @@ function formatSrsInterval(preview, fallback) {
   if (preview && preview.intervalText) return preview.intervalText;
   if (!preview) return fallback || '';
   if (preview.rating === 'again') return 'Hôm nay';
-  if (preview.rating === 'hard') return '2 - 3 ngày';
-  if (preview.rating === 'good') return '7 ngày';
-  if (preview.rating === 'easy') return '14 - 30 ngày';
   const ms = preview.intervalMs;
   if (!Number.isFinite(ms)) return fallback || '';
   const days = Math.round(ms / 86400000);
   if (days <= 0) return 'Hôm nay';
   if (days === 1) return '1 ngày';
-  if (days >= 2 && days <= 3) return '2 - 3 ngày';
-  if (days === 7) return '7 ngày';
-  if (days >= 14 && days <= 30) return '14 - 30 ngày';
   return days + ' ngày';
 }
 function updateSrsPreviews(word) {
