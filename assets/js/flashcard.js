@@ -154,46 +154,55 @@ function updateStats() {
   renderFilters();
 }
 const RATING_BUTTONS = [
-  { rating: 'again', emoji: '💀', label: 'Toang', key: '1' },
-  { rating: 'hard', emoji: '😵‍💫', label: 'Lú nhẹ', key: '2' },
-  { rating: 'good', emoji: '😌', label: 'Ổn áp', key: '3' },
-  { rating: 'easy', emoji: '😎', label: 'Dễ ợt', key: '4' },
+  { rating: 'again', emoji: '💀', label: 'Toang', key: '1', interval: 'Hôm nay' },
+  { rating: 'hard', emoji: '🫨', label: 'Lú nhẹ', key: '2', interval: '2 - 3 ngày' },
+  { rating: 'good', emoji: '😌', label: 'Ổn áp', key: '3', interval: '7 ngày' },
+  { rating: 'easy', emoji: '😎', label: 'Dễ ợt', key: '4', interval: '14 - 30 ngày' },
 ];
 const RATING_KEYS = { '1': 'again', '2': 'hard', '3': 'good', '4': 'easy' };
 
 // Shared by the level deck and "Ôn hôm nay": label on top, repeat() interval below.
 function ratingButtonsHtml(handlerName, previewIdPrefix, previews) {
-  return RATING_BUTTONS.map(button => `
+  return RATING_BUTTONS.map(button => {
+    const preview = previews ? previews[button.rating] : null;
+    const intervalText = preview ? formatSrsInterval(preview, button.interval) : button.interval;
+    return `
     <button type="button" class="rating-btn rating-btn--${button.rating}"
       onclick="${handlerName}('${button.rating}')" aria-keyshortcuts="${button.key}">
       <span class="rating-emoji" aria-hidden="true">${button.emoji}</span>
       <span class="rating-label">${button.label}</span>
-      <span class="rating-interval"${previewIdPrefix ? ` id="${previewIdPrefix}${button.rating}"` : ''}>${previews ? formatSrsInterval(previews[button.rating]) : ''}</span>
-    </button>`).join('');
+      <span class="rating-interval"${previewIdPrefix ? ` id="${previewIdPrefix}${button.rating}"` : ''}>${intervalText}</span>
+    </button>`;
+  }).join('');
 }
 function revealButtonHtml(onclick, id) {
   return `<button type="button" class="reveal-btn" id="${id}" onclick="${onclick}" aria-keyshortcuts="Space">
       <span>Lật thẻ</span><kbd class="key-badge" aria-hidden="true">Space</kbd>
     </button>`;
 }
-function formatSrsInterval(preview) {
-  const ms = preview && preview.intervalMs;
-  if (!Number.isFinite(ms)) return '';
-  const minutes = ms / 60000;
-  const days = ms / 86400000;
-  if (minutes < 60) return Math.max(1, Math.round(minutes)) + ' phút';
-  if (days < 1) return Math.round(minutes / 60) + ' giờ';
-  if (days < 14) return Math.round(days) + ' ngày';
-  if (days < 60) return Math.round(days / 7) + ' tuần';
-  if (days < 365) return Math.round(days / 30) + ' tháng';
-  return Math.round(days / 365) + ' năm';
+function formatSrsInterval(preview, fallback) {
+  if (preview && preview.intervalText) return preview.intervalText;
+  if (!preview) return fallback || '';
+  if (preview.rating === 'again') return 'Hôm nay';
+  if (preview.rating === 'hard') return '2 - 3 ngày';
+  if (preview.rating === 'good') return '7 ngày';
+  if (preview.rating === 'easy') return '14 - 30 ngày';
+  const ms = preview.intervalMs;
+  if (!Number.isFinite(ms)) return fallback || '';
+  const days = Math.round(ms / 86400000);
+  if (days <= 0) return 'Hôm nay';
+  if (days === 1) return '1 ngày';
+  if (days >= 2 && days <= 3) return '2 - 3 ngày';
+  if (days === 7) return '7 ngày';
+  if (days >= 14 && days <= 30) return '14 - 30 ngày';
+  return days + ' ngày';
 }
 function updateSrsPreviews(word) {
   const card = word && srsCards[word.id];
   const previews = card ? SRS.preview(card, new Date(), srsRetention) : {};
-  RATING_BUTTONS.forEach(({ rating }) => {
+  RATING_BUTTONS.forEach(({ rating, interval }) => {
     const node = document.getElementById('preview-' + rating);
-    if (node) node.textContent = formatSrsInterval(previews[rating]);
+    if (node) node.textContent = formatSrsInterval(previews[rating], interval);
   });
 }
 function ratingsVisible() {

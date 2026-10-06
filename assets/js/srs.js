@@ -72,19 +72,73 @@ const SRS = (function () {
     if (rating === undefined) throw new Error('Mức đánh giá FSRS không hợp lệ.');
     const reviewedAt = parseDate(now) || new Date();
     const result = scheduler(retention).next(card, reviewedAt, rating);
-    const nextCard = serializeCard({ ...result.card, historyStartAt: card.historyStartAt });
+
+    const reps = (card.reps || 0) + 1;
+    let scheduled_days = 0;
+    let due = new Date(reviewedAt.getTime());
+    let state = library.State.Review;
+    let lapses = card.lapses || 0;
+    let status = 'known';
+
+    if (ratingName === 'again') {
+      // 💀 Toang: Ôn lại ngay trong ngày / Hôm nay (0 - 1 ngày)
+      scheduled_days = 0;
+      due = new Date(reviewedAt.getTime());
+      lapses = Math.max(1, lapses + 1);
+      state = lapses > 1 ? library.State.Relearning : library.State.Learning;
+      status = 'unknown';
+    } else if (ratingName === 'hard') {
+      // 🫨 Lú nhẹ: 2 - 3 ngày
+      scheduled_days = (reps >= 2 || (card.stability && card.stability >= 2)) ? 3 : 2;
+      due = new Date(reviewedAt.getTime() + scheduled_days * 86400000);
+      state = lapses > 0 ? library.State.Relearning : library.State.Learning;
+      status = 'unknown';
+    } else if (ratingName === 'good') {
+      // 😌 Ổn áp: 7 ngày (1 tuần)
+      scheduled_days = 7;
+      due = new Date(reviewedAt.getTime() + 7 * 86400000);
+      state = library.State.Review;
+      status = 'known';
+    } else if (ratingName === 'easy') {
+      // 😎 Dễ ợt: 14 - 30 ngày (2 tuần đến 1 tháng)
+      if (reps >= 3 || (card.stability && card.stability >= 14)) {
+        scheduled_days = 30;
+      } else if (reps >= 2) {
+        scheduled_days = 21;
+      } else {
+        scheduled_days = 14;
+      }
+      due = new Date(reviewedAt.getTime() + scheduled_days * 86400000);
+      state = library.State.Review;
+      status = 'known';
+    }
+
+    const nextCard = serializeCard({
+      ...result.card,
+      status,
+      last_rating: ratingName,
+      lapses,
+      reps,
+      state,
+      scheduled_days,
+      due,
+      last_review: reviewedAt,
+      historyStartAt: card.historyStartAt || reviewedAt.toISOString(),
+    });
+
     return {
       card: nextCard,
       log: {
         ...result.log,
         rating: ratingName,
-        state: result.log.state,
-        due: result.log.due.toISOString(),
-        review: result.log.review.toISOString(),
+        state,
+        scheduled_days,
+        due: nextCard.due,
+        review: reviewedAt.toISOString(),
       },
       rating: ratingName,
       stateBefore: card.state,
-      stateAfter: result.card.state,
+      stateAfter: state,
       elapsedDays: card.last_review
         ? Math.max(0, (reviewedAt.getTime() - card.last_review.getTime()) / 86400000)
         : 0,
@@ -94,19 +148,85 @@ const SRS = (function () {
   function preview(cardValue, now, retention) {
     const card = deserializeCard(cardValue);
     if (!card) return {};
-    const previews = scheduler(retention).repeat(card, parseDate(now) || new Date());
-    const result = {};
-    Object.keys(RATINGS).forEach(name => {
-      const item = previews[RATINGS[name]];
-      if (!item) return;
-      result[name] = {
-        card: serializeCard(item.card),
-        due: item.card.due.toISOString(),
-        intervalMs: Math.max(0, item.card.due.getTime() - (parseDate(now) || new Date()).getTime()),
-        scheduledDays: item.log && Number.isFinite(item.log.scheduled_days) ? item.log.scheduled_days : null,
-      };
-    });
-    return result;
+    const reviewedAt = parseDate(now) || new Date();
+    const reps = (card.reps || 0) + 1;
+    const lapses = card.lapses || 0;
+
+    const hardDays = (reps >= 2 || (card.stability && card.stability >= 2)) ? 3 : 2;
+    const hardDue = new Date(reviewedAt.getTime() + hardDays * 86400000);
+
+    const goodDays = 7;
+    const goodDue = new Date(reviewedAt.getTime() + goodDays * 86400000);
+
+    const easyDays = (reps >= 3 || (card.stability && card.stability >= 14)) ? 30 : (reps >= 2 ? 21 : 14);
+    const easyDue = new Date(reviewedAt.getTime() + easyDays * 86400000);
+
+    return {
+      again: {
+        card: serializeCard({
+          ...card,
+          status: 'unknown',
+          last_rating: 'again',
+          lapses: Math.max(1, lapses + 1),
+          reps,
+          scheduled_days: 0,
+          due: reviewedAt,
+          state: lapses > 0 ? library.State.Relearning : library.State.Learning,
+        }),
+        due: reviewedAt.toISOString(),
+        intervalMs: 0,
+        scheduledDays: 0,
+        intervalText: 'Hôm nay',
+      },
+      hard: {
+        card: serializeCard({
+          ...card,
+          status: 'unknown',
+          last_rating: 'hard',
+          lapses,
+          reps,
+          scheduled_days: hardDays,
+          due: hardDue,
+          state: lapses > 0 ? library.State.Relearning : library.State.Learning,
+        }),
+        due: hardDue.toISOString(),
+        intervalMs: hardDays * 86400000,
+        scheduledDays: hardDays,
+        intervalText: '2 - 3 ngày',
+      },
+      good: {
+        card: serializeCard({
+          ...card,
+          status: 'known',
+          last_rating: 'good',
+          lapses,
+          reps,
+          scheduled_days: goodDays,
+          due: goodDue,
+          state: library.State.Review,
+        }),
+        due: goodDue.toISOString(),
+        intervalMs: goodDays * 86400000,
+        scheduledDays: goodDays,
+        intervalText: '7 ngày',
+      },
+      easy: {
+        card: serializeCard({
+          ...card,
+          status: 'known',
+          last_rating: 'easy',
+          lapses,
+          reps,
+          scheduled_days: easyDays,
+          due: easyDue,
+          state: library.State.Review,
+        }),
+        due: easyDue.toISOString(),
+        intervalMs: easyDays * 86400000,
+        scheduledDays: easyDays,
+        intervalText: '14 - 30 ngày',
+      },
+    };
   }
 
   function isDue(cardValue, now) {

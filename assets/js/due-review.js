@@ -97,8 +97,11 @@ function rateTodayReview(rating) {
   if (!item || !todayReviewRevealed) return;
   const record = readSrsRecord(item.level);
   const cards = record ? record.cards : {};
-  reviewSrsCard(item.level, item.word.id, rating, cards);
+  const result = reviewSrsCard(item.level, item.word.id, rating, cards);
   recordDailyStudy(item.word.id, item.level);
+  if (rating === 'again') {
+    todayReviewQueue.push({ ...item, card: result.card, due: new Date(result.card.due).getTime() });
+  }
   todayReviewIndex++;
   renderTodayReviewCard();
 }

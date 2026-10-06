@@ -378,11 +378,17 @@ function topForgottenCards(snapshot, limit) {
   Object.entries(snapshot.cardsByLevel).forEach(([level, cards]) => {
     if (!level.startsWith('hsk')) return;
     Object.entries(cards).forEach(([id, card]) => {
-      if (card && card.lapses > 0) items.push({ level, id, card });
+      if (card && (card.lapses > 0 || card.last_rating === 'again' || card.state === SRS.State.Relearning)) {
+        items.push({ level, id, card });
+      }
     });
   });
-  items.sort((a, b) => b.card.lapses - a.card.lapses
-    || String(b.card.last_review || '').localeCompare(String(a.card.last_review || '')));
+  items.sort((a, b) => {
+    const aLapses = a.card.lapses || (a.card.last_rating === 'again' ? 1 : 0);
+    const bLapses = b.card.lapses || (b.card.last_rating === 'again' ? 1 : 0);
+    return bLapses - aLapses
+      || String(b.card.last_review || '').localeCompare(String(a.card.last_review || ''));
+  });
   return items.slice(0, limit);
 }
 

@@ -74,6 +74,9 @@ function saveRetention(value) {
 
 function statusFromCard(card) {
   if (!card) return null;
+  if (card.status === 'unknown' || card.status === 'known') return card.status;
+  if (card.last_rating === 'again' || card.last_rating === 'hard') return 'unknown';
+  if (card.last_rating === 'good' || card.last_rating === 'easy') return 'known';
   if (card.state === SRS.State.Review) return 'known';
   if (card.state === SRS.State.Learning || card.state === SRS.State.Relearning) return 'unknown';
   return null;
@@ -97,11 +100,16 @@ function migrateLegacyProgress(level, words, legacyProgress, retention) {
     if (legacyStatus === 'known') {
       card = SRS.review(card, 'good', now, retention).card;
       card.state = SRS.State.Review;
+      card.status = 'known';
+      card.last_rating = 'good';
       const due = new Date(now.getTime());
       due.setDate(due.getDate() + 1 + Math.floor(Math.random() * 7));
       card.due = due.toISOString();
     } else if (legacyStatus === 'unknown') {
       card = SRS.review(card, 'again', now, retention).card;
+      card.status = 'unknown';
+      card.last_rating = 'again';
+      card.lapses = 1;
       card.due = now.toISOString();
     }
     card.historyStartAt = now.toISOString();
@@ -119,7 +127,14 @@ function loadSrsForLevel(level, words, legacyProgress) {
     cards = existing.cards;
     migratedFromV2 = existing.migratedFromV2;
     (words || []).forEach(word => {
-      if (!cards[word.id]) cards[word.id] = SRS.createNewCard();
+      if (!cards[word.id]) {
+        cards[word.id] = SRS.createNewCard();
+      } else {
+        const c = cards[word.id];
+        if (!c.status && c.state !== SRS.State.New) {
+          c.status = statusFromCard(c);
+        }
+      }
     });
   } else {
     cards = migrateLegacyProgress(level, words, legacyProgress || {}, srsRetention);
