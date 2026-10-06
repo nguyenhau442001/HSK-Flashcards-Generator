@@ -86,6 +86,7 @@ let reviewLives = 3;
 let reviewScore = 0;
 let reviewStreak = 0;
 let reviewBestStreak = 0;
+let reviewMistakes = [];
 let reviewTimer = null;
 let reviewTimeLeft = 20;
 let reviewCurrentQuestion = null;

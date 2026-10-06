@@ -149,6 +149,7 @@ function startReviewRangeLoad() {
 }
 
 function renderReviewStart() {
+  closeReviewMistakesModal();
   const body = document.getElementById('reviewPickerBody');
   body.innerHTML = `
     <div id="reviewSession" hidden></div>
@@ -189,6 +190,7 @@ function startReviewSession() {
   reviewScore = 0;
   reviewStreak = 0;
   reviewBestStreak = 0;
+  reviewMistakes = [];
   document.getElementById('reviewStart').hidden = true;
   document.getElementById('reviewResult').hidden = true;
   document.getElementById('reviewSession').hidden = false;
@@ -222,6 +224,7 @@ function abandonReviewSession() {
   if (reviewTimer) { clearInterval(reviewTimer); reviewTimer = null; }
   reviewAnswered = true;
   reviewSessionLive = false;
+  closeReviewMistakesModal();
 }
 
 function renderReviewQuestion() {
@@ -301,7 +304,13 @@ function reviewTick() {
   if (reviewTimeLeft <= 0) {
     clearInterval(reviewTimer);
     reviewTimer = null;
-    gradeReviewAnswer(false);
+    const word = reviewCurrentQuestion && reviewWordPool ? reviewWordPool[reviewCurrentQuestion.wordIdx] : null;
+    gradeReviewAnswer(false, {
+      userAnswer: 'Hết giờ (chưa kịp trả lời)',
+      expected: word ? word.pinyin : '',
+      type: reviewCurrentQuestion ? reviewCurrentQuestion.type : 'type',
+      isTimeout: true
+    });
   }
 }
 
@@ -309,17 +318,28 @@ function submitReviewTypeAnswer() {
   if (reviewAnswered) return;
   const input = document.getElementById('reviewTypeInput');
   const word = reviewWordPool[reviewCurrentQuestion.wordIdx];
-  const isCorrect = pinyinLooseMatch(input.value, word.pinyin);
-  gradeReviewAnswer(isCorrect);
+  const userText = input ? input.value.trim() : '';
+  const isCorrect = pinyinLooseMatch(userText, word.pinyin);
+  gradeReviewAnswer(isCorrect, {
+    userAnswer: userText || '(Để trống)',
+    expected: word.pinyin,
+    type: 'type'
+  });
 }
 
 function submitReviewChoice(chosenIdx) {
   if (reviewAnswered) return;
   const isCorrect = chosenIdx === reviewCurrentQuestion.wordIdx;
-  gradeReviewAnswer(isCorrect);
+  const chosenWord = reviewWordPool[chosenIdx];
+  const word = reviewWordPool[reviewCurrentQuestion.wordIdx];
+  gradeReviewAnswer(isCorrect, {
+    userAnswer: chosenWord ? chosenWord.pinyin : '',
+    expected: word ? word.pinyin : '',
+    type: 'choice'
+  });
 }
 
-function gradeReviewAnswer(isCorrect) {
+function gradeReviewAnswer(isCorrect, details) {
   if (reviewAnswered) return;
   reviewAnswered = true;
   if (reviewTimer) { clearInterval(reviewTimer); reviewTimer = null; }
@@ -338,6 +358,24 @@ function gradeReviewAnswer(isCorrect) {
   } else {
     reviewLives -= 1;
     reviewStreak = 0;
+
+    const userAnswer = details && details.userAnswer ? details.userAnswer : (details && details.isTimeout ? 'Hết giờ (chưa kịp trả lời)' : 'Sai');
+    const expected = details && details.expected ? details.expected : word.pinyin;
+    const qType = details && details.type ? details.type : (reviewCurrentQuestion ? reviewCurrentQuestion.type : 'choice');
+
+    reviewMistakes.push({
+      id: word.id,
+      hanzi: word.hanzi,
+      pinyin: word.pinyin,
+      meaning: word.meaning,
+      level: word._level || '',
+      example_zh: word.example_zh || '',
+      example_py: word.example_py || '',
+      example_vi: word.example_vi || '',
+      userAnswer,
+      expected,
+      type: qType
+    });
   }
 
   const feedback = document.getElementById('reviewFeedback');
@@ -367,6 +405,11 @@ function renderReviewResult() {
   result.hidden = false;
   const total = Math.min(reviewIndex, reviewPool.length);
   const survived = reviewLives > 0;
+  const mistakeCount = reviewMistakes.length;
+
+  const mistakesBtnHtml = mistakeCount > 0
+    ? `<button type="button" class="review-mistakes-btn" onclick="openReviewMistakesModal()">📋 Xem lại câu sai (${mistakeCount})</button>`
+    : `<button type="button" class="review-mistakes-btn review-mistakes-btn--disabled" disabled title="Không có câu sai trong phiên này">📋 Xem lại câu sai (0)</button>`;
 
   result.innerHTML = `
     <div class="review-result">
@@ -387,12 +430,180 @@ function renderReviewResult() {
         </div>
       </div>
       <div class="review-result-actions">
-        <button class="review-again-btn" onclick="renderReviewStart()">Chơi lại</button>
-        <button class="review-back-btn" onclick="renderReviewRangePicker()">Chọn lại phạm vi</button>
+        ${mistakesBtnHtml}
+        <button type="button" class="review-again-btn" onclick="renderReviewStart()">Chơi lại</button>
+        <button type="button" class="review-back-btn" onclick="renderReviewRangePicker()">Chọn lại phạm vi</button>
       </div>
     </div>`;
 }
 
 function renderReviewRangePicker() {
+  closeReviewMistakesModal();
   document.getElementById('reviewPickerBody').innerHTML = '';
+}
+
+function escapeReviewHtml(value) {
+  return String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function sanitizeExampleMarkup(str) {
+  return String(str || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+    .replace(/&lt;u&gt;/g, '<u>')
+    .replace(/&lt;\/u&gt;/g, '</u>');
+}
+
+function playReviewMistakeAudio(text, button) {
+  if (typeof speakText === 'function') {
+    speakText(text, button, typeof SPEECH_RATE !== 'undefined' ? SPEECH_RATE : 0.85);
+  }
+}
+
+function handleReviewMistakesKeydown(event) {
+  if (event.key === 'Escape') {
+    closeReviewMistakesModal();
+  }
+}
+
+function closeReviewMistakesModal() {
+  if (typeof stopSpeech === 'function') stopSpeech();
+  const modal = document.getElementById('reviewMistakesModal');
+  if (modal) modal.remove();
+  document.removeEventListener('keydown', handleReviewMistakesKeydown);
+  document.body.classList.remove('review-modal-open');
+}
+
+function practiceReviewMistakes() {
+  if (!reviewMistakes || reviewMistakes.length === 0) return;
+  const mistakeIds = new Set(reviewMistakes.map(m => m.id));
+  const newPool = [];
+  for (let i = 0; i < reviewWordPool.length; i++) {
+    if (mistakeIds.has(reviewWordPool[i].id)) {
+      newPool.push(i);
+    }
+  }
+  for (let i = newPool.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newPool[i], newPool[j]] = [newPool[j], newPool[i]];
+  }
+
+  closeReviewMistakesModal();
+  reviewPool = newPool;
+  startReviewSession();
+}
+
+function openReviewMistakesModal() {
+  if (!reviewMistakes || reviewMistakes.length === 0) return;
+  closeReviewMistakesModal();
+
+  const modal = document.createElement('div');
+  modal.id = 'reviewMistakesModal';
+  modal.className = 'review-mistakes-overlay';
+  modal.setAttribute('role', 'dialog');
+  modal.setAttribute('aria-modal', 'true');
+  modal.setAttribute('aria-label', 'Danh sách câu làm sai');
+
+  const itemsHtml = reviewMistakes.map((m, idx) => {
+    const levelDisplay = m.level ? m.level.toUpperCase() : '';
+    const cleanExampleZh = (m.example_zh || '').replace(/<[^>]*>/g, '').trim();
+
+    let exampleHtml = '';
+    if (m.example_zh) {
+      exampleHtml = `
+        <div class="review-mistake-example">
+          <div class="review-mistake-example-row">
+            <span class="review-mistake-example-zh">${sanitizeExampleMarkup(m.example_zh)}</span>
+            <button type="button" class="review-mistake-audio-btn review-mistake-audio-sm"
+              data-speak-text="${escapeReviewHtml(cleanExampleZh)}"
+              title="Phát âm câu ví dụ" aria-label="Phát âm câu ví dụ">🔊</button>
+          </div>
+          ${m.example_py ? `<div class="review-mistake-example-py">${sanitizeExampleMarkup(m.example_py)}</div>` : ''}
+          ${m.example_vi ? `<div class="review-mistake-example-vi">${sanitizeExampleMarkup(m.example_vi)}</div>` : ''}
+        </div>`;
+    }
+
+    const typeBadge = m.type === 'type' ? 'Gõ Pinyin' : 'Trắc nghiệm';
+
+    return `
+      <article class="review-mistake-card">
+        <div class="review-mistake-card-top">
+          <div class="review-mistake-head">
+            <span class="review-mistake-num">#${idx + 1}</span>
+            <span class="review-mistake-hanzi">${escapeReviewHtml(m.hanzi)}</span>
+            <button type="button" class="review-mistake-audio-btn"
+              data-speak-text="${escapeReviewHtml(m.hanzi)}"
+              title="Phát âm ${escapeReviewHtml(m.hanzi)}" aria-label="Phát âm ${escapeReviewHtml(m.hanzi)}">🔊</button>
+            <span class="review-mistake-pinyin">${escapeReviewHtml(m.pinyin)}</span>
+          </div>
+          <div class="review-mistake-badges">
+            ${levelDisplay ? `<span class="review-mistake-level">${escapeReviewHtml(levelDisplay)}</span>` : ''}
+            <span class="review-mistake-type">${escapeReviewHtml(typeBadge)}</span>
+          </div>
+        </div>
+
+        <div class="review-mistake-meaning">${escapeReviewHtml(m.meaning)}</div>
+
+        <div class="review-mistake-diff">
+          <div class="review-diff-item review-diff-wrong">
+            <span class="review-diff-lbl">❌ Bạn đã trả lời:</span>
+            <strong class="review-diff-val">${escapeReviewHtml(m.userAnswer)}</strong>
+          </div>
+          <div class="review-diff-item review-diff-correct">
+            <span class="review-diff-lbl">✔️ Đáp án đúng:</span>
+            <strong class="review-diff-val">${escapeReviewHtml(m.expected)}</strong>
+          </div>
+        </div>
+
+        ${exampleHtml}
+      </article>`;
+  }).join('');
+
+  modal.innerHTML = `
+    <div class="review-mistakes-dialog">
+      <header class="review-mistakes-header">
+        <div class="review-mistakes-header-text">
+          <h3 class="review-mistakes-title">📋 Xem lại câu sai (${reviewMistakes.length})</h3>
+          <p class="review-mistakes-subtitle">Các từ vựng bạn trả lời chưa đúng trong phiên ôn vừa qua</p>
+        </div>
+        <button type="button" class="review-mistakes-close" onclick="closeReviewMistakesModal()" aria-label="Đóng">✕</button>
+      </header>
+
+      <div class="review-mistakes-body">
+        <div class="review-mistakes-list">
+          ${itemsHtml}
+        </div>
+      </div>
+
+      <footer class="review-mistakes-footer">
+        <button type="button" class="review-mistakes-retry-btn" onclick="practiceReviewMistakes()">⚡ Luyện lại các câu sai này</button>
+        <button type="button" class="review-mistakes-done-btn" onclick="closeReviewMistakesModal()">Đóng</button>
+      </footer>
+    </div>`;
+
+  modal.addEventListener('click', e => {
+    if (e.target === modal) closeReviewMistakesModal();
+  });
+
+  modal.querySelectorAll('.review-mistake-audio-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const textToSpeak = btn.getAttribute('data-speak-text');
+      if (textToSpeak) {
+        playReviewMistakeAudio(textToSpeak, btn);
+      }
+    });
+  });
+
+  document.body.appendChild(modal);
+  document.body.classList.add('review-modal-open');
+  document.addEventListener('keydown', handleReviewMistakesKeydown);
 }
