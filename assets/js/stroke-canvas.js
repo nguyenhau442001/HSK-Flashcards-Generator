@@ -1,16 +1,17 @@
-// Right sidebar: Hanzi Writer stroke-order canvas with multi-character support, animate + quiz mode.
+// Right sidebar: Multi-character Hanzi Writer stroke-order canvas with side-by-side grids,
+// sequential auto-advancing quiz mode, and instructional text.
 let currentStrokeWord = null;
 let currentStrokeChars = [];
+let strokeWriters = [];
 let activeCharIndex = 0;
-let strokeCanvasWriter = null;
-let currentStrokeChar = '';
+let isAnimatingSequential = false;
 
 function extractHanziCharacters(text) {
   if (!text || typeof text !== 'string') return [];
   // Match CJK Unified Ideographs and extension blocks
   const chars = Array.from(text).filter(ch => /\p{Script=Han}/u.test(ch));
   if (chars.length > 0) return chars;
-  // Fallback if no script=Han matched (e.g. edge cases)
+  // Fallback if no script=Han matched
   return Array.from(text).filter(ch => ch.trim().length > 0 && !/[\s\p{P}]/u.test(ch));
 }
 
@@ -24,169 +25,384 @@ function getStrokeColors() {
   };
 }
 
-function destroyStrokeCanvasWriter() {
-  const el = document.getElementById('strokeCanvasTarget');
-  if (el) {
-    el.innerHTML = '';
-    el.classList.remove('is-quiz-mode');
+function getGridBoxSize(totalChars) {
+  const container = document.getElementById('strokeGridsContainer');
+  const availableWidth = (container && container.clientWidth > 100) ? container.clientWidth : 300;
+  if (totalChars <= 1) {
+    return Math.min(176, Math.max(120, Math.floor(availableWidth * 0.72)));
   }
-  if (strokeCanvasWriter) {
-    try {
-      if (typeof strokeCanvasWriter.cancelQuiz === 'function') {
-        strokeCanvasWriter.cancelQuiz();
-      }
-    } catch (e) {}
-    strokeCanvasWriter = null;
+  if (totalChars === 2) {
+    return Math.min(142, Math.max(100, Math.floor((availableWidth - 12) / 2)));
   }
-  currentStrokeChar = '';
-  const hint = document.getElementById('strokeQuizHint');
-  if (hint) { hint.hidden = true; hint.innerHTML = ''; }
+  if (totalChars === 3) {
+    return Math.min(94, Math.max(76, Math.floor((availableWidth - 16) / 3)));
+  }
+  return Math.min(136, Math.max(90, Math.floor((availableWidth - 12) / 2)));
+}
+
+function destroyStrokeCanvasWriters() {
+  strokeWriters.forEach(writer => {
+    if (writer) {
+      try {
+        if (typeof writer.cancelQuiz === 'function') writer.cancelQuiz();
+      } catch (e) {}
+    }
+  });
+  strokeWriters = [];
+  isAnimatingSequential = false;
+
+  const container = document.getElementById('strokeGridsContainer');
+  if (container) container.innerHTML = '';
+
+  const statusWrap = document.getElementById('strokeQuizStatusWrap');
+  if (statusWrap) {
+    statusWrap.hidden = true;
+    statusWrap.innerHTML = '';
+  }
+
   const animateBtn = document.getElementById('strokeAnimateBtn');
   const quizBtn = document.getElementById('strokeQuizBtn');
   if (animateBtn) animateBtn.classList.remove('active');
   if (quizBtn) quizBtn.classList.remove('active');
 }
 
-function updateStrokeCharSelector() {
-  const wrap = document.getElementById('strokeCharSelectorWrap');
-  const tabsContainer = document.getElementById('strokeCharTabs');
-  const prevBtn = document.getElementById('strokePrevCharBtn');
-  const nextBtn = document.getElementById('strokeNextCharBtn');
-  const badge = document.getElementById('strokeCharBadge');
-  const mobileBadge = document.getElementById('strokeMobileCharBadge');
+function renderInstructionText(highlightIndex = null) {
+  const box = document.getElementById('strokeInstructionBox');
+  if (!box) return;
 
-  const currentChar = currentStrokeChars[activeCharIndex] || '';
-  const totalChars = currentStrokeChars.length;
-  const wordHanzi = currentStrokeWord?.hanzi || currentChar;
-
-  // Update badges
-  if (totalChars > 1 && currentChar) {
-    const badgeText = `${currentChar} (${activeCharIndex + 1}/${totalChars} từ ${wordHanzi})`;
-    if (badge) badge.textContent = badgeText;
-    if (mobileBadge) mobileBadge.textContent = `${currentChar} (${activeCharIndex + 1}/${totalChars})`;
-  } else {
-    if (badge) badge.textContent = currentChar;
-    if (mobileBadge) mobileBadge.textContent = currentChar;
+  const total = currentStrokeChars.length;
+  if (total === 0) {
+    box.hidden = true;
+    return;
   }
+  box.hidden = false;
 
-  if (!wrap || !tabsContainer) return;
-
-  // Single-character word or no characters: hide selector
-  if (totalChars <= 1) {
-    wrap.hidden = true;
-    tabsContainer.innerHTML = '';
+  if (total <= 1) {
+    box.innerHTML = `
+      <div class="stroke-instruction-prompt">
+        <span class="stroke-instruction-icon">💡</span>
+        <span>Bấm trực tiếp vào ô chữ để tự luyện viết!</span>
+      </div>
+    `;
     return;
   }
 
-  // Multi-character word: render selector tabs
-  wrap.hidden = false;
-  tabsContainer.innerHTML = '';
+  // Multi-character sequence e.g. 作 -> 者
+  const seqHtml = currentStrokeChars.map((ch, idx) => {
+    const isCompleted = document.getElementById(`strokeGridCheck_${idx}`) && !document.getElementById(`strokeGridCheck_${idx}`).hidden;
+    const isCurrent = highlightIndex === idx;
+    let cls = 'stroke-seq-chip';
+    if (isCompleted) cls += ' is-done';
+    if (isCurrent) cls += ' is-current';
+    return `<span class="${cls}">${isCompleted ? '✓ ' : ''}${ch}</span>`;
+  }).join('<span class="stroke-seq-arrow">→</span>');
 
-  currentStrokeChars.forEach((ch, idx) => {
-    const tab = document.createElement('button');
-    tab.type = 'button';
-    tab.className = 'stroke-char-pill' + (idx === activeCharIndex ? ' active' : '');
-    tab.setAttribute('role', 'tab');
-    tab.setAttribute('aria-selected', idx === activeCharIndex ? 'true' : 'false');
-    tab.setAttribute('title', `Xem & luyện viết chữ ${idx + 1}/${totalChars}: "${ch}"`);
-    tab.innerHTML = `<span class="stroke-pill-index">${idx + 1}</span><span class="stroke-pill-char">${ch}</span>`;
-    tab.addEventListener('click', (e) => {
-      e.stopPropagation();
-      if (idx !== activeCharIndex) {
-        selectStrokeChar(idx, true);
-      }
-    });
-    tabsContainer.appendChild(tab);
-  });
-
-  if (prevBtn) {
-    prevBtn.disabled = activeCharIndex <= 0;
-  }
-  if (nextBtn) {
-    nextBtn.disabled = activeCharIndex >= totalChars - 1;
-  }
+  box.innerHTML = `
+    <div class="stroke-instruction-prompt">
+      <span class="stroke-instruction-icon">💡</span>
+      <span>Bấm trực tiếp vào các ô chữ để tự luyện viết!</span>
+    </div>
+    <div class="stroke-instruction-order">
+      <span class="stroke-order-label">Luyện viết theo thứ tự:</span>
+      <div class="stroke-order-seq">${seqHtml}</div>
+    </div>
+  `;
 }
 
-function selectStrokeChar(index, autoAnimate = true) {
-  if (!currentStrokeChars || currentStrokeChars.length === 0) return;
-  if (index < 0 || index >= currentStrokeChars.length) return;
-  activeCharIndex = index;
-  renderStrokeCharacter(currentStrokeChars[index], autoAnimate);
-  updateStrokeCharSelector();
-}
-
-function renderStrokeCharacter(char, autoAnimate = true) {
-  const target = document.getElementById('strokeCanvasTarget');
+function renderStrokeGrids(autoAnimate = true) {
+  const container = document.getElementById('strokeGridsContainer');
   const fallback = document.getElementById('strokeCanvasFallback');
-  if (!target || !fallback) return;
+  if (!container || !fallback) return;
 
-  destroyStrokeCanvasWriter();
+  destroyStrokeCanvasWriters();
   fallback.hidden = true;
 
-  if (!char || typeof HanziWriter === 'undefined') {
+  const totalChars = currentStrokeChars.length;
+  if (totalChars === 0) {
     fallback.hidden = false;
-    fallback.textContent = typeof HanziWriter === 'undefined'
-      ? 'Không thể tải thư viện viết chữ.'
-      : 'Không có ký tự để hiển thị.';
+    fallback.textContent = 'Từ này không có chữ Hán để luyện viết.';
+    renderInstructionText();
     syncStrokeCanvasControls();
     return;
   }
 
-  currentStrokeChar = char;
-  const colors = getStrokeColors();
-  const thisChar = char;
+  if (typeof HanziWriter === 'undefined') {
+    fallback.hidden = false;
+    fallback.textContent = 'Không thể tải thư viện viết chữ (HanziWriter).';
+    renderInstructionText();
+    syncStrokeCanvasControls();
+    return;
+  }
 
-  try {
-    strokeCanvasWriter = HanziWriter.create('strokeCanvasTarget', char, {
-      width: 180,
-      height: 180,
-      padding: 10,
-      showOutline: true,
-      strokeColor: colors.strokeColor,
-      radicalColor: colors.radicalColor,
-      outlineColor: colors.outlineColor,
-      showHintAfterMisses: 2,
-      highlightOnComplete: true,
-      onLoadCharDataError: function() {
-        if (currentStrokeChar === thisChar && fallback) {
-          fallback.hidden = false;
-          fallback.textContent = `Chưa có dữ liệu nét chữ cho "${thisChar}".`;
-        }
-      }
+  const boxSize = getGridBoxSize(totalChars);
+  container.className = `stroke-grids-container chars-${Math.min(totalChars, 4)}`;
+  container.style.setProperty('--grid-box-size', `${boxSize}px`);
+
+  // Build grid containers for each character
+  currentStrokeChars.forEach((ch, idx) => {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'stroke-grid-wrapper' + (idx === 0 ? ' is-active' : '');
+    wrapper.id = `strokeGridWrapper_${idx}`;
+    wrapper.innerHTML = `
+      <div class="stroke-canvas-grid" id="strokeCanvasTarget_${idx}" data-char-index="${idx}" title="Bấm vào ô để tự luyện viết chữ '${ch}'"></div>
+      <div class="stroke-grid-footer">
+        <span class="stroke-grid-num">${idx + 1}.</span>
+        <span class="stroke-grid-char">${ch}</span>
+        <span class="stroke-grid-check" id="strokeGridCheck_${idx}" hidden>✓</span>
+      </div>
+    `;
+    container.appendChild(wrapper);
+
+    // Clicking directly on any grid triggers quiz mode for that character
+    const target = wrapper.querySelector('.stroke-canvas-grid');
+    target.addEventListener('click', (e) => {
+      e.stopPropagation();
+      startQuizOnChar(idx, true);
     });
+  });
 
-    if (autoAnimate) {
-      const thisWriter = strokeCanvasWriter;
-      strokeCanvasWriter.animateCharacter({
-        onComplete: () => {
-          if (strokeCanvasWriter !== thisWriter || currentStrokeChar !== thisChar) return;
-          const hint = document.getElementById('strokeQuizHint');
-          if (hint) {
-            hint.hidden = false;
-            const nextChar = activeCharIndex < currentStrokeChars.length - 1 ? currentStrokeChars[activeCharIndex + 1] : null;
-            hint.innerHTML = `
-              <span>💡 Bấm trực tiếp vào ô để tự luyện viết!</span>
-              ${nextChar ? `<div class="stroke-hint-sub">Chữ tiếp theo: <strong>"${nextChar}"</strong> (${activeCharIndex + 2}/${currentStrokeChars.length})</div>` : ''}
-            `;
+  const colors = getStrokeColors();
+  const padding = Math.max(6, Math.round(boxSize * 0.06));
+
+  // Initialize HanziWriter for every character grid
+  currentStrokeChars.forEach((ch, idx) => {
+    try {
+      const writer = HanziWriter.create(`strokeCanvasTarget_${idx}`, ch, {
+        width: boxSize,
+        height: boxSize,
+        padding,
+        showOutline: true,
+        strokeColor: colors.strokeColor,
+        radicalColor: colors.radicalColor,
+        outlineColor: colors.outlineColor,
+        showHintAfterMisses: 2,
+        highlightOnComplete: true,
+        onLoadCharDataError: function() {
+          const wrap = document.getElementById(`strokeGridWrapper_${idx}`);
+          if (wrap) {
+            wrap.classList.add('has-error');
+            const target = wrap.querySelector('.stroke-canvas-grid');
+            if (target && !target.querySelector('svg')) {
+              target.innerHTML = `<span style="font-size:${Math.round(boxSize * 0.45)}px; font-weight:700; color:var(--text-primary);">${ch}</span>`;
+            }
           }
         }
       });
+      strokeWriters[idx] = writer;
+    } catch (err) {
+      console.warn('HanziWriter init error for character', ch, err);
     }
-  } catch (e) {
-    fallback.hidden = false;
-    fallback.textContent = `Không thể tải nét chữ cho "${char}".`;
-  }
+  });
+
+  renderInstructionText();
   syncStrokeCanvasControls();
+
+  if (autoAnimate) {
+    animateStrokeCanvas();
+  }
+}
+
+function startQuizOnChar(charIndex, isManual = false) {
+  if (!currentStrokeChars || charIndex < 0 || charIndex >= currentStrokeChars.length) return;
+  const writer = strokeWriters[charIndex];
+  if (!writer) return;
+
+  // Cancel any running quiz or animation on other characters
+  strokeWriters.forEach((w, idx) => {
+    if (idx !== charIndex && w && typeof w.cancelQuiz === 'function') {
+      try { w.cancelQuiz(); } catch (e) {}
+    }
+  });
+  isAnimatingSequential = false;
+
+  activeCharIndex = charIndex;
+
+  // Update visual state of all grids
+  currentStrokeChars.forEach((ch, idx) => {
+    const wrap = document.getElementById(`strokeGridWrapper_${idx}`);
+    const target = document.getElementById(`strokeCanvasTarget_${idx}`);
+    if (wrap) wrap.classList.toggle('is-active', idx === charIndex);
+    if (target) target.classList.toggle('is-quiz-mode', idx === charIndex);
+  });
+
+  const quizBtn = document.getElementById('strokeQuizBtn');
+  const animateBtn = document.getElementById('strokeAnimateBtn');
+  if (quizBtn) quizBtn.classList.add('active');
+  if (animateBtn) animateBtn.classList.remove('active');
+
+  const currentChar = currentStrokeChars[charIndex];
+  const total = currentStrokeChars.length;
+
+  renderInstructionText(charIndex);
+
+  const statusWrap = document.getElementById('strokeQuizStatusWrap');
+  if (statusWrap) {
+    statusWrap.hidden = false;
+    statusWrap.innerHTML = `
+      <div class="stroke-status-live">
+        ✍️ Hãy vẽ nét chữ <strong>"${currentChar}"</strong> (${charIndex + 1}/${total}) vào ô bên trên!
+      </div>
+    `;
+  }
+
+  writer.quiz({
+    onMistake: () => {
+      const statusEl = document.querySelector('.stroke-status-live');
+      if (statusEl) {
+        statusEl.innerHTML = `<span style="color:var(--danger-text)">Nét chưa chuẩn ở chữ "${currentChar}". Hãy thử lại theo đường mờ!</span>`;
+      }
+    },
+    onCorrectStroke: (strokeData) => {
+      const statusEl = document.querySelector('.stroke-status-live');
+      if (statusEl) {
+        statusEl.innerHTML = `<span style="color:var(--success-text)">Đúng nét ${strokeData.strokeNum + 1} của chữ "${currentChar}"! Tiếp tục nào…</span>`;
+      }
+    },
+    onComplete: (summary) => {
+      const mistakes = summary ? (summary.totalMistakes || 0) : 0;
+      const mistakesText = mistakes === 0 ? 'hoàn hảo' : `${mistakes} lỗi sai`;
+
+      // Mark this character completed
+      const checkEl = document.getElementById(`strokeGridCheck_${charIndex}`);
+      if (checkEl) checkEl.hidden = false;
+      const wrap = document.getElementById(`strokeGridWrapper_${charIndex}`);
+      if (wrap) wrap.classList.add('is-completed');
+      const target = document.getElementById(`strokeCanvasTarget_${charIndex}`);
+      if (target) target.classList.remove('is-quiz-mode');
+
+      renderInstructionText(charIndex);
+
+      if (charIndex < total - 1) {
+        // AUTOMATICALLY ADVANCE TO NEXT CHARACTER GRID!
+        const nextChar = currentStrokeChars[charIndex + 1];
+        if (statusWrap) {
+          statusWrap.innerHTML = `
+            <div class="stroke-status-next">
+              🎉 Xong chữ <strong>"${currentChar}"</strong> (${mistakesText})! Đang chuyển sang chữ <strong>"${nextChar}"</strong> (${charIndex + 2}/${total})…
+            </div>
+          `;
+        }
+        setTimeout(() => {
+          startQuizOnChar(charIndex + 1, false);
+        }, 600);
+      } else {
+        // ALL CHARACTERS COMPLETED!
+        if (quizBtn) quizBtn.classList.remove('active');
+        if (statusWrap) {
+          const wordText = currentStrokeWord?.hanzi || currentStrokeChars.join('');
+          statusWrap.innerHTML = `
+            <div class="stroke-status-success">
+              <div class="stroke-status-success-title">
+                🎉 Xuất sắc! Bạn đã viết xong toàn bộ từ <strong>"${wordText}"</strong> (${total} chữ Hán)!
+              </div>
+              <button type="button" class="stroke-restart-btn" id="strokeRestartQuizBtn">
+                ↺ Luyện viết lại từ đầu
+              </button>
+            </div>
+          `;
+          const restartBtn = document.getElementById('strokeRestartQuizBtn');
+          if (restartBtn) {
+            restartBtn.addEventListener('click', (e) => {
+              e.stopPropagation();
+              // Reset checkmarks and restart from char 0
+              currentStrokeChars.forEach((ch, idx) => {
+                const c = document.getElementById(`strokeGridCheck_${idx}`);
+                if (c) c.hidden = true;
+                const w = document.getElementById(`strokeGridWrapper_${idx}`);
+                if (w) w.classList.remove('is-completed');
+              });
+              startQuizOnChar(0, true);
+            });
+          }
+        }
+      }
+    }
+  });
+}
+
+function animateStrokeCanvas() {
+  if (!strokeWriters || strokeWriters.length === 0) return;
+
+  // Cancel any running quiz
+  strokeWriters.forEach(w => {
+    if (w && typeof w.cancelQuiz === 'function') {
+      try { w.cancelQuiz(); } catch (e) {}
+    }
+  });
+
+  isAnimatingSequential = true;
+  const animateBtn = document.getElementById('strokeAnimateBtn');
+  const quizBtn = document.getElementById('strokeQuizBtn');
+  if (animateBtn) animateBtn.classList.add('active');
+  if (quizBtn) quizBtn.classList.remove('active');
+
+  const statusWrap = document.getElementById('strokeQuizStatusWrap');
+  if (statusWrap) {
+    statusWrap.hidden = false;
+    statusWrap.innerHTML = `
+      <div class="stroke-status-live">
+        ▶ Đang diễn họa thứ tự nét chữ…
+      </div>
+    `;
+  }
+
+  function playChar(idx) {
+    if (!isAnimatingSequential) return;
+    if (idx >= strokeWriters.length) {
+      isAnimatingSequential = false;
+      if (animateBtn) animateBtn.classList.remove('active');
+      if (statusWrap) {
+        statusWrap.innerHTML = `
+          <div class="stroke-status-live">
+            ✨ Đã diễn họa xong! Bấm trực tiếp vào các ô hoặc nhấn "Luyện viết" để thử viết.
+          </div>
+        `;
+      }
+      renderInstructionText();
+      return;
+    }
+
+    const writer = strokeWriters[idx];
+    const ch = currentStrokeChars[idx];
+    currentStrokeChars.forEach((c, i) => {
+      const wrap = document.getElementById(`strokeGridWrapper_${i}`);
+      if (wrap) wrap.classList.toggle('is-active', i === idx);
+    });
+
+    renderInstructionText(idx);
+
+    if (statusWrap) {
+      statusWrap.innerHTML = `
+        <div class="stroke-status-live">
+          ▶ Đang diễn họa nét chữ <strong>"${ch}"</strong> (${idx + 1}/${strokeWriters.length})…
+        </div>
+      `;
+    }
+
+    if (writer && typeof writer.animateCharacter === 'function') {
+      writer.animateCharacter({
+        onComplete: () => {
+          if (isAnimatingSequential) {
+            playChar(idx + 1);
+          }
+        }
+      });
+    } else {
+      playChar(idx + 1);
+    }
+  }
+
+  playChar(0);
 }
 
 function loadStrokeCanvasWord(word) {
   currentStrokeWord = word;
-  const fallback = document.getElementById('strokeCanvasFallback');
   const badge = document.getElementById('strokeCharBadge');
   const mobileBadge = document.getElementById('strokeMobileCharBadge');
+  const fallback = document.getElementById('strokeCanvasFallback');
 
   if (!word || !word.hanzi) {
-    destroyStrokeCanvasWriter();
+    destroyStrokeCanvasWriters();
     currentStrokeChars = [];
     activeCharIndex = 0;
     if (fallback) {
@@ -195,7 +411,7 @@ function loadStrokeCanvasWord(word) {
     }
     if (badge) badge.textContent = '';
     if (mobileBadge) mobileBadge.textContent = '';
-    updateStrokeCharSelector();
+    renderInstructionText();
     syncStrokeCanvasControls();
     return;
   }
@@ -203,139 +419,20 @@ function loadStrokeCanvasWord(word) {
   currentStrokeChars = extractHanziCharacters(word.hanzi);
   activeCharIndex = 0;
 
-  if (currentStrokeChars.length === 0) {
-    destroyStrokeCanvasWriter();
-    if (fallback) {
-      fallback.hidden = false;
-      fallback.textContent = 'Từ này không có chữ Hán để luyện viết.';
-    }
-    updateStrokeCharSelector();
-    syncStrokeCanvasControls();
-    return;
-  }
+  // Update header badges
+  const total = currentStrokeChars.length;
+  const badgeText = total > 1 ? `${word.hanzi} (${total} chữ Hán)` : word.hanzi;
+  if (badge) badge.textContent = badgeText;
+  if (mobileBadge) mobileBadge.textContent = badgeText;
 
-  updateStrokeCharSelector();
-  selectStrokeChar(0, true);
+  renderStrokeGrids(true);
 }
 
-// Buttons do nothing without a writer (no word chosen, or the character failed to load).
 function syncStrokeCanvasControls() {
+  const hasWriters = strokeWriters.length > 0;
   ['strokeAnimateBtn', 'strokeQuizBtn'].forEach(id => {
     const button = document.getElementById(id);
-    if (button) button.disabled = !strokeCanvasWriter;
-  });
-}
-
-function animateStrokeCanvas() {
-  if (!strokeCanvasWriter) return;
-  try {
-    if (typeof strokeCanvasWriter.cancelQuiz === 'function') {
-      strokeCanvasWriter.cancelQuiz();
-    }
-  } catch (e) {}
-
-  const target = document.getElementById('strokeCanvasTarget');
-  if (target) target.classList.remove('is-quiz-mode');
-  const animateBtn = document.getElementById('strokeAnimateBtn');
-  const quizBtn = document.getElementById('strokeQuizBtn');
-  const hint = document.getElementById('strokeQuizHint');
-  if (animateBtn) animateBtn.classList.add('active');
-  if (quizBtn) quizBtn.classList.remove('active');
-  if (hint) {
-    hint.hidden = false;
-    hint.textContent = `Đang diễn họa thứ tự nét chữ "${currentStrokeChar}"…`;
-  }
-  const thisWriter = strokeCanvasWriter;
-  const thisChar = currentStrokeChar;
-  strokeCanvasWriter.animateCharacter({
-    onComplete: () => {
-      if (strokeCanvasWriter !== thisWriter || currentStrokeChar !== thisChar) return;
-      if (animateBtn) animateBtn.classList.remove('active');
-      if (hint) {
-        hint.textContent = 'Bấm trực tiếp vào ô hoặc nhấn "Luyện viết" để thử viết!';
-      }
-    }
-  });
-}
-
-function quizStrokeCanvas() {
-  if (!strokeCanvasWriter) return;
-  const target = document.getElementById('strokeCanvasTarget');
-  if (target) target.classList.add('is-quiz-mode');
-  const animateBtn = document.getElementById('strokeAnimateBtn');
-  const quizBtn = document.getElementById('strokeQuizBtn');
-  const hint = document.getElementById('strokeQuizHint');
-  if (quizBtn) quizBtn.classList.add('active');
-  if (animateBtn) animateBtn.classList.remove('active');
-  if (hint) {
-    hint.hidden = false;
-    const progress = currentStrokeChars.length > 1 ? ` (${activeCharIndex + 1}/${currentStrokeChars.length})` : '';
-    hint.textContent = `✍️ Hãy vẽ nét chữ "${currentStrokeChar}"${progress} vào ô bên trên!`;
-  }
-  const thisWriter = strokeCanvasWriter;
-  const thisChar = currentStrokeChar;
-  const thisIndex = activeCharIndex;
-
-  strokeCanvasWriter.quiz({
-    onMistake: () => {
-      if (strokeCanvasWriter !== thisWriter || currentStrokeChar !== thisChar) return;
-      if (hint) hint.textContent = 'Nét chưa chuẩn. Hãy thử lại theo đường mờ!';
-    },
-    onCorrectStroke: (strokeData) => {
-      if (strokeCanvasWriter !== thisWriter || currentStrokeChar !== thisChar) return;
-      if (hint) hint.textContent = `Đúng nét ${strokeData.strokeNum + 1}! Tiếp tục nào…`;
-    },
-    onComplete: (summary) => {
-      if (strokeCanvasWriter !== thisWriter || currentStrokeChar !== thisChar) return;
-      if (quizBtn) quizBtn.classList.remove('active');
-      if (target) target.classList.remove('is-quiz-mode');
-      if (!hint) return;
-      hint.hidden = false;
-
-      const mistakes = summary ? (summary.totalMistakes || 0) : 0;
-      const mistakesText = mistakes === 0 ? 'hoàn hảo không lỗi nào' : `${mistakes} lỗi sai`;
-
-      if (thisIndex < currentStrokeChars.length - 1) {
-        const nextIdx = thisIndex + 1;
-        const nextChar = currentStrokeChars[nextIdx];
-        hint.innerHTML = `
-          <div class="stroke-quiz-feedback">
-            <div class="stroke-feedback-title">🎉 Tuyệt vời! Viết xong chữ <strong>"${thisChar}"</strong> (${mistakesText})!</div>
-            <button type="button" class="stroke-advance-btn" id="strokeQuizAdvanceBtn">
-              Viết tiếp chữ "${nextChar}" (${nextIdx + 1}/${currentStrokeChars.length}) ➔
-            </button>
-          </div>
-        `;
-        const advanceBtn = document.getElementById('strokeQuizAdvanceBtn');
-        if (advanceBtn) {
-          advanceBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            selectStrokeChar(nextIdx, false);
-            quizStrokeCanvas();
-          });
-        }
-      } else {
-        const total = currentStrokeChars.length;
-        hint.innerHTML = `
-          <div class="stroke-quiz-feedback is-done">
-            <div class="stroke-feedback-title">🎉 Xuất sắc! Bạn đã viết xong ${total > 1 ? `toàn bộ ${total} chữ của từ <strong>"${currentStrokeWord?.hanzi || thisChar}"</strong>` : `chữ <strong>"${thisChar}"</strong>`} (${mistakesText})!</div>
-            ${total > 1 ? `
-              <button type="button" class="stroke-advance-btn secondary" id="strokeQuizRestartBtn">
-                ↺ Luyện viết lại từ đầu
-              </button>
-            ` : ''}
-          </div>
-        `;
-        const restartBtn = document.getElementById('strokeQuizRestartBtn');
-        if (restartBtn) {
-          restartBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            selectStrokeChar(0, false);
-            quizStrokeCanvas();
-          });
-        }
-      }
-    }
+    if (button) button.disabled = !hasWriters;
   });
 }
 
@@ -345,9 +442,13 @@ function initStrokeCanvas() {
     ? document.getElementById('workstationRight')
     : document.getElementById('screenCards');
   if (!mount) return;
+
+  if (document.getElementById('strokeCanvasWrap')) return;
+
   const wrap = document.createElement(isDesktop ? 'div' : 'details');
   wrap.className = 'stroke-canvas-panel';
   wrap.id = 'strokeCanvasWrap';
+
   if (!isDesktop) {
     const summary = document.createElement('summary');
     summary.innerHTML = 'Thứ tự nét & Luyện viết <span class="stroke-char-badge" id="strokeMobileCharBadge"></span>';
@@ -361,76 +462,30 @@ function initStrokeCanvas() {
     `;
     wrap.appendChild(title);
   }
+
   const body = document.createElement('div');
   body.className = 'stroke-canvas-body';
   body.innerHTML = `
-    <div class="stroke-char-selector-wrap" id="strokeCharSelectorWrap" hidden>
-      <div class="stroke-char-nav">
-        <button type="button" class="stroke-char-arrow-btn" id="strokePrevCharBtn" title="Chữ trước đó" aria-label="Chữ trước đó">‹</button>
-        <div class="stroke-char-tabs" id="strokeCharTabs" role="tablist" aria-label="Chọn chữ cần viết"></div>
-        <button type="button" class="stroke-char-arrow-btn" id="strokeNextCharBtn" title="Chữ tiếp theo" aria-label="Chữ tiếp theo">›</button>
-      </div>
-    </div>
-    <div class="stroke-canvas-grid" id="strokeCanvasTarget" title="Bấm vào ô để tự viết nét chữ"></div>
+    <div class="stroke-grids-container" id="strokeGridsContainer"></div>
     <div class="stroke-canvas-fallback" id="strokeCanvasFallback" hidden></div>
     <div class="stroke-canvas-controls">
       <button type="button" class="stroke-ctrl-btn" id="strokeAnimateBtn">▶ Xem nét</button>
       <button type="button" class="stroke-ctrl-btn" id="strokeQuizBtn">✍️ Luyện viết</button>
     </div>
-    <div class="stroke-quiz-hint" id="strokeQuizHint" hidden></div>
+    <div class="stroke-instruction-box" id="strokeInstructionBox" hidden></div>
+    <div class="stroke-quiz-status-wrap" id="strokeQuizStatusWrap" hidden></div>
   `;
   wrap.appendChild(body);
   mount.appendChild(wrap);
-
-  const target = wrap.querySelector('#strokeCanvasTarget');
-  target.addEventListener('click', () => {
-    if (strokeCanvasWriter) {
-      quizStrokeCanvas();
-    }
-  });
 
   wrap.querySelector('#strokeAnimateBtn').addEventListener('click', (e) => {
     e.stopPropagation();
     animateStrokeCanvas();
   });
+
   wrap.querySelector('#strokeQuizBtn').addEventListener('click', (e) => {
     e.stopPropagation();
-    quizStrokeCanvas();
-  });
-
-  const prevBtn = wrap.querySelector('#strokePrevCharBtn');
-  if (prevBtn) {
-    prevBtn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      if (activeCharIndex > 0) {
-        selectStrokeChar(activeCharIndex - 1, true);
-      }
-    });
-  }
-  const nextBtn = wrap.querySelector('#strokeNextCharBtn');
-  if (nextBtn) {
-    nextBtn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      if (activeCharIndex < currentStrokeChars.length - 1) {
-        selectStrokeChar(activeCharIndex + 1, true);
-      }
-    });
-  }
-
-  // Keyboard navigation when user is on or within stroke canvas panel
-  wrap.addEventListener('keydown', (e) => {
-    if (currentStrokeChars.length <= 1) return;
-    if (e.key === 'ArrowRight' || e.key === 'PageDown') {
-      if (activeCharIndex < currentStrokeChars.length - 1) {
-        e.preventDefault();
-        selectStrokeChar(activeCharIndex + 1, true);
-      }
-    } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
-      if (activeCharIndex > 0) {
-        e.preventDefault();
-        selectStrokeChar(activeCharIndex - 1, true);
-      }
-    }
+    startQuizOnChar(0, true);
   });
 
   // Re-render when theme changes dynamically (dark/light)
@@ -438,8 +493,8 @@ function initStrokeCanvas() {
     const themeObserver = new MutationObserver((mutations) => {
       for (const mutation of mutations) {
         if (mutation.type === 'attributes' && mutation.attributeName === 'data-theme') {
-          if (currentStrokeChar && strokeCanvasWriter) {
-            renderStrokeCharacter(currentStrokeChar, false);
+          if (currentStrokeChars.length > 0) {
+            renderStrokeGrids(false);
           }
           break;
         }
@@ -448,14 +503,30 @@ function initStrokeCanvas() {
     themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
   } catch (e) {}
 
+  // Debounced resize handler to adjust grid sizes if panel width changes
+  let resizeTimer = null;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      if (currentStrokeChars.length > 0) {
+        const newSize = getGridBoxSize(currentStrokeChars.length);
+        const container = document.getElementById('strokeGridsContainer');
+        const oldSize = container ? parseInt(container.style.getPropertyValue('--grid-box-size') || '0', 10) : 0;
+        if (Math.abs(newSize - oldSize) > 4) {
+          renderStrokeGrids(false);
+        }
+      }
+    }, 150);
+  });
+
   onActiveWordChange(loadStrokeCanvasWord);
   loadStrokeCanvasWord(typeof activeStudyWord !== 'undefined' ? activeStudyWord : null);
 }
 
+// Global API exports for external callers & interactions
 window.loadStrokeCanvasWord = loadStrokeCanvasWord;
-window.selectStrokeChar = selectStrokeChar;
+window.selectStrokeChar = function(idx) { startQuizOnChar(idx, true); };
 window.animateStrokeCanvas = animateStrokeCanvas;
-window.quizStrokeCanvas = quizStrokeCanvas;
+window.quizStrokeCanvas = function() { startQuizOnChar(0, true); };
 
 document.addEventListener('DOMContentLoaded', initStrokeCanvas);
-

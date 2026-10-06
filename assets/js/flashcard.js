@@ -295,11 +295,14 @@ function renderStudyWordList() {
       const statusClass = status === 'known' ? 'status-known' : status === 'unknown' ? 'status-unknown' : 'status-unseen';
       return `
         <button type="button" class="study-word-list-item${isCurrent ? ' active' : ''}"
-          role="option" aria-selected="${isCurrent}" data-word-index="${wordIndex}">
+          role="option" aria-selected="${isCurrent}" data-word-index="${wordIndex}"
+          title="${word.hanzi} ${word.pinyin || ''} - ${word.meaning || ''}">
           <span class="study-word-status ${statusClass}" aria-hidden="true">${statusIcon}</span>
-          <span class="study-word-list-hanzi">${word.hanzi}</span>
-          <span class="study-word-list-copy">
-            <span class="word-py">${word.pinyin || ''}</span>
+          <span class="study-word-list-content">
+            <span class="study-word-list-main">
+              <span class="study-word-list-hanzi">${word.hanzi}</span>
+              <span class="word-py">${word.pinyin || ''}</span>
+            </span>
             <small class="word-vi">${word.meaning || ''}</small>
           </span>
           <span class="study-word-list-number">#${wordIndex + 1}</span>
