@@ -88,37 +88,44 @@ body:not(.home-screen) .continue-learning-card { display: none; }
 
 .dashboard-sidebar-card,
 .workstation-left > .hw-card {
-  min-width: 0; padding: 13px; border: 1px solid var(--border);
+  min-width: 0; padding: 18px 20px; border: 1px solid var(--border);
   border-radius: var(--radius-lg); background: var(--card-bg); box-shadow: var(--card-shadow); color: var(--text-primary);
 }
 .sidebar-card-heading { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
-.sidebar-card-heading h2 { margin: 0; font-size: 13px; font-weight: 700; }
-.sidebar-card-heading > span { color: var(--text-tertiary); font-size: 10px; }
-.common-radicals-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 7px; margin-top: 10px; }
-.common-radical { display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 0; min-height: 64px; padding: 6px 3px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface-subtle); color: var(--text-primary); cursor: pointer; transition: border-color 140ms ease, background-color 140ms ease, transform 140ms ease; }
+.sidebar-card-heading h2 { margin: 0; font-size: 14px; font-weight: 700; color: var(--text-primary); }
+.sidebar-card-heading > span { color: var(--text-tertiary); font-size: 11px; }
+.sidebar-link-btn {
+  background: transparent; border: 0; padding: 3px 8px; border-radius: 6px;
+  color: var(--accent-text); font-size: 12px; font-weight: 600; cursor: pointer;
+  transition: background-color 140ms ease, color 140ms ease;
+}
+.sidebar-link-btn:hover { background: var(--accent-light); }
+.common-radicals-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 12px; }
+.common-radical { display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 0; min-height: 68px; padding: 10px 4px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface-subtle); color: var(--text-primary); cursor: pointer; transition: border-color 140ms ease, background-color 140ms ease, transform 140ms ease; }
 .common-radical:hover { transform: translateY(-1px); border-color: var(--accent); background: var(--accent-light); }
-.common-radical-char { font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; color: var(--accent-text); font-size: 25px; line-height: 1.1; }
-.common-radical-name { margin-top: 4px; color: var(--text-secondary); font-size: 10px; }
-.radical-tip-word { margin-top: 10px; font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; font-size: 29px; font-weight: 650; }
-.radical-tip-word span { color: var(--text-secondary); font-family: inherit; font-size: 11px; font-weight: 500; }
-.radical-tip-card p { margin: 5px 0 0; color: var(--text-secondary); font-size: 11px; line-height: 1.55; }
-.radical-tip-card p b { color: var(--accent-text); }
-.workstation-left > .hw-card { padding: 13px; }
-.workstation-left > .hw-card .hw-title { font-size: 13px; }
+.common-radical-char { font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; color: var(--text-primary); font-size: 26px; line-height: 1.1; transition: color 140ms ease; }
+.common-radical:hover .common-radical-char { color: var(--accent-text); }
+.common-radical-name { margin-top: 5px; color: var(--text-secondary); font-size: 11px; font-weight: 500; }
+.radical-tip-word { margin-top: 12px; font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; font-size: 32px; font-weight: 700; color: var(--text-primary); }
+.radical-tip-word span { color: var(--text-secondary); font-family: inherit; font-size: 12.5px; font-weight: 500; margin-left: 6px; }
+.radical-tip-card p { margin: 8px 0 0; color: var(--text-secondary); font-size: 12.5px; line-height: 1.55; }
+.radical-tip-card p b { color: var(--text-primary); font-weight: 650; }
+.workstation-left > .hw-card { padding: 18px 20px; }
+.workstation-left > .hw-card .hw-title { font-size: 14px; font-weight: 700; }
 .workstation-left > .hw-card .hw-head { align-items: flex-start; }
-.workstation-left > .hw-card .hw-forgot-list { gap: 6px; margin-top: 10px; }
-.workstation-left > .hw-card .hw-forgot-row { min-height: 48px; gap: 4px; padding: 5px; }
-.hw-forgot-open { display: flex; flex: 1 1 auto; align-items: center; gap: 7px; min-width: 0; padding: 0; border: 0; background: transparent; color: var(--text-primary); text-align: left; cursor: pointer; }
+.workstation-left > .hw-card .hw-forgot-list { gap: 8px; margin-top: 12px; }
+.workstation-left > .hw-card .hw-forgot-row { min-height: 52px; gap: 8px; padding: 8px 10px; border-radius: 10px; }
+.hw-forgot-open { display: flex; flex: 1 1 auto; align-items: center; gap: 8px; min-width: 0; padding: 0; border: 0; background: transparent; color: var(--text-primary); text-align: left; cursor: pointer; }
 .hw-forgot-open:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 8px; }
-.workstation-left > .hw-card .hw-forgot-hanzi { font-size: 18px; }
-.workstation-left > .hw-card .hw-forgot-pinyin { font-size: 10px; }
-.workstation-left > .hw-card .hw-forgot-meaning { font-size: 11px; }
-.workstation-left > .hw-card .hw-lapse-pill { padding: 2px 5px; font-size: 9px; }
-.workstation-left > .hw-card .hw-primary-btn { display: flex; align-items: center; justify-content: center; width: 100%; min-height: 40px; margin-top: 10px; font-size: 12px; }
-.hw-level-pill { flex: 0 0 auto; max-width: 58px; overflow: hidden; padding: 2px 5px; border-radius: 999px; background: var(--accent-light); color: var(--accent-text); font-size: 8px; font-weight: 700; text-overflow: ellipsis; white-space: nowrap; }
-.hw-review-speak.hw-icon-btn { flex: 0 0 32px; width: 32px; height: 32px; border-radius: 9px; }
+.workstation-left > .hw-card .hw-forgot-hanzi { font-size: 20px; font-weight: 600; }
+.workstation-left > .hw-card .hw-forgot-pinyin { font-size: 11.5px; color: var(--text-secondary); }
+.workstation-left > .hw-card .hw-forgot-meaning { font-size: 12px; color: var(--text-secondary); }
+.workstation-left > .hw-card .hw-lapse-pill { padding: 2px 7px; font-size: 11px; border-radius: 999px; }
+.workstation-left > .hw-card .hw-primary-btn { display: flex; align-items: center; justify-content: center; width: 100%; min-height: 42px; margin-top: 12px; font-size: 13px; font-weight: 650; border-radius: 10px; }
+.hw-level-pill { flex: 0 0 auto; padding: 2px 7px; border-radius: 999px; background: var(--accent-light); color: var(--accent-text); font-size: 11px; font-weight: 700; white-space: nowrap; }
+.hw-review-speak.hw-icon-btn { flex: 0 0 34px; width: 34px; height: 34px; border-radius: 9px; }
 .hw-review-speak svg { width: 16px; height: 16px; }
-.hw-refresh-btn { display: inline-flex; flex: 0 0 30px; align-items: center; justify-content: center; width: 30px; height: 30px; padding: 0; border: 1px solid var(--border); border-radius: 9px; background: var(--bg); color: var(--text-secondary); cursor: pointer; }
+.hw-refresh-btn { display: inline-flex; flex: 0 0 32px; align-items: center; justify-content: center; width: 32px; height: 32px; padding: 0; border: 1px solid var(--border); border-radius: 9px; background: var(--bg); color: var(--text-secondary); cursor: pointer; }
 .hw-refresh-btn:hover { border-color: var(--accent); color: var(--accent-text); }
 .hw-refresh-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
@@ -209,496 +216,444 @@ body:not(.home-screen) .continue-learning-card { display: none; }
 .hw-forgot-empty-icon { width: 36px; height: 36px; font-size: 19px; }
 .hw-forgot-empty-copy { color: var(--text-primary); }
 
+/* Global cleanups: eliminate button overload and visual noise */
+.lvl-action-hint {
+  display: none !important;
+}
+#quickStudyButton {
+  display: none !important;
+}
+body.home-screen .sidebar-radicals-filter {
+  display: none !important;
+}
+body.home-screen .featured-topics {
+  display: none !important;
+}
+
+/* ========================================================
+   Clean, Modern, Spacious Desktop Layout (≥ 1280px)
+   - Visual hierarchy following 60-30-10 rule
+   - No squished viewports, no unreadable micro-fonts (<12px)
+   - Generous breathing space and elegant tactile card elevation
+   ======================================================== */
 @media (min-width: 1280px) {
   body.home-screen .workstation-middle {
-    display: grid;
-    grid-template-rows: auto auto auto auto minmax(0, 1fr);
-    gap: 5px;
-    min-height: 0;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 0;
   }
-  body.home-screen .app-header { margin: 0; }
-  body.home-screen .app-header h1 { font-size: 18px; line-height: 1.15; }
-  body.home-screen .app-header p { margin-top: 1px; font-size: 10.5px; line-height: 1.15; }
+  body.home-screen .app-header { margin: 0 0 4px; }
+  body.home-screen .app-header h1 { font-size: 22px; font-weight: 700; line-height: 1.2; }
+  body.home-screen .app-header p { margin-top: 4px; font-size: 13px; color: var(--text-secondary); }
 
-  body.home-screen .learning-dashboard { min-height: 0; margin: 0; padding: 8px 12px; box-shadow: var(--card-shadow); }
-  body.home-screen .learning-dashboard h2 { margin-top: 1px; font-size: 14px; }
-  body.home-screen .daily-goal { grid-template-columns: auto minmax(0, 1fr); margin-top: 6px; gap: 6px; }
+  /* Goal & Streak Card */
+  body.home-screen .learning-dashboard {
+    margin: 0;
+    padding: 20px 24px;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    box-shadow: var(--card-shadow);
+  }
+  body.home-screen .learning-dashboard-eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--accent-text);
+  }
+  body.home-screen .learning-dashboard h2 {
+    margin-top: 4px;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  body.home-screen .daily-goal {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: 16px;
+    margin-top: 14px;
+  }
   body.home-screen .daily-goal-actions { display: none; }
-  body.home-screen .daily-goal-count strong { font-size: 20px; }
-  body.home-screen .quick-study-btn { min-height: 30px; padding: 5px 9px; font-size: 10.5px; }
-  body.home-screen .learning-totals { margin-top: 5px; padding-top: 5px; font-size: 10.5px; }
+  body.home-screen .daily-goal-count strong { font-size: 28px; font-weight: 800; color: var(--text-primary); }
+  body.home-screen .daily-goal-track { height: 8px; border-radius: 999px; }
+  body.home-screen .daily-goal-message { font-size: 12px; color: var(--text-tertiary); margin-top: 5px; }
+  body.home-screen .learning-totals {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+    font-size: 12.5px;
+    color: var(--text-secondary);
+  }
+  body.home-screen .learning-totals strong { font-size: 13px; color: var(--text-primary); }
 
-  body.home-screen .continue-learning-card { min-height: 0; margin: 0; padding: 6px 12px; gap: 8px; box-shadow: var(--card-shadow); }
-  body.home-screen .continue-learning-card h2 { margin-top: 1px; font-size: 13px; }
-  body.home-screen .continue-learning-card p { margin-top: 1px; font-size: 10.5px; }
-  body.home-screen .dashboard-primary-btn { min-height: 30px; padding-inline: 10px; font-size: 10.5px; }
+  /* Single Hero CTA: Continue Learning */
+  body.home-screen .continue-learning-card {
+    margin: 0;
+    padding: 20px 24px;
+    border-radius: var(--radius-lg);
+    border: 1px solid color-mix(in srgb, var(--accent) 24%, var(--border));
+    background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 6%, var(--card-bg)) 0%, var(--card-bg) 100%);
+    box-shadow: var(--card-shadow);
+  }
+  body.home-screen .continue-learning-card .dashboard-kicker {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--accent-text);
+  }
+  body.home-screen .continue-learning-card h2 {
+    margin-top: 4px;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  body.home-screen .continue-learning-card p {
+    margin-top: 4px;
+    font-size: 13px;
+    color: var(--text-secondary);
+  }
+  body.home-screen .continue-learning-card .dashboard-primary-btn {
+    min-height: 42px;
+    padding: 0 20px;
+    font-size: 13.5px;
+    font-weight: 650;
+    border-radius: 12px;
+  }
 
-  body.home-screen .primary-tabs { margin: 0; gap: 5px; }
+  /* Navigation Tabs */
+  body.home-screen .primary-tabs {
+    margin: 0;
+    gap: 8px;
+  }
   body.home-screen .primary-tab,
-  body.home-screen .primary-menu-trigger { min-height: 30px; padding: 5px 10px; font-size: 11px; }
+  body.home-screen .primary-menu-trigger {
+    min-height: 38px;
+    padding: 7px 14px;
+    font-size: 13px;
+    border-radius: 10px;
+  }
 
   body.home-screen #screenVocabHub {
-    display: grid;
-    min-height: 0;
-    height: 100%;
-    grid-template-columns: minmax(0, 1fr);
-    grid-template-rows: auto minmax(0, 1fr) auto;
-    grid-template-areas:
-      "controls"
-      "levels"
-      "aux";
-    align-content: stretch;
-    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 0;
   }
-  body.home-screen #pickerControls { grid-area: controls; min-width: 0; margin: 0; gap: 8px; }
-  body.home-screen #pickerControls .view-tabs { gap: 4px; padding: 0; }
-  body.home-screen #pickerControls .view-tab { min-height: 27px; padding: 3px 7px; font-size: 10.5px; }
-  body.home-screen #pickerControls .picker-version-control select { min-height: 27px; font-size: 10.5px; }
-
-  body.home-screen .welcome-toast {
-    position: absolute; top: -33px; left: 50%; transform: translate(-50%, -6px);
-    z-index: 100; margin: 0; padding: 4px 14px; font-size: 11px; font-weight: 500;
-    background: var(--surface, #1e1e24); border: 1px solid var(--accent); border-radius: 999px;
-    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4); pointer-events: none; white-space: nowrap;
-    opacity: 0; transition: transform 220ms ease, opacity 220ms ease;
+  body.home-screen #pickerControls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
   }
-  body.home-screen .welcome-toast.show { transform: translate(-50%, 0); opacity: 1; }
-
-  body.home-screen #screenPicker,
-  body.home-screen #screenVocabHub,
-  body.home-screen #levelGrid30,
-  body.home-screen #levelGrid20 {
-    scrollbar-width: none !important;
-    -ms-overflow-style: none !important;
+  body.home-screen #pickerControls .view-tabs { gap: 8px; padding: 0; }
+  body.home-screen #pickerControls .view-tab {
+    min-height: 34px;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 600;
   }
-  body.home-screen #screenPicker::-webkit-scrollbar,
-  body.home-screen #screenVocabHub::-webkit-scrollbar,
-  body.home-screen #levelGrid30::-webkit-scrollbar,
-  body.home-screen #levelGrid20::-webkit-scrollbar {
-    display: none !important;
-    width: 0 !important;
-    height: 0 !important;
+  body.home-screen #pickerControls .picker-version-control {
+    font-size: 12px;
+  }
+  body.home-screen #pickerControls .picker-version-control select {
+    min-height: 34px;
+    padding: 0 28px 0 12px;
+    font-size: 12.5px;
+    font-weight: 600;
   }
 
+  /* Level Cards Grids */
   body.home-screen #screenPicker {
-    grid-area: levels; position: relative; height: 100%; min-height: 0; overflow: hidden !important;
+    position: relative;
+    width: 100%;
   }
-  body.home-screen #screenTopicPicker { grid-area: levels; height: 100%; min-height: 0; overflow: auto; }
-  /* ========================================================
-     Unified Balanced Level Cards (HSK 2.0 & HSK 3.0)
-     - 3 balanced layers: Top Row, Middle Bar, Bottom Row
-     - Stretches flexibly without looking empty (justify-content: space-between)
-     - Never causes scrollbars on any viewport
-     ======================================================== */
   body.home-screen #screenPicker .level-grid {
-    height: 100%;
-    min-height: 0;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    align-content: stretch;
+    gap: 16px;
     margin: 0;
-    overflow: hidden !important;
+  }
+  body.home-screen #screenPicker #levelGrid20 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+  body.home-screen #screenPicker #levelGrid30 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
   }
 
-  /* ========================================================
-     HSK 2.0 Grid (6 cards, 2 rows)
-     - Rich, spacious, filled layout with large typography
-     - Top: HSK number + status badge + subtitle
-     - Middle: Big % number + +today pill + progress track
-     - Bottom: Divider + words remembered count + action hint
-     ======================================================== */
-  body.home-screen #screenPicker #levelGrid20 {
-    grid-template-rows: repeat(2, minmax(0, 1fr));
-    gap: 10px;
-  }
-  body.home-screen #screenPicker #levelGrid20 .level-card {
+  /* Clean, Calm Level Cards */
+  body.home-screen #screenPicker .level-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
-    min-height: 0;
-    padding: 13px 16px;
-    border-radius: 13px;
-    background: linear-gradient(145deg, rgba(255, 255, 255, 0.035) 0%, rgba(255, 255, 255, 0.01) 100%), var(--card-bg, #1a1a1f);
-    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    min-height: 154px;
+    padding: 18px 20px;
+    border-radius: 16px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    box-shadow: var(--card-shadow);
     text-align: left;
     cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition: transform 160ms ease, border-color 160ms ease, background-color 160ms ease, box-shadow 160ms ease;
+    transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease, background-color 160ms ease;
   }
-  body.home-screen #screenPicker #levelGrid20 .level-card:hover {
-    border-color: var(--accent);
-    background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 8%, var(--card-bg, #1a1a1f)) 0%, var(--card-bg, #1a1a1f) 100%);
+  body.home-screen #screenPicker .level-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+    border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 4%, var(--card-bg)) 0%, var(--card-bg) 100%);
   }
-  body.home-screen #screenPicker #levelGrid20 .level-card.is-active-level {
+  body.home-screen #screenPicker .level-card.is-active-level {
     border-color: var(--accent);
-    background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 12%, var(--card-bg, #1a1a1f)) 0%, var(--card-bg, #1a1a1f) 100%);
-    box-shadow: 0 0 16px color-mix(in srgb, var(--accent) 18%, transparent);
+    box-shadow: 0 0 0 1px var(--accent), 0 2px 10px color-mix(in srgb, var(--accent) 18%, transparent);
   }
-  body.home-screen #screenPicker #levelGrid20 .level-card-top {
+
+  body.home-screen #screenPicker .level-card-top {
     display: flex;
     flex-direction: column;
     gap: 3px;
-    min-width: 0;
   }
-  body.home-screen #screenPicker #levelGrid20 .level-card-heading {
+  body.home-screen #screenPicker .level-card-heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 8px;
   }
-  body.home-screen #screenPicker #levelGrid20 .lvl-num {
+  body.home-screen #screenPicker .lvl-num {
     font-size: 22px;
     font-weight: 800;
-    color: var(--text-primary, #ffffff);
+    color: var(--text-primary);
     line-height: 1.1;
     letter-spacing: -0.01em;
   }
-  body.home-screen #screenPicker #levelGrid20 .level-status-badge {
-    font-size: 10.5px;
-    font-weight: 650;
-    color: var(--text-tertiary, #94a3b8);
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    padding: 2px 8px;
+  body.home-screen #screenPicker .level-status-badge {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-tertiary);
+    background: var(--surface-subtle);
+    border: 1px solid var(--border);
+    padding: 2.5px 8px;
     border-radius: 999px;
     white-space: nowrap;
   }
-  body.home-screen #screenPicker #levelGrid20 .level-status-badge.is-learning {
-    color: var(--accent);
+  body.home-screen #screenPicker .level-status-badge.is-learning {
+    color: var(--accent-text);
     background: var(--accent-light);
-    border-color: color-mix(in srgb, var(--accent) 35%, transparent);
+    border-color: color-mix(in srgb, var(--accent) 30%, transparent);
   }
-  body.home-screen #screenPicker #levelGrid20 .level-status-badge.is-complete {
-    color: var(--success-text, #10b981);
-    background: rgba(16, 185, 129, 0.14);
-    border-color: rgba(16, 185, 129, 0.3);
+  body.home-screen #screenPicker .level-status-badge.is-complete {
+    color: var(--success-text);
+    background: var(--success-bg);
+    border-color: color-mix(in srgb, var(--success-text) 30%, transparent);
   }
-  body.home-screen #screenPicker #levelGrid20 .level-card-meta {
+  body.home-screen #screenPicker .level-card-meta {
     display: flex;
     align-items: center;
-    gap: 5px;
-    font-size: 12px;
-    color: var(--text-tertiary, #94a3b8);
-    margin: 0;
+    gap: 6px;
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    margin: 2px 0 0;
   }
-  body.home-screen #screenPicker #levelGrid20 .lvl-label {
+  body.home-screen #screenPicker .lvl-label {
     font-weight: 600;
-    color: var(--text-secondary, #cbd5e1);
+    color: var(--text-secondary);
   }
-  body.home-screen #screenPicker #levelGrid20 .lvl-count {
-    font-weight: 500;
-    color: var(--text-tertiary, #94a3b8);
+  body.home-screen #screenPicker .lvl-count {
+    color: var(--text-tertiary);
   }
-  body.home-screen #screenPicker #levelGrid20 .level-card-progress {
+
+  body.home-screen #screenPicker .level-card-progress {
     display: flex;
     flex-direction: column;
-    gap: 7px;
-    min-width: 0;
-    margin: 4px 0;
+    gap: 6px;
+    margin: 12px 0 8px;
   }
-  body.home-screen #screenPicker #levelGrid20 .level-card-progress-heading {
+  body.home-screen #screenPicker .level-card-progress-heading {
     display: flex !important;
     align-items: baseline;
     justify-content: space-between;
     gap: 8px;
   }
-  body.home-screen #screenPicker #levelGrid20 .lvl-percent-value {
-    font-size: 26px;
+  body.home-screen #screenPicker .lvl-percent-value {
+    font-size: 22px;
     font-weight: 800;
     line-height: 1;
-    color: var(--text-primary, #ffffff);
+    color: var(--text-primary);
     font-variant-numeric: tabular-nums;
   }
-  body.home-screen #screenPicker #levelGrid20 .level-card.is-learning-level .lvl-percent-value {
-    color: var(--accent);
+  body.home-screen #screenPicker .level-card.is-learning-level .lvl-percent-value {
+    color: var(--accent-text);
   }
-  body.home-screen #screenPicker #levelGrid20 .level-card.is-complete-level .lvl-percent-value {
-    color: var(--success-text, #10b981);
+  body.home-screen #screenPicker .level-card.is-complete-level .lvl-percent-value {
+    color: var(--success-text);
   }
-  body.home-screen #screenPicker #levelGrid20 .lvl-today-count {
+  body.home-screen #screenPicker .lvl-today-count {
     display: inline-flex !important;
     align-items: center;
-    font-size: 10.5px;
+    font-size: 11px;
     font-weight: 600;
-    color: var(--text-tertiary, #94a3b8);
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.07);
-    padding: 2.5px 8px;
+    color: var(--text-tertiary);
+    background: var(--surface-subtle);
+    border: 1px solid var(--border);
+    padding: 2px 8px;
     border-radius: 999px;
     white-space: nowrap;
   }
-  body.home-screen #screenPicker #levelGrid20 .lvl-today-count.has-activity {
-    color: var(--accent);
+  body.home-screen #screenPicker .lvl-today-count.has-activity {
+    color: var(--accent-text);
     background: var(--accent-light);
-    border-color: color-mix(in srgb, var(--accent) 35%, transparent);
+    border-color: color-mix(in srgb, var(--accent) 30%, transparent);
   }
-  body.home-screen #screenPicker #levelGrid20 .lvl-mastery-track {
+  body.home-screen #screenPicker .lvl-mastery-track {
     width: 100%;
-    height: 7px;
-    margin: 0;
-    background: rgba(255, 255, 255, 0.1);
+    height: 6px;
+    background: var(--progress-track);
     border-radius: 999px;
     overflow: hidden;
   }
-  body.home-screen #screenPicker #levelGrid20 .lvl-mastery-fill {
+  body.home-screen #screenPicker .lvl-mastery-fill {
     height: 100%;
-    background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 80%, #ffffff));
+    background: var(--accent-gradient, var(--accent));
     border-radius: 999px;
-    transition: width 240ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: width 240ms ease;
   }
-  body.home-screen #screenPicker #levelGrid20 .level-card.is-complete-level .lvl-mastery-fill {
-    background: linear-gradient(90deg, var(--success-text, #10b981), #34d399);
+  body.home-screen #screenPicker .level-card.is-complete-level .lvl-mastery-fill {
+    background: var(--success-text);
   }
-  body.home-screen #screenPicker #levelGrid20 .level-card-bottom {
+
+  body.home-screen #screenPicker .level-card-bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 8px;
     padding-top: 8px;
-    border-top: 1px solid var(--border, rgba(255, 255, 255, 0.08));
-    margin-top: 2px;
+    border-top: 1px solid var(--border);
+    margin-top: 4px;
   }
-  body.home-screen #screenPicker #levelGrid20 .lvl-mastery-text {
-    color: var(--text-secondary, #cbd5e1);
-    font-size: 11.5px;
-    font-weight: 600;
+  body.home-screen #screenPicker .lvl-mastery-text {
+    color: var(--text-secondary);
+    font-size: 12px;
+    font-weight: 500;
     line-height: 1.2;
     white-space: nowrap;
-  }
-  body.home-screen #screenPicker #levelGrid20 .lvl-action-hint {
-    display: inline-flex;
-    align-items: center;
-    gap: 3px;
-    font-size: 11px;
-    font-weight: 650;
-    color: var(--accent-text);
-    opacity: 0.85;
-    transition: opacity 140ms ease, transform 140ms ease;
-  }
-  body.home-screen #screenPicker #levelGrid20 .level-card:hover .lvl-action-hint {
-    opacity: 1;
-    transform: translateX(2px);
+    font-variant-numeric: tabular-nums;
   }
 
-  /* ========================================================
-     HSK 3.0 Grid (9 cards, 3 rows)
-     - Compact 4-layer layout fitted for 3 rows
-     ======================================================== */
-  body.home-screen #screenPicker #levelGrid30 {
-    grid-template-rows: repeat(3, minmax(0, 1fr));
-    gap: 6px;
-  }
-  body.home-screen #screenPicker #levelGrid30 .level-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    min-height: 0;
-    padding: 8px 12px;
-    border-radius: 10px;
-    background: var(--card-bg, #1a1a1f);
-    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
-    text-align: left;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition: transform 140ms ease, border-color 140ms ease, background-color 140ms ease, box-shadow 140ms ease;
-  }
-  body.home-screen #screenPicker #levelGrid30 .level-card:hover {
-    border-color: var(--accent);
-    background: var(--surface-subtle, rgba(255, 255, 255, 0.04));
-    transform: translateY(-2px);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
-  }
-  body.home-screen #screenPicker #levelGrid30 .level-card.is-active-level {
-    border-color: var(--accent);
-    background: var(--accent-light);
-  }
-  body.home-screen #screenPicker #levelGrid30 .level-card-top {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 6px;
-    min-width: 0;
-    line-height: 1;
-  }
-  body.home-screen #screenPicker #levelGrid30 .lvl-num {
-    font-size: 18px;
-    font-weight: 750;
-    color: var(--text-primary, #ffffff);
-    line-height: 1;
-    letter-spacing: -0.01em;
-  }
-  body.home-screen #screenPicker #levelGrid30 .lvl-percent-value {
-    font-size: 18px;
-    font-weight: 750;
-    color: var(--text-tertiary, #777777);
-    font-variant-numeric: tabular-nums;
-    line-height: 1;
-  }
-  body.home-screen #screenPicker #levelGrid30 .level-card.is-learning-level .lvl-percent-value {
-    color: var(--accent);
-  }
-  body.home-screen #screenPicker #levelGrid30 .level-card.is-complete-level .lvl-percent-value {
-    color: var(--success-text, #10b981);
-  }
-  body.home-screen #screenPicker #levelGrid30 .level-card-meta {
-    font-size: 11px;
-    color: var(--text-tertiary, #94a3b8);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    line-height: 1.2;
-    margin: 1px 0;
-  }
-  body.home-screen #screenPicker #levelGrid30 .level-card-meta .lvl-label {
-    color: var(--text-tertiary, #94a3b8);
-    font-size: 11px;
-    font-weight: 500;
-  }
-  body.home-screen #screenPicker #levelGrid30 .level-card-progress {
+  /* Discovery Section (Speed Quiz Card) */
+  body.home-screen .dashboard-aux-column {
     display: block;
     width: 100%;
-    margin: 2px 0;
+    margin-top: 8px;
   }
-  body.home-screen #screenPicker #levelGrid30 .lvl-mastery-track {
-    width: 100%;
-    height: 4px;
-    margin: 2px 0;
-    background: var(--progress-track, rgba(255, 255, 255, 0.08));
-    border-radius: 999px;
-    overflow: hidden;
-  }
-  body.home-screen #screenPicker #levelGrid30 .lvl-mastery-fill {
-    height: 100%;
-    background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 80%, #ffffff));
-    border-radius: 999px;
-    transition: width 200ms ease;
-  }
-  body.home-screen #screenPicker #levelGrid30 .level-card.is-complete-level .lvl-mastery-fill {
-    background: var(--success-text, #10b981);
-  }
-  body.home-screen #screenPicker #levelGrid30 .level-card-bottom {
+  body.home-screen .quick-quiz-card {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 6px;
-    min-width: 0;
-    line-height: 1.1;
+    gap: 16px;
+    margin: 0;
+    padding: 16px 22px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--card-shadow);
   }
-  body.home-screen #screenPicker #levelGrid30 .lvl-mastery-text {
-    font-size: 11.5px;
-    font-weight: 500;
-    color: var(--text-secondary, #b3b3b3);
-    white-space: nowrap;
-    font-variant-numeric: tabular-nums;
-  }
-  body.home-screen #screenPicker #levelGrid30 .level-status-badge {
-    font-size: 10px;
-    font-weight: 500;
-    color: var(--text-tertiary, #777777);
-    background: rgba(255, 255, 255, 0.05);
-    padding: 2px 6px;
-    border-radius: 4px;
-    white-space: nowrap;
-  }
-  body.home-screen #screenPicker #levelGrid30 .level-status-badge.is-learning {
-    color: var(--accent);
+  body.home-screen .quick-quiz-icon {
+    display: grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    flex: 0 0 38px;
+    border-radius: 11px;
     background: var(--accent-light);
-    font-weight: 600;
+    font-size: 18px;
   }
-  body.home-screen #screenPicker #levelGrid30 .level-status-badge.is-complete {
-    color: var(--success-text, #10b981);
-    background: rgba(16, 185, 129, 0.12);
-    font-weight: 600;
+  body.home-screen .quick-quiz-copy {
+    flex: 1 1 auto;
+    min-width: 0;
   }
-  body.home-screen #screenPicker #levelGrid30 .lvl-today-count,
-  body.home-screen #screenPicker #levelGrid30 .level-card-progress-heading {
-    display: none !important;
+  body.home-screen .quick-quiz-card h2 {
+    margin: 0;
+    font-size: 14.5px;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  body.home-screen .quick-quiz-card p {
+    margin: 2px 0 0;
+    font-size: 12.5px;
+    color: var(--text-secondary);
+  }
+  body.home-screen .quick-quiz-card .dashboard-primary-btn {
+    flex: 0 0 auto;
+    min-height: 36px;
+    padding: 0 16px;
+    font-size: 12.5px;
+    font-weight: 600;
+    border-radius: 10px;
+    background: var(--surface-chip);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    box-shadow: none;
+    transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease;
+  }
+  body.home-screen .quick-quiz-card .dashboard-primary-btn:hover {
+    background: var(--accent-light);
+    color: var(--accent-text);
+    border-color: var(--accent);
+    transform: none;
+    filter: none;
   }
 
-  body.home-screen .dashboard-aux-column {
-    grid-area: aux; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); align-items: stretch; gap: 8px;
-    min-width: 0; min-height: 0; align-self: end;
-  }
-  body.home-screen .quick-quiz-card {
-    display: grid; grid-template-columns: 26px minmax(0, 1fr) auto; align-content: center; gap: 2px 7px;
-    min-height: 48px; margin: 0; padding: 6px 9px; background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg); box-shadow: var(--card-shadow);
-  }
-  body.home-screen .quick-quiz-icon { grid-row: 1 / 3; width: 26px; height: 26px; flex-basis: 26px; font-size: 13px; }
-  body.home-screen .quick-quiz-copy { align-self: center; min-width: 0; }
-  body.home-screen .quick-quiz-card h2 { margin: 0; font-size: 11.5px; line-height: 1.2; }
-  body.home-screen .quick-quiz-card p { margin: 1px 0 0; overflow: hidden; font-size: 9px; line-height: 1.15; text-overflow: ellipsis; white-space: nowrap; }
-  body.home-screen .quick-quiz-card .dashboard-primary-btn { grid-column: 3; grid-row: 1 / 3; min-height: 26px; padding-inline: 8px; font-size: 9.5px; white-space: nowrap; }
-  body.home-screen .featured-topics { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 5px; min-height: 48px; margin: 0; padding: 6px 9px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--card-bg); box-shadow: var(--card-shadow); }
-  body.home-screen .featured-topics-heading { align-items: center; gap: 4px; }
-  body.home-screen .featured-topics h2 { margin-top: 1px; font-size: 11.5px; white-space: nowrap; }
-  body.home-screen .featured-topics .dashboard-kicker { font-size: 7.5px; }
-  body.home-screen .featured-topic-more { display: none; }
-  body.home-screen .featured-topic-list { display: flex; flex-wrap: nowrap; align-items: center; justify-content: flex-end; gap: 3px; min-width: 0; margin: 0; }
-  body.home-screen .featured-topic-pill { min-width: 0; min-height: 24px; justify-content: center; gap: 3px; padding: 0 5px; font-size: 8.5px; }
-
+  /* Left Column Cards */
   body.home-screen .workstation-left > .sidebar-search { flex: 0 0 auto; }
-  body.home-screen .workstation-left > .sidebar-radicals-filter,
   body.home-screen .workstation-left > .common-radicals-card { flex: 0 0 auto; }
-  body.home-screen .common-radical { min-height: 78px; }
-  body.home-screen .common-radical-char { font-size: 28px; }
-  body.home-screen .workstation-left > .radical-tip-card,
-  body.home-screen .workstation-left > #hwForgotten {
-    display: flex; flex: 1 1 0; flex-direction: column; justify-content: space-between; min-height: 0;
-  }
-  body.home-screen .workstation-left > .radical-tip-card {
-    display: flex; flex-direction: column; justify-content: center; gap: 6px;
-  }
-  body.home-screen .workstation-left > .radical-tip-card .radical-tip-word {
-    display: flex; align-items: baseline; gap: 9px; margin: 0; flex: 0 0 auto;
-  }
-  body.home-screen .workstation-left > .radical-tip-card p { margin: 0; }
+  body.home-screen .workstation-left > .radical-tip-card { flex: 0 0 auto; }
+  body.home-screen .workstation-left > #hwForgotten { flex: 0 0 auto; }
   body.home-screen .workstation-left > #hwForgotten .hw-forgot-empty {
-    display: flex; flex: 1 1 auto; flex-direction: column; align-items: center; justify-content: center;
-    gap: 10px; min-height: 0; margin: 10px 0; text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 0;
+    text-align: center;
   }
-  body.home-screen .workstation-left > #hwForgotten .hw-forgot-empty-icon { width: 44px; height: 44px; font-size: 22px; }
-  body.home-screen .workstation-left > #hwForgotten .hw-forgot-empty .hw-outline-btn { min-height: 40px; margin-top: 2px; }
-  body.home-screen .workstation-left > #hwForgotten .hw-forgot-list { flex: 1 1 auto; justify-content: center; }
-
-  body.home-screen .workstation-right > .home-widgets { flex: 1 1 auto; min-height: 0; }
-  body.home-screen .workstation-right .hw-wotd,
-  body.home-screen .workstation-right .hw-forecast { flex: 0 0 auto; }
-  body.home-screen .workstation-right .hw-activity {
-    display: flex; flex: 1 1 0; flex-direction: column; justify-content: space-between; min-height: 0;
+  body.home-screen .workstation-left > #hwForgotten .hw-forgot-empty-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: var(--accent-light);
   }
-  body.home-screen .workstation-right .hw-activity .hw-heatmap { margin-block: auto; }
-}
+  body.home-screen .workstation-left > #hwForgotten .hw-forgot-empty-copy {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+  }
+  body.home-screen .workstation-left > #hwForgotten .hw-forgot-empty .hw-outline-btn {
+    display: none;
+  }
 
-@media (min-width: 1280px) and (max-height: 720px) {
-  body.home-screen { padding-block: 4px; }
-  body.home-screen .workstation-middle { gap: 3px; }
-  body.home-screen .learning-dashboard { padding: 5px 9px; }
-  body.home-screen .continue-learning-card { padding: 4px 9px; }
-  body.home-screen #screenVocabHub { gap: 3px; }
-  body.home-screen #screenPicker { overflow: hidden !important; }
-  body.home-screen #screenPicker #levelGrid30 { gap: 4px; }
-  body.home-screen #screenPicker #levelGrid20 { gap: 5px; }
-  body.home-screen #screenPicker .level-card { padding: 6px 9px; }
-  body.home-screen #screenPicker .lvl-num { font-size: 13.5px; }
-  body.home-screen #screenPicker .lvl-percent-badge,
-  body.home-screen #screenPicker .lvl-percent-value { font-size: 12px; }
-  body.home-screen #screenPicker .lvl-count-stat,
-  body.home-screen #screenPicker .lvl-mastery-text { font-size: 10px; }
-  body.home-screen #screenPicker .lvl-status-pill,
-  body.home-screen #screenPicker .level-status-badge,
-  body.home-screen #screenPicker .lvl-band-tag,
-  body.home-screen #screenPicker .lvl-label { font-size: 9px; }
-  body.home-screen .dashboard-aux-column { gap: 3px; }
-  body.home-screen .quick-quiz-card,
-  body.home-screen .featured-topics { min-height: 38px; padding: 3px 6px; }
+  /* Right Column Widgets */
+  body.home-screen .workstation-right > .home-widgets {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  body.home-screen .workstation-right .hw-card {
+    padding: 20px 22px;
+    border-radius: var(--radius-lg);
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    box-shadow: var(--card-shadow);
+  }
 }
 
 @media (max-width: 767px) {

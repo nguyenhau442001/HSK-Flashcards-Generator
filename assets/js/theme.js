@@ -20,6 +20,10 @@ function getNextPeriodExpiry() {
 }
 
 function getEffectiveTheme() {
+  try {
+    const urlParam = new URLSearchParams(window.location.search).get('theme');
+    if (urlParam === 'dark' || urlParam === 'light') return urlParam;
+  } catch (e) {}
   const manual = localStorage.getItem('hsk_theme_manual');
   const expiry = parseInt(localStorage.getItem('hsk_theme_manual_expiry') || '0', 10);
   if (manual && Date.now() < expiry) {

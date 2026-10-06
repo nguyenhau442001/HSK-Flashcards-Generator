@@ -97,7 +97,10 @@ function initDashboardSidebar() {
 
   const radicals = document.createElement('section');
   radicals.className = 'dashboard-sidebar-card common-radicals-card';
-  radicals.innerHTML = `<div class="sidebar-card-heading"><h2>Bộ thủ thông dụng</h2><span>6 bộ</span></div>
+  radicals.innerHTML = `<div class="sidebar-card-heading">
+      <h2>Bộ thủ thông dụng</h2>
+      <button type="button" class="sidebar-link-btn" onclick="openRadicalDirectory()" aria-label="Mở danh sách 214 bộ thủ">214 bộ →</button>
+    </div>
     <div class="common-radicals-grid">${COMMON_RADICALS.map(item => `
       <button type="button" class="common-radical" data-radical="${item.char}" aria-label="Học bộ ${item.name}: ${item.hint}">
         <span class="common-radical-char" lang="zh-CN">${item.char}</span><span class="common-radical-name">${item.name}</span>

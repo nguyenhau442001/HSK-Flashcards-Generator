@@ -24,79 +24,87 @@ body.flashcard-study-mode .featured-topics {
 }
 
 @media (min-width: 1280px) {
-  body { padding: 12px 14px 20px; }
-  .workstation {
-    /* Side columns are always reserved, so the middle column (cards, level grid, games)
-       doesn't jump when the right panel switches between home widgets and study panels. */
-    grid-template-columns: minmax(220px, 25fr) minmax(0, 50fr) minmax(260px, 25fr);
-    grid-template-areas: "left middle right";
-    align-items: stretch;
-    gap: 12px;
-    min-height: calc(100vh - 32px);
-    min-height: calc(100dvh - 32px);
+  body {
+    padding: 24px 28px 60px;
+    background: var(--bg);
   }
-  .workstation-left   { grid-area: left; position: sticky; top: 16px; }
+  .workstation {
+    /* Side columns are comfortably proportioned so content has natural breathing room */
+    grid-template-columns: 280px minmax(0, 1fr) 340px;
+    grid-template-areas: "left middle right";
+    align-items: start;
+    gap: 24px;
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: auto;
+  }
+  .workstation-left   { grid-area: left; position: sticky; top: 24px; }
   .workstation-middle { grid-area: middle; min-width: 0; }
-  .app-footer { grid-column: 1 / -1; }
+  .app-footer { grid-column: 1 / -1; margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--border); }
   .workstation-right {
     grid-area: right;
     align-self: start;
     position: sticky;
-    top: 16px;
+    top: 24px;
   }
-  /* Home widgets stay inside the fixed desktop viewport. */
-  body.home-screen .workstation-right { position: static; }
-  /* Right column: home widgets until a word is picked, then stroke order + grammar. */
+  /* Right column: home widgets until a word is picked, then stroke order + grammar + companion. */
   .workstation-right > .stroke-canvas-panel,
   .workstation-right > .grammar-breakdown-panel,
-  .workstation-right > .memory-curve-panel { display: none; }
+  .workstation-right > .memory-curve-panel,
+  .workstation-right > .word-companion-panel { display: none; }
   body.has-active-study-word .workstation-right > .stroke-canvas-panel,
-  body.has-active-study-word .workstation-right > .grammar-breakdown-panel { display: flex; }
+  body.has-active-study-word .workstation-right > .grammar-breakdown-panel,
+  body.has-active-study-word .workstation-right > .word-companion-panel { display: flex; }
   body.has-active-study-word .workstation-right > .memory-curve-panel { display: block; }
   .workstation-right > .stroke-canvas-panel { order: 1; }
   .workstation-right > .grammar-breakdown-panel { order: 2; }
-  .workstation-right > .memory-curve-panel { order: 3; }
+  .workstation-right > .word-companion-panel { order: 3; }
+  .workstation-right > .memory-curve-panel { order: 4; }
   body.has-active-study-word .home-widgets { display: none; }
+  body.home-screen .word-companion-panel { display: none !important; }
   .sidebar-radicals-filter,
   .weak-words-panel,
   .stroke-canvas-panel,
-  .grammar-breakdown-panel {
-    padding: 14px;
+  .grammar-breakdown-panel,
+  .word-companion-panel {
+    padding: 16px 18px;
     background: var(--card-bg);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
+    box-shadow: var(--card-shadow);
   }
   .sidebar-radicals-filter .sidebar-panel-title,
   .weak-words-panel .sidebar-panel-title,
   .stroke-canvas-panel > .sidebar-panel-title,
-  .grammar-breakdown-panel > .sidebar-panel-title { margin-top: 0; }
+  .grammar-breakdown-panel > .sidebar-panel-title,
+  .word-companion-panel > .sidebar-panel-title { margin-top: 0; font-size: 14px; font-weight: 600; }
   .stroke-canvas-panel { padding-bottom: 18px; }
 
-  /* Lock the home dashboard to the available desktop viewport. */
+  /* Desktop home dashboard: natural, spacious, comfortable flow */
   body.home-screen {
-    height: 100vh;
-    height: 100dvh;
-    overflow: hidden;
-    padding: 10px 12px 8px;
+    min-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 24px 28px 60px;
   }
-  body.home-screen .app { height: 100%; }
+  body.home-screen .app { height: auto; max-width: 1440px; margin: 0 auto; }
   body.home-screen .workstation {
-    height: 100%; min-height: 0;
-    grid-template-rows: minmax(0, 1fr) auto;
-    row-gap: 6px;
+    height: auto; min-height: auto;
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr) 340px;
+    grid-template-areas: "left middle right";
+    align-items: start;
+    gap: 24px;
   }
   body.home-screen .workstation-left,
-  body.home-screen .workstation-right { min-height: 0; height: 100%; gap: 10px; }
-  body.home-screen .workstation-left { position: static; align-self: stretch; overflow: hidden; }
-  body.home-screen .workstation-right { position: static; align-self: stretch; overflow: hidden; }
-  body.home-screen .workstation-middle { min-height: 0; height: 100%; }
+  body.home-screen .workstation-right { min-height: auto; height: auto; gap: 16px; position: sticky; top: 24px; overflow: visible; }
+  body.home-screen .workstation-middle { min-height: auto; height: auto; display: flex; flex-direction: column; gap: 20px; overflow: visible; }
   body.home-screen .app-footer {
-    grid-row: 2; align-self: end; margin: 0; padding-top: 3px;
-    display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 14px;
+    grid-column: 1 / -1; margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--border);
+    display: flex; justify-content: center; align-items: center;
   }
   body.home-screen .footer-note {
-    overflow: hidden; margin: 0; color: var(--text-tertiary); font-size: 10px;
-    line-height: 1.2; text-overflow: ellipsis; white-space: nowrap;
+    margin: 0; color: var(--text-tertiary); font-size: 12px; line-height: 1.4;
   }
   body.home-screen .footer-note a { color: inherit; text-decoration: none; }
   body.home-screen .footer-note a:hover { color: var(--accent-text); text-decoration: underline; }
