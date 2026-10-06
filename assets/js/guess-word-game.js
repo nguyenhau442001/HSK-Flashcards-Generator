@@ -47,9 +47,12 @@ function loadNextGuessWordRound() {
   document.getElementById('guessWordEmoji').textContent = entry.emoji;
   document.getElementById('guessWordFeedback').textContent = '';
   document.getElementById('guessWordFeedback').className = 'guess-word-feedback';
-  document.getElementById('guessWordNextBtn').hidden = true;
-  document.getElementById('guessWordOptions').innerHTML = options.map(opt => `
-    <button class="guess-word-option" type="button" onclick="pickGuessWordOption('${opt.hanzi}')">${opt.hanzi}</button>
+  const nextBtn = document.getElementById('guessWordNextBtn');
+  if (nextBtn) nextBtn.hidden = true;
+  document.getElementById('guessWordOptions').innerHTML = options.map((opt, i) => `
+    <button class="guess-word-option" type="button" onclick="pickGuessWordOption('${opt.hanzi}')" data-hanzi="${opt.hanzi}" data-index="${i}">
+      ${opt.hanzi}
+    </button>
   `).join('');
 }
 
@@ -63,16 +66,50 @@ function pickGuessWordOption(hanzi) {
     guessWordSolved = true;
     feedbackEl.textContent = `✓ ${entry.hanzi} (${entry.pinyin}) — ${entry.meaning}`;
     feedbackEl.className = 'guess-word-feedback correct';
-    document.getElementById('guessWordNextBtn').hidden = false;
+    const nextBtn = document.getElementById('guessWordNextBtn');
+    if (nextBtn) {
+      nextBtn.hidden = false;
+      setTimeout(() => {
+        try { nextBtn.focus(); } catch (_) {}
+      }, 60);
+    }
     document.querySelectorAll('.guess-word-option').forEach(btn => {
       btn.disabled = true;
-      if (btn.textContent === entry.hanzi) btn.classList.add('correct');
+      if (btn.dataset.hanzi === entry.hanzi || btn.textContent.trim() === entry.hanzi) {
+        btn.classList.add('correct');
+      }
     });
   } else {
     feedbackEl.textContent = '✗ Chưa đúng, thử lại nhé.';
     feedbackEl.className = 'guess-word-feedback incorrect';
     document.querySelectorAll('.guess-word-option').forEach(btn => {
-      if (btn.textContent === hanzi) btn.classList.add('incorrect');
+      if (btn.dataset.hanzi === hanzi || btn.textContent.trim() === hanzi) {
+        btn.classList.add('incorrect');
+      }
     });
   }
 }
+
+// Keyboard navigation for guess word game
+document.addEventListener('keydown', (e) => {
+  const screen = document.getElementById('screenGuessWord');
+  if (!screen || screen.style.display === 'none') return;
+
+  const nextBtn = document.getElementById('guessWordNextBtn');
+  if (nextBtn && !nextBtn.hidden) {
+    if (e.key === 'Enter' || e.key === ' ' || e.key === 'ArrowRight') {
+      e.preventDefault();
+      loadNextGuessWordRound();
+      return;
+    }
+  }
+
+  if (!guessWordSolved && ['1', '2', '3', '4'].includes(e.key)) {
+    const idx = parseInt(e.key, 10) - 1;
+    const btns = document.querySelectorAll('.guess-word-option');
+    if (btns[idx] && !btns[idx].disabled) {
+      e.preventDefault();
+      btns[idx].click();
+    }
+  }
+});

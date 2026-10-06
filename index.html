@@ -12,7 +12,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="HSK Flashcards">
-<link rel="stylesheet" href="assets/flashcards.css?v=20261006-2tier-srs1">
+<link rel="stylesheet" href="assets/flashcards.css?v=20261006-guessword-ui1">
 <link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20261006-ui-refinement1">
 <link rel="stylesheet" href="assets/css/workstation.css?v=20261006-search-examples1">
 <link rel="stylesheet" href="assets/css/sidebar-lab.css?v=20261006-multichar-grid1">
@@ -643,7 +643,10 @@ if ('serviceWorker' in navigator) {
       <div class="guess-word-options" id="guessWordOptions"></div>
       <div class="guess-word-feedback" id="guessWordFeedback" role="status" aria-live="polite"></div>
       <div class="guess-word-actions">
-        <button class="icon-btn" id="guessWordNextBtn" onclick="loadNextGuessWordRound()" hidden>Câu tiếp →</button>
+        <button type="button" class="game-next-btn guess-word-next-btn" id="guessWordNextBtn" onclick="loadNextGuessWordRound()" hidden>
+          <span>Câu tiếp theo</span>
+          <span class="next-btn-arrow">→</span>
+        </button>
       </div>
     </div>
   </div>
@@ -662,7 +665,10 @@ if ('serviceWorker' in navigator) {
       <div class="speed-quiz-options" id="speedQuizOptions"></div>
       <div class="speed-quiz-feedback" id="speedQuizFeedback" role="status" aria-live="polite"></div>
       <div class="speed-quiz-actions">
-        <button class="icon-btn" id="speedQuizNextBtn" onclick="loadNextSpeedQuizRound()" hidden>Câu tiếp →</button>
+        <button type="button" class="game-next-btn speed-quiz-next-btn" id="speedQuizNextBtn" onclick="loadNextSpeedQuizRound()" hidden>
+          <span>Câu tiếp theo</span>
+          <span class="next-btn-arrow">→</span>
+        </button>
       </div>
     </div>
   </div>
@@ -683,8 +689,8 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/topics.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/hsk30.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/sentence-game.js?v=20261006-sentence-game1"></script>
-<script src="assets/js/guess-word-game.js?v=20261003-hsk20-rich1"></script>
-<script src="assets/js/speed-quiz-game.js?v=20261003-hsk20-rich1"></script>
+<script src="assets/js/guess-word-game.js?v=20261006-guessword-ui1"></script>
+<script src="assets/js/speed-quiz-game.js?v=20261006-guessword-ui1"></script>
 <script src="assets/js/vocabulary-overview.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/fast-review.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/flashcard.js?v=20261006-multichar-grid1"></script>

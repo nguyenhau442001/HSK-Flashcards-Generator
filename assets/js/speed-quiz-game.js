@@ -159,7 +159,13 @@ function pickSpeedQuizOption(word) {
     }
     feedbackEl.textContent = `✓ ${round.sentence.zh_tokens.join('')} — ${round.sentence.meaning}`;
     feedbackEl.className = 'speed-quiz-feedback correct';
-    document.getElementById('speedQuizNextBtn').hidden = false;
+    const nextBtn = document.getElementById('speedQuizNextBtn');
+    if (nextBtn) {
+      nextBtn.hidden = false;
+      setTimeout(() => {
+        try { nextBtn.focus(); } catch (_) {}
+      }, 60);
+    }
     document.querySelectorAll('.speed-quiz-option').forEach(btn => {
       btn.disabled = true;
       if (btn.textContent === round.answer) btn.classList.add('correct');
@@ -175,3 +181,27 @@ function pickSpeedQuizOption(word) {
     updateSpeedQuizScoreboard();
   }
 }
+
+// Keyboard navigation for speed quiz game
+document.addEventListener('keydown', (e) => {
+  const screen = document.getElementById('screenSpeedQuiz');
+  if (!screen || screen.style.display === 'none') return;
+
+  const nextBtn = document.getElementById('speedQuizNextBtn');
+  if (nextBtn && !nextBtn.hidden) {
+    if (e.key === 'Enter' || e.key === ' ' || e.key === 'ArrowRight') {
+      e.preventDefault();
+      loadNextSpeedQuizRound();
+      return;
+    }
+  }
+
+  if (!speedQuizSolved && ['1', '2', '3', '4'].includes(e.key)) {
+    const idx = parseInt(e.key, 10) - 1;
+    const btns = document.querySelectorAll('.speed-quiz-option');
+    if (btns[idx] && !btns[idx].disabled) {
+      e.preventDefault();
+      btns[idx].click();
+    }
+  }
+});
