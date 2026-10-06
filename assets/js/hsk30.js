@@ -52,9 +52,7 @@ function renderHsk30Grid() {
     const complete = known >= cfg.total;
     const isLearning = known > 0 && !complete;
     const shortLabel = 'HSK' + key.replace('hsk30_', '');
-    const metaText = cfg.sharedVocabularyGroup
-      ? `${cfg.band} · ${cfg.total.toLocaleString('vi-VN')} từ (dùng chung 7–9)`
-      : `${cfg.band} · ${cfg.total.toLocaleString('vi-VN')} từ`;
+    const metaText = `${cfg.band} · ${cfg.total.toLocaleString('vi-VN')} từ`;
     const tooltip = `${cfg.label} · ${cfg.band} · ${known}/${cfg.total} từ (${pct}%)`;
 
     const statusBadge = complete
