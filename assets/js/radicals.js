@@ -77,6 +77,9 @@ function setPrimaryTab(tab, options) {
   }
   if (tab === 'vocab' && vocabSubTab === 'topic') renderTopicGrid();
   if (tab === 'sentenceGame') startSentenceGame();
+  if (previousTab === 'sentenceGame' && tab !== 'sentenceGame') {
+    document.body.classList.remove('sentence-game-focus');
+  }
   if (tab === 'guessWord') startGuessWordGame();
   if (tab === 'speedQuiz') startSpeedQuizGame(options || {});
   if (previousTab === 'review' && tab !== 'review') {
