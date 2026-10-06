@@ -264,6 +264,10 @@ body.flashcard-study-mode .featured-topics {
   body.flashcard-study-mode .stroke-canvas-controls .stroke-ctrl-btn.active {
     background: var(--accent); color: #fff; border-color: var(--accent);
   }
+  body.flashcard-study-mode .stroke-char-selector-wrap { margin-bottom: 6px; }
+  body.flashcard-study-mode .stroke-char-pill { min-width: 36px; height: 30px; padding: 0 6px; }
+  body.flashcard-study-mode .stroke-pill-char { font-size: 14px; }
+  body.flashcard-study-mode .stroke-char-arrow-btn { width: 24px; height: 30px; flex: 0 0 24px; }
   body.flashcard-study-mode .grammar-breakdown-panel[hidden] { display: none !important; }
 }
 

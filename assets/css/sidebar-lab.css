@@ -1,11 +1,105 @@
 .stroke-canvas-panel { display: flex; flex-direction: column; gap: 8px; }
-/* Grid, fallback and buttons share one centered column; the button row matches the grid width. */
+.stroke-char-badge {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent-text);
+  background: var(--accent-light);
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+}
+/* Grid, fallback, tabs and buttons share one centered column; the button row matches the grid width. */
 .stroke-canvas-body {
   --stroke-canvas-width: min(100%, 260px);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+/* Multi-character selector for compound words */
+.stroke-char-selector-wrap {
+  width: var(--stroke-canvas-width);
+  margin-bottom: 10px;
+}
+.stroke-char-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+}
+.stroke-char-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  flex: 1 1 auto;
+}
+.stroke-char-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  min-width: 44px;
+  height: 34px;
+  padding: 0 10px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--surface-subtle);
+  color: var(--text-secondary);
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+.stroke-char-pill:hover {
+  border-color: var(--accent);
+  background: var(--accent-light);
+  color: var(--accent-text);
+  transform: translateY(-1px);
+}
+.stroke-char-pill.active {
+  background: var(--accent-gradient, var(--accent));
+  color: #ffffff;
+  border-color: var(--accent);
+  box-shadow: 0 2px 6px color-mix(in srgb, var(--accent) 30%, transparent);
+  font-weight: 700;
+}
+.stroke-pill-index {
+  font-size: 10px;
+  font-weight: 600;
+  opacity: 0.75;
+}
+.stroke-pill-char {
+  font-size: 16px;
+  line-height: 1;
+}
+.stroke-char-arrow-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 34px;
+  border: 1px solid var(--border);
+  background: var(--surface-subtle);
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.15s ease;
+  flex: 0 0 28px;
+}
+.stroke-char-arrow-btn:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent-text);
+  background: var(--accent-light);
+}
+.stroke-char-arrow-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
 .stroke-canvas-grid {
   width: var(--stroke-canvas-width);
   display: grid;
@@ -30,6 +124,7 @@
 .stroke-canvas-grid.is-quiz-mode {
   cursor: crosshair;
   border-color: var(--accent);
+  touch-action: none;
 }
 .stroke-canvas-fallback {
   width: var(--stroke-canvas-width);
@@ -46,18 +141,104 @@
 .stroke-canvas-controls {
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 10px;
   width: var(--stroke-canvas-width);
-  margin-top: 14px;
+  margin-top: 12px;
 }
+.stroke-canvas-controls .stroke-ctrl-btn,
 .stroke-canvas-controls .icon-btn {
   flex: 1 1 0;
   min-width: 0;
-  padding: 8px 6px;
+  padding: 8px 10px;
   text-align: center;
   line-height: 1.3;
+  font-size: 12.5px;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.15s ease;
 }
+.stroke-canvas-controls .stroke-ctrl-btn:hover:not(:disabled),
+.stroke-canvas-controls .icon-btn:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: var(--accent-light);
+  color: var(--accent-text);
+}
+.stroke-canvas-controls .stroke-ctrl-btn.active,
+.stroke-canvas-controls .icon-btn.active {
+  background: var(--accent-gradient, var(--accent));
+  color: #fff;
+  border-color: var(--accent);
+  box-shadow: 0 2px 5px color-mix(in srgb, var(--accent) 30%, transparent);
+}
+.stroke-canvas-controls .stroke-ctrl-btn:disabled,
 .stroke-canvas-controls .icon-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* Quiz feedback and hints */
+.stroke-quiz-hint {
+  width: var(--stroke-canvas-width);
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 8px 10px;
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  transition: all 0.2s ease;
+}
+.stroke-hint-sub {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+}
+.stroke-quiz-feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+}
+.stroke-feedback-title {
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--text-primary);
+}
+.stroke-advance-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-md);
+  background: var(--accent-gradient, var(--accent));
+  color: #fff;
+  border: none;
+  font-size: 11.5px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 4px color-mix(in srgb, var(--accent) 25%, transparent);
+  transition: all 0.15s ease;
+}
+.stroke-advance-btn:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.06);
+}
+.stroke-advance-btn.secondary {
+  background: var(--card-bg);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  box-shadow: none;
+}
+.stroke-advance-btn.secondary:hover {
+  border-color: var(--accent);
+  color: var(--accent-text);
+  background: var(--accent-light);
+}
 .grammar-breakdown-panel { display: flex; flex-direction: column; gap: 8px; }
 .grammar-sentence {
   font-size: 18px;
