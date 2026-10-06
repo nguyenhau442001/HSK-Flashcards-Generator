@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="assets/css/sidebar-lab.css?v=20261006-terracotta-palette1">
 <link rel="stylesheet" href="assets/css/home-widgets.css?v=20261006-terracotta-palette1">
 <link rel="stylesheet" href="assets/css/dashboard-enhancements.css?v=20261006-terracotta-palette1">
-<script>(function(){var t=localStorage.getItem('hsk_theme');if(t)document.documentElement.dataset.theme=t;})();</script>
+<script>(function(){var h=new Date().getHours();var d=(h>=6&&h<18)?'light':'dark';var m=localStorage.getItem('hsk_theme_manual');var e=parseInt(localStorage.getItem('hsk_theme_manual_expiry')||'0',10);document.documentElement.dataset.theme=(m&&Date.now()<e)?m:d;})();</script>
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
@@ -615,7 +615,7 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/speech.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/progress.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/due-review.js?v=20261003-hsk20-rich1"></script>
-<script src="assets/js/theme.js?v=20261003-hsk20-rich1"></script>
+<script src="assets/js/theme.js?v=20261006-auto-theme1"></script>
 <script src="assets/js/backup.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/memory-curve.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/radicals-state.js?v=20261003-hsk20-rich1"></script>

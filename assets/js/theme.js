@@ -1,18 +1,68 @@
-// Manual light/dark theme selection.
-function toggleTheme() {
-  const current = document.documentElement.dataset.theme ||
-    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-  const next = current === 'dark' ? 'light' : 'dark';
-  localStorage.setItem('hsk_theme', next);
-  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+// Automatic time-based theme (6:00 - 18:00 Light, 18:00 - 6:00 Dark) with manual override.
+function getTimeBasedTheme() {
+  const hour = new Date().getHours();
+  return (hour >= 6 && hour < 18) ? 'light' : 'dark';
+}
+
+function getNextPeriodExpiry() {
+  const now = new Date();
+  const target = new Date(now);
+  const hour = now.getHours();
+  if (hour >= 6 && hour < 18) {
+    target.setHours(18, 0, 0, 0);
+  } else if (hour >= 18) {
+    target.setDate(target.getDate() + 1);
+    target.setHours(6, 0, 0, 0);
+  } else {
+    target.setHours(6, 0, 0, 0);
+  }
+  return target.getTime();
+}
+
+function getEffectiveTheme() {
+  const manual = localStorage.getItem('hsk_theme_manual');
+  const expiry = parseInt(localStorage.getItem('hsk_theme_manual_expiry') || '0', 10);
+  if (manual && Date.now() < expiry) {
+    return manual;
+  }
+  return getTimeBasedTheme();
+}
+
+function applyTheme(theme, animate) {
+  if (animate && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     document.documentElement.classList.add('theme-transition');
     setTimeout(() => document.documentElement.classList.remove('theme-transition'), 200);
   }
-  document.documentElement.dataset.theme = next;
-  document.getElementById('themeToggle').textContent = next === 'dark' ? '☀️' : '🌙';
+  document.documentElement.dataset.theme = theme;
+  const toggleBtn = document.getElementById('themeToggle');
+  if (toggleBtn) {
+    toggleBtn.textContent = theme === 'dark' ? '☀️' : '🌙';
+    toggleBtn.setAttribute('title', theme === 'dark' ? 'Chế độ tối (Bấm để chuyển sáng)' : 'Chế độ sáng (Bấm để chuyển tối)');
+    toggleBtn.setAttribute('aria-label', theme === 'dark' ? 'Chuyển sang giao diện sáng' : 'Chuyển sang giao diện tối');
+  }
 }
+
+function toggleTheme() {
+  const current = document.documentElement.dataset.theme || getEffectiveTheme();
+  const next = current === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('hsk_theme_manual', next);
+  localStorage.setItem('hsk_theme_manual_expiry', String(getNextPeriodExpiry()));
+  localStorage.setItem('hsk_theme', next);
+  applyTheme(next, true);
+}
+
+function checkScheduledTheme() {
+  const expected = getEffectiveTheme();
+  if (document.documentElement.dataset.theme !== expected) {
+    applyTheme(expected, true);
+  }
+}
+
 (function () {
-  const effective = document.documentElement.dataset.theme ||
-    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-  document.getElementById('themeToggle').textContent = effective === 'dark' ? '☀️' : '🌙';
+  const effective = getEffectiveTheme();
+  applyTheme(effective, false);
+  setInterval(checkScheduledTheme, 60000);
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) checkScheduledTheme();
+  });
 })();
