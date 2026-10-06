@@ -5,8 +5,8 @@ function buildCardArea() {
       <div class="progress-bar-fill" id="progressBar"></div>
     </div>
     <div class="card" id="card">
-      <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Được</div>
-      <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Quên</div>
+      <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Đã nhớ</div>
+      <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Chưa nhớ</div>
       <div class="card-toolbar card-interactive" id="cardToolbar" onclick="event.stopPropagation()">
         <button type="button" class="card-tool-btn" id="randomWordBtn" onclick="jumpToRandomWord()" aria-label="Hiện từ ngẫu nhiên (R)" title="Hiện từ ngẫu nhiên (R)">
           <span aria-hidden="true">🎲</span>

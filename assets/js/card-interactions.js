@@ -92,16 +92,21 @@ function initCardSwipe(options) {
       applyDrag(dx);
     }
   }, { passive: false });
-  function onEnd() {
+  function onEnd(e) {
     if (!active) return;
     active = false;
+    try { if (e && e.pointerId && card.hasPointerCapture && card.hasPointerCapture(e.pointerId)) card.releasePointerCapture(e.pointerId); } catch (_) {}
     if (!locked) { options.flip(); return; }
     if (locked === 'v') return;
     if (Math.abs(dx) >= COMMIT_PX) commitSwipe(dx > 0 ? 'right' : 'left');
     else springBack();
   }
   card.addEventListener('pointerup', onEnd);
-  card.addEventListener('pointercancel', () => { active = false; springBack(); });
+  card.addEventListener('pointercancel', e => {
+    active = false;
+    try { if (e && e.pointerId && card.hasPointerCapture && card.hasPointerCapture(e.pointerId)) card.releasePointerCapture(e.pointerId); } catch (_) {}
+    springBack();
+  });
 }
 
 function initSwipe() {

@@ -34,15 +34,10 @@ window.jumpToRandomWord = jumpToRandomWord;
 window.randomWord = jumpToRandomWord;
 window.randomizeFlashcardWord = jumpToRandomWord;
 function rateCurrentCard(rating) {
-  if (filteredOrder.length===0) return;
+  if (filteredOrder.length === 0) return;
   const wIdx = filteredOrder[idx % filteredOrder.length];
   const word = WORDS[wIdx];
-  const card = srsCards[word.id];
-  if (card && card.state === SRS.State.New && countNewReviewsToday() >= readDailyStudyGoal()) {
-    const message = document.getElementById('dailyNewLimitMessage');
-    if (message) message.textContent = 'Đã đạt giới hạn thẻ mới hôm nay. Bạn vẫn có thể ôn thẻ đến hạn ở mục “Ôn hôm nay”.';
-    return;
-  }
+  if (!word) return;
   reviewSrsCard(currentLevel, word.id, rating, srsCards);
   const limitMessage = document.getElementById('dailyNewLimitMessage');
   if (limitMessage) limitMessage.textContent = '';
@@ -194,6 +189,16 @@ document.addEventListener('keydown', event => {
   if (event.key === 'r' || event.key === 'R') {
     event.preventDefault();
     jumpToRandomWord();
+    return;
+  }
+  if (event.key === 'ArrowRight') {
+    event.preventDefault();
+    nextCard();
+    return;
+  }
+  if (event.key === 'ArrowLeft') {
+    event.preventDefault();
+    prevCard();
     return;
   }
 });
