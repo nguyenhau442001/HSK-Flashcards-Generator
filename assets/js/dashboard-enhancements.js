@@ -30,8 +30,11 @@ function renderDashboardEnhancements() {
   if (continuation && target) {
     const cfg = LEVELS[target.level];
     const ratio = `${target.known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} từ đã nhớ`;
+    const pctStr = typeof formatProgressPercent === 'function'
+      ? formatProgressPercent(target.known, cfg.total)
+      : `${Math.round(target.known / cfg.total * 100)}%`;
     document.getElementById('continueLearningTitle').textContent = `${cfg.label} · Bộ từ đang học`;
-    document.getElementById('continueLearningProgress').textContent = `${ratio} · ${Math.round(target.known / cfg.total * 100)}% tiến độ`;
+    document.getElementById('continueLearningProgress').textContent = `${ratio} · ${pctStr} tiến độ`;
     continuation.dataset.level = target.level;
   }
 
@@ -74,15 +77,18 @@ function renderDashboardEnhancements() {
     const todayCount = [...todayWords].filter(key => key.startsWith(level + ':')).length;
     daily.classList.toggle('has-activity', todayCount > 0);
     daily.textContent = `+${todayCount} từ hôm nay`;
-    const pct = Math.round(known / cfg.total * 100);
+    const rawPct = cfg.total > 0 ? (known / cfg.total * 100) : 0;
+    const pctStr = typeof formatProgressPercent === 'function'
+      ? formatProgressPercent(known, cfg.total)
+      : `${Math.round(rawPct)}%`;
     const percentValue = card.querySelector('.lvl-percent-value');
-    if (percentValue) percentValue.textContent = `${pct}%`;
+    if (percentValue) percentValue.textContent = pctStr;
     const legacyPercent = card.querySelector('.lvl-percent-complete');
     if (legacyPercent) legacyPercent.remove();
     const progressText = card.querySelector('.lvl-mastery-text');
     if (progressText) progressText.textContent = `${known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} đã nhớ`;
     const bar = card.querySelector('.lvl-mastery-fill');
-    if (bar) bar.style.width = `${pct}%`;
+    if (bar) bar.style.width = `${known > 0 ? Math.max(rawPct, 0.75) : 0}%`;
     const actionHint = card.querySelector('.lvl-action-hint');
     if (actionHint) {
       actionHint.innerHTML = `${complete ? 'Ôn lại' : isLearning ? 'Học tiếp' : 'Học ngay'} <span aria-hidden="true">→</span>`;

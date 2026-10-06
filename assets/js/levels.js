@@ -600,21 +600,34 @@ function showWelcomeToast() {
   }, 4200);
 }
 
+function formatProgressPercent(known, total, maxDecimals = 3) {
+  if (!total || total <= 0 || !known || known <= 0) return '0%';
+  if (known >= total) return '100%';
+  const rawPct = (known / total) * 100;
+  if (Number.isInteger(rawPct)) return `${rawPct}%`;
+  const rounded = parseFloat(rawPct.toFixed(maxDecimals));
+  if (rounded === 0) return '>0%';
+  return `${rounded}%`;
+}
+window.formatProgressPercent = formatProgressPercent;
+
 function renderLevelProgress() {
   Object.keys(LEVELS).forEach(level => {
     const total = LEVELS[level].total;
     const data = readSavedLevelProgress(level);
     const known = Object.values(data).filter(status => status === 'known').length;
-    const pct = total > 0 ? (known / total * 100) : 0;
+    const rawPct = total > 0 ? (known / total * 100) : 0;
+    const pctStr = formatProgressPercent(known, total);
     const bar = document.getElementById('bar-' + level);
     const text = document.getElementById('text-' + level);
     const card = document.querySelector(`.level-card[data-level="${level}"]`);
     const pctEl = card ? card.querySelector('.lvl-percent-value') : null;
-    if (bar) bar.style.width = pct + '%';
+    if (bar) bar.style.width = (known > 0 ? Math.max(rawPct, 0.75) : 0) + '%';
     if (text) text.textContent = known.toLocaleString('vi-VN') + ' / ' + total.toLocaleString('vi-VN') + ' từ';
-    if (pctEl) pctEl.textContent = Math.round(pct) + '%';
+    if (pctEl) pctEl.textContent = pctStr;
   });
 }
+
 
 
 function goBackToPicker() {

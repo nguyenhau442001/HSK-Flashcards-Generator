@@ -15,14 +15,17 @@ function renderTopicGrid() {
   grid.innerHTML = keys.map(key => {
     const topic = TOPICS[key];
     const known = topicKnownCount(key);
-    const pct = topic.total > 0 ? (known / topic.total * 100) : 0;
+    const rawPct = topic.total > 0 ? (known / topic.total * 100) : 0;
+    const pctStr = typeof formatProgressPercent === 'function'
+      ? formatProgressPercent(known, topic.total)
+      : `${Math.round(rawPct)}%`;
     return `
       <button class="level-card" type="button" ${topic.available ? `onclick="selectLevel('${key}')"` : 'disabled'}>
         <div class="lvl-num">${topic.icon || '🏷️'}</div>
         <div class="lvl-label">${topic.label}</div>
         <div class="lvl-count">${topic.total} từ</div>
-        <div class="lvl-mastery-track"><div class="lvl-mastery-fill" style="width:${pct}%"></div></div>
-        <div class="lvl-mastery-text">${known} / ${topic.total} đã nhớ</div>
+        <div class="lvl-mastery-track"><div class="lvl-mastery-fill" style="width:${known > 0 ? Math.max(rawPct, 0.75) : 0}%"></div></div>
+        <div class="lvl-mastery-text">${known} / ${topic.total} đã nhớ (${pctStr})</div>
       </button>`;
   }).join('');
 }

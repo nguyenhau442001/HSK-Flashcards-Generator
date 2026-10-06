@@ -48,12 +48,15 @@ function renderHsk30Grid() {
   grid.innerHTML = hsk30LevelKeys().map(key => {
     const cfg = LEVELS_HSK30[key];
     const known = hsk30KnownCount(key);
-    const pct = cfg.total > 0 ? Math.round(known / cfg.total * 100) : 0;
+    const rawPct = cfg.total > 0 ? (known / cfg.total * 100) : 0;
+    const pctStr = typeof formatProgressPercent === 'function'
+      ? formatProgressPercent(known, cfg.total)
+      : (cfg.total > 0 ? `${parseFloat(rawPct.toFixed(3))}%` : '0%');
     const complete = known >= cfg.total;
     const isLearning = known > 0 && !complete;
     const shortLabel = 'HSK' + key.replace('hsk30_', '');
     const metaText = `${cfg.band} · ${cfg.total.toLocaleString('vi-VN')} từ`;
-    const tooltip = `${cfg.label} · ${cfg.band} · ${known}/${cfg.total} từ (${pct}%)`;
+    const tooltip = `${cfg.label} · ${cfg.band} · ${known}/${cfg.total} từ (${pctStr})`;
 
     const statusBadge = complete
       ? '<span class="level-status-badge is-complete">✓ Hoàn thành</span>'
@@ -69,14 +72,14 @@ function renderHsk30Grid() {
           <div class="level-card-heading">
             <strong class="lvl-num">${shortLabel}</strong>
           </div>
-          <strong class="lvl-percent-value">${pct}%</strong>
+          <strong class="lvl-percent-value">${pctStr}</strong>
         </div>
         <div class="level-card-meta">
           <span class="lvl-label">${metaText}</span>
         </div>
         <div class="level-card-progress">
           <div class="lvl-mastery-track" aria-hidden="true">
-            <div class="lvl-mastery-fill" style="width:${pct}%"></div>
+            <div class="lvl-mastery-fill" style="width:${known > 0 ? Math.max(rawPct, 0.75) : 0}%"></div>
           </div>
         </div>
         <div class="level-card-bottom">
