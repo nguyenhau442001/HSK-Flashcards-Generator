@@ -12,7 +12,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="HSK Flashcards">
-<link rel="stylesheet" href="assets/flashcards.css?v=20261006-guessword-flat1">
+<link rel="stylesheet" href="assets/flashcards.css?v=20261006-speedquiz-card1">
 <link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20261006-ui-refinement1">
 <link rel="stylesheet" href="assets/css/workstation.css?v=20261006-search-examples1">
 <link rel="stylesheet" href="assets/css/sidebar-lab.css?v=20261006-multichar-grid1">
@@ -691,23 +691,57 @@ if ('serviceWorker' in navigator) {
   <!-- SCREEN 9: Speed quiz game -->
   <div id="screenSpeedQuiz" style="display:none">
     <div class="speed-quiz-game">
-      <div class="speed-quiz-scoreboard">
-        <span id="speedQuizScore">Điểm: 0</span>
-        <span id="speedQuizStreak" class="speed-quiz-streak"></span>
-        <span id="speedQuizBest">Kỷ lục: 0</span>
-      </div>
-      <div class="speed-quiz-timer-track"><div class="speed-quiz-timer-bar" id="speedQuizTimerBar"></div></div>
-      <div class="speed-quiz-word" id="speedQuizWord"></div>
-      <div class="speed-quiz-meaning" id="speedQuizMeaning"></div>
-      <div class="speed-quiz-options" id="speedQuizOptions"></div>
-      <div class="speed-quiz-feedback" id="speedQuizFeedback" role="status" aria-live="polite"></div>
-      <div class="speed-quiz-explanation" id="speedQuizExplanation" hidden></div>
-      <div class="speed-quiz-actions">
-        <button type="button" class="game-next-btn speed-quiz-next-btn" id="speedQuizNextBtn" onclick="loadNextSpeedQuizRound()" hidden>
-          <span>Câu tiếp theo</span>
-          <span class="next-btn-arrow">→</span>
-        </button>
-      </div>
+      <header class="speed-quiz-header">
+        <div class="speed-quiz-header-main">
+          <div class="speed-quiz-title-group">
+            <h2 class="speed-quiz-title">⚡ Điền từ vào câu</h2>
+            <span class="speed-quiz-badge" id="speedQuizRoundBadge">Thử thách tốc độ</span>
+          </div>
+          <div class="speed-quiz-header-actions">
+            <button type="button" class="speed-quiz-exit-btn" onclick="exitSpeedQuizGame()" title="Thoát trò chơi" aria-label="Thoát trò chơi">✕ Thoát</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="speed-quiz-card" aria-label="Bảng câu hỏi điền từ vào câu">
+        <div class="speed-quiz-scoreboard">
+          <span class="speed-quiz-score-badge" id="speedQuizScore">Điểm: 0</span>
+          <span id="speedQuizStreak" class="speed-quiz-streak"></span>
+          <span class="speed-quiz-best-badge" id="speedQuizBest">Kỷ lục: 0</span>
+        </div>
+
+        <div class="speed-quiz-timer-track">
+          <div class="speed-quiz-timer-bar" id="speedQuizTimerBar"></div>
+        </div>
+
+        <div class="speed-quiz-question-box">
+          <div class="speed-quiz-prompt-label">Điền từ thích hợp vào chỗ trống:</div>
+          <div class="speed-quiz-word" id="speedQuizWord"></div>
+          <div class="speed-quiz-meaning" id="speedQuizMeaning"></div>
+        </div>
+
+        <div class="speed-quiz-options" id="speedQuizOptions" role="group" aria-label="Các lựa chọn đáp án"></div>
+
+        <div class="speed-quiz-feedback" id="speedQuizFeedback" role="status" aria-live="polite"></div>
+
+        <div class="speed-quiz-explanation" id="speedQuizExplanation" hidden></div>
+
+        <div class="speed-quiz-actions">
+          <button type="button" class="speed-quiz-giveup-btn" id="speedQuizGiveUpBtn" onclick="giveUpSpeedQuizRound()" title="Bỏ cuộc câu này và xem đáp án">
+            <span>🏳️ Bỏ cuộc</span>
+          </button>
+          <button type="button" class="game-next-btn speed-quiz-next-btn" id="speedQuizNextBtn" onclick="loadNextSpeedQuizRound()" hidden>
+            <span>Câu tiếp theo</span>
+            <span class="next-btn-arrow">→</span>
+          </button>
+        </div>
+
+        <div class="speed-quiz-hints-footer">
+          <span class="speed-quiz-hint-item"><kbd>1</kbd>–<kbd>4</kbd> Chọn đáp án</span>
+          <span class="speed-quiz-hint-item"><kbd>Esc</kbd> Bỏ cuộc</span>
+          <span class="speed-quiz-hint-item"><kbd>Enter</kbd> hoặc <kbd>Space</kbd> Câu tiếp</span>
+        </div>
+      </section>
     </div>
   </div>
 
@@ -728,7 +762,7 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/hsk30.js?v=20261006-decimal-pct1"></script>
 <script src="assets/js/sentence-game.js?v=20261006-sentence-ux1"></script>
 <script src="assets/js/guess-word-game.js?v=20261006-fix-chair1"></script>
-<script src="assets/js/speed-quiz-game.js?v=20261006-speedquiz-exp1"></script>
+<script src="assets/js/speed-quiz-game.js?v=20261006-speedquiz-card1"></script>
 <script src="assets/js/vocabulary-overview.js?v=20261006-nav-fix1"></script>
 <script src="assets/js/fast-review.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/flashcard.js?v=20261006-swipe-fix1"></script>

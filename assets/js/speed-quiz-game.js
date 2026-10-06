@@ -257,9 +257,15 @@ function loadNextSpeedQuizRound() {
   document.getElementById('speedQuizMeaning').textContent = sentence.meaning || '';
   document.getElementById('speedQuizFeedback').textContent = '';
   document.getElementById('speedQuizFeedback').className = 'speed-quiz-feedback';
-  document.getElementById('speedQuizNextBtn').hidden = true;
-  document.getElementById('speedQuizOptions').innerHTML = options.map(opt => `
-    <button class="speed-quiz-option" type="button" onclick="pickSpeedQuizOption('${opt.replace(/'/g, "\\'")}')">${opt}</button>
+  const giveUpBtn = document.getElementById('speedQuizGiveUpBtn');
+  if (giveUpBtn) giveUpBtn.hidden = false;
+  const nextBtn = document.getElementById('speedQuizNextBtn');
+  if (nextBtn) nextBtn.hidden = true;
+  document.getElementById('speedQuizOptions').innerHTML = options.map((opt, i) => `
+    <button class="speed-quiz-option" type="button" onclick="pickSpeedQuizOption('${escapeHtml(opt)}')" data-word="${escapeHtml(opt)}" data-index="${i}">
+      <span class="option-key-badge">${i + 1}</span>
+      <span class="option-hanzi">${escapeHtml(opt)}</span>
+    </button>
   `).join('');
 
   updateSpeedQuizTimerBar();
@@ -289,8 +295,12 @@ function handleSpeedQuizTimeout() {
   speedQuizStreak = 0;
   const round = speedQuizCurrentRound;
   const feedbackEl = document.getElementById('speedQuizFeedback');
-  feedbackEl.textContent = `⏱ Hết giờ! Đáp án đúng: ${round.answer}`;
-  feedbackEl.className = 'speed-quiz-feedback incorrect';
+  if (feedbackEl) {
+    feedbackEl.textContent = `⏱ Hết giờ! Đáp án đúng: ${round.answer}`;
+    feedbackEl.className = 'speed-quiz-feedback incorrect';
+  }
+  const giveUpBtn = document.getElementById('speedQuizGiveUpBtn');
+  if (giveUpBtn) giveUpBtn.hidden = true;
   const nextBtn = document.getElementById('speedQuizNextBtn');
   if (nextBtn) {
     nextBtn.hidden = false;
@@ -300,7 +310,9 @@ function handleSpeedQuizTimeout() {
   }
   document.querySelectorAll('.speed-quiz-option').forEach(btn => {
     btn.disabled = true;
-    if (btn.textContent === round.answer) btn.classList.add('correct');
+    if (btn.dataset.word === round.answer || btn.textContent.trim().includes(round.answer)) {
+      btn.classList.add('correct');
+    }
   });
   updateSpeedQuizScoreboard();
   renderSpeedQuizExplanation(round, null, false, true);
@@ -311,6 +323,8 @@ function pickSpeedQuizOption(word) {
   const round = speedQuizCurrentRound;
   const feedbackEl = document.getElementById('speedQuizFeedback');
   const isCorrect = word === round.answer;
+  const giveUpBtn = document.getElementById('speedQuizGiveUpBtn');
+  if (giveUpBtn) giveUpBtn.hidden = true;
 
   if (isCorrect) {
     speedQuizSolved = true;
@@ -323,8 +337,10 @@ function pickSpeedQuizOption(word) {
       speedQuizBest = speedQuizScore;
       localStorage.setItem(SPEED_QUIZ_STORAGE_KEY, String(speedQuizBest));
     }
-    feedbackEl.textContent = `✓ Chính xác! Đáp án: ${round.answer}`;
-    feedbackEl.className = 'speed-quiz-feedback correct';
+    if (feedbackEl) {
+      feedbackEl.textContent = `✓ Chính xác! Đáp án: ${round.answer}`;
+      feedbackEl.className = 'speed-quiz-feedback correct';
+    }
     const nextBtn = document.getElementById('speedQuizNextBtn');
     if (nextBtn) {
       nextBtn.hidden = false;
@@ -334,7 +350,9 @@ function pickSpeedQuizOption(word) {
     }
     document.querySelectorAll('.speed-quiz-option').forEach(btn => {
       btn.disabled = true;
-      if (btn.textContent === round.answer) btn.classList.add('correct');
+      if (btn.dataset.word === round.answer || btn.textContent.trim().includes(round.answer)) {
+        btn.classList.add('correct');
+      }
     });
     updateSpeedQuizScoreboard();
     renderSpeedQuizExplanation(round, word, true, false);
@@ -342,8 +360,10 @@ function pickSpeedQuizOption(word) {
     speedQuizSolved = true;
     clearInterval(speedQuizTimerId);
     speedQuizStreak = 0;
-    feedbackEl.textContent = `✗ Chưa chính xác! Đáp án đúng: ${round.answer}`;
-    feedbackEl.className = 'speed-quiz-feedback incorrect';
+    if (feedbackEl) {
+      feedbackEl.textContent = `✗ Chưa chính xác! Đáp án đúng: ${round.answer}`;
+      feedbackEl.className = 'speed-quiz-feedback incorrect';
+    }
     const nextBtn = document.getElementById('speedQuizNextBtn');
     if (nextBtn) {
       nextBtn.hidden = false;
@@ -353,13 +373,60 @@ function pickSpeedQuizOption(word) {
     }
     document.querySelectorAll('.speed-quiz-option').forEach(btn => {
       btn.disabled = true;
-      if (btn.textContent === round.answer) btn.classList.add('correct');
-      if (btn.textContent === word) btn.classList.add('incorrect');
+      if (btn.dataset.word === round.answer || btn.textContent.trim().includes(round.answer)) {
+        btn.classList.add('correct');
+      }
+      if (btn.dataset.word === word || btn.textContent.trim().includes(word)) {
+        btn.classList.add('incorrect');
+      }
     });
     updateSpeedQuizScoreboard();
     renderSpeedQuizExplanation(round, word, false, false);
   }
 }
+
+function giveUpSpeedQuizRound() {
+  if (speedQuizSolved || !speedQuizCurrentRound) return;
+  speedQuizSolved = true;
+  clearInterval(speedQuizTimerId);
+  speedQuizStreak = 0;
+  const round = speedQuizCurrentRound;
+  const feedbackEl = document.getElementById('speedQuizFeedback');
+  if (feedbackEl) {
+    feedbackEl.textContent = `🏳️ Bạn đã bỏ cuộc câu này. Đáp án đúng: ${round.answer}`;
+    feedbackEl.className = 'speed-quiz-feedback incorrect';
+  }
+  const giveUpBtn = document.getElementById('speedQuizGiveUpBtn');
+  if (giveUpBtn) giveUpBtn.hidden = true;
+  const nextBtn = document.getElementById('speedQuizNextBtn');
+  if (nextBtn) {
+    nextBtn.hidden = false;
+    setTimeout(() => {
+      try { nextBtn.focus(); } catch (_) {}
+    }, 60);
+  }
+  document.querySelectorAll('.speed-quiz-option').forEach(btn => {
+    btn.disabled = true;
+    if (btn.dataset.word === round.answer || btn.textContent.trim().includes(round.answer)) {
+      btn.classList.add('correct');
+    }
+  });
+  updateSpeedQuizScoreboard();
+  renderSpeedQuizExplanation(round, null, false, true);
+}
+window.giveUpSpeedQuizRound = giveUpSpeedQuizRound;
+
+function exitSpeedQuizGame() {
+  clearInterval(speedQuizTimerId);
+  speedQuizSolved = true;
+  if (typeof setPrimaryTab === 'function') {
+    setPrimaryTab('vocab');
+  }
+  if (typeof goBackToPicker === 'function') {
+    goBackToPicker();
+  }
+}
+window.exitSpeedQuizGame = exitSpeedQuizGame;
 
 // Keyboard navigation for speed quiz game
 document.addEventListener('keydown', (e) => {
@@ -375,12 +442,19 @@ document.addEventListener('keydown', (e) => {
     }
   }
 
-  if (!speedQuizSolved && ['1', '2', '3', '4'].includes(e.key)) {
-    const idx = parseInt(e.key, 10) - 1;
-    const btns = document.querySelectorAll('.speed-quiz-option');
-    if (btns[idx] && !btns[idx].disabled) {
+  if (!speedQuizSolved) {
+    if (e.key === 'Escape' || e.key === 'q' || e.key === 'Q') {
       e.preventDefault();
-      btns[idx].click();
+      giveUpSpeedQuizRound();
+      return;
+    }
+    if (['1', '2', '3', '4'].includes(e.key)) {
+      const idx = parseInt(e.key, 10) - 1;
+      const btns = document.querySelectorAll('.speed-quiz-option');
+      if (btns[idx] && !btns[idx].disabled) {
+        e.preventDefault();
+        btns[idx].click();
+      }
     }
   }
 });
