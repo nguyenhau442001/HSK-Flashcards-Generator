@@ -301,7 +301,33 @@ const WORD_ILLUSTRATIONS_DB = {
 };
 
 // Pre-generated static illustration assets stored in assets/images/illustrations/
-const STATIC_ILLUSTRATIONS_INDEX = {};
+const STATIC_ILLUSTRATIONS_INDEX = {
+  "总结": {
+    "file": "总结.svg",
+    "src": "assets/images/illustrations/总结.svg",
+    "caption": "tổng kết"
+  },
+  "合适": {
+    "file": "合适.svg",
+    "src": "assets/images/illustrations/合适.svg",
+    "caption": "phù hợp, thích hợp"
+  },
+  "安排": {
+    "file": "安排.svg",
+    "src": "assets/images/illustrations/安排.svg",
+    "caption": "sắp xếp, bố trí"
+  },
+  "安全": {
+    "file": "安全.svg",
+    "src": "assets/images/illustrations/安全.svg",
+    "caption": "an toàn"
+  },
+  "成功": {
+    "file": "成功.svg",
+    "src": "assets/images/illustrations/成功.svg",
+    "caption": "thành công"
+  }
+};
 
 /**
  * Returns illustration config for a word.
@@ -318,13 +344,9 @@ function getWordIllustration(word) {
     return { type: 'img', src: word.image, caption: word.meaning || '' };
   }
 
-  // 2. Preset curated illustrations
   const hanzi = (word.hanzi || word.word || '').trim();
-  if (WORD_ILLUSTRATIONS_DB[hanzi]) {
-    return WORD_ILLUSTRATIONS_DB[hanzi];
-  }
 
-  // 3. Pre-generated static AI illustrations from assets/images/illustrations/
+  // 2. Pre-generated static AI illustrations from assets/images/illustrations/
   if (typeof STATIC_ILLUSTRATIONS_INDEX !== 'undefined' && STATIC_ILLUSTRATIONS_INDEX[hanzi]) {
     const item = STATIC_ILLUSTRATIONS_INDEX[hanzi];
     return {
@@ -333,6 +355,11 @@ function getWordIllustration(word) {
       svg: item.svg,
       caption: item.caption || word.meaning || ''
     };
+  }
+
+  // 3. Preset curated illustrations
+  if (WORD_ILLUSTRATIONS_DB[hanzi]) {
+    return WORD_ILLUSTRATIONS_DB[hanzi];
   }
 
   // 4. Fallback: Sleek POS-Themed Conceptual Vector Graphic

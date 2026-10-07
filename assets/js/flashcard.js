@@ -611,7 +611,7 @@ function render(animate) {
     if (imgEl && svgEl && typeof getWordIllustration === 'function') {
       const illu = getWordIllustration(w);
       if (illu) {
-        if (illu.type === 'img') {
+        if (illu.src || illu.type === 'img') {
           imgEl.src = illu.src;
           imgEl.alt = 'Minh họa gợi hình';
           imgEl.hidden = false;

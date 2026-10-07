@@ -111,15 +111,20 @@ def call_gemini_svg_api(word_info, api_key):
     hanzi = word_info.get("hanzi", "")
     meaning = word_info.get("meaning", "")
     pos = word_info.get("pos", "noun")
+    pinyin = word_info.get("pinyin", "")
 
     prompt = (
-        f"Create a minimalist, modern 2D flat vector SVG illustration representing the language concept and topic '{meaning}' "
-        f"(Part of speech: {pos}).\n"
+        f"You are a senior graphic designer creating a sleek 2D vector graphic icon for a language flashcard app.\n"
+        f"Word: {hanzi} ({pinyin}) - Meaning: '{meaning}' - Part of speech: {pos}.\n\n"
         "Requirements:\n"
         "1. Valid standalone SVG: <svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\">\n"
-        "2. Dark mode color theme: deep dark slate/navy background (#0f172a / #1e293b), vibrant modern accent colors (emerald, amber, cyan, indigo).\n"
-        "3. STRICTLY NO text, NO letters, NO words, NO Chinese characters inside the graphic.\n"
-        "4. Return ONLY raw <svg>...</svg> code without markdown backticks or explanations."
+        "2. Visual Metaphor: Design a clear, memorable symbolic vector concept representing the core meaning of the word.\n"
+        "3. Aesthetic: Modern dark-mode flat vector design. Background: dark slate #0f172a or #1e293b rounded rectangle (<rect x=\"10\" y=\"10\" width=\"180\" height=\"180\" rx=\"24\" fill=\"#1e293b\"/>). Accents: vibrant amber (#f59e0b), emerald (#10b981), sky blue (#38bdf8), or coral (#fb923c).\n"
+        "4. STRICT CONSTRAINTS:\n"
+        "   - ABSOLUTELY NO text, NO letters, NO words, NO Chinese characters, NO English text, NO pinyin.\n"
+        "   - ABSOLUTELY NO Gemini logo, NO brand logos, NO watermarks, NO subtle letter markings.\n"
+        "   - Clean geometric paths, circles, rounded rects only.\n"
+        "5. Return ONLY the raw <svg>...</svg> code, without markdown backticks, without any explanation."
     )
     payload = {
         "contents": [{"parts": [{"text": prompt}]}]
@@ -176,7 +181,7 @@ def main():
     parser.add_argument("--words", help="Specific Hanzi words (comma or space separated), e.g. '总结,合适,困难'")
     parser.add_argument("--hsk", type=int, choices=[1, 2, 3, 4, 5, 6], help="Target HSK level (1-6)")
     parser.add_argument("--limit", type=int, default=10, help="Max words to generate (default: 10)")
-    parser.add_argument("--model", choices=["imagen", "gemini"], default="imagen", help="AI model: 'imagen' (PNG via Imagen 3) or 'gemini' (SVG via Gemini Flash)")
+    parser.add_argument("--model", choices=["imagen", "gemini"], default="gemini", help="AI model: 'gemini' (SVG via Gemini Flash) or 'imagen' (PNG via Imagen 3)")
     parser.add_argument("--overwrite", action="store_true", help="Overwrite existing illustration files")
 
     args = parser.parse_args()

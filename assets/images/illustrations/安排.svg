@@ -1,0 +1,18 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background dark slate rounded rectangle -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Arranged Item 1 (Top-Left) - Emerald Rounded Rectangle -->
+  <rect x="30" y="50" width="45" height="45" rx="8" fill="#10b981"/>
+
+  <!-- Arranged Item 2 (Top-Right) - Sky Blue Circle -->
+  <circle cx="107.5" cy="72.5" r="22.5" fill="#38bdf8"/>
+
+  <!-- Arranged Item 3 (Bottom-Left) - Coral Rounded Rectangle -->
+  <rect x="30" y="105" width="45" height="45" rx="8" fill="#fb923c"/>
+
+  <!-- Item Being Arranged (Bottom-Right position implied) - Amber Rounded Rectangle -->
+  <!-- This item is positioned slightly above and to the right of its intended spot,
+       signifying it's in the process of being placed or arranged. -->
+  <rect x="110" y="80" width="45" height="45" rx="8" fill="#f59e0b"/>
+</svg>
