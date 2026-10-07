@@ -1,4 +1,4 @@
-const ASSET_VERSION = '20261007-goal-fix2';
+const ASSET_VERSION = '20261007-zen-focus3';
 const CACHE_NAME = 'hsk-flashcards-v' + ASSET_VERSION;
 const FSRS_CDN_URL = 'https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js';
 const APP_SHELL_URL = new URL('./flashcards.html', self.registration.scope).href;
@@ -11,6 +11,7 @@ const PRECACHE_ASSET_URLS = [
   ROOT_SHELL_URL,
   './assets/flashcards.css?v=' + ASSET_VERSION,
   './assets/css/level-picker.css?v=' + ASSET_VERSION,
+  './assets/css/workstation.css?v=' + ASSET_VERSION,
   './assets/css/reading-analysis.css?v=' + ASSET_VERSION,
   './assets/js/theme.js?v=' + ASSET_VERSION,
   './assets/js/home-widgets.js?v=' + ASSET_VERSION,

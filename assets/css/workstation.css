@@ -19,7 +19,16 @@ body.flashcard-study-mode #primaryTabs,
 body.flashcard-study-mode #screenVocabHub,
 body.flashcard-study-mode .dashboard-aux-column,
 body.flashcard-study-mode .quick-quiz-card,
-body.flashcard-study-mode .featured-topics {
+body.flashcard-study-mode .featured-topics,
+body.reading-view-active .workstation-left,
+body.reading-view-active .workstation-right,
+body.reading-view-active #learningDashboard,
+body.reading-view-active #continueLearningCard,
+body.reading-view-active .dashboard-aux-column,
+body.reading-view-active .quick-quiz-card,
+body.reading-view-active .featured-topics,
+body.reading-view-active .reading-promo-banner,
+body.reading-view-active #primaryTabs {
   display: none !important;
 }
 
@@ -40,6 +49,18 @@ body.flashcard-study-mode .featured-topics {
   }
   .workstation-left   { grid-area: left; position: sticky; top: 24px; }
   .workstation-middle { grid-area: middle; min-width: 0; }
+  body.reading-view-active .workstation,
+  body.reading-zen-active .workstation {
+    grid-template-columns: 1fr !important;
+    max-width: 1040px !important;
+    margin: 0 auto !important;
+  }
+  body.reading-view-active .workstation-middle,
+  body.reading-zen-active .workstation-middle {
+    max-width: 1040px !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+  }
   .app-footer { grid-column: 1 / -1; margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--border); }
   .workstation-right {
     grid-area: right;

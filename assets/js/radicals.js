@@ -75,6 +75,10 @@ function setPrimaryTab(tab, options) {
   const isTool = ['radicals', 'sentenceGame', 'guessWord', 'speedQuiz', 'reading'].includes(tab);
   const isGame = ['sentenceGame', 'guessWord', 'speedQuiz'].includes(tab);
   document.body.classList.toggle('is-game-view', isGame);
+  document.body.classList.toggle('reading-view-active', tab === 'reading');
+  if (tab !== 'reading') {
+    document.body.classList.remove('reading-zen-active');
+  }
   const gamesMenu = document.getElementById('primaryGamesMenu');
   if (gamesMenu) {
     gamesMenu.open = false;

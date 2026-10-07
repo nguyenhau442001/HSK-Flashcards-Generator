@@ -20,7 +20,8 @@ let readingPrefs = {
   highlight: true,
   speechSpeed: 1.0,
   dictationMode: false,
-  zenMode: false
+  zenMode: false,
+  grammarExpanded: false
 };
 
 // Practice State for Current Entry
@@ -42,6 +43,23 @@ function saveReadingPrefs() {
   try {
     localStorage.setItem('hsk4_reading_prefs', JSON.stringify(readingPrefs));
   } catch (e) {}
+}
+
+function toggleReadingGrammarExpand() {
+  readingPrefs.grammarExpanded = !readingPrefs.grammarExpanded;
+  saveReadingPrefs();
+  const drawer = document.getElementById('readingGrammarDrawer');
+  const body = document.getElementById('readingGrammarBody');
+  const hint = document.getElementById('grammarToggleHint');
+  const chevron = document.getElementById('grammarToggleChevron');
+  if (drawer && body) {
+    drawer.classList.toggle('is-expanded', readingPrefs.grammarExpanded);
+    body.style.display = readingPrefs.grammarExpanded ? '' : 'none';
+    if (hint) hint.textContent = readingPrefs.grammarExpanded ? 'Thu gọn' : 'Xem chi tiết (G)';
+    if (chevron) chevron.textContent = readingPrefs.grammarExpanded ? '▲' : '▼';
+  } else {
+    renderReadingAnalysisScreen();
+  }
 }
 
 /**
@@ -104,6 +122,7 @@ async function startReadingAnalysis() {
   if (!container) return;
 
   container.style.display = '';
+  document.body.classList.add('reading-view-active');
   document.body.classList.toggle('reading-zen-active', Boolean(readingPrefs.zenMode));
   await ensureReadingAnalysisLoaded();
   updateReadingFilteredList();
@@ -286,17 +305,28 @@ function renderReadingAnalysisScreen() {
           </div>
           <div class="zen-actions">
             <button type="button" class="zen-btn-action" onclick="playReadingSentenceAudio(readingFilteredList[readingCurrentIndex])" title="Nghe phát âm (Space)">
-              🔊
+              🔊 Nghe
             </button>
-            <button type="button" class="zen-btn-action ${readingPrefs.meaning ? 'active' : ''}" onclick="toggleReadingMeaning()" title="Ẩn/Hiện dịch nghĩa (V)">
+            <button type="button" class="zen-btn-action ${readingPrefs.pinyin ? 'active' : ''}" onclick="toggleReadingPinyin()" title="Bật/Tắt Pinyin (P)">
+              Py
+            </button>
+            <button type="button" class="zen-btn-action ${readingPrefs.meaning ? 'active' : ''}" onclick="toggleReadingMeaning()" title="Bật/Tắt Dịch nghĩa (V)">
               Dịch
+            </button>
+            <button type="button" class="zen-btn-action ${readingPrefs.grammarExpanded ? 'active' : ''}" onclick="toggleReadingGrammarExpand()" title="Bật/Tắt Ngữ pháp (G)">
+              ⚡ Ngữ pháp
             </button>
           </div>
         </div>
       ` : `
-        <!-- UNIFIED COMPACT HEADER STRIP (Replaces the multi-tier navigation) -->
+        <!-- UNIFIED COMPACT HEADER STRIP (Replaces multi-tier navigation) -->
         <header class="reading-unified-nav" role="toolbar" aria-label="Thanh điều hướng đọc hiểu">
           <div class="reading-nav-left">
+            <button type="button" class="reading-back-btn" onclick="setPrimaryTab('vocab')" title="Quay lại danh sách từ vựng">
+              <span aria-hidden="true">←</span>
+              <span>Trang chủ</span>
+            </button>
+
             <div class="reading-brand-badge">
               <span class="reading-brand-icon">📖</span>
               <span class="reading-brand-title">Đọc hiểu HSK 4</span>
@@ -340,19 +370,23 @@ function renderReadingAnalysisScreen() {
               </button>
             </div>
 
-            <!-- Quick Display Toggles -->
-            <div class="reading-quick-toggles">
-              <button type="button" class="reading-toggle-pill ${readingPrefs.pinyin ? 'active' : ''}" onclick="toggleReadingPinyin()" title="Ẩn/Hiện Pinyin (P)">
-                Py
+            <!-- Quick Display Toggles (Floating High-Contrast Pills) -->
+            <div class="reading-quick-toggles" role="group" aria-label="Tùy chọn hiển thị">
+              <button type="button" class="reading-toggle-pill ${readingPrefs.pinyin ? 'active' : ''}" onclick="toggleReadingPinyin()" title="Bật/Tắt Pinyin (P)">
+                <span class="toggle-dot" aria-hidden="true"></span>
+                <span>Py</span>
               </button>
-              <button type="button" class="reading-toggle-pill ${readingPrefs.hanviet ? 'active' : ''}" onclick="toggleReadingHanViet()" title="Ẩn/Hiện Hán - Việt trên câu (H)">
-                HV
+              <button type="button" class="reading-toggle-pill ${readingPrefs.hanviet ? 'active' : ''}" onclick="toggleReadingHanViet()" title="Bật/Tắt Hán - Việt trên câu (H)">
+                <span class="toggle-dot" aria-hidden="true"></span>
+                <span>HV</span>
               </button>
-              <button type="button" class="reading-toggle-pill ${readingPrefs.meaning ? 'active' : ''}" onclick="toggleReadingMeaning()" title="Ẩn/Hiện Dịch nghĩa (V)">
-                Dịch
+              <button type="button" class="reading-toggle-pill ${readingPrefs.meaning ? 'active' : ''}" onclick="toggleReadingMeaning()" title="Bật/Tắt Dịch nghĩa (V)">
+                <span class="toggle-dot" aria-hidden="true"></span>
+                <span>Dịch</span>
               </button>
-              <button type="button" class="reading-toggle-pill ${readingPrefs.highlight ? 'active' : ''}" onclick="toggleReadingHighlight()" title="Ẩn/Hiện Tô màu ngữ pháp">
-                Bẫy thi
+              <button type="button" class="reading-toggle-pill ${readingPrefs.highlight ? 'active' : ''}" onclick="toggleReadingHighlight()" title="Bật/Tắt Điểm bẫy ngữ pháp">
+                <span class="toggle-dot" aria-hidden="true"></span>
+                <span>Bẫy thi</span>
               </button>
             </div>
 
@@ -493,7 +527,7 @@ function renderSentenceTranslationsHtml(entry) {
           ${viMeaning}
         </div>
       ` : ''}
-      ${readingPrefs.pinyin && entry.pinyin ? `
+      ${!readingPrefs.pinyin && entry.pinyin ? `
         <div class="reading-translation-pinyin">
           ${entry.pinyin}
         </div>
@@ -599,66 +633,81 @@ function closeInspector() {
 }
 
 /**
- * Render Grammar & Component Breakdown Panels
+ * Render Grammar & Component Breakdown Panels as a Collapsible Focused Drawer
  */
 function renderBreakdownPanelsHtml(entry) {
   const gp = entry.grammar_point || {};
   const breakdown = entry.breakdown || [];
+  const isExpanded = Boolean(readingPrefs.grammarExpanded);
 
   return `
-    <div class="reading-analysis-panels">
-      <!-- GRAMMAR TRAP & PATTERN CARD (Clean monochromatic with accent border) -->
-      <div class="grammar-trap-card">
-        <div class="grammar-trap-header">
-          <div class="grammar-trap-title">
-            <span>⚡ ${gp.name || 'Phân tích ngữ pháp trọng tâm'}</span>
+    <div class="reading-grammar-drawer ${isExpanded ? 'is-expanded' : ''}" id="readingGrammarDrawer">
+      <button type="button" class="reading-grammar-toggle-bar" onclick="toggleReadingGrammarExpand()" aria-expanded="${isExpanded}">
+        <div class="grammar-toggle-left">
+          <span class="grammar-toggle-icon">⚡</span>
+          <span class="grammar-toggle-title">Phân tích ngữ pháp & Mẹo bẫy thi</span>
+          ${gp.name ? `<span class="grammar-toggle-badge">${gp.name}</span>` : ''}
+        </div>
+        <div class="grammar-toggle-right">
+          <span class="grammar-toggle-hint" id="grammarToggleHint">${isExpanded ? 'Thu gọn' : 'Xem chi tiết (G)'}</span>
+          <span class="grammar-toggle-chevron" id="grammarToggleChevron">${isExpanded ? '▲' : '▼'}</span>
+        </div>
+      </button>
+
+      <div class="reading-grammar-body" id="readingGrammarBody" style="${isExpanded ? '' : 'display: none;'}">
+        <!-- GRAMMAR TRAP & PATTERN CARD (Clean monochromatic with accent border) -->
+        <div class="grammar-trap-card">
+          <div class="grammar-trap-header">
+            <div class="grammar-trap-title">
+              <span>⚡ ${gp.name || 'Phân tích ngữ pháp trọng tâm'}</span>
+            </div>
+            <span class="reading-exam-tag">${gp.level || 'HSK 4 Trọng điểm'}</span>
           </div>
-          <span class="reading-exam-tag">${gp.level || 'HSK 4'}</span>
+
+          ${gp.pattern ? `<div class="grammar-trap-pattern"><strong>Cấu trúc:</strong> <code>${gp.pattern}</code></div>` : ''}
+
+          ${gp.trap_note ? `
+            <div class="grammar-trap-note">
+              <strong>⚠️ Mẹo phòng bẫy thi HSK 4:</strong> ${gp.trap_note}
+            </div>
+          ` : ''}
+
+          ${gp.explanation ? `
+            <div class="grammar-explanation-text">
+              <strong>💡 Phân tích chi tiết:</strong> ${gp.explanation}
+            </div>
+          ` : ''}
         </div>
 
-        ${gp.pattern ? `<div class="grammar-trap-pattern">Cấu trúc: ${gp.pattern}</div>` : ''}
-
-        ${gp.trap_note ? `
-          <div class="grammar-trap-note">
-            <strong>⚠️ Mẹo phòng bẫy thi HSK 4:</strong> ${gp.trap_note}
-          </div>
-        ` : ''}
-
-        ${gp.explanation ? `
-          <div class="grammar-explanation-text">
-            <strong>💡 Phân tích chi tiết:</strong> ${gp.explanation}
+        <!-- SVO / COMPONENT BREAKDOWN TABLE (Clean, monochromatic) -->
+        ${breakdown.length > 0 ? `
+          <div class="sentence-breakdown-card">
+            <div class="breakdown-card-title">
+              <span>🔬 Phân tách thành phần cấu trúc câu (Word Order Breakdown)</span>
+            </div>
+            <div class="breakdown-table-wrapper">
+              <table class="breakdown-table">
+                <thead>
+                  <tr>
+                    <th style="width: 140px;">Thành phần ngữ pháp</th>
+                    <th style="width: 180px;">Từ ngữ trong câu</th>
+                    <th>Chức năng & Ý nghĩa ngữ pháp</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${breakdown.map(b => `
+                    <tr>
+                      <td><span class="breakdown-role-badge">${b.role}</span></td>
+                      <td><span class="breakdown-text">${b.text}</span></td>
+                      <td><span class="breakdown-desc">${b.desc || ''}</span></td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            </div>
           </div>
         ` : ''}
       </div>
-
-      <!-- SVO / COMPONENT BREAKDOWN TABLE (Clean, monochromatic) -->
-      ${breakdown.length > 0 ? `
-        <div class="sentence-breakdown-card">
-          <div class="breakdown-card-title">
-            <span>🔬 Phân tách thành phần cấu trúc câu (Word Order Breakdown)</span>
-          </div>
-          <div class="breakdown-table-wrapper">
-            <table class="breakdown-table">
-              <thead>
-                <tr>
-                  <th style="width: 140px;">Thành phần ngữ pháp</th>
-                  <th style="width: 180px;">Từ ngữ trong câu</th>
-                  <th>Chức năng & Ý nghĩa ngữ pháp</th>
-                </tr>
-              </thead>
-              <tbody>
-                ${breakdown.map(b => `
-                  <tr>
-                    <td><span class="breakdown-role-badge">${b.role}</span></td>
-                    <td><span class="breakdown-text">${b.text}</span></td>
-                    <td><span class="breakdown-desc">${b.desc || ''}</span></td>
-                  </tr>
-                `).join('')}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      ` : ''}
     </div>
   `;
 }
@@ -1022,6 +1071,18 @@ if (!window._readingKeyHandlerAttached) {
     } else if (e.key === 'z' || e.key === 'Z') {
       e.preventDefault();
       toggleZenMode();
+    } else if (e.key === 'g' || e.key === 'G') {
+      e.preventDefault();
+      toggleReadingGrammarExpand();
+    } else if (e.key === 'p' || e.key === 'P') {
+      e.preventDefault();
+      toggleReadingPinyin();
+    } else if (e.key === 'h' || e.key === 'H') {
+      e.preventDefault();
+      toggleReadingHanViet();
+    } else if (e.key === 'v' || e.key === 'V') {
+      e.preventDefault();
+      toggleReadingMeaning();
     } else if (e.key === ' ' && !readingPrefs.dictationMode) {
       e.preventDefault();
       const current = readingFilteredList && readingFilteredList[readingCurrentIndex];
@@ -1045,6 +1106,7 @@ window.toggleReadingPinyin = toggleReadingPinyin;
 window.toggleReadingHanViet = toggleReadingHanViet;
 window.toggleReadingMeaning = toggleReadingMeaning;
 window.toggleReadingHighlight = toggleReadingHighlight;
+window.toggleReadingGrammarExpand = toggleReadingGrammarExpand;
 window.toggleReadingDictation = toggleReadingDictation;
 window.toggleReadingSpeed = toggleReadingSpeed;
 window.toggleZenMode = toggleZenMode;
