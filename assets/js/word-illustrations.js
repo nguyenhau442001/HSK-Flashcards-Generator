@@ -300,6 +300,9 @@ const WORD_ILLUSTRATIONS_DB = {
   }
 };
 
+// Pre-generated static illustration assets stored in assets/images/illustrations/
+const STATIC_ILLUSTRATIONS_INDEX = {};
+
 /**
  * Returns illustration config for a word.
  * Fallback to intelligent POS-themed conceptual vector graphic.
@@ -321,7 +324,18 @@ function getWordIllustration(word) {
     return WORD_ILLUSTRATIONS_DB[hanzi];
   }
 
-  // 3. Fallback: Sleek POS-Themed Conceptual Vector Graphic
+  // 3. Pre-generated static AI illustrations from assets/images/illustrations/
+  if (typeof STATIC_ILLUSTRATIONS_INDEX !== 'undefined' && STATIC_ILLUSTRATIONS_INDEX[hanzi]) {
+    const item = STATIC_ILLUSTRATIONS_INDEX[hanzi];
+    return {
+      type: item.type || (item.file && item.file.endsWith('.svg') && !item.src ? 'svg' : 'img'),
+      src: item.src || `assets/images/illustrations/${item.file}`,
+      svg: item.svg,
+      caption: item.caption || word.meaning || ''
+    };
+  }
+
+  // 4. Fallback: Sleek POS-Themed Conceptual Vector Graphic
   return generateAestheticFallback(word);
 }
 

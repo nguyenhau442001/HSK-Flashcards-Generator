@@ -1,4 +1,4 @@
-const ASSET_VERSION = '20261007-google-ai1';
+const ASSET_VERSION = '20261007-static-assets1';
 const CACHE_NAME = 'hsk-flashcards-v' + ASSET_VERSION;
 const FSRS_CDN_URL = 'https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js';
 const APP_SHELL_URL = new URL('./flashcards.html', self.registration.scope).href;
@@ -20,7 +20,6 @@ const PRECACHE_ASSET_URLS = [
   './assets/css/dashboard-enhancements.css?v=' + ASSET_VERSION,
   './assets/js/hanviet-dict.js?v=' + ASSET_VERSION,
   './assets/js/word-illustrations.js?v=' + ASSET_VERSION,
-  './assets/js/ai-image-service.js?v=' + ASSET_VERSION,
   './assets/js/word-companion.js?v=' + ASSET_VERSION,
   './assets/js/sidebar-tabs.js?v=' + ASSET_VERSION,
   './assets/js/hsk30.js?v=' + ASSET_VERSION,

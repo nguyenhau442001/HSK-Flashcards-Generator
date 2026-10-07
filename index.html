@@ -14,7 +14,7 @@
 <meta name="apple-mobile-web-app-title" content="HSK Flashcards">
 <link rel="stylesheet" href="assets/flashcards.css?v=20261007-scrollbar-fix1">
 <link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20261006-ui-refinement1">
-<link rel="stylesheet" href="assets/css/workstation.css?v=20261007-google-ai1">
+<link rel="stylesheet" href="assets/css/workstation.css?v=20261007-static-assets1">
 <link rel="stylesheet" href="assets/css/sidebar-lab.css?v=20261006-multichar-grid1">
 <link rel="stylesheet" href="assets/css/home-widgets.css?v=20261007-urgent-words-20">
 <link rel="stylesheet" href="assets/css/dashboard-enhancements.css?v=20261007-goal-fix2">
@@ -53,41 +53,6 @@ if ('serviceWorker' in navigator) {
     <dialog id="mobileDockDialog" class="mobile-dock-dialog">
       <button type="button" id="mobileDockClose" class="mobile-dock-close" aria-label="Đóng">✕</button>
       <div id="mobileDockDialogBody"></div>
-    </dialog>
-    <dialog id="aiSettingsDialog" class="ai-settings-dialog">
-      <div class="ai-settings-modal-card">
-        <div class="ai-settings-header">
-          <div class="ai-settings-title-wrap">
-            <span class="ai-settings-sparkle">✨</span>
-            <h3 class="ai-settings-title">Cấu hình Google AI Studio</h3>
-          </div>
-          <button type="button" class="ai-settings-close-btn" onclick="closeAiSettingsModal()" aria-label="Đóng">✕</button>
-        </div>
-        <div class="ai-settings-body">
-          <p class="ai-settings-desc">
-            Sử dụng Google AI Studio API Key (Imagen 3 &amp; Gemini Flash) để tự động tạo minh họa thị giác 2D cho từ vựng HSK. Ảnh được lưu trữ trực tiếp trên thiết bị (IndexedDB).
-          </p>
-          <div class="ai-settings-field">
-            <label for="googleAiKeyInput" class="ai-settings-label">Google AI Studio API Key:</label>
-            <div class="ai-input-group">
-              <input type="password" id="googleAiKeyInput" class="ai-key-input" placeholder="AIzaSy..." autocomplete="off" spellcheck="false">
-              <button type="button" id="toggleAiKeyVisBtn" class="ai-toggle-vis-btn" onclick="toggleAiKeyVisibility()" title="Hiện/ẩn khóa" aria-label="Hiện hoặc ẩn API key">👁</button>
-            </div>
-            <div id="aiKeyStatusText" class="ai-settings-status">Chưa thiết lập khóa</div>
-          </div>
-          <div class="ai-settings-guide">
-            <span class="ai-guide-icon">💡</span>
-            <span>Chưa có khóa? Lấy miễn phí tại <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer">aistudio.google.com</a>. Khóa chỉ lưu trong trình duyệt của bạn (LocalStorage), tuyệt đối bảo mật.</span>
-          </div>
-        </div>
-        <div class="ai-settings-footer">
-          <button type="button" class="ai-btn ai-btn--danger" onclick="clearGoogleAiKey()">Xóa khóa</button>
-          <div class="ai-settings-actions-right">
-            <button type="button" class="ai-btn ai-btn--secondary" onclick="closeAiSettingsModal()">Đóng</button>
-            <button type="button" class="ai-btn ai-btn--primary" onclick="saveGoogleAiKey()">Lưu &amp; Tạo ảnh</button>
-          </div>
-        </div>
-      </div>
     </dialog>
     <div class="workstation-middle" id="workstationMiddle">
   <div class="app-header">
@@ -855,9 +820,8 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/vocabulary-overview.js?v=20261006-hanviet1"></script>
 <script src="assets/js/fast-review.js?v=20261006-review-mistakes1"></script>
 <script src="assets/js/hanviet-dict.js?v=20261007-pos-visual2"></script>
-<script src="assets/js/word-illustrations.js?v=20261007-pos-visual3"></script>
-<script src="assets/js/ai-image-service.js?v=20261007-google-ai1"></script>
-<script src="assets/js/flashcard.js?v=20261007-google-ai1"></script>
+<script src="assets/js/word-illustrations.js?v=20261007-static-assets1"></script>
+<script src="assets/js/flashcard.js?v=20261007-static-assets1"></script>
 <script src="assets/js/card-interactions.js?v=20261007-scrollbar-fix1"></script>
 <script src="assets/js/speech.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/progress.js?v=20261006-hanviet1"></script>
