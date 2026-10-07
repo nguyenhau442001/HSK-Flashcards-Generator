@@ -1,0 +1,4714 @@
+[
+  {
+    "id": "hsk4_b1_86",
+    "category": "sentence_building",
+    "title": "运动对健康有好处",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "书写 第一部分 (完成句子 第86题)",
+    "zh": "运动对健康有好处。",
+    "vietnamese": "Vận động có lợi cho sức khỏe.",
+    "grammar_point": {
+      "name": "Cấu trúc giới từ: 对……有好处 (Có lợi đối với...)",
+      "pattern": "Chủ ngữ + 对 + Đối tượng + 有好处 / 有帮助",
+      "level": "HSK 4 Trọng điểm",
+      "trap_note": "BẪY THI: Thí sinh Việt Nam thường có xu hướng dịch xuôi 'Vận động có lợi cho sức khỏe' thành '运动有好处对健康' (SAI). Trong ngữ pháp tiếng Trung chuẩn, cụm giới từ '对 + Đối tượng' bắt buộc phải đứng TRƯỚC vị ngữ '有好处'.",
+      "explanation": "Cấu trúc '对……有好处/有坏处' biểu thị mức độ tác động tích cực hoặc tiêu cực đến một đối tượng cụ thể. '对健康' đóng vai trò trạng ngữ bổ nghĩa cho '有好处'."
+    },
+    "tokens": [
+      {
+        "text": "运动",
+        "type": "normal",
+        "role": "S",
+        "meaning": "vận động, thể thao",
+        "pinyin": "yùn dòng",
+        "hanviet": "Vận Động"
+      },
+      {
+        "text": "对",
+        "type": "grammar",
+        "role": "Prep",
+        "meaning": "đối với (giới từ chỉ đối tượng)",
+        "pinyin": "duì",
+        "hanviet": "Đối"
+      },
+      {
+        "text": "健康",
+        "type": "normal",
+        "role": "O_prep",
+        "meaning": "sức khỏe",
+        "pinyin": "jiàn kāng",
+        "hanviet": "Kiện Khang"
+      },
+      {
+        "text": "有",
+        "type": "normal",
+        "role": "V",
+        "meaning": "có",
+        "pinyin": "yǒu",
+        "hanviet": "Hữu"
+      },
+      {
+        "text": "好处",
+        "type": "core",
+        "role": "O",
+        "meaning": "điểm tốt, lợi ích",
+        "pinyin": "hǎo chù",
+        "hanviet": "Hảo Xử"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Chủ ngữ (S)",
+        "text": "运动",
+        "type": "subject",
+        "desc": "Đối tượng thực hiện / hành vi vận động"
+      },
+      {
+        "role": "Trạng ngữ giới từ",
+        "text": "对健康",
+        "type": "prep",
+        "desc": "Giới từ '对' dẫn dắt đối tượng chịu tác động '健康'"
+      },
+      {
+        "role": "Vị ngữ (V)",
+        "text": "有",
+        "type": "predicate",
+        "desc": "Động từ biểu thị sự tồn tại"
+      },
+      {
+        "role": "Tân ngữ (O)",
+        "text": "好处",
+        "type": "object",
+        "desc": "Lợi ích, tác dụng tốt"
+      }
+    ],
+    "practice": {
+      "type": "sentence_building",
+      "scrambled_chunks": [
+        "对",
+        "健康",
+        "有",
+        "运动",
+        "好处"
+      ],
+      "target_chunks": [
+        "运动",
+        "对",
+        "健康",
+        "有",
+        "好处"
+      ],
+      "hint": "Chủ ngữ '运动' đứng đầu, tiếp theo là cụm giới từ '对健康', kết thúc bằng '有好处'."
+    },
+    "pinyin": "yùn dòng duì jiàn kāng yǒu hǎo chù 。",
+    "hanviet": "Vận Động Đối Kiện Khang Hữu Hảo Xử 。"
+  },
+  {
+    "id": "hsk4_b1_87",
+    "category": "sentence_building",
+    "title": "他从来没有来过北京",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "书写 第一部分 (完成句子 第87题)",
+    "zh": "他从来没有来过北京。",
+    "vietnamese": "Anh ấy từ trước đến nay chưa từng đến Bắc Kinh.",
+    "grammar_point": {
+      "name": "Phó từ phủ định kinh nghiệm: 从来没有……过 (Chưa bao giờ...)",
+      "pattern": "S + 从来 + 没有/不 + V + (过) + O",
+      "level": "HSK 4 Trọng điểm",
+      "trap_note": "BẪY THI: 1. '从来' (từ trước đến giờ) chỉ đứng trước phủ định ('没有' hoặc '不'), không dùng trong câu khẳng định đơn thuần. 2. Trợ từ động thái '过' (từng) đi kèm với '没有' để nhấn mạnh kinh nghiệm trong quá khứ.",
+      "explanation": "'从来' là phó từ chỉ thời gian liên tục từ quá khứ đến hiện tại. '从来没有 + V + 过' là cấu trúc cố định cực kỳ phổ biến trong các đề thi HSK 4 để diễn tả chưa từng trải qua việc gì."
+    },
+    "tokens": [
+      {
+        "text": "他",
+        "type": "normal",
+        "role": "S",
+        "meaning": "anh ấy",
+        "pinyin": "tā",
+        "hanviet": "Tha"
+      },
+      {
+        "text": "从来",
+        "type": "core",
+        "role": "Adv",
+        "meaning": "từ trước tới nay (phó từ)",
+        "pinyin": "cóng lái",
+        "hanviet": "Tòng Lai"
+      },
+      {
+        "text": "没有",
+        "type": "grammar",
+        "role": "Adv",
+        "meaning": "chưa (phủ định)",
+        "pinyin": "méi yǒu",
+        "hanviet": "Một Hữu"
+      },
+      {
+        "text": "来",
+        "type": "normal",
+        "role": "V",
+        "meaning": "đến",
+        "pinyin": "lái",
+        "hanviet": "Lai"
+      },
+      {
+        "text": "过",
+        "type": "grammar",
+        "role": "Part",
+        "meaning": "từng (trợ từ động thái)",
+        "pinyin": "guò",
+        "hanviet": "Quá"
+      },
+      {
+        "text": "北京",
+        "type": "normal",
+        "role": "O",
+        "meaning": "Bắc Kinh",
+        "pinyin": "běi jīng",
+        "hanviet": "Bắc Kinh"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Chủ ngữ (S)",
+        "text": "他",
+        "type": "subject",
+        "desc": "Người được nói đến"
+      },
+      {
+        "role": "Trạng ngữ phủ định",
+        "text": "从来没有",
+        "type": "adv",
+        "desc": "Phó từ '从来' kết hợp phủ định '没有'"
+      },
+      {
+        "role": "Vị ngữ + Trợ từ",
+        "text": "来过",
+        "type": "predicate",
+        "desc": "Động từ '来' + trợ từ kinh nghiệm '过'"
+      },
+      {
+        "role": "Tân ngữ nơi chốn (O)",
+        "text": "北京",
+        "type": "object",
+        "desc": "Địa danh đích đến"
+      }
+    ],
+    "practice": {
+      "type": "sentence_building",
+      "scrambled_chunks": [
+        "从来",
+        "他",
+        "来",
+        "北京",
+        "过",
+        "没有"
+      ],
+      "target_chunks": [
+        "他",
+        "从来",
+        "没有",
+        "来",
+        "过",
+        "北京"
+      ],
+      "hint": "Cấu trúc: 他 + 从来没有 + 来过 + 北京."
+    },
+    "pinyin": "tā cóng lái méi yǒu lái guò běi jīng 。",
+    "hanviet": "Tha Tòng Lai Một Hữu Lai Quá Bắc Kinh 。"
+  },
+  {
+    "id": "hsk4_b1_88",
+    "category": "sentence_building",
+    "title": "办公室的门关着呢",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "书写 第一部分 (完成句子 第88题)",
+    "zh": "办公室的门关着呢。",
+    "vietnamese": "Cửa văn phòng đang đóng kìa.",
+    "grammar_point": {
+      "name": "Câu biểu thị trạng thái duy trì: V + 着 + 呢",
+      "pattern": "Chủ ngữ + Động từ + 着 + (呢)",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI: Khác với '正在...呢' (đang thực hiện hành động), 'V + 着呢' nhấn mạnh vào TRẠNG THÁI đang duy trì của sự vật (cửa đã được đóng và đang ở trạng thái khép lại). '呢' đặt ở cuối câu để tăng ngữ khí xác nhận.",
+      "explanation": "Động từ '关' kết hợp với trợ từ động thái '着' miêu tả trạng thái tĩnh của cánh cửa văn phòng đang được giữ nguyên."
+    },
+    "tokens": [
+      {
+        "text": "办公室",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "văn phòng",
+        "pinyin": "bàn gōng shì",
+        "hanviet": "Biện Công Thất"
+      },
+      {
+        "text": "的",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "của (trợ từ kết cấu)",
+        "pinyin": "de",
+        "hanviet": "Đích"
+      },
+      {
+        "text": "门",
+        "type": "normal",
+        "role": "S",
+        "meaning": "cửa",
+        "pinyin": "mén",
+        "hanviet": "Môn"
+      },
+      {
+        "text": "关",
+        "type": "normal",
+        "role": "V",
+        "meaning": "đóng",
+        "pinyin": "guān",
+        "hanviet": "Quan"
+      },
+      {
+        "text": "着",
+        "type": "grammar",
+        "role": "Part",
+        "meaning": "đang giữ trạng thái (trợ từ)",
+        "pinyin": "zhe",
+        "hanviet": "Trước"
+      },
+      {
+        "text": "呢",
+        "type": "grammar",
+        "role": "Part",
+        "meaning": "kìa, đấy (trợ từ ngữ khí)",
+        "pinyin": "ne",
+        "hanviet": "Ni"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Cụm chủ ngữ (S)",
+        "text": "办公室的门",
+        "type": "subject",
+        "desc": "Định ngữ '办公室的' bổ nghĩa cho trung tâm ngữ '门'"
+      },
+      {
+        "role": "Vị ngữ trạng thái",
+        "text": "关着",
+        "type": "predicate",
+        "desc": "Động từ '关' mang trợ từ động thái '着'"
+      },
+      {
+        "role": "Trợ từ ngữ khí",
+        "text": "呢",
+        "type": "part",
+        "desc": "Đứng cuối câu nhấn mạnh thực tế đang diễn ra"
+      }
+    ],
+    "practice": {
+      "type": "sentence_building",
+      "scrambled_chunks": [
+        "门",
+        "呢",
+        "办公室",
+        "关",
+        "的",
+        "着"
+      ],
+      "target_chunks": [
+        "办公室",
+        "的",
+        "门",
+        "关",
+        "着",
+        "呢"
+      ],
+      "hint": "Cụm danh từ '办公室的门' làm chủ ngữ, sau đó là động từ '关着', cuối cùng là '呢'."
+    },
+    "pinyin": "bàn gōng shì de mén guān zhe ne 。",
+    "hanviet": "Biện Công Thất Đích Môn Quan Trước Ni 。"
+  },
+  {
+    "id": "hsk4_b1_89",
+    "category": "sentence_building",
+    "title": "这场比赛吸引了很多观众",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "书写 第一部分 (完成句子 第89题)",
+    "zh": "这场比赛吸引了很多观众。",
+    "vietnamese": "Trận đấu này đã thu hút rất nhiều khán giả.",
+    "grammar_point": {
+      "name": "Cấu trúc S + V + 了 + Số lượng + O",
+      "pattern": "Chủ ngữ (Lượng từ + Danh từ) + Động từ + 了 + Định ngữ số lượng + Tân ngữ",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI: Lượng từ '场' (cháng) dùng chuyên biệt cho các trận thi đấu, vở kịch, cơn mưa ('一场比赛', '一场雨'). '吸引' (thu hút) là động từ cao tần HSK 4.",
+      "explanation": "Trợ từ động thái '了' đứng ngay sau động từ '吸引' biểu thị hành động đã hoàn tất và đạt được kết quả là thu hút đông đảo người xem."
+    },
+    "tokens": [
+      {
+        "text": "这",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "này",
+        "pinyin": "zhè",
+        "hanviet": "Giá"
+      },
+      {
+        "text": "场",
+        "type": "core",
+        "role": "Clf",
+        "meaning": "trận, hồi (lượng từ)",
+        "pinyin": "chǎng",
+        "hanviet": "Tràng"
+      },
+      {
+        "text": "比赛",
+        "type": "normal",
+        "role": "S",
+        "meaning": "trận đấu, cuộc thi",
+        "pinyin": "bǐ sài",
+        "hanviet": "Tỷ Tái"
+      },
+      {
+        "text": "吸引",
+        "type": "core",
+        "role": "V",
+        "meaning": "thu hút, lôi cuốn",
+        "pinyin": "xī yǐn",
+        "hanviet": "Hấp Dẫn"
+      },
+      {
+        "text": "了",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "đã (trợ từ hoàn tất)",
+        "pinyin": "le",
+        "hanviet": "Liễu"
+      },
+      {
+        "text": "很多",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "rất nhiều",
+        "pinyin": "hěn duō",
+        "hanviet": "Ngận Đa"
+      },
+      {
+        "text": "观众",
+        "type": "core",
+        "role": "O",
+        "meaning": "khán giả, người xem",
+        "pinyin": "guān zhòng",
+        "hanviet": "Quán Chúng"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Chủ ngữ (S)",
+        "text": "这场比赛",
+        "type": "subject",
+        "desc": "Chỉ từ + Lượng từ + Danh từ '比赛'"
+      },
+      {
+        "role": "Vị ngữ (V)",
+        "text": "吸引了",
+        "type": "predicate",
+        "desc": "Động từ '吸引' + Trợ từ hoàn tất '了'"
+      },
+      {
+        "role": "Cụm tân ngữ (O)",
+        "text": "很多观众",
+        "type": "object",
+        "desc": "Định ngữ '很多' + Danh từ '观众'"
+      }
+    ],
+    "practice": {
+      "type": "sentence_building",
+      "scrambled_chunks": [
+        "这场",
+        "观众",
+        "比赛",
+        "了",
+        "吸引",
+        "很多"
+      ],
+      "target_chunks": [
+        "这场",
+        "比赛",
+        "吸引",
+        "了",
+        "很多",
+        "观众"
+      ],
+      "hint": "Ghép cụm chủ ngữ '这场比赛', vị ngữ '吸引了', cụm tân ngữ '很多观众'."
+    },
+    "pinyin": "zhè chǎng bǐ sài xī yǐn le hěn duō guān zhòng 。",
+    "hanviet": "Giá Tràng Tỷ Tái Hấp Dẫn Liễu Ngận Đa Quán Chúng 。"
+  },
+  {
+    "id": "hsk4_b1_90",
+    "category": "sentence_building",
+    "title": "把作业写完再去打球",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "书写 第一部分 (完成句子 第90题)",
+    "zh": "把作业写完再去打球。",
+    "vietnamese": "Làm xong bài tập rồi hãy đi chơi bóng.",
+    "grammar_point": {
+      "name": "Câu chữ 把 kết hợp liên từ hành động: 把 + O + V完 + 再 + V2",
+      "pattern": "把 + Tân ngữ + Động từ + Bổ ngữ kết quả (完) + 再 + V2",
+      "level": "HSK 4 Điểm ngữ pháp bẫy hàng đầu",
+      "trap_note": "BẪY THI CỰC QUAN TRỌNG: 1. Động từ trong câu chữ 把 không bao giờ được đứng trơ trọi một mình, bắt buộc phải có thành phần kèm theo (ở đây là bổ ngữ kết quả '完'). 2. Phó từ thời gian liên kết '再' (rồi mới) phải đứng trước động từ thứ hai '去', tuyệt đối không đặt trước '把'.",
+      "explanation": "Câu chữ 把 nhấn mạnh việc tác động và giải quyết triệt để đối tượng '作业' (viết cho xong) trước khi chuyển sang hành động giải trí tiếp theo là '去打球'."
+    },
+    "tokens": [
+      {
+        "text": "把",
+        "type": "grammar",
+        "role": "Prep",
+        "meaning": "đem, lấy (giới từ câu chữ 把)",
+        "pinyin": "bǎ",
+        "hanviet": "Bả"
+      },
+      {
+        "text": "作业",
+        "type": "normal",
+        "role": "O_prep",
+        "meaning": "bài tập",
+        "pinyin": "zuò yè",
+        "hanviet": "Tác Nghiệp"
+      },
+      {
+        "text": "写",
+        "type": "normal",
+        "role": "V",
+        "meaning": "viết, làm",
+        "pinyin": "xiě",
+        "hanviet": "Tả"
+      },
+      {
+        "text": "完",
+        "type": "normal",
+        "role": "Comp",
+        "meaning": "xong (bổ ngữ kết quả)",
+        "pinyin": "wán",
+        "hanviet": "Hoàn"
+      },
+      {
+        "text": "再",
+        "type": "grammar",
+        "role": "Adv",
+        "meaning": "rồi mới (phó từ liên kết)",
+        "pinyin": "zài",
+        "hanviet": "Tái"
+      },
+      {
+        "text": "去",
+        "type": "normal",
+        "role": "V",
+        "meaning": "đi",
+        "pinyin": "qù",
+        "hanviet": "Khứ"
+      },
+      {
+        "text": "打球",
+        "type": "normal",
+        "role": "O",
+        "meaning": "chơi bóng",
+        "pinyin": "dǎ qiú",
+        "hanviet": "Đả Cầu"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Cụm giới từ 把",
+        "text": "把作业",
+        "type": "prep",
+        "desc": "Giới từ 把 đưa đối tượng bị xử lý '作业' lên trước"
+      },
+      {
+        "role": "Vị ngữ 1 + Bổ ngữ",
+        "text": "写完",
+        "type": "predicate",
+        "desc": "Động từ '写' + Bổ ngữ kết quả '完'"
+      },
+      {
+        "role": "Trạng ngữ nối",
+        "text": "再",
+        "type": "adv",
+        "desc": "Phó từ biểu thị thứ tự trước sau"
+      },
+      {
+        "role": "Vị ngữ 2",
+        "text": "去打球",
+        "type": "predicate",
+        "desc": "Cụm động từ liên tiếp"
+      }
+    ],
+    "practice": {
+      "type": "sentence_building",
+      "scrambled_chunks": [
+        "作业",
+        "把",
+        "写完",
+        "去",
+        "再",
+        "打球"
+      ],
+      "target_chunks": [
+        "把",
+        "作业",
+        "写完",
+        "再",
+        "去",
+        "打球"
+      ],
+      "hint": "Cấu trúc 把 + tân ngữ + động từ + kết quả. Nhớ '再' đứng trước '去'."
+    },
+    "pinyin": "bǎ zuò yè xiě wán zài qù dǎ qiú 。",
+    "hanviet": "Bả Tác Nghiệp Tả Hoàn Tái Khứ Đả Cầu 。"
+  },
+  {
+    "id": "hsk4_b1_91",
+    "category": "sentence_building",
+    "title": "墙上贴着一张成绩单",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "书写 第一部分 (完成句子 第91题)",
+    "zh": "墙上贴着一张成绩单。",
+    "vietnamese": "Trên tường có dán một bảng điểm.",
+    "grammar_point": {
+      "name": "Câu tồn hiện (存现句): Nơi chốn + V + 着 + Tân ngữ vô định",
+      "pattern": "Từ chỉ nơi chốn/vị trí + Động từ + 着 + Số lượng từ + Danh từ",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI: 1. Tân ngữ trong câu tồn hiện bắt buộc phải là 'vô định' (chưa xác định, thường có số lượng từ '一张...', không dùng '这张'). 2. Trước từ chỉ nơi chốn '墙上' KHÔNG ĐƯỢC thêm giới từ '在'. Viết '在墙上贴着...' là sai ngữ pháp thi HSK!",
+      "explanation": "Câu tồn hiện miêu tả sự xuất hiện hoặc trạng thái tồn tại của sự vật ở một địa điểm xác định. '墙上' là chủ ngữ vị trí, '贴着' là vị ngữ trạng thái."
+    },
+    "tokens": [
+      {
+        "text": "墙上",
+        "type": "core",
+        "role": "Place",
+        "meaning": "trên tường",
+        "pinyin": "qiáng shàng",
+        "hanviet": "Tường Thướng"
+      },
+      {
+        "text": "贴",
+        "type": "core",
+        "role": "V",
+        "meaning": "dán",
+        "pinyin": "tiē",
+        "hanviet": "Thiếp"
+      },
+      {
+        "text": "着",
+        "type": "grammar",
+        "role": "Part",
+        "meaning": "đang (trợ từ trạng thái tồn tại)",
+        "pinyin": "zhe",
+        "hanviet": "Trước"
+      },
+      {
+        "text": "一张",
+        "type": "normal",
+        "role": "Num_Clf",
+        "meaning": "một tờ/tấm",
+        "pinyin": "yī zhāng",
+        "hanviet": "Nhất Trương"
+      },
+      {
+        "text": "成绩单",
+        "type": "core",
+        "role": "O",
+        "meaning": "bảng điểm, phiếu kết quả",
+        "pinyin": "chéng jì dān",
+        "hanviet": "Thành Tích Thiện"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Chủ ngữ nơi chốn",
+        "text": "墙上",
+        "type": "subject",
+        "desc": "Địa điểm diễn ra sự tồn hiện"
+      },
+      {
+        "role": "Vị ngữ tồn hiện",
+        "text": "贴着",
+        "type": "predicate",
+        "desc": "Động từ '贴' + trợ từ trạng thái '着'"
+      },
+      {
+        "role": "Tân ngữ vô định",
+        "text": "一张成绩单",
+        "type": "object",
+        "desc": "Số lượng từ '一张' + danh từ '成绩单'"
+      }
+    ],
+    "practice": {
+      "type": "sentence_building",
+      "scrambled_chunks": [
+        "一张",
+        "墙上",
+        "着",
+        "成绩单",
+        "贴"
+      ],
+      "target_chunks": [
+        "墙上",
+        "贴",
+        "着",
+        "一张",
+        "成绩单"
+      ],
+      "hint": "Nơi chốn '墙上' đứng đầu, động từ '贴着', theo sau là số lượng tân ngữ '一张成绩单'."
+    },
+    "pinyin": "qiáng shàng tiē zhe yī zhāng chéng jì dān 。",
+    "hanviet": "Tường Thướng Thiếp Trước Nhất Trương Thành Tích Thiện 。"
+  },
+  {
+    "id": "hsk4_b1_92",
+    "category": "sentence_building",
+    "title": "麦克汉语说得很流利",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "书写 第一部分 (完成句子 第92题)",
+    "zh": "麦克汉语说得很流利。",
+    "vietnamese": "Mike nói tiếng Hán rất lưu loát.",
+    "grammar_point": {
+      "name": "Bổ ngữ trạng thái / trình độ (程度补语) với '得'",
+      "pattern": "S + (Tân ngữ) + V + 得 + Cụm tính từ (很/非常 + Adj)",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI: Khi động từ có tân ngữ ('说汉语'), có 2 cách sắp xếp chuẩn: 1. Đưa tân ngữ lên trước động từ: '麦克汉语说得很流利'; 2. Lặp lại động từ: '麦克说汉语说得很流利'. Tuyệt đối không được nói '麦克说很流利汉语' (sai quy tắc ngữ pháp).",
+      "explanation": "Bổ ngữ trạng thái '很流利' đứng sau trợ từ kết cấu '得' dùng để đánh giá, nhận xét trình độ phát âm nói tiếng Hán của Mike."
+    },
+    "tokens": [
+      {
+        "text": "麦克",
+        "type": "normal",
+        "role": "S",
+        "meaning": "Mike (tên riêng)",
+        "pinyin": "mài kè",
+        "hanviet": "Mạch Khắc"
+      },
+      {
+        "text": "汉语",
+        "type": "normal",
+        "role": "O_topic",
+        "meaning": "tiếng Hán",
+        "pinyin": "hàn yǔ",
+        "hanviet": "Hán Ngữ"
+      },
+      {
+        "text": "说",
+        "type": "normal",
+        "role": "V",
+        "meaning": "nói",
+        "pinyin": "shuō",
+        "hanviet": "Thuyết"
+      },
+      {
+        "text": "得",
+        "type": "grammar",
+        "role": "Part",
+        "meaning": "được, đến mức (trợ từ kết cấu)",
+        "pinyin": "dé",
+        "hanviet": "Đắc"
+      },
+      {
+        "text": "很",
+        "type": "normal",
+        "role": "Adv",
+        "meaning": "rất",
+        "pinyin": "hěn",
+        "hanviet": "Ngận"
+      },
+      {
+        "text": "流利",
+        "type": "core",
+        "role": "Comp",
+        "meaning": "lưu loát, trôi chảy",
+        "pinyin": "liú lì",
+        "hanviet": "Lưu Lợi"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Chủ ngữ (S)",
+        "text": "麦克",
+        "type": "subject",
+        "desc": "Chủ thể thực hiện hành động"
+      },
+      {
+        "role": "Khởi ngữ / Tân ngữ trước",
+        "text": "汉语",
+        "type": "object",
+        "desc": "Chủ đề / ngôn ngữ được nói"
+      },
+      {
+        "role": "Vị ngữ (V)",
+        "text": "说",
+        "type": "predicate",
+        "desc": "Động từ hành động"
+      },
+      {
+        "role": "Bổ ngữ trình độ",
+        "text": "得很流利",
+        "type": "comp",
+        "desc": "Trợ từ '得' + tính từ '很流利'"
+      }
+    ],
+    "practice": {
+      "type": "sentence_building",
+      "scrambled_chunks": [
+        "汉语",
+        "麦克",
+        "说",
+        "很",
+        "流利",
+        "得"
+      ],
+      "target_chunks": [
+        "麦克",
+        "汉语",
+        "说",
+        "得",
+        "很",
+        "流利"
+      ],
+      "hint": "Chủ ngữ 麦克 + tân ngữ 汉语 + động từ 说 + 得 + 很流利."
+    },
+    "pinyin": "mài kè hàn yǔ shuō dé hěn liú lì 。",
+    "hanviet": "Mạch Khắc Hán Ngữ Thuyết Đắc Ngận Lưu Lợi 。"
+  },
+  {
+    "id": "hsk4_b1_93",
+    "category": "sentence_building",
+    "title": "他没有一天不迟到的",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "书写 第一部分 (完成句子 第93题)",
+    "zh": "他没有一天不迟到的。",
+    "vietnamese": "Không có ngày nào là anh ấy không đi muộn (ngày nào anh ấy cũng đi muộn).",
+    "grammar_point": {
+      "name": "Cấu trúc phủ định kép nhấn mạnh: 没有……不……的",
+      "pattern": "S + 没有 + Danh từ thời gian/đơn vị + 不 + V + (的)",
+      "level": "HSK 4 Trọng điểm",
+      "trap_note": "BẪY THI: Hai từ phủ định '没有' và '不' kết hợp với nhau tạo thành nghĩa khẳng định tuyệt đối cực mạnh (không ngày nào không muộn = ngày nào cũng muộn 100%). Thí sinh thường lúng túng khi xếp thứ tự của hai từ phủ định.",
+      "explanation": "'没有一天' phủ định số lượng thời gian, '不迟到' phủ định hành vi. '的' cuối câu mang sắc thái nhấn mạnh sự việc là hiển nhiên."
+    },
+    "tokens": [
+      {
+        "text": "他",
+        "type": "normal",
+        "role": "S",
+        "meaning": "anh ấy",
+        "pinyin": "tā",
+        "hanviet": "Tha"
+      },
+      {
+        "text": "没有",
+        "type": "grammar",
+        "role": "V_neg",
+        "meaning": "không có",
+        "pinyin": "méi yǒu",
+        "hanviet": "Một Hữu"
+      },
+      {
+        "text": "一天",
+        "type": "normal",
+        "role": "Time",
+        "meaning": "một ngày",
+        "pinyin": "yī tiān",
+        "hanviet": "Nhất Thiên"
+      },
+      {
+        "text": "不",
+        "type": "grammar",
+        "role": "Adv_neg",
+        "meaning": "không (phó từ phủ định)",
+        "pinyin": "bù",
+        "hanviet": "Bất"
+      },
+      {
+        "text": "迟到",
+        "type": "normal",
+        "role": "V",
+        "meaning": "đến muộn, trễ giờ",
+        "pinyin": "chí dào",
+        "hanviet": "Trì Đáo"
+      },
+      {
+        "text": "的",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "trợ từ ngữ khí nhấn mạnh",
+        "pinyin": "de",
+        "hanviet": "Đích"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Chủ ngữ (S)",
+        "text": "他",
+        "type": "subject",
+        "desc": "Đối tượng được nói đến"
+      },
+      {
+        "role": "Phủ định 1",
+        "text": "没有一天",
+        "type": "predicate",
+        "desc": "Động từ '没有' + lượng thời gian '一天'"
+      },
+      {
+        "role": "Phủ định 2 + Nhấn mạnh",
+        "text": "不迟到的",
+        "type": "adv",
+        "desc": "'不' + động từ '迟到' + trợ từ '的'"
+      }
+    ],
+    "practice": {
+      "type": "sentence_building",
+      "scrambled_chunks": [
+        "他",
+        "一天",
+        "迟到",
+        "不",
+        "的",
+        "没有"
+      ],
+      "target_chunks": [
+        "他",
+        "没有",
+        "一天",
+        "不",
+        "迟到",
+        "的"
+      ],
+      "hint": "Cấu trúc phủ định kép: 他 + 没有一天 + 不迟到的."
+    },
+    "pinyin": "tā méi yǒu yī tiān bù chí dào de 。",
+    "hanviet": "Tha Một Hữu Nhất Thiên Bất Trì Đáo Đích 。"
+  },
+  {
+    "id": "hsk4_b1_94",
+    "category": "sentence_building",
+    "title": "照相机叫李力借走了",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "书写 第一部分 (完成句子 第94题)",
+    "zh": "照相机叫李力借走了。",
+    "vietnamese": "Máy ảnh đã bị Lý Lực mượn đi rồi.",
+    "grammar_point": {
+      "name": "Câu bị động khẩu ngữ dùng chữ 叫 (叫字句)",
+      "pattern": "Chủ ngữ (vật bị tác động) + 叫 + Tác nhân gây ra + V + Bổ ngữ (走了/去了...)",
+      "level": "HSK 4 Điểm bẫy ngữ pháp",
+      "trap_note": "BẪY THI CẦN NHỚ: Trong văn nói tiếng Trung, '叫' và '让' có thể dùng tương tự như '被' để tạo câu bị động. Tuy nhiên, khác với '被' có thể lược bỏ tác nhân (ví dụ: '照相机被借走了'), chữ '叫' và '让' BẮT BUỘC PHẢI CÓ TÁC NHÂN theo sau (ở đây là '李力'). Không bao giờ nói '照相机叫借走了'!",
+      "explanation": "'照相机' là vật bị mượn, '李力' là người mượn, '借走' gồm động từ '借' và bổ ngữ xu hướng '走', kết thúc bằng trợ từ biến đổi '了'."
+    },
+    "tokens": [
+      {
+        "text": "照相机",
+        "type": "normal",
+        "role": "S_patient",
+        "meaning": "máy chụp ảnh",
+        "pinyin": "zhào xiàng jī",
+        "hanviet": "Chiếu Tương Cơ"
+      },
+      {
+        "text": "叫",
+        "type": "grammar",
+        "role": "Prep_passive",
+        "meaning": "bị, được (giới từ bị động)",
+        "pinyin": "jiào",
+        "hanviet": "Khiếu"
+      },
+      {
+        "text": "李力",
+        "type": "normal",
+        "role": "Agent",
+        "meaning": "Lý Lực (tác nhân)",
+        "pinyin": "lǐ lì",
+        "hanviet": "Lý Lực"
+      },
+      {
+        "text": "借",
+        "type": "normal",
+        "role": "V",
+        "meaning": "mượn, vay",
+        "pinyin": "jiè",
+        "hanviet": "Tá"
+      },
+      {
+        "text": "走",
+        "type": "normal",
+        "role": "Comp",
+        "meaning": "đi (bổ ngữ xu hướng)",
+        "pinyin": "zǒu",
+        "hanviet": "Tẩu"
+      },
+      {
+        "text": "了",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "rồi (trợ từ ngữ khí)",
+        "pinyin": "le",
+        "hanviet": "Liễu"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Chủ ngữ chịu tác động",
+        "text": "照相机",
+        "type": "subject",
+        "desc": "Đồ vật bị hành động tác động lên"
+      },
+      {
+        "role": "Cụm bị động",
+        "text": "叫李力",
+        "type": "prep",
+        "desc": "Giới từ '叫' + Tác nhân '李力'"
+      },
+      {
+        "role": "Vị ngữ + Bổ ngữ",
+        "text": "借走了",
+        "type": "predicate",
+        "desc": "Động từ '借' + Bổ ngữ xu hướng '走' + '了'"
+      }
+    ],
+    "practice": {
+      "type": "sentence_building",
+      "scrambled_chunks": [
+        "走",
+        "照相机",
+        "李力",
+        "借",
+        "叫",
+        "了"
+      ],
+      "target_chunks": [
+        "照相机",
+        "叫",
+        "李力",
+        "借",
+        "走",
+        "了"
+      ],
+      "hint": "Cấu trúc bị động chữ 叫: 照相机 + 叫李力 + 借走了."
+    },
+    "pinyin": "zhào xiàng jī jiào lǐ lì jiè zǒu le 。",
+    "hanviet": "Chiếu Tương Cơ Khiếu Lý Lực Tá Tẩu Liễu 。"
+  },
+  {
+    "id": "hsk4_b1_95",
+    "category": "sentence_building",
+    "title": "这顶帽子的颜色深了一点儿",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "书写 第一部分 (完成句子 第95题)",
+    "zh": "这顶帽子的颜色深了一点儿。",
+    "vietnamese": "Màu của chiếc mũ này hơi đậm một chút.",
+    "grammar_point": {
+      "name": "Biểu thị mức độ chênh lệch: Tính từ + 了 + 一点儿",
+      "pattern": "Chủ ngữ + Tính từ + (了) + 一点儿",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI KINH ĐIỂN: Phân biệt '有点儿 + Adj' và 'Adj + 一点儿': 1. '有点儿' đứng TRƯỚC tính từ biểu thị sự không hài lòng ('有点儿深'); 2. '一点儿' đứng SAU tính từ biểu thị mức độ so sánh hoặc chênh lệch ('深了一点儿'). Đề thi HSK 4 rất hay đưa '一点儿' để kiểm tra vị trí đứng sau tính từ!",
+      "explanation": "Lượng từ '顶' (dǐng) dùng cho nón, mũ. '深了一点儿' mang cấu trúc tính từ chỉ độ đậm nhạt '深' cộng với '一点儿' để diễn tả màu đậm hơn kỳ vọng một chút."
+    },
+    "tokens": [
+      {
+        "text": "这",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "này",
+        "pinyin": "zhè",
+        "hanviet": "Giá"
+      },
+      {
+        "text": "顶",
+        "type": "core",
+        "role": "Clf",
+        "meaning": "chiếc, cái (lượng từ của mũ)",
+        "pinyin": "dǐng",
+        "hanviet": "Đỉnh"
+      },
+      {
+        "text": "帽子",
+        "type": "normal",
+        "role": "Noun",
+        "meaning": "cái mũ, nón",
+        "pinyin": "mào zi",
+        "hanviet": "Mạo Tử"
+      },
+      {
+        "text": "的",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "của (trợ từ kết cấu)",
+        "pinyin": "de",
+        "hanviet": "Đích"
+      },
+      {
+        "text": "颜色",
+        "type": "normal",
+        "role": "S",
+        "meaning": "màu sắc",
+        "pinyin": "yán sè",
+        "hanviet": "Nhan Sắc"
+      },
+      {
+        "text": "深",
+        "type": "core",
+        "role": "Adj",
+        "meaning": "đậm, sâu",
+        "pinyin": "shēn",
+        "hanviet": "Thâm"
+      },
+      {
+        "text": "了",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "rồi",
+        "pinyin": "le",
+        "hanviet": "Liễu"
+      },
+      {
+        "text": "一点儿",
+        "type": "normal",
+        "role": "Comp",
+        "meaning": "một chút, một ít",
+        "pinyin": "yì diǎn ér",
+        "hanviet": "Nhất Điểm Nhân"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Cụm chủ ngữ",
+        "text": "这顶帽子的颜色",
+        "type": "subject",
+        "desc": "Định ngữ đa tầng + trung tâm ngữ '颜色'"
+      },
+      {
+        "role": "Vị ngữ tính từ",
+        "text": "深了",
+        "type": "predicate",
+        "desc": "Tính từ '深' + '了'"
+      },
+      {
+        "role": "Bổ ngữ số lượng",
+        "text": "一点儿",
+        "type": "comp",
+        "desc": "Biểu thị mức độ chênh lệch nhỏ"
+      }
+    ],
+    "practice": {
+      "type": "sentence_building",
+      "scrambled_chunks": [
+        "颜色",
+        "一点儿",
+        "的",
+        "帽子",
+        "这顶",
+        "深了"
+      ],
+      "target_chunks": [
+        "这顶",
+        "帽子",
+        "的",
+        "颜色",
+        "深了",
+        "一点儿"
+      ],
+      "hint": "Chủ ngữ là '这顶帽子的颜色', vị ngữ là '深了一点儿'."
+    },
+    "pinyin": "zhè dǐng mào zi de yán sè shēn le yì diǎn ér 。",
+    "hanviet": "Giá Đỉnh Mạo Tử Đích Nhan Sắc Thâm Liễu Nhất Điểm Nhân 。"
+  },
+  {
+    "id": "hsk4_b2_90",
+    "category": "sentence_building",
+    "title": "不要把这个消息告诉别人",
+    "source": "HSK 4 模拟试卷 2",
+    "exam_part": "书写 第一部分 (完成句子 第90题)",
+    "zh": "不要把这个消息告诉别人。",
+    "vietnamese": "Đừng đem tin này nói cho người khác biết.",
+    "grammar_point": {
+      "name": "Phủ định của câu chữ 把: 别 / 不要 / 没 + 把 + O + V...",
+      "pattern": "(S) + 别 / 不要 / 没 + 把 + O + Động từ + Tân ngữ gián tiếp",
+      "level": "HSK 4 Trọng điểm",
+      "trap_note": "BẪY THI ĐẶC BIỆT: Từ phủ định ('不要', '别', '没') BẮT BUỘC PHẢI ĐỨNG TRƯỚC GIỚI TỪ '把'. Tuyệt đối không được đặt sau '把' (ví dụ: viết '把这个消息不要告诉别人' là hoàn toàn sai ngữ pháp).",
+      "explanation": "Câu chữ 把 dạng mệnh lệnh phủ định dùng '不要' đứng trước giới từ để yêu cầu người nghe ngăn chặn việc truyền đạt thông tin '这个消息' tới '别人'."
+    },
+    "tokens": [
+      {
+        "text": "不要",
+        "type": "grammar",
+        "role": "Adv_neg",
+        "meaning": "đừng, không được",
+        "pinyin": "bú yào",
+        "hanviet": "Bất Yếu"
+      },
+      {
+        "text": "把",
+        "type": "grammar",
+        "role": "Prep",
+        "meaning": "đem (giới từ)",
+        "pinyin": "bǎ",
+        "hanviet": "Bả"
+      },
+      {
+        "text": "这个",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "này",
+        "pinyin": "zhè ge",
+        "hanviet": "Giá Cá"
+      },
+      {
+        "text": "消息",
+        "type": "core",
+        "role": "O_prep",
+        "meaning": "tin tức, thông tin",
+        "pinyin": "xiāo xī",
+        "hanviet": "Tiêu Tức"
+      },
+      {
+        "text": "告诉",
+        "type": "normal",
+        "role": "V",
+        "meaning": "nói cho, bảo",
+        "pinyin": "gào sù",
+        "hanviet": "Cáo Tố"
+      },
+      {
+        "text": "别人",
+        "type": "normal",
+        "role": "O",
+        "meaning": "người khác",
+        "pinyin": "bié rén",
+        "hanviet": "Biệt Nhân"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Trạng ngữ phủ định",
+        "text": "不要",
+        "type": "adv",
+        "desc": "Từ phủ định đứng trước giới từ '把'"
+      },
+      {
+        "role": "Cụm giới từ 把",
+        "text": "把这个消息",
+        "type": "prep",
+        "desc": "Giới từ 把 + đối tượng thông tin"
+      },
+      {
+        "role": "Vị ngữ động từ",
+        "text": "告诉",
+        "type": "predicate",
+        "desc": "Động từ trao đổi thông tin"
+      },
+      {
+        "role": "Tân ngữ gián tiếp",
+        "text": "别人",
+        "type": "object",
+        "desc": "Người tiếp nhận thông tin"
+      }
+    ],
+    "practice": {
+      "type": "sentence_building",
+      "scrambled_chunks": [
+        "这个",
+        "别人",
+        "不要",
+        "把",
+        "告诉",
+        "消息"
+      ],
+      "target_chunks": [
+        "不要",
+        "把",
+        "这个",
+        "消息",
+        "告诉",
+        "别人"
+      ],
+      "hint": "Từ phủ định '不要' đứng trước '把', tiếp theo là '这个消息', sau đó là '告诉别人'."
+    },
+    "pinyin": "bú yào bǎ zhè ge xiāo xī gào sù bié rén 。",
+    "hanviet": "Bất Yêu Bả Giá Cá Tiêu Tức Cáo Tố Biệt Nhân 。"
+  },
+  {
+    "id": "hsk4_b2_94",
+    "category": "sentence_building",
+    "title": "桌子被学生们搬走了",
+    "source": "HSK 4 模拟试卷 2",
+    "exam_part": "书写 第一部分 (完成句子 第94题)",
+    "zh": "桌子被学生们搬走了。",
+    "vietnamese": "Cái bàn đã bị các bạn học sinh khiêng đi rồi.",
+    "grammar_point": {
+      "name": "Câu bị động chuẩn với chữ 被 (被字句)",
+      "pattern": "Chủ ngữ (chịu tác động) + 被 + Tác nhân + Động từ + Bổ ngữ (走/掉/完) + 了",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI: Câu chữ 被 cũng giống câu chữ 把, động từ không được đứng đơn độc, phải có bổ ngữ kết quả hoặc xu hướng phía sau (ở đây là '走了'). Tác nhân '学生们' đứng giữa '被' và động từ '搬'.",
+      "explanation": "Câu chữ 被 dùng để nhấn mạnh kết quả hoặc sự thay đổi vị trí của cái bàn dưới tác động của nhóm học sinh."
+    },
+    "tokens": [
+      {
+        "text": "桌子",
+        "type": "normal",
+        "role": "S_patient",
+        "meaning": "cái bàn",
+        "pinyin": "zhuō zi",
+        "hanviet": "Trác Tử"
+      },
+      {
+        "text": "被",
+        "type": "grammar",
+        "role": "Prep_passive",
+        "meaning": "bị (giới từ bị động)",
+        "pinyin": "bèi",
+        "hanviet": "Bị"
+      },
+      {
+        "text": "学生们",
+        "type": "normal",
+        "role": "Agent",
+        "meaning": "các bạn học sinh",
+        "pinyin": "xué shēng men",
+        "hanviet": "Học Sinh Môn"
+      },
+      {
+        "text": "搬",
+        "type": "normal",
+        "role": "V",
+        "meaning": "khiêng, dọn, chuyển",
+        "pinyin": "bān",
+        "hanviet": "Ban"
+      },
+      {
+        "text": "走",
+        "type": "normal",
+        "role": "Comp",
+        "meaning": "đi (bổ ngữ xu hướng)",
+        "pinyin": "zǒu",
+        "hanviet": "Tẩu"
+      },
+      {
+        "text": "了",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "rồi",
+        "pinyin": "le",
+        "hanviet": "Liễu"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Chủ ngữ chịu tác động",
+        "text": "桌子",
+        "type": "subject",
+        "desc": "Sự vật bị chuyển dịch vị trí"
+      },
+      {
+        "role": "Cụm bị động",
+        "text": "被学生们",
+        "type": "prep",
+        "desc": "Giới từ '被' + tác nhân hành động"
+      },
+      {
+        "role": "Vị ngữ + Bổ ngữ",
+        "text": "搬走了",
+        "type": "predicate",
+        "desc": "Động từ '搬' + Bổ ngữ '走' + '了'"
+      }
+    ],
+    "practice": {
+      "type": "sentence_building",
+      "scrambled_chunks": [
+        "学生们",
+        "被",
+        "搬",
+        "桌子",
+        "走了"
+      ],
+      "target_chunks": [
+        "桌子",
+        "被",
+        "学生们",
+        "搬",
+        "走了"
+      ],
+      "hint": "Sự vật chịu tác động '桌子' đứng đầu câu, theo sau là '被学生们搬走了'."
+    },
+    "pinyin": "zhuō zi bèi xué shēng men bān zǒu le 。",
+    "hanviet": "Trác Tử Bị Học Sinh Môn Ban Tẩu Liễu 。"
+  },
+  {
+    "id": "hsk4_b2_91",
+    "category": "sentence_building",
+    "title": "经理让我快点儿交计划书",
+    "source": "HSK 4 模拟试卷 2",
+    "exam_part": "书写 第一部分 (完成句子 第91题)",
+    "zh": "经理让我快点儿交计划书。",
+    "vietnamese": "Giám đốc bảo tôi nộp bản kế hoạch nhanh lên một chút.",
+    "grammar_point": {
+      "name": "Câu kiêm ngữ (兼语句) với 让 / 请 / 叫 / 使",
+      "pattern": "S1 + 让/请/叫 + Kiêm ngữ (O1/S2) + Trạng ngữ (快点儿) + V2 + O2",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI: Trong câu kiêm ngữ, từ '我' vừa làm tân ngữ của động từ cầu khiến '让', vừa làm chủ ngữ thực hiện hành động nộp '交计划书'. Trạng từ chỉ tốc độ '快点儿' bổ nghĩa cho động từ '交'.",
+      "explanation": "Câu kiêm ngữ là dạng câu đặc trưng tiếng Trung khi một danh từ giữ đồng thời hai vai trò ngữ pháp nối tiếp giữa hai động từ."
+    },
+    "tokens": [
+      {
+        "text": "经理",
+        "type": "normal",
+        "role": "S",
+        "meaning": "giám đốc, quản lý",
+        "pinyin": "jīng lǐ",
+        "hanviet": "Kinh Lý"
+      },
+      {
+        "text": "让",
+        "type": "grammar",
+        "role": "V_causative",
+        "meaning": "bảo, khiến, cho phép (động từ kiêm ngữ)",
+        "pinyin": "ràng",
+        "hanviet": "Nhượng"
+      },
+      {
+        "text": "我",
+        "type": "normal",
+        "role": "Pivot",
+        "meaning": "tôi (kiêm ngữ)",
+        "pinyin": "wǒ",
+        "hanviet": "Ngã"
+      },
+      {
+        "text": "快点儿",
+        "type": "normal",
+        "role": "Adv",
+        "meaning": "nhanh một chút",
+        "pinyin": "kuài diǎn ér",
+        "hanviet": "Khoái Điểm Nhân"
+      },
+      {
+        "text": "交",
+        "type": "core",
+        "role": "V2",
+        "meaning": "nộp, giao",
+        "pinyin": "jiāo",
+        "hanviet": "Giao"
+      },
+      {
+        "text": "计划书",
+        "type": "core",
+        "role": "O2",
+        "meaning": "bản kế hoạch",
+        "pinyin": "jì huà shū",
+        "hanviet": "Kế Hoa Thư"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Chủ ngữ chính",
+        "text": "经理",
+        "type": "subject",
+        "desc": "Người đưa ra yêu cầu"
+      },
+      {
+        "role": "Động từ sai khiến",
+        "text": "让",
+        "type": "predicate",
+        "desc": "Động từ thứ nhất mang kiêm ngữ"
+      },
+      {
+        "role": "Thành phần kiêm ngữ",
+        "text": "我",
+        "type": "object",
+        "desc": "Vừa là tân ngữ của '让', vừa là chủ ngữ của '交'"
+      },
+      {
+        "role": "Vị ngữ thứ hai",
+        "text": "快点儿交计划书",
+        "type": "predicate",
+        "desc": "Hành động được yêu cầu thực hiện"
+      }
+    ],
+    "practice": {
+      "type": "sentence_building",
+      "scrambled_chunks": [
+        "计划书",
+        "让我",
+        "快点儿",
+        "经理",
+        "交"
+      ],
+      "target_chunks": [
+        "经理",
+        "让我",
+        "快点儿",
+        "交",
+        "计划书"
+      ],
+      "hint": "Chủ ngữ 经理 + động từ sai khiến 让我 + trạng từ 快点儿 + 交计划书."
+    },
+    "pinyin": "jīng lǐ ràng wǒ kuài diǎn ér jiāo jì huà shū 。",
+    "hanviet": "Kinh Lý Nhượng Ngã Khoái Điểm Nhân Giao Kế Hoa Thư 。"
+  },
+  {
+    "id": "hsk4_r1_56",
+    "category": "sentence_logic",
+    "title": "电影院离这儿很远，如果你想去的话，我就开车送你",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第二部分 (排列顺序 第56题)",
+    "zh": "电影院离这儿很远，如果你想去的话，我就开车送你。",
+    "vietnamese": "Rạp chiếu phim cách đây rất xa, nếu bạn muốn đi thì tôi sẽ lái xe đưa bạn đi.",
+    "grammar_point": {
+      "name": "Liên từ giả thiết: 如果……（的话），就……",
+      "pattern": "Tiền đề tình huống (B) -> Giả thiết (A: 如果……的话) -> Hệ quả/Hành động (C: 就……)",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "MẸO LÀM BÀI HSK 4: Câu B giới thiệu bối cảnh thực tế ('电影院离这儿很远'), làm tiền đề cho câu giả thiết A ('如果你想去的话'), và câu C đưa ra cách giải quyết đi kèm phó từ '就' ('我就开车送你'). Thứ tự chuẩn logic là B - A - C.",
+      "explanation": "Cặp liên từ '如果……就……' biểu thị mối quan hệ điều kiện - giả thiết. '离……远' là cấu trúc biểu thị khoảng cách không gian."
+    },
+    "tokens": [
+      {
+        "text": "电影院",
+        "type": "core",
+        "role": "S",
+        "meaning": "rạp chiếu phim",
+        "pinyin": "diàn yǐng yuàn",
+        "hanviet": "Điện Ảnh Viện"
+      },
+      {
+        "text": "离",
+        "type": "normal",
+        "role": "Prep",
+        "meaning": "cách (giới từ khoảng cách)",
+        "pinyin": "lí",
+        "hanviet": "Ly"
+      },
+      {
+        "text": "这儿",
+        "type": "normal",
+        "role": "Place",
+        "meaning": "đây, chỗ này",
+        "pinyin": "zhè ér",
+        "hanviet": "Giá Nhân"
+      },
+      {
+        "text": "很远",
+        "type": "normal",
+        "role": "Adj",
+        "meaning": "rất xa",
+        "pinyin": "hěn yuǎn",
+        "hanviet": "Ngận Viễn"
+      },
+      {
+        "text": "如果",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "nếu (liên từ giả thiết)",
+        "pinyin": "rú guǒ",
+        "hanviet": "Như Quả"
+      },
+      {
+        "text": "你想去",
+        "type": "normal",
+        "role": "Clause",
+        "meaning": "bạn muốn đi",
+        "pinyin": "nǐ xiǎng qù",
+        "hanviet": "Nễ Tưởng Khứ"
+      },
+      {
+        "text": "的话",
+        "type": "grammar",
+        "role": "Part",
+        "meaning": "thì, nếu mà",
+        "pinyin": "de huà",
+        "hanviet": "Đích Thoại"
+      },
+      {
+        "text": "我就",
+        "type": "grammar",
+        "role": "Adv",
+        "meaning": "tôi liền",
+        "pinyin": "wǒ jiù",
+        "hanviet": "Ngã Tựu"
+      },
+      {
+        "text": "开车",
+        "type": "normal",
+        "role": "V",
+        "meaning": "lái xe",
+        "pinyin": "kāi chē",
+        "hanviet": "Khai Xa"
+      },
+      {
+        "text": "送你",
+        "type": "core",
+        "role": "V_O",
+        "meaning": "đưa đón bạn",
+        "pinyin": "sòng nǐ",
+        "hanviet": "Tống Nễ"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Bối cảnh tiền đề (B)",
+        "text": "电影院离这儿很远",
+        "type": "prep",
+        "desc": "Nêu rõ khoảng cách xa xôi"
+      },
+      {
+        "role": "Mệnh đề giả thiết (A)",
+        "text": "如果你想去的话",
+        "type": "conj",
+        "desc": "Giả định mong muốn của đối phương"
+      },
+      {
+        "role": "Mệnh đề kết quả (C)",
+        "text": "我就开车送你",
+        "type": "predicate",
+        "desc": "Giải pháp đưa ra tương ứng"
+      }
+    ],
+    "practice": {
+      "type": "sentence_logic",
+      "scrambled_items": [
+        {
+          "key": "A",
+          "text": "如果你想去的话"
+        },
+        {
+          "key": "B",
+          "text": "电影院离这儿很远"
+        },
+        {
+          "key": "C",
+          "text": "我就开车送你"
+        }
+      ],
+      "correct_order": "BAC",
+      "explanation": "B nêu tình huống khách quan -> A đưa ra giả thiết '如果……的话' -> C là lời đề nghị giải quyết với '就'."
+    },
+    "pinyin": "diàn yǐng yuàn lí zhè ér hěn yuǎn ， rú guǒ nǐ xiǎng qù de huà ， wǒ jiù kāi chē sòng nǐ 。",
+    "hanviet": "Điện Ảnh Viện Ly Giá Nhân Ngận Viễn ， Như Quả Nễ Tưởng Khứ Đích Thoại ， Ngã Tựu Khai Xa Tống Nễ 。"
+  },
+  {
+    "id": "hsk4_r1_63",
+    "category": "sentence_logic",
+    "title": "随着生活节奏的加快，人们的压力越来越大，因此更要放松心情",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第二部分 (排列顺序 第63题)",
+    "zh": "随着生活节奏的加快，人们的压力越来越大，因此更要放松心情。",
+    "vietnamese": "Cùng với nhịp sống ngày càng gấp gáp, áp lực của con người ngày càng lớn, vì vậy càng cần phải thư giãn tinh thần.",
+    "grammar_point": {
+      "name": "Mối quan hệ phát triển & nhân quả: 随着……，越来越……，因此……",
+      "pattern": "随着 + Xu hướng biến đổi (A) -> Hiện trạng (C: 越来越...) -> Kết luận hành động (B: 因此...)",
+      "level": "HSK 4 Trọng điểm",
+      "trap_note": "MẸO LÀM BÀI HSK 4: 1. Câu bắt đầu bằng '随着' (cùng với...) thường đứng đầu để mở ra xu hướng xã hội. 2. Câu tiếp theo diễn tả kết quả tự nhiên với '越来越'. 3. Câu bắt đầu bằng liên từ kết luận '因此' (do đó, vì thế) đứng cuối cùng. Thứ tự logic: A - C - B.",
+      "explanation": "'随着' dẫn dắt trạng ngữ biến đổi thời đại, '越来越' thể hiện mức độ gia tăng, '因此' làm liên từ liên kết nhân quả để đưa ra lời khuyên."
+    },
+    "tokens": [
+      {
+        "text": "随着",
+        "type": "grammar",
+        "role": "Prep",
+        "meaning": "cùng với, đi cùng (giới từ xu hướng)",
+        "pinyin": "suí zhe",
+        "hanviet": "Tuỳ Trước"
+      },
+      {
+        "text": "生活节奏",
+        "type": "advanced",
+        "role": "Noun",
+        "meaning": "nhịp sống",
+        "pinyin": "shēng huó jié zòu",
+        "hanviet": "Sinh Hoạt Tiết Tấu"
+      },
+      {
+        "text": "的",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "của",
+        "pinyin": "de",
+        "hanviet": "Đích"
+      },
+      {
+        "text": "加快",
+        "type": "advanced",
+        "role": "V",
+        "meaning": "nhanh hơn, tăng tốc",
+        "pinyin": "jiā kuài",
+        "hanviet": "Gia Khoái"
+      },
+      {
+        "text": "人们的",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "của con người",
+        "pinyin": "rén men de",
+        "hanviet": "Nhân Môn Đích"
+      },
+      {
+        "text": "压力",
+        "type": "core",
+        "role": "S",
+        "meaning": "áp lực",
+        "pinyin": "yā lì",
+        "hanviet": "Áp Lực"
+      },
+      {
+        "text": "越来越",
+        "type": "grammar",
+        "role": "Adv",
+        "meaning": "ngày càng (phó từ tăng tiến)",
+        "pinyin": "yuè lái yuè",
+        "hanviet": "Việt Lai Việt"
+      },
+      {
+        "text": "大",
+        "type": "normal",
+        "role": "Adj",
+        "meaning": "lớn",
+        "pinyin": "dà",
+        "hanviet": "Đại"
+      },
+      {
+        "text": "因此",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "vì vậy, do đó (liên từ kết luận)",
+        "pinyin": "yīn cǐ",
+        "hanviet": "Nhân Thử"
+      },
+      {
+        "text": "更要",
+        "type": "normal",
+        "role": "Adv",
+        "meaning": "càng phải",
+        "pinyin": "gèng yào",
+        "hanviet": "Canh Yêu"
+      },
+      {
+        "text": "放松",
+        "type": "core",
+        "role": "V",
+        "meaning": "thư giãn, thả lỏng",
+        "pinyin": "fàng sōng",
+        "hanviet": "Phóng Tùng"
+      },
+      {
+        "text": "心情",
+        "type": "core",
+        "role": "O",
+        "meaning": "tâm trạng, tinh thần",
+        "pinyin": "xīn qíng",
+        "hanviet": "Tâm Tình"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Xu hướng thời đại (A)",
+        "text": "随着生活节奏的加快",
+        "type": "prep",
+        "desc": "Giới từ '随着' nêu bối cảnh chuyển biến"
+      },
+      {
+        "role": "Hậu quả thực tế (C)",
+        "text": "人们的压力越来越大",
+        "type": "subject",
+        "desc": "Hiện tượng gia tăng áp lực cuộc sống"
+      },
+      {
+        "role": "Kết luận giải pháp (B)",
+        "text": "因此更要放松心情",
+        "type": "conj",
+        "desc": "Liên từ '因此' dẫn dắt lời khuyên thư giãn"
+      }
+    ],
+    "practice": {
+      "type": "sentence_logic",
+      "scrambled_items": [
+        {
+          "key": "A",
+          "text": "随着生活节奏的加快"
+        },
+        {
+          "key": "B",
+          "text": "因此更要放松心情"
+        },
+        {
+          "key": "C",
+          "text": "人们的压力越来越大"
+        }
+      ],
+      "correct_order": "ACB",
+      "explanation": "A nêu bối cảnh xu thế '随着……' -> C nêu hiện trạng '越来越大' -> B kết luận với liên từ '因此'."
+    },
+    "pinyin": "suí zhe shēng huó jié zòu de jiā kuài ， rén men de yā lì yuè lái yuè dà ， yīn cǐ gèng yào fàng sōng xīn qíng 。",
+    "hanviet": "Tuỳ Trước Sinh Hoạt Tiết Tấu Đích Gia Khoái ， Nhân Môn Đích Áp Lực Việt Lai Việt Đại ， Nhân Thử Canh Yêu Phóng Tùng Tâm Tình 。"
+  },
+  {
+    "id": "hsk4_r1_65",
+    "category": "sentence_logic",
+    "title": "吸烟不仅影响自己的健康，还会使周围的人不舒服，青少年最好不要接触",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第二部分 (排列顺序 第65题)",
+    "zh": "吸烟不仅影响自己的健康，还会使周围的人不舒服，青少年最好不要接触。",
+    "vietnamese": "Hút thuốc không những ảnh hưởng đến sức khỏe của bản thân, mà còn khiến người xung quanh khó chịu, thanh thiếu niên tốt nhất không nên tiếp xúc.",
+    "grammar_point": {
+      "name": "Cấu trúc tăng tiến & kiêm ngữ: 不仅……还……，使……",
+      "pattern": "Chủ đề + 不仅 (A) + 还 / 而且 (C) -> Lời khuyên kết luận (B)",
+      "level": "HSK 4 Trọng điểm",
+      "trap_note": "MẸO LÀM BÀI HSK 4: Cặp liên từ '不仅……还……' (không những...mà còn...) bắt buộc vế '不仅' đi trước vế '还'. Vế B là lời khuyên cho thanh thiếu niên được rút ra từ hai tác hại trên, nên đứng ở vị trí cuối cùng. Thứ tự: A - C - B.",
+      "explanation": "'不仅……还……' liên kết hai mức độ tác hại từ gần (bản thân) đến xa (người xung quanh). '使' là động từ kiêm ngữ biểu thị sự tác động gây ra trạng thái."
+    },
+    "tokens": [
+      {
+        "text": "吸烟",
+        "type": "advanced",
+        "role": "S",
+        "meaning": "hút thuốc",
+        "pinyin": "xī yān",
+        "hanviet": "Hấp Yên"
+      },
+      {
+        "text": "不仅",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "không những (liên từ tăng tiến)",
+        "pinyin": "bù jǐn",
+        "hanviet": "Bất Cận"
+      },
+      {
+        "text": "影响",
+        "type": "normal",
+        "role": "V",
+        "meaning": "ảnh hưởng",
+        "pinyin": "yǐng xiǎng",
+        "hanviet": "Ảnh Hưởng"
+      },
+      {
+        "text": "自己的",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "của bản thân",
+        "pinyin": "zì jǐ de",
+        "hanviet": "Tự Kỷ Đích"
+      },
+      {
+        "text": "健康",
+        "type": "normal",
+        "role": "O",
+        "meaning": "sức khỏe",
+        "pinyin": "jiàn kāng",
+        "hanviet": "Kiện Khang"
+      },
+      {
+        "text": "还会",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "còn có thể, lại còn",
+        "pinyin": "hái huì",
+        "hanviet": "Hoàn Hội"
+      },
+      {
+        "text": "使",
+        "type": "grammar",
+        "role": "V_causative",
+        "meaning": "khiến cho, làm cho (kiêm ngữ)",
+        "pinyin": "shǐ",
+        "hanviet": "Sử"
+      },
+      {
+        "text": "周围的",
+        "type": "core",
+        "role": "Attr",
+        "meaning": "xung quanh",
+        "pinyin": "zhōu wéi de",
+        "hanviet": "Chu Vi Đích"
+      },
+      {
+        "text": "人不舒服",
+        "type": "normal",
+        "role": "Predicate",
+        "meaning": "người ta khó chịu",
+        "pinyin": "rén bù shū fú",
+        "hanviet": "Nhân Bất Thư Phục"
+      },
+      {
+        "text": "青少年",
+        "type": "advanced",
+        "role": "S2",
+        "meaning": "thanh thiếu niên",
+        "pinyin": "qīng shào nián",
+        "hanviet": "Thanh Thiểu Niên"
+      },
+      {
+        "text": "最好",
+        "type": "core",
+        "role": "Adv",
+        "meaning": "tốt nhất",
+        "pinyin": "zuì hǎo",
+        "hanviet": "Tối Hảo"
+      },
+      {
+        "text": "不要接触",
+        "type": "core",
+        "role": "V2",
+        "meaning": "đừng tiếp xúc",
+        "pinyin": "bú yào jiē chù",
+        "hanviet": "Bất Yêu Tiếp Xúc"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Tác hại thứ nhất (A)",
+        "text": "吸烟不仅影响自己的健康",
+        "type": "subject",
+        "desc": "Vế '不仅' chỉ tác hại đối với bản thân"
+      },
+      {
+        "role": "Tác hại tăng tiến (C)",
+        "text": "还会使周围的人不舒服",
+        "type": "predicate",
+        "desc": "Vế '还' mở rộng tác hại sang cộng đồng"
+      },
+      {
+        "role": "Lời khuyên kết luận (B)",
+        "text": "青少年最好不要接触",
+        "type": "adv",
+        "desc": "Khuyên thanh thiếu niên tránh xa"
+      }
+    ],
+    "practice": {
+      "type": "sentence_logic",
+      "scrambled_items": [
+        {
+          "key": "A",
+          "text": "吸烟不仅影响自己的健康"
+        },
+        {
+          "key": "B",
+          "text": "青少年最好不要接触"
+        },
+        {
+          "key": "C",
+          "text": "还会使周围的人不舒服"
+        }
+      ],
+      "correct_order": "ACB",
+      "explanation": "Cặp liên từ '不仅' (A) đi trước '还会' (C), sau đó mới tới câu đưa ra định hướng khuyên nhủ (B)."
+    },
+    "pinyin": "xī yān bù jǐn yǐng xiǎng zì jǐ de jiàn kāng ， hái huì shǐ zhōu wéi de rén bù shū fú ， qīng shào nián zuì hǎo bù yào jiē chù 。",
+    "hanviet": "Hấp Yên Bất Cận Ảnh Hưởng Tự Kỷ Đích Kiện Khang ， Hoàn Hội Sử Chu Vi Đích Nhân Bất Thư Phục ， Thanh Thiểu Niên Tối Hảo Bất Yêu Tiếp Xúc 。"
+  },
+  {
+    "id": "hsk4_c1_46",
+    "category": "cloze",
+    "title": "房子的价格始终降不下来",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第一部分 (选词填空 第46题)",
+    "zh": "房子的价格始终降不下来，我只好等几年再买了。",
+    "vietnamese": "Giá nhà từ đầu đến cuối vẫn không giảm xuống được, tôi đành phải đợi vài năm nữa mới mua vậy.",
+    "grammar_point": {
+      "name": "Phó từ diễn tả tính liên tục bền bỉ: 始终 (Thủy chung / Từ đầu đến cuối)",
+      "pattern": "Chủ ngữ + 始终 + Động từ / Bổ ngữ khả năng phủ định (降不下来)",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI CẦN LƯU Ý: Phân biệt '始终' và '一直': '始终' mang sắc thái từ đầu chí cuối không hề thay đổi bản chất, thường đi kèm với những tình huống kéo dài mang tính quy luật hoặc khó đảo ngược. '降不下来' là bổ ngữ khả năng phủ định.",
+      "explanation": "'始终' đóng vai trò trạng ngữ đứng trước cụm vị ngữ '降不下来'. '只好' (đành phải) diễn tả sự lựa chọn bắt buộc khi hoàn cảnh không như ý."
+    },
+    "tokens": [
+      {
+        "text": "房子",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "nhà cửa",
+        "pinyin": "fáng zi",
+        "hanviet": "Phòng Tử"
+      },
+      {
+        "text": "的",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "của",
+        "pinyin": "de",
+        "hanviet": "Đích"
+      },
+      {
+        "text": "价格",
+        "type": "core",
+        "role": "S",
+        "meaning": "giá cả",
+        "pinyin": "jià gé",
+        "hanviet": "Giới Cách"
+      },
+      {
+        "text": "始终",
+        "type": "core",
+        "role": "Adv",
+        "meaning": "từ đầu đến cuối, luôn luôn",
+        "pinyin": "shǐ zhōng",
+        "hanviet": "Thủy Chung"
+      },
+      {
+        "text": "降",
+        "type": "core",
+        "role": "V",
+        "meaning": "hạ, giảm",
+        "pinyin": "jiàng",
+        "hanviet": "Giáng"
+      },
+      {
+        "text": "不下来",
+        "type": "normal",
+        "role": "Comp",
+        "meaning": "không xuống được (bổ ngữ khả năng)",
+        "pinyin": "bù xià lái",
+        "hanviet": "Bất Hạ Lai"
+      },
+      {
+        "text": "我只好",
+        "type": "core",
+        "role": "Adv",
+        "meaning": "tôi đành phải",
+        "pinyin": "wǒ zhǐ hǎo",
+        "hanviet": "Ngã Chỉ Hảo"
+      },
+      {
+        "text": "等几年",
+        "type": "normal",
+        "role": "Time",
+        "meaning": "đợi vài năm",
+        "pinyin": "děng jǐ nián",
+        "hanviet": "Đẳng Kỷ Niên"
+      },
+      {
+        "text": "再买",
+        "type": "normal",
+        "role": "V",
+        "meaning": "mới mua",
+        "pinyin": "zài mǎi",
+        "hanviet": "Tái Mãi"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Chủ ngữ (S)",
+        "text": "房子的价格",
+        "type": "subject",
+        "desc": "Đối tượng chính là giá nhà"
+      },
+      {
+        "role": "Trạng ngữ phó từ",
+        "text": "始终",
+        "type": "adv",
+        "desc": "Từ cần điền: biểu thị sự việc không thay đổi từ trước đến nay"
+      },
+      {
+        "role": "Vị ngữ + Bổ ngữ khả năng",
+        "text": "降不下来",
+        "type": "comp",
+        "desc": "Không thể giảm xuống được"
+      },
+      {
+        "role": "Vế kết quả đành chịu",
+        "text": "我只好等几年再买了",
+        "type": "predicate",
+        "desc": "Giải pháp lựa chọn bắt buộc"
+      }
+    ],
+    "practice": {
+      "type": "cloze",
+      "blank_sentence": "房子的价格（ ____ ）降不下来，我只好等几年再买了。",
+      "target_word": "始终",
+      "options": [
+        {
+          "word": "始终",
+          "pinyin": "shǐzhōng",
+          "hanviet": "Thủy Chung",
+          "meaning": "từ đầu đến cuối, luôn luôn"
+        },
+        {
+          "word": "坚持",
+          "pinyin": "jiānchí",
+          "hanviet": "Kiên Trì",
+          "meaning": "kiên trì, giữ vững"
+        },
+        {
+          "word": "负责",
+          "pinyin": "fùzé",
+          "hanviet": "Phụ Trách",
+          "meaning": "chịu trách nhiệm"
+        },
+        {
+          "word": "遵守",
+          "pinyin": "zūnshǒu",
+          "hanviet": "Tuân Thủ",
+          "meaning": "tuân theo, tôn trọng"
+        }
+      ],
+      "clue": "Chỗ trống đứng giữa chủ ngữ '房子的价格' và vị ngữ '降不下来', cần một phó từ chỉ trạng thái liên tục không đổi từ trước tới giờ."
+    },
+    "pinyin": "fáng zi de jià gé shǐ zhōng jiàng bù xià lái ， wǒ zhǐ hǎo děng jǐ nián zài mǎi le 。",
+    "hanviet": "Phòng Tử Đích Giá Cách Thuỷ Chung Giáng Bất Hạ Lai ， Ngã Chỉ Hảo Đẳng Kỷ Niên Tái Mãi Liễu 。"
+  },
+  {
+    "id": "hsk4_c1_48",
+    "category": "cloze",
+    "title": "王芳对工作很负责",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第一部分 (选词填空 第48题)",
+    "zh": "王芳对工作很负责，这个任务你可以放心交给她。",
+    "vietnamese": "Vương Phương đối với công việc rất có trách nhiệm, nhiệm vụ này bạn có thể yên tâm giao cho cô ấy.",
+    "grammar_point": {
+      "name": "Tính từ chỉ thái độ: 对……负责 (Có trách nhiệm với...)",
+      "pattern": "Chủ ngữ + 对 + Đối tượng + (很/非常) + 负责",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI: Từ '负责' trong tiếng Trung vừa là động từ ('phụ trách việc gì'), vừa là tính từ ('rất có tinh thần trách nhiệm'). Trong câu này, đứng sau phó từ mức độ '很', '负责' đóng vai trò là TÍNH TỪ vị ngữ.",
+      "explanation": "'对工作很负责' miêu tả phẩm chất làm việc tận tụy, làm tiền đề tin cậy để '放心交给她'."
+    },
+    "tokens": [
+      {
+        "text": "王芳",
+        "type": "normal",
+        "role": "S",
+        "meaning": "Vương Phương (tên riêng)",
+        "pinyin": "wáng fāng",
+        "hanviet": "Vương Phương"
+      },
+      {
+        "text": "对",
+        "type": "grammar",
+        "role": "Prep",
+        "meaning": "đối với",
+        "pinyin": "duì",
+        "hanviet": "Đối"
+      },
+      {
+        "text": "工作",
+        "type": "normal",
+        "role": "O_prep",
+        "meaning": "công việc",
+        "pinyin": "gōng zuò",
+        "hanviet": "Công Tác"
+      },
+      {
+        "text": "很",
+        "type": "normal",
+        "role": "Adv",
+        "meaning": "rất",
+        "pinyin": "hěn",
+        "hanviet": "Ngận"
+      },
+      {
+        "text": "负责",
+        "type": "core",
+        "role": "Adj",
+        "meaning": "có trách nhiệm, tận tụy",
+        "pinyin": "fù zé",
+        "hanviet": "Phụ Trách"
+      },
+      {
+        "text": "这个任务",
+        "type": "core",
+        "role": "O_front",
+        "meaning": "nhiệm vụ này",
+        "pinyin": "zhè ge rèn wù",
+        "hanviet": "Giá Cá Nhâm Vụ"
+      },
+      {
+        "text": "你可以",
+        "type": "normal",
+        "role": "S2",
+        "meaning": "bạn có thể",
+        "pinyin": "nǐ kě yǐ",
+        "hanviet": "Nễ Khả Dĩ"
+      },
+      {
+        "text": "放心",
+        "type": "normal",
+        "role": "Adv",
+        "meaning": "yên tâm",
+        "pinyin": "fàng xīn",
+        "hanviet": "Phóng Tâm"
+      },
+      {
+        "text": "交给她",
+        "type": "normal",
+        "role": "V_prep",
+        "meaning": "giao cho cô ấy",
+        "pinyin": "jiāo gěi tā",
+        "hanviet": "Giao Cấp Tha"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Chủ ngữ (S)",
+        "text": "王芳",
+        "type": "subject",
+        "desc": "Người được đánh giá"
+      },
+      {
+        "role": "Trạng ngữ giới từ",
+        "text": "对工作",
+        "type": "prep",
+        "desc": "Lĩnh vực được hướng tới"
+      },
+      {
+        "role": "Vị ngữ tính từ",
+        "text": "很负责",
+        "type": "predicate",
+        "desc": "Phó từ '很' + Tính từ '负责'"
+      },
+      {
+        "role": "Vế đề xuất tin cậy",
+        "text": "这个任务你可以放心交给她",
+        "type": "predicate",
+        "desc": "Kết luận cho sự tin tưởng"
+      }
+    ],
+    "practice": {
+      "type": "cloze",
+      "blank_sentence": "王芳对工作很（ ____ ），这个任务你可以放心交给她。",
+      "target_word": "负责",
+      "options": [
+        {
+          "word": "负责",
+          "pinyin": "fùzé",
+          "hanviet": "Phụ Trách",
+          "meaning": "có trách nhiệm, tận tâm"
+        },
+        {
+          "word": "始终",
+          "pinyin": "shǐzhōng",
+          "hanviet": "Thủy Chung",
+          "meaning": "luôn luôn"
+        },
+        {
+          "word": "遵守",
+          "pinyin": "zūnshǒu",
+          "hanviet": "Tuân Thủ",
+          "meaning": "chấp hành"
+        },
+        {
+          "word": "替",
+          "pinyin": "tì",
+          "hanviet": "Thế",
+          "meaning": "thay thế, giúp"
+        }
+      ],
+      "clue": "Đứng sau phó từ mức độ '很', cần một tính từ miêu tả thái độ làm việc tốt để có thể 'yên tâm giao phó'."
+    },
+    "pinyin": "wáng fāng duì gōng zuò hěn fù zé ， zhè ge rèn wù nǐ kě yǐ fàng xīn jiāo gěi tā 。",
+    "hanviet": "Vương Phương Đối Công Tác Ngận Phụ Trách ， Giá Cá Nhâm Vụ Nễ Khả Dĩ Phóng Tâm Giao Cấp Tha 。"
+  },
+  {
+    "id": "hsk4_c1_50",
+    "category": "cloze",
+    "title": "有些司机不遵守交通规则",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第一部分 (选词填空 第50题)",
+    "zh": "有些司机不遵守交通规则，这也是造成交通拥挤的一个原因。",
+    "vietnamese": "Một số tài xế không tuân thủ luật giao thông, đây cũng là một nguyên nhân gây ra ùn tắc giao thông.",
+    "grammar_point": {
+      "name": "Cụm kết hợp cố định (Collocation): 遵守 + 规则 / 法律 / 纪律",
+      "pattern": "Chủ ngữ + (不) + 遵守 + Quy định / Luật lệ",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI CỤM TỪ CỐ ĐỊNH: Trong tiếng Trung thi cử, danh từ '交通规则' (luật lệ giao thông) hoặc '规定' (quy định) luôn đi kèm với động từ '遵守' (tuân thủ). '造成' (gây nên) thường đi với hậu quả xấu như '交通拥挤' (kẹt xe), '麻烦' (phiền phức).",
+      "explanation": "'遵守' là động từ hành động chuẩn mực. Cụm '这也是造成……的一个原因' là mẫu câu tổng kết kết quả phổ biến trong bài đọc hiểu HSK 4."
+    },
+    "tokens": [
+      {
+        "text": "有些",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "một số",
+        "pinyin": "yǒu xiē",
+        "hanviet": "Hữu Ta"
+      },
+      {
+        "text": "司机",
+        "type": "normal",
+        "role": "S",
+        "meaning": "tài xế, người lái xe",
+        "pinyin": "sī jī",
+        "hanviet": "Ti Cơ"
+      },
+      {
+        "text": "不",
+        "type": "normal",
+        "role": "Adv_neg",
+        "meaning": "không",
+        "pinyin": "bù",
+        "hanviet": "Bất"
+      },
+      {
+        "text": "遵守",
+        "type": "core",
+        "role": "V",
+        "meaning": "tuân thủ, chấp hành",
+        "pinyin": "zūn shǒu",
+        "hanviet": "Tuân Thủ"
+      },
+      {
+        "text": "交通规则",
+        "type": "core",
+        "role": "O",
+        "meaning": "quy tắc giao thông, luật lệ",
+        "pinyin": "jiāo tōng guī zé",
+        "hanviet": "Giao Thông Quy Tắc"
+      },
+      {
+        "text": "这也",
+        "type": "normal",
+        "role": "S2",
+        "meaning": "điều này cũng",
+        "pinyin": "zhè yě",
+        "hanviet": "Giá Dã"
+      },
+      {
+        "text": "是",
+        "type": "normal",
+        "role": "V2",
+        "meaning": "là",
+        "pinyin": "shì",
+        "hanviet": "Thị"
+      },
+      {
+        "text": "造成",
+        "type": "core",
+        "role": "V3",
+        "meaning": "gây ra, tạo thành",
+        "pinyin": "zào chéng",
+        "hanviet": "Tạo Thành"
+      },
+      {
+        "text": "交通拥挤",
+        "type": "advanced",
+        "role": "O3",
+        "meaning": "ùn tắc giao thông",
+        "pinyin": "jiāo tōng yōng jǐ",
+        "hanviet": "Giao Thông Ủng Tễ"
+      },
+      {
+        "text": "的一个原因",
+        "type": "core",
+        "role": "O2",
+        "meaning": "một trong những nguyên nhân",
+        "pinyin": "de yí gè yuán yīn",
+        "hanviet": "Đích Nhất Cá Nguyên Nhân"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Chủ ngữ (S)",
+        "text": "有些司机",
+        "type": "subject",
+        "desc": "Đối tượng gây ra tình trạng"
+      },
+      {
+        "role": "Vị ngữ + Phủ định",
+        "text": "不遵守",
+        "type": "predicate",
+        "desc": "Hành vi vi phạm: không tuân thủ"
+      },
+      {
+        "role": "Tân ngữ luật lệ",
+        "text": "交通规则",
+        "type": "object",
+        "desc": "Quy tắc bị vi phạm"
+      },
+      {
+        "role": "Mệnh đề giải thích",
+        "text": "这也是造成交通拥挤的一个原因",
+        "type": "predicate",
+        "desc": "Hậu quả dẫn đến kẹt xe"
+      }
+    ],
+    "practice": {
+      "type": "cloze",
+      "blank_sentence": "有些司机不（ ____ ）交通规则，这也是造成交通拥挤的一个原因。",
+      "target_word": "遵守",
+      "options": [
+        {
+          "word": "遵守",
+          "pinyin": "zūnshǒu",
+          "hanviet": "Tuân Thủ",
+          "meaning": "tuân thủ, chấp hành"
+        },
+        {
+          "word": "负责",
+          "pinyin": "fùzé",
+          "hanviet": "Phụ Trách",
+          "meaning": "có trách nhiệm"
+        },
+        {
+          "word": "坚持",
+          "pinyin": "jiānchí",
+          "hanviet": "Kiên Trì",
+          "meaning": "kiên trì"
+        },
+        {
+          "word": "表达",
+          "pinyin": "biǎodá",
+          "hanviet": "Biểu Đạt",
+          "meaning": "bày tỏ"
+        }
+      ],
+      "clue": "Đứng trước danh từ '交通规则' (quy tắc giao thông), động từ kết hợp chuẩn xác nhất là '遵守'."
+    },
+    "pinyin": "yǒu xiē sī jī bù zūn shǒu jiāo tōng guī zé ， zhè yě shì zào chéng jiāo tōng yōng jǐ de yí gè yuán yīn 。",
+    "hanviet": "Hữu Ta Ti Cơ Bất Tuân Thủ Giao Thông Quy Tắc ， Giá Dã Thị Tạo Thành Giao Thông Ủng Tễ Đích Nhất Cá Nguyên Nhân 。"
+  },
+  {
+    "id": "hsk4_c1_54",
+    "category": "cloze",
+    "title": "要想自由地用汉语表达情感",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第一部分 (选词填空 第54题)",
+    "zh": "可要想自由地用汉语表达情感，还需要很长一段时间。",
+    "vietnamese": "Nhưng muốn tự do dùng tiếng Hán để biểu đạt tình cảm, thì vẫn cần một khoảng thời gian rất dài nữa.",
+    "grammar_point": {
+      "name": "Cụm từ phối hợp: 表达 + 情感 / 观点 / 意见",
+      "pattern": "自由地 + 用 + Ngôn ngữ + 表达 + Cảm xúc/Suy nghĩ",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI PHÂN BIỆT: Phân biệt '表达' (biểu đạt, bộc lộ tình cảm/ý kiến ra bên ngoài bằng lời nói hoặc nét mặt) và '表示' (biểu thị, ra dấu hiệu hoặc thái độ). Đi cùng với '情感' (tình cảm, cảm xúc) thì bắt buộc phải dùng '表达'.",
+      "explanation": "'自由地' mang trợ từ kết cấu '地' làm trạng ngữ cho động từ '表达'. '用汉语' là trạng ngữ chỉ công cụ phương tiện."
+    },
+    "tokens": [
+      {
+        "text": "可",
+        "type": "normal",
+        "role": "Conj",
+        "meaning": "nhưng mà",
+        "pinyin": "kě",
+        "hanviet": "Khả"
+      },
+      {
+        "text": "要想",
+        "type": "normal",
+        "role": "V",
+        "meaning": "muốn",
+        "pinyin": "yào xiǎng",
+        "hanviet": "Yêu Tưởng"
+      },
+      {
+        "text": "自由地",
+        "type": "core",
+        "role": "Adv",
+        "meaning": "một cách tự do",
+        "pinyin": "zì yóu dì",
+        "hanviet": "Tự Do Địa"
+      },
+      {
+        "text": "用汉语",
+        "type": "normal",
+        "role": "Prep_phrase",
+        "meaning": "bằng tiếng Hán",
+        "pinyin": "yòng hàn yǔ",
+        "hanviet": "Dụng Hán Ngữ"
+      },
+      {
+        "text": "表达",
+        "type": "core",
+        "role": "V",
+        "meaning": "diễn đạt, bày tỏ",
+        "pinyin": "biǎo dá",
+        "hanviet": "Biểu Đạt"
+      },
+      {
+        "text": "情感",
+        "type": "core",
+        "role": "O",
+        "meaning": "tình cảm, cảm xúc",
+        "pinyin": "qíng gǎn",
+        "hanviet": "Tình Cảm"
+      },
+      {
+        "text": "还",
+        "type": "normal",
+        "role": "Adv",
+        "meaning": "vẫn",
+        "pinyin": "hái",
+        "hanviet": "Hoàn"
+      },
+      {
+        "text": "需要",
+        "type": "normal",
+        "role": "V2",
+        "meaning": "cần",
+        "pinyin": "xū yào",
+        "hanviet": "Nhu Yêu"
+      },
+      {
+        "text": "很长",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "rất dài",
+        "pinyin": "hěn zhǎng",
+        "hanviet": "Ngận Trường"
+      },
+      {
+        "text": "一段时间",
+        "type": "normal",
+        "role": "Time",
+        "meaning": "một khoảng thời gian",
+        "pinyin": "yī duàn shí jiān",
+        "hanviet": "Nhất Đoạn Thời Gian"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Trạng ngữ cách thức",
+        "text": "自由地",
+        "type": "adv",
+        "desc": "Tính từ + '地' bổ nghĩa cho hành động"
+      },
+      {
+        "role": "Trạng ngữ công cụ",
+        "text": "用汉语",
+        "type": "prep",
+        "desc": "Phương tiện ngôn ngữ được sử dụng"
+      },
+      {
+        "role": "Vị ngữ động từ",
+        "text": "表达",
+        "type": "predicate",
+        "desc": "Từ cần điền: truyền tải cảm xúc"
+      },
+      {
+        "role": "Tân ngữ cảm xúc",
+        "text": "情感",
+        "type": "object",
+        "desc": "Đối tượng được diễn đạt"
+      }
+    ],
+    "practice": {
+      "type": "cloze",
+      "blank_sentence": "可要想自由地用汉语（ ____ ）情感，还需要很长一段时间。",
+      "target_word": "表达",
+      "options": [
+        {
+          "word": "表达",
+          "pinyin": "biǎodá",
+          "hanviet": "Biểu Đạt",
+          "meaning": "diễn đạt, bày tỏ"
+        },
+        {
+          "word": "以及",
+          "pinyin": "yǐjí",
+          "hanviet": "Dĩ Cập",
+          "meaning": "cũng như, và"
+        },
+        {
+          "word": "看不起",
+          "pinyin": "kànbuqǐ",
+          "hanviet": "Khán Bất Khởi",
+          "meaning": "coi thường"
+        },
+        {
+          "word": "说明书",
+          "pinyin": "shuōmíngshū",
+          "hanviet": "Thuyết Minh Thư",
+          "meaning": "sách hướng dẫn"
+        }
+      ],
+      "clue": "Đứng sau giới từ công cụ '用汉语' và đứng trước danh từ '情感', cần một động từ mang nghĩa diễn đạt tình cảm."
+    },
+    "pinyin": "kě yào xiǎng zì yóu dì yòng hàn yǔ biǎo dá qíng gǎn ， hái xū yào hěn zhǎng yī duàn shí jiān 。",
+    "hanviet": "Khả Yêu Tưởng Tự Do Địa Dụng Hán Ngữ Biểu Đạt Tình Cảm ， Hoàn Nhu Yêu Ngận Trường Nhất Đoạn Thời Gian 。"
+  },
+  {
+    "id": "hsk4_p1_66",
+    "category": "paragraph",
+    "title": "现代家庭的生活现状与反差",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第三部分 (短文阅读 第66题)",
+    "zh": "现在很多家庭夫妻都工作，不仅没有时间照顾父母，相反，大多数还要请父母帮忙照顾孩子，每天接送孩子上下学。",
+    "vietnamese": "Hiện nay ở rất nhiều gia đình cả hai vợ chồng đều đi làm, không những không có thời gian chăm sóc bố mẹ, mà ngược lại, đa số còn phải nhờ bố mẹ hỗ trợ trông nom con cái, hàng ngày đưa đón con đi học.",
+    "grammar_point": {
+      "name": "Liên từ tương phản & nghịch lý: 相反 (Ngược lại / Trái lại)",
+      "pattern": "Vế thực tế A + 不仅没有……，相反 (B: sự việc ngược lại hoàn toàn)",
+      "level": "HSK 4 Trọng điểm",
+      "trap_note": "BẪY THI ĐỌC HIỂU: Từ '相反' (xiāngfǎn) dùng để chuyển ý sang một tình huống hoàn toàn trái ngược với lẽ thường. Đề thi thường hỏi câu hỏi suy luận: Bố mẹ có con đi làm thì ai chăm sóc con cái? Người học phải chú ý câu sau chữ '相反' để chọn đáp án đúng ('由老人照顾').",
+      "explanation": "Đoạn văn phản ánh chân thực nhịp sống đô thị hiện đại. '夫妻都工作' (hai vợ chồng đều đi làm), '不仅没有……' (không những không...), '相反' tạo nên bước ngoặt thông tin quan trọng nhất."
+    },
+    "tokens": [
+      {
+        "text": "现在",
+        "type": "normal",
+        "role": "Time",
+        "meaning": "hiện nay",
+        "pinyin": "xiàn zài",
+        "hanviet": "Hiện Tại"
+      },
+      {
+        "text": "很多",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "nhiều",
+        "pinyin": "hěn duō",
+        "hanviet": "Ngận Đa"
+      },
+      {
+        "text": "家庭",
+        "type": "core",
+        "role": "Noun",
+        "meaning": "gia đình",
+        "pinyin": "jiā tíng",
+        "hanviet": "Gia Đình"
+      },
+      {
+        "text": "夫妻",
+        "type": "core",
+        "role": "S",
+        "meaning": "vợ chồng",
+        "pinyin": "fū qī",
+        "hanviet": "Phu Thê"
+      },
+      {
+        "text": "都",
+        "type": "normal",
+        "role": "Adv",
+        "meaning": "đều",
+        "pinyin": "dōu",
+        "hanviet": "Đô"
+      },
+      {
+        "text": "工作",
+        "type": "normal",
+        "role": "V",
+        "meaning": "làm việc",
+        "pinyin": "gōng zuò",
+        "hanviet": "Công Tác"
+      },
+      {
+        "text": "不仅",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "không những",
+        "pinyin": "bù jǐn",
+        "hanviet": "Bất Cận"
+      },
+      {
+        "text": "没有时间",
+        "type": "normal",
+        "role": "Predicate",
+        "meaning": "không có thời gian",
+        "pinyin": "méi yǒu shí jiān",
+        "hanviet": "Một Hữu Thời Gian"
+      },
+      {
+        "text": "照顾",
+        "type": "normal",
+        "role": "V",
+        "meaning": "chăm sóc",
+        "pinyin": "zhào gù",
+        "hanviet": "Chiếu Cố"
+      },
+      {
+        "text": "父母",
+        "type": "core",
+        "role": "O",
+        "meaning": "bố mẹ",
+        "pinyin": "fù mǔ",
+        "hanviet": "Phụ Mẫu"
+      },
+      {
+        "text": "相反",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "ngược lại, trái lại",
+        "pinyin": "xiāng fǎn",
+        "hanviet": "Tương Phản"
+      },
+      {
+        "text": "大多数",
+        "type": "core",
+        "role": "S2",
+        "meaning": "đại đa số",
+        "pinyin": "dà duō shù",
+        "hanviet": "Đại Đa Số"
+      },
+      {
+        "text": "还要",
+        "type": "normal",
+        "role": "Adv",
+        "meaning": "còn phải",
+        "pinyin": "hái yào",
+        "hanviet": "Hoàn Yêu"
+      },
+      {
+        "text": "请",
+        "type": "normal",
+        "role": "V_causative",
+        "meaning": "nhờ, mời",
+        "pinyin": "qǐng",
+        "hanviet": "Thỉnh"
+      },
+      {
+        "text": "帮忙",
+        "type": "normal",
+        "role": "V",
+        "meaning": "giúp đỡ",
+        "pinyin": "bāng máng",
+        "hanviet": "Bang Mang"
+      },
+      {
+        "text": "孩子",
+        "type": "normal",
+        "role": "O2",
+        "meaning": "con cái",
+        "pinyin": "hái zi",
+        "hanviet": "Hài Tử"
+      },
+      {
+        "text": "每天",
+        "type": "normal",
+        "role": "Time",
+        "meaning": "mỗi ngày",
+        "pinyin": "měi tiān",
+        "hanviet": "Mỗi Thiên"
+      },
+      {
+        "text": "接送",
+        "type": "core",
+        "role": "V_compound",
+        "meaning": "đưa đón",
+        "pinyin": "jiē sòng",
+        "hanviet": "Tiếp Tống"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Bối cảnh xã hội",
+        "text": "现在很多家庭夫妻都工作",
+        "type": "subject",
+        "desc": "Cả vợ và chồng đều tham gia lao động"
+      },
+      {
+        "role": "Hạn chế thực tế",
+        "text": "不仅没有时间照顾父母",
+        "type": "predicate",
+        "desc": "Không thể phụng dưỡng chăm nom cha mẹ"
+      },
+      {
+        "role": "Nghịch lý đảo ngược",
+        "text": "相反，大多数还要请父母帮忙照顾孩子",
+        "type": "conj",
+        "desc": "Điểm chốt: nhờ cậy lại thế hệ ông bà"
+      },
+      {
+        "role": "Công việc thường nhật",
+        "text": "每天接送孩子上下学",
+        "type": "predicate",
+        "desc": "Đưa đón con đi học hàng ngày"
+      }
+    ],
+    "practice": {
+      "type": "cloze",
+      "blank_sentence": "不仅没有时间照顾父母，（ ____ ），大多数还要请父母帮忙照顾孩子。",
+      "target_word": "相反",
+      "options": [
+        {
+          "word": "相反",
+          "pinyin": "xiāngfǎn",
+          "hanviet": "Tương Phản",
+          "meaning": "ngược lại, trái lại"
+        },
+        {
+          "word": "随着",
+          "pinyin": "suízhe",
+          "hanviet": "Tùy Trứ",
+          "meaning": "cùng với"
+        },
+        {
+          "word": "即使",
+          "pinyin": "jíshǐ",
+          "hanviet": "Tức Sử",
+          "meaning": "cho dù"
+        },
+        {
+          "word": "因此",
+          "pinyin": "yīncǐ",
+          "hanviet": "Nhân Thử",
+          "meaning": "do đó"
+        }
+      ],
+      "clue": "Vế trước không chăm sóc được cha mẹ, vế sau lại nhờ cha mẹ chăm sóc con. Mối quan hệ tương phản đối lập cần liên từ '相反'."
+    },
+    "pinyin": "xiàn zài hěn duō jiā tíng fū qī dōu gōng zuò ， bù jǐn méi yǒu shí jiān zhào gù fù mǔ ， xiāng fǎn ， dà duō shù hái yào qǐng fù mǔ bāng máng zhào gù hái zi ， měi tiān jiē sòng hái zi shàng xià xué 。",
+    "hanviet": "Hiện Tại Ngận Đa Gia Đình Phu Thê Đô Công Tác ， Bất Cận Một Hữu Thời Gian Chiếu Cố Phụ Mẫu ， Tương Phản ， Đại Đa Sổ Hoàn Yêu Thỉnh Phụ Mẫu Bang Mang Chiếu Cố Hài Tử ， Mỗi Thiên Tiếp Tống Hài Tử Thướng Hạ Học 。"
+  },
+  {
+    "id": "hsk4_p2_78",
+    "category": "paragraph",
+    "title": "Hiếu thuận cha mẹ và cách đối nhân xử thế",
+    "source": "HSK 4 模拟试卷 2",
+    "exam_part": "阅读 第三部分 (短文阅读 第78题)",
+    "zh": "一个孝顺父母的人，一定值得别人尊重。一个连自己的父母都不尊敬的人，又怎么能真正地对别人好呢？",
+    "vietnamese": "Một người hiếu thảo với cha mẹ, nhất định xứng đáng nhận được sự tôn trọng của người khác. Một người mà ngay cả cha mẹ của mình cũng không tôn kính, thì làm sao có thể thực lòng đối xử tốt với người khác được?",
+    "grammar_point": {
+      "name": "Cấu trúc nhấn mạnh kết hợp phản vấn: 连……都……，又怎么能……呢？",
+      "pattern": "连 + Đối tượng tối thiểu + 都/也 + Phủ định -> 又 + 怎么能 + V + 呢？",
+      "level": "HSK 4 Đỉnh cao ngữ pháp",
+      "trap_note": "BẪY THI PHẢN VẤN: '又怎么能……呢？' là câu hỏi tu từ (phản vấn), hình thức tuy là câu hỏi nhưng mang nội dung khẳng định mạnh mẽ phủ định tuyệt đối: 'chắc chắn không bao giờ có thể đối xử tốt với người khác được!'. Người làm bài thi đọc hiểu HSK 4 không được hiểu lầm thành người nói đang thắc mắc.",
+      "explanation": "Cấu trúc '连……都……' đặt đối tượng thiêng liêng nhất là cha mẹ lên bàn cân để chứng minh rằng nếu việc cơ bản nhất không làm được thì không thể kỳ vọng việc cao xa hơn."
+    },
+    "tokens": [
+      {
+        "text": "一个",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "một",
+        "pinyin": "yí gè",
+        "hanviet": "Nhất Cá"
+      },
+      {
+        "text": "孝顺",
+        "type": "advanced",
+        "role": "Adj_V",
+        "meaning": "hiếu thảo, hiếu thuận",
+        "pinyin": "xiào shùn",
+        "hanviet": "Hiếu Thuận"
+      },
+      {
+        "text": "父母",
+        "type": "core",
+        "role": "O_attr",
+        "meaning": "cha mẹ",
+        "pinyin": "fù mǔ",
+        "hanviet": "Phụ Mẫu"
+      },
+      {
+        "text": "的人",
+        "type": "normal",
+        "role": "S",
+        "meaning": "người...",
+        "pinyin": "de rén",
+        "hanviet": "Đích Nhân"
+      },
+      {
+        "text": "一定",
+        "type": "normal",
+        "role": "Adv",
+        "meaning": "nhất định",
+        "pinyin": "yí dìng",
+        "hanviet": "Nhất Định"
+      },
+      {
+        "text": "值得",
+        "type": "core",
+        "role": "V",
+        "meaning": "xứng đáng",
+        "pinyin": "zhí de",
+        "hanviet": "Trị Đắc"
+      },
+      {
+        "text": "别人",
+        "type": "normal",
+        "role": "Noun",
+        "meaning": "người khác",
+        "pinyin": "bié rén",
+        "hanviet": "Biệt Nhân"
+      },
+      {
+        "text": "尊重",
+        "type": "core",
+        "role": "V2",
+        "meaning": "tôn trọng",
+        "pinyin": "zūn zhòng",
+        "hanviet": "Tôn Trọng"
+      },
+      {
+        "text": "连",
+        "type": "grammar",
+        "role": "Prep",
+        "meaning": "ngay cả, đến cả (cấu trúc 连)",
+        "pinyin": "lián",
+        "hanviet": "Liên"
+      },
+      {
+        "text": "自己的",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "của chính mình",
+        "pinyin": "zì jǐ de",
+        "hanviet": "Tự Kỷ Đích"
+      },
+      {
+        "text": "都",
+        "type": "grammar",
+        "role": "Adv",
+        "meaning": "cũng, đều",
+        "pinyin": "dōu",
+        "hanviet": "Đô"
+      },
+      {
+        "text": "不尊敬",
+        "type": "core",
+        "role": "Predicate",
+        "meaning": "không tôn kính",
+        "pinyin": "bù zūn jìng",
+        "hanviet": "Bất Tôn Kính"
+      },
+      {
+        "text": "又",
+        "type": "grammar",
+        "role": "Adv",
+        "meaning": "lại (tăng cường ngữ khí)",
+        "pinyin": "yòu",
+        "hanviet": "Hựu"
+      },
+      {
+        "text": "怎么能",
+        "type": "grammar",
+        "role": "Modal",
+        "meaning": "làm sao có thể (câu hỏi tu từ)",
+        "pinyin": "zěn me néng",
+        "hanviet": "Chẩm Ma Năng"
+      },
+      {
+        "text": "真正地",
+        "type": "core",
+        "role": "Adv",
+        "meaning": "một cách chân chính",
+        "pinyin": "zhēn zhèng dì",
+        "hanviet": "Chân Chinh Địa"
+      },
+      {
+        "text": "对别人好",
+        "type": "normal",
+        "role": "Predicate",
+        "meaning": "đối tốt với người khác",
+        "pinyin": "duì bié rén hǎo",
+        "hanviet": "Đối Biệt Nhân Hảo"
+      },
+      {
+        "text": "呢",
+        "type": "grammar",
+        "role": "Part",
+        "meaning": "sao, ư (trợ từ phản vấn)",
+        "pinyin": "ne",
+        "hanviet": "Ni"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Mệnh đề khẳng định",
+        "text": "一个孝顺父母的人，一定值得别人尊重",
+        "type": "subject",
+        "desc": "Người hiếu thuận ắt được nể trọng"
+      },
+      {
+        "role": "Cấu trúc 连……都",
+        "text": "一个连自己的父母都不尊敬的人",
+        "type": "prep",
+        "desc": "Đưa ra giới hạn đạo đức tối thiểu"
+      },
+      {
+        "role": "Câu hỏi phản vấn",
+        "text": "又怎么能真正地对别人好呢？",
+        "type": "predicate",
+        "desc": "Khẳng định tuyệt đối: không thể đối xử tốt với ai"
+      }
+    ],
+    "practice": {
+      "type": "cloze",
+      "blank_sentence": "一个（ ____ ）自己的父母都不尊敬的人，又怎么能真正地对别人好呢？",
+      "target_word": "连",
+      "options": [
+        {
+          "word": "连",
+          "pinyin": "lián",
+          "hanviet": "Liên",
+          "meaning": "ngay cả, đến cả"
+        },
+        {
+          "word": "把",
+          "pinyin": "bǎ",
+          "hanviet": "Bả",
+          "meaning": "đem"
+        },
+        {
+          "word": "被",
+          "pinyin": "bèi",
+          "hanviet": "Bị",
+          "meaning": "bị"
+        },
+        {
+          "word": "向",
+          "pinyin": "xiàng",
+          "hanviet": "Hướng",
+          "meaning": "về phía"
+        }
+      ],
+      "clue": "Đi cùng với từ '都' phía sau ('都不尊敬') để nhấn mạnh mức độ cực đoan, chọn từ '连'."
+    },
+    "pinyin": "yí gè xiào shùn fù mǔ de rén ， yí dìng zhí de bié rén zūn zhòng 。 yí gè lián zì jǐ de fù mǔ dōu bù zūn jìng de rén ， yòu zěn me néng zhēn zhèng dì duì bié rén hǎo ne ？",
+    "hanviet": "Nhất Cá Hiếu Thuận Phụ Mẫu Đích Nhân ， Nhất Định Trị Đắc Biệt Nhân Tôn Trọng 。 Nhất Cá Liên Tự Kỷ Đích Phụ Mẫu Đô Bất Tôn Kính Đích Nhân ， Hựu Chẩm Ma Năng Chân Chinh Địa Đối Biệt Nhân Hảo Ni ？"
+  },
+  {
+    "id": "hsk4_c1_47",
+    "category": "cloze",
+    "title": "要过年了，大使馆的工作人员邀请我们去参加晚会",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第一部分 (选词填空 第47题)",
+    "zh": "要过年了，大使馆的工作人员邀请我们去参加晚会。",
+    "vietnamese": "Sắp Tết rồi, nhân viên đại sứ quán mời chúng tôi đến tham dự buổi dạ hội.",
+    "grammar_point": {
+      "name": "Định ngữ chỉ cơ quan / đơn vị công tác: Danh từ cơ quan + 的工作人员",
+      "pattern": "要……了 (sắp...rồi) + Cơ quan/Địa điểm (大使馆) + 的工作人员 + 邀请……",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI: Chỗ trống cần một danh từ đóng vai trò định ngữ hạn chế nơi công tác của '工作人员' (nhân viên). Trong các lựa chọn A-F, '大使馆' (đại sứ quán) là từ danh từ duy nhất phù hợp hoàn hảo với ngữ cảnh ngoại giao và tham gia dạ hội.",
+      "explanation": "'要过年了' là cấu trúc biểu thị sự việc sắp xảy ra. '大使馆' kết hợp với '工作人员' tạo thành cụm danh từ chỉ chủ thể mời tham gia."
+    },
+    "tokens": [
+      {
+        "text": "要",
+        "type": "grammar",
+        "role": "Adv",
+        "meaning": "sắp",
+        "pinyin": "yào",
+        "hanviet": "Yêu"
+      },
+      {
+        "text": "过年",
+        "type": "normal",
+        "role": "V",
+        "meaning": "ăn Tết",
+        "pinyin": "guò nián",
+        "hanviet": "Quá Niên"
+      },
+      {
+        "text": "了",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "rồi",
+        "pinyin": "le",
+        "hanviet": "Liễu"
+      },
+      {
+        "text": "大使馆",
+        "type": "core",
+        "role": "Attr",
+        "meaning": "đại sứ quán",
+        "pinyin": "dà shǐ guǎn",
+        "hanviet": "Đại Sứ Quán"
+      },
+      {
+        "text": "的",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "của",
+        "pinyin": "de",
+        "hanviet": "Đích"
+      },
+      {
+        "text": "工作人员",
+        "type": "core",
+        "role": "S",
+        "meaning": "nhân viên, cán bộ",
+        "pinyin": "gōng zuò rén yuán",
+        "hanviet": "Công Tác Nhân Viên"
+      },
+      {
+        "text": "邀请",
+        "type": "core",
+        "role": "V_causative",
+        "meaning": "mời",
+        "pinyin": "yāo qǐng",
+        "hanviet": "Yêu Thỉnh"
+      },
+      {
+        "text": "我们",
+        "type": "normal",
+        "role": "Pivot",
+        "meaning": "chúng tôi",
+        "pinyin": "wǒ men",
+        "hanviet": "Ngã Môn"
+      },
+      {
+        "text": "去参加",
+        "type": "normal",
+        "role": "V2",
+        "meaning": "đi tham gia",
+        "pinyin": "qù cān jiā",
+        "hanviet": "Khứ Tam Gia"
+      },
+      {
+        "text": "晚会",
+        "type": "core",
+        "role": "O2",
+        "meaning": "buổi tiệc tối, dạ hội",
+        "pinyin": "wǎn huì",
+        "hanviet": "Vãn Hội"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Trạng ngữ thời gian sắp tới",
+        "text": "要过年了",
+        "type": "adv",
+        "desc": "Cấu trúc '要……了' chỉ sự kiện sắp đến"
+      },
+      {
+        "role": "Định ngữ cơ quan",
+        "text": "大使馆",
+        "type": "subject",
+        "desc": "Từ cần điền: bổ nghĩa cho nhân viên"
+      },
+      {
+        "role": "Trung tâm ngữ chủ thể",
+        "text": "的工作人员",
+        "type": "subject",
+        "desc": "Nhân viên làm việc tại đại sứ quán"
+      },
+      {
+        "role": "Vị ngữ kiêm ngữ",
+        "text": "邀请我们去参加晚会",
+        "type": "predicate",
+        "desc": "Động từ '邀请' + tân ngữ kiêm chủ ngữ '我们' + hành động"
+      }
+    ],
+    "practice": {
+      "type": "cloze",
+      "blank_sentence": "要过年了，（ ____ ）的工作人员邀请我们去参加晚会。",
+      "target_word": "大使馆",
+      "options": [
+        {
+          "word": "大使馆",
+          "pinyin": "dàshǐguǎn",
+          "hanviet": "Đại Sứ Quán",
+          "meaning": "đại sứ quán"
+        },
+        {
+          "word": "负责",
+          "pinyin": "fùzé",
+          "hanviet": "Phụ Trách",
+          "meaning": "chịu trách nhiệm"
+        },
+        {
+          "word": "坚持",
+          "pinyin": "jiānchí",
+          "hanviet": "Kiên Trì",
+          "meaning": "kiên trì"
+        },
+        {
+          "word": "替",
+          "pinyin": "tì",
+          "hanviet": "Thế",
+          "meaning": "thay, hộ"
+        }
+      ],
+      "clue": "Đứng trước '的工作人员', cần một danh từ chỉ cơ quan, đơn vị làm việc."
+    },
+    "pinyin": "yào guò nián le ， dà shǐ guǎn de gōng zuò rén yuán yāo qǐng wǒ men qù cān jiā wǎn huì 。",
+    "hanviet": "Yêu Quá Niên Liễu Đại Sử Quán Đích Công Tác Nhân Viên Yêu Thỉnh Ngã Môn Khứ Tam Gia Vãn Hội"
+  },
+  {
+    "id": "hsk4_c1_49",
+    "category": "cloze",
+    "title": "看病的钱我已经替你准备好了",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第一部分 (选词填空 第49题)",
+    "zh": "别发愁了，看病的钱我已经替你准备好了。",
+    "vietnamese": "Đừng lo lắng nữa, tiền khám bệnh tôi đã chuẩn bị sẵn cho bạn rồi.",
+    "grammar_point": {
+      "name": "Giới từ chỉ đối tượng hưởng lợi / thay thế: 替 (Thay / Hộ / Cho)",
+      "pattern": "Chủ ngữ + 已经 + 替 + Người nhận + Động từ + 好 + 了",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI GIỚI TỪ: '替' (tì) thường dùng trong khẩu ngữ có nghĩa là 'cho', 'hộ', 'thay cho ai'. Cụm '替你准备' nghĩa là chuẩn bị giúp bạn. Thí sinh hay nhầm với '给', nhưng trong đề thi khi có '替' đứng trước đối tượng '你', cần nhận biết giới từ đưa người thụ hưởng vào hành động.",
+      "explanation": "'别发愁了' là lời an ủi ngăn chặn nỗi lo. '看病的钱' được đưa lên làm tân ngữ khởi ngữ nhấn mạnh, theo sau là cụm giới từ '替你' bổ nghĩa cho '准备好了'."
+    },
+    "tokens": [
+      {
+        "text": "别",
+        "type": "normal",
+        "role": "Adv_neg",
+        "meaning": "đừng",
+        "pinyin": "bié",
+        "hanviet": "Biệt"
+      },
+      {
+        "text": "发愁",
+        "type": "core",
+        "role": "V",
+        "meaning": "lo lắng, sầu muộn",
+        "pinyin": "fā chóu",
+        "hanviet": "Phát Sầu"
+      },
+      {
+        "text": "了",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "nữa",
+        "pinyin": "le",
+        "hanviet": "Liễu"
+      },
+      {
+        "text": "看病的",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "khám bệnh",
+        "pinyin": "kàn bìng de",
+        "hanviet": "Khán Bệnh Đích"
+      },
+      {
+        "text": "钱",
+        "type": "normal",
+        "role": "Topic",
+        "meaning": "tiền",
+        "pinyin": "qián",
+        "hanviet": "Tiền"
+      },
+      {
+        "text": "我",
+        "type": "normal",
+        "role": "S",
+        "meaning": "tôi",
+        "pinyin": "wǒ",
+        "hanviet": "Ngã"
+      },
+      {
+        "text": "已经",
+        "type": "normal",
+        "role": "Adv",
+        "meaning": "đã",
+        "pinyin": "yǐ jīng",
+        "hanviet": "Dĩ Kinh"
+      },
+      {
+        "text": "替",
+        "type": "grammar",
+        "role": "Prep",
+        "meaning": "thay, hộ, cho (giới từ)",
+        "pinyin": "tì",
+        "hanviet": "Thế"
+      },
+      {
+        "text": "你",
+        "type": "normal",
+        "role": "O_prep",
+        "meaning": "bạn",
+        "pinyin": "nǐ",
+        "hanviet": "Nễ"
+      },
+      {
+        "text": "准备",
+        "type": "core",
+        "role": "V",
+        "meaning": "chuẩn bị",
+        "pinyin": "zhǔn bèi",
+        "hanviet": "Chuẩn Bị"
+      },
+      {
+        "text": "好",
+        "type": "normal",
+        "role": "Comp",
+        "meaning": "xong, chu đáo (bổ ngữ kết quả)",
+        "pinyin": "hǎo",
+        "hanviet": "Hảo"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Khuyên nhủ an ủi",
+        "text": "别发愁了",
+        "type": "adv",
+        "desc": "Động từ '发愁' đi với '别……了'"
+      },
+      {
+        "role": "Chủ đề khởi ngữ",
+        "text": "看病的钱",
+        "type": "subject",
+        "desc": "Đối tượng tiền viện phí khám chữa bệnh"
+      },
+      {
+        "role": "Cụm giới từ thay thế",
+        "text": "替你",
+        "type": "prep",
+        "desc": "Từ cần điền: làm giúp cho bạn"
+      },
+      {
+        "role": "Vị ngữ hoàn tất chu tất",
+        "text": "准备好了",
+        "type": "predicate",
+        "desc": "Động từ '准备' + bổ ngữ kết quả '好'"
+      }
+    ],
+    "practice": {
+      "type": "cloze",
+      "blank_sentence": "别发愁了，看病的钱我已经（ ____ ）你准备好了。",
+      "target_word": "替",
+      "options": [
+        {
+          "word": "替",
+          "pinyin": "tì",
+          "hanviet": "Thế",
+          "meaning": "thay, hộ, cho"
+        },
+        {
+          "word": "遵守",
+          "pinyin": "zūnshǒu",
+          "hanviet": "Tuân Thủ",
+          "meaning": "tuân theo"
+        },
+        {
+          "word": "始终",
+          "pinyin": "shǐzhōng",
+          "hanviet": "Thủy Chung",
+          "meaning": "luôn luôn"
+        },
+        {
+          "word": "负责",
+          "pinyin": "fùzé",
+          "hanviet": "Phụ Trách",
+          "meaning": "có trách nhiệm"
+        }
+      ],
+      "clue": "Đứng trước đại từ nhân xưng '你' và sau '已经', cần một giới từ mang nghĩa 'làm hộ cho bạn'."
+    },
+    "pinyin": "bié fā chóu le ， kàn bìng de qián wǒ yǐ jīng tì nǐ zhǔn bèi hǎo le 。",
+    "hanviet": "Biệt Phát Sầu Liễu Khán Bệnh Đích Tiền Ngã Dĩ Kinh Thế Nễ Chuẩn Bị Hảo Liễu"
+  },
+  {
+    "id": "hsk4_c1_51",
+    "category": "cloze",
+    "title": "新娘长得很漂亮，就是矮了点儿",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第一部分 (选词填空 第51题)",
+    "zh": "还行，新娘长得很漂亮，就是矮了点儿。",
+    "vietnamese": "Cũng được, cô dâu trông rất xinh xắn, chỉ có điều hơi thấp một chút.",
+    "grammar_point": {
+      "name": "Liên từ chuyển ý nhẹ: 就是 (Chỉ có điều / Ngặt nỗi)",
+      "pattern": "Khen ngợi tổng thể A + 就是 + Điểm trừ nhỏ B (矮了点儿)",
+      "level": "HSK 4 Trọng điểm",
+      "trap_note": "BẪY THI: '就是' ngoài nghĩa 'chính là' còn là một liên từ khẩu ngữ cực hay gặp trong HSK 4 để biểu thị sự chuyển ý nhẹ: mặt tổng thể rất tốt nhưng có một chi tiết nhỏ chưa trọn vẹn ('xinh thì xinh nhưng ngặt nỗi hơi thấp').",
+      "explanation": "'长得' mang bổ ngữ trạng thái '很漂亮'. '就是' nối tiếp câu để bổ sung nhược điểm nhỏ mà không phủ nhận ưu điểm lớn ban đầu."
+    },
+    "tokens": [
+      {
+        "text": "还行",
+        "type": "normal",
+        "role": "Phrase",
+        "meaning": "cũng tạm, được",
+        "pinyin": "hái xíng",
+        "hanviet": "Hoàn Hành"
+      },
+      {
+        "text": "新娘",
+        "type": "core",
+        "role": "S",
+        "meaning": "cô dâu",
+        "pinyin": "xīn niáng",
+        "hanviet": "Tân Nương"
+      },
+      {
+        "text": "长得",
+        "type": "normal",
+        "role": "V_comp",
+        "meaning": "trông, tướng mạo",
+        "pinyin": "zhǎng dé",
+        "hanviet": "Trường Đắc"
+      },
+      {
+        "text": "很漂亮",
+        "type": "normal",
+        "role": "Comp",
+        "meaning": "rất xinh đẹp",
+        "pinyin": "hěn piào liàng",
+        "hanviet": "Ngận Phiêu Lượng"
+      },
+      {
+        "text": "就是",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "chỉ có điều, ngặt nỗi (chuyển ý)",
+        "pinyin": "jiù shì",
+        "hanviet": "Tựu Thị"
+      },
+      {
+        "text": "矮",
+        "type": "normal",
+        "role": "Adj",
+        "meaning": "thấp, lùn",
+        "pinyin": "ǎi",
+        "hanviet": "Ải"
+      },
+      {
+        "text": "了点儿",
+        "type": "normal",
+        "role": "Comp",
+        "meaning": "một chút",
+        "pinyin": "le diǎn ér",
+        "hanviet": "Liễu Điểm Nhân"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Đánh giá chung",
+        "text": "新娘长得很漂亮",
+        "type": "subject",
+        "desc": "Mặt tích cực vượt trội"
+      },
+      {
+        "role": "Liên từ chuyển ý nhẹ",
+        "text": "就是",
+        "type": "conj",
+        "desc": "Từ cần điền: chỉ có điều"
+      },
+      {
+        "role": "Hạn chế nhỏ",
+        "text": "矮了点儿",
+        "type": "predicate",
+        "desc": "Hơi thấp một chút xíu"
+      }
+    ],
+    "practice": {
+      "type": "cloze",
+      "blank_sentence": "还行，新娘长得很漂亮，（ ____ ）矮了点儿。",
+      "target_word": "就是",
+      "options": [
+        {
+          "word": "就是",
+          "pinyin": "jiùshì",
+          "hanviet": "Tựu Thị",
+          "meaning": "chỉ có điều, ngặt nỗi"
+        },
+        {
+          "word": "以及",
+          "pinyin": "yǐjí",
+          "hanviet": "Dĩ Cập",
+          "meaning": "cũng như"
+        },
+        {
+          "word": "表达",
+          "pinyin": "biǎodá",
+          "hanviet": "Biểu Đạt",
+          "meaning": "bày tỏ"
+        },
+        {
+          "word": "看不起",
+          "pinyin": "kànbuqǐ",
+          "hanviet": "Khán Bất Khởi",
+          "meaning": "coi thường"
+        }
+      ],
+      "clue": "Phía trước khen 'xinh xắn', phía sau chỉ ra nhược điểm 'hơi thấp'. Cần liên từ chuyển ý nhẹ 'chỉ có điều'."
+    },
+    "pinyin": "hái xíng ， xīn niáng zhǎng dé hěn piào liàng ， jiù shì ǎi le diǎn ér 。",
+    "hanviet": "Hoàn Hành Tân Nương Trường Đắc Ngận Phiêu Lượng Tựu Thị Ải Liễu Điểm Nhân"
+  },
+  {
+    "id": "hsk4_c1_53",
+    "category": "cloze",
+    "title": "词典、课本以及各种参考书都有",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第一部分 (选词填空 第53题)",
+    "zh": "那儿词典、课本以及各种参考书都有，而且还能保证质量。",
+    "vietnamese": "Ở đó từ điển, sách giáo khoa cũng như các loại sách tham khảo đều có đủ, hơn nữa còn đảm bảo chất lượng.",
+    "grammar_point": {
+      "name": "Liên từ đẳng lập văn viết: 以及 (Cũng như / Và)",
+      "pattern": "Danh từ 1 + Danh từ 2 + 以及 + Danh từ cuối cùng",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI LIÊN TỪ: '以及' dùng để nối các danh từ hoặc cụm danh từ đồng đẳng khi liệt kê từ 3 đối tượng trở lên, và '以及' luôn đứng trước đối tượng cuối cùng (A, B 以及 C).",
+      "explanation": "'词典', '课本' và '各种参考书' là các thành phần liệt kê song song. '以及' đảm nhận vai trò liên từ nối hạng mục cuối cùng một cách trang trọng."
+    },
+    "tokens": [
+      {
+        "text": "那儿",
+        "type": "normal",
+        "role": "Place",
+        "meaning": "nơi đó",
+        "pinyin": "nà ér",
+        "hanviet": "Na Nhân"
+      },
+      {
+        "text": "词典",
+        "type": "core",
+        "role": "Noun",
+        "meaning": "từ điển",
+        "pinyin": "cí diǎn",
+        "hanviet": "Từ Điển"
+      },
+      {
+        "text": "课本",
+        "type": "normal",
+        "role": "Noun",
+        "meaning": "sách giáo khoa",
+        "pinyin": "kè běn",
+        "hanviet": "Khoá Bản"
+      },
+      {
+        "text": "以及",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "cũng như, và (liên từ đẳng lập)",
+        "pinyin": "yǐ jí",
+        "hanviet": "Dĩ Cập"
+      },
+      {
+        "text": "各种",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "các loại",
+        "pinyin": "gè zhǒng",
+        "hanviet": "Các Chủng"
+      },
+      {
+        "text": "参考书",
+        "type": "advanced",
+        "role": "Noun",
+        "meaning": "sách tham khảo",
+        "pinyin": "cān kǎo shū",
+        "hanviet": "Tam Khảo Thư"
+      },
+      {
+        "text": "都有",
+        "type": "normal",
+        "role": "Predicate",
+        "meaning": "đều có",
+        "pinyin": "dōu yǒu",
+        "hanviet": "Đô Hữu"
+      },
+      {
+        "text": "而且",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "hơn nữa",
+        "pinyin": "ér qiě",
+        "hanviet": "Nhi Thả"
+      },
+      {
+        "text": "还能",
+        "type": "normal",
+        "role": "Adv",
+        "meaning": "còn có thể",
+        "pinyin": "hái néng",
+        "hanviet": "Hoàn Năng"
+      },
+      {
+        "text": "保证",
+        "type": "core",
+        "role": "V",
+        "meaning": "bảo đảm",
+        "pinyin": "bǎo zhèng",
+        "hanviet": "Bảo Chứng"
+      },
+      {
+        "text": "质量",
+        "type": "core",
+        "role": "O",
+        "meaning": "chất lượng",
+        "pinyin": "zhì liàng",
+        "hanviet": "Chất Lượng"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Các hạng mục liệt kê",
+        "text": "那儿词典、课本",
+        "type": "subject",
+        "desc": "Các đối tượng sách vở thứ nhất và thứ hai"
+      },
+      {
+        "role": "Liên từ nối hạng mục cuối",
+        "text": "以及",
+        "type": "conj",
+        "desc": "Từ cần điền: liên kết danh từ đẳng lập cuối"
+      },
+      {
+        "role": "Hạng mục thứ ba",
+        "text": "各种参考书",
+        "type": "object",
+        "desc": "Sách tham khảo các thể loại"
+      },
+      {
+        "role": "Khẳng định chất lượng",
+        "text": "都有，而且还能保证质量",
+        "type": "predicate",
+        "desc": "Đầy đủ mặt hàng và đảm bảo chất lượng"
+      }
+    ],
+    "practice": {
+      "type": "cloze",
+      "blank_sentence": "那儿词典、课本（ ____ ）各种参考书都有，而且还能保证质量。",
+      "target_word": "以及",
+      "options": [
+        {
+          "word": "以及",
+          "pinyin": "yǐjí",
+          "hanviet": "Dĩ Cập",
+          "meaning": "cũng như, và"
+        },
+        {
+          "word": "表达",
+          "pinyin": "biǎodá",
+          "hanviet": "Biểu Đạt",
+          "meaning": "diễn đạt"
+        },
+        {
+          "word": "就是",
+          "pinyin": "jiùshì",
+          "hanviet": "Tựu Thị",
+          "meaning": "chính là, chỉ là"
+        },
+        {
+          "word": "看不起",
+          "pinyin": "kànbuqǐ",
+          "hanviet": "Khán Bất Khởi",
+          "meaning": "coi thường"
+        }
+      ],
+      "clue": "Đứng giữa các danh từ liệt kê '词典、课本' và '各种参考书', cần một liên từ nối đẳng lập."
+    },
+    "pinyin": "nà ér cí diǎn 、 kè běn yǐ jí gè zhǒng cān kǎo shū dōu yǒu ， ér qiě hái néng bǎo zhèng zhì liàng 。",
+    "hanviet": "Na Nhân Từ Điển Khoá Bản Dĩ Cập Các Chủng Tam Khảo Thư Đô Hữu Nhi Thả Hoàn Năng Bảo Chứng Chất Lượng"
+  },
+  {
+    "id": "hsk4_r1_58",
+    "category": "sentence_logic",
+    "title": "李小姐看起来很文静，实际上性格特别外向，对生活充满了热情",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第二部分 (排列顺序 第58题)",
+    "zh": "李小姐看起来很文静，实际上性格特别外向，对生活充满了热情。",
+    "vietnamese": "Cô Lý trông vẻ ngoài rất dịu dàng điềm tĩnh, nhưng trên thực tế tính cách lại đặc biệt hướng ngoại, đối với cuộc sống tràn đầy nhiệt huyết.",
+    "grammar_point": {
+      "name": "Tương phản giữa biểu hiện bên ngoài và bản chất: 看起来……，实际上……",
+      "pattern": "Ngoại hình/Cảm quan (A: 看起来...) -> Bản chất thực tế (B: 实际上...) -> Biểu hiện cụ thể (C: 对...充满...)",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "MẸO LÀM BÀI: '看起来' chỉ ấn tượng bên ngoài bề mặt, '实际上' (thực ra, thực tế) là từ chuyển ý tương phản mạnh mẽ để phơi bày tính cách thực thụ. Câu C bổ sung mức độ cụ thể cho tính cách hướng ngoại ở câu B. Thứ tự: A - B - C.",
+      "explanation": "'文静' (dịu dàng, điềm đạm) đối lập với '外向' (hướng ngoại). '对……充满热情' là cụm kết hợp cao cấp trong HSK 4."
+    },
+    "tokens": [
+      {
+        "text": "李小姐",
+        "type": "core",
+        "role": "S",
+        "meaning": "Cô Lý",
+        "pinyin": "lǐ xiǎo jiě",
+        "hanviet": "Lý Tiểu Tỷ"
+      },
+      {
+        "text": "看起来",
+        "type": "core",
+        "role": "Adv",
+        "meaning": "nhìn có vẻ, trông bề ngoài",
+        "pinyin": "kàn qǐ lái",
+        "hanviet": "Khán Khởi Lai"
+      },
+      {
+        "text": "很文静",
+        "type": "advanced",
+        "role": "Adj",
+        "meaning": "rất dịu dàng, trầm tĩnh",
+        "pinyin": "hěn wén jìng",
+        "hanviet": "Ngận Văn Tĩnh"
+      },
+      {
+        "text": "实际上",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "thực tế, thật ra (chuyển ý)",
+        "pinyin": "shí jì shàng",
+        "hanviet": "Thực Tế Thướng"
+      },
+      {
+        "text": "性格",
+        "type": "core",
+        "role": "S2",
+        "meaning": "tính cách",
+        "pinyin": "xìng gé",
+        "hanviet": "Tính Cách"
+      },
+      {
+        "text": "特别",
+        "type": "core",
+        "role": "Adv",
+        "meaning": "đặc biệt",
+        "pinyin": "tè bié",
+        "hanviet": "Đặc Biệt"
+      },
+      {
+        "text": "外向",
+        "type": "advanced",
+        "role": "Adj",
+        "meaning": "hướng ngoại",
+        "pinyin": "wài xiàng",
+        "hanviet": "Ngoại Hướng"
+      },
+      {
+        "text": "对",
+        "type": "normal",
+        "role": "Prep",
+        "meaning": "đối với",
+        "pinyin": "duì",
+        "hanviet": "Đối"
+      },
+      {
+        "text": "生活",
+        "type": "normal",
+        "role": "Noun",
+        "meaning": "cuộc sống",
+        "pinyin": "shēng huó",
+        "hanviet": "Sinh Hoạt"
+      },
+      {
+        "text": "充满",
+        "type": "core",
+        "role": "V",
+        "meaning": "tràn ngập, chan chứa",
+        "pinyin": "chōng mǎn",
+        "hanviet": "Sung Mãn"
+      },
+      {
+        "text": "了",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "đầy",
+        "pinyin": "le",
+        "hanviet": "Liễu"
+      },
+      {
+        "text": "热情",
+        "type": "core",
+        "role": "O",
+        "meaning": "nhiệt huyết, nhiệt tình",
+        "pinyin": "rè qíng",
+        "hanviet": "Nhiệt Tình"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Ấn tượng bề ngoài (A)",
+        "text": "李小姐看起来很文静",
+        "type": "subject",
+        "desc": "Vẻ bề ngoài có vẻ trầm lắng"
+      },
+      {
+        "role": "Bản chất thực tế (B)",
+        "text": "实际上性格特别外向",
+        "type": "conj",
+        "desc": "Chuyển ý: tính cách thực ra rất sôi nổi"
+      },
+      {
+        "role": "Minh chứng thái độ sống (C)",
+        "text": "对生活充满了热情",
+        "type": "predicate",
+        "desc": "Luôn tràn đầy năng lượng tích cực"
+      }
+    ],
+    "practice": {
+      "type": "sentence_logic",
+      "scrambled_items": [
+        {
+          "key": "A",
+          "text": "李小姐看起来很文静"
+        },
+        {
+          "key": "B",
+          "text": "实际上性格特别外向"
+        },
+        {
+          "key": "C",
+          "text": "对生活充满了热情"
+        }
+      ],
+      "correct_order": "ABC",
+      "explanation": "A nêu ấn tượng ban đầu -> B dùng '实际上' hé lộ bản chất -> C bổ nghĩa cho tinh thần nhiệt huyết của B."
+    },
+    "pinyin": "lǐ xiǎo jiě kàn qǐ lái hěn wén jìng ， shí jì shàng xìng gé tè bié wài xiàng ， duì shēng huó chōng mǎn le rè qíng 。",
+    "hanviet": "Lý Tiểu Tỷ Khán Khởi Lai Ngận Văn Tĩnh Thực Tế Thướng Tính Cách Đặc Biệt Ngoại Hướng Đối Sinh Hoạt Sung Mãn Liễu Nhiệt Tình"
+  },
+  {
+    "id": "hsk4_r1_59",
+    "category": "sentence_logic",
+    "title": "由于非常紧张，他忘记了台词，结果挨了导演的批评",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第二部分 (排列顺序 第59题)",
+    "zh": "由于非常紧张，他忘记了台词，结果挨了导演的批评。",
+    "vietnamese": "Bởi vì quá căng thẳng, anh ấy quên mất lời thoại, kết quả là bị đạo diễn phê bình.",
+    "grammar_point": {
+      "name": "Chuỗi quan hệ nhân quả: 由于……，……，结果……",
+      "pattern": "Nguyên nhân gốc (B: 由于...) -> Hành vi dẫn xuất (C: 忘记...) -> Hậu quả cuối cùng (A: 结果挨了...)",
+      "level": "HSK 4 Trọng điểm",
+      "trap_note": "BẪY THI: 1. '由于' đứng đầu nêu nguyên nhân tâm lý. 2. '挨' (ái) là động từ bị động đặc thù mang nghĩa 'bị, chịu' điều không mong muốn ('挨打', '挨骂', '挨批评'). 3. '结果' dẫn ra kết cục cuối cùng, bắt buộc phải đứng cuối. Thứ tự chuẩn: B - C - A.",
+      "explanation": "'由于' mở đầu nguyên nhân, '结果' chốt lại hậu quả. '挨了批评' là cách diễn đạt bị động tự nhiên của người bản xứ."
+    },
+    "tokens": [
+      {
+        "text": "由于",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "do, bởi vì (nguyên nhân)",
+        "pinyin": "yóu yú",
+        "hanviet": "Do Vu"
+      },
+      {
+        "text": "非常",
+        "type": "normal",
+        "role": "Adv",
+        "meaning": "vô cùng",
+        "pinyin": "fēi cháng",
+        "hanviet": "Phi Thường"
+      },
+      {
+        "text": "紧张",
+        "type": "core",
+        "role": "Adj",
+        "meaning": "căng thẳng, hồi hộp",
+        "pinyin": "jǐn zhāng",
+        "hanviet": "Khẩn Trương"
+      },
+      {
+        "text": "他",
+        "type": "normal",
+        "role": "S",
+        "meaning": "anh ấy",
+        "pinyin": "tā",
+        "hanviet": "Tha"
+      },
+      {
+        "text": "忘记",
+        "type": "normal",
+        "role": "V",
+        "meaning": "quên",
+        "pinyin": "wàng jì",
+        "hanviet": "Vong Ký"
+      },
+      {
+        "text": "了",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "mất",
+        "pinyin": "le",
+        "hanviet": "Liễu"
+      },
+      {
+        "text": "台词",
+        "type": "advanced",
+        "role": "O",
+        "meaning": "lời thoại kịch bản",
+        "pinyin": "tái cí",
+        "hanviet": "Đài Từ"
+      },
+      {
+        "text": "结果",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "kết quả là (hậu quả)",
+        "pinyin": "jié guǒ",
+        "hanviet": "Kết Quả"
+      },
+      {
+        "text": "挨",
+        "type": "grammar",
+        "role": "V_passive",
+        "meaning": "bị, chịu (bị động)",
+        "pinyin": "āi",
+        "hanviet": "Ai"
+      },
+      {
+        "text": "了",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "đã",
+        "pinyin": "le",
+        "hanviet": "Liễu"
+      },
+      {
+        "text": "导演的",
+        "type": "core",
+        "role": "Attr",
+        "meaning": "của đạo diễn",
+        "pinyin": "dǎo yǎn de",
+        "hanviet": "Đạo Diễn Đích"
+      },
+      {
+        "text": "批评",
+        "type": "core",
+        "role": "Noun",
+        "meaning": "sự phê bình, chỉ trích",
+        "pinyin": "pī píng",
+        "hanviet": "Phê Bình"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Nguyên nhân tâm lý (B)",
+        "text": "由于非常紧张",
+        "type": "conj",
+        "desc": "Tâm trạng hồi hộp quá mức"
+      },
+      {
+        "role": "Sự cố xảy ra (C)",
+        "text": "他忘记了台词",
+        "type": "subject",
+        "desc": "Hành vi quên kịch bản"
+      },
+      {
+        "role": "Hậu quả bị trách phạt (A)",
+        "text": "结果挨了导演的批评",
+        "type": "predicate",
+        "desc": "Bị đạo diễn nghiêm khắc khiển trách"
+      }
+    ],
+    "practice": {
+      "type": "sentence_logic",
+      "scrambled_items": [
+        {
+          "key": "A",
+          "text": "结果挨了导演的批评"
+        },
+        {
+          "key": "B",
+          "text": "由于非常紧张"
+        },
+        {
+          "key": "C",
+          "text": "他忘记了台词"
+        }
+      ],
+      "correct_order": "BCA",
+      "explanation": "B nêu nguyên nhân với '由于' -> C là sự việc xảy ra do nguyên nhân đó -> A kết luận hậu quả với '结果'."
+    },
+    "pinyin": "yóu yú fēi cháng jǐn zhāng ， tā wàng jì le tái cí ， jié guǒ āi le dǎo yǎn de pī píng 。",
+    "hanviet": "Do Vu Phi Thường Khẩn Trương Tha Vong Ký Liễu Đài Từ Kết Quả Ai Liễu Đạo Diễn Đích Phê Bình"
+  },
+  {
+    "id": "hsk4_r1_64",
+    "category": "sentence_logic",
+    "title": "这几年茶馆的生意非常好，很多人都喜欢到那儿与朋友见面，甚至把工作带到那里去做",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第二部分 (排列顺序 第64题)",
+    "zh": "这几年茶馆的生意非常好，很多人都喜欢到那儿与朋友见面，甚至把工作带到那里去做。",
+    "vietnamese": "Mấy năm nay việc kinh doanh của các quán trà rất phát đạt, nhiều người đều thích đến đó gặp gỡ bạn bè, thậm chí còn mang cả công việc tới đó để làm.",
+    "grammar_point": {
+      "name": "Quan hệ tăng tiến đột phá: 甚至把…… (Thậm chí đem...)",
+      "pattern": "Hiện tượng chung (C) -> Hành vi bình thường (A: 喜欢与朋友见面) -> Mức độ tăng tiến bất ngờ (B: 甚至把工作...)",
+      "level": "HSK 4 Trọng điểm",
+      "trap_note": "MẸO LÀM BÀI: '甚至' (thậm chí) biểu thị bước nhảy vọt về mức độ hành động vượt ra ngoài thói quen thông thường (đến quán trà không chỉ để thư giãn mà còn làm việc). Vế chứa '甚至' luôn đứng sau vế biểu đạt mức độ cơ bản. Thứ tự: C - A - B.",
+      "explanation": "'生意' (kinh doanh), '甚至' (thậm chí) là các từ HSK 4 trọng điểm. Cụm '与……见面' dùng giới từ '与' trang trọng hơn '跟'."
+    },
+    "tokens": [
+      {
+        "text": "这几年",
+        "type": "normal",
+        "role": "Time",
+        "meaning": "mấy năm nay",
+        "pinyin": "zhè jǐ nián",
+        "hanviet": "Giá Kỷ Niên"
+      },
+      {
+        "text": "茶馆的",
+        "type": "advanced",
+        "role": "Attr",
+        "meaning": "của quán trà",
+        "pinyin": "chá guǎn de",
+        "hanviet": "Trà Quán Đích"
+      },
+      {
+        "text": "生意",
+        "type": "core",
+        "role": "S",
+        "meaning": "việc làm ăn buôn bán",
+        "pinyin": "shēng yì",
+        "hanviet": "Sinh Ý"
+      },
+      {
+        "text": "非常好",
+        "type": "normal",
+        "role": "Adj",
+        "meaning": "rất tốt",
+        "pinyin": "fēi cháng hǎo",
+        "hanviet": "Phi Thường Hảo"
+      },
+      {
+        "text": "很多人",
+        "type": "normal",
+        "role": "S2",
+        "meaning": "nhiều người",
+        "pinyin": "hěn duō rén",
+        "hanviet": "Ngận Đa Nhân"
+      },
+      {
+        "text": "都喜欢",
+        "type": "normal",
+        "role": "V",
+        "meaning": "đều thích",
+        "pinyin": "dōu xǐ huān",
+        "hanviet": "Đô Hỷ Hoan"
+      },
+      {
+        "text": "到那儿",
+        "type": "normal",
+        "role": "Place",
+        "meaning": "đến nơi đó",
+        "pinyin": "dào nà ér",
+        "hanviet": "Đáo Na Nhân"
+      },
+      {
+        "text": "与朋友",
+        "type": "core",
+        "role": "Prep_phrase",
+        "meaning": "cùng với bạn bè",
+        "pinyin": "yǔ péng yǒu",
+        "hanviet": "Dư Bằng Hữu"
+      },
+      {
+        "text": "见面",
+        "type": "normal",
+        "role": "V_O",
+        "meaning": "gặp mặt",
+        "pinyin": "jiàn miàn",
+        "hanviet": "Kiến Diện"
+      },
+      {
+        "text": "甚至",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "thậm chí (tăng tiến)",
+        "pinyin": "shèn zhì",
+        "hanviet": "Thậm Chí"
+      },
+      {
+        "text": "把",
+        "type": "grammar",
+        "role": "Prep",
+        "meaning": "đem (câu chữ 把)",
+        "pinyin": "bǎ",
+        "hanviet": "Bả"
+      },
+      {
+        "text": "工作",
+        "type": "normal",
+        "role": "O_prep",
+        "meaning": "công việc",
+        "pinyin": "gōng zuò",
+        "hanviet": "Công Tác"
+      },
+      {
+        "text": "带到那里",
+        "type": "normal",
+        "role": "V_place",
+        "meaning": "mang tới chỗ đó",
+        "pinyin": "dài dào nà lǐ",
+        "hanviet": "Đới Đáo Na Lý"
+      },
+      {
+        "text": "去做",
+        "type": "normal",
+        "role": "V2",
+        "meaning": "để làm",
+        "pinyin": "qù zuò",
+        "hanviet": "Khứ Tố"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Tình hình kinh doanh phát đạt (C)",
+        "text": "这几年茶馆的生意非常好",
+        "type": "subject",
+        "desc": "Nêu bối cảnh các quán trà đông khách"
+      },
+      {
+        "role": "Mục đích phổ biến (A)",
+        "text": "很多人都喜欢到那儿与朋友见面",
+        "type": "predicate",
+        "desc": "Đến để trò chuyện, kết nối xã giao"
+      },
+      {
+        "role": "Mức độ tăng tiến vượt bậc (B)",
+        "text": "甚至把工作带到那里去做",
+        "type": "conj",
+        "desc": "Liên từ '甚至' + câu chữ '把': làm việc luôn tại quán"
+      }
+    ],
+    "practice": {
+      "type": "sentence_logic",
+      "scrambled_items": [
+        {
+          "key": "A",
+          "text": "很多人都喜欢到那儿与朋友见面"
+        },
+        {
+          "key": "B",
+          "text": "甚至把工作带到那里去做"
+        },
+        {
+          "key": "C",
+          "text": "这几年茶馆的生意非常好"
+        }
+      ],
+      "correct_order": "CAB",
+      "explanation": "C là câu chủ đề nêu bối cảnh quán trà -> A là hành vi phổ biến -> B dùng '甚至' nâng cao mức độ."
+    },
+    "pinyin": "zhè jǐ nián chá guǎn de shēng yì fēi cháng hǎo ， hěn duō rén dōu xǐ huān dào nà ér yǔ péng yǒu jiàn miàn ， shèn zhì bǎ gōng zuò dài dào nà lǐ qù zuò 。",
+    "hanviet": "Giá Kỷ Niên Trà Quán Đích Sinh Ý Phi Thường Hảo Ngận Đa Nhân Đô Hỷ Hoan Đáo Na Nhân Dư Bằng Hữu Kiến Diện Thậm Chí Bả Công Tác Đới Đáo Na Lý Khứ Tố"
+  },
+  {
+    "id": "hsk4_r1_60",
+    "category": "sentence_logic",
+    "title": "小张的工作非常好，每月的工资也很高，却经常向父母要钱",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第二部分 (排列顺序 第60题)",
+    "zh": "小张的工作非常好，每月的工资也很高，却经常向父母要钱。",
+    "vietnamese": "Công việc của Tiểu Trương rất tốt, tiền lương mỗi tháng cũng rất cao, nhưng lại thường xuyên xin tiền bố mẹ.",
+    "grammar_point": {
+      "name": "Liên từ tương phản vị ngữ: 却 (Lại / Nhưng mà)",
+      "pattern": "B (Công việc tốt) -> A (Lương cũng cao: 也...) -> C (Nghịch lý: 却经常向父母要钱)",
+      "level": "HSK 4 Trọng điểm",
+      "trap_note": "BẪY THI VỊ TRÍ CHỮ 却: Khác với '但是' hay đứng ở đầu câu, '却' là phó từ mang tính liên từ nên PHẢI ĐỨNG SAU CHỦ NGỮ hoặc đầu vị ngữ vế sau. Không bao giờ nói '却小张经常向父母要钱'. Thứ tự logic: B - A - C.",
+      "explanation": "Câu B đưa ra thông tin nền tảng, câu A bổ sung thêm ưu điểm với '也', câu C đưa ra sự thật đối lập bất ngờ với '却'."
+    },
+    "tokens": [
+      {
+        "text": "小张的",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "của Tiểu Trương",
+        "pinyin": "xiǎo zhāng de",
+        "hanviet": "Tiểu Trương Đích"
+      },
+      {
+        "text": "工作",
+        "type": "normal",
+        "role": "S",
+        "meaning": "công việc",
+        "pinyin": "gōng zuò",
+        "hanviet": "Công Tác"
+      },
+      {
+        "text": "非常好",
+        "type": "normal",
+        "role": "Adj",
+        "meaning": "rất tốt",
+        "pinyin": "fēi cháng hǎo",
+        "hanviet": "Phi Thường Hảo"
+      },
+      {
+        "text": "每月的",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "mỗi tháng",
+        "pinyin": "měi yuè de",
+        "hanviet": "Mỗi Nguyệt Đích"
+      },
+      {
+        "text": "工资",
+        "type": "core",
+        "role": "S2",
+        "meaning": "tiền lương",
+        "pinyin": "gōng zī",
+        "hanviet": "Công Tư"
+      },
+      {
+        "text": "也很高",
+        "type": "normal",
+        "role": "Predicate",
+        "meaning": "cũng rất cao",
+        "pinyin": "yě hěn gāo",
+        "hanviet": "Dã Ngận Cao"
+      },
+      {
+        "text": "却",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "lại, nhưng mà (tương phản)",
+        "pinyin": "què",
+        "hanviet": "Khước"
+      },
+      {
+        "text": "经常",
+        "type": "normal",
+        "role": "Adv",
+        "meaning": "thường xuyên",
+        "pinyin": "jīng cháng",
+        "hanviet": "Kinh Thường"
+      },
+      {
+        "text": "向父母",
+        "type": "core",
+        "role": "Prep_phrase",
+        "meaning": "từ bố mẹ (hướng về bố mẹ)",
+        "pinyin": "xiàng fù mǔ",
+        "hanviet": "Hướng Phụ Mẫu"
+      },
+      {
+        "text": "要钱",
+        "type": "normal",
+        "role": "V_O",
+        "meaning": "đòi tiền, xin tiền",
+        "pinyin": "yào qián",
+        "hanviet": "Yêu Tiền"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Thông tin ưu điểm 1 (B)",
+        "text": "小张的工作非常好",
+        "type": "subject",
+        "desc": "Công việc rất tốt"
+      },
+      {
+        "role": "Thông tin bổ sung 2 (A)",
+        "text": "每月的工资也很高",
+        "type": "predicate",
+        "desc": "Thu nhập cũng cao tương xứng"
+      },
+      {
+        "role": "Nghịch lý trái ngược (C)",
+        "text": "却经常向父母要钱",
+        "type": "conj",
+        "desc": "Hành vi đối lập: lại xin tiền cha mẹ"
+      }
+    ],
+    "practice": {
+      "type": "sentence_logic",
+      "scrambled_items": [
+        {
+          "key": "A",
+          "text": "每月的工资也很高"
+        },
+        {
+          "key": "B",
+          "text": "小张的工作非常好"
+        },
+        {
+          "key": "C",
+          "text": "却经常向父母要钱"
+        }
+      ],
+      "correct_order": "BAC",
+      "explanation": "B nêu công việc tốt -> A bổ sung lương cao với '也' -> C dùng '却' nêu lên sự trái ngược phi lý."
+    },
+    "pinyin": "xiǎo zhāng de gōng zuò fēi cháng hǎo ， měi yuè de gōng zī yě hěn gāo ， què jīng cháng xiàng fù mǔ yào qián 。",
+    "hanviet": "Tiểu Trương Đích Công Tác Phi Thường Hảo Mỗi Nguyệt Đích Công Tư Dã Ngận Cao Khước Kinh Thường Hướng Phụ Mẫu Yêu Tiền"
+  },
+  {
+    "id": "hsk4_r1_61",
+    "category": "sentence_logic",
+    "title": "如果你没什么意见，就在合同上签字，明天就可以搬进来住了",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第二部分 (排列顺序 第61题)",
+    "zh": "如果你没什么意见，就在合同上签字，明天就可以搬进来住了。",
+    "vietnamese": "Nếu bạn không có ý kiến gì, thì hãy ký tên vào hợp đồng, ngày mai là có thể dọn vào ở rồi.",
+    "grammar_point": {
+      "name": "Chuỗi liên hoàn điều kiện & hệ quả: 如果……，就……，……就可以……",
+      "pattern": "Giả thiết đồng thuận (B) -> Hành động cam kết (A: 就在合同上签字) -> Quyền lợi đạt được (C: 就可以搬进来)",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "MẸO LÀM BÀI: B đưa ra điều kiện tiên quyết '如果你没什么意见'. A là hành động pháp lý cần làm ngay theo sau '就在合同上签字'. C là kết quả thời gian tiếp nối '明天就可以...'. Thứ tự: B - A - C.",
+      "explanation": "'合同' (hợp đồng), '签字' (ký tên) là các từ vựng thiết yếu trong đời sống và đề thi HSK 4. '搬进来住' là cụm bổ ngữ xu hướng kép phức hợp."
+    },
+    "tokens": [
+      {
+        "text": "如果",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "nếu (giả thiết)",
+        "pinyin": "rú guǒ",
+        "hanviet": "Như Quả"
+      },
+      {
+        "text": "你没什么",
+        "type": "normal",
+        "role": "Phrase",
+        "meaning": "bạn không có gì",
+        "pinyin": "nǐ méi shén me",
+        "hanviet": "Nễ Một Thập Ma"
+      },
+      {
+        "text": "意见",
+        "type": "core",
+        "role": "O",
+        "meaning": "ý kiến",
+        "pinyin": "yì jiàn",
+        "hanviet": "Ý Kiến"
+      },
+      {
+        "text": "就在",
+        "type": "grammar",
+        "role": "Adv_Prep",
+        "meaning": "thì tại",
+        "pinyin": "jiù zài",
+        "hanviet": "Tựu Tại"
+      },
+      {
+        "text": "合同",
+        "type": "core",
+        "role": "Noun",
+        "meaning": "hợp đồng",
+        "pinyin": "hé tóng",
+        "hanviet": "Hợp Đồng"
+      },
+      {
+        "text": "上",
+        "type": "normal",
+        "role": "Postpos",
+        "meaning": "trên (phương vị)",
+        "pinyin": "shàng",
+        "hanviet": "Thướng"
+      },
+      {
+        "text": "签字",
+        "type": "core",
+        "role": "V_O",
+        "meaning": "ký tên",
+        "pinyin": "qiān zì",
+        "hanviet": "Thiêm Tự"
+      },
+      {
+        "text": "明天",
+        "type": "normal",
+        "role": "Time",
+        "meaning": "ngày mai",
+        "pinyin": "míng tiān",
+        "hanviet": "Minh Thiên"
+      },
+      {
+        "text": "就可以",
+        "type": "normal",
+        "role": "Adv_modal",
+        "meaning": "liền có thể",
+        "pinyin": "jiù kě yǐ",
+        "hanviet": "Tựu Khả Dĩ"
+      },
+      {
+        "text": "搬进来",
+        "type": "core",
+        "role": "V_comp",
+        "meaning": "dọn vào trong",
+        "pinyin": "bān jìn lái",
+        "hanviet": "Ban Tiến Lai"
+      },
+      {
+        "text": "住",
+        "type": "normal",
+        "role": "V",
+        "meaning": "ở",
+        "pinyin": "zhù",
+        "hanviet": "Trú"
+      },
+      {
+        "text": "了",
+        "type": "normal",
+        "role": "Part",
+        "meaning": "rồi",
+        "pinyin": "le",
+        "hanviet": "Liễu"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Điều kiện thỏa thuận (B)",
+        "text": "如果你没什么意见",
+        "type": "conj",
+        "desc": "Nếu không có khúc mắc hay khiếu nại"
+      },
+      {
+        "role": "Hành động thực hiện (A)",
+        "text": "就在合同上签字",
+        "type": "predicate",
+        "desc": "Ký kết văn bản pháp lý"
+      },
+      {
+        "role": "Kết quả được thực thi (C)",
+        "text": "明天就可以搬进来住了",
+        "type": "comp",
+        "desc": "Dọn đồ vào sinh sống ngay ngày hôm sau"
+      }
+    ],
+    "practice": {
+      "type": "sentence_logic",
+      "scrambled_items": [
+        {
+          "key": "A",
+          "text": "就在合同上签字"
+        },
+        {
+          "key": "B",
+          "text": "如果你没什么意见"
+        },
+        {
+          "key": "C",
+          "text": "明天就可以搬进来住了"
+        }
+      ],
+      "correct_order": "BAC",
+      "explanation": "B đặt điều kiện '如果' -> A nêu hành động ký kết '就在合同上签字' -> C là quyền lợi kế tiếp '明天就可以'."
+    },
+    "pinyin": "rú guǒ nǐ méi shén me yì jiàn ， jiù zài hé tóng shàng qiān zì ， míng tiān jiù kě yǐ bān jìn lái zhù le 。",
+    "hanviet": "Như Quả Nễ Một Thập Ma Ý Kiến Tựu Tại Cáp Đồng Thướng Thiêm Tự Minh Thiên Tựu Khả Dĩ Ban Tiến Lai Trú Liễu"
+  },
+  {
+    "id": "hsk4_p1_70",
+    "category": "paragraph",
+    "title": "Phản ứng đối lập trong các môn học",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第三部分 (短文阅读 第70题)",
+    "zh": "小红一谈起文学、历史就非常兴奋，可是一问到物理成绩就不说话了。",
+    "vietnamese": "Tiểu Hồng hễ nhắc tới văn học, lịch sử là vô cùng hào hứng, nhưng hễ hỏi tới thành tích môn vật lý là liền im lặng không nói gì.",
+    "grammar_point": {
+      "name": "Cấu trúc liên tiếp & đối lập: 一……就……，可是……",
+      "pattern": "Chủ ngữ + 一 + V1 + 就 + Vị ngữ 1, 可是 + 一 + V2 + 就 + Vị ngữ 2 (đối lập)",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI SUY LUẬN ĐỌC HIỂU: Đề thi hỏi: '根据这句话，小红：A. 聪明; B. 物理成绩差; C. 开朗; D. 不喜欢文学'. Nhiều thí sinh đọc lướt thấy '兴奋' liền chọn '开朗' (SAI). Chi tiết '一问到物理成绩就不说话了' thể hiện rõ sự mặc cảm, e ngại vì điểm thi môn vật lý kém. Đáp án chuẩn xác là B: 物理成绩差.",
+      "explanation": "Cặp cấu trúc song song '一……就……' kết hợp liên từ chuyển ý '可是' tạo nên sự tương phản tâm lý sâu sắc giữa niềm đam mê văn sử và sự tự ti môn vật lý."
+    },
+    "tokens": [
+      {
+        "text": "小红",
+        "type": "normal",
+        "role": "S",
+        "meaning": "Tiểu Hồng",
+        "pinyin": "xiǎo hóng",
+        "hanviet": "Tiểu Hồng"
+      },
+      {
+        "text": "一",
+        "type": "grammar",
+        "role": "Adv",
+        "meaning": "hễ (cấu trúc 一...就...)",
+        "pinyin": "yī",
+        "hanviet": "Nhất"
+      },
+      {
+        "text": "谈起",
+        "type": "core",
+        "role": "V",
+        "meaning": "nhắc đến, bàn luận",
+        "pinyin": "tán qǐ",
+        "hanviet": "Đàm Khởi"
+      },
+      {
+        "text": "文学",
+        "type": "core",
+        "role": "O1",
+        "meaning": "văn học",
+        "pinyin": "wén xué",
+        "hanviet": "Văn Học"
+      },
+      {
+        "text": "历史",
+        "type": "normal",
+        "role": "O1",
+        "meaning": "lịch sử",
+        "pinyin": "lì shǐ",
+        "hanviet": "Lịch Sử"
+      },
+      {
+        "text": "就",
+        "type": "grammar",
+        "role": "Adv",
+        "meaning": "liền, là",
+        "pinyin": "jiù",
+        "hanviet": "Tựu"
+      },
+      {
+        "text": "非常",
+        "type": "normal",
+        "role": "Adv",
+        "meaning": "vô cùng",
+        "pinyin": "fēi cháng",
+        "hanviet": "Phi Thường"
+      },
+      {
+        "text": "兴奋",
+        "type": "core",
+        "role": "Adj",
+        "meaning": "hào hứng, phấn khích",
+        "pinyin": "xīng fèn",
+        "hanviet": "Hưng Phấn"
+      },
+      {
+        "text": "可是",
+        "type": "grammar",
+        "role": "Conj",
+        "meaning": "nhưng mà (chuyển ý)",
+        "pinyin": "kě shì",
+        "hanviet": "Khả Thị"
+      },
+      {
+        "text": "一问到",
+        "type": "normal",
+        "role": "V2",
+        "meaning": "hễ hỏi đến",
+        "pinyin": "yī wèn dào",
+        "hanviet": "Nhất Vấn Đáo"
+      },
+      {
+        "text": "物理",
+        "type": "core",
+        "role": "Noun",
+        "meaning": "vật lý",
+        "pinyin": "wù lǐ",
+        "hanviet": "Vật Lí/vật Lý"
+      },
+      {
+        "text": "成绩",
+        "type": "core",
+        "role": "Noun",
+        "meaning": "thành tích, điểm số",
+        "pinyin": "chéng jì",
+        "hanviet": "Thành Tích"
+      },
+      {
+        "text": "就不说话了",
+        "type": "normal",
+        "role": "Predicate",
+        "meaning": "là không nói lời nào nữa",
+        "pinyin": "jiù bù shuō huà le",
+        "hanviet": "Tựu Bất Thuyết Thoại Liễu"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Hào hứng với môn sở trường",
+        "text": "小红一谈起文学、历史就非常兴奋",
+        "type": "subject",
+        "desc": "Cấu trúc 一...就... diễn tả niềm vui thích tột độ"
+      },
+      {
+        "role": "Liên từ chuyển ý",
+        "text": "可是",
+        "type": "conj",
+        "desc": "Báo hiệu trạng thái đảo ngược"
+      },
+      {
+        "role": "Im lặng trước môn điểm yếu",
+        "text": "一问到物理成绩就不说话了",
+        "type": "predicate",
+        "desc": "Ngầm hiểu thành tích vật lý không tốt"
+      }
+    ],
+    "practice": {
+      "type": "cloze",
+      "blank_sentence": "小红一谈起文学、历史就非常（ ____ ），可是一问到物理成绩就不说话了。",
+      "target_word": "兴奋",
+      "options": [
+        {
+          "word": "兴奋",
+          "pinyin": "xīngfèn",
+          "hanviet": "Hưng Phấn",
+          "meaning": "hào hứng, phấn khích"
+        },
+        {
+          "word": "流利",
+          "pinyin": "liúlì",
+          "hanviet": "Lưu Lợi",
+          "meaning": "lưu loát"
+        },
+        {
+          "word": "负责",
+          "pinyin": "fùzé",
+          "hanviet": "Phụ Trách",
+          "meaning": "tận tụy"
+        },
+        {
+          "word": "文静",
+          "pinyin": "wénjìng",
+          "hanviet": "Văn Tĩnh",
+          "meaning": "dịu dàng"
+        }
+      ],
+      "clue": "Nói về đam mê sở trường văn học lịch sử, tính từ chỉ trạng thái tâm lý say mê là '兴奋'."
+    },
+    "pinyin": "xiǎo hóng yī tán qǐ wén xué 、 lì shǐ jiù fēi cháng xīng fèn ， kě shì yī wèn dào wù lǐ chéng jì jiù bù shuō huà le 。",
+    "hanviet": "Tiểu Hồng Nhất Đàm Khởi Văn Học Lịch Sử Tựu Phi Thường Hưng Phấn Khả Thị Nhất Vấn Đáo Vật Lý Thành Tích Tựu Bất Thuyết Thoại Liễu"
+  },
+  {
+    "id": "hsk4_p1_74",
+    "category": "paragraph",
+    "title": "Áp lực việc làm và cạnh tranh xã hội",
+    "source": "HSK 4 模拟试卷 1",
+    "exam_part": "阅读 第三部分 (短文阅读 第74题)",
+    "zh": "社会竞争越来越激烈，“找工作难”已经成为一种普遍现象，这给大学生们带来了很大的压力。",
+    "vietnamese": "Sự cạnh tranh trong xã hội ngày càng khốc liệt, 'tìm việc khó' đã trở thành một hiện tượng phổ biến, điều này mang lại áp lực rất lớn cho các bạn sinh viên đại học.",
+    "grammar_point": {
+      "name": "Mô hình quan hệ nhân quả xã hội: 给……带来……压力",
+      "pattern": "Nguyên nhân hiện tượng + 这 + 给 + Đối tượng chịu tác động + 带来了 + Định ngữ + 压力",
+      "level": "HSK 4 Cốt lõi",
+      "trap_note": "BẪY THI TỪ VỰNG & NGỮ PHÁP: 1. Cụm '竞争越来越激烈' (cạnh tranh ngày càng khốc liệt) là kết hợp cố định cao tần. 2. Đại từ chỉ định '这' thay thế cho toàn bộ hiện tượng xã hội phía trước. 3. Giới từ '给' dẫn ra đối tượng chịu tác động ('大学生们').",
+      "explanation": "'普遍现象' (hiện tượng phổ biến), '社会竞争' (cạnh tranh xã hội), '带来压力' (mang lại áp lực) đều là cụm từ vàng trong bài viết và đọc HSK 4."
+    },
+    "tokens": [
+      {
+        "text": "社会",
+        "type": "core",
+        "role": "Attr",
+        "meaning": "xã hội",
+        "pinyin": "shè huì",
+        "hanviet": "Xã Hội"
+      },
+      {
+        "text": "竞争",
+        "type": "core",
+        "role": "S",
+        "meaning": "cạnh tranh",
+        "pinyin": "jìng zhēng",
+        "hanviet": "Cạnh Tranh"
+      },
+      {
+        "text": "越来越",
+        "type": "grammar",
+        "role": "Adv",
+        "meaning": "ngày càng",
+        "pinyin": "yuè lái yuè",
+        "hanviet": "Việt Lai Việt"
+      },
+      {
+        "text": "激烈",
+        "type": "core",
+        "role": "Adj",
+        "meaning": "khốc liệt, dữ dội",
+        "pinyin": "jī liè",
+        "hanviet": "Kích Liệt"
+      },
+      {
+        "text": "找工作难",
+        "type": "normal",
+        "role": "Topic",
+        "meaning": "tìm việc khó",
+        "pinyin": "zhǎo gōng zuò nán",
+        "hanviet": "Trảo Công Tác Nan"
+      },
+      {
+        "text": "已经",
+        "type": "normal",
+        "role": "Adv",
+        "meaning": "đã",
+        "pinyin": "yǐ jīng",
+        "hanviet": "Dĩ Kinh"
+      },
+      {
+        "text": "成为",
+        "type": "core",
+        "role": "V",
+        "meaning": "trở thành",
+        "pinyin": "chéng wéi",
+        "hanviet": "Thành Vi"
+      },
+      {
+        "text": "一种",
+        "type": "normal",
+        "role": "Num_Clf",
+        "meaning": "một loại",
+        "pinyin": "yī zhǒng",
+        "hanviet": "Nhất Chủng"
+      },
+      {
+        "text": "普遍",
+        "type": "core",
+        "role": "Attr",
+        "meaning": "phổ biến",
+        "pinyin": "pǔ biàn",
+        "hanviet": "Phổ Biến"
+      },
+      {
+        "text": "现象",
+        "type": "core",
+        "role": "O",
+        "meaning": "hiện tượng",
+        "pinyin": "xiàn xiàng",
+        "hanviet": "Hiện Tượng"
+      },
+      {
+        "text": "这",
+        "type": "normal",
+        "role": "S2",
+        "meaning": "điều này",
+        "pinyin": "zhè",
+        "hanviet": "Giá"
+      },
+      {
+        "text": "给",
+        "type": "grammar",
+        "role": "Prep",
+        "meaning": "cho, đem đến cho (giới từ)",
+        "pinyin": "gěi",
+        "hanviet": "Cấp"
+      },
+      {
+        "text": "大学生们",
+        "type": "normal",
+        "role": "O_prep",
+        "meaning": "các bạn sinh viên",
+        "pinyin": "dà xué shēng men",
+        "hanviet": "Đại Học Sinh Môn"
+      },
+      {
+        "text": "带来",
+        "type": "core",
+        "role": "V2",
+        "meaning": "đem lại, mang lại",
+        "pinyin": "dài lái",
+        "hanviet": "Đới Lai"
+      },
+      {
+        "text": "了很大的",
+        "type": "normal",
+        "role": "Attr",
+        "meaning": "rất lớn",
+        "pinyin": "le hěn dà de",
+        "hanviet": "Liễu Ngận Đại Đích"
+      },
+      {
+        "text": "压力",
+        "type": "core",
+        "role": "O2",
+        "meaning": "áp lực",
+        "pinyin": "yā lì",
+        "hanviet": "Áp Lực"
+      }
+    ],
+    "breakdown": [
+      {
+        "role": "Hiện trạng cạnh tranh",
+        "text": "社会竞争越来越激烈",
+        "type": "subject",
+        "desc": "Áp lực từ sự cạnh tranh khốc liệt"
+      },
+      {
+        "role": "Hiện tượng xã hội",
+        "text": "“找工作难”已经成为一种普遍现象",
+        "type": "predicate",
+        "desc": "Việc làm trở thành vấn đề nan giải chung"
+      },
+      {
+        "role": "Tác động lên đối tượng",
+        "text": "这给大学生们带来了很大的压力",
+        "type": "prep",
+        "desc": "Giới từ '给' + đối tượng sinh viên + '带来压力'"
+      }
+    ],
+    "practice": {
+      "type": "cloze",
+      "blank_sentence": "社会竞争越来越（ ____ ），“找工作难”已经成为一种普遍现象。",
+      "target_word": "激烈",
+      "options": [
+        {
+          "word": "激烈",
+          "pinyin": "jīliè",
+          "hanviet": "Kích Liệt",
+          "meaning": "khốc liệt, gay gắt"
+        },
+        {
+          "word": "流利",
+          "pinyin": "liúlì",
+          "hanviet": "Lưu Lợi",
+          "meaning": "lưu loát"
+        },
+        {
+          "word": "兴奋",
+          "pinyin": "xīngfèn",
+          "hanviet": "Hưng Phấn",
+          "meaning": "hào hứng"
+        },
+        {
+          "word": "严格",
+          "pinyin": "yángé",
+          "hanviet": "Nghiêm Cách",
+          "meaning": "nghiêm khắc"
+        }
+      ],
+      "clue": "Đứng sau '越来越' để miêu tả tính chất của '竞争' (sự cạnh tranh), từ phối hợp chuẩn xác nhất là '激烈'."
+    },
+    "pinyin": "shè huì jìng zhēng yuè lái yuè jī liè ，“ zhǎo gōng zuò nán ” yǐ jīng chéng wéi yī zhǒng pǔ biàn xiàn xiàng ， zhè gěi dà xué shēng men dài lái le hěn dà de yā lì 。",
+    "hanviet": "Xã Hội Cạnh Tranh Việt Lai Việt Kích Liệt Trảo Công Tác Nan Dĩ Kinh Thành Vi Nhất Chủng Phổ Biến Hiện Tượng Giá Cấp Đại Học Sinh Môn Đới Lai Liễu Ngận Đại Đích Áp Lực"
+  }
+]

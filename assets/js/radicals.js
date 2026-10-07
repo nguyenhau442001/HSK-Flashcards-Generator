@@ -37,6 +37,7 @@ const PRIMARY_TAB_SCREENS = {
   vocab: { tabId: 'primaryTabVocab', screenId: 'screenVocabHub' },
   radicals: { tabId: 'primaryTabRadicals', screenId: 'screenRadicalHub' },
   review: { tabId: 'primaryTabReview', screenId: 'screenReviewPicker' },
+  reading: { tabId: 'primaryTabReading', screenId: 'screenReadingAnalysis' },
   sentenceGame: { tabId: 'primaryTabSentenceGame', screenId: 'screenSentenceGame' },
   guessWord: { tabId: 'primaryTabGuessWord', screenId: 'screenGuessWord' },
   speedQuiz: { tabId: 'primaryTabSpeedQuiz', screenId: 'screenSpeedQuiz' },
@@ -61,21 +62,34 @@ function setPrimaryTab(tab, options) {
   primaryTab = tab;
   Object.entries(PRIMARY_TAB_SCREENS).forEach(([key, { tabId, screenId }]) => {
     const isActive = key === tab;
-    document.getElementById(tabId).classList.toggle('active', isActive);
-    document.getElementById(tabId).setAttribute('aria-pressed', String(isActive));
-    document.getElementById(screenId).style.display = isActive ? '' : 'none';
+    const tabEl = document.getElementById(tabId);
+    const screenEl = document.getElementById(screenId);
+    if (tabEl) {
+      tabEl.classList.toggle('active', isActive);
+      tabEl.setAttribute('aria-pressed', String(isActive));
+    }
+    if (screenEl) {
+      screenEl.style.display = isActive ? '' : 'none';
+    }
   });
-  const isTool = ['radicals', 'sentenceGame', 'guessWord', 'speedQuiz'].includes(tab);
+  const isTool = ['radicals', 'sentenceGame', 'guessWord', 'speedQuiz', 'reading'].includes(tab);
   const isGame = ['sentenceGame', 'guessWord', 'speedQuiz'].includes(tab);
   document.body.classList.toggle('is-game-view', isGame);
   const gamesMenu = document.getElementById('primaryGamesMenu');
-  gamesMenu.open = false;
-  gamesMenu.classList.toggle('has-active-tool', isTool);
-  document.getElementById('learningDashboard').style.display = tab === 'vocab' ? '' : 'none';
+  if (gamesMenu) {
+    gamesMenu.open = false;
+    gamesMenu.classList.toggle('has-active-tool', isTool);
+  }
+  const dashboard = document.getElementById('learningDashboard');
+  if (dashboard) dashboard.style.display = tab === 'vocab' ? '' : 'none';
   if (tab !== 'vocab') setActiveStudyWord(null);
   if (tab === 'radicals') ensureRadicalDataLoaded();
+  if (tab === 'reading') {
+    if (typeof startReadingAnalysis === 'function') startReadingAnalysis();
+  }
   if (tab === 'review') {
-    updateReviewRangeLabel(document.getElementById('reviewRangeSlider').value);
+    const slider = document.getElementById('reviewRangeSlider');
+    if (slider) updateReviewRangeLabel(slider.value);
   }
   if (tab === 'vocab' && vocabSubTab === 'topic') renderTopicGrid();
   if (tab === 'sentenceGame') startSentenceGame();
