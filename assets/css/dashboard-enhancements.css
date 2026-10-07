@@ -113,7 +113,14 @@ body:not(.home-screen) .continue-learning-card { display: none; }
 .workstation-left > .hw-card { padding: 18px 20px; }
 .workstation-left > .hw-card .hw-title { font-size: 14px; font-weight: 700; }
 .workstation-left > .hw-card .hw-head { align-items: flex-start; }
-.workstation-left > .hw-card .hw-forgot-list { gap: 8px; margin-top: 12px; }
+.workstation-left > .hw-card .hw-forgot-list {
+  gap: 8px; margin-top: 12px;
+  max-height: 520px; overflow-y: auto; overscroll-behavior: contain; padding-right: 4px;
+}
+.workstation-left > .hw-card .hw-forgot-list::-webkit-scrollbar { width: 5px; }
+.workstation-left > .hw-card .hw-forgot-list::-webkit-scrollbar-track { background: transparent; }
+.workstation-left > .hw-card .hw-forgot-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 999px; }
+.workstation-left > .hw-card .hw-forgot-list::-webkit-scrollbar-thumb:hover { background: var(--text-tertiary); }
 .workstation-left > .hw-card .hw-forgot-row { min-height: 52px; gap: 8px; padding: 8px 10px; border-radius: 10px; }
 .hw-forgot-open { display: flex; flex: 1 1 auto; align-items: center; gap: 8px; min-width: 0; padding: 0; border: 0; background: transparent; color: var(--text-primary); text-align: left; cursor: pointer; }
 .hw-forgot-open:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 8px; }

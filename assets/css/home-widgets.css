@@ -189,7 +189,14 @@ body:not(.home-screen) .home-widgets { display: none; }
 }
 
 /* Từ hay quên */
-.hw-forgot-list { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
+.hw-forgot-list {
+  display: flex; flex-direction: column; gap: 8px; margin-top: 14px;
+  max-height: 520px; overflow-y: auto; overscroll-behavior: contain; padding-right: 4px;
+}
+.hw-forgot-list::-webkit-scrollbar { width: 5px; }
+.hw-forgot-list::-webkit-scrollbar-track { background: transparent; }
+.hw-forgot-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 999px; }
+.hw-forgot-list::-webkit-scrollbar-thumb:hover { background: var(--text-tertiary); }
 .hw-forgot-row {
   display: flex; align-items: center; gap: 12px;
   width: 100%; min-height: 52px; padding: 8px 12px;

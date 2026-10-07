@@ -12,6 +12,7 @@ const HOME_WEEKDAY_LONG = ['Chủ nhật', 'Thứ 2', 'Thứ 3', 'Thứ 4', 'Th�
 const HOME_HEATMAP_WEEKS = 12;
 const HOME_FORECAST_BAR_HEIGHT = 68;
 const HOME_SPEAKER_ICON = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
+const HOME_FORGOTTEN_LIMIT = 25;
 
 let homeWidgetsDirty = true;
 let homeWidgetsSyncFrame = 0;
@@ -373,15 +374,29 @@ function renderActivity(snapshot) {
 
 // ---- Từ hay quên -------------------------------------------------------------
 
-function topForgottenCards(snapshot, limit) {
+function topForgottenCards(snapshot, limit = HOME_FORGOTTEN_LIMIT) {
   const items = [];
-  Object.entries(snapshot.cardsByLevel).forEach(([level, cards]) => {
+  homeLevelKeys().forEach(level => {
     if (!level.startsWith('hsk')) return;
-    Object.entries(cards).forEach(([id, card]) => {
-      if (card && (card.lapses > 0 || card.last_rating === 'again' || card.state === SRS.State.Relearning)) {
-        items.push({ level, id, card });
-      }
-    });
+    const cards = snapshot.cardsByLevel[level];
+    if (cards) {
+      Object.entries(cards).forEach(([id, card]) => {
+        if (card && (card.lapses > 0 || card.last_rating === 'again' || card.state === SRS.State.Relearning || card.status === 'unknown')) {
+          items.push({ level, id, card });
+        }
+      });
+    } else {
+      const legacy = readSavedLevelProgressLegacy(level);
+      Object.entries(legacy).forEach(([id, status]) => {
+        if (status === 'unknown') {
+          items.push({
+            level,
+            id,
+            card: { lapses: 1, last_rating: 'again', status: 'unknown' }
+          });
+        }
+      });
+    }
   });
   items.sort((a, b) => {
     const aLapses = a.card.lapses || (a.card.last_rating === 'again' ? 1 : 0);
@@ -395,7 +410,7 @@ function topForgottenCards(snapshot, limit) {
 async function renderForgotten(snapshot, renderId) {
   const section = document.getElementById('hwForgotten');
   if (!section) return;
-  const top = topForgottenCards(snapshot, 4);
+  const top = topForgottenCards(snapshot, HOME_FORGOTTEN_LIMIT);
 
   let items = [];
   let failed = false;
