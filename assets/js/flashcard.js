@@ -2,47 +2,51 @@
 function buildCardArea() {
   document.getElementById('cardArea').innerHTML = `
     <div class="card" id="card">
-      <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Đã nhớ</div>
-      <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Chưa nhớ</div>
-      <div class="card-toolbar card-interactive" id="cardToolbar" onclick="event.stopPropagation()">
-        <button type="button" class="card-tool-btn" id="randomWordBtn" onclick="jumpToRandomWord()" aria-label="Hiện từ ngẫu nhiên (R)" title="Hiện từ ngẫu nhiên (R)">
-          <span aria-hidden="true">🎲</span>
-        </button>
-        <button type="button" class="card-tool-btn" id="shuffleBtn" onclick="shuffleDeck()" aria-label="Xáo trộn bộ từ" title="Xáo trộn bộ từ">
-          <span aria-hidden="true">🔀</span>
-        </button>
-        <button type="button" class="card-tool-btn" id="pinyinToggle" onclick="togglePinyin()" aria-label="Ẩn hoặc hiện pinyin" title="Ẩn hoặc hiện pinyin">
-          <span id="pinyinToggleIcon" aria-hidden="true">👁</span>
-        </button>
-        <button type="button" class="card-tool-btn" id="hanvietToggle" onclick="toggleHanViet()" aria-label="Bật hoặc tắt âm Hán - Việt (H)" title="Bật hoặc tắt âm Hán - Việt (H)">
-          <span id="hanvietToggleIcon" aria-hidden="true">漢</span>
-        </button>
-        <button type="button" class="card-tool-btn" id="cardWritingBtn" onclick="toggleStudyWritingPanel()" aria-label="Luyện viết chữ Hán (W)" title="Luyện viết chữ Hán (W)">
-          <span aria-hidden="true">✍️</span>
-        </button>
-        <button type="button" class="card-tool-btn" id="weakWordToggleBtn" onclick="toggleWeakWord(activeStudyWord && activeStudyWord.hanzi, currentLevel)" aria-label="Đánh dấu từ khó" title="Đánh dấu từ khó">
-          <span id="weakWordToggleIcon" aria-hidden="true">☆</span>
-        </button>
-        <button type="button" class="card-tool-btn" id="transferToggle" onclick="toggleTransferPanel()" aria-label="Sao lưu tiến trình" title="Sao lưu tiến trình" aria-controls="transferPanel" aria-expanded="false">
-          <span aria-hidden="true">💾</span>
-        </button>
-      </div>
-      <div id="cardContent" class="card-content">
-        <div class="hanzi" id="hanzi"></div>
-        <div class="pinyin-row" id="pinyinRow">
-          <div class="pinyin" id="pinyin"></div>
-          <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
-          <button class="sound-btn speech-btn" id="soundBtn" type="button"
-            onclick="event.stopPropagation(); speakWord()"
-            aria-label="Nghe phát âm" aria-live="polite">
-            <span class="sound-btn-icon" aria-hidden="true">🔊</span>
+      <div class="card-header-bar card-interactive" id="cardHeaderBar" onclick="event.stopPropagation()">
+        <span class="card-position-badge" id="cardPositionBadge">0 / 0</span>
+        <div class="card-toolbar" id="cardToolbar">
+          <button type="button" class="card-tool-btn" id="randomWordBtn" onclick="jumpToRandomWord()" aria-label="Hiện từ ngẫu nhiên (R)" title="Hiện từ ngẫu nhiên (R)">
+            <span aria-hidden="true">🎲</span>
+          </button>
+          <button type="button" class="card-tool-btn" id="shuffleBtn" onclick="shuffleDeck()" aria-label="Xáo trộn bộ từ" title="Xáo trộn bộ từ">
+            <span aria-hidden="true">🔀</span>
+          </button>
+          <button type="button" class="card-tool-btn" id="pinyinToggle" onclick="togglePinyin()" aria-label="Ẩn hoặc hiện pinyin" title="Ẩn hoặc hiện pinyin">
+            <span id="pinyinToggleIcon" aria-hidden="true">👁</span>
+          </button>
+          <button type="button" class="card-tool-btn" id="hanvietToggle" onclick="toggleHanViet()" aria-label="Bật hoặc tắt âm Hán - Việt (H)" title="Bật hoặc tắt âm Hán - Việt (H)">
+            <span id="hanvietToggleIcon" aria-hidden="true">漢</span>
+          </button>
+          <button type="button" class="card-tool-btn" id="cardWritingBtn" onclick="toggleStudyWritingPanel()" aria-label="Luyện viết chữ Hán (W)" title="Luyện viết chữ Hán (W)">
+            <span aria-hidden="true">✍️</span>
+          </button>
+          <button type="button" class="card-tool-btn" id="weakWordToggleBtn" onclick="toggleWeakWord(activeStudyWord && activeStudyWord.hanzi, currentLevel)" aria-label="Đánh dấu từ khó" title="Đánh dấu từ khó">
+            <span id="weakWordToggleIcon" aria-hidden="true">☆</span>
+          </button>
+          <button type="button" class="card-tool-btn" id="transferToggle" onclick="toggleTransferPanel()" aria-label="Sao lưu tiến trình" title="Sao lưu tiến trình" aria-controls="transferPanel" aria-expanded="false">
+            <span aria-hidden="true">💾</span>
           </button>
         </div>
-        <div class="meaning" id="meaning"></div>
+      </div>
+      <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Đã nhớ</div>
+      <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Chưa nhớ</div>
+      <div id="cardContent" class="card-content">
+        <div class="word-main-block">
+          <div class="hanzi" id="hanzi"></div>
+          <div class="pinyin-row" id="pinyinRow">
+            <div class="pinyin" id="pinyin"></div>
+            <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
+            <button class="sound-btn speech-btn" id="soundBtn" type="button"
+              onclick="event.stopPropagation(); speakWord()"
+              aria-label="Nghe phát âm" aria-live="polite">
+              <span class="sound-btn-icon" aria-hidden="true">🔊</span>
+            </button>
+          </div>
+          <div class="meaning" id="meaning"></div>
+        </div>
         <div class="example-box" id="exampleBox">
-          <div class="ex-label">Ví dụ</div>
-          <div class="ex-zh-row">
-            <div class="ex-line ex-zh" id="exZh"></div>
+          <div class="ex-header-row">
+            <span class="ex-label">Ví dụ</span>
             <div class="example-audio-controls card-interactive">
               <button class="example-sound-btn speech-btn" id="exampleSoundBtn" type="button"
                 onclick="event.stopPropagation(); speakExample()"
@@ -52,7 +56,7 @@ function buildCardArea() {
               <details class="example-speed-picker" id="exampleSpeedPicker"
                 onclick="event.stopPropagation()">
                 <summary aria-label="Tốc độ đọc câu ví dụ: ${formatExampleSpeechSpeed(exampleSpeechSpeed)}">
-                  <span class="example-speed-label">Tốc độ đọc</span>
+                  <span class="example-speed-label">Tốc độ</span>
                   <span class="example-current-speed" id="exampleCurrentSpeed">${formatExampleSpeechSpeed(exampleSpeechSpeed)}</span>
                 </summary>
                 <div class="example-speed-options" role="group" aria-label="Chọn tốc độ đọc câu ví dụ">
@@ -68,6 +72,7 @@ function buildCardArea() {
               </details>
             </div>
           </div>
+          <div class="ex-line ex-zh" id="exZh"></div>
           <div class="ex-line ex-py" id="exPy"></div>
           <div class="ex-line ex-vi" id="exVi"></div>
         </div>
@@ -114,6 +119,8 @@ function buildCardArea() {
     topbarHanvietBtn.classList.toggle('active', showHanViet);
   }
   if (typeof updateWeakWordToggleButton === 'function') updateWeakWordToggleButton();
+  updateProgress();
+  updateCardPosition();
   initSwipe();
 }
 
@@ -191,6 +198,7 @@ function updateStats() {
   const sUnseen = document.getElementById('s-unseen');
   if (sUnseen) sUnseen.textContent = Math.max(0, WORDS.length - known - unknown);
   renderFilters();
+  updateProgress();
 }
 const RATING_BUTTONS = [
   { rating: 'again', emoji: '❌', label: 'Chưa nhớ', key: '1', interval: 'Hôm nay' },
@@ -259,14 +267,51 @@ function syncRevealControls() {
   revealBtn.hidden = !hasCard || revealed;
   ratingRow.hidden = !revealed;
 }
+function computeDeckProgress() {
+  if (!Array.isArray(WORDS) || WORDS.length === 0) {
+    return { learned: 0, total: 0, pct: 0, known: 0, unknown: 0 };
+  }
+  let known = 0, unknown = 0;
+  WORDS.forEach(w => {
+    const st = progress[w.id];
+    if (st === 'known') known++;
+    else if (st === 'unknown') unknown++;
+  });
+  const learned = known + unknown;
+  const total = WORDS.length;
+  const pct = total === 0 ? 0 : Math.round((learned / total) * 100);
+  return { learned, total, pct, known, unknown };
+}
+
 function updateProgress(current, total) {
+  const deck = computeDeckProgress();
   const el = document.getElementById('progress');
-  if (el) el.textContent = total === 0 ? '0 / 0' : current + ' / ' + total;
-  const pct = total === 0 ? 0 : Math.round((current / total) * 100);
+  if (el) el.textContent = deck.total === 0 ? '0 / 0' : `${deck.learned} / ${deck.total}`;
   const bar = document.getElementById('progressBar');
-  if (bar) bar.style.width = pct + '%';
+  if (bar) bar.style.width = deck.pct + '%';
   const pctEl = document.getElementById('progressPct');
-  if (pctEl) pctEl.textContent = pct + '%';
+  if (pctEl) pctEl.textContent = deck.pct + '%';
+  const topbar = document.getElementById('studyTopbarProgress');
+  if (topbar) {
+    topbar.title = `Tiến độ học: ${deck.learned}/${deck.total} (${deck.pct}%) • Đã nhớ: ${deck.known}, Chưa nhớ: ${deck.unknown}`;
+  }
+}
+
+function updateCardPosition() {
+  const badge = document.getElementById('cardPositionBadge');
+  if (!badge) return;
+  if (!filteredOrder || filteredOrder.length === 0) {
+    badge.textContent = '0 / 0';
+    return;
+  }
+  const current = (idx % filteredOrder.length) + 1;
+  const total = filteredOrder.length;
+  badge.textContent = `${current} / ${total}`;
+  const filterLabel = currentFilter === 'all' ? 'Tất cả'
+    : currentFilter === 'known' ? 'Đã nhớ'
+    : currentFilter === 'unknown' ? 'Chưa nhớ'
+    : currentFilter === 'unseen' ? 'Chưa học' : currentFilter;
+  badge.title = `Thẻ ${current} / ${total} (${filterLabel})`;
 }
 
 function toggleStudySidebar(forceOpen) {
@@ -473,7 +518,8 @@ function render(animate) {
       document.getElementById('meaning').classList.add('show');
       document.getElementById('hint').textContent = '';
       if (content) content.classList.add('is-empty');
-      updateProgress(0, 0);
+      updateProgress();
+      updateCardPosition();
       updateStats();
       setActiveStudyWord(null);
       renderStudyWordList();
@@ -514,7 +560,8 @@ function render(animate) {
     document.getElementById('hint').textContent = hasExample
       ? 'Nhấn vào thẻ để xem nghĩa và ví dụ'
       : 'Nhấn vào thẻ để xem nghĩa';
-    updateProgress(idx % filteredOrder.length + 1, filteredOrder.length);
+    updateProgress();
+    updateCardPosition();
     updateStats();
     syncRevealControls();
     if (animate && content && !prefersReduced) {
