@@ -18,6 +18,13 @@ function initCardSwipe(options) {
       document.getElementById(options.unknownBadgeId),
     ];
   }
+  function setSwipingState(isSwiping) {
+    if (isSwiping) {
+      document.body.classList.add('is-card-swiping');
+    } else {
+      document.body.classList.remove('is-card-swiping');
+    }
+  }
   function clearBadges() {
     getBadges().forEach(b => { if (b) b.style.opacity = '0'; });
   }
@@ -26,10 +33,12 @@ function initCardSwipe(options) {
     card.style.transform = '';
     card.style.opacity = '';
     clearBadges();
+    setSwipingState(false);
   }
   function applyDrag(x) {
     if (prefersReduced()) return;
-    card.style.transform = `translateX(${x}px) rotate(${x / 18}deg)`;
+    setSwipingState(true);
+    card.style.transform = `translateX(${x}px) rotate(${x / 24}deg)`;
     card.style.opacity = String(Math.max(0.55, 1 - Math.abs(x) / 450));
     const [bk, bu] = getBadges();
     const op = String(Math.min(1, Math.max(0, (Math.abs(x) - 20) / 60)));
@@ -45,9 +54,10 @@ function initCardSwipe(options) {
       committed = false;
       return;
     }
-    const flyX = dir === 'right' ? 600 : -600;
+    setSwipingState(true);
+    const flyX = dir === 'right' ? 520 : -520;
     card.style.transition = 'transform 220ms ease, opacity 220ms ease';
-    card.style.transform = `translateX(${flyX}px) rotate(${dir === 'right' ? 22 : -22}deg)`;
+    card.style.transform = `translateX(${flyX}px) rotate(${dir === 'right' ? 12 : -12}deg)`;
     card.style.opacity = '0';
     setTimeout(() => {
       card.style.transition = 'none';
@@ -61,7 +71,10 @@ function initCardSwipe(options) {
         card.style.transition = 'opacity 180ms ease';
         card.style.opacity = '';
         committed = false;
-        setTimeout(() => { card.style.transition = ''; }, 180);
+        setTimeout(() => {
+          card.style.transition = '';
+          setSwipingState(false);
+        }, 180);
       }, 150);
     }, 220);
   }
@@ -71,7 +84,10 @@ function initCardSwipe(options) {
     card.style.transform = '';
     card.style.opacity = '';
     clearBadges();
-    setTimeout(() => { card.style.transition = ''; }, 280);
+    setTimeout(() => {
+      card.style.transition = '';
+      setSwipingState(false);
+    }, 280);
   }
 
   card.addEventListener('pointerdown', e => {
@@ -96,8 +112,8 @@ function initCardSwipe(options) {
     if (!active) return;
     active = false;
     try { if (e && e.pointerId && card.hasPointerCapture && card.hasPointerCapture(e.pointerId)) card.releasePointerCapture(e.pointerId); } catch (_) {}
-    if (!locked) { options.flip(); return; }
-    if (locked === 'v') return;
+    if (!locked) { setSwipingState(false); options.flip(); return; }
+    if (locked === 'v') { setSwipingState(false); return; }
     if (Math.abs(dx) >= COMMIT_PX) commitSwipe(dx > 0 ? 'right' : 'left');
     else springBack();
   }
