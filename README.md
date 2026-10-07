@@ -1,135 +1,153 @@
-# HSK Flashcards
+# 🀄 HSK Flashcards & Reading Analysis (HSK 1–9)
 
-Ứng dụng flashcard tĩnh dành cho người Việt học từ vựng HSK. Mỗi thẻ gồm chữ Hán, pinyin, nghĩa tiếng Việt và câu ví dụ có phiên âm lẫn bản dịch.
+Ứng dụng web Single Page Application (SPA) mã nguồn mở, hoạt động **100% Offline (PWA)**, không cần bước build hay cài đặt package, chuyên sâu cho người Việt học và ôn luyện từ vựng tiếng Trung, ngữ pháp, luyện viết chữ Hán và đọc hiểu HSK chuẩn Hanban.
 
-Không cần cài package hay chạy bước build. Toàn bộ dữ liệu từ vựng nằm trong repository.
+🔗 **Trải nghiệm trực tuyến ngay:** [https://nguyenhau442001.github.io/HSK-Flashcards-Generator/](https://nguyenhau442001.github.io/HSK-Flashcards-Generator/)
 
-## Học trực tuyến
+---
 
-Mở ứng dụng tại:
+## 🌟 Điểm nổi bật & Tính năng chính
 
-https://nguyenhau442001.github.io/HSK-Flashcards-Generator/
-(hoặc https://nguyenhau442001.github.io/HSK-Flashcards-Generator/flashcards.html)
+### 1. 🧠 Thuật toán Lặp lại ngắt quãng hiện đại (FSRS v5)
+- Tích hợp chuẩn **FSRS (Free Spaced Repetition Scheduler)** v5 tối tân (vượt trội hơn hẳn so với thuật toán SuperMemo SM-2 truyền thống).
+- 4 nút đánh giá chuẩn khoa học: **Lại (Again)**, **Khó (Hard)**, **Tốt (Good)**, **Dễ (Easy)** đi kèm nhãn dự đoán thời gian lặp lại trực quan (vd: `10m`, `1d`, `4d`, `12d`...).
+- **Đường cong trí nhớ (SRS Memory Curve):** Biểu đồ mô phỏng độ suy giảm trí nhớ Ebbinghaus và độ ổn định từ vựng theo thời gian thực.
+- Tự do tùy chỉnh **Mục tiêu ghi nhớ (Desired Retention)** từ 80% đến 95%.
 
-## Cấp độ
+### 2. 📚 Dữ liệu từ vựng toàn diện (HSK 2.0, HSK 3.0 & Bộ thủ)
+- **HSK 2.0 (Cấp 1–6):** Đầy đủ 5.000 từ vựng cốt lõi chuẩn đề thi truyền thống.
+- **HSK 3.0 mới (Cấp 1–9):** Hơn 11.000 từ vựng phân loại theo 3 bậc 9 cấp (Sơ cấp 1–3, Trung cấp 4–6, Cao cấp 7–9) theo khung khảo thí quốc tế mới nhất.
+- **Bộ thủ chữ Hán (Radicals):** 50 bộ thủ cơ bản thường dùng và trọn bộ 214 bộ thủ Khang Hy theo số nét, có thống kê tiến độ riêng.
+- **Từ vựng theo chủ đề:** Công nghệ thông tin (IT), Du lịch, Kinh doanh, Đời sống...
 
-| Cấp độ | Số từ | Trạng thái |
-|--------|------:|------------|
-| HSK1 | 150 | Có sẵn |
-| HSK2 | 150 | Có sẵn |
-| HSK3 | 300 | Có sẵn |
-| HSK4 | 600 | Có sẵn |
-| HSK5 | 1.300 | Có sẵn |
-| HSK6 | 2.500 | Có sẵn |
+### 3. 📖 Đọc hiểu & Phân tích ngữ pháp HSK 4 (Chuẩn Hanban)
+- Phân tích cú pháp chuyên sâu từng câu: Chủ ngữ (S), Vị ngữ (V), Tân ngữ (O), Trạng ngữ, Định ngữ, Bổ ngữ và các cặp liên từ logic.
+- Phân tích từ vựng ngữ cảnh: Chữ Hán, Pinyin, Âm Hán - Việt, Từ loại và Nghĩa ngữ cảnh chính xác.
+- Bộ lọc dạng bài thi: Sắp xếp câu (Hoàn thành câu), Chọn từ vào chỗ trống, Sắp xếp thứ tự đoạn văn, Đọc hiểu văn bản.
+- **Zen Mode (Chế độ tập trung):** Tối đa hóa không gian đọc hiểu, ẩn thanh công cụ thừa, cho phép tùy chỉnh cỡ chữ và bật/tắt pinyin linh hoạt.
 
-Tổng cộng: **5.000 từ vựng**.
+### 4. ✍️ Luyện viết chữ Hán tương tác (Hanzi Writer & Canvas)
+- Trực quan hóa thứ tự từng nét viết (Stroke Order) chuẩn quy tắc bút thuận bằng animation qua thư viện `hanzi-writer`.
+- **Canvas tập viết:** Tự do luyện viết trực tiếp bằng chuột hoặc màn hình cảm ứng, có hỗ trợ chấm nét, hiển thị nét mờ và tự động xóa vẽ lại.
+- **Hỗ trợ từ ghép (Multichar Grid):** Chuyển đổi nhanh để xem và luyện viết từng chữ đơn lẻ bên trong một từ vựng ghép.
 
-## Chủ đề
+### 5. 漢 Tra cứu & Hiển thị Âm Hán - Việt tự động
+- Tự động liên kết và hiển thị âm Hán - Việt cho toàn bộ từ vựng và câu văn, hỗ trợ người Việt học nghĩa gốc sâu sắc và ghi nhớ nhanh gấp đôi.
+- Phím tắt tiện lợi `H` để bật/tắt nhanh âm Hán - Việt trên giao diện học.
 
-Ngoài học theo cấp độ HSK, có thể học từ vựng theo chủ đề (ví dụ: Công nghệ thông tin) ở tab **🏷️ Chủ đề**. Tiến trình học chủ đề được lưu riêng, không ảnh hưởng tiến trình HSK.
+### 6. 🎮 Phòng thực hành & Trò chơi củng cố phản xạ
+- **Xếp câu (Sentence Game):** Rèn luyện tư duy ngữ pháp qua thao tác sắp xếp các khối từ thành câu hoàn chỉnh.
+- **Đoán từ (Guess Word Game):** Đoán chữ Hán qua gợi ý nghĩa và pinyin.
+- **Speed Quiz:** Trắc nghiệm tốc độ chọn nghĩa phản xạ nhanh trong thời gian giới hạn.
+- **Ôn tập nhanh (Fast Review) & Ôn tập lỗi sai:** Lọc riêng các từ hay quên / từ yếu (Weak Words) để luyện tập tập trung.
 
-## Tính năng
+### 7. 📱 Trải nghiệm người dùng (UX) hiện đại & PWA
+- **SPA Router (History API):** Hỗ trợ nút Back/Forward trên trình duyệt mượt mà mà không tải lại trang; hỗ trợ deep linking chia sẻ trực tiếp liên kết bài học (vd: `?level=hsk4`, `?mode=reading`...).
+- **Cài đặt như App (PWA):** Tương thích hoàn hảo trên iPhone, iPad, Android, macOS và Windows; mở lên học ngay lập tức không cần mạng.
+- **Giao diện Hero Flashcard & Dark/Light Mode:** Thiết kế gọn gàng, độ tương phản cao, chuyển đổi ban ngày/ban đêm tự động theo giờ hoặc thủ công (`🌙/☀️`).
+- **Phát âm chuẩn bản xứ:** Tích hợp audio giọng thật MP3 dựng sẵn và Web Speech API tự nhiên, tùy chỉnh tốc độ từ 0.25x đến 2x.
 
-- Chọn và học riêng từng cấp độ HSK1–HSK6.
-- Xem toàn bộ danh sách từ vựng của từng cấp độ trong tab **Tổng quan**, tìm theo chữ Hán, pinyin hoặc nghĩa tiếng Việt và lọc theo trạng thái học.
-- Học 50 bộ thủ cơ bản hoặc 214 bộ Khang Hy theo số nét, kèm thống kê, bộ lọc trạng thái, tab tổng quan có tìm kiếm và bản sao tiến trình riêng.
-- Mở trực tiếp flashcard của một từ bất kỳ từ danh sách tổng quan.
-- Hiển thị tiến độ đã nhớ của từng cấp độ ngay tại màn hình chọn.
-- Chào người học bằng thông điệp vui theo thời gian, tiến độ và chuỗi ngày quay lại.
-- Theo dõi tổng số từ, đã nhớ, chưa nhớ và chưa học.
-- Lọc thẻ theo trạng thái: tất cả, chưa học, chưa nhớ hoặc đã nhớ.
-- Nhấn vào thẻ để xem nghĩa, câu ví dụ và nghe phát âm của từ lẫn câu tiếng Trung; tốc độ đọc câu có thể chỉnh từ 0.25x đến 2x theo bước 0.25x và khớp trực tiếp với tốc độ hiển thị.
-- Vuốt sang phải để đánh dấu **Đã nhớ**, vuốt sang trái để đánh dấu **Chưa nhớ**.
-- Chuyển thẻ bằng nút trước/sau, xáo trộn thứ tự học và ẩn/hiện pinyin để tự kiểm tra.
-- Hiển thị danh sách có đánh số của các từ chưa nhớ.
-- HSK1 ưu tiên audio MP3 dựng sẵn khi có manifest; các mục còn thiếu và cấp độ khác dùng Web Speech API với giọng `zh-CN` làm fallback.
-- Tự động lưu tiến trình, thứ tự thẻ và tùy chọn pinyin riêng cho từng cấp độ.
-- Tải bản sao tiến trình dưới dạng JSON và khôi phục trên thiết bị khác.
-- Học lại từ đầu với bước xác nhận trước khi xóa tiến trình của cấp độ hiện tại.
-- Giao diện sáng/tối, bố cục responsive và hỗ trợ `prefers-reduced-motion`.
-- Hiệu ứng chuyển thẻ, kéo thả và chúc mừng khi hoàn thành toàn bộ cấp độ.
+---
 
-## Chạy trên máy
+## ⌨️ Phím tắt bàn phím (Desktop Shortcuts)
 
-Clone repository và khởi chạy bằng một static HTTP server:
+Khi đang học flashcard trên máy tính, bạn có thể điều khiển hoàn toàn bằng bàn phím:
 
-```bash
-git clone https://github.com/nguyenhau442001/HSK-Flashcards-Generator.git
-cd HSK-Flashcards-Generator
-python3 -m http.server 8000
-```
+| Phím | Chức năng |
+| :---: | :--- |
+| `Space` hoặc `Enter` | Lật thẻ để xem mặt sau (nghĩa, ví dụ, phân tích) |
+| `1` | Đánh giá **Lại (Again)** - Chưa nhớ |
+| `2` | Đánh giá **Khó (Hard)** - Nhớ mang máng |
+| `3` | Đánh giá **Tốt (Good)** - Nhớ chuẩn |
+| `4` | Đánh giá **Dễ (Easy)** - Rất dễ dàng |
+| `←` / `→` | Chuyển sang từ trước / từ tiếp theo |
+| `R` | Ngẫu nhiên nhảy đến một từ bất kỳ |
+| `H` | Bật / Tắt hiển thị âm Hán - Việt |
+| `W` | Mở / Đóng bảng luyện viết chữ Hán |
+| `B` | Mở / Đóng ngăn kéo danh sách từ vựng |
 
-Sau đó mở:
+---
 
-http://localhost:8000/flashcards.html
+## 💻 Hướng dẫn chạy cục bộ (Local Development)
 
-Các chức năng học cốt lõi không cần kết nối Internet sau khi source code và dữ liệu đã có trên máy. Nên dùng HTTP server thay vì mở trực tiếp `flashcards.html` bằng `file://`, vì một số trình duyệt chặn việc tải các tệp JSON cục bộ.
+Vì ứng dụng được xây dựng hoàn toàn bằng **Vanilla HTML, CSS, JavaScript thuần**, bạn **không cần cài Node.js, npm, webpack hay vite**:
 
-## Tiến trình và sao lưu
+1. Clone kho lưu trữ về máy:
+   ```bash
+   git clone https://github.com/nguyenhau442001/HSK-Flashcards-Generator.git
+   cd HSK-Flashcards-Generator
+   ```
 
-Tiến trình được lưu bằng `localStorage` của trình duyệt, vì vậy dữ liệu gắn với trình duyệt và thiết bị đang sử dụng.
+2. Khởi chạy một máy chủ HTTP tĩnh:
+   ```bash
+   # Dùng Python 3 (khuyên dùng)
+   python3 -m http.server 8000
+   
+   # Hoặc dùng npx
+   npx serve .
+   ```
 
-Để chuyển thiết bị:
+3. Mở trình duyệt và truy cập:
+   ```
+   http://localhost:8000/
+   ```
 
-1. Chọn **Sao lưu** và tải bản sao tiến trình.
-2. Mở đúng cấp độ trên thiết bị mới.
-3. Chọn **Khôi phục từ bản sao** và chọn tệp JSON đã tải.
+*(Lưu ý: Không nên mở trực tiếp file `index.html` bằng giao thức `file://` vì trình duyệt sẽ chặn nạp các file JSON do chính sách bảo mật CORS).*
 
-Danh sách **Từ chưa nhớ** chỉ được hiển thị trong ứng dụng; chức năng này không tạo tệp tải xuống.
+---
 
-## Cấu trúc dự án
+## 📂 Cấu trúc thư mục dự án
 
 ```text
-.
-├── flashcards.html
+HSK-Flashcards-Generator/
+├── index.html                   # Trang chủ ứng dụng chính (SPA)
+├── flashcards.html              # Trang ứng dụng đồng bộ 100% với index.html
+├── sw.js                        # Service Worker quản lý offline cache (PWA)
+├── config/
+│   └── pwa-manifest.json        # Cấu hình PWA cài đặt ứng dụng
 ├── assets/
-│   ├── flashcards.css          # Điểm nạp CSS
-│   ├── flashcards.js           # Khởi động ứng dụng
-│   ├── css/
-│   │   ├── base.css
-│   │   ├── celebration.css
-│   │   ├── feedback.css
-│   │   ├── flashcard.css
-│   │   ├── footer.css
-│   │   ├── level-picker.css
-│   │   └── vocabulary-overview.css
-│   └── js/
-│       ├── backup.js
-│       ├── card-interactions.js
-│       ├── flashcard.js
-│       ├── levels.js
-│       ├── progress.js
-│       ├── speech.js
-│       ├── state.js
-│       ├── storage.js
-│       ├── theme.js
-│       ├── topics.js
-│       └── vocabulary-overview.js
-└── database/
-    └── vocabs/
-        ├── hsk1_vocabularies.json
-        ├── hsk2_vocabularies.json
-        ├── hsk3_vocabularies.json
-        ├── hsk4_vocabularies.json
-        ├── hsk5_vocabularies.json
-        ├── hsk6_vocabularies.json
-        └── topics/
-            └── it.json
+│   ├── flashcards.css           # File tổng hợp CSS chính
+│   ├── flashcards.js            # Khởi tạo và liên kết các module
+│   ├── css/                     # Các module stylesheet riêng biệt
+│   │   ├── base.css             # Biến màu sắc, Typography, Dark/Light mode
+│   │   ├── flashcard.css        # Khung thẻ Hero Flashcard, nút bấm SRS FSRS
+│   │   ├── reading-analysis.css # Giao diện Đọc hiểu & Phân tích ngữ pháp HSK 4
+│   │   ├── workstation.css      # Bố cục giao diện Workstation & Drawer trượt
+│   │   ├── radicals.css         # Thẻ và lưới 214 bộ thủ Khang Hy
+│   │   ├── sentence-game.css    # Mini-game xếp câu
+│   │   └── ...
+│   └── js/                      # Các module JavaScript nghiệp vụ
+│       ├── spa-router.js        # Điều hướng SPA qua History API & deep linking
+│       ├── srs.js               # Thuật toán lặp lại ngắt quãng FSRS v5
+│       ├── storage.js           # Quản lý LocalStorage & an toàn dữ liệu
+│       ├── reading-analysis.js  # Nghiệp vụ Đọc hiểu & Phân tích ngữ pháp HSK 4
+│       ├── hanviet-dict.js      # Từ điển tra cứu Hán - Việt tự động
+│       ├── stroke-canvas.js     # Bảng vẽ canvas luyện viết chữ Hán
+│       ├── card-interactions.js # Thao tác lật thẻ, chạm vuốt di động
+│       ├── levels.js / hsk30.js # Danh mục cấp độ HSK 2.0 & 3.0
+│       └── ...
+└── database/                    # Dữ liệu tĩnh JSON
+    ├── vocabs/                  # HSK 1–6, HSK 3.0 (Cấp 1–9), Chủ đề
+    ├── reading/                 # Dữ liệu phân tích đọc hiểu HSK 4
+    ├── grammar/                 # Ngữ pháp mẫu & cấu trúc câu
+    ├── radicals/                # 50 bộ thủ cơ bản & 214 bộ thủ Khang Hy
+    └── prebuilt_audio/          # Audio giọng người thật chất lượng cao
 ```
 
-## Lưu ý về phát âm
+---
 
-Khả năng phát âm phụ thuộc vào Web Speech API và các giọng đọc được cài trên thiết bị. Chrome và Safari được khuyến nghị nếu nút phát âm không hoạt động trên trình duyệt hiện tại.
+## 🔒 Tiến trình học tập & Bảo mật dữ liệu
 
-HSK1 và HSK2 sử dụng audio MP3 dựng sẵn bằng Fun-CosyVoice3-0.5B-2512. Khi một mục có trong
-manifest tương ứng tại `database/prebuilt_audio/`, ứng dụng ưu tiên MP3; nếu chưa có hoặc file
-lỗi, ứng dụng tự động quay lại Web Speech API. Xem quy trình tạo và test tại
-[`tools/TTS_TESTING.md`](tools/TTS_TESTING.md).
+- **Không cần tài khoản:** Toàn bộ tiến trình học tập được lưu tự động và an toàn trong `localStorage` trên chính thiết bị của bạn.
+- **Sao lưu & Chuyển thiết bị:** 
+  - Vào phần **Sao lưu và chuyển thiết bị** $\rightarrow$ Bấm **💾 Tải bản sao tiến trình** để xuất file JSON.
+  - Sang thiết bị mới $\rightarrow$ Bấm **📂 Khôi phục từ bản sao** để tiếp tục học ngay lập tức mà không mất chuỗi ngày học!
 
-## Lỗi đã biết
+---
 
-- **Không nghe được phát âm khi mở liên kết từ Facebook trên Android:** trình duyệt tích hợp của Facebook có thể không hỗ trợ phát âm qua Web Speech API. Hãy mở menu của trang, chọn mở bằng trình duyệt bên ngoài và tiếp tục học bằng Google Chrome.
+## 🤝 Đóng góp & Phát triển
 
-## Đóng góp
+Mọi ý kiến đóng góp, báo cáo lỗi từ vựng hoặc đề xuất tính năng mới đều được hoan nghênh nồng nhiệt qua [GitHub Issues](https://github.com/nguyenhau442001/HSK-Flashcards-Generator/issues) hoặc Pull Requests.
 
-Issue và đề xuất cải tiến đều được chào đón trên GitHub.
+- **Tác giả:** [Nguyễn Ngọc Hậu (haunguyenngoc442001)](https://github.com/nguyenhau442001)
+- **Giấy phép:** Open Source - MIT License.
