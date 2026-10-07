@@ -662,12 +662,18 @@ function goBackToPicker() {
   renderLevelProgress();
   if (pickerVersion === '3.0') renderHsk30Grid();
   renderLearningDashboard();
+  if (typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
+    SpaRouter.pushView({ view: 'vocab' });
+  }
 }
 
 async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false) {
   celebrationShown = false;
   setActiveStudyWord(null);
   currentLevel = level;
+  if (typeof SpaRouter !== 'undefined') {
+    SpaRouter.pushView({ view: 'cards', level: level });
+  }
   document.body.classList.add('study-mode');
   document.body.classList.add('flashcard-study-mode');
   if (transitionTimer) { clearTimeout(transitionTimer); transitionTimer = null; }

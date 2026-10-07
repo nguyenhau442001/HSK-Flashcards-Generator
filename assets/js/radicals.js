@@ -102,6 +102,10 @@ function setPrimaryTab(tab, options) {
     abandonReviewSession();
   }
   syncHomeScreen();
+  if (typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
+    if (tab === 'vocab') SpaRouter.pushView({ view: 'vocab' });
+    else SpaRouter.pushView({ view: 'tab', tab: tab });
+  }
 }
 
 async function openRadicalDirectory() {
@@ -223,6 +227,9 @@ function startRadicalStudy(mode, groupIndex, options) {
   document.getElementById('screenRadicalCards').style.display = '';
   document.getElementById('radicalTransferPanel').hidden = true;
   document.body.classList.add('study-mode');
+  if (typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
+    SpaRouter.pushView({ view: 'radicalCards', mode: mode });
+  }
   buildRadicalCardArea();
   renderRadicalFilters();
   setRadicalViewMode(openOverview ? 'overview' : 'cards');
@@ -243,6 +250,9 @@ function goBackToRadicalHub() {
   radicalTab = radicalReturnTab;
   radicalCurrentView = 'cards';
   renderRadicalHub();
+  if (typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
+    SpaRouter.pushView({ view: 'tab', tab: 'radicals' });
+  }
 }
 
 // Close primary tools & games menu on click outside

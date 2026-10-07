@@ -378,7 +378,7 @@ if ('serviceWorker' in navigator) {
   <div id="screenCards" style="display:none">
     <div class="study-view-topbar">
       <div class="study-view-topbar-left">
-        <button class="back-btn study-back-btn" onclick="goBackToPicker()" title="Quay lại chọn cấp độ (Esc)">
+        <button class="back-btn study-back-btn" onclick="SpaRouter.navigateBack()" title="Quay lại chọn cấp độ (Esc)">
           <span class="back-arrow" aria-hidden="true">←</span>
           <span class="study-level-badge" id="studyLevelBadge"></span>
         </button>
@@ -478,7 +478,7 @@ if ('serviceWorker' in navigator) {
   </div>
 
   <div id="screenTodayReviews" style="display:none">
-    <button class="back-btn" type="button" onclick="closeTodayReviews()">← Quay lại</button>
+    <button class="back-btn" type="button" onclick="SpaRouter.navigateBack()">← Quay lại</button>
     <div class="today-review-heading">
       <h2 id="todayReviewTitle">📅 Ôn hôm nay</h2>
       <p id="todayReviewProgress" role="status"></p>
@@ -493,7 +493,7 @@ if ('serviceWorker' in navigator) {
 
   <!-- SCREEN 4: Radical flashcards -->
   <div id="screenRadicalCards" style="display:none">
-    <button class="back-btn" onclick="goBackToRadicalHub()">← Quay lại Bộ thủ</button>
+    <button class="back-btn" onclick="SpaRouter.navigateBack()">← Quay lại Bộ thủ</button>
 
     <div class="view-tabs" role="tablist" aria-label="Chế độ xem bộ thủ">
       <button id="radicalFlashcardTab" class="view-tab active" role="tab" aria-selected="true"
@@ -809,7 +809,8 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/storage.js?v=20261006-srs-sync1"></script>
 <script src="https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js" crossorigin="anonymous"></script>
 <script src="assets/js/srs.js?v=20261006-2tier-srs1"></script>
-<script src="assets/js/levels.js?v=20261006-darkmode-focus1"></script>
+<script src="assets/js/spa-router.js?v=20261007-router1"></script>
+<script src="assets/js/levels.js?v=20261007-router1"></script>
 <script src="assets/js/topics.js?v=20261006-decimal-pct1"></script>
 <script src="assets/js/hsk30.js?v=20261006-decimal-pct1"></script>
 <script src="assets/js/sentence-game.js?v=20261006-sentence-ux1"></script>
@@ -818,16 +819,16 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/vocabulary-overview.js?v=20261006-hanviet1"></script>
 <script src="assets/js/fast-review.js?v=20261006-review-mistakes1"></script>
 <script src="assets/js/hanviet-dict.js?v=20261006-hanviet1"></script>
-<script src="assets/js/flashcard.js?v=20261007-focus-card1"></script>
+<script src="assets/js/flashcard.js?v=20261007-router1"></script>
 <script src="assets/js/card-interactions.js?v=20261006-swipe-fix1"></script>
 <script src="assets/js/speech.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/progress.js?v=20261006-hanviet1"></script>
-<script src="assets/js/due-review.js?v=20261006-srs-sync1"></script>
+<script src="assets/js/due-review.js?v=20261007-router1"></script>
 <script src="assets/js/theme.js?v=20261006-ui-refinement1"></script>
 <script src="assets/js/backup.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/memory-curve.js?v=20261006-2tier-srs1"></script>
 <script src="assets/js/radicals-state.js?v=20261003-hsk20-rich1"></script>
-<script src="assets/js/radicals.js?v=20261007-hsk4-reading1"></script>
+<script src="assets/js/radicals.js?v=20261007-router1"></script>
 <script src="assets/js/radical-card.js?v=20261003-hsk20-rich1"></script>
 <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3/dist/hanzi-writer.min.js"></script>
 <script src="assets/js/sidebar-search.js?v=20261006-nav-fix1"></script>

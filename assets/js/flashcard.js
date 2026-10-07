@@ -332,6 +332,9 @@ function toggleStudySidebar(forceOpen) {
     if (typeof renderStudyWordList === 'function') {
       renderStudyWordList();
     }
+    if (typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
+      SpaRouter.pushView({ view: 'cards', level: currentLevel, drawerOpen: true });
+    }
   } else {
     document.body.classList.remove('study-sidebar-open');
   }
@@ -351,6 +354,9 @@ function toggleStudyWritingPanel(forceOpen) {
     if (typeof renderActiveStrokeChar === 'function') {
       setTimeout(() => renderActiveStrokeChar(true), 50);
     }
+    if (typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
+      SpaRouter.pushView({ view: 'cards', level: currentLevel, drawerOpen: true });
+    }
   } else {
     document.body.classList.remove('study-sidebar-open');
   }
@@ -358,8 +364,14 @@ function toggleStudyWritingPanel(forceOpen) {
 }
 
 function closeAllStudyDrawers() {
+  const wasOpen = document.body.classList.contains('study-sidebar-open');
   document.body.classList.remove('study-sidebar-open');
   updateStudyDrawerButtons();
+  if (wasOpen && typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
+    if (window.history.state && window.history.state.drawerOpen) {
+      window.history.back();
+    }
+  }
 }
 
 function updateStudyDrawerButtons() {

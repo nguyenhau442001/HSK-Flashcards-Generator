@@ -126,6 +126,9 @@ async function openReviewQueue(title, loadQueue, doneMessage) {
   document.getElementById('learningDashboard').style.display = 'none';
   document.getElementById('todayReviewCardArea').innerHTML = '<div class="loading-text">Đang tìm thẻ đến hạn...</div>';
   syncHomeScreen();
+  if (typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
+    SpaRouter.pushView({ view: 'todayReviews' });
+  }
   try {
     todayReviewQueue = await loadQueue();
     todayReviewIndex = 0;
@@ -144,6 +147,9 @@ function closeTodayReviews() {
   document.getElementById('learningDashboard').style.display = '';
   renderLearningDashboard();
   syncHomeScreen();
+  if (typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
+    SpaRouter.pushView({ view: 'vocab' });
+  }
 }
 
 document.addEventListener('keydown', event => {
