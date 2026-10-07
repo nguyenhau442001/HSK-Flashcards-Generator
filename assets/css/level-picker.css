@@ -71,23 +71,29 @@
   align-items: center; gap: 14px; margin-top: 16px;
 }
 .daily-goal-count {
-  display: flex; align-items: baseline; white-space: nowrap;
+  display: flex; align-items: baseline; white-space: nowrap; gap: 4px;
 }
 .daily-goal-count strong {
   color: var(--accent); font-size: 28px; line-height: 1; font-weight: 700;
 }
 .daily-goal-selector {
-  display: inline-flex; align-items: center; gap: 2px;
-  margin-left: 4px; color: var(--text-secondary); font-size: 11px;
+  display: inline-flex; align-items: center; gap: 4px;
+  margin-left: 2px; color: var(--text-secondary); font-size: 13px;
+  white-space: nowrap;
 }
 .daily-goal-selector select {
-  max-width: 68px; margin: 0; padding: 2px 16px 2px 3px;
-  border: 1px solid transparent; border-radius: 6px;
-  background: transparent; color: var(--text-secondary);
-  font: inherit; font-weight: 600; cursor: pointer;
+  width: auto; max-width: none; min-width: 64px;
+  margin: 0; padding: 2px 20px 2px 6px;
+  border: 1px solid var(--border); border-radius: 6px;
+  background: var(--surface-subtle); color: var(--text-secondary);
+  font: inherit; font-size: 12px; font-weight: 600; cursor: pointer;
+  appearance: none; -webkit-appearance: none; -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 6px center;
 }
 .daily-goal-selector select:hover {
-  background: var(--accent-light); border-color: var(--border); color: var(--accent);
+  background-color: var(--card-bg); border-color: var(--accent); color: var(--accent-text);
 }
 .daily-goal-selector select:focus-visible {
   outline: 2px solid var(--accent); outline-offset: 2px;

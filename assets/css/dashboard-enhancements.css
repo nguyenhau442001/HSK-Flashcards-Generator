@@ -283,7 +283,30 @@ body.home-screen .featured-topics {
     margin-top: 14px;
   }
   body.home-screen .daily-goal-actions { display: none; }
+  body.home-screen .daily-goal-count {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
   body.home-screen .daily-goal-count strong { font-size: 28px; font-weight: 800; color: var(--text-primary); }
+  body.home-screen .daily-goal-selector {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 2px;
+    color: var(--text-secondary);
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  body.home-screen .daily-goal-selector select {
+    width: auto;
+    max-width: none;
+    min-width: 66px;
+    padding: 3px 20px 3px 6px;
+    font-size: 12.5px;
+  }
   body.home-screen .daily-goal-track { height: 8px; border-radius: 999px; }
   body.home-screen .daily-goal-message { font-size: 12px; color: var(--text-tertiary); margin-top: 5px; }
   body.home-screen .learning-totals {
