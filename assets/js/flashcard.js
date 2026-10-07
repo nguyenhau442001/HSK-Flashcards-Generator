@@ -31,18 +31,29 @@ function buildCardArea() {
       <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Đã nhớ</div>
       <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Chưa nhớ</div>
       <div id="cardContent" class="card-content">
-        <div class="word-main-block">
-          <div class="hanzi" id="hanzi" onclick="event.stopPropagation(); toggleStudyWritingPanel(true)" title="Nhấn để luyện viết và xem thứ tự nét (W)"></div>
-          <div class="pinyin-row" id="pinyinRow">
-            <div class="pinyin" id="pinyin"></div>
-            <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
-            <button class="sound-btn speech-btn" id="soundBtn" type="button"
-              onclick="event.stopPropagation(); speakWord()"
-              aria-label="Nghe phát âm" aria-live="polite">
-              <span class="sound-btn-icon" aria-hidden="true">🔊</span>
-            </button>
+        <div class="word-main-block split-layout" id="wordMainBlock">
+          <!-- Cột trái: Hình ảnh minh họa / Neo thị giác (Visual Mnemonic) -->
+          <div class="card-visual-col" id="cardVisualCol">
+            <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa trực quan">
+              <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa từ vựng" hidden>
+              <div class="card-illustration-svg" id="cardIllustrationSvg"></div>
+            </div>
           </div>
-          <div class="meaning" id="meaning"></div>
+
+          <!-- Cột phải: Chữ Hán, Pinyin & Nghĩa -->
+          <div class="card-content-col" id="cardContentCol">
+            <div class="hanzi" id="hanzi" onclick="event.stopPropagation(); toggleStudyWritingPanel(true)" title="Nhấn để luyện viết và xem thứ tự nét (W)"></div>
+            <div class="pinyin-row" id="pinyinRow">
+              <div class="pinyin" id="pinyin"></div>
+              <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
+              <button class="sound-btn speech-btn" id="soundBtn" type="button"
+                onclick="event.stopPropagation(); speakWord()"
+                aria-label="Nghe phát âm" aria-live="polite">
+                <span class="sound-btn-icon" aria-hidden="true">🔊</span>
+              </button>
+            </div>
+            <div class="meaning" id="meaning"></div>
+          </div>
         </div>
         <div class="example-box" id="exampleBox">
           <div class="ex-header-row">
@@ -526,6 +537,10 @@ function render(animate) {
       document.getElementById('meaning').textContent = 'Không có từ trong bộ lọc này';
       document.getElementById('meaning').classList.add('show');
       document.getElementById('hint').textContent = '';
+      const emptySvg = document.getElementById('cardIllustrationSvg');
+      const emptyImg = document.getElementById('cardIllustrationImg');
+      if (emptySvg) emptySvg.innerHTML = '';
+      if (emptyImg) { emptyImg.src = ''; emptyImg.hidden = true; }
       if (content) content.classList.add('is-empty');
       updateProgress();
       updateCardPosition();
@@ -566,6 +581,32 @@ function render(animate) {
     document.getElementById('exZh').innerHTML = w.example_zh;
     document.getElementById('exPy').innerHTML = w.example_py;
     document.getElementById('exVi').innerHTML = w.example_vi;
+
+    // Cập nhật hình ảnh minh họa trực quan (Visual Mnemonic Anchor)
+    const imgEl = document.getElementById('cardIllustrationImg');
+    const svgEl = document.getElementById('cardIllustrationSvg');
+    const frameEl = document.getElementById('cardIllustrationFrame');
+    if (imgEl && svgEl && typeof getWordIllustration === 'function') {
+      const illu = getWordIllustration(w);
+      if (illu) {
+        if (illu.type === 'img') {
+          imgEl.src = illu.src;
+          imgEl.alt = illu.caption || w.meaning || '';
+          imgEl.hidden = false;
+          svgEl.hidden = true;
+          svgEl.innerHTML = '';
+        } else if (illu.type === 'svg') {
+          svgEl.innerHTML = illu.svg;
+          svgEl.hidden = false;
+          imgEl.hidden = true;
+          imgEl.src = '';
+        }
+        if (frameEl) {
+          frameEl.title = illu.caption ? `Minh họa: ${illu.caption}` : (w.meaning || '');
+        }
+      }
+    }
+
     document.getElementById('hint').textContent = hasExample
       ? 'Nhấn vào thẻ để xem nghĩa và ví dụ'
       : 'Nhấn vào thẻ để xem nghĩa';
