@@ -1,577 +1,716 @@
 /* ==========================================================================
    HSK 4 Reading & Analysis Module (Đọc hiểu & Phân tích ngữ pháp HSK 4)
-   Minimalist, modern, accessible design with full Dark Mode support.
+   Modern, monochromatic aesthetic with single accent color and full Dark Mode.
    ========================================================================== */
 
 .reading-analysis-container {
-  max-width: 1000px;
+  max-width: 940px;
   margin: 0 auto;
-  padding: 12px 16px 60px;
+  padding: 16px 20px 80px;
   color: var(--text-primary);
+  transition: all 0.25s ease;
 }
 
-/* Header & Filter Controls */
-.reading-header {
-  margin-bottom: 20px;
-}
-
-.reading-header-top {
+/* ==========================================================================
+   1. UNIFIED COMPACT NAVIGATION STRIP (Replaces 5 multi-tier filter rows)
+   ========================================================================== */
+.reading-unified-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
   gap: 12px;
-  margin-bottom: 14px;
+  margin-bottom: 22px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
-.reading-title-group {
+:root[data-theme="dark"] .reading-unified-nav,
+body.dark-mode .reading-unified-nav {
+  background: #171821;
+  border-color: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.reading-nav-left {
   display: flex;
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
 }
 
-.reading-title {
-  font-size: 1.45rem;
-  font-weight: 750;
-  margin: 0;
+.reading-brand-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding-right: 6px;
+  border-right: 1px solid var(--border);
+}
+
+:root[data-theme="dark"] .reading-brand-badge,
+body.dark-mode .reading-brand-badge {
+  border-right-color: rgba(255, 255, 255, 0.08);
+}
+
+.reading-brand-icon {
+  font-size: 1rem;
+}
+
+.reading-brand-title {
+  font-size: 0.88rem;
+  font-weight: 700;
   color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.reading-brand-tag {
+  font-size: 0.68rem;
+  font-weight: 650;
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: var(--surface-subtle);
+  color: var(--accent);
+  border: 1px solid rgba(var(--accent-rgb, 192, 86, 56), 0.25);
+  text-transform: uppercase;
+}
+
+/* Compact Dropdown Select Pills */
+.reading-filter-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.reading-select-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  transition: border-color 0.15s ease;
+}
+
+:root[data-theme="dark"] .reading-select-pill,
+body.dark-mode .reading-select-pill {
+  background: rgba(255, 255, 255, 0.035);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.reading-select-pill:hover {
+  border-color: var(--text-tertiary);
+}
+
+.reading-pill-label {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.reading-pill-select {
+  background: transparent;
+  border: none;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  cursor: pointer;
+  outline: none;
+  padding: 1px 2px;
+  font-family: inherit;
+}
+
+.reading-pill-select option {
+  background: var(--card-bg);
+  color: var(--text-primary);
+}
+
+:root[data-theme="dark"] .reading-pill-select option,
+body.dark-mode .reading-pill-select option {
+  background: #1d1e28;
+  color: #f3f4f6;
+}
+
+.reading-nav-right {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.reading-standard-badge {
+/* Segmented Mode Switcher (Phân tích vs Thực chiến) */
+.reading-segmented-control {
+  display: inline-flex;
+  align-items: center;
+  background: var(--surface-subtle);
+  padding: 2px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+}
+
+:root[data-theme="dark"] .reading-segmented-control,
+body.dark-mode .reading-segmented-control {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.07);
+}
+
+.reading-segment-btn {
+  padding: 4px 11px;
+  border-radius: 999px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.16s ease;
+  white-space: nowrap;
+}
+
+.reading-segment-btn:hover {
+  color: var(--text-primary);
+}
+
+.reading-segment-btn.active {
+  background: var(--card-bg);
+  color: var(--text-primary);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+:root[data-theme="dark"] .reading-segment-btn.active,
+body.dark-mode .reading-segment-btn.active {
+  background: #252735;
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+/* Quick Display Toggles */
+.reading-quick-toggles {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.reading-toggle-pill {
+  padding: 3px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-tertiary);
+  font-size: 0.74rem;
+  font-weight: 650;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+:root[data-theme="dark"] .reading-toggle-pill,
+body.dark-mode .reading-toggle-pill {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.reading-toggle-pill:hover {
+  color: var(--text-primary);
+  background: var(--surface-subtle);
+}
+
+.reading-toggle-pill.active {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: rgba(var(--accent-rgb, 192, 86, 56), 0.08);
+}
+
+/* Zen Mode Pill */
+.reading-zen-pill {
   display: inline-flex;
   align-items: center;
   gap: 4px;
   padding: 3px 9px;
   border-radius: 999px;
-  font-size: 0.75rem;
-  font-weight: 650;
-  background: var(--accent-light);
-  color: var(--accent);
-  border: 1px solid rgba(192, 86, 56, 0.25);
-  letter-spacing: 0.02em;
-}
-
-.reading-header-actions {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.reading-counter-badge {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-  background: var(--surface-chip);
-  padding: 4px 10px;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--border);
-}
-
-/* Test Filter Pills (Chọn Đề 1 - 10) */
-.reading-test-filters {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  overflow-x: auto;
-  padding-bottom: 8px;
-  margin-bottom: 8px;
-  scrollbar-width: thin;
-  -webkit-overflow-scrolling: touch;
-}
-
-.reading-filter-label {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--text-tertiary);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  white-space: nowrap;
-  margin-right: 4px;
-}
-
-.reading-test-btn {
-  padding: 5px 12px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--card-bg);
-  color: var(--text-secondary);
-  font-size: 0.82rem;
-  font-weight: 600;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: all 0.18s ease;
-}
-
-.reading-test-btn:hover {
-  background: var(--surface-chip);
-  color: var(--text-primary);
-  border-color: var(--text-tertiary);
-}
-
-.reading-test-btn.active {
-  background: var(--accent);
-  color: #ffffff;
-  border-color: var(--accent);
-  box-shadow: 0 2px 8px rgba(192, 86, 56, 0.25);
-}
-
-/* Category Filter Pills */
-.reading-category-filters {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  overflow-x: auto;
-  padding-bottom: 4px;
-  scrollbar-width: thin;
-  -webkit-overflow-scrolling: touch;
-}
-
-.reading-cat-btn {
-  padding: 7px 14px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--card-bg);
-  color: var(--text-secondary);
-  font-size: 0.84rem;
-  font-weight: 600;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: all 0.18s ease;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.reading-cat-btn:hover {
-  background: var(--surface-chip);
-  color: var(--text-primary);
-  border-color: var(--text-tertiary);
-}
-
-.reading-cat-btn.active {
-  background: var(--text-primary);
-  color: var(--card-bg);
-  border-color: var(--text-primary);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-:root[data-theme="dark"] .reading-cat-btn.active,
-body.dark-mode .reading-cat-btn.active {
-  background: var(--accent);
-  color: #ffffff;
-  border-color: var(--accent);
-}
-
-/* View Mode Switcher (Phân tích, Xếp câu, Điền khuyết) */
-.reading-mode-tabs {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  background: var(--surface-chip);
-  padding: 4px;
-  border-radius: var(--radius-md);
-  margin-bottom: 20px;
-  border: 1px solid var(--border);
-}
-
-.reading-mode-tab {
-  flex: 1;
-  text-align: center;
-  padding: 8px 12px;
-  border-radius: 8px;
-  border: none;
-  background: transparent;
-  color: var(--text-secondary);
-  font-size: 0.88rem;
-  font-weight: 650;
-  cursor: pointer;
-  transition: all 0.16s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-}
-
-.reading-mode-tab:hover {
-  color: var(--text-primary);
-}
-
-.reading-mode-tab.active {
-  background: var(--card-bg);
-  color: var(--text-primary);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
-}
-
-:root[data-theme="dark"] .reading-mode-tab.active,
-body.dark-mode .reading-mode-tab.active {
-  background: #242632;
-  color: var(--text-primary);
-}
-
-/* Primary Reading Main Card */
-.reading-main-card {
-  background: var(--card-bg);
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--border);
-  box-shadow: var(--card-shadow);
-  padding: 24px;
-  margin-bottom: 20px;
-  position: relative;
-  transition: border-color 0.2s ease;
-}
-
-/* Card Top Bar: Meta info & Display Toggles */
-.reading-card-topbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 12px;
-  padding-bottom: 16px;
-  margin-bottom: 18px;
-  border-bottom: 1px solid var(--border);
-}
-
-.reading-source-tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-}
-
-.reading-exam-pill {
-  padding: 2px 7px;
-  background: var(--surface-chip);
-  border-radius: 4px;
-  font-size: 0.72rem;
-  color: var(--text-progress-detail);
-  border: 1px solid var(--border);
-}
-
-.reading-toggles {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-
-.reading-toggle-btn {
-  padding: 4px 9px;
-  border-radius: 6px;
   border: 1px solid var(--border);
   background: var(--surface-subtle);
   color: var(--text-secondary);
-  font-size: 0.76rem;
+  font-size: 0.78rem;
+  font-weight: 650;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+:root[data-theme="dark"] .reading-zen-pill,
+body.dark-mode .reading-zen-pill {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.reading-zen-pill:hover {
+  border-color: var(--accent);
+  color: var(--text-primary);
+}
+
+.reading-zen-pill.active {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+}
+
+/* ==========================================================================
+   2. ZEN MODE / FOCUS MODE (🧘 Chế độ tập trung cao độ)
+   ========================================================================== */
+body.reading-zen-active #primaryTabs,
+body.reading-zen-active .study-view-topbar,
+body.reading-zen-active .picker-controls,
+body.reading-zen-active .reading-promo-banner,
+body.reading-zen-active .reading-unified-nav {
+  display: none !important;
+}
+
+.reading-analysis-container.zen-mode-active {
+  max-width: 820px;
+  padding: 24px 20px 90px;
+}
+
+.reading-zen-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+  animation: fadeIn 0.2s ease-out;
+}
+
+:root[data-theme="dark"] .reading-zen-bar,
+body.dark-mode .reading-zen-bar {
+  background: rgba(23, 24, 33, 0.85);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.zen-exit-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 650;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  transition: all 0.15s ease;
+}
+
+.zen-exit-btn:hover {
+  color: var(--text-primary);
+  background: var(--surface-subtle);
+}
+
+.zen-center-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.zen-counter-badge {
+  font-size: 0.82rem;
+  font-weight: 650;
+  color: var(--text-secondary);
+}
+
+.zen-category-tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: var(--surface-subtle);
+  color: var(--text-tertiary);
+  border: 1px solid var(--border);
+}
+
+.zen-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.zen-btn-action {
+  padding: 3px 9px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.15s ease;
 }
 
-.reading-toggle-btn.active {
-  background: var(--accent-light);
+.zen-btn-action:hover,
+.zen-btn-action.active {
+  background: var(--surface-subtle);
+  color: var(--text-primary);
+  border-color: var(--accent);
+}
+
+/* ==========================================================================
+   3. MAIN PASSAGE CARD (De-boxified, clear hierarchy, expansive whitespace)
+   ========================================================================== */
+.reading-passage-card {
+  background: var(--card-bg);
+  border-radius: var(--radius-xl, 16px);
+  border: 1px solid var(--border);
+  padding: 30px 34px;
+  margin-bottom: 22px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
+  transition: all 0.2s ease;
+}
+
+:root[data-theme="dark"] .reading-passage-card,
+body.dark-mode .reading-passage-card {
+  background: #171821;
+  border-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 30px -4px rgba(0, 0, 0, 0.35);
+}
+
+.reading-card-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+:root[data-theme="dark"] .reading-card-meta-row,
+body.dark-mode .reading-card-meta-row {
+  border-bottom-color: rgba(255, 255, 255, 0.04);
+}
+
+.reading-meta-left {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.reading-source-text {
+  font-size: 0.78rem;
+  font-weight: 550;
+  color: var(--text-tertiary);
+}
+
+.reading-exam-tag {
+  font-size: 0.7rem;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: var(--surface-subtle);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  font-weight: 550;
+}
+
+.reading-audio-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.reading-btn-speaker {
+  padding: 5px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface-subtle);
+  color: var(--text-primary);
+  font-size: 0.82rem;
+  font-weight: 650;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.15s ease;
+}
+
+:root[data-theme="dark"] .reading-btn-speaker,
+body.dark-mode .reading-btn-speaker {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.reading-btn-speaker:hover {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+}
+
+.reading-btn-speed {
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface-subtle);
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+:root[data-theme="dark"] .reading-btn-speed,
+body.dark-mode .reading-btn-speed {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.reading-btn-dictation {
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface-subtle);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 550;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+:root[data-theme="dark"] .reading-btn-dictation,
+body.dark-mode .reading-btn-dictation {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.reading-btn-dictation.active {
+  background: rgba(var(--accent-rgb, 192, 86, 56), 0.12);
   color: var(--accent);
-  border-color: rgba(192, 86, 56, 0.35);
+  border-color: var(--accent);
 }
 
-/* Chinese Text Area with Interactive Tokens */
-.reading-passage-box {
-  margin-bottom: 20px;
+/* ==========================================================================
+   4. CHINESE SENTENCE TYPOGRAPHY (Clear hierarchy, commanding Hanzi)
+   ========================================================================== */
+.reading-zh-hero {
+  margin: 12px 0 20px;
 }
 
-.reading-zh-line {
-  font-size: 1.55rem;
-  line-height: 1.95;
-  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Source Han Sans CN", sans-serif;
-  letter-spacing: 0.04em;
-  margin-bottom: 14px;
+.reading-zh-flow {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  gap: 4px 6px;
+  gap: 8px 4px;
+  line-height: 1.6;
+  font-family: ui-sans-serif, system-ui, -apple-system, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
 }
 
-/* Interactive Token Chip */
-.reading-token {
+.reading-token-word {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  padding: 2px 4px;
-  border-radius: 6px;
+  padding: 2px 2px;
+  border-radius: 4px;
   cursor: pointer;
-  transition: all 0.16s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
+  transition: all 0.15s ease;
   vertical-align: bottom;
-  border: 1px solid transparent;
+  user-select: text;
+}
+
+.reading-token-word:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.token-py {
+  font-size: 0.82rem;
+  line-height: 1.1;
+  color: var(--text-tertiary);
+  font-weight: 400;
+  margin-bottom: 3px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: 0;
   user-select: none;
 }
 
-.reading-token-py {
-  font-size: 0.76rem;
-  line-height: 1.1;
-  color: var(--text-tertiary);
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  letter-spacing: 0;
-  margin-bottom: 2px;
-  font-weight: 500;
-}
-
-.reading-token-zh {
-  font-size: 1.55rem;
+.token-zh {
+  font-size: clamp(1.9rem, 3.8vw, 2.5rem);
   line-height: 1.25;
-  font-weight: 500;
-}
-
-.reading-token-hv {
-  font-size: 0.7rem;
-  line-height: 1.1;
-  color: #c05638;
-  font-weight: 600;
-  margin-top: 2px;
-  background: rgba(192, 86, 56, 0.08);
-  padding: 0 4px;
-  border-radius: 3px;
-  white-space: nowrap;
-}
-
-:root[data-theme="dark"] .reading-token-hv,
-body.dark-mode .reading-token-hv {
-  color: #f39c12;
-  background: rgba(243, 156, 18, 0.12);
-}
-
-/* Highlight Semantic Categories */
-.reading-token.token-core {
-  background: rgba(16, 185, 129, 0.09);
-  border-color: rgba(16, 185, 129, 0.35);
-}
-.reading-token.token-core .reading-token-zh {
-  color: #059669;
-  font-weight: 650;
-}
-:root[data-theme="dark"] .reading-token.token-core,
-body.dark-mode .reading-token.token-core {
-  background: rgba(16, 185, 129, 0.16);
-  border-color: rgba(52, 211, 153, 0.4);
-}
-:root[data-theme="dark"] .reading-token.token-core .reading-token-zh,
-body.dark-mode .reading-token.token-core .reading-token-zh {
-  color: #34d399;
-}
-
-.reading-token.token-grammar {
-  background: rgba(139, 92, 246, 0.11);
-  border-color: rgba(139, 92, 246, 0.45);
-}
-.reading-token.token-grammar .reading-token-zh {
-  color: #7c3aed;
-  font-weight: 750;
-}
-:root[data-theme="dark"] .reading-token.token-grammar,
-body.dark-mode .reading-token.token-grammar {
-  background: rgba(139, 92, 246, 0.18);
-  border-color: rgba(167, 139, 250, 0.45);
-}
-:root[data-theme="dark"] .reading-token.token-grammar .reading-token-zh,
-body.dark-mode .reading-token.token-grammar .reading-token-zh {
-  color: #c4b5fd;
-}
-
-.reading-token.token-advanced {
-  background: rgba(245, 158, 11, 0.1);
-  border-color: rgba(245, 158, 11, 0.35);
-}
-.reading-token.token-advanced .reading-token-zh {
-  color: #d97706;
-  font-weight: 650;
-}
-:root[data-theme="dark"] .reading-token.token-advanced,
-body.dark-mode .reading-token.token-advanced {
-  background: rgba(245, 158, 11, 0.16);
-  border-color: rgba(251, 191, 36, 0.4);
-}
-:root[data-theme="dark"] .reading-token.token-advanced .reading-token-zh,
-body.dark-mode .reading-token.token-advanced .reading-token-zh {
-  color: #fbbf24;
-}
-
-.reading-token:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
-}
-
-.reading-token.active-inspect {
-  outline: 2px solid var(--accent);
-  box-shadow: 0 0 0 4px var(--accent-light);
-}
-
-/* Legend of Highlight Colors */
-.reading-legend {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-  padding: 8px 12px;
-  border-radius: var(--radius-md);
-  background: var(--surface-subtle);
-  border: 1px solid var(--border);
-  margin-bottom: 16px;
-  font-size: 0.78rem;
-  color: var(--text-secondary);
-}
-
-.legend-item {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.legend-dot {
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.legend-dot.dot-core { background: #059669; }
-.legend-dot.dot-grammar { background: #7c3aed; }
-.legend-dot.dot-advanced { background: #d97706; }
-
-/* Sentence Full Translations Box */
-.reading-translations-box {
-  background: var(--surface-subtle);
-  border-radius: var(--radius-md);
-  padding: 14px 16px;
-  border: 1px solid var(--border);
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.reading-full-py {
-  font-size: 0.96rem;
-  color: var(--text-secondary);
-  font-weight: 500;
-  line-height: 1.45;
-}
-
-.reading-full-hv {
-  font-size: 0.92rem;
-  color: #c05638;
-  font-weight: 600;
-  line-height: 1.45;
-}
-
-:root[data-theme="dark"] .reading-full-hv,
-body.dark-mode .reading-full-hv {
-  color: #f39c12;
-}
-
-.reading-full-vi {
-  font-size: 1.05rem;
-  color: var(--text-primary);
   font-weight: 550;
-  line-height: 1.5;
+  color: var(--text-primary);
+  letter-spacing: 0.03em;
+  transition: color 0.15s ease;
 }
 
-/* Audio & Dictation Control Bar */
-.reading-audio-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 10px;
+.token-hv {
+  font-size: 0.72rem;
+  color: var(--text-tertiary);
+  margin-top: 2px;
+  user-select: none;
+}
+
+.reading-token-punct {
+  font-size: clamp(1.9rem, 3.8vw, 2.5rem);
+  line-height: 1.25;
+  font-weight: 550;
+  color: var(--text-primary);
+  align-self: flex-end;
+  padding-bottom: 2px;
+  user-select: text;
+}
+
+/* Subtle Highlights (Clean underlines, NO aggressive boxed fills) */
+.token-hl-grammar .token-zh {
+  border-bottom: 2.5px solid var(--accent);
+  color: var(--accent);
+}
+
+.token-hl-core .token-zh {
+  border-bottom: 1.5px dotted var(--text-tertiary);
+}
+
+.token-hl-advanced .token-zh {
+  color: var(--accent);
+}
+
+.reading-token-word.active-inspect {
+  background: rgba(var(--accent-rgb, 192, 86, 56), 0.12);
+  outline: 2px solid var(--accent);
+}
+
+/* Dictation Prompt */
+.reading-dictation-prompt {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* ==========================================================================
+   5. SENTENCE TRANSLATIONS (Muted, clear subordination)
+   ========================================================================== */
+.reading-sentence-translations {
   margin-top: 18px;
   padding-top: 14px;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.reading-audio-main {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+:root[data-theme="dark"] .reading-sentence-translations,
+body.dark-mode .reading-sentence-translations {
+  border-top-color: rgba(255, 255, 255, 0.05);
 }
 
-.reading-audio-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 14px;
-  border-radius: 8px;
-  background: var(--accent-light);
-  color: var(--accent);
-  border: 1px solid rgba(192, 86, 56, 0.3);
-  font-size: 0.88rem;
-  font-weight: 650;
-  cursor: pointer;
-  transition: all 0.16s ease;
-}
-
-.reading-audio-btn:hover {
-  background: var(--accent);
-  color: #ffffff;
-}
-
-.reading-audio-btn.speaking {
-  animation: pulse-audio 1.4s infinite;
-  background: var(--accent);
-  color: #ffffff;
-}
-
-@keyframes pulse-audio {
-  0% { box-shadow: 0 0 0 0 rgba(192, 86, 56, 0.5); }
-  70% { box-shadow: 0 0 0 10px rgba(192, 86, 56, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(192, 86, 56, 0); }
-}
-
-.reading-speed-btn {
-  padding: 6px 10px;
-  border-radius: 6px;
-  border: 1px solid var(--border);
-  background: var(--card-bg);
-  color: var(--text-secondary);
-  font-size: 0.78rem;
-  font-weight: 650;
-  cursor: pointer;
-  transition: all 0.15s ease;
-}
-
-.reading-speed-btn:hover {
-  border-color: var(--text-tertiary);
+.reading-translation-meaning {
+  font-size: 1.08rem;
+  line-height: 1.6;
+  font-weight: 450;
   color: var(--text-primary);
 }
 
-.reading-dictation-btn {
-  padding: 7px 12px;
-  border-radius: 8px;
-  border: 1px solid var(--border);
-  background: var(--surface-chip);
-  color: var(--text-secondary);
-  font-size: 0.82rem;
-  font-weight: 600;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  transition: all 0.16s ease;
+.reading-translation-pinyin {
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--text-tertiary);
+  font-style: italic;
+  margin-top: 4px;
 }
 
-.reading-dictation-btn:hover,
-.reading-dictation-btn.active {
-  background: var(--info-bg);
-  color: var(--info-text);
-  border-color: rgba(68, 79, 138, 0.3);
+/* ==========================================================================
+   6. INLINE VOCABULARY & HAN-VIET STRIP (Replaces chopped up orange boxes)
+   ========================================================================== */
+.reading-vocab-strip {
+  margin-top: 20px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+:root[data-theme="dark"] .reading-vocab-strip,
+body.dark-mode .reading-vocab-strip {
+  border-top-color: rgba(255, 255, 255, 0.04);
+}
+
+.reading-vocab-strip-header {
+  margin-bottom: 8px;
+}
+
+.vocab-strip-title {
+  font-size: 0.74rem;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-tertiary);
+}
+
+.reading-vocab-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.reading-vocab-pill {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 5px 11px;
+  border-radius: 8px;
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+  font-family: inherit;
+}
+
+:root[data-theme="dark"] .reading-vocab-pill,
+body.dark-mode .reading-vocab-pill {
+  background: rgba(255, 255, 255, 0.035);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.reading-vocab-pill:hover {
+  background: var(--surface-chip);
+  border-color: var(--accent);
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+.vp-zh {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.vp-py {
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+}
+
+.vp-hv {
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+  font-weight: 500;
+}
+
+.vp-mean {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+.reading-vocab-pill.pill-grammar {
+  border-color: rgba(var(--accent-rgb, 192, 86, 56), 0.35);
+}
+
+.reading-vocab-pill.pill-grammar .vp-zh {
+  color: var(--accent);
 }
 
 /* Dictation Test Input Box */
 .reading-dictation-box {
-  margin-top: 14px;
+  margin: 16px 0;
   padding: 14px;
   border-radius: var(--radius-md);
   background: var(--surface-subtle);
@@ -581,7 +720,6 @@ body.dark-mode .reading-full-hv {
 .dictation-input-row {
   display: flex;
   gap: 8px;
-  margin-bottom: 8px;
 }
 
 .dictation-input {
@@ -591,7 +729,7 @@ body.dark-mode .reading-full-hv {
   border: 1px solid var(--border);
   background: var(--card-bg);
   color: var(--text-primary);
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-family: inherit;
 }
 
@@ -608,58 +746,63 @@ body.dark-mode .reading-full-hv {
 .dictation-feedback {
   font-size: 0.9rem;
   font-weight: 600;
-  padding: 6px 8px;
+  margin-top: 8px;
 }
 
-/* Token Inspector Details Drawer / Card */
+.dictation-feedback.success {
+  color: var(--success-text);
+}
+
+.dictation-feedback.error {
+  color: var(--text-primary);
+}
+
+/* ==========================================================================
+   7. TOKEN INSPECTOR DRAWER (Minimalist clean floating drawer)
+   ========================================================================== */
 .reading-token-inspector {
   background: var(--surface-chip);
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
-  padding: 14px 18px;
+  padding: 12px 16px;
   margin-top: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
+  gap: 14px;
   flex-wrap: wrap;
   animation: fadeIn 0.2s ease-out;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-4px); }
-  to { opacity: 1; transform: translateY(0); }
 }
 
 .inspector-word-group {
   display: flex;
   align-items: baseline;
-  gap: 10px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
 .inspector-zh {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--text-primary);
 }
 
 .inspector-py {
-  font-size: 1.05rem;
-  color: var(--text-secondary);
-  font-weight: 550;
+  font-size: 1rem;
+  color: var(--text-tertiary);
+  font-weight: 500;
 }
 
 .inspector-hv {
-  font-size: 0.95rem;
-  color: #c05638;
-  font-weight: 650;
+  font-size: 0.92rem;
+  color: var(--text-tertiary);
+  font-weight: 600;
 }
 
 .inspector-meaning {
-  font-size: 1rem;
+  font-size: 0.96rem;
   color: var(--text-primary);
-  margin-left: 6px;
+  margin-left: 4px;
 }
 
 .inspector-tags {
@@ -669,14 +812,35 @@ body.dark-mode .reading-full-hv {
 }
 
 .inspector-tag {
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   padding: 2px 7px;
   border-radius: 4px;
-  font-weight: 650;
+  font-weight: 600;
+  background: var(--surface-subtle);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+}
+
+.inspector-sound-btn {
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.inspector-close-btn {
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-tertiary);
+  cursor: pointer;
 }
 
 /* ==========================================================================
-   GRAMMAR & SENTENCE BREAKDOWN ACCORDION / PANELS
+   8. GRAMMAR & BREAKDOWN PANELS (Monochromatic, de-boxified)
    ========================================================================== */
 .reading-analysis-panels {
   display: flex;
@@ -685,105 +849,103 @@ body.dark-mode .reading-full-hv {
   margin-bottom: 24px;
 }
 
-/* Grammar Trap Card (Cực kỳ quan trọng) */
+/* Grammar Trap Card */
 .grammar-trap-card {
-  border-radius: var(--radius-lg);
-  border: 1px solid rgba(139, 92, 246, 0.35);
-  background: rgba(139, 92, 246, 0.05);
-  padding: 18px 20px;
+  background: rgba(var(--accent-rgb, 192, 86, 56), 0.035);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-lg, 12px);
+  padding: 18px 22px;
   position: relative;
-  overflow: hidden;
 }
 
 :root[data-theme="dark"] .grammar-trap-card,
 body.dark-mode .grammar-trap-card {
-  border-color: rgba(167, 139, 250, 0.3);
-  background: rgba(139, 92, 246, 0.08);
-}
-
-.grammar-trap-card::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  background: #7c3aed;
+  background: rgba(255, 255, 255, 0.025);
+  border-color: rgba(255, 255, 255, 0.06);
+  border-left-color: var(--accent);
 }
 
 .grammar-trap-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .grammar-trap-title {
-  font-size: 1rem;
-  font-weight: 750;
-  color: #7c3aed;
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--accent);
   display: flex;
   align-items: center;
-  gap: 7px;
-}
-
-:root[data-theme="dark"] .grammar-trap-title,
-body.dark-mode .grammar-trap-title {
-  color: #c4b5fd;
+  gap: 6px;
 }
 
 .grammar-trap-pattern {
   display: inline-block;
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-  font-size: 0.88rem;
-  font-weight: 650;
+  font-size: 0.86rem;
+  font-weight: 600;
   background: var(--card-bg);
-  padding: 4px 10px;
+  padding: 3px 9px;
   border-radius: 6px;
   border: 1px solid var(--border);
   color: var(--text-primary);
   margin-bottom: 10px;
 }
 
+:root[data-theme="dark"] .grammar-trap-pattern,
+body.dark-mode .grammar-trap-pattern {
+  background: #1d1e28;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
 .grammar-trap-note {
   font-size: 0.92rem;
-  line-height: 1.6;
+  line-height: 1.55;
   color: var(--text-primary);
   background: var(--card-bg);
-  padding: 12px 14px;
+  padding: 10px 14px;
   border-radius: 8px;
-  border: 1px solid rgba(139, 92, 246, 0.2);
+  border: 1px solid var(--border);
   margin-bottom: 8px;
 }
 
-.grammar-trap-note strong {
-  color: #7c3aed;
+:root[data-theme="dark"] .grammar-trap-note,
+body.dark-mode .grammar-trap-note {
+  background: #171821;
+  border-color: rgba(255, 255, 255, 0.06);
 }
 
-:root[data-theme="dark"] .grammar-trap-note strong,
-body.dark-mode .grammar-trap-note strong {
-  color: #a78bfa;
+.grammar-trap-note strong {
+  color: var(--accent);
 }
 
 .grammar-explanation-text {
   font-size: 0.88rem;
   color: var(--text-secondary);
-  line-height: 1.55;
+  line-height: 1.5;
 }
 
 /* SVO Sentence Breakdown Table */
 .sentence-breakdown-card {
   background: var(--card-bg);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-lg, 12px);
   border: 1px solid var(--border);
-  box-shadow: var(--card-shadow);
-  padding: 18px 20px;
+  padding: 18px 22px;
+}
+
+:root[data-theme="dark"] .sentence-breakdown-card,
+body.dark-mode .sentence-breakdown-card {
+  background: #171821;
+  border-color: rgba(255, 255, 255, 0.05);
 }
 
 .breakdown-card-title {
-  font-size: 1rem;
+  font-size: 0.96rem;
   font-weight: 700;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
   color: var(--text-primary);
   display: flex;
   align-items: center;
@@ -792,7 +954,6 @@ body.dark-mode .grammar-trap-note strong {
 
 .breakdown-table-wrapper {
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
 }
 
 .breakdown-table {
@@ -803,76 +964,79 @@ body.dark-mode .grammar-trap-note strong {
 }
 
 .breakdown-table th {
-  padding: 9px 12px;
+  padding: 8px 12px;
   background: var(--surface-subtle);
-  color: var(--text-secondary);
-  font-weight: 650;
-  font-size: 0.78rem;
+  color: var(--text-tertiary);
+  font-weight: 600;
+  font-size: 0.76rem;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
   border-bottom: 1px solid var(--border);
 }
 
+:root[data-theme="dark"] .breakdown-table th,
+body.dark-mode .breakdown-table th {
+  background: rgba(255, 255, 255, 0.03);
+  border-bottom-color: rgba(255, 255, 255, 0.06);
+}
+
 .breakdown-table td {
-  padding: 11px 12px;
+  padding: 10px 12px;
   border-bottom: 1px solid var(--border);
   vertical-align: middle;
 }
 
+:root[data-theme="dark"] .breakdown-table td,
+body.dark-mode .breakdown-table td {
+  border-bottom-color: rgba(255, 255, 255, 0.04);
+}
+
+/* Monochromatic role badge (Replaces 7 bright rainbow colors) */
 .breakdown-role-badge {
   display: inline-block;
   padding: 2px 7px;
   border-radius: 4px;
   font-size: 0.76rem;
-  font-weight: 700;
+  font-weight: 600;
+  background: var(--surface-subtle);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
   white-space: nowrap;
 }
 
-.role-subject { background: #e0f2fe; color: #0284c7; }
-.role-predicate { background: #fef3c7; color: #d97706; }
-.role-object { background: #dcfce7; color: #16a34a; }
-.role-prep { background: #f3e8ff; color: #9333ea; }
-.role-adv { background: #fee2e2; color: #dc2626; }
-.role-comp { background: #ffedd5; color: #ea580c; }
-.role-conj { background: #e0e7ff; color: #4f46e5; }
-
-:root[data-theme="dark"] .role-subject,
-body.dark-mode .role-subject { background: rgba(2, 132, 199, 0.2); color: #38bdf8; }
-:root[data-theme="dark"] .role-predicate,
-body.dark-mode .role-predicate { background: rgba(217, 119, 6, 0.2); color: #fbbf24; }
-:root[data-theme="dark"] .role-object,
-body.dark-mode .role-object { background: rgba(22, 163, 74, 0.2); color: #4ade80; }
-:root[data-theme="dark"] .role-prep,
-body.dark-mode .role-prep { background: rgba(147, 51, 234, 0.2); color: #c084fc; }
-:root[data-theme="dark"] .role-adv,
-body.dark-mode .role-adv { background: rgba(220, 38, 38, 0.2); color: #f87171; }
-:root[data-theme="dark"] .role-comp,
-body.dark-mode .role-comp { background: rgba(234, 88, 12, 0.2); color: #fb923c; }
-:root[data-theme="dark"] .role-conj,
-body.dark-mode .role-conj { background: rgba(79, 70, 229, 0.2); color: #818cf8; }
+:root[data-theme="dark"] .breakdown-role-badge,
+body.dark-mode .breakdown-role-badge {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.08);
+}
 
 .breakdown-text {
-  font-weight: 650;
+  font-weight: 600;
   font-size: 1.05rem;
   color: var(--text-primary);
-  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
 }
 
 .breakdown-desc {
   color: var(--text-secondary);
   font-size: 0.84rem;
+  line-height: 1.4;
 }
 
 /* ==========================================================================
-   INTERACTIVE PRACTICE SECTION: DẠNG 1 & DẠNG 2
+   9. INTERACTIVE PRACTICE SECTION
    ========================================================================== */
 .reading-practice-card {
   background: var(--card-bg);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-xl, 16px);
   border: 1px solid var(--border);
-  box-shadow: var(--card-shadow);
-  padding: 22px;
+  padding: 24px;
   margin-bottom: 24px;
+}
+
+:root[data-theme="dark"] .reading-practice-card,
+body.dark-mode .reading-practice-card {
+  background: #171821;
+  border-color: rgba(255, 255, 255, 0.05);
 }
 
 .practice-header {
@@ -881,26 +1045,23 @@ body.dark-mode .role-conj { background: rgba(79, 70, 229, 0.2); color: #818cf8; 
   justify-content: space-between;
   margin-bottom: 16px;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
 }
 
 .practice-title {
-  font-size: 1.05rem;
-  font-weight: 750;
-  display: flex;
-  align-items: center;
-  gap: 7px;
+  font-size: 1rem;
+  font-weight: 700;
   color: var(--text-primary);
 }
 
 .practice-hint-text {
-  font-size: 0.84rem;
-  color: var(--text-secondary);
+  font-size: 0.82rem;
+  color: var(--text-tertiary);
 }
 
 /* Sentence Builder (Xếp câu) */
 .practice-slots-area {
-  min-height: 64px;
+  min-height: 60px;
   background: var(--surface-subtle);
   border: 2px dashed var(--border);
   border-radius: var(--radius-md);
@@ -913,9 +1074,15 @@ body.dark-mode .role-conj { background: rgba(79, 70, 229, 0.2); color: #818cf8; 
   transition: all 0.2s ease;
 }
 
+:root[data-theme="dark"] .practice-slots-area,
+body.dark-mode .practice-slots-area {
+  background: rgba(255, 255, 255, 0.025);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
 .practice-slots-area.is-correct {
   border-color: #10b981;
-  background: var(--success-bg);
+  background: rgba(16, 185, 129, 0.08);
 }
 
 .practice-slots-area.is-wrong {
@@ -931,7 +1098,7 @@ body.dark-mode .role-conj { background: rgba(79, 70, 229, 0.2); color: #818cf8; 
 
 .practice-empty-placeholder {
   color: var(--text-tertiary);
-  font-size: 0.86rem;
+  font-size: 0.85rem;
   font-style: italic;
   margin: auto;
 }
@@ -941,8 +1108,13 @@ body.dark-mode .role-conj { background: rgba(79, 70, 229, 0.2); color: #818cf8; 
   flex-wrap: wrap;
   align-items: center;
   gap: 8px;
-  min-height: 52px;
+  min-height: 48px;
   margin-bottom: 18px;
+}
+
+.practice-bank-area.logic-bank-area {
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .builder-tile {
@@ -950,38 +1122,51 @@ body.dark-mode .role-conj { background: rgba(79, 70, 229, 0.2); color: #818cf8; 
   border-radius: 8px;
   background: var(--card-bg);
   border: 1px solid var(--border);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
-  font-size: 1.15rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
   user-select: none;
-  transition: all 0.16s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.15s ease;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
+:root[data-theme="dark"] .builder-tile,
+body.dark-mode .builder-tile {
+  background: #1f202b;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
 .builder-tile:hover {
   transform: translateY(-2px);
   border-color: var(--accent);
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 }
 
 .builder-tile:active {
-  transform: scale(0.96);
+  transform: scale(0.97);
 }
 
 .builder-tile.slot-tile {
-  background: var(--accent-light);
+  background: rgba(var(--accent-rgb, 192, 86, 56), 0.12);
   color: var(--accent);
-  border-color: rgba(192, 86, 56, 0.35);
+  border-color: var(--accent);
 }
 
-/* Cloze Test (Điền khuyết) Options */
+.builder-tile.logic-tile {
+  text-align: left;
+  font-size: 0.95rem;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+/* Cloze Test (Điền khuyết) */
 .cloze-blank-text {
-  font-size: 1.35rem;
-  line-height: 1.8;
-  font-weight: 550;
+  font-size: 1.28rem;
+  line-height: 1.75;
+  font-weight: 500;
   margin-bottom: 18px;
   padding: 14px 16px;
   border-radius: var(--radius-md);
@@ -991,8 +1176,8 @@ body.dark-mode .role-conj { background: rgba(79, 70, 229, 0.2); color: #818cf8; 
 
 .cloze-blank-spot {
   display: inline-block;
-  min-width: 80px;
-  padding: 2px 10px;
+  min-width: 70px;
+  padding: 2px 8px;
   border-bottom: 2px solid var(--accent);
   color: var(--accent);
   font-weight: 700;
@@ -1021,6 +1206,12 @@ body.dark-mode .role-conj { background: rgba(79, 70, 229, 0.2); color: #818cf8; 
   justify-content: space-between;
 }
 
+:root[data-theme="dark"] .cloze-option-btn,
+body.dark-mode .cloze-option-btn {
+  background: #1f202b;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
 .cloze-option-btn:hover {
   border-color: var(--accent);
   background: var(--surface-subtle);
@@ -1039,12 +1230,18 @@ body.dark-mode .role-conj { background: rgba(79, 70, 229, 0.2); color: #818cf8; 
 
 .cloze-option-btn.selected-correct {
   border-color: #10b981;
-  background: var(--success-bg);
+  background: rgba(16, 185, 129, 0.12);
 }
 
 .cloze-option-btn.selected-wrong {
   border-color: #ef4444;
-  background: var(--danger-bg);
+  background: rgba(239, 68, 68, 0.12);
+}
+
+.cloze-clue-hint {
+  font-size: 0.86rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
 }
 
 /* Practice Actions Bar */
@@ -1065,9 +1262,9 @@ body.dark-mode .role-conj { background: rgba(79, 70, 229, 0.2); color: #818cf8; 
 }
 
 .practice-action-btn {
-  padding: 9px 18px;
+  padding: 8px 16px;
   border-radius: 8px;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   font-weight: 650;
   cursor: pointer;
   transition: all 0.16s ease;
@@ -1075,26 +1272,26 @@ body.dark-mode .role-conj { background: rgba(79, 70, 229, 0.2); color: #818cf8; 
 }
 
 .practice-btn-primary {
-  background: var(--accent-gradient);
+  background: var(--accent);
   color: #fff;
 }
 
 .practice-btn-primary:hover {
-  background: var(--accent-gradient-hover);
+  filter: brightness(1.08);
 }
 
 .practice-btn-secondary {
-  background: var(--surface-chip);
-  color: var(--text-primary);
+  background: var(--surface-subtle);
+  color: var(--text-secondary);
   border-color: var(--border);
 }
 
 .practice-btn-secondary:hover {
-  background: var(--surface-subtle);
+  color: var(--text-primary);
   border-color: var(--text-tertiary);
 }
 
-/* Practice Result Feedback Banner */
+/* Result Feedback Banner */
 .practice-result-banner {
   margin-top: 14px;
   padding: 12px 16px;
@@ -1107,18 +1304,20 @@ body.dark-mode .role-conj { background: rgba(79, 70, 229, 0.2); color: #818cf8; 
 }
 
 .practice-result-banner.success {
-  background: var(--success-bg);
-  color: var(--success-text);
+  background: rgba(16, 185, 129, 0.12);
+  color: #10b981;
   border: 1px solid rgba(16, 185, 129, 0.3);
 }
 
 .practice-result-banner.error {
-  background: var(--danger-bg);
-  color: var(--danger-text);
+  background: rgba(239, 68, 68, 0.12);
+  color: #ef4444;
   border: 1px solid rgba(239, 68, 68, 0.3);
 }
 
-/* Bottom Pagination & Navigation */
+/* ==========================================================================
+   10. BOTTOM NAVIGATION & FOOTER
+   ========================================================================== */
 .reading-navigation-footer {
   display: flex;
   align-items: center;
@@ -1130,7 +1329,7 @@ body.dark-mode .role-conj { background: rgba(79, 70, 229, 0.2); color: #818cf8; 
 }
 
 .reading-nav-btn {
-  padding: 9px 16px;
+  padding: 8px 16px;
   border-radius: 8px;
   border: 1px solid var(--border);
   background: var(--card-bg);
@@ -1144,48 +1343,82 @@ body.dark-mode .role-conj { background: rgba(79, 70, 229, 0.2); color: #818cf8; 
   transition: all 0.16s ease;
 }
 
+:root[data-theme="dark"] .reading-nav-btn,
+body.dark-mode .reading-nav-btn {
+  background: #171821;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
 .reading-nav-btn:hover:not(:disabled) {
   border-color: var(--accent);
   color: var(--accent);
 }
 
 .reading-nav-btn:disabled {
-  opacity: 0.4;
+  opacity: 0.35;
   cursor: not-allowed;
 }
 
 .reading-jump-select {
-  padding: 8px 12px;
+  padding: 7px 12px;
   border-radius: 8px;
   border: 1px solid var(--border);
   background: var(--card-bg);
   color: var(--text-primary);
-  font-size: 0.86rem;
+  font-size: 0.84rem;
   font-weight: 600;
   max-width: 260px;
 }
 
-/* Responsive Breakpoints */
+:root[data-theme="dark"] .reading-jump-select,
+body.dark-mode .reading-jump-select {
+  background: #171821;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.reading-empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-secondary);
+}
+
+.reading-reset-filter-btn {
+  margin-top: 12px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+/* Responsive Media Queries */
 @media (max-width: 768px) {
   .reading-analysis-container {
-    padding: 8px 12px 60px;
+    padding: 10px 12px 60px;
   }
-  .reading-main-card {
-    padding: 16px 14px;
+  .reading-unified-nav {
+    flex-direction: column;
+    align-items: stretch;
+    border-radius: 12px;
+    padding: 10px 12px;
+    gap: 8px;
   }
-  .reading-zh-line {
-    font-size: 1.35rem;
-    line-height: 1.85;
+  .reading-nav-left {
+    justify-content: space-between;
   }
-  .reading-token-zh {
-    font-size: 1.35rem;
+  .reading-nav-right {
+    justify-content: space-between;
   }
-  .reading-mode-tab {
-    font-size: 0.8rem;
-    padding: 7px 6px;
+  .reading-passage-card {
+    padding: 20px 16px;
   }
-  .cloze-blank-text {
-    font-size: 1.15rem;
+  .token-zh {
+    font-size: 1.65rem;
+  }
+  .reading-token-punct {
+    font-size: 1.65rem;
   }
   .cloze-options-grid {
     grid-template-columns: 1fr;
