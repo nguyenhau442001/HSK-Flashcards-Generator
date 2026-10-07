@@ -171,16 +171,10 @@ function loadState() {
 }
 function saveProgress() {
   saveSrsRecord(currentLevel, srsCards, true);
-  if (typeof CloudSync !== 'undefined' && CloudSync && typeof CloudSync.requestDebouncedSync === 'function') {
-    CloudSync.requestDebouncedSync();
-  }
 }
 function saveLevelProgress(level, progressObj) {
   const existing = readSrsRecord(level);
   if (existing) saveSrsRecord(level, existing.cards, existing.migratedFromV2);
-  if (typeof CloudSync !== 'undefined' && CloudSync && typeof CloudSync.requestDebouncedSync === 'function') {
-    CloudSync.requestDebouncedSync();
-  }
 }
 
 function readSavedLevelProgressLegacy(level) {
