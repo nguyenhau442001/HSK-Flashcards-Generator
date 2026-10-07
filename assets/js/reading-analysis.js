@@ -6,6 +6,7 @@
 let readingAnalysisData = null;
 let readingAnalysisDataPromise = null;
 let readingCategory = 'all'; // 'all' | 'sentence_building' | 'sentence_logic' | 'cloze' | 'paragraph'
+let readingTestFilter = 'all'; // 'all' | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
 let readingFilteredList = [];
 let readingCurrentIndex = 0;
 let readingActiveMode = 'breakdown'; // 'breakdown' | 'practice'
@@ -67,18 +68,18 @@ async function ensureReadingAnalysisLoaded() {
 }
 
 /**
- * Filter pool according to selected category
+ * Filter pool according to selected category and test
  */
 function updateReadingFilteredList() {
   if (!readingAnalysisData || !readingAnalysisData.length) {
     readingFilteredList = [];
     return;
   }
-  if (readingCategory === 'all') {
-    readingFilteredList = readingAnalysisData.slice();
-  } else {
-    readingFilteredList = readingAnalysisData.filter(item => item.category === readingCategory);
-  }
+  readingFilteredList = readingAnalysisData.filter(item => {
+    const matchCat = (readingCategory === 'all' || item.category === readingCategory);
+    const matchTest = (readingTestFilter === 'all' || item.test_id === readingTestFilter);
+    return matchCat && matchTest;
+  });
   if (readingCurrentIndex >= readingFilteredList.length) {
     readingCurrentIndex = 0;
   }
@@ -102,6 +103,17 @@ async function startReadingAnalysis() {
  */
 function setReadingCategory(cat) {
   readingCategory = cat;
+  updateReadingFilteredList();
+  readingCurrentIndex = 0;
+  resetPracticeState();
+  renderReadingAnalysisScreen();
+}
+
+/**
+ * Change Mock Test Filter ('all' | 1 | 2 | ... | 10)
+ */
+function setReadingTestFilter(testId) {
+  readingTestFilter = testId;
   updateReadingFilteredList();
   readingCurrentIndex = 0;
   resetPracticeState();
@@ -252,22 +264,39 @@ function renderReadingAnalysisScreen() {
           </div>
         </div>
 
+        <!-- TEST FILTERS -->
+        <div class="reading-test-filters" role="group" aria-label="Lọc theo Đề thi">
+          <span class="reading-filter-label">Đề thi:</span>
+          <button type="button" class="reading-test-btn ${readingTestFilter === 'all' ? 'active' : ''}" onclick="setReadingTestFilter('all')">
+            Tất cả đề
+          </button>
+          ${[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(t => {
+            const countInTest = readingAnalysisData.filter(d => d.test_id === t).length;
+            if (countInTest === 0) return '';
+            return `
+              <button type="button" class="reading-test-btn ${readingTestFilter === t ? 'active' : ''}" onclick="setReadingTestFilter(${t})">
+                Đề ${t} (${countInTest})
+              </button>
+            `;
+          }).join('')}
+        </div>
+
         <!-- CATEGORY FILTERS -->
         <div class="reading-category-filters" role="group" aria-label="Lọc theo dạng đề thi">
           <button type="button" class="reading-cat-btn ${readingCategory === 'all' ? 'active' : ''}" onclick="setReadingCategory('all')">
-            🌟 Tất cả (${readingAnalysisData.length})
+            🌟 Tất cả (${readingAnalysisData.filter(d => readingTestFilter === 'all' || d.test_id === readingTestFilter).length})
           </button>
           <button type="button" class="reading-cat-btn ${readingCategory === 'sentence_building' ? 'active' : ''}" onclick="setReadingCategory('sentence_building')">
-            🧩 Xếp câu (13)
+            🧩 Xếp câu (${readingAnalysisData.filter(d => d.category === 'sentence_building' && (readingTestFilter === 'all' || d.test_id === readingTestFilter)).length})
           </button>
           <button type="button" class="reading-cat-btn ${readingCategory === 'sentence_logic' ? 'active' : ''}" onclick="setReadingCategory('sentence_logic')">
-            🔀 Sắp xếp đoạn A-B-C (8)
+            🔀 Sắp xếp đoạn A-B-C (${readingAnalysisData.filter(d => d.category === 'sentence_logic' && (readingTestFilter === 'all' || d.test_id === readingTestFilter)).length})
           </button>
           <button type="button" class="reading-cat-btn ${readingCategory === 'cloze' ? 'active' : ''}" onclick="setReadingCategory('cloze')">
-            📝 Điền từ ngữ cảnh (8)
+            📝 Điền từ ngữ cảnh (${readingAnalysisData.filter(d => d.category === 'cloze' && (readingTestFilter === 'all' || d.test_id === readingTestFilter)).length})
           </button>
           <button type="button" class="reading-cat-btn ${readingCategory === 'paragraph' ? 'active' : ''}" onclick="setReadingCategory('paragraph')">
-            📑 Đoạn văn chuyên sâu (4)
+            📑 Đoạn văn chuyên sâu (${readingAnalysisData.filter(d => d.category === 'paragraph' && (readingTestFilter === 'all' || d.test_id === readingTestFilter)).length})
           </button>
         </div>
       </header>
@@ -895,6 +924,7 @@ function checkDictationAnswer() {
 // Global Exports
 window.startReadingAnalysis = startReadingAnalysis;
 window.setReadingCategory = setReadingCategory;
+window.setReadingTestFilter = setReadingTestFilter;
 window.setReadingActiveMode = setReadingActiveMode;
 window.nextReadingQuestion = nextReadingQuestion;
 window.prevReadingQuestion = prevReadingQuestion;

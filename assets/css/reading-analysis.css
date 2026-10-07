@@ -71,6 +71,54 @@
   border: 1px solid var(--border);
 }
 
+/* Test Filter Pills (Chọn Đề 1 - 10) */
+.reading-test-filters {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.reading-filter-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  margin-right: 4px;
+}
+
+.reading-test-btn {
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.18s ease;
+}
+
+.reading-test-btn:hover {
+  background: var(--surface-chip);
+  color: var(--text-primary);
+  border-color: var(--text-tertiary);
+}
+
+.reading-test-btn.active {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+  box-shadow: 0 2px 8px rgba(192, 86, 56, 0.25);
+}
+
 /* Category Filter Pills */
 .reading-category-filters {
   display: flex;

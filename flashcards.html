@@ -838,6 +838,18 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/word-companion.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/grammar-breakdown.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/reading-analysis.js?v=20261007-hsk4-reading1"></script>
+<script>
+window.addEventListener('load', function() {
+  var prefetchReading = function() {
+    if (typeof ensureReadingAnalysisLoaded === 'function') ensureReadingAnalysisLoaded();
+  };
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(prefetchReading, { timeout: 2500 });
+  } else {
+    setTimeout(prefetchReading, 400);
+  }
+});
+</script>
 <script src="assets/js/home-widgets.js?v=20261006-search-examples1"></script>
 <script src="assets/js/dashboard-enhancements.js?v=20261006-decimal-pct1"></script>
 <script src="assets/flashcards.js?v=20261003-hsk20-rich1"></script>
