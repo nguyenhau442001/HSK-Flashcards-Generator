@@ -26,6 +26,9 @@ function buildCardArea() {
           <button type="button" class="card-tool-btn" id="transferToggle" onclick="toggleTransferPanel()" aria-label="Sao lưu tiến trình" title="Sao lưu tiến trình" aria-controls="transferPanel" aria-expanded="false">
             <span aria-hidden="true">💾</span>
           </button>
+          <button type="button" class="card-tool-btn" id="aiSettingsToggleBtn" onclick="openAiSettingsModal()" aria-label="Google AI Studio Key" title="Cài đặt Google AI Studio Key">
+            <span aria-hidden="true">✨</span>
+          </button>
         </div>
       </div>
       <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Đã nhớ</div>
@@ -35,8 +38,20 @@ function buildCardArea() {
           <!-- Cột trái: Hình ảnh minh họa / Neo thị giác (Visual Mnemonic - Gợi hình thuần túy) -->
           <div class="card-visual-col" id="cardVisualCol">
             <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa gợi hình">
+              <div class="ai-skeleton-loader" id="aiSkeletonLoader" hidden>
+                <div class="ai-shimmer-wave"></div>
+                <div class="ai-loading-indicator">
+                  <span class="ai-spinner"></span>
+                  <span class="ai-loading-text">Google AI Studio...</span>
+                </div>
+              </div>
               <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa gợi hình" hidden>
               <div class="card-illustration-svg" id="cardIllustrationSvg"></div>
+              <button type="button" class="ai-gen-trigger-btn" id="aiGenTriggerBtn"
+                onclick="event.stopPropagation(); handleAiImageGenClick()"
+                title="Tạo ảnh minh họa bằng Google AI Studio">
+                ✨ Tạo ảnh AI
+              </button>
             </div>
           </div>
 
@@ -544,6 +559,10 @@ function render(animate) {
       const emptyImg = document.getElementById('cardIllustrationImg');
       if (emptySvg) emptySvg.innerHTML = '';
       if (emptyImg) { emptyImg.src = ''; emptyImg.hidden = true; }
+      const skeletonEl = document.getElementById('aiSkeletonLoader');
+      if (skeletonEl) skeletonEl.hidden = true;
+      const genBtn = document.getElementById('aiGenTriggerBtn');
+      if (genBtn) genBtn.hidden = true;
       if (content) content.classList.add('is-empty');
       updateProgress();
       updateCardPosition();
@@ -603,29 +622,61 @@ function render(animate) {
     document.getElementById('exPy').innerHTML = w.example_py;
     document.getElementById('exVi').innerHTML = w.example_vi;
 
-    // Cập nhật hình ảnh minh họa trực quan (Visual Mnemonic Anchor - Gợi hình thuần túy, KHÔNG hiện giải mã nghĩa)
+    // Cập nhật hình ảnh minh họa trực quan (Visual Mnemonic Anchor)
     const imgEl = document.getElementById('cardIllustrationImg');
     const svgEl = document.getElementById('cardIllustrationSvg');
     const frameEl = document.getElementById('cardIllustrationFrame');
+    const skeletonEl = document.getElementById('aiSkeletonLoader');
+    const genBtn = document.getElementById('aiGenTriggerBtn');
 
-    if (imgEl && svgEl && typeof getWordIllustration === 'function') {
-      const illu = getWordIllustration(w);
-      if (illu) {
-        if (illu.type === 'img') {
-          imgEl.src = illu.src;
-          imgEl.alt = 'Minh họa gợi hình';
-          imgEl.hidden = false;
-          svgEl.hidden = true;
-          svgEl.innerHTML = '';
-        } else if (illu.type === 'svg') {
-          svgEl.innerHTML = illu.svg;
-          svgEl.hidden = false;
-          imgEl.hidden = true;
-          imgEl.src = '';
+    if (skeletonEl) skeletonEl.hidden = true;
+    if (genBtn) {
+      genBtn.hidden = false;
+      genBtn.textContent = '✨ Tạo ảnh AI';
+    }
+
+    if (imgEl && svgEl) {
+      // 1. Render ngay hình mẫu vector/curated motif để không bị giật lag
+      if (typeof getWordIllustration === 'function') {
+        const illu = getWordIllustration(w);
+        if (illu) {
+          if (illu.type === 'img') {
+            imgEl.src = illu.src;
+            imgEl.alt = 'Minh họa gợi hình';
+            imgEl.hidden = false;
+            svgEl.hidden = true;
+            svgEl.innerHTML = '';
+          } else if (illu.type === 'svg') {
+            svgEl.innerHTML = illu.svg;
+            svgEl.hidden = false;
+            imgEl.hidden = true;
+            imgEl.src = '';
+          }
+          if (frameEl) {
+            frameEl.title = 'Minh họa gợi hình';
+          }
         }
-        if (frameEl) {
-          frameEl.title = 'Minh họa gợi hình';
-        }
+      }
+
+      // 2. Kiểm tra cache ảnh AI từ IndexedDB
+      if (typeof AiImageCache !== 'undefined') {
+        const currentHanzi = w.hanzi;
+        AiImageCache.get(currentHanzi).then(cached => {
+          if (!cached || !activeStudyWord || activeStudyWord.hanzi !== currentHanzi) return;
+          if (cached.type === 'img') {
+            imgEl.src = cached.src;
+            imgEl.alt = 'Minh họa gợi hình';
+            imgEl.hidden = false;
+            svgEl.hidden = true;
+            svgEl.innerHTML = '';
+          } else if (cached.type === 'svg') {
+            svgEl.innerHTML = cached.svg;
+            svgEl.hidden = false;
+            imgEl.hidden = true;
+            imgEl.src = '';
+          }
+          if (genBtn) genBtn.textContent = '↻ Tạo lại';
+        }).catch(() => {});
       }
     }
 
