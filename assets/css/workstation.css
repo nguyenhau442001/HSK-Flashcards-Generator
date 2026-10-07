@@ -856,53 +856,6 @@ body.flashcard-study-mode .card-illustration-frame:hover {
   box-shadow: 0 16px 36px -6px rgba(249, 115, 22, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
-/* Micro POS Badge inside illustration frame (top-left) */
-body.flashcard-study-mode .illustration-pos-badge {
-  position: absolute;
-  top: 8px;
-  left: 10px;
-  z-index: 3;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  padding: 2px 7px;
-  border-radius: 6px;
-  backdrop-filter: blur(8px);
-  pointer-events: none;
-}
-
-/* Caption Pill at bottom of illustration frame */
-body.flashcard-study-mode .illustration-caption-pill {
-  position: absolute;
-  bottom: 8px;
-  left: 8px;
-  right: 8px;
-  z-index: 3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  background: rgba(15, 23, 42, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 9999px;
-  padding: 3px 10px;
-  font-size: 11px;
-  font-weight: 500;
-  color: #cbd5e1;
-  text-align: center;
-  backdrop-filter: blur(8px);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  pointer-events: none;
-}
-body.flashcard-study-mode .illustration-caption-pill .caption-icon {
-  font-size: 11px;
-  line-height: 1;
-}
-
 body.flashcard-study-mode .card-illustration-img {
   width: 100%;
   height: 100%;
@@ -917,13 +870,13 @@ body.flashcard-study-mode .card-illustration-svg {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 14px 6px 18px 6px;
+  padding: 12px;
 }
 body.flashcard-study-mode .card-illustration-svg svg {
   width: 100%;
   height: 100%;
-  max-width: 132px;
-  max-height: 132px;
+  max-width: 144px;
+  max-height: 144px;
   display: block;
 }
 
@@ -1015,16 +968,11 @@ body.flashcard-study-mode .pos-badge {
     height: 135px;
   }
   body.flashcard-study-mode .card-illustration-svg {
-    padding: 10px 4px 14px 4px;
+    padding: 8px;
   }
   body.flashcard-study-mode .card-illustration-svg svg {
-    max-width: 95px;
-    max-height: 95px;
-  }
-  body.flashcard-study-mode .illustration-caption-pill {
-    font-size: 10px;
-    padding: 2px 7px;
-    bottom: 6px;
+    max-width: 105px;
+    max-height: 105px;
   }
   body.flashcard-study-mode .pos-tag,
   body.flashcard-study-mode .pos-badge {

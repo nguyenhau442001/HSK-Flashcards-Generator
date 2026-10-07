@@ -32,16 +32,11 @@ function buildCardArea() {
       <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Chưa nhớ</div>
       <div id="cardContent" class="card-content">
         <div class="word-main-block split-layout" id="wordMainBlock">
-          <!-- Cột trái: Hình ảnh minh họa / Neo thị giác (Visual Mnemonic) -->
+          <!-- Cột trái: Hình ảnh minh họa / Neo thị giác (Visual Mnemonic - Gợi hình thuần túy) -->
           <div class="card-visual-col" id="cardVisualCol">
-            <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa trực quan">
-              <span class="illustration-pos-badge" id="illustrationPosBadge" hidden></span>
-              <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa từ vựng" hidden>
+            <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa gợi hình">
+              <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa gợi hình" hidden>
               <div class="card-illustration-svg" id="cardIllustrationSvg"></div>
-              <div class="illustration-caption-pill" id="illustrationCaptionPill" hidden>
-                <span class="caption-icon" id="captionIcon" aria-hidden="true">✨</span>
-                <span class="caption-text" id="captionText"></span>
-              </div>
             </div>
           </div>
 
@@ -549,10 +544,6 @@ function render(animate) {
       const emptyImg = document.getElementById('cardIllustrationImg');
       if (emptySvg) emptySvg.innerHTML = '';
       if (emptyImg) { emptyImg.src = ''; emptyImg.hidden = true; }
-      const emptyIlluPos = document.getElementById('illustrationPosBadge');
-      if (emptyIlluPos) { emptyIlluPos.textContent = ''; emptyIlluPos.hidden = true; }
-      const emptyCapPill = document.getElementById('illustrationCaptionPill');
-      if (emptyCapPill) emptyCapPill.hidden = true;
       if (content) content.classList.add('is-empty');
       updateProgress();
       updateCardPosition();
@@ -612,20 +603,17 @@ function render(animate) {
     document.getElementById('exPy').innerHTML = w.example_py;
     document.getElementById('exVi').innerHTML = w.example_vi;
 
-    // Cập nhật hình ảnh minh họa trực quan (Visual Mnemonic Anchor)
+    // Cập nhật hình ảnh minh họa trực quan (Visual Mnemonic Anchor - Gợi hình thuần túy, KHÔNG hiện giải mã nghĩa)
     const imgEl = document.getElementById('cardIllustrationImg');
     const svgEl = document.getElementById('cardIllustrationSvg');
     const frameEl = document.getElementById('cardIllustrationFrame');
-    const illuPos = document.getElementById('illustrationPosBadge');
-    const captionPill = document.getElementById('illustrationCaptionPill');
-    const captionText = document.getElementById('captionText');
 
     if (imgEl && svgEl && typeof getWordIllustration === 'function') {
       const illu = getWordIllustration(w);
       if (illu) {
         if (illu.type === 'img') {
           imgEl.src = illu.src;
-          imgEl.alt = illu.caption || w.meaning || '';
+          imgEl.alt = 'Minh họa gợi hình';
           imgEl.hidden = false;
           svgEl.hidden = true;
           svgEl.innerHTML = '';
@@ -636,26 +624,7 @@ function render(animate) {
           imgEl.src = '';
         }
         if (frameEl) {
-          frameEl.title = illu.caption ? `Minh họa: ${illu.caption}` : (w.meaning || '');
-        }
-        if (illuPos) {
-          if (pos && pos.label) {
-            illuPos.textContent = pos.label.toUpperCase();
-            illuPos.className = `illustration-pos-badge pos-badge--${pos.code || 'noun'}`;
-            illuPos.hidden = false;
-          } else {
-            illuPos.hidden = true;
-          }
-        }
-        if (captionPill && captionText) {
-          const cap = illu.caption || w.meaning || '';
-          if (cap) {
-            captionText.textContent = cap;
-            captionPill.hidden = false;
-            captionPill.title = cap;
-          } else {
-            captionPill.hidden = true;
-          }
+          frameEl.title = 'Minh họa gợi hình';
         }
       }
     }
