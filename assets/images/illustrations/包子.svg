@@ -1,0 +1,20 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Dark slate rounded rectangle -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Main bun body: Large light-colored circle -->
+  <circle cx="100" cy="115" r="70" fill="#fcfcfc"/>
+
+  <!-- Top knot/pinch area: A slightly darker circle for subtle depth -->
+  <circle cx="100" cy="85" r="30" fill="#e0e0e0"/>
+
+  <!-- Accent lines for the pleats/folds on top, using vibrant amber -->
+  <path d="M 100 65 Q 105 75 100 85" stroke="#f59e0b" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M 80 75 Q 90 85 95 90" stroke="#f59e0b" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M 120 75 Q 110 85 105 90" stroke="#f59e0b" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <!-- Stylized steam elements: Semi-transparent sky blue ellipses -->
+  <ellipse cx="80" cy="50" rx="10" ry="15" fill="#38bdf8" opacity="0.4" transform="rotate(-15 80 50)"/>
+  <ellipse cx="120" cy="50" rx="10" ry="15" fill="#38bdf8" opacity="0.4" transform="rotate(15 120 50)"/>
+  <ellipse cx="100" cy="35" rx="10" ry="15" fill="#38bdf8" opacity="0.4"/>
+</svg>

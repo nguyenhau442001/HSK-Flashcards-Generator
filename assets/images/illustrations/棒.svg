@@ -1,0 +1,12 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  <!-- The sleek stick (棒 - bàng - 'cây gậy') -->
+  <rect x="50" y="30" width="30" height="140" rx="15" fill="#10b981" transform="rotate(45 100 100)"/>
+  <!-- The awesome/sparkle effect (棒 - bàng - 'tuyệt vời') -->
+  <g>
+    <rect x="115" y="22.5" width="20" height="5" rx="2.5" fill="#f59e0b" transform="rotate(0 125 25)"/>
+    <rect x="115" y="22.5" width="20" height="5" rx="2.5" fill="#f59e0b" transform="rotate(45 125 25)"/>
+    <rect x="115" y="22.5" width="20" height="5" rx="2.5" fill="#f59e0b" transform="rotate(90 125 25)"/>
+    <rect x="115" y="22.5" width="20" height="5" rx="2.5" fill="#f59e0b" transform="rotate(135 125 25)"/>
+  </g>
+</svg>

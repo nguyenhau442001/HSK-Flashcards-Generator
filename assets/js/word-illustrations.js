@@ -326,6 +326,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "成功.svg",
     "src": "assets/images/illustrations/成功.svg",
     "caption": "thành công"
+  },
+  "爱情": {
+    "file": "爱情.svg",
+    "src": "assets/images/illustrations/爱情.svg",
+    "caption": "tình yêu"
+  },
+  "按时": {
+    "file": "按时.svg",
+    "src": "assets/images/illustrations/按时.svg",
+    "caption": "đúng giờ"
+  },
+  "按照": {
+    "file": "按照.svg",
+    "src": "assets/images/illustrations/按照.svg",
+    "caption": "theo, dựa theo"
+  },
+  "百分之": {
+    "file": "百分之.svg",
+    "src": "assets/images/illustrations/百分之.svg",
+    "caption": "phần trăm"
+  },
+  "棒": {
+    "file": "棒.svg",
+    "src": "assets/images/illustrations/棒.svg",
+    "caption": "cây gậy; tuyệt vời"
+  },
+  "包子": {
+    "file": "包子.svg",
+    "src": "assets/images/illustrations/包子.svg",
+    "caption": "bánh bao"
+  },
+  "保护": {
+    "file": "保护.svg",
+    "src": "assets/images/illustrations/保护.svg",
+    "caption": "bảo vệ"
+  },
+  "保证": {
+    "file": "保证.svg",
+    "src": "assets/images/illustrations/保证.svg",
+    "caption": "đảm bảo"
   }
 };
 

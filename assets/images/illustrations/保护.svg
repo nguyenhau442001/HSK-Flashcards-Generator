@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background rounded rectangle -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Protective dome structure (amber) -->
+  <!-- Base rectangle -->
+  <rect x="60" y="120" width="80" height="20" rx="5" fill="#f59e0b"/>
+  <!-- Dome top (circle merging with base) -->
+  <circle cx="100" cy="80" r="40" fill="#f59e0b"/>
+
+  <!-- Protected item (emerald circle) -->
+  <circle cx="100" cy="110" r="20" fill="#10b981"/>
+</svg>

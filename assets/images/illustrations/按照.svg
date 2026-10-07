@@ -1,0 +1,12 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Main 'Basis' Shape (Emerald) -->
+  <rect x="50" y="50" width="60" height="100" rx="10" fill="#10b981"/>
+
+  <!-- Aligned 'Following' Shapes (Amber) -->
+  <rect x="125" y="50" width="30" height="30" rx="8" fill="#f59e0b"/>
+  <rect x="125" y="90" width="30" height="30" rx="8" fill="#f59e0b"/>
+  <rect x="125" y="130" width="30" height="30" rx="8" fill="#f59e0b"/>
+</svg>

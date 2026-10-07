@@ -11,6 +11,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.request
 import urllib.error
 from pathlib import Path
@@ -20,7 +21,9 @@ VOCAB_DIR = REPO_ROOT / "database" / "vocabs"
 OUTPUT_DIR = REPO_ROOT / "assets" / "images" / "illustrations"
 WORD_ILLUSTRATIONS_JS = REPO_ROOT / "assets" / "js" / "word-illustrations.js"
 
-# POS labels for prompt context
+# Optional worktree directory to keep in sync
+WORKTREE_DIR = Path("/Users/haunguyen/.gemini/antigravity/worktrees/HSK-Flashcards-Generator/add_hsk4_reading_analysis")
+
 POS_NAMES = {
     'noun': 'noun / physical object or conceptual entity',
     'verb': 'verb / dynamic action, movement or execution',
@@ -48,7 +51,7 @@ def load_vocabulary():
                         if h and h not in words_by_hanzi:
                             words_by_hanzi[h] = item
         except Exception as e:
-            print(f"[!] Warning reading {f.name}: {e}")
+            print(f"[!] Warning reading {f.name}: {e}", flush=True)
 
     return words_by_hanzi
 
@@ -61,52 +64,8 @@ def guess_pos(meaning):
         return 'verb'
     return 'noun'
 
-def build_prompt(hanzi, meaning, pinyin="", pos="noun"):
-    """Constructs prompt strictly banning text/hanzi while enforcing thematic vector art."""
-    base_style = (
-        "A minimalist, modern 2D flat vector icon illustration, "
-        "dark mode aesthetic with deep dark slate background (#0f172a), "
-        "crisp geometric contours, vibrant harmonious accent colors, clean negative space, "
-        "designed as a language flashcard visual mnemonic memory anchor"
-    )
-
-    pos_desc = POS_NAMES.get(pos, "conceptual symbol")
-
-    subject_metaphor = f"Visual metaphor illustrating the core concept and topic of '{meaning}' ({pos_desc})"
-
-    negative_exclusions = (
-        "STRICTLY NO text, NO letters, NO words, NO subtitles, NO typography, "
-        "NO Chinese characters, NO Hanzi, NO English text, NO pinyin, NO labels, "
-        "NO watermarks, NO photographic realism, clean vector shapes only"
-    )
-
-    return f"{base_style}. Subject: {subject_metaphor}. {negative_exclusions}."
-
-def call_imagen_api(prompt, api_key):
-    """Calls Google Imagen 3 API to generate a high quality 1:1 image."""
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key={api_key}"
-    payload = {
-        "instances": [{"prompt": prompt}],
-        "parameters": {
-            "sampleCount": 1,
-            "aspectRatio": "1:1",
-            "outputOptions": {"mimeType": "image/png"}
-        }
-    }
-    req = urllib.request.Request(
-        url,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json"}
-    )
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-        predictions = data.get("predictions", [])
-        if predictions and "bytesBase64Encoded" in predictions[0]:
-            return base64.b64decode(predictions[0]["bytesBase64Encoded"])
-    return None
-
-def call_gemini_svg_api(word_info, api_key):
-    """Calls Gemini Flash API to generate clean inline SVG vector."""
+def call_gemini_svg_api(word_info, api_key, max_retries=5):
+    """Calls Gemini Flash API to generate clean inline SVG vector with retry on 429."""
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
     hanzi = word_info.get("hanzi", "")
     meaning = word_info.get("meaning", "")
@@ -129,21 +88,45 @@ def call_gemini_svg_api(word_info, api_key):
     payload = {
         "contents": [{"parts": [{"text": prompt}]}]
     }
-    req = urllib.request.Request(
-        url,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json"}
-    )
-    with urllib.request.urlopen(req, timeout=45) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-        candidates = data.get("candidates", [])
-        if candidates:
-            parts = candidates[0].get("content", {}).get("parts", [])
-            if parts and "text" in parts[0]:
-                text = parts[0]["text"]
-                m = re.search(r"<svg[\s\S]*?<\/svg>", text, re.IGNORECASE)
-                if m:
-                    return m.group(0)
+
+    for attempt in range(max_retries):
+        try:
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(payload).encode("utf-8"),
+                headers={"Content-Type": "application/json"}
+            )
+            with urllib.request.urlopen(req, timeout=45) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                candidates = data.get("candidates", [])
+                if candidates:
+                    parts = candidates[0].get("content", {}).get("parts", [])
+                    if parts and "text" in parts[0]:
+                        text = parts[0]["text"]
+                        m = re.search(r"<svg[\s\S]*?<\/svg>", text, re.IGNORECASE)
+                        if m:
+                            svg_str = m.group(0).strip()
+                            if len(svg_str) > 60:
+                                return svg_str
+            return None
+        except urllib.error.HTTPError as he:
+            if he.code == 429:
+                wait_sec = 15 * (attempt + 1)
+                print(f"    [!] Rate limited (HTTP 429). Backing off for {wait_sec}s... (attempt {attempt + 1}/{max_retries})", flush=True)
+                time.sleep(wait_sec)
+            else:
+                err_text = he.read().decode("utf-8", errors="ignore")
+                print(f"    [!] HTTP {he.code} error: {err_text[:160]}", flush=True)
+                if attempt < max_retries - 1:
+                    time.sleep(5)
+                else:
+                    return None
+        except Exception as e:
+            print(f"    [!] Request error: {e}", flush=True)
+            if attempt < max_retries - 1:
+                time.sleep(5)
+            else:
+                return None
     return None
 
 def update_illustrations_manifest(records):
@@ -153,21 +136,16 @@ def update_illustrations_manifest(records):
 
     content = WORD_ILLUSTRATIONS_JS.read_text(encoding="utf-8")
 
-    # Check if STATIC_ILLUSTRATIONS_INDEX exists in file
-    marker = "const STATIC_ILLUSTRATIONS_INDEX = "
-    if marker in content:
-        # Extract existing JSON or dict
-        match = re.search(r"const STATIC_ILLUSTRATIONS_INDEX = (\{[\s\S]*?\});", content)
-        if match:
-            try:
-                existing = json.loads(match.group(1))
-            except Exception:
-                existing = {}
-            existing.update(records)
-            new_block = f"const STATIC_ILLUSTRATIONS_INDEX = {json.dumps(existing, ensure_ascii=False, indent=2)};"
-            content = content[:match.start()] + new_block + content[match.end():]
+    match = re.search(r"const STATIC_ILLUSTRATIONS_INDEX = (\{[\s\S]*?\});", content)
+    if match:
+        try:
+            existing = json.loads(match.group(1))
+        except Exception:
+            existing = {}
+        existing.update(records)
+        new_block = f"const STATIC_ILLUSTRATIONS_INDEX = {json.dumps(existing, ensure_ascii=False, indent=2)};"
+        content = content[:match.start()] + new_block + content[match.end():]
     else:
-        # Insert before getWordIllustration
         new_block = f"\n// Pre-generated static illustration assets stored in assets/images/illustrations/\nconst STATIC_ILLUSTRATIONS_INDEX = {json.dumps(records, ensure_ascii=False, indent=2)};\n\n"
         target = "function getWordIllustration"
         if target in content:
@@ -175,24 +153,34 @@ def update_illustrations_manifest(records):
 
     WORD_ILLUSTRATIONS_JS.write_text(content, encoding="utf-8")
 
+    # Sync to worktree if available
+    if WORKTREE_DIR.exists():
+        try:
+            dest = WORKTREE_DIR / "assets" / "js" / "word-illustrations.js"
+            dest.write_text(content, encoding="utf-8")
+        except Exception:
+            pass
+
 def main():
     parser = argparse.ArgumentParser(description="Generate thematic visual mnemonic illustrations using Google AI Studio")
     parser.add_argument("--api-key", default=os.environ.get("GOOGLE_AI_KEY"), help="Google AI Studio API Key (or env GOOGLE_AI_KEY)")
     parser.add_argument("--words", help="Specific Hanzi words (comma or space separated), e.g. '总结,合适,困难'")
     parser.add_argument("--hsk", type=int, choices=[1, 2, 3, 4, 5, 6], help="Target HSK level (1-6)")
-    parser.add_argument("--limit", type=int, default=10, help="Max words to generate (default: 10)")
-    parser.add_argument("--model", choices=["imagen", "gemini"], default="gemini", help="AI model: 'gemini' (SVG via Gemini Flash) or 'imagen' (PNG via Imagen 3)")
+    parser.add_argument("--limit", type=int, default=None, help="Max words to generate (default: all words in target)")
+    parser.add_argument("--delay", type=float, default=3.5, help="Delay in seconds between requests (default: 3.5s to respect 15 RPM limit)")
     parser.add_argument("--overwrite", action="store_true", help="Overwrite existing illustration files")
 
     args = parser.parse_args()
 
     api_key = (args.api_key or "").strip()
     if not api_key:
-        print("[!] Error: Google AI Studio API Key is required.")
-        print("    Pass via --api-key AIzaSy... or export GOOGLE_AI_KEY='AIzaSy...'")
+        print("[!] Error: Google AI Studio API Key is required.", flush=True)
         sys.exit(1)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    if WORKTREE_DIR.exists():
+        (WORKTREE_DIR / "assets" / "images" / "illustrations").mkdir(parents=True, exist_ok=True)
+
     all_vocab = load_vocabulary()
 
     targets = []
@@ -209,17 +197,21 @@ def main():
         if hsk_file.exists():
             with open(hsk_file, "r", encoding="utf-8") as fp:
                 data = json.load(fp)
-                targets = data[:args.limit]
+                if args.limit:
+                    targets = data[:args.limit]
+                else:
+                    targets = data
     else:
-        print("[!] Please specify --words or --hsk")
+        print("[!] Please specify --words or --hsk", flush=True)
         sys.exit(1)
 
-    if not targets:
-        print("[!] No target words found.")
-        sys.exit(0)
+    total = len(targets)
+    print(f"[*] Starting batch generation for {total} word(s) [Delay: {args.delay}s]...", flush=True)
 
-    print(f"[*] Processing {len(targets)} word(s) using model: {args.model.upper()}...")
-    new_manifest_records = {}
+    success_count = 0
+    skip_count = 0
+    fail_count = 0
+    pending_records = {}
 
     for idx, item in enumerate(targets, 1):
         hanzi = item.get("hanzi", "").strip()
@@ -228,58 +220,60 @@ def main():
         pos = item.get("pos") or guess_pos(meaning)
         item["pos"] = pos
 
-        ext = "png" if args.model == "imagen" else "svg"
-        out_filename = f"{hanzi}.{ext}"
+        out_filename = f"{hanzi}.svg"
         out_path = OUTPUT_DIR / out_filename
 
-        if out_path.exists() and not args.overwrite:
-            print(f"[{idx}/{len(targets)}] {hanzi} ({meaning}) -> Already exists: {out_filename} (skip)")
-            new_manifest_records[hanzi] = {
+        pct = (idx / total) * 100
+
+        # Check if already exists
+        if out_path.exists() and out_path.stat().st_size > 60 and not args.overwrite:
+            skip_count += 1
+            pending_records[hanzi] = {
                 "file": out_filename,
                 "src": f"assets/images/illustrations/{out_filename}",
                 "caption": meaning
             }
+            if idx % 20 == 0:
+                print(f"[{idx}/{total}] ({pct:.1f}%) Progress check: {skip_count} skipped (already exist), {success_count} newly generated.", flush=True)
             continue
 
-        print(f"[{idx}/{len(targets)}] Generating illustration for '{hanzi}' ({pinyin} - {meaning})...")
+        print(f"[{idx}/{total}] ({pct:.1f}%) Generating '{hanzi}' ({pinyin} - {meaning})...", flush=True)
 
-        try:
-            if args.model == "imagen":
-                prompt = build_prompt(hanzi, meaning, pinyin, pos)
-                image_bytes = call_imagen_api(prompt, api_key)
-                if image_bytes:
-                    out_path.write_bytes(image_bytes)
-                    print(f"    ✓ Saved PNG to {out_path.relative_to(REPO_ROOT)}")
-                    new_manifest_records[hanzi] = {
-                        "file": out_filename,
-                        "src": f"assets/images/illustrations/{out_filename}",
-                        "caption": meaning
-                    }
-                else:
-                    print(f"    ✗ Failed to generate Imagen image for '{hanzi}'")
-            else:
-                svg_code = call_gemini_svg_api(item, api_key)
-                if svg_code:
-                    out_path.write_text(svg_code, encoding="utf-8")
-                    print(f"    ✓ Saved SVG to {out_path.relative_to(REPO_ROOT)}")
-                    new_manifest_records[hanzi] = {
-                        "file": out_filename,
-                        "src": f"assets/images/illustrations/{out_filename}",
-                        "caption": meaning
-                    }
-                else:
-                    print(f"    ✗ Failed to generate SVG for '{hanzi}'")
-        except urllib.error.HTTPError as he:
-            err_msg = he.read().decode("utf-8", errors="ignore")
-            print(f"    ✗ HTTP {he.code} Error: {err_msg[:200]}")
-        except Exception as e:
-            print(f"    ✗ Error: {e}")
+        svg_code = call_gemini_svg_api(item, api_key)
+        if svg_code:
+            out_path.write_text(svg_code, encoding="utf-8")
+            if WORKTREE_DIR.exists():
+                try:
+                    wt_path = WORKTREE_DIR / "assets" / "images" / "illustrations" / out_filename
+                    wt_path.write_text(svg_code, encoding="utf-8")
+                except Exception:
+                    pass
 
-    if new_manifest_records:
-        update_illustrations_manifest(new_manifest_records)
-        print(f"[*] Updated illustrations manifest in {WORD_ILLUSTRATIONS_JS.name}")
+            pending_records[hanzi] = {
+                "file": out_filename,
+                "src": f"assets/images/illustrations/{out_filename}",
+                "caption": meaning
+            }
+            success_count += 1
+            print(f"    ✓ Saved SVG ({len(svg_code)} B)", flush=True)
+        else:
+            fail_count += 1
+            print(f"    ✗ Failed to generate SVG for '{hanzi}'", flush=True)
 
-    print("[*] Done!")
+        # Incrementally update manifest every 5 words
+        if len(pending_records) >= 5 or idx == total:
+            update_illustrations_manifest(pending_records)
+            pending_records.clear()
+
+        # Respect API rate limits
+        if idx < total:
+            time.sleep(args.delay)
+
+    # Final manifest flush
+    if pending_records:
+        update_illustrations_manifest(pending_records)
+
+    print(f"\n[*] BATCH COMPLETED: {total} total, {success_count} generated, {skip_count} skipped, {fail_count} failed.", flush=True)
 
 if __name__ == "__main__":
     main()

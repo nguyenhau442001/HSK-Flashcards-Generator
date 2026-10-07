@@ -1,0 +1,11 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  <!-- Clock face outline, representing schedule or time -->
+  <circle cx="100" cy="100" r="70" stroke="#38bdf8" stroke-width="8" fill="none"/>
+  <!-- Clock center pivot -->
+  <circle cx="100" cy="100" r="8" fill="#f59e0b"/>
+  <!-- Clock hand precisely at the 12 o'clock position, indicating exactness -->
+  <rect x="94" y="30" width="12" height="70" rx="6" fill="#f59e0b"/>
+  <!-- Checkmark symbolizing 'correct', 'on schedule', or 'punctual' -->
+  <path d="M 60 95 L 90 125 L 140 75" fill="none" stroke="#10b981" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
