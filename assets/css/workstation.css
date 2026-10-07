@@ -815,17 +815,18 @@ body.flashcard-study-mode .word-main-block.split-layout {
   justify-content: center;
   gap: 28px;
   width: 100%;
-  max-width: 620px;
+  max-width: 640px;
   margin: 0 auto;
 }
 
 body.flashcard-study-mode .card-visual-col {
-  flex: 0 0 156px;
-  width: 156px;
-  height: 156px;
+  flex: 0 0 176px;
+  width: 176px;
+  height: 176px;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 body.flashcard-study-mode .card-illustration-frame {
@@ -834,24 +835,72 @@ body.flashcard-study-mode .card-illustration-frame {
   border-radius: var(--radius-xl, 20px);
   background: var(--surface-subtle, rgba(255, 255, 255, 0.03));
   border: 1.5px solid var(--border-subtle, rgba(255, 255, 255, 0.08));
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.06);
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   padding: 10px;
   position: relative;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+  user-select: none;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .card-illustration-frame {
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.015) 100%);
+  background: linear-gradient(145deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%);
   border-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  box-shadow: 0 12px 30px -6px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 body.flashcard-study-mode .card-illustration-frame:hover {
-  border-color: var(--accent, #f97316);
-  transform: translateY(-2px);
-  box-shadow: 0 10px 28px -4px rgba(249, 115, 22, 0.2);
+  border-color: rgba(249, 115, 22, 0.5);
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px -6px rgba(249, 115, 22, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+/* Micro POS Badge inside illustration frame (top-left) */
+body.flashcard-study-mode .illustration-pos-badge {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  z-index: 3;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 6px;
+  backdrop-filter: blur(8px);
+  pointer-events: none;
+}
+
+/* Caption Pill at bottom of illustration frame */
+body.flashcard-study-mode .illustration-caption-pill {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #cbd5e1;
+  text-align: center;
+  backdrop-filter: blur(8px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+}
+body.flashcard-study-mode .illustration-caption-pill .caption-icon {
+  font-size: 11px;
+  line-height: 1;
 }
 
 body.flashcard-study-mode .card-illustration-img {
@@ -868,12 +917,13 @@ body.flashcard-study-mode .card-illustration-svg {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 14px 6px 18px 6px;
 }
 body.flashcard-study-mode .card-illustration-svg svg {
   width: 100%;
   height: 100%;
-  max-width: 136px;
-  max-height: 136px;
+  max-width: 132px;
+  max-height: 132px;
   display: block;
 }
 
@@ -885,22 +935,101 @@ body.flashcard-study-mode .card-content-col {
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 3px;
+  gap: 4px;
+}
+
+/* Part of Speech Tag / Badge in .pinyin-row */
+body.flashcard-study-mode .pos-tag,
+body.flashcard-study-mode .pos-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 2px 8px;
+  border-radius: 6px;
+  line-height: 1.35;
+  user-select: none;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+/* POS color variants */
+.pos-tag--adj, .pos-badge--adj {
+  color: #34d399;
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+}
+.pos-tag--verb, .pos-badge--verb {
+  color: #fb923c;
+  background: rgba(249, 115, 22, 0.15);
+  border: 1px solid rgba(249, 115, 22, 0.35);
+}
+.pos-tag--noun, .pos-badge--noun {
+  color: #a5b4fc;
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.35);
+}
+.pos-tag--adv, .pos-badge--adv {
+  color: #fde047;
+  background: rgba(234, 179, 8, 0.15);
+  border: 1px solid rgba(234, 179, 8, 0.35);
+}
+.pos-tag--measure, .pos-badge--measure {
+  color: #fda4af;
+  background: rgba(244, 63, 94, 0.15);
+  border: 1px solid rgba(244, 63, 94, 0.35);
+}
+.pos-tag--pron, .pos-badge--pron {
+  color: #38bdf8;
+  background: rgba(14, 165, 233, 0.15);
+  border: 1px solid rgba(14, 165, 233, 0.35);
+}
+.pos-tag--prep, .pos-badge--prep,
+.pos-tag--conj, .pos-badge--conj {
+  color: #2dd4bf;
+  background: rgba(20, 184, 166, 0.15);
+  border: 1px solid rgba(20, 184, 166, 0.35);
+}
+.pos-tag--num, .pos-badge--num {
+  color: #c084fc;
+  background: rgba(168, 85, 247, 0.15);
+  border: 1px solid rgba(168, 85, 247, 0.35);
+}
+.pos-tag--particle, .pos-badge--particle,
+.pos-tag--phrase, .pos-badge--phrase,
+.pos-tag--idiom, .pos-badge--idiom {
+  color: #94a3b8;
+  background: rgba(148, 163, 184, 0.15);
+  border: 1px solid rgba(148, 163, 184, 0.35);
 }
 
 @media (max-width: 580px) {
   body.flashcard-study-mode .word-main-block.split-layout {
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
   }
   body.flashcard-study-mode .card-visual-col {
-    flex: 0 0 105px;
-    width: 105px;
-    height: 105px;
+    flex: 0 0 135px;
+    width: 135px;
+    height: 135px;
+  }
+  body.flashcard-study-mode .card-illustration-svg {
+    padding: 10px 4px 14px 4px;
   }
   body.flashcard-study-mode .card-illustration-svg svg {
-    max-width: 90px;
-    max-height: 90px;
+    max-width: 95px;
+    max-height: 95px;
+  }
+  body.flashcard-study-mode .illustration-caption-pill {
+    font-size: 10px;
+    padding: 2px 7px;
+    bottom: 6px;
+  }
+  body.flashcard-study-mode .pos-tag,
+  body.flashcard-study-mode .pos-badge {
+    font-size: 0.72rem;
+    padding: 1px 6px;
   }
 }
 
@@ -918,6 +1047,7 @@ body.flashcard-study-mode .pinyin-row {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 body.flashcard-study-mode .meaning {
   font-size: 18.5px;

@@ -35,17 +35,23 @@ function buildCardArea() {
           <!-- Cột trái: Hình ảnh minh họa / Neo thị giác (Visual Mnemonic) -->
           <div class="card-visual-col" id="cardVisualCol">
             <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa trực quan">
+              <span class="illustration-pos-badge" id="illustrationPosBadge" hidden></span>
               <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa từ vựng" hidden>
               <div class="card-illustration-svg" id="cardIllustrationSvg"></div>
+              <div class="illustration-caption-pill" id="illustrationCaptionPill" hidden>
+                <span class="caption-icon" id="captionIcon" aria-hidden="true">✨</span>
+                <span class="caption-text" id="captionText"></span>
+              </div>
             </div>
           </div>
 
-          <!-- Cột phải: Chữ Hán, Pinyin & Nghĩa -->
+          <!-- Cột phải: Chữ Hán, Pinyin, Từ loại & Nghĩa -->
           <div class="card-content-col" id="cardContentCol">
             <div class="hanzi" id="hanzi" onclick="event.stopPropagation(); toggleStudyWritingPanel(true)" title="Nhấn để luyện viết và xem thứ tự nét (W)"></div>
             <div class="pinyin-row" id="pinyinRow">
               <div class="pinyin" id="pinyin"></div>
               <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
+              <span class="pos-badge" id="posBadge" title="Từ loại"></span>
               <button class="sound-btn speech-btn" id="soundBtn" type="button"
                 onclick="event.stopPropagation(); speakWord()"
                 aria-label="Nghe phát âm" aria-live="polite">
@@ -534,6 +540,8 @@ function render(animate) {
       document.getElementById('pinyin').textContent = '';
       const emptyHv = document.getElementById('hanvietBadge');
       if (emptyHv) { emptyHv.textContent = ''; emptyHv.style.display = 'none'; }
+      const emptyPos = document.getElementById('posBadge');
+      if (emptyPos) { emptyPos.textContent = ''; emptyPos.hidden = true; emptyPos.style.display = 'none'; }
       document.getElementById('meaning').textContent = 'Không có từ trong bộ lọc này';
       document.getElementById('meaning').classList.add('show');
       document.getElementById('hint').textContent = '';
@@ -541,6 +549,10 @@ function render(animate) {
       const emptyImg = document.getElementById('cardIllustrationImg');
       if (emptySvg) emptySvg.innerHTML = '';
       if (emptyImg) { emptyImg.src = ''; emptyImg.hidden = true; }
+      const emptyIlluPos = document.getElementById('illustrationPosBadge');
+      if (emptyIlluPos) { emptyIlluPos.textContent = ''; emptyIlluPos.hidden = true; }
+      const emptyCapPill = document.getElementById('illustrationCaptionPill');
+      if (emptyCapPill) emptyCapPill.hidden = true;
       if (content) content.classList.add('is-empty');
       updateProgress();
       updateCardPosition();
@@ -561,7 +573,7 @@ function render(animate) {
     document.getElementById('pinyin').textContent = showPinyin ? w.pinyin : '';
     const hvBadge = document.getElementById('hanvietBadge');
     if (hvBadge) {
-      const hv = w.hanviet || (typeof getWordHanViet === 'function' ? getWordHanViet(w) : '');
+      const hv = (typeof getWordHanViet === 'function' ? getWordHanViet(w) : '') || w.hanviet;
       if (hv) {
         hvBadge.textContent = `［${hv}］`;
         hvBadge.hidden = false;
@@ -572,6 +584,24 @@ function render(animate) {
         hvBadge.style.display = 'none';
       }
     }
+
+    // Cập nhật Part of Speech (Từ loại)
+    const pos = (typeof getWordPartOfSpeech === 'function') ? getWordPartOfSpeech(w) : null;
+    const posBadge = document.getElementById('posBadge');
+    if (posBadge) {
+      if (pos && pos.label) {
+        posBadge.textContent = pos.label;
+        posBadge.className = `pos-badge pos-badge--${pos.code || 'noun'}`;
+        posBadge.title = `Từ loại: ${pos.full || pos.label}`;
+        posBadge.hidden = false;
+        posBadge.style.display = 'inline-flex';
+      } else {
+        posBadge.textContent = '';
+        posBadge.hidden = true;
+        posBadge.style.display = 'none';
+      }
+    }
+
     const m = document.getElementById('meaning');
     m.textContent = w.meaning;
     m.classList.remove('show');
@@ -586,6 +616,10 @@ function render(animate) {
     const imgEl = document.getElementById('cardIllustrationImg');
     const svgEl = document.getElementById('cardIllustrationSvg');
     const frameEl = document.getElementById('cardIllustrationFrame');
+    const illuPos = document.getElementById('illustrationPosBadge');
+    const captionPill = document.getElementById('illustrationCaptionPill');
+    const captionText = document.getElementById('captionText');
+
     if (imgEl && svgEl && typeof getWordIllustration === 'function') {
       const illu = getWordIllustration(w);
       if (illu) {
@@ -603,6 +637,25 @@ function render(animate) {
         }
         if (frameEl) {
           frameEl.title = illu.caption ? `Minh họa: ${illu.caption}` : (w.meaning || '');
+        }
+        if (illuPos) {
+          if (pos && pos.label) {
+            illuPos.textContent = pos.label.toUpperCase();
+            illuPos.className = `illustration-pos-badge pos-badge--${pos.code || 'noun'}`;
+            illuPos.hidden = false;
+          } else {
+            illuPos.hidden = true;
+          }
+        }
+        if (captionPill && captionText) {
+          const cap = illu.caption || w.meaning || '';
+          if (cap) {
+            captionText.textContent = cap;
+            captionPill.hidden = false;
+            captionPill.title = cap;
+          } else {
+            captionPill.hidden = true;
+          }
         }
       }
     }
