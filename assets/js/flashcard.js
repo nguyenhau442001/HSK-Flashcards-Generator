@@ -32,7 +32,7 @@ function buildCardArea() {
       <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Chưa nhớ</div>
       <div id="cardContent" class="card-content">
         <div class="word-main-block">
-          <div class="hanzi" id="hanzi"></div>
+          <div class="hanzi" id="hanzi" onclick="event.stopPropagation(); toggleStudyWritingPanel(true)" title="Nhấn để luyện viết và xem thứ tự nét (W)"></div>
           <div class="pinyin-row" id="pinyinRow">
             <div class="pinyin" id="pinyin"></div>
             <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
@@ -216,17 +216,22 @@ function ratingButtonsHtml(handlerName, previewIdPrefix, previews) {
   return RATING_BUTTONS.map(button => {
     const preview = previews ? previews[button.rating] : null;
     const intervalText = preview ? formatSrsInterval(preview, button.interval) : button.interval;
+    const shortcutArrow = button.rating === 'again' ? '←' : '→';
     return `
     <button type="button" class="rating-btn rating-btn--${button.rating}"
-      onclick="${handlerName}('${button.rating}')" aria-keyshortcuts="${button.key}">
-      <span class="rating-emoji" aria-hidden="true">${button.emoji}</span>
-      <span class="rating-label">${button.label}</span>
+      onclick="${handlerName}('${button.rating}')" aria-keyshortcuts="${button.key}"
+      title="Đánh giá: ${button.label} (Phím [${button.key}] hoặc [${shortcutArrow}])">
+      <div class="rating-main-label">
+        <span class="rating-emoji" aria-hidden="true">${button.emoji}</span>
+        <span class="rating-label">${button.label}</span>
+        <kbd class="rating-kbd" aria-hidden="true">${button.key}</kbd>
+      </div>
       <span class="rating-interval"${previewIdPrefix ? ` id="${previewIdPrefix}${button.rating}"` : ''}>${intervalText}</span>
     </button>`;
   }).join('');
 }
 function revealButtonHtml(onclick, id) {
-  return `<button type="button" class="reveal-btn" id="${id}" onclick="${onclick}" aria-keyshortcuts="Space">
+  return `<button type="button" class="reveal-btn" id="${id}" onclick="${onclick}" aria-keyshortcuts="Space" title="Lật thẻ (Phím Space)">
       <span>Lật thẻ</span><kbd class="key-badge" aria-hidden="true">Space</kbd>
     </button>`;
 }
@@ -315,44 +320,39 @@ function updateCardPosition() {
 }
 
 function toggleStudySidebar(forceOpen) {
-  if (window.innerWidth >= 1080) {
-    if (document.body.classList.contains('study-sidebar-collapsed')) {
-      document.body.classList.remove('study-sidebar-collapsed');
-    }
+  const isOpen = document.body.classList.contains('study-sidebar-open');
+  const isTargetTab = document.body.dataset.sidebarTab === 'words';
+  const shouldOpen = typeof forceOpen === 'boolean' ? forceOpen : (!isOpen || !isTargetTab);
+
+  if (shouldOpen) {
+    document.body.classList.add('study-sidebar-open');
     if (typeof window.setSidebarStudyTab === 'function') {
       window.setSidebarStudyTab('words');
     }
-  } else {
-    const shouldOpen = typeof forceOpen === 'boolean' ? forceOpen : !document.body.classList.contains('study-sidebar-open');
-    if (shouldOpen) {
-      document.body.classList.add('study-sidebar-open');
-      if (typeof window.setSidebarStudyTab === 'function') window.setSidebarStudyTab('words');
-      if (typeof renderStudyWordList === 'function') renderStudyWordList();
-    } else {
-      document.body.classList.remove('study-sidebar-open');
+    if (typeof renderStudyWordList === 'function') {
+      renderStudyWordList();
     }
+  } else {
+    document.body.classList.remove('study-sidebar-open');
   }
   updateStudyDrawerButtons();
 }
 
 function toggleStudyWritingPanel(forceOpen) {
-  if (window.innerWidth >= 1080) {
-    if (document.body.classList.contains('study-sidebar-collapsed')) {
-      document.body.classList.remove('study-sidebar-collapsed');
-      if (typeof window.setSidebarStudyTab === 'function') window.setSidebarStudyTab('stroke');
-    } else if (document.body.dataset.sidebarTab === 'stroke' && forceOpen === undefined) {
-      document.body.classList.add('study-sidebar-collapsed');
-    } else {
-      if (typeof window.setSidebarStudyTab === 'function') window.setSidebarStudyTab('stroke');
+  const isOpen = document.body.classList.contains('study-sidebar-open');
+  const isTargetTab = document.body.dataset.sidebarTab === 'stroke';
+  const shouldOpen = typeof forceOpen === 'boolean' ? forceOpen : (!isOpen || !isTargetTab);
+
+  if (shouldOpen) {
+    document.body.classList.add('study-sidebar-open');
+    if (typeof window.setSidebarStudyTab === 'function') {
+      window.setSidebarStudyTab('stroke');
+    }
+    if (typeof renderActiveStrokeChar === 'function') {
+      setTimeout(() => renderActiveStrokeChar(true), 50);
     }
   } else {
-    const shouldOpen = typeof forceOpen === 'boolean' ? forceOpen : !document.body.classList.contains('study-sidebar-open');
-    if (shouldOpen) {
-      document.body.classList.add('study-sidebar-open');
-      if (typeof window.setSidebarStudyTab === 'function') window.setSidebarStudyTab('stroke');
-    } else {
-      document.body.classList.remove('study-sidebar-open');
-    }
+    document.body.classList.remove('study-sidebar-open');
   }
   updateStudyDrawerButtons();
 }
@@ -363,10 +363,7 @@ function closeAllStudyDrawers() {
 }
 
 function updateStudyDrawerButtons() {
-  const isDesktop = window.innerWidth >= 1080;
-  const isPanelOpen = isDesktop
-    ? !document.body.classList.contains('study-sidebar-collapsed')
-    : document.body.classList.contains('study-sidebar-open');
+  const isPanelOpen = document.body.classList.contains('study-sidebar-open');
   const activeTab = document.body.dataset.sidebarTab || 'stroke';
 
   const sidebarBtn = document.getElementById('studySidebarToggleBtn');

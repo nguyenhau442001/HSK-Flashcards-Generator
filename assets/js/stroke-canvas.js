@@ -79,9 +79,8 @@ function renderInstructionText(highlightIndex = null) {
 
   if (total <= 1) {
     box.innerHTML = `
-      <div class="stroke-instruction-prompt">
-        <span class="stroke-instruction-icon">💡</span>
-        <span>Bấm trực tiếp vào ô chữ để tự luyện viết!</span>
+      <div class="stroke-instruction-compact">
+        <span class="stroke-tip-badge">💡 Chạm ô chữ để tự luyện viết</span>
       </div>
     `;
     return;
@@ -98,13 +97,9 @@ function renderInstructionText(highlightIndex = null) {
   }).join('<span class="stroke-seq-arrow">→</span>');
 
   box.innerHTML = `
-    <div class="stroke-instruction-prompt">
-      <span class="stroke-instruction-icon">💡</span>
-      <span>Bấm trực tiếp vào các ô chữ để tự luyện viết!</span>
-    </div>
-    <div class="stroke-instruction-order">
-      <span class="stroke-order-label">Luyện viết theo thứ tự:</span>
+    <div class="stroke-instruction-compact">
       <div class="stroke-order-seq">${seqHtml}</div>
+      <span class="stroke-tip-badge" title="Bấm trực tiếp vào các ô chữ để tự luyện viết">💡 Chạm ô để viết</span>
     </div>
   `;
 }
@@ -354,7 +349,7 @@ function animateStrokeCanvas() {
       if (statusWrap) {
         statusWrap.innerHTML = `
           <div class="stroke-status-live">
-            ✨ Đã diễn họa xong! Bấm trực tiếp vào các ô hoặc nhấn "Luyện viết" để thử viết.
+            ✨ Diễn họa hoàn tất · Chạm ô chữ để luyện viết
           </div>
         `;
       }
