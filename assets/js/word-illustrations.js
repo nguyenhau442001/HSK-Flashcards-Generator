@@ -7026,6 +7026,506 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "浏览.svg",
     "src": "assets/images/illustrations/浏览.svg",
     "caption": "xem qua, lướt qua"
+  },
+  "龙": {
+    "file": "龙.svg",
+    "src": "assets/images/illustrations/龙.svg",
+    "caption": "con rồng"
+  },
+  "漏": {
+    "file": "漏.svg",
+    "src": "assets/images/illustrations/漏.svg",
+    "caption": "rò, lọt, dò"
+  },
+  "陆地": {
+    "file": "陆地.svg",
+    "src": "assets/images/illustrations/陆地.svg",
+    "caption": "đất liền"
+  },
+  "录取": {
+    "file": "录取.svg",
+    "src": "assets/images/illustrations/录取.svg",
+    "caption": "tuyển vào, trúng tuyển"
+  },
+  "论文": {
+    "file": "论文.svg",
+    "src": "assets/images/illustrations/论文.svg",
+    "caption": "luận văn"
+  },
+  "落后": {
+    "file": "落后.svg",
+    "src": "assets/images/illustrations/落后.svg",
+    "caption": "lạc hậu, tụt hậu"
+  },
+  "骂": {
+    "file": "骂.svg",
+    "src": "assets/images/illustrations/骂.svg",
+    "caption": "mắng, chửi"
+  },
+  "麦克风": {
+    "file": "麦克风.svg",
+    "src": "assets/images/illustrations/麦克风.svg",
+    "caption": "microphone"
+  },
+  "满足": {
+    "file": "满足.svg",
+    "src": "assets/images/illustrations/满足.svg",
+    "caption": "thỏa mãn"
+  },
+  "冒险": {
+    "file": "冒险.svg",
+    "src": "assets/images/illustrations/冒险.svg",
+    "caption": "mạo hiểm"
+  },
+  "眉毛": {
+    "file": "眉毛.svg",
+    "src": "assets/images/illustrations/眉毛.svg",
+    "caption": "lông mày"
+  },
+  "美术": {
+    "file": "美术.svg",
+    "src": "assets/images/illustrations/美术.svg",
+    "caption": "mỹ thuật"
+  },
+  "秘密": {
+    "file": "秘密.svg",
+    "src": "assets/images/illustrations/秘密.svg",
+    "caption": "bí mật"
+  },
+  "面对": {
+    "file": "面对.svg",
+    "src": "assets/images/illustrations/面对.svg",
+    "caption": "đối mặt"
+  },
+  "面临": {
+    "file": "面临.svg",
+    "src": "assets/images/illustrations/面临.svg",
+    "caption": "đối diện, đứng trước"
+  },
+  "苗条": {
+    "file": "苗条.svg",
+    "src": "assets/images/illustrations/苗条.svg",
+    "caption": "thon thả, mảnh mai"
+  },
+  "明确": {
+    "file": "明确.svg",
+    "src": "assets/images/illustrations/明确.svg",
+    "caption": "rõ ràng, minh xác"
+  },
+  "明显": {
+    "file": "明显.svg",
+    "src": "assets/images/illustrations/明显.svg",
+    "caption": "rõ rệt, hiển nhiên"
+  },
+  "名牌": {
+    "file": "名牌.svg",
+    "src": "assets/images/illustrations/名牌.svg",
+    "caption": "nhãn hiệu nổi tiếng"
+  },
+  "名胜古迹": {
+    "file": "名胜古迹.svg",
+    "src": "assets/images/illustrations/名胜古迹.svg",
+    "caption": "danh lam thắng cảnh"
+  },
+  "命令": {
+    "file": "命令.svg",
+    "src": "assets/images/illustrations/命令.svg",
+    "caption": "lệnh, mệnh lệnh"
+  },
+  "摸": {
+    "file": "摸.svg",
+    "src": "assets/images/illustrations/摸.svg",
+    "caption": "sờ, chạm"
+  },
+  "模糊": {
+    "file": "模糊.svg",
+    "src": "assets/images/illustrations/模糊.svg",
+    "caption": "mơ hồ, mờ nhạt"
+  },
+  "摩托车": {
+    "file": "摩托车.svg",
+    "src": "assets/images/illustrations/摩托车.svg",
+    "caption": "xe máy"
+  },
+  "某": {
+    "file": "某.svg",
+    "src": "assets/images/illustrations/某.svg",
+    "caption": "một, nào đó"
+  },
+  "目标": {
+    "file": "目标.svg",
+    "src": "assets/images/illustrations/目标.svg",
+    "caption": "mục tiêu"
+  },
+  "目录": {
+    "file": "目录.svg",
+    "src": "assets/images/illustrations/目录.svg",
+    "caption": "mục lục, danh mục"
+  },
+  "木头": {
+    "file": "木头.svg",
+    "src": "assets/images/illustrations/木头.svg",
+    "caption": "gỗ"
+  },
+  "哪怕": {
+    "file": "哪怕.svg",
+    "src": "assets/images/illustrations/哪怕.svg",
+    "caption": "dù cho, dù là"
+  },
+  "难免": {
+    "file": "难免.svg",
+    "src": "assets/images/illustrations/难免.svg",
+    "caption": "khó tránh khỏi"
+  },
+  "脑袋": {
+    "file": "脑袋.svg",
+    "src": "assets/images/illustrations/脑袋.svg",
+    "caption": "cái đầu"
+  },
+  "内科": {
+    "file": "内科.svg",
+    "src": "assets/images/illustrations/内科.svg",
+    "caption": "khoa nội (y học)"
+  },
+  "嫩": {
+    "file": "嫩.svg",
+    "src": "assets/images/illustrations/嫩.svg",
+    "caption": "non, mềm"
+  },
+  "能干": {
+    "file": "能干.svg",
+    "src": "assets/images/illustrations/能干.svg",
+    "caption": "có năng lực, tài giỏi"
+  },
+  "能源": {
+    "file": "能源.svg",
+    "src": "assets/images/illustrations/能源.svg",
+    "caption": "năng lượng"
+  },
+  "年代": {
+    "file": "年代.svg",
+    "src": "assets/images/illustrations/年代.svg",
+    "caption": "niên đại, thời đại"
+  },
+  "年纪": {
+    "file": "年纪.svg",
+    "src": "assets/images/illustrations/年纪.svg",
+    "caption": "tuổi tác"
+  },
+  "宁可": {
+    "file": "宁可.svg",
+    "src": "assets/images/illustrations/宁可.svg",
+    "caption": "thà rằng"
+  },
+  "牛仔裤": {
+    "file": "牛仔裤.svg",
+    "src": "assets/images/illustrations/牛仔裤.svg",
+    "caption": "quần jean"
+  },
+  "农村": {
+    "file": "农村.svg",
+    "src": "assets/images/illustrations/农村.svg",
+    "caption": "nông thôn"
+  },
+  "农业": {
+    "file": "农业.svg",
+    "src": "assets/images/illustrations/农业.svg",
+    "caption": "nông nghiệp"
+  },
+  "女士": {
+    "file": "女士.svg",
+    "src": "assets/images/illustrations/女士.svg",
+    "caption": "quý bà, bà (xưng hô)"
+  },
+  "派": {
+    "file": "派.svg",
+    "src": "assets/images/illustrations/派.svg",
+    "caption": "cử, phái"
+  },
+  "赔偿": {
+    "file": "赔偿.svg",
+    "src": "assets/images/illustrations/赔偿.svg",
+    "caption": "đền bù"
+  },
+  "培养": {
+    "file": "培养.svg",
+    "src": "assets/images/illustrations/培养.svg",
+    "caption": "bồi dưỡng, nuôi dưỡng"
+  },
+  "配合": {
+    "file": "配合.svg",
+    "src": "assets/images/illustrations/配合.svg",
+    "caption": "phối hợp"
+  },
+  "披": {
+    "file": "披.svg",
+    "src": "assets/images/illustrations/披.svg",
+    "caption": "khoác, choàng"
+  },
+  "片面": {
+    "file": "片面.svg",
+    "src": "assets/images/illustrations/片面.svg",
+    "caption": "một chiều, thiên lệch"
+  },
+  "拼音": {
+    "file": "拼音.svg",
+    "src": "assets/images/illustrations/拼音.svg",
+    "caption": "phiên âm (pinyin)"
+  },
+  "平": {
+    "file": "平.svg",
+    "src": "assets/images/illustrations/平.svg",
+    "caption": "bằng, phẳng"
+  },
+  "平常": {
+    "file": "平常.svg",
+    "src": "assets/images/illustrations/平常.svg",
+    "caption": "bình thường, thường ngày"
+  },
+  "平方": {
+    "file": "平方.svg",
+    "src": "assets/images/illustrations/平方.svg",
+    "caption": "bình phương, vuông"
+  },
+  "平静": {
+    "file": "平静.svg",
+    "src": "assets/images/illustrations/平静.svg",
+    "caption": "bình tĩnh, yên tĩnh"
+  },
+  "评价": {
+    "file": "评价.svg",
+    "src": "assets/images/illustrations/评价.svg",
+    "caption": "đánh giá"
+  },
+  "破坏": {
+    "file": "破坏.svg",
+    "src": "assets/images/illustrations/破坏.svg",
+    "caption": "phá hoại"
+  },
+  "期待": {
+    "file": "期待.svg",
+    "src": "assets/images/illustrations/期待.svg",
+    "caption": "mong đợi, kỳ vọng"
+  },
+  "奇迹": {
+    "file": "奇迹.svg",
+    "src": "assets/images/illustrations/奇迹.svg",
+    "caption": "kỳ tích, điều kỳ diệu"
+  },
+  "启发": {
+    "file": "启发.svg",
+    "src": "assets/images/illustrations/启发.svg",
+    "caption": "khơi gợi, gợi mở"
+  },
+  "气氛": {
+    "file": "气氛.svg",
+    "src": "assets/images/illustrations/气氛.svg",
+    "caption": "không khí, bầu không khí"
+  },
+  "汽油": {
+    "file": "汽油.svg",
+    "src": "assets/images/illustrations/汽油.svg",
+    "caption": "xăng"
+  },
+  "谦虚": {
+    "file": "谦虚.svg",
+    "src": "assets/images/illustrations/谦虚.svg",
+    "caption": "khiêm tốn"
+  },
+  "签": {
+    "file": "签.svg",
+    "src": "assets/images/illustrations/签.svg",
+    "caption": "ký (tên)"
+  },
+  "浅": {
+    "file": "浅.svg",
+    "src": "assets/images/illustrations/浅.svg",
+    "caption": "cạn, nông"
+  },
+  "枪": {
+    "file": "枪.svg",
+    "src": "assets/images/illustrations/枪.svg",
+    "caption": "súng"
+  },
+  "强调": {
+    "file": "强调.svg",
+    "src": "assets/images/illustrations/强调.svg",
+    "caption": "nhấn mạnh"
+  },
+  "抢": {
+    "file": "抢.svg",
+    "src": "assets/images/illustrations/抢.svg",
+    "caption": "giành, cướp"
+  },
+  "悄悄": {
+    "file": "悄悄.svg",
+    "src": "assets/images/illustrations/悄悄.svg",
+    "caption": "lặng lẽ, êm ru"
+  },
+  "瞧": {
+    "file": "瞧.svg",
+    "src": "assets/images/illustrations/瞧.svg",
+    "caption": "nhìn, xem"
+  },
+  "巧妙": {
+    "file": "巧妙.svg",
+    "src": "assets/images/illustrations/巧妙.svg",
+    "caption": "khéo léo, tài tình"
+  },
+  "亲爱": {
+    "file": "亲爱.svg",
+    "src": "assets/images/illustrations/亲爱.svg",
+    "caption": "thân yêu"
+  },
+  "亲切": {
+    "file": "亲切.svg",
+    "src": "assets/images/illustrations/亲切.svg",
+    "caption": "thân thiết, gần gũi"
+  },
+  "勤奋": {
+    "file": "勤奋.svg",
+    "src": "assets/images/illustrations/勤奋.svg",
+    "caption": "chăm chỉ, cần cù"
+  },
+  "青春": {
+    "file": "青春.svg",
+    "src": "assets/images/illustrations/青春.svg",
+    "caption": "tuổi thanh xuân"
+  },
+  "轻视": {
+    "file": "轻视.svg",
+    "src": "assets/images/illustrations/轻视.svg",
+    "caption": "coi thường, xem nhẹ"
+  },
+  "请求": {
+    "file": "请求.svg",
+    "src": "assets/images/illustrations/请求.svg",
+    "caption": "thỉnh cầu, yêu cầu"
+  },
+  "球迷": {
+    "file": "球迷.svg",
+    "src": "assets/images/illustrations/球迷.svg",
+    "caption": "người mê bóng"
+  },
+  "趋势": {
+    "file": "趋势.svg",
+    "src": "assets/images/illustrations/趋势.svg",
+    "caption": "xu thế"
+  },
+  "去世": {
+    "file": "去世.svg",
+    "src": "assets/images/illustrations/去世.svg",
+    "caption": "qua đời"
+  },
+  "权力": {
+    "file": "权力.svg",
+    "src": "assets/images/illustrations/权力.svg",
+    "caption": "quyền lực"
+  },
+  "劝": {
+    "file": "劝.svg",
+    "src": "assets/images/illustrations/劝.svg",
+    "caption": "khuyên"
+  },
+  "缺乏": {
+    "file": "缺乏.svg",
+    "src": "assets/images/illustrations/缺乏.svg",
+    "caption": "thiếu thốn"
+  },
+  "确认": {
+    "file": "确认.svg",
+    "src": "assets/images/illustrations/确认.svg",
+    "caption": "xác nhận"
+  },
+  "群": {
+    "file": "群.svg",
+    "src": "assets/images/illustrations/群.svg",
+    "caption": "đám, nhóm (lượng từ)"
+  },
+  "燃烧": {
+    "file": "燃烧.svg",
+    "src": "assets/images/illustrations/燃烧.svg",
+    "caption": "đốt cháy"
+  },
+  "绕": {
+    "file": "绕.svg",
+    "src": "assets/images/illustrations/绕.svg",
+    "caption": "vòng quanh"
+  },
+  "热爱": {
+    "file": "热爱.svg",
+    "src": "assets/images/illustrations/热爱.svg",
+    "caption": "yêu mến, yêu thương"
+  },
+  "热心": {
+    "file": "热心.svg",
+    "src": "assets/images/illustrations/热心.svg",
+    "caption": "nhiệt tâm"
+  },
+  "人才": {
+    "file": "人才.svg",
+    "src": "assets/images/illustrations/人才.svg",
+    "caption": "nhân tài"
+  },
+  "人类": {
+    "file": "人类.svg",
+    "src": "assets/images/illustrations/人类.svg",
+    "caption": "loài người, nhân loại"
+  },
+  "人生": {
+    "file": "人生.svg",
+    "src": "assets/images/illustrations/人生.svg",
+    "caption": "cuộc đời, đời người"
+  },
+  "人物": {
+    "file": "人物.svg",
+    "src": "assets/images/illustrations/人物.svg",
+    "caption": "nhân vật"
+  },
+  "忍不住": {
+    "file": "忍不住.svg",
+    "src": "assets/images/illustrations/忍不住.svg",
+    "caption": "không chịu được, không kìm được"
+  },
+  "日程": {
+    "file": "日程.svg",
+    "src": "assets/images/illustrations/日程.svg",
+    "caption": "lịch trình"
+  },
+  "日历": {
+    "file": "日历.svg",
+    "src": "assets/images/illustrations/日历.svg",
+    "caption": "lịch (tờ)"
+  },
+  "日用品": {
+    "file": "日用品.svg",
+    "src": "assets/images/illustrations/日用品.svg",
+    "caption": "đồ dùng hàng ngày"
+  },
+  "如何": {
+    "file": "如何.svg",
+    "src": "assets/images/illustrations/如何.svg",
+    "caption": "như thế nào, làm sao"
+  },
+  "软件": {
+    "file": "软件.svg",
+    "src": "assets/images/illustrations/软件.svg",
+    "caption": "phần mềm"
+  },
+  "洒": {
+    "file": "洒.svg",
+    "src": "assets/images/illustrations/洒.svg",
+    "caption": "rảy, rắc"
+  },
+  "嗓子": {
+    "file": "嗓子.svg",
+    "src": "assets/images/illustrations/嗓子.svg",
+    "caption": "cổ họng"
+  },
+  "沙滩": {
+    "file": "沙滩.svg",
+    "src": "assets/images/illustrations/沙滩.svg",
+    "caption": "bãi biển, bãi cát"
   }
 };
 
