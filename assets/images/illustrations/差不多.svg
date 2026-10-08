@@ -1,0 +1,29 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Card -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Subtle grid/accents for technical precision (flashcard aesthetic) -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="4 8" opacity="0.6"/>
+
+  <!-- Visual Metaphor: Two nearly identical shapes (bars/rings) with a slight, calibrated offset/gap to represent "almost" or "approximately" -->
+  
+  <!-- Left/Base Reference Element (Emerald Green - Target) -->
+  <g transform="translate(100, 100)">
+    <!-- Outer complete ring segment -->
+    <path d="M -45 -15 A 48 48 0 1 1 -15 45" fill="none" stroke="#10b981" stroke-width="10" stroke-linecap="round"/>
+    <!-- Center solid indicator -->
+    <circle cx="-18" cy="-18" r="8" fill="#10b981"/>
+  </g>
+
+  <!-- Right/Approximate Element (Vibrant Amber/Coral - Nearly There) -->
+  <g transform="translate(100, 100)">
+    <!-- Slightly offset/shifted parallel ring segment representing "close to, but not quite exact" -->
+    <path d="M -40 -22 A 48 48 0 1 1 -22 40" fill="none" stroke="#fb923c" stroke-width="10" stroke-linecap="round"/>
+    <!-- Center solid indicator slightly offset -->
+    <circle cx="18" cy="18" r="8" fill="#fb923c"/>
+  </g>
+
+  <!-- Comparison / Tolerance indicator bridge in the center -->
+  <path d="M 85 100 L 115 100" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 4"/>
+  <circle cx="100" cy="100" r="3" fill="#38bdf8"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Subtle background grid/orbit elements -->
+  <circle cx="100" cy="110" r="55" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+  
+  <!-- Briefcase (Work/Business aspect) -->
+  <g transform="translate(0, 5)">
+    <!-- Briefcase Body -->
+    <rect x="65" y="90" width="70" height="48" rx="8" fill="#f59e0b" />
+    <!-- Briefcase Flap/Highlight -->
+    <path d="M 65 106 L 135 106" stroke="#d97706" stroke-width="2"/>
+    <!-- Handle -->
+    <path d="M 85 90 V 82 C 85 78 89 75 93 75 H 107 C 111 75 115 78 115 82 V 90" fill="none" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round"/>
+    <!-- Center Clasp -->
+    <rect x="94" y="102" width="12" height="10" rx="2" fill="#ffffff" opacity="0.9"/>
+  </g>
+
+  <!-- Airplane / Travel (Journey/Trip aspect) -->
+  <g transform="translate(15, -10) rotate(-25 100 75)">
+    <!-- Motion trail -->
+    <path d="M 40 75 H 65" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 4" opacity="0.8"/>
+    
+    <!-- Plane Body -->
+    <path d="M 70 75 L 85 68 L 105 72 L 120 65 L 125 70 L 110 80 L 85 80 Z" fill="#38bdf8"/>
+    <!-- Plane Wings & Tail -->
+    <path d="M 90 73 L 100 55 L 108 57 L 100 73 Z" fill="#7dd3fc"/>
+    <path d="M 115 70 L 123 58 L 128 60 L 121 72 Z" fill="#0ea5e9"/>
+  </g>
+
+  <!-- Decorative Location Pin Accent -->
+  <path d="M 142 62 C 142 54 136 48 128 48 C 120 48 114 54 114 62 C 114 70 128 82 128 82 C 128 82 142 70 142 62 Z" fill="#10b981" opacity="0.9"/>
+  <circle cx="128" cy="61" r="3" fill="#ffffff"/>
+</svg>

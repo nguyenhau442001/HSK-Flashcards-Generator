@@ -1,0 +1,27 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Subtle decorative background grid/paths representing a fork or transition -->
+  <path d="M 60 100 Q 100 100 100 70" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 6"/>
+  <path d="M 60 100 Q 100 100 100 130" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 6"/>
+
+  <!-- Main visual metaphor for "However / But" (A contrasting shift in direction / divergence) -->
+  
+  <!-- Initial path (Sky blue) representing the expected or first thought -->
+  <path d="M 50 100 L 95 100" fill="none" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- The pivot/junction node -->
+  <circle cx="100" cy="100" r="10" fill="#f59e0b" />
+  <circle cx="100" cy="100" r="4" fill="#1e293b" />
+
+  <!-- The contrasting path (Vibrant Amber/Coral) representing the twist, turn, or exception -->
+  <path d="M 107 93 L 140 60" fill="none" stroke="#fb923c" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Arrowhead for the contrasting path -->
+  <path d="M 132 58 L 144 56 L 142 68" fill="none" stroke="#fb923c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Secondary subtle balanced element to complete the sleek aesthetic -->
+  <circle cx="145" cy="55" r="3" fill="#38bdf8" opacity="0.4"/>
+  <circle cx="40" cy="100" r="3" fill="#fb923c" opacity="0.4"/>
+</svg>

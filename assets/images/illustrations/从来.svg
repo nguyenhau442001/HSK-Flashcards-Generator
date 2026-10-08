@@ -1,0 +1,44 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Glow/Background Gradient Effects -->
+  <defs>
+    <linearGradient id="timelineGrad" x1="40" y1="100" x2="160" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="1"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Visual Metaphor: "从来" (Always / From the beginning to now / Continuous timeline) -->
+  <!-- Base Timeline Track -->
+  <line x1="40" y1="115" x2="160" y2="115" stroke="#334155" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Active Continuous Timeline Segment (From past to present) -->
+  <line x1="40" y1="115" x2="145" y2="115" stroke="url(#timelineGrad)" stroke-width="6" stroke-linecap="round" filter="url(#glow)"/>
+
+  <!-- Origin Point (Past / 从) -->
+  <circle cx="40" cy="115" r="7" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="40" cy="115" r="3" fill="#ffffff"/>
+
+  <!-- Intermediate Flow Nodes (Consistency / 来) -->
+  <circle cx="70" cy="115" r="4" fill="#38bdf8" opacity="0.8"/>
+  <circle cx="100" cy="115" r="4" fill="#38bdf8" opacity="0.9"/>
+
+  <!-- Present / Current Peak Point (Always active) -->
+  <circle cx="145" cy="115" r="10" fill="#1e293b" stroke="#38bdf8" stroke-width="3"/>
+  <circle cx="145" cy="115" r="5" fill="#f59e0b" filter="url(#glow)"/>
+
+  <!-- Upward Dynamic Arrow / Constant Progress Symbol representing "Always" -->
+  <path d="M 120 75 L 145 75 L 145 100" fill="none" stroke="#f59e0b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 110 95 L 145 60 L 165 80" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+  <path d="M 100 85 L 145 40 L 180 75" fill="none" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Accent Star / Spark for eternity/always concept -->
+  <circle cx="145" cy="40" r="3" fill="#ffffff" filter="url(#glow)"/>
+</svg>

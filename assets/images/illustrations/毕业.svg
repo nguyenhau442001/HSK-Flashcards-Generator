@@ -1,0 +1,27 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Dark slate rounded rectangle -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Graduation Cap -->
+  <!-- Top square of the cap, in emerald green -->
+  <rect x="70" y="45" width="60" height="60" fill="#10b981" rx="8"/>
+
+  <!-- Tassel button, amber -->
+  <circle cx="100" cy="75" r="4" fill="#f59e0b"/>
+
+  <!-- Tassel string, amber -->
+  <line x1="100" y1="75" x2="125" y2="100" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Tassel drop, amber -->
+  <circle cx="125" cy="100" r="6" fill="#f59e0b"/>
+
+  <!-- Diploma Scroll -->
+  <!-- Main body of the scroll, in amber -->
+  <rect x="50" y="115" width="100" height="30" fill="#f59e0b" rx="8"/>
+
+  <!-- Left rolled end/tie of the scroll, in coral -->
+  <rect x="40" y="110" width="15" height="40" fill="#fb923c" rx="6"/>
+
+  <!-- Right rolled end/tie of the scroll, in coral -->
+  <rect x="145" y="110" width="15" height="40" fill="#fb923c" rx="6"/>
+</svg>

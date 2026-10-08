@@ -1,0 +1,39 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Ambient Glow -->
+  <circle cx="100" cy="100" r="50" fill="#38bdf8" opacity="0.1" filter="blur(10px)"/>
+
+  <!-- Graduation Cap (Mortarboard) Elements -->
+  <!-- Cap Top Diamond -->
+  <polygon points="100,55 155,75 100,95 45,75" fill="#38bdf8" stroke="#0f172a" stroke-width="2" stroke-linejoin="round"/>
+  
+  <!-- Cap Inner Shadow/Depth Layer -->
+  <polygon points="100,60 145,75 100,90 55,75" fill="#0ea5e9" opacity="0.6"/>
+
+  <!-- Cap Skull Cap (Base) -->
+  <path d="M 70,87 C 70,110 130,110 130,87" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Tassel Cord and Pendant -->
+  <path d="M 132,77 Q 145,85 140,110" fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="140" cy="113" r="5" fill="#f59e0b"/>
+
+  <!-- Academic Scroll / Diploma -->
+  <g transform="translate(0, 15)">
+    <!-- Scroll Ribbon/Tie -->
+    <rect x="94" y="112" width="12" height="18" rx="3" fill="#fb923c"/>
+    
+    <!-- Scroll Body (Rolled Paper) -->
+    <rect x="65" y="115" width="70" height="12" rx="4" fill="#f8fafc"/>
+    <rect x="65" y="127" width="70" height="3" rx="1.5" fill="#cbd5e1" opacity="0.5"/>
+
+    <!-- Scroll Ends (3D Cylinder effect) -->
+    <ellipse cx="65" cy="121" rx="3" ry="6" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1"/>
+    <ellipse cx="135" cy="121" rx="3" ry="6" fill="#cbd5e1" stroke="#94a3b8" stroke-width="1"/>
+  </g>
+
+  <!-- Sparkles / Excellence Indicators -->
+  <path d="M 50,55 L 53,48 L 60,45 L 53,42 L 50,35 L 47,42 L 40,45 L 47,48 Z" fill="#f59e0b" opacity="0.9"/>
+  <path d="M 155,100 L 157,95 L 162,93 L 157,91 L 155,86 L 153,91 L 148,93 L 153,95 Z" fill="#10b981" opacity="0.9"/>
+</svg>

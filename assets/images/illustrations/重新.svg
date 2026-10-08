@@ -1,0 +1,48 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Glow/Ambient effects -->
+  <circle cx="100" cy="100" r="55" fill="#38bdf8" opacity="0.05"/>
+  <circle cx="100" cy="100" r="40" fill="#f59e0b" opacity="0.05"/>
+
+  <!-- Outer Ring - Reset/Cycle track -->
+  <path d="M 135 65 
+           A 50 50 0 1 1 99.9 50" 
+        fill="none" 
+        stroke="#334155" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+
+  <!-- Primary Dynamic Arrow (Sky Blue) representing "Anew / Restart" -->
+  <path d="M 100 50
+           A 50 50 0 1 1 50 100" 
+        fill="none" 
+        stroke="#38bdf8" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+
+  <!-- Arrowhead for Primary Track -->
+  <g transform="translate(50, 100)">
+    <polygon points="-8,-4 8,6 -4,12" fill="#38bdf8" />
+  </g>
+
+  <!-- Secondary Accent Growth/Success Path (Vibrant Amber/Gold) representing "Doing it over freshly" -->
+  <path d="M 100 70
+           A 30 30 0 1 1 70 100" 
+        fill="none" 
+        stroke="#f59e0b" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        stroke-dasharray="140"
+        stroke-dashoffset="20"/>
+
+  <!-- Arrowhead for Secondary Track -->
+  <g transform="translate(70, 100)">
+    <polygon points="-6,-3 6,5 -3,10" fill="#f59e0b" />
+  </g>
+
+  <!-- Center Core / Origin Point -->
+  <circle cx="100" cy="100" r="14" fill="#0f172a" stroke="#38bdf8" stroke-width="4"/>
+  <circle cx="100" cy="100" r="5" fill="#f59e0b"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Subtle decorative grid or path representing a journey/route -->
+  <path d="M 60 140 C 90 140, 100 110, 140 70" fill="none" stroke="#334155" stroke-width="4" stroke-dasharray="6 6" stroke-linecap="round"/>
+  
+  <!-- Launch Pad / Base -->
+  <path d="M 50 150 L 90 150 L 80 160 L 60 160 Z" fill="#64748b"/>
+  <rect x="45" y="160" width="50" height="6" rx="3" fill="#475569"/>
+
+  <!-- Motion/Exhaust flame -->
+  <path d="M 65 145 C 65 165, 70 175, 75 185 C 80 175, 85 165, 85 145 Z" fill="#fb923c"/>
+  <path d="M 70 145 C 70 155, 75 160, 75 170 C 75 160, 80 155, 80 145 Z" fill="#f59e0b"/>
+
+  <!-- Sleek Rocket Body (Departure/Chufa Concept) -->
+  <path d="M 75 60 C 95 60, 110 85, 125 115 L 95 125 C 85 110, 60 95, 60 75 Z" fill="#38bdf8"/>
+  
+  <!-- Rocket Fin Left -->
+  <path d="M 60 100 L 45 120 L 70 120 Z" fill="#0284c7"/>
+  
+  <!-- Rocket Fin Right -->
+  <path d="M 110 115 L 125 130 L 115 100 Z" fill="#0284c7"/>
+
+  <!-- Rocket Window (Porthole) -->
+  <circle cx="85" cy="90" r="8" fill="#1e293b"/>
+  <circle cx="85" cy="90" r="5" fill="#e2e8f0"/>
+
+  <!-- Directional Motion / Speed Lines (Upper Right) -->
+  <line x1="140" y1="50" x2="160" y2="30" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  <line x1="155" y1="70" x2="175" y2="50" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Spark / Destination Star -->
+  <path d="M 130 50 L 133 40 L 143 37 L 133 34 L 130 24 L 127 34 L 117 37 L 127 40 Z" fill="#f59e0b"/>
+</svg>

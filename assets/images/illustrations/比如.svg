@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark slate rounded rectangle background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Main "Category/Idea" element (sky blue rounded square) -->
+  <rect x="40" y="60" width="70" height="70" rx="14" fill="#38bdf8"/>
+
+  <!-- Example elements (amber circle, emerald rounded square, coral triangle) -->
+  <!-- Arranged to the right, illustrating specific instances -->
+  <circle cx="140" cy="55" r="14" fill="#f59e0b"/>
+  <rect x="126" y="85" width="28" height="28" rx="6" fill="#10b981"/>
+  <path d="M140,130 L126,155 L154,155 Z" fill="#fb923c"/>
+</svg>

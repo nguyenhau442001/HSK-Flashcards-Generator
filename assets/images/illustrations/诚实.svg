@@ -1,0 +1,95 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="10" y1="10" x2="190" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Emerald Glow for Truth/Integrity -->
+    <radialGradient id="emeraldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Amber Glow for Warmth/Heart -->
+    <radialGradient id="amberGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Shield/Heart Gradient -->
+    <linearGradient id="shieldGrad" x1="60" y1="50" x2="140" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <!-- Key/Core Gradient -->
+    <linearGradient id="goldGrad" x1="80" y1="70" x2="120" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- App Card Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="url(#bgGrad)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Ambient Glows -->
+  <circle cx="100" cy="100" r="70" fill="url(#emeraldGlow)"/>
+  <circle cx="100" cy="95" r="50" fill="url(#amberGlow)"/>
+
+  <!-- Decorative Orbit / Precision Ring -->
+  <circle cx="100" cy="100" r="65" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.6"/>
+
+  <!-- Visual Metaphor: Shield of Integrity (Honesty) combined with an open, glowing heart & checkmark core -->
+  
+  <!-- Outer Shield Base -->
+  <path d="M100 40 
+           C125 40, 145 45, 145 65 
+           C145 105, 120 135, 100 155 
+           C80 135, 55 105, 55 65 
+           C55 45, 75 40, 100 40 Z" 
+        fill="url(#shieldGrad)" 
+        stroke="#6ee7b7" 
+        stroke-width="2" 
+        stroke-linejoin="round"
+        opacity="0.9"/>
+
+  <!-- Inner Dark Cutout to form a Sleek Heart/Shield Fusion -->
+  <path d="M100 55 
+           C118 55, 132 59, 132 74 
+           C132 106, 110 128, 100 142 
+           C90 128, 68 106, 68 74 
+           C68 59, 82 55, 100 55 Z" 
+        fill="#0f172a" 
+        opacity="0.85"/>
+
+  <!-- Floating Center Element: Glowing Heart & Crystal Truth -->
+  <!-- Heart Shape constructed with geometric precision -->
+  <path d="M100 115 
+           L85 98 
+           C77 90, 77 78, 85 70 
+           C93 62, 104 68, 100 78 
+           C96 68, 107 62, 115 70 
+           C123 78, 123 90, 115 98 
+           Z" 
+        fill="url(#amberGlow)" 
+        stroke="#f59e0b" 
+        stroke-width="2.5" 
+        stroke-linejoin="round"/>
+
+  <!-- Central Checkmark of Truth / Authenticity -->
+  <path d="M88 94 L96 102 L113 83" 
+        fill="none" 
+        stroke="#38bdf8" 
+        stroke-width="4" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+
+  <!-- Accent Sparkles (Clarity & Pure Intent) -->
+  <circle cx="140" cy="70" r="3" fill="#38bdf8"/>
+  <circle cx="60" cy="120" r="2" fill="#f59e0b"/>
+  <circle cx="125" cy="135" r="2.5" fill="#34d399"/>
+  <circle cx="75" cy="55" r="1.5" fill="#ffffff" opacity="0.8"/>
+
+</svg>

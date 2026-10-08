@@ -1,0 +1,40 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Subtle background grid/ray accents for architectural feel -->
+  <circle cx="100" cy="115" r="55" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+  <circle cx="100" cy="115" r="75" fill="none" stroke="#334155" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Museum / Building Silhouette (representing the place visited) -->
+  <!-- Base structure -->
+  <path d="M 60,135 L 140,135 L 140,145 L 60,145 Z" fill="#64748b" rx="2"/>
+  <rect x="68" y="90" width="64" height="45" fill="#334155" rx="2"/>
+  
+  <!-- Pillars -->
+  <rect x="76" y="98" width="6" height="30" fill="#94a3b8" rx="1"/>
+  <rect x="91" y="98" width="6" height="30" fill="#94a3b8" rx="1"/>
+  <rect x="106" y="98" width="6" height="30" fill="#94a3b8" rx="1"/>
+  <rect x="121" y="98" width="6" height="30" fill="#94a3b8" rx="1"/>
+  
+  <!-- Roof / Pediment -->
+  <path d="M 62,90 L 138,90 L 100,68 Z" fill="#475569"/>
+
+  <!-- The "Visiting" Metaphor: Magnifying Glass / Exploration Lens -->
+  <!-- Glass Halo / Glow -->
+  <circle cx="95" cy="100" r="42" fill="#38bdf8" fill-opacity="0.1"/>
+  
+  <!-- Magnifying Glass Rim -->
+  <circle cx="95" cy="100" r="38" fill="none" stroke="#38bdf8" stroke-width="6"/>
+  
+  <!-- Lens Highlight -->
+  <path d="M 70,80 A 38,38 0 0,1 115,70" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Handle -->
+  <path d="M 121,126 L 152,157" stroke="#fb923c" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 121,126 L 152,157" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Focal Sparkle / Accent (indicates discovery & touring) -->
+  <path d="M 145,55 L 148,65 L 158,68 L 148,71 L 145,81 L 142,71 L 132,68 L 142,65 Z" fill="#f59e0b"/>
+  <path d="M 55,135 L 57,141 L 63,143 L 57,145 L 55,151 L 53,145 L 47,143 L 53,141 Z" fill="#38bdf8" opacity="0.8"/>
+</svg>

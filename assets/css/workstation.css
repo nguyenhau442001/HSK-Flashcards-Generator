@@ -856,6 +856,20 @@ body.flashcard-study-mode .card-illustration-frame:hover {
   box-shadow: 0 16px 36px -6px rgba(249, 115, 22, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
+body.flashcard-study-mode .card-illustration-skeleton {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-xl, 20px);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.08) 50%, rgba(255, 255, 255, 0.03) 100%);
+  background-size: 200% 100%;
+  animation: cardIlluShimmer 1.8s infinite ease-in-out;
+  pointer-events: none;
+}
+@keyframes cardIlluShimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
 body.flashcard-study-mode .card-illustration-img {
   width: 100%;
   height: 100%;

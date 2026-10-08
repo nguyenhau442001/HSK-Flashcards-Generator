@@ -1,0 +1,41 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Decorative subtle ambient glow/circles -->
+  <circle cx="100" cy="100" r="60" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4 8" opacity="0.3"/>
+  <circle cx="100" cy="100" r="75" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.15"/>
+
+  <!-- Visual Metaphor: Floating interconnected linguistic blocks / tokens representing words and building blocks of language -->
+  
+  <!-- Left Token (Amber) -->
+  <g transform="translate(62, 70)">
+    <rect x="-24" y="-18" width="48" height="36" rx="10" fill="#f59e0b" />
+    <!-- Abstract icon inside left token: connecting nodes / syntax -->
+    <circle cx="-7" cy="0" r="4" fill="#1e293b" />
+    <circle cx="7" cy="0" r="4" fill="#1e293b" />
+    <line x1="-3" y1="0" x2="3" y2="0" stroke="#1e293b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right Token (Sky Blue) -->
+  <g transform="translate(138, 70)">
+    <rect x="-24" y="-18" width="48" height="36" rx="10" fill="#38bdf8" />
+    <!-- Abstract icon inside right token: phonetic wave / sound -->
+    <path d="M-9,-6 C-3,-6 -3,6 -9,6 M-3,-10 C4,-10 4,10 -3,10" fill="none" stroke="#1e293b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Bottom Central Base Token (Emerald - Meaning / Core) -->
+  <g transform="translate(100, 130)">
+    <rect x="-32" y="-20" width="64" height="40" rx="12" fill="#10b981" />
+    <!-- Abstract icon inside bottom token: Spark of meaning / connection -->
+    <circle cx="0" cy="0" r="6" fill="#1e293b"/>
+    <path d="M-14,0 L-9,0 M9,0 L14,0 M0,-14 L0,-9 M0,9 L0,14" stroke="#1e293b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Connection Paths (Syntax/Grammar bridges) -->
+  <path d="M 74 85 Q 87 105 80 115" fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 126 85 Q 113 105 120 115" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Central node highlight -->
+  <circle cx="100" cy="100" r="5" fill="#fb923c" />
+</svg>

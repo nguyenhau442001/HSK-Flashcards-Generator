@@ -1,0 +1,14 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Dark slate rounded rectangle for a modern dark-mode aesthetic -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Two overlapping rounded rectangles, symbolizing multiple "passes" or "iterations" (lượt) -->
+  <rect x="55" y="65" width="90" height="70" rx="12" fill="#f59e0b"/>
+  <rect x="75" y="85" width="90" height="70" rx="12" fill="#38bdf8"/>
+
+  <!-- A semi-circular path representing the "going through completely" (qua hết) aspect and the cyclical nature of repetition -->
+  <path d="M 160 105 A 60 60 0 1 1 50 105" fill="none" stroke="#fb923c" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- An arrowhead, completing the cycle metaphor by indicating direction and flow of repetition -->
+  <polygon points="50,105 65,95 65,115" fill="#fb923c"/>
+</svg>

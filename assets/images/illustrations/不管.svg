@@ -1,0 +1,8 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  <!-- Main path - represents the unchanging core, proceeding regardless -->
+  <rect x="90" y="40" width="20" height="120" fill="#f59e0b"/>
+  <!-- Crossing elements - represent various conditions or external factors that are disregarded -->
+  <rect x="40" y="94" width="120" height="12" fill="#38bdf8" transform="rotate(30 100 100)"/>
+  <rect x="40" y="94" width="120" height="12" fill="#10b981" transform="rotate(-30 100 100)"/>
+</svg>

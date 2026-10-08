@@ -1,0 +1,26 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Subtle background glow/circle for depth -->
+  <circle cx="100" cy="100" r="65" fill="#0f172a" opacity="0.6"/>
+  
+  <!-- Modern Restroom Door / Structure Outline -->
+  <rect x="60" y="45" width="80" height="115" rx="10" fill="none" stroke="#334155" stroke-width="4"/>
+  
+  <!-- Central Restroom Icon Symbol (Gender-neutral modern pictogram) -->
+  <!-- Head -->
+  <circle cx="100" cy="72" r="13" fill="#38bdf8"/>
+  
+  <!-- Body (Dress/Tunic shape) -->
+  <path d="M 83 95 L 117 95 L 126 135 L 74 135 Z" fill="#38bdf8"/>
+  
+  <!-- Decorative Modern Accent Wave / Cleanliness Ripple -->
+  <path d="M 70 152 C 85 146, 115 146, 130 152" fill="none" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Sparkle / Cleanliness Indicator (Emerald) -->
+  <path d="M 135 60 L 138 68 L 146 71 L 138 74 L 135 82 L 132 74 L 124 71 L 132 68 Z" fill="#10b981"/>
+  
+  <!-- Amber Accent Dot -->
+  <circle cx="58" cy="130" r="5" fill="#f59e0b"/>
+</svg>

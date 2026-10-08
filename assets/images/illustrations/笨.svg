@@ -1,0 +1,18 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark slate background rounded rectangle -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Lightbulb base (amber) -->
+  <rect x="80" y="140" width="40" height="30" rx="8" fill="#f59e0b"/>
+
+  <!-- Lightbulb neck/connector (amber) -->
+  <rect x="87" y="130" width="26" height="15" rx="4" fill="#f59e0b"/>
+
+  <!-- Lightbulb bulb (sky blue) -->
+  <circle cx="100" cy="90" r="50" fill="#38bdf8"/>
+
+  <!-- The 'X' symbol inside the bulb, using the background color to signify 'off' or 'broken' intelligence -->
+  <!-- This 'X' implies a lack of function or a blockage within the typical symbol of ideas. -->
+  <rect x="60" y="85" width="80" height="10" transform="rotate(-45 100 90)" fill="#1e293b"/>
+  <rect x="60" y="85" width="80" height="10" transform="rotate(45 100 90)" fill="#1e293b"/>
+</svg>

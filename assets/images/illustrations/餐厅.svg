@@ -1,0 +1,30 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Subtle background glow/circle for depth -->
+  <circle cx="100" cy="100" r="65" fill="#0f172a" opacity="0.6"/>
+
+  <!-- Plate base (outer rim) -->
+  <circle cx="100" cy="105" r="54" fill="none" stroke="#334155" stroke-width="4"/>
+
+  <!-- Main Plate Surface -->
+  <circle cx="100" cy="105" r="44" fill="#0f172a"/>
+
+  <!-- Inner Plate Rim Detail -->
+  <circle cx="100" cy="105" r="36" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- Cloche / Dome (Food Cover) Body -->
+  <path d="M 60 105 A 40 40 0 0 1 140 105 Z" fill="#38bdf8"/>
+
+  <!-- Cloche Handle / Knob -->
+  <circle cx="100" cy="59" r="6" fill="#f59e0b"/>
+
+  <!-- Cloche Rim Base Line -->
+  <rect x="54" y="102" width="92" height="6" rx="3" fill="#bae6fd"/>
+
+  <!-- Decorative Accent / Steam Waves indicating fresh, hot restaurant food -->
+  <path d="M 90 42 C 90 38, 94 36, 94 32 C 94 28, 90 26, 90 22" fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 110 44 C 110 40, 106 38, 106 34 C 106 30, 110 28, 110 24" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+
+</svg>

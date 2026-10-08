@@ -1,0 +1,28 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Glow/Atmosphere Effect -->
+  <circle cx="100" cy="110" r="45" fill="#f59e0b" opacity="0.08" filter="blur(8px)"/>
+
+  <!-- Smoke Swirls (Background Layer) -->
+  <path d="M 85 85 Q 70 70 85 55 Q 100 40 85 25" fill="none" stroke="#64748b" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  <path d="M 115 80 Q 135 65 120 50 Q 105 35 125 20" fill="none" stroke="#64748b" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Cigarette Body (Angled diagonally for dynamism) -->
+  <g transform="rotate(-30 100 120)">
+    <!-- Filter -->
+    <rect x="65" y="112" width="25" height="16" rx="3" fill="#fb923c"/>
+    <line x1="75" y1="112" x2="75" y2="128" stroke="#ea580c" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Paper Body -->
+    <rect x="90" y="112" width="60" height="16" rx="2" fill="#f8fafc"/>
+
+    <!-- Lit Tip (Ash & Ember) -->
+    <rect x="148" y="112" width="8" height="16" rx="2" fill="#475569"/>
+    <rect x="153" y="113" width="4" height="14" rx="1" fill="#f59e0b"/>
+  </g>
+
+  <!-- Active Smoke Plume (Foreground) -->
+  <path d="M 120 78 Q 105 60 120 42 Q 135 24 115 10" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Subtle background decorative track/path indicating a mandatory route -->
+  <path d="M 60 140 C 60 100, 100 100, 100 70 C 100 50, 100 45, 100 45" fill="none" stroke="#334155" stroke-width="6" stroke-linecap="round" stroke-dasharray="4 8"/>
+
+  <!-- Visual Metaphor: A dynamic mechanical funnel / magnetic constraint representing 'having no choice / must do' -->
+  <!-- Outer funnel walls guiding inward -->
+  <path d="M 50 60 L 90 100 L 90 150 L 110 150 L 110 100 L 150 60 Z" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linejoin="round" opacity="0.4"/>
+
+  <!-- Glowing directional constraint arrows pointing inexorably forward/downward -->
+  <path d="M 100 45 L 100 120" fill="none" stroke="#f59e0b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 75 95 L 100 125 L 125 95" fill="none" stroke="#f59e0b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- The core object being forced along the path -->
+  <circle cx="100" cy="145" r="14" fill="#10b981"/>
+  <circle cx="100" cy="145" r="7" fill="#f8fafc"/>
+
+  <!-- Side pressure brackets indicating external force/obligation -->
+  <path d="M 65 75 L 80 90" fill="none" stroke="#fb923c" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 135 75 L 120 90" fill="none" stroke="#fb923c" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Top entry indicator -->
+  <circle cx="100" cy="45" r="5" fill="#f59e0b"/>
+</svg>

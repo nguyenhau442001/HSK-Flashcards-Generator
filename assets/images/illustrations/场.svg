@@ -1,0 +1,24 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- App Icon Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Ambient glow / background elements representing open space -->
+  <circle cx="100" cy="100" r="65" fill="#334155" opacity="0.4"/>
+
+  <!-- Main Visual Metaphor for 'chǎng' (yard, open field, sports ground, arena) -->
+  <!-- Track / Arena Outer Boundary -->
+  <rect x="40" y="65" width="120" height="70" rx="35" fill="none" stroke="#38bdf8" stroke-width="4" opacity="0.8"/>
+  
+  <!-- Central dividing line / field marking (representing a defined open space/courtyard) -->
+  <line x1="100" y1="65" x2="100" y2="135" stroke="#38bdf8" stroke-width="3" stroke-dasharray="6 6" opacity="0.8"/>
+
+  <!-- Center circle (arena/court centerpiece) -->
+  <circle cx="100" cy="100" r="16" fill="none" stroke="#38bdf8" stroke-width="3" opacity="0.8"/>
+
+  <!-- Floating accent markers representing scale / "measure word" concept (units/points in space) -->
+  <circle cx="65" cy="50" r="6" fill="#f59e0b"/>
+  <circle cx="135" cy="150" r="6" fill="#10b981"/>
+  
+  <!-- Minimalist spatial focal point -->
+  <circle cx="100" cy="100" r="5" fill="#fb923c"/>
+</svg>

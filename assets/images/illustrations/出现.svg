@@ -1,0 +1,40 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Ambient Glow -->
+  <circle cx="100" cy="110" r="50" fill="#38bdf8" opacity="0.1" filter="blur(10px)"/>
+  
+  <!-- Horizon / Foundation plane -->
+  <path d="M 50 135 L 150 135" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Emerging element (The 'appearance' metaphor: a glowing geometric shape rising from a surface/portal) -->
+  <g transform="translate(0, -10)">
+    <!-- Motion / Emergence upward rays -->
+    <path d="M 75 90 L 65 75" stroke="#fb923c" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 125 90 L 135 75" stroke="#fb923c" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 100 85 L 100 65" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+    <!-- Portal / Horizon cut (Semi-circle opening) -->
+    <path d="M 65 120 C 65 145, 135 145, 135 120 Z" fill="#0f172a" stroke="#334155" stroke-width="3"/>
+
+    <!-- Rising Central Object (Diamond / Core concept bursting into view) -->
+    <g transform="translate(0, 85)">
+      <!-- Outer floating ring -->
+      <circle cx="100" cy="15" r="24" fill="none" stroke="#38bdf8" stroke-width="3" stroke-dasharray="8 4" opacity="0.5">
+        <animateTransform attributeName="transform" type="rotate" from="0 100 15" to="360 100 15" dur="20s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Main glowing diamond -->
+      <polygon points="100,-8 122,15 100,38 78,15" fill="#fb923c"/>
+      <polygon points="100,-8 111,15 100,38 89,15" fill="#f59e0b"/>
+      
+      <!-- Center bright spark -->
+      <circle cx="100" cy="15" r="5" fill="#ffffff"/>
+    </g>
+  </g>
+
+  <!-- Sparkle accents representing 'sudden appearance' -->
+  <path d="M 55 70 Q 55 60 45 60 Q 55 60 55 50 Q 55 60 65 60 Q 55 60 55 70" fill="#38bdf8"/>
+  <path d="M 145 95 Q 145 87 137 87 Q 145 87 145 79 Q 145 87 153 87 Q 145 87 145 95" fill="#10b981"/>
+</svg>

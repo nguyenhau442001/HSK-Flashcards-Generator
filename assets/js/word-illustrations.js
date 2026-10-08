@@ -366,6 +366,241 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "保证.svg",
     "src": "assets/images/illustrations/保证.svg",
     "caption": "đảm bảo"
+  },
+  "抱": {
+    "file": "抱.svg",
+    "src": "assets/images/illustrations/抱.svg",
+    "caption": "ôm"
+  },
+  "抱歉": {
+    "file": "抱歉.svg",
+    "src": "assets/images/illustrations/抱歉.svg",
+    "caption": "xin lỗi, lấy làm tiếc"
+  },
+  "报名": {
+    "file": "报名.svg",
+    "src": "assets/images/illustrations/报名.svg",
+    "caption": "đăng ký (tham gia)"
+  },
+  "倍": {
+    "file": "倍.svg",
+    "src": "assets/images/illustrations/倍.svg",
+    "caption": "lần (gấp đôi, gấp ba...)"
+  },
+  "本来": {
+    "file": "本来.svg",
+    "src": "assets/images/illustrations/本来.svg",
+    "caption": "ban đầu, vốn dĩ"
+  },
+  "笨": {
+    "file": "笨.svg",
+    "src": "assets/images/illustrations/笨.svg",
+    "caption": "ngu ngốc, đần"
+  },
+  "比如": {
+    "file": "比如.svg",
+    "src": "assets/images/illustrations/比如.svg",
+    "caption": "ví như, chẳng hạn"
+  },
+  "毕业": {
+    "file": "毕业.svg",
+    "src": "assets/images/illustrations/毕业.svg",
+    "caption": "tốt nghiệp"
+  },
+  "遍": {
+    "file": "遍.svg",
+    "src": "assets/images/illustrations/遍.svg",
+    "caption": "lần (lượt qua hết)"
+  },
+  "不管": {
+    "file": "不管.svg",
+    "src": "assets/images/illustrations/不管.svg",
+    "caption": "bất kể, mặc kệ"
+  },
+  "不仅": {
+    "file": "不仅.svg",
+    "src": "assets/images/illustrations/不仅.svg",
+    "caption": "không chỉ"
+  },
+  "诚实": {
+    "file": "诚实.svg",
+    "src": "assets/images/illustrations/诚实.svg",
+    "caption": "trung thực"
+  },
+  "标准": {
+    "file": "标准.svg",
+    "src": "assets/images/illustrations/标准.svg",
+    "caption": "tiêu chuẩn"
+  },
+  "表格": {
+    "file": "表格.svg",
+    "src": "assets/images/illustrations/表格.svg",
+    "caption": "biểu mẫu, bảng"
+  },
+  "表示": {
+    "file": "表示.svg",
+    "src": "assets/images/illustrations/表示.svg",
+    "caption": "biểu thị, thể hiện"
+  },
+  "表演": {
+    "file": "表演.svg",
+    "src": "assets/images/illustrations/表演.svg",
+    "caption": "biểu diễn"
+  },
+  "表扬": {
+    "file": "表扬.svg",
+    "src": "assets/images/illustrations/表扬.svg",
+    "caption": "khen ngợi"
+  },
+  "饼干": {
+    "file": "饼干.svg",
+    "src": "assets/images/illustrations/饼干.svg",
+    "caption": "bánh quy"
+  },
+  "并且": {
+    "file": "并且.svg",
+    "src": "assets/images/illustrations/并且.svg",
+    "caption": "và, hơn nữa"
+  },
+  "博士": {
+    "file": "博士.svg",
+    "src": "assets/images/illustrations/博士.svg",
+    "caption": "tiến sĩ"
+  },
+  "不过": {
+    "file": "不过.svg",
+    "src": "assets/images/illustrations/不过.svg",
+    "caption": "nhưng, tuy nhiên"
+  },
+  "不得不": {
+    "file": "不得不.svg",
+    "src": "assets/images/illustrations/不得不.svg",
+    "caption": "không thể không, buộc phải"
+  },
+  "部分": {
+    "file": "部分.svg",
+    "src": "assets/images/illustrations/部分.svg",
+    "caption": "bộ phận, một phần"
+  },
+  "擦": {
+    "file": "擦.svg",
+    "src": "assets/images/illustrations/擦.svg",
+    "caption": "lau, chùi"
+  },
+  "猜": {
+    "file": "猜.svg",
+    "src": "assets/images/illustrations/猜.svg",
+    "caption": "đoán"
+  },
+  "材料": {
+    "file": "材料.svg",
+    "src": "assets/images/illustrations/材料.svg",
+    "caption": "tài liệu, nguyên liệu"
+  },
+  "参观": {
+    "file": "参观.svg",
+    "src": "assets/images/illustrations/参观.svg",
+    "caption": "tham quan"
+  },
+  "餐厅": {
+    "file": "餐厅.svg",
+    "src": "assets/images/illustrations/餐厅.svg",
+    "caption": "nhà hàng, quán ăn"
+  },
+  "差不多": {
+    "file": "差不多.svg",
+    "src": "assets/images/illustrations/差不多.svg",
+    "caption": "gần như, xấp xỉ"
+  },
+  "尝": {
+    "file": "尝.svg",
+    "src": "assets/images/illustrations/尝.svg",
+    "caption": "nếm thử"
+  },
+  "长城": {
+    "file": "长城.svg",
+    "src": "assets/images/illustrations/长城.svg",
+    "caption": "Trường Thành"
+  },
+  "长江": {
+    "file": "长江.svg",
+    "src": "assets/images/illustrations/长江.svg",
+    "caption": "sông Trường Giang"
+  },
+  "场": {
+    "file": "场.svg",
+    "src": "assets/images/illustrations/场.svg",
+    "caption": "bãi, sân (lượng từ)"
+  },
+  "超过": {
+    "file": "超过.svg",
+    "src": "assets/images/illustrations/超过.svg",
+    "caption": "vượt qua"
+  },
+  "厕所": {
+    "file": "厕所.svg",
+    "src": "assets/images/illustrations/厕所.svg",
+    "caption": "nhà vệ sinh"
+  },
+  "成为": {
+    "file": "成为.svg",
+    "src": "assets/images/illustrations/成为.svg",
+    "caption": "trở thành"
+  },
+  "乘坐": {
+    "file": "乘坐.svg",
+    "src": "assets/images/illustrations/乘坐.svg",
+    "caption": "đi (xe, tàu...)"
+  },
+  "吃惊": {
+    "file": "吃惊.svg",
+    "src": "assets/images/illustrations/吃惊.svg",
+    "caption": "kinh ngạc, giật mình"
+  },
+  "重新": {
+    "file": "重新.svg",
+    "src": "assets/images/illustrations/重新.svg",
+    "caption": "lại, làm lại từ đầu"
+  },
+  "抽烟": {
+    "file": "抽烟.svg",
+    "src": "assets/images/illustrations/抽烟.svg",
+    "caption": "hút thuốc"
+  },
+  "出差": {
+    "file": "出差.svg",
+    "src": "assets/images/illustrations/出差.svg",
+    "caption": "đi công tác"
+  },
+  "出发": {
+    "file": "出发.svg",
+    "src": "assets/images/illustrations/出发.svg",
+    "caption": "xuất phát"
+  },
+  "出生": {
+    "file": "出生.svg",
+    "src": "assets/images/illustrations/出生.svg",
+    "caption": "sinh ra"
+  },
+  "出现": {
+    "file": "出现.svg",
+    "src": "assets/images/illustrations/出现.svg",
+    "caption": "xuất hiện"
+  },
+  "厨房": {
+    "file": "厨房.svg",
+    "src": "assets/images/illustrations/厨房.svg",
+    "caption": "nhà bếp"
+  },
+  "传真": {
+    "file": "传真.svg",
+    "src": "assets/images/illustrations/传真.svg",
+    "caption": "fax"
+  },
+  "窗户": {
+    "file": "窗户.svg",
+    "src": "assets/images/illustrations/窗户.svg",
+    "caption": "cửa sổ"
   }
 };
 
@@ -515,13 +750,83 @@ function generateAestheticFallback(word) {
   };
 }
 
+/**
+ * Dynamic Contextual Prompt Builder for AI Image Generation (DALL-E 3, Imagen 3, Gemini, Midjourney).
+ * Automatically extracts real-world scenarios, human actions, or concrete physical objects
+ * based on the word definition, part of speech, and contextual example sentences.
+ *
+ * @param {Object} word - Word item with hanzi, pinyin, meaning, part_of_speech/pos, and example sentences.
+ * @returns {Object} Structured prompt metadata { prompt, style, visualSubject, negativePrompt }
+ */
+function buildContextualPrompt(word) {
+  if (!word) return { prompt: '', style: '', visualSubject: '', negativePrompt: '' };
+
+  const hanzi = (word.hanzi || word.word || '').trim();
+  const pinyin = (word.pinyin || '').trim();
+  const meaning = (word.meaning || '').trim();
+  const pos = (typeof getWordPartOfSpeech === 'function' ? getWordPartOfSpeech(word) : null) || { code: 'noun', label: 'Danh từ', en: 'Noun' };
+  const posCode = pos.code || 'noun';
+
+  // Extract clean example context (without HTML tags like <u>...</u>)
+  const exZh = (word.example_zh || word.example || '').replace(/<[^>]*>/g, '').trim();
+  const exVi = (word.example_vi || '').replace(/<[^>]*>/g, '').trim();
+
+  // Define visual scene anchor based on Part of Speech and concrete semantic role
+  let actionScene = '';
+  switch (posCode) {
+    case 'verb':
+      actionScene = `A clear, engaging human action scene showing a person or character actively performing the action of '${meaning}' in a recognizable daily-life setting. Depict dynamic posture, purposeful interaction with hands or tools, and clear intent.`;
+      break;
+    case 'noun':
+      actionScene = `A concrete, recognizable real-world object, item, or physical environment representing '${meaning}'. Depict tactile details, tangible geometry, and natural arrangement rather than generic abstract icons.`;
+      break;
+    case 'adj':
+      actionScene = `A vivid real-world scenario or expressive character embodying the quality or emotional state of '${meaning}'. Use expressive facial emotion, body language, or environmental atmosphere to make the feeling instantly intuitive.`;
+      break;
+    case 'adv':
+      actionScene = `A storytelling visual scene depicting the manner, degree, or timing of '${meaning}'. E.g. someone acting with high precision, speed, or repetition in a relatable context.`;
+      break;
+    case 'measure':
+      actionScene = `A modular grouping of everyday tangible items demonstrating the counting unit concept of '${meaning}', stacked or arranged neatly in an authentic context.`;
+      break;
+    default:
+      actionScene = `An intuitive, meaningful real-world scenario illustrating the communicative concept of '${meaning}'.`;
+  }
+
+  // Include contextual scenario clue if example sentence is available
+  let contextClue = '';
+  if (exVi) {
+    contextClue = ` Contextual real-world reference: '${exVi}'.`;
+  } else if (exZh) {
+    contextClue = ` Context reference: '${exZh}'.`;
+  }
+
+  // Strict visual style guidelines
+  const visualStyle = 'Minimalist 2D vector flat art, clean geometric contours, modern vector illustration, sophisticated dark-mode friendly color palette with deep slate navy background (#0f172a, #1e293b) and harmonious vibrant accents (emerald #10b981, amber #f59e0b, sky blue #38bdf8, coral #fb923c). Centered composition with generous breathing margins.';
+
+  // Strict negative constraints
+  const negativeConstraints = 'STRICT NEGATIVE CONSTRAINTS: Absolutely NO text, NO letters, NO words, NO subtitles, NO typography, NO Chinese characters, NO Hanzi, NO English words, NO pinyin, NO brand logos, NO Gemini logos, NO watermarks, NO 3D photorealistic rendering.';
+
+  const fullPrompt = `${visualStyle} Subject: ${actionScene}${contextClue} Designed for language flashcard memory anchoring. ${negativeConstraints}`;
+
+  return {
+    prompt: fullPrompt,
+    style: visualStyle,
+    visualSubject: actionScene,
+    contextClue: contextClue,
+    negativePrompt: negativeConstraints
+  };
+}
+
 // Global exposure
 if (typeof window !== 'undefined') {
   window.POS_TYPES = POS_TYPES;
   window.HSK_POS_DB = HSK_POS_DB;
   window.getWordPartOfSpeech = getWordPartOfSpeech;
   window.WORD_ILLUSTRATIONS_DB = WORD_ILLUSTRATIONS_DB;
+  window.STATIC_ILLUSTRATIONS_INDEX = STATIC_ILLUSTRATIONS_INDEX;
   window.getWordIllustration = getWordIllustration;
+  window.buildContextualPrompt = buildContextualPrompt;
 }
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
@@ -529,7 +834,9 @@ if (typeof module !== 'undefined' && module.exports) {
     HSK_POS_DB,
     getWordPartOfSpeech,
     WORD_ILLUSTRATIONS_DB,
+    STATIC_ILLUSTRATIONS_INDEX,
     getWordIllustration,
+    buildContextualPrompt,
     generateAestheticFallback
   };
 }

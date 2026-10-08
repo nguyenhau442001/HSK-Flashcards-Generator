@@ -1,0 +1,50 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Glowing background accents representing transformation/creation -->
+  <circle cx="100" cy="100" r="60" fill="#38bdf8" opacity="0.05"/>
+  <circle cx="100" cy="100" r="40" fill="#f59e0b" opacity="0.05"/>
+
+  <!-- Raw Material (Geometric Cube - representing ingredients/materials) -->
+  <g transform="translate(100, 115)">
+    <!-- Back faces -->
+    <path d="M0 -30 L26 -15 L0 0 L-26 -15 Z" fill="#b45309" />
+    <path d="M-26 -15 L0 0 L0 30 L-26 15 Z" fill="#d97706" />
+    <!-- Front/Top glowing face -->
+    <path d="M0 -30 L26 -15 L26 15 L0 30 Z" fill="#f59e0b" />
+    
+    <!-- Inner faceted details for "raw/processed" look -->
+    <path d="M0 -15 L13 -7.5 L0 0 L-13 -7.5 Z" fill="#fbbf24" opacity="0.6"/>
+  </g>
+
+  <!-- Floating Documents / Structured Data (representing 'tài liệu' / reference materials) -->
+  <!-- Back Document -->
+  <g transform="translate(62, 70) rotate(-15)">
+    <rect x="-20" y="-28" width="40" height="52" rx="4" fill="#0f172a" opacity="0.4"/>
+    <rect x="-16" y="-22" width="32" height="40" rx="2" fill="#38bdf8" opacity="0.2"/>
+    <rect x="-11" y="-14" width="22" height="4" rx="2" fill="#38bdf8" opacity="0.6"/>
+    <rect x="-11" y="-6" width="14" height="4" rx="2" fill="#38bdf8" opacity="0.6"/>
+  </g>
+
+  <!-- Front Document -->
+  <g transform="translate(138, 70) rotate(15)">
+    <rect x="-20" y="-28" width="40" height="52" rx="4" fill="#0f172a" opacity="0.4"/>
+    <rect x="-16" y="-22" width="32" height="40" rx="2" fill="#38bdf8" opacity="0.9"/>
+    <rect x="-11" y="-14" width="22" height="4" rx="2" fill="#1e293b"/>
+    <rect x="-11" y="-6" width="16" height="4" rx="2" fill="#1e293b"/>
+    <rect x="-11" y="2" width="10" height="4" rx="2" fill="#1e293b"/>
+  </g>
+
+  <!-- Central Conversion / Assembly Element (Connecting raw materials and documentation) -->
+  <!-- Subtle connecting orbit -->
+  <ellipse cx="100" cy="100" rx="55" ry="25" fill="none" stroke="#10b981" stroke-width="2" stroke-dasharray="4 6" opacity="0.5" transform="rotate(-15 100 100)"/>
+
+  <!-- Emerald Accent Nodes (representing synthesis/building blocks) -->
+  <circle cx="55" cy="115" r="5" fill="#10b981"/>
+  <circle cx="145" cy="85" r="5" fill="#10b981"/>
+  <circle cx="100" cy="55" r="4" fill="#38bdf8"/>
+
+  <!-- Sparkle top center -->
+  <path d="M100 35 L102 43 L110 45 L102 47 L100 55 L98 47 L90 45 L98 43 Z" fill="#f59e0b" opacity="0.9"/>
+</svg>

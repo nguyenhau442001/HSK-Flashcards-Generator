@@ -1,0 +1,38 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <g transform="translate(100, 100)">
+    <!-- Outer dashed orbit / assembly ring -->
+    <circle cx="0" cy="0" r="62" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="6 6"/>
+
+    <!-- Main large complete-feeling group (dimmed background reference) -->
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#334155" stroke-width="4" stroke-dasharray="12 188" stroke-dashoffset="0"/>
+
+    <!-- Separated Part 1: Top-Left (Sky Blue) -->
+    <g transform="translate(-24, -24)">
+      <path d="M 0,-18 A 18 18 0 0,0 -18,0 L -18,-18 Z" fill="#38bdf8" />
+      <circle cx="0" cy="0" r="2" fill="#0f172a"/>
+    </g>
+
+    <!-- Separated Part 2: Top-Right (Emerald - Detaching/Floating away) -->
+    <g transform="translate(32, -22)">
+      <circle cx="0" cy="0" r="14" fill="#10b981"/>
+      <path d="M -6,0 L 6,0 M 0,-6 L 0,6" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Separated Part 3: Bottom (Amber - Main focus part) -->
+    <g transform="translate(4, 28)">
+      <rect x="-16" y="-16" width="32" height="32" rx="8" fill="#f59e0b" transform="rotate(45)" />
+      <circle cx="0" cy="0" r="5" fill="#0f172a"/>
+    </g>
+
+    <!-- Motion / Assembly directional dashed lines -->
+    <path d="M -12,-12 L -35,-35" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 4" opacity="0.6"/>
+    <path d="M 16,-12 L 40,-30" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 4" opacity="0.6"/>
+    <path d="M 0,14 L 0,45" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 4" opacity="0.6"/>
+
+    <!-- Center core anchor point -->
+    <circle cx="0" cy="0" r="6" fill="#64748b"/>
+    <circle cx="0" cy="0" r="2" fill="#1e293b"/>
+  </g>
+</svg>

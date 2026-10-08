@@ -1,0 +1,37 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Card -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Glowing Shockwave / Energy Rings -->
+  <circle cx="100" cy="100" r="65" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="6 8" opacity="0.4"/>
+  <circle cx="100" cy="100" r="50" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Central Visual Metaphor: Wide Eyes of Astonishment & Exclamation/Lightning Bolt -->
+  <!-- Left Eye -->
+  <g transform="translate(72, 88)">
+    <circle cx="0" cy="0" r="18" fill="#0f172a" stroke="#38bdf8" stroke-width="4"/>
+    <circle cx="-2" cy="-2" r="7" fill="#38bdf8"/>
+    <circle cx="3" cy="-5" r="2.5" fill="#ffffff"/>
+  </g>
+
+  <!-- Right Eye -->
+  <g transform="translate(128, 88)">
+    <circle cx="0" cy="0" r="18" fill="#0f172a" stroke="#38bdf8" stroke-width="4"/>
+    <circle cx="-2" cy="-2" r="7" fill="#38bdf8"/>
+    <circle cx="3" cy="-5" r="2.5" fill="#ffffff"/>
+  </g>
+
+  <!-- Surprised Open Mouth (Oval) -->
+  <ellipse cx="100" cy="132" rx="10" ry="14" fill="#0f172a" stroke="#fb923c" stroke-width="3"/>
+
+  <!-- Shock Eyebrows (Arched high up) -->
+  <path d="M 58 64 Q 72 52 86 62" fill="none" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 114 62 Q 128 52 142 64" fill="none" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Surprise / Shock Spark Elements (Jolts of energy) -->
+  <path d="M 152 48 L 158 36 L 164 48 Z" fill="#f59e0b"/>
+  <path d="M 36 50 L 42 38 L 48 50 Z" fill="#f59e0b"/>
+  
+  <circle cx="158" cy="72" r="3" fill="#38bdf8"/>
+  <circle cx="42" cy="74" r="3" fill="#38bdf8"/>
+</svg>

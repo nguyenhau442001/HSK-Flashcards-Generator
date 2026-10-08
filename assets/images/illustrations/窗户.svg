@@ -1,0 +1,29 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Subtle background glow/window frame shadow -->
+  <rect x="45" y="35" width="110" height="130" rx="16" fill="#0f172a" opacity="0.6"/>
+
+  <!-- Warm interior light beam coming through the window (sky blue accent concept) -->
+  <path d="M 60 50 L 140 50 L 155 155 L 45 155 Z" fill="#38bdf8" opacity="0.08"/>
+
+  <!-- Main Window Frame (Outer) -->
+  <rect x="50" y="40" width="100" height="120" rx="14" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Window Panes (Inner Crossbars) -->
+  <!-- Vertical Divider -->
+  <line x1="100" y1="40" x2="100" y2="160" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+  <!-- Horizontal Divider -->
+  <line x1="50" y1="100" x2="150" y2="100" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Vibrant Accent Elements: Foliage/Nature outside (Emerald) peeking from bottom corner -->
+  <circle cx="125" cy="135" r="10" fill="#10b981"/>
+  <path d="M 115 145 C 115 138, 125 135, 135 145 Z" fill="#10b981"/>
+
+  <!-- Vibrant Accent Elements: Sun/Light (Amber) in top-left pane -->
+  <circle cx="75" cy="72" r="12" fill="#f59e0b" opacity="0.85"/>
+
+  <!-- Window Sill -->
+  <rect x="42" y="156" width="116" height="8" rx="4" fill="#f8fafc" opacity="0.9"/>
+</svg>

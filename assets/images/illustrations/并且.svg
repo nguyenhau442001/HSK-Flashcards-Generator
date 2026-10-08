@@ -1,0 +1,48 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Decorative subtle background grid/glow elements -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="4 8" opacity="0.5"/>
+
+  <!-- Visual Metaphor: "Và, hơn nữa" (And, furthermore) - represented by additive interconnected dynamic nodes and parallel glowing augmentation streams. -->
+  
+  <!-- Central connector ring -->
+  <circle cx="100" cy="100" r="22" fill="#0f172a" stroke="#38bdf8" stroke-width="4"/>
+
+  <!-- Left Node (Element A) -->
+  <g transform="translate(55, 100)">
+    <circle r="18" fill="#38bdf8" opacity="0.15"/>
+    <circle r="12" fill="#38bdf8"/>
+    <circle r="5" fill="#0f172a"/>
+  </g>
+
+  <!-- Right Node (Element B - "hơn nữa" / addition) -->
+  <g transform="translate(145, 100)">
+    <circle r="18" fill="#10b981" opacity="0.15"/>
+    <circle r="12" fill="#10b981"/>
+    <!-- Plus symbol inside right node to represent 'more / furthermore' -->
+    <path d="M-4 0 H4 M0 -4 V4" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Top Node (Amplification / Addition vector) -->
+  <g transform="translate(100, 55)">
+    <circle r="16" fill="#f59e0b" opacity="0.15"/>
+    <circle r="10" fill="#f59e0b"/>
+  </g>
+
+  <!-- Connecting Bridges (Flow / Addition) -->
+  <!-- Left to Center bridge -->
+  <path d="M 73 100 L 78 100" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Center to Right bridge (Addition flow) -->
+  <path d="M 122 100 L 127 100" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Center to Top bridge (Layering / "Furthermore") -->
+  <path d="M 100 78 L 100 72" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Orbital accent arcs representing accumulation and connection -->
+  <path d="M 60 70 A 50 50 0 0 1 140 70" fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+  
+  <path d="M 60 130 A 50 50 0 0 0 140 130" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+</svg>

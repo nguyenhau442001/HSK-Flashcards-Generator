@@ -1,0 +1,42 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Fax Machine Base / Body -->
+  <path d="M50 110 L150 110 L140 150 L60 150 Z" fill="#334155" stroke="#475569" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Fax Paper Tray (Input) -->
+  <rect x="65" y="85" width="70" height="25" rx="4" fill="#475569"/>
+  <line x1="75" y1="95" x2="125" y2="95" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Document Feeding Through (Main Visual Metaphor) -->
+  <g>
+    <!-- Document passing from physical to digital / scanner effect -->
+    <path d="M75 50 L125 50 L125 110 L75 110 Z" fill="#f8fafc"/>
+    <!-- Abstract lines representing text on document -->
+    <line x1="85" y1="62" x2="115" y2="62" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="85" y1="72" x2="105" y2="72" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="85" y1="82" x2="115" y2="82" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Laser Scanning / Transmission Beam (Coral/Amber Accent) -->
+  <rect x="70" y="105" width="60" height="4" fill="#fb923c" rx="2"/>
+  <circle cx="100" cy="107" r="2" fill="#fff"/>
+
+  <!-- Control Panel & Status Lights -->
+  <!-- Screen/Slot -->
+  <rect x="75" y="125" width="30" height="14" rx="3" fill="#0f172a"/>
+  <!-- Buttons -->
+  <circle cx="123" cy="132" r="3" fill="#38bdf8"/>
+  <circle cx="135" cy="132" r="3" fill="#10b981"/>
+
+  <!-- Outgoing / Transmission Signal Waves (Sky Blue Accent) -->
+  <path d="M 120 35 Q 135 25 150 35" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 125 27 Q 135 20 145 27" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  
+  <path d="M 80 35 Q 65 25 50 35" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 75 27 Q 65 20 55 27" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Output Slot / Printed Edge -->
+  <rect x="65" y="148" width="70" height="6" fill="#0f172a" rx="2"/>
+</svg>

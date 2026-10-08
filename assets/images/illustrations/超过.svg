@@ -1,0 +1,68 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Definitions / Definitions styling -->
+  <defs>
+    <!-- Glow filter for the vượt qua effect -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <!-- Gradients -->
+    <linearGradient id="bar1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    
+    <linearGradient id="bar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <linearGradient id="curveGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Decorative Grid / Target markers (Subtle background elements) -->
+  <line x1="50" y1="140" x2="150" y2="140" stroke="#334155" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 6"/>
+  <line x1="50" y1="100" x2="150" y2="100" stroke="#334155" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 6"/>
+  <line x1="50" y1="60" x2="150" y2="60" stroke="#334155" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 6"/>
+
+  <!-- Base Bar (Goal/Limit) -->
+  <rect x="50" y="90" width="100" height="12" rx="6" fill="url(#bar1)"/>
+  <circle cx="50" cy="96" r="4" fill="#64748b"/>
+  <circle cx="150" cy="96" r="4" fill="#64748b"/>
+
+  <!-- Dynamic Surpassing Path / Wave (Vượt qua) -->
+  <path d="M 45 130 C 70 130, 80 110, 100 85 C 120 60, 130 50, 155 45" 
+        fill="none" 
+        stroke="url(#curveGrad)" 
+        stroke-width="7" 
+        stroke-linecap="round"
+        filter="url(#glow)"/>
+
+  <!-- Milestone Node Left (Start) -->
+  <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+  <circle cx="45" cy="130" r="3" fill="#1e293b"/>
+
+  <!-- Milestone Node Right (Exceeded / Surpassed Peak) -->
+  <circle cx="155" cy="45" r="9" fill="#10b981"/>
+  <circle cx="155" cy="45" r="4" fill="#1e293b"/>
+
+  <!-- Upward Arrowhead emphasizing 'surpassing' -->
+  <path d="M 142 45 L 155 45 L 155 58" 
+        fill="none" 
+        stroke="#10b981" 
+        stroke-width="4" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+
+  <!-- Floating Success Sparks / Accent Dots -->
+  <circle cx="125" cy="40" r="3" fill="#f59e0b"/>
+  <circle cx="140" cy="30" r="2" fill="#38bdf8"/>
+  <circle cx="110" cy="65" r="2.5" fill="#10b981" opacity="0.8"/>
+</svg>

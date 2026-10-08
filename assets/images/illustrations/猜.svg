@@ -1,0 +1,23 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Card -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Subtle background glow/circle for focus -->
+  <circle cx="100" cy="100" r="55" fill="#0f172a" opacity="0.6"/>
+
+  <!-- Question Mark (Metaphor for 'Guess' / 'Đoán') - Styled sleek and geometric -->
+  <path d="M 75 75 
+           C 75 58, 125 58, 125 75 
+           C 125 90, 100 90, 100 110" 
+        fill="none" 
+        stroke="#38bdf8" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+
+  <!-- Question Mark Dot -->
+  <circle cx="100" cy="142" r="8" fill="#f59e0b"/>
+
+  <!-- Decorative Sparkles / Intuition symbols -->
+  <circle cx="145" cy="65" r="3" fill="#10b981"/>
+  <circle cx="55" cy="120" r="2.5" fill="#f59e0b"/>
+</svg>

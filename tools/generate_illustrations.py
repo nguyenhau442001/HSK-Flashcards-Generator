@@ -64,69 +64,107 @@ def guess_pos(meaning):
         return 'verb'
     return 'noun'
 
-def call_gemini_svg_api(word_info, api_key, max_retries=5):
-    """Calls Gemini Flash API to generate clean inline SVG vector with retry on 429."""
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
+MODELS_TO_TRY = [
+    "gemini-3.5-flash-lite",
+    "gemini-3.5-flash",
+    "gemini-2.5-flash"
+]
+
+def call_gemini_svg_api(word_info, api_key, max_retries=3):
+    """Calls Gemini API with model fallback to generate clean inline SVG vector."""
     hanzi = word_info.get("hanzi", "")
     meaning = word_info.get("meaning", "")
     pos = word_info.get("pos", "noun")
     pinyin = word_info.get("pinyin", "")
 
+    ex_vi = word_info.get("example_vi", "").replace("<u>", "").replace("</u>", "").strip()
+    ex_zh = word_info.get("example_zh", "").replace("<u>", "").replace("</u>", "").strip()
+    context_note = ""
+    if ex_vi:
+        context_note = f"\nContextual Example: '{ex_vi}'"
+    elif ex_zh:
+        context_note = f"\nContextual Example: '{ex_zh}'"
+
+    if pos == "verb":
+        action_guidance = (
+            "Visually depict a CLEAR HUMAN ACTION or CHARACTER actively performing this action in a recognizable real-world scenario "
+            "(e.g., someone organizing schedules on a board, someone packing a suitcase, someone warmly hugging, someone cleaning/sweeping). "
+            "DO NOT draw abstract shapes, symbols, or generic geometric icons."
+        )
+    elif pos == "noun":
+        action_guidance = (
+            "Visually depict the CONCRETE, PHYSICAL OBJECT or TANGIBLE ENVIRONMENT in clear recognizable detail "
+            "(e.g., a fresh apple, a desk with books and lamp, a steaming bowl, an airplane in the sky). "
+            "DO NOT draw abstract shapes or generic symbols."
+        )
+    elif pos == "adj":
+        action_guidance = (
+            "Visually depict an EXPRESSIVE HUMAN CHARACTER or REAL-WORLD SCENARIO vividly embodying this specific quality or emotion "
+            "(e.g., a person shivering with winter frost for cold, someone smiling with celebratory energy for happy). "
+            "DO NOT draw abstract shapes."
+        )
+    else:
+        action_guidance = "Visually depict an intuitive, concrete real-world scenario illustrating this concept."
+
     prompt = (
-        f"You are a senior graphic designer creating a sleek 2D vector graphic icon for a language flashcard app.\n"
-        f"Word: {hanzi} ({pinyin}) - Meaning: '{meaning}' - Part of speech: {pos}.\n\n"
-        "Requirements:\n"
-        "1. Valid standalone SVG: <svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\">\n"
-        "2. Visual Metaphor: Design a clear, memorable symbolic vector concept representing the core meaning of the word.\n"
-        "3. Aesthetic: Modern dark-mode flat vector design. Background: dark slate #0f172a or #1e293b rounded rectangle (<rect x=\"10\" y=\"10\" width=\"180\" height=\"180\" rx=\"24\" fill=\"#1e293b\"/>). Accents: vibrant amber (#f59e0b), emerald (#10b981), sky blue (#38bdf8), or coral (#fb923c).\n"
+        f"You are a master 2D vector graphic illustrator for a language learning flashcard app.\n"
+        f"Target Vocabulary: {hanzi} ({pinyin}) - Meaning: '{meaning}' - Part of Speech: {pos}.{context_note}\n\n"
+        f"Core Illustration Rule:\n{action_guidance}\n\n"
+        "Visual Style & Quality Guidelines:\n"
+        "1. Minimalist modern 2D flat vector art, clean expressive silhouettes and contours.\n"
+        "2. Dark-mode friendly color theme: dark slate/navy container background (#0f172a or #1e293b rounded rectangle: <rect x=\"10\" y=\"10\" width=\"180\" height=\"180\" rx=\"24\" fill=\"#1e293b\"/>), accented with harmonious vibrant modern colors (emerald #10b981, amber #f59e0b, sky blue #38bdf8, coral #fb923c).\n"
+        "3. Valid standalone SVG: <svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"> with centered, well-balanced composition.\n"
         "4. STRICT CONSTRAINTS:\n"
-        "   - ABSOLUTELY NO text, NO letters, NO words, NO Chinese characters, NO English text, NO pinyin.\n"
-        "   - ABSOLUTELY NO Gemini logo, NO brand logos, NO watermarks, NO subtle letter markings.\n"
-        "   - Clean geometric paths, circles, rounded rects only.\n"
-        "5. Return ONLY the raw <svg>...</svg> code, without markdown backticks, without any explanation."
+        "   - ABSOLUTELY NO text, NO letters, NO words, NO subtitles, NO Chinese characters, NO English words, NO pinyin.\n"
+        "   - ABSOLUTELY NO Gemini logo, NO brand logos, NO watermarks.\n"
+        "   - Pure visual storytelling and concrete memory anchoring.\n"
+        "5. Output ONLY the raw <svg>...</svg> code, without markdown backticks, without any explanation."
     )
     payload = {
-        "contents": [{"parts": [{"text": prompt}]}]
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"temperature": 0.4}
     }
 
     for attempt in range(max_retries):
-        try:
-            req = urllib.request.Request(
-                url,
-                data=json.dumps(payload).encode("utf-8"),
-                headers={"Content-Type": "application/json"}
-            )
-            with urllib.request.urlopen(req, timeout=45) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-                candidates = data.get("candidates", [])
-                if candidates:
-                    parts = candidates[0].get("content", {}).get("parts", [])
-                    if parts and "text" in parts[0]:
-                        text = parts[0]["text"]
-                        m = re.search(r"<svg[\s\S]*?<\/svg>", text, re.IGNORECASE)
-                        if m:
-                            svg_str = m.group(0).strip()
-                            if len(svg_str) > 60:
-                                return svg_str
-            return None
-        except urllib.error.HTTPError as he:
-            if he.code == 429:
-                wait_sec = 15 * (attempt + 1)
-                print(f"    [!] Rate limited (HTTP 429). Backing off for {wait_sec}s... (attempt {attempt + 1}/{max_retries})", flush=True)
-                time.sleep(wait_sec)
-            else:
-                err_text = he.read().decode("utf-8", errors="ignore")
-                print(f"    [!] HTTP {he.code} error: {err_text[:160]}", flush=True)
-                if attempt < max_retries - 1:
-                    time.sleep(5)
+        for model in MODELS_TO_TRY:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+            try:
+                req = urllib.request.Request(
+                    url,
+                    data=json.dumps(payload).encode("utf-8"),
+                    headers={"Content-Type": "application/json"}
+                )
+                with urllib.request.urlopen(req, timeout=35) as resp:
+                    data = json.loads(resp.read().decode("utf-8"))
+                    candidates = data.get("candidates", [])
+                    if candidates:
+                        parts = candidates[0].get("content", {}).get("parts", [])
+                        if parts and "text" in parts[0]:
+                            text = parts[0]["text"]
+                            m = re.search(r"<svg[\s\S]*?<\/svg>", text, re.IGNORECASE)
+                            if m:
+                                svg_str = m.group(0).strip()
+                                if len(svg_str) > 60:
+                                    return svg_str
+            except urllib.error.HTTPError as he:
+                if he.code == 429:
+                    # Try next model in list
+                    continue
+                elif he.code in (404, 503):
+                    # Model unavailable, try next model
+                    continue
                 else:
-                    return None
-        except Exception as e:
-            print(f"    [!] Request error: {e}", flush=True)
-            if attempt < max_retries - 1:
-                time.sleep(5)
-            else:
-                return None
+                    err_text = he.read().decode("utf-8", errors="ignore")
+                    print(f"    [!] {model} HTTP {he.code}: {err_text[:120]}", flush=True)
+            except Exception as e:
+                # Timeout or connection error, try next model
+                continue
+        # If all models hit limit/error in this attempt, wait and retry
+        if attempt < max_retries - 1:
+            wait_sec = 15 * (attempt + 1)
+            print(f"    [!] All models busy/exhausted. Waiting {wait_sec}s before retry {attempt+2}/{max_retries}...", flush=True)
+            time.sleep(wait_sec)
+
     return None
 
 def update_illustrations_manifest(records):

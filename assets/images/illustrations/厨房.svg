@@ -1,0 +1,39 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Subtle background glow/kitchen ambiance -->
+  <circle cx="100" cy="100" r="70" fill="#334155" opacity="0.4"/>
+
+  <!-- Kitchen Counter -->
+  <path d="M 45 130 L 155 130 L 155 150 C 155 155 150 160 145 160 L 55 160 C 50 160 45 155 45 150 Z" fill="#38bdf8"/>
+  <!-- Countertop Highlight Line -->
+  <path d="M 40 123 L 160 123 L 160 130 L 40 130 Z" fill="#7dd3fc"/>
+
+  <!-- Frying Pan (Left side) -->
+  <path d="M 50 100 L 30 85" stroke="#94a3b8" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="65" cy="105" r="22" fill="#64748b"/>
+  <circle cx="65" cy="105" r="16" fill="#475569"/>
+
+  <!-- Rising Steam from Pan -->
+  <path d="M 58 75 Q 63 65 58 55" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <path d="M 72 72 Q 67 62 72 50" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+
+  <!-- Cooking Pot (Center/Right) -->
+  <!-- Pot Body -->
+  <path d="M 92 98 L 138 98 C 142 98 145 101 144 105 L 138 130 C 137 134 134 136 130 136 L 100 136 C 96 136 93 134 92 130 L 86 105 C 85 101 88 98 92 98 Z" fill="#f59e0b"/>
+  <!-- Pot Rim -->
+  <rect x="85" y="92" width="60" height="7" rx="3.5" fill="#fbbf24"/>
+  <!-- Pot Handles -->
+  <path d="M 78 102 C 73 102 73 112 78 112" stroke="#fbbf24" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M 152 102 C 157 102 157 112 152 112" stroke="#fbbf24" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <!-- Pot Lid -->
+  <path d="M 93 88 L 137 88 C 139 88 140 86 138 84 L 125 78 C 119 76 111 76 105 78 L 92 84 C 90 86 91 88 93 88 Z" fill="#cbd5e1"/>
+  <circle cx="115" cy="74" r="5" fill="#f59e0b"/>
+
+  <!-- Bubbles/Steam from Pot -->
+  <path d="M 110 65 Q 115 55 110 45" stroke="#10b981" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <circle cx="125" cy="55" r="3" fill="#10b981" opacity="0.8"/>
+  <circle cx="102" cy="50" r="2" fill="#10b981" opacity="0.8"/>
+
+</svg>

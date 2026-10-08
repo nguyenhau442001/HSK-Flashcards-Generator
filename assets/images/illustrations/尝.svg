@@ -1,0 +1,39 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Subtle background glow/circle for depth -->
+  <circle cx="100" cy="105" r="55" fill="#334155" opacity="0.4"/>
+  
+  <!-- Steam rising (Coral/Orange accent for warmth and flavor) -->
+  <g fill="none" stroke-linecap="round" stroke-width="4">
+    <!-- Left steam -->
+    <path d="M85 65 C80 55, 90 45, 85 35" stroke="#fb923c" opacity="0.7"/>
+    <!-- Center steam -->
+    <path d="M100 60 C105 50, 95 40, 100 28" stroke="#fb923c"/>
+    <!-- Right steam -->
+    <path d="M115 65 C120 55, 110 45, 115 35" stroke="#fb923c" opacity="0.7"/>
+  </g>
+
+  <!-- Spoon handle -->
+  <path d="M125 75 L160 40" stroke="#94a3b8" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Spoon bowl / tasting drop -->
+  <ellipse cx="118" cy="82" rx="12" ry="8" fill="#94a3b8" transform="rotate(-45 118 82)"/>
+
+  <!-- Bowl Body -->
+  <path d="M 50 95 A 50 50 0 0 0 150 95 Z" fill="#38bdf8"/>
+  <path d="M 50 95 Q 100 150 150 95 Z" fill="#0284c7"/>
+
+  <!-- Glowing Broth / Liquid Level -->
+  <ellipse cx="100" cy="95" rx="50" ry="14" fill="#f59e0b"/>
+  
+  <!-- Floating Flavor/Taste Sparkle (Emerald/Amber) -->
+  <circle cx="90" cy="92" r="3" fill="#10b981"/>
+  <circle cx="115" cy="97" r="2.5" fill="#10b981"/>
+  <path d="M 98 86 L 100 90 L 104 92 L 100 94 L 98 98 L 96 94 L 92 92 L 96 90 Z" fill="#ffffff" opacity="0.9"/>
+  <path d="M 75 96 L 76 98 L 79 99 L 76 100 L 75 102 L 74 100 L 71 99 L 74 98 Z" fill="#f59e0b" opacity="0.8"/>
+
+  <!-- Bowl Rim highlight -->
+  <ellipse cx="100" cy="95" rx="50" ry="14" fill="none" stroke="#e0f2fe" stroke-width="3"/>
+</svg>
