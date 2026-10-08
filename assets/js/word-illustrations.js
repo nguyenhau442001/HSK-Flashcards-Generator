@@ -4051,6 +4051,506 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "坐.svg",
     "src": "assets/images/illustrations/坐.svg",
     "caption": "ngồi"
+  },
+  "吧": {
+    "file": "吧.svg",
+    "src": "assets/images/illustrations/吧.svg",
+    "caption": "nhé (trợ từ)"
+  },
+  "白": {
+    "file": "白.svg",
+    "src": "assets/images/illustrations/白.svg",
+    "caption": "trắng"
+  },
+  "百": {
+    "file": "百.svg",
+    "src": "assets/images/illustrations/百.svg",
+    "caption": "trăm"
+  },
+  "帮助": {
+    "file": "帮助.svg",
+    "src": "assets/images/illustrations/帮助.svg",
+    "caption": "giúp đỡ"
+  },
+  "报纸": {
+    "file": "报纸.svg",
+    "src": "assets/images/illustrations/报纸.svg",
+    "caption": "báo"
+  },
+  "比": {
+    "file": "比.svg",
+    "src": "assets/images/illustrations/比.svg",
+    "caption": "so với"
+  },
+  "别": {
+    "file": "别.svg",
+    "src": "assets/images/illustrations/别.svg",
+    "caption": "đừng"
+  },
+  "宾馆": {
+    "file": "宾馆.svg",
+    "src": "assets/images/illustrations/宾馆.svg",
+    "caption": "khách sạn"
+  },
+  "长": {
+    "file": "长.svg",
+    "src": "assets/images/illustrations/长.svg",
+    "caption": "dài"
+  },
+  "唱歌": {
+    "file": "唱歌.svg",
+    "src": "assets/images/illustrations/唱歌.svg",
+    "caption": "hát"
+  },
+  "出": {
+    "file": "出.svg",
+    "src": "assets/images/illustrations/出.svg",
+    "caption": "ra, đi ra"
+  },
+  "穿": {
+    "file": "穿.svg",
+    "src": "assets/images/illustrations/穿.svg",
+    "caption": "mặc"
+  },
+  "次": {
+    "file": "次.svg",
+    "src": "assets/images/illustrations/次.svg",
+    "caption": "lần"
+  },
+  "从": {
+    "file": "从.svg",
+    "src": "assets/images/illustrations/从.svg",
+    "caption": "từ"
+  },
+  "错": {
+    "file": "错.svg",
+    "src": "assets/images/illustrations/错.svg",
+    "caption": "sai, nhầm"
+  },
+  "打篮球": {
+    "file": "打篮球.svg",
+    "src": "assets/images/illustrations/打篮球.svg",
+    "caption": "chơi bóng rổ"
+  },
+  "大家": {
+    "file": "大家.svg",
+    "src": "assets/images/illustrations/大家.svg",
+    "caption": "mọi người"
+  },
+  "到": {
+    "file": "到.svg",
+    "src": "assets/images/illustrations/到.svg",
+    "caption": "đến"
+  },
+  "得": {
+    "file": "得.svg",
+    "src": "assets/images/illustrations/得.svg",
+    "caption": "được (trợ từ)"
+  },
+  "等": {
+    "file": "等.svg",
+    "src": "assets/images/illustrations/等.svg",
+    "caption": "đợi, chờ"
+  },
+  "弟弟": {
+    "file": "弟弟.svg",
+    "src": "assets/images/illustrations/弟弟.svg",
+    "caption": "em trai"
+  },
+  "第一": {
+    "file": "第一.svg",
+    "src": "assets/images/illustrations/第一.svg",
+    "caption": "thứ nhất"
+  },
+  "懂": {
+    "file": "懂.svg",
+    "src": "assets/images/illustrations/懂.svg",
+    "caption": "hiểu"
+  },
+  "对": {
+    "file": "对.svg",
+    "src": "assets/images/illustrations/对.svg",
+    "caption": "đúng (tính từ)"
+  },
+  "房间": {
+    "file": "房间.svg",
+    "src": "assets/images/illustrations/房间.svg",
+    "caption": "phòng"
+  },
+  "非常": {
+    "file": "非常.svg",
+    "src": "assets/images/illustrations/非常.svg",
+    "caption": "rất, vô cùng"
+  },
+  "服务员": {
+    "file": "服务员.svg",
+    "src": "assets/images/illustrations/服务员.svg",
+    "caption": "nhân viên phục vụ"
+  },
+  "高": {
+    "file": "高.svg",
+    "src": "assets/images/illustrations/高.svg",
+    "caption": "cao"
+  },
+  "告诉": {
+    "file": "告诉.svg",
+    "src": "assets/images/illustrations/告诉.svg",
+    "caption": "nói cho biết"
+  },
+  "哥哥": {
+    "file": "哥哥.svg",
+    "src": "assets/images/illustrations/哥哥.svg",
+    "caption": "anh trai"
+  },
+  "给": {
+    "file": "给.svg",
+    "src": "assets/images/illustrations/给.svg",
+    "caption": "cho, tặng"
+  },
+  "公共汽车": {
+    "file": "公共汽车.svg",
+    "src": "assets/images/illustrations/公共汽车.svg",
+    "caption": "xe buýt"
+  },
+  "公司": {
+    "file": "公司.svg",
+    "src": "assets/images/illustrations/公司.svg",
+    "caption": "công ty"
+  },
+  "贵": {
+    "file": "贵.svg",
+    "src": "assets/images/illustrations/贵.svg",
+    "caption": "đắt, quý"
+  },
+  "过": {
+    "file": "过.svg",
+    "src": "assets/images/illustrations/过.svg",
+    "caption": "đã từng (trợ từ)"
+  },
+  "孩子": {
+    "file": "孩子.svg",
+    "src": "assets/images/illustrations/孩子.svg",
+    "caption": "đứa trẻ"
+  },
+  "还": {
+    "file": "还.svg",
+    "src": "assets/images/illustrations/还.svg",
+    "caption": "vẫn còn"
+  },
+  "好吃": {
+    "file": "好吃.svg",
+    "src": "assets/images/illustrations/好吃.svg",
+    "caption": "ngon"
+  },
+  "黑": {
+    "file": "黑.svg",
+    "src": "assets/images/illustrations/黑.svg",
+    "caption": "đen"
+  },
+  "红": {
+    "file": "红.svg",
+    "src": "assets/images/illustrations/红.svg",
+    "caption": "đỏ"
+  },
+  "火车站": {
+    "file": "火车站.svg",
+    "src": "assets/images/illustrations/火车站.svg",
+    "caption": "ga tàu hỏa"
+  },
+  "机场": {
+    "file": "机场.svg",
+    "src": "assets/images/illustrations/机场.svg",
+    "caption": "sân bay"
+  },
+  "鸡蛋": {
+    "file": "鸡蛋.svg",
+    "src": "assets/images/illustrations/鸡蛋.svg",
+    "caption": "trứng gà"
+  },
+  "件": {
+    "file": "件.svg",
+    "src": "assets/images/illustrations/件.svg",
+    "caption": "cái, chiếc (lượng từ)"
+  },
+  "教室": {
+    "file": "教室.svg",
+    "src": "assets/images/illustrations/教室.svg",
+    "caption": "phòng học"
+  },
+  "姐姐": {
+    "file": "姐姐.svg",
+    "src": "assets/images/illustrations/姐姐.svg",
+    "caption": "chị gái"
+  },
+  "介绍": {
+    "file": "介绍.svg",
+    "src": "assets/images/illustrations/介绍.svg",
+    "caption": "giới thiệu"
+  },
+  "近": {
+    "file": "近.svg",
+    "src": "assets/images/illustrations/近.svg",
+    "caption": "gần"
+  },
+  "进": {
+    "file": "进.svg",
+    "src": "assets/images/illustrations/进.svg",
+    "caption": "vào"
+  },
+  "就": {
+    "file": "就.svg",
+    "src": "assets/images/illustrations/就.svg",
+    "caption": "là, ngay (trợ từ nhấn mạnh)"
+  },
+  "觉得": {
+    "file": "觉得.svg",
+    "src": "assets/images/illustrations/觉得.svg",
+    "caption": "cảm thấy"
+  },
+  "咖啡": {
+    "file": "咖啡.svg",
+    "src": "assets/images/illustrations/咖啡.svg",
+    "caption": "cà phê"
+  },
+  "开始": {
+    "file": "开始.svg",
+    "src": "assets/images/illustrations/开始.svg",
+    "caption": "bắt đầu"
+  },
+  "考试": {
+    "file": "考试.svg",
+    "src": "assets/images/illustrations/考试.svg",
+    "caption": "thi cử"
+  },
+  "可能": {
+    "file": "可能.svg",
+    "src": "assets/images/illustrations/可能.svg",
+    "caption": "có thể"
+  },
+  "可以": {
+    "file": "可以.svg",
+    "src": "assets/images/illustrations/可以.svg",
+    "caption": "có thể, được"
+  },
+  "课": {
+    "file": "课.svg",
+    "src": "assets/images/illustrations/课.svg",
+    "caption": "tiết học"
+  },
+  "快": {
+    "file": "快.svg",
+    "src": "assets/images/illustrations/快.svg",
+    "caption": "nhanh"
+  },
+  "快乐": {
+    "file": "快乐.svg",
+    "src": "assets/images/illustrations/快乐.svg",
+    "caption": "vui vẻ"
+  },
+  "累": {
+    "file": "累.svg",
+    "src": "assets/images/illustrations/累.svg",
+    "caption": "mệt"
+  },
+  "离": {
+    "file": "离.svg",
+    "src": "assets/images/illustrations/离.svg",
+    "caption": "cách (khoảng cách)"
+  },
+  "两": {
+    "file": "两.svg",
+    "src": "assets/images/illustrations/两.svg",
+    "caption": "hai (số lượng)"
+  },
+  "零": {
+    "file": "零.svg",
+    "src": "assets/images/illustrations/零.svg",
+    "caption": "không (số)"
+  },
+  "路": {
+    "file": "路.svg",
+    "src": "assets/images/illustrations/路.svg",
+    "caption": "đường"
+  },
+  "旅游": {
+    "file": "旅游.svg",
+    "src": "assets/images/illustrations/旅游.svg",
+    "caption": "du lịch"
+  },
+  "卖": {
+    "file": "卖.svg",
+    "src": "assets/images/illustrations/卖.svg",
+    "caption": "bán"
+  },
+  "慢": {
+    "file": "慢.svg",
+    "src": "assets/images/illustrations/慢.svg",
+    "caption": "chậm"
+  },
+  "忙": {
+    "file": "忙.svg",
+    "src": "assets/images/illustrations/忙.svg",
+    "caption": "bận"
+  },
+  "每": {
+    "file": "每.svg",
+    "src": "assets/images/illustrations/每.svg",
+    "caption": "mỗi"
+  },
+  "妹妹": {
+    "file": "妹妹.svg",
+    "src": "assets/images/illustrations/妹妹.svg",
+    "caption": "em gái"
+  },
+  "门": {
+    "file": "门.svg",
+    "src": "assets/images/illustrations/门.svg",
+    "caption": "cửa"
+  },
+  "面条": {
+    "file": "面条.svg",
+    "src": "assets/images/illustrations/面条.svg",
+    "caption": "mì"
+  },
+  "男": {
+    "file": "男.svg",
+    "src": "assets/images/illustrations/男.svg",
+    "caption": "nam, con trai"
+  },
+  "您": {
+    "file": "您.svg",
+    "src": "assets/images/illustrations/您.svg",
+    "caption": "ngài, bạn (kính ngữ)"
+  },
+  "牛奶": {
+    "file": "牛奶.svg",
+    "src": "assets/images/illustrations/牛奶.svg",
+    "caption": "sữa bò"
+  },
+  "女": {
+    "file": "女.svg",
+    "src": "assets/images/illustrations/女.svg",
+    "caption": "nữ, con gái"
+  },
+  "旁边": {
+    "file": "旁边.svg",
+    "src": "assets/images/illustrations/旁边.svg",
+    "caption": "bên cạnh"
+  },
+  "跑步": {
+    "file": "跑步.svg",
+    "src": "assets/images/illustrations/跑步.svg",
+    "caption": "chạy bộ"
+  },
+  "便宜": {
+    "file": "便宜.svg",
+    "src": "assets/images/illustrations/便宜.svg",
+    "caption": "rẻ"
+  },
+  "票": {
+    "file": "票.svg",
+    "src": "assets/images/illustrations/票.svg",
+    "caption": "vé"
+  },
+  "妻子": {
+    "file": "妻子.svg",
+    "src": "assets/images/illustrations/妻子.svg",
+    "caption": "vợ"
+  },
+  "起床": {
+    "file": "起床.svg",
+    "src": "assets/images/illustrations/起床.svg",
+    "caption": "ngủ dậy"
+  },
+  "千": {
+    "file": "千.svg",
+    "src": "assets/images/illustrations/千.svg",
+    "caption": "nghìn"
+  },
+  "铅笔": {
+    "file": "铅笔.svg",
+    "src": "assets/images/illustrations/铅笔.svg",
+    "caption": "bút chì"
+  },
+  "晴": {
+    "file": "晴.svg",
+    "src": "assets/images/illustrations/晴.svg",
+    "caption": "trời quang, nắng đẹp"
+  },
+  "去年": {
+    "file": "去年.svg",
+    "src": "assets/images/illustrations/去年.svg",
+    "caption": "năm ngoái"
+  },
+  "让": {
+    "file": "让.svg",
+    "src": "assets/images/illustrations/让.svg",
+    "caption": "để cho, khiến"
+  },
+  "日": {
+    "file": "日.svg",
+    "src": "assets/images/illustrations/日.svg",
+    "caption": "ngày, mặt trời"
+  },
+  "上班": {
+    "file": "上班.svg",
+    "src": "assets/images/illustrations/上班.svg",
+    "caption": "đi làm"
+  },
+  "身体": {
+    "file": "身体.svg",
+    "src": "assets/images/illustrations/身体.svg",
+    "caption": "cơ thể, sức khỏe"
+  },
+  "生病": {
+    "file": "生病.svg",
+    "src": "assets/images/illustrations/生病.svg",
+    "caption": "bị bệnh"
+  },
+  "生日": {
+    "file": "生日.svg",
+    "src": "assets/images/illustrations/生日.svg",
+    "caption": "sinh nhật"
+  },
+  "时间": {
+    "file": "时间.svg",
+    "src": "assets/images/illustrations/时间.svg",
+    "caption": "thời gian"
+  },
+  "事情": {
+    "file": "事情.svg",
+    "src": "assets/images/illustrations/事情.svg",
+    "caption": "việc, sự việc"
+  },
+  "手表": {
+    "file": "手表.svg",
+    "src": "assets/images/illustrations/手表.svg",
+    "caption": "đồng hồ đeo tay"
+  },
+  "手机": {
+    "file": "手机.svg",
+    "src": "assets/images/illustrations/手机.svg",
+    "caption": "điện thoại di động"
+  },
+  "说话": {
+    "file": "说话.svg",
+    "src": "assets/images/illustrations/说话.svg",
+    "caption": "nói chuyện"
+  },
+  "送": {
+    "file": "送.svg",
+    "src": "assets/images/illustrations/送.svg",
+    "caption": "tặng, đưa"
+  },
+  "虽然…但是…": {
+    "file": "虽然…但是….svg",
+    "src": "assets/images/illustrations/虽然…但是….svg",
+    "caption": "mặc dù… nhưng…"
+  },
+  "它": {
+    "file": "它.svg",
+    "src": "assets/images/illustrations/它.svg",
+    "caption": "nó (vật, con vật)"
   }
 };
 
