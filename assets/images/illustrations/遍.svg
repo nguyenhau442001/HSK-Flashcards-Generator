@@ -1,14 +1,1 @@
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background: Dark slate rounded rectangle for a modern dark-mode aesthetic -->
-  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
-
-  <!-- Two overlapping rounded rectangles, symbolizing multiple "passes" or "iterations" (lượt) -->
-  <rect x="55" y="65" width="90" height="70" rx="12" fill="#f59e0b"/>
-  <rect x="75" y="85" width="90" height="70" rx="12" fill="#38bdf8"/>
-
-  <!-- A semi-circular path representing the "going through completely" (qua hết) aspect and the cyclical nature of repetition -->
-  <path d="M 160 105 A 60 60 0 1 1 50 105" fill="none" stroke="#fb923c" stroke-width="10" stroke-linecap="round"/>
-
-  <!-- An arrowhead, completing the cycle metaphor by indicating direction and flow of repetition -->
-  <polygon points="50,105 65,95 65,115" fill="#fb923c"/>
-</svg>
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="240"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e293b"/></linearGradient></defs><rect width="240" height="240" rx="24" fill="url(#bg)"/><g transform="translate(40, 60)"><path d="M160 100h-140c-5.5 0-10-4.5-10-10V20c0-5.5 4.5-10 10-10h140c5.5 0 10 4.5 10 10v70c0 5.5-4.5 10-10 10z" fill="#f8fafc"/><path d="M160 100H20c-5.5 0-10-4.5-10-10V20c0-5.5 4.5-10 10-10h140c5.5 0 10 4.5 10 10v70c0 5.5-4.5 10-10 10z" fill="none" stroke="#334155" stroke-width="2"/><path d="M80 10v90" stroke="#cbd5e1" stroke-width="2"/><path d="M20 35h140M20 55h140M20 75h140" stroke="#e2e8f0" stroke-width="1"/></g><g transform="translate(100, 110)"><circle cx="20" cy="20" r="25" fill="#f59e0b"/><path d="M10 20l7 7 13-13" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="80" cy="20" r="25" fill="#38bdf8"/><path d="M70 20l7 7 13-13" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="140" cy="20" r="25" fill="#10b981"/><path d="M130 20l7 7 13-13" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M120 170c-20 0-40 10-40 30h80c0-20-20-30-40-30z" fill="#fb923c"/><path d="M100 160l-5-20 10 5 10-5-5 20" fill="#fb923c"/></svg>

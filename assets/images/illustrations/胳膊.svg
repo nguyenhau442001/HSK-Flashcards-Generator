@@ -1,0 +1,115 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Warm Spotlight Gradient -->
+    <radialGradient id="spotlight" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Arm Skin Gradient (Warm, vibrant tone) -->
+    <linearGradient id="armSkin" x1="30%" y1="20%" x2="70%" y2="80%">
+      <stop offset="0%" stop-color="#ffedd5"/>
+      <stop offset="40%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#fdba74"/>
+    </linearGradient>
+
+    <!-- Hoodie Fabric Gradient (Deep Slate Blue/Teal) -->
+    <linearGradient id="sleeveFabric" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+
+    <!-- Pain/Soreness Pulse Gradient (Amber/Orange Glow) -->
+    <radialGradient id="painGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#ef4444" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Drop Shadow for Depth -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Full-bleed Background Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Atmospheric lighting -->
+  <circle cx="120" cy="120" r="110" fill="url(#spotlight)"/>
+
+  <!-- Background Environment Elements (Room/Desk context) -->
+  <g opacity="0.25">
+    <!-- Desk surface line -->
+    <path d="M 20 200 L 220 200" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+    <!-- Ambient shapes (books, lamp base) -->
+    <rect x="35" y="170" width="30" height="30" rx="4" fill="#475569"/>
+    <rect x="30" y="165" width="40" height="8" rx="2" fill="#64748b"/>
+    <path d="M 180 200 L 195 155 L 210 200 Z" fill="#334155"/>
+    <circle cx="195" cy="150" r="7" fill="#f59e0b"/>
+  </g>
+
+  <!-- MAIN SCENE: THE ARM (Cánh tay) -->
+  <g filter="url(#dropShadow)">
+    
+    <!-- UPPER ARM & SHOULDER & FOREARM (Angled dynamic pose) -->
+    <!-- Base Hoodie Sleeve (Upper Arm) -->
+    <path d="M 50 145 C 55 110, 75 90, 105 85 L 125 115 C 100 120, 80 135, 70 160 Z" fill="url(#sleeveFabric)"/>
+    
+    <!-- Sleeve Cuff Ribbing Details -->
+    <path d="M 105 85 L 125 115" stroke="#0369a1" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 112 90 L 128 112" stroke="#38bdf8" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Exposed Arm (Forearm & Biceps/Elbow area) -->
+    <!-- We angle it downward and to the right towards a wrist/hand resting -->
+    <path d="M 105 115 L 165 170 C 175 178, 185 172, 180 160 L 125 105 Z" fill="url(#armSkin)"/>
+    
+    <!-- Arm muscle contours and elbow crease -->
+    <path d="M 115 112 C 125 120, 135 125, 145 135" stroke="#f97316" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.3"/>
+    
+    <!-- Hand resting on surface -->
+    <path d="M 165 170 C 170 175, 178 182, 185 178 C 192 174, 195 168, 192 162 C 190 157, 180 155, 175 158 Z" fill="url(#armSkin)"/>
+    <!-- Fingers curled gently -->
+    <path d="M 183 177 C 187 181, 193 178, 195 172" stroke="#fdba74" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M 188 174 C 192 177, 196 173, 197 168" stroke="#fdba74" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+    <!-- Arm Outline for cartoon definition -->
+    <path d="M 50 145 C 55 110, 75 90, 105 85 L 165 145 C 178 157, 185 165, 192 162 C 185 178, 170 182, 165 170 L 125 115 L 70 160 Z" 
+          stroke="#0f172a" stroke-width="3.5" stroke-linejoin="round" fill="none"/>
+
+  </g>
+
+  <!-- PAIN / SORENESS INDICATOR (Contextualizing "Hơi đau" / A bit sore) -->
+  <g transform="translate(138, 138)">
+    <!-- Outer Glow pulse rings -->
+    <circle cx="0" cy="0" r="26" fill="url(#painGlow)"/>
+    <circle cx="0" cy="0" r="16" fill="#ef4444" opacity="0.2" filter="url(#softGlow)"/>
+    
+    <!-- Pain Sparkles / Dizziness Icons indicating "Sore/Pain" -->
+    <!-- Sparkle 1 -->
+    <path d="M 0 -12 L 2 -4 L 10 -2 L 2 0 L 0 8 L -2 0 L -10 -2 L -2 -4 Z" fill="#fbbf24" filter="url(#dropShadow)"/>
+    <!-- Mini Sparkles -->
+    <path d="M 12 4 L 13 8 L 17 9 L 13 10 L 12 14 L 11 10 L 7 9 L 11 8 Z" fill="#f59e0b"/>
+    <path d="M -12 -6 L -11 -3 L -8 -2 L -11 -1 L -12 2 L -13 -1 L -16 -2 L -13 -3 Z" fill="#f59e0b"/>
+    
+    <!-- Little motion/pain sweat drops -->
+    <path d="M -14 8 C -14 8, -18 12, -18 15 C -18 17.2, -16.2 19, -14 19 C -11.8 19, -10 17.2, -10 15 C -10 12, -14 8, -14 8 Z" fill="#38bdf8" opacity="0.8"/>
+    <path d="M 15 -8 C 15 -8, 19 -4, 19 -1 C 19 1.2, 17.2 3, 15 3 C 12.8 3, 11 1.2, 11 -1 C 11 -4, 15 -8, 15 -8 Z" fill="#38bdf8" opacity="0.8"/>
+  </g>
+
+  <!-- Foreground Atmospheric Highlights (Vibrant vector style) -->
+  <path d="M 75 98 C 85 92, 95 89, 108 87" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M 120 110 C 135 125, 145 135, 158 148" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.4"/>
+
+</svg>

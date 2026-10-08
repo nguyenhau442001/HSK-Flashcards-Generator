@@ -1,50 +1,111 @@
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background Card -->
-  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
 
-  <!-- Subtle glow/shadow for context -->
-  <ellipse cx="100" cy="155" rx="55" ry="8" fill="#0f172a" opacity="0.6"/>
+    <!-- Warm Amber Glow for Environment -->
+    <radialGradient id="lampGlow" cx="0.5" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
 
-  <!-- Person/Belly Illustration Group -->
-  <g transform="translate(0, 10)">
-    
-    <!-- Head/Neck area (simplified, cut off at top) -->
-    <path d="M 85 45 C 85 38 92 35 100 35 C 108 35 115 38 115 45 L 115 55 L 85 55 Z" fill="#cbd5e1" opacity="0.3"/>
-    
-    <!-- Outfit / Shirt (Dark navy/slate contrast with bright belly focus) -->
-    <path d="M 65 55 C 65 55 80 50 100 50 C 120 50 135 55 135 55 L 142 95 C 142 95 125 100 100 100 C 75 100 58 95 58 95 Z" fill="#334155"/>
-    
-    <!-- Lower Body / Pants -->
-    <path d="M 60 125 C 60 125 75 120 100 120 C 125 120 140 125 140 125 L 138 145 C 138 145 120 148 100 148 C 80 148 62 145 62 145 Z" fill="#0f172a"/>
+    <!-- Blanket Gradient -->
+    <linearGradient id="blanketGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
 
-    <!-- THE BELLY (Concrete focal point: rounded, warm tone, highlighted) -->
-    <g>
-      <!-- Belly shape protruding forward -->
-      <path d="M 60 95 C 50 110 65 128 100 128 C 135 128 150 110 140 95 C 120 110 80 110 60 95 Z" fill="#fb923c"/>
-      <!-- Belly soft highlight for 2D depth -->
-      <ellipse cx="100" cy="111" rx="22" ry="10" fill="#fed7aa" opacity="0.4"/>
-      <!-- Navel -->
-      <circle cx="100" cy="113" r="3" fill="#ea580c" opacity="0.6"/>
+    <!-- Hot Water Bag Gradient -->
+    <linearGradient id="hotWaterBagGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#be123c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full Bleed Background -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)" />
+  <circle cx="120" cy="120" r="100" fill="url(#lampGlow)" />
+
+  <!-- Room Environment Props (Background) -->
+  <g id="environment">
+    <!-- Bed headboard -->
+    <rect x="30" y="150" width="180" height="10" rx="5" fill="#334155" />
+    
+    <!-- Nightstand / Table edge -->
+    <rect x="170" y="160" width="50" height="60" rx="4" fill="#1e293b" opacity="0.8" />
+    
+    <!-- Warm Desk Lamp / Cup on Nightstand -->
+    <path d="M190,160 L195,140 L205,140 L210,160 Z" fill="#475569" />
+    <circle cx="200" cy="135" r="8" fill="#fbbf24" />
+  </g>
+
+  <!-- Character / Main Subject (Focus on 'Bùzi' / Tummyache context) -->
+  <g id="character-and-bed">
+    <!-- Pillow -->
+    <rect x="75" y="115" width="90" height="40" rx="12" fill="#64748b" />
+    
+    <!-- Under Blanket Body Contour -->
+    <!-- Cozy Winter Blanket covering the body up to chest -->
+    <path d="M40,210 C40,160 80,150 120,150 C160,150 200,160 200,210 Z" fill="url(#blanketGrad)" />
+    
+    <!-- Blanket fold/rim detail -->
+    <path d="M45,160 C90,153 150,153 195,160" stroke="#bae6fd" stroke-width="4" stroke-linecap="round" fill="none" />
+
+    <!-- Character Head and Expression -->
+    <!-- Hair -->
+    <path d="M90,115 C90,95 150,95 150,115 Z" fill="#0f172a" />
+    <!-- Face Circle -->
+    <circle cx="120" cy="115" r="22" fill="#fed7aa" />
+    
+    <!-- Closed uneasy eyes (expressing slight pain/discomfort) -->
+    <path d="M109,114 Q113,118 117,114" stroke="#451a03" stroke-width="2" stroke-linecap="round" fill="none" />
+    <path d="M123,114 Q127,118 131,114" stroke="#451a03" stroke-width="2" stroke-linecap="round" fill="none" />
+    
+    <!-- Wince mouth -->
+    <path d="M116,126 Q120,123 124,126" stroke="#451a03" stroke-width="2" stroke-linecap="round" fill="none" />
+
+    <!-- Rosy/Pale Cheeks -->
+    <circle cx="107" cy="120" r="4" fill="#f87171" opacity="0.4" />
+    <circle cx="133" cy="120" r="4" fill="#f87171" opacity="0.4" />
+
+    <!-- Sweat Drop (Classic comic sign of discomfort) -->
+    <path d="M136,100 C136,100 140,106 140,109 C140,111 138,113 136,113 C134,113 132,111 132,109 C132,106 136,100 136,100 Z" fill="#38bdf8" opacity="0.85" />
+
+    <!-- ARMS HOLDING THE TUMMY (Central HSK target focus: Bùzi) -->
+    <!-- Left arm curving to tummy -->
+    <path d="M95,155 C95,165 105,175 115,175" stroke="#fed7aa" stroke-width="12" stroke-linecap="round" fill="none" />
+    <!-- Right arm curving to tummy -->
+    <path d="M145,155 C145,165 135,175 125,175" stroke="#fed7aa" stroke-width="12" stroke-linecap="round" fill="none" />
+
+    <!-- Hot Water Bag placed gently on the tummy -->
+    <g transform="translate(108, 160)">
+      <!-- Bag Body -->
+      <rect x="0" y="0" width="24" height="28" rx="8" fill="url(#hotWaterBagGrad)" />
+      <!-- Cap / Neck -->
+      <rect x="8" y="-5" width="8" height="6" rx="2" fill="#9f1239" />
+      <!-- Tiny White Cross/Heart accent on bag -->
+      <path d="M12,10 L12,18 M8,14 L16,14" stroke="#ffe4e6" stroke-width="2.5" stroke-linecap="round" />
     </g>
 
-    <!-- Hands gently holding the belly (indicating mild discomfort/pain context) -->
-    <!-- Left Hand -->
-    <path d="M 68 100 C 65 105 72 115 82 112 C 88 110 89 105 84 101 Z" fill="#cbd5e1"/>
-    <!-- Right Hand -->
-    <path d="M 132 100 C 135 105 128 115 118 112 C 112 110 111 105 116 101 Z" fill="#cbd5e1"/>
+    <!-- Hands resting over the hot water bag -->
+    <circle cx="114" cy="172" r="7" fill="#fed7aa" />
+    <circle cx="126" cy="172" r="7" fill="#fed7aa" />
+  </g>
 
-    <!-- Pain/Discomfort Indicator: Subtle pulsing/wavy lines near the belly -->
-    <g stroke="#f43f5e" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9">
-      <!-- Left spark/pain wave -->
-      <path d="M 52 98 Q 47 95 52 92" />
-      <!-- Right spark/pain wave -->
-      <path d="M 148 98 Q 153 95 148 92" />
-      <!-- Top spark -->
-      <path d="M 97 84 Q 100 79 103 84" />
-    </g>
+  <!-- Foreground Atmospheric Elements / Comfort items -->
+  <g id="foreground-props">
+    <!-- Medicine Cup on the nightstand -->
+    <rect x="180" y="195" width="14" height="18" rx="2" fill="#f1f5f9" />
+    <path d="M182,190 L192,190 L190,195 L184,195 Z" fill="#cbd5e1" />
+    <!-- Liquid inside cup -->
+    <rect x="182" y="200" width="10" height="11" fill="#34d399" opacity="0.7" />
 
-    <!-- Subtle glow behind pain area for high contrast & modern UI feel -->
-    <circle cx="100" cy="110" r="35" fill="#f43f5e" opacity="0.1" filter="blur(4px)"/>
-
+    <!-- Ambient glowing cozy particles -->
+    <circle cx="60" cy="90" r="2" fill="#fbbf24" opacity="0.6" />
+    <circle cx="180" cy="80" r="1.5" fill="#fbbf24" opacity="0.4" />
+    <circle cx="45" cy="130" r="1" fill="#fbbf24" opacity="0.5" />
   </g>
 </svg>

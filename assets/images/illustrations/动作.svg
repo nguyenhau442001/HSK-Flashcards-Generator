@@ -1,34 +1,92 @@
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Dark mode container background -->
-  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions & Gradients -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    
+    <linearGradient id="floorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8"/>
+    </linearGradient>
 
-  <!-- Subtle floor shadow / stage -->
-  <ellipse cx="100" cy="155" rx="55" ry="6" fill="#0f172a" opacity="0.6"/>
+    <linearGradient id="amberGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
 
-  <!-- Motion lines / flow representation for 'action/movement' -->
-  <path d="M 65 70 Q 100 45 135 70" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6" opacity="0.7"/>
-  <path d="M 50 95 Q 100 65 150 95" fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6" opacity="0.8"/>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
 
-  <!-- Stylized dynamic human silhouette demonstrating a graceful dance pose / action (动作为跳舞/体操) -->
-  <g transform="translate(0, 5)">
-    <!-- Back arm/leg layer for depth -->
-    <path d="M 100 75 L 125 95 L 140 85" fill="none" stroke="#fb923c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M 100 115 L 115 130 L 95 140" fill="none" stroke="#10b981" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
 
-    <!-- Torso -->
-    <path d="M 95 65 L 105 115 L 90 120 L 85 70 Z" fill="#38bdf8"/>
+  <!-- Full-bleed Background -->
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
 
-    <!-- Front leg -->
-    <path d="M 90 120 L 70 145 L 60 135" fill="none" stroke="#10b981" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Studio / Room Details (Atmospheric Depth) -->
+  <!-- Back wall grid / geometric accents -->
+  <line x1="30" y1="40" x2="210" y2="40" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4"/>
+  <line x1="30" y1="80" x2="210" y2="80" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4"/>
+  <line x1="30" y1="120" x2="210" y2="120" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4"/>
+  
+  <!-- Studio Spotlights / Lighting Gradients -->
+  <circle cx="120" cy="30" r="80" fill="#38bdf8" opacity="0.07" filter="url(#glow)"/>
+  <circle cx="120" cy="150" r="70" fill="#f59e0b" opacity="0.1" filter="url(#glow)"/>
 
-    <!-- Front arm -->
-    <path d="M 98 75 L 75 90 L 65 80" fill="none" stroke="#fb923c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Floor Surface & Perspective Rings -->
+  <ellipse cx="120" cy="190" rx="90" ry="25" fill="#0b0f19" opacity="0.6"/>
+  <ellipse cx="120" cy="190" rx="75" ry="18" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.3"/>
+  <ellipse cx="120" cy="190" rx="50" ry="12" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.4"/>
 
-    <!-- Head -->
-    <circle cx="103" cy="50" r="11" fill="#f59e0b"/>
+  <!-- Motion Trail Effects (Action Lines) -->
+  <path d="M 65 145 C 80 110, 110 80, 150 95" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6" opacity="0.7"/>
+  <path d="M 175 140 C 160 100, 120 70, 90 90" fill="none" stroke="#fb923c" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6" opacity="0.7"/>
+  <path d="M 75 185 C 100 195, 140 195, 165 185" fill="none" stroke="#ec4899" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Character: Dynamic Dancer / Martial Artist (Representing '动作' / Action) -->
+  <!-- Left Leg (Planted/Leaning) -->
+  <path d="M 120 135 L 95 185" stroke="#0ea5e9" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right Leg (Dynamic Kick / Extension) -->
+  <path d="M 120 135 L 180 120" stroke="#38bdf8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Shoes -->
+  <circle cx="95" cy="186" r="6" fill="#f59e0b"/>
+  <circle cx="182" cy="119" r="6" fill="#f59e0b"/>
+
+  <!-- Torso & Dynamic Twist -->
+  <path d="M 105 105 C 115 125, 125 125, 135 105 L 130 140 L 110 140 Z" fill="#10b981"/>
+  <!-- Left Arm (Reaching Out) -->
+  <path d="M 115 110 L 65 135" stroke="#34d399" stroke-width="9" stroke-linecap="round"/>
+  <!-- Right Arm (Dynamic Sweep Up) -->
+  <path d="M 125 110 L 165 80" stroke="#34d399" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- Head & Facial Expression (Focused & Energetic) -->
+  <circle cx="120" cy="85" r="16" fill="#fde047"/>
+  <!-- Hair / Headband Motion -->
+  <path d="M 104 80 C 110 70, 130 70, 136 80" fill="#0f172a"/>
+  <path d="M 128 77 C 145 70, 160 75, 170 85" fill="none" stroke="#ec4899" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Dynamic Action Burst Sparks / Energy Elements -->
+  <g fill="#fbbf24">
+    <circle cx="175" cy="70" r="3"/>
+    <circle cx="55" cy="140" r="2.5"/>
+    <circle cx="150" cy="180" r="2"/>
+    <circle cx="90" cy="75" r="3.5"/>
+    <!-- Star sparkles -->
+    <path d="M 190 100 L 193 106 L 199 109 L 193 112 L 190 118 L 187 112 L 181 109 L 187 106 Z" fill="#38bdf8" opacity="0.9"/>
+    <path d="M 50 105 L 52 109 L 56 111 L 52 113 L 50 117 L 48 113 L 44 111 L 48 109 Z" fill="#fb923c" opacity="0.9"/>
   </g>
 
-  <!-- Accent sparkles to indicate precision and fluidity of movement -->
-  <path d="M 135 55 L 138 62 L 145 65 L 138 68 L 135 75 L 132 68 L 125 65 L 132 62 Z" fill="#f59e0b"/>
-  <path d="M 55 105 L 57 110 L 62 112 L 57 114 L 55 119 L 53 114 L 48 112 L 53 110 Z" fill="#38bdf8"/>
+  <!-- Foreground Floor Gradient Overlay for Depth -->
+  <rect x="0" y="170" width="240" height="70" fill="url(#floorGrad)" pointer-events="none"/>
+
+  <!-- Ambient Border / Frame Stroke -->
+  <rect width="240" height="240" rx="24" fill="none" stroke="#475569" stroke-width="2" opacity="0.4"/>
 </svg>

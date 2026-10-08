@@ -1,80 +1,137 @@
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background Container -->
-  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
 
-  <!-- Subtle Playground Elements in Background -->
-  <!-- Slide Structure -->
-  <path d="M45 130 L75 90 L85 95 L55 135 Z" fill="#334155" opacity="0.6"/>
-  <line x1="60" y1="110" x2="70" y2="105" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
-  <line x1="50" y1="125" x2="60" y2="120" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
-  <path d="M45 130 L75 90 L80 93 L50 133 Z" fill="#38bdf8" opacity="0.3"/>
+    <!-- Slide Gradient -->
+    <linearGradient id="slideGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100% " stop-color="#f59e0b"/>
+    </linearGradient>
 
-  <!-- Swing Set / Arch -->
-  <path d="M125 140 L135 75 L155 75 L165 140" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="140" y1="75" x2="140" y2="110" stroke="#475569" stroke-width="2"/>
-  <line x1="150" y1="75" x2="150" y2="120" stroke="#475569" stroke-width="2"/>
-  <circle cx="145" cy="65" r="8" fill="#f59e0b" opacity="0.6"/>
+    <!-- Ground Gradient -->
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100% " stop-color="#047857"/>
+    </linearGradient>
 
-  <!-- Ground Line -->
-  <path d="M30 140 Q100 135 170 140" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round"/>
+    <!-- Soft Shadow Filter -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
 
-  <!-- Child 1: Running/Jumping Boy (Left-Center) -->
-  <g transform="translate(-5, 0)">
-    <!-- Shadow -->
-    <ellipse cx="78" cy="143" rx="10" ry="3" fill="#0f172a" opacity="0.4"/>
-    
-    <!-- Body & Limbs -->
-    <!-- Back Leg -->
-    <path d="M72 125 L62 137" fill="none" stroke="#fb923c" stroke-width="6" stroke-linecap="round"/>
-    <!-- Back Arm -->
-    <path d="M78 105 L65 115" fill="none" stroke="#fb923c" stroke-width="5" stroke-linecap="round"/>
-    <!-- Torso -->
-    <path d="M75 95 L80 125" fill="none" stroke="#10b981" stroke-width="10" stroke-linecap="round"/>
-    <!-- Front Leg -->
-    <path d="M82 120 L92 135" fill="none" stroke="#fb923c" stroke-width="6" stroke-linecap="round"/>
-    <!-- Front Arm -->
-    <path d="M82 102 L95 110" fill="none" stroke="#fb923c" stroke-width="5" stroke-linecap="round"/>
-    
-    <!-- Head & Hair -->
-    <circle cx="79" cy="84" r="9" fill="#fb923c"/>
-    <path d="M71 82 C71 77 77 75 83 78 C86 79 88 83 88 83 C88 83 83 79 79 80 C75 81 72 83 71 82 Z" fill="#1e293b"/>
+  <!-- Full-Bleed Background Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- Atmospheric Night Park Elements (Stars/Lights) -->
+  <g fill="#38bdf8" opacity="0.6">
+    <circle cx="35" cy="45" r="2"/>
+    <circle cx="205" cy="35" r="1.5"/>
+    <circle cx="180" cy="70" r="2.5"/>
+    <circle cx="60" cy="80" r="1.5"/>
+  </g>
+  <g fill="#fbbf24" opacity="0.8">
+    <circle cx="20" cy="110" r="2"/>
+    <circle cx="220" cy="95" r="2"/>
   </g>
 
-  <!-- Child 2: Jumping Girl with Pigtails (Center-Right) -->
-  <g transform="translate(15, -10)">
-    <!-- Shadow -->
-    <ellipse cx="98" cy="153" rx="12" ry="3.5" fill="#0f172a" opacity="0.4"/>
+  <!-- Ground / Park Terrain -->
+  <path d="M0 180 Q 80 165, 240 185 L 240 240 L 0 240 Z" fill="url(#groundGrad)"/>
+  <!-- Secondary grassy mound for depth -->
+  <path d="M0 200 Q 140 190, 240 210 L 240 240 L 0 240 Z" fill="#065f46" opacity="0.7"/>
 
-    <!-- Limbs (Mid-jump) -->
-    <!-- Legs bent -->
-    <path d="M92 125 L86 142" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
-    <path d="M104 125 L110 140" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
-    
-    <!-- Dress/Torso -->
-    <path d="M90 98 L108 98 L114 126 L84 126 Z" fill="#f59e0b" stroke="#f59e0b" stroke-linejoin="round"/>
-    <path d="M90 98 L108 98 L112 118 L86 118 Z" fill="#f59e0b"/>
+  <!-- Playground Equipment: Slide -->
+  <!-- Slide Support Structure -->
+  <path d="M140 120 L155 190" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M170 120 L185 190" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+  <!-- Ladder Steps -->
+  <line x1="144" y1="140" x2="158" y2="140" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <line x1="148" y1="160" x2="162" y2="160" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <line x1="151" y1="180" x2="165" y2="180" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
 
-    <!-- Arms raised in joy -->
-    <path d="M91 102 L76 92" fill="none" stroke="#fb923c" stroke-width="5" stroke-linecap="round"/>
-    <path d="M107 102 L122 90" fill="none" stroke="#fb923c" stroke-width="5" stroke-linecap="round"/>
+  <!-- Slide Chute -->
+  <path d="M90 90 Q 130 110, 175 125 L 185 115 Q 145 100, 100 80 Z" fill="#d97706"/>
+  <path d="M95 85 L 175 125 L 170 135 L 85 95 Z" fill="url(#slideGrad)" filter="url(#shadow)"/>
 
-    <!-- Head & Pigtails -->
-    <circle cx="99" cy="85" r="9.5" fill="#fb923c"/>
-    <!-- Left Pigtail -->
-    <path d="M91 82 C85 80 84 74 88 72" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
-    <!-- Right Pigtail -->
-    <path d="M107 82 C113 80 114 74 110 72" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
-    <!-- Hair Top -->
-    <path d="M92 82 C93 77 105 77 106 82" fill="#334155"/>
+  <!-- Playground Equipment: Seesaw (Background context) -->
+  <g opacity="0.9">
+    <polygon points="50,195 60,175 70,195" fill="#64748b"/>
+    <line x1="20" y1="183" x2="100" y2="183" stroke="#f43f5e" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="20" cy="180" r="6" fill="#38bdf8"/>
+    <circle cx="100" cy="186" r="6" fill="#38bdf8"/>
   </g>
 
-  <!-- Joyful Accents (Stars / Confetti) -->
-  <path d="M35 70 L38 76 L44 78 L38 80 L35 86 L32 80 L26 78 L32 76 Z" fill="#f59e0b" opacity="0.8"/>
-  <path d="M165 60 L167 64 L171 65 L167 66 L165 70 L163 66 L159 65 L163 64 Z" fill="#38bdf8" opacity="0.9"/>
-  <path d="M115 50 L116.5 53 L120 54 L116.5 55 L115 58 L113.5 55 L110 54 L113.5 53 Z" fill="#10b981" opacity="0.7"/>
+  <!-- MAIN SUBJECT: Child 1 (Sliding down actively with joy) -->
+  <g transform="translate(10, -5)" filter="url(#shadow)">
+    <!-- Motion lines -->
+    <path d="M80 75 L65 70" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M90 65 L75 60" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
 
-  <!-- Floating Happy Bubbles/Circles -->
-  <circle cx="55" cy="55" r="3" fill="#38bdf8" opacity="0.5"/>
-  <circle cx="140" cy="45" r="4" fill="#fb923c" opacity="0.6"/>
-  <circle cx="85" cy="42" r="2" fill="#f59e0b" opacity="0.7"/>
+    <!-- Body/Torso (Blue Hoodie) -->
+    <path d="M100 95 L125 107 L112 125 L88 113 Z" fill="#0ea5e9"/>
+    <!-- Hoodie Hood/Head -->
+    <circle cx="112" cy="85" r="12" fill="#fb923c"/>
+    <!-- Face (Profile laughing) -->
+    <path d="M120 84 Q 124 88, 118 92" stroke="#1e293b" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Hair -->
+    <path d="M102 80 Q 110 70, 122 78" fill="#1e293b"/>
+
+    <!-- Arms raised in excitement -->
+    <path d="M110 98 L130 90" stroke="#fb923c" stroke-width="5" stroke-linecap="round"/>
+    <path d="M103 105 L115 120" stroke="#fb923c" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Legs extended on slide -->
+    <path d="M120 120 L150 135" stroke="#3b82f6" stroke-width="6" stroke-linecap="round"/>
+    <path d="M125 127 L155 142" stroke="#1d4ed8" stroke-width="6" stroke-linecap="round"/>
+    <!-- Sneakers -->
+    <ellipse cx="153" cy="136" rx="5" ry="3" fill="#f43f5e"/>
+    <ellipse cx="158" cy="143" rx="5" ry="3" fill="#f43f5e"/>
+  </g>
+
+  <!-- SECOND SUBJECT: Child 2 (Running/Playing happily near the base of the slide) -->
+  <g transform="translate(0, 5)" filter="url(#shadow)">
+    <!-- Torso (Pink/Magenta Shirt) -->
+    <path d="M185 160 L200 175 L190 195 L175 180 Z" fill="#ec4899"/>
+    <!-- Head -->
+    <circle cx="192" cy="148" r="11" fill="#fbcfe8"/>
+    <!-- Ponytail -->
+    <path d="M200 145 Q 212 140, 205 155" fill="#881337"/>
+    <!-- Face expression -->
+    <path d="M195 150 Q 198 154, 202 150" stroke="#831843" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Arms (Action pose) -->
+    <path d="M180 168 L165 175" stroke="#fbcfe8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M195 170 L210 160" stroke="#fbcfe8" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Legs (Running stride) -->
+    <path d="M185 190 L170 215" stroke="#3b82f6" stroke-width="5" stroke-linecap="round"/>
+    <path d="M182 192 L195 212" stroke="#1d4ed8" stroke-width="5" stroke-linecap="round"/>
+    <!-- Shoes -->
+    <ellipse cx="168" cy="217" rx="4" ry="2.5" fill="#f59e0b"/>
+    <ellipse cx="197" cy="214" rx="4" ry="2.5" fill="#f59e0b"/>
+  </g>
+
+  <!-- Atmospheric Foreground Details: Vibrant bushes/flowers -->
+  <g>
+    <circle cx="30" cy="190" r="16" fill="#059669"/>
+    <circle cx="18" cy="198" r="12" fill="#10b981"/>
+    <circle cx="42" cy="195" r="14" fill="#047857"/>
+    <!-- Colorful flower dots on bushes -->
+    <circle cx="25" cy="185" r="3" fill="#f43f5e"/>
+    <circle cx="36" cy="192" r="3" fill="#fbbf24"/>
+    <circle cx="32" cy="202" r="2.5" fill="#f43f5e"/>
+
+    <circle cx="215" cy="205" r="12" fill="#059669"/>
+    <circle cx="225" cy="212" r="10" fill="#10b981"/>
+    <circle cx="205" cy="210" r="11" fill="#047857"/>
+    <circle cx="218" cy="202" r="2.5" fill="#fbbf24"/>
+  </g>
+
+  <!-- Little bouncing ball on the grass -->
+  <circle cx="140" cy="200" r="7" fill="#ef4444" filter="url(#shadow)"/>
+  <path d="M136 197 Q 138 195, 142 197" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.8"/>
 </svg>
