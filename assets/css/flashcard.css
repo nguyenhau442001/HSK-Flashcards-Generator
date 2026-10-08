@@ -418,41 +418,41 @@
   box-shadow: 0 4px 12px rgba(22, 163, 74, 0.2);
 }
 
-/* Dark Mode High-Contrast CTAs */
+/* Dark Mode Calm Educational CTAs */
 :root[data-theme="dark"] .rating-btn--again {
-  background: linear-gradient(135deg, rgba(239, 68, 68, 0.26) 0%, rgba(185, 28, 28, 0.44) 100%);
-  color: #ffffff;
-  border-color: rgba(248, 113, 113, 0.65);
-  box-shadow: 0 4px 14px rgba(220, 38, 38, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  background: rgba(244, 63, 94, 0.08);
+  color: #fb7185;
+  border-color: rgba(244, 63, 94, 0.22);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 :root[data-theme="dark"] .rating-btn--again:hover {
-  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
-  border-color: #fca5a5;
+  background: rgba(244, 63, 94, 0.16);
+  border-color: rgba(244, 63, 94, 0.4);
   color: #ffffff;
   transform: translateY(-1.5px);
-  box-shadow: 0 5px 16px rgba(239, 68, 68, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 6px 18px rgba(244, 63, 94, 0.2);
 }
 :root[data-theme="dark"] .rating-btn--again:active {
-  transform: translateY(1px);
-  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.3);
+  transform: translateY(0.5px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 :root[data-theme="dark"] .rating-btn--good {
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.26) 0%, rgba(5, 150, 105, 0.44) 100%);
-  color: #ffffff;
-  border-color: rgba(52, 211, 153, 0.65);
-  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  background: rgba(16, 185, 129, 0.08);
+  color: #34d399;
+  border-color: rgba(16, 185, 129, 0.22);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 :root[data-theme="dark"] .rating-btn--good:hover {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-  border-color: #6ee7b7;
+  background: rgba(16, 185, 129, 0.16);
+  border-color: rgba(16, 185, 129, 0.4);
   color: #ffffff;
   transform: translateY(-1.5px);
-  box-shadow: 0 5px 16px rgba(16, 185, 129, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 6px 18px rgba(16, 185, 129, 0.2);
 }
 :root[data-theme="dark"] .rating-btn--good:active {
-  transform: translateY(1px);
-  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+  transform: translateY(0.5px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 .key-badge { display: none; }
 @media (pointer: fine) {

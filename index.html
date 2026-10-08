@@ -14,7 +14,7 @@
 <meta name="apple-mobile-web-app-title" content="HSK Flashcards">
 <link rel="stylesheet" href="assets/flashcards.css?v=20261007-scrollbar-fix1">
 <link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20261006-ui-refinement1">
-<link rel="stylesheet" href="assets/css/workstation.css?v=20261008-fix-stroke-drawer2">
+<link rel="stylesheet" href="assets/css/workstation.css?v=20261008-redesign-zen-v1">
 <link rel="stylesheet" href="assets/css/sidebar-lab.css?v=20261006-multichar-grid1">
 <link rel="stylesheet" href="assets/css/home-widgets.css?v=20261007-urgent-words-20">
 <link rel="stylesheet" href="assets/css/dashboard-enhancements.css?v=20261007-goal-fix2">
@@ -385,9 +385,15 @@ if ('serviceWorker' in navigator) {
         </button>
         <div class="view-tabs" role="tablist" aria-label="Chế độ xem">
           <button id="flashcardTab" class="view-tab active" role="tab" aria-selected="true"
-            aria-controls="studyView" onclick="setViewMode('cards')">🗂 Thẻ</button>
+            aria-controls="studyView" onclick="setViewMode('cards')">
+            <svg class="view-tab-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="3"/><path d="m9 9 6 6m0-6-6 6"/></svg>
+            <span>Thẻ</span>
+          </button>
           <button id="overviewTab" class="view-tab" role="tab" aria-selected="false"
-            aria-controls="overviewView" onclick="setViewMode('overview')">📋 Tổng quan</button>
+            aria-controls="overviewView" onclick="setViewMode('overview')">
+            <svg class="view-tab-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+            <span>Tổng quan</span>
+          </button>
         </div>
       </div>
 
@@ -403,16 +409,18 @@ if ('serviceWorker' in navigator) {
 
       <div class="study-view-topbar-actions">
         <button type="button" class="study-drawer-btn" id="studyHanvietToggleBtn" onclick="toggleHanViet()" title="Bật / Tắt âm Hán - Việt (H)" aria-label="Bật / Tắt âm Hán - Việt (H)">
-          <span aria-hidden="true">漢</span> <span class="study-drawer-btn-label">Hán - Việt</span>
+          <span class="study-btn-badge-text" aria-hidden="true">漢</span> <span class="study-drawer-btn-label">Hán - Việt</span>
         </button>
         <button type="button" class="study-drawer-btn" id="studyWritingToggleBtn" onclick="toggleStudyWritingPanel()" title="Luyện viết &amp; thứ tự nét (W)">
-          <span aria-hidden="true">✍️</span> <span class="study-drawer-btn-label">Luyện viết</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/></svg>
+          <span class="study-drawer-btn-label">Luyện viết</span>
         </button>
         <button type="button" class="study-drawer-btn" id="studySidebarToggleBtn" onclick="toggleStudySidebar()" title="Danh sách từ vựng (B)">
-          <span aria-hidden="true">📖</span> <span class="study-drawer-btn-label">Từ vựng</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+          <span class="study-drawer-btn-label">Từ vựng</span>
         </button>
         <button type="button" class="study-drawer-btn study-theme-toggle-btn" onclick="toggleTheme()" title="Đổi giao diện Sáng / Tối" aria-label="Đổi giao diện Sáng / Tối">
-          <span aria-hidden="true">🌓</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
         </button>
       </div>
     </div>
@@ -821,8 +829,8 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/fast-review.js?v=20261006-review-mistakes1"></script>
 <script src="assets/js/hanviet-dict.js?v=20261007-pos-visual2"></script>
 <script src="assets/js/word-illustrations.js?v=20261007-static-assets1"></script>
-<script src="assets/js/flashcard.js?v=20261008-fix-stroke-drawer2"></script>
-<script src="assets/js/card-interactions.js?v=20261007-scrollbar-fix1"></script>
+<script src="assets/js/flashcard.js?v=20261008-redesign-zen-v1"></script>
+<script src="assets/js/card-interactions.js?v=20261008-redesign-zen-v1"></script>
 <script src="assets/js/speech.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/progress.js?v=20261006-hanviet1"></script>
 <script src="assets/js/due-review.js?v=20261007-router1"></script>
@@ -835,7 +843,7 @@ if ('serviceWorker' in navigator) {
 <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3/dist/hanzi-writer.min.js"></script>
 <script src="assets/js/sidebar-search.js?v=20261006-nav-fix1"></script>
 <script src="assets/js/sidebar-radicals-filter.js?v=20261003-hsk20-rich1"></script>
-<script src="assets/js/weak-words.js?v=20261003-hsk20-rich1"></script>
+<script src="assets/js/weak-words.js?v=20261008-redesign-zen-v1"></script>
 <script src="assets/js/stroke-canvas.js?v=20261008-fix-stroke-drawer2"></script>
 <script src="assets/js/sidebar-tabs.js?v=20261008-fix-stroke-drawer2"></script>
 <script src="assets/js/word-companion.js?v=20261008-fix-stroke-drawer2"></script>

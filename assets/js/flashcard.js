@@ -6,25 +6,29 @@ function buildCardArea() {
         <span class="card-position-badge" id="cardPositionBadge">0 / 0</span>
         <div class="card-toolbar" id="cardToolbar">
           <button type="button" class="card-tool-btn" id="randomWordBtn" onclick="jumpToRandomWord()" aria-label="Hiện từ ngẫu nhiên (R)" title="Hiện từ ngẫu nhiên (R)">
-            <span aria-hidden="true">🎲</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="4"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><circle cx="15.5" cy="15.5" r="1.5" fill="currentColor"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/></svg>
           </button>
           <button type="button" class="card-tool-btn" id="shuffleBtn" onclick="shuffleDeck()" aria-label="Xáo trộn bộ từ" title="Xáo trộn bộ từ">
-            <span aria-hidden="true">🔀</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.1-8.6c.8-1.1 2-1.7 3.3-1.7H22"/><path d="m18 2 4 4-4 4"/><path d="M2 6h1.4c1.3 0 2.5.6 3.3 1.7l6.1 8.6c.8 1.1 2 1.7 3.3 1.7H22"/><path d="m18 14 4 4-4 4"/></svg>
           </button>
           <button type="button" class="card-tool-btn" id="pinyinToggle" onclick="togglePinyin()" aria-label="Ẩn hoặc hiện pinyin" title="Ẩn hoặc hiện pinyin">
-            <span id="pinyinToggleIcon" aria-hidden="true">👁</span>
+            <span id="pinyinToggleIcon" class="tool-icon-svg" aria-hidden="true">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+            </span>
           </button>
           <button type="button" class="card-tool-btn" id="hanvietToggle" onclick="toggleHanViet()" aria-label="Bật hoặc tắt âm Hán - Việt (H)" title="Bật hoặc tắt âm Hán - Việt (H)">
-            <span id="hanvietToggleIcon" aria-hidden="true">漢</span>
+            <span id="hanvietToggleIcon" class="tool-hanviet-text" aria-hidden="true">漢</span>
           </button>
           <button type="button" class="card-tool-btn" id="cardWritingBtn" onclick="toggleStudyWritingPanel()" aria-label="Luyện viết chữ Hán (W)" title="Luyện viết chữ Hán (W)">
-            <span aria-hidden="true">✍️</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/></svg>
           </button>
           <button type="button" class="card-tool-btn" id="weakWordToggleBtn" onclick="toggleWeakWord(activeStudyWord && activeStudyWord.hanzi, currentLevel)" aria-label="Đánh dấu từ khó" title="Đánh dấu từ khó">
-            <span id="weakWordToggleIcon" aria-hidden="true">☆</span>
+            <span id="weakWordToggleIcon" class="tool-icon-svg" aria-hidden="true">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </span>
           </button>
           <button type="button" class="card-tool-btn" id="transferToggle" onclick="toggleTransferPanel()" aria-label="Sao lưu tiến trình" title="Sao lưu tiến trình" aria-controls="transferPanel" aria-expanded="false">
-            <span aria-hidden="true">💾</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
           </button>
         </div>
       </div>
@@ -32,7 +36,7 @@ function buildCardArea() {
       <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Chưa nhớ</div>
       <div id="cardContent" class="card-content">
         <div class="word-main-block split-layout" id="wordMainBlock">
-          <!-- Cột trái: Hình ảnh minh họa / Neo thị giác (Visual Mnemonic - Gợi hình thuần túy) -->
+          <!-- Cột trái: Hình ảnh minh họa / Neo thị giác (Visual Mnemonic) -->
           <div class="card-visual-col" id="cardVisualCol">
             <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa gợi hình">
               <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa gợi hình" hidden>
@@ -49,8 +53,8 @@ function buildCardArea() {
               <span class="pos-badge" id="posBadge" title="Từ loại"></span>
               <button class="sound-btn speech-btn" id="soundBtn" type="button"
                 onclick="event.stopPropagation(); speakWord()"
-                aria-label="Nghe phát âm" aria-live="polite">
-                <span class="sound-btn-icon" aria-hidden="true">🔊</span>
+                aria-label="Nghe phát âm" aria-live="polite" title="Nghe phát âm (A)">
+                <svg class="sound-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
               </button>
             </div>
             <div class="meaning" id="meaning"></div>
@@ -62,8 +66,8 @@ function buildCardArea() {
             <div class="example-audio-controls card-interactive">
               <button class="example-sound-btn speech-btn" id="exampleSoundBtn" type="button"
                 onclick="event.stopPropagation(); speakExample()"
-                aria-label="Nghe câu ví dụ" aria-live="polite">
-                <span class="sound-btn-icon" aria-hidden="true">🔊</span>
+                aria-label="Nghe câu ví dụ" aria-live="polite" title="Nghe câu ví dụ">
+                <svg class="sound-btn-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
               </button>
               <details class="example-speed-picker" id="exampleSpeedPicker"
                 onclick="event.stopPropagation()">
@@ -88,7 +92,7 @@ function buildCardArea() {
           <div class="ex-line ex-py" id="exPy"></div>
           <div class="ex-line ex-vi" id="exVi"></div>
         </div>
-        <div class="hint" id="hint">Nhấn vào thẻ để xem nghĩa và ví dụ</div>
+        <div class="hint" id="hint">Nhấn vào thẻ hoặc phím Space để lật thẻ</div>
       </div>
     </div>
 
@@ -113,11 +117,11 @@ function buildCardArea() {
   const pinyinBtn = document.getElementById('pinyinToggle');
   const pinyinIcon = document.getElementById('pinyinToggleIcon');
   if (pinyinIcon) {
-    pinyinIcon.textContent = showPinyin ? '👁' : '🙈';
+    pinyinIcon.innerHTML = showPinyin
+      ? `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>`
+      : `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"/><path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68"/><path d="M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61"/><line x1="2" x2="22" y1="2" y2="22"/></svg>`;
     pinyinBtn.title = showPinyin ? 'Ẩn pinyin' : 'Hiện pinyin';
     pinyinBtn.setAttribute('aria-label', showPinyin ? 'Ẩn pinyin' : 'Hiện pinyin');
-  } else if (pinyinBtn) {
-    pinyinBtn.textContent = showPinyin ? '👁 Đang hiện pinyin' : '🙈 Chế độ thử thách: ẩn pinyin';
   }
   if (pinyinBtn) pinyinBtn.classList.toggle('on', !showPinyin);
   const hanvietBtn = document.getElementById('hanvietToggle');
@@ -229,12 +233,15 @@ function ratingButtonsHtml(handlerName, previewIdPrefix, previews) {
     const preview = previews ? previews[button.rating] : null;
     const intervalText = preview ? formatSrsInterval(preview, button.interval) : button.interval;
     const shortcutArrow = button.rating === 'again' ? '←' : '→';
+    const iconSvg = button.rating === 'again'
+      ? `<svg class="rating-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`
+      : `<svg class="rating-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
     return `
     <button type="button" class="rating-btn rating-btn--${button.rating}"
       onclick="${handlerName}('${button.rating}')" aria-keyshortcuts="${button.key}"
       title="Đánh giá: ${button.label} (Phím [${button.key}] hoặc [${shortcutArrow}])">
       <div class="rating-main-label">
-        <span class="rating-emoji" aria-hidden="true">${button.emoji}</span>
+        <span class="rating-icon-wrap" aria-hidden="true">${iconSvg}</span>
         <span class="rating-label">${button.label}</span>
         <kbd class="rating-kbd" aria-hidden="true">${button.key}</kbd>
       </div>
@@ -244,6 +251,7 @@ function ratingButtonsHtml(handlerName, previewIdPrefix, previews) {
 }
 function revealButtonHtml(onclick, id) {
   return `<button type="button" class="reveal-btn" id="${id}" onclick="${onclick}" aria-keyshortcuts="Space" title="Lật thẻ (Phím Space)">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 16 4 4 4-4"/><path d="M7 20V4"/><path d="m21 8-4-4-4 4"/><path d="M17 4v16"/></svg>
       <span>Lật thẻ</span><kbd class="key-badge" aria-hidden="true">Space</kbd>
     </button>`;
 }
