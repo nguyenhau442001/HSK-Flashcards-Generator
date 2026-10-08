@@ -2,8 +2,7 @@
 // and Memory curve into compact, zero-scroll tabs on desktop.
 
 function initSidebarTabs() {
-  const isDesktop = document.body.classList.contains('is-desktop-dock') || document.body.classList.contains('flashcard-study-mode');
-  const mount = isDesktop ? document.getElementById('workstationRight') : null;
+  const mount = document.getElementById('workstationRight');
   if (!mount) return;
 
   if (document.getElementById('sidebarStudyTabs')) return;
@@ -115,10 +114,18 @@ function initSidebarTabs() {
 }
 
 window.setSidebarStudyTab = function(tabKey) {
+  if (!document.getElementById('sidebarStudyTabs')) {
+    initSidebarTabs();
+  }
   const nav = document.getElementById('sidebarStudyTabs');
   if (!nav) return;
   const targetBtn = nav.querySelector(`[data-tab="${tabKey}"]`);
-  if (targetBtn) targetBtn.click();
+  if (targetBtn) {
+    targetBtn.click();
+  } else {
+    document.body.dataset.sidebarTab = tabKey;
+  }
 };
+window.initSidebarTabs = initSidebarTabs;
 
 document.addEventListener('DOMContentLoaded', initSidebarTabs);

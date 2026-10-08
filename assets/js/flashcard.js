@@ -35,7 +35,6 @@ function buildCardArea() {
           <!-- Cột trái: Hình ảnh minh họa / Neo thị giác (Visual Mnemonic - Gợi hình thuần túy) -->
           <div class="card-visual-col" id="cardVisualCol">
             <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa gợi hình">
-              <div class="card-illustration-skeleton" id="cardIllustrationSkeleton" hidden></div>
               <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa gợi hình" hidden>
               <div class="card-illustration-svg" id="cardIllustrationSvg"></div>
             </div>
@@ -366,6 +365,8 @@ function toggleStudyWritingPanel(forceOpen) {
     }
     if (typeof renderActiveStrokeChar === 'function') {
       setTimeout(() => renderActiveStrokeChar(true), 50);
+    } else if (typeof loadStrokeCanvasWord === 'function' && typeof activeStudyWord !== 'undefined') {
+      setTimeout(() => loadStrokeCanvasWord(activeStudyWord), 50);
     }
     if (typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
       SpaRouter.pushView({ view: 'cards', level: currentLevel, drawerOpen: true });
@@ -608,28 +609,17 @@ function render(animate) {
     const imgEl = document.getElementById('cardIllustrationImg');
     const svgEl = document.getElementById('cardIllustrationSvg');
     const frameEl = document.getElementById('cardIllustrationFrame');
-    const skeletonEl = document.getElementById('cardIllustrationSkeleton');
 
     if (imgEl && svgEl && typeof getWordIllustration === 'function') {
       const illu = getWordIllustration(w);
       if (illu) {
         if (illu.src || illu.type === 'img') {
-          if (skeletonEl) skeletonEl.hidden = false;
-          imgEl.hidden = true;
-          imgEl.onload = () => {
-            if (skeletonEl) skeletonEl.hidden = true;
-            imgEl.hidden = false;
-          };
-          imgEl.onerror = () => {
-            if (skeletonEl) skeletonEl.hidden = true;
-            imgEl.hidden = true;
-          };
           imgEl.src = illu.src;
           imgEl.alt = 'Minh họa gợi hình';
+          imgEl.hidden = false;
           svgEl.hidden = true;
           svgEl.innerHTML = '';
         } else if (illu.type === 'svg') {
-          if (skeletonEl) skeletonEl.hidden = true;
           svgEl.innerHTML = illu.svg;
           svgEl.hidden = false;
           imgEl.hidden = true;

@@ -123,7 +123,18 @@ function renderStrokeGrids(autoAnimate = true) {
 
   if (typeof HanziWriter === 'undefined') {
     fallback.hidden = false;
-    fallback.textContent = 'Không thể tải thư viện viết chữ (HanziWriter).';
+    fallback.textContent = 'Đang tải thư viện viết chữ...';
+    let retries = 0;
+    const checkHW = setInterval(() => {
+      retries++;
+      if (typeof HanziWriter !== 'undefined') {
+        clearInterval(checkHW);
+        renderStrokeGrids(autoAnimate);
+      } else if (retries >= 30) {
+        clearInterval(checkHW);
+        fallback.textContent = 'Không thể tải thư viện viết chữ (HanziWriter). Vui lòng kiểm tra kết nối mạng.';
+      }
+    }, 100);
     renderInstructionText();
     syncStrokeCanvasControls();
     return;
@@ -391,6 +402,12 @@ function animateStrokeCanvas() {
 }
 
 function loadStrokeCanvasWord(word) {
+  if (!document.getElementById('strokeCanvasWrap')) {
+    initStrokeCanvas();
+  }
+  if (!word && typeof activeStudyWord !== 'undefined' && activeStudyWord) {
+    word = activeStudyWord;
+  }
   currentStrokeWord = word;
   const badge = document.getElementById('strokeCharBadge');
   const mobileBadge = document.getElementById('strokeMobileCharBadge');
@@ -432,31 +449,22 @@ function syncStrokeCanvasControls() {
 }
 
 function initStrokeCanvas() {
-  const isDesktop = document.body.classList.contains('is-desktop-dock') || document.body.classList.contains('flashcard-study-mode');
-  const mount = isDesktop
-    ? document.getElementById('workstationRight')
-    : document.getElementById('screenCards');
+  const mount = document.getElementById('workstationRight') || document.getElementById('screenCards');
   if (!mount) return;
 
   if (document.getElementById('strokeCanvasWrap')) return;
 
-  const wrap = document.createElement(isDesktop ? 'div' : 'details');
+  const wrap = document.createElement('div');
   wrap.className = 'stroke-canvas-panel';
   wrap.id = 'strokeCanvasWrap';
 
-  if (!isDesktop) {
-    const summary = document.createElement('summary');
-    summary.innerHTML = 'Thứ tự nét & Luyện viết <span class="stroke-char-badge" id="strokeMobileCharBadge"></span>';
-    wrap.appendChild(summary);
-  } else {
-    const title = document.createElement('div');
-    title.className = 'sidebar-panel-header';
-    title.innerHTML = `
-      <div class="sidebar-panel-title">Thứ tự nét & Luyện viết</div>
-      <span class="stroke-char-badge" id="strokeCharBadge"></span>
-    `;
-    wrap.appendChild(title);
-  }
+  const title = document.createElement('div');
+  title.className = 'sidebar-panel-header';
+  title.innerHTML = `
+    <div class="sidebar-panel-title">Thứ tự nét & Luyện viết</div>
+    <span class="stroke-char-badge" id="strokeCharBadge"></span>
+  `;
+  wrap.appendChild(title);
 
   const body = document.createElement('div');
   body.className = 'stroke-canvas-body';
@@ -518,10 +526,20 @@ function initStrokeCanvas() {
   loadStrokeCanvasWord(typeof activeStudyWord !== 'undefined' ? activeStudyWord : null);
 }
 
+function renderActiveStrokeChar(autoAnimate = true) {
+  if (!document.getElementById('strokeCanvasWrap')) {
+    initStrokeCanvas();
+  }
+  const word = (typeof activeStudyWord !== 'undefined' && activeStudyWord) ? activeStudyWord : null;
+  loadStrokeCanvasWord(word);
+}
+
 // Global API exports for external callers & interactions
+window.renderActiveStrokeChar = renderActiveStrokeChar;
 window.loadStrokeCanvasWord = loadStrokeCanvasWord;
 window.selectStrokeChar = function(idx) { startQuizOnChar(idx, true); };
 window.animateStrokeCanvas = animateStrokeCanvas;
 window.quizStrokeCanvas = function() { startQuizOnChar(0, true); };
+window.initStrokeCanvas = initStrokeCanvas;
 
 document.addEventListener('DOMContentLoaded', initStrokeCanvas);

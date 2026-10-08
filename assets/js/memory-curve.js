@@ -187,18 +187,13 @@ function renderMemoryCurvePanel(word) {
 }
 
 function initMemoryCurvePanel() {
-  const desktop = document.body.classList.contains('is-desktop-dock');
-  const mount = desktop ? document.getElementById('workstationRight') : document.getElementById('screenCards');
+  const mount = document.getElementById('workstationRight') || document.getElementById('screenCards');
   if (!mount) return;
-  const panel = document.createElement(desktop ? 'section' : 'details');
+  if (document.getElementById('memoryCurvePanel')) return;
+  const panel = document.createElement('section');
   panel.id = 'memoryCurvePanel';
   panel.className = 'memory-curve-panel';
   panel.setAttribute('aria-labelledby', 'memoryCurvePanelTitle');
-  if (!desktop) {
-    const summary = document.createElement('summary');
-    summary.textContent = 'Khả năng ghi nhớ (Ebbinghaus)';
-    panel.appendChild(summary);
-  }
   const content = document.createElement('div');
   content.className = 'memory-curve-body';
   content.innerHTML = `

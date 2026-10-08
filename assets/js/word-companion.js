@@ -188,25 +188,18 @@ function jumpToWordByIndex(wordIndex) {
 }
 
 function initWordCompanion() {
-  const isDesktop = document.body.classList.contains('is-desktop-dock');
-  const mount = isDesktop
-    ? document.getElementById('workstationRight')
-    : document.getElementById('screenCards');
+  const mount = document.getElementById('workstationRight') || document.getElementById('screenCards');
   if (!mount) return;
 
-  const wrap = document.createElement(isDesktop ? 'div' : 'details');
+  if (document.getElementById('wordCompanionWrap')) return;
+
+  const wrap = document.createElement('div');
   wrap.className = 'word-companion-panel';
   wrap.id = 'wordCompanionWrap';
-  if (!isDesktop) {
-    const summary = document.createElement('summary');
-    summary.textContent = 'Câu ví dụ & Từ liên quan';
-    wrap.appendChild(summary);
-  } else {
-    const title = document.createElement('div');
-    title.className = 'sidebar-panel-title';
-    title.textContent = 'Câu ví dụ & Hỗ trợ từ vựng';
-    wrap.appendChild(title);
-  }
+  const title = document.createElement('div');
+  title.className = 'sidebar-panel-title';
+  title.textContent = 'Câu ví dụ & Hỗ trợ từ vựng';
+  wrap.appendChild(title);
 
   const body = document.createElement('div');
   body.id = 'wordCompanionPanel';

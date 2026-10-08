@@ -56,23 +56,15 @@ function updateGrammarBreakdown(word) {
 }
 
 function initGrammarBreakdown() {
-  const isDesktop = document.body.classList.contains('is-desktop-dock');
-  const mount = isDesktop
-    ? document.getElementById('workstationRight')
-    : document.getElementById('screenCards');
+  const mount = document.getElementById('workstationRight') || document.getElementById('screenCards');
   if (!mount) return;
-  const wrap = document.createElement(isDesktop ? 'div' : 'details');
+  if (document.getElementById('grammarBreakdownPanel')) return;
+  const wrap = document.createElement('div');
   wrap.className = 'grammar-breakdown-panel';
-  if (!isDesktop) {
-    const summary = document.createElement('summary');
-    summary.textContent = 'Phân tích ngữ pháp';
-    wrap.appendChild(summary);
-  } else {
-    const title = document.createElement('div');
-    title.className = 'sidebar-panel-title';
-    title.textContent = 'Phân tích ngữ pháp';
-    wrap.appendChild(title);
-  }
+  const title = document.createElement('div');
+  title.className = 'sidebar-panel-title';
+  title.textContent = 'Phân tích ngữ pháp';
+  wrap.appendChild(title);
   const body = document.createElement('div');
   body.id = 'grammarBreakdownBody';
   wrap.appendChild(body);
