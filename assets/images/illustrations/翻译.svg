@@ -1,0 +1,42 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark-mode container background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Subtle ambient glow/background elements -->
+  <circle cx="100" cy="100" r="60" fill="#0f172a" opacity="0.6"/>
+  
+  <!-- Speech Bubble Left (Source Language) -->
+  <g transform="translate(0, 0)">
+    <!-- Bubble tail & body -->
+    <path d="M 45 95 L 65 105 L 55 85 Z" fill="#38bdf8"/>
+    <rect x="35" y="55" width="60" height="40" rx="10" fill="#38bdf8"/>
+    <!-- Abstract geometric glyphs representing source text -->
+    <rect x="45" y="67" width="40" height="4" rx="2" fill="#0f172a" opacity="0.8"/>
+    <rect x="45" y="77" width="28" height="4" rx="2" fill="#0f172a" opacity="0.8"/>
+  </g>
+
+  <!-- Central Transformation / Translation Arrow -->
+  <g transform="translate(100, 100)">
+    <circle cx="0" cy="0" r="22" fill="#0f172a"/>
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#f59e0b" stroke-width="3" stroke-dasharray="8 4"/>
+    <!-- Double-ended smooth arrows circling -->
+    <path d="M -8 -4 L -2 -10 L -2 -1" fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 8 4 L 2 10 L 2 1" fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Speech Bubble Right (Target Language) -->
+  <g transform="translate(0, 0)">
+    <!-- Bubble tail & body -->
+    <path d="M 155 105 L 135 95 L 145 115 Z" fill="#10b981"/>
+    <rect x="105" y="105" width="60" height="40" rx="10" fill="#10b981"/>
+    <!-- Abstract geometric glyphs representing translated text -->
+    <rect x="115" y="117" width="36" height="4" rx="2" fill="#0f172a" opacity="0.8"/>
+    <rect x="115" y="127" width="22" height="4" rx="2" fill="#0f172a" opacity="0.8"/>
+  </g>
+
+  <!-- Decorative floating linguistic particles -->
+  <circle cx="70" cy="45" r="3" fill="#38bdf8" opacity="0.7"/>
+  <circle cx="130" cy="155" r="3" fill="#10b981" opacity="0.7"/>
+  <path d="M 140 50 Q 150 40 145 30" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 60 150 Q 50 160 55 170" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+</svg>

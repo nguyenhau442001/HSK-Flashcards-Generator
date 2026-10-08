@@ -1,0 +1,48 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Decorative Sparkles/Glow behind mirror -->
+  <path d="M50 45 L53 53 L61 56 L53 59 L50 67 L47 59 L39 56 L47 53 Z" fill="#38bdf8" opacity="0.6"/>
+  <path d="M150 75 L152 80 L157 82 L152 84 L150 89 L148 84 L143 82 L148 80 Z" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="135" cy="45" r="3" fill="#fb923c" opacity="0.7"/>
+  <circle cx="65" cy="130" r="2.5" fill="#10b981" opacity="0.7"/>
+
+  <!-- Vanity Table Base -->
+  <path d="M50 145 H150 V152 H50 Z" fill="#334155" rx="2"/>
+  <rect x="85" y="152" width="8" height="15" fill="#334155"/>
+  <rect x="107" y="152" width="8" height="15" fill="#334155"/>
+
+  <!-- Mirror Stand and Frame -->
+  <ellipse cx="100" cy="142" rx="25" ry="5" fill="#475569"/>
+  <rect x="97" y="120" width="6" height="23" fill="#cbd5e1"/>
+  
+  <!-- Vanity Mirror Outer Ring -->
+  <circle cx="100" cy="85" r="42" fill="#334155"/>
+  <!-- Vanity Mirror Glass -->
+  <circle cx="100" cy="85" r="37" fill="#0f172a"/>
+  <!-- Mirror Reflection Curve -->
+  <path d="M72 70 C80 58 120 58 128 70 C120 62 80 62 72 70 Z" fill="#38bdf8" opacity="0.3"/>
+
+  <!-- Lipstick Item on Table -->
+  <!-- Lipstick Base -->
+  <rect x="122" y="130" width="10" height="15" rx="2" fill="#94a3b8"/>
+  <rect x="123" y="125" width="8" height="6" rx="1" fill="#e2e8f0"/>
+  <!-- Lipstick Tip -->
+  <path d="M123 125 L127 116 L131 125 Z" fill="#fb923c"/>
+
+  <!-- Compact Powder / Makeup Palette -->
+  <rect x="62" y="132" width="20" height="13" rx="4" fill="#cbd5e1"/>
+  <path d="M62 138.5 H82" stroke="#94a3b8" stroke-width="1.5"/>
+  <circle cx="72" cy="136" r="3" fill="#f59e0b"/>
+
+  <!-- Makeup Brush -->
+  <path d="M142 110 L152 135 C152 135 154 138 151 139 C148 140 146 137 146 137 L138 112 Z" fill="#64748b"/>
+  <ellipse cx="140" cy="108" rx="5" ry="4" fill="#fb7185"/>
+
+  <!-- Perfume Bottle -->
+  <rect x="70" y="105" width="12" height="18" rx="2" fill="#38bdf8" opacity="0.8"/>
+  <rect x="73" y="100" width="6" height="5" fill="#cbd5e1"/>
+  <rect x="74" y="97" width="4" height="3" fill="#f59e0b"/>
+
+</svg>

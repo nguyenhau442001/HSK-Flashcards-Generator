@@ -1,0 +1,80 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Subtle Playground Elements in Background -->
+  <!-- Slide Structure -->
+  <path d="M45 130 L75 90 L85 95 L55 135 Z" fill="#334155" opacity="0.6"/>
+  <line x1="60" y1="110" x2="70" y2="105" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <line x1="50" y1="125" x2="60" y2="120" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <path d="M45 130 L75 90 L80 93 L50 133 Z" fill="#38bdf8" opacity="0.3"/>
+
+  <!-- Swing Set / Arch -->
+  <path d="M125 140 L135 75 L155 75 L165 140" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="140" y1="75" x2="140" y2="110" stroke="#475569" stroke-width="2"/>
+  <line x1="150" y1="75" x2="150" y2="120" stroke="#475569" stroke-width="2"/>
+  <circle cx="145" cy="65" r="8" fill="#f59e0b" opacity="0.6"/>
+
+  <!-- Ground Line -->
+  <path d="M30 140 Q100 135 170 140" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Child 1: Running/Jumping Boy (Left-Center) -->
+  <g transform="translate(-5, 0)">
+    <!-- Shadow -->
+    <ellipse cx="78" cy="143" rx="10" ry="3" fill="#0f172a" opacity="0.4"/>
+    
+    <!-- Body & Limbs -->
+    <!-- Back Leg -->
+    <path d="M72 125 L62 137" fill="none" stroke="#fb923c" stroke-width="6" stroke-linecap="round"/>
+    <!-- Back Arm -->
+    <path d="M78 105 L65 115" fill="none" stroke="#fb923c" stroke-width="5" stroke-linecap="round"/>
+    <!-- Torso -->
+    <path d="M75 95 L80 125" fill="none" stroke="#10b981" stroke-width="10" stroke-linecap="round"/>
+    <!-- Front Leg -->
+    <path d="M82 120 L92 135" fill="none" stroke="#fb923c" stroke-width="6" stroke-linecap="round"/>
+    <!-- Front Arm -->
+    <path d="M82 102 L95 110" fill="none" stroke="#fb923c" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- Head & Hair -->
+    <circle cx="79" cy="84" r="9" fill="#fb923c"/>
+    <path d="M71 82 C71 77 77 75 83 78 C86 79 88 83 88 83 C88 83 83 79 79 80 C75 81 72 83 71 82 Z" fill="#1e293b"/>
+  </g>
+
+  <!-- Child 2: Jumping Girl with Pigtails (Center-Right) -->
+  <g transform="translate(15, -10)">
+    <!-- Shadow -->
+    <ellipse cx="98" cy="153" rx="12" ry="3.5" fill="#0f172a" opacity="0.4"/>
+
+    <!-- Limbs (Mid-jump) -->
+    <!-- Legs bent -->
+    <path d="M92 125 L86 142" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M104 125 L110 140" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Dress/Torso -->
+    <path d="M90 98 L108 98 L114 126 L84 126 Z" fill="#f59e0b" stroke="#f59e0b" stroke-linejoin="round"/>
+    <path d="M90 98 L108 98 L112 118 L86 118 Z" fill="#f59e0b"/>
+
+    <!-- Arms raised in joy -->
+    <path d="M91 102 L76 92" fill="none" stroke="#fb923c" stroke-width="5" stroke-linecap="round"/>
+    <path d="M107 102 L122 90" fill="none" stroke="#fb923c" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Head & Pigtails -->
+    <circle cx="99" cy="85" r="9.5" fill="#fb923c"/>
+    <!-- Left Pigtail -->
+    <path d="M91 82 C85 80 84 74 88 72" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+    <!-- Right Pigtail -->
+    <path d="M107 82 C113 80 114 74 110 72" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+    <!-- Hair Top -->
+    <path d="M92 82 C93 77 105 77 106 82" fill="#334155"/>
+  </g>
+
+  <!-- Joyful Accents (Stars / Confetti) -->
+  <path d="M35 70 L38 76 L44 78 L38 80 L35 86 L32 80 L26 78 L32 76 Z" fill="#f59e0b" opacity="0.8"/>
+  <path d="M165 60 L167 64 L171 65 L167 66 L165 70 L163 66 L159 65 L163 64 Z" fill="#38bdf8" opacity="0.9"/>
+  <path d="M115 50 L116.5 53 L120 54 L116.5 55 L115 58 L113.5 55 L110 54 L113.5 53 Z" fill="#10b981" opacity="0.7"/>
+
+  <!-- Floating Happy Bubbles/Circles -->
+  <circle cx="55" cy="55" r="3" fill="#38bdf8" opacity="0.5"/>
+  <circle cx="140" cy="45" r="4" fill="#fb923c" opacity="0.6"/>
+  <circle cx="85" cy="42" r="2" fill="#f59e0b" opacity="0.7"/>
+</svg>

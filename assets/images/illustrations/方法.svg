@@ -1,0 +1,33 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container (Dark Mode Friendly) -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Decorative Background Glow/Elements -->
+  <circle cx="100" cy="100" r="60" fill="#0f172a" opacity="0.5"/>
+
+  <!-- Conceptual illustration for "Method/Way" (A clear compass/map path metaphor) -->
+  <!-- Compass Outer Ring -->
+  <circle cx="100" cy="95" r="48" fill="none" stroke="#334155" stroke-width="4"/>
+  <circle cx="100" cy="95" r="48" fill="none" stroke="#38bdf8" stroke-width="4" stroke-dasharray="75 227" stroke-linecap="round" transform="rotate(-45 100 95)"/>
+
+  <!-- Compass Needle / Path Pointer -->
+  <polygon points="100,60 108,95 100,105 100,60" fill="#f59e0b"/>
+  <polygon points="100,130 108,95 100,105 100,130" fill="#fb923c"/>
+  <circle cx="100" cy="95" r="6" fill="#ffffff"/>
+
+  <!-- Step-by-Step Waypoints (Method Indicators) -->
+  <!-- Waypoint 1 (Left) -->
+  <circle cx="55" cy="120" r="8" fill="#10b981"/>
+  <path d="M 52 120 L 55 117 L 59 123" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Waypoint 2 (Top) -->
+  <circle cx="125" cy="55" r="8" fill="#10b981"/>
+  <path d="M 122 55 L 125 52 L 129 58" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Dotted path connecting them -->
+  <path d="M 62 116 Q 80 80 118 60" fill="none" stroke="#38bdf8" stroke-width="3" stroke-dasharray="4 6" stroke-linecap="round"/>
+
+  <!-- Base Stand / Desk element for grounding the object -->
+  <path d="M 70 160 L 130 160" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 85 167 L 115 167" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
+</svg>

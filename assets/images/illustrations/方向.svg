@@ -1,0 +1,48 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Card Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Compass / Direction Scene -->
+  <!-- Ground Shadow / Base element -->
+  <ellipse cx="100" cy="145" rx="45" ry="10" fill="#0f172a" opacity="0.6"/>
+
+  <!-- Main Compass Body (Outer Rim) -->
+  <circle cx="100" cy="95" r="42" fill="#334155" stroke="#475569" stroke-width="4"/>
+  <circle cx="100" cy="95" r="36" fill="#0f172a"/>
+
+  <!-- Compass Tick Marks -->
+  <line x1="100" y1="55" x2="100" y2="61" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  <line x1="100" y1="129" x2="100" y2="135" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  <line x1="60" y1="95" x2="66" y2="95" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  <line x1="134" y1="95" x2="140" y2="95" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- North / South / East / West Indicators (Abstract dots/shapes instead of letters to strictly avoid text) -->
+  <circle cx="100" cy="65" r="3" fill="#f59e0b"/>
+  <circle cx="100" cy="125" r="2" fill="#64748b"/>
+  <circle cx="70" cy="95" r="2" fill="#64748b"/>
+  <circle cx="130" cy="95" r="2" fill="#64748b"/>
+
+  <!-- Compass Needle (Pointing slightly off-center to imply "Wrong Direction" / fāngxiàng context) -->
+  <g transform="rotate(28, 100, 95)">
+    <!-- North Needle (Amber/Coral) -->
+    <polygon points="100,65 107,95 100,95" fill="#fb923c"/>
+    <polygon points="100,65 93,95 100,95" fill="#f59e0b"/>
+    
+    <!-- South Needle (Sky Blue / Slate) -->
+    <polygon points="100,125 107,95 100,95" fill="#38bdf8"/>
+    <polygon points="100,125 93,95 100,95" fill="#0284c7"/>
+    
+    <!-- Center Pivot Pin -->
+    <circle cx="100" cy="95" r="5" fill="#cbd5e1"/>
+    <circle cx="100" cy="95" r="2" fill="#0f172a"/>
+  </g>
+
+  <!-- Ambient path/trail suggesting motion or going the wrong way -->
+  <path d="M 130 60 C 145 75, 145 100, 130 115" fill="none" stroke="#ef4444" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4" opacity="0.8"/>
+  <!-- Cross / Wrong indicator subtly integrated -->
+  <path d="M 137 82 L 143 88 M 143 82 L 137 88" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Decorative Accent Dot -->
+  <circle cx="35" cy="35" r="3" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="165" cy="155" r="4" fill="#10b981" opacity="0.6"/>
+</svg>

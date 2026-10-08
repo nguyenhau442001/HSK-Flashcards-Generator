@@ -1,0 +1,44 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark-mode container background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Subtle background glow to highlight the focus area -->
+  <circle cx="100" cy="110" r="50" fill="#38bdf8" opacity="0.1"/>
+
+  <!-- Coffee Cup Illustration -->
+  <g transform="translate(0, 5)">
+    <!-- Cup Handle -->
+    <path d="M 125 75 C 145 75, 145 115, 125 115" 
+          fill="none" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Cup Body (Main Container) -->
+    <path d="M 70 60 L 120 60 L 112 125 C 112 132, 107 136, 100 136 L 90 136 C 83 136, 78 132, 78 125 Z" 
+          fill="#38bdf8" opacity="0.9"/>
+    
+    <!-- Liquid inside the cup -->
+    <ellipse cx="95" cy="65" rx="22" ry="5" fill="#f59e0b"/>
+
+    <!-- Steam rising up -->
+    <path d="M 85 45 C 85 38, 95 35, 95 28" fill="none" stroke="#94a3b8" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+    <path d="M 105 48 C 105 41, 110 38, 110 31" fill="none" stroke="#94a3b8" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- FOCUS / ANCHOR: The Bottom (Đáy cốc) highlighted with vibrant coral/amber -->
+    <!-- Outer glow for emphasis -->
+    <ellipse cx="101" cy="136" rx="14" ry="4" fill="#fb923c" opacity="0.4"/>
+    
+    <!-- Base highlight ring -->
+    <ellipse cx="100" cy="136" rx="11" ry="3" fill="#fb923c"/>
+    <path d="M 89 136 L 91 142 L 109 142 L 111 136 Z" fill="#fb923c" opacity="0.8"/>
+
+    <!-- Spotlight arrows pointing specifically to the bottom (Đáy) -->
+    <g fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Left arrow -->
+      <path d="M 60 136 L 78 136"/>
+      <path d="M 72 131 L 78 136 L 72 141"/>
+      
+      <!-- Right arrow -->
+      <path d="M 140 136 L 122 136"/>
+      <path d="M 128 131 L 122 136 L 128 141"/>
+    </g>
+  </g>
+</svg>

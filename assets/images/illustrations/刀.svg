@@ -1,0 +1,33 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Subtle background glow/accent circle -->
+  <circle cx="100" cy="100" r="60" fill="#334155" opacity="0.4"/>
+
+  <!-- Cutting Board Base (Contextual Object) -->
+  <path d="M 60 140 Q 60 130 70 130 L 140 130 Q 150 130 150 140 L 150 145 Q 150 155 140 155 L 70 155 Q 60 155 60 145 Z" fill="#f59e0b" opacity="0.2"/>
+  <ellipse cx="105" cy="142" rx="45" ry="10" fill="#f59e0b" opacity="0.15"/>
+
+  <!-- The Knife (Target Object: 刀) -->
+  <g transform="rotate(-35, 100, 100)">
+    <!-- Knife Blade -->
+    <path d="M 65 96 L 145 96 Q 152 96 155 100 Q 152 104 145 104 L 65 104 Z" fill="#94a3b8"/>
+    <!-- Blade Cutting Edge Highlight -->
+    <path d="M 75 104 L 145 104 Q 152 104 155 100 L 145 100 Z" fill="#e2e8f0"/>
+    
+    <!-- Knife Handle -->
+    <path d="M 40 95 L 67 95 L 67 105 L 40 105 Q 35 105 35 100 Q 35 95 40 95 Z" fill="#fb923c"/>
+    
+    <!-- Handle Rivets -->
+    <circle cx="48" cy="100" r="1.5" fill="#1e293b"/>
+    <circle cx="58" cy="100" r="1.5" fill="#1e293b"/>
+    
+    <!-- Bolster/Guard -->
+    <rect x="65" y="94" width="3" height="12" rx="0.5" fill="#cbd5e1"/>
+  </g>
+
+  <!-- Accent Sparkles for safety/visual interest -->
+  <path d="M 130 55 L 133 63 L 141 66 L 133 69 L 130 77 L 127 69 L 119 66 L 127 63 Z" fill="#38bdf8" opacity="0.8"/>
+  <path d="M 60 115 L 61.5 119 L 65.5 120.5 L 61.5 122 L 60 126 L 58.5 122 L 54.5 120.5 L 58.5 119 Z" fill="#38bdf8" opacity="0.5"/>
+</svg>

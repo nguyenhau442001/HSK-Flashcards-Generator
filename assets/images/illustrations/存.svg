@@ -1,0 +1,43 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark-mode friendly container background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Background decorative elements (Bank building silhouette) -->
+  <path d="M55 75 L100 50 L145 75 Z" fill="#334155"/>
+  <rect x="62" y="75" width="76" height="40" fill="#334155"/>
+  <rect x="68" y="83" width="10" height="24" rx="2" fill="#1e293b"/>
+  <rect x="85" y="83" width="10" height="24" rx="2" fill="#1e293b"/>
+  <rect x="105" y="83" width="10" height="24" rx="2" fill="#1e293b"/>
+  <rect x="122" y="83" width="10" height="24" rx="2" fill="#1e293b"/>
+
+  <!-- Bank Counter / Desk Surface -->
+  <rect x="35" y="130" width="130" height="10" rx="4" fill="#475569"/>
+  <path d="M45 140 L155 140 L160 160 L40 160 Z" fill="#334155"/>
+
+  <!-- Safe / Storage Box (Representing 'cún' / storing securely) -->
+  <g transform="translate(110, 85)">
+    <rect x="0" y="0" width="45" height="45" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="3"/>
+    <circle cx="22.5" cy="22.5" r="7" fill="#f59e0b"/>
+    <circle cx="22.5" cy="22.5" r="3" fill="#0f172a"/>
+    <line x1="29.5" y1="22.5" x2="35" y2="22.5" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Coin / Money being deposited (Context: 'gửi tiền') -->
+  <!-- Motion arc -->
+  <path d="M 65 95 Q 75 75 90 85" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="3 3"/>
+
+  <!-- Stack of coins on the counter -->
+  <ellipse cx="65" cy="125" rx="14" ry="5" fill="#10b981"/>
+  <rect x="51" y="120" width="28" height="6" fill="#059669"/>
+  <ellipse cx="65" cy="120" rx="14" ry="5" fill="#34d399"/>
+
+  <ellipse cx="65" cy="113" rx="14" ry="5" fill="#10b981"/>
+  <rect x="51" y="108" width="28" height="6" fill="#059669"/>
+  <ellipse cx="65" cy="108" rx="14" ry="5" fill="#34d399"/>
+
+  <!-- Falling/Active coin entering the safe slot -->
+  <g transform="translate(85, 75) rotate(-20)">
+    <ellipse cx="0" cy="0" rx="12" ry="4.5" fill="#fb923c" stroke="#fef3c7" stroke-width="1.5"/>
+  </g>
+
+</svg>

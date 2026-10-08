@@ -1,0 +1,44 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Bus Stop Structure -->
+  <!-- Pole -->
+  <rect x="35" y="60" width="4" height="90" fill="#64748b" rx="2"/>
+  <!-- Sign -->
+  <path d="M 27 40 L 45 40 L 45 60 L 27 60 Z" fill="#38bdf8" rx="2"/>
+  <circle cx="36" cy="50" r="6" fill="#f8fafc"/>
+
+  <!-- Bench -->
+  <rect x="110" y="125" width="55" height="6" fill="#fb923c" rx="3"/>
+  <rect x="120" y="131" width="6" height="19" fill="#94a3b8"/>
+  <rect x="150" y="131" width="6" height="19" fill="#94a3b8"/>
+
+  <!-- Character (Waiting Person) -->
+  <!-- Legs sitting on bench -->
+  <rect x="125" y="110" width="8" height="20" fill="#38bdf8" rx="4"/>
+  <rect x="133" y="120" width="15" height="8" fill="#38bdf8" rx="4"/>
+
+  <!-- Torso -->
+  <path d="M 120 75 Q 120 70 130 70 L 140 70 Q 150 70 150 75 L 148 110 L 122 110 Z" fill="#10b981"/>
+
+  <!-- Head -->
+  <circle cx="135" cy="57" r="10" fill="#fef08a"/>
+  <!-- Hair -->
+  <path d="M 125 54 C 125 45, 145 45, 145 54 Z" fill="#475569"/>
+
+  <!-- Arms (Checking watch / Patiently waiting pose) -->
+  <path d="M 124 80 Q 135 85 140 95" stroke="#10b981" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Watch accent -->
+  <circle cx="140" cy="95" r="3" fill="#f59e0b"/>
+
+  <!-- Luggage / Suitcase beside bench -->
+  <rect x="90" y="115" width="16" height="25" fill="#f59e0b" rx="3"/>
+  <path d="M 95 115 L 95 112 C 95 110, 101 110, 101 112 L 101 115" stroke="#94a3b8" stroke-width="2" fill="none"/>
+
+  <!-- Time passing element (Subtle minimalist clock or motion lines) -->
+  <path d="M 75 80 L 85 80" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 78 72 L 83 72" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 70 88 L 80 88" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+
+</svg>

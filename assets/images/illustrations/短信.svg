@@ -1,0 +1,48 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Ambient Glow / Backdrop elements -->
+  <circle cx="100" cy="100" r="60" fill="#334155" opacity="0.3"/>
+
+  <!-- Floating Smartphone (Target Action Object) -->
+  <g transform="translate(60, 40)">
+    <!-- Phone Body -->
+    <rect x="15" y="5" width="50" height="90" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+    <!-- Phone Screen -->
+    <rect x="20" y="12" width="40" height="76" rx="4" fill="#334155"/>
+    
+    <!-- Chat Bubbles inside screen (Visualizing 'tin nhắn' / Short message) -->
+    <rect x="23" y="18" width="28" height="14" rx="3" fill="#cbd5e1" opacity="0.3"/>
+    
+    <!-- Active Outgoing Message Bubble with Arrow/Tail -->
+    <path d="M 24 38 L 48 38 A 3 3 0 0 1 51 41 L 51 51 A 3 3 0 0 1 48 54 L 27 54 A 3 3 0 0 1 24 51 Z" fill="#10b981"/>
+    <!-- Abstract text lines inside bubble -->
+    <line x1="28" y1="44" x2="44" y2="44" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <line x1="28" y1="48" x2="38" y2="48" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Incoming Message Bubble -->
+    <rect x="24" y="60" width="24" height="12" rx="3" fill="#f59e0b" opacity="0.8"/>
+    <line x1="28" y1="66" x2="40" y2="66" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character / Human Action (Thumb tapping the screen) -->
+  <g>
+    <!-- Character Hand Holding / Tapping Phone -->
+    <!-- Arm/Wrist -->
+    <path d="M 120 140 Q 110 115 95 100" fill="none" stroke="#fb923c" stroke-width="14" stroke-linecap="round"/>
+    
+    <!-- Hand Palm & Fingers gripping -->
+    <path d="M 92 98 C 88 94 85 90 88 84 C 91 78 98 80 102 86 C 105 90 108 94 110 98" fill="#fb923c"/>
+    
+    <!-- Active Index Finger Pressing Screen -->
+    <path d="M 95 100 C 90 90 85 75 75 72 C 68 70 68 78 74 84 C 80 90 88 102 92 108 Z" fill="#fb923c"/>
+  </g>
+
+  <!-- Speed / Action lines indicating sending motion -->
+  <g stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <line x1="125" y1="75" x2="140" y2="70" />
+    <line x1="130" y1="90" x2="150" y2="87" />
+    <line x1="122" y1="105" x2="138" y2="108" />
+  </g>
+</svg>

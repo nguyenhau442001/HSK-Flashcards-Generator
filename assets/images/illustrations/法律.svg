@@ -1,0 +1,50 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Ambient Glow -->
+  <circle cx="100" cy="100" r="60" fill="#38bdf8" opacity="0.08"/>
+
+  <!-- Wooden Gavel (Law symbol) -->
+  <g transform="rotate(-30 100 100)">
+    <!-- Handle -->
+    <rect x="94" y="65" width="12" height="75" rx="6" fill="#f59e0b"/>
+    <!-- Handle Accent Ring -->
+    <rect x="94" y="125" width="12" height="6" fill="#d97706"/>
+    <!-- Handle Bottom Knob -->
+    <circle cx="100" cy="143" rx="8" fill="#d97706"/>
+    
+    <!-- Wooden Head -->
+    <rect x="70" y="50" width="60" height="24" rx="6" fill="#fb923c"/>
+    <!-- Head End Caps (3D depth effect) -->
+    <path d="M 70 50 L 65 56 L 65 68 L 70 74 Z" fill="#ea580c"/>
+    <path d="M 130 50 L 135 56 L 135 68 L 130 74 Z" fill="#ea580c"/>
+  </g>
+
+  <!-- Scale of Justice (Balance / Law symbol) -->
+  <g transform="translate(0, 10)">
+    <!-- Stand Post -->
+    <rect x="97" y="120" width="6" height="25" rx="2" fill="#94a3b8"/>
+    <!-- Stand Base -->
+    <path d="M 80 145 L 120 145 L 125 150 L 75 150 Z" fill="#cbd5e1" rx="2"/>
+
+    <!-- Central Beam and Pivot -->
+    <path d="M 65 85 L 135 85" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="100" cy="85" r="5" fill="#f59e0b"/>
+
+    <!-- Left Pan -->
+    <line x1="65" y1="85" x2="55" y2="115" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="65" y1="85" x2="75" y2="115" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M 50 115 Q 65 125 80 115 Z" fill="#10b981"/>
+
+    <!-- Right Pan -->
+    <line x1="135" y1="85" x2="125" y2="115" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="135" y1="85" x2="145" y2="115" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M 120 115 Q 135 125 150 115 Z" fill="#10b981"/>
+  </g>
+
+  <!-- Sparkle Accents for visual polish -->
+  <path d="M 145 50 L 148 58 L 156 61 L 148 64 L 145 72 L 142 64 L 134 61 L 142 58 Z" fill="#f59e0b" opacity="0.8"/>
+  <path d="M 55 130 L 57 135 L 62 137 L 57 139 L 55 144 L 53 139 L 48 137 L 53 135 Z" fill="#38bdf8" opacity="0.6"/>
+
+</svg>

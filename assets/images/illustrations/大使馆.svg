@@ -1,0 +1,35 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Card -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Embassy Building Illustration -->
+  <g transform="translate(0, 5)">
+    <!-- Embassy Steps -->
+    <rect x="65" y="130" width="70" height="6" rx="2" fill="#64748b"/>
+    <rect x="55" y="136" width="90" height="6" rx="2" fill="#475569"/>
+
+    <!-- Building Base / Main Structure -->
+    <rect x="50" y="65" width="100" height="65" fill="#f8fafc"/>
+
+    <!-- Triangular Roof Pediment -->
+    <polygon points="100,35 40,65 160,65" fill="#38bdf8"/>
+    <!-- Roof outline accent -->
+    <polygon points="100,38 45,65 155,65" fill="none" stroke="#0ea5e9" stroke-width="2"/>
+
+    <!-- Classical Columns -->
+    <rect x="62" y="72" width="6" height="58" fill="#e2e8f0"/>
+    <rect x="78" y="72" width="6" height="58" fill="#e2e8f0"/>
+    <rect x="97" y="72" width="6" height="58" fill="#e2e8f0"/>
+    <rect x="116" y="72" width="6" height="58" fill="#e2e8f0"/>
+    <rect x="132" y="72" width="6" height="58" fill="#e2e8f0"/>
+
+    <!-- Diplomatic Flag (Red & Gold) on Roof -->
+    <line x1="100" y1="35" x2="100" y2="18" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="100,18 122,25 100,32" fill="#ef4444"/>
+    <circle cx="109" cy="25" r="3" fill="#f59e0b"/>
+
+    <!-- Official Emblem / Shield on Pediment -->
+    <circle cx="100" cy="54" r="7" fill="#f59e0b"/>
+    <circle cx="100" cy="54" r="4" fill="#d97706"/>
+  </g>
+</svg>

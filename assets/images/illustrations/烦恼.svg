@@ -1,0 +1,54 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark-mode friendly container background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Subtle background ambient glow for mood -->
+  <circle cx="100" cy="100" r="60" fill="#334155" opacity="0.4"/>
+
+  <!-- Wooden Desk Surface -->
+  <path d="M 40 140 L 160 140 L 150 155 L 50 155 Z" fill="#334155"/>
+  <rect x="45" y="155" width="110" height="6" fill="#475569" rx="2"/>
+
+  <!-- Person sitting (head and shoulders slouching) -->
+  <!-- Shoulders/Back -->
+  <path d="M 70 140 C 70 120, 80 105, 100 105 C 120 105, 130 120, 130 140 Z" fill="#3b82f6"/>
+  
+  <!-- Neck -->
+  <rect x="94" y="94" width="12" height="15" fill="#fcd34d" rx="4"/>
+
+  <!-- Head resting in hand / slumped -->
+  <circle cx="98" cy="84" r="16" fill="#fcd34d"/>
+
+  <!-- Hand supporting head -->
+  <path d="M 85 90 C 85 82, 95 82, 98 88 Z" fill="#fcd34d"/>
+
+  <!-- Cluttered/Heavy Objects representing 'phiền muộn' (Troubles/Worries: stacked papers and a tipped cup) -->
+  <!-- Stack of messy papers -->
+  <g transform="rotate(-8 125 130)">
+    <rect x="110" y="120" width="30" height="20" fill="#f8fafc" rx="2"/>
+    <line x1="115" y1="125" x2="135" y2="125" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+    <line x1="115" y1="131" x2="130" y2="131" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="rotate(12 115 135)">
+    <rect x="100" y="125" width="32" height="18" fill="#e2e8f0" rx="2"/>
+    <line x1="106" y1="131" x2="126" y2="131" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Tipped over coffee mug spilling a tiny drop -->
+  <path d="M 60 128 L 74 122 L 78 132 L 64 138 Z" fill="#fb923c"/>
+  <ellipse cx="67" cy="130" rx="3" ry="5" fill="#c2410c"/>
+  <!-- Handle -->
+  <path d="M 72 122 C 77 121, 77 129, 74 130" stroke="#fb923c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Spill puddle -->
+  <path d="M 52 139 C 52 137, 62 137, 65 139 C 67 141, 55 142, 52 139 Z" fill="#78350f" opacity="0.8"/>
+
+  <!-- Floating abstract "weight" or worry cloud elements above head -->
+  <g opacity="0.85">
+    <!-- Small dark/amber cloud of stress -->
+    <path d="M 85 52 C 85 46, 93 44, 97 50 C 101 44, 111 46, 111 52 C 115 52, 117 58, 113 62 C 110 65, 87 65, 83 62 C 79 58, 81 52, 85 52 Z" fill="#64748b"/>
+    <!-- Tiny falling stress drops -->
+    <circle cx="93" cy="69" r="2" fill="#38bdf8"/>
+    <circle cx="103" cy="71" r="1.5" fill="#38bdf8"/>
+  </g>
+
+</svg>

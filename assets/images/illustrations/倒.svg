@@ -1,0 +1,46 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Table Surface -->
+  <path d="M 30 145 L 170 145 L 170 152 L 30 152 Z" fill="#334155" rx="2"/>
+  <rect x="40" y="152" width="12" height="18" fill="#0f172a" rx="2"/>
+  <rect x="148" y="152" width="12" height="18" fill="#0f172a" rx="2"/>
+
+  <!-- Spilled Water Pool (Dynamic Shape) -->
+  <path d="M 65 142 C 60 145, 70 148, 85 146 C 115 148, 145 143, 140 139 C 135 135, 100 140, 75 138 C 68 137, 68 140, 65 142 Z" fill="#38bdf8" opacity="0.8"/>
+  <ellipse cx="105" cy="143" rx="25" ry="3" fill="#7dd3fc" opacity="0.6"/>
+
+  <!-- Droplets splashing/falling -->
+  <circle cx="120" cy="120" r="3.5" fill="#38bdf8"/>
+  <path d="M 132 105 Q 135 102 138 105 T 132 105" fill="#38bdf8"/>
+
+  <!-- Fallen/Tipped Glass (Rotated & Translated) -->
+  <g transform="translate(85, 115) rotate(-65)">
+    <!-- Glass Body (Open cylinder facing down-right towards the table) -->
+    <!-- Back rim ellipse -->
+    <ellipse cx="0" cy="0" rx="8" ry="14" fill="#94a3b8" opacity="0.5"/>
+    
+    <!-- Cylinder Walls -->
+    <path d="M 0 -14 L 45 -10 L 45 10 L 0 14 Z" fill="url(#glassGrad)" opacity="0.85"/>
+    
+    <!-- Front rim (open top, now sideways) -->
+    <ellipse cx="45" cy="0" rx="6" ry="10" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+    
+    <!-- Base of the glass -->
+    <ellipse cx="0" cy="0" rx="7" ry="13" fill="#cbd5e1" opacity="0.9"/>
+  </g>
+
+  <!-- Motion lines / Action indicator -->
+  <path d="M 65 85 Q 75 95 80 102" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <path d="M 105 78 Q 100 90 92 100" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Gradients / Defs -->
+  <defs>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e2e8f0" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f8fafc" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+</svg>

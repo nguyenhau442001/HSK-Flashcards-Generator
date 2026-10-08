@@ -1,84 +1,174 @@
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e293b"/>
-      <stop offset="100%" stop-color="#0f172a"/>
+    <!-- Background and depth gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
     </linearGradient>
 
-    <!-- Stage Spotlight Gradient -->
-    <linearGradient id="spotlight" x1="50%" y1="0%" x2="50%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    <!-- Spotlight Beam Gradients -->
+    <linearGradient id="spotlightMain" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.5" />
+      <stop offset="40%" stop-color="#fbbf24" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0.0" />
+    </linearGradient>
+    
+    <linearGradient id="spotlightSecondary" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.4" />
+      <stop offset="60%" stop-color="#38bdf8" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0" />
     </linearGradient>
 
-    <!-- Mask for Spotlight Cone -->
-    <clipPath id="stage-clip">
-      <rect x="10" y="10" width="180" height="180" rx="24"/>
-    </clipPath>
+    <!-- Stage floor gradient -->
+    <linearGradient id="stageFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Character Outfit Gradients -->
+    <linearGradient id="jacketGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+
+    <linearGradient id="pantsGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
 
     <!-- Glow Filter -->
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
 
-  <!-- Base Card Background -->
-  <rect x="10" y="10" width="180" height="180" rx="24" fill="url(#bg-grad)"/>
+  <!-- Full-bleed container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)" />
 
-  <!-- Stage Lighting Cone (Performance/Biểu diễn Theme) -->
-  <g clip-path="url(#stage-clip)">
-    <polygon points="100,25 35,175 165,175" fill="url(#spotlight)"/>
-  </g>
+  <!-- Background Theater Atmosphere (Ambient lights & dust particles) -->
+  <circle cx="60" cy="40" r="1.5" fill="#fef08a" opacity="0.6" />
+  <circle cx="180" cy="50" r="2" fill="#fef08a" opacity="0.4" />
+  <circle cx="200" cy="90" r="1" fill="#fef08a" opacity="0.5" />
+  <circle cx="40" cy="90" r="1.5" fill="#fef08a" opacity="0.3" />
+  <circle cx="120" cy="30" r="2" fill="#fef08a" opacity="0.7" />
 
-  <!-- Ambient Glow Behind Central Icon -->
-  <circle cx="100" cy="115" r="35" fill="#f59e0b" opacity="0.15" filter="url(#glow)"/>
+  <!-- Spotlights (Beams) -->
+  <polygon points="120,0 80,180 160,180" fill="url(#spotlightMain)" />
+  <polygon points="120,0 20,200 110,200" fill="url(#spotlightSecondary)" />
 
-  <!-- Stylized Drama Masks / Performance Symbol (Abstract 2D Geometric) -->
-  <!-- Left Mask (Joyful / Comedy - Coral/Amber Accent) -->
-  <path d="M 75 95 
-           C 75 80, 85 72, 100 72 
-           C 85 72, 75 80, 75 95 Z" 
-        fill="#fb923c" opacity="0.4"/>
+  <!-- Overhead Stage Lighting Fixtures (Truss / Rigs) -->
+  <rect x="20" y="10" width="200" height="4" rx="2" fill="#090d16" />
+  <circle cx="120" cy="14" r="6" fill="#334155" />
+  <circle cx="120" cy="14" r="3" fill="#fbbf24" filter="url(#subtleGlow)" />
+  <circle cx="70" cy="14" r="5" fill="#334155" />
+  <circle cx="170" cy="14" r="5" fill="#334155" />
+
+  <!-- Floor / Stage Platform -->
+  <path d="M 0 170 Q 120 155 240 170 L 240 240 L 0 240 Z" fill="url(#stageFloor)" />
+  <!-- Stage Wooden Planks Lines (Perspective) -->
+  <line x1="120" y1="162" x2="30" y2="240" stroke="#1e293b" stroke-width="1.5" opacity="0.6" />
+  <line x1="120" y1="162" x2="90" y2="240" stroke="#1e293b" stroke-width="1.5" opacity="0.6" />
+  <line x1="120" y1="162" x2="150" y2="240" stroke="#1e293b" stroke-width="1.5" opacity="0.6" />
+  <line x1="120" y1="162" x2="210" y2="240" stroke="#1e293b" stroke-width="1.5" opacity="0.6" />
+  <!-- Stage front edge highlight -->
+  <path d="M 0 170 Q 120 155 240 170" fill="none" stroke="#475569" stroke-width="2" />
+
+  <!-- Spotlight Floor Pools -->
+  <ellipse cx="120" cy="175" rx="55" ry="12" fill="#fbbf24" opacity="0.25" filter="url(#glow)" />
+  <ellipse cx="90" cy="180" rx="35" ry="8" fill="#38bdf8" opacity="0.2" filter="url(#glow)" />
+
+  <!-- ENGAGED AUDIENCE SILHOUETTES (Foreground) -->
+  <path d="M -10 240 L -10 215 C 10 205, 20 210, 35 200 C 50 190, 60 210, 80 200 C 100 190, 110 215, 130 205 C 150 195, 160 210, 180 198 C 200 186, 215 205, 250 195 L 250 240 Z" fill="#0b0f19" opacity="0.95" />
+  <!-- Audience glowing interaction elements (phones / light sticks) -->
+  <rect x="75" y="195" width="4" height="8" rx="1" fill="#ec4899" filter="url(#subtleGlow)" />
+  <circle cx="165" cy="190" r="3" fill="#38bdf8" filter="url(#subtleGlow)" />
+  <rect x="210" y="185" width="3" height="6" rx="1" fill="#fbbf24" filter="url(#subtleGlow)" />
+
+  <!-- MAIN PERFORMING CHARACTER -->
+  <!-- Microphone Stand -->
+  <line x1="145" y1="180" x2="135" y2="105" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" />
+  <ellipse cx="145" cy="180" rx="10" ry="3" fill="#64748b" />
+  <!-- Boom arm -->
+  <line x1="135" y1="105" x2="118" y2="95" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" />
+
+  <!-- Shadow under character -->
+  <ellipse cx="120" cy="177" rx="22" ry="6" fill="#05080f" opacity="0.7" />
+
+  <!-- Character Legs (Dynamic dancing/performing posture) -->
+  <!-- Left Leg (bent, stepping forward) -->
+  <path d="M 108 140 C 95 155, 90 170, 100 176 C 106 179, 115 178, 118 172" fill="none" stroke="url(#pantsGrad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Right Leg (planted back) -->
+  <path d="M 125 140 C 135 155, 142 168, 138 177" fill="none" stroke="url(#pantsGrad)" stroke-width="12" stroke-linecap="round" />
+  <!-- Shoes -->
+  <path d="M 96 175 C 92 175, 88 178, 92 181 C 96 183, 108 183, 112 180 C 114 178, 110 175, 96 175 Z" fill="#0f172a" />
+  <path d="M 132 176 C 128 176, 126 180, 130 182 C 136 184, 144 184, 147 181 C 149 179, 140 176, 132 176 Z" fill="#0f172a" />
+
+  <!-- Torso & Dynamic Jacket -->
+  <path d="M 100 90 L 130 90 C 135 110, 130 135, 122 142 C 115 145, 105 140, 100 120 Z" fill="url(#jacketGrad)" />
+  <!-- Jacket Lapels / Accents -->
+  <path d="M 110 90 L 118 120 L 105 125 Z" fill="#0ea5e9" opacity="0.6" />
+  <path d="M 120 90 L 115 120 L 125 125 Z" fill="#0ea5e9" opacity="0.6" />
+  <!-- Belt / Waist -->
+  <rect x="103" y="138" width="22" height="4" rx="2" fill="#0f172a" />
+  <rect x="111" y="137" width="6" height="6" fill="#fbbf24" />
+
+  <!-- Left Arm (Dynamic gesture, raised up expressing emotion) -->
+  <path d="M 102 95 C 90 85, 75 75, 65 85 C 58 92, 62 100, 70 102" fill="none" stroke="url(#jacketGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Left Hand / Fingers spread expressing passion -->
+  <circle cx="63" cy="84" r="5" fill="#fcd34d" />
+
+  <!-- Right Arm (Reaching toward microphone) -->
+  <path d="M 128 95 C 135 100, 138 102, 118 105" fill="none" stroke="url(#jacketGrad)" stroke-width="9" stroke-linecap="round" />
+  <!-- Right Hand holding Mic -->
+  <circle cx="116" cy="104" r="4.5" fill="#fcd34d" />
+
+  <!-- Microphone Head (Classic vintage style) -->
+  <ellipse cx="116" cy="97" rx="4" ry="6" fill="#94a3b8" filter="url(#subtleGlow)" />
+  <ellipse cx="116" cy="97" rx="3" ry="5" fill="#cbd5e1" />
+  <line x1="114" y1="94" x2="118" y2="100" stroke="#64748b" stroke-width="0.75" />
+  <line x1="118" y1="94" x2="114" y2="100" stroke="#64748b" stroke-width="0.75" />
+
+  <!-- Neck -->
+  <rect x="111" y="82" width="8" height="10" fill="#fcd34d" />
+
+  <!-- Head & Expressive Face (Tilted back passionately, singing/performing) -->
+  <circle cx="115" cy="72" r="13" fill="#fcd34d" />
   
-  <g transform="translate(-12, 0)">
-    <!-- Base Mask Shape -->
-    <path d="M 85,85 
-             C 70,85 62,97 62,112 
-             C 62,132 72,145 88,145 
-             C 98,145 104,138 108,128 
-             C 112,138 118,145 128,145 
-             C 144,145 154,132 154,112 
-             C 154,97 146,85 131,85 
-             C 120,85 110,92 108,98 
-             C 106,92 96,85 85,85 Z" 
-          fill="#0f172a" 
-          stroke="#fb923c" 
-          stroke-width="4" 
-          stroke-linejoin="round"
-          stroke-linecap="round"/>
+  <!-- Dynamic Hair (Stylized sweep) -->
+  <path d="M 102 70 C 102 58, 112 56, 124 60 C 129 62, 131 67, 128 72 C 124 64, 115 62, 108 66 Z" fill="#0f172a" />
+  <path d="M 124 60 C 132 55, 140 60, 138 68 C 135 65, 130 62, 124 60 Z" fill="#0f172a" />
 
-    <!-- Left Eye (Creative Expression) -->
-    <path d="M 78,105 Q 85,98 92,105" fill="none" stroke="#fb923c" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Facial Expression Details (Closed happy performing eyes ^_^) -->
+  <path d="M 112 70 Q 116 74 120 70" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" />
+  <path d="M 122 70 Q 125 73 128 69" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" />
+  <!-- Open singing mouth -->
+  <path d="M 120 77 Q 124 84 128 77 Z" fill="#991b1b" />
+  <path d="M 120 77 Q 124 79 128 77" fill="#f87171" />
+  <!-- Rosy cheek -->
+  <ellipse cx="126" cy="75" rx="2" ry="1.5" fill="#f43f5e" opacity="0.6" />
 
-    <!-- Right Eye -->
-    <path d="M 124,105 Q 131,98 138,105" fill="none" stroke="#fb923c" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Performance Energy Sparks / Musical Notes Floating -->
+  <!-- Note 1 -->
+  <path d="M 75 55 L 75 42 L 85 39 L 85 52" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#subtleGlow)" />
+  <circle cx="72" cy="55" r="3.5" fill="#38bdf8" filter="url(#subtleGlow)" />
+  <circle cx="82" cy="52" r="3.5" fill="#38bdf8" filter="url(#subtleGlow)" />
 
-    <!-- Expressive Smile / Performance Curve -->
-    <path d="M 94,122 Q 108,135 122,122" fill="none" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
-  </g>
+  <!-- Note 2 -->
+  <path d="M 165 65 L 165 52 L 175 49 L 175 62" fill="none" stroke="#ec4899" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#subtleGlow)" />
+  <circle cx="162" cy="65" r="3.5" fill="#ec4899" filter="url(#subtleGlow)" />
+  <circle cx="172" cy="62" r="3.5" fill="#ec4899" filter="url(#subtleGlow)" />
 
-  <!-- Floating Sparkles / Action Elements (Showmanship) -->
-  <!-- Top Right Sparkle -->
-  <path d="M 138,65 Q 145,65 145,58 Q 145,65 152,65 Q 145,65 145,72 Q 145,65 138,65 Z" fill="#38bdf8" filter="url(#glow)"/>
-  
-  <!-- Top Left Small Sparkle -->
-  <path d="M 55,80 Q 60,80 60,75 Q 60,80 65,80 Q 60,80 60,85 Q 60,80 55,80 Z" fill="#f59e0b" opacity="0.8"/>
+  <!-- Sparkle top center -->
+  <path d="M 120 40 L 122 46 L 128 48 L 122 50 L 120 56 L 118 50 L 112 48 L 118 46 Z" fill="#fbbf24" filter="url(#subtleGlow)" />
+  <!-- Sparkle small left -->
+  <path d="M 50 70 L 51 73 L 54 74 L 51 75 L 50 78 L 49 75 L 46 74 L 49 73 Z" fill="#38bdf8" opacity="0.8" />
+  <!-- Sparkle small right -->
+  <path d="M 190 85 L 191 88 L 194 89 L 191 90 L 190 93 L 189 90 L 186 89 L 189 88 Z" fill="#ec4899" opacity="0.8" />
 
-  <!-- Stage Floor Line -->
-  <line x1="45" y1="165" x2="155" y2="165" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
-
-  <!-- Dynamic Star / Spotlight Accent at Top -->
-  <circle cx="100" cy="28" r="4" fill="#38bdf8" filter="url(#glow)"/>
 </svg>

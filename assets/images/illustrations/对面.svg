@@ -1,0 +1,44 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark-mode container background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Ground plane -->
+  <rect x="25" y="140" width="150" height="4" rx="2" fill="#334155"/>
+  
+  <!-- Building 1 (Left: Post Office - Coral accent) -->
+  <rect x="35" y="65" width="50" height="75" rx="4" fill="#fb923c"/>
+  <!-- Post office roof -->
+  <polygon points="30,65 60,45 90,65" fill="#ea580c"/>
+  <!-- Post office door & windows -->
+  <rect x="52" y="105" width="16" height="35" rx="8" fill="#1e293b"/>
+  <rect x="43" y="78" width="12" height="14" rx="2" fill="#fff" opacity="0.8"/>
+  <rect x="65" y="78" width="12" height="14" rx="2" fill="#fff" opacity="0.8"/>
+  <!-- Mail/Letter icon symbol on building -->
+  <circle cx="60" cy="56" r="6" fill="#fff"/>
+
+  <!-- Building 2 (Right: Bank - Sky Blue accent) -->
+  <rect x="115" y="55" width="50" height="85" rx="4" fill="#38bdf8"/>
+  <!-- Bank roof/pediment -->
+  <polygon points="110,55 140,35 170,55" fill="#0284c7"/>
+  <!-- Bank pillars -->
+  <rect x="122" y="75" width="5" height="55" fill="#bae6fd"/>
+  <rect x="131" y="75" width="5" height="55" fill="#bae6fd"/>
+  <rect x="140" y="75" width="5" height="55" fill="#bae6fd"/>
+  <rect x="149" y="75" width="5" height="55" fill="#bae6fd"/>
+  <!-- Coin/Bank symbol on roof -->
+  <circle cx="140" cy="45" r="5" fill="#f59e0b"/>
+
+  <!-- Street in between (representing '对面' / facing each other) -->
+  <rect x="90" y="132" width="20" height="12" fill="#0f172a" rx="2"/>
+  <!-- Dashed center road line -->
+  <line x1="100" y1="135" x2="100" y2="140" stroke="#f59e0b" stroke-width="2" stroke-dasharray="2,2"/>
+
+  <!-- Directional Facing Arrows (Amber highlight for "Facing / 对面") -->
+  <g transform="translate(100, 95)">
+    <!-- Left Arrow pointing right -->
+    <path d="M-15,-6 L-5,-6 L-5,-11 L3,-4 L-5,3 L-5,-2 L-15,-2 Z" fill="#f59e0b"/>
+    <!-- Right Arrow pointing left -->
+    <path d="M15,6 L5,6 L5,11 L-3,4 L5,-3 L5,2 L15,2 Z" fill="#f59e0b"/>
+  </g>
+
+</svg>

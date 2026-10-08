@@ -1,0 +1,29 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Subtle background glow -->
+  <circle cx="100" cy="100" r="70" fill="#0f172a" opacity="0.6"/>
+
+  <!-- Price Tag String -->
+  <path d="M 100 40 Q 115 55 100 70" fill="none" stroke="#64748b" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Price Tag Body (Discount/打折 concept) -->
+  <g transform="rotate(-15, 100, 115)">
+    <!-- Main Tag -->
+    <path d="M 60 70 L 140 70 A 10 10 0 0 1 150 80 L 150 140 A 10 10 0 0 1 140 150 L 60 150 A 10 10 0 0 1 50 140 L 50 80 A 10 10 0 0 1 60 70 Z" fill="#fb923c"/>
+    
+    <!-- Tag Hole -->
+    <circle cx="70" cy="90" r="6" fill="#1e293b"/>
+
+    <!-- Cut/Discount Slash Icon (Abstract visual representation of % or slash) -->
+    <path d="M 80 130 L 120 90" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="90" cy="100" r="6" fill="#ffffff"/>
+    <circle cx="110" cy="120" r="6" fill="#ffffff"/>
+  </g>
+
+  <!-- Decorative Sparkles (to emphasize value/deal) -->
+  <path d="M 40 50 L 43 58 L 51 61 L 43 64 L 40 72 L 37 64 L 29 61 L 37 58 Z" fill="#f59e0b"/>
+  <path d="M 160 120 L 162 125 L 167 127 L 162 129 L 160 134 L 158 129 L 153 127 L 158 125 Z" fill="#38bdf8" transform="scale(0.8) translate(40, 20)"/>
+
+</svg>

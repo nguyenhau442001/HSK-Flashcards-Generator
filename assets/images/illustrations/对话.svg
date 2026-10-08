@@ -1,0 +1,48 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Decorative Background Glows -->
+  <circle cx="100" cy="100" r="70" fill="#0f172a" opacity="0.6"/>
+
+  <!-- Person Left (Cyan Theme) -->
+  <g transform="translate(0, 5)">
+    <!-- Body / Shoulders -->
+    <path d="M 40 135 C 40 120, 50 110, 65 110 C 80 110, 90 120, 90 135 Z" fill="#38bdf8" opacity="0.9"/>
+    <!-- Head -->
+    <circle cx="65" cy="85" r="15" fill="#38bdf8"/>
+    <!-- Hair -->
+    <path d="M 50 82 C 50 72, 60 68, 65 68 C 72 68, 80 72, 80 82 Z" fill="#bae6fd"/>
+  </g>
+
+  <!-- Person Right (Coral/Orange Theme) -->
+  <g transform="translate(0, 5)">
+    <!-- Body / Shoulders -->
+    <path d="M 110 135 C 110 120, 120 110, 135 110 C 150 110, 160 120, 160 135 Z" fill="#fb923c" opacity="0.9"/>
+    <!-- Head -->
+    <circle cx="135" cy="85" r="15" fill="#fb923c"/>
+    <!-- Hair -->
+    <path d="M 120 82 C 120 70, 130 68, 135 68 C 142 68, 150 70, 150 82 Z" fill="#ffedd5"/>
+  </g>
+
+  <!-- Speech Bubbles (Dialogue representation) -->
+  <!-- Left Speech Bubble -->
+  <g transform="translate(0, -5)">
+    <path d="M 45 60 L 75 60 C 80 60, 84 64, 84 69 L 84 81 C 84 86, 80 90, 75 90 L 63 90 L 53 100 L 56 90 L 45 90 C 40 90, 36 86, 36 81 L 36 69 C 36 64, 40 60, 45 60 Z" fill="#10b981"/>
+    <!-- Abstract conversation lines inside left bubble -->
+    <line x1="43" y1="71" x2="77" y2="71" stroke="#065f46" stroke-width="3" stroke-linecap="round"/>
+    <line x1="43" y1="79" x2="65" y2="79" stroke="#065f46" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right Speech Bubble -->
+  <g transform="translate(0, -5)">
+    <path d="M 125 50 L 155 50 C 160 50, 164 54, 164 59 L 164 71 C 164 76, 160 80, 155 80 L 144 80 L 147 90 L 137 80 L 125 80 C 120 80, 116 76, 116 71 L 116 59 C 116 54, 120 50, 125 50 Z" fill="#f59e0b"/>
+    <!-- Abstract conversation lines inside right bubble -->
+    <line x1="123" y1="61" x2="157" y2="61" stroke="#78350f" stroke-width="3" stroke-linecap="round"/>
+    <line x1="123" y1="69" x2="145" y2="69" stroke="#78350f" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Connecting energy/sound wave spark in the middle -->
+  <circle cx="100" cy="55" r="4" fill="#ffffff" opacity="0.8"/>
+  <path d="M 93 45 Q 100 35 107 45" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+</svg>

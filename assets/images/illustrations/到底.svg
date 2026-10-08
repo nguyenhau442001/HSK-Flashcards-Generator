@@ -1,0 +1,26 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Maze/Path motif representing "rốt cuộc" (getting to the bottom / core / center of a puzzle) -->
+  <path d="M 60 50 L 140 50 L 140 150 L 80 150 L 80 90 L 120 90 L 120 120" fill="none" stroke="#334155" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Glowing Center/Core representing the ultimate answer or "bottom" of the question -->
+  <circle cx="120" cy="120" r="28" fill="#0f172a"/>
+  <circle cx="120" cy="120" r="18" fill="#f59e0b" opacity="0.3"/>
+  <circle cx="120" cy="120" r="10" fill="#f59e0b"/>
+
+  <!-- Magnifying glass at the center looking closely, symbolizing getting to the root of the matter -->
+  <g transform="translate(100, 100) rotate(-45)">
+    <circle cx="0" cy="0" r="24" fill="none" stroke="#38bdf8" stroke-width="5"/>
+    <circle cx="0" cy="0" r="24" fill="#38bdf8" fill-opacity="0.15"/>
+    <line x1="17" y1="17" x2="35" y2="37" stroke="#38bdf8" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Dramatic glowing particle pointing to the core -->
+  <circle cx="120" cy="120" r="4" fill="#ffffff"/>
+  
+  <!-- Question-mark shaped stylized path or element hinting at "wanting to know what you really mean" -->
+  <path d="M 60 50 Q 60 30 100 30 Q 140 30 140 50 Q 140 70 100 85" fill="none" stroke="#10b981" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="100" cy="105" r="4" fill="#10b981"/>
+</svg>

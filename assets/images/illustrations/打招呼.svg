@@ -1,0 +1,43 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark-mode friendly container background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Decorative background elements -->
+  <circle cx="100" cy="100" r="60" fill="#0f172a" opacity="0.6"/>
+
+  <!-- Person 1 (Left - Student/Greeter) -->
+  <g id="person-left">
+    <!-- Body/Torso -->
+    <path d="M 50 145 C 50 125, 60 120, 75 120 C 90 120, 100 125, 100 145 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="75" cy="95" r="16" fill="#fde047"/>
+    <!-- Hair -->
+    <path d="M 59 92 C 59 80, 70 77, 76 77 C 88 77, 91 88, 91 94 Z" fill="#334155"/>
+    <!-- Waving Arm -->
+    <path d="M 68 123 Q 48 105, 42 90" stroke="#38bdf8" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <!-- Hand -->
+    <circle cx="40" cy="85" r="5" fill="#fde047"/>
+  </g>
+
+  <!-- Person 2 (Right - Teacher/Receiver) -->
+  <g id="person-right">
+    <!-- Body/Torso -->
+    <path d="M 100 145 C 100 125, 110 120, 125 120 C 140 120, 150 125, 150 145 Z" fill="#10b981"/>
+    <!-- Head -->
+    <circle cx="125" cy="95" r="16" fill="#fde047"/>
+    <!-- Hair (Teacher style/Glasses or neat hair) -->
+    <path d="M 109 95 C 109 80, 120 77, 130 77 C 141 77, 141 90, 141 95 Z" fill="#475569"/>
+    <!-- Raised Hand (Responding/Greeting back) -->
+    <path d="M 132 123 Q 152 105, 158 90" stroke="#10b981" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <!-- Hand -->
+    <circle cx="160" cy="85" r="5" fill="#fde047"/>
+  </g>
+
+  <!-- Friendly Greeting / Interaction Element (Speech bubble / energy lines) -->
+  <g id="greeting-sparkles">
+    <!-- Amber accent warmth of interaction -->
+    <path d="M 95 65 L 98 72 L 105 75 L 98 78 L 95 85 L 92 78 L 85 75 L 92 72 Z" fill="#f59e0b"/>
+    <circle cx="78" cy="62" r="3" fill="#fb923c"/>
+    <circle cx="122" cy="62" r="3" fill="#38bdf8"/>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Card -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Decorative Orbit Lines -->
+  <ellipse cx="100" cy="100" rx="70" ry="30" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4" transform="rotate(-25 100 100)"/>
+  
+  <!-- Little Star/Sparkles for Space Context -->
+  <path d="M45,45 L47,51 L53,53 L47,55 L45,61 L43,55 L37,53 L43,51 Z" fill="#fef08a" opacity="0.8"/>
+  <path d="M155,130 L1563,134 L160,135 L156,136 L155,140 L154,136 L150,135 L154,134 Z" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="140" cy="50" r="1.5" fill="#ffffff" opacity="0.5"/>
+  <circle cx="55" cy="140" r="2" fill="#ffffff" opacity="0.4"/>
+
+  <!-- Earth Shadow/Glow -->
+  <circle cx="100" cy="100" r="48" fill="#0284c7" opacity="0.2"/>
+
+  <!-- Earth Base (Oceans) -->
+  <circle cx="100" cy="100" r="42" fill="#0ea5e9"/>
+
+  <!-- Continents (Stylized Green Landmasses) -->
+  <!-- North/South America or Eurasia stylized shapes -->
+  <path d="M 85 70 C 90 65, 105 60, 110 75 C 115 90, 100 105, 95 120 C 90 125, 75 120, 75 110 C 75 95, 80 80, 85 70 Z" fill="#10b981"/>
+  <path d="M 115 85 C 125 75, 140 85, 135 100 C 130 115, 115 125, 110 115 C 105 105, 110 95, 115 85 Z" fill="#10b981"/>
+  <path d="M 75 80 C 70 75, 65 85, 70 90 C 75 95, 80 85, 75 80 Z" fill="#10b981"/>
+
+  <!-- Atmospheric Highlight (Curved Crescent Overlay) -->
+  <path d="M 61 75 C 75 58, 125 58, 139 75 C 120 62, 80 62, 61 75 Z" fill="#ffffff" opacity="0.25"/>
+
+  <!-- Friendly Atmosphere Ring -->
+  <circle cx="100" cy="100" r="42" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.5"/>
+
+</svg>

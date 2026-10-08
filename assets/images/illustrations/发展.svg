@@ -1,0 +1,49 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Subtle grid/horizon lines representing urban expansion -->
+  <path d="M 30 150 L 170 150" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 50 165 L 150 165" stroke="#334155" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Growing City Skyline silhouettes in background -->
+  <rect x="35" y="115" width="22" height="35" fill="#334155" opacity="0.5"/>
+  <rect x="62" y="95" width="28" height="55" fill="#334155" opacity="0.6"/>
+  <rect x="95" y="80" width="24" height="70" fill="#334155" opacity="0.7"/>
+  <rect x="124" y="105" width="30" height="45" fill="#334155" opacity="0.5"/>
+
+  <!-- Active Growth Elements (Modern skyscrapers being built/flourishing) -->
+  <!-- Growing Building 1 (Sky Blue) -->
+  <rect x="66" y="80" width="20" height="70" rx="2" fill="#38bdf8"/>
+  <line x1="76" y1="88" x2="76" y2="142" stroke="#0f172a" stroke-width="2" stroke-dasharray="3,4"/>
+
+  <!-- Growing Building 2 (Emerald Green - Tallest, center stage) -->
+  <path d="M 98 60 L 114 60 L 118 150 L 94 150 Z" fill="#10b981"/>
+  <!-- Windows on main building -->
+  <line x1="106" y1="70" x2="106" y2="140" stroke="#0f172a" stroke-width="3" stroke-dasharray="4,6"/>
+
+  <!-- Construction Crane / Growth Indicator (Amber) -->
+  <path d="M 114 60 L 140 38" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+  <line x1="140" y1="38" x2="152" y2="38" stroke="#f59e0b" stroke-width="2"/>
+  <line x1="140" y1="38" x2="140" y2="55" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="140" cy="38" r="3" fill="#fb923c"/>
+
+  <!-- Character actively building / guiding growth -->
+  <!-- Character Body (Coral & Slate) -->
+  <path d="M 75 130 C 75 120 85 120 85 130 L 88 150 L 72 150 Z" fill="#fb923c"/>
+  <!-- Character Head -->
+  <circle cx="80" cy="110" r="7" fill="#fb923c"/>
+  <!-- Hard hat -->
+  <path d="M 71 108 C 71 104 89 104 89 108 Z" fill="#f59e0b"/>
+
+  <!-- Raised arm pointing upward/forward (symbolizing progress and development) -->
+  <path d="M 83 125 L 98 105" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Dynamic Upward Growth Arrow / Sparkle (Emerald & Amber accents) -->
+  <path d="M 130 85 L 150 65 M 150 65 L 140 65 M 150 65 L 150 75" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Success / Growth Sparks -->
+  <circle cx="155" cy="50" r="3" fill="#f59e0b"/>
+  <circle cx="125" cy="45" r="2" fill="#10b981"/>
+  <circle cx="162" cy="90" r="2" fill="#38bdf8"/>
+</svg>

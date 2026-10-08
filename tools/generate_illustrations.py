@@ -65,6 +65,8 @@ def guess_pos(meaning):
     return 'noun'
 
 MODELS_TO_TRY = [
+    "gemini-flash-lite-latest",
+    "gemini-3.1-flash-lite",
     "gemini-3.5-flash-lite",
     "gemini-3.5-flash",
     "gemini-2.5-flash"
@@ -87,38 +89,46 @@ def call_gemini_svg_api(word_info, api_key, max_retries=3):
 
     if pos == "verb":
         action_guidance = (
-            "Visually depict a CLEAR HUMAN ACTION or CHARACTER actively performing this action in a recognizable real-world scenario "
-            "(e.g., someone organizing schedules on a board, someone packing a suitcase, someone warmly hugging, someone cleaning/sweeping). "
-            "DO NOT draw abstract shapes, symbols, or generic geometric icons."
+            f"Depict a RICH, DETAILED SCENE-BASED REAL-WORLD HUMAN ACTION representing the exact action of '{meaning}'. "
+            "Show a stylized, expressive character actively performing the action with authentic body language and posture. "
+            "Crucially, include ENVIRONMENT DETAILS and PROPS (e.g., room setting, stage, desk, tools, background lighting, foreground elements) "
+            "that immediately establish the real-world context of this action. DO NOT draw abstract symbols, geometric badges, or floating icons."
         )
     elif pos == "noun":
         action_guidance = (
-            "Visually depict the CONCRETE, PHYSICAL OBJECT or TANGIBLE ENVIRONMENT in clear recognizable detail "
-            "(e.g., a fresh apple, a desk with books and lamp, a steaming bowl, an airplane in the sky). "
-            "DO NOT draw abstract shapes or generic symbols."
+            f"Depict a VIVID, SCENE-BASED REAL-WORLD ENVIRONMENT or PHYSICAL OBJECT representing '{meaning}'. "
+            "Place the subject in an authentic, tangible context with surrounding props, realistic surfaces, atmospheric depth, and spatial details. "
+            "DO NOT draw generic isolated icons, abstract shapes, or simplistic geometric glyphs."
         )
     elif pos == "adj":
         action_guidance = (
-            "Visually depict an EXPRESSIVE HUMAN CHARACTER or REAL-WORLD SCENARIO vividly embodying this specific quality or emotion "
-            "(e.g., a person shivering with winter frost for cold, someone smiling with celebratory energy for happy). "
-            "DO NOT draw abstract shapes."
+            f"Depict a RICH REAL-WORLD SCENARIO with an EXPRESSIVE CHARACTER vividly embodying the state or emotion of '{meaning}'. "
+            "Show dynamic facial expression, communicative body posture, and immersive atmospheric environment (e.g. dramatic lighting, weather, or room ambiance) "
+            "that makes the feeling immediately intuitive. DO NOT draw abstract shapes or emojis."
         )
     else:
-        action_guidance = "Visually depict an intuitive, concrete real-world scenario illustrating this concept."
+        action_guidance = (
+            f"Depict an engaging, scene-based real-world scenario illustrating the communicative context of '{meaning}'. "
+            "Include relatable characters, props, and environment."
+        )
 
     prompt = (
-        f"You are a master 2D vector graphic illustrator for a language learning flashcard app.\n"
+        "You are an expert 2D vector illustrator and art director creating scene-based, action-packed illustrations for an HSK language learning app.\n"
         f"Target Vocabulary: {hanzi} ({pinyin}) - Meaning: '{meaning}' - Part of Speech: {pos}.{context_note}\n\n"
-        f"Core Illustration Rule:\n{action_guidance}\n\n"
-        "Visual Style & Quality Guidelines:\n"
-        "1. Minimalist modern 2D flat vector art, clean expressive silhouettes and contours.\n"
-        "2. Dark-mode friendly color theme: dark slate/navy container background (#0f172a or #1e293b rounded rectangle: <rect x=\"10\" y=\"10\" width=\"180\" height=\"180\" rx=\"24\" fill=\"#1e293b\"/>), accented with harmonious vibrant modern colors (emerald #10b981, amber #f59e0b, sky blue #38bdf8, coral #fb923c).\n"
-        "3. Valid standalone SVG: <svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"> with centered, well-balanced composition.\n"
-        "4. STRICT CONSTRAINTS:\n"
-        "   - ABSOLUTELY NO text, NO letters, NO words, NO subtitles, NO Chinese characters, NO English words, NO pinyin.\n"
+        "CRITICAL ART DIRECTION RULES:\n"
+        f"1. SCENE & SUBJECT: {action_guidance}\n"
+        "2. STYLE: Clean, friendly 2D flat cartoon or minimalist vector art with expressive contours and rich narrative depth.\n"
+        "3. COMPOSITION & CANVAS:\n"
+        "   - Valid SVG with viewBox=\"0 0 240 240\" xmlns=\"http://www.w3.org/2000/svg\".\n"
+        "   - Full-bleed container: <rect width=\"240\" height=\"240\" rx=\"24\" fill=\"#1e293b\"/> (or gradient from #0f172a to #1e293b).\n"
+        "   - The illustration must fill the canvas space, featuring the main subject prominently with context props.\n"
+        "4. COLOR PALETTE:\n"
+        "   - Dark-mode harmonious: Deep slate navy (#0f172a, #1e293b) background, muted blues, warm golden/amber glows (#f59e0b, #fbbf24), and energetic modern accents (#38bdf8, #10b981, #ec4899, #fb923c).\n"
+        "5. STRICT NEGATIVE CONSTRAINTS:\n"
+        f"   - ABSOLUTELY NO abstract symbols, logos, minimalist icons, or generic badges.\n"
+        f"   - ABSOLUTELY NO text, NO letters, NO words, NO subtitles, NO Chinese characters (NO {hanzi}), NO English words, NO pinyin.\n"
         "   - ABSOLUTELY NO Gemini logo, NO brand logos, NO watermarks.\n"
-        "   - Pure visual storytelling and concrete memory anchoring.\n"
-        "5. Output ONLY the raw <svg>...</svg> code, without markdown backticks, without any explanation."
+        "6. Return ONLY the raw <svg>...</svg> code, without markdown backticks, without any explanation."
     )
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],

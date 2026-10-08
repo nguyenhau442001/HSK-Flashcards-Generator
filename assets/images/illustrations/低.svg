@@ -1,0 +1,49 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Card -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Floor Line -->
+  <line x1="30" y1="150" x2="170" y2="150" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Short Chair (Illustrating 'Low' / 'Thấp') -->
+  <!-- Chair Seat -->
+  <rect x="75" y="115" width="50" height="10" rx="3" fill="#38bdf8"/>
+  
+  <!-- Chair Legs (Short) -->
+  <line x1="82" y1="125" x2="77" y2="150" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round"/>
+  <line x1="118" y1="125" x2="123" y2="150" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Chair Backrest (Short & Compact) -->
+  <path d="M 75 115 L 75 90 C 75 87 78 85 81 85 L 83 85 C 86 85 89 87 89 90 L 89 115 Z" fill="#38bdf8"/>
+
+  <!-- Expressive Character trying to sit / bending down comfortably -->
+  <!-- Character Body (Sitting / Squatting low) -->
+  <!-- Legs bent -->
+  <path d="M 90 135 C 90 120 100 115 110 125 L 115 145" stroke="#f59e0b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Torso -->
+  <path d="M 90 135 L 92 110 C 93 100 102 100 105 110 L 105 135" fill="#f59e0b"/>
+
+  <!-- Head & Happy Expression -->
+  <circle cx="98" cy="85" r="14" fill="#fb923c"/>
+  <!-- Happy Closed Eyes (Arcs) -->
+  <path d="M 93 83 A 3 3 0 0 1 97 83" stroke="#1e293b" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M 99 83 A 3 3 0 0 1 103 83" stroke="#1e293b" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Smile -->
+  <path d="M 95 89 Q 98 92 101 89" stroke="#1e293b" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Arms relaxed/touching knees -->
+  <path d="M 93 115 Q 100 120 108 122" stroke="#f59e0b" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <!-- Height indicator arrows comparing standard height vs low chair -->
+  <!-- Dotted reference line for standard height -->
+  <line x1="145" y1="70" x2="145" y2="150" stroke="#475569" stroke-width="2" stroke-dasharray="4 4" stroke-linecap="round"/>
+  
+  <!-- Low measurement bracket -->
+  <path d="M 135 115 L 140 115 L 140 150 L 135 150" stroke="#10b981" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Accent dots -->
+  <circle cx="40" cy="50" r="3" fill="#334155"/>
+  <circle cx="160" cy="45" r="2" fill="#334155"/>
+  <circle cx="35" cy="110" r="2" fill="#334155"/>
+</svg>

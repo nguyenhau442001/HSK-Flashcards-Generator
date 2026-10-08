@@ -1,0 +1,45 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Card Background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Decorative Background Elements (Subtle Grid/Radius) -->
+  <circle cx="100" cy="100" r="60" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="100" cy="100" r="40" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="2 2"/>
+
+  <!-- Compass / Location Scene -->
+  <!-- Compass Base Ring -->
+  <circle cx="100" cy="95" r="48" fill="#0f172a" stroke="#38bdf8" stroke-width="3"/>
+  <circle cx="100" cy="95" r="42" fill="#1e293b"/>
+
+  <!-- Compass Needle (Pointing to location) -->
+  <polygon points="100,59 93,95 100,85" fill="#f59e0b"/>
+  <polygon points="100,131 107,95 100,105" fill="#64748b"/>
+  <polygon points="100,59 107,95 100,85" fill="#fb923c"/>
+  <polygon points="100,131 93,95 100,105" fill="#475569"/>
+  <circle cx="100" cy="95" r="5" fill="#ffffff"/>
+
+  <!-- Map Pin (Main Focal Point representing "địa điểm") -->
+  <g transform="translate(0, -5)">
+    <!-- Pin Drop Shadow -->
+    <ellipse cx="100" cy="148" rx="8" ry="3" fill="#0f172a"/>
+    
+    <!-- Pin Body -->
+    <path d="M 100 68 
+             C 88 68, 78 78, 78 90 
+             C 78 106, 100 135, 100 135 
+             C 100 135, 122 106, 122 90 
+             C 122 78, 112 68, 100 68 Z" 
+          fill="#10b981" 
+          stroke="#0f172a" 
+          stroke-width="2"/>
+          
+    <!-- Inner Pin Hole -->
+    <circle cx="100" cy="90" r="6" fill="#1e293b"/>
+  </g>
+
+  <!-- Floating Destination Sparkles -->
+  <path d="M 50 65 Q 55 65 55 60 Q 55 65 60 65 Q 55 65 55 70 Q 55 65 50 65 Z" fill="#38bdf8"/>
+  <path d="M 145 110 Q 148 110 148 107 Q 148 110 151 110 Q 148 110 148 113 Q 148 110 145 110 Z" fill="#f59e0b"/>
+  <path d="M 135 55 Q 138 55 138 52 Q 138 55 141 55 Q 138 55 138 58 Q 138 55 135 55 Z" fill="#10b981"/>
+
+</svg>

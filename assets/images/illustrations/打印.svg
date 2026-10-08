@@ -1,0 +1,43 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Printer Body (Modern Flat Style) -->
+  <g transform="translate(35, 60)">
+    <!-- Paper Input Tray (Back) -->
+    <path d="M45 15 L85 15 L95 40 L35 40 Z" fill="#475569" opacity="0.8"/>
+    
+    <!-- Blank Paper feeding in -->
+    <rect x="42" y="8" width="46" height="32" rx="2" fill="#f8fafc"/>
+    <line x1="50" y1="16" x2="80" y2="16" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+    <line x1="50" y1="24" x2="70" y2="24" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Main Printer Lower Body -->
+    <rect x="10" y="35" width="110" height="55" rx="8" fill="#334155"/>
+    <rect x="15" y="30" width="100" height="10" rx="3" fill="#475569"/>
+
+    <!-- Status Lights / Interface -->
+    <circle cx="26" cy="45" r="3" fill="#38bdf8"/>
+    <circle cx="36" cy="45" r="3" fill="#10b981"/>
+
+    <!-- Paper Output Tray -->
+    <path d="M15 90 L115 90 L105 110 L25 110 Z" fill="#475569"/>
+
+    <!-- Printed Document sliding out (Vibrant with mock lines/graphics) -->
+    <g transform="translate(25, 65)">
+      <path d="M0 0 L80 0 L75 45 L5 45 Z" fill="#f8fafc" filter="drop-shadow(0px 4px 6px rgba(0,0,0,0.2))"/>
+      
+      <!-- Document Header Icon & Lines -->
+      <circle cx="15" cy="12" r="4" fill="#38bdf8"/>
+      <line x1="24" y1="10" x2="60" y2="10" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+      
+      <!-- Document Content Lines -->
+      <line x1="12" y1="22" x2="68" y2="22" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round"/>
+      <line x1="12" y1="29" x2="52" y2="29" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- Accent Graphic / Stamp on printed document -->
+      <circle cx="58" cy="36" r="6" fill="#10b981"/>
+      <path d="M55 36 L57 38 L62 33" fill="none" stroke="#f8fafc" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

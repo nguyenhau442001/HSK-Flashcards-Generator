@@ -1,0 +1,39 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded container background for dark-mode -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Ambient background glow representing an event/occurrence -->
+  <circle cx="100" cy="100" r="55" fill="#38bdf8" opacity="0.1"/>
+  
+  <!-- Surprise/Happening rays (Starburst) -->
+  <g stroke="#f59e0b" stroke-width="3" stroke-linecap="round" opacity="0.8">
+    <line x1="100" y1="35" x2="100" y2="20" />
+    <line x1="100" y1="165" x2="100" y2="180" />
+    <line x1="35" y1="100" x2="20" y2="100" />
+    <line x1="165" y1="100" x2="180" y2="100" />
+    <line x1="54" y1="54" x2="43" y2="43" />
+    <line x1="146" y1="146" x2="157" y2="157" />
+    <line x1="54" y1="146" x2="43" y2="157" />
+    <line x1="146" y1="54" x2="157" y2="43" />
+  </g>
+
+  <!-- Glowing core / Spark (Tangible 'Happening' focal point) -->
+  <circle cx="100" cy="100" r="38" fill="#0f172a" stroke="#38bdf8" stroke-width="4"/>
+  
+  <!-- Lightbulb (Idea / Something interesting occurred) -->
+  <!-- Bulb Base -->
+  <path d="M 92 124 H 108 V 132 C 108 136 104 138 100 138 C 96 138 92 136 92 132 Z" fill="#94a3b8"/>
+  <rect x="94" y="118" width="12" height="4" rx="1" fill="#64748b"/>
+  
+  <!-- Bulb Glass Body -->
+  <path d="M 82 86 C 82 72 90 65 100 65 C 110 65 118 72 118 86 C 118 95 112 102 108 108 C 105 112 104 116 104 118 H 96 C 96 116 95 112 92 108 C 88 102 82 95 82 86 Z" fill="#f59e0b"/>
+  
+  <!-- Bulb Inner Highlight (Modern flat vector detail) -->
+  <path d="M 90 82 C 90 76 94 72 100 71" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Action Sparks / Floating Elements (Joyful occurrence) -->
+  <circle cx="68" cy="62" r="4" fill="#10b981"/>
+  <circle cx="132" cy="62" r="3" fill="#38bdf8"/>
+  <circle cx="140" cy="115" r="4" fill="#fb923c"/>
+  <circle cx="60" cy="115" r="3" fill="#f59e0b"/>
+</svg>

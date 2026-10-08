@@ -1,0 +1,45 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark-mode container background -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Subtle background ambient circles -->
+  <circle cx="100" cy="100" r="70" fill="#0f172a" opacity="0.6"/>
+
+  <!-- Character 1 (Apologizer - bowing deeply) -->
+  <g id="apologizer">
+    <!-- Body/Torso leaning forward -->
+    <path d="M 65 115 Q 80 120 95 105 L 85 90 Q 70 95 65 115 Z" fill="#38bdf8"/>
+    <!-- Head bowing down -->
+    <circle cx="53" cy="98" r="10" fill="#fb923c"/>
+    <!-- Hair -->
+    <path d="M 47 94 Q 53 88 59 95 Z" fill="#475569"/>
+    <!-- Arms reaching forward in apology gesture -->
+    <path d="M 75 108 L 45 118" stroke="#fb923c" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 80 102 L 50 110" stroke="#fb923c" stroke-width="5" stroke-linecap="round"/>
+    <!-- Legs standing -->
+    <path d="M 90 120 L 93 150" stroke="#334155" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 98 120 L 102 150" stroke="#334155" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character 2 (Receiver - standing, arms crossed or listening, receptive) -->
+  <g id="receiver">
+    <!-- Torso -->
+    <path d="M 125 80 L 145 80 L 140 145 L 125 145 Z" fill="#10b981"/>
+    <!-- Head -->
+    <circle cx="135" cy="62" r="10" fill="#f59e0b"/>
+    <!-- Hair -->
+    <path d="M 127 58 Q 135 52 143 58 Z" fill="#334155"/>
+    <!-- Arms crossed/soft posture -->
+    <path d="M 140 85 L 125 100 L 138 108" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Legs -->
+    <path d="M 130 145 L 130 162" stroke="#334155" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 140 145 L 140 162" stroke="#334155" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Emotional / Interaction visual cues (gentle softening wave) -->
+  <path d="M 105 85 Q 115 75 125 85" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M 100 75 Q 115 60 130 75" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.4"/>
+  
+  <!-- Little heart/understanding accent floating above -->
+  <path d="M 112 50 C 112 47 108 43 103 47 C 98 43 94 47 94 50 C 94 55 103 60 103 60 C 103 60 112 55 112 50 Z" fill="#fb923c" opacity="0.8"/>
+</svg>

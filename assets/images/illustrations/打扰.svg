@@ -1,0 +1,44 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Subtle ambient glow/shadow to enhance depth -->
+  <circle cx="100" cy="100" r="70" fill="#0f172a" opacity="0.4"/>
+
+  <!-- Office Desk -->
+  <rect x="35" y="130" width="130" height="8" rx="4" fill="#334155"/>
+  <rect x="55" y="138" width="12" height="25" rx="3" fill="#475569"/>
+  <rect x="133" y="138" width="12" height="25" rx="3" fill="#475569"/>
+
+  <!-- Computer Monitor -->
+  <rect x="65" y="65" width="70" height="48" rx="6" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+  <rect x="70" y="70" width="60" height="34" rx="3" fill="#38bdf8" opacity="0.2"/>
+  <rect x="95" y="113" width="10" height="17" fill="#475569"/>
+  <rect x="85" y="130" width="30" height="4" rx="2" fill="#475569"/>
+
+  <!-- Character 1 (Working/Focused at the desk - Left side) -->
+  <!-- Body/Torso -->
+  <path d="M 50 135 C 50 115 65 110 75 110 C 85 110 95 115 95 135 Z" fill="#38bdf8"/>
+  <!-- Head -->
+  <circle cx="72" cy="95" r="11" fill="#fbcfe8"/>
+  <!-- Hair -->
+  <path d="M 61 95 C 61 85 83 85 83 95 C 83 91 80 87 72 87 C 64 87 61 91 61 95 Z" fill="#f59e0b"/>
+
+  <!-- Character 2 (Intruding/Tapping on shoulder - Right side, "Interrupting/Làm phiền") -->
+  <!-- Body leaning in -->
+  <path d="M 150 140 C 150 120 135 110 120 110 C 110 110 100 120 100 140 Z" fill="#10b981"/>
+  <!-- Head -->
+  <circle cx="130" cy="92" r="11" fill="#fed7aa"/>
+  <!-- Hair -->
+  <path d="M 119 90 C 119 80 141 80 141 90 C 141 85 137 83 130 83 C 123 83 119 85 119 90 Z" fill="#334155"/>
+  
+  <!-- Reaching arm tapping Character 1 -->
+  <path d="M 120 115 C 105 115 95 110 82 108" fill="none" stroke="#10b981" stroke-width="6" stroke-linecap="round"/>
+  <!-- Hand -->
+  <circle cx="79" cy="108" r="4" fill="#fed7aa"/>
+
+  <!-- Visual indicator for interruption / tapping (Action lines / Sparkles in amber) -->
+  <path d="M 73 98 L 68 93" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 70 103 L 63 103" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="65" cy="97" r="1.5" fill="#f59e0b"/>
+</svg>

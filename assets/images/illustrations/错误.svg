@@ -1,0 +1,49 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Subtle background grid/glow elements for modern tech feel -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="4 8" opacity="0.5"/>
+
+  <!-- The Document/Test Paper (representing "Bài viết này") -->
+  <g transform="translate(55, 38)">
+    <!-- Paper base -->
+    <rect x="0" y="0" width="90" height="110" rx="8" fill="#f8fafc" />
+    
+    <!-- Paper header line -->
+    <rect x="15" y="15" width="40" height="6" rx="3" fill="#cbd5e1" />
+    
+    <!-- Correct lines (muted teal/slate) -->
+    <rect x="15" y="32" width="60" height="4" rx="2" fill="#94a3b8" />
+    <rect x="15" y="46" width="50" height="4" rx="2" fill="#94a3b8" />
+
+    <!-- Error line with highlighted wrong text simulation -->
+    <rect x="15" y="60" width="60" height="4" rx="2" fill="#fca5a5" />
+
+    <!-- More lines -->
+    <rect x="15" y="74" width="45" height="4" rx="2" fill="#94a3b8" />
+    <rect x="15" y="88" width="55" height="4" rx="2" fill="#94a3b8" />
+  </g>
+
+  <!-- Large Vibrant Coral/Red 'X' Mark overlaying the document to signify "cuòwù" (lỗi sai) -->
+  <g filter="drop-shadow(0px 6px 12px rgba(0, 0, 0, 0.3))">
+    <!-- Outer glow/stroke for contrast -->
+    <path d="M 68 68 L 132 132 M 132 68 L 68 132" 
+          stroke="#1e293b" 
+          stroke-width="18" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Main bright coral X -->
+    <path d="M 68 68 L 132 132 M 132 68 L 68 132" 
+          stroke="#fb923c" 
+          stroke-width="10" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+  </g>
+
+  <!-- Small floating error indicator sparkles/dots for visual flair -->
+  <circle cx="145" cy="55" r="5" fill="#f59e0b" />
+  <circle cx="50" cy="120" r="4" fill="#38bdf8" />
+  <circle cx="125" cy="145" r="3" fill="#10b981" />
+</svg>

@@ -1,0 +1,39 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Card -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Floor Surface -->
+  <path d="M 30 145 L 170 145" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Left Speaker (Agreeing/Neutral - Blue Theme) -->
+  <g transform="translate(55, 95)">
+    <!-- Body -->
+    <path d="M -15 35 L -15 10 C -15 0, -5 -5, 0 -5 C 5 -5, 15 0, 15 10 L 15 35" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="0" cy="-18" r="10" fill="#38bdf8"/>
+    <!-- Nodding arm gesture (pointing slightly forward) -->
+    <path d="M -15 5 C -22 10, -25 20, -20 25" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Right Speaker (Opposing/Refusing - Coral/Red Theme) -->
+  <g transform="translate(145, 95)">
+    <!-- Body (Slightly leaned back posture) -->
+    <path d="M -10 35 L -5 10 C -5 0, 5 -5, 12 -2 C 18 1, 20 10, 18 35" fill="#fb7185"/>
+    <!-- Head -->
+    <circle cx="8" cy="-17" r="10" fill="#fb7185"/>
+    <!-- Rejecting Arm Gesture (STOP / Hand Up) -->
+    <path d="M 12 5 C 22 5, 28 -2, 32 -10" stroke="#fb7185" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <circle cx="33" cy="-13" r="4" fill="#fb923c"/>
+  </g>
+
+  <!-- Central Disagreement / Opposition Visual Barrier (Shield / Cross Marker) -->
+  <!-- Bold Amber/Coral Rejection Shield -->
+  <g transform="translate(100, 85)">
+    <circle cx="0" cy="0" r="22" fill="#0f172a" stroke="#334155" stroke-width="3"/>
+    <!-- Red X representing opposition/refusal -->
+    <path d="M -9 -9 L 9 9 M 9 -9 L -9 9" stroke="#fb7185" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Decorative Context Elements (Meeting/Discussion Table hint) -->
+  <path d="M 60 145 L 140 145" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+</svg>

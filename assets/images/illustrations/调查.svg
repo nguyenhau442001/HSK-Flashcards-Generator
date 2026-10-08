@@ -1,0 +1,58 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+  
+  <!-- Decorative Background Glow/Elements -->
+  <circle cx="100" cy="100" r="70" fill="#0f172a" opacity="0.6"/>
+  
+  <!-- Clipboard / Survey Board -->
+  <g transform="translate(45, 30)">
+    <!-- Clipboard Shadow -->
+    <rect x="8" y="8" width="94" height="134" rx="12" fill="#0f172a" opacity="0.5"/>
+    
+    <!-- Main Board -->
+    <rect x="4" y="4" width="94" height="134" rx="12" fill="#38bdf8"/>
+    <rect x="6" y="6" width="90" height="130" rx="10" fill="#f8fafc"/>
+    
+    <!-- Metal Clip -->
+    <rect x="30" y="0" width="42" height="14" rx="4" fill="#94a3b8"/>
+    <rect x="36" y="4" width="30" height="8" rx="2" fill="#cbd5e1"/>
+    
+    <!-- Survey Content (Checklist lines & checkboxes) -->
+    <!-- Item 1 -->
+    <rect x="18" y="28" width="12" height="12" rx="3" fill="#e2e8f0"/>
+    <path d="M20 34 L23 37 L29 30" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="38" y="31" width="36" height="6" rx="3" fill="#cbd5e1"/>
+    
+    <!-- Item 2 -->
+    <rect x="18" y="52" width="12" height="12" rx="3" fill="#e2e8f0"/>
+    <path d="M20 58 L23 61 L29 54" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="38" y="55" width="44" height="6" rx="3" fill="#cbd5e1"/>
+    
+    <!-- Item 3 -->
+    <rect x="18" y="76" width="12" height="12" rx="3" fill="#e2e8f0"/>
+    <path d="M20 82 L23 85 L29 78" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="38" y="79" width="28" height="6" rx="3" fill="#cbd5e1"/>
+    
+    <!-- Item 4 (Unchecked/Active) -->
+    <rect x="18" y="100" width="12" height="12" rx="3" fill="#e2e8f0"/>
+    <rect x="38" y="103" width="38" height="6" rx="3" fill="#e2e8f0"/>
+  </g>
+  
+  <!-- Magnifying Glass (Investigation Tool) -->
+  <g transform="translate(85, 80)">
+    <!-- Glass Shadow -->
+    <circle cx="43" cy="43" r="32" fill="#0f172a" opacity="0.4"/>
+    
+    <!-- Handle -->
+    <path d="M20 20 L2 2" stroke="#0f172a" stroke-width="12" stroke-linecap="round"/>
+    <path d="M20 20 L2 2" stroke="#fb923c" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Outer Rim -->
+    <circle cx="43" cy="43" r="30" fill="#f59e0b"/>
+    
+    <!-- Inner Lens / Reflection -->
+    <circle cx="43" cy="43" r="23" fill="#38bdf8"/>
+    <path d="M30 28 A 20 20 0 0 1 58 56" fill="none" stroke="#f8fafc" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

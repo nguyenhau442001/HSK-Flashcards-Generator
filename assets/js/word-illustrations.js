@@ -601,6 +601,271 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "窗户.svg",
     "src": "assets/images/illustrations/窗户.svg",
     "caption": "cửa sổ"
+  },
+  "词语": {
+    "file": "词语.svg",
+    "src": "assets/images/illustrations/词语.svg",
+    "caption": "từ ngữ"
+  },
+  "从来": {
+    "file": "从来.svg",
+    "src": "assets/images/illustrations/从来.svg",
+    "caption": "từ trước đến nay, luôn luôn"
+  },
+  "粗心": {
+    "file": "粗心.svg",
+    "src": "assets/images/illustrations/粗心.svg",
+    "caption": "cẩu thả, bất cẩn"
+  },
+  "存": {
+    "file": "存.svg",
+    "src": "assets/images/illustrations/存.svg",
+    "caption": "gửi, lưu trữ"
+  },
+  "错误": {
+    "file": "错误.svg",
+    "src": "assets/images/illustrations/错误.svg",
+    "caption": "sai sót, lỗi"
+  },
+  "答案": {
+    "file": "答案.svg",
+    "src": "assets/images/illustrations/答案.svg",
+    "caption": "câu trả lời, đáp án"
+  },
+  "打招呼": {
+    "file": "打招呼.svg",
+    "src": "assets/images/illustrations/打招呼.svg",
+    "caption": "chào hỏi"
+  },
+  "打扮": {
+    "file": "打扮.svg",
+    "src": "assets/images/illustrations/打扮.svg",
+    "caption": "trang điểm, ăn diện"
+  },
+  "打扰": {
+    "file": "打扰.svg",
+    "src": "assets/images/illustrations/打扰.svg",
+    "caption": "làm phiền"
+  },
+  "打印": {
+    "file": "打印.svg",
+    "src": "assets/images/illustrations/打印.svg",
+    "caption": "in (ấn)"
+  },
+  "打折": {
+    "file": "打折.svg",
+    "src": "assets/images/illustrations/打折.svg",
+    "caption": "giảm giá"
+  },
+  "打针": {
+    "file": "打针.svg",
+    "src": "assets/images/illustrations/打针.svg",
+    "caption": "tiêm thuốc"
+  },
+  "大概": {
+    "file": "大概.svg",
+    "src": "assets/images/illustrations/大概.svg",
+    "caption": "đại khái, có lẽ"
+  },
+  "大使馆": {
+    "file": "大使馆.svg",
+    "src": "assets/images/illustrations/大使馆.svg",
+    "caption": "đại sứ quán"
+  },
+  "大约": {
+    "file": "大约.svg",
+    "src": "assets/images/illustrations/大约.svg",
+    "caption": "khoảng, ước chừng"
+  },
+  "戴": {
+    "file": "戴.svg",
+    "src": "assets/images/illustrations/戴.svg",
+    "caption": "đội, đeo"
+  },
+  "大夫": {
+    "file": "大夫.svg",
+    "src": "assets/images/illustrations/大夫.svg",
+    "caption": "bác sĩ"
+  },
+  "当": {
+    "file": "当.svg",
+    "src": "assets/images/illustrations/当.svg",
+    "caption": "khi, lúc"
+  },
+  "当时": {
+    "file": "当时.svg",
+    "src": "assets/images/illustrations/当时.svg",
+    "caption": "lúc đó, khi đó"
+  },
+  "刀": {
+    "file": "刀.svg",
+    "src": "assets/images/illustrations/刀.svg",
+    "caption": "dao"
+  },
+  "导游": {
+    "file": "导游.svg",
+    "src": "assets/images/illustrations/导游.svg",
+    "caption": "hướng dẫn viên du lịch"
+  },
+  "倒": {
+    "file": "倒.svg",
+    "src": "assets/images/illustrations/倒.svg",
+    "caption": "đổ, lật ngược"
+  },
+  "到处": {
+    "file": "到处.svg",
+    "src": "assets/images/illustrations/到处.svg",
+    "caption": "khắp nơi"
+  },
+  "到底": {
+    "file": "到底.svg",
+    "src": "assets/images/illustrations/到底.svg",
+    "caption": "rốt cuộc"
+  },
+  "道歉": {
+    "file": "道歉.svg",
+    "src": "assets/images/illustrations/道歉.svg",
+    "caption": "xin lỗi"
+  },
+  "得意": {
+    "file": "得意.svg",
+    "src": "assets/images/illustrations/得意.svg",
+    "caption": "tự đắc, hài lòng"
+  },
+  "地点": {
+    "file": "地点.svg",
+    "src": "assets/images/illustrations/地点.svg",
+    "caption": "địa điểm"
+  },
+  "得（助动词）": {
+    "file": "得（助动词）.svg",
+    "src": "assets/images/illustrations/得（助动词）.svg",
+    "caption": "phải, cần"
+  },
+  "登机牌": {
+    "file": "登机牌.svg",
+    "src": "assets/images/illustrations/登机牌.svg",
+    "caption": "thẻ lên máy bay"
+  },
+  "等（动）": {
+    "file": "等（动）.svg",
+    "src": "assets/images/illustrations/等（动）.svg",
+    "caption": "đợi, chờ"
+  },
+  "低": {
+    "file": "低.svg",
+    "src": "assets/images/illustrations/低.svg",
+    "caption": "thấp"
+  },
+  "底": {
+    "file": "底.svg",
+    "src": "assets/images/illustrations/底.svg",
+    "caption": "đáy"
+  },
+  "地球": {
+    "file": "地球.svg",
+    "src": "assets/images/illustrations/地球.svg",
+    "caption": "địa cầu, Trái Đất"
+  },
+  "地址": {
+    "file": "地址.svg",
+    "src": "assets/images/illustrations/地址.svg",
+    "caption": "địa chỉ"
+  },
+  "掉": {
+    "file": "掉.svg",
+    "src": "assets/images/illustrations/掉.svg",
+    "caption": "rơi, mất"
+  },
+  "调查": {
+    "file": "调查.svg",
+    "src": "assets/images/illustrations/调查.svg",
+    "caption": "điều tra"
+  },
+  "丢": {
+    "file": "丢.svg",
+    "src": "assets/images/illustrations/丢.svg",
+    "caption": "mất, đánh mất"
+  },
+  "动作": {
+    "file": "动作.svg",
+    "src": "assets/images/illustrations/动作.svg",
+    "caption": "động tác"
+  },
+  "堵车": {
+    "file": "堵车.svg",
+    "src": "assets/images/illustrations/堵车.svg",
+    "caption": "tắc đường"
+  },
+  "肚子": {
+    "file": "肚子.svg",
+    "src": "assets/images/illustrations/肚子.svg",
+    "caption": "bụng"
+  },
+  "短信": {
+    "file": "短信.svg",
+    "src": "assets/images/illustrations/短信.svg",
+    "caption": "tin nhắn"
+  },
+  "对于": {
+    "file": "对于.svg",
+    "src": "assets/images/illustrations/对于.svg",
+    "caption": "đối với"
+  },
+  "对话": {
+    "file": "对话.svg",
+    "src": "assets/images/illustrations/对话.svg",
+    "caption": "đối thoại"
+  },
+  "对面": {
+    "file": "对面.svg",
+    "src": "assets/images/illustrations/对面.svg",
+    "caption": "đối diện"
+  },
+  "而": {
+    "file": "而.svg",
+    "src": "assets/images/illustrations/而.svg",
+    "caption": "mà, và"
+  },
+  "儿童": {
+    "file": "儿童.svg",
+    "src": "assets/images/illustrations/儿童.svg",
+    "caption": "trẻ em"
+  },
+  "发生": {
+    "file": "发生.svg",
+    "src": "assets/images/illustrations/发生.svg",
+    "caption": "phát sinh, xảy ra"
+  },
+  "发展": {
+    "file": "发展.svg",
+    "src": "assets/images/illustrations/发展.svg",
+    "caption": "phát triển"
+  },
+  "法律": {
+    "file": "法律.svg",
+    "src": "assets/images/illustrations/法律.svg",
+    "caption": "pháp luật"
+  },
+  "翻译": {
+    "file": "翻译.svg",
+    "src": "assets/images/illustrations/翻译.svg",
+    "caption": "dịch, phiên dịch"
+  },
+  "烦恼": {
+    "file": "烦恼.svg",
+    "src": "assets/images/illustrations/烦恼.svg",
+    "caption": "phiền muộn"
+  },
+  "反对": {
+    "file": "反对.svg",
+    "src": "assets/images/illustrations/反对.svg",
+    "caption": "phản đối"
+  },
+  "方法": {
+    "file": "方法.svg",
+    "src": "assets/images/illustrations/方法.svg",
+    "caption": "phương pháp"
   }
 };
 
@@ -775,22 +1040,22 @@ function buildContextualPrompt(word) {
   let actionScene = '';
   switch (posCode) {
     case 'verb':
-      actionScene = `A clear, engaging human action scene showing a person or character actively performing the action of '${meaning}' in a recognizable daily-life setting. Depict dynamic posture, purposeful interaction with hands or tools, and clear intent.`;
+      actionScene = `A rich, detailed scene-based real-world human action representing the exact definition of '${meaning}'. Show a stylized, expressive character actively performing the action with authentic body posture and emotion. Include environmental details and props (e.g. stage, room, tools, surfaces, lighting, foreground and background elements) to clearly establish the context of the action. Absolutely NO abstract symbols, geometric badges, or floating icons.`;
       break;
     case 'noun':
-      actionScene = `A concrete, recognizable real-world object, item, or physical environment representing '${meaning}'. Depict tactile details, tangible geometry, and natural arrangement rather than generic abstract icons.`;
+      actionScene = `A vivid, scene-based real-world environment or tangible physical object representing '${meaning}'. Place the subject in an authentic, tangible context with surrounding props, realistic surfaces, atmospheric depth, and spatial details rather than an isolated generic icon.`;
       break;
     case 'adj':
-      actionScene = `A vivid real-world scenario or expressive character embodying the quality or emotional state of '${meaning}'. Use expressive facial emotion, body language, or environmental atmosphere to make the feeling instantly intuitive.`;
+      actionScene = `A rich real-world scenario featuring an expressive character vividly embodying the state or emotion of '${meaning}'. Depict expressive facial emotion, dynamic body posture, and immersive atmospheric ambiance (e.g., dramatic lighting, weather, or room setting) making the concept immediately intuitive.`;
       break;
     case 'adv':
-      actionScene = `A storytelling visual scene depicting the manner, degree, or timing of '${meaning}'. E.g. someone acting with high precision, speed, or repetition in a relatable context.`;
+      actionScene = `An engaging storytelling visual scene depicting the manner, degree, or timing of '${meaning}' in a relatable everyday context with active characters and environmental props.`;
       break;
     case 'measure':
-      actionScene = `A modular grouping of everyday tangible items demonstrating the counting unit concept of '${meaning}', stacked or arranged neatly in an authentic context.`;
+      actionScene = `A modular grouping of everyday tangible items demonstrating the counting unit concept of '${meaning}', stacked or arranged neatly in an authentic real-world scene.`;
       break;
     default:
-      actionScene = `An intuitive, meaningful real-world scenario illustrating the communicative concept of '${meaning}'.`;
+      actionScene = `An intuitive, scene-based real-world scenario illustrating the communicative concept of '${meaning}' with characters, props, and environment.`;
   }
 
   // Include contextual scenario clue if example sentence is available
@@ -802,10 +1067,10 @@ function buildContextualPrompt(word) {
   }
 
   // Strict visual style guidelines
-  const visualStyle = 'Minimalist 2D vector flat art, clean geometric contours, modern vector illustration, sophisticated dark-mode friendly color palette with deep slate navy background (#0f172a, #1e293b) and harmonious vibrant accents (emerald #10b981, amber #f59e0b, sky blue #38bdf8, coral #fb923c). Centered composition with generous breathing margins.';
+  const visualStyle = 'Clean, friendly 2D flat cartoon or minimalist vector illustration with expressive contours, rich narrative depth, and full-bleed composition filling the container space. Dark-mode friendly color palette with deep slate navy background (#0f172a, #1e293b), muted blues, warm golden/amber glows (#f59e0b, #fbbf24), and energetic modern accents (#38bdf8, #10b981, #ec4899, #fb923c).';
 
   // Strict negative constraints
-  const negativeConstraints = 'STRICT NEGATIVE CONSTRAINTS: Absolutely NO text, NO letters, NO words, NO subtitles, NO typography, NO Chinese characters, NO Hanzi, NO English words, NO pinyin, NO brand logos, NO Gemini logos, NO watermarks, NO 3D photorealistic rendering.';
+  const negativeConstraints = 'STRICT NEGATIVE CONSTRAINTS: Absolutely NO abstract symbols, NO logos, NO minimalist icons, NO geometric badges. Absolutely NO text, NO letters, NO words, NO subtitles, NO typography, NO Chinese characters, NO Hanzi, NO English words, NO pinyin, NO brand logos, NO Gemini logos, NO watermarks, NO 3D photorealistic rendering.';
 
   const fullPrompt = `${visualStyle} Subject: ${actionScene}${contextClue} Designed for language flashcard memory anchoring. ${negativeConstraints}`;
 

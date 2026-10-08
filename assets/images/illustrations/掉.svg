@@ -1,0 +1,48 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Card -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Ground / Floor Line -->
+  <path d="M 35 150 L 165 150" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Motion lines indicating falling -->
+  <g stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" opacity="0.6">
+    <line x1="85" y1="65" x2="85" y2="85" />
+    <line x1="115" y1="75" x2="115" y2="95" />
+  </g>
+
+  <!-- The Falling Money Pouch / Coin Bag -->
+  <g transform="translate(0, 15)">
+    <!-- Main Bag Body -->
+    <path d="M 75 75 C 70 70, 70 55, 100 55 C 130 55, 130 70, 125 75 C 130 95, 130 115, 120 120 C 100 125, 100 125, 80 120 C 70 115, 70 95, 75 75 Z" fill="#f59e0b"/>
+    
+    <!-- Bag Tie / Neck -->
+    <path d="M 85 55 C 85 50, 115 50, 115 55 C 115 60, 85 60, 85 55 Z" fill="#d97706"/>
+    <path d="M 83 55 L 117 55" stroke="#b45309" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Dollar / Coin Symbol on Bag (Abstract shape) -->
+    <circle cx="100" cy="90" r="12" fill="#fbbf24"/>
+    <path d="M 100 82 L 100 98 M 95 86 C 95 84, 105 84, 105 88 C 105 92, 95 92, 95 96 C 95 98, 105 98, 105 94" stroke="#d97706" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Spilled Coins on Ground -->
+  <g>
+    <!-- Coin 1 -->
+    <ellipse cx="65" cy="147" rx="6" ry="3" fill="#fbbf24"/>
+    <ellipse cx="65" cy="146" rx="5" ry="2" fill="#fde047"/>
+
+    <!-- Coin 2 (spinning/falling near ground) -->
+    <ellipse cx="135" cy="138" rx="5" ry="5" fill="#fbbf24" transform="rotate(25 135 138)"/>
+    <ellipse cx="135" cy="138" rx="3" ry="3" fill="#fde047" transform="rotate(25 135 138)"/>
+
+    <!-- Coin 3 -->
+    <ellipse cx="145" cy="148" rx="6" ry="3" fill="#fbbf24"/>
+    <ellipse cx="145" cy="147" rx="5" ry="2" fill="#fde047"/>
+  </g>
+
+  <!-- Impact dust puffs -->
+  <g fill="#64748b" opacity="0.4">
+    <circle cx="55" cy="148" r="3"/>
+    <circle cx="155" cy="148" r="4"/>
+  </g>
+</svg>

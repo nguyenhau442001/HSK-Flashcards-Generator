@@ -1,0 +1,34 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Card -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Bedroom / Nighttime Environment for "sleep early" concept -->
+  <!-- Window showing night sky with stars and moon -->
+  <rect x="35" y="30" width="55" height="70" rx="6" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <circle cx="70" cy="50" r="8" fill="#f59e0b" opacity="0.9"/>
+  <circle cx="50" cy="70" r="1.5" fill="#38bdf8"/>
+  <circle cx="75" cy="80" r="1.5" fill="#38bdf8"/>
+
+  <!-- Wall shelf with a small alarm clock indicating time -->
+  <rect x="110" y="45" width="55" height="6" rx="3" fill="#334155"/>
+  <circle cx="137" cy="36" r="8" fill="#fb923c"/>
+  <path d="M137 32v4h3" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Cozy Bed -->
+  <!-- Bed frame / Headboard -->
+  <rect x="30" y="125" width="140" height="35" rx="8" fill="#334155"/>
+  <rect x="35" y="105" width="130" height="25" rx="6" fill="#475569"/>
+
+  <!-- Mattress & Pillows -->
+  <rect x="35" y="120" width="130" height="40" rx="6" fill="#cbd5e1"/>
+  <!-- Pillows -->
+  <rect x="45" y="112" width="35" height="18" rx="6" fill="#f8fafc"/>
+  <rect x="85" y="112" width="35" height="18" rx="6" fill="#f8fafc"/>
+
+  <!-- Blanket (Teal/Emerald accent for modern feel) -->
+  <path d="M 35 135 Q 100 125 165 135 L 165 155 Q 100 165 35 155 Z" fill="#10b981"/>
+
+  <!-- Action/Urgency Indicator (Floating sparkling reminder badge representing 'Must / 得') -->
+  <circle cx="145" cy="85" r="16" fill="#fb923c"/>
+  <path d="M145 76v11m0 4v2" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+</svg>

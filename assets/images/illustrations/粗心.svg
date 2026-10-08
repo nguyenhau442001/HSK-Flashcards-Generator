@@ -1,0 +1,59 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Card -->
+  <rect x="10" y="10" width="180" height="180" rx="24" fill="#1e293b"/>
+
+  <!-- Desk Surface -->
+  <path d="M 30 135 L 170 135 L 160 155 L 40 155 Z" fill="#0f172a" opacity="0.6"/>
+
+  <!-- Document / Paper Sheet (Tilted, messy) -->
+  <g transform="translate(60, 50) rotate(-12)">
+    <!-- Paper background -->
+    <rect x="0" y="0" width="65" height="85" rx="3" fill="#f8fafc"/>
+    
+    <!-- Red correction marks / messy scribbles (representing mistakes) -->
+    <path d="M 12 18 L 22 28 M 22 18 L 12 28" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 12 42 L 22 52 M 22 42 L 12 52" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Wavy incorrect text lines -->
+    <path d="M 30 23 L 52 20" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 30 47 L 55 49" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 15 70 L 45 66" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Big red circled grade F or mistake -->
+    <circle cx="46" cy="68" r="10" fill="none" stroke="#ef4444" stroke-width="2.5"/>
+  </g>
+
+  <!-- Flying Red Pen (Dropped/Careless motion) -->
+  <g transform="translate(110, 85) rotate(35)">
+    <!-- Pen body -->
+    <path d="M -25 -3 L 15 -3 L 20 0 L 15 3 L -25 3 Z" fill="#38bdf8"/>
+    <!-- Pen tip -->
+    <path d="M 15 -3 L 23 0 L 15 3 Z" fill="#f59e0b"/>
+    <!-- Pen cap / clip -->
+    <path d="M -15 -3 L -15 -6 L -5 -6 L -5 -3" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+    <!-- Motion lines -->
+    <path d="M -32 -10 L -27 -7" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M -38 -2 L -30 -1" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Spilled Coffee Mug -->
+  <g transform="translate(125, 115)">
+    <!-- Coffee puddle -->
+    <ellipse cx="5" cy="22" rx="18" ry="7" fill="#fb923c" opacity="0.8"/>
+    
+    <!-- Mug Body -->
+    <path d="M -8 -3 L 12 -3 L 10 18 L -6 18 Z" fill="#e2e8f0"/>
+    
+    <!-- Mug Rim -->
+    <ellipse cx="2" cy="-3" rx="10" ry="3" fill="#cbd5e1"/>
+    <ellipse cx="2" cy="-3" rx="7" ry="1.5" fill="#78350f"/>
+    
+    <!-- Mug Handle -->
+    <path d="M 10 2 C 18 2, 18 12, 10 13" fill="none" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Accent glow spots for modern UI feel -->
+  <circle cx="35" cy="35" r="3" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="165" cy="45" r="2" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="30" cy="145" r="2.5" fill="#10b981" opacity="0.7"/>
+</svg>
