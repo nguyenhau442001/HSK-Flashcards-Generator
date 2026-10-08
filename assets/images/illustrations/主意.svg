@@ -1,0 +1,36 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk Surface -->
+  <path d="M0 180 L240 180 L240 240 L0 240 Z" fill="#0f172a" opacity="0.5"/>
+  
+  <!-- Lightbulb (The Idea) -->
+  <g transform="translate(120, 110)">
+    <path d="M-25 -20 C-25 -45 -10 -60 0 -60 C10 -60 25 -45 25 -20 C25 -5 10 5 10 15 L-10 15 C-10 5 -25 -5 -25 -20 Z" fill="#f59e0b"/>
+    <path d="M-8 15 L-8 25 C-8 30 -4 35 0 35 C4 35 8 30 8 25 L8 15" fill="#fbbf24"/>
+    <path d="M-12 25 L12 25 M-8 32 L8 32" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+    <!-- Glow effect -->
+    <circle cx="0" cy="-20" r="40" fill="#f59e0b" opacity="0.1"/>
+  </g>
+  
+  <!-- Character head (The thinker) -->
+  <path d="M60 200 C60 160 80 140 120 140 C160 140 180 160 180 200" fill="#38bdf8" opacity="0.3"/>
+  <circle cx="90" cy="165" r="5" fill="#f8fafc"/>
+  <circle cx="150" cy="165" r="5" fill="#f8fafc"/>
+  
+  <!-- Floating Sparks/Action -->
+  <circle cx="170" cy="80" r="4" fill="#10b981"/>
+  <circle cx="190" cy="100" r="6" fill="#ec4899"/>
+  <circle cx="50" cy="90" r="3" fill="#38bdf8"/>
+  
+  <!-- Desk Props -->
+  <rect x="20" y="190" width="40" height="30" rx="5" fill="#334155"/>
+  <rect x="180" y="195" width="30" height="20" rx="5" fill="#475569"/>
+  <path d="M190 195 L190 180 L210 180 L210 195" stroke="#94a3b8" stroke-width="2" fill="none"/>
+</svg>
