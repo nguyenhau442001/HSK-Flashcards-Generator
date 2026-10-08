@@ -1,0 +1,33 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Window Frame -->
+  <path d="M40 40h160v160H40z" fill="#334155" stroke="#475569" stroke-width="4"/>
+  <path d="M120 40v160M40 120h160" stroke="#475569" stroke-width="4"/>
+  
+  <!-- Rain/Atmosphere -->
+  <line x1="60" y1="50" x2="50" y2="80" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  <line x1="100" y1="60" x2="90" y2="90" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  <line x1="180" y1="70" x2="170" y2="100" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- The Subject: A person looking out the window, uncertain/contemplative -->
+  <circle cx="150" cy="150" r="30" fill="#fbbf24"/>
+  <path d="M135 140c0-10 7-15 15-15s15 5 15 15" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M142 145h2" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M156 145h2" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M145 155c5 5 10 5 15 0" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Thought Bubble/Uncertainty Indicator -->
+  <path d="M180 100c0-15-20-20-30-10-10-10-30-5-30 10 0 10 10 15 20 10l-5 10 10-5" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Interior Desk Detail -->
+  <rect x="0" y="190" width="240" height="50" fill="#1e293b"/>
+  <rect x="20" y="200" width="60" height="10" rx="2" fill="#fb923c"/>
+  <circle cx="100" cy="205" r="8" fill="#10b981"/>
+</svg>
