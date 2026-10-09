@@ -2242,6 +2242,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level3/过去.svg",
     "caption": "quá khứ"
   },
+  "过（动词）": {
+    "file": "过（动词）.svg",
+    "src": "images/HSK_2.0/level3/过（动词）.svg",
+    "caption": "trải qua, qua"
+  },
+  "还是": {
+    "file": "还是.svg",
+    "src": "images/HSK_2.0/level3/还是.svg",
+    "caption": "hay là, vẫn là"
+  },
+  "害怕": {
+    "file": "害怕.svg",
+    "src": "images/HSK_2.0/level3/害怕.svg",
+    "caption": "sợ hãi"
+  },
+  "黑板": {
+    "file": "黑板.svg",
+    "src": "images/HSK_2.0/level3/黑板.svg",
+    "caption": "bảng đen"
+  },
+  "后来": {
+    "file": "后来.svg",
+    "src": "images/HSK_2.0/level3/后来.svg",
+    "caption": "sau đó"
+  },
+  "护照": {
+    "file": "护照.svg",
+    "src": "images/HSK_2.0/level3/护照.svg",
+    "caption": "hộ chiếu"
+  },
+  "花（动词）": {
+    "file": "花（动词）.svg",
+    "src": "images/HSK_2.0/level3/花（动词）.svg",
+    "caption": "tiêu (tiền, thời gian)"
+  },
+  "花（名词）": {
+    "file": "花（名词）.svg",
+    "src": "images/HSK_2.0/level3/花（名词）.svg",
+    "caption": "hoa"
+  },
+  "画": {
+    "file": "画.svg",
+    "src": "images/HSK_2.0/level3/画.svg",
+    "caption": "vẽ, tranh vẽ"
+  },
+  "坏": {
+    "file": "坏.svg",
+    "src": "images/HSK_2.0/level3/坏.svg",
+    "caption": "hỏng, xấu"
+  },
   "南": {
     "file": "南.svg",
     "src": "images/HSK_2.0/level3/南.svg",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T19:51:13.298964",
-  "total_unique_words_with_illustrations": 2015,
-  "total_flat_svg_files": 2015,
+  "generated_at": "2026-10-09T19:53:15.799583",
+  "total_unique_words_with_illustrations": 2025,
+  "total_flat_svg_files": 2025,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -16,8 +16,8 @@
       },
       "level3": {
         "total": 300,
-        "with_svg": 222,
-        "pct": "74.0%"
+        "with_svg": 232,
+        "pct": "77.3%"
       },
       "level4": {
         "total": 600,
@@ -43,13 +43,13 @@
       },
       "level2": {
         "total": 200,
-        "with_svg": 93,
-        "pct": "46.5%"
+        "with_svg": 96,
+        "pct": "48.0%"
       },
       "level3": {
         "total": 500,
-        "with_svg": 239,
-        "pct": "47.8%"
+        "with_svg": 243,
+        "pct": "48.6%"
       },
       "level4": {
         "total": 1000,
@@ -7008,6 +7008,174 @@
       "file": "过去.svg",
       "src": "images/HSK_2.0/level3/过去.svg",
       "alt_srcs": []
+    },
+    "过（动词）": {
+      "hanzi": "过（动词）",
+      "pinyin": "guò",
+      "meaning": "trải qua, qua",
+      "example_zh": "时间<u>过</u>得很快。",
+      "example_vi": "Thời gian trôi <u>qua</u> rất nhanh.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [],
+      "file": "过（动词）.svg",
+      "src": "images/HSK_2.0/level3/过（动词）.svg",
+      "alt_srcs": []
+    },
+    "还是": {
+      "hanzi": "还是",
+      "pinyin": "háishì",
+      "meaning": "hay là, vẫn là",
+      "example_zh": "你<u>还是</u>去医院看看吧。",
+      "example_vi": "Bạn <u>vẫn nên</u> đi bệnh viện khám xem.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "还是.svg",
+      "src": "images/HSK_2.0/level3/还是.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/还是.svg"
+      ]
+    },
+    "害怕": {
+      "hanzi": "害怕",
+      "pinyin": "hàipà",
+      "meaning": "sợ hãi",
+      "example_zh": "她很<u>害怕</u>黑暗。",
+      "example_vi": "Cô ấy rất <u>sợ</u> bóng tối.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "害怕.svg",
+      "src": "images/HSK_2.0/level3/害怕.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/害怕.svg"
+      ]
+    },
+    "黑板": {
+      "hanzi": "黑板",
+      "pinyin": "hēibǎn",
+      "meaning": "bảng đen",
+      "example_zh": "老师在<u>黑板</u>上写字。",
+      "example_vi": "Thầy giáo viết chữ trên <u>bảng đen</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "黑板.svg",
+      "src": "images/HSK_2.0/level3/黑板.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/黑板.svg"
+      ]
+    },
+    "后来": {
+      "hanzi": "后来",
+      "pinyin": "hòulái",
+      "meaning": "sau đó",
+      "example_zh": "<u>后来</u>他成功了。",
+      "example_vi": "<u>Sau đó</u> anh ấy đã thành công.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "后来.svg",
+      "src": "images/HSK_2.0/level3/后来.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/后来.svg"
+      ]
+    },
+    "护照": {
+      "hanzi": "护照",
+      "pinyin": "hùzhào",
+      "meaning": "hộ chiếu",
+      "example_zh": "出国旅行需要<u>护照</u>。",
+      "example_vi": "Du lịch nước ngoài cần <u>hộ chiếu</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "护照.svg",
+      "src": "images/HSK_2.0/level3/护照.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/护照.svg"
+      ]
+    },
+    "花（动词）": {
+      "hanzi": "花（动词）",
+      "pinyin": "huā",
+      "meaning": "tiêu (tiền, thời gian)",
+      "example_zh": "我<u>花</u>了很多钱。",
+      "example_vi": "Tôi đã <u>tiêu</u> rất nhiều tiền.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [],
+      "file": "花（动词）.svg",
+      "src": "images/HSK_2.0/level3/花（动词）.svg",
+      "alt_srcs": []
+    },
+    "花（名词）": {
+      "hanzi": "花（名词）",
+      "pinyin": "huā",
+      "meaning": "hoa",
+      "example_zh": "她送我一朵<u>花</u>。",
+      "example_vi": "Cô ấy tặng tôi một bông <u>hoa</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [],
+      "file": "花（名词）.svg",
+      "src": "images/HSK_2.0/level3/花（名词）.svg",
+      "alt_srcs": []
+    },
+    "画": {
+      "hanzi": "画",
+      "pinyin": "huà",
+      "meaning": "vẽ, tranh vẽ",
+      "example_zh": "他<u>画</u>了一张画。",
+      "example_vi": "Anh ấy đã <u>vẽ</u> một bức tranh.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "画.svg",
+      "src": "images/HSK_2.0/level3/画.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/画.svg"
+      ]
+    },
+    "坏": {
+      "hanzi": "坏",
+      "pinyin": "huài",
+      "meaning": "hỏng, xấu",
+      "example_zh": "这个手机<u>坏</u>了。",
+      "example_vi": "Cái điện thoại này bị <u>hỏng</u> rồi.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "坏.svg",
+      "src": "images/HSK_2.0/level3/坏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/坏.svg"
+      ]
     },
     "南": {
       "hanzi": "南",
