@@ -3,20 +3,21 @@
 tools/batch_generate_all.py
 Master Scene-Based Vector Illustration Pipeline & Organization Engine.
 
+Folder Structure:
+images/
+├── HSK_2.0/
+│   ├── level1/ .. level6/
+├── HSK_3.0/
+│   ├── level1/ .. level9/
+├── generated_manifest.json
+└── README.md
+
 Features:
-  1. Full Organization:
-     - organized/HSK_2.0/hsk1..hsk6
-     - organized/HSK_3.0/level1..level9
-     - generated_manifest.json (complete index of all SVGs with metadata and paths)
-     - README.md (detailed statistics and coverage report)
-     - assets/js/word-illustrations.js updated with exact manifest paths
-  2. Scene-Based Generation Grounded in Example Sentences:
-     - No abstract symbols or minimalist icons.
-     - Scene composition directly reflects the vocabulary's real-world example sentence.
-  3. Resilient Multi-Model Cascade:
-     - gemini-3.5-flash-lite, gemini-2.5-flash, gemini-3.7-flash, gemini-3.8-flash, etc.
-  4. Batch Git Commit & Push:
-     - Automatically commits and pushes to git every 100 newly generated SVGs.
+  - Commit & push after every 10 newly generated SVG illustrations (or at end of each level).
+  - Illustrations are strictly scene-based, depicting real-world human action & scenario
+    grounded directly in the vocabulary's example sentence.
+  - No abstract symbols, no minimalist icons, zero text/characters, dark-mode friendly full-bleed containers.
+  - Multi-model fallback cascade.
 """
 
 import argparse
@@ -36,7 +37,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 VOCAB_DIR = REPO_ROOT / "database" / "vocabs"
 HSK3_DIR = VOCAB_DIR / "hsk3_0"
 FLAT_OUTPUT_DIR = REPO_ROOT / "assets" / "images" / "illustrations"
-ORGANIZED_DIR = FLAT_OUTPUT_DIR / "organized"
+IMAGES_DIR = REPO_ROOT / "images"
 WORD_ILLUSTRATIONS_JS = REPO_ROOT / "assets" / "js" / "word-illustrations.js"
 WORKTREE_DIR = Path("/Users/haunguyen/.gemini/antigravity/worktrees/HSK-Flashcards-Generator/add_hsk4_reading_analysis")
 
@@ -79,54 +80,38 @@ def load_level_data(file_path):
 def ensure_directory_structure():
     FLAT_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     for i in range(1, 7):
-        (ORGANIZED_DIR / "HSK_2.0" / f"hsk{i}").mkdir(parents=True, exist_ok=True)
+        (IMAGES_DIR / "HSK_2.0" / f"level{i}").mkdir(parents=True, exist_ok=True)
     for i in range(1, 10):
-        (ORGANIZED_DIR / "HSK_3.0" / f"level{i}").mkdir(parents=True, exist_ok=True)
-
-    # Ensure root symlink organized -> assets/images/illustrations/organized
-    root_symlink = REPO_ROOT / "organized"
-    target_rel = Path("assets/images/illustrations/organized")
-    if not root_symlink.exists():
-        try:
-            root_symlink.symlink_to(target_rel)
-            print(f"[*] Created root symlink: organized -> {target_rel}", flush=True)
-        except Exception as e:
-            pass
+        (IMAGES_DIR / "HSK_3.0" / f"level{i}").mkdir(parents=True, exist_ok=True)
 
     if WORKTREE_DIR.exists():
         wt_flat = WORKTREE_DIR / "assets" / "images" / "illustrations"
         wt_flat.mkdir(parents=True, exist_ok=True)
+        wt_images = WORKTREE_DIR / "images"
         for i in range(1, 7):
-            (wt_flat / "organized" / "HSK_2.0" / f"hsk{i}").mkdir(parents=True, exist_ok=True)
+            (wt_images / "HSK_2.0" / f"level{i}").mkdir(parents=True, exist_ok=True)
         for i in range(1, 10):
-            (wt_flat / "organized" / "HSK_3.0" / f"level{i}").mkdir(parents=True, exist_ok=True)
-        wt_symlink = WORKTREE_DIR / "organized"
-        if not wt_symlink.exists():
-            try:
-                wt_symlink.symlink_to(target_rel)
-            except Exception:
-                pass
+            (wt_images / "HSK_3.0" / f"level{i}").mkdir(parents=True, exist_ok=True)
 
 def build_manifest_and_organize():
     """
     Scans all vocabulary files and existing SVG files.
-    Copies SVGs into organized folders.
-    Generates generated_manifest.json and README.md.
+    Copies SVGs into images/HSK_2.0/levelX and images/HSK_3.0/levelY.
+    Generates images/generated_manifest.json and images/README.md.
     Updates assets/js/word-illustrations.js.
     """
     ensure_directory_structure()
-    print("[*] Building illustration organization and manifest...", flush=True)
+    print("[*] Building illustration organization and manifest under images/...", flush=True)
 
-    hsk2_curriculum = [(f"hsk{i}", VOCAB_DIR / f"hsk{i}_vocabularies.json") for i in range(1, 7)]
+    hsk2_curriculum = [(f"level{i}", VOCAB_DIR / f"hsk{i}_vocabularies.json") for i in range(1, 7)]
     hsk3_curriculum = [(f"level{i}", HSK3_DIR / f"level{i}_vocabularies.json") for i in range(1, 10)]
 
     existing_flat_svgs = {p.stem: p for p in FLAT_OUTPUT_DIR.glob("*.svg") if p.is_file() and p.stat().st_size > 150}
 
-    # Also check existing organized SVGs
-    for p in ORGANIZED_DIR.glob("**/*.svg"):
+    # Also check existing images SVGs
+    for p in IMAGES_DIR.glob("**/*.svg"):
         if p.is_file() and p.stat().st_size > 150:
             if p.stem not in existing_flat_svgs:
-                # Mirror back to flat directory for unified access
                 flat_dest = FLAT_OUTPUT_DIR / p.name
                 if not flat_dest.exists() or flat_dest.stat().st_size != p.stat().st_size:
                     shutil.copy2(p, flat_dest)
@@ -136,10 +121,10 @@ def build_manifest_and_organize():
     stats_hsk2 = {}
     stats_hsk3 = {}
 
-    # 1. Map HSK 2.0
+    # 1. Map HSK 2.0 (level1..level6)
     for lvl_code, path in hsk2_curriculum:
         words = load_level_data(path)
-        dest_dir = ORGANIZED_DIR / "HSK_2.0" / lvl_code
+        dest_dir = IMAGES_DIR / "HSK_2.0" / lvl_code
         dest_dir.mkdir(parents=True, exist_ok=True)
         count = 0
         for w in words:
@@ -153,7 +138,7 @@ def build_manifest_and_organize():
                     shutil.copy2(src_file, target_file)
                 count += 1
 
-                rel_src = f"assets/images/illustrations/organized/HSK_2.0/{lvl_code}/{hz}.svg"
+                rel_src = f"images/HSK_2.0/{lvl_code}/{hz}.svg"
                 if hz not in manifest_entries:
                     manifest_entries[hz] = {
                         "hanzi": hz,
@@ -176,10 +161,10 @@ def build_manifest_and_organize():
         pct = (count / len(words) * 100) if words else 0.0
         stats_hsk2[lvl_code] = {"total": len(words), "with_svg": count, "pct": f"{pct:.1f}%"}
 
-    # 2. Map HSK 3.0
+    # 2. Map HSK 3.0 (level1..level9)
     for lvl_code, path in hsk3_curriculum:
         words = load_level_data(path)
-        dest_dir = ORGANIZED_DIR / "HSK_3.0" / lvl_code
+        dest_dir = IMAGES_DIR / "HSK_3.0" / lvl_code
         dest_dir.mkdir(parents=True, exist_ok=True)
         count = 0
         for w in words:
@@ -193,7 +178,7 @@ def build_manifest_and_organize():
                     shutil.copy2(src_file, target_file)
                 count += 1
 
-                rel_src = f"assets/images/illustrations/organized/HSK_3.0/{lvl_code}/{hz}.svg"
+                rel_src = f"images/HSK_3.0/{lvl_code}/{hz}.svg"
                 if hz not in manifest_entries:
                     manifest_entries[hz] = {
                         "hanzi": hz,
@@ -229,18 +214,18 @@ def build_manifest_and_organize():
     }
 
     manifest_json_str = json.dumps(manifest_data, ensure_ascii=False, indent=2)
-    (ORGANIZED_DIR / "generated_manifest.json").write_text(manifest_json_str, encoding="utf-8")
+    (IMAGES_DIR / "generated_manifest.json").write_text(manifest_json_str, encoding="utf-8")
     (REPO_ROOT / "generated_manifest.json").write_text(manifest_json_str, encoding="utf-8")
 
     # Output README.md
     readme_md = generate_readme_markdown(stats_hsk2, stats_hsk3, len(manifest_entries))
-    (ORGANIZED_DIR / "README.md").write_text(readme_md, encoding="utf-8")
+    (IMAGES_DIR / "README.md").write_text(readme_md, encoding="utf-8")
     (REPO_ROOT / "README_ILLUSTRATIONS.md").write_text(readme_md, encoding="utf-8")
 
     # Update assets/js/word-illustrations.js
     update_word_illustrations_js(manifest_entries)
 
-    print(f"[*] Manifest and organization built successfully. Total indexed: {len(manifest_entries)} words.", flush=True)
+    print(f"[*] Manifest and images/ organization built successfully. Total indexed: {len(manifest_entries)} words.", flush=True)
     return manifest_data
 
 def generate_readme_markdown(stats_hsk2, stats_hsk3, total_unique):
@@ -256,29 +241,30 @@ def generate_readme_markdown(stats_hsk2, stats_hsk3, total_unique):
     total_hsk2_svg = sum(v["with_svg"] for v in stats_hsk2.values())
     hsk2_pct = (total_hsk2_svg / total_hsk2_words * 100) if total_hsk2_words else 0.0
 
-    for lvl in ["hsk1", "hsk2", "hsk3", "hsk4", "hsk5", "hsk6"]:
+    for i in range(1, 7):
+        lvl = f"level{i}"
         info = stats_hsk2.get(lvl, {"total": 0, "with_svg": 0, "pct": "0.0%"})
         status = "✅ Hoàn thành" if info["pct"] == "100.0%" else ("⏳ Đang tạo" if info["with_svg"] > 0 else "⚪ Chưa tạo")
         bar = make_progress_bar(info["pct"])
-        hsk2_rows.append(f"| **{lvl.upper()}** | `{info['with_svg']}/{info['total']}` | **{info['pct']}** | `{bar}` | {status} |")
+        hsk2_rows.append(f"| **HSK 2.0 Level {i}** | `{info['with_svg']}/{info['total']}` | **{info['pct']}** | `{bar}` | {status} |")
 
     hsk3_rows = []
     total_hsk3_words = sum(v["total"] for v in stats_hsk3.values())
     total_hsk3_svg = sum(v["with_svg"] for v in stats_hsk3.values())
     hsk3_pct = (total_hsk3_svg / total_hsk3_words * 100) if total_hsk3_words else 0.0
 
-    for lvl in [f"level{i}" for i in range(1, 10)]:
+    for i in range(1, 10):
+        lvl = f"level{i}"
         info = stats_hsk3.get(lvl, {"total": 0, "with_svg": 0, "pct": "0.0%"})
         status = "✅ Hoàn thành" if info["pct"] == "100.0%" else ("⏳ Đang tạo" if info["with_svg"] > 0 else "⚪ Chưa tạo")
         bar = make_progress_bar(info["pct"])
-        lvl_num = lvl.replace("level", "Cấp ")
-        hsk3_rows.append(f"| **HSK 3.0 {lvl_num}** | `{info['with_svg']}/{info['total']}` | **{info['pct']}** | `{bar}` | {status} |")
+        hsk3_rows.append(f"| **HSK 3.0 Level {i}** | `{info['with_svg']}/{info['total']}` | **{info['pct']}** | `{bar}` | {status} |")
 
     return f"""# 🎨 Kho Lưu Trữ Hình Minh Họa Ngữ Cảnh HSK (Scene-Based Vector Illustrations)
 
 *Báo cáo cập nhật tự động lúc: `{now_str}`*
 
-Kho hình ảnh vector minh họa trực quan (Scene-Based Visual Mnemonics) cho toàn bộ từ vựng tiếng Trung thuộc hai hệ thống giáo trình **HSK 2.0 (HSK 1 - 6)** và **HSK 3.0 (Cấp 1 - 9)**.
+Kho hình ảnh vector minh họa trực quan (Scene-Based Visual Mnemonics) cho toàn bộ từ vựng tiếng Trung thuộc hai hệ thống giáo trình **HSK 2.0 (Level 1 - 6)** và **HSK 3.0 (Level 1 - 9)**.
 
 ---
 
@@ -288,7 +274,7 @@ Kho hình ảnh vector minh họa trực quan (Scene-Based Visual Mnemonics) cho
    - Nhân vật thực hiện hành động cụ thể, có đạo cụ (props), bối cảnh không gian thực tế (phòng học, văn phòng, đường phố, sân bay, bệnh viện, nhà hàng,...).
    - **Tuyệt đối KHÔNG vẽ biểu tượng trừu tượng (abstract symbols), icon tối giản, logo hay khối hình học đơn điệu**.
 2. **Thân thiện với chế độ tối (Dark-Mode Friendly)**:
-   - Khung hình full-bleed nền tối sang trọng (`#1e293b` / `#0f172a`), đổ bóng mềm, viền bo tròn mềm mại (`rx="24"`).
+   - Khung hình full-bleed container `240x240` nền tối sang trọng (`#1e293b` / `#0f172a`), đổ bóng mềm, viền bo tròn mềm mại (`rx="24"`).
    - Màu sắc sinh động, ấm áp, độ tương phản cao với chữ Hán và Pinyin.
 3. **Tuyệt đối không nhúng chữ (Zero Text / Zero Hanzi)**:
    - Minh họa đóng vai trò **kích thích trí nhớ hình ảnh thuần túy**, không chứa chữ Hán, Pinyin hay ký tự chữ viết để người học tự tư duy ghi nhớ từ vựng.
@@ -298,24 +284,24 @@ Kho hình ảnh vector minh họa trực quan (Scene-Based Visual Mnemonics) cho
 ## 📁 Cấu trúc thư mục (Folder Hierarchy)
 
 ```
-organized/
+images/
 ├── HSK_2.0/
-│   ├── hsk1/          # Từ vựng HSK 1
-│   ├── hsk2/          # Từ vựng HSK 2
-│   ├── hsk3/          # Từ vựng HSK 3
-│   ├── hsk4/          # Từ vựng HSK 4
-│   ├── hsk5/          # Từ vựng HSK 5
-│   └── hsk6/          # Từ vựng HSK 6
+│   ├── level1/          # 150/150 từ (100.0%) - ✅ Hoàn thành
+│   ├── level2/          # 150/150 từ (100.0%) - ✅ Hoàn thành
+│   ├── level3/          # Từ vựng HSK 2.0 Level 3
+│   ├── level4/          # 600/600 từ (100.0%) - ✅ Hoàn thành
+│   ├── level5/          # Từ vựng HSK 2.0 Level 5
+│   └── level6/          # Từ vựng HSK 2.0 Level 6
 ├── HSK_3.0/
-│   ├── level1/        # HSK 3.0 Cấp 1
-│   ├── level2/        # HSK 3.0 Cấp 2
-│   ├── level3/        # HSK 3.0 Cấp 3
-│   ├── level4/        # HSK 3.0 Cấp 4
-│   ├── level5/        # HSK 3.0 Cấp 5
-│   ├── level6/        # HSK 3.0 Cấp 6
-│   ├── level7/        # HSK 3.0 Cấp 7
-│   ├── level8/        # HSK 3.0 Cấp 8
-│   └── level9/        # HSK 3.0 Cấp 9
+│   ├── level1/          # HSK 3.0 Level 1
+│   ├── level2/          # HSK 3.0 Level 2
+│   ├── level3/          # HSK 3.0 Level 3
+│   ├── level4/          # HSK 3.0 Level 4
+│   ├── level5/          # HSK 3.0 Level 5
+│   ├── level6/          # HSK 3.0 Level 6
+│   ├── level7/          # HSK 3.0 Level 7
+│   ├── level8/          # HSK 3.0 Level 8
+│   └── level9/          # HSK 3.0 Level 9
 ├── generated_manifest.json    # Manifest tra cứu toàn diện JSON
 └── README.md                  # Bản thống kê chi tiết này
 ```
@@ -342,7 +328,7 @@ organized/
 
 ## 💡 Tổng kết tài nguyên hiện tại
 - **Tổng số từ vựng duy nhất đã có minh họa vector**: **`{total_unique}`** từ.
-- **Manifest tích hợp ứng dụng**: File [`assets/js/word-illustrations.js`](file:///assets/js/word-illustrations.js) và [`generated_manifest.json`](file:///organized/generated_manifest.json) tự động đồng bộ đường dẫn để flashcard tải trực tiếp hình ảnh theo cấp độ tương ứng.
+- **Manifest tích hợp ứng dụng**: File [`assets/js/word-illustrations.js`](file:///assets/js/word-illustrations.js) và [`images/generated_manifest.json`](file:///images/generated_manifest.json) tự động đồng bộ đường dẫn để flashcard tải trực tiếp hình ảnh theo cấp độ tương ứng.
 """
 
 def update_word_illustrations_js(manifest_entries):
@@ -386,7 +372,6 @@ def call_gemini_svg_api(word_info, api_key, max_retries=3):
     ex_vi = (word_info.get("example_vi") or "").replace("<u>", "").replace("</u>", "").strip()
     ex_zh = (word_info.get("example_zh") or word_info.get("example") or "").replace("<u>", "").replace("</u>", "").strip()
 
-    # Grounding directly in example sentence
     example_grounding = ""
     if ex_zh or ex_vi:
         example_grounding = f"""
@@ -455,7 +440,7 @@ CRITICAL ART DIRECTION & COMPOSITION RULES:
                 continue
 
         if attempt < max_retries - 1:
-            wait_sec = 12 * (attempt + 1)
+            wait_sec = 10 * (attempt + 1)
             time.sleep(wait_sec)
 
     return None
@@ -463,8 +448,7 @@ CRITICAL ART DIRECTION & COMPOSITION RULES:
 def git_commit_and_push(batch_count, level_label):
     try:
         print(f"\n[>>> GIT] Committing and pushing batch of {batch_count} newly generated SVGs for {level_label}...", flush=True)
-        # Stage illustrations, manifest, readme, and JS index
-        subprocess.run(["git", "add", "assets/images/illustrations", "organized", "generated_manifest.json", "README_ILLUSTRATIONS.md", "assets/js/word-illustrations.js"], cwd=REPO_ROOT, check=True)
+        subprocess.run(["git", "add", "images", "assets/images/illustrations", "generated_manifest.json", "README_ILLUSTRATIONS.md", "assets/js/word-illustrations.js"], cwd=REPO_ROOT, check=True)
         commit_msg = f"feat(illustrations): batch generate scene-based SVGs ({level_label}: +{batch_count} words)"
         res = subprocess.run(["git", "commit", "-m", commit_msg], cwd=REPO_ROOT, capture_output=True, text=True)
         print(f"[>>> GIT] {res.stdout.strip()}", flush=True)
@@ -477,14 +461,14 @@ def main():
     parser = argparse.ArgumentParser(description="Master batch generator & organizer for all HSK 2.0 & HSK 3.0 levels")
     parser.add_argument("--api-key", default=get_default_api_key(), help="Google AI Studio API Key (or set GOOGLE_AI_KEY or .api_key)")
     parser.add_argument("--delay", type=float, default=4.0, help="Delay between API calls in seconds (default: 4.0s)")
-    parser.add_argument("--batch-size", type=int, default=100, help="Commit and push every N generated items (default: 100)")
+    parser.add_argument("--batch-size", type=int, default=10, help="Commit and push every N generated items (default: 10)")
     parser.add_argument("--only-organize", action="store_true", help="Only reorganize existing SVGs, build manifest & README without generating new SVGs")
-    parser.add_argument("--target-level", default="all", help="Target specific level (e.g., 'hsk3', 'hsk5', 'hsk6', 'all')")
+    parser.add_argument("--target-level", default="all", help="Target specific level (e.g., 'level3', 'level5', 'level6', 'all')")
     args = parser.parse_args()
 
     api_key = args.api_key.strip()
 
-    # Step 1: Initial full organization of all existing SVGs
+    # Step 1: Organization under images/
     manifest_data = build_manifest_and_organize()
 
     if args.only_organize:
@@ -493,22 +477,22 @@ def main():
 
     # Step 2: Curriculum roadmap
     curriculum = [
-        # Phase 1: Complete HSK 3 (130 remaining)
-        ("HSK 3", "hsk3", VOCAB_DIR / "hsk3_vocabularies.json"),
-        # Phase 2: Complete HSK 5 (406 remaining)
-        ("HSK 5", "hsk5", VOCAB_DIR / "hsk5_vocabularies.json"),
-        # Phase 3: Complete HSK 6 (2072 remaining)
-        ("HSK 6", "hsk6", VOCAB_DIR / "hsk6_vocabularies.json"),
+        # Phase 1: Complete HSK 2.0 Level 3 (around 126 remaining)
+        ("HSK 2.0 Level 3", "level3", "HSK_2.0", VOCAB_DIR / "hsk3_vocabularies.json"),
+        # Phase 2: Complete HSK 2.0 Level 5 (406 remaining)
+        ("HSK 2.0 Level 5", "level5", "HSK_2.0", VOCAB_DIR / "hsk5_vocabularies.json"),
+        # Phase 3: Complete HSK 2.0 Level 6 (2072 remaining)
+        ("HSK 2.0 Level 6", "level6", "HSK_2.0", VOCAB_DIR / "hsk6_vocabularies.json"),
         # Phase 4: HSK 3.0 Levels 1..9
-        ("HSK 3.0 Level 1", "level1", HSK3_DIR / "level1_vocabularies.json"),
-        ("HSK 3.0 Level 2", "level2", HSK3_DIR / "level2_vocabularies.json"),
-        ("HSK 3.0 Level 3", "level3", HSK3_DIR / "level3_vocabularies.json"),
-        ("HSK 3.0 Level 4", "level4", HSK3_DIR / "level4_vocabularies.json"),
-        ("HSK 3.0 Level 5", "level5", HSK3_DIR / "level5_vocabularies.json"),
-        ("HSK 3.0 Level 6", "level6", HSK3_DIR / "level6_vocabularies.json"),
-        ("HSK 3.0 Level 7", "level7", HSK3_DIR / "level7_vocabularies.json"),
-        ("HSK 3.0 Level 8", "level8", HSK3_DIR / "level8_vocabularies.json"),
-        ("HSK 3.0 Level 9", "level9", HSK3_DIR / "level9_vocabularies.json"),
+        ("HSK 3.0 Level 1", "level1", "HSK_3.0", HSK3_DIR / "level1_vocabularies.json"),
+        ("HSK 3.0 Level 2", "level2", "HSK_3.0", HSK3_DIR / "level2_vocabularies.json"),
+        ("HSK 3.0 Level 3", "level3", "HSK_3.0", HSK3_DIR / "level3_vocabularies.json"),
+        ("HSK 3.0 Level 4", "level4", "HSK_3.0", HSK3_DIR / "level4_vocabularies.json"),
+        ("HSK 3.0 Level 5", "level5", "HSK_3.0", HSK3_DIR / "level5_vocabularies.json"),
+        ("HSK 3.0 Level 6", "level6", "HSK_3.0", HSK3_DIR / "level6_vocabularies.json"),
+        ("HSK 3.0 Level 7", "level7", "HSK_3.0", HSK3_DIR / "level7_vocabularies.json"),
+        ("HSK 3.0 Level 8", "level8", "HSK_3.0", HSK3_DIR / "level8_vocabularies.json"),
+        ("HSK 3.0 Level 9", "level9", "HSK_3.0", HSK3_DIR / "level9_vocabularies.json"),
     ]
 
     if args.target_level != "all":
@@ -519,11 +503,11 @@ def main():
 
     print("\n==================================================================", flush=True)
     print("  HSK Flashcards: Master Scene-Based Illustration Pipeline", flush=True)
-    print(f"  Target: HSK 3 -> HSK 5 -> HSK 6 -> HSK 3.0 (Levels 1..9)", flush=True)
+    print(f"  Target: images/HSK_2.0/level1..6 -> images/HSK_3.0/level1..9", flush=True)
     print(f"  Batch commit threshold: Every {args.batch_size} newly generated SVGs", flush=True)
     print("==================================================================\n", flush=True)
 
-    for level_label, lvl_code, file_path in curriculum:
+    for level_label, lvl_code, schema_type, file_path in curriculum:
         words = load_level_data(file_path)
         if not words:
             continue
@@ -544,10 +528,13 @@ def main():
 
             out_filename = f"{hanzi}.svg"
             flat_path = FLAT_OUTPUT_DIR / out_filename
+            images_dest = IMAGES_DIR / schema_type / lvl_code / out_filename
 
-            # Check if SVG already exists in flat dir or organized dir
-            if flat_path.exists() and flat_path.stat().st_size > 150:
+            # Check if SVG already exists in images or flat dir
+            if (images_dest.exists() and images_dest.stat().st_size > 150) or (flat_path.exists() and flat_path.stat().st_size > 150):
                 level_skipped += 1
+                if not images_dest.exists() and flat_path.exists():
+                    shutil.copy2(flat_path, images_dest)
                 if idx % 50 == 0:
                     print(f"    [{idx}/{len(words)}] Progress: {level_skipped} existing skipped, {level_new} newly generated.", flush=True)
                 continue
@@ -558,19 +545,14 @@ def main():
                 # 1. Write flat SVG
                 flat_path.write_text(svg_code, encoding="utf-8")
 
-                # 2. Write organized SVG
-                is_hsk2 = lvl_code.startswith("hsk")
-                if is_hsk2:
-                    org_dest = ORGANIZED_DIR / "HSK_2.0" / lvl_code / out_filename
-                else:
-                    org_dest = ORGANIZED_DIR / "HSK_3.0" / lvl_code / out_filename
-                org_dest.write_text(svg_code, encoding="utf-8")
+                # 2. Write images/ SVG
+                images_dest.write_text(svg_code, encoding="utf-8")
 
                 # 3. Mirror to worktree if exists
                 if WORKTREE_DIR.exists():
                     try:
                         (WORKTREE_DIR / "assets" / "images" / "illustrations" / out_filename).write_text(svg_code, encoding="utf-8")
-                        (WORKTREE_DIR / org_dest.relative_to(REPO_ROOT)).write_text(svg_code, encoding="utf-8")
+                        (WORKTREE_DIR / "images" / schema_type / lvl_code / out_filename).write_text(svg_code, encoding="utf-8")
                     except Exception:
                         pass
 
@@ -581,7 +563,7 @@ def main():
             else:
                 print(f"        ✗ Failed to generate '{hanzi}'", flush=True)
 
-            # Periodically rebuild manifest and commit every batch_size
+            # Periodically rebuild manifest and commit every batch_size (default: 10)
             if batch_new_count >= args.batch_size:
                 build_manifest_and_organize()
                 git_commit_and_push(batch_new_count, level_label)
