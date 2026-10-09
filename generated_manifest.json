@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:09:33.917435",
-  "total_unique_words_with_illustrations": 2093,
-  "total_flat_svg_files": 2093,
+  "generated_at": "2026-10-09T20:11:29.332669",
+  "total_unique_words_with_illustrations": 2103,
+  "total_flat_svg_files": 2103,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,13 +26,13 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 894,
-        "pct": "68.8%"
+        "with_svg": 904,
+        "pct": "69.5%"
       },
       "level6": {
         "total": 2500,
-        "with_svg": 436,
-        "pct": "17.4%"
+        "with_svg": 440,
+        "pct": "17.6%"
       }
     },
     "hsk_3_0": {
@@ -58,13 +58,13 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 606,
-        "pct": "37.9%"
+        "with_svg": 612,
+        "pct": "38.2%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 169,
-        "pct": "9.4%"
+        "with_svg": 173,
+        "pct": "9.6%"
       },
       "level7": {
         "total": 5600,
@@ -38454,6 +38454,24 @@
         "images/HSK_3.0/level5/简历.svg"
       ]
     },
+    "剪刀": {
+      "hanzi": "剪刀",
+      "pinyin": "jiǎndāo",
+      "meaning": "cái kéo",
+      "example_zh": "请用<u>剪刀</u>剪纸。",
+      "example_vi": "Xin hãy dùng <u>kéo</u> cắt giấy.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "剪刀.svg",
+      "src": "images/HSK_2.0/level5/剪刀.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/剪刀.svg"
+      ]
+    },
     "建立": {
       "hanzi": "建立",
       "pinyin": "jiànlì",
@@ -38490,6 +38508,44 @@
       "alt_srcs": [
         "images/HSK_2.0/level6/讲究.svg",
         "images/HSK_3.0/level5/讲究.svg"
+      ]
+    },
+    "交际": {
+      "hanzi": "交际",
+      "pinyin": "jiāojì",
+      "meaning": "giao tiếp xã hội",
+      "example_zh": "我们要提高<u>交际</u>能力。",
+      "example_vi": "Chúng ta cần nâng cao năng lực <u>giao tiếp</u>.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "交际.svg",
+      "src": "images/HSK_2.0/level5/交际.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/交际.svg",
+        "images/HSK_3.0/level6/交际.svg"
+      ]
+    },
+    "胶水": {
+      "hanzi": "胶水",
+      "pinyin": "jiāoshuǐ",
+      "meaning": "keo dán, hồ dán",
+      "example_zh": "请用<u>胶水</u>粘住。",
+      "example_vi": "Xin hãy dùng <u>keo dán</u> lại.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "胶水.svg",
+      "src": "images/HSK_2.0/level5/胶水.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/胶水.svg"
       ]
     },
     "狡猾": {
@@ -38530,6 +38586,138 @@
       "src": "images/HSK_2.0/level5/教练.svg",
       "alt_srcs": [
         "images/HSK_3.0/level4/教练.svg"
+      ]
+    },
+    "接触": {
+      "hanzi": "接触",
+      "pinyin": "jiēchù",
+      "meaning": "tiếp xúc",
+      "example_zh": "我们应该<u>接触</u>新事物。",
+      "example_vi": "Chúng ta nên <u>tiếp xúc</u> với những điều mới.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "接触.svg",
+      "src": "images/HSK_2.0/level5/接触.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/接触.svg",
+        "images/HSK_3.0/level5/接触.svg"
+      ]
+    },
+    "接近": {
+      "hanzi": "接近",
+      "pinyin": "jiējìn",
+      "meaning": "gần gũi, tiếp cận",
+      "example_zh": "我们正在<u>接近</u>目标。",
+      "example_vi": "Chúng ta đang <u>tiếp cận</u> mục tiêu.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "接近.svg",
+      "src": "images/HSK_2.0/level5/接近.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/接近.svg"
+      ]
+    },
+    "阶段": {
+      "hanzi": "阶段",
+      "pinyin": "jiēduàn",
+      "meaning": "giai đoạn",
+      "example_zh": "这个项目分为三个<u>阶段</u>。",
+      "example_vi": "Dự án này được chia thành ba <u>giai đoạn</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "阶段.svg",
+      "src": "images/HSK_2.0/level5/阶段.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/阶段.svg"
+      ]
+    },
+    "戒指": {
+      "hanzi": "戒指",
+      "pinyin": "jièzhi",
+      "meaning": "nhẫn (trang sức)",
+      "example_zh": "他送给她一个<u>戒指</u>。",
+      "example_vi": "Anh ấy đã tặng cô ấy một chiếc <u>nhẫn</u>.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "戒指.svg",
+      "src": "images/HSK_2.0/level5/戒指.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/戒指.svg",
+        "images/HSK_3.0/level6/戒指.svg"
+      ]
+    },
+    "金属": {
+      "hanzi": "金属",
+      "pinyin": "jīnshǔ",
+      "meaning": "kim loại",
+      "example_zh": "这是一种贵<u>金属</u>。",
+      "example_vi": "Đây là một loại <u>kim loại</u> quý.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "金属.svg",
+      "src": "images/HSK_2.0/level5/金属.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/金属.svg"
+      ]
+    },
+    "进口": {
+      "hanzi": "进口",
+      "pinyin": "jìnkǒu",
+      "meaning": "nhập khẩu",
+      "example_zh": "这些产品都是<u>进口</u>的。",
+      "example_vi": "Những sản phẩm này đều là <u>nhập khẩu</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "进口.svg",
+      "src": "images/HSK_2.0/level5/进口.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/进口.svg"
+      ]
+    },
+    "尽力": {
+      "hanzi": "尽力",
+      "pinyin": "jìnlì",
+      "meaning": "hết sức, gắng hết sức",
+      "example_zh": "我会<u>尽力</u>帮助你。",
+      "example_vi": "Tôi sẽ <u>hết sức</u> giúp đỡ bạn.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "尽力.svg",
+      "src": "images/HSK_2.0/level5/尽力.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/尽力.svg",
+        "images/HSK_3.0/level5/尽力.svg"
       ]
     },
     "秘书": {

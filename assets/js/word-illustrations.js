@@ -10717,6 +10717,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/简历.svg",
     "caption": "sơ yếu lý lịch"
   },
+  "剪刀": {
+    "file": "剪刀.svg",
+    "src": "images/HSK_2.0/level5/剪刀.svg",
+    "caption": "cái kéo"
+  },
   "建立": {
     "file": "建立.svg",
     "src": "images/HSK_2.0/level5/建立.svg",
@@ -10727,6 +10732,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/讲究.svg",
     "caption": "chú trọng, cầu kỳ"
   },
+  "交际": {
+    "file": "交际.svg",
+    "src": "images/HSK_2.0/level5/交际.svg",
+    "caption": "giao tiếp xã hội"
+  },
+  "胶水": {
+    "file": "胶水.svg",
+    "src": "images/HSK_2.0/level5/胶水.svg",
+    "caption": "keo dán, hồ dán"
+  },
   "狡猾": {
     "file": "狡猾.svg",
     "src": "images/HSK_2.0/level5/狡猾.svg",
@@ -10736,6 +10751,41 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "教练.svg",
     "src": "images/HSK_2.0/level5/教练.svg",
     "caption": "huấn luyện viên"
+  },
+  "接触": {
+    "file": "接触.svg",
+    "src": "images/HSK_2.0/level5/接触.svg",
+    "caption": "tiếp xúc"
+  },
+  "接近": {
+    "file": "接近.svg",
+    "src": "images/HSK_2.0/level5/接近.svg",
+    "caption": "gần gũi, tiếp cận"
+  },
+  "阶段": {
+    "file": "阶段.svg",
+    "src": "images/HSK_2.0/level5/阶段.svg",
+    "caption": "giai đoạn"
+  },
+  "戒指": {
+    "file": "戒指.svg",
+    "src": "images/HSK_2.0/level5/戒指.svg",
+    "caption": "nhẫn (trang sức)"
+  },
+  "金属": {
+    "file": "金属.svg",
+    "src": "images/HSK_2.0/level5/金属.svg",
+    "caption": "kim loại"
+  },
+  "进口": {
+    "file": "进口.svg",
+    "src": "images/HSK_2.0/level5/进口.svg",
+    "caption": "nhập khẩu"
+  },
+  "尽力": {
+    "file": "尽力.svg",
+    "src": "images/HSK_2.0/level5/尽力.svg",
+    "caption": "hết sức, gắng hết sức"
   },
   "秘书": {
     "file": "秘书.svg",
