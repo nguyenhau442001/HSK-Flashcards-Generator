@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:17:31.859269",
-  "total_unique_words_with_illustrations": 2133,
-  "total_flat_svg_files": 2133,
+  "generated_at": "2026-10-09T20:19:29.090869",
+  "total_unique_words_with_illustrations": 2143,
+  "total_flat_svg_files": 2143,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,13 +26,13 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 934,
-        "pct": "71.8%"
+        "with_svg": 944,
+        "pct": "72.6%"
       },
       "level6": {
         "total": 2500,
-        "with_svg": 454,
-        "pct": "18.2%"
+        "with_svg": 460,
+        "pct": "18.4%"
       }
     },
     "hsk_3_0": {
@@ -58,28 +58,28 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 632,
-        "pct": "39.5%"
+        "with_svg": 637,
+        "pct": "39.8%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 180,
-        "pct": "10.0%"
+        "with_svg": 183,
+        "pct": "10.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 75,
-        "pct": "1.3%"
+        "with_svg": 77,
+        "pct": "1.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 75,
-        "pct": "1.3%"
+        "with_svg": 77,
+        "pct": "1.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 75,
-        "pct": "1.3%"
+        "with_svg": 77,
+        "pct": "1.4%"
       }
     }
   },
@@ -39294,6 +39294,206 @@
       "alt_srcs": [
         "images/HSK_2.0/level6/拦.svg",
         "images/HSK_3.0/level6/拦.svg"
+      ]
+    },
+    "朗读": {
+      "hanzi": "朗读",
+      "pinyin": "lǎngdú",
+      "meaning": "đọc to, đọc diễn cảm",
+      "example_zh": "请大声<u>朗读</u>课文。",
+      "example_vi": "Xin hãy <u>đọc to</u> bài văn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "朗读.svg",
+      "src": "images/HSK_2.0/level5/朗读.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/朗读.svg"
+      ]
+    },
+    "劳驾": {
+      "hanzi": "劳驾",
+      "pinyin": "láojià",
+      "meaning": "xin làm ơn, làm phiền",
+      "example_zh": "<u>劳驾</u>，请让一下。",
+      "example_vi": "<u>Làm ơn</u>, xin hãy nhường một chút.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "劳驾.svg",
+      "src": "images/HSK_2.0/level5/劳驾.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/劳驾.svg",
+        "images/HSK_3.0/level7/劳驾.svg",
+        "images/HSK_3.0/level8/劳驾.svg",
+        "images/HSK_3.0/level9/劳驾.svg"
+      ]
+    },
+    "老百姓": {
+      "hanzi": "老百姓",
+      "pinyin": "lǎobǎixìng",
+      "meaning": "dân thường, bách tính",
+      "example_zh": "<u>老百姓</u>的生活越来越好。",
+      "example_vi": "Cuộc sống của <u>dân thường</u> ngày càng tốt hơn.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "老百姓.svg",
+      "src": "images/HSK_2.0/level5/老百姓.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/老百姓.svg",
+        "images/HSK_3.0/level5/老百姓.svg"
+      ]
+    },
+    "老实": {
+      "hanzi": "老实",
+      "pinyin": "lǎoshi",
+      "meaning": "thật thà, trung thực",
+      "example_zh": "他是一个<u>老实</u>人。",
+      "example_vi": "Anh ấy là một người <u>thật thà</u>.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "老实.svg",
+      "src": "images/HSK_2.0/level5/老实.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/老实.svg",
+        "images/HSK_3.0/level6/老实.svg"
+      ]
+    },
+    "老婆": {
+      "hanzi": "老婆",
+      "pinyin": "lǎopó",
+      "meaning": "vợ (cách gọi thân mật)",
+      "example_zh": "他的<u>老婆</u>很漂亮。",
+      "example_vi": "<u>Vợ</u> của anh ấy rất đẹp.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "老婆.svg",
+      "src": "images/HSK_2.0/level5/老婆.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/老婆.svg"
+      ]
+    },
+    "乐观": {
+      "hanzi": "乐观",
+      "pinyin": "lèguān",
+      "meaning": "lạc quan",
+      "example_zh": "他对未来很<u>乐观</u>。",
+      "example_vi": "Anh ấy rất <u>lạc quan</u> về tương lai.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "乐观.svg",
+      "src": "images/HSK_2.0/level5/乐观.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/乐观.svg"
+      ]
+    },
+    "雷": {
+      "hanzi": "雷",
+      "pinyin": "léi",
+      "meaning": "sấm sét",
+      "example_zh": "今晚有<u>雷</u>。",
+      "example_vi": "Tối nay có <u>sấm</u>.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "雷.svg",
+      "src": "images/HSK_2.0/level5/雷.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/雷.svg",
+        "images/HSK_3.0/level6/雷.svg"
+      ]
+    },
+    "类型": {
+      "hanzi": "类型",
+      "pinyin": "lèixíng",
+      "meaning": "loại hình",
+      "example_zh": "这是一种新的<u>类型</u>。",
+      "example_vi": "Đây là một <u>loại hình</u> mới.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "类型.svg",
+      "src": "images/HSK_2.0/level5/类型.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/类型.svg",
+        "images/HSK_3.0/level5/类型.svg"
+      ]
+    },
+    "冷淡": {
+      "hanzi": "冷淡",
+      "pinyin": "lěngdàn",
+      "meaning": "lạnh nhạt, thờ ơ",
+      "example_zh": "他对我很<u>冷淡</u>。",
+      "example_vi": "Anh ấy đối với tôi rất <u>lạnh nhạt</u>.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "冷淡.svg",
+      "src": "images/HSK_2.0/level5/冷淡.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/冷淡.svg",
+        "images/HSK_3.0/level7/冷淡.svg",
+        "images/HSK_3.0/level8/冷淡.svg",
+        "images/HSK_3.0/level9/冷淡.svg"
+      ]
+    },
+    "梨": {
+      "hanzi": "梨",
+      "pinyin": "lí",
+      "meaning": "quả lê",
+      "example_zh": "我喜欢吃<u>梨</u>。",
+      "example_vi": "Tôi thích ăn <u>lê</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "梨.svg",
+      "src": "images/HSK_2.0/level5/梨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/梨.svg"
       ]
     },
     "秘书": {

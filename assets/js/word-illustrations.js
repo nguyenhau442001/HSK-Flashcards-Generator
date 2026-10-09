@@ -10937,6 +10937,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/拦.svg",
     "caption": "chặn, ngăn"
   },
+  "朗读": {
+    "file": "朗读.svg",
+    "src": "images/HSK_2.0/level5/朗读.svg",
+    "caption": "đọc to, đọc diễn cảm"
+  },
+  "劳驾": {
+    "file": "劳驾.svg",
+    "src": "images/HSK_2.0/level5/劳驾.svg",
+    "caption": "xin làm ơn, làm phiền"
+  },
+  "老百姓": {
+    "file": "老百姓.svg",
+    "src": "images/HSK_2.0/level5/老百姓.svg",
+    "caption": "dân thường, bách tính"
+  },
+  "老实": {
+    "file": "老实.svg",
+    "src": "images/HSK_2.0/level5/老实.svg",
+    "caption": "thật thà, trung thực"
+  },
+  "老婆": {
+    "file": "老婆.svg",
+    "src": "images/HSK_2.0/level5/老婆.svg",
+    "caption": "vợ (cách gọi thân mật)"
+  },
+  "乐观": {
+    "file": "乐观.svg",
+    "src": "images/HSK_2.0/level5/乐观.svg",
+    "caption": "lạc quan"
+  },
+  "雷": {
+    "file": "雷.svg",
+    "src": "images/HSK_2.0/level5/雷.svg",
+    "caption": "sấm sét"
+  },
+  "类型": {
+    "file": "类型.svg",
+    "src": "images/HSK_2.0/level5/类型.svg",
+    "caption": "loại hình"
+  },
+  "冷淡": {
+    "file": "冷淡.svg",
+    "src": "images/HSK_2.0/level5/冷淡.svg",
+    "caption": "lạnh nhạt, thờ ơ"
+  },
+  "梨": {
+    "file": "梨.svg",
+    "src": "images/HSK_2.0/level5/梨.svg",
+    "caption": "quả lê"
+  },
   "秘书": {
     "file": "秘书.svg",
     "src": "images/HSK_2.0/level5/秘书.svg",
