@@ -12466,6 +12466,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "战争.svg",
     "src": "images/HSK_2.0/level5/战争.svg",
     "caption": "chiến tranh"
+  },
+  "长辈": {
+    "file": "长辈.svg",
+    "src": "images/HSK_2.0/level5/长辈.svg",
+    "caption": "người lớn tuổi, bậc trên"
+  },
+  "涨": {
+    "file": "涨.svg",
+    "src": "images/HSK_2.0/level5/涨.svg",
+    "caption": "tăng, dâng lên"
+  },
+  "招待": {
+    "file": "招待.svg",
+    "src": "images/HSK_2.0/level5/招待.svg",
+    "caption": "tiếp đãi, chiêu đãi"
+  },
+  "着火": {
+    "file": "着火.svg",
+    "src": "images/HSK_2.0/level5/着火.svg",
+    "caption": "bốc cháy"
+  },
+  "着凉": {
+    "file": "着凉.svg",
+    "src": "images/HSK_2.0/level5/着凉.svg",
+    "caption": "bị cảm lạnh"
+  },
+  "召开": {
+    "file": "召开.svg",
+    "src": "images/HSK_2.0/level5/召开.svg",
+    "caption": "triệu tập, tổ chức (họp)"
+  },
+  "照常": {
+    "file": "照常.svg",
+    "src": "images/HSK_2.0/level5/照常.svg",
+    "caption": "như thường lệ"
+  },
+  "哲学": {
+    "file": "哲学.svg",
+    "src": "images/HSK_2.0/level5/哲学.svg",
+    "caption": "triết học"
+  },
+  "真实": {
+    "file": "真实.svg",
+    "src": "images/HSK_2.0/level5/真实.svg",
+    "caption": "chân thực"
+  },
+  "针对": {
+    "file": "针对.svg",
+    "src": "images/HSK_2.0/level5/针对.svg",
+    "caption": "nhằm vào, đối với"
   }
 };
 

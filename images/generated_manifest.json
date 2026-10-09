@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T21:20:34.771046",
-  "total_unique_words_with_illustrations": 2433,
-  "total_flat_svg_files": 2433,
+  "generated_at": "2026-10-09T21:22:58.135757",
+  "total_unique_words_with_illustrations": 2443,
+  "total_flat_svg_files": 2443,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1234,
-        "pct": "94.9%"
+        "with_svg": 1244,
+        "pct": "95.7%"
       },
       "level6": {
         "total": 2500,
@@ -53,32 +53,32 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 601,
-        "pct": "60.1%"
+        "with_svg": 602,
+        "pct": "60.2%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 832,
-        "pct": "52.0%"
+        "with_svg": 838,
+        "pct": "52.4%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 232,
-        "pct": "12.9%"
+        "with_svg": 234,
+        "pct": "13.0%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 98,
+        "with_svg": 100,
         "pct": "1.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 98,
+        "with_svg": 100,
         "pct": "1.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 98,
+        "with_svg": 100,
         "pct": "1.8%"
       }
     }
@@ -44890,6 +44890,196 @@
       "src": "images/HSK_2.0/level5/战争.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/战争.svg"
+      ]
+    },
+    "长辈": {
+      "hanzi": "长辈",
+      "pinyin": "zhǎngbèi",
+      "meaning": "người lớn tuổi, bậc trên",
+      "example_zh": "要尊重<u>长辈</u>。",
+      "example_vi": "Phải tôn trọng <u>người lớn tuổi</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "长辈.svg",
+      "src": "images/HSK_2.0/level5/长辈.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/长辈.svg"
+      ]
+    },
+    "涨": {
+      "hanzi": "涨",
+      "pinyin": "zhǎng",
+      "meaning": "tăng, dâng lên",
+      "example_zh": "物价<u>涨</u>了很多。",
+      "example_vi": "Giá cả đã <u>tăng</u> lên nhiều.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5",
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "涨.svg",
+      "src": "images/HSK_2.0/level5/涨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/涨.svg",
+        "images/HSK_3.0/level7/涨.svg",
+        "images/HSK_3.0/level8/涨.svg",
+        "images/HSK_3.0/level9/涨.svg"
+      ]
+    },
+    "招待": {
+      "hanzi": "招待",
+      "pinyin": "zhāodài",
+      "meaning": "tiếp đãi, chiêu đãi",
+      "example_zh": "我们要好好<u>招待</u>客人。",
+      "example_vi": "Chúng ta phải <u>tiếp đãi</u> khách thật tốt.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "招待.svg",
+      "src": "images/HSK_2.0/level5/招待.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/招待.svg"
+      ]
+    },
+    "着火": {
+      "hanzi": "着火",
+      "pinyin": "zháohuǒ",
+      "meaning": "bốc cháy",
+      "example_zh": "房子<u>着火</u>了。",
+      "example_vi": "Ngôi nhà đã <u>bốc cháy</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "着火.svg",
+      "src": "images/HSK_2.0/level5/着火.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/着火.svg"
+      ]
+    },
+    "着凉": {
+      "hanzi": "着凉",
+      "pinyin": "zháoliáng",
+      "meaning": "bị cảm lạnh",
+      "example_zh": "他昨天<u>着凉</u>了。",
+      "example_vi": "Hôm qua anh ấy <u>bị cảm lạnh</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "着凉.svg",
+      "src": "images/HSK_2.0/level5/着凉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/着凉.svg"
+      ]
+    },
+    "召开": {
+      "hanzi": "召开",
+      "pinyin": "zhàokāi",
+      "meaning": "triệu tập, tổ chức (họp)",
+      "example_zh": "公司<u>召开</u>了会议。",
+      "example_vi": "Công ty đã <u>triệu tập</u> cuộc họp.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "召开.svg",
+      "src": "images/HSK_2.0/level5/召开.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/召开.svg"
+      ]
+    },
+    "照常": {
+      "hanzi": "照常",
+      "pinyin": "zhàocháng",
+      "meaning": "như thường lệ",
+      "example_zh": "今天<u>照常</u>上班。",
+      "example_vi": "Hôm nay đi làm <u>như thường lệ</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "照常.svg",
+      "src": "images/HSK_2.0/level5/照常.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/照常.svg",
+        "images/HSK_3.0/level8/照常.svg",
+        "images/HSK_3.0/level9/照常.svg"
+      ]
+    },
+    "哲学": {
+      "hanzi": "哲学",
+      "pinyin": "zhéxué",
+      "meaning": "triết học",
+      "example_zh": "他在学习<u>哲学</u>。",
+      "example_vi": "Anh ấy đang học <u>triết học</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "哲学.svg",
+      "src": "images/HSK_2.0/level5/哲学.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/哲学.svg"
+      ]
+    },
+    "真实": {
+      "hanzi": "真实",
+      "pinyin": "zhēnshí",
+      "meaning": "chân thực",
+      "example_zh": "这是一个<u>真实</u>的故事。",
+      "example_vi": "Đây là một câu chuyện <u>chân thực</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "真实.svg",
+      "src": "images/HSK_2.0/level5/真实.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/真实.svg"
+      ]
+    },
+    "针对": {
+      "hanzi": "针对",
+      "pinyin": "zhēnduì",
+      "meaning": "nhằm vào, đối với",
+      "example_zh": "这个问题<u>针对</u>所有人。",
+      "example_vi": "Vấn đề này <u>nhằm vào</u> tất cả mọi người.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "针对.svg",
+      "src": "images/HSK_2.0/level5/针对.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/针对.svg"
       ]
     }
   }
