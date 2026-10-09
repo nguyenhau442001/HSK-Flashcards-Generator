@@ -752,6 +752,10 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
   buildCardArea();
   renderFilters();
 
+  if (typeof preloadWordsIllustrations === 'function') {
+    preloadWordsIllustrations(WORDS, 25);
+  }
+
   currentView = 'cards';
   const studyView = document.getElementById('studyView');
   const overviewView = document.getElementById('overviewView');

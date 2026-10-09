@@ -613,7 +613,7 @@ function render(animate) {
     document.getElementById('exPy').innerHTML = w.example_py;
     document.getElementById('exVi').innerHTML = w.example_vi;
 
-    // Cập nhật hình ảnh minh họa trực quan (Visual Mnemonic Anchor - Gợi hình thuần túy, KHÔNG hiện giải mã nghĩa)
+    // Cập nhật hình ảnh minh họa trực quan (Visual Mnemonic Anchor)
     const imgEl = document.getElementById('cardIllustrationImg');
     const svgEl = document.getElementById('cardIllustrationSvg');
     const frameEl = document.getElementById('cardIllustrationFrame');
@@ -621,22 +621,49 @@ function render(animate) {
     if (imgEl && svgEl && typeof getWordIllustration === 'function') {
       const illu = getWordIllustration(w);
       if (illu) {
-        if (illu.src || illu.type === 'img') {
-          imgEl.src = illu.src;
-          imgEl.alt = 'Minh họa gợi hình';
-          imgEl.hidden = false;
-          svgEl.hidden = true;
-          svgEl.innerHTML = '';
-        } else if (illu.type === 'svg') {
+        if (frameEl) frameEl.title = 'Minh họa gợi hình';
+
+        if (illu.type === 'svg' && illu.svg) {
           svgEl.innerHTML = illu.svg;
           svgEl.hidden = false;
           imgEl.hidden = true;
-          imgEl.src = '';
-        }
-        if (frameEl) {
-          frameEl.title = 'Minh họa gợi hình';
+          imgEl.removeAttribute('src');
+        } else if (illu.src) {
+          const cachedSvg = (typeof SynapseSvgCache !== 'undefined') ? SynapseSvgCache.get(illu.src) : null;
+          if (cachedSvg) {
+            // INSTANT RENDER (0ms latency from RAM cache)
+            svgEl.innerHTML = cachedSvg;
+            svgEl.hidden = false;
+            imgEl.hidden = true;
+            imgEl.removeAttribute('src');
+          } else {
+            if (imgEl.src !== illu.src) {
+              imgEl.src = illu.src;
+            }
+            imgEl.alt = 'Minh họa gợi hình';
+            imgEl.hidden = false;
+            svgEl.hidden = true;
+            svgEl.innerHTML = '';
+
+            const curWord = w;
+            if (typeof preloadIllustration === 'function') {
+              preloadIllustration(illu.src).then(svgText => {
+                if (svgText && typeof activeStudyWord !== 'undefined' && activeStudyWord === curWord) {
+                  svgEl.innerHTML = svgText;
+                  svgEl.hidden = false;
+                  imgEl.hidden = true;
+                  imgEl.removeAttribute('src');
+                }
+              });
+            }
+          }
         }
       }
+    }
+
+    // Predictive sliding-window preloader: prefetch next 10 cards and previous 2 cards in background
+    if (typeof preloadNearbyIllustrations === 'function' && Array.isArray(WORDS) && Array.isArray(filteredOrder) && filteredOrder.length > 0) {
+      preloadNearbyIllustrations(WORDS, filteredOrder, idx % filteredOrder.length, 10);
     }
 
     document.getElementById('hint').textContent = hasExample

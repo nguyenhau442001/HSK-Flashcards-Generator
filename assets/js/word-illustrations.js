@@ -10393,6 +10393,104 @@ function buildContextualPrompt(word) {
   };
 }
 
+// ==========================================================================
+// Synapse Instant-Load Acceleration Engine: In-Memory SVG Cache & Preloader
+// ==========================================================================
+const SynapseSvgCache = (typeof window !== 'undefined' && window.SynapseSvgCache) ? window.SynapseSvgCache : new Map();
+const SynapseInflightFetches = (typeof window !== 'undefined' && window.SynapseInflightFetches) ? window.SynapseInflightFetches : new Map();
+
+/**
+ * Preload an individual illustration into browser RAM and HTTP cache.
+ * Returns a Promise that resolves with the raw SVG string if available.
+ */
+function preloadIllustration(illuOrSrc) {
+  if (!illuOrSrc) return Promise.resolve(null);
+  const src = typeof illuOrSrc === 'string' ? illuOrSrc : (illuOrSrc.src || '');
+  if (!src) return Promise.resolve(null);
+
+  // Return directly if already in fast memory cache
+  if (SynapseSvgCache.has(src)) {
+    return Promise.resolve(SynapseSvgCache.get(src));
+  }
+
+  // Deduplicate ongoing inflight fetches
+  if (SynapseInflightFetches.has(src)) {
+    return SynapseInflightFetches.get(src);
+  }
+
+  const p = (async () => {
+    try {
+      // 1. Warm up browser Image element cache immediately
+      const img = new Image();
+      img.src = src;
+
+      // 2. If it is an SVG file, fetch text directly for instant 0ms inline DOM injection
+      if (src.endsWith('.svg') || src.includes('.svg')) {
+        const res = await fetch(src, { priority: 'low' });
+        if (res.ok) {
+          const text = await res.text();
+          if (text && text.includes('<svg')) {
+            SynapseSvgCache.set(src, text);
+            return text;
+          }
+        }
+      }
+      return null;
+    } catch (e) {
+      return null;
+    } finally {
+      SynapseInflightFetches.delete(src);
+    }
+  })();
+
+  SynapseInflightFetches.set(src, p);
+  return p;
+}
+
+/**
+ * Batch preload illustrations for an array of words (e.g. deck initialization).
+ */
+function preloadWordsIllustrations(words, maxCount = 25) {
+  if (!Array.isArray(words) || words.length === 0) return;
+  const count = Math.min(words.length, maxCount);
+  for (let i = 0; i < count; i++) {
+    const w = words[i];
+    if (w) {
+      const illu = getWordIllustration(w);
+      if (illu && illu.src) {
+        preloadIllustration(illu.src);
+      }
+    }
+  }
+}
+
+/**
+ * Predictive Sliding-Window Preloader for study mode:
+ * Preloads the next N cards ahead and the previous 2 cards in background.
+ */
+function preloadNearbyIllustrations(wordList, activeFilteredOrder, currentIdx, lookahead = 10) {
+  if (!Array.isArray(wordList) || !Array.isArray(activeFilteredOrder) || activeFilteredOrder.length === 0) return;
+  const len = activeFilteredOrder.length;
+  // Lookahead: next 1 to lookahead cards
+  for (let offset = 1; offset <= lookahead; offset++) {
+    const nextIdx = (currentIdx + offset) % len;
+    const w = wordList[activeFilteredOrder[nextIdx]];
+    if (w) {
+      const illu = getWordIllustration(w);
+      if (illu && illu.src) preloadIllustration(illu.src);
+    }
+  }
+  // Lookbehind: previous 1 and 2 cards
+  for (let offset = 1; offset <= 2; offset++) {
+    const prevIdx = (currentIdx - offset + len) % len;
+    const w = wordList[activeFilteredOrder[prevIdx]];
+    if (w) {
+      const illu = getWordIllustration(w);
+      if (illu && illu.src) preloadIllustration(illu.src);
+    }
+  }
+}
+
 // Global exposure
 if (typeof window !== 'undefined') {
   window.POS_TYPES = POS_TYPES;
@@ -10402,6 +10500,10 @@ if (typeof window !== 'undefined') {
   window.STATIC_ILLUSTRATIONS_INDEX = STATIC_ILLUSTRATIONS_INDEX;
   window.getWordIllustration = getWordIllustration;
   window.buildContextualPrompt = buildContextualPrompt;
+  window.SynapseSvgCache = SynapseSvgCache;
+  window.preloadIllustration = preloadIllustration;
+  window.preloadWordsIllustrations = preloadWordsIllustrations;
+  window.preloadNearbyIllustrations = preloadNearbyIllustrations;
 }
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
@@ -10412,6 +10514,10 @@ if (typeof module !== 'undefined' && module.exports) {
     STATIC_ILLUSTRATIONS_INDEX,
     getWordIllustration,
     buildContextualPrompt,
-    generateAestheticFallback
+    generateAestheticFallback,
+    SynapseSvgCache,
+    preloadIllustration,
+    preloadWordsIllustrations,
+    preloadNearbyIllustrations
   };
 }
