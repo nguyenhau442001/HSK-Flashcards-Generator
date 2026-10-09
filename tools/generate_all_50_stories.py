@@ -180,6 +180,7 @@ for lvl_idx in range(1, 10):
                 "description_vi": data.get("description_vi", ""),
                 "sentences_count": len(data.get("sentences", [])),
                 "words_count": sum(len(s.get("tokens", [])) for s in data.get("sentences", [])),
+                "file": f"database/readings/{lvl_name}/{story_file.name}",
                 "path": f"database/readings/{lvl_name}/{story_file.name}"
             })
 

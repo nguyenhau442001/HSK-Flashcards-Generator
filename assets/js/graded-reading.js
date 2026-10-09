@@ -135,8 +135,9 @@ const GradedReading = (function() {
     if (storyCache[storyId]) return storyCache[storyId];
     const item = manifest.find(m => m.id === storyId);
     if (!item) throw new Error('Không tìm thấy bài đọc: ' + storyId);
-    const res = await fetch(item.file);
-    if (!res.ok) throw new Error('Không thể tải nội dung bài: ' + item.file);
+    const storyUrl = item.file || item.path || `database/readings/${(item.level || '').toLowerCase()}/${item.id}.json`;
+    const res = await fetch(storyUrl);
+    if (!res.ok) throw new Error('Không thể tải nội dung bài: ' + storyUrl);
     const data = await res.json();
     storyCache[storyId] = data;
     return data;
