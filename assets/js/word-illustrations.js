@@ -12066,6 +12066,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "显示.svg",
     "src": "images/HSK_2.0/level5/显示.svg",
     "caption": "hiển thị, thể hiện"
+  },
+  "现代": {
+    "file": "现代.svg",
+    "src": "images/HSK_2.0/level5/现代.svg",
+    "caption": "hiện đại"
+  },
+  "现实": {
+    "file": "现实.svg",
+    "src": "images/HSK_2.0/level5/现实.svg",
+    "caption": "thực tế, hiện thực"
+  },
+  "限制": {
+    "file": "限制.svg",
+    "src": "images/HSK_2.0/level5/限制.svg",
+    "caption": "hạn chế"
+  },
+  "相处": {
+    "file": "相处.svg",
+    "src": "images/HSK_2.0/level5/相处.svg",
+    "caption": "sống cùng, chung sống"
+  },
+  "相对": {
+    "file": "相对.svg",
+    "src": "images/HSK_2.0/level5/相对.svg",
+    "caption": "tương đối"
+  },
+  "相关": {
+    "file": "相关.svg",
+    "src": "images/HSK_2.0/level5/相关.svg",
+    "caption": "tương quan, liên quan"
+  },
+  "想象": {
+    "file": "想象.svg",
+    "src": "images/HSK_2.0/level5/想象.svg",
+    "caption": "tưởng tượng"
+  },
+  "项": {
+    "file": "项.svg",
+    "src": "images/HSK_2.0/level5/项.svg",
+    "caption": "khoản, mục (lượng từ)"
+  },
+  "项目": {
+    "file": "项目.svg",
+    "src": "images/HSK_2.0/level5/项目.svg",
+    "caption": "dự án, hạng mục"
+  },
+  "象棋": {
+    "file": "象棋.svg",
+    "src": "images/HSK_2.0/level5/象棋.svg",
+    "caption": "cờ tướng"
   }
 };
 

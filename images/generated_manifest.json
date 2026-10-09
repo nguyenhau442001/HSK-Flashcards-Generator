@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T21:03:16.296553",
-  "total_unique_words_with_illustrations": 2353,
-  "total_flat_svg_files": 2353,
+  "generated_at": "2026-10-09T21:05:24.180589",
+  "total_unique_words_with_illustrations": 2363,
+  "total_flat_svg_files": 2363,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1154,
-        "pct": "88.8%"
+        "with_svg": 1164,
+        "pct": "89.5%"
       },
       "level6": {
         "total": 2500,
@@ -53,18 +53,18 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 598,
-        "pct": "59.8%"
+        "with_svg": 599,
+        "pct": "59.9%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 774,
-        "pct": "48.4%"
+        "with_svg": 782,
+        "pct": "48.9%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 216,
-        "pct": "12.0%"
+        "with_svg": 217,
+        "pct": "12.1%"
       },
       "level7": {
         "total": 5600,
@@ -43446,6 +43446,186 @@
       "src": "images/HSK_2.0/level5/显示.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/显示.svg"
+      ]
+    },
+    "现代": {
+      "hanzi": "现代",
+      "pinyin": "xiàndài",
+      "meaning": "hiện đại",
+      "example_zh": "这是一座<u>现代</u>建筑。",
+      "example_vi": "Đây là một công trình <u>hiện đại</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "现代.svg",
+      "src": "images/HSK_2.0/level5/现代.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/现代.svg"
+      ]
+    },
+    "现实": {
+      "hanzi": "现实",
+      "pinyin": "xiànshí",
+      "meaning": "thực tế, hiện thực",
+      "example_zh": "我们要面对<u>现实</u>。",
+      "example_vi": "Chúng ta phải đối mặt với <u>thực tế</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "现实.svg",
+      "src": "images/HSK_2.0/level5/现实.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/现实.svg"
+      ]
+    },
+    "限制": {
+      "hanzi": "限制",
+      "pinyin": "xiànzhì",
+      "meaning": "hạn chế",
+      "example_zh": "这条规定<u>限制</u>了我们的自由。",
+      "example_vi": "Quy định này <u>hạn chế</u> sự tự do của chúng ta.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "限制.svg",
+      "src": "images/HSK_2.0/level5/限制.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/限制.svg"
+      ]
+    },
+    "相处": {
+      "hanzi": "相处",
+      "pinyin": "xiāngchǔ",
+      "meaning": "sống cùng, chung sống",
+      "example_zh": "我们<u>相处</u>得很好。",
+      "example_vi": "Chúng tôi <u>sống cùng</u> nhau rất tốt.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "相处.svg",
+      "src": "images/HSK_2.0/level5/相处.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/相处.svg"
+      ]
+    },
+    "相对": {
+      "hanzi": "相对",
+      "pinyin": "xiāngduì",
+      "meaning": "tương đối",
+      "example_zh": "<u>相对</u>来说，这个更便宜。",
+      "example_vi": "<u>Tương đối</u> mà nói, cái này rẻ hơn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "相对.svg",
+      "src": "images/HSK_2.0/level5/相对.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/相对.svg"
+      ]
+    },
+    "相关": {
+      "hanzi": "相关",
+      "pinyin": "xiāngguān",
+      "meaning": "tương quan, liên quan",
+      "example_zh": "这两个问题<u>相关</u>。",
+      "example_vi": "Hai vấn đề này <u>liên quan</u> với nhau.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "相关.svg",
+      "src": "images/HSK_2.0/level5/相关.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/相关.svg"
+      ]
+    },
+    "想象": {
+      "hanzi": "想象",
+      "pinyin": "xiǎngxiàng",
+      "meaning": "tưởng tượng",
+      "example_zh": "我无法<u>想象</u>那个场景。",
+      "example_vi": "Tôi không thể <u>tưởng tượng</u> được cảnh tượng đó.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "想象.svg",
+      "src": "images/HSK_2.0/level5/想象.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/想象.svg"
+      ]
+    },
+    "项": {
+      "hanzi": "项",
+      "pinyin": "xiàng",
+      "meaning": "khoản, mục (lượng từ)",
+      "example_zh": "这一<u>项</u>任务很重要。",
+      "example_vi": "Hạng <u>mục</u> nhiệm vụ này rất quan trọng.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "项.svg",
+      "src": "images/HSK_2.0/level5/项.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/项.svg"
+      ]
+    },
+    "项目": {
+      "hanzi": "项目",
+      "pinyin": "xiàngmù",
+      "meaning": "dự án, hạng mục",
+      "example_zh": "这是一个重要的<u>项目</u>。",
+      "example_vi": "Đây là một <u>dự án</u> quan trọng.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "项目.svg",
+      "src": "images/HSK_2.0/level5/项目.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/项目.svg"
+      ]
+    },
+    "象棋": {
+      "hanzi": "象棋",
+      "pinyin": "xiàngqí",
+      "meaning": "cờ tướng",
+      "example_zh": "他喜欢下<u>象棋</u>。",
+      "example_vi": "Anh ấy thích chơi <u>cờ tướng</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "象棋.svg",
+      "src": "images/HSK_2.0/level5/象棋.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/象棋.svg"
       ]
     }
   }
