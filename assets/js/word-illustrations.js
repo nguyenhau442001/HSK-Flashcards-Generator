@@ -11747,6 +11747,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/搜索.svg",
     "caption": "tìm kiếm, tra cứu"
   },
+  "宿舍": {
+    "file": "宿舍.svg",
+    "src": "images/HSK_2.0/level5/宿舍.svg",
+    "caption": "nhà tập thể, ký túc xá"
+  },
+  "随时": {
+    "file": "随时.svg",
+    "src": "images/HSK_2.0/level5/随时.svg",
+    "caption": "bất cứ lúc nào"
+  },
+  "随手": {
+    "file": "随手.svg",
+    "src": "images/HSK_2.0/level5/随手.svg",
+    "caption": "tiện tay, nhân tiện"
+  },
+  "缩短": {
+    "file": "缩短.svg",
+    "src": "images/HSK_2.0/level5/缩短.svg",
+    "caption": "rút ngắn"
+  },
+  "所": {
+    "file": "所.svg",
+    "src": "images/HSK_2.0/level5/所.svg",
+    "caption": "nơi, sở (lượng từ tổ chức)"
+  },
+  "太太": {
+    "file": "太太.svg",
+    "src": "images/HSK_2.0/level5/太太.svg",
+    "caption": "bà (vợ, phu nhân)"
+  },
+  "谈判": {
+    "file": "谈判.svg",
+    "src": "images/HSK_2.0/level5/谈判.svg",
+    "caption": "đàm phán"
+  },
+  "坦率": {
+    "file": "坦率.svg",
+    "src": "images/HSK_2.0/level5/坦率.svg",
+    "caption": "thẳng thắn"
+  },
+  "烫": {
+    "file": "烫.svg",
+    "src": "images/HSK_2.0/level5/烫.svg",
+    "caption": "bỏng, nóng"
+  },
+  "桃": {
+    "file": "桃.svg",
+    "src": "images/HSK_2.0/level5/桃.svg",
+    "caption": "quả đào"
+  },
   "挑战": {
     "file": "挑战.svg",
     "src": "images/HSK_2.0/level5/挑战.svg",

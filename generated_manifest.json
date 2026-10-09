@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:51:12.305204",
-  "total_unique_words_with_illustrations": 2293,
-  "total_flat_svg_files": 2293,
+  "generated_at": "2026-10-09T20:53:06.480575",
+  "total_unique_words_with_illustrations": 2303,
+  "total_flat_svg_files": 2303,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1094,
-        "pct": "84.2%"
+        "with_svg": 1104,
+        "pct": "84.9%"
       },
       "level6": {
         "total": 2500,
@@ -58,27 +58,27 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 733,
-        "pct": "45.8%"
+        "with_svg": 739,
+        "pct": "46.2%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 206,
-        "pct": "11.4%"
+        "with_svg": 208,
+        "pct": "11.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 89,
+        "with_svg": 90,
         "pct": "1.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 89,
+        "with_svg": 90,
         "pct": "1.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 89,
+        "with_svg": 90,
         "pct": "1.6%"
       }
     }
@@ -42270,6 +42270,186 @@
       "src": "images/HSK_2.0/level5/搜索.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/搜索.svg"
+      ]
+    },
+    "宿舍": {
+      "hanzi": "宿舍",
+      "pinyin": "sùshè",
+      "meaning": "nhà tập thể, ký túc xá",
+      "example_zh": "学生们住在<u>宿舍</u>里。",
+      "example_vi": "Các học sinh sống trong <u>ký túc xá</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "宿舍.svg",
+      "src": "images/HSK_2.0/level5/宿舍.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/宿舍.svg"
+      ]
+    },
+    "随时": {
+      "hanzi": "随时",
+      "pinyin": "suíshí",
+      "meaning": "bất cứ lúc nào",
+      "example_zh": "你可以<u>随时</u>找我。",
+      "example_vi": "Bạn có thể tìm tôi <u>bất cứ lúc nào</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "随时.svg",
+      "src": "images/HSK_2.0/level5/随时.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/随时.svg"
+      ]
+    },
+    "随手": {
+      "hanzi": "随手",
+      "pinyin": "suíshǒu",
+      "meaning": "tiện tay, nhân tiện",
+      "example_zh": "他<u>随手</u>关了灯。",
+      "example_vi": "Anh ấy <u>tiện tay</u> tắt đèn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "随手.svg",
+      "src": "images/HSK_2.0/level5/随手.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/随手.svg"
+      ]
+    },
+    "缩短": {
+      "hanzi": "缩短",
+      "pinyin": "suōduǎn",
+      "meaning": "rút ngắn",
+      "example_zh": "请<u>缩短</u>时间。",
+      "example_vi": "Xin hãy <u>rút ngắn</u> thời gian.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "缩短.svg",
+      "src": "images/HSK_2.0/level5/缩短.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/缩短.svg"
+      ]
+    },
+    "所": {
+      "hanzi": "所",
+      "pinyin": "suǒ",
+      "meaning": "nơi, sở (lượng từ tổ chức)",
+      "example_zh": "这是一个研究<u>所</u>。",
+      "example_vi": "Đây là một <u>viện</u> nghiên cứu.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [],
+      "file": "所.svg",
+      "src": "images/HSK_2.0/level5/所.svg",
+      "alt_srcs": []
+    },
+    "太太": {
+      "hanzi": "太太",
+      "pinyin": "tàitai",
+      "meaning": "bà (vợ, phu nhân)",
+      "example_zh": "<u>太太</u>，您要点什么？",
+      "example_vi": "<u>Bà</u> ơi, bà muốn dùng gì?",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "太太.svg",
+      "src": "images/HSK_2.0/level5/太太.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/太太.svg"
+      ]
+    },
+    "谈判": {
+      "hanzi": "谈判",
+      "pinyin": "tánpàn",
+      "meaning": "đàm phán",
+      "example_zh": "双方在进行<u>谈判</u>。",
+      "example_vi": "Hai bên đang tiến hành <u>đàm phán</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "谈判.svg",
+      "src": "images/HSK_2.0/level5/谈判.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/谈判.svg"
+      ]
+    },
+    "坦率": {
+      "hanzi": "坦率",
+      "pinyin": "tǎnshuài",
+      "meaning": "thẳng thắn",
+      "example_zh": "他说话很<u>坦率</u>。",
+      "example_vi": "Anh ấy nói chuyện rất <u>thẳng thắn</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "坦率.svg",
+      "src": "images/HSK_2.0/level5/坦率.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/坦率.svg",
+        "images/HSK_3.0/level8/坦率.svg",
+        "images/HSK_3.0/level9/坦率.svg"
+      ]
+    },
+    "烫": {
+      "hanzi": "烫",
+      "pinyin": "tàng",
+      "meaning": "bỏng, nóng",
+      "example_zh": "汤很<u>烫</u>，小心。",
+      "example_vi": "Canh rất <u>nóng</u>, cẩn thận.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "烫.svg",
+      "src": "images/HSK_2.0/level5/烫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/烫.svg"
+      ]
+    },
+    "桃": {
+      "hanzi": "桃",
+      "pinyin": "táo",
+      "meaning": "quả đào",
+      "example_zh": "我喜欢吃<u>桃</u>子。",
+      "example_vi": "Tôi thích ăn <u>đào</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "桃.svg",
+      "src": "images/HSK_2.0/level5/桃.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/桃.svg"
       ]
     },
     "挑战": {
