@@ -11962,10 +11962,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/位置.svg",
     "caption": "vị trí"
   },
+  "未来": {
+    "file": "未来.svg",
+    "src": "images/HSK_2.0/level5/未来.svg",
+    "caption": "tương lai"
+  },
+  "温暖": {
+    "file": "温暖.svg",
+    "src": "images/HSK_2.0/level5/温暖.svg",
+    "caption": "ấm áp"
+  },
+  "闻": {
+    "file": "闻.svg",
+    "src": "images/HSK_2.0/level5/闻.svg",
+    "caption": "nghe, ngửi"
+  },
+  "文件": {
+    "file": "文件.svg",
+    "src": "images/HSK_2.0/level5/文件.svg",
+    "caption": "văn kiện, tài liệu"
+  },
+  "文明": {
+    "file": "文明.svg",
+    "src": "images/HSK_2.0/level5/文明.svg",
+    "caption": "văn minh"
+  },
+  "文字": {
+    "file": "文字.svg",
+    "src": "images/HSK_2.0/level5/文字.svg",
+    "caption": "văn tự, chữ viết"
+  },
+  "吻": {
+    "file": "吻.svg",
+    "src": "images/HSK_2.0/level5/吻.svg",
+    "caption": "hôn"
+  },
+  "握手": {
+    "file": "握手.svg",
+    "src": "images/HSK_2.0/level5/握手.svg",
+    "caption": "bắt tay"
+  },
   "屋子": {
     "file": "屋子.svg",
     "src": "images/HSK_2.0/level5/屋子.svg",
     "caption": "căn phòng, căn nhà"
+  },
+  "无奈": {
+    "file": "无奈.svg",
+    "src": "images/HSK_2.0/level5/无奈.svg",
+    "caption": "đành chịu, bất lực"
+  },
+  "无所谓": {
+    "file": "无所谓.svg",
+    "src": "images/HSK_2.0/level5/无所谓.svg",
+    "caption": "không quan trọng, không sao"
   }
 };
 

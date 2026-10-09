@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:59:18.409928",
-  "total_unique_words_with_illustrations": 2333,
-  "total_flat_svg_files": 2333,
+  "generated_at": "2026-10-09T21:01:14.956487",
+  "total_unique_words_with_illustrations": 2343,
+  "total_flat_svg_files": 2343,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1134,
-        "pct": "87.2%"
+        "with_svg": 1144,
+        "pct": "88.0%"
       },
       "level6": {
         "total": 2500,
@@ -53,32 +53,32 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 595,
-        "pct": "59.5%"
+        "with_svg": 598,
+        "pct": "59.8%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 761,
-        "pct": "47.6%"
+        "with_svg": 765,
+        "pct": "47.8%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 213,
-        "pct": "11.8%"
+        "with_svg": 215,
+        "pct": "11.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 94,
+        "with_svg": 95,
         "pct": "1.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 94,
+        "with_svg": 95,
         "pct": "1.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 94,
+        "with_svg": 95,
         "pct": "1.7%"
       }
     }
@@ -43062,6 +43062,154 @@
         "images/HSK_3.0/level5/位置.svg"
       ]
     },
+    "未来": {
+      "hanzi": "未来",
+      "pinyin": "wèilái",
+      "meaning": "tương lai",
+      "example_zh": "我们要为<u>未来</u>做准备。",
+      "example_vi": "Chúng ta phải chuẩn bị cho <u>tương lai</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "未来.svg",
+      "src": "images/HSK_2.0/level5/未来.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/未来.svg"
+      ]
+    },
+    "温暖": {
+      "hanzi": "温暖",
+      "pinyin": "wēnnuǎn",
+      "meaning": "ấm áp",
+      "example_zh": "她的笑容很<u>温暖</u>。",
+      "example_vi": "Nụ cười của cô ấy rất <u>ấm áp</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "温暖.svg",
+      "src": "images/HSK_2.0/level5/温暖.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/温暖.svg"
+      ]
+    },
+    "闻": {
+      "hanzi": "闻",
+      "pinyin": "wén",
+      "meaning": "nghe, ngửi",
+      "example_zh": "我<u>闻</u>到了花的香味。",
+      "example_vi": "Tôi đã <u>ngửi</u> thấy hương thơm của hoa.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "闻.svg",
+      "src": "images/HSK_2.0/level5/闻.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/闻.svg"
+      ]
+    },
+    "文件": {
+      "hanzi": "文件",
+      "pinyin": "wénjiàn",
+      "meaning": "văn kiện, tài liệu",
+      "example_zh": "请整理好这些<u>文件</u>。",
+      "example_vi": "Xin hãy sắp xếp tốt những <u>văn kiện</u> này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "文件.svg",
+      "src": "images/HSK_2.0/level5/文件.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/文件.svg"
+      ]
+    },
+    "文明": {
+      "hanzi": "文明",
+      "pinyin": "wénmíng",
+      "meaning": "văn minh",
+      "example_zh": "我们要保护人类<u>文明</u>。",
+      "example_vi": "Chúng ta phải bảo vệ <u>văn minh</u> nhân loại.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "文明.svg",
+      "src": "images/HSK_2.0/level5/文明.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/文明.svg"
+      ]
+    },
+    "文字": {
+      "hanzi": "文字",
+      "pinyin": "wénzì",
+      "meaning": "văn tự, chữ viết",
+      "example_zh": "请用中文<u>文字</u>写出来。",
+      "example_vi": "Xin hãy viết ra bằng <u>chữ</u> Trung văn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "文字.svg",
+      "src": "images/HSK_2.0/level5/文字.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/文字.svg"
+      ]
+    },
+    "吻": {
+      "hanzi": "吻",
+      "pinyin": "wěn",
+      "meaning": "hôn",
+      "example_zh": "他给了她一个<u>吻</u>。",
+      "example_vi": "Anh ấy đã trao cho cô ấy một cái <u>hôn</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "吻.svg",
+      "src": "images/HSK_2.0/level5/吻.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/吻.svg",
+        "images/HSK_3.0/level8/吻.svg",
+        "images/HSK_3.0/level9/吻.svg"
+      ]
+    },
+    "握手": {
+      "hanzi": "握手",
+      "pinyin": "wòshǒu",
+      "meaning": "bắt tay",
+      "example_zh": "他们<u>握手</u>了。",
+      "example_vi": "Họ đã <u>bắt tay</u> nhau.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "握手.svg",
+      "src": "images/HSK_2.0/level5/握手.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/握手.svg"
+      ]
+    },
     "屋子": {
       "hanzi": "屋子",
       "pinyin": "wūzi",
@@ -43078,6 +43226,42 @@
       "src": "images/HSK_2.0/level5/屋子.svg",
       "alt_srcs": [
         "images/HSK_3.0/level3/屋子.svg"
+      ]
+    },
+    "无奈": {
+      "hanzi": "无奈",
+      "pinyin": "wúnài",
+      "meaning": "đành chịu, bất lực",
+      "example_zh": "他<u>无奈</u>地笑了笑。",
+      "example_vi": "Anh ấy đành cười một cái <u>bất lực</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "无奈.svg",
+      "src": "images/HSK_2.0/level5/无奈.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/无奈.svg"
+      ]
+    },
+    "无所谓": {
+      "hanzi": "无所谓",
+      "pinyin": "wúsuǒwèi",
+      "meaning": "không quan trọng, không sao",
+      "example_zh": "去不去<u>无所谓</u>。",
+      "example_vi": "Đi hay không <u>không quan trọng</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "无所谓.svg",
+      "src": "images/HSK_2.0/level5/无所谓.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/无所谓.svg"
       ]
     }
   }
