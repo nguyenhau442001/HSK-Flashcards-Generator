@@ -11797,10 +11797,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/桃.svg",
     "caption": "quả đào"
   },
+  "逃避": {
+    "file": "逃避.svg",
+    "src": "images/HSK_2.0/level5/逃避.svg",
+    "caption": "trốn tránh"
+  },
+  "特殊": {
+    "file": "特殊.svg",
+    "src": "images/HSK_2.0/level5/特殊.svg",
+    "caption": "đặc biệt"
+  },
+  "特征": {
+    "file": "特征.svg",
+    "src": "images/HSK_2.0/level5/特征.svg",
+    "caption": "đặc trưng"
+  },
+  "疼爱": {
+    "file": "疼爱.svg",
+    "src": "images/HSK_2.0/level5/疼爱.svg",
+    "caption": "yêu thương, cưng chiều"
+  },
+  "提纲": {
+    "file": "提纲.svg",
+    "src": "images/HSK_2.0/level5/提纲.svg",
+    "caption": "đề cương, dàn ý"
+  },
+  "提问": {
+    "file": "提问.svg",
+    "src": "images/HSK_2.0/level5/提问.svg",
+    "caption": "đặt câu hỏi"
+  },
+  "体会": {
+    "file": "体会.svg",
+    "src": "images/HSK_2.0/level5/体会.svg",
+    "caption": "thể nghiệm, cảm nhận"
+  },
+  "体现": {
+    "file": "体现.svg",
+    "src": "images/HSK_2.0/level5/体现.svg",
+    "caption": "thể hiện"
+  },
+  "调皮": {
+    "file": "调皮.svg",
+    "src": "images/HSK_2.0/level5/调皮.svg",
+    "caption": "nghịch ngợm"
+  },
   "挑战": {
     "file": "挑战.svg",
     "src": "images/HSK_2.0/level5/挑战.svg",
     "caption": "thử thách, thách thức"
+  },
+  "痛苦": {
+    "file": "痛苦.svg",
+    "src": "images/HSK_2.0/level5/痛苦.svg",
+    "caption": "đau khổ"
   },
   "歪": {
     "file": "歪.svg",

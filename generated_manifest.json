@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:53:06.480575",
-  "total_unique_words_with_illustrations": 2303,
-  "total_flat_svg_files": 2303,
+  "generated_at": "2026-10-09T20:54:59.853956",
+  "total_unique_words_with_illustrations": 2313,
+  "total_flat_svg_files": 2313,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1104,
-        "pct": "84.9%"
+        "with_svg": 1114,
+        "pct": "85.7%"
       },
       "level6": {
         "total": 2500,
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 739,
-        "pct": "46.2%"
+        "with_svg": 746,
+        "pct": "46.6%"
       },
       "level6": {
         "total": 1800,
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 90,
-        "pct": "1.6%"
+        "with_svg": 93,
+        "pct": "1.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 90,
-        "pct": "1.6%"
+        "with_svg": 93,
+        "pct": "1.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 90,
-        "pct": "1.6%"
+        "with_svg": 93,
+        "pct": "1.7%"
       }
     }
   },
@@ -42452,6 +42452,180 @@
         "images/HSK_3.0/level5/桃.svg"
       ]
     },
+    "逃避": {
+      "hanzi": "逃避",
+      "pinyin": "táobì",
+      "meaning": "trốn tránh",
+      "example_zh": "他<u>逃避</u>现实问题。",
+      "example_vi": "Anh ấy <u>trốn tránh</u> vấn đề thực tế.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "逃避.svg",
+      "src": "images/HSK_2.0/level5/逃避.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/逃避.svg",
+        "images/HSK_3.0/level8/逃避.svg",
+        "images/HSK_3.0/level9/逃避.svg"
+      ]
+    },
+    "特殊": {
+      "hanzi": "特殊",
+      "pinyin": "tèshū",
+      "meaning": "đặc biệt",
+      "example_zh": "这是一个<u>特殊</u>情况。",
+      "example_vi": "Đây là một tình huống <u>đặc biệt</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "特殊.svg",
+      "src": "images/HSK_2.0/level5/特殊.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/特殊.svg"
+      ]
+    },
+    "特征": {
+      "hanzi": "特征",
+      "pinyin": "tèzhēng",
+      "meaning": "đặc trưng",
+      "example_zh": "这个产品有很多<u>特征</u>。",
+      "example_vi": "Sản phẩm này có nhiều <u>đặc trưng</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "特征.svg",
+      "src": "images/HSK_2.0/level5/特征.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/特征.svg"
+      ]
+    },
+    "疼爱": {
+      "hanzi": "疼爱",
+      "pinyin": "téngài",
+      "meaning": "yêu thương, cưng chiều",
+      "example_zh": "奶奶很<u>疼爱</u>孙子。",
+      "example_vi": "Bà nội rất <u>yêu thương</u> cháu trai.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "疼爱.svg",
+      "src": "images/HSK_2.0/level5/疼爱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/疼爱.svg",
+        "images/HSK_3.0/level8/疼爱.svg",
+        "images/HSK_3.0/level9/疼爱.svg"
+      ]
+    },
+    "提纲": {
+      "hanzi": "提纲",
+      "pinyin": "tígāng",
+      "meaning": "đề cương, dàn ý",
+      "example_zh": "请先写一个<u>提纲</u>。",
+      "example_vi": "Xin hãy viết một <u>dàn ý</u> trước.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "提纲.svg",
+      "src": "images/HSK_2.0/level5/提纲.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/提纲.svg",
+        "images/HSK_3.0/level8/提纲.svg",
+        "images/HSK_3.0/level9/提纲.svg"
+      ]
+    },
+    "提问": {
+      "hanzi": "提问",
+      "pinyin": "tíwèn",
+      "meaning": "đặt câu hỏi",
+      "example_zh": "学生们向老师<u>提问</u>。",
+      "example_vi": "Các học sinh <u>đặt câu hỏi</u> với thầy giáo.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "提问.svg",
+      "src": "images/HSK_2.0/level5/提问.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/提问.svg"
+      ]
+    },
+    "体会": {
+      "hanzi": "体会",
+      "pinyin": "tǐhuì",
+      "meaning": "thể nghiệm, cảm nhận",
+      "example_zh": "我能<u>体会</u>你的感受。",
+      "example_vi": "Tôi có thể <u>cảm nhận</u> được tâm trạng của bạn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "体会.svg",
+      "src": "images/HSK_2.0/level5/体会.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/体会.svg"
+      ]
+    },
+    "体现": {
+      "hanzi": "体现",
+      "pinyin": "tǐxiàn",
+      "meaning": "thể hiện",
+      "example_zh": "这<u>体现</u>了他的能力。",
+      "example_vi": "Điều này <u>thể hiện</u> năng lực của anh ấy.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "体现.svg",
+      "src": "images/HSK_2.0/level5/体现.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/体现.svg"
+      ]
+    },
+    "调皮": {
+      "hanzi": "调皮",
+      "pinyin": "tiáopí",
+      "meaning": "nghịch ngợm",
+      "example_zh": "这个孩子很<u>调皮</u>。",
+      "example_vi": "Đứa trẻ này rất <u>nghịch ngợm</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "调皮.svg",
+      "src": "images/HSK_2.0/level5/调皮.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/调皮.svg"
+      ]
+    },
     "挑战": {
       "hanzi": "挑战",
       "pinyin": "tiǎozhàn",
@@ -42468,6 +42642,24 @@
       "src": "images/HSK_2.0/level5/挑战.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/挑战.svg"
+      ]
+    },
+    "痛苦": {
+      "hanzi": "痛苦",
+      "pinyin": "tòngkǔ",
+      "meaning": "đau khổ",
+      "example_zh": "他经历了很多<u>痛苦</u>。",
+      "example_vi": "Anh ấy đã trải qua nhiều <u>đau khổ</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "痛苦.svg",
+      "src": "images/HSK_2.0/level5/痛苦.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/痛苦.svg"
       ]
     },
     "歪": {
