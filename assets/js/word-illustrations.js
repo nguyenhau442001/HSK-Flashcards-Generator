@@ -2007,30 +2007,80 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level3/带.svg",
     "caption": "mang theo, đai"
   },
+  "担心": {
+    "file": "担心.svg",
+    "src": "images/HSK_2.0/level3/担心.svg",
+    "caption": "lo lắng"
+  },
   "蛋糕": {
     "file": "蛋糕.svg",
     "src": "images/HSK_2.0/level3/蛋糕.svg",
     "caption": "bánh ngọt"
+  },
+  "当然": {
+    "file": "当然.svg",
+    "src": "images/HSK_2.0/level3/当然.svg",
+    "caption": "tất nhiên"
+  },
+  "地": {
+    "file": "地.svg",
+    "src": "images/HSK_2.0/level3/地.svg",
+    "caption": "cách (trợ từ trạng ngữ)"
   },
   "灯": {
     "file": "灯.svg",
     "src": "images/HSK_2.0/level3/灯.svg",
     "caption": "cái đèn"
   },
+  "地方": {
+    "file": "地方.svg",
+    "src": "images/HSK_2.0/level3/地方.svg",
+    "caption": "nơi, địa phương"
+  },
   "地铁": {
     "file": "地铁.svg",
     "src": "images/HSK_2.0/level3/地铁.svg",
     "caption": "tàu điện ngầm"
+  },
+  "地图": {
+    "file": "地图.svg",
+    "src": "images/HSK_2.0/level3/地图.svg",
+    "caption": "bản đồ"
   },
   "电梯": {
     "file": "电梯.svg",
     "src": "images/HSK_2.0/level3/电梯.svg",
     "caption": "thang máy"
   },
+  "电子邮件": {
+    "file": "电子邮件.svg",
+    "src": "images/HSK_2.0/level3/电子邮件.svg",
+    "caption": "thư điện tử (email)"
+  },
+  "东": {
+    "file": "东.svg",
+    "src": "images/HSK_2.0/level3/东.svg",
+    "caption": "phía đông"
+  },
+  "冬": {
+    "file": "冬.svg",
+    "src": "images/HSK_2.0/level3/冬.svg",
+    "caption": "mùa đông"
+  },
   "动物": {
     "file": "动物.svg",
     "src": "images/HSK_2.0/level3/动物.svg",
     "caption": "động vật"
+  },
+  "短": {
+    "file": "短.svg",
+    "src": "images/HSK_2.0/level3/短.svg",
+    "caption": "ngắn"
+  },
+  "段": {
+    "file": "段.svg",
+    "src": "images/HSK_2.0/level3/段.svg",
+    "caption": "đoạn (lượng từ)"
   },
   "发现": {
     "file": "发现.svg",

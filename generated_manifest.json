@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T08:10:43.790333",
-  "total_unique_words_with_illustrations": 1975,
-  "total_flat_svg_files": 1975,
+  "generated_at": "2026-10-09T19:44:55.456308",
+  "total_unique_words_with_illustrations": 1985,
+  "total_flat_svg_files": 1985,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -16,8 +16,8 @@
       },
       "level3": {
         "total": 300,
-        "with_svg": 182,
-        "pct": "60.7%"
+        "with_svg": 192,
+        "pct": "64.0%"
       },
       "level4": {
         "total": 600,
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 434,
+        "with_svg": 435,
         "pct": "17.4%"
       }
     },
@@ -43,13 +43,13 @@
       },
       "level2": {
         "total": 200,
-        "with_svg": 90,
-        "pct": "45.0%"
+        "with_svg": 91,
+        "pct": "45.5%"
       },
       "level3": {
         "total": 500,
-        "with_svg": 208,
-        "pct": "41.6%"
+        "with_svg": 216,
+        "pct": "43.2%"
       },
       "level4": {
         "total": 1000,
@@ -63,8 +63,8 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 168,
-        "pct": "9.3%"
+        "with_svg": 169,
+        "pct": "9.4%"
       },
       "level7": {
         "total": 5600,
@@ -6171,6 +6171,24 @@
         "images/HSK_3.0/level3/带.svg"
       ]
     },
+    "担心": {
+      "hanzi": "担心",
+      "pinyin": "dānxīn",
+      "meaning": "lo lắng",
+      "example_zh": "别<u>担心</u>，会没事的。",
+      "example_vi": "Đừng <u>lo lắng</u>, sẽ không có gì đâu.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "担心.svg",
+      "src": "images/HSK_2.0/level3/担心.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/担心.svg"
+      ]
+    },
     "蛋糕": {
       "hanzi": "蛋糕",
       "pinyin": "dàngāo",
@@ -6189,6 +6207,44 @@
       "alt_srcs": [
         "images/HSK_2.0/level6/蛋糕.svg",
         "images/HSK_3.0/level3/蛋糕.svg"
+      ]
+    },
+    "当然": {
+      "hanzi": "当然",
+      "pinyin": "dāngrán",
+      "meaning": "tất nhiên",
+      "example_zh": "他<u>当然</u>会来。",
+      "example_vi": "<u>Tất nhiên</u> anh ấy sẽ đến.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "当然.svg",
+      "src": "images/HSK_2.0/level3/当然.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/当然.svg"
+      ]
+    },
+    "地": {
+      "hanzi": "地",
+      "pinyin": "de",
+      "meaning": "cách (trợ từ trạng ngữ)",
+      "example_zh": "他高兴<u>地</u>笑了。",
+      "example_vi": "Anh ấy đã cười một <u>cách</u> vui vẻ.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level2",
+        "level3"
+      ],
+      "file": "地.svg",
+      "src": "images/HSK_2.0/level3/地.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/地.svg",
+        "images/HSK_3.0/level3/地.svg"
       ]
     },
     "灯": {
@@ -6211,6 +6267,26 @@
         "images/HSK_3.0/level3/灯.svg"
       ]
     },
+    "地方": {
+      "hanzi": "地方",
+      "pinyin": "dìfang",
+      "meaning": "nơi, địa phương",
+      "example_zh": "这是一个安静的<u>地方</u>。",
+      "example_vi": "Đây là một <u>nơi</u> yên tĩnh.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3",
+        "level6"
+      ],
+      "file": "地方.svg",
+      "src": "images/HSK_2.0/level3/地方.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/地方.svg",
+        "images/HSK_3.0/level6/地方.svg"
+      ]
+    },
     "地铁": {
       "hanzi": "地铁",
       "pinyin": "dìtiě",
@@ -6227,6 +6303,24 @@
       "src": "images/HSK_2.0/level3/地铁.svg",
       "alt_srcs": [
         "images/HSK_3.0/level2/地铁.svg"
+      ]
+    },
+    "地图": {
+      "hanzi": "地图",
+      "pinyin": "dìtú",
+      "meaning": "bản đồ",
+      "example_zh": "请给我看一下<u>地图</u>。",
+      "example_vi": "Xin hãy cho tôi xem <u>bản đồ</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "地图.svg",
+      "src": "images/HSK_2.0/level3/地图.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/地图.svg"
       ]
     },
     "电梯": {
@@ -6249,6 +6343,52 @@
         "images/HSK_3.0/level3/电梯.svg"
       ]
     },
+    "电子邮件": {
+      "hanzi": "电子邮件",
+      "pinyin": "diànzǐyóujiàn",
+      "meaning": "thư điện tử (email)",
+      "example_zh": "请把文件用<u>电子邮件</u>发给我。",
+      "example_vi": "Xin hãy gửi tài liệu cho tôi qua <u>email</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [],
+      "file": "电子邮件.svg",
+      "src": "images/HSK_2.0/level3/电子邮件.svg",
+      "alt_srcs": []
+    },
+    "东": {
+      "hanzi": "东",
+      "pinyin": "dōng",
+      "meaning": "phía đông",
+      "example_zh": "学校在城市的<u>东</u>边。",
+      "example_vi": "Trường học ở <u>phía đông</u> thành phố.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "东.svg",
+      "src": "images/HSK_2.0/level3/东.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/东.svg"
+      ]
+    },
+    "冬": {
+      "hanzi": "冬",
+      "pinyin": "dōng",
+      "meaning": "mùa đông",
+      "example_zh": "<u>冬</u>天的雪很美。",
+      "example_vi": "Tuyết <u>mùa đông</u> rất đẹp.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [],
+      "file": "冬.svg",
+      "src": "images/HSK_2.0/level3/冬.svg",
+      "alt_srcs": []
+    },
     "动物": {
       "hanzi": "动物",
       "pinyin": "dòngwù",
@@ -6265,6 +6405,44 @@
       "src": "images/HSK_2.0/level3/动物.svg",
       "alt_srcs": [
         "images/HSK_3.0/level3/动物.svg"
+      ]
+    },
+    "短": {
+      "hanzi": "短",
+      "pinyin": "duǎn",
+      "meaning": "ngắn",
+      "example_zh": "这条路很<u>短</u>。",
+      "example_vi": "Con đường này rất <u>ngắn</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "短.svg",
+      "src": "images/HSK_2.0/level3/短.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/短.svg"
+      ]
+    },
+    "段": {
+      "hanzi": "段",
+      "pinyin": "duàn",
+      "meaning": "đoạn (lượng từ)",
+      "example_zh": "这<u>段</u>时间我很忙。",
+      "example_vi": "<u>Khoảng thời gian</u> này tôi rất bận.",
+      "levels_hsk2": [
+        "level3",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "段.svg",
+      "src": "images/HSK_2.0/level3/段.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/段.svg",
+        "images/HSK_3.0/level3/段.svg"
       ]
     },
     "发现": {
