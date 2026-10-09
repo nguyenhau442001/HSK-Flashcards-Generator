@@ -10787,6 +10787,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/尽力.svg",
     "caption": "hết sức, gắng hết sức"
   },
+  "精力": {
+    "file": "精力.svg",
+    "src": "images/HSK_2.0/level5/精力.svg",
+    "caption": "tinh lực, năng lượng"
+  },
+  "经商": {
+    "file": "经商.svg",
+    "src": "images/HSK_2.0/level5/经商.svg",
+    "caption": "kinh doanh, buôn bán"
+  },
+  "经营": {
+    "file": "经营.svg",
+    "src": "images/HSK_2.0/level5/经营.svg",
+    "caption": "kinh doanh, quản lý"
+  },
+  "酒吧": {
+    "file": "酒吧.svg",
+    "src": "images/HSK_2.0/level5/酒吧.svg",
+    "caption": "quán bar"
+  },
+  "救护车": {
+    "file": "救护车.svg",
+    "src": "images/HSK_2.0/level5/救护车.svg",
+    "caption": "xe cứu thương"
+  },
+  "居然": {
+    "file": "居然.svg",
+    "src": "images/HSK_2.0/level5/居然.svg",
+    "caption": "thế mà, ngờ rằng"
+  },
+  "具体": {
+    "file": "具体.svg",
+    "src": "images/HSK_2.0/level5/具体.svg",
+    "caption": "cụ thể"
+  },
+  "俱乐部": {
+    "file": "俱乐部.svg",
+    "src": "images/HSK_2.0/level5/俱乐部.svg",
+    "caption": "câu lạc bộ"
+  },
+  "据说": {
+    "file": "据说.svg",
+    "src": "images/HSK_2.0/level5/据说.svg",
+    "caption": "nghe nói, theo lời kể"
+  },
+  "捐": {
+    "file": "捐.svg",
+    "src": "images/HSK_2.0/level5/捐.svg",
+    "caption": "quyên góp, hiến tặng"
+  },
   "秘书": {
     "file": "秘书.svg",
     "src": "images/HSK_2.0/level5/秘书.svg",

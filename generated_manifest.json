@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:11:29.332669",
-  "total_unique_words_with_illustrations": 2103,
-  "total_flat_svg_files": 2103,
+  "generated_at": "2026-10-09T20:13:34.469972",
+  "total_unique_words_with_illustrations": 2113,
+  "total_flat_svg_files": 2113,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,13 +26,13 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 904,
-        "pct": "69.5%"
+        "with_svg": 914,
+        "pct": "70.3%"
       },
       "level6": {
         "total": 2500,
-        "with_svg": 440,
-        "pct": "17.6%"
+        "with_svg": 445,
+        "pct": "17.8%"
       }
     },
     "hsk_3_0": {
@@ -58,13 +58,13 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 612,
-        "pct": "38.2%"
+        "with_svg": 620,
+        "pct": "38.8%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 173,
-        "pct": "9.6%"
+        "with_svg": 175,
+        "pct": "9.7%"
       },
       "level7": {
         "total": 5600,
@@ -38718,6 +38718,196 @@
       "alt_srcs": [
         "images/HSK_2.0/level6/尽力.svg",
         "images/HSK_3.0/level5/尽力.svg"
+      ]
+    },
+    "精力": {
+      "hanzi": "精力",
+      "pinyin": "jīnglì",
+      "meaning": "tinh lực, năng lượng",
+      "example_zh": "他工作很有<u>精力</u>。",
+      "example_vi": "Anh ấy làm việc rất có <u>năng lượng</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "精力.svg",
+      "src": "images/HSK_2.0/level5/精力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/精力.svg"
+      ]
+    },
+    "经商": {
+      "hanzi": "经商",
+      "pinyin": "jīngshāng",
+      "meaning": "kinh doanh, buôn bán",
+      "example_zh": "他打算<u>经商</u>。",
+      "example_vi": "Anh ấy có kế hoạch <u>kinh doanh</u>.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "经商.svg",
+      "src": "images/HSK_2.0/level5/经商.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/经商.svg",
+        "images/HSK_3.0/level6/经商.svg"
+      ]
+    },
+    "经营": {
+      "hanzi": "经营",
+      "pinyin": "jīngyíng",
+      "meaning": "kinh doanh, quản lý",
+      "example_zh": "他<u>经营</u>一家小店。",
+      "example_vi": "Anh ấy <u>kinh doanh</u> một cửa hàng nhỏ.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "经营.svg",
+      "src": "images/HSK_2.0/level5/经营.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/经营.svg",
+        "images/HSK_3.0/level5/经营.svg"
+      ]
+    },
+    "酒吧": {
+      "hanzi": "酒吧",
+      "pinyin": "jiǔbā",
+      "meaning": "quán bar",
+      "example_zh": "我们去<u>酒吧</u>喝一杯。",
+      "example_vi": "Chúng ta đi <u>quán bar</u> uống một ly.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "酒吧.svg",
+      "src": "images/HSK_2.0/level5/酒吧.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/酒吧.svg"
+      ]
+    },
+    "救护车": {
+      "hanzi": "救护车",
+      "pinyin": "jiùhùchē",
+      "meaning": "xe cứu thương",
+      "example_zh": "<u>救护车</u>很快就到了。",
+      "example_vi": "<u>Xe cứu thương</u> rất nhanh đã đến.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "救护车.svg",
+      "src": "images/HSK_2.0/level5/救护车.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/救护车.svg"
+      ]
+    },
+    "居然": {
+      "hanzi": "居然",
+      "pinyin": "jūrán",
+      "meaning": "thế mà, ngờ rằng",
+      "example_zh": "他<u>居然</u>忘了我的名字。",
+      "example_vi": "Anh ấy <u>thế mà</u> quên tên tôi.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "居然.svg",
+      "src": "images/HSK_2.0/level5/居然.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/居然.svg",
+        "images/HSK_3.0/level5/居然.svg"
+      ]
+    },
+    "具体": {
+      "hanzi": "具体",
+      "pinyin": "jùtǐ",
+      "meaning": "cụ thể",
+      "example_zh": "请说得<u>具体</u>一点。",
+      "example_vi": "Xin hãy nói <u>cụ thể</u> hơn một chút.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "具体.svg",
+      "src": "images/HSK_2.0/level5/具体.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/具体.svg"
+      ]
+    },
+    "俱乐部": {
+      "hanzi": "俱乐部",
+      "pinyin": "jùlèbù",
+      "meaning": "câu lạc bộ",
+      "example_zh": "我们<u>俱乐部</u>有很多会员。",
+      "example_vi": "<u>Câu lạc bộ</u> của chúng tôi có nhiều thành viên.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "俱乐部.svg",
+      "src": "images/HSK_2.0/level5/俱乐部.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/俱乐部.svg",
+        "images/HSK_3.0/level6/俱乐部.svg"
+      ]
+    },
+    "据说": {
+      "hanzi": "据说",
+      "pinyin": "jùshuō",
+      "meaning": "nghe nói, theo lời kể",
+      "example_zh": "<u>据说</u>他明天会来。",
+      "example_vi": "<u>Nghe nói</u> ngày mai anh ấy sẽ đến.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "据说.svg",
+      "src": "images/HSK_2.0/level5/据说.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/据说.svg",
+        "images/HSK_3.0/level5/据说.svg"
+      ]
+    },
+    "捐": {
+      "hanzi": "捐",
+      "pinyin": "juān",
+      "meaning": "quyên góp, hiến tặng",
+      "example_zh": "他<u>捐</u>了很多钱。",
+      "example_vi": "Anh ấy đã <u>quyên góp</u> rất nhiều tiền.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "捐.svg",
+      "src": "images/HSK_2.0/level5/捐.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/捐.svg"
       ]
     },
     "秘书": {
