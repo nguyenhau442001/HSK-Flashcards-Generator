@@ -1,0 +1,704 @@
+{
+  "id": "hsk4_story_002",
+  "level": "HSK4",
+  "title": {
+    "zh": "旅行中的难忘经历",
+    "vi": "Trải nghiệm khó quên trong chuyến du lịch"
+  },
+  "topic": "travel_adventure",
+  "estimatedMinutes": 5,
+  "description_vi": "Lạc đường ở một thành phố xa lạ và nhận được sự giúp đỡ ấm áp từ người bản địa.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "去年放暑假的时候，我一个人去了云南旅游。",
+      "pinyin": "Qùnián fàng shǔjià de shíhou, wǒ yí gè rén qù le Yúnnán lǚyóu.",
+      "vi": "Vào kỳ nghỉ hè năm ngoái, tôi một mình đến Vân Nam du lịch.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "去年",
+          "pinyin": "qùnián",
+          "hanviet": "Khứ Niên",
+          "meaning_vi": "năm ngoái",
+          "hsk": 2,
+          "word_id": "hsk2_87"
+        },
+        {
+          "text": "放暑假",
+          "pinyin": "fàngshǔjià",
+          "hanviet": "Phóng Thử Giả",
+          "meaning_vi": "nghỉ hè",
+          "hsk": 4,
+          "word_id": "hsk4_116"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "时候",
+          "pinyin": "shíhou",
+          "hanviet": "Thời Hậu",
+          "meaning_vi": "lúc, thời điểm",
+          "hsk": 1,
+          "word_id": "hsk1_95"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "个人",
+          "pinyin": "gèrén",
+          "hanviet": "Cá Nhân",
+          "meaning_vi": "cá nhân",
+          "hsk": 5,
+          "word_id": "hsk5_154"
+        },
+        {
+          "text": "去",
+          "pinyin": "qù",
+          "hanviet": "Khứ",
+          "meaning_vi": "đi",
+          "hsk": 1,
+          "word_id": "hsk1_83"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "云",
+          "pinyin": "yún",
+          "hanviet": "Vân",
+          "meaning_vi": "mây",
+          "hsk": 4,
+          "word_id": "hsk4_545"
+        },
+        {
+          "text": "南",
+          "pinyin": "nán",
+          "hanviet": "Nam",
+          "meaning_vi": "phía nam",
+          "hsk": 3,
+          "word_id": "hsk3_168"
+        },
+        {
+          "text": "旅游",
+          "pinyin": "lǜyóu",
+          "hanviet": "Lữ Du",
+          "meaning_vi": "du lịch",
+          "hsk": 2,
+          "word_id": "hsk2_66"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "在古城里散步时，我不小心迷路了，手机也没有信号。",
+      "pinyin": "Zài gǔchéng lǐ sànbù shí, wǒ bù xiǎoxīn mílù le, shǒujī yě méiyǒu xìnhào.",
+      "vi": "Khi đi dạo trong cổ trấn, tôi chẳng may bị lạc đường, điện thoại cũng không có sóng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "古",
+          "unknown": true
+        },
+        {
+          "text": "城",
+          "unknown": true
+        },
+        {
+          "text": "里",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "bên trong",
+          "hsk": 1,
+          "word_id": "hsk1_57"
+        },
+        {
+          "text": "散步",
+          "pinyin": "sànbù",
+          "hanviet": "Tản Bộ",
+          "meaning_vi": "đi bộ, đi dạo",
+          "hsk": 4,
+          "word_id": "hsk4_364"
+        },
+        {
+          "text": "时",
+          "unknown": true
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "小心",
+          "pinyin": "xiǎoxīn",
+          "hanviet": "Tiểu Tâm",
+          "meaning_vi": "cẩn thận",
+          "hsk": 3,
+          "word_id": "hsk3_243"
+        },
+        {
+          "text": "迷路",
+          "pinyin": "mílù",
+          "hanviet": "Mê Lộ",
+          "meaning_vi": "lạc đường",
+          "hsk": 4,
+          "word_id": "hsk4_304"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "手机",
+          "pinyin": "shǒujī",
+          "hanviet": "Thủ Cơ",
+          "meaning_vi": "điện thoại di động",
+          "hsk": 2,
+          "word_id": "hsk2_97"
+        },
+        {
+          "text": "也",
+          "pinyin": "yě",
+          "hanviet": "Dã",
+          "meaning_vi": "cũng",
+          "hsk": 2,
+          "word_id": "hsk2_127"
+        },
+        {
+          "text": "没有",
+          "pinyin": "méiyǒu",
+          "hanviet": "Một Hữu",
+          "meaning_vi": "không có",
+          "hsk": 1,
+          "word_id": "hsk1_64"
+        },
+        {
+          "text": "信号",
+          "pinyin": "xìnhào",
+          "hanviet": "Tín Hiệu",
+          "meaning_vi": "tín hiệu",
+          "hsk": 5,
+          "word_id": "hsk5_1172"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "正在我着急的时候，一位当地的导游主动走过来。",
+      "pinyin": "Zhèngzài wǒ zháojí de shíhou, yí wèi dāngdì de dǎoyóu zhǔdòng zǒu guòlái.",
+      "vi": "Đúng lúc tôi đang sốt ruột, một hướng dẫn viên địa phương chủ động bước tới.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "正在",
+          "pinyin": "zhèngzài",
+          "hanviet": "Chinh Tại",
+          "meaning_vi": "đang",
+          "hsk": 2,
+          "word_id": "hsk2_145"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "着急",
+          "pinyin": "zháojí",
+          "hanviet": "Trước Cấp",
+          "meaning_vi": "lo lắng, sốt ruột",
+          "hsk": 3,
+          "word_id": "hsk3_279"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "时候",
+          "pinyin": "shíhou",
+          "hanviet": "Thời Hậu",
+          "meaning_vi": "lúc, thời điểm",
+          "hsk": 1,
+          "word_id": "hsk1_95"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "位",
+          "pinyin": "wèi",
+          "hanviet": "Vị",
+          "meaning_vi": "vị (lượng từ kính trọng)",
+          "hsk": 3,
+          "word_id": "hsk3_231"
+        },
+        {
+          "text": "当地",
+          "pinyin": "dāngdì",
+          "hanviet": "Đương Địa",
+          "meaning_vi": "địa phương, bản địa",
+          "hsk": 5,
+          "word_id": "hsk5_738"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "导游",
+          "pinyin": "dǎoyóu",
+          "hanviet": "Đạo Du",
+          "meaning_vi": "hướng dẫn viên du lịch",
+          "hsk": 4,
+          "word_id": "hsk4_79"
+        },
+        {
+          "text": "主动",
+          "pinyin": "zhǔdòng",
+          "hanviet": "Chủ Động",
+          "meaning_vi": "chủ động",
+          "hsk": 5,
+          "word_id": "hsk5_1269"
+        },
+        {
+          "text": "走",
+          "pinyin": "zǒu",
+          "hanviet": "Tẩu",
+          "meaning_vi": "đi bộ, rời đi",
+          "hsk": 2,
+          "word_id": "hsk2_148"
+        },
+        {
+          "text": "过",
+          "pinyin": "guo",
+          "hanviet": "Quá",
+          "meaning_vi": "đã từng (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_36"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "他耐心地给我指路，还详细解释了当地的历史文化。",
+      "pinyin": "Tā nàixīn de gěi wǒ zhǐ lù, hái xiángxì jiěshì le dāngdì de lìshǐ wénhuà.",
+      "vi": "Anh ấy kiên nhẫn chỉ đường cho tôi, còn giải thích tường tận lịch sử văn hóa nơi đây.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "他",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "anh ấy, nó",
+          "hsk": 1,
+          "word_id": "hsk1_104"
+        },
+        {
+          "text": "耐心",
+          "pinyin": "nàixīn",
+          "hanviet": "Nại Tâm",
+          "meaning_vi": "kiên nhẫn",
+          "hsk": 4,
+          "word_id": "hsk4_311"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "给",
+          "pinyin": "gěi",
+          "hanviet": "Cấp",
+          "meaning_vi": "cho, tặng",
+          "hsk": 2,
+          "word_id": "hsk2_32"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "指",
+          "pinyin": "zhǐ",
+          "hanviet": "Chỉ",
+          "meaning_vi": "ngón tay; chỉ vào",
+          "hsk": 4,
+          "word_id": "hsk4_570"
+        },
+        {
+          "text": "路",
+          "pinyin": "lù",
+          "hanviet": "Lộ",
+          "meaning_vi": "đường",
+          "hsk": 2,
+          "word_id": "hsk2_65"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "还",
+          "pinyin": "hái",
+          "hanviet": "Hoàn",
+          "meaning_vi": "vẫn còn",
+          "hsk": 2,
+          "word_id": "hsk2_38"
+        },
+        {
+          "text": "详细",
+          "pinyin": "xiángxì",
+          "hanviet": "Tường Tế",
+          "meaning_vi": "chi tiết, kỹ lưỡng",
+          "hsk": 4,
+          "word_id": "hsk4_468"
+        },
+        {
+          "text": "解释",
+          "pinyin": "jiěshì",
+          "hanviet": "Giải Thích",
+          "meaning_vi": "giải thích",
+          "hsk": 4,
+          "word_id": "hsk4_224"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "当地",
+          "pinyin": "dāngdì",
+          "hanviet": "Đương Địa",
+          "meaning_vi": "địa phương, bản địa",
+          "hsk": 5,
+          "word_id": "hsk5_738"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "历史",
+          "pinyin": "lìshǐ",
+          "hanviet": "Lịch Sử",
+          "meaning_vi": "lịch sử",
+          "hsk": 3,
+          "word_id": "hsk3_149"
+        },
+        {
+          "text": "文化",
+          "pinyin": "wénhuà",
+          "hanviet": "Văn Hóa",
+          "meaning_vi": "văn hóa",
+          "hsk": 3,
+          "word_id": "hsk3_232"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "这次意外的经历，让我深深感受到了人们的热情。",
+      "pinyin": "Zhè cì yìwài de jīnglì, ràng wǒ shēnshēn gǎnshòu dào le rénmen de rèqíng.",
+      "vi": "Trải nghiệm bất ngờ lần này khiến tôi cảm nhận sâu sắc sự ấm áp của con người.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "次",
+          "pinyin": "cì",
+          "hanviet": "Thứ",
+          "meaning_vi": "lần",
+          "hsk": 2,
+          "word_id": "hsk2_13"
+        },
+        {
+          "text": "意外",
+          "pinyin": "yìwài",
+          "hanviet": "Ý Ngoại",
+          "meaning_vi": "ngoài ý muốn, bất ngờ",
+          "hsk": 5,
+          "word_id": "hsk5_553"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "经历",
+          "pinyin": "jīnglì",
+          "hanviet": "Kinh Lịch",
+          "meaning_vi": "trải qua, kinh nghiệm trải qua",
+          "hsk": 4,
+          "word_id": "hsk4_231"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "让",
+          "pinyin": "ràng",
+          "hanviet": "Nhượng",
+          "meaning_vi": "để cho, khiến",
+          "hsk": 2,
+          "word_id": "hsk2_88"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "深",
+          "pinyin": "shēn",
+          "hanviet": "Thâm",
+          "meaning_vi": "sâu",
+          "hsk": 4,
+          "word_id": "hsk4_372"
+        },
+        {
+          "text": "深",
+          "pinyin": "shēn",
+          "hanviet": "Thâm",
+          "meaning_vi": "sâu",
+          "hsk": 4,
+          "word_id": "hsk4_372"
+        },
+        {
+          "text": "感受",
+          "pinyin": "gǎnshòu",
+          "hanviet": "Cảm Thụ",
+          "meaning_vi": "cảm nhận",
+          "hsk": 5,
+          "word_id": "hsk5_798"
+        },
+        {
+          "text": "到",
+          "pinyin": "dào",
+          "hanviet": "Đáo",
+          "meaning_vi": "đến",
+          "hsk": 2,
+          "word_id": "hsk2_18"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "们",
+          "unknown": true
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "热情",
+          "pinyin": "rèqíng",
+          "hanviet": "Nhiệt Tình",
+          "meaning_vi": "nhiệt tình",
+          "hsk": 3,
+          "word_id": "hsk3_192"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk4_116",
+    "hsk4_364",
+    "hsk4_304",
+    "hsk3_279",
+    "hsk4_79",
+    "hsk5_1269",
+    "hsk4_311",
+    "hsk4_468",
+    "hsk4_224",
+    "hsk4_231",
+    "hsk3_192"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Nhân vật chính đi du lịch một mình vào thời gian nào?",
+      "options_vi": [
+        "Kỳ nghỉ đông",
+        "Kỳ nghỉ hè năm ngoái",
+        "Dịp Tết"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu đầu có viết: 去年放暑假的时候 (Vào kỳ nghỉ hè năm ngoái)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Sự cố gì đã xảy ra trong lúc đi dạo?",
+      "options_vi": [
+        "Bị mất ví",
+        "Bị lạc đường và điện thoại mất sóng",
+        "Bị ngã"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 不小心迷路了，手机也没有信号 (Bất cẩn lạc đường, điện thoại không có sóng)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Người hướng dẫn viên địa phương đã giúp đỡ điều gì?",
+      "options_vi": [
+        "Cho mượn tiền",
+        "Kiên nhẫn chỉ đường và giải thích lịch sử",
+        "Gọi xe đưa về"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 耐心地给我指路，还详细解释了当地的历史文化 (Kiên nhẫn chỉ đường, giải thích lịch sử văn hóa)."
+    }
+  ]
+}

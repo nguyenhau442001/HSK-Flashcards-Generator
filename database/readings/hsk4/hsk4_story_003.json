@@ -1,0 +1,599 @@
+{
+  "id": "hsk4_story_003",
+  "level": "HSK4",
+  "title": {
+    "zh": "现代生活与环境保护",
+    "vi": "Đời sống hiện đại và bảo vệ môi trường"
+  },
+  "topic": "environment_society",
+  "estimatedMinutes": 5,
+  "description_vi": "Hành động nhỏ hàng ngày để giảm bớt rác thải và giữ gìn màu xanh cho Trái Đất.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "随着经济的发展，环境保护已经成为全球的重要任务。",
+      "pinyin": "Suízhe jīngjì de fāzhǎn, huánjìng bǎohù yǐjīng chéngwéi quánqiú de zhòngyào rènwù.",
+      "vi": "Cùng với sự phát triển kinh tế, bảo vệ môi trường đã trở thành nhiệm vụ quan trọng toàn cầu.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "随着",
+          "pinyin": "suízhe",
+          "hanviet": "Tuỳ Trước",
+          "meaning_vi": "theo cùng với",
+          "hsk": 4,
+          "word_id": "hsk4_415"
+        },
+        {
+          "text": "经济",
+          "pinyin": "jīngjì",
+          "hanviet": "Kinh Tế",
+          "meaning_vi": "kinh tế",
+          "hsk": 4,
+          "word_id": "hsk4_230"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "发展",
+          "pinyin": "fāzhǎn",
+          "hanviet": "Phát Triển",
+          "meaning_vi": "phát triển",
+          "hsk": 4,
+          "word_id": "hsk4_106"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "环境",
+          "pinyin": "huánjìng",
+          "hanviet": "Hoàn Cảnh",
+          "meaning_vi": "môi trường",
+          "hsk": 3,
+          "word_id": "hsk3_102"
+        },
+        {
+          "text": "保护",
+          "pinyin": "bǎohù",
+          "hanviet": "Bảo Hộ",
+          "meaning_vi": "bảo vệ",
+          "hsk": 4,
+          "word_id": "hsk4_9"
+        },
+        {
+          "text": "已经",
+          "pinyin": "yǐjīng",
+          "hanviet": "Dĩ Kinh",
+          "meaning_vi": "đã",
+          "hsk": 2,
+          "word_id": "hsk2_129"
+        },
+        {
+          "text": "成为",
+          "pinyin": "chéngwéi",
+          "hanviet": "Thành Vi",
+          "meaning_vi": "trở thành",
+          "hsk": 4,
+          "word_id": "hsk4_46"
+        },
+        {
+          "text": "全",
+          "unknown": true
+        },
+        {
+          "text": "球",
+          "unknown": true
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "重要",
+          "pinyin": "zhòngyào",
+          "hanviet": "Trọng Yếu",
+          "meaning_vi": "quan trọng",
+          "hsk": 3,
+          "word_id": "hsk3_290"
+        },
+        {
+          "text": "任务",
+          "pinyin": "rènwu",
+          "hanviet": "Nhâm Vụ",
+          "meaning_vi": "nhiệm vụ",
+          "hsk": 4,
+          "word_id": "hsk4_359"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "在日常生活中，我们应该减少使用一次性塑料袋。",
+      "pinyin": "Zài rìcháng shēnghuó zhōng, wǒmen yīnggāi jiǎnshǎo shǐyòng yícìxìng sùliàodài.",
+      "vi": "Trong đời sống thường nhật, chúng ta nên giảm bớt sử dụng túi ni-lông dùng một lần.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "日常",
+          "pinyin": "rìcháng",
+          "hanviet": "Nhật Thường",
+          "meaning_vi": "thường ngày, hàng ngày",
+          "hsk": 5,
+          "word_id": "hsk5_1034"
+        },
+        {
+          "text": "生活",
+          "pinyin": "shēnghuó",
+          "hanviet": "Sinh Hoạt",
+          "meaning_vi": "sinh hoạt, cuộc sống",
+          "hsk": 4,
+          "word_id": "hsk4_375"
+        },
+        {
+          "text": "中",
+          "unknown": true
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "应该",
+          "pinyin": "yīnggāi",
+          "hanviet": "Ưng Cai",
+          "meaning_vi": "nên, cần phải",
+          "hsk": 3,
+          "word_id": "hsk3_265"
+        },
+        {
+          "text": "减少",
+          "pinyin": "jiǎnshǎo",
+          "hanviet": "Giảm Thiểu",
+          "meaning_vi": "giảm thiểu",
+          "hsk": 4,
+          "word_id": "hsk4_205"
+        },
+        {
+          "text": "使用",
+          "pinyin": "shǐyòng",
+          "hanviet": "Sử Dụng",
+          "meaning_vi": "sử dụng",
+          "hsk": 4,
+          "word_id": "hsk4_387"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "次",
+          "pinyin": "cì",
+          "hanviet": "Thứ",
+          "meaning_vi": "lần",
+          "hsk": 2,
+          "word_id": "hsk2_13"
+        },
+        {
+          "text": "性",
+          "unknown": true
+        },
+        {
+          "text": "塑料袋",
+          "pinyin": "sùliàodài",
+          "hanviet": "Tố Liệu Đại",
+          "meaning_vi": "túi nhựa",
+          "hsk": 4,
+          "word_id": "hsk4_412"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "平时出门购物，最好自己准备环保袋子。",
+      "pinyin": "Píngshí chūmén gòuwù, zuì hǎo zìjǐ zhǔnbèi huánbǎo dàizi.",
+      "vi": "Ngày thường ra ngoài mua sắm, tốt nhất nên tự chuẩn bị túi thân thiện môi trường.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "平时",
+          "pinyin": "píngshí",
+          "hanviet": "Bình Thời",
+          "meaning_vi": "bình thường, hàng ngày",
+          "hsk": 4,
+          "word_id": "hsk4_331"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "门",
+          "pinyin": "mén",
+          "hanviet": "Môn",
+          "meaning_vi": "cửa",
+          "hsk": 2,
+          "word_id": "hsk2_72"
+        },
+        {
+          "text": "购物",
+          "pinyin": "gòuwù",
+          "hanviet": "Cấu Vật",
+          "meaning_vi": "mua sắm",
+          "hsk": 4,
+          "word_id": "hsk4_146"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "最好",
+          "pinyin": "zuìhǎo",
+          "hanviet": "Tối Hảo",
+          "meaning_vi": "tốt nhất",
+          "hsk": 4,
+          "word_id": "hsk4_593"
+        },
+        {
+          "text": "自己",
+          "pinyin": "zìjǐ",
+          "hanviet": "Tự Kỷ",
+          "meaning_vi": "tự mình, bản thân",
+          "hsk": 3,
+          "word_id": "hsk3_294"
+        },
+        {
+          "text": "准备",
+          "pinyin": "zhǔnbèi",
+          "hanviet": "Chuẩn Bị",
+          "meaning_vi": "chuẩn bị",
+          "hsk": 2,
+          "word_id": "hsk2_147"
+        },
+        {
+          "text": "环保",
+          "pinyin": "huánbǎo",
+          "hanviet": "Hoàn Bảo",
+          "meaning_vi": "bảo vệ môi trường",
+          "hsk": 6,
+          "word_id": "hsk6_1081"
+        },
+        {
+          "text": "袋",
+          "unknown": true
+        },
+        {
+          "text": "子",
+          "unknown": true
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "垃圾分类不仅能保护森林，还能节约大量宝贵资源。",
+      "pinyin": "Lājī fēnlèi bùjǐn néng bǎohù sēnlín, hái néng jiéyuē dàliàng bǎoguì zīyuán.",
+      "vi": "Phân loại rác không chỉ bảo vệ rừng xanh mà còn tiết kiệm lượng lớn tài nguyên quý giá.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "垃",
+          "unknown": true
+        },
+        {
+          "text": "圾",
+          "unknown": true
+        },
+        {
+          "text": "分",
+          "pinyin": "fēn",
+          "hanviet": "Phân",
+          "meaning_vi": "phút; điểm; phân (đơn vị tiền)",
+          "hsk": 3,
+          "word_id": "hsk3_69"
+        },
+        {
+          "text": "类",
+          "unknown": true
+        },
+        {
+          "text": "不仅",
+          "pinyin": "bùjǐn",
+          "hanviet": "Bất Cận",
+          "meaning_vi": "không chỉ",
+          "hsk": 4,
+          "word_id": "hsk4_31"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "保护",
+          "pinyin": "bǎohù",
+          "hanviet": "Bảo Hộ",
+          "meaning_vi": "bảo vệ",
+          "hsk": 4,
+          "word_id": "hsk4_9"
+        },
+        {
+          "text": "森林",
+          "pinyin": "sēnlín",
+          "hanviet": "Sâm Lâm",
+          "meaning_vi": "rừng",
+          "hsk": 4,
+          "word_id": "hsk4_365"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "还",
+          "pinyin": "hái",
+          "hanviet": "Hoàn",
+          "meaning_vi": "vẫn còn",
+          "hsk": 2,
+          "word_id": "hsk2_38"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "节约",
+          "pinyin": "jiéyuē",
+          "hanviet": "Tiết Yêu",
+          "meaning_vi": "tiết kiệm",
+          "hsk": 4,
+          "word_id": "hsk4_223"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "量",
+          "unknown": true
+        },
+        {
+          "text": "宝贵",
+          "pinyin": "bǎoguì",
+          "hanviet": "Bảo Quý",
+          "meaning_vi": "quý báu",
+          "hsk": 5,
+          "word_id": "hsk5_7"
+        },
+        {
+          "text": "资源",
+          "pinyin": "zīyuán",
+          "hanviet": "Tư Nguyên",
+          "meaning_vi": "tài nguyên",
+          "hsk": 5,
+          "word_id": "hsk5_1282"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "保护地球环境，是每个人都必须承担的共同责任。",
+      "pinyin": "Bǎohù dìqiú huánjìng, shì měi gè rén dōu bìxū chéngdān de gòngtóng zérèn.",
+      "vi": "Bảo vệ môi trường Trái Đất là trách nhiệm chung mà mỗi người đều phải gánh vác.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "保护",
+          "pinyin": "bǎohù",
+          "hanviet": "Bảo Hộ",
+          "meaning_vi": "bảo vệ",
+          "hsk": 4,
+          "word_id": "hsk4_9"
+        },
+        {
+          "text": "地球",
+          "pinyin": "dìqiú",
+          "hanviet": "Địa Cầu",
+          "meaning_vi": "địa cầu, Trái Đất",
+          "hsk": 4,
+          "word_id": "hsk4_91"
+        },
+        {
+          "text": "环境",
+          "pinyin": "huánjìng",
+          "hanviet": "Hoàn Cảnh",
+          "meaning_vi": "môi trường",
+          "hsk": 3,
+          "word_id": "hsk3_102"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "每",
+          "pinyin": "měi",
+          "hanviet": "Mỗi",
+          "meaning_vi": "mỗi",
+          "hsk": 2,
+          "word_id": "hsk2_70"
+        },
+        {
+          "text": "个人",
+          "pinyin": "gèrén",
+          "hanviet": "Cá Nhân",
+          "meaning_vi": "cá nhân",
+          "hsk": 5,
+          "word_id": "hsk5_154"
+        },
+        {
+          "text": "都",
+          "pinyin": "dōu",
+          "hanviet": "Đô",
+          "meaning_vi": "đều",
+          "hsk": 1,
+          "word_id": "hsk1_21"
+        },
+        {
+          "text": "必须",
+          "pinyin": "bìxū",
+          "hanviet": "Tất Tu",
+          "meaning_vi": "phải, bắt buộc",
+          "hsk": 3,
+          "word_id": "hsk3_21"
+        },
+        {
+          "text": "承担",
+          "pinyin": "chéngdān",
+          "hanviet": "Thừa Đảm",
+          "meaning_vi": "đảm nhận, chịu trách nhiệm",
+          "hsk": 5,
+          "word_id": "hsk5_54"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "共同",
+          "pinyin": "gòngtóng",
+          "hanviet": "Cộng Đồng",
+          "meaning_vi": "chung, cùng nhau",
+          "hsk": 4,
+          "word_id": "hsk4_144"
+        },
+        {
+          "text": "责任",
+          "pinyin": "zérèn",
+          "hanviet": "Trách Nhâm",
+          "meaning_vi": "trách nhiệm",
+          "hsk": 4,
+          "word_id": "hsk4_551"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk4_230",
+    "hsk4_106",
+    "hsk4_9",
+    "hsk4_46",
+    "hsk4_359",
+    "hsk4_205",
+    "hsk4_387",
+    "hsk4_412",
+    "hsk4_331",
+    "hsk4_146",
+    "hsk4_223",
+    "hsk4_91",
+    "hsk4_551"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Bài viết khuyên nên giảm bớt thứ gì trong sinh hoạt?",
+      "options_vi": [
+        "Nước uống",
+        "Túi ni-lông dùng một lần",
+        "Quần áo"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 减少使用一次性塑料袋 (Giảm bớt sử dụng túi ni-lông dùng một lần)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Việc phân loại rác mang lại lợi ích gì?",
+      "options_vi": [
+        "Làm tốn thời gian",
+        "Bảo vệ rừng xanh và tiết kiệm tài nguyên",
+        "Không có tác dụng"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 保护森林，还能节约大量宝贵资源 (Bảo vệ rừng, tiết kiệm tài nguyên)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Bảo vệ Trái Đất là trách nhiệm của ai?",
+      "options_vi": [
+        "Chỉ của các nhà khoa học",
+        "Trách nhiệm chung của mỗi người",
+        "Chỉ của chính phủ"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 是每个人都必须承担的共同责任 (Là trách nhiệm chung của mỗi người)."
+    }
+  ]
+}

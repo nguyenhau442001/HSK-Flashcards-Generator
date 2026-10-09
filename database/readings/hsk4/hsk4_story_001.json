@@ -1,0 +1,628 @@
+{
+  "id": "hsk4_story_001",
+  "level": "HSK4",
+  "title": {
+    "zh": "大学毕业与求职面试",
+    "vi": "Tốt nghiệp đại học và phỏng vấn xin việc"
+  },
+  "topic": "career_growth",
+  "estimatedMinutes": 5,
+  "description_vi": "Hành trình nỗ lực chuẩn bị hồ sơ và vượt qua buổi phỏng vấn xin việc đầu tiên.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "大学毕业以后，我开始积极准备找工作。",
+      "pinyin": "Dàxué bìyè yǐhòu, wǒ kāishǐ jījí zhǔnbèi zhǎo gōngzuò.",
+      "vi": "Sau khi tốt nghiệp đại học, tôi bắt đầu tích cực chuẩn bị tìm việc làm.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "学",
+          "unknown": true
+        },
+        {
+          "text": "毕业",
+          "pinyin": "bìyè",
+          "hanviet": "Tất Nghiệp",
+          "meaning_vi": "tốt nghiệp",
+          "hsk": 4,
+          "word_id": "hsk4_18"
+        },
+        {
+          "text": "以",
+          "pinyin": "yǐ",
+          "hanviet": "Dĩ",
+          "meaning_vi": "bằng, dùng",
+          "hsk": 4,
+          "word_id": "hsk4_512"
+        },
+        {
+          "text": "后",
+          "unknown": true
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "开始",
+          "pinyin": "kāishǐ",
+          "hanviet": "Khai Thuỷ",
+          "meaning_vi": "bắt đầu",
+          "hsk": 2,
+          "word_id": "hsk2_54"
+        },
+        {
+          "text": "积极",
+          "pinyin": "jījí",
+          "hanviet": "Tích Cực",
+          "meaning_vi": "tích cực",
+          "hsk": 4,
+          "word_id": "hsk4_188"
+        },
+        {
+          "text": "准备",
+          "pinyin": "zhǔnbèi",
+          "hanviet": "Chuẩn Bị",
+          "meaning_vi": "chuẩn bị",
+          "hsk": 2,
+          "word_id": "hsk2_147"
+        },
+        {
+          "text": "找",
+          "pinyin": "zhǎo",
+          "hanviet": "Trảo",
+          "meaning_vi": "tìm",
+          "hsk": 2,
+          "word_id": "hsk2_142"
+        },
+        {
+          "text": "工作",
+          "pinyin": "gōngzuò",
+          "hanviet": "Công Tác",
+          "meaning_vi": "công việc, làm việc",
+          "hsk": 1,
+          "word_id": "hsk1_33"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "按照招聘要求，我认真填写了表格和个人材料。",
+      "pinyin": "Ànzhào zhāopìn yāoqiú, wǒ rènzhēn tiánxiě le biǎogé hé gèrén cáiliào.",
+      "vi": "Theo yêu cầu tuyển dụng, tôi cẩn thận điền vào biểu mẫu và hồ sơ cá nhân.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "按照",
+          "pinyin": "ànzhào",
+          "hanviet": "Án Chiếu",
+          "meaning_vi": "theo, dựa theo",
+          "hsk": 4,
+          "word_id": "hsk4_5"
+        },
+        {
+          "text": "招聘",
+          "pinyin": "zhāopìn",
+          "hanviet": "Chiêu Sính",
+          "meaning_vi": "tuyển dụng",
+          "hsk": 4,
+          "word_id": "hsk4_554"
+        },
+        {
+          "text": "要求",
+          "pinyin": "yāoqiú",
+          "hanviet": "Yêu Cầu",
+          "meaning_vi": "yêu cầu",
+          "hsk": 3,
+          "word_id": "hsk3_252"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "认真",
+          "pinyin": "rènzhēn",
+          "hanviet": "Nhận Chân",
+          "meaning_vi": "nghiêm túc, chăm chỉ",
+          "hsk": 3,
+          "word_id": "hsk3_194"
+        },
+        {
+          "text": "填",
+          "unknown": true
+        },
+        {
+          "text": "写",
+          "pinyin": "xiě",
+          "hanviet": "Tả",
+          "meaning_vi": "viết",
+          "hsk": 1,
+          "word_id": "hsk1_124"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "表格",
+          "pinyin": "biǎogé",
+          "hanviet": "Biểu Cách",
+          "meaning_vi": "biểu mẫu, bảng",
+          "hsk": 4,
+          "word_id": "hsk4_21"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "个人",
+          "pinyin": "gèrén",
+          "hanviet": "Cá Nhân",
+          "meaning_vi": "cá nhân",
+          "hsk": 5,
+          "word_id": "hsk5_154"
+        },
+        {
+          "text": "材料",
+          "pinyin": "cáiliào",
+          "hanviet": "Tài Liệu",
+          "meaning_vi": "tài liệu, nguyên liệu",
+          "hsk": 4,
+          "word_id": "hsk4_35"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "面试那天我很紧张，但是面试官态度非常友好。",
+      "pinyin": "Miànshì nà tiān wǒ hěn jǐnzhāng, dànshì miànshìguān tàidu fēicháng yǒuhǎo.",
+      "vi": "Ngày phỏng vấn tôi rất căng thẳng, nhưng người phỏng vấn thái độ rất thân thiện.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "面",
+          "unknown": true
+        },
+        {
+          "text": "试",
+          "pinyin": "shì",
+          "hanviet": "Thí",
+          "meaning_vi": "thử, thi",
+          "hsk": 3,
+          "word_id": "hsk3_201"
+        },
+        {
+          "text": "那",
+          "pinyin": "nà",
+          "hanviet": "Na",
+          "meaning_vi": "đó, kia",
+          "hsk": 1,
+          "word_id": "hsk1_70"
+        },
+        {
+          "text": "天",
+          "unknown": true
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "紧张",
+          "pinyin": "jǐnzhāng",
+          "hanviet": "Khẩn Trương",
+          "meaning_vi": "căng thẳng, hồi hộp",
+          "hsk": 4,
+          "word_id": "hsk4_226"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "但",
+          "unknown": true
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "面",
+          "unknown": true
+        },
+        {
+          "text": "试",
+          "pinyin": "shì",
+          "hanviet": "Thí",
+          "meaning_vi": "thử, thi",
+          "hsk": 3,
+          "word_id": "hsk3_201"
+        },
+        {
+          "text": "官",
+          "pinyin": "guān",
+          "hanviet": "Quan",
+          "meaning_vi": "quan, viên chức",
+          "hsk": 5,
+          "word_id": "hsk5_822"
+        },
+        {
+          "text": "态度",
+          "pinyin": "tàidu",
+          "hanviet": "Thái Độ",
+          "meaning_vi": "thái độ",
+          "hsk": 4,
+          "word_id": "hsk4_420"
+        },
+        {
+          "text": "非常",
+          "pinyin": "fēicháng",
+          "hanviet": "Phi Thường",
+          "meaning_vi": "rất, vô cùng",
+          "hsk": 2,
+          "word_id": "hsk2_27"
+        },
+        {
+          "text": "友好",
+          "pinyin": "yǒuhǎo",
+          "hanviet": "Hữu Hảo",
+          "meaning_vi": "thân thiện, hữu hảo",
+          "hsk": 4,
+          "word_id": "hsk4_531"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "他提出的问题虽然专业，但我回答得很流利。",
+      "pinyin": "Tā tíchū de wèntí suīrán zhuānyè, dàn wǒ huídá de hěn liúlì.",
+      "vi": "Các câu hỏi ông ấy đưa ra tuy chuyên môn, nhưng tôi trả lời rất lưu loát.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "他",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "anh ấy, nó",
+          "hsk": 1,
+          "word_id": "hsk1_104"
+        },
+        {
+          "text": "提",
+          "pinyin": "tí",
+          "hanviet": "Đề",
+          "meaning_vi": "mang, xách; nêu ra",
+          "hsk": 4,
+          "word_id": "hsk4_430"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "问题",
+          "pinyin": "wèntí",
+          "hanviet": "Vấn Đề",
+          "meaning_vi": "câu hỏi, vấn đề",
+          "hsk": 2,
+          "word_id": "hsk2_112"
+        },
+        {
+          "text": "虽",
+          "unknown": true
+        },
+        {
+          "text": "然",
+          "unknown": true
+        },
+        {
+          "text": "专业",
+          "pinyin": "zhuānyè",
+          "hanviet": "Chuyên Nghiệp",
+          "meaning_vi": "chuyên ngành",
+          "hsk": 4,
+          "word_id": "hsk4_583"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "但",
+          "unknown": true
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "回答",
+          "pinyin": "huídá",
+          "hanviet": "Hồi Đáp",
+          "meaning_vi": "trả lời",
+          "hsk": 3,
+          "word_id": "hsk3_105"
+        },
+        {
+          "text": "得",
+          "pinyin": "de",
+          "hanviet": "Đắc",
+          "meaning_vi": "được (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_19"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "流利",
+          "pinyin": "liúlì",
+          "hanviet": "Lưu Lợi",
+          "meaning_vi": "trôi chảy, lưu loát",
+          "hsk": 4,
+          "word_id": "hsk4_292"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "三天后，公司通知我正式被录取了，我充满了信心。",
+      "pinyin": "Sān tiān hòu, gōngsī tōngzhī wǒ zhèngshì bèi lùqǔ le, wǒ chōngmǎn le xìnxīn.",
+      "vi": "Ba ngày sau, công ty thông báo tôi chính thức được trúng tuyển, tôi tràn đầy tự tin.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "三",
+          "pinyin": "sān",
+          "hanviet": "Tam",
+          "meaning_vi": "ba",
+          "hsk": 1,
+          "word_id": "hsk1_87"
+        },
+        {
+          "text": "天",
+          "unknown": true
+        },
+        {
+          "text": "后",
+          "unknown": true
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "公司",
+          "pinyin": "gōngsī",
+          "hanviet": "Công Ty",
+          "meaning_vi": "công ty",
+          "hsk": 2,
+          "word_id": "hsk2_34"
+        },
+        {
+          "text": "通知",
+          "pinyin": "tōngzhī",
+          "hanviet": "Thông Tri",
+          "meaning_vi": "thông báo",
+          "hsk": 4,
+          "word_id": "hsk4_439"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "正式",
+          "pinyin": "zhèngshì",
+          "hanviet": "Chính Thức",
+          "meaning_vi": "chính thức",
+          "hsk": 4,
+          "word_id": "hsk4_561"
+        },
+        {
+          "text": "被",
+          "pinyin": "bèi",
+          "hanviet": "Bị",
+          "meaning_vi": "bị (trợ từ bị động)",
+          "hsk": 3,
+          "word_id": "hsk3_16"
+        },
+        {
+          "text": "录取",
+          "pinyin": "lùqǔ",
+          "hanviet": "Lục Thủ",
+          "meaning_vi": "tuyển vào, trúng tuyển",
+          "hsk": 5,
+          "word_id": "hsk5_304"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "充满",
+          "pinyin": "chōngmǎn",
+          "hanviet": "Sung Mãn",
+          "meaning_vi": "đầy, tràn đầy",
+          "hsk": 5,
+          "word_id": "hsk5_706"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "信心",
+          "pinyin": "xìnxīn",
+          "hanviet": "Tín Tâm",
+          "meaning_vi": "sự tự tin",
+          "hsk": 4,
+          "word_id": "hsk4_481"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk4_18",
+    "hsk4_188",
+    "hsk4_5",
+    "hsk4_554",
+    "hsk3_252",
+    "hsk4_21",
+    "hsk4_35",
+    "hsk4_226",
+    "hsk4_420",
+    "hsk4_531",
+    "hsk4_583",
+    "hsk4_292",
+    "hsk4_439",
+    "hsk4_561",
+    "hsk4_481"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Sau khi tốt nghiệp đại học, nhân vật chính làm gì?",
+      "options_vi": [
+        "Đi du lịch",
+        "Tích cực chuẩn bị tìm việc làm",
+        "Ở nhà nghỉ ngơi"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu đầu có viết: 开始积极准备找工作 (Bắt đầu tích cực chuẩn bị tìm việc làm)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Thái độ của người phỏng vấn như thế nào?",
+      "options_vi": [
+        "Lạnh lùng",
+        "Rất thân thiện",
+        "Tức giận"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 面试官态度非常友好 (Người phỏng vấn thái độ rất thân thiện)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Kết quả buổi phỏng vấn ra sao?",
+      "options_vi": [
+        "Bị từ chối",
+        "Được thông báo chính thức trúng tuyển",
+        "Phải thi lại"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 公司通知我正式被录取了 (Công ty thông báo tôi chính thức trúng tuyển)."
+    }
+  ]
+}

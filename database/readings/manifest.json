@@ -160,7 +160,7 @@
       "vi": "Đi máy bay đến Bắc Kinh"
     },
     "topic": "travel",
-    "topic_vi": "Du lịch & Trải nghiệm",
+    "topic_vi": "Du lịch & Đi lại",
     "icon": "✈️",
     "estimatedMinutes": 3,
     "description_vi": "Chuyến bay đầu tiên đến Bắc Kinh để du lịch và ngắm nhìn cảnh đẹp.",
@@ -168,5 +168,515 @@
     "spotlight_count": 12,
     "quiz_count": 3,
     "file": "database/readings/hsk1/hsk1_story_010.json"
+  },
+  {
+    "id": "hsk2_story_001",
+    "level": "HSK2",
+    "title": {
+      "zh": "生病看医生",
+      "vi": "Bị ốm đi khám bác sĩ"
+    },
+    "topic": "health_daily",
+    "topic_vi": "Sức khỏe & Đời sống",
+    "icon": "🏥",
+    "estimatedMinutes": 3,
+    "description_vi": "Tiểu Minh cảm thấy không khỏe và đến bệnh viện gặp bác sĩ khám bệnh.",
+    "sentence_count": 5,
+    "spotlight_count": 8,
+    "quiz_count": 3,
+    "file": "database/readings/hsk2/hsk2_story_001.json"
+  },
+  {
+    "id": "hsk2_story_002",
+    "level": "HSK2",
+    "title": {
+      "zh": "周末去打篮球",
+      "vi": "Cuối tuần đi chơi bóng rổ"
+    },
+    "topic": "sports_hobby",
+    "topic_vi": "Thể thao & Sở thích",
+    "icon": "🏀",
+    "estimatedMinutes": 3,
+    "description_vi": "Hoạt động thể thao rèn luyện sức khỏe cùng bạn bè vào chiều thứ Bảy.",
+    "sentence_count": 5,
+    "spotlight_count": 8,
+    "quiz_count": 3,
+    "file": "database/readings/hsk2/hsk2_story_002.json"
+  },
+  {
+    "id": "hsk2_story_003",
+    "level": "HSK2",
+    "title": {
+      "zh": "在火车站买票",
+      "vi": "Mua vé ở ga xe lửa"
+    },
+    "topic": "travel",
+    "topic_vi": "Du lịch & Đi lại",
+    "icon": "🚆",
+    "estimatedMinutes": 3,
+    "description_vi": "Chuẩn bị cho chuyến đi du lịch xa bằng tàu hỏa cùng gia đình.",
+    "sentence_count": 5,
+    "spotlight_count": 8,
+    "quiz_count": 3,
+    "file": "database/readings/hsk2/hsk2_story_003.json"
+  },
+  {
+    "id": "hsk2_story_004",
+    "level": "HSK2",
+    "title": {
+      "zh": "可爱的小狗",
+      "vi": "Chú chó nhỏ đáng yêu"
+    },
+    "topic": "pets_nature",
+    "topic_vi": "Thú cưng & Đời sống",
+    "icon": "🐶",
+    "estimatedMinutes": 3,
+    "description_vi": "Chú chó nhỏ lông trắng chạy nhảy vui đùa trong sân nhà.",
+    "sentence_count": 5,
+    "spotlight_count": 7,
+    "quiz_count": 3,
+    "file": "database/readings/hsk2/hsk2_story_004.json"
+  },
+  {
+    "id": "hsk2_story_005",
+    "level": "HSK2",
+    "title": {
+      "zh": "去宾馆找朋友",
+      "vi": "Đến khách sạn tìm bạn"
+    },
+    "topic": "social_life",
+    "topic_vi": "Bạn bè & Đời sống",
+    "icon": "🏨",
+    "estimatedMinutes": 3,
+    "description_vi": "Đến khách sạn đón người bạn phương xa vừa đến thành phố du lịch.",
+    "sentence_count": 5,
+    "spotlight_count": 8,
+    "quiz_count": 3,
+    "file": "database/readings/hsk2/hsk2_story_005.json"
+  },
+  {
+    "id": "hsk2_story_006",
+    "level": "HSK2",
+    "title": {
+      "zh": "生日快乐，送你手表",
+      "vi": "Sinh nhật vui vẻ, tặng bạn đồng hồ"
+    },
+    "topic": "family_celebration",
+    "topic_vi": "Gia đình & Lễ kỷ niệm",
+    "icon": "⌚",
+    "estimatedMinutes": 3,
+    "description_vi": "Món quà sinh nhật ý nghĩa dành cho người thân yêu trong gia đình.",
+    "sentence_count": 5,
+    "spotlight_count": 9,
+    "quiz_count": 3,
+    "file": "database/readings/hsk2/hsk2_story_006.json"
+  },
+  {
+    "id": "hsk2_story_007",
+    "level": "HSK2",
+    "title": {
+      "zh": "在公司的新工作",
+      "vi": "Công việc mới ở công ty"
+    },
+    "topic": "work_office",
+    "topic_vi": "Công sở & Nghề nghiệp",
+    "icon": "💼",
+    "estimatedMinutes": 3,
+    "description_vi": "Ngày đầu đi làm tại công ty mới và nhận được sự giúp đỡ của đồng nghiệp.",
+    "sentence_count": 5,
+    "spotlight_count": 9,
+    "quiz_count": 3,
+    "file": "database/readings/hsk2/hsk2_story_007.json"
+  },
+  {
+    "id": "hsk2_story_008",
+    "level": "HSK2",
+    "title": {
+      "zh": "买西瓜和牛奶",
+      "vi": "Mua dưa hấu và sữa tươi"
+    },
+    "topic": "shopping_market",
+    "topic_vi": "Đi chợ & Mua sắm",
+    "icon": "🍉",
+    "estimatedMinutes": 3,
+    "description_vi": "Đi mua hoa quả tươi và đồ uống thơm ngon cho cả nhà thưởng thức.",
+    "sentence_count": 5,
+    "spotlight_count": 9,
+    "quiz_count": 3,
+    "file": "database/readings/hsk2/hsk2_story_008.json"
+  },
+  {
+    "id": "hsk2_story_009",
+    "level": "HSK2",
+    "title": {
+      "zh": "虽然累，但是很高兴",
+      "vi": "Tuy mệt nhưng rất vui"
+    },
+    "topic": "daily_reflection",
+    "topic_vi": "Sinh hoạt & Tâm trạng",
+    "icon": "🌟",
+    "estimatedMinutes": 3,
+    "description_vi": "Một ngày bận rộn dọn dẹp và chuẩn bị cho kỳ thi sắp tới.",
+    "sentence_count": 5,
+    "spotlight_count": 9,
+    "quiz_count": 3,
+    "file": "database/readings/hsk2/hsk2_story_009.json"
+  },
+  {
+    "id": "hsk2_story_010",
+    "level": "HSK2",
+    "title": {
+      "zh": "在咖啡馆喝咖啡",
+      "vi": "Uống cà phê ở quán cà phê"
+    },
+    "topic": "lifestyle_leisure",
+    "topic_vi": "Thư giãn & Đời sống",
+    "icon": "☕",
+    "estimatedMinutes": 3,
+    "description_vi": "Buổi chiều bình yên gặp gỡ bạn bè trò chuyện bên ly cà phê thơm nồng.",
+    "sentence_count": 5,
+    "spotlight_count": 9,
+    "quiz_count": 3,
+    "file": "database/readings/hsk2/hsk2_story_010.json"
+  },
+  {
+    "id": "hsk3_story_001",
+    "level": "HSK3",
+    "title": {
+      "zh": "搬到新家",
+      "vi": "Chuyển đến nhà mới"
+    },
+    "topic": "housing_lifestyle",
+    "topic_vi": "Nhà cửa & Đời sống",
+    "icon": "🏠",
+    "estimatedMinutes": 4,
+    "description_vi": "Trải nghiệm chuyển sang một căn nhà mới yên tĩnh và gần trạm tàu điện ngầm.",
+    "sentence_count": 5,
+    "spotlight_count": 11,
+    "quiz_count": 3,
+    "file": "database/readings/hsk3/hsk3_story_001.json"
+  },
+  {
+    "id": "hsk3_story_002",
+    "level": "HSK3",
+    "title": {
+      "zh": "周末去爬山",
+      "vi": "Cuối tuần đi leo núi"
+    },
+    "topic": "nature_outdoors",
+    "topic_vi": "Thiên nhiên & Ngoài trời",
+    "icon": "⛰️",
+    "estimatedMinutes": 4,
+    "description_vi": "Chuyến dã ngoại leo núi cùng bạn bè ngắm nhìn phong cảnh và chụp ảnh kỷ niệm.",
+    "sentence_count": 5,
+    "spotlight_count": 11,
+    "quiz_count": 3,
+    "file": "database/readings/hsk3/hsk3_story_002.json"
+  },
+  {
+    "id": "hsk3_story_003",
+    "level": "HSK3",
+    "title": {
+      "zh": "在图书馆借书",
+      "vi": "Mượn sách ở thư viện"
+    },
+    "topic": "study_learning",
+    "topic_vi": "Học tập & Tri thức",
+    "icon": "📚",
+    "estimatedMinutes": 4,
+    "description_vi": "Tìm kiếm tài liệu và sách lịch sử Trung Quốc để nâng cao trình độ tiếng Hán.",
+    "sentence_count": 5,
+    "spotlight_count": 12,
+    "quiz_count": 3,
+    "file": "database/readings/hsk3/hsk3_story_003.json"
+  },
+  {
+    "id": "hsk3_story_004",
+    "level": "HSK3",
+    "title": {
+      "zh": "第一次坐地铁",
+      "vi": "Lần đầu đi tàu điện ngầm"
+    },
+    "topic": "urban_life",
+    "topic_vi": "Đô thị & Đi lại",
+    "icon": "🚇",
+    "estimatedMinutes": 4,
+    "description_vi": "Trải nghiệm phương tiện giao thông công cộng hiện đại và nhanh chóng trong thành phố.",
+    "sentence_count": 5,
+    "spotlight_count": 8,
+    "quiz_count": 3,
+    "file": "database/readings/hsk3/hsk3_story_004.json"
+  },
+  {
+    "id": "hsk3_story_005",
+    "level": "HSK3",
+    "title": {
+      "zh": "参加汉语演讲比赛",
+      "vi": "Tham gia cuộc thi hùng biện tiếng Hán"
+    },
+    "topic": "competition_achievement",
+    "topic_vi": "Thi cử & Thành tích",
+    "icon": "🏆",
+    "estimatedMinutes": 4,
+    "description_vi": "Nỗ lực tập luyện chăm chỉ và niềm vui khi hoàn thành xuất sắc bài thi hùng biện.",
+    "sentence_count": 5,
+    "spotlight_count": 12,
+    "quiz_count": 3,
+    "file": "database/readings/hsk3/hsk3_story_005.json"
+  },
+  {
+    "id": "hsk3_story_006",
+    "level": "HSK3",
+    "title": {
+      "zh": "在超市买生活用品",
+      "vi": "Mua đồ dùng sinh hoạt ở siêu thị"
+    },
+    "topic": "shopping_daily",
+    "topic_vi": "Mua sắm & Đời sống",
+    "icon": "🛒",
+    "estimatedMinutes": 4,
+    "description_vi": "Chuyến đi siêu thị mua thực phẩm tươi ngon và bánh mì cho bữa sáng gia đình.",
+    "sentence_count": 5,
+    "spotlight_count": 11,
+    "quiz_count": 3,
+    "file": "database/readings/hsk3/hsk3_story_006.json"
+  },
+  {
+    "id": "hsk3_story_007",
+    "level": "HSK3",
+    "title": {
+      "zh": "感冒发烧的一天",
+      "vi": "Một ngày cảm cúm phát sốt"
+    },
+    "topic": "health_recovery",
+    "topic_vi": "Sức khỏe & Chăm sóc",
+    "icon": "🤒",
+    "estimatedMinutes": 4,
+    "description_vi": "Sự quan tâm chăm sóc ấm áp của mẹ khi con bị cảm lạnh và sốt cao.",
+    "sentence_count": 5,
+    "spotlight_count": 12,
+    "quiz_count": 3,
+    "file": "database/readings/hsk3/hsk3_story_007.json"
+  },
+  {
+    "id": "hsk3_story_008",
+    "level": "HSK3",
+    "title": {
+      "zh": "给奶奶过生日",
+      "vi": "Mừng sinh nhật bà nội"
+    },
+    "topic": "family_love",
+    "topic_vi": "Gia đình & Tình thân",
+    "icon": "🎂",
+    "estimatedMinutes": 4,
+    "description_vi": "Bữa tiệc sinh nhật ấm cúng sum vầy mừng thọ bà nội bảy mươi tuổi.",
+    "sentence_count": 5,
+    "spotlight_count": 10,
+    "quiz_count": 3,
+    "file": "database/readings/hsk3/hsk3_story_008.json"
+  },
+  {
+    "id": "hsk3_story_009",
+    "level": "HSK3",
+    "title": {
+      "zh": "美丽的春天",
+      "vi": "Mùa xuân tươi đẹp"
+    },
+    "topic": "seasons_weather",
+    "topic_vi": "Bốn mùa & Thiên nhiên",
+    "icon": "🌸",
+    "estimatedMinutes": 4,
+    "description_vi": "Cảnh sắc thiên nhiên tươi mới và tràn đầy sức sống khi mùa xuân trở lại.",
+    "sentence_count": 5,
+    "spotlight_count": 10,
+    "quiz_count": 3,
+    "file": "database/readings/hsk3/hsk3_story_009.json"
+  },
+  {
+    "id": "hsk3_story_010",
+    "level": "HSK3",
+    "title": {
+      "zh": "我的中国室友",
+      "vi": "Người bạn cùng phòng Trung Quốc"
+    },
+    "topic": "friendship_culture",
+    "topic_vi": "Tình bạn & Văn hóa",
+    "icon": "🤝",
+    "estimatedMinutes": 4,
+    "description_vi": "Sự sẻ chia văn hóa thú vị và tình bạn gắn bó giữa hai người bạn cùng phòng.",
+    "sentence_count": 5,
+    "spotlight_count": 11,
+    "quiz_count": 3,
+    "file": "database/readings/hsk3/hsk3_story_010.json"
+  },
+  {
+    "id": "hsk4_story_001",
+    "level": "HSK4",
+    "title": {
+      "zh": "大学毕业与求职面试",
+      "vi": "Tốt nghiệp đại học và phỏng vấn xin việc"
+    },
+    "topic": "career_growth",
+    "topic_vi": "Sự nghiệp & Việc làm",
+    "icon": "🎓",
+    "estimatedMinutes": 5,
+    "description_vi": "Hành trình nỗ lực chuẩn bị hồ sơ và vượt qua buổi phỏng vấn xin việc đầu tiên.",
+    "sentence_count": 5,
+    "spotlight_count": 15,
+    "quiz_count": 3,
+    "file": "database/readings/hsk4/hsk4_story_001.json"
+  },
+  {
+    "id": "hsk4_story_002",
+    "level": "HSK4",
+    "title": {
+      "zh": "旅行中的难忘经历",
+      "vi": "Trải nghiệm khó quên trong chuyến du lịch"
+    },
+    "topic": "travel_adventure",
+    "topic_vi": "Du lịch & Trải nghiệm",
+    "icon": "🎒",
+    "estimatedMinutes": 5,
+    "description_vi": "Lạc đường ở một thành phố xa lạ và nhận được sự giúp đỡ ấm áp từ người bản địa.",
+    "sentence_count": 5,
+    "spotlight_count": 11,
+    "quiz_count": 3,
+    "file": "database/readings/hsk4/hsk4_story_002.json"
+  },
+  {
+    "id": "hsk4_story_003",
+    "level": "HSK4",
+    "title": {
+      "zh": "现代生活与环境保护",
+      "vi": "Đời sống hiện đại và bảo vệ môi trường"
+    },
+    "topic": "environment_society",
+    "topic_vi": "Môi trường & Xã hội",
+    "icon": "🌱",
+    "estimatedMinutes": 5,
+    "description_vi": "Hành động nhỏ hàng ngày để giảm bớt rác thải và giữ gìn màu xanh cho Trái Đất.",
+    "sentence_count": 5,
+    "spotlight_count": 13,
+    "quiz_count": 3,
+    "file": "database/readings/hsk4/hsk4_story_003.json"
+  },
+  {
+    "id": "hsk4_story_004",
+    "level": "HSK4",
+    "title": {
+      "zh": "欣赏中国传统京剧",
+      "vi": "Thưởng thức nghệ thuật Kinh kịch truyền thống"
+    },
+    "topic": "art_culture",
+    "topic_vi": "Nghệ thuật & Văn hóa",
+    "icon": "🎭",
+    "estimatedMinutes": 5,
+    "description_vi": "Sức hấp dẫn độc đáo của nghệ thuật Kinh kịch qua trang phục, âm nhạc và vũ đạo điêu luyện.",
+    "sentence_count": 5,
+    "spotlight_count": 13,
+    "quiz_count": 3,
+    "file": "database/readings/hsk4/hsk4_story_004.json"
+  },
+  {
+    "id": "hsk4_story_005",
+    "level": "HSK4",
+    "title": {
+      "zh": "坚持运动与健康习惯",
+      "vi": "Kiên trì vận động và thói quen lành mạnh"
+    },
+    "topic": "health_habits",
+    "topic_vi": "Sức khỏe & Rèn luyện",
+    "icon": "🏃",
+    "estimatedMinutes": 5,
+    "description_vi": "Ý chí kiên trì vượt qua lười biếng để rèn luyện thói quen chạy bộ mỗi buổi sáng.",
+    "sentence_count": 5,
+    "spotlight_count": 11,
+    "quiz_count": 3,
+    "file": "database/readings/hsk4/hsk4_story_005.json"
+  },
+  {
+    "id": "hsk4_story_006",
+    "level": "HSK4",
+    "title": {
+      "zh": "签订租房合同",
+      "vi": "Ký kết hợp đồng thuê nhà"
+    },
+    "topic": "life_skills",
+    "topic_vi": "Kỹ năng sống & Pháp lý",
+    "icon": "📝",
+    "estimatedMinutes": 5,
+    "description_vi": "Kiểm tra kỹ lưỡng các điều khoản hợp đồng thuê nhà để đảm bảo an toàn và quyền lợi cá nhân.",
+    "sentence_count": 5,
+    "spotlight_count": 16,
+    "quiz_count": 3,
+    "file": "database/readings/hsk4/hsk4_story_006.json"
+  },
+  {
+    "id": "hsk4_story_007",
+    "level": "HSK4",
+    "title": {
+      "zh": "朋友间的理解与包容",
+      "vi": "Sự thấu hiểu và bao dung giữa bạn bè"
+    },
+    "topic": "interpersonal_relation",
+    "topic_vi": "Tình bạn & Ứng xử",
+    "icon": "💬",
+    "estimatedMinutes": 5,
+    "description_vi": "Cách giải quyết hiểu lầm chân thành giúp tình bạn càng thêm gắn bó và bền chặt.",
+    "sentence_count": 5,
+    "spotlight_count": 14,
+    "quiz_count": 3,
+    "file": "database/readings/hsk4/hsk4_story_007.json"
+  },
+  {
+    "id": "hsk4_story_008",
+    "level": "HSK4",
+    "title": {
+      "zh": "健康饮食与科学减压",
+      "vi": "Ăn uống lành mạnh và giảm stress khoa học"
+    },
+    "topic": "wellness_nutrition",
+    "topic_vi": "Sức khỏe & Ẩm thực",
+    "icon": "🥗",
+    "estimatedMinutes": 5,
+    "description_vi": "Bí quyết cân bằng giữa áp lực công việc bận rộn và chế độ dinh dưỡng giàu chất xơ.",
+    "sentence_count": 5,
+    "spotlight_count": 14,
+    "quiz_count": 3,
+    "file": "database/readings/hsk4/hsk4_story_008.json"
+  },
+  {
+    "id": "hsk4_story_009",
+    "level": "HSK4",
+    "title": {
+      "zh": "关于成功的思考",
+      "vi": "Những suy ngẫm về thành công"
+    },
+    "topic": "philosophy_mindset",
+    "topic_vi": "Tư duy & Thành công",
+    "icon": "💡",
+    "estimatedMinutes": 5,
+    "description_vi": "Thất bại là mẹ thành công: Tích lũy kinh nghiệm và giữ vững niềm tin trên đường đời.",
+    "sentence_count": 5,
+    "spotlight_count": 18,
+    "quiz_count": 3,
+    "file": "database/readings/hsk4/hsk4_story_009.json"
+  },
+  {
+    "id": "hsk4_story_010",
+    "level": "HSK4",
+    "title": {
+      "zh": "中国茶道与待客之礼",
+      "vi": "Trà đạo Trung Hoa và lễ nghi đãi khách"
+    },
+    "topic": "culture_etiquette",
+    "topic_vi": "Văn hóa & Lễ nghi",
+    "icon": "🍵",
+    "estimatedMinutes": 5,
+    "description_vi": "Nét đẹp tinh tế của văn hóa trà đạo và sự tôn trọng khách quý trong nếp sống phương Đông.",
+    "sentence_count": 5,
+    "spotlight_count": 17,
+    "quiz_count": 3,
+    "file": "database/readings/hsk4/hsk4_story_010.json"
   }
 ]

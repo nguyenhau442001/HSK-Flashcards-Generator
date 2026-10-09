@@ -1,0 +1,486 @@
+{
+  "id": "hsk2_story_007",
+  "level": "HSK2",
+  "title": {
+    "zh": "在公司的新工作",
+    "vi": "Công việc mới ở công ty"
+  },
+  "topic": "work_office",
+  "estimatedMinutes": 3,
+  "description_vi": "Ngày đầu đi làm tại công ty mới và nhận được sự giúp đỡ của đồng nghiệp.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "这是我第一天在这家公司上班。",
+      "pinyin": "Zhè shì wǒ dì-yī tiān zài zhè jiā gōngsī shàngbān.",
+      "vi": "Đây là ngày đầu tiên tôi đi làm tại công ty này.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "第一",
+          "pinyin": "dìyī",
+          "hanviet": "Đệ Nhất",
+          "meaning_vi": "thứ nhất",
+          "hsk": 2,
+          "word_id": "hsk2_22"
+        },
+        {
+          "text": "天",
+          "unknown": true
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "公司",
+          "pinyin": "gōngsī",
+          "hanviet": "Công Ty",
+          "meaning_vi": "công ty",
+          "hsk": 2,
+          "word_id": "hsk2_34"
+        },
+        {
+          "text": "上班",
+          "pinyin": "shàngbān",
+          "hanviet": "Thướng Ban",
+          "meaning_vi": "đi làm",
+          "hsk": 2,
+          "word_id": "hsk2_90"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "公司很大，大家都在认真做事情。",
+      "pinyin": "Gōngsī hěn dà, dàjiā dōu zài rènzhēn zuò shìqing.",
+      "vi": "Công ty rất lớn, mọi người đều đang chăm chỉ làm việc.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "公司",
+          "pinyin": "gōngsī",
+          "hanviet": "Công Ty",
+          "meaning_vi": "công ty",
+          "hsk": 2,
+          "word_id": "hsk2_34"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "大家",
+          "pinyin": "dàjiā",
+          "hanviet": "Đại Gia",
+          "meaning_vi": "mọi người",
+          "hsk": 2,
+          "word_id": "hsk2_17"
+        },
+        {
+          "text": "都",
+          "pinyin": "dōu",
+          "hanviet": "Đô",
+          "meaning_vi": "đều",
+          "hsk": 1,
+          "word_id": "hsk1_21"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "认真",
+          "pinyin": "rènzhēn",
+          "hanviet": "Nhận Chân",
+          "meaning_vi": "nghiêm túc, chăm chỉ",
+          "hsk": 3,
+          "word_id": "hsk3_194"
+        },
+        {
+          "text": "做",
+          "pinyin": "zuò",
+          "hanviet": "Tố",
+          "meaning_vi": "làm",
+          "hsk": 1,
+          "word_id": "hsk1_149"
+        },
+        {
+          "text": "事情",
+          "pinyin": "shìqing",
+          "hanviet": "Sự Tình",
+          "meaning_vi": "việc, sự việc",
+          "hsk": 2,
+          "word_id": "hsk2_95"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "一开始我有很多问题不懂。",
+      "pinyin": "Yì kāishǐ wǒ yǒu hěn duō wèntí bù dǒng.",
+      "vi": "Mới đầu tôi có rất nhiều vấn đề không hiểu.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "开始",
+          "pinyin": "kāishǐ",
+          "hanviet": "Khai Thuỷ",
+          "meaning_vi": "bắt đầu",
+          "hsk": 2,
+          "word_id": "hsk2_54"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "多",
+          "pinyin": "duō",
+          "hanviet": "Đa",
+          "meaning_vi": "nhiều",
+          "hsk": 1,
+          "word_id": "hsk1_24"
+        },
+        {
+          "text": "问题",
+          "pinyin": "wèntí",
+          "hanviet": "Vấn Đề",
+          "meaning_vi": "câu hỏi, vấn đề",
+          "hsk": 2,
+          "word_id": "hsk2_112"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "懂",
+          "pinyin": "dǒng",
+          "hanviet": "Đổng",
+          "meaning_vi": "hiểu",
+          "hsk": 2,
+          "word_id": "hsk2_23"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "旁边的同事很热情，常常帮助我。",
+      "pinyin": "Pángbiān de tóngshì hěn rèqíng, chángcháng bāngzhù wǒ.",
+      "vi": "Đồng nghiệp bên cạnh rất nhiệt tình, thường xuyên giúp đỡ tôi.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "旁边",
+          "pinyin": "pángbiān",
+          "hanviet": "Bàng Biên",
+          "meaning_vi": "bên cạnh",
+          "hsk": 2,
+          "word_id": "hsk2_78"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "同事",
+          "pinyin": "tóngshì",
+          "hanviet": "Đồng Sự",
+          "meaning_vi": "đồng nghiệp",
+          "hsk": 3,
+          "word_id": "hsk3_219"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "热情",
+          "pinyin": "rèqíng",
+          "hanviet": "Nhiệt Tình",
+          "meaning_vi": "nhiệt tình",
+          "hsk": 3,
+          "word_id": "hsk3_192"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "常",
+          "unknown": true
+        },
+        {
+          "text": "常",
+          "unknown": true
+        },
+        {
+          "text": "帮助",
+          "pinyin": "bāngzhù",
+          "hanviet": "Bang Trợ",
+          "meaning_vi": "giúp đỡ",
+          "hsk": 2,
+          "word_id": "hsk2_4"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "我觉得这里的工作环境非常好。",
+      "pinyin": "Wǒ juéde zhèlǐ de gōngzuò huánjìng fēicháng hǎo.",
+      "vi": "Tôi cảm thấy môi trường làm việc ở đây rất tốt.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "觉得",
+          "pinyin": "juéde",
+          "hanviet": "Giác Đắc",
+          "meaning_vi": "cảm thấy",
+          "hsk": 2,
+          "word_id": "hsk2_52"
+        },
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "里",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "bên trong",
+          "hsk": 1,
+          "word_id": "hsk1_57"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "工作",
+          "pinyin": "gōngzuò",
+          "hanviet": "Công Tác",
+          "meaning_vi": "công việc, làm việc",
+          "hsk": 1,
+          "word_id": "hsk1_33"
+        },
+        {
+          "text": "环境",
+          "pinyin": "huánjìng",
+          "hanviet": "Hoàn Cảnh",
+          "meaning_vi": "môi trường",
+          "hsk": 3,
+          "word_id": "hsk3_102"
+        },
+        {
+          "text": "非常",
+          "pinyin": "fēicháng",
+          "hanviet": "Phi Thường",
+          "meaning_vi": "rất, vô cùng",
+          "hsk": 2,
+          "word_id": "hsk2_27"
+        },
+        {
+          "text": "好",
+          "pinyin": "hǎo",
+          "hanviet": "Hảo",
+          "meaning_vi": "tốt, được",
+          "hsk": 1,
+          "word_id": "hsk1_36"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk2_22",
+    "hsk2_34",
+    "hsk2_90",
+    "hsk2_95",
+    "hsk2_54",
+    "hsk2_112",
+    "hsk2_23",
+    "hsk2_78",
+    "hsk2_4"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Hôm nay là ngày thứ mấy nhân vật chính đi làm ở công ty?",
+      "options_vi": [
+        "Ngày đầu tiên",
+        "Ngày thứ hai",
+        "Đã làm một năm"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu có viết: 这是我第一天在这家公司上班 (Đây là ngày đầu tiên tôi đi làm ở công ty này)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Lúc mới bắt đầu, nhân vật chính gặp khó khăn gì?",
+      "options_vi": [
+        "Không có xe",
+        "Có nhiều vấn đề không hiểu",
+        "Không có bạn bè"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 有很多问题不懂 (Có nhiều vấn đề không hiểu)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Đồng nghiệp bên cạnh đối xử với nhân vật chính như thế nào?",
+      "options_vi": [
+        "Lạnh nhạt",
+        "Nhiệt tình giúp đỡ",
+        "Không nói chuyện"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 常常帮助我 (Thường xuyên giúp đỡ tôi)."
+    }
+  ]
+}

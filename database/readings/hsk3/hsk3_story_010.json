@@ -1,0 +1,627 @@
+{
+  "id": "hsk3_story_010",
+  "level": "HSK3",
+  "title": {
+    "zh": "我的中国室友",
+    "vi": "Người bạn cùng phòng Trung Quốc"
+  },
+  "topic": "friendship_culture",
+  "estimatedMinutes": 4,
+  "description_vi": "Sự sẻ chia văn hóa thú vị và tình bạn gắn bó giữa hai người bạn cùng phòng.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "我的大学室友张伟是一个热情的北京人。",
+      "pinyin": "Wǒ de dàxué shìyǒu Zhāng Wěi shì yí gè rèqíng de Běijīng rén.",
+      "vi": "Bạn cùng phòng đại học của tôi Trương Vĩ là một người Bắc Kinh nhiệt tình.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "学",
+          "unknown": true
+        },
+        {
+          "text": "室",
+          "unknown": true
+        },
+        {
+          "text": "友",
+          "unknown": true
+        },
+        {
+          "text": "张",
+          "pinyin": "zhāng",
+          "hanviet": "Trương",
+          "meaning_vi": "tấm, tờ (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_277"
+        },
+        {
+          "text": "伟",
+          "unknown": true
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "个",
+          "pinyin": "gè",
+          "hanviet": "Cá",
+          "meaning_vi": "cái (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_32"
+        },
+        {
+          "text": "热情",
+          "pinyin": "rèqíng",
+          "hanviet": "Nhiệt Tình",
+          "meaning_vi": "nhiệt tình",
+          "hsk": 3,
+          "word_id": "hsk3_192"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "北京",
+          "pinyin": "běijīng",
+          "hanviet": "Bắc Kinh",
+          "meaning_vi": "Bắc Kinh",
+          "hsk": 1,
+          "word_id": "hsk1_5"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "他教我用筷子吃面条，了解中国文化。",
+      "pinyin": "Tā jiāo wǒ yòng kuàizi chī miàntiáo, liǎojiě zhōngguó wénhuà.",
+      "vi": "Cậu ấy dạy tôi dùng đũa ăn mì sợi, tìm hiểu văn hóa Trung Quốc.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "他",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "anh ấy, nó",
+          "hsk": 1,
+          "word_id": "hsk1_104"
+        },
+        {
+          "text": "教",
+          "pinyin": "jiāo",
+          "hanviet": "Giáo",
+          "meaning_vi": "dạy",
+          "hsk": 3,
+          "word_id": "hsk3_118"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "用",
+          "pinyin": "yòng",
+          "hanviet": "Dụng",
+          "meaning_vi": "dùng",
+          "hsk": 3,
+          "word_id": "hsk3_267"
+        },
+        {
+          "text": "筷子",
+          "pinyin": "kuàizi",
+          "hanviet": "Khoái Tử",
+          "meaning_vi": "đôi đũa",
+          "hsk": 3,
+          "word_id": "hsk3_144"
+        },
+        {
+          "text": "吃",
+          "pinyin": "chī",
+          "hanviet": "Cật",
+          "meaning_vi": "ăn",
+          "hsk": 1,
+          "word_id": "hsk1_11"
+        },
+        {
+          "text": "面条",
+          "pinyin": "miàntiáo",
+          "hanviet": "Diện Điều",
+          "meaning_vi": "mì",
+          "hsk": 2,
+          "word_id": "hsk2_73"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "了解",
+          "pinyin": "liǎojiě",
+          "hanviet": "Liễu Giải",
+          "meaning_vi": "hiểu rõ, tìm hiểu",
+          "hsk": 3,
+          "word_id": "hsk3_154"
+        },
+        {
+          "text": "中国",
+          "pinyin": "zhōngguó",
+          "hanviet": "Trung Quốc",
+          "meaning_vi": "Trung Quốc",
+          "hsk": 1,
+          "word_id": "hsk1_143"
+        },
+        {
+          "text": "文化",
+          "pinyin": "wénhuà",
+          "hanviet": "Văn Hóa",
+          "meaning_vi": "văn hóa",
+          "hsk": 3,
+          "word_id": "hsk3_232"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "我遇到难题的时候，他总是耐心地给我讲明白。",
+      "pinyin": "Wǒ yù dào nántí de shíhou, tā zǒngshì nàixīn de gěi wǒ jiǎng míngbai.",
+      "vi": "Khi tôi gặp bài khó, cậu ấy luôn kiên nhẫn giảng cho tôi hiểu rõ.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "遇到",
+          "pinyin": "yùdào",
+          "hanviet": "Ngộ Đáo",
+          "meaning_vi": "gặp phải",
+          "hsk": 3,
+          "word_id": "hsk3_271"
+        },
+        {
+          "text": "难",
+          "pinyin": "nán",
+          "hanviet": "Nan",
+          "meaning_vi": "khó",
+          "hsk": 3,
+          "word_id": "hsk3_169"
+        },
+        {
+          "text": "题",
+          "pinyin": "tí",
+          "hanviet": "Đề",
+          "meaning_vi": "câu hỏi, đề bài",
+          "hsk": 2,
+          "word_id": "hsk2_103"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "时候",
+          "pinyin": "shíhou",
+          "hanviet": "Thời Hậu",
+          "meaning_vi": "lúc, thời điểm",
+          "hsk": 1,
+          "word_id": "hsk1_95"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "他",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "anh ấy, nó",
+          "hsk": 1,
+          "word_id": "hsk1_104"
+        },
+        {
+          "text": "总是",
+          "pinyin": "zǒngshì",
+          "hanviet": "Tổng Thị",
+          "meaning_vi": "luôn luôn",
+          "hsk": 3,
+          "word_id": "hsk3_296"
+        },
+        {
+          "text": "耐心",
+          "pinyin": "nàixīn",
+          "hanviet": "Nại Tâm",
+          "meaning_vi": "kiên nhẫn",
+          "hsk": 4,
+          "word_id": "hsk4_311"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "给",
+          "pinyin": "gěi",
+          "hanviet": "Cấp",
+          "meaning_vi": "cho, tặng",
+          "hsk": 2,
+          "word_id": "hsk2_32"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "讲",
+          "pinyin": "jiǎng",
+          "hanviet": "Giảng",
+          "meaning_vi": "nói, giảng giải",
+          "hsk": 3,
+          "word_id": "hsk3_117"
+        },
+        {
+          "text": "明白",
+          "pinyin": "míngbai",
+          "hanviet": "Minh Bạch",
+          "meaning_vi": "hiểu rõ, rõ ràng",
+          "hsk": 3,
+          "word_id": "hsk3_165"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "两个人虽然来自不同国家，但是相处得像兄弟一样。",
+      "pinyin": "Liǎng gè rén suīrán láizì bùtóng guójiā, dànshì xiāngchǔ de xiàng xiōngdì yíyàng.",
+      "vi": "Hai người tuy đến từ hai quốc gia khác nhau, nhưng thân thiết như anh em.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "两",
+          "pinyin": "liǎng",
+          "hanviet": "Lưỡng",
+          "meaning_vi": "hai (số lượng)",
+          "hsk": 2,
+          "word_id": "hsk2_63"
+        },
+        {
+          "text": "个人",
+          "pinyin": "gèrén",
+          "hanviet": "Cá Nhân",
+          "meaning_vi": "cá nhân",
+          "hsk": 5,
+          "word_id": "hsk5_154"
+        },
+        {
+          "text": "虽",
+          "unknown": true
+        },
+        {
+          "text": "然",
+          "unknown": true
+        },
+        {
+          "text": "来自",
+          "pinyin": "láizì",
+          "hanviet": "Lai Tự",
+          "meaning_vi": "đến từ",
+          "hsk": 4,
+          "word_id": "hsk4_269"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "同",
+          "unknown": true
+        },
+        {
+          "text": "国家",
+          "pinyin": "guójiā",
+          "hanviet": "Quốc Gia",
+          "meaning_vi": "quốc gia",
+          "hsk": 3,
+          "word_id": "hsk3_88"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "但",
+          "unknown": true
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "相处",
+          "pinyin": "xiāngchǔ",
+          "hanviet": "Tương Xử",
+          "meaning_vi": "sống cùng, chung sống",
+          "hsk": 5,
+          "word_id": "hsk5_1158"
+        },
+        {
+          "text": "得",
+          "pinyin": "de",
+          "hanviet": "Đắc",
+          "meaning_vi": "được (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_19"
+        },
+        {
+          "text": "像",
+          "pinyin": "xiàng",
+          "hanviet": "Tượng",
+          "meaning_vi": "giống như",
+          "hsk": 3,
+          "word_id": "hsk3_242"
+        },
+        {
+          "text": "兄弟",
+          "pinyin": "xiōngdì",
+          "hanviet": "Huynh Đệ",
+          "meaning_vi": "anh em",
+          "hsk": 5,
+          "word_id": "hsk5_531"
+        },
+        {
+          "text": "一样",
+          "pinyin": "yíyàng",
+          "hanviet": "Nhất Dạng",
+          "meaning_vi": "giống nhau",
+          "hsk": 3,
+          "word_id": "hsk3_257"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "我们约定以后要一起去更多的地方旅游。",
+      "pinyin": "Wǒmen yuēdìng yǐhòu yào yìqǐ qù gèng duō de dìfang lǚyóu.",
+      "vi": "Chúng tôi hẹn nhau sau này sẽ cùng đi du lịch nhiều nơi hơn nữa.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "约",
+          "unknown": true
+        },
+        {
+          "text": "定",
+          "unknown": true
+        },
+        {
+          "text": "以",
+          "pinyin": "yǐ",
+          "hanviet": "Dĩ",
+          "meaning_vi": "bằng, dùng",
+          "hsk": 4,
+          "word_id": "hsk4_512"
+        },
+        {
+          "text": "后",
+          "unknown": true
+        },
+        {
+          "text": "要",
+          "pinyin": "yào",
+          "hanviet": "Yêu",
+          "meaning_vi": "muốn, cần",
+          "hsk": 2,
+          "word_id": "hsk2_126"
+        },
+        {
+          "text": "一起",
+          "pinyin": "yīqǐ",
+          "hanviet": "Nhất Khởi",
+          "meaning_vi": "cùng nhau",
+          "hsk": 2,
+          "word_id": "hsk2_130"
+        },
+        {
+          "text": "去",
+          "pinyin": "qù",
+          "hanviet": "Khứ",
+          "meaning_vi": "đi",
+          "hsk": 1,
+          "word_id": "hsk1_83"
+        },
+        {
+          "text": "更",
+          "pinyin": "gèng",
+          "hanviet": "Canh",
+          "meaning_vi": "càng, hơn",
+          "hsk": 3,
+          "word_id": "hsk3_79"
+        },
+        {
+          "text": "多",
+          "pinyin": "duō",
+          "hanviet": "Đa",
+          "meaning_vi": "nhiều",
+          "hsk": 1,
+          "word_id": "hsk1_24"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "地方",
+          "pinyin": "dìfang",
+          "hanviet": "Địa Phương",
+          "meaning_vi": "nơi, địa phương",
+          "hsk": 3,
+          "word_id": "hsk3_48"
+        },
+        {
+          "text": "旅游",
+          "pinyin": "lǜyóu",
+          "hanviet": "Lữ Du",
+          "meaning_vi": "du lịch",
+          "hsk": 2,
+          "word_id": "hsk2_66"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk3_192",
+    "hsk1_5",
+    "hsk3_144",
+    "hsk2_73",
+    "hsk3_154",
+    "hsk3_232",
+    "hsk3_169",
+    "hsk3_296",
+    "hsk3_165",
+    "hsk3_242",
+    "hsk2_66"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Người bạn cùng phòng Trương Vĩ là người ở đâu?",
+      "options_vi": [
+        "Bắc Kinh",
+        "Thượng Hải",
+        "Quảng Đông"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu đầu có viết: 热情的北京人 (Người Bắc Kinh nhiệt tình)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Trương Vĩ đã dạy nhân vật chính điều gì?",
+      "options_vi": [
+        "Dạy bơi",
+        "Dạy dùng đũa ăn mì và tìm hiểu văn hóa Trung Quốc",
+        "Dạy lái xe"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 教我用筷子吃面条，了解中国文化 (Dạy dùng đũa ăn mì, tìm hiểu văn hóa Trung Quốc)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Hai người đã có hẹn ước gì cho tương lai?",
+      "options_vi": [
+        "Cùng nhau mở công ty",
+        "Cùng nhau đi du lịch nhiều nơi hơn",
+        "Không gặp lại nhau"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 约定以后要一起去更多的地方旅游 (Hẹn sau này cùng đi du lịch nhiều nơi hơn)."
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "id": "hsk3_story_001",
+  "level": "HSK3",
+  "title": {
+    "zh": "搬到新家",
+    "vi": "Chuyển đến nhà mới"
+  },
+  "topic": "housing_lifestyle",
+  "estimatedMinutes": 4,
+  "description_vi": "Trải nghiệm chuyển sang một căn nhà mới yên tĩnh và gần trạm tàu điện ngầm.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "上个周末，我和家人搬到了新房子。",
+      "pinyin": "Shàng gè zhōumò, wǒ hé jiārén bān dào le xīn fángzi.",
+      "vi": "Cuối tuần trước, tôi và gia đình đã chuyển đến căn nhà mới.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "个",
+          "pinyin": "gè",
+          "hanviet": "Cá",
+          "meaning_vi": "cái (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_32"
+        },
+        {
+          "text": "周末",
+          "pinyin": "zhōumò",
+          "hanviet": "Chu Mạt",
+          "meaning_vi": "cuối tuần",
+          "hsk": 3,
+          "word_id": "hsk3_291"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "搬",
+          "pinyin": "bān",
+          "hanviet": "Ban",
+          "meaning_vi": "dọn, di chuyển",
+          "hsk": 3,
+          "word_id": "hsk3_8"
+        },
+        {
+          "text": "到",
+          "pinyin": "dào",
+          "hanviet": "Đáo",
+          "meaning_vi": "đến",
+          "hsk": 2,
+          "word_id": "hsk2_18"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "新",
+          "pinyin": "xīn",
+          "hanviet": "Tân",
+          "meaning_vi": "mới",
+          "hsk": 2,
+          "word_id": "hsk2_118"
+        },
+        {
+          "text": "房",
+          "unknown": true
+        },
+        {
+          "text": "子",
+          "unknown": true
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "这里的环境很好，周围非常安静。",
+      "pinyin": "Zhèlǐ de huánjìng hěn hǎo, zhōuwéi fēicháng ānjìng.",
+      "vi": "Môi trường ở đây rất tốt, xung quanh vô cùng yên tĩnh.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "里",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "bên trong",
+          "hsk": 1,
+          "word_id": "hsk1_57"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "环境",
+          "pinyin": "huánjìng",
+          "hanviet": "Hoàn Cảnh",
+          "meaning_vi": "môi trường",
+          "hsk": 3,
+          "word_id": "hsk3_102"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "好",
+          "pinyin": "hǎo",
+          "hanviet": "Hảo",
+          "meaning_vi": "tốt, được",
+          "hsk": 1,
+          "word_id": "hsk1_36"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "周围",
+          "pinyin": "zhōuwéi",
+          "hanviet": "Chu Vi",
+          "meaning_vi": "xung quanh",
+          "hsk": 4,
+          "word_id": "hsk4_578"
+        },
+        {
+          "text": "非常",
+          "pinyin": "fēicháng",
+          "hanviet": "Phi Thường",
+          "meaning_vi": "rất, vô cùng",
+          "hsk": 2,
+          "word_id": "hsk2_27"
+        },
+        {
+          "text": "安静",
+          "pinyin": "ānjìng",
+          "hanviet": "An Tĩnh",
+          "meaning_vi": "yên tĩnh",
+          "hsk": 3,
+          "word_id": "hsk3_5"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "新房子离地铁站很近，交通特别方便。",
+      "pinyin": "Xīn fángzi lí dìtiězhàn hěn jìn, jiāotōng tèbié fāngbiàn.",
+      "vi": "Nhà mới cách trạm tàu điện ngầm rất gần, giao thông đặc biệt thuận tiện.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "新",
+          "pinyin": "xīn",
+          "hanviet": "Tân",
+          "meaning_vi": "mới",
+          "hsk": 2,
+          "word_id": "hsk2_118"
+        },
+        {
+          "text": "房",
+          "unknown": true
+        },
+        {
+          "text": "子",
+          "unknown": true
+        },
+        {
+          "text": "离",
+          "pinyin": "lí",
+          "hanviet": "Ly",
+          "meaning_vi": "cách (khoảng cách)",
+          "hsk": 2,
+          "word_id": "hsk2_62"
+        },
+        {
+          "text": "地铁",
+          "pinyin": "dìtiě",
+          "hanviet": "Địa Thiết",
+          "meaning_vi": "tàu điện ngầm",
+          "hsk": 3,
+          "word_id": "hsk3_49"
+        },
+        {
+          "text": "站",
+          "pinyin": "zhàn",
+          "hanviet": "Trạm",
+          "meaning_vi": "ga, bến; đứng",
+          "hsk": 3,
+          "word_id": "hsk3_276"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "近",
+          "pinyin": "jìn",
+          "hanviet": "Cận",
+          "meaning_vi": "gần",
+          "hsk": 2,
+          "word_id": "hsk2_49"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "交通",
+          "pinyin": "jiāotōng",
+          "hanviet": "Giao Thông",
+          "meaning_vi": "giao thông",
+          "hsk": 4,
+          "word_id": "hsk4_213"
+        },
+        {
+          "text": "特别",
+          "pinyin": "tèbié",
+          "hanviet": "Đặc Biệt",
+          "meaning_vi": "đặc biệt",
+          "hsk": 3,
+          "word_id": "hsk3_213"
+        },
+        {
+          "text": "方便",
+          "pinyin": "fāngbiàn",
+          "hanviet": "Phương Tiện",
+          "meaning_vi": "thuận tiện",
+          "hsk": 3,
+          "word_id": "hsk3_66"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "我们的邻居也很热情，经常过来帮忙。",
+      "pinyin": "Wǒmen de línjū yě hěn rèqíng, jīngcháng guòlái bāngmáng.",
+      "vi": "Hàng xóm của chúng tôi cũng rất nhiệt tình, thường qua giúp đỡ.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "邻居",
+          "pinyin": "línjū",
+          "hanviet": "Lân Cư",
+          "meaning_vi": "hàng xóm",
+          "hsk": 3,
+          "word_id": "hsk3_155"
+        },
+        {
+          "text": "也",
+          "pinyin": "yě",
+          "hanviet": "Dã",
+          "meaning_vi": "cũng",
+          "hsk": 2,
+          "word_id": "hsk2_127"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "热情",
+          "pinyin": "rèqíng",
+          "hanviet": "Nhiệt Tình",
+          "meaning_vi": "nhiệt tình",
+          "hsk": 3,
+          "word_id": "hsk3_192"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "经常",
+          "pinyin": "jīngcháng",
+          "hanviet": "Kinh Thường",
+          "meaning_vi": "thường xuyên",
+          "hsk": 3,
+          "word_id": "hsk3_129"
+        },
+        {
+          "text": "过",
+          "pinyin": "guo",
+          "hanviet": "Quá",
+          "meaning_vi": "đã từng (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_36"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "帮忙",
+          "pinyin": "bāngmáng",
+          "hanviet": "Bang Mang",
+          "meaning_vi": "giúp đỡ",
+          "hsk": 3,
+          "word_id": "hsk3_12"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "大家一起把房间打扫得干干净净。",
+      "pinyin": "Dàjiā yìqǐ bǎ fángjiān dǎsǎo de gāngānjìngjìng.",
+      "vi": "Mọi người cùng nhau dọn dẹp phòng ốc sạch sẽ tinh tươm.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "大家",
+          "pinyin": "dàjiā",
+          "hanviet": "Đại Gia",
+          "meaning_vi": "mọi người",
+          "hsk": 2,
+          "word_id": "hsk2_17"
+        },
+        {
+          "text": "一起",
+          "pinyin": "yīqǐ",
+          "hanviet": "Nhất Khởi",
+          "meaning_vi": "cùng nhau",
+          "hsk": 2,
+          "word_id": "hsk2_130"
+        },
+        {
+          "text": "把",
+          "pinyin": "bǎ",
+          "hanviet": "Bả",
+          "meaning_vi": "cái, chiếc (lượng từ); cầm, nắm",
+          "hsk": 3,
+          "word_id": "hsk3_6"
+        },
+        {
+          "text": "房间",
+          "pinyin": "fángjiān",
+          "hanviet": "Phòng Gian",
+          "meaning_vi": "phòng",
+          "hsk": 2,
+          "word_id": "hsk2_26"
+        },
+        {
+          "text": "打扫",
+          "pinyin": "dǎsǎo",
+          "hanviet": "Đả Tảo",
+          "meaning_vi": "dọn dẹp, quét",
+          "hsk": 3,
+          "word_id": "hsk3_40"
+        },
+        {
+          "text": "得",
+          "pinyin": "de",
+          "hanviet": "Đắc",
+          "meaning_vi": "được (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_19"
+        },
+        {
+          "text": "干",
+          "pinyin": "gān",
+          "hanviet": "Can",
+          "meaning_vi": "khô",
+          "hsk": 4,
+          "word_id": "hsk4_136"
+        },
+        {
+          "text": "干净",
+          "pinyin": "gānjìng",
+          "hanviet": "Can Tịnh",
+          "meaning_vi": "sạch sẽ",
+          "hsk": 3,
+          "word_id": "hsk3_72"
+        },
+        {
+          "text": "净",
+          "unknown": true
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk3_291",
+    "hsk3_8",
+    "hsk3_102",
+    "hsk3_5",
+    "hsk3_49",
+    "hsk3_213",
+    "hsk3_66",
+    "hsk3_155",
+    "hsk3_192",
+    "hsk3_12",
+    "hsk3_72"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Gia đình nhân vật chính đã làm gì vào cuối tuần trước?",
+      "options_vi": [
+        "Đi du lịch xa",
+        "Chuyển đến nhà mới",
+        "Đi mua sắm"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu đầu có viết: 搬到了新房子 (Đã chuyển đến căn nhà mới)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Vị trí của ngôi nhà mới có ưu điểm gì?",
+      "options_vi": [
+        "Gần sân bay",
+        "Gần trạm tàu điện ngầm, đi lại tiện lợi",
+        "Ở nông thôn"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 离地铁站很近，交通特别方便 (Cách trạm tàu điện ngầm rất gần, giao thông đặc biệt thuận tiện)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Những người hàng xóm ở đây như thế nào?",
+      "options_vi": [
+        "Khó tính",
+        "Nhiệt tình và thường sang giúp đỡ",
+        "Không tiếp xúc"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 邻居也很热情，经常过来帮忙 (Hàng xóm rất nhiệt tình, thường qua giúp đỡ)."
+    }
+  ]
+}

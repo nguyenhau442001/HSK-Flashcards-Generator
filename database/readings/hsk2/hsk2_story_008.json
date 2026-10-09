@@ -1,0 +1,561 @@
+{
+  "id": "hsk2_story_008",
+  "level": "HSK2",
+  "title": {
+    "zh": "买西瓜和牛奶",
+    "vi": "Mua dưa hấu và sữa tươi"
+  },
+  "topic": "shopping_market",
+  "estimatedMinutes": 3,
+  "description_vi": "Đi mua hoa quả tươi và đồ uống thơm ngon cho cả nhà thưởng thức.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "今天下午我和妹妹去市场买东西。",
+      "pinyin": "Jīntiān xiàwǔ wǒ hé mèimei qù shìchǎng mǎi dōngxi.",
+      "vi": "Chiều nay tôi và em gái đi chợ mua đồ.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "今天",
+          "pinyin": "jīntiān",
+          "hanviet": "Kim Thiên",
+          "meaning_vi": "hôm nay",
+          "hsk": 1,
+          "word_id": "hsk1_47"
+        },
+        {
+          "text": "下午",
+          "pinyin": "xiàwǔ",
+          "hanviet": "Hạ Ngọ",
+          "meaning_vi": "buổi chiều",
+          "hsk": 1,
+          "word_id": "hsk1_116"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "妹妹",
+          "pinyin": "mèimei",
+          "hanviet": "Muội Muội",
+          "meaning_vi": "em gái",
+          "hsk": 2,
+          "word_id": "hsk2_71"
+        },
+        {
+          "text": "去",
+          "pinyin": "qù",
+          "hanviet": "Khứ",
+          "meaning_vi": "đi",
+          "hsk": 1,
+          "word_id": "hsk1_83"
+        },
+        {
+          "text": "市场",
+          "pinyin": "shìchǎng",
+          "hanviet": "Thị Trường",
+          "meaning_vi": "thị trường, chợ",
+          "hsk": 5,
+          "word_id": "hsk5_428"
+        },
+        {
+          "text": "买",
+          "pinyin": "mǎi",
+          "hanviet": "Mãi",
+          "meaning_vi": "mua",
+          "hsk": 1,
+          "word_id": "hsk1_61"
+        },
+        {
+          "text": "东西",
+          "pinyin": "dōngxi",
+          "hanviet": "Đông Tây",
+          "meaning_vi": "đồ vật",
+          "hsk": 1,
+          "word_id": "hsk1_20"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "这里的西瓜又大又甜，还很便宜。",
+      "pinyin": "Zhèlǐ de xīguā yòu dà yòu tián, hái hěn piányi.",
+      "vi": "Dưa hấu ở đây vừa to vừa ngọt, lại còn rất rẻ.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "里",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "bên trong",
+          "hsk": 1,
+          "word_id": "hsk1_57"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "西瓜",
+          "pinyin": "xīguā",
+          "hanviet": "Tây Qua",
+          "meaning_vi": "dưa hấu",
+          "hsk": 2,
+          "word_id": "hsk2_114"
+        },
+        {
+          "text": "又",
+          "pinyin": "yòu",
+          "hanviet": "Hựu",
+          "meaning_vi": "lại (lần nữa)",
+          "hsk": 3,
+          "word_id": "hsk3_270"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "又",
+          "pinyin": "yòu",
+          "hanviet": "Hựu",
+          "meaning_vi": "lại (lần nữa)",
+          "hsk": 3,
+          "word_id": "hsk3_270"
+        },
+        {
+          "text": "甜",
+          "pinyin": "tián",
+          "hanviet": "Điềm",
+          "meaning_vi": "ngọt",
+          "hsk": 3,
+          "word_id": "hsk3_217"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "还",
+          "pinyin": "hái",
+          "hanviet": "Hoàn",
+          "meaning_vi": "vẫn còn",
+          "hsk": 2,
+          "word_id": "hsk2_38"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "便宜",
+          "pinyin": "piányi",
+          "hanviet": "Tiện Nghi",
+          "meaning_vi": "rẻ",
+          "hsk": 2,
+          "word_id": "hsk2_80"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "我们买了一个大西瓜和两瓶牛奶。",
+      "pinyin": "Wǒmen mǎi le yí gè dà xīguā hé liǎng píng niúnǎi.",
+      "vi": "Chúng tôi đã mua một quả dưa hấu to và hai chai sữa tươi.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "买",
+          "pinyin": "mǎi",
+          "hanviet": "Mãi",
+          "meaning_vi": "mua",
+          "hsk": 1,
+          "word_id": "hsk1_61"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "个",
+          "pinyin": "gè",
+          "hanviet": "Cá",
+          "meaning_vi": "cái (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_32"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "西瓜",
+          "pinyin": "xīguā",
+          "hanviet": "Tây Qua",
+          "meaning_vi": "dưa hấu",
+          "hsk": 2,
+          "word_id": "hsk2_114"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "两",
+          "pinyin": "liǎng",
+          "hanviet": "Lưỡng",
+          "meaning_vi": "hai (số lượng)",
+          "hsk": 2,
+          "word_id": "hsk2_63"
+        },
+        {
+          "text": "瓶",
+          "unknown": true
+        },
+        {
+          "text": "牛奶",
+          "pinyin": "niúnǎi",
+          "hanviet": "Ngưu Nãi",
+          "meaning_vi": "sữa bò",
+          "hsk": 2,
+          "word_id": "hsk2_76"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "妹妹还想买一些鸡蛋，妈妈做菜用。",
+      "pinyin": "Mèimei hái xiǎng mǎi yìxiē jīdàn, māma zuò cài yòng.",
+      "vi": "Em gái còn muốn mua một ít trứng gà cho mẹ nấu ăn.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "妹妹",
+          "pinyin": "mèimei",
+          "hanviet": "Muội Muội",
+          "meaning_vi": "em gái",
+          "hsk": 2,
+          "word_id": "hsk2_71"
+        },
+        {
+          "text": "还",
+          "pinyin": "hái",
+          "hanviet": "Hoàn",
+          "meaning_vi": "vẫn còn",
+          "hsk": 2,
+          "word_id": "hsk2_38"
+        },
+        {
+          "text": "想",
+          "pinyin": "xiǎng",
+          "hanviet": "Tưởng",
+          "meaning_vi": "muốn, nghĩ",
+          "hsk": 1,
+          "word_id": "hsk1_120"
+        },
+        {
+          "text": "买",
+          "pinyin": "mǎi",
+          "hanviet": "Mãi",
+          "meaning_vi": "mua",
+          "hsk": 1,
+          "word_id": "hsk1_61"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "些",
+          "pinyin": "xiē",
+          "hanviet": "Ta",
+          "meaning_vi": "vài, một ít",
+          "hsk": 1,
+          "word_id": "hsk1_123"
+        },
+        {
+          "text": "鸡蛋",
+          "pinyin": "jīdàn",
+          "hanviet": "Kê Đản",
+          "meaning_vi": "trứng gà",
+          "hsk": 2,
+          "word_id": "hsk2_44"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "妈妈",
+          "pinyin": "māma",
+          "hanviet": "Ma Ma",
+          "meaning_vi": "mẹ",
+          "hsk": 1,
+          "word_id": "hsk1_60"
+        },
+        {
+          "text": "做",
+          "pinyin": "zuò",
+          "hanviet": "Tố",
+          "meaning_vi": "làm",
+          "hsk": 1,
+          "word_id": "hsk1_149"
+        },
+        {
+          "text": "菜",
+          "pinyin": "cài",
+          "hanviet": "Thái",
+          "meaning_vi": "món ăn, rau",
+          "hsk": 1,
+          "word_id": "hsk1_9"
+        },
+        {
+          "text": "用",
+          "pinyin": "yòng",
+          "hanviet": "Dụng",
+          "meaning_vi": "dùng",
+          "hsk": 3,
+          "word_id": "hsk3_267"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "卖东西的人笑着对我们说：欢迎再来！",
+      "pinyin": "Mài dōngxi de rén xiào zhe duì wǒmen shuō: Huānyíng zài lái!",
+      "vi": "Người bán hàng cười nói với chúng tôi: Hoan nghênh lần sau lại ghé!",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "卖",
+          "pinyin": "mài",
+          "hanviet": "Mại",
+          "meaning_vi": "bán",
+          "hsk": 2,
+          "word_id": "hsk2_67"
+        },
+        {
+          "text": "东西",
+          "pinyin": "dōngxi",
+          "hanviet": "Đông Tây",
+          "meaning_vi": "đồ vật",
+          "hsk": 1,
+          "word_id": "hsk1_20"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "笑",
+          "pinyin": "xiào",
+          "hanviet": "Tiếu",
+          "meaning_vi": "cười",
+          "hsk": 2,
+          "word_id": "hsk2_117"
+        },
+        {
+          "text": "着",
+          "pinyin": "zhe",
+          "hanviet": "Trước",
+          "meaning_vi": "đang (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_143"
+        },
+        {
+          "text": "对",
+          "pinyin": "duì",
+          "hanviet": "Đối",
+          "meaning_vi": "đối với, hướng về (giới từ)",
+          "hsk": 2,
+          "word_id": "hsk2_24"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "说",
+          "pinyin": "shuō",
+          "hanviet": "Thuyết",
+          "meaning_vi": "nói",
+          "hsk": 1,
+          "word_id": "hsk1_101"
+        },
+        {
+          "text": "："
+        },
+        {
+          "text": "欢迎",
+          "pinyin": "huānyíng",
+          "hanviet": "Hoan Nghênh",
+          "meaning_vi": "hoan nghênh, chào mừng",
+          "hsk": 3,
+          "word_id": "hsk3_100"
+        },
+        {
+          "text": "再",
+          "pinyin": "zài",
+          "hanviet": "Tái",
+          "meaning_vi": "lại, lần nữa",
+          "hsk": 2,
+          "word_id": "hsk2_139"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "！"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk2_71",
+    "hsk2_114",
+    "hsk2_80",
+    "hsk2_63",
+    "hsk2_76",
+    "hsk2_44",
+    "hsk2_67",
+    "hsk2_117",
+    "hsk2_139"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Nhân vật chính đi chợ cùng ai?",
+      "options_vi": [
+        "Chị gái",
+        "Em gái",
+        "Bố"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 我和妹妹去市场买东西 (Tôi và em gái đi chợ mua đồ)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Dưa hấu ở chợ được miêu tả ra sao?",
+      "options_vi": [
+        "Vừa to vừa ngọt, rất rẻ",
+        "Đắt và chua",
+        "Rất nhỏ"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu có viết: 西瓜又大又甜，还很便宜 (Dưa hấu vừa to vừa ngọt, lại rất rẻ)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Người bán hàng có thái độ thế nào khi tạm biệt?",
+      "options_vi": [
+        "Khó chịu",
+        "Cười và mời lần sau lại ghé",
+        "Không nhìn khách"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 笑着对我们说：欢迎再来 (Cười nói với chúng tôi: Hoan nghênh lại đến)."
+    }
+  ]
+}

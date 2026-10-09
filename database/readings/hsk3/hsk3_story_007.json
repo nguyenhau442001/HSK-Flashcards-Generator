@@ -1,0 +1,581 @@
+{
+  "id": "hsk3_story_007",
+  "level": "HSK3",
+  "title": {
+    "zh": "感冒发烧的一天",
+    "vi": "Một ngày cảm cúm phát sốt"
+  },
+  "topic": "health_recovery",
+  "estimatedMinutes": 4,
+  "description_vi": "Sự quan tâm chăm sóc ấm áp của mẹ khi con bị cảm lạnh và sốt cao.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "昨天晚上我开始头疼，身上发烧。",
+      "pinyin": "Zuótiān wǎnshang wǒ kāishǐ tóuténg, shēnshang fāshāo.",
+      "vi": "Tối hôm qua tôi bắt đầu đau đầu, người phát sốt.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "昨天",
+          "pinyin": "zuótiān",
+          "hanviet": "Tạc Thiên",
+          "meaning_vi": "hôm qua",
+          "hsk": 1,
+          "word_id": "hsk1_148"
+        },
+        {
+          "text": "晚上",
+          "pinyin": "wǎnshang",
+          "hanviet": "Vãn Thướng",
+          "meaning_vi": "buổi tối",
+          "hsk": 2,
+          "word_id": "hsk2_108"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "开始",
+          "pinyin": "kāishǐ",
+          "hanviet": "Khai Thuỷ",
+          "meaning_vi": "bắt đầu",
+          "hsk": 2,
+          "word_id": "hsk2_54"
+        },
+        {
+          "text": "头",
+          "unknown": true
+        },
+        {
+          "text": "疼",
+          "pinyin": "téng",
+          "hanviet": "Đông",
+          "meaning_vi": "đau",
+          "hsk": 3,
+          "word_id": "hsk3_214"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "身",
+          "unknown": true
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "发烧",
+          "pinyin": "fāshāo",
+          "hanviet": "Phát Thiêu",
+          "meaning_vi": "sốt",
+          "hsk": 3,
+          "word_id": "hsk3_64"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "妈妈很担心，马上找出了感冒药给我吃。",
+      "pinyin": "Māma hěn dānxīn, mǎshàng zhǎo chū le gǎnmàoyào gěi wǒ chī.",
+      "vi": "Mẹ rất lo lắng, liền lập tức tìm thuốc cảm cho tôi uống.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "妈妈",
+          "pinyin": "māma",
+          "hanviet": "Ma Ma",
+          "meaning_vi": "mẹ",
+          "hsk": 1,
+          "word_id": "hsk1_60"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "担心",
+          "pinyin": "dānxīn",
+          "hanviet": "Đảm Tâm",
+          "meaning_vi": "lo lắng",
+          "hsk": 3,
+          "word_id": "hsk3_43"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "马上",
+          "pinyin": "mǎshàng",
+          "hanviet": "Mã Thướng",
+          "meaning_vi": "ngay lập tức",
+          "hsk": 3,
+          "word_id": "hsk3_160"
+        },
+        {
+          "text": "找",
+          "pinyin": "zhǎo",
+          "hanviet": "Trảo",
+          "meaning_vi": "tìm",
+          "hsk": 2,
+          "word_id": "hsk2_142"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "感冒",
+          "pinyin": "gǎnmào",
+          "hanviet": "Cảm Mạo",
+          "meaning_vi": "bị cảm",
+          "hsk": 3,
+          "word_id": "hsk3_74"
+        },
+        {
+          "text": "药",
+          "pinyin": "yào",
+          "hanviet": "Dược",
+          "meaning_vi": "thuốc",
+          "hsk": 2,
+          "word_id": "hsk2_125"
+        },
+        {
+          "text": "给",
+          "pinyin": "gěi",
+          "hanviet": "Cấp",
+          "meaning_vi": "cho, tặng",
+          "hsk": 2,
+          "word_id": "hsk2_32"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "吃",
+          "pinyin": "chī",
+          "hanviet": "Cật",
+          "meaning_vi": "ăn",
+          "hsk": 1,
+          "word_id": "hsk1_11"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "她倒了一杯温水，让我躺在床上休息。",
+      "pinyin": "Tā dào le yì bēi wēnshuǐ, ràng wǒ tǎng zài chuáng shang xiūxi.",
+      "vi": "Mẹ rót một ly nước ấm, bảo tôi nằm trên giường nghỉ ngơi.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "她",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "cô ấy",
+          "hsk": 1,
+          "word_id": "hsk1_105"
+        },
+        {
+          "text": "倒",
+          "pinyin": "dào",
+          "hanviet": "Đảo",
+          "meaning_vi": "đổ, lật ngược",
+          "hsk": 4,
+          "word_id": "hsk4_80"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "杯",
+          "unknown": true
+        },
+        {
+          "text": "温",
+          "unknown": true
+        },
+        {
+          "text": "水",
+          "pinyin": "shuǐ",
+          "hanviet": "Thuỷ",
+          "meaning_vi": "nước",
+          "hsk": 1,
+          "word_id": "hsk1_98"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "让",
+          "pinyin": "ràng",
+          "hanviet": "Nhượng",
+          "meaning_vi": "để cho, khiến",
+          "hsk": 2,
+          "word_id": "hsk2_88"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "躺",
+          "pinyin": "tǎng",
+          "hanviet": "Thảng",
+          "meaning_vi": "nằm",
+          "hsk": 4,
+          "word_id": "hsk4_425"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "床",
+          "unknown": true
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "休息",
+          "pinyin": "xiūxi",
+          "hanviet": "Hưu Tức",
+          "meaning_vi": "nghỉ ngơi",
+          "hsk": 2,
+          "word_id": "hsk2_120"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "今天早上量了体温，已经退烧了，感觉舒服多了。",
+      "pinyin": "Jīntiān zǎoshang liáng le tǐwēn, yǐjīng tuìshāo le, gǎnjué shūfu duō le.",
+      "vi": "Sáng nay đo lại thân nhiệt, đã hạ sốt rồi, cảm giác dễ chịu hơn nhiều.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "今天",
+          "pinyin": "jīntiān",
+          "hanviet": "Kim Thiên",
+          "meaning_vi": "hôm nay",
+          "hsk": 1,
+          "word_id": "hsk1_47"
+        },
+        {
+          "text": "早上",
+          "pinyin": "zǎoshang",
+          "hanviet": "Tảo Thướng",
+          "meaning_vi": "buổi sáng sớm",
+          "hsk": 2,
+          "word_id": "hsk2_140"
+        },
+        {
+          "text": "量",
+          "unknown": true
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "体",
+          "unknown": true
+        },
+        {
+          "text": "温",
+          "unknown": true
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "已经",
+          "pinyin": "yǐjīng",
+          "hanviet": "Dĩ Kinh",
+          "meaning_vi": "đã",
+          "hsk": 2,
+          "word_id": "hsk2_129"
+        },
+        {
+          "text": "退",
+          "pinyin": "tuì",
+          "hanviet": "Thoái",
+          "meaning_vi": "rút, lùi",
+          "hsk": 5,
+          "word_id": "hsk5_478"
+        },
+        {
+          "text": "烧",
+          "unknown": true
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "感觉",
+          "pinyin": "gǎnjué",
+          "hanviet": "Cảm Giác",
+          "meaning_vi": "cảm giác",
+          "hsk": 4,
+          "word_id": "hsk4_133"
+        },
+        {
+          "text": "舒服",
+          "pinyin": "shūfu",
+          "hanviet": "Thư Phục",
+          "meaning_vi": "thoải mái, dễ chịu",
+          "hsk": 3,
+          "word_id": "hsk3_204"
+        },
+        {
+          "text": "多",
+          "pinyin": "duō",
+          "hanviet": "Đa",
+          "meaning_vi": "nhiều",
+          "hsk": 1,
+          "word_id": "hsk1_24"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "有妈妈的细心照顾，我好得非常快。",
+      "pinyin": "Yǒu māma de xìxīn zhàogù, wǒ hǎo de fēicháng kuài.",
+      "vi": "Nhờ có sự chăm sóc chu đáo của mẹ, tôi bình phục rất nhanh.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "妈妈",
+          "pinyin": "māma",
+          "hanviet": "Ma Ma",
+          "meaning_vi": "mẹ",
+          "hsk": 1,
+          "word_id": "hsk1_60"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "细",
+          "unknown": true
+        },
+        {
+          "text": "心",
+          "unknown": true
+        },
+        {
+          "text": "照顾",
+          "pinyin": "zhàogù",
+          "hanviet": "Chiếu Cố",
+          "meaning_vi": "chăm sóc",
+          "hsk": 3,
+          "word_id": "hsk3_280"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "好",
+          "pinyin": "hǎo",
+          "hanviet": "Hảo",
+          "meaning_vi": "tốt, được",
+          "hsk": 1,
+          "word_id": "hsk1_36"
+        },
+        {
+          "text": "得",
+          "pinyin": "de",
+          "hanviet": "Đắc",
+          "meaning_vi": "được (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_19"
+        },
+        {
+          "text": "非常",
+          "pinyin": "fēicháng",
+          "hanviet": "Phi Thường",
+          "meaning_vi": "rất, vô cùng",
+          "hsk": 2,
+          "word_id": "hsk2_27"
+        },
+        {
+          "text": "快",
+          "pinyin": "kuài",
+          "hanviet": "Khoái",
+          "meaning_vi": "nhanh",
+          "hsk": 2,
+          "word_id": "hsk2_59"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk2_54",
+    "hsk3_214",
+    "hsk3_64",
+    "hsk3_43",
+    "hsk3_160",
+    "hsk3_74",
+    "hsk2_125",
+    "hsk2_120",
+    "hsk2_129",
+    "hsk3_204",
+    "hsk3_280",
+    "hsk2_59"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Tối hôm qua nhân vật chính có triệu chứng gì?",
+      "options_vi": [
+        "Đau chân",
+        "Đau đầu và phát sốt",
+        "Đau răng"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 开始头疼，身上发烧 (Bắt đầu đau đầu, người phát sốt)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Mẹ đã làm gì để chăm sóc?",
+      "options_vi": [
+        "Bắt đi học",
+        "Tìm thuốc cảm và rót nước ấm cho uống",
+        "Đi mua đồ chơi"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 找出了感冒药给我吃... 倒了一杯温水 (Tìm thuốc cảm cho uống, rót nước ấm)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Tình trạng sức khỏe sáng hôm nay ra sao?",
+      "options_vi": [
+        "Sốt nặng hơn",
+        "Đã hạ sốt và thấy dễ chịu hơn nhiều",
+        "Phải đi viện cấp cứu"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 已经退烧了，感觉舒服多了 (Đã hạ sốt, cảm giác dễ chịu hơn nhiều)."
+    }
+  ]
+}

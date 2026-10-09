@@ -1,0 +1,729 @@
+{
+  "id": "hsk4_story_006",
+  "level": "HSK4",
+  "title": {
+    "zh": "签订租房合同",
+    "vi": "Ký kết hợp đồng thuê nhà"
+  },
+  "topic": "life_skills",
+  "estimatedMinutes": 5,
+  "description_vi": "Kiểm tra kỹ lưỡng các điều khoản hợp đồng thuê nhà để đảm bảo an toàn và quyền lợi cá nhân.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "为了离公司更近一些，我和朋友打算重新租一套公寓。",
+      "pinyin": "Wèile lí gōngsī gèng jìn yìxiē, wǒ hé péngyou dǎsuàn chóngxīn zū yí tào gōngyù.",
+      "vi": "Để ở gần công ty hơn, tôi và bạn dự định thuê lại một căn hộ chung cư.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "为了",
+          "pinyin": "wèile",
+          "hanviet": "Vi Liễu",
+          "meaning_vi": "để (mục đích)",
+          "hsk": 3,
+          "word_id": "hsk3_230"
+        },
+        {
+          "text": "离",
+          "pinyin": "lí",
+          "hanviet": "Ly",
+          "meaning_vi": "cách (khoảng cách)",
+          "hsk": 2,
+          "word_id": "hsk2_62"
+        },
+        {
+          "text": "公司",
+          "pinyin": "gōngsī",
+          "hanviet": "Công Ty",
+          "meaning_vi": "công ty",
+          "hsk": 2,
+          "word_id": "hsk2_34"
+        },
+        {
+          "text": "更",
+          "pinyin": "gèng",
+          "hanviet": "Canh",
+          "meaning_vi": "càng, hơn",
+          "hsk": 3,
+          "word_id": "hsk3_79"
+        },
+        {
+          "text": "近",
+          "pinyin": "jìn",
+          "hanviet": "Cận",
+          "meaning_vi": "gần",
+          "hsk": 2,
+          "word_id": "hsk2_49"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "些",
+          "pinyin": "xiē",
+          "hanviet": "Ta",
+          "meaning_vi": "vài, một ít",
+          "hsk": 1,
+          "word_id": "hsk1_123"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "朋友",
+          "pinyin": "péngyou",
+          "hanviet": "Bằng Hữu",
+          "meaning_vi": "bạn",
+          "hsk": 1,
+          "word_id": "hsk1_76"
+        },
+        {
+          "text": "打算",
+          "pinyin": "dǎsuàn",
+          "hanviet": "Đả Toán",
+          "meaning_vi": "dự định",
+          "hsk": 3,
+          "word_id": "hsk3_41"
+        },
+        {
+          "text": "重新",
+          "pinyin": "chóngxīn",
+          "hanviet": "Trọng Tân",
+          "meaning_vi": "lại, làm lại từ đầu",
+          "hsk": 4,
+          "word_id": "hsk4_50"
+        },
+        {
+          "text": "租",
+          "pinyin": "zū",
+          "hanviet": "Tô",
+          "meaning_vi": "thuê",
+          "hsk": 4,
+          "word_id": "hsk4_592"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "套",
+          "pinyin": "tào",
+          "hanviet": "Sáo",
+          "meaning_vi": "bộ,套 (lượng từ)",
+          "hsk": 5,
+          "word_id": "hsk5_459"
+        },
+        {
+          "text": "公寓",
+          "pinyin": "gōngyù",
+          "hanviet": "Công Ngụ",
+          "meaning_vi": "căn hộ",
+          "hsk": 5,
+          "word_id": "hsk5_159"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "昨天下午，房东带我们详细参观了房间的客厅和厨房。",
+      "pinyin": "Zuótiān xiàwǔ, fángdōng dài wǒmen xiángxì cānguān le fángjiān de kètīng hé chúfáng.",
+      "vi": "Chiều hôm qua, chủ nhà đưa chúng tôi đi xem kỹ phòng khách và phòng bếp.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "昨天",
+          "pinyin": "zuótiān",
+          "hanviet": "Tạc Thiên",
+          "meaning_vi": "hôm qua",
+          "hsk": 1,
+          "word_id": "hsk1_148"
+        },
+        {
+          "text": "下午",
+          "pinyin": "xiàwǔ",
+          "hanviet": "Hạ Ngọ",
+          "meaning_vi": "buổi chiều",
+          "hsk": 1,
+          "word_id": "hsk1_116"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "房东",
+          "pinyin": "fángdōng",
+          "hanviet": "Phòng Đông",
+          "meaning_vi": "chủ nhà",
+          "hsk": 4,
+          "word_id": "hsk4_114"
+        },
+        {
+          "text": "带",
+          "pinyin": "dài",
+          "hanviet": "Đới",
+          "meaning_vi": "mang theo, đai",
+          "hsk": 3,
+          "word_id": "hsk3_42"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "详细",
+          "pinyin": "xiángxì",
+          "hanviet": "Tường Tế",
+          "meaning_vi": "chi tiết, kỹ lưỡng",
+          "hsk": 4,
+          "word_id": "hsk4_468"
+        },
+        {
+          "text": "参观",
+          "pinyin": "cānguān",
+          "hanviet": "Tham Quan",
+          "meaning_vi": "tham quan",
+          "hsk": 4,
+          "word_id": "hsk4_36"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "房间",
+          "pinyin": "fángjiān",
+          "hanviet": "Phòng Gian",
+          "meaning_vi": "phòng",
+          "hsk": 2,
+          "word_id": "hsk2_26"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "客厅",
+          "pinyin": "kètīng",
+          "hanviet": "Khách Sảnh",
+          "meaning_vi": "phòng khách",
+          "hsk": 4,
+          "word_id": "hsk4_257"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "厨房",
+          "pinyin": "chúfáng",
+          "hanviet": "Trù Phòng",
+          "meaning_vi": "nhà bếp",
+          "hsk": 4,
+          "word_id": "hsk4_56"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "这里的家具齐全，卫生间也很干净，条件完全符合我们的要求。",
+      "pinyin": "Zhèlǐ de jiājù qíquán, wèishēngjiān yě hěn gānjìng, tiáojiàn wánquán fúhé wǒmen de yāoqiú.",
+      "vi": "Nội thất ở đây đầy đủ, nhà vệ sinh sạch sẽ, điều kiện hoàn toàn khớp yêu cầu.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "里",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "bên trong",
+          "hsk": 1,
+          "word_id": "hsk1_57"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "家具",
+          "pinyin": "jiājù",
+          "hanviet": "Gia Cụ",
+          "meaning_vi": "đồ nội thất",
+          "hsk": 4,
+          "word_id": "hsk4_198"
+        },
+        {
+          "text": "齐全",
+          "pinyin": "qíquán",
+          "hanviet": "Tề Toàn",
+          "meaning_vi": "đầy đủ, đủ bộ",
+          "hsk": 6,
+          "word_id": "hsk6_1648"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "卫生间",
+          "pinyin": "wèishēngjiān",
+          "hanviet": "Vệ Sinh Gian",
+          "meaning_vi": "nhà vệ sinh",
+          "hsk": 4,
+          "word_id": "hsk4_452"
+        },
+        {
+          "text": "也",
+          "pinyin": "yě",
+          "hanviet": "Dã",
+          "meaning_vi": "cũng",
+          "hsk": 2,
+          "word_id": "hsk2_127"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "干净",
+          "pinyin": "gānjìng",
+          "hanviet": "Can Tịnh",
+          "meaning_vi": "sạch sẽ",
+          "hsk": 3,
+          "word_id": "hsk3_72"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "条件",
+          "pinyin": "tiáojiàn",
+          "hanviet": "Điều Kiện",
+          "meaning_vi": "điều kiện",
+          "hsk": 4,
+          "word_id": "hsk4_435"
+        },
+        {
+          "text": "完全",
+          "pinyin": "wánquán",
+          "hanviet": "Hoàn Toàn",
+          "meaning_vi": "hoàn toàn",
+          "hsk": 4,
+          "word_id": "hsk4_446"
+        },
+        {
+          "text": "符合",
+          "pinyin": "fúhé",
+          "hanviet": "Phù Hợp",
+          "meaning_vi": "phù hợp, đúng với",
+          "hsk": 4,
+          "word_id": "hsk4_121"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "要求",
+          "pinyin": "yāoqiú",
+          "hanviet": "Yêu Cầu",
+          "meaning_vi": "yêu cầu",
+          "hsk": 3,
+          "word_id": "hsk3_252"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "签字之前，我们仔细阅读了合同上的每一个关键条款。",
+      "pinyin": "Qiānzì zhīqián, wǒmen zǐxì yuèdú le hétong shang de měi yí gè guānjiàn tiáokuǎn.",
+      "vi": "Trước khi ký tên, chúng tôi đọc kỹ từng điều khoản then chốt trong hợp đồng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "签",
+          "pinyin": "qiān",
+          "hanviet": "Thiêm",
+          "meaning_vi": "ký (tên)",
+          "hsk": 5,
+          "word_id": "hsk5_362"
+        },
+        {
+          "text": "字",
+          "pinyin": "zì",
+          "hanviet": "Tự",
+          "meaning_vi": "chữ",
+          "hsk": 1,
+          "word_id": "hsk1_147"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "前",
+          "unknown": true
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "仔细",
+          "pinyin": "zǐxì",
+          "hanviet": "Tể Tế",
+          "meaning_vi": "cẩn thận, kỹ lưỡng",
+          "hsk": 4,
+          "word_id": "hsk4_588"
+        },
+        {
+          "text": "阅读",
+          "pinyin": "yuèdú",
+          "hanviet": "Duyệt Độc",
+          "meaning_vi": "đọc, đọc hiểu",
+          "hsk": 4,
+          "word_id": "hsk4_544"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "合同",
+          "pinyin": "hétong",
+          "hanviet": "Hợp Đồng",
+          "meaning_vi": "hợp đồng",
+          "hsk": 5,
+          "word_id": "hsk5_189"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "每",
+          "pinyin": "měi",
+          "hanviet": "Mỗi",
+          "meaning_vi": "mỗi",
+          "hsk": 2,
+          "word_id": "hsk2_70"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "个",
+          "pinyin": "gè",
+          "hanviet": "Cá",
+          "meaning_vi": "cái (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_32"
+        },
+        {
+          "text": "关键",
+          "pinyin": "guānjiàn",
+          "hanviet": "Quan Kiện",
+          "meaning_vi": "mấu chốt, then chốt",
+          "hsk": 4,
+          "word_id": "hsk4_152"
+        },
+        {
+          "text": "条款",
+          "pinyin": "tiáokuǎn",
+          "hanviet": "Điều Khoản",
+          "meaning_vi": "điều khoản",
+          "hsk": 6,
+          "word_id": "hsk6_2028"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "双方同意后顺利付款，下周就可以正式搬进来了。",
+      "pinyin": "Shuāngfāng tóngyì hòu shùnlì fùkuǎn, xià zhōu jiù kěyǐ zhèngshì bān jìnlái le.",
+      "vi": "Hai bên thống nhất sau đó thanh toán thuận lợi, tuần sau có thể chính thức dọn vào.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "双方",
+          "pinyin": "shuāngfāng",
+          "hanviet": "Song Phương",
+          "meaning_vi": "hai bên, đôi bên",
+          "hsk": 5,
+          "word_id": "hsk5_444"
+        },
+        {
+          "text": "同意",
+          "pinyin": "tóngyì",
+          "hanviet": "Đồng Ý",
+          "meaning_vi": "đồng ý",
+          "hsk": 3,
+          "word_id": "hsk3_220"
+        },
+        {
+          "text": "后",
+          "unknown": true
+        },
+        {
+          "text": "顺利",
+          "pinyin": "shùnlì",
+          "hanviet": "Thuận Lợi",
+          "meaning_vi": "thuận lợi",
+          "hsk": 4,
+          "word_id": "hsk4_406"
+        },
+        {
+          "text": "付款",
+          "pinyin": "fùkuǎn",
+          "hanviet": "Phó Khoản",
+          "meaning_vi": "trả tiền",
+          "hsk": 4,
+          "word_id": "hsk4_123"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "下",
+          "pinyin": "xià",
+          "hanviet": "Hạ",
+          "meaning_vi": "dưới",
+          "hsk": 1,
+          "word_id": "hsk1_115"
+        },
+        {
+          "text": "周",
+          "unknown": true
+        },
+        {
+          "text": "就",
+          "pinyin": "jiù",
+          "hanviet": "Tựu",
+          "meaning_vi": "là, ngay (trợ từ nhấn mạnh)",
+          "hsk": 2,
+          "word_id": "hsk2_51"
+        },
+        {
+          "text": "可以",
+          "pinyin": "kěyǐ",
+          "hanviet": "Khả Dĩ",
+          "meaning_vi": "có thể, được",
+          "hsk": 2,
+          "word_id": "hsk2_57"
+        },
+        {
+          "text": "正式",
+          "pinyin": "zhèngshì",
+          "hanviet": "Chính Thức",
+          "meaning_vi": "chính thức",
+          "hsk": 4,
+          "word_id": "hsk4_561"
+        },
+        {
+          "text": "搬",
+          "pinyin": "bān",
+          "hanviet": "Ban",
+          "meaning_vi": "dọn, di chuyển",
+          "hsk": 3,
+          "word_id": "hsk3_8"
+        },
+        {
+          "text": "进",
+          "pinyin": "jìn",
+          "hanviet": "Tiến",
+          "meaning_vi": "vào",
+          "hsk": 2,
+          "word_id": "hsk2_50"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk4_50",
+    "hsk4_592",
+    "hsk4_114",
+    "hsk4_468",
+    "hsk4_36",
+    "hsk4_257",
+    "hsk4_56",
+    "hsk4_198",
+    "hsk4_452",
+    "hsk4_446",
+    "hsk4_121",
+    "hsk4_588",
+    "hsk4_544",
+    "hsk4_152",
+    "hsk4_123",
+    "hsk4_561"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Lý do hai bạn muốn thuê nhà mới là gì?",
+      "options_vi": [
+        "Để ở gần công ty hơn",
+        "Để mở cửa hàng",
+        "Để nuôi thú cưng"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu đầu có viết: 为了离公司更近一些 (Để ở gần công ty hơn)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Họ đánh giá căn hộ thế nào sau khi đi xem phòng?",
+      "options_vi": [
+        "Rất bẩn và thiếu thốn",
+        "Đầy đủ nội thất, sạch sẽ và phù hợp yêu cầu",
+        "Quá đắt đỏ"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 家具齐全，卫生间也很干净，条件完全符合要求 (Đồ đạc đầy đủ, vệ sinh sạch sẽ, đáp ứng yêu cầu)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Họ đã làm gì trước khi đặt bút ký hợp đồng?",
+      "options_vi": [
+        "Đi ngủ",
+        "Đọc kỹ từng điều khoản then chốt",
+        "Không đọc gì cả"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 仔细阅读了合同上的每一个关键条款 (Đọc kỹ từng điều khoản then chốt trên hợp đồng)."
+    }
+  ]
+}

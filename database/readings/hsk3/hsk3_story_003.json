@@ -1,0 +1,557 @@
+{
+  "id": "hsk3_story_003",
+  "level": "HSK3",
+  "title": {
+    "zh": "在图书馆借书",
+    "vi": "Mượn sách ở thư viện"
+  },
+  "topic": "study_learning",
+  "estimatedMinutes": 4,
+  "description_vi": "Tìm kiếm tài liệu và sách lịch sử Trung Quốc để nâng cao trình độ tiếng Hán.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "大学里的图书馆又大又安静。",
+      "pinyin": "Dàxué lǐ de túshūguǎn yòu dà yòu ānjìng.",
+      "vi": "Thư viện trong trường đại học vừa to lớn vừa yên tĩnh.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "学",
+          "unknown": true
+        },
+        {
+          "text": "里",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "bên trong",
+          "hsk": 1,
+          "word_id": "hsk1_57"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "图书馆",
+          "pinyin": "túshūguǎn",
+          "hanviet": "Đồ Thư Quán",
+          "meaning_vi": "thư viện",
+          "hsk": 3,
+          "word_id": "hsk3_223"
+        },
+        {
+          "text": "又",
+          "pinyin": "yòu",
+          "hanviet": "Hựu",
+          "meaning_vi": "lại (lần nữa)",
+          "hsk": 3,
+          "word_id": "hsk3_270"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "又",
+          "pinyin": "yòu",
+          "hanviet": "Hựu",
+          "meaning_vi": "lại (lần nữa)",
+          "hsk": 3,
+          "word_id": "hsk3_270"
+        },
+        {
+          "text": "安静",
+          "pinyin": "ānjìng",
+          "hanviet": "An Tĩnh",
+          "meaning_vi": "yên tĩnh",
+          "hsk": 3,
+          "word_id": "hsk3_5"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "为了提高汉语水平，我常常来这里看书。",
+      "pinyin": "Wèile tígāo hànyǔ shuǐpíng, wǒ chángcháng lái zhèlǐ kàn shū.",
+      "vi": "Để nâng cao trình độ tiếng Hán, tôi thường đến đây đọc sách.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "为了",
+          "pinyin": "wèile",
+          "hanviet": "Vi Liễu",
+          "meaning_vi": "để (mục đích)",
+          "hsk": 3,
+          "word_id": "hsk3_230"
+        },
+        {
+          "text": "提高",
+          "pinyin": "tígāo",
+          "hanviet": "Đề Cao",
+          "meaning_vi": "nâng cao",
+          "hsk": 3,
+          "word_id": "hsk3_215"
+        },
+        {
+          "text": "汉语",
+          "pinyin": "hànyǔ",
+          "hanviet": "Hán Ngữ",
+          "meaning_vi": "tiếng Hán, tiếng Trung",
+          "hsk": 1,
+          "word_id": "hsk1_35"
+        },
+        {
+          "text": "水平",
+          "pinyin": "shuǐpíng",
+          "hanviet": "Thuỷ Bình",
+          "meaning_vi": "trình độ",
+          "hsk": 3,
+          "word_id": "hsk3_210"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "常",
+          "unknown": true
+        },
+        {
+          "text": "常",
+          "unknown": true
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "里",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "bên trong",
+          "hsk": 1,
+          "word_id": "hsk1_57"
+        },
+        {
+          "text": "看",
+          "pinyin": "kàn",
+          "hanviet": "Khán",
+          "meaning_vi": "nhìn, xem",
+          "hsk": 1,
+          "word_id": "hsk1_50"
+        },
+        {
+          "text": "书",
+          "pinyin": "shū",
+          "hanviet": "Thư",
+          "meaning_vi": "sách",
+          "hsk": 1,
+          "word_id": "hsk1_97"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "今天我借了两本关于中国历史的书。",
+      "pinyin": "Jīntiān wǒ jiè le liǎng běn guānyú zhōngguó lìshǐ de shū.",
+      "vi": "Hôm nay tôi mượn hai cuốn sách viết về lịch sử Trung Quốc.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "今天",
+          "pinyin": "jīntiān",
+          "hanviet": "Kim Thiên",
+          "meaning_vi": "hôm nay",
+          "hsk": 1,
+          "word_id": "hsk1_47"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "借",
+          "pinyin": "jiè",
+          "hanviet": "Tá",
+          "meaning_vi": "cho mượn, mượn",
+          "hsk": 3,
+          "word_id": "hsk3_128"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "两",
+          "pinyin": "liǎng",
+          "hanviet": "Lưỡng",
+          "meaning_vi": "hai (số lượng)",
+          "hsk": 2,
+          "word_id": "hsk2_63"
+        },
+        {
+          "text": "本",
+          "pinyin": "běn",
+          "hanviet": "Bản",
+          "meaning_vi": "cuốn (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_6"
+        },
+        {
+          "text": "关于",
+          "pinyin": "guānyú",
+          "hanviet": "Quan Vu",
+          "meaning_vi": "về, liên quan đến",
+          "hsk": 3,
+          "word_id": "hsk3_87"
+        },
+        {
+          "text": "中国",
+          "pinyin": "zhōngguó",
+          "hanviet": "Trung Quốc",
+          "meaning_vi": "Trung Quốc",
+          "hsk": 1,
+          "word_id": "hsk1_143"
+        },
+        {
+          "text": "历史",
+          "pinyin": "lìshǐ",
+          "hanviet": "Lịch Sử",
+          "meaning_vi": "lịch sử",
+          "hsk": 3,
+          "word_id": "hsk3_149"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "书",
+          "pinyin": "shū",
+          "hanviet": "Thư",
+          "meaning_vi": "sách",
+          "hsk": 1,
+          "word_id": "hsk1_97"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "图书馆阿姨告诉我：一个月之内必须还书。",
+      "pinyin": "Túshūguǎn āyí gàosu wǒ: Yí gè yuè zhī nèi bìxū huán shū.",
+      "vi": "Cô thủ thư dặn tôi: Trong vòng một tháng phải trả sách.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "图书馆",
+          "pinyin": "túshūguǎn",
+          "hanviet": "Đồ Thư Quán",
+          "meaning_vi": "thư viện",
+          "hsk": 3,
+          "word_id": "hsk3_223"
+        },
+        {
+          "text": "阿姨",
+          "pinyin": "āyí",
+          "hanviet": "A Di",
+          "meaning_vi": "cô, dì (xưng hô)",
+          "hsk": 3,
+          "word_id": "hsk3_1"
+        },
+        {
+          "text": "告诉",
+          "pinyin": "gàosu",
+          "hanviet": "Cáo Tố",
+          "meaning_vi": "nói cho biết",
+          "hsk": 2,
+          "word_id": "hsk2_30"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "："
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "个",
+          "pinyin": "gè",
+          "hanviet": "Cá",
+          "meaning_vi": "cái (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_32"
+        },
+        {
+          "text": "月",
+          "pinyin": "yuè",
+          "hanviet": "Nguyệt",
+          "meaning_vi": "tháng",
+          "hsk": 1,
+          "word_id": "hsk1_137"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "内",
+          "pinyin": "nèi",
+          "hanviet": "Nội",
+          "meaning_vi": "trong, nội",
+          "hsk": 4,
+          "word_id": "hsk4_314"
+        },
+        {
+          "text": "必须",
+          "pinyin": "bìxū",
+          "hanviet": "Tất Tu",
+          "meaning_vi": "phải, bắt buộc",
+          "hsk": 3,
+          "word_id": "hsk3_21"
+        },
+        {
+          "text": "还",
+          "pinyin": "hái",
+          "hanviet": "Hoàn",
+          "meaning_vi": "vẫn còn",
+          "hsk": 2,
+          "word_id": "hsk2_38"
+        },
+        {
+          "text": "书",
+          "pinyin": "shū",
+          "hanviet": "Thư",
+          "meaning_vi": "sách",
+          "hsk": 1,
+          "word_id": "hsk1_97"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "认真阅读能让我们学到很多新知识。",
+      "pinyin": "Rènzhēn yuèdú néng ràng wǒmen xué dào hěn duō xīn zhīshi.",
+      "vi": "Đọc sách chăm chỉ giúp chúng ta học thêm nhiều kiến thức mới.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "认真",
+          "pinyin": "rènzhēn",
+          "hanviet": "Nhận Chân",
+          "meaning_vi": "nghiêm túc, chăm chỉ",
+          "hsk": 3,
+          "word_id": "hsk3_194"
+        },
+        {
+          "text": "阅读",
+          "pinyin": "yuèdú",
+          "hanviet": "Duyệt Độc",
+          "meaning_vi": "đọc, đọc hiểu",
+          "hsk": 4,
+          "word_id": "hsk4_544"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "让",
+          "pinyin": "ràng",
+          "hanviet": "Nhượng",
+          "meaning_vi": "để cho, khiến",
+          "hsk": 2,
+          "word_id": "hsk2_88"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "学",
+          "unknown": true
+        },
+        {
+          "text": "到",
+          "pinyin": "dào",
+          "hanviet": "Đáo",
+          "meaning_vi": "đến",
+          "hsk": 2,
+          "word_id": "hsk2_18"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "多",
+          "pinyin": "duō",
+          "hanviet": "Đa",
+          "meaning_vi": "nhiều",
+          "hsk": 1,
+          "word_id": "hsk1_24"
+        },
+        {
+          "text": "新",
+          "pinyin": "xīn",
+          "hanviet": "Tân",
+          "meaning_vi": "mới",
+          "hsk": 2,
+          "word_id": "hsk2_118"
+        },
+        {
+          "text": "知识",
+          "pinyin": "zhīshi",
+          "hanviet": "Tri Thức",
+          "meaning_vi": "kiến thức",
+          "hsk": 4,
+          "word_id": "hsk4_565"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk3_223",
+    "hsk3_5",
+    "hsk3_230",
+    "hsk3_215",
+    "hsk3_210",
+    "hsk3_128",
+    "hsk3_87",
+    "hsk3_149",
+    "hsk3_1",
+    "hsk3_21",
+    "hsk2_38",
+    "hsk3_194"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Mục đích nhân vật chính đến thư viện đọc sách là gì?",
+      "options_vi": [
+        "Để ngủ trưa",
+        "Để nâng cao trình độ tiếng Hán",
+        "Để tìm bạn chơi"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 为了提高汉语水平 (Để nâng cao trình độ tiếng Hán)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Hôm nay nhân vật chính mượn sách về chủ đề gì?",
+      "options_vi": [
+        "Toán học",
+        "Nấu ăn",
+        "Lịch sử Trung Quốc"
+      ],
+      "answer": 2,
+      "explanation_vi": "Trong bài có câu: 关于中国历史的书 (Sách về lịch sử Trung Quốc)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Thời hạn mượn sách là bao lâu?",
+      "options_vi": [
+        "Một tuần",
+        "Một tháng",
+        "Một năm"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 一个月之内必须还书 (Trong vòng một tháng phải trả sách)."
+    }
+  ]
+}

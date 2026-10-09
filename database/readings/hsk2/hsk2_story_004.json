@@ -1,0 +1,486 @@
+{
+  "id": "hsk2_story_004",
+  "level": "HSK2",
+  "title": {
+    "zh": "可爱的小狗",
+    "vi": "Chú chó nhỏ đáng yêu"
+  },
+  "topic": "pets_nature",
+  "estimatedMinutes": 3,
+  "description_vi": "Chú chó nhỏ lông trắng chạy nhảy vui đùa trong sân nhà.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "我家有一只白色的小狗。",
+      "pinyin": "Wǒ jiā yǒu yì zhī báisè de xiǎogǒu.",
+      "vi": "Nhà tôi có một chú chó nhỏ màu trắng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "只",
+          "unknown": true
+        },
+        {
+          "text": "白",
+          "pinyin": "bái",
+          "hanviet": "Bạch",
+          "meaning_vi": "trắng",
+          "hsk": 2,
+          "word_id": "hsk2_2"
+        },
+        {
+          "text": "色",
+          "unknown": true
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "小",
+          "pinyin": "xiǎo",
+          "hanviet": "Tiểu",
+          "meaning_vi": "nhỏ",
+          "hsk": 1,
+          "word_id": "hsk1_121"
+        },
+        {
+          "text": "狗",
+          "pinyin": "gǒu",
+          "hanviet": "Cẩu",
+          "meaning_vi": "con chó",
+          "hsk": 1,
+          "word_id": "hsk1_34"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "它的眼睛很大，黑黑的，真漂亮。",
+      "pinyin": "Tā de yǎnjing hěn dà, hēihēi de, zhēn piàoliang.",
+      "vi": "Mắt của nó rất to, đen láy, thật là đẹp.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "它",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "nó (vật, con vật)",
+          "hsk": 2,
+          "word_id": "hsk2_101"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "眼睛",
+          "pinyin": "yǎnjing",
+          "hanviet": "Nhãn Tình",
+          "meaning_vi": "mắt",
+          "hsk": 2,
+          "word_id": "hsk2_123"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "黑",
+          "pinyin": "hēi",
+          "hanviet": "Hắc",
+          "meaning_vi": "đen",
+          "hsk": 2,
+          "word_id": "hsk2_40"
+        },
+        {
+          "text": "黑",
+          "pinyin": "hēi",
+          "hanviet": "Hắc",
+          "meaning_vi": "đen",
+          "hsk": 2,
+          "word_id": "hsk2_40"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "真",
+          "pinyin": "zhēn",
+          "hanviet": "Chân",
+          "meaning_vi": "thật, thực sự",
+          "hsk": 2,
+          "word_id": "hsk2_144"
+        },
+        {
+          "text": "漂亮",
+          "pinyin": "piàoliang",
+          "hanviet": "Phiêu Lượng",
+          "meaning_vi": "đẹp",
+          "hsk": 1,
+          "word_id": "hsk1_77"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "今天天气很晴，小狗在外面玩。",
+      "pinyin": "Jīntiān tiānqì hěn qíng, xiǎogǒu zài wàimiàn wán.",
+      "vi": "Hôm nay trời nắng đẹp, chú chó chơi ở bên ngoài.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "今天",
+          "pinyin": "jīntiān",
+          "hanviet": "Kim Thiên",
+          "meaning_vi": "hôm nay",
+          "hsk": 1,
+          "word_id": "hsk1_47"
+        },
+        {
+          "text": "天气",
+          "pinyin": "tiānqì",
+          "hanviet": "Thiên Khí",
+          "meaning_vi": "thời tiết",
+          "hsk": 1,
+          "word_id": "hsk1_107"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "晴",
+          "pinyin": "qíng",
+          "hanviet": "Tình",
+          "meaning_vi": "trời quang, nắng đẹp",
+          "hsk": 2,
+          "word_id": "hsk2_86"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "小",
+          "pinyin": "xiǎo",
+          "hanviet": "Tiểu",
+          "meaning_vi": "nhỏ",
+          "hsk": 1,
+          "word_id": "hsk1_121"
+        },
+        {
+          "text": "狗",
+          "pinyin": "gǒu",
+          "hanviet": "Cẩu",
+          "meaning_vi": "con chó",
+          "hsk": 1,
+          "word_id": "hsk1_34"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "外",
+          "pinyin": "wài",
+          "hanviet": "Ngoại",
+          "meaning_vi": "ngoài",
+          "hsk": 2,
+          "word_id": "hsk2_105"
+        },
+        {
+          "text": "面",
+          "unknown": true
+        },
+        {
+          "text": "玩",
+          "pinyin": "wán",
+          "hanviet": "Ngoạn",
+          "meaning_vi": "chơi",
+          "hsk": 2,
+          "word_id": "hsk2_107"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "它跑得真快，喜欢跟我一起跑。",
+      "pinyin": "Tā pǎo de zhēn kuài, xǐhuan gēn wǒ yìqǐ pǎo.",
+      "vi": "Nó chạy thật là nhanh, thích chạy cùng với tôi.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "它",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "nó (vật, con vật)",
+          "hsk": 2,
+          "word_id": "hsk2_101"
+        },
+        {
+          "text": "跑",
+          "unknown": true
+        },
+        {
+          "text": "得",
+          "pinyin": "de",
+          "hanviet": "Đắc",
+          "meaning_vi": "được (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_19"
+        },
+        {
+          "text": "真",
+          "pinyin": "zhēn",
+          "hanviet": "Chân",
+          "meaning_vi": "thật, thực sự",
+          "hsk": 2,
+          "word_id": "hsk2_144"
+        },
+        {
+          "text": "快",
+          "pinyin": "kuài",
+          "hanviet": "Khoái",
+          "meaning_vi": "nhanh",
+          "hsk": 2,
+          "word_id": "hsk2_59"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "喜欢",
+          "pinyin": "xǐhuan",
+          "hanviet": "Hỷ Hoan",
+          "meaning_vi": "thích",
+          "hsk": 1,
+          "word_id": "hsk1_114"
+        },
+        {
+          "text": "跟",
+          "pinyin": "gēn",
+          "hanviet": "Cân",
+          "meaning_vi": "cùng với, theo",
+          "hsk": 3,
+          "word_id": "hsk3_77"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "一起",
+          "pinyin": "yīqǐ",
+          "hanviet": "Nhất Khởi",
+          "meaning_vi": "cùng nhau",
+          "hsk": 2,
+          "word_id": "hsk2_130"
+        },
+        {
+          "text": "跑",
+          "unknown": true
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "我们全家都很喜欢它。",
+      "pinyin": "Wǒmen quán jiā dōu hěn xǐhuan tā.",
+      "vi": "Cả nhà chúng tôi đều rất yêu quý nó.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "全",
+          "unknown": true
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "都",
+          "pinyin": "dōu",
+          "hanviet": "Đô",
+          "meaning_vi": "đều",
+          "hsk": 1,
+          "word_id": "hsk1_21"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "喜欢",
+          "pinyin": "xǐhuan",
+          "hanviet": "Hỷ Hoan",
+          "meaning_vi": "thích",
+          "hsk": 1,
+          "word_id": "hsk1_114"
+        },
+        {
+          "text": "它",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "nó (vật, con vật)",
+          "hsk": 2,
+          "word_id": "hsk2_101"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk2_2",
+    "hsk2_101",
+    "hsk2_123",
+    "hsk2_144",
+    "hsk2_86",
+    "hsk2_107",
+    "hsk2_59"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Chú chó nhỏ có bộ lông màu gì?",
+      "options_vi": [
+        "Màu đen",
+        "Màu trắng",
+        "Màu vàng"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 白色的小狗 (Chú chó nhỏ màu trắng)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Đôi mắt của chú chó trông như thế nào?",
+      "options_vi": [
+        "Rất nhỏ",
+        "Rất to và đen, rất đẹp",
+        "Màu xanh"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 它的眼睛很大，黑黑的，真漂亮 (Mắt của nó rất to, đen láy, thật đẹp)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Chú chó thích làm gì cùng nhân vật chính?",
+      "options_vi": [
+        "Ngủ",
+        "Chạy cùng nhau",
+        "Xem tivi"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 喜欢跟我一起跑 (Thích chạy cùng với tôi)."
+    }
+  ]
+}

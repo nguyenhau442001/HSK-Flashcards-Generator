@@ -1,0 +1,724 @@
+{
+  "id": "hsk4_story_007",
+  "level": "HSK4",
+  "title": {
+    "zh": "朋友间的理解与包容",
+    "vi": "Sự thấu hiểu và bao dung giữa bạn bè"
+  },
+  "topic": "interpersonal_relation",
+  "estimatedMinutes": 5,
+  "description_vi": "Cách giải quyết hiểu lầm chân thành giúp tình bạn càng thêm gắn bó và bền chặt.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "上个星期，我和最好的朋友之间发生了一点儿误会。",
+      "pinyin": "Shàng gè xīngqī, wǒ hé zuì hǎo de péngyou zhījiān fāshēng le yìdiǎnr wùhuì.",
+      "vi": "Tuần trước, giữa tôi và người bạn thân nhất đã nảy sinh một chút hiểu lầm.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "个",
+          "pinyin": "gè",
+          "hanviet": "Cá",
+          "meaning_vi": "cái (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_32"
+        },
+        {
+          "text": "星期",
+          "pinyin": "xīngqī",
+          "hanviet": "Tinh Kỳ",
+          "meaning_vi": "tuần, thứ (trong tuần)",
+          "hsk": 1,
+          "word_id": "hsk1_126"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "最好",
+          "pinyin": "zuìhǎo",
+          "hanviet": "Tối Hảo",
+          "meaning_vi": "tốt nhất",
+          "hsk": 4,
+          "word_id": "hsk4_593"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "朋友",
+          "pinyin": "péngyou",
+          "hanviet": "Bằng Hữu",
+          "meaning_vi": "bạn",
+          "hsk": 1,
+          "word_id": "hsk1_76"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "间",
+          "unknown": true
+        },
+        {
+          "text": "发生",
+          "pinyin": "fāshēng",
+          "hanviet": "Phát Sinh",
+          "meaning_vi": "phát sinh, xảy ra",
+          "hsk": 4,
+          "word_id": "hsk4_105"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "一点儿",
+          "pinyin": "yìdiǎnr",
+          "hanviet": "Nhất Điểm Nhân",
+          "meaning_vi": "một chút",
+          "hsk": 1,
+          "word_id": "hsk1_131"
+        },
+        {
+          "text": "误会",
+          "pinyin": "wùhuì",
+          "hanviet": "Ngộ Hội",
+          "meaning_vi": "hiểu lầm",
+          "hsk": 4,
+          "word_id": "hsk4_459"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "因为缺少及时的交流沟通，两个人一连几天都不说话。",
+      "pinyin": "Yīnwèi quēshǎo jíshí de jiāoliú gōutōng, liǎng gè rén yìlián jǐ tiān dōu bù shuōhuà.",
+      "vi": "Do thiếu đi sự trao đổi kịp thời, cả hai người mấy ngày liền không nói chuyện.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "因",
+          "unknown": true
+        },
+        {
+          "text": "为",
+          "pinyin": "wèi",
+          "hanviet": "Vi",
+          "meaning_vi": "vì, cho",
+          "hsk": 3,
+          "word_id": "hsk3_229"
+        },
+        {
+          "text": "缺少",
+          "pinyin": "quēshǎo",
+          "hanviet": "Khuyết Thiểu",
+          "meaning_vi": "thiếu",
+          "hsk": 4,
+          "word_id": "hsk4_353"
+        },
+        {
+          "text": "及时",
+          "pinyin": "jíshí",
+          "hanviet": "Cập Thời",
+          "meaning_vi": "kịp thời",
+          "hsk": 4,
+          "word_id": "hsk4_190"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "交流",
+          "pinyin": "jiāoliú",
+          "hanviet": "Giao Lưu",
+          "meaning_vi": "giao lưu, trao đổi",
+          "hsk": 4,
+          "word_id": "hsk4_212"
+        },
+        {
+          "text": "沟通",
+          "pinyin": "gōutōng",
+          "hanviet": "Câu Thông",
+          "meaning_vi": "giao tiếp, trao đổi",
+          "hsk": 5,
+          "word_id": "hsk5_164"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "两",
+          "pinyin": "liǎng",
+          "hanviet": "Lưỡng",
+          "meaning_vi": "hai (số lượng)",
+          "hsk": 2,
+          "word_id": "hsk2_63"
+        },
+        {
+          "text": "个人",
+          "pinyin": "gèrén",
+          "hanviet": "Cá Nhân",
+          "meaning_vi": "cá nhân",
+          "hsk": 5,
+          "word_id": "hsk5_154"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "连",
+          "pinyin": "lián",
+          "hanviet": "Liên",
+          "meaning_vi": "liên tiếp, ngay cả",
+          "hsk": 4,
+          "word_id": "hsk4_286"
+        },
+        {
+          "text": "几",
+          "pinyin": "jǐ",
+          "hanviet": "Kỷ",
+          "meaning_vi": "mấy, bao nhiêu",
+          "hsk": 1,
+          "word_id": "hsk1_44"
+        },
+        {
+          "text": "天",
+          "unknown": true
+        },
+        {
+          "text": "都",
+          "pinyin": "dōu",
+          "hanviet": "Đô",
+          "meaning_vi": "đều",
+          "hsk": 1,
+          "word_id": "hsk1_21"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "说话",
+          "pinyin": "shuōhuà",
+          "hanviet": "Thuyết Thoại",
+          "meaning_vi": "nói chuyện",
+          "hsk": 2,
+          "word_id": "hsk2_98"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "后来我觉得很后悔，主动约他出来面对面谈心。",
+      "pinyin": "Hòulái wǒ juéde hěn hòuhuǐ, zhǔdòng yuē tā chūlái miànduìmiàn tánxīn.",
+      "vi": "Về sau tôi thấy rất hối hận, chủ động hẹn cậu ấy ra mặt đối mặt tâm sự.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "后来",
+          "pinyin": "hòulái",
+          "hanviet": "Hậu Lai",
+          "meaning_vi": "sau đó",
+          "hsk": 3,
+          "word_id": "hsk3_94"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "觉得",
+          "pinyin": "juéde",
+          "hanviet": "Giác Đắc",
+          "meaning_vi": "cảm thấy",
+          "hsk": 2,
+          "word_id": "hsk2_52"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "后悔",
+          "pinyin": "hòuhuǐ",
+          "hanviet": "Hậu Hối",
+          "meaning_vi": "hối hận",
+          "hsk": 4,
+          "word_id": "hsk4_176"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "主动",
+          "pinyin": "zhǔdòng",
+          "hanviet": "Chủ Động",
+          "meaning_vi": "chủ động",
+          "hsk": 5,
+          "word_id": "hsk5_1269"
+        },
+        {
+          "text": "约",
+          "unknown": true
+        },
+        {
+          "text": "他",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "anh ấy, nó",
+          "hsk": 1,
+          "word_id": "hsk1_104"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "面对",
+          "pinyin": "miànduì",
+          "hanviet": "Diện Đối",
+          "meaning_vi": "đối mặt",
+          "hsk": 5,
+          "word_id": "hsk5_314"
+        },
+        {
+          "text": "面",
+          "unknown": true
+        },
+        {
+          "text": "谈",
+          "pinyin": "tán",
+          "hanviet": "Đàm",
+          "meaning_vi": "nói chuyện, bàn",
+          "hsk": 4,
+          "word_id": "hsk4_421"
+        },
+        {
+          "text": "心",
+          "unknown": true
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "我们诚实地把心里的想法讲出来，误会立刻解除了。",
+      "pinyin": "Wǒmen chéngshí de bǎ xīnlǐ de xiǎngfǎ jiǎng chūlái, wùhuì lìkè jiěchú le.",
+      "vi": "Chúng tôi chân thành nói ra suy nghĩ trong lòng, hiểu lầm lập tức được xóa bỏ.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "诚实",
+          "pinyin": "chéngshí",
+          "hanviet": "Thành Thật",
+          "meaning_vi": "trung thực",
+          "hsk": 4,
+          "word_id": "hsk4_47"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "把",
+          "pinyin": "bǎ",
+          "hanviet": "Bả",
+          "meaning_vi": "cái, chiếc (lượng từ); cầm, nắm",
+          "hsk": 3,
+          "word_id": "hsk3_6"
+        },
+        {
+          "text": "心",
+          "unknown": true
+        },
+        {
+          "text": "里",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "bên trong",
+          "hsk": 1,
+          "word_id": "hsk1_57"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "想",
+          "pinyin": "xiǎng",
+          "hanviet": "Tưởng",
+          "meaning_vi": "muốn, nghĩ",
+          "hsk": 1,
+          "word_id": "hsk1_120"
+        },
+        {
+          "text": "法",
+          "unknown": true
+        },
+        {
+          "text": "讲",
+          "pinyin": "jiǎng",
+          "hanviet": "Giảng",
+          "meaning_vi": "nói, giảng giải",
+          "hsk": 3,
+          "word_id": "hsk3_117"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "误会",
+          "pinyin": "wùhuì",
+          "hanviet": "Ngộ Hội",
+          "meaning_vi": "hiểu lầm",
+          "hsk": 4,
+          "word_id": "hsk4_459"
+        },
+        {
+          "text": "立刻",
+          "pinyin": "lìkè",
+          "hanviet": "Lập Khắc",
+          "meaning_vi": "ngay lập tức",
+          "hsk": 5,
+          "word_id": "hsk5_288"
+        },
+        {
+          "text": "解",
+          "unknown": true
+        },
+        {
+          "text": "除了",
+          "pinyin": "chúle",
+          "hanviet": "Trừ Liễu",
+          "meaning_vi": "ngoài ra, trừ",
+          "hsk": 3,
+          "word_id": "hsk3_35"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "真正的友谊需要互相尊重和包容，这让我更加珍惜这段感情。",
+      "pinyin": "Zhēnzhèng de yǒuyì xūyào hùxiāng zūnzhòng hé bāoróng, zhè ràng wǒ gèngjiā zhēnxī zhè duàn gǎnqíng.",
+      "vi": "Tình bạn thực sự cần sự tôn trọng và bao dung lẫn nhau, điều này khiến tôi càng trân quý tình bạn.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "真正",
+          "pinyin": "zhēnzhèng",
+          "hanviet": "Chân Chính",
+          "meaning_vi": "thực sự, chân chính",
+          "hsk": 4,
+          "word_id": "hsk4_556"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "友谊",
+          "pinyin": "yǒuyì",
+          "hanviet": "Hữu Nghị",
+          "meaning_vi": "tình hữu nghị",
+          "hsk": 4,
+          "word_id": "hsk4_532"
+        },
+        {
+          "text": "需要",
+          "pinyin": "xūyào",
+          "hanviet": "Nhu Yêu",
+          "meaning_vi": "cần thiết, cần",
+          "hsk": 3,
+          "word_id": "hsk3_250"
+        },
+        {
+          "text": "互相",
+          "pinyin": "hùxiāng",
+          "hanviet": "Hỗ Tương",
+          "meaning_vi": "lẫn nhau, qua lại",
+          "hsk": 4,
+          "word_id": "hsk4_179"
+        },
+        {
+          "text": "尊重",
+          "pinyin": "zūnzhòng",
+          "hanviet": "Tôn Trọng",
+          "meaning_vi": "tôn trọng",
+          "hsk": 4,
+          "word_id": "hsk4_594"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "包",
+          "pinyin": "bāo",
+          "hanviet": "Bao",
+          "meaning_vi": "cái túi; bao gồm",
+          "hsk": 3,
+          "word_id": "hsk3_13"
+        },
+        {
+          "text": "容",
+          "unknown": true
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "让",
+          "pinyin": "ràng",
+          "hanviet": "Nhượng",
+          "meaning_vi": "để cho, khiến",
+          "hsk": 2,
+          "word_id": "hsk2_88"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "更",
+          "pinyin": "gèng",
+          "hanviet": "Canh",
+          "meaning_vi": "càng, hơn",
+          "hsk": 3,
+          "word_id": "hsk3_79"
+        },
+        {
+          "text": "加",
+          "unknown": true
+        },
+        {
+          "text": "珍惜",
+          "pinyin": "zhēnxī",
+          "hanviet": "Trân Tích",
+          "meaning_vi": "trân trọng, quý trọng",
+          "hsk": 5,
+          "word_id": "hsk5_591"
+        },
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "段",
+          "pinyin": "duàn",
+          "hanviet": "Đoạn",
+          "meaning_vi": "đoạn (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_57"
+        },
+        {
+          "text": "感情",
+          "pinyin": "gǎnqíng",
+          "hanviet": "Cảm Tình",
+          "meaning_vi": "cảm tình, tình cảm",
+          "hsk": 4,
+          "word_id": "hsk4_134"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk4_105",
+    "hsk4_459",
+    "hsk4_353",
+    "hsk4_190",
+    "hsk4_212",
+    "hsk3_94",
+    "hsk4_176",
+    "hsk5_1269",
+    "hsk4_47",
+    "hsk4_556",
+    "hsk4_532",
+    "hsk4_179",
+    "hsk4_594",
+    "hsk4_134"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Nguyên nhân khiến hai người không nói chuyện mấy ngày là gì?",
+      "options_vi": [
+        "Bị mất đồ",
+        "Thiếu sự trao đổi kịp thời dẫn đến hiểu lầm",
+        "Không thích nhau nữa"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 因为缺少及时的交流沟通 (Vì thiếu sự giao lưu trao đổi kịp thời)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Ai là người chủ động hẹn gặp để giải quyết khúc mắc?",
+      "options_vi": [
+        "Người thứ ba",
+        "Nhân vật chính cảm thấy hối hận và chủ động hẹn gặp",
+        "Không ai cả"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 我觉得很后悔，主动约他出来面对面谈心 (Tôi thấy hối hận, chủ động hẹn cậu ấy ra nói chuyện)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Theo câu chuyện, tình bạn chân chính cần điều gì nhất?",
+      "options_vi": [
+        "Nhiều tiền bạc",
+        "Sự tôn trọng và bao dung lẫn nhau",
+        "Sự im lặng"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 真正的友谊需要互相尊重和包容 (Tình bạn thực sự cần tôn trọng và bao dung lẫn nhau)."
+    }
+  ]
+}
