@@ -31,6 +31,9 @@ const SpaRouter = (function() {
       return `${base}?level=${encodeURIComponent(state.level)}`;
     }
     if (state.view === 'tab' && state.tab && state.tab !== 'vocab') {
+      if (state.tab === 'gradedReading' && state.story) {
+        return `${base}?tab=gradedReading&story=${encodeURIComponent(state.story)}`;
+      }
       return `${base}?tab=${encodeURIComponent(state.tab)}`;
     }
     if (state.view === 'todayReviews') {
@@ -165,6 +168,9 @@ const SpaRouter = (function() {
           if (typeof goBackToPicker === 'function') goBackToPicker();
         }
         setPrimaryTab(state.tab);
+        if (state.tab === 'gradedReading' && state.story && typeof GradedReading !== 'undefined') {
+          GradedReading.openStory(state.story, false);
+        }
       }
     } else if (state.view === 'todayReviews') {
       if (typeof openTodayReviews === 'function') openTodayReviews();

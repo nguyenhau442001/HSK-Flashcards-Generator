@@ -38,6 +38,7 @@ const PRIMARY_TAB_SCREENS = {
   radicals: { tabId: 'primaryTabRadicals', screenId: 'screenRadicalHub' },
   review: { tabId: 'primaryTabReview', screenId: 'screenReviewPicker' },
   reading: { tabId: 'primaryTabReading', screenId: 'screenReadingAnalysis' },
+  gradedReading: { tabId: 'primaryTabGradedReading', screenId: 'screenGradedReading' },
   sentenceGame: { tabId: 'primaryTabSentenceGame', screenId: 'screenSentenceGame' },
   guessWord: { tabId: 'primaryTabGuessWord', screenId: 'screenGuessWord' },
   speedQuiz: { tabId: 'primaryTabSpeedQuiz', screenId: 'screenSpeedQuiz' },
@@ -72,12 +73,16 @@ function setPrimaryTab(tab, options) {
       screenEl.style.display = isActive ? '' : 'none';
     }
   });
-  const isTool = ['radicals', 'sentenceGame', 'guessWord', 'speedQuiz', 'reading'].includes(tab);
+  const isTool = ['radicals', 'sentenceGame', 'guessWord', 'speedQuiz', 'reading', 'gradedReading'].includes(tab);
   const isGame = ['sentenceGame', 'guessWord', 'speedQuiz'].includes(tab);
   document.body.classList.toggle('is-game-view', isGame);
   document.body.classList.toggle('reading-view-active', tab === 'reading');
+  document.body.classList.toggle('graded-reading-active', tab === 'gradedReading');
   if (tab !== 'reading') {
     document.body.classList.remove('reading-zen-active');
+  }
+  if (tab !== 'gradedReading') {
+    document.body.classList.remove('graded-pinyin-hidden', 'graded-translation-hidden');
   }
   const gamesMenu = document.getElementById('primaryGamesMenu');
   if (gamesMenu) {
@@ -90,6 +95,9 @@ function setPrimaryTab(tab, options) {
   if (tab === 'radicals') ensureRadicalDataLoaded();
   if (tab === 'reading') {
     if (typeof startReadingAnalysis === 'function') startReadingAnalysis();
+  }
+  if (tab === 'gradedReading') {
+    if (typeof GradedReading !== 'undefined') GradedReading.init();
   }
   if (tab === 'review') {
     const slider = document.getElementById('reviewRangeSlider');

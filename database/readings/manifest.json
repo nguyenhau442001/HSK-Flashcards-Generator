@@ -1,0 +1,53 @@
+[
+  {
+    "id": "hsk1_story_001",
+    "level": "HSK1",
+    "title": {
+      "zh": "我的一天",
+      "vi": "Một ngày của tôi"
+    },
+    "topic": "daily_life",
+    "topic_vi": "Sinh hoạt thường nhật",
+    "icon": "☀️",
+    "estimatedMinutes": 3,
+    "description_vi": "Một câu chuyện ngắn về lịch sinh hoạt và học tập hằng ngày.",
+    "sentence_count": 7,
+    "spotlight_count": 7,
+    "quiz_count": 3,
+    "file": "database/readings/hsk1/hsk1_story_001.json"
+  },
+  {
+    "id": "hsk1_story_002",
+    "level": "HSK1",
+    "title": {
+      "zh": "我的猫叫小白",
+      "vi": "Con mèo của tôi tên Tiểu Bạch"
+    },
+    "topic": "pets_family",
+    "topic_vi": "Thú cưng & Gia đình",
+    "icon": "🐱",
+    "estimatedMinutes": 3,
+    "description_vi": "Câu chuyện đáng yêu về chú mèo nhỏ trong gia đình.",
+    "sentence_count": 6,
+    "spotlight_count": 8,
+    "quiz_count": 3,
+    "file": "database/readings/hsk1/hsk1_story_002.json"
+  },
+  {
+    "id": "hsk1_story_003",
+    "level": "HSK1",
+    "title": {
+      "zh": "去商店买水果",
+      "vi": "Đi cửa hàng mua hoa quả"
+    },
+    "topic": "shopping",
+    "topic_vi": "Mua sắm & Đời sống",
+    "icon": "🍎",
+    "estimatedMinutes": 3,
+    "description_vi": "Tập giao tiếp hỏi giá và mua hoa quả ở cửa hàng.",
+    "sentence_count": 6,
+    "spotlight_count": 8,
+    "quiz_count": 3,
+    "file": "database/readings/hsk1/hsk1_story_003.json"
+  }
+]

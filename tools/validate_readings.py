@@ -47,7 +47,8 @@ total_tokens = 0
 total_spotlight = 0
 total_quizzes = 0
 
-reading_files = sorted(READINGS_DIR.glob("**/*.json"))
+reading_files = sorted([f for f in READINGS_DIR.glob("**/*.json") if f.name != "manifest.json"])
+manifest_file = READINGS_DIR / "manifest.json"
 if not reading_files:
     print(f"[!] No reading JSON files found under {READINGS_DIR}")
     sys.exit(1)
@@ -153,6 +154,22 @@ for rfile in reading_files:
                 errors.append(f"[{rel_path}][quiz {qidx}] 'options_vi' must be a list with at least 2 options")
             elif not isinstance(ans, int) or ans < 0 or ans >= len(opts):
                 errors.append(f"[{rel_path}][quiz {qidx}] 'answer' index {ans} out of bounds for options (len={len(opts)})")
+
+# 2.8 Manifest check
+if manifest_file.exists():
+    try:
+        with open(manifest_file, "r", encoding="utf-8") as f:
+            manifest_data = json.load(f)
+        if not isinstance(manifest_data, list):
+            errors.append("[manifest.json] Manifest must be a list")
+        else:
+            manifest_ids = {m.get("id") for m in manifest_data}
+            if manifest_ids != all_reading_ids:
+                errors.append(f"[manifest.json] Mismatch between manifest IDs ({manifest_ids}) and story IDs ({all_reading_ids})")
+    except Exception as me:
+        errors.append(f"[manifest.json] Error reading manifest: {me}")
+else:
+    errors.append("[manifest.json] Missing manifest.json file!")
 
 # 3. Output results
 print("\n" + "=" * 60)
