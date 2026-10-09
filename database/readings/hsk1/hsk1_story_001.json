@@ -1,0 +1,503 @@
+{
+  "id": "hsk1_story_001",
+  "level": "HSK1",
+  "title": {
+    "zh": "我的一天",
+    "vi": "Một ngày của tôi"
+  },
+  "topic": "daily_life",
+  "estimatedMinutes": 3,
+  "description_vi": "Một câu chuyện ngắn về lịch sinh hoạt và học tập hằng ngày.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "今天天气很好。",
+      "pinyin": "Jīntiān tiānqì hěn hǎo.",
+      "vi": "Hôm nay thời tiết rất đẹp.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "今天",
+          "pinyin": "jīntiān",
+          "hanviet": "kim thiên",
+          "meaning_vi": "hôm nay",
+          "hsk": 1,
+          "word_id": "hsk1_47"
+        },
+        {
+          "text": "天气",
+          "pinyin": "tiānqì",
+          "hanviet": "thiên khí",
+          "meaning_vi": "thời tiết",
+          "hsk": 1,
+          "word_id": "hsk1_107"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "好",
+          "pinyin": "hǎo",
+          "hanviet": "hảo",
+          "meaning_vi": "tốt, được",
+          "hsk": 1,
+          "word_id": "hsk1_36"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "我上午八点去学校。",
+      "pinyin": "Wǒ shàngwǔ bā diǎn qù xuéxiào.",
+      "vi": "Buổi sáng tám giờ tôi đi đến trường học.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "上午",
+          "pinyin": "shàngwǔ",
+          "hanviet": "thướng ngọ",
+          "meaning_vi": "buổi sáng",
+          "hsk": 1,
+          "word_id": "hsk1_90"
+        },
+        {
+          "text": "八",
+          "pinyin": "bā",
+          "hanviet": "bát",
+          "meaning_vi": "tám",
+          "hsk": 1,
+          "word_id": "hsk1_2"
+        },
+        {
+          "text": "点",
+          "pinyin": "diǎn",
+          "hanviet": "điểm",
+          "meaning_vi": "giờ, điểm",
+          "hsk": 1,
+          "word_id": "hsk1_16"
+        },
+        {
+          "text": "去",
+          "pinyin": "qù",
+          "hanviet": "khứ",
+          "meaning_vi": "đi",
+          "hsk": 1,
+          "word_id": "hsk1_83"
+        },
+        {
+          "text": "学校",
+          "pinyin": "xuéxiào",
+          "hanviet": "học hiệu",
+          "meaning_vi": "trường học",
+          "hsk": 1,
+          "word_id": "hsk1_129"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "我和朋友看书，学习汉语。",
+      "pinyin": "Wǒ hé péngyou kàn shū, xuéxí Hànyǔ.",
+      "vi": "Tôi và bạn bè đọc sách, học tiếng Hán.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "朋友",
+          "pinyin": "péngyou",
+          "hanviet": "bằng hữu",
+          "meaning_vi": "bạn",
+          "hsk": 1,
+          "word_id": "hsk1_76"
+        },
+        {
+          "text": "看",
+          "pinyin": "kàn",
+          "hanviet": "khán",
+          "meaning_vi": "nhìn, xem",
+          "hsk": 1,
+          "word_id": "hsk1_50"
+        },
+        {
+          "text": "书",
+          "pinyin": "shū",
+          "hanviet": "thư",
+          "meaning_vi": "sách",
+          "hsk": 1,
+          "word_id": "hsk1_97"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "学习",
+          "pinyin": "xuéxí",
+          "hanviet": "học tập",
+          "meaning_vi": "học tập",
+          "hsk": 1,
+          "word_id": "hsk1_128"
+        },
+        {
+          "text": "汉语",
+          "pinyin": "hànyǔ",
+          "hanviet": "hán ngữ",
+          "meaning_vi": "tiếng Hán, tiếng Trung",
+          "hsk": 1,
+          "word_id": "hsk1_35"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "中午我们在饭店吃中国菜。",
+      "pinyin": "Zhōngwǔ wǒmen zài fàndiàn chī Zhōngguó cài.",
+      "vi": "Buổi trưa chúng tôi ăn món Trung Quốc ở quán ăn.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "中午",
+          "pinyin": "zhōngwǔ",
+          "hanviet": "trung ngọ",
+          "meaning_vi": "buổi trưa",
+          "hsk": 1,
+          "word_id": "hsk1_144"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "ngã môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "饭店",
+          "pinyin": "fàndiàn",
+          "hanviet": "phạn điếm",
+          "meaning_vi": "nhà hàng, khách sạn",
+          "hsk": 1,
+          "word_id": "hsk1_28"
+        },
+        {
+          "text": "吃",
+          "pinyin": "chī",
+          "hanviet": "cật",
+          "meaning_vi": "ăn",
+          "hsk": 1,
+          "word_id": "hsk1_11"
+        },
+        {
+          "text": "中国",
+          "pinyin": "zhōngguó",
+          "hanviet": "trung quốc",
+          "meaning_vi": "Trung Quốc",
+          "hsk": 1,
+          "word_id": "hsk1_143"
+        },
+        {
+          "text": "菜",
+          "pinyin": "cài",
+          "hanviet": "thái",
+          "meaning_vi": "món ăn, rau",
+          "hsk": 1,
+          "word_id": "hsk1_9"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "下午三点我想回家喝茶。",
+      "pinyin": "Xiàwǔ sān diǎn wǒ xiǎng huí jiā hē chá.",
+      "vi": "Ba giờ chiều tôi muốn về nhà uống trà.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "下午",
+          "pinyin": "xiàwǔ",
+          "hanviet": "hạ ngọ",
+          "meaning_vi": "buổi chiều",
+          "hsk": 1,
+          "word_id": "hsk1_116"
+        },
+        {
+          "text": "三",
+          "pinyin": "sān",
+          "hanviet": "tam",
+          "meaning_vi": "ba",
+          "hsk": 1,
+          "word_id": "hsk1_87"
+        },
+        {
+          "text": "点",
+          "pinyin": "diǎn",
+          "hanviet": "điểm",
+          "meaning_vi": "giờ, điểm",
+          "hsk": 1,
+          "word_id": "hsk1_16"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "想",
+          "pinyin": "xiǎng",
+          "hanviet": "tưởng",
+          "meaning_vi": "muốn, nghĩ",
+          "hsk": 1,
+          "word_id": "hsk1_120"
+        },
+        {
+          "text": "回",
+          "pinyin": "huí",
+          "hanviet": "hồi",
+          "meaning_vi": "trở về",
+          "hsk": 1,
+          "word_id": "hsk1_42"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "喝",
+          "pinyin": "hē",
+          "hanviet": "húp",
+          "meaning_vi": "uống",
+          "hsk": 1,
+          "word_id": "hsk1_38"
+        },
+        {
+          "text": "茶",
+          "pinyin": "chá",
+          "hanviet": "trà",
+          "meaning_vi": "trà",
+          "hsk": 1,
+          "word_id": "hsk1_10"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "zh": "爸爸妈妈都在家看电视。",
+      "pinyin": "Bàba māma dōu zài jiā kàn diànshì.",
+      "vi": "Bố mẹ đều ở nhà xem tivi.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "爸爸",
+          "pinyin": "bàba",
+          "hanviet": "ba ba",
+          "meaning_vi": "ba, bố",
+          "hsk": 1,
+          "word_id": "hsk1_3"
+        },
+        {
+          "text": "妈妈",
+          "pinyin": "māma",
+          "hanviet": "ma ma",
+          "meaning_vi": "mẹ",
+          "hsk": 1,
+          "word_id": "hsk1_60"
+        },
+        {
+          "text": "都",
+          "pinyin": "dōu",
+          "hanviet": "đô",
+          "meaning_vi": "đều",
+          "hsk": 1,
+          "word_id": "hsk1_21"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "看",
+          "pinyin": "kàn",
+          "hanviet": "khán",
+          "meaning_vi": "nhìn, xem",
+          "hsk": 1,
+          "word_id": "hsk1_50"
+        },
+        {
+          "text": "电视",
+          "pinyin": "diànshì",
+          "hanviet": "điện thị",
+          "meaning_vi": "tivi",
+          "hsk": 1,
+          "word_id": "hsk1_18"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "zh": "今天我很高兴。",
+      "pinyin": "Jīntiān wǒ hěn gāoxìng.",
+      "vi": "Hôm nay tôi rất vui vẻ.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "今天",
+          "pinyin": "jīntiān",
+          "hanviet": "kim thiên",
+          "meaning_vi": "hôm nay",
+          "hsk": 1,
+          "word_id": "hsk1_47"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "高兴",
+          "pinyin": "gāoxìng",
+          "hanviet": "cao hứng",
+          "meaning_vi": "vui, vui mừng",
+          "hsk": 1,
+          "word_id": "hsk1_31"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk1_47",
+    "hsk1_107",
+    "hsk1_129",
+    "hsk1_76",
+    "hsk1_28",
+    "hsk1_18",
+    "hsk1_31"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Nhân vật đi đến trường học vào lúc mấy giờ?",
+      "options_vi": [
+        "7 giờ sáng",
+        "8 giờ sáng",
+        "9 giờ sáng"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu 2 nêu rõ: 我上午八点去学校 (Buổi sáng 8 giờ tôi đi đến trường học)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Buổi trưa nhân vật và bạn bè ăn món gì ở đâu?",
+      "options_vi": [
+        "Ăn món Trung Quốc ở nhà",
+        "Ăn cơm ở trường học",
+        "Ăn món Trung Quốc ở quán ăn"
+      ],
+      "answer": 2,
+      "explanation_vi": "Trong câu 4: 中午我们在饭店吃中国菜 (Buổi trưa chúng tôi ăn món Trung Quốc ở quán ăn)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Bố mẹ đang làm gì ở nhà?",
+      "options_vi": [
+        "Xem tivi",
+        "Đọc sách",
+        "Uống trà"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu 6: 爸爸妈妈都在家看电视 (Bố mẹ đều ở nhà xem tivi)."
+    }
+  ]
+}
