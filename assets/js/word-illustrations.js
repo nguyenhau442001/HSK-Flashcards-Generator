@@ -11547,6 +11547,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/设备.svg",
     "caption": "thiết bị"
   },
+  "设施": {
+    "file": "设施.svg",
+    "src": "images/HSK_2.0/level5/设施.svg",
+    "caption": "cơ sở vật chất, hạ tầng"
+  },
+  "射击": {
+    "file": "射击.svg",
+    "src": "images/HSK_2.0/level5/射击.svg",
+    "caption": "bắn, xạ kích"
+  },
+  "身材": {
+    "file": "身材.svg",
+    "src": "images/HSK_2.0/level5/身材.svg",
+    "caption": "thân hình, vóc dáng"
+  },
+  "神话": {
+    "file": "神话.svg",
+    "src": "images/HSK_2.0/level5/神话.svg",
+    "caption": "thần thoại"
+  },
+  "升": {
+    "file": "升.svg",
+    "src": "images/HSK_2.0/level5/升.svg",
+    "caption": "thăng, lên"
+  },
+  "生产": {
+    "file": "生产.svg",
+    "src": "images/HSK_2.0/level5/生产.svg",
+    "caption": "sản xuất"
+  },
+  "声调": {
+    "file": "声调.svg",
+    "src": "images/HSK_2.0/level5/声调.svg",
+    "caption": "thanh điệu"
+  },
+  "绳子": {
+    "file": "绳子.svg",
+    "src": "images/HSK_2.0/level5/绳子.svg",
+    "caption": "dây, sợi dây"
+  },
+  "省略": {
+    "file": "省略.svg",
+    "src": "images/HSK_2.0/level5/省略.svg",
+    "caption": "tỉnh lược, bỏ qua"
+  },
+  "胜利": {
+    "file": "胜利.svg",
+    "src": "images/HSK_2.0/level5/胜利.svg",
+    "caption": "thắng lợi"
+  },
   "挑战": {
     "file": "挑战.svg",
     "src": "images/HSK_2.0/level5/挑战.svg",

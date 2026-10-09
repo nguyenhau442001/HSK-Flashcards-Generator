@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:43:09.880501",
-  "total_unique_words_with_illustrations": 2253,
-  "total_flat_svg_files": 2253,
+  "generated_at": "2026-10-09T20:45:16.772752",
+  "total_unique_words_with_illustrations": 2263,
+  "total_flat_svg_files": 2263,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1054,
-        "pct": "81.1%"
+        "with_svg": 1064,
+        "pct": "81.8%"
       },
       "level6": {
         "total": 2500,
@@ -58,27 +58,27 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 707,
-        "pct": "44.2%"
+        "with_svg": 712,
+        "pct": "44.5%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 202,
-        "pct": "11.2%"
+        "with_svg": 204,
+        "pct": "11.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 82,
+        "with_svg": 84,
         "pct": "1.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 82,
+        "with_svg": 84,
         "pct": "1.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 82,
+        "with_svg": 84,
         "pct": "1.5%"
       }
     }
@@ -41524,6 +41524,190 @@
       "src": "images/HSK_2.0/level5/设备.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/设备.svg"
+      ]
+    },
+    "设施": {
+      "hanzi": "设施",
+      "pinyin": "shèshī",
+      "meaning": "cơ sở vật chất, hạ tầng",
+      "example_zh": "学校的<u>设施</u>很完善。",
+      "example_vi": "<u>Cơ sở vật chất</u> của trường rất hoàn thiện.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "设施.svg",
+      "src": "images/HSK_2.0/level5/设施.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/设施.svg"
+      ]
+    },
+    "射击": {
+      "hanzi": "射击",
+      "pinyin": "shèjī",
+      "meaning": "bắn, xạ kích",
+      "example_zh": "他在练习<u>射击</u>。",
+      "example_vi": "Anh ấy đang luyện tập <u>bắn</u> súng.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "射击.svg",
+      "src": "images/HSK_2.0/level5/射击.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/射击.svg"
+      ]
+    },
+    "身材": {
+      "hanzi": "身材",
+      "pinyin": "shēncái",
+      "meaning": "thân hình, vóc dáng",
+      "example_zh": "她<u>身材</u>很好。",
+      "example_vi": "<u>Vóc dáng</u> của cô ấy rất đẹp.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "身材.svg",
+      "src": "images/HSK_2.0/level5/身材.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/身材.svg"
+      ]
+    },
+    "神话": {
+      "hanzi": "神话",
+      "pinyin": "shénhuà",
+      "meaning": "thần thoại",
+      "example_zh": "这是一个古老的<u>神话</u>。",
+      "example_vi": "Đây là một <u>thần thoại</u> cổ xưa.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "神话.svg",
+      "src": "images/HSK_2.0/level5/神话.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/神话.svg"
+      ]
+    },
+    "升": {
+      "hanzi": "升",
+      "pinyin": "shēng",
+      "meaning": "thăng, lên",
+      "example_zh": "气温在上<u>升</u>。",
+      "example_vi": "Nhiệt độ đang tăng <u>lên</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [],
+      "file": "升.svg",
+      "src": "images/HSK_2.0/level5/升.svg",
+      "alt_srcs": []
+    },
+    "生产": {
+      "hanzi": "生产",
+      "pinyin": "shēngchǎn",
+      "meaning": "sản xuất",
+      "example_zh": "这家工厂<u>生产</u>手机。",
+      "example_vi": "Nhà máy này <u>sản xuất</u> điện thoại.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "生产.svg",
+      "src": "images/HSK_2.0/level5/生产.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/生产.svg"
+      ]
+    },
+    "声调": {
+      "hanzi": "声调",
+      "pinyin": "shēngdiào",
+      "meaning": "thanh điệu",
+      "example_zh": "请注意发音的<u>声调</u>。",
+      "example_vi": "Xin hãy chú ý <u>thanh điệu</u> phát âm.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "声调.svg",
+      "src": "images/HSK_2.0/level5/声调.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/声调.svg"
+      ]
+    },
+    "绳子": {
+      "hanzi": "绳子",
+      "pinyin": "shéngzi",
+      "meaning": "dây, sợi dây",
+      "example_zh": "请用<u>绳子</u>绑好。",
+      "example_vi": "Xin hãy dùng <u>dây</u> buộc chặt.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "绳子.svg",
+      "src": "images/HSK_2.0/level5/绳子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/绳子.svg",
+        "images/HSK_3.0/level8/绳子.svg",
+        "images/HSK_3.0/level9/绳子.svg"
+      ]
+    },
+    "省略": {
+      "hanzi": "省略",
+      "pinyin": "shěnglüè",
+      "meaning": "tỉnh lược, bỏ qua",
+      "example_zh": "这句话可以<u>省略</u>。",
+      "example_vi": "Câu này có thể <u>bỏ qua</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "省略.svg",
+      "src": "images/HSK_2.0/level5/省略.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/省略.svg",
+        "images/HSK_3.0/level8/省略.svg",
+        "images/HSK_3.0/level9/省略.svg"
+      ]
+    },
+    "胜利": {
+      "hanzi": "胜利",
+      "pinyin": "shènglì",
+      "meaning": "thắng lợi",
+      "example_zh": "我们赢得了<u>胜利</u>。",
+      "example_vi": "Chúng tôi đã giành được <u>thắng lợi</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "胜利.svg",
+      "src": "images/HSK_2.0/level5/胜利.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/胜利.svg"
       ]
     },
     "挑战": {
