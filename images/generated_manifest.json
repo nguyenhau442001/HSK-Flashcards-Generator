@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T21:14:32.750874",
-  "total_unique_words_with_illustrations": 2403,
-  "total_flat_svg_files": 2403,
+  "generated_at": "2026-10-09T21:16:26.414751",
+  "total_unique_words_with_illustrations": 2413,
+  "total_flat_svg_files": 2413,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1204,
-        "pct": "92.6%"
+        "with_svg": 1214,
+        "pct": "93.4%"
       },
       "level6": {
         "total": 2500,
@@ -58,13 +58,13 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 812,
-        "pct": "50.7%"
+        "with_svg": 819,
+        "pct": "51.2%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 224,
-        "pct": "12.4%"
+        "with_svg": 227,
+        "pct": "12.6%"
       },
       "level7": {
         "total": 5600,
@@ -44350,6 +44350,186 @@
       "src": "images/HSK_2.0/level5/意义.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/意义.svg"
+      ]
+    },
+    "因而": {
+      "hanzi": "因而",
+      "pinyin": "yīnér",
+      "meaning": "do đó, vì vậy",
+      "example_zh": "他努力学习，<u>因而</u>取得了好成绩。",
+      "example_vi": "Anh ấy chăm chỉ học tập, <u>do đó</u> đạt được thành tích tốt.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "因而.svg",
+      "src": "images/HSK_2.0/level5/因而.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/因而.svg"
+      ]
+    },
+    "银": {
+      "hanzi": "银",
+      "pinyin": "yín",
+      "meaning": "bạc",
+      "example_zh": "她戴着一条<u>银</u>项链。",
+      "example_vi": "Cô ấy đang đeo một dây chuyền <u>bạc</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "银.svg",
+      "src": "images/HSK_2.0/level5/银.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/银.svg"
+      ]
+    },
+    "印刷": {
+      "hanzi": "印刷",
+      "pinyin": "yìnshuā",
+      "meaning": "in ấn",
+      "example_zh": "这本书是去年<u>印刷</u>的。",
+      "example_vi": "Cuốn sách này được <u>in</u> vào năm ngoái.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "印刷.svg",
+      "src": "images/HSK_2.0/level5/印刷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/印刷.svg"
+      ]
+    },
+    "英雄": {
+      "hanzi": "英雄",
+      "pinyin": "yīngxióng",
+      "meaning": "anh hùng",
+      "example_zh": "他是一位民族<u>英雄</u>。",
+      "example_vi": "Anh ấy là một <u>anh hùng</u> dân tộc.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "英雄.svg",
+      "src": "images/HSK_2.0/level5/英雄.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/英雄.svg"
+      ]
+    },
+    "迎接": {
+      "hanzi": "迎接",
+      "pinyin": "yíngjiē",
+      "meaning": "đón tiếp, chào đón",
+      "example_zh": "我们去机场<u>迎接</u>他。",
+      "example_vi": "Chúng tôi đến sân bay <u>đón tiếp</u> anh ấy.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "迎接.svg",
+      "src": "images/HSK_2.0/level5/迎接.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/迎接.svg"
+      ]
+    },
+    "营业": {
+      "hanzi": "营业",
+      "pinyin": "yíngyè",
+      "meaning": "kinh doanh, mở cửa hàng",
+      "example_zh": "这家店每天<u>营业</u>。",
+      "example_vi": "Cửa hàng này <u>kinh doanh</u> mỗi ngày.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "营业.svg",
+      "src": "images/HSK_2.0/level5/营业.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/营业.svg"
+      ]
+    },
+    "影子": {
+      "hanzi": "影子",
+      "pinyin": "yǐngzi",
+      "meaning": "bóng (hình)",
+      "example_zh": "墙上有他的<u>影子</u>。",
+      "example_vi": "Trên tường có <u>bóng</u> của anh ấy.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "影子.svg",
+      "src": "images/HSK_2.0/level5/影子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/影子.svg"
+      ]
+    },
+    "硬件": {
+      "hanzi": "硬件",
+      "pinyin": "yìngjiàn",
+      "meaning": "phần cứng",
+      "example_zh": "电脑的<u>硬件</u>坏了。",
+      "example_vi": "<u>Phần cứng</u> của máy tính đã hỏng.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "硬件.svg",
+      "src": "images/HSK_2.0/level5/硬件.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/硬件.svg"
+      ]
+    },
+    "拥抱": {
+      "hanzi": "拥抱",
+      "pinyin": "yōngbào",
+      "meaning": "ôm, ôm chầm",
+      "example_zh": "他<u>拥抱</u>了朋友。",
+      "example_vi": "Anh ấy đã <u>ôm</u> người bạn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "拥抱.svg",
+      "src": "images/HSK_2.0/level5/拥抱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/拥抱.svg"
+      ]
+    },
+    "用途": {
+      "hanzi": "用途",
+      "pinyin": "yòngtú",
+      "meaning": "công dụng, mục đích sử dụng",
+      "example_zh": "这个工具有什么<u>用途</u>？",
+      "example_vi": "Công cụ này có <u>công dụng</u> gì?",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "用途.svg",
+      "src": "images/HSK_2.0/level5/用途.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/用途.svg"
       ]
     }
   }

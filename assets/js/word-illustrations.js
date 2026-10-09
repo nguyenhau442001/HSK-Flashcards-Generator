@@ -12316,6 +12316,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "意义.svg",
     "src": "images/HSK_2.0/level5/意义.svg",
     "caption": "ý nghĩa"
+  },
+  "因而": {
+    "file": "因而.svg",
+    "src": "images/HSK_2.0/level5/因而.svg",
+    "caption": "do đó, vì vậy"
+  },
+  "银": {
+    "file": "银.svg",
+    "src": "images/HSK_2.0/level5/银.svg",
+    "caption": "bạc"
+  },
+  "印刷": {
+    "file": "印刷.svg",
+    "src": "images/HSK_2.0/level5/印刷.svg",
+    "caption": "in ấn"
+  },
+  "英雄": {
+    "file": "英雄.svg",
+    "src": "images/HSK_2.0/level5/英雄.svg",
+    "caption": "anh hùng"
+  },
+  "迎接": {
+    "file": "迎接.svg",
+    "src": "images/HSK_2.0/level5/迎接.svg",
+    "caption": "đón tiếp, chào đón"
+  },
+  "营业": {
+    "file": "营业.svg",
+    "src": "images/HSK_2.0/level5/营业.svg",
+    "caption": "kinh doanh, mở cửa hàng"
+  },
+  "影子": {
+    "file": "影子.svg",
+    "src": "images/HSK_2.0/level5/影子.svg",
+    "caption": "bóng (hình)"
+  },
+  "硬件": {
+    "file": "硬件.svg",
+    "src": "images/HSK_2.0/level5/硬件.svg",
+    "caption": "phần cứng"
+  },
+  "拥抱": {
+    "file": "拥抱.svg",
+    "src": "images/HSK_2.0/level5/拥抱.svg",
+    "caption": "ôm, ôm chầm"
+  },
+  "用途": {
+    "file": "用途.svg",
+    "src": "images/HSK_2.0/level5/用途.svg",
+    "caption": "công dụng, mục đích sử dụng"
   }
 };
 
