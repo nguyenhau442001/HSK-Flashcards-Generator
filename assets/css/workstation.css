@@ -51,15 +51,20 @@ body.reading-view-active #primaryTabs {
   .workstation-middle { grid-area: middle; min-width: 0; }
   body.reading-view-active .workstation,
   body.reading-zen-active .workstation {
-    grid-template-columns: 1fr !important;
-    max-width: 1040px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    max-width: 960px !important;
     margin: 0 auto !important;
+    grid-template-columns: none !important;
+    grid-template-areas: none !important;
   }
   body.reading-view-active .workstation-middle,
   body.reading-zen-active .workstation-middle {
-    max-width: 1040px !important;
+    max-width: 960px !important;
     margin: 0 auto !important;
     width: 100% !important;
+    grid-area: auto !important;
   }
   .app-footer { grid-column: 1 / -1; margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--border); }
   .workstation-right {
@@ -1788,6 +1793,11 @@ body.flashcard-study-mode .grammar-breakdown-panel[hidden] { display: none !impo
 
 @media (max-width: 1279px) {
   .app { max-width: 760px; }
+  body.reading-view-active .app,
+  body.reading-zen-active .app {
+    max-width: 960px !important;
+    margin: 0 auto !important;
+  }
   .mobile-dock-dialog[open] {
     display: block;
     width: min(90vw, 480px);

@@ -22,27 +22,105 @@ body.reading-zen-active #primaryTabs {
   display: none !important;
 }
 
-@media (min-width: 1280px) {
-  body.reading-view-active .workstation,
-  body.reading-zen-active .workstation {
-    grid-template-columns: 1fr !important;
-    max-width: 1040px !important;
-    margin: 0 auto !important;
-  }
-  body.reading-view-active .workstation-middle,
-  body.reading-zen-active .workstation-middle {
-    max-width: 1040px !important;
-    margin: 0 auto !important;
-    width: 100% !important;
-  }
+/* Universal Clean Centering for Hanban Reading & Zen Mode (All Viewports) */
+body.reading-view-active,
+body.reading-zen-active {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  width: 100% !important;
+  min-height: 100vh !important;
+  margin: 0 auto !important;
+  padding: 16px 20px 60px !important;
+  box-sizing: border-box !important;
+}
+
+body.reading-view-active .app,
+body.reading-zen-active .app {
+  width: 100% !important;
+  max-width: 960px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+body.reading-view-active .app-header,
+body.reading-zen-active .app-header {
+  width: 100% !important;
+  max-width: 860px !important;
+  margin: 0 auto 16px !important;
+  text-align: center !important;
+  position: relative !important;
+}
+
+body.reading-view-active .workstation,
+body.reading-zen-active .workstation {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  width: 100% !important;
+  max-width: 960px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  grid-template-columns: none !important;
+  grid-template-areas: none !important;
+}
+
+body.reading-view-active .workstation-middle,
+body.reading-zen-active .workstation-middle {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 100% !important;
+  max-width: 960px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  grid-area: auto !important;
+}
+
+body.reading-view-active #screenReadingAnalysis,
+body.reading-zen-active #screenReadingAnalysis {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 100% !important;
+  max-width: 960px !important;
+  margin: 0 auto !important;
 }
 
 .reading-analysis-container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 16px 20px 80px;
+  width: 100% !important;
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  padding: 16px 0 80px !important;
   color: var(--text-primary);
   transition: all 0.25s ease;
+  box-sizing: border-box !important;
+}
+
+.reading-analysis-container.zen-mode-active {
+  width: 100% !important;
+  max-width: 860px !important;
+  margin: 0 auto !important;
+  padding: 16px 0 80px !important;
+}
+
+.reading-passage-card,
+.reading-zen-bar,
+.reading-unified-nav,
+.reading-grammar-breakdown-card,
+.reading-interactive-grammar-card,
+.reading-practice-card,
+.reading-navigation-footer {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box !important;
 }
 
 /* ==========================================================================
