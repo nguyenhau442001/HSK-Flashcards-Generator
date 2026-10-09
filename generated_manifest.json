@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T19:49:05.728630",
-  "total_unique_words_with_illustrations": 2005,
-  "total_flat_svg_files": 2005,
+  "generated_at": "2026-10-09T19:51:13.298964",
+  "total_unique_words_with_illustrations": 2015,
+  "total_flat_svg_files": 2015,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -16,8 +16,8 @@
       },
       "level3": {
         "total": 300,
-        "with_svg": 212,
-        "pct": "70.7%"
+        "with_svg": 222,
+        "pct": "74.0%"
       },
       "level4": {
         "total": 600,
@@ -48,8 +48,8 @@
       },
       "level3": {
         "total": 500,
-        "with_svg": 231,
-        "pct": "46.2%"
+        "with_svg": 239,
+        "pct": "47.8%"
       },
       "level4": {
         "total": 1000,
@@ -6836,6 +6836,178 @@
       "alt_srcs": [
         "images/HSK_3.0/level3/更.svg"
       ]
+    },
+    "公斤": {
+      "hanzi": "公斤",
+      "pinyin": "gōngjīn",
+      "meaning": "kilôgam",
+      "example_zh": "这个箱子有十<u>公斤</u>。",
+      "example_vi": "Cái hộp này nặng mười <u>kilôgam</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "公斤.svg",
+      "src": "images/HSK_2.0/level3/公斤.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/公斤.svg"
+      ]
+    },
+    "公园": {
+      "hanzi": "公园",
+      "pinyin": "gōngyuán",
+      "meaning": "công viên",
+      "example_zh": "我们去<u>公园</u>散步。",
+      "example_vi": "Chúng tôi đi <u>công viên</u> đi dạo.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "公园.svg",
+      "src": "images/HSK_2.0/level3/公园.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/公园.svg"
+      ]
+    },
+    "故事": {
+      "hanzi": "故事",
+      "pinyin": "gùshi",
+      "meaning": "câu chuyện",
+      "example_zh": "妈妈给我讲了一个<u>故事</u>。",
+      "example_vi": "Mẹ đã kể cho tôi một <u>câu chuyện</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "故事.svg",
+      "src": "images/HSK_2.0/level3/故事.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/故事.svg"
+      ]
+    },
+    "刮风": {
+      "hanzi": "刮风",
+      "pinyin": "guāfēng",
+      "meaning": "có gió, gió thổi",
+      "example_zh": "外面<u>刮风</u>了。",
+      "example_vi": "Bên ngoài có <u>gió thổi</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [],
+      "file": "刮风.svg",
+      "src": "images/HSK_2.0/level3/刮风.svg",
+      "alt_srcs": []
+    },
+    "关": {
+      "hanzi": "关",
+      "pinyin": "guān",
+      "meaning": "đóng, tắt",
+      "example_zh": "请把窗户<u>关</u>上。",
+      "example_vi": "Xin hãy <u>đóng</u> cửa sổ lại.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "关.svg",
+      "src": "images/HSK_2.0/level3/关.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/关.svg"
+      ]
+    },
+    "关系": {
+      "hanzi": "关系",
+      "pinyin": "guānxì",
+      "meaning": "quan hệ",
+      "example_zh": "他们的<u>关系</u>很好。",
+      "example_vi": "<u>Quan hệ</u> giữa họ rất tốt.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "关系.svg",
+      "src": "images/HSK_2.0/level3/关系.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/关系.svg"
+      ]
+    },
+    "关心": {
+      "hanzi": "关心",
+      "pinyin": "guānxīn",
+      "meaning": "quan tâm",
+      "example_zh": "老师很<u>关心</u>学生。",
+      "example_vi": "Thầy giáo rất <u>quan tâm</u> học sinh.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "关心.svg",
+      "src": "images/HSK_2.0/level3/关心.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/关心.svg"
+      ]
+    },
+    "关于": {
+      "hanzi": "关于",
+      "pinyin": "guānyú",
+      "meaning": "về, liên quan đến",
+      "example_zh": "这是<u>关于</u>历史的书。",
+      "example_vi": "Đây là cuốn sách <u>về</u> lịch sử.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "关于.svg",
+      "src": "images/HSK_2.0/level3/关于.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/关于.svg"
+      ]
+    },
+    "国家": {
+      "hanzi": "国家",
+      "pinyin": "guójiā",
+      "meaning": "quốc gia",
+      "example_zh": "中国是一个大<u>国家</u>。",
+      "example_vi": "Trung Quốc là một <u>quốc gia</u> lớn.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "国家.svg",
+      "src": "images/HSK_2.0/level3/国家.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/国家.svg"
+      ]
+    },
+    "过去": {
+      "hanzi": "过去",
+      "pinyin": "guòqù",
+      "meaning": "quá khứ",
+      "example_zh": "<u>过去</u>我住在北京。",
+      "example_vi": "<u>Trước đây</u> tôi sống ở Bắc Kinh.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [],
+      "file": "过去.svg",
+      "src": "images/HSK_2.0/level3/过去.svg",
+      "alt_srcs": []
     },
     "南": {
       "hanzi": "南",

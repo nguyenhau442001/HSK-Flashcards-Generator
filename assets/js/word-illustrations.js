@@ -2192,6 +2192,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level3/更.svg",
     "caption": "càng, hơn"
   },
+  "公斤": {
+    "file": "公斤.svg",
+    "src": "images/HSK_2.0/level3/公斤.svg",
+    "caption": "kilôgam"
+  },
+  "公园": {
+    "file": "公园.svg",
+    "src": "images/HSK_2.0/level3/公园.svg",
+    "caption": "công viên"
+  },
+  "故事": {
+    "file": "故事.svg",
+    "src": "images/HSK_2.0/level3/故事.svg",
+    "caption": "câu chuyện"
+  },
+  "刮风": {
+    "file": "刮风.svg",
+    "src": "images/HSK_2.0/level3/刮风.svg",
+    "caption": "có gió, gió thổi"
+  },
+  "关": {
+    "file": "关.svg",
+    "src": "images/HSK_2.0/level3/关.svg",
+    "caption": "đóng, tắt"
+  },
+  "关系": {
+    "file": "关系.svg",
+    "src": "images/HSK_2.0/level3/关系.svg",
+    "caption": "quan hệ"
+  },
+  "关心": {
+    "file": "关心.svg",
+    "src": "images/HSK_2.0/level3/关心.svg",
+    "caption": "quan tâm"
+  },
+  "关于": {
+    "file": "关于.svg",
+    "src": "images/HSK_2.0/level3/关于.svg",
+    "caption": "về, liên quan đến"
+  },
+  "国家": {
+    "file": "国家.svg",
+    "src": "images/HSK_2.0/level3/国家.svg",
+    "caption": "quốc gia"
+  },
+  "过去": {
+    "file": "过去.svg",
+    "src": "images/HSK_2.0/level3/过去.svg",
+    "caption": "quá khứ"
+  },
   "南": {
     "file": "南.svg",
     "src": "images/HSK_2.0/level3/南.svg",
