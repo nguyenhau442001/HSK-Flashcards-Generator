@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T21:27:08.789344",
-  "total_unique_words_with_illustrations": 2463,
-  "total_flat_svg_files": 2463,
+  "generated_at": "2026-10-09T21:28:31.630768",
+  "total_unique_words_with_illustrations": 2466,
+  "total_flat_svg_files": 2466,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1264,
-        "pct": "97.2%"
+        "with_svg": 1267,
+        "pct": "97.5%"
       },
       "level6": {
         "total": 2500,
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 852,
-        "pct": "53.2%"
+        "with_svg": 855,
+        "pct": "53.4%"
       },
       "level6": {
         "total": 1800,
@@ -45448,6 +45448,60 @@
       "src": "images/HSK_2.0/level5/重大.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/重大.svg"
+      ]
+    },
+    "重量": {
+      "hanzi": "重量",
+      "pinyin": "zhòngliàng",
+      "meaning": "trọng lượng",
+      "example_zh": "这个箱子的<u>重量</u>是十公斤。",
+      "example_vi": "<u>Trọng lượng</u> của cái hộp này là mười kilôgam.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "重量.svg",
+      "src": "images/HSK_2.0/level5/重量.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/重量.svg"
+      ]
+    },
+    "猪": {
+      "hanzi": "猪",
+      "pinyin": "zhū",
+      "meaning": "con lợn",
+      "example_zh": "农场里养了几只<u>猪</u>。",
+      "example_vi": "Trang trại nuôi vài <u>con lợn</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "猪.svg",
+      "src": "images/HSK_2.0/level5/猪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/猪.svg"
+      ]
+    },
+    "逐渐": {
+      "hanzi": "逐渐",
+      "pinyin": "zhújiàn",
+      "meaning": "dần dần",
+      "example_zh": "天气<u>逐渐</u>变冷了。",
+      "example_vi": "Thời tiết <u>dần dần</u> trở lạnh.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "逐渐.svg",
+      "src": "images/HSK_2.0/level5/逐渐.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/逐渐.svg"
       ]
     }
   }

@@ -12616,6 +12616,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "重大.svg",
     "src": "images/HSK_2.0/level5/重大.svg",
     "caption": "to lớn, trọng đại"
+  },
+  "重量": {
+    "file": "重量.svg",
+    "src": "images/HSK_2.0/level5/重量.svg",
+    "caption": "trọng lượng"
+  },
+  "猪": {
+    "file": "猪.svg",
+    "src": "images/HSK_2.0/level5/猪.svg",
+    "caption": "con lợn"
+  },
+  "逐渐": {
+    "file": "逐渐.svg",
+    "src": "images/HSK_2.0/level5/逐渐.svg",
+    "caption": "dần dần"
   }
 };
 
