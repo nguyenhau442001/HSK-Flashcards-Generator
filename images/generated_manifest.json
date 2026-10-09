@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T21:16:26.414751",
-  "total_unique_words_with_illustrations": 2413,
-  "total_flat_svg_files": 2413,
+  "generated_at": "2026-10-09T21:18:33.187237",
+  "total_unique_words_with_illustrations": 2423,
+  "total_flat_svg_files": 2423,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1214,
-        "pct": "93.4%"
+        "with_svg": 1224,
+        "pct": "94.2%"
       },
       "level6": {
         "total": 2500,
@@ -58,13 +58,13 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 819,
-        "pct": "51.2%"
+        "with_svg": 827,
+        "pct": "51.7%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 227,
-        "pct": "12.6%"
+        "with_svg": 229,
+        "pct": "12.7%"
       },
       "level7": {
         "total": 5600,
@@ -44530,6 +44530,186 @@
       "src": "images/HSK_2.0/level5/用途.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/用途.svg"
+      ]
+    },
+    "优美": {
+      "hanzi": "优美",
+      "pinyin": "yōuměi",
+      "meaning": "tươi đẹp, ưu mỹ",
+      "example_zh": "这个地方风景<u>优美</u>。",
+      "example_vi": "Phong cảnh nơi này <u>tươi đẹp</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "优美.svg",
+      "src": "images/HSK_2.0/level5/优美.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/优美.svg"
+      ]
+    },
+    "游览": {
+      "hanzi": "游览",
+      "pinyin": "yóulǎn",
+      "meaning": "du ngoạn, tham quan",
+      "example_zh": "我们去<u>游览</u>长城。",
+      "example_vi": "Chúng tôi đi <u>du ngoạn</u> Trường Thành.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "游览.svg",
+      "src": "images/HSK_2.0/level5/游览.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/游览.svg"
+      ]
+    },
+    "犹豫": {
+      "hanzi": "犹豫",
+      "pinyin": "yóuyù",
+      "meaning": "do dự, lưỡng lự",
+      "example_zh": "他<u>犹豫</u>了很久。",
+      "example_vi": "Anh ấy đã <u>do dự</u> rất lâu.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "犹豫.svg",
+      "src": "images/HSK_2.0/level5/犹豫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/犹豫.svg"
+      ]
+    },
+    "幼儿园": {
+      "hanzi": "幼儿园",
+      "pinyin": "yòuéryuán",
+      "meaning": "trường mẫu giáo",
+      "example_zh": "孩子上<u>幼儿园</u>了。",
+      "example_vi": "Đứa trẻ đã đi học <u>mẫu giáo</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "幼儿园.svg",
+      "src": "images/HSK_2.0/level5/幼儿园.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/幼儿园.svg"
+      ]
+    },
+    "与其": {
+      "hanzi": "与其",
+      "pinyin": "yǔqí",
+      "meaning": "thay vì, hơn là",
+      "example_zh": "<u>与其</u>等待，不如自己去做。",
+      "example_vi": "<u>Thay vì</u> chờ đợi, chẳng thà tự mình làm.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "与其.svg",
+      "src": "images/HSK_2.0/level5/与其.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/与其.svg"
+      ]
+    },
+    "语气": {
+      "hanzi": "语气",
+      "pinyin": "yǔqì",
+      "meaning": "ngữ điệu, giọng nói",
+      "example_zh": "他说话的<u>语气</u>很温和。",
+      "example_vi": "<u>Ngữ điệu</u> nói chuyện của anh ấy rất nhẹ nhàng.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "语气.svg",
+      "src": "images/HSK_2.0/level5/语气.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/语气.svg"
+      ]
+    },
+    "预订": {
+      "hanzi": "预订",
+      "pinyin": "yùdìng",
+      "meaning": "đặt trước",
+      "example_zh": "我已经<u>预订</u>了房间。",
+      "example_vi": "Tôi đã <u>đặt trước</u> phòng rồi.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "预订.svg",
+      "src": "images/HSK_2.0/level5/预订.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/预订.svg"
+      ]
+    },
+    "玉米": {
+      "hanzi": "玉米",
+      "pinyin": "yùmǐ",
+      "meaning": "bắp, ngô",
+      "example_zh": "他喜欢吃<u>玉米</u>。",
+      "example_vi": "Anh ấy thích ăn <u>bắp</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "玉米.svg",
+      "src": "images/HSK_2.0/level5/玉米.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/玉米.svg"
+      ]
+    },
+    "原料": {
+      "hanzi": "原料",
+      "pinyin": "yuánliào",
+      "meaning": "nguyên liệu",
+      "example_zh": "这是做面包的<u>原料</u>。",
+      "example_vi": "Đây là <u>nguyên liệu</u> làm bánh mì.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "原料.svg",
+      "src": "images/HSK_2.0/level5/原料.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/原料.svg"
+      ]
+    },
+    "原则": {
+      "hanzi": "原则",
+      "pinyin": "yuánzé",
+      "meaning": "nguyên tắc",
+      "example_zh": "我们要坚持<u>原则</u>。",
+      "example_vi": "Chúng ta phải kiên trì <u>nguyên tắc</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "原则.svg",
+      "src": "images/HSK_2.0/level5/原则.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/原则.svg"
       ]
     }
   }

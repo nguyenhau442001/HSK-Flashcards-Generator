@@ -12366,6 +12366,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "用途.svg",
     "src": "images/HSK_2.0/level5/用途.svg",
     "caption": "công dụng, mục đích sử dụng"
+  },
+  "优美": {
+    "file": "优美.svg",
+    "src": "images/HSK_2.0/level5/优美.svg",
+    "caption": "tươi đẹp, ưu mỹ"
+  },
+  "游览": {
+    "file": "游览.svg",
+    "src": "images/HSK_2.0/level5/游览.svg",
+    "caption": "du ngoạn, tham quan"
+  },
+  "犹豫": {
+    "file": "犹豫.svg",
+    "src": "images/HSK_2.0/level5/犹豫.svg",
+    "caption": "do dự, lưỡng lự"
+  },
+  "幼儿园": {
+    "file": "幼儿园.svg",
+    "src": "images/HSK_2.0/level5/幼儿园.svg",
+    "caption": "trường mẫu giáo"
+  },
+  "与其": {
+    "file": "与其.svg",
+    "src": "images/HSK_2.0/level5/与其.svg",
+    "caption": "thay vì, hơn là"
+  },
+  "语气": {
+    "file": "语气.svg",
+    "src": "images/HSK_2.0/level5/语气.svg",
+    "caption": "ngữ điệu, giọng nói"
+  },
+  "预订": {
+    "file": "预订.svg",
+    "src": "images/HSK_2.0/level5/预订.svg",
+    "caption": "đặt trước"
+  },
+  "玉米": {
+    "file": "玉米.svg",
+    "src": "images/HSK_2.0/level5/玉米.svg",
+    "caption": "bắp, ngô"
+  },
+  "原料": {
+    "file": "原料.svg",
+    "src": "images/HSK_2.0/level5/原料.svg",
+    "caption": "nguyên liệu"
+  },
+  "原则": {
+    "file": "原则.svg",
+    "src": "images/HSK_2.0/level5/原则.svg",
+    "caption": "nguyên tắc"
   }
 };
 
