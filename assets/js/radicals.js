@@ -250,7 +250,7 @@ function goBackToRadicalHub() {
   document.getElementById('screenRadicalHub').style.display = '';
   document.getElementById('primaryTabs').style.display = '';
   document.getElementById('learningDashboard').style.display = '';
-  document.getElementById('appTitle').textContent = 'HSK Flashcards';
+  document.getElementById('appTitle').textContent = 'Synapse Hanzi';
   radicalTab = radicalReturnTab;
   radicalCurrentView = 'cards';
   renderRadicalHub();

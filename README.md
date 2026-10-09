@@ -1,7 +1,7 @@
-# 🀄 HSK Flashcards & Reading Analysis (HSK 1–9)
+# ⚡ Synapse Hanzi — Cognitive Visual Workstation (HSK 1–9)
 
-> **Ứng dụng web học tiếng Trung hiện đại, tối giản và 100% Offline (PWA).**  
-> Kết hợp thuật toán **Spaced Repetition (FSRS)**, phân tích ngữ pháp đọc hiểu **HSK 4 Chuẩn Hanban**, luyện viết chữ Hán và tra cứu âm Hán - Việt. Không cần cài đặt Node.js hay build phức tạp.
+> **Trạm học từ vựng chữ Hán đa giác quan, hiện đại, tối giản và 100% Offline (PWA).**  
+> Kết hợp minh họa câu chuyện trực quan (Visual Mnemonics), thuật toán **Spaced Repetition (SRS)**, phân tích ngữ pháp đọc hiểu **HSK 4 Chuẩn Hanban**, luyện viết thứ tự nét và tra cứu âm Hán - Việt chuyên sâu.
 
 <p align="center">
   <a href="https://nguyenhau442001.github.io/HSK-Flashcards-Generator/">
@@ -20,7 +20,7 @@
 Theo dõi mục tiêu học tập hàng ngày, chuỗi ngày học (Streak 🔥), từ vựng của ngày và biểu đồ đóng góp (Heatmap).
 
 <p align="center">
-  <img src="assets/images/screenshots/01_dashboard.png" alt="Bảng điều khiển học tập HSK Flashcards" width="95%">
+  <img src="assets/images/screenshots/01_dashboard.png" alt="Bảng điều khiển học tập Synapse Hanzi" width="95%">
 </p>
 
 ---

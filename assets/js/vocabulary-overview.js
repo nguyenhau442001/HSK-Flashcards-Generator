@@ -18,7 +18,7 @@ function setViewMode(mode) {
   overviewTab.setAttribute('aria-selected', String(showOverview));
   document.getElementById('appTitle').textContent = showOverview
     ? LEVELS[currentLevel].label + ' · Tổng quan'
-    : LEVELS[currentLevel].label + ' Flashcards';
+    : LEVELS[currentLevel].label + ' · Synapse Hanzi';
 
   if (showOverview) {
     const searchInput = document.getElementById('overviewSearch');

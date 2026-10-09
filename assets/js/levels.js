@@ -647,7 +647,7 @@ function goBackToPicker() {
   if (auxCol) auxCol.style.display = '';
   const continueCard = document.getElementById('continueLearningCard');
   if (continueCard) continueCard.style.display = '';
-  document.getElementById('appTitle').textContent = 'HSK Flashcards';
+  document.getElementById('appTitle').textContent = 'Synapse Hanzi';
   document.getElementById('primaryTabs').style.display = '';
   document.getElementById('pickerControls').style.display = '';
   setPrimaryTab('vocab');
@@ -686,7 +686,7 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
   overviewQuery = '';
   overviewStatus = 'all';
   try { localStorage.setItem(LAST_LEVEL_KEY, level); } catch (e) {}
-  document.getElementById('appTitle').textContent = LEVELS[level].label + ' Flashcards';
+  document.getElementById('appTitle').textContent = LEVELS[level].label + ' · Synapse Hanzi';
   const studyLevelBadge = document.getElementById('studyLevelBadge');
   if (studyLevelBadge && LEVELS[level]) studyLevelBadge.textContent = LEVELS[level].label;
   document.getElementById('primaryTabs').style.display = 'none';
