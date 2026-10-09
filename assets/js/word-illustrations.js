@@ -1982,10 +1982,30 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level3/春.svg",
     "caption": "mùa xuân"
   },
+  "词典": {
+    "file": "词典.svg",
+    "src": "images/HSK_2.0/level3/词典.svg",
+    "caption": "từ điển"
+  },
+  "聪明": {
+    "file": "聪明.svg",
+    "src": "images/HSK_2.0/level3/聪明.svg",
+    "caption": "thông minh"
+  },
   "打扫": {
     "file": "打扫.svg",
     "src": "images/HSK_2.0/level3/打扫.svg",
     "caption": "dọn dẹp, quét"
+  },
+  "打算": {
+    "file": "打算.svg",
+    "src": "images/HSK_2.0/level3/打算.svg",
+    "caption": "dự định"
+  },
+  "带": {
+    "file": "带.svg",
+    "src": "images/HSK_2.0/level3/带.svg",
+    "caption": "mang theo, đai"
   },
   "电梯": {
     "file": "电梯.svg",

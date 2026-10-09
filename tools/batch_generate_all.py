@@ -50,12 +50,12 @@ def get_default_api_key():
     return ""
 
 MODELS_TO_TRY = [
+    "gemini-3.1-flash-lite",
+    "gemini-3.1-flash-lite-preview",
+    "gemini-3-flash-preview",
     "gemini-3.5-flash-lite",
     "gemini-2.5-flash",
-    "gemini-3.7-flash",
-    "gemini-3.8-flash",
-    "gemini-flash-lite-latest",
-    "gemini-flash-latest"
+    "gemini-3.5-flash"
 ]
 
 def guess_pos(meaning):
@@ -431,16 +431,30 @@ CRITICAL ART DIRECTION & COMPOSITION RULES:
                                 svg_str = m.group(0).strip()
                                 if len(svg_str) > 150:
                                     return svg_str
+                                else:
+                                    print(f"        [!] {model}: SVG too short ({len(svg_str)} bytes)", flush=True)
+                            else:
+                                print(f"        [!] {model}: No <svg> tag in output ({text[:60]}...)", flush=True)
+                        else:
+                            print(f"        [!] {model}: Empty parts in content", flush=True)
+                    else:
+                        print(f"        [!] {model}: No candidates in response", flush=True)
             except urllib.error.HTTPError as he:
-                if he.code in (429, 404, 503):
-                    continue
-                else:
-                    pass
-            except Exception:
+                err_body = he.read().decode("utf-8", errors="ignore")
+                try:
+                    err_json = json.loads(err_body)
+                    msg = err_json.get("error", {}).get("message", err_body[:100])
+                except Exception:
+                    msg = err_body[:100]
+                print(f"        [!] {model} HTTP {he.code}: {msg.strip()}", flush=True)
+                continue
+            except Exception as e:
+                print(f"        [!] {model} Error: {e}", flush=True)
                 continue
 
         if attempt < max_retries - 1:
             wait_sec = 10 * (attempt + 1)
+            print(f"        [!] All models busy. Waiting {wait_sec}s before retry {attempt+2}/{max_retries}...", flush=True)
             time.sleep(wait_sec)
 
     return None

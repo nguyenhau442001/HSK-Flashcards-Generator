@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T07:41:39.710231",
-  "total_unique_words_with_illustrations": 1967,
-  "total_flat_svg_files": 1967,
+  "generated_at": "2026-10-09T07:57:01.038740",
+  "total_unique_words_with_illustrations": 1971,
+  "total_flat_svg_files": 1971,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -16,8 +16,8 @@
       },
       "level3": {
         "total": 300,
-        "with_svg": 174,
-        "pct": "58.0%"
+        "with_svg": 178,
+        "pct": "59.3%"
       },
       "level4": {
         "total": 600,
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 430,
-        "pct": "17.2%"
+        "with_svg": 432,
+        "pct": "17.3%"
       }
     },
     "hsk_3_0": {
@@ -48,8 +48,8 @@
       },
       "level3": {
         "total": 500,
-        "with_svg": 201,
-        "pct": "40.2%"
+        "with_svg": 205,
+        "pct": "41.0%"
       },
       "level4": {
         "total": 1000,
@@ -6075,6 +6075,44 @@
       "src": "images/HSK_2.0/level3/春.svg",
       "alt_srcs": []
     },
+    "词典": {
+      "hanzi": "词典",
+      "pinyin": "cídiǎn",
+      "meaning": "từ điển",
+      "example_zh": "我买了一本<u>词典</u>。",
+      "example_vi": "Tôi đã mua một cuốn <u>từ điển</u>.",
+      "levels_hsk2": [
+        "level3",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "词典.svg",
+      "src": "images/HSK_2.0/level3/词典.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/词典.svg",
+        "images/HSK_3.0/level3/词典.svg"
+      ]
+    },
+    "聪明": {
+      "hanzi": "聪明",
+      "pinyin": "cōngming",
+      "meaning": "thông minh",
+      "example_zh": "这个孩子很<u>聪明</u>。",
+      "example_vi": "Đứa trẻ này rất <u>thông minh</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "聪明.svg",
+      "src": "images/HSK_2.0/level3/聪明.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/聪明.svg"
+      ]
+    },
     "打扫": {
       "hanzi": "打扫",
       "pinyin": "dǎsǎo",
@@ -6093,6 +6131,44 @@
       "alt_srcs": [
         "images/HSK_2.0/level6/打扫.svg",
         "images/HSK_3.0/level3/打扫.svg"
+      ]
+    },
+    "打算": {
+      "hanzi": "打算",
+      "pinyin": "dǎsuàn",
+      "meaning": "dự định",
+      "example_zh": "你暑假有什么<u>打算</u>？",
+      "example_vi": "Bạn có <u>dự định</u> gì cho nghỉ hè?",
+      "levels_hsk2": [
+        "level3",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "打算.svg",
+      "src": "images/HSK_2.0/level3/打算.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/打算.svg",
+        "images/HSK_3.0/level3/打算.svg"
+      ]
+    },
+    "带": {
+      "hanzi": "带",
+      "pinyin": "dài",
+      "meaning": "mang theo, đai",
+      "example_zh": "请<u>带</u>上你的护照。",
+      "example_vi": "Xin hãy <u>mang theo</u> hộ chiếu của bạn.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "带.svg",
+      "src": "images/HSK_2.0/level3/带.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/带.svg"
       ]
     },
     "电梯": {
