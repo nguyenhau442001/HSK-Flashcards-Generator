@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T19:55:21.355197",
-  "total_unique_words_with_illustrations": 2035,
-  "total_flat_svg_files": 2035,
+  "generated_at": "2026-10-09T19:57:26.670396",
+  "total_unique_words_with_illustrations": 2045,
+  "total_flat_svg_files": 2045,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -16,8 +16,8 @@
       },
       "level3": {
         "total": 300,
-        "with_svg": 242,
-        "pct": "80.7%"
+        "with_svg": 252,
+        "pct": "84.0%"
       },
       "level4": {
         "total": 600,
@@ -43,13 +43,13 @@
       },
       "level2": {
         "total": 200,
-        "with_svg": 96,
-        "pct": "48.0%"
+        "with_svg": 98,
+        "pct": "49.0%"
       },
       "level3": {
         "total": 500,
-        "with_svg": 251,
-        "pct": "50.2%"
+        "with_svg": 259,
+        "pct": "51.8%"
       },
       "level4": {
         "total": 1000,
@@ -7347,6 +7347,186 @@
       "src": "images/HSK_2.0/level3/机会.svg",
       "alt_srcs": [
         "images/HSK_3.0/level3/机会.svg"
+      ]
+    },
+    "极": {
+      "hanzi": "极",
+      "pinyin": "jí",
+      "meaning": "cực kỳ",
+      "example_zh": "这个菜<u>极</u>好吃。",
+      "example_vi": "Món ăn này <u>cực</u> ngon.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "极.svg",
+      "src": "images/HSK_2.0/level3/极.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/极.svg"
+      ]
+    },
+    "记得": {
+      "hanzi": "记得",
+      "pinyin": "jìde",
+      "meaning": "nhớ (việc gì)",
+      "example_zh": "我<u>记得</u>他的名字。",
+      "example_vi": "Tôi <u>nhớ</u> tên của anh ấy.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "记得.svg",
+      "src": "images/HSK_2.0/level3/记得.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/记得.svg"
+      ]
+    },
+    "季节": {
+      "hanzi": "季节",
+      "pinyin": "jìjié",
+      "meaning": "mùa, thời kỳ",
+      "example_zh": "秋天是我最喜欢的<u>季节</u>。",
+      "example_vi": "<u>Mùa</u> thu là mùa tôi thích nhất.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "季节.svg",
+      "src": "images/HSK_2.0/level3/季节.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/季节.svg"
+      ]
+    },
+    "检查": {
+      "hanzi": "检查",
+      "pinyin": "jiǎnchá",
+      "meaning": "kiểm tra",
+      "example_zh": "医生<u>检查</u>了我的身体。",
+      "example_vi": "Bác sĩ đã <u>kiểm tra</u> cơ thể của tôi.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "检查.svg",
+      "src": "images/HSK_2.0/level3/检查.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/检查.svg"
+      ]
+    },
+    "简单": {
+      "hanzi": "简单",
+      "pinyin": "jiǎndān",
+      "meaning": "đơn giản",
+      "example_zh": "这个问题很<u>简单</u>。",
+      "example_vi": "Câu hỏi này rất <u>đơn giản</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "简单.svg",
+      "src": "images/HSK_2.0/level3/简单.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/简单.svg"
+      ]
+    },
+    "健康": {
+      "hanzi": "健康",
+      "pinyin": "jiànkāng",
+      "meaning": "khỏe mạnh, sức khỏe",
+      "example_zh": "运动对<u>健康</u>很好。",
+      "example_vi": "Tập thể dục rất tốt cho <u>sức khỏe</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "健康.svg",
+      "src": "images/HSK_2.0/level3/健康.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/健康.svg"
+      ]
+    },
+    "见面": {
+      "hanzi": "见面",
+      "pinyin": "jiànmiàn",
+      "meaning": "gặp mặt",
+      "example_zh": "我们明天<u>见面</u>吧。",
+      "example_vi": "Chúng ta ngày mai <u>gặp mặt</u> nhé.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "见面.svg",
+      "src": "images/HSK_2.0/level3/见面.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/见面.svg"
+      ]
+    },
+    "讲": {
+      "hanzi": "讲",
+      "pinyin": "jiǎng",
+      "meaning": "nói, giảng giải",
+      "example_zh": "老师在<u>讲</u>课。",
+      "example_vi": "Thầy giáo đang <u>giảng</u> bài.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "讲.svg",
+      "src": "images/HSK_2.0/level3/讲.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/讲.svg"
+      ]
+    },
+    "教": {
+      "hanzi": "教",
+      "pinyin": "jiāo",
+      "meaning": "dạy",
+      "example_zh": "她<u>教</u>我们汉语。",
+      "example_vi": "Cô ấy <u>dạy</u> chúng tôi tiếng Trung.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "教.svg",
+      "src": "images/HSK_2.0/level3/教.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/教.svg"
+      ]
+    },
+    "角": {
+      "hanzi": "角",
+      "pinyin": "jiǎo",
+      "meaning": "góc; hào (tiền)",
+      "example_zh": "这个杯子三块二<u>角</u>。",
+      "example_vi": "Cái cốc này ba đồng hai <u>hào</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "角.svg",
+      "src": "images/HSK_2.0/level3/角.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/角.svg"
       ]
     },
     "南": {

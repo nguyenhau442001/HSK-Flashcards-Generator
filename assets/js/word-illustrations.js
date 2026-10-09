@@ -2342,6 +2342,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level3/机会.svg",
     "caption": "cơ hội"
   },
+  "极": {
+    "file": "极.svg",
+    "src": "images/HSK_2.0/level3/极.svg",
+    "caption": "cực kỳ"
+  },
+  "记得": {
+    "file": "记得.svg",
+    "src": "images/HSK_2.0/level3/记得.svg",
+    "caption": "nhớ (việc gì)"
+  },
+  "季节": {
+    "file": "季节.svg",
+    "src": "images/HSK_2.0/level3/季节.svg",
+    "caption": "mùa, thời kỳ"
+  },
+  "检查": {
+    "file": "检查.svg",
+    "src": "images/HSK_2.0/level3/检查.svg",
+    "caption": "kiểm tra"
+  },
+  "简单": {
+    "file": "简单.svg",
+    "src": "images/HSK_2.0/level3/简单.svg",
+    "caption": "đơn giản"
+  },
+  "健康": {
+    "file": "健康.svg",
+    "src": "images/HSK_2.0/level3/健康.svg",
+    "caption": "khỏe mạnh, sức khỏe"
+  },
+  "见面": {
+    "file": "见面.svg",
+    "src": "images/HSK_2.0/level3/见面.svg",
+    "caption": "gặp mặt"
+  },
+  "讲": {
+    "file": "讲.svg",
+    "src": "images/HSK_2.0/level3/讲.svg",
+    "caption": "nói, giảng giải"
+  },
+  "教": {
+    "file": "教.svg",
+    "src": "images/HSK_2.0/level3/教.svg",
+    "caption": "dạy"
+  },
+  "角": {
+    "file": "角.svg",
+    "src": "images/HSK_2.0/level3/角.svg",
+    "caption": "góc; hào (tiền)"
+  },
   "南": {
     "file": "南.svg",
     "src": "images/HSK_2.0/level3/南.svg",
