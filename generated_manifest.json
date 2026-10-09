@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T07:57:01.038740",
-  "total_unique_words_with_illustrations": 1971,
-  "total_flat_svg_files": 1971,
+  "generated_at": "2026-10-09T08:10:43.790333",
+  "total_unique_words_with_illustrations": 1975,
+  "total_flat_svg_files": 1975,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -16,8 +16,8 @@
       },
       "level3": {
         "total": 300,
-        "with_svg": 178,
-        "pct": "59.3%"
+        "with_svg": 182,
+        "pct": "60.7%"
       },
       "level4": {
         "total": 600,
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 432,
-        "pct": "17.3%"
+        "with_svg": 434,
+        "pct": "17.4%"
       }
     },
     "hsk_3_0": {
@@ -43,13 +43,13 @@
       },
       "level2": {
         "total": 200,
-        "with_svg": 89,
-        "pct": "44.5%"
+        "with_svg": 90,
+        "pct": "45.0%"
       },
       "level3": {
         "total": 500,
-        "with_svg": 205,
-        "pct": "41.0%"
+        "with_svg": 208,
+        "pct": "41.6%"
       },
       "level4": {
         "total": 1000,
@@ -6171,6 +6171,64 @@
         "images/HSK_3.0/level3/带.svg"
       ]
     },
+    "蛋糕": {
+      "hanzi": "蛋糕",
+      "pinyin": "dàngāo",
+      "meaning": "bánh ngọt",
+      "example_zh": "这个<u>蛋糕</u>很好吃。",
+      "example_vi": "Cái <u>bánh</u> này rất ngon.",
+      "levels_hsk2": [
+        "level3",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "蛋糕.svg",
+      "src": "images/HSK_2.0/level3/蛋糕.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/蛋糕.svg",
+        "images/HSK_3.0/level3/蛋糕.svg"
+      ]
+    },
+    "灯": {
+      "hanzi": "灯",
+      "pinyin": "dēng",
+      "meaning": "cái đèn",
+      "example_zh": "请把<u>灯</u>打开。",
+      "example_vi": "Xin hãy mở <u>đèn</u> lên.",
+      "levels_hsk2": [
+        "level3",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "灯.svg",
+      "src": "images/HSK_2.0/level3/灯.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/灯.svg",
+        "images/HSK_3.0/level3/灯.svg"
+      ]
+    },
+    "地铁": {
+      "hanzi": "地铁",
+      "pinyin": "dìtiě",
+      "meaning": "tàu điện ngầm",
+      "example_zh": "我每天坐<u>地铁</u>上班。",
+      "example_vi": "Tôi mỗi ngày đi <u>tàu điện ngầm</u> đi làm.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "地铁.svg",
+      "src": "images/HSK_2.0/level3/地铁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/地铁.svg"
+      ]
+    },
     "电梯": {
       "hanzi": "电梯",
       "pinyin": "diàntī",
@@ -6189,6 +6247,24 @@
       "alt_srcs": [
         "images/HSK_2.0/level6/电梯.svg",
         "images/HSK_3.0/level3/电梯.svg"
+      ]
+    },
+    "动物": {
+      "hanzi": "动物",
+      "pinyin": "dòngwù",
+      "meaning": "động vật",
+      "example_zh": "<u>动物</u>园里有很多动物。",
+      "example_vi": "Trong sở thú có nhiều <u>động vật</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "动物.svg",
+      "src": "images/HSK_2.0/level3/动物.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/动物.svg"
       ]
     },
     "发现": {

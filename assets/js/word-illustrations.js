@@ -2007,10 +2007,30 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level3/带.svg",
     "caption": "mang theo, đai"
   },
+  "蛋糕": {
+    "file": "蛋糕.svg",
+    "src": "images/HSK_2.0/level3/蛋糕.svg",
+    "caption": "bánh ngọt"
+  },
+  "灯": {
+    "file": "灯.svg",
+    "src": "images/HSK_2.0/level3/灯.svg",
+    "caption": "cái đèn"
+  },
+  "地铁": {
+    "file": "地铁.svg",
+    "src": "images/HSK_2.0/level3/地铁.svg",
+    "caption": "tàu điện ngầm"
+  },
   "电梯": {
     "file": "电梯.svg",
     "src": "images/HSK_2.0/level3/电梯.svg",
     "caption": "thang máy"
+  },
+  "动物": {
+    "file": "动物.svg",
+    "src": "images/HSK_2.0/level3/动物.svg",
+    "caption": "động vật"
   },
   "发现": {
     "file": "发现.svg",
