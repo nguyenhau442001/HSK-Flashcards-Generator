@@ -10837,6 +10837,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/捐.svg",
     "caption": "quyên góp, hiến tặng"
   },
+  "决心": {
+    "file": "决心.svg",
+    "src": "images/HSK_2.0/level5/决心.svg",
+    "caption": "quyết tâm"
+  },
+  "角色": {
+    "file": "角色.svg",
+    "src": "images/HSK_2.0/level5/角色.svg",
+    "caption": "vai diễn, vai trò"
+  },
+  "均匀": {
+    "file": "均匀.svg",
+    "src": "images/HSK_2.0/level5/均匀.svg",
+    "caption": "đồng đều, đều đặn"
+  },
+  "卡车": {
+    "file": "卡车.svg",
+    "src": "images/HSK_2.0/level5/卡车.svg",
+    "caption": "xe tải"
+  },
+  "开发": {
+    "file": "开发.svg",
+    "src": "images/HSK_2.0/level5/开发.svg",
+    "caption": "khai phát, phát triển"
+  },
+  "开幕式": {
+    "file": "开幕式.svg",
+    "src": "images/HSK_2.0/level5/开幕式.svg",
+    "caption": "lễ khai mạc"
+  },
+  "看望": {
+    "file": "看望.svg",
+    "src": "images/HSK_2.0/level5/看望.svg",
+    "caption": "thăm hỏi"
+  },
+  "靠": {
+    "file": "靠.svg",
+    "src": "images/HSK_2.0/level5/靠.svg",
+    "caption": "dựa, tựa vào"
+  },
+  "颗": {
+    "file": "颗.svg",
+    "src": "images/HSK_2.0/level5/颗.svg",
+    "caption": "hạt, viên (lượng từ)"
+  },
+  "可靠": {
+    "file": "可靠.svg",
+    "src": "images/HSK_2.0/level5/可靠.svg",
+    "caption": "đáng tin cậy"
+  },
   "秘书": {
     "file": "秘书.svg",
     "src": "images/HSK_2.0/level5/秘书.svg",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:13:34.469972",
-  "total_unique_words_with_illustrations": 2113,
-  "total_flat_svg_files": 2113,
+  "generated_at": "2026-10-09T20:15:27.407165",
+  "total_unique_words_with_illustrations": 2123,
+  "total_flat_svg_files": 2123,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,13 +26,13 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 914,
-        "pct": "70.3%"
+        "with_svg": 924,
+        "pct": "71.1%"
       },
       "level6": {
         "total": 2500,
-        "with_svg": 445,
-        "pct": "17.8%"
+        "with_svg": 448,
+        "pct": "17.9%"
       }
     },
     "hsk_3_0": {
@@ -58,27 +58,27 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 620,
-        "pct": "38.8%"
+        "with_svg": 628,
+        "pct": "39.2%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 175,
-        "pct": "9.7%"
+        "with_svg": 176,
+        "pct": "9.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 73,
+        "with_svg": 74,
         "pct": "1.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 73,
+        "with_svg": 74,
         "pct": "1.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 73,
+        "with_svg": 74,
         "pct": "1.3%"
       }
     }
@@ -38908,6 +38908,196 @@
       "src": "images/HSK_2.0/level5/捐.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/捐.svg"
+      ]
+    },
+    "决心": {
+      "hanzi": "决心",
+      "pinyin": "juéxīn",
+      "meaning": "quyết tâm",
+      "example_zh": "他下了很大的<u>决心</u>。",
+      "example_vi": "Anh ấy đã hạ <u>quyết tâm</u> rất lớn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "决心.svg",
+      "src": "images/HSK_2.0/level5/决心.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/决心.svg"
+      ]
+    },
+    "角色": {
+      "hanzi": "角色",
+      "pinyin": "juésè",
+      "meaning": "vai diễn, vai trò",
+      "example_zh": "他演的<u>角色</u>很难。",
+      "example_vi": "<u>Vai diễn</u> mà anh ấy đóng rất khó.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "角色.svg",
+      "src": "images/HSK_2.0/level5/角色.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/角色.svg",
+        "images/HSK_3.0/level5/角色.svg"
+      ]
+    },
+    "均匀": {
+      "hanzi": "均匀",
+      "pinyin": "jūnyún",
+      "meaning": "đồng đều, đều đặn",
+      "example_zh": "请<u>均匀</u>地涂抹。",
+      "example_vi": "Xin hãy bôi <u>đều</u>.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "均匀.svg",
+      "src": "images/HSK_2.0/level5/均匀.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/均匀.svg",
+        "images/HSK_3.0/level6/均匀.svg"
+      ]
+    },
+    "卡车": {
+      "hanzi": "卡车",
+      "pinyin": "kǎchē",
+      "meaning": "xe tải",
+      "example_zh": "<u>卡车</u>正在运货。",
+      "example_vi": "<u>Xe tải</u> đang chở hàng.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "卡车.svg",
+      "src": "images/HSK_2.0/level5/卡车.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/卡车.svg",
+        "images/HSK_3.0/level8/卡车.svg",
+        "images/HSK_3.0/level9/卡车.svg"
+      ]
+    },
+    "开发": {
+      "hanzi": "开发",
+      "pinyin": "kāifā",
+      "meaning": "khai phát, phát triển",
+      "example_zh": "公司在<u>开发</u>新产品。",
+      "example_vi": "Công ty đang <u>phát triển</u> sản phẩm mới.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "开发.svg",
+      "src": "images/HSK_2.0/level5/开发.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/开发.svg"
+      ]
+    },
+    "开幕式": {
+      "hanzi": "开幕式",
+      "pinyin": "kāimùshì",
+      "meaning": "lễ khai mạc",
+      "example_zh": "<u>开幕式</u>很精彩。",
+      "example_vi": "<u>Lễ khai mạc</u> rất đặc sắc.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "开幕式.svg",
+      "src": "images/HSK_2.0/level5/开幕式.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/开幕式.svg"
+      ]
+    },
+    "看望": {
+      "hanzi": "看望",
+      "pinyin": "kànwàng",
+      "meaning": "thăm hỏi",
+      "example_zh": "我去<u>看望</u>生病的朋友。",
+      "example_vi": "Tôi đi <u>thăm hỏi</u> người bạn bị bệnh.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "看望.svg",
+      "src": "images/HSK_2.0/level5/看望.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/看望.svg"
+      ]
+    },
+    "靠": {
+      "hanzi": "靠",
+      "pinyin": "kào",
+      "meaning": "dựa, tựa vào",
+      "example_zh": "请<u>靠</u>右边走。",
+      "example_vi": "Xin hãy đi <u>sát</u> bên phải.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "靠.svg",
+      "src": "images/HSK_2.0/level5/靠.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/靠.svg"
+      ]
+    },
+    "颗": {
+      "hanzi": "颗",
+      "pinyin": "kē",
+      "meaning": "hạt, viên (lượng từ)",
+      "example_zh": "桌子上有一<u>颗</u>珠子。",
+      "example_vi": "Trên bàn có một <u>hạt</u> trân châu.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "颗.svg",
+      "src": "images/HSK_2.0/level5/颗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/颗.svg"
+      ]
+    },
+    "可靠": {
+      "hanzi": "可靠",
+      "pinyin": "kěkào",
+      "meaning": "đáng tin cậy",
+      "example_zh": "他是一个<u>可靠</u>的人。",
+      "example_vi": "Anh ấy là một người <u>đáng tin cậy</u>.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "可靠.svg",
+      "src": "images/HSK_2.0/level5/可靠.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/可靠.svg",
+        "images/HSK_3.0/level5/可靠.svg"
       ]
     },
     "秘书": {
