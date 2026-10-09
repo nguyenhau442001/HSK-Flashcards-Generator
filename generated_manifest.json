@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T21:08:26.870726",
-  "total_unique_words_with_illustrations": 2373,
-  "total_flat_svg_files": 2373,
+  "generated_at": "2026-10-09T21:10:24.877375",
+  "total_unique_words_with_illustrations": 2383,
+  "total_flat_svg_files": 2383,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1174,
-        "pct": "90.3%"
+        "with_svg": 1184,
+        "pct": "91.1%"
       },
       "level6": {
         "total": 2500,
@@ -58,27 +58,27 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 789,
-        "pct": "49.3%"
+        "with_svg": 796,
+        "pct": "49.8%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 219,
-        "pct": "12.2%"
+        "with_svg": 221,
+        "pct": "12.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 96,
+        "with_svg": 97,
         "pct": "1.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 96,
+        "with_svg": 97,
         "pct": "1.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 96,
+        "with_svg": 97,
         "pct": "1.7%"
       }
     }
@@ -43806,6 +43806,190 @@
       "src": "images/HSK_2.0/level5/行人.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/行人.svg"
+      ]
+    },
+    "形成": {
+      "hanzi": "形成",
+      "pinyin": "xíngchéng",
+      "meaning": "hình thành",
+      "example_zh": "这个习惯是慢慢<u>形成</u>的。",
+      "example_vi": "Thói quen này được <u>hình thành</u> dần dần.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "形成.svg",
+      "src": "images/HSK_2.0/level5/形成.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/形成.svg"
+      ]
+    },
+    "形式": {
+      "hanzi": "形式",
+      "pinyin": "xíngshì",
+      "meaning": "hình thức",
+      "example_zh": "这是一种新<u>形式</u>。",
+      "example_vi": "Đây là một <u>hình thức</u> mới.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "形式.svg",
+      "src": "images/HSK_2.0/level5/形式.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/形式.svg"
+      ]
+    },
+    "形象": {
+      "hanzi": "形象",
+      "pinyin": "xíngxiàng",
+      "meaning": "hình tượng",
+      "example_zh": "他的<u>形象</u>很好。",
+      "example_vi": "<u>Hình tượng</u> của anh ấy rất tốt.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "形象.svg",
+      "src": "images/HSK_2.0/level5/形象.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/形象.svg"
+      ]
+    },
+    "性质": {
+      "hanzi": "性质",
+      "pinyin": "xìngzhì",
+      "meaning": "tính chất",
+      "example_zh": "水的<u>性质</u>很特别。",
+      "example_vi": "<u>Tính chất</u> của nước rất đặc biệt.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "性质.svg",
+      "src": "images/HSK_2.0/level5/性质.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/性质.svg"
+      ]
+    },
+    "幸亏": {
+      "hanzi": "幸亏",
+      "pinyin": "xìngkuī",
+      "meaning": "may mà",
+      "example_zh": "<u>幸亏</u>你提醒了我。",
+      "example_vi": "<u>May mà</u> bạn nhắc nhở tôi.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "幸亏.svg",
+      "src": "images/HSK_2.0/level5/幸亏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/幸亏.svg",
+        "images/HSK_3.0/level8/幸亏.svg",
+        "images/HSK_3.0/level9/幸亏.svg"
+      ]
+    },
+    "胸": {
+      "hanzi": "胸",
+      "pinyin": "xiōng",
+      "meaning": "ngực",
+      "example_zh": "他的<u>胸</u>很宽。",
+      "example_vi": "<u>Ngực</u> của anh ấy rất rộng.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "胸.svg",
+      "src": "images/HSK_2.0/level5/胸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/胸.svg"
+      ]
+    },
+    "修改": {
+      "hanzi": "修改",
+      "pinyin": "xiūgǎi",
+      "meaning": "sửa đổi",
+      "example_zh": "请<u>修改</u>一下这篇文章。",
+      "example_vi": "Xin hãy <u>sửa đổi</u> bài viết này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "修改.svg",
+      "src": "images/HSK_2.0/level5/修改.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/修改.svg"
+      ]
+    },
+    "休闲": {
+      "hanzi": "休闲",
+      "pinyin": "xiūxián",
+      "meaning": "thư giãn, nhàn nhã",
+      "example_zh": "周末我喜欢<u>休闲</u>一下。",
+      "example_vi": "Cuối tuần tôi thích <u>thư giãn</u> một chút.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "休闲.svg",
+      "src": "images/HSK_2.0/level5/休闲.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/休闲.svg"
+      ]
+    },
+    "叙述": {
+      "hanzi": "叙述",
+      "pinyin": "xùshù",
+      "meaning": "tường thuật, kể lại",
+      "example_zh": "请<u>叙述</u>一下事情的经过。",
+      "example_vi": "Xin hãy <u>tường thuật</u> quá trình của sự việc.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "叙述.svg",
+      "src": "images/HSK_2.0/level5/叙述.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/叙述.svg"
+      ]
+    },
+    "宣传": {
+      "hanzi": "宣传",
+      "pinyin": "xuānchuán",
+      "meaning": "tuyên truyền, quảng bá",
+      "example_zh": "学校在<u>宣传</u>新政策。",
+      "example_vi": "Trường học đang <u>tuyên truyền</u> chính sách mới.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "宣传.svg",
+      "src": "images/HSK_2.0/level5/宣传.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/宣传.svg"
       ]
     }
   }

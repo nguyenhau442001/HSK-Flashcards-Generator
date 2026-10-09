@@ -12166,6 +12166,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "行人.svg",
     "src": "images/HSK_2.0/level5/行人.svg",
     "caption": "người đi đường"
+  },
+  "形成": {
+    "file": "形成.svg",
+    "src": "images/HSK_2.0/level5/形成.svg",
+    "caption": "hình thành"
+  },
+  "形式": {
+    "file": "形式.svg",
+    "src": "images/HSK_2.0/level5/形式.svg",
+    "caption": "hình thức"
+  },
+  "形象": {
+    "file": "形象.svg",
+    "src": "images/HSK_2.0/level5/形象.svg",
+    "caption": "hình tượng"
+  },
+  "性质": {
+    "file": "性质.svg",
+    "src": "images/HSK_2.0/level5/性质.svg",
+    "caption": "tính chất"
+  },
+  "幸亏": {
+    "file": "幸亏.svg",
+    "src": "images/HSK_2.0/level5/幸亏.svg",
+    "caption": "may mà"
+  },
+  "胸": {
+    "file": "胸.svg",
+    "src": "images/HSK_2.0/level5/胸.svg",
+    "caption": "ngực"
+  },
+  "修改": {
+    "file": "修改.svg",
+    "src": "images/HSK_2.0/level5/修改.svg",
+    "caption": "sửa đổi"
+  },
+  "休闲": {
+    "file": "休闲.svg",
+    "src": "images/HSK_2.0/level5/休闲.svg",
+    "caption": "thư giãn, nhàn nhã"
+  },
+  "叙述": {
+    "file": "叙述.svg",
+    "src": "images/HSK_2.0/level5/叙述.svg",
+    "caption": "tường thuật, kể lại"
+  },
+  "宣传": {
+    "file": "宣传.svg",
+    "src": "images/HSK_2.0/level5/宣传.svg",
+    "caption": "tuyên truyền, quảng bá"
   }
 };
 
