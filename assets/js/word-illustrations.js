@@ -12016,6 +12016,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "无所谓.svg",
     "src": "images/HSK_2.0/level5/无所谓.svg",
     "caption": "không quan trọng, không sao"
+  },
+  "武术": {
+    "file": "武术.svg",
+    "src": "images/HSK_2.0/level5/武术.svg",
+    "caption": "võ thuật"
+  },
+  "雾": {
+    "file": "雾.svg",
+    "src": "images/HSK_2.0/level5/雾.svg",
+    "caption": "sương mù"
+  },
+  "物理": {
+    "file": "物理.svg",
+    "src": "images/HSK_2.0/level5/物理.svg",
+    "caption": "vật lý"
+  },
+  "吸收": {
+    "file": "吸收.svg",
+    "src": "images/HSK_2.0/level5/吸收.svg",
+    "caption": "hấp thu"
+  },
+  "系": {
+    "file": "系.svg",
+    "src": "images/HSK_2.0/level5/系.svg",
+    "caption": "khoa (trong trường đại học)"
+  },
+  "细节": {
+    "file": "细节.svg",
+    "src": "images/HSK_2.0/level5/细节.svg",
+    "caption": "chi tiết"
+  },
+  "瞎": {
+    "file": "瞎.svg",
+    "src": "images/HSK_2.0/level5/瞎.svg",
+    "caption": "mù, mù quáng"
+  },
+  "鲜艳": {
+    "file": "鲜艳.svg",
+    "src": "images/HSK_2.0/level5/鲜艳.svg",
+    "caption": "rực rỡ, tươi sáng"
+  },
+  "显得": {
+    "file": "显得.svg",
+    "src": "images/HSK_2.0/level5/显得.svg",
+    "caption": "trông có vẻ, tỏ ra"
+  },
+  "显示": {
+    "file": "显示.svg",
+    "src": "images/HSK_2.0/level5/显示.svg",
+    "caption": "hiển thị, thể hiện"
   }
 };
 

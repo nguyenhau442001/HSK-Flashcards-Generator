@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T21:01:14.956487",
-  "total_unique_words_with_illustrations": 2343,
-  "total_flat_svg_files": 2343,
+  "generated_at": "2026-10-09T21:03:16.296553",
+  "total_unique_words_with_illustrations": 2353,
+  "total_flat_svg_files": 2353,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1144,
-        "pct": "88.0%"
+        "with_svg": 1154,
+        "pct": "88.8%"
       },
       "level6": {
         "total": 2500,
@@ -58,27 +58,27 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 765,
-        "pct": "47.8%"
+        "with_svg": 774,
+        "pct": "48.4%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 215,
-        "pct": "11.9%"
+        "with_svg": 216,
+        "pct": "12.0%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 95,
+        "with_svg": 96,
         "pct": "1.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 95,
+        "with_svg": 96,
         "pct": "1.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 95,
+        "with_svg": 96,
         "pct": "1.7%"
       }
     }
@@ -43262,6 +43262,190 @@
       "src": "images/HSK_2.0/level5/无所谓.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/无所谓.svg"
+      ]
+    },
+    "武术": {
+      "hanzi": "武术",
+      "pinyin": "wǔshù",
+      "meaning": "võ thuật",
+      "example_zh": "他在练习<u>武术</u>。",
+      "example_vi": "Anh ấy đang luyện tập <u>võ thuật</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "武术.svg",
+      "src": "images/HSK_2.0/level5/武术.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/武术.svg"
+      ]
+    },
+    "雾": {
+      "hanzi": "雾",
+      "pinyin": "wù",
+      "meaning": "sương mù",
+      "example_zh": "今天有大<u>雾</u>。",
+      "example_vi": "Hôm nay có <u>sương mù</u> lớn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "雾.svg",
+      "src": "images/HSK_2.0/level5/雾.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/雾.svg"
+      ]
+    },
+    "物理": {
+      "hanzi": "物理",
+      "pinyin": "wùlǐ",
+      "meaning": "vật lý",
+      "example_zh": "他在研究<u>物理</u>。",
+      "example_vi": "Anh ấy đang nghiên cứu <u>vật lý</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "物理.svg",
+      "src": "images/HSK_2.0/level5/物理.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/物理.svg"
+      ]
+    },
+    "吸收": {
+      "hanzi": "吸收",
+      "pinyin": "xīshōu",
+      "meaning": "hấp thu",
+      "example_zh": "植物会<u>吸收</u>阳光。",
+      "example_vi": "Thực vật sẽ <u>hấp thu</u> ánh nắng.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "吸收.svg",
+      "src": "images/HSK_2.0/level5/吸收.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/吸收.svg"
+      ]
+    },
+    "系": {
+      "hanzi": "系",
+      "pinyin": "xì",
+      "meaning": "khoa (trong trường đại học)",
+      "example_zh": "他在中文<u>系</u>学习。",
+      "example_vi": "Anh ấy học ở <u>khoa</u> Trung văn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "系.svg",
+      "src": "images/HSK_2.0/level5/系.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/系.svg"
+      ]
+    },
+    "细节": {
+      "hanzi": "细节",
+      "pinyin": "xìjié",
+      "meaning": "chi tiết",
+      "example_zh": "请注意这些<u>细节</u>。",
+      "example_vi": "Xin hãy chú ý những <u>chi tiết</u> này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "细节.svg",
+      "src": "images/HSK_2.0/level5/细节.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/细节.svg"
+      ]
+    },
+    "瞎": {
+      "hanzi": "瞎",
+      "pinyin": "xiā",
+      "meaning": "mù, mù quáng",
+      "example_zh": "他一只眼睛<u>瞎</u>了。",
+      "example_vi": "Một mắt của anh ấy đã <u>mù</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "瞎.svg",
+      "src": "images/HSK_2.0/level5/瞎.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/瞎.svg",
+        "images/HSK_3.0/level8/瞎.svg",
+        "images/HSK_3.0/level9/瞎.svg"
+      ]
+    },
+    "鲜艳": {
+      "hanzi": "鲜艳",
+      "pinyin": "xiānyàn",
+      "meaning": "rực rỡ, tươi sáng",
+      "example_zh": "花园里的花很<u>鲜艳</u>。",
+      "example_vi": "Hoa trong vườn rất <u>rực rỡ</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "鲜艳.svg",
+      "src": "images/HSK_2.0/level5/鲜艳.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/鲜艳.svg"
+      ]
+    },
+    "显得": {
+      "hanzi": "显得",
+      "pinyin": "xiǎnde",
+      "meaning": "trông có vẻ, tỏ ra",
+      "example_zh": "他<u>显得</u>很紧张。",
+      "example_vi": "Anh ấy <u>trông có vẻ</u> rất căng thẳng.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "显得.svg",
+      "src": "images/HSK_2.0/level5/显得.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/显得.svg"
+      ]
+    },
+    "显示": {
+      "hanzi": "显示",
+      "pinyin": "xiǎnshì",
+      "meaning": "hiển thị, thể hiện",
+      "example_zh": "屏幕<u>显示</u>了结果。",
+      "example_vi": "Màn hình <u>hiển thị</u> kết quả.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "显示.svg",
+      "src": "images/HSK_2.0/level5/显示.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/显示.svg"
       ]
     }
   }
