@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:15:27.407165",
-  "total_unique_words_with_illustrations": 2123,
-  "total_flat_svg_files": 2123,
+  "generated_at": "2026-10-09T20:17:31.859269",
+  "total_unique_words_with_illustrations": 2133,
+  "total_flat_svg_files": 2133,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,13 +26,13 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 924,
-        "pct": "71.1%"
+        "with_svg": 934,
+        "pct": "71.8%"
       },
       "level6": {
         "total": 2500,
-        "with_svg": 448,
-        "pct": "17.9%"
+        "with_svg": 454,
+        "pct": "18.2%"
       }
     },
     "hsk_3_0": {
@@ -53,32 +53,32 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 577,
-        "pct": "57.7%"
+        "with_svg": 578,
+        "pct": "57.8%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 628,
-        "pct": "39.2%"
+        "with_svg": 632,
+        "pct": "39.5%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 176,
-        "pct": "9.8%"
+        "with_svg": 180,
+        "pct": "10.0%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 74,
+        "with_svg": 75,
         "pct": "1.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 74,
+        "with_svg": 75,
         "pct": "1.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 74,
+        "with_svg": 75,
         "pct": "1.3%"
       }
     }
@@ -39098,6 +39098,202 @@
       "alt_srcs": [
         "images/HSK_2.0/level6/可靠.svg",
         "images/HSK_3.0/level5/可靠.svg"
+      ]
+    },
+    "课程": {
+      "hanzi": "课程",
+      "pinyin": "kèchéng",
+      "meaning": "khóa học, chương trình học",
+      "example_zh": "这是大学的<u>课程</u>。",
+      "example_vi": "Đây là <u>khóa học</u> của đại học.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "课程.svg",
+      "src": "images/HSK_2.0/level5/课程.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/课程.svg"
+      ]
+    },
+    "克服": {
+      "hanzi": "克服",
+      "pinyin": "kèfú",
+      "meaning": "khắc phục",
+      "example_zh": "他<u>克服</u>了很多困难。",
+      "example_vi": "Anh ấy đã <u>khắc phục</u> nhiều khó khăn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "克服.svg",
+      "src": "images/HSK_2.0/level5/克服.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/克服.svg"
+      ]
+    },
+    "刻苦": {
+      "hanzi": "刻苦",
+      "pinyin": "kèkǔ",
+      "meaning": "chịu khó, khắc khổ",
+      "example_zh": "他学习很<u>刻苦</u>。",
+      "example_vi": "Anh ấy học rất <u>chịu khó</u>.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "刻苦.svg",
+      "src": "images/HSK_2.0/level5/刻苦.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/刻苦.svg",
+        "images/HSK_3.0/level7/刻苦.svg",
+        "images/HSK_3.0/level8/刻苦.svg",
+        "images/HSK_3.0/level9/刻苦.svg"
+      ]
+    },
+    "空间": {
+      "hanzi": "空间",
+      "pinyin": "kōngjiān",
+      "meaning": "không gian",
+      "example_zh": "我需要一些个人<u>空间</u>。",
+      "example_vi": "Tôi cần một chút <u>không gian</u> riêng.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "空间.svg",
+      "src": "images/HSK_2.0/level5/空间.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/空间.svg"
+      ]
+    },
+    "空闲": {
+      "hanzi": "空闲",
+      "pinyin": "kòngxián",
+      "meaning": "rảnh rỗi",
+      "example_zh": "他今天比较<u>空闲</u>。",
+      "example_vi": "Hôm nay anh ấy tương đối <u>rảnh rỗi</u>.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "空闲.svg",
+      "src": "images/HSK_2.0/level5/空闲.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/空闲.svg",
+        "images/HSK_3.0/level6/空闲.svg"
+      ]
+    },
+    "夸张": {
+      "hanzi": "夸张",
+      "pinyin": "kuāzhāng",
+      "meaning": "phô trương, khoa trương",
+      "example_zh": "他喜欢<u>夸张</u>地表演。",
+      "example_vi": "Anh ấy thích biểu diễn một cách <u>phô trương</u>.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "夸张.svg",
+      "src": "images/HSK_2.0/level5/夸张.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/夸张.svg",
+        "images/HSK_3.0/level6/夸张.svg"
+      ]
+    },
+    "会计": {
+      "hanzi": "会计",
+      "pinyin": "kuàijì",
+      "meaning": "kế toán",
+      "example_zh": "她是公司的<u>会计</u>。",
+      "example_vi": "Cô ấy là <u>kế toán</u> của công ty.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "会计.svg",
+      "src": "images/HSK_2.0/level5/会计.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/会计.svg",
+        "images/HSK_3.0/level6/会计.svg"
+      ]
+    },
+    "宽": {
+      "hanzi": "宽",
+      "pinyin": "kuān",
+      "meaning": "rộng",
+      "example_zh": "这条河很<u>宽</u>。",
+      "example_vi": "Con sông này rất <u>rộng</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "宽.svg",
+      "src": "images/HSK_2.0/level5/宽.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/宽.svg"
+      ]
+    },
+    "昆虫": {
+      "hanzi": "昆虫",
+      "pinyin": "kūnchóng",
+      "meaning": "côn trùng",
+      "example_zh": "草地上有很多<u>昆虫</u>。",
+      "example_vi": "Trên bãi cỏ có nhiều <u>côn trùng</u>.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "昆虫.svg",
+      "src": "images/HSK_2.0/level5/昆虫.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/昆虫.svg",
+        "images/HSK_3.0/level5/昆虫.svg"
+      ]
+    },
+    "拦": {
+      "hanzi": "拦",
+      "pinyin": "lán",
+      "meaning": "chặn, ngăn",
+      "example_zh": "请<u>拦</u>住那辆车。",
+      "example_vi": "Xin hãy <u>chặn</u> lại chiếc xe đó.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "拦.svg",
+      "src": "images/HSK_2.0/level5/拦.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/拦.svg",
+        "images/HSK_3.0/level6/拦.svg"
       ]
     },
     "秘书": {

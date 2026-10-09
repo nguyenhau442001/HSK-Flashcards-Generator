@@ -10887,6 +10887,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/可靠.svg",
     "caption": "đáng tin cậy"
   },
+  "课程": {
+    "file": "课程.svg",
+    "src": "images/HSK_2.0/level5/课程.svg",
+    "caption": "khóa học, chương trình học"
+  },
+  "克服": {
+    "file": "克服.svg",
+    "src": "images/HSK_2.0/level5/克服.svg",
+    "caption": "khắc phục"
+  },
+  "刻苦": {
+    "file": "刻苦.svg",
+    "src": "images/HSK_2.0/level5/刻苦.svg",
+    "caption": "chịu khó, khắc khổ"
+  },
+  "空间": {
+    "file": "空间.svg",
+    "src": "images/HSK_2.0/level5/空间.svg",
+    "caption": "không gian"
+  },
+  "空闲": {
+    "file": "空闲.svg",
+    "src": "images/HSK_2.0/level5/空闲.svg",
+    "caption": "rảnh rỗi"
+  },
+  "夸张": {
+    "file": "夸张.svg",
+    "src": "images/HSK_2.0/level5/夸张.svg",
+    "caption": "phô trương, khoa trương"
+  },
+  "会计": {
+    "file": "会计.svg",
+    "src": "images/HSK_2.0/level5/会计.svg",
+    "caption": "kế toán"
+  },
+  "宽": {
+    "file": "宽.svg",
+    "src": "images/HSK_2.0/level5/宽.svg",
+    "caption": "rộng"
+  },
+  "昆虫": {
+    "file": "昆虫.svg",
+    "src": "images/HSK_2.0/level5/昆虫.svg",
+    "caption": "côn trùng"
+  },
+  "拦": {
+    "file": "拦.svg",
+    "src": "images/HSK_2.0/level5/拦.svg",
+    "caption": "chặn, ngăn"
+  },
   "秘书": {
     "file": "秘书.svg",
     "src": "images/HSK_2.0/level5/秘书.svg",
