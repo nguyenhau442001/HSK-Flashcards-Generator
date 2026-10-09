@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:57:15.756824",
-  "total_unique_words_with_illustrations": 2323,
-  "total_flat_svg_files": 2323,
+  "generated_at": "2026-10-09T20:59:18.409928",
+  "total_unique_words_with_illustrations": 2333,
+  "total_flat_svg_files": 2333,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1124,
-        "pct": "86.5%"
+        "with_svg": 1134,
+        "pct": "87.2%"
       },
       "level6": {
         "total": 2500,
@@ -58,12 +58,12 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 752,
-        "pct": "47.0%"
+        "with_svg": 761,
+        "pct": "47.6%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 212,
+        "with_svg": 213,
         "pct": "11.8%"
       },
       "level7": {
@@ -42880,6 +42880,186 @@
       "src": "images/HSK_2.0/level5/王子.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/王子.svg"
+      ]
+    },
+    "往返": {
+      "hanzi": "往返",
+      "pinyin": "wǎngfǎn",
+      "meaning": "đi lại, khứ hồi",
+      "example_zh": "我买了一张<u>往返</u>票。",
+      "example_vi": "Tôi đã mua một tấm vé <u>khứ hồi</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "往返.svg",
+      "src": "images/HSK_2.0/level5/往返.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/往返.svg"
+      ]
+    },
+    "网络": {
+      "hanzi": "网络",
+      "pinyin": "wǎngluò",
+      "meaning": "mạng, internet",
+      "example_zh": "现在<u>网络</u>很方便。",
+      "example_vi": "Hiện nay <u>mạng</u> rất tiện lợi.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "网络.svg",
+      "src": "images/HSK_2.0/level5/网络.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/网络.svg"
+      ]
+    },
+    "危害": {
+      "hanzi": "危害",
+      "pinyin": "wēihài",
+      "meaning": "gây hại, tổn hại",
+      "example_zh": "污染<u>危害</u>了我们的健康。",
+      "example_vi": "Ô nhiễm đã <u>gây hại</u> sức khỏe của chúng ta.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "危害.svg",
+      "src": "images/HSK_2.0/level5/危害.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/危害.svg"
+      ]
+    },
+    "微笑": {
+      "hanzi": "微笑",
+      "pinyin": "wēixiào",
+      "meaning": "mỉm cười",
+      "example_zh": "她对我<u>微笑</u>了一下。",
+      "example_vi": "Cô ấy đã <u>mỉm cười</u> với tôi một chút.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "微笑.svg",
+      "src": "images/HSK_2.0/level5/微笑.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/微笑.svg"
+      ]
+    },
+    "违反": {
+      "hanzi": "违反",
+      "pinyin": "wéifǎn",
+      "meaning": "vi phạm",
+      "example_zh": "他<u>违反</u>了规定。",
+      "example_vi": "Anh ấy đã <u>vi phạm</u> quy định.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "违反.svg",
+      "src": "images/HSK_2.0/level5/违反.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/违反.svg"
+      ]
+    },
+    "围巾": {
+      "hanzi": "围巾",
+      "pinyin": "wéijīn",
+      "meaning": "khăn quàng cổ",
+      "example_zh": "她戴着一条<u>围巾</u>。",
+      "example_vi": "Cô ấy đang đeo một cái <u>khăn quàng cổ</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "围巾.svg",
+      "src": "images/HSK_2.0/level5/围巾.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/围巾.svg"
+      ]
+    },
+    "唯一": {
+      "hanzi": "唯一",
+      "pinyin": "wéiyī",
+      "meaning": "duy nhất",
+      "example_zh": "这是<u>唯一</u>的办法。",
+      "example_vi": "Đây là cách <u>duy nhất</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "唯一.svg",
+      "src": "images/HSK_2.0/level5/唯一.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/唯一.svg"
+      ]
+    },
+    "伟大": {
+      "hanzi": "伟大",
+      "pinyin": "wěidà",
+      "meaning": "vĩ đại",
+      "example_zh": "他是一位<u>伟大</u>的科学家。",
+      "example_vi": "Anh ấy là một nhà khoa học <u>vĩ đại</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "伟大.svg",
+      "src": "images/HSK_2.0/level5/伟大.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/伟大.svg"
+      ]
+    },
+    "胃口": {
+      "hanzi": "胃口",
+      "pinyin": "wèikǒu",
+      "meaning": "khẩu vị, sự thèm ăn",
+      "example_zh": "今天我<u>胃口</u>不好。",
+      "example_vi": "Hôm nay <u>khẩu vị</u> của tôi không tốt.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "胃口.svg",
+      "src": "images/HSK_2.0/level5/胃口.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/胃口.svg"
+      ]
+    },
+    "位置": {
+      "hanzi": "位置",
+      "pinyin": "wèizhì",
+      "meaning": "vị trí",
+      "example_zh": "请找到正确的<u>位置</u>。",
+      "example_vi": "Xin hãy tìm đúng <u>vị trí</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "位置.svg",
+      "src": "images/HSK_2.0/level5/位置.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/位置.svg"
       ]
     },
     "屋子": {

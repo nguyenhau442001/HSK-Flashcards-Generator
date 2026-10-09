@@ -11912,6 +11912,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/王子.svg",
     "caption": "hoàng tử"
   },
+  "往返": {
+    "file": "往返.svg",
+    "src": "images/HSK_2.0/level5/往返.svg",
+    "caption": "đi lại, khứ hồi"
+  },
+  "网络": {
+    "file": "网络.svg",
+    "src": "images/HSK_2.0/level5/网络.svg",
+    "caption": "mạng, internet"
+  },
+  "危害": {
+    "file": "危害.svg",
+    "src": "images/HSK_2.0/level5/危害.svg",
+    "caption": "gây hại, tổn hại"
+  },
+  "微笑": {
+    "file": "微笑.svg",
+    "src": "images/HSK_2.0/level5/微笑.svg",
+    "caption": "mỉm cười"
+  },
+  "违反": {
+    "file": "违反.svg",
+    "src": "images/HSK_2.0/level5/违反.svg",
+    "caption": "vi phạm"
+  },
+  "围巾": {
+    "file": "围巾.svg",
+    "src": "images/HSK_2.0/level5/围巾.svg",
+    "caption": "khăn quàng cổ"
+  },
+  "唯一": {
+    "file": "唯一.svg",
+    "src": "images/HSK_2.0/level5/唯一.svg",
+    "caption": "duy nhất"
+  },
+  "伟大": {
+    "file": "伟大.svg",
+    "src": "images/HSK_2.0/level5/伟大.svg",
+    "caption": "vĩ đại"
+  },
+  "胃口": {
+    "file": "胃口.svg",
+    "src": "images/HSK_2.0/level5/胃口.svg",
+    "caption": "khẩu vị, sự thèm ăn"
+  },
+  "位置": {
+    "file": "位置.svg",
+    "src": "images/HSK_2.0/level5/位置.svg",
+    "caption": "vị trí"
+  },
   "屋子": {
     "file": "屋子.svg",
     "src": "images/HSK_2.0/level5/屋子.svg",
