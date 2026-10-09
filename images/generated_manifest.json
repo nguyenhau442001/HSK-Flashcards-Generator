@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:21:33.602040",
-  "total_unique_words_with_illustrations": 2153,
-  "total_flat_svg_files": 2153,
+  "generated_at": "2026-10-09T20:23:38.081965",
+  "total_unique_words_with_illustrations": 2163,
+  "total_flat_svg_files": 2163,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,12 +26,12 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 954,
-        "pct": "73.4%"
+        "with_svg": 964,
+        "pct": "74.2%"
       },
       "level6": {
         "total": 2500,
-        "with_svg": 464,
+        "with_svg": 466,
         "pct": "18.6%"
       }
     },
@@ -53,32 +53,32 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 579,
-        "pct": "57.9%"
+        "with_svg": 581,
+        "pct": "58.1%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 646,
-        "pct": "40.4%"
+        "with_svg": 651,
+        "pct": "40.7%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 183,
+        "with_svg": 184,
         "pct": "10.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 77,
+        "with_svg": 78,
         "pct": "1.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 77,
+        "with_svg": 78,
         "pct": "1.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 77,
+        "with_svg": 78,
         "pct": "1.4%"
       }
     }
@@ -39682,6 +39682,190 @@
       "src": "images/HSK_2.0/level5/亮.svg",
       "alt_srcs": [
         "images/HSK_3.0/level4/亮.svg"
+      ]
+    },
+    "铃": {
+      "hanzi": "铃",
+      "pinyin": "líng",
+      "meaning": "cái chuông",
+      "example_zh": "电话<u>铃</u>响了。",
+      "example_vi": "<u>Chuông</u> điện thoại đã reo.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "铃.svg",
+      "src": "images/HSK_2.0/level5/铃.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/铃.svg"
+      ]
+    },
+    "零件": {
+      "hanzi": "零件",
+      "pinyin": "língjiàn",
+      "meaning": "linh kiện, phụ tùng",
+      "example_zh": "这台机器需要新<u>零件</u>。",
+      "example_vi": "Cái máy này cần <u>linh kiện</u> mới.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "零件.svg",
+      "src": "images/HSK_2.0/level5/零件.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/零件.svg",
+        "images/HSK_3.0/level7/零件.svg",
+        "images/HSK_3.0/level8/零件.svg",
+        "images/HSK_3.0/level9/零件.svg"
+      ]
+    },
+    "零食": {
+      "hanzi": "零食",
+      "pinyin": "língshí",
+      "meaning": "đồ ăn vặt",
+      "example_zh": "孩子喜欢吃<u>零食</u>。",
+      "example_vi": "Trẻ em thích ăn <u>đồ ăn vặt</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "零食.svg",
+      "src": "images/HSK_2.0/level5/零食.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/零食.svg"
+      ]
+    },
+    "领导": {
+      "hanzi": "领导",
+      "pinyin": "lǐngdǎo",
+      "meaning": "lãnh đạo",
+      "example_zh": "他是公司的<u>领导</u>。",
+      "example_vi": "Anh ấy là <u>lãnh đạo</u> của công ty.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "领导.svg",
+      "src": "images/HSK_2.0/level5/领导.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/领导.svg"
+      ]
+    },
+    "流泪": {
+      "hanzi": "流泪",
+      "pinyin": "liúlèi",
+      "meaning": "rơi lệ, chảy nước mắt",
+      "example_zh": "她伤心地<u>流泪</u>。",
+      "example_vi": "Cô ấy buồn bã <u>rơi lệ</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [],
+      "file": "流泪.svg",
+      "src": "images/HSK_2.0/level5/流泪.svg",
+      "alt_srcs": []
+    },
+    "陆续": {
+      "hanzi": "陆续",
+      "pinyin": "lùxù",
+      "meaning": "lần lượt, liên tiếp",
+      "example_zh": "客人<u>陆续</u>到了。",
+      "example_vi": "Khách <u>lần lượt</u> đến.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "陆续.svg",
+      "src": "images/HSK_2.0/level5/陆续.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/陆续.svg",
+        "images/HSK_3.0/level5/陆续.svg"
+      ]
+    },
+    "录音": {
+      "hanzi": "录音",
+      "pinyin": "lùyīn",
+      "meaning": "ghi âm",
+      "example_zh": "请<u>录音</u>保存证据。",
+      "example_vi": "Xin hãy <u>ghi âm</u> lưu giữ chứng cứ.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "录音.svg",
+      "src": "images/HSK_2.0/level5/录音.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/录音.svg"
+      ]
+    },
+    "轮流": {
+      "hanzi": "轮流",
+      "pinyin": "lúnliú",
+      "meaning": "lần lượt, thay phiên",
+      "example_zh": "大家<u>轮流</u>发言。",
+      "example_vi": "Mọi người <u>thay phiên</u> phát biểu.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "轮流.svg",
+      "src": "images/HSK_2.0/level5/轮流.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/轮流.svg"
+      ]
+    },
+    "逻辑": {
+      "hanzi": "逻辑",
+      "pinyin": "luójí",
+      "meaning": "logic",
+      "example_zh": "这个推理很有<u>逻辑</u>。",
+      "example_vi": "Suy luận này rất có <u>logic</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "逻辑.svg",
+      "src": "images/HSK_2.0/level5/逻辑.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/逻辑.svg"
+      ]
+    },
+    "馒头": {
+      "hanzi": "馒头",
+      "pinyin": "mántou",
+      "meaning": "bánh bao (không nhân)",
+      "example_zh": "早上我喜欢吃<u>馒头</u>。",
+      "example_vi": "Buổi sáng tôi thích ăn <u>bánh bao</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "馒头.svg",
+      "src": "images/HSK_2.0/level5/馒头.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/馒头.svg"
       ]
     },
     "秘书": {

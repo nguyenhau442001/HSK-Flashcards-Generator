@@ -11037,6 +11037,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/亮.svg",
     "caption": "sáng"
   },
+  "铃": {
+    "file": "铃.svg",
+    "src": "images/HSK_2.0/level5/铃.svg",
+    "caption": "cái chuông"
+  },
+  "零件": {
+    "file": "零件.svg",
+    "src": "images/HSK_2.0/level5/零件.svg",
+    "caption": "linh kiện, phụ tùng"
+  },
+  "零食": {
+    "file": "零食.svg",
+    "src": "images/HSK_2.0/level5/零食.svg",
+    "caption": "đồ ăn vặt"
+  },
+  "领导": {
+    "file": "领导.svg",
+    "src": "images/HSK_2.0/level5/领导.svg",
+    "caption": "lãnh đạo"
+  },
+  "流泪": {
+    "file": "流泪.svg",
+    "src": "images/HSK_2.0/level5/流泪.svg",
+    "caption": "rơi lệ, chảy nước mắt"
+  },
+  "陆续": {
+    "file": "陆续.svg",
+    "src": "images/HSK_2.0/level5/陆续.svg",
+    "caption": "lần lượt, liên tiếp"
+  },
+  "录音": {
+    "file": "录音.svg",
+    "src": "images/HSK_2.0/level5/录音.svg",
+    "caption": "ghi âm"
+  },
+  "轮流": {
+    "file": "轮流.svg",
+    "src": "images/HSK_2.0/level5/轮流.svg",
+    "caption": "lần lượt, thay phiên"
+  },
+  "逻辑": {
+    "file": "逻辑.svg",
+    "src": "images/HSK_2.0/level5/逻辑.svg",
+    "caption": "logic"
+  },
+  "馒头": {
+    "file": "馒头.svg",
+    "src": "images/HSK_2.0/level5/馒头.svg",
+    "caption": "bánh bao (không nhân)"
+  },
   "秘书": {
     "file": "秘书.svg",
     "src": "images/HSK_2.0/level5/秘书.svg",
