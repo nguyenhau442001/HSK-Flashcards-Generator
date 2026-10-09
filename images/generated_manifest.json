@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:27:44.501207",
-  "total_unique_words_with_illustrations": 2183,
-  "total_flat_svg_files": 2183,
+  "generated_at": "2026-10-09T20:30:35.719092",
+  "total_unique_words_with_illustrations": 2193,
+  "total_flat_svg_files": 2193,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 984,
-        "pct": "75.7%"
+        "with_svg": 994,
+        "pct": "76.5%"
       },
       "level6": {
         "total": 2500,
@@ -53,18 +53,18 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 583,
-        "pct": "58.3%"
+        "with_svg": 585,
+        "pct": "58.5%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 662,
-        "pct": "41.4%"
+        "with_svg": 669,
+        "pct": "41.8%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 188,
-        "pct": "10.4%"
+        "with_svg": 189,
+        "pct": "10.5%"
       },
       "level7": {
         "total": 5600,
@@ -40248,6 +40248,186 @@
         "images/HSK_3.0/level7/难怪.svg",
         "images/HSK_3.0/level8/难怪.svg",
         "images/HSK_3.0/level9/难怪.svg"
+      ]
+    },
+    "内部": {
+      "hanzi": "内部",
+      "pinyin": "nèibù",
+      "meaning": "nội bộ, bên trong",
+      "example_zh": "这是公司的<u>内部</u>消息。",
+      "example_vi": "Đây là tin tức <u>nội bộ</u> của công ty.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "内部.svg",
+      "src": "images/HSK_2.0/level5/内部.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/内部.svg"
+      ]
+    },
+    "嗯": {
+      "hanzi": "嗯",
+      "pinyin": "ńg",
+      "meaning": "ừ, vâng (thán từ)",
+      "example_zh": "<u>嗯</u>，我明白了。",
+      "example_vi": "<u>Ừ</u>, tôi đã hiểu rồi.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "嗯.svg",
+      "src": "images/HSK_2.0/level5/嗯.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/嗯.svg"
+      ]
+    },
+    "念": {
+      "hanzi": "念",
+      "pinyin": "niàn",
+      "meaning": "đọc, niệm",
+      "example_zh": "他在<u>念</u>课文。",
+      "example_vi": "Anh ấy đang <u>đọc</u> bài văn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "念.svg",
+      "src": "images/HSK_2.0/level5/念.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/念.svg"
+      ]
+    },
+    "浓": {
+      "hanzi": "浓",
+      "pinyin": "nóng",
+      "meaning": "đậm, đặc",
+      "example_zh": "这杯茶味道很<u>浓</u>。",
+      "example_vi": "Mùi vị trà này rất <u>đậm</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "浓.svg",
+      "src": "images/HSK_2.0/level5/浓.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/浓.svg"
+      ]
+    },
+    "农民": {
+      "hanzi": "农民",
+      "pinyin": "nóngmín",
+      "meaning": "nông dân",
+      "example_zh": "他的爸爸是<u>农民</u>。",
+      "example_vi": "Bố của anh ấy là <u>nông dân</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "农民.svg",
+      "src": "images/HSK_2.0/level5/农民.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/农民.svg"
+      ]
+    },
+    "欧洲": {
+      "hanzi": "欧洲",
+      "pinyin": "Ōuzhōu",
+      "meaning": "châu Âu",
+      "example_zh": "他去<u>欧洲</u>旅行了。",
+      "example_vi": "Anh ấy đã đi du lịch <u>châu Âu</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "欧洲.svg",
+      "src": "images/HSK_2.0/level5/欧洲.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/欧洲.svg"
+      ]
+    },
+    "偶然": {
+      "hanzi": "偶然",
+      "pinyin": "ǒurán",
+      "meaning": "ngẫu nhiên, bất ngờ",
+      "example_zh": "这是一次<u>偶然</u>的相遇。",
+      "example_vi": "Đây là một lần gặp gỡ <u>ngẫu nhiên</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "偶然.svg",
+      "src": "images/HSK_2.0/level5/偶然.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/偶然.svg"
+      ]
+    },
+    "拍": {
+      "hanzi": "拍",
+      "pinyin": "pāi",
+      "meaning": "đập, chụp (ảnh)",
+      "example_zh": "他<u>拍</u>了很多照片。",
+      "example_vi": "Anh ấy đã <u>chụp</u> nhiều tấm ảnh.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "拍.svg",
+      "src": "images/HSK_2.0/level5/拍.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/拍.svg"
+      ]
+    },
+    "盼望": {
+      "hanzi": "盼望",
+      "pinyin": "pànwàng",
+      "meaning": "mong đợi, trông mong",
+      "example_zh": "我们都<u>盼望</u>和平。",
+      "example_vi": "Chúng tôi đều <u>mong đợi</u> hòa bình.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "盼望.svg",
+      "src": "images/HSK_2.0/level5/盼望.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/盼望.svg"
+      ]
+    },
+    "培训": {
+      "hanzi": "培训",
+      "pinyin": "péixùn",
+      "meaning": "đào tạo, huấn luyện",
+      "example_zh": "公司给员工提供<u>培训</u>。",
+      "example_vi": "Công ty cung cấp <u>đào tạo</u> cho nhân viên.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "培训.svg",
+      "src": "images/HSK_2.0/level5/培训.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/培训.svg"
       ]
     },
     "批准": {

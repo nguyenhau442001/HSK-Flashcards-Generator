@@ -11192,6 +11192,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/难怪.svg",
     "caption": "chẳng trách, không lạ gì"
   },
+  "内部": {
+    "file": "内部.svg",
+    "src": "images/HSK_2.0/level5/内部.svg",
+    "caption": "nội bộ, bên trong"
+  },
+  "嗯": {
+    "file": "嗯.svg",
+    "src": "images/HSK_2.0/level5/嗯.svg",
+    "caption": "ừ, vâng (thán từ)"
+  },
+  "念": {
+    "file": "念.svg",
+    "src": "images/HSK_2.0/level5/念.svg",
+    "caption": "đọc, niệm"
+  },
+  "浓": {
+    "file": "浓.svg",
+    "src": "images/HSK_2.0/level5/浓.svg",
+    "caption": "đậm, đặc"
+  },
+  "农民": {
+    "file": "农民.svg",
+    "src": "images/HSK_2.0/level5/农民.svg",
+    "caption": "nông dân"
+  },
+  "欧洲": {
+    "file": "欧洲.svg",
+    "src": "images/HSK_2.0/level5/欧洲.svg",
+    "caption": "châu Âu"
+  },
+  "偶然": {
+    "file": "偶然.svg",
+    "src": "images/HSK_2.0/level5/偶然.svg",
+    "caption": "ngẫu nhiên, bất ngờ"
+  },
+  "拍": {
+    "file": "拍.svg",
+    "src": "images/HSK_2.0/level5/拍.svg",
+    "caption": "đập, chụp (ảnh)"
+  },
+  "盼望": {
+    "file": "盼望.svg",
+    "src": "images/HSK_2.0/level5/盼望.svg",
+    "caption": "mong đợi, trông mong"
+  },
+  "培训": {
+    "file": "培训.svg",
+    "src": "images/HSK_2.0/level5/培训.svg",
+    "caption": "đào tạo, huấn luyện"
+  },
   "批准": {
     "file": "批准.svg",
     "src": "images/HSK_2.0/level5/批准.svg",
