@@ -11497,6 +11497,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/色彩.svg",
     "caption": "màu sắc, sắc thái"
   },
+  "杀": {
+    "file": "杀.svg",
+    "src": "images/HSK_2.0/level5/杀.svg",
+    "caption": "giết"
+  },
+  "沙漠": {
+    "file": "沙漠.svg",
+    "src": "images/HSK_2.0/level5/沙漠.svg",
+    "caption": "sa mạc"
+  },
+  "傻": {
+    "file": "傻.svg",
+    "src": "images/HSK_2.0/level5/傻.svg",
+    "caption": "ngốc, ngu ngơ"
+  },
+  "删除": {
+    "file": "删除.svg",
+    "src": "images/HSK_2.0/level5/删除.svg",
+    "caption": "xóa, xóa bỏ"
+  },
+  "善良": {
+    "file": "善良.svg",
+    "src": "images/HSK_2.0/level5/善良.svg",
+    "caption": "hiền lành, tốt bụng"
+  },
+  "扇子": {
+    "file": "扇子.svg",
+    "src": "images/HSK_2.0/level5/扇子.svg",
+    "caption": "cái quạt"
+  },
+  "商业": {
+    "file": "商业.svg",
+    "src": "images/HSK_2.0/level5/商业.svg",
+    "caption": "thương nghiệp, kinh doanh"
+  },
+  "上当": {
+    "file": "上当.svg",
+    "src": "images/HSK_2.0/level5/上当.svg",
+    "caption": "bị lừa, mắc lừa"
+  },
+  "蛇": {
+    "file": "蛇.svg",
+    "src": "images/HSK_2.0/level5/蛇.svg",
+    "caption": "con rắn"
+  },
+  "设备": {
+    "file": "设备.svg",
+    "src": "images/HSK_2.0/level5/设备.svg",
+    "caption": "thiết bị"
+  },
   "挑战": {
     "file": "挑战.svg",
     "src": "images/HSK_2.0/level5/挑战.svg",

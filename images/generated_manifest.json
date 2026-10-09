@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:41:07.131281",
-  "total_unique_words_with_illustrations": 2243,
-  "total_flat_svg_files": 2243,
+  "generated_at": "2026-10-09T20:43:09.880501",
+  "total_unique_words_with_illustrations": 2253,
+  "total_flat_svg_files": 2253,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1044,
-        "pct": "80.3%"
+        "with_svg": 1054,
+        "pct": "81.1%"
       },
       "level6": {
         "total": 2500,
@@ -58,13 +58,13 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 699,
-        "pct": "43.7%"
+        "with_svg": 707,
+        "pct": "44.2%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 200,
-        "pct": "11.1%"
+        "with_svg": 202,
+        "pct": "11.2%"
       },
       "level7": {
         "total": 5600,
@@ -41344,6 +41344,186 @@
       "src": "images/HSK_2.0/level5/色彩.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/色彩.svg"
+      ]
+    },
+    "杀": {
+      "hanzi": "杀",
+      "pinyin": "shā",
+      "meaning": "giết",
+      "example_zh": "他被<u>杀</u>害了。",
+      "example_vi": "Anh ấy đã bị <u>giết</u> hại.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "杀.svg",
+      "src": "images/HSK_2.0/level5/杀.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/杀.svg"
+      ]
+    },
+    "沙漠": {
+      "hanzi": "沙漠",
+      "pinyin": "shāmò",
+      "meaning": "sa mạc",
+      "example_zh": "他们穿过了<u>沙漠</u>。",
+      "example_vi": "Họ đã đi qua <u>sa mạc</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "沙漠.svg",
+      "src": "images/HSK_2.0/level5/沙漠.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/沙漠.svg"
+      ]
+    },
+    "傻": {
+      "hanzi": "傻",
+      "pinyin": "shǎ",
+      "meaning": "ngốc, ngu ngơ",
+      "example_zh": "他做了一件很<u>傻</u>的事。",
+      "example_vi": "Anh ấy đã làm một việc rất ngu <u>ngốc</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "傻.svg",
+      "src": "images/HSK_2.0/level5/傻.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/傻.svg"
+      ]
+    },
+    "删除": {
+      "hanzi": "删除",
+      "pinyin": "shānchú",
+      "meaning": "xóa, xóa bỏ",
+      "example_zh": "请<u>删除</u>这个文件。",
+      "example_vi": "Xin hãy <u>xóa</u> tệp này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "删除.svg",
+      "src": "images/HSK_2.0/level5/删除.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/删除.svg"
+      ]
+    },
+    "善良": {
+      "hanzi": "善良",
+      "pinyin": "shànliáng",
+      "meaning": "hiền lành, tốt bụng",
+      "example_zh": "他是一个<u>善良</u>的人。",
+      "example_vi": "Anh ấy là một người <u>tốt bụng</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "善良.svg",
+      "src": "images/HSK_2.0/level5/善良.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/善良.svg"
+      ]
+    },
+    "扇子": {
+      "hanzi": "扇子",
+      "pinyin": "shànzi",
+      "meaning": "cái quạt",
+      "example_zh": "她拿着一把<u>扇子</u>。",
+      "example_vi": "Cô ấy đang cầm một <u>cái quạt</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "扇子.svg",
+      "src": "images/HSK_2.0/level5/扇子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/扇子.svg"
+      ]
+    },
+    "商业": {
+      "hanzi": "商业",
+      "pinyin": "shāngyè",
+      "meaning": "thương nghiệp, kinh doanh",
+      "example_zh": "他在<u>商业</u>领域很成功。",
+      "example_vi": "Anh ấy rất thành công trong lĩnh vực <u>kinh doanh</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "商业.svg",
+      "src": "images/HSK_2.0/level5/商业.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/商业.svg"
+      ]
+    },
+    "上当": {
+      "hanzi": "上当",
+      "pinyin": "shàngdàng",
+      "meaning": "bị lừa, mắc lừa",
+      "example_zh": "他被骗<u>上当</u>了。",
+      "example_vi": "Anh ấy đã <u>bị lừa</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "上当.svg",
+      "src": "images/HSK_2.0/level5/上当.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/上当.svg"
+      ]
+    },
+    "蛇": {
+      "hanzi": "蛇",
+      "pinyin": "shé",
+      "meaning": "con rắn",
+      "example_zh": "森林里有一条<u>蛇</u>。",
+      "example_vi": "Trong rừng có một <u>con rắn</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "蛇.svg",
+      "src": "images/HSK_2.0/level5/蛇.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/蛇.svg"
+      ]
+    },
+    "设备": {
+      "hanzi": "设备",
+      "pinyin": "shèbèi",
+      "meaning": "thiết bị",
+      "example_zh": "工厂买了新<u>设备</u>。",
+      "example_vi": "Nhà máy đã mua <u>thiết bị</u> mới.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "设备.svg",
+      "src": "images/HSK_2.0/level5/设备.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/设备.svg"
       ]
     },
     "挑战": {
