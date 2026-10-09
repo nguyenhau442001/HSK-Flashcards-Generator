@@ -12216,6 +12216,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "宣传.svg",
     "src": "images/HSK_2.0/level5/宣传.svg",
     "caption": "tuyên truyền, quảng bá"
+  },
+  "学历": {
+    "file": "学历.svg",
+    "src": "images/HSK_2.0/level5/学历.svg",
+    "caption": "học lực, học vấn"
+  },
+  "学问": {
+    "file": "学问.svg",
+    "src": "images/HSK_2.0/level5/学问.svg",
+    "caption": "học thức, kiến thức"
+  },
+  "血": {
+    "file": "血.svg",
+    "src": "images/HSK_2.0/level5/血.svg",
+    "caption": "máu"
+  },
+  "寻找": {
+    "file": "寻找.svg",
+    "src": "images/HSK_2.0/level5/寻找.svg",
+    "caption": "tìm kiếm"
+  },
+  "迅速": {
+    "file": "迅速.svg",
+    "src": "images/HSK_2.0/level5/迅速.svg",
+    "caption": "nhanh chóng"
+  },
+  "延长": {
+    "file": "延长.svg",
+    "src": "images/HSK_2.0/level5/延长.svg",
+    "caption": "kéo dài"
+  },
+  "严肃": {
+    "file": "严肃.svg",
+    "src": "images/HSK_2.0/level5/严肃.svg",
+    "caption": "nghiêm túc"
+  },
+  "演讲": {
+    "file": "演讲.svg",
+    "src": "images/HSK_2.0/level5/演讲.svg",
+    "caption": "diễn thuyết"
+  },
+  "阳台": {
+    "file": "阳台.svg",
+    "src": "images/HSK_2.0/level5/阳台.svg",
+    "caption": "ban công"
+  },
+  "摇": {
+    "file": "摇.svg",
+    "src": "images/HSK_2.0/level5/摇.svg",
+    "caption": "lắc, rung"
   }
 };
 

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T21:10:24.877375",
-  "total_unique_words_with_illustrations": 2383,
-  "total_flat_svg_files": 2383,
+  "generated_at": "2026-10-09T21:12:35.286910",
+  "total_unique_words_with_illustrations": 2393,
+  "total_flat_svg_files": 2393,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1184,
-        "pct": "91.1%"
+        "with_svg": 1194,
+        "pct": "91.8%"
       },
       "level6": {
         "total": 2500,
@@ -53,17 +53,17 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 600,
-        "pct": "60.0%"
+        "with_svg": 601,
+        "pct": "60.1%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 796,
-        "pct": "49.8%"
+        "with_svg": 804,
+        "pct": "50.2%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 221,
+        "with_svg": 222,
         "pct": "12.3%"
       },
       "level7": {
@@ -43990,6 +43990,186 @@
       "src": "images/HSK_2.0/level5/宣传.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/宣传.svg"
+      ]
+    },
+    "学历": {
+      "hanzi": "学历",
+      "pinyin": "xuélì",
+      "meaning": "học lực, học vấn",
+      "example_zh": "他有很高的<u>学历</u>。",
+      "example_vi": "Anh ấy có <u>học lực</u> rất cao.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "学历.svg",
+      "src": "images/HSK_2.0/level5/学历.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/学历.svg"
+      ]
+    },
+    "学问": {
+      "hanzi": "学问",
+      "pinyin": "xuéwen",
+      "meaning": "học thức, kiến thức",
+      "example_zh": "他很有<u>学问</u>。",
+      "example_vi": "Anh ấy rất có <u>học thức</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "学问.svg",
+      "src": "images/HSK_2.0/level5/学问.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/学问.svg"
+      ]
+    },
+    "血": {
+      "hanzi": "血",
+      "pinyin": "xuè",
+      "meaning": "máu",
+      "example_zh": "他流了很多<u>血</u>。",
+      "example_vi": "Anh ấy đã mất nhiều <u>máu</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "血.svg",
+      "src": "images/HSK_2.0/level5/血.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/血.svg"
+      ]
+    },
+    "寻找": {
+      "hanzi": "寻找",
+      "pinyin": "xúnzhǎo",
+      "meaning": "tìm kiếm",
+      "example_zh": "我在<u>寻找</u>答案。",
+      "example_vi": "Tôi đang <u>tìm kiếm</u> câu trả lời.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "寻找.svg",
+      "src": "images/HSK_2.0/level5/寻找.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/寻找.svg"
+      ]
+    },
+    "迅速": {
+      "hanzi": "迅速",
+      "pinyin": "xùnsù",
+      "meaning": "nhanh chóng",
+      "example_zh": "情况发展得很<u>迅速</u>。",
+      "example_vi": "Tình hình phát triển rất <u>nhanh chóng</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "迅速.svg",
+      "src": "images/HSK_2.0/level5/迅速.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/迅速.svg"
+      ]
+    },
+    "延长": {
+      "hanzi": "延长",
+      "pinyin": "yáncháng",
+      "meaning": "kéo dài",
+      "example_zh": "请<u>延长</u>这个期限。",
+      "example_vi": "Xin hãy <u>kéo dài</u> thời hạn này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "延长.svg",
+      "src": "images/HSK_2.0/level5/延长.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/延长.svg"
+      ]
+    },
+    "严肃": {
+      "hanzi": "严肃",
+      "pinyin": "yánsù",
+      "meaning": "nghiêm túc",
+      "example_zh": "他对工作很<u>严肃</u>。",
+      "example_vi": "Anh ấy rất <u>nghiêm túc</u> với công việc.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "严肃.svg",
+      "src": "images/HSK_2.0/level5/严肃.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/严肃.svg"
+      ]
+    },
+    "演讲": {
+      "hanzi": "演讲",
+      "pinyin": "yǎnjiǎng",
+      "meaning": "diễn thuyết",
+      "example_zh": "他做了一次<u>演讲</u>。",
+      "example_vi": "Anh ấy đã làm một bài <u>diễn thuyết</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "演讲.svg",
+      "src": "images/HSK_2.0/level5/演讲.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/演讲.svg"
+      ]
+    },
+    "阳台": {
+      "hanzi": "阳台",
+      "pinyin": "yángtái",
+      "meaning": "ban công",
+      "example_zh": "我家有一个<u>阳台</u>。",
+      "example_vi": "Nhà tôi có một cái <u>ban công</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "阳台.svg",
+      "src": "images/HSK_2.0/level5/阳台.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/阳台.svg"
+      ]
+    },
+    "摇": {
+      "hanzi": "摇",
+      "pinyin": "yáo",
+      "meaning": "lắc, rung",
+      "example_zh": "船在水上<u>摇</u>晃。",
+      "example_vi": "Con thuyền <u>lắc</u> lư trên nước.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "摇.svg",
+      "src": "images/HSK_2.0/level5/摇.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/摇.svg"
       ]
     }
   }
