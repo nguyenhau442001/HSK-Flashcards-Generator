@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:49:16.180263",
-  "total_unique_words_with_illustrations": 2283,
-  "total_flat_svg_files": 2283,
+  "generated_at": "2026-10-09T20:51:12.305204",
+  "total_unique_words_with_illustrations": 2293,
+  "total_flat_svg_files": 2293,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1084,
-        "pct": "83.4%"
+        "with_svg": 1094,
+        "pct": "84.2%"
       },
       "level6": {
         "total": 2500,
@@ -53,13 +53,13 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 594,
-        "pct": "59.4%"
+        "with_svg": 595,
+        "pct": "59.5%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 727,
-        "pct": "45.4%"
+        "with_svg": 733,
+        "pct": "45.8%"
       },
       "level6": {
         "total": 1800,
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 85,
-        "pct": "1.5%"
+        "with_svg": 89,
+        "pct": "1.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 85,
-        "pct": "1.5%"
+        "with_svg": 89,
+        "pct": "1.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 85,
-        "pct": "1.5%"
+        "with_svg": 89,
+        "pct": "1.6%"
       }
     }
   },
@@ -42072,6 +42072,204 @@
       "src": "images/HSK_2.0/level5/舒适.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/舒适.svg"
+      ]
+    },
+    "梳子": {
+      "hanzi": "梳子",
+      "pinyin": "shūzi",
+      "meaning": "cái lược",
+      "example_zh": "请用<u>梳子</u>梳头。",
+      "example_vi": "Xin hãy dùng <u>lược</u> chải đầu.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "梳子.svg",
+      "src": "images/HSK_2.0/level5/梳子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/梳子.svg",
+        "images/HSK_3.0/level8/梳子.svg",
+        "images/HSK_3.0/level9/梳子.svg"
+      ]
+    },
+    "属于": {
+      "hanzi": "属于",
+      "pinyin": "shǔyú",
+      "meaning": "thuộc về",
+      "example_zh": "这本书<u>属于</u>图书馆。",
+      "example_vi": "Cuốn sách này <u>thuộc về</u> thư viện.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "属于.svg",
+      "src": "images/HSK_2.0/level5/属于.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/属于.svg"
+      ]
+    },
+    "数": {
+      "hanzi": "数",
+      "pinyin": "shǔ",
+      "meaning": "đếm, tính",
+      "example_zh": "请<u>数</u>一下人数。",
+      "example_vi": "Xin hãy <u>đếm</u> số người.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4",
+        "level5"
+      ],
+      "file": "数.svg",
+      "src": "images/HSK_2.0/level5/数.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/数.svg",
+        "images/HSK_3.0/level5/数.svg"
+      ]
+    },
+    "甩": {
+      "hanzi": "甩",
+      "pinyin": "shuǎi",
+      "meaning": "vứt bỏ, vẩy",
+      "example_zh": "他把头发<u>甩</u>了一下。",
+      "example_vi": "Anh ấy <u>vẩy</u> tóc một cái.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "甩.svg",
+      "src": "images/HSK_2.0/level5/甩.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/甩.svg",
+        "images/HSK_3.0/level8/甩.svg",
+        "images/HSK_3.0/level9/甩.svg"
+      ]
+    },
+    "说不定": {
+      "hanzi": "说不定",
+      "pinyin": "shuōbudìng",
+      "meaning": "không chắc, có lẽ",
+      "example_zh": "<u>说不定</u>他会来。",
+      "example_vi": "<u>Có lẽ</u> anh ấy sẽ đến.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "说不定.svg",
+      "src": "images/HSK_2.0/level5/说不定.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/说不定.svg"
+      ]
+    },
+    "撕": {
+      "hanzi": "撕",
+      "pinyin": "sī",
+      "meaning": "xé",
+      "example_zh": "他<u>撕</u>了那张纸。",
+      "example_vi": "Anh ấy đã <u>xé</u> tờ giấy đó.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "撕.svg",
+      "src": "images/HSK_2.0/level5/撕.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/撕.svg",
+        "images/HSK_3.0/level8/撕.svg",
+        "images/HSK_3.0/level9/撕.svg"
+      ]
+    },
+    "丝毫": {
+      "hanzi": "丝毫",
+      "pinyin": "sīháo",
+      "meaning": "một chút, mảy may",
+      "example_zh": "这<u>丝毫</u>不重要。",
+      "example_vi": "Điều này không quan trọng <u>mảy may</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "丝毫.svg",
+      "src": "images/HSK_2.0/level5/丝毫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/丝毫.svg",
+        "images/HSK_3.0/level8/丝毫.svg",
+        "images/HSK_3.0/level9/丝毫.svg"
+      ]
+    },
+    "思考": {
+      "hanzi": "思考",
+      "pinyin": "sīkǎo",
+      "meaning": "suy nghĩ, tư duy",
+      "example_zh": "请仔细<u>思考</u>这个问题。",
+      "example_vi": "Xin hãy <u>suy nghĩ</u> kỹ về vấn đề này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "思考.svg",
+      "src": "images/HSK_2.0/level5/思考.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/思考.svg"
+      ]
+    },
+    "私人": {
+      "hanzi": "私人",
+      "pinyin": "sīrén",
+      "meaning": "cá nhân, riêng tư",
+      "example_zh": "这是他的<u>私人</u>物品。",
+      "example_vi": "Đây là vật dụng <u>cá nhân</u> của anh ấy.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "私人.svg",
+      "src": "images/HSK_2.0/level5/私人.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/私人.svg"
+      ]
+    },
+    "搜索": {
+      "hanzi": "搜索",
+      "pinyin": "sōusuǒ",
+      "meaning": "tìm kiếm, tra cứu",
+      "example_zh": "请在网上<u>搜索</u>答案。",
+      "example_vi": "Xin hãy <u>tìm kiếm</u> câu trả lời trên mạng.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "搜索.svg",
+      "src": "images/HSK_2.0/level5/搜索.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/搜索.svg"
       ]
     },
     "挑战": {

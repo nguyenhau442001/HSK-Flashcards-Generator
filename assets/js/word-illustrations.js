@@ -11697,6 +11697,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/舒适.svg",
     "caption": "thoải mái, dễ chịu"
   },
+  "梳子": {
+    "file": "梳子.svg",
+    "src": "images/HSK_2.0/level5/梳子.svg",
+    "caption": "cái lược"
+  },
+  "属于": {
+    "file": "属于.svg",
+    "src": "images/HSK_2.0/level5/属于.svg",
+    "caption": "thuộc về"
+  },
+  "数": {
+    "file": "数.svg",
+    "src": "images/HSK_2.0/level5/数.svg",
+    "caption": "đếm, tính"
+  },
+  "甩": {
+    "file": "甩.svg",
+    "src": "images/HSK_2.0/level5/甩.svg",
+    "caption": "vứt bỏ, vẩy"
+  },
+  "说不定": {
+    "file": "说不定.svg",
+    "src": "images/HSK_2.0/level5/说不定.svg",
+    "caption": "không chắc, có lẽ"
+  },
+  "撕": {
+    "file": "撕.svg",
+    "src": "images/HSK_2.0/level5/撕.svg",
+    "caption": "xé"
+  },
+  "丝毫": {
+    "file": "丝毫.svg",
+    "src": "images/HSK_2.0/level5/丝毫.svg",
+    "caption": "một chút, mảy may"
+  },
+  "思考": {
+    "file": "思考.svg",
+    "src": "images/HSK_2.0/level5/思考.svg",
+    "caption": "suy nghĩ, tư duy"
+  },
+  "私人": {
+    "file": "私人.svg",
+    "src": "images/HSK_2.0/level5/私人.svg",
+    "caption": "cá nhân, riêng tư"
+  },
+  "搜索": {
+    "file": "搜索.svg",
+    "src": "images/HSK_2.0/level5/搜索.svg",
+    "caption": "tìm kiếm, tra cứu"
+  },
   "挑战": {
     "file": "挑战.svg",
     "src": "images/HSK_2.0/level5/挑战.svg",
