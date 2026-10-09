@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:32:43.479132",
-  "total_unique_words_with_illustrations": 2203,
-  "total_flat_svg_files": 2203,
+  "generated_at": "2026-10-09T20:34:48.267667",
+  "total_unique_words_with_illustrations": 2213,
+  "total_flat_svg_files": 2213,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1004,
-        "pct": "77.2%"
+        "with_svg": 1014,
+        "pct": "78.0%"
       },
       "level6": {
         "total": 2500,
@@ -58,13 +58,13 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 673,
-        "pct": "42.1%"
+        "with_svg": 680,
+        "pct": "42.5%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 193,
-        "pct": "10.7%"
+        "with_svg": 196,
+        "pct": "10.9%"
       },
       "level7": {
         "total": 5600,
@@ -40622,6 +40622,186 @@
       "src": "images/HSK_2.0/level5/凭.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/凭.svg"
+      ]
+    },
+    "平安": {
+      "hanzi": "平安",
+      "pinyin": "píngān",
+      "meaning": "bình an",
+      "example_zh": "祝你<u>平安</u>。",
+      "example_vi": "Chúc bạn <u>bình an</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "平安.svg",
+      "src": "images/HSK_2.0/level5/平安.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/平安.svg"
+      ]
+    },
+    "平等": {
+      "hanzi": "平等",
+      "pinyin": "píngděng",
+      "meaning": "bình đẳng",
+      "example_zh": "我们要追求<u>平等</u>。",
+      "example_vi": "Chúng ta phải theo đuổi sự <u>bình đẳng</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "平等.svg",
+      "src": "images/HSK_2.0/level5/平等.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/平等.svg"
+      ]
+    },
+    "平衡": {
+      "hanzi": "平衡",
+      "pinyin": "pínghéng",
+      "meaning": "cân bằng",
+      "example_zh": "请保持身体<u>平衡</u>。",
+      "example_vi": "Xin hãy giữ <u>thăng bằng</u> cơ thể.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "平衡.svg",
+      "src": "images/HSK_2.0/level5/平衡.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/平衡.svg"
+      ]
+    },
+    "平均": {
+      "hanzi": "平均",
+      "pinyin": "píngjūn",
+      "meaning": "trung bình, bình quân",
+      "example_zh": "他的<u>平均</u>成绩很高。",
+      "example_vi": "Thành tích <u>trung bình</u> của anh ấy rất cao.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "平均.svg",
+      "src": "images/HSK_2.0/level5/平均.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/平均.svg"
+      ]
+    },
+    "破产": {
+      "hanzi": "破产",
+      "pinyin": "pòchǎn",
+      "meaning": "phá sản",
+      "example_zh": "公司面临<u>破产</u>。",
+      "example_vi": "Công ty đang đối mặt <u>phá sản</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "破产.svg",
+      "src": "images/HSK_2.0/level5/破产.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/破产.svg"
+      ]
+    },
+    "迫切": {
+      "hanzi": "迫切",
+      "pinyin": "pòqiè",
+      "meaning": "cấp bách, khẩn thiết",
+      "example_zh": "这件事很<u>迫切</u>。",
+      "example_vi": "Việc này rất <u>cấp bách</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "迫切.svg",
+      "src": "images/HSK_2.0/level5/迫切.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/迫切.svg"
+      ]
+    },
+    "期间": {
+      "hanzi": "期间",
+      "pinyin": "qījiān",
+      "meaning": "thời gian, khoảng thời gian",
+      "example_zh": "在这<u>期间</u>，他一直在学习。",
+      "example_vi": "Trong <u>thời gian</u> này, anh ấy luôn học tập.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "期间.svg",
+      "src": "images/HSK_2.0/level5/期间.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/期间.svg"
+      ]
+    },
+    "其余": {
+      "hanzi": "其余",
+      "pinyin": "qíyú",
+      "meaning": "còn lại, phần còn lại",
+      "example_zh": "<u>其余</u>的事情交给我吧。",
+      "example_vi": "Việc <u>còn lại</u> giao cho tôi đi.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "其余.svg",
+      "src": "images/HSK_2.0/level5/其余.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/其余.svg"
+      ]
+    },
+    "企业": {
+      "hanzi": "企业",
+      "pinyin": "qǐyè",
+      "meaning": "doanh nghiệp",
+      "example_zh": "他开了一家小<u>企业</u>。",
+      "example_vi": "Anh ấy đã mở một <u>doanh nghiệp</u> nhỏ.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "企业.svg",
+      "src": "images/HSK_2.0/level5/企业.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/企业.svg"
+      ]
+    },
+    "前途": {
+      "hanzi": "前途",
+      "pinyin": "qiántú",
+      "meaning": "tiền đồ, tương lai",
+      "example_zh": "他对未来的<u>前途</u>很乐观。",
+      "example_vi": "Anh ấy rất lạc quan về tiền đồ <u>tương lai</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "前途.svg",
+      "src": "images/HSK_2.0/level5/前途.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/前途.svg"
       ]
     },
     "挑战": {

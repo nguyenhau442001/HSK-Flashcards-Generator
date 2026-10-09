@@ -11297,6 +11297,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/凭.svg",
     "caption": "dựa vào, căn cứ vào"
   },
+  "平安": {
+    "file": "平安.svg",
+    "src": "images/HSK_2.0/level5/平安.svg",
+    "caption": "bình an"
+  },
+  "平等": {
+    "file": "平等.svg",
+    "src": "images/HSK_2.0/level5/平等.svg",
+    "caption": "bình đẳng"
+  },
+  "平衡": {
+    "file": "平衡.svg",
+    "src": "images/HSK_2.0/level5/平衡.svg",
+    "caption": "cân bằng"
+  },
+  "平均": {
+    "file": "平均.svg",
+    "src": "images/HSK_2.0/level5/平均.svg",
+    "caption": "trung bình, bình quân"
+  },
+  "破产": {
+    "file": "破产.svg",
+    "src": "images/HSK_2.0/level5/破产.svg",
+    "caption": "phá sản"
+  },
+  "迫切": {
+    "file": "迫切.svg",
+    "src": "images/HSK_2.0/level5/迫切.svg",
+    "caption": "cấp bách, khẩn thiết"
+  },
+  "期间": {
+    "file": "期间.svg",
+    "src": "images/HSK_2.0/level5/期间.svg",
+    "caption": "thời gian, khoảng thời gian"
+  },
+  "其余": {
+    "file": "其余.svg",
+    "src": "images/HSK_2.0/level5/其余.svg",
+    "caption": "còn lại, phần còn lại"
+  },
+  "企业": {
+    "file": "企业.svg",
+    "src": "images/HSK_2.0/level5/企业.svg",
+    "caption": "doanh nghiệp"
+  },
+  "前途": {
+    "file": "前途.svg",
+    "src": "images/HSK_2.0/level5/前途.svg",
+    "caption": "tiền đồ, tương lai"
+  },
   "挑战": {
     "file": "挑战.svg",
     "src": "images/HSK_2.0/level5/挑战.svg",
