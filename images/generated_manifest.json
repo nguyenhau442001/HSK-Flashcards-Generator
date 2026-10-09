@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:30:35.719092",
-  "total_unique_words_with_illustrations": 2193,
-  "total_flat_svg_files": 2193,
+  "generated_at": "2026-10-09T20:32:43.479132",
+  "total_unique_words_with_illustrations": 2203,
+  "total_flat_svg_files": 2203,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 994,
-        "pct": "76.5%"
+        "with_svg": 1004,
+        "pct": "77.2%"
       },
       "level6": {
         "total": 2500,
@@ -53,18 +53,18 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 585,
-        "pct": "58.5%"
+        "with_svg": 586,
+        "pct": "58.6%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 669,
-        "pct": "41.8%"
+        "with_svg": 673,
+        "pct": "42.1%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 189,
-        "pct": "10.5%"
+        "with_svg": 193,
+        "pct": "10.7%"
       },
       "level7": {
         "total": 5600,
@@ -40430,6 +40430,74 @@
         "images/HSK_3.0/level5/培训.svg"
       ]
     },
+    "佩服": {
+      "hanzi": "佩服",
+      "pinyin": "pèifu",
+      "meaning": "khâm phục, ngưỡng mộ",
+      "example_zh": "我很<u>佩服</u>他的勇气。",
+      "example_vi": "Tôi rất <u>khâm phục</u> sự can đảm của anh ấy.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "佩服.svg",
+      "src": "images/HSK_2.0/level5/佩服.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/佩服.svg"
+      ]
+    },
+    "盆": {
+      "hanzi": "盆",
+      "pinyin": "pén",
+      "meaning": "cái chậu",
+      "example_zh": "请把水倒进<u>盆</u>里。",
+      "example_vi": "Xin hãy đổ nước vào trong <u>chậu</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "盆.svg",
+      "src": "images/HSK_2.0/level5/盆.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/盆.svg"
+      ]
+    },
+    "碰": {
+      "hanzi": "碰",
+      "pinyin": "pèng",
+      "meaning": "va, đụng, gặp",
+      "example_zh": "我在路上<u>碰</u>到了他。",
+      "example_vi": "Tôi đã <u>gặp</u> anh ấy trên đường.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "碰.svg",
+      "src": "images/HSK_2.0/level5/碰.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/碰.svg"
+      ]
+    },
+    "批": {
+      "hanzi": "批",
+      "pinyin": "pī",
+      "meaning": "lô, mẻ, đợt",
+      "example_zh": "这<u>批</u>货已经到了。",
+      "example_vi": "<u>Lô</u> hàng này đã đến.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [],
+      "file": "批.svg",
+      "src": "images/HSK_2.0/level5/批.svg",
+      "alt_srcs": []
+    },
     "批准": {
       "hanzi": "批准",
       "pinyin": "pīzhǔn",
@@ -40446,6 +40514,114 @@
       "src": "images/HSK_2.0/level5/批准.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/批准.svg"
+      ]
+    },
+    "疲劳": {
+      "hanzi": "疲劳",
+      "pinyin": "píláo",
+      "meaning": "mệt mỏi, mỏi mệt",
+      "example_zh": "工作让他很<u>疲劳</u>。",
+      "example_vi": "Công việc làm anh ấy rất <u>mệt mỏi</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "疲劳.svg",
+      "src": "images/HSK_2.0/level5/疲劳.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/疲劳.svg"
+      ]
+    },
+    "匹": {
+      "hanzi": "匹",
+      "pinyin": "pǐ",
+      "meaning": "con (lượng từ ngựa)",
+      "example_zh": "他买了一<u>匹</u>马。",
+      "example_vi": "Anh ấy đã mua một <u>con</u> ngựa.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "匹.svg",
+      "src": "images/HSK_2.0/level5/匹.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/匹.svg"
+      ]
+    },
+    "片": {
+      "hanzi": "片",
+      "pinyin": "piàn",
+      "meaning": "miếng, lát mỏng",
+      "example_zh": "请切一<u>片</u>面包。",
+      "example_vi": "Xin hãy cắt một <u>lát</u> bánh mì.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "片.svg",
+      "src": "images/HSK_2.0/level5/片.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/片.svg"
+      ]
+    },
+    "飘": {
+      "hanzi": "飘",
+      "pinyin": "piāo",
+      "meaning": "bay phất phơ, lơ lửng",
+      "example_zh": "雪花在空中<u>飘</u>。",
+      "example_vi": "Bông tuyết bay <u>lơ lửng</u> trong không khí.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "飘.svg",
+      "src": "images/HSK_2.0/level5/飘.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/飘.svg"
+      ]
+    },
+    "频道": {
+      "hanzi": "频道",
+      "pinyin": "píndào",
+      "meaning": "kênh (truyền hình)",
+      "example_zh": "请换一个<u>频道</u>。",
+      "example_vi": "Xin hãy đổi <u>kênh</u> khác.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "频道.svg",
+      "src": "images/HSK_2.0/level5/频道.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/频道.svg"
+      ]
+    },
+    "凭": {
+      "hanzi": "凭",
+      "pinyin": "píng",
+      "meaning": "dựa vào, căn cứ vào",
+      "example_zh": "请<u>凭</u>这张票进场。",
+      "example_vi": "Xin hãy <u>dựa vào</u> tấm vé này để vào.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "凭.svg",
+      "src": "images/HSK_2.0/level5/凭.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/凭.svg"
       ]
     },
     "挑战": {

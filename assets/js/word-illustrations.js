@@ -11242,10 +11242,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/培训.svg",
     "caption": "đào tạo, huấn luyện"
   },
+  "佩服": {
+    "file": "佩服.svg",
+    "src": "images/HSK_2.0/level5/佩服.svg",
+    "caption": "khâm phục, ngưỡng mộ"
+  },
+  "盆": {
+    "file": "盆.svg",
+    "src": "images/HSK_2.0/level5/盆.svg",
+    "caption": "cái chậu"
+  },
+  "碰": {
+    "file": "碰.svg",
+    "src": "images/HSK_2.0/level5/碰.svg",
+    "caption": "va, đụng, gặp"
+  },
+  "批": {
+    "file": "批.svg",
+    "src": "images/HSK_2.0/level5/批.svg",
+    "caption": "lô, mẻ, đợt"
+  },
   "批准": {
     "file": "批准.svg",
     "src": "images/HSK_2.0/level5/批准.svg",
     "caption": "phê chuẩn"
+  },
+  "疲劳": {
+    "file": "疲劳.svg",
+    "src": "images/HSK_2.0/level5/疲劳.svg",
+    "caption": "mệt mỏi, mỏi mệt"
+  },
+  "匹": {
+    "file": "匹.svg",
+    "src": "images/HSK_2.0/level5/匹.svg",
+    "caption": "con (lượng từ ngựa)"
+  },
+  "片": {
+    "file": "片.svg",
+    "src": "images/HSK_2.0/level5/片.svg",
+    "caption": "miếng, lát mỏng"
+  },
+  "飘": {
+    "file": "飘.svg",
+    "src": "images/HSK_2.0/level5/飘.svg",
+    "caption": "bay phất phơ, lơ lửng"
+  },
+  "频道": {
+    "file": "频道.svg",
+    "src": "images/HSK_2.0/level5/频道.svg",
+    "caption": "kênh (truyền hình)"
+  },
+  "凭": {
+    "file": "凭.svg",
+    "src": "images/HSK_2.0/level5/凭.svg",
+    "caption": "dựa vào, căn cứ vào"
   },
   "挑战": {
     "file": "挑战.svg",
