@@ -11597,6 +11597,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/胜利.svg",
     "caption": "thắng lợi"
   },
+  "失去": {
+    "file": "失去.svg",
+    "src": "images/HSK_2.0/level5/失去.svg",
+    "caption": "mất đi"
+  },
+  "失业": {
+    "file": "失业.svg",
+    "src": "images/HSK_2.0/level5/失业.svg",
+    "caption": "thất nghiệp"
+  },
+  "湿润": {
+    "file": "湿润.svg",
+    "src": "images/HSK_2.0/level5/湿润.svg",
+    "caption": "ẩm ướt, ẩm"
+  },
+  "时差": {
+    "file": "时差.svg",
+    "src": "images/HSK_2.0/level5/时差.svg",
+    "caption": "chênh lệch giờ"
+  },
+  "时刻": {
+    "file": "时刻.svg",
+    "src": "images/HSK_2.0/level5/时刻.svg",
+    "caption": "thời khắc, giây phút"
+  },
+  "时期": {
+    "file": "时期.svg",
+    "src": "images/HSK_2.0/level5/时期.svg",
+    "caption": "thời kỳ"
+  },
+  "实话": {
+    "file": "实话.svg",
+    "src": "images/HSK_2.0/level5/实话.svg",
+    "caption": "lời nói thật"
+  },
+  "实践": {
+    "file": "实践.svg",
+    "src": "images/HSK_2.0/level5/实践.svg",
+    "caption": "thực tiễn"
+  },
+  "实现": {
+    "file": "实现.svg",
+    "src": "images/HSK_2.0/level5/实现.svg",
+    "caption": "thực hiện"
+  },
+  "实用": {
+    "file": "实用.svg",
+    "src": "images/HSK_2.0/level5/实用.svg",
+    "caption": "thực dụng, hữu dụng"
+  },
   "挑战": {
     "file": "挑战.svg",
     "src": "images/HSK_2.0/level5/挑战.svg",

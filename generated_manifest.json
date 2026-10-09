@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:45:16.772752",
-  "total_unique_words_with_illustrations": 2263,
-  "total_flat_svg_files": 2263,
+  "generated_at": "2026-10-09T20:47:13.606326",
+  "total_unique_words_with_illustrations": 2273,
+  "total_flat_svg_files": 2273,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1064,
-        "pct": "81.8%"
+        "with_svg": 1074,
+        "pct": "82.6%"
       },
       "level6": {
         "total": 2500,
@@ -53,32 +53,32 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 592,
-        "pct": "59.2%"
+        "with_svg": 593,
+        "pct": "59.3%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 712,
-        "pct": "44.5%"
+        "with_svg": 719,
+        "pct": "44.9%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 204,
-        "pct": "11.3%"
+        "with_svg": 205,
+        "pct": "11.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 84,
+        "with_svg": 85,
         "pct": "1.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 84,
+        "with_svg": 85,
         "pct": "1.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 84,
+        "with_svg": 85,
         "pct": "1.5%"
       }
     }
@@ -41708,6 +41708,190 @@
       "src": "images/HSK_2.0/level5/胜利.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/胜利.svg"
+      ]
+    },
+    "失去": {
+      "hanzi": "失去",
+      "pinyin": "shīqù",
+      "meaning": "mất đi",
+      "example_zh": "他<u>失去</u>了工作。",
+      "example_vi": "Anh ấy đã <u>mất</u> việc.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "失去.svg",
+      "src": "images/HSK_2.0/level5/失去.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/失去.svg"
+      ]
+    },
+    "失业": {
+      "hanzi": "失业",
+      "pinyin": "shīyè",
+      "meaning": "thất nghiệp",
+      "example_zh": "他最近<u>失业</u>了。",
+      "example_vi": "Gần đây anh ấy bị <u>thất nghiệp</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "失业.svg",
+      "src": "images/HSK_2.0/level5/失业.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/失业.svg"
+      ]
+    },
+    "湿润": {
+      "hanzi": "湿润",
+      "pinyin": "shīrùn",
+      "meaning": "ẩm ướt, ẩm",
+      "example_zh": "今天的空气很<u>湿润</u>。",
+      "example_vi": "Không khí hôm nay rất <u>ẩm ướt</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "湿润.svg",
+      "src": "images/HSK_2.0/level5/湿润.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/湿润.svg",
+        "images/HSK_3.0/level8/湿润.svg",
+        "images/HSK_3.0/level9/湿润.svg"
+      ]
+    },
+    "时差": {
+      "hanzi": "时差",
+      "pinyin": "shíchā",
+      "meaning": "chênh lệch giờ",
+      "example_zh": "两国有<u>时差</u>。",
+      "example_vi": "Hai nước có <u>chênh lệch giờ</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "时差.svg",
+      "src": "images/HSK_2.0/level5/时差.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/时差.svg"
+      ]
+    },
+    "时刻": {
+      "hanzi": "时刻",
+      "pinyin": "shíkè",
+      "meaning": "thời khắc, giây phút",
+      "example_zh": "这是一个重要的<u>时刻</u>。",
+      "example_vi": "Đây là một <u>thời khắc</u> quan trọng.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "时刻.svg",
+      "src": "images/HSK_2.0/level5/时刻.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/时刻.svg"
+      ]
+    },
+    "时期": {
+      "hanzi": "时期",
+      "pinyin": "shíqī",
+      "meaning": "thời kỳ",
+      "example_zh": "这是一个特殊的<u>时期</u>。",
+      "example_vi": "Đây là một <u>thời kỳ</u> đặc biệt.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "时期.svg",
+      "src": "images/HSK_2.0/level5/时期.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/时期.svg"
+      ]
+    },
+    "实话": {
+      "hanzi": "实话",
+      "pinyin": "shíhuà",
+      "meaning": "lời nói thật",
+      "example_zh": "请告诉我<u>实话</u>。",
+      "example_vi": "Xin hãy nói cho tôi <u>sự thật</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "实话.svg",
+      "src": "images/HSK_2.0/level5/实话.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/实话.svg"
+      ]
+    },
+    "实践": {
+      "hanzi": "实践",
+      "pinyin": "shíjiàn",
+      "meaning": "thực tiễn",
+      "example_zh": "理论需要<u>实践</u>。",
+      "example_vi": "Lý luận cần <u>thực tiễn</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "实践.svg",
+      "src": "images/HSK_2.0/level5/实践.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/实践.svg"
+      ]
+    },
+    "实现": {
+      "hanzi": "实现",
+      "pinyin": "shíxiàn",
+      "meaning": "thực hiện",
+      "example_zh": "他<u>实现</u>了自己的目标。",
+      "example_vi": "Anh ấy đã <u>thực hiện</u> được mục tiêu của mình.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "实现.svg",
+      "src": "images/HSK_2.0/level5/实现.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/实现.svg"
+      ]
+    },
+    "实用": {
+      "hanzi": "实用",
+      "pinyin": "shíyòng",
+      "meaning": "thực dụng, hữu dụng",
+      "example_zh": "这个方法很<u>实用</u>。",
+      "example_vi": "Phương pháp này rất <u>thực dụng</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "实用.svg",
+      "src": "images/HSK_2.0/level5/实用.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/实用.svg"
       ]
     },
     "挑战": {
