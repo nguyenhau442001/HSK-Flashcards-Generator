@@ -2492,6 +2492,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level3/客人.svg",
     "caption": "khách"
   },
+  "空调": {
+    "file": "空调.svg",
+    "src": "images/HSK_2.0/level3/空调.svg",
+    "caption": "máy điều hòa"
+  },
+  "口": {
+    "file": "口.svg",
+    "src": "images/HSK_2.0/level3/口.svg",
+    "caption": "miệng; cái (lượng từ)"
+  },
+  "哭": {
+    "file": "哭.svg",
+    "src": "images/HSK_2.0/level3/哭.svg",
+    "caption": "khóc"
+  },
+  "裤子": {
+    "file": "裤子.svg",
+    "src": "images/HSK_2.0/level3/裤子.svg",
+    "caption": "quần"
+  },
+  "筷子": {
+    "file": "筷子.svg",
+    "src": "images/HSK_2.0/level3/筷子.svg",
+    "caption": "đôi đũa"
+  },
+  "蓝": {
+    "file": "蓝.svg",
+    "src": "images/HSK_2.0/level3/蓝.svg",
+    "caption": "màu xanh dương"
+  },
+  "老": {
+    "file": "老.svg",
+    "src": "images/HSK_2.0/level3/老.svg",
+    "caption": "già"
+  },
+  "离开": {
+    "file": "离开.svg",
+    "src": "images/HSK_2.0/level3/离开.svg",
+    "caption": "rời khỏi"
+  },
+  "礼物": {
+    "file": "礼物.svg",
+    "src": "images/HSK_2.0/level3/礼物.svg",
+    "caption": "quà tặng"
+  },
+  "历史": {
+    "file": "历史.svg",
+    "src": "images/HSK_2.0/level3/历史.svg",
+    "caption": "lịch sử"
+  },
   "南": {
     "file": "南.svg",
     "src": "images/HSK_2.0/level3/南.svg",

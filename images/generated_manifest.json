@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:01:53.858344",
-  "total_unique_words_with_illustrations": 2065,
-  "total_flat_svg_files": 2065,
+  "generated_at": "2026-10-09T20:04:40.197154",
+  "total_unique_words_with_illustrations": 2075,
+  "total_flat_svg_files": 2075,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -16,8 +16,8 @@
       },
       "level3": {
         "total": 300,
-        "with_svg": 272,
-        "pct": "90.7%"
+        "with_svg": 282,
+        "pct": "94.0%"
       },
       "level4": {
         "total": 600,
@@ -38,18 +38,18 @@
     "hsk_3_0": {
       "level1": {
         "total": 300,
-        "with_svg": 208,
-        "pct": "69.3%"
+        "with_svg": 209,
+        "pct": "69.7%"
       },
       "level2": {
         "total": 200,
-        "with_svg": 99,
-        "pct": "49.5%"
+        "with_svg": 100,
+        "pct": "50.0%"
       },
       "level3": {
         "total": 500,
-        "with_svg": 277,
-        "pct": "55.4%"
+        "with_svg": 285,
+        "pct": "57.0%"
       },
       "level4": {
         "total": 1000,
@@ -7887,6 +7887,186 @@
       "src": "images/HSK_2.0/level3/客人.svg",
       "alt_srcs": [
         "images/HSK_3.0/level3/客人.svg"
+      ]
+    },
+    "空调": {
+      "hanzi": "空调",
+      "pinyin": "kōngtiáo",
+      "meaning": "máy điều hòa",
+      "example_zh": "房间里有<u>空调</u>。",
+      "example_vi": "Trong phòng có <u>máy điều hòa</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "空调.svg",
+      "src": "images/HSK_2.0/level3/空调.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/空调.svg"
+      ]
+    },
+    "口": {
+      "hanzi": "口",
+      "pinyin": "kǒu",
+      "meaning": "miệng; cái (lượng từ)",
+      "example_zh": "这个瓶子的<u>口</u>很小。",
+      "example_vi": "<u>Miệng</u> của cái lọ này rất nhỏ.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level1"
+      ],
+      "file": "口.svg",
+      "src": "images/HSK_2.0/level3/口.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level1/口.svg"
+      ]
+    },
+    "哭": {
+      "hanzi": "哭",
+      "pinyin": "kū",
+      "meaning": "khóc",
+      "example_zh": "孩子<u>哭</u>了。",
+      "example_vi": "Em bé đã <u>khóc</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "哭.svg",
+      "src": "images/HSK_2.0/level3/哭.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/哭.svg"
+      ]
+    },
+    "裤子": {
+      "hanzi": "裤子",
+      "pinyin": "kùzi",
+      "meaning": "quần",
+      "example_zh": "他穿了一条新<u>裤子</u>。",
+      "example_vi": "Anh ấy mặc một cái <u>quần</u> mới.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "裤子.svg",
+      "src": "images/HSK_2.0/level3/裤子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/裤子.svg"
+      ]
+    },
+    "筷子": {
+      "hanzi": "筷子",
+      "pinyin": "kuàizi",
+      "meaning": "đôi đũa",
+      "example_zh": "请给我一双<u>筷子</u>。",
+      "example_vi": "Xin hãy cho tôi một <u>đôi đũa</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "筷子.svg",
+      "src": "images/HSK_2.0/level3/筷子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/筷子.svg"
+      ]
+    },
+    "蓝": {
+      "hanzi": "蓝",
+      "pinyin": "lán",
+      "meaning": "màu xanh dương",
+      "example_zh": "天空是<u>蓝</u>色的。",
+      "example_vi": "Trời có <u>màu xanh dương</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "蓝.svg",
+      "src": "images/HSK_2.0/level3/蓝.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/蓝.svg"
+      ]
+    },
+    "老": {
+      "hanzi": "老",
+      "pinyin": "lǎo",
+      "meaning": "già",
+      "example_zh": "他是一位<u>老</u>师。",
+      "example_vi": "Ông ấy là một thầy giáo <u>già</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "老.svg",
+      "src": "images/HSK_2.0/level3/老.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/老.svg"
+      ]
+    },
+    "离开": {
+      "hanzi": "离开",
+      "pinyin": "líkāi",
+      "meaning": "rời khỏi",
+      "example_zh": "他已经<u>离开</u>公司了。",
+      "example_vi": "Anh ấy đã <u>rời khỏi</u> công ty rồi.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "离开.svg",
+      "src": "images/HSK_2.0/level3/离开.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/离开.svg"
+      ]
+    },
+    "礼物": {
+      "hanzi": "礼物",
+      "pinyin": "lǐwù",
+      "meaning": "quà tặng",
+      "example_zh": "这是给你的<u>礼物</u>。",
+      "example_vi": "Đây là <u>quà tặng</u> cho bạn.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "礼物.svg",
+      "src": "images/HSK_2.0/level3/礼物.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/礼物.svg"
+      ]
+    },
+    "历史": {
+      "hanzi": "历史",
+      "pinyin": "lìshǐ",
+      "meaning": "lịch sử",
+      "example_zh": "他喜欢学习<u>历史</u>。",
+      "example_vi": "Anh ấy thích học <u>lịch sử</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "历史.svg",
+      "src": "images/HSK_2.0/level3/历史.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/历史.svg"
       ]
     },
     "南": {
