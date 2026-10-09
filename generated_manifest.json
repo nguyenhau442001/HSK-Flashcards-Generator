@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T21:22:58.135757",
-  "total_unique_words_with_illustrations": 2443,
-  "total_flat_svg_files": 2443,
+  "generated_at": "2026-10-09T21:25:04.565375",
+  "total_unique_words_with_illustrations": 2453,
+  "total_flat_svg_files": 2453,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1244,
-        "pct": "95.7%"
+        "with_svg": 1254,
+        "pct": "96.5%"
       },
       "level6": {
         "total": 2500,
@@ -58,27 +58,27 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 838,
-        "pct": "52.4%"
+        "with_svg": 844,
+        "pct": "52.8%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 234,
-        "pct": "13.0%"
+        "with_svg": 236,
+        "pct": "13.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 100,
+        "with_svg": 102,
         "pct": "1.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 100,
+        "with_svg": 102,
         "pct": "1.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 100,
+        "with_svg": 102,
         "pct": "1.8%"
       }
     }
@@ -45080,6 +45080,194 @@
       "src": "images/HSK_2.0/level5/针对.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/针对.svg"
+      ]
+    },
+    "诊断": {
+      "hanzi": "诊断",
+      "pinyin": "zhěnduàn",
+      "meaning": "chẩn đoán",
+      "example_zh": "医生<u>诊断</u>了他的病。",
+      "example_vi": "Bác sĩ đã <u>chẩn đoán</u> bệnh của anh ấy.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "诊断.svg",
+      "src": "images/HSK_2.0/level5/诊断.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/诊断.svg"
+      ]
+    },
+    "振动": {
+      "hanzi": "振动",
+      "pinyin": "zhèndòng",
+      "meaning": "rung động, chấn động",
+      "example_zh": "桌子在<u>振动</u>。",
+      "example_vi": "Cái bàn đang <u>rung động</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "振动.svg",
+      "src": "images/HSK_2.0/level5/振动.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/振动.svg",
+        "images/HSK_3.0/level8/振动.svg",
+        "images/HSK_3.0/level9/振动.svg"
+      ]
+    },
+    "争论": {
+      "hanzi": "争论",
+      "pinyin": "zhēnglùn",
+      "meaning": "tranh luận, cãi vã",
+      "example_zh": "他们正在<u>争论</u>这个问题。",
+      "example_vi": "Họ đang <u>tranh luận</u> về vấn đề này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "争论.svg",
+      "src": "images/HSK_2.0/level5/争论.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/争论.svg"
+      ]
+    },
+    "征求": {
+      "hanzi": "征求",
+      "pinyin": "zhēngqiú",
+      "meaning": "trưng cầu, xin ý kiến",
+      "example_zh": "他<u>征求</u>了大家的意见。",
+      "example_vi": "Anh ấy đã <u>trưng cầu</u> ý kiến của mọi người.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "征求.svg",
+      "src": "images/HSK_2.0/level5/征求.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/征求.svg"
+      ]
+    },
+    "整体": {
+      "hanzi": "整体",
+      "pinyin": "zhěngtǐ",
+      "meaning": "toàn thể, tổng thể",
+      "example_zh": "请从<u>整体</u>上考虑。",
+      "example_vi": "Xin hãy xem xét từ <u>tổng thể</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "整体.svg",
+      "src": "images/HSK_2.0/level5/整体.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/整体.svg"
+      ]
+    },
+    "政治": {
+      "hanzi": "政治",
+      "pinyin": "zhèngzhì",
+      "meaning": "chính trị",
+      "example_zh": "他在学习<u>政治</u>。",
+      "example_vi": "Anh ấy đang học <u>chính trị</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "政治.svg",
+      "src": "images/HSK_2.0/level5/政治.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/政治.svg"
+      ]
+    },
+    "证据": {
+      "hanzi": "证据",
+      "pinyin": "zhèngjù",
+      "meaning": "chứng cứ",
+      "example_zh": "请提供<u>证据</u>。",
+      "example_vi": "Xin hãy cung cấp <u>chứng cứ</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "证据.svg",
+      "src": "images/HSK_2.0/level5/证据.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/证据.svg"
+      ]
+    },
+    "挣": {
+      "hanzi": "挣",
+      "pinyin": "zhèng",
+      "meaning": "kiếm (tiền)",
+      "example_zh": "他每月<u>挣</u>很多钱。",
+      "example_vi": "Anh ấy mỗi tháng <u>kiếm</u> được nhiều tiền.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "挣.svg",
+      "src": "images/HSK_2.0/level5/挣.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/挣.svg"
+      ]
+    },
+    "直": {
+      "hanzi": "直",
+      "pinyin": "zhí",
+      "meaning": "thẳng",
+      "example_zh": "请<u>直</u>走。",
+      "example_vi": "Xin hãy đi <u>thẳng</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "直.svg",
+      "src": "images/HSK_2.0/level5/直.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/直.svg"
+      ]
+    },
+    "执照": {
+      "hanzi": "执照",
+      "pinyin": "zhízhào",
+      "meaning": "giấy phép",
+      "example_zh": "他拿到了驾驶<u>执照</u>。",
+      "example_vi": "Anh ấy đã nhận được <u>giấy phép</u> lái xe.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "执照.svg",
+      "src": "images/HSK_2.0/level5/执照.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/执照.svg",
+        "images/HSK_3.0/level8/执照.svg",
+        "images/HSK_3.0/level9/执照.svg"
       ]
     }
   }

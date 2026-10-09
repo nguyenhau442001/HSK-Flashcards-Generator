@@ -12516,6 +12516,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "针对.svg",
     "src": "images/HSK_2.0/level5/针对.svg",
     "caption": "nhằm vào, đối với"
+  },
+  "诊断": {
+    "file": "诊断.svg",
+    "src": "images/HSK_2.0/level5/诊断.svg",
+    "caption": "chẩn đoán"
+  },
+  "振动": {
+    "file": "振动.svg",
+    "src": "images/HSK_2.0/level5/振动.svg",
+    "caption": "rung động, chấn động"
+  },
+  "争论": {
+    "file": "争论.svg",
+    "src": "images/HSK_2.0/level5/争论.svg",
+    "caption": "tranh luận, cãi vã"
+  },
+  "征求": {
+    "file": "征求.svg",
+    "src": "images/HSK_2.0/level5/征求.svg",
+    "caption": "trưng cầu, xin ý kiến"
+  },
+  "整体": {
+    "file": "整体.svg",
+    "src": "images/HSK_2.0/level5/整体.svg",
+    "caption": "toàn thể, tổng thể"
+  },
+  "政治": {
+    "file": "政治.svg",
+    "src": "images/HSK_2.0/level5/政治.svg",
+    "caption": "chính trị"
+  },
+  "证据": {
+    "file": "证据.svg",
+    "src": "images/HSK_2.0/level5/证据.svg",
+    "caption": "chứng cứ"
+  },
+  "挣": {
+    "file": "挣.svg",
+    "src": "images/HSK_2.0/level5/挣.svg",
+    "caption": "kiếm (tiền)"
+  },
+  "直": {
+    "file": "直.svg",
+    "src": "images/HSK_2.0/level5/直.svg",
+    "caption": "thẳng"
+  },
+  "执照": {
+    "file": "执照.svg",
+    "src": "images/HSK_2.0/level5/执照.svg",
+    "caption": "giấy phép"
   }
 };
 
