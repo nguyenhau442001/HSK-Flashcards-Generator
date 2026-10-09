@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:54:59.853956",
-  "total_unique_words_with_illustrations": 2313,
-  "total_flat_svg_files": 2313,
+  "generated_at": "2026-10-09T20:57:15.756824",
+  "total_unique_words_with_illustrations": 2323,
+  "total_flat_svg_files": 2323,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1114,
-        "pct": "85.7%"
+        "with_svg": 1124,
+        "pct": "86.5%"
       },
       "level6": {
         "total": 2500,
@@ -58,27 +58,27 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 746,
-        "pct": "46.6%"
+        "with_svg": 752,
+        "pct": "47.0%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 208,
-        "pct": "11.6%"
+        "with_svg": 212,
+        "pct": "11.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 93,
+        "with_svg": 94,
         "pct": "1.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 93,
+        "with_svg": 94,
         "pct": "1.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 93,
+        "with_svg": 94,
         "pct": "1.7%"
       }
     }
@@ -42662,6 +42662,136 @@
         "images/HSK_3.0/level5/痛苦.svg"
       ]
     },
+    "投入": {
+      "hanzi": "投入",
+      "pinyin": "tóurù",
+      "meaning": "đầu tư vào, dồn vào",
+      "example_zh": "他<u>投入</u>了很多精力。",
+      "example_vi": "Anh ấy đã <u>dồn vào</u> nhiều tinh lực.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "投入.svg",
+      "src": "images/HSK_2.0/level5/投入.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/投入.svg"
+      ]
+    },
+    "透明": {
+      "hanzi": "透明",
+      "pinyin": "tòumíng",
+      "meaning": "trong suốt, minh bạch",
+      "example_zh": "这种材料是<u>透明</u>的。",
+      "example_vi": "Loại vật liệu này là <u>trong suốt</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "透明.svg",
+      "src": "images/HSK_2.0/level5/透明.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/透明.svg"
+      ]
+    },
+    "土地": {
+      "hanzi": "土地",
+      "pinyin": "tǔdì",
+      "meaning": "đất đai",
+      "example_zh": "农民种地，靠<u>土地</u>生活。",
+      "example_vi": "Nông dân trồng trọt, sống nhờ <u>đất đai</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "土地.svg",
+      "src": "images/HSK_2.0/level5/土地.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/土地.svg"
+      ]
+    },
+    "吐": {
+      "hanzi": "吐",
+      "pinyin": "tù",
+      "meaning": "nhổ, nôn",
+      "example_zh": "他<u>吐</u>了出来。",
+      "example_vi": "Anh ấy đã <u>nôn</u> ra.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "吐.svg",
+      "src": "images/HSK_2.0/level5/吐.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/吐.svg"
+      ]
+    },
+    "团": {
+      "hanzi": "团",
+      "pinyin": "tuán",
+      "meaning": "đoàn, nhóm",
+      "example_zh": "他们组成了一个<u>团</u>。",
+      "example_vi": "Họ đã tạo thành một <u>đoàn</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "团.svg",
+      "src": "images/HSK_2.0/level5/团.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/团.svg"
+      ]
+    },
+    "推广": {
+      "hanzi": "推广",
+      "pinyin": "tuīguǎng",
+      "meaning": "quảng bá, phổ biến rộng",
+      "example_zh": "公司在<u>推广</u>新产品。",
+      "example_vi": "Công ty đang <u>quảng bá</u> sản phẩm mới.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "推广.svg",
+      "src": "images/HSK_2.0/level5/推广.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/推广.svg"
+      ]
+    },
+    "退步": {
+      "hanzi": "退步",
+      "pinyin": "tuìbù",
+      "meaning": "lùi bước, thoái bộ",
+      "example_zh": "他的成绩<u>退步</u>了。",
+      "example_vi": "Thành tích của anh ấy đã <u>lùi bước</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "退步.svg",
+      "src": "images/HSK_2.0/level5/退步.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/退步.svg",
+        "images/HSK_3.0/level8/退步.svg",
+        "images/HSK_3.0/level9/退步.svg"
+      ]
+    },
     "歪": {
       "hanzi": "歪",
       "pinyin": "wāi",
@@ -42678,6 +42808,60 @@
       "src": "images/HSK_2.0/level5/歪.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/歪.svg"
+      ]
+    },
+    "外交": {
+      "hanzi": "外交",
+      "pinyin": "wàijiāo",
+      "meaning": "ngoại giao",
+      "example_zh": "他从事<u>外交</u>工作。",
+      "example_vi": "Anh ấy làm công việc <u>ngoại giao</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "外交.svg",
+      "src": "images/HSK_2.0/level5/外交.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/外交.svg"
+      ]
+    },
+    "完美": {
+      "hanzi": "完美",
+      "pinyin": "wánměi",
+      "meaning": "hoàn hảo",
+      "example_zh": "这是一个<u>完美</u>的计划。",
+      "example_vi": "Đây là một kế hoạch <u>hoàn hảo</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "完美.svg",
+      "src": "images/HSK_2.0/level5/完美.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/完美.svg"
+      ]
+    },
+    "完善": {
+      "hanzi": "完善",
+      "pinyin": "wánshàn",
+      "meaning": "hoàn thiện",
+      "example_zh": "我们要<u>完善</u>这个制度。",
+      "example_vi": "Chúng ta phải <u>hoàn thiện</u> thể chế này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "完善.svg",
+      "src": "images/HSK_2.0/level5/完善.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/完善.svg"
       ]
     },
     "王子": {

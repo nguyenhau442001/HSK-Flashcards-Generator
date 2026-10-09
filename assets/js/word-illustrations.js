@@ -11852,10 +11852,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/痛苦.svg",
     "caption": "đau khổ"
   },
+  "投入": {
+    "file": "投入.svg",
+    "src": "images/HSK_2.0/level5/投入.svg",
+    "caption": "đầu tư vào, dồn vào"
+  },
+  "透明": {
+    "file": "透明.svg",
+    "src": "images/HSK_2.0/level5/透明.svg",
+    "caption": "trong suốt, minh bạch"
+  },
+  "土地": {
+    "file": "土地.svg",
+    "src": "images/HSK_2.0/level5/土地.svg",
+    "caption": "đất đai"
+  },
+  "吐": {
+    "file": "吐.svg",
+    "src": "images/HSK_2.0/level5/吐.svg",
+    "caption": "nhổ, nôn"
+  },
+  "团": {
+    "file": "团.svg",
+    "src": "images/HSK_2.0/level5/团.svg",
+    "caption": "đoàn, nhóm"
+  },
+  "推广": {
+    "file": "推广.svg",
+    "src": "images/HSK_2.0/level5/推广.svg",
+    "caption": "quảng bá, phổ biến rộng"
+  },
+  "退步": {
+    "file": "退步.svg",
+    "src": "images/HSK_2.0/level5/退步.svg",
+    "caption": "lùi bước, thoái bộ"
+  },
   "歪": {
     "file": "歪.svg",
     "src": "images/HSK_2.0/level5/歪.svg",
     "caption": "lệch, vẹo"
+  },
+  "外交": {
+    "file": "外交.svg",
+    "src": "images/HSK_2.0/level5/外交.svg",
+    "caption": "ngoại giao"
+  },
+  "完美": {
+    "file": "完美.svg",
+    "src": "images/HSK_2.0/level5/完美.svg",
+    "caption": "hoàn hảo"
+  },
+  "完善": {
+    "file": "完善.svg",
+    "src": "images/HSK_2.0/level5/完善.svg",
+    "caption": "hoàn thiện"
   },
   "王子": {
     "file": "王子.svg",
