@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T21:05:24.180589",
-  "total_unique_words_with_illustrations": 2363,
-  "total_flat_svg_files": 2363,
+  "generated_at": "2026-10-09T21:08:26.870726",
+  "total_unique_words_with_illustrations": 2373,
+  "total_flat_svg_files": 2373,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1164,
-        "pct": "89.5%"
+        "with_svg": 1174,
+        "pct": "90.3%"
       },
       "level6": {
         "total": 2500,
@@ -53,18 +53,18 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 599,
-        "pct": "59.9%"
+        "with_svg": 600,
+        "pct": "60.0%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 782,
-        "pct": "48.9%"
+        "with_svg": 789,
+        "pct": "49.3%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 217,
-        "pct": "12.1%"
+        "with_svg": 219,
+        "pct": "12.2%"
       },
       "level7": {
         "total": 5600,
@@ -43626,6 +43626,186 @@
       "src": "images/HSK_2.0/level5/象棋.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/象棋.svg"
+      ]
+    },
+    "消费": {
+      "hanzi": "消费",
+      "pinyin": "xiāofèi",
+      "meaning": "tiêu dùng, chi tiêu",
+      "example_zh": "这会增加<u>消费</u>。",
+      "example_vi": "Điều này sẽ làm tăng <u>tiêu dùng</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "消费.svg",
+      "src": "images/HSK_2.0/level5/消费.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/消费.svg"
+      ]
+    },
+    "消化": {
+      "hanzi": "消化",
+      "pinyin": "xiāohuà",
+      "meaning": "tiêu hóa",
+      "example_zh": "吃太多会影响<u>消化</u>。",
+      "example_vi": "Ăn quá nhiều sẽ ảnh hưởng <u>tiêu hóa</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "消化.svg",
+      "src": "images/HSK_2.0/level5/消化.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/消化.svg"
+      ]
+    },
+    "销售": {
+      "hanzi": "销售",
+      "pinyin": "xiāoshòu",
+      "meaning": "tiêu thụ, bán hàng",
+      "example_zh": "这个产品的<u>销售</u>很好。",
+      "example_vi": "Việc <u>tiêu thụ</u> sản phẩm này rất tốt.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "销售.svg",
+      "src": "images/HSK_2.0/level5/销售.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/销售.svg"
+      ]
+    },
+    "小麦": {
+      "hanzi": "小麦",
+      "pinyin": "xiǎomài",
+      "meaning": "lúa mì",
+      "example_zh": "这片地种着<u>小麦</u>。",
+      "example_vi": "Khu đất này trồng <u>lúa mì</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "小麦.svg",
+      "src": "images/HSK_2.0/level5/小麦.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/小麦.svg"
+      ]
+    },
+    "效率": {
+      "hanzi": "效率",
+      "pinyin": "xiàolǜ",
+      "meaning": "hiệu suất",
+      "example_zh": "我们要提高工作<u>效率</u>。",
+      "example_vi": "Chúng ta phải nâng cao <u>hiệu suất</u> công việc.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "效率.svg",
+      "src": "images/HSK_2.0/level5/效率.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/效率.svg"
+      ]
+    },
+    "歇": {
+      "hanzi": "歇",
+      "pinyin": "xiē",
+      "meaning": "nghỉ ngơi",
+      "example_zh": "我们先<u>歇</u>一下吧。",
+      "example_vi": "Chúng ta <u>nghỉ</u> một chút trước đi.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "歇.svg",
+      "src": "images/HSK_2.0/level5/歇.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/歇.svg"
+      ]
+    },
+    "欣赏": {
+      "hanzi": "欣赏",
+      "pinyin": "xīnshǎng",
+      "meaning": "thưởng thức, đánh giá cao",
+      "example_zh": "我很<u>欣赏</u>他的才华。",
+      "example_vi": "Tôi rất <u>thưởng thức</u> tài năng của anh ấy.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "欣赏.svg",
+      "src": "images/HSK_2.0/level5/欣赏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/欣赏.svg"
+      ]
+    },
+    "信号": {
+      "hanzi": "信号",
+      "pinyin": "xìnhào",
+      "meaning": "tín hiệu",
+      "example_zh": "手机收到了一个<u>信号</u>。",
+      "example_vi": "Điện thoại đã nhận được một <u>tín hiệu</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "信号.svg",
+      "src": "images/HSK_2.0/level5/信号.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/信号.svg"
+      ]
+    },
+    "行动": {
+      "hanzi": "行动",
+      "pinyin": "xíngdòng",
+      "meaning": "hành động",
+      "example_zh": "我们要采取<u>行动</u>。",
+      "example_vi": "Chúng ta phải <u>hành động</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "行动.svg",
+      "src": "images/HSK_2.0/level5/行动.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/行动.svg"
+      ]
+    },
+    "行人": {
+      "hanzi": "行人",
+      "pinyin": "xíngrén",
+      "meaning": "người đi đường",
+      "example_zh": "路上有很多<u>行人</u>。",
+      "example_vi": "Trên đường có nhiều <u>người đi bộ</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "行人.svg",
+      "src": "images/HSK_2.0/level5/行人.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/行人.svg"
       ]
     }
   }

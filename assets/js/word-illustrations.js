@@ -12116,6 +12116,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "象棋.svg",
     "src": "images/HSK_2.0/level5/象棋.svg",
     "caption": "cờ tướng"
+  },
+  "消费": {
+    "file": "消费.svg",
+    "src": "images/HSK_2.0/level5/消费.svg",
+    "caption": "tiêu dùng, chi tiêu"
+  },
+  "消化": {
+    "file": "消化.svg",
+    "src": "images/HSK_2.0/level5/消化.svg",
+    "caption": "tiêu hóa"
+  },
+  "销售": {
+    "file": "销售.svg",
+    "src": "images/HSK_2.0/level5/销售.svg",
+    "caption": "tiêu thụ, bán hàng"
+  },
+  "小麦": {
+    "file": "小麦.svg",
+    "src": "images/HSK_2.0/level5/小麦.svg",
+    "caption": "lúa mì"
+  },
+  "效率": {
+    "file": "效率.svg",
+    "src": "images/HSK_2.0/level5/效率.svg",
+    "caption": "hiệu suất"
+  },
+  "歇": {
+    "file": "歇.svg",
+    "src": "images/HSK_2.0/level5/歇.svg",
+    "caption": "nghỉ ngơi"
+  },
+  "欣赏": {
+    "file": "欣赏.svg",
+    "src": "images/HSK_2.0/level5/欣赏.svg",
+    "caption": "thưởng thức, đánh giá cao"
+  },
+  "信号": {
+    "file": "信号.svg",
+    "src": "images/HSK_2.0/level5/信号.svg",
+    "caption": "tín hiệu"
+  },
+  "行动": {
+    "file": "行动.svg",
+    "src": "images/HSK_2.0/level5/行动.svg",
+    "caption": "hành động"
+  },
+  "行人": {
+    "file": "行人.svg",
+    "src": "images/HSK_2.0/level5/行人.svg",
+    "caption": "người đi đường"
   }
 };
 
