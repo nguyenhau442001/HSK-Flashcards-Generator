@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:19:29.090869",
-  "total_unique_words_with_illustrations": 2143,
-  "total_flat_svg_files": 2143,
+  "generated_at": "2026-10-09T20:21:33.602040",
+  "total_unique_words_with_illustrations": 2153,
+  "total_flat_svg_files": 2153,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,13 +26,13 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 944,
-        "pct": "72.6%"
+        "with_svg": 954,
+        "pct": "73.4%"
       },
       "level6": {
         "total": 2500,
-        "with_svg": 460,
-        "pct": "18.4%"
+        "with_svg": 464,
+        "pct": "18.6%"
       }
     },
     "hsk_3_0": {
@@ -53,13 +53,13 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 578,
-        "pct": "57.8%"
+        "with_svg": 579,
+        "pct": "57.9%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 637,
-        "pct": "39.8%"
+        "with_svg": 646,
+        "pct": "40.4%"
       },
       "level6": {
         "total": 1800,
@@ -39494,6 +39494,194 @@
       "src": "images/HSK_2.0/level5/梨.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/梨.svg"
+      ]
+    },
+    "离婚": {
+      "hanzi": "离婚",
+      "pinyin": "líhūn",
+      "meaning": "ly hôn",
+      "example_zh": "他们已经<u>离婚</u>了。",
+      "example_vi": "Họ đã <u>ly hôn</u> rồi.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "离婚.svg",
+      "src": "images/HSK_2.0/level5/离婚.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/离婚.svg",
+        "images/HSK_3.0/level5/离婚.svg"
+      ]
+    },
+    "厘米": {
+      "hanzi": "厘米",
+      "pinyin": "límǐ",
+      "meaning": "xentimét",
+      "example_zh": "这条路有十<u>厘米</u>宽。",
+      "example_vi": "Con đường này rộng mười <u>xentimét</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "厘米.svg",
+      "src": "images/HSK_2.0/level5/厘米.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/厘米.svg"
+      ]
+    },
+    "立即": {
+      "hanzi": "立即",
+      "pinyin": "lìjí",
+      "meaning": "lập tức",
+      "example_zh": "请<u>立即</u>出发。",
+      "example_vi": "Xin hãy xuất phát ngay <u>lập tức</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "立即.svg",
+      "src": "images/HSK_2.0/level5/立即.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/立即.svg"
+      ]
+    },
+    "利润": {
+      "hanzi": "利润",
+      "pinyin": "lìrùn",
+      "meaning": "lợi nhuận",
+      "example_zh": "这家公司的<u>利润</u>很高。",
+      "example_vi": "<u>Lợi nhuận</u> của công ty này rất cao.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "利润.svg",
+      "src": "images/HSK_2.0/level5/利润.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/利润.svg"
+      ]
+    },
+    "利益": {
+      "hanzi": "利益",
+      "pinyin": "lìyì",
+      "meaning": "lợi ích",
+      "example_zh": "这符合大家的<u>利益</u>。",
+      "example_vi": "Điều này phù hợp với <u>lợi ích</u> của mọi người.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "利益.svg",
+      "src": "images/HSK_2.0/level5/利益.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/利益.svg"
+      ]
+    },
+    "连续": {
+      "hanzi": "连续",
+      "pinyin": "liánxù",
+      "meaning": "liên tục",
+      "example_zh": "这部电视剧很<u>连续</u>。",
+      "example_vi": "Bộ phim truyền hình này <u>liên tục</u>.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "连续.svg",
+      "src": "images/HSK_2.0/level5/连续.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/连续.svg",
+        "images/HSK_3.0/level5/连续.svg"
+      ]
+    },
+    "恋爱": {
+      "hanzi": "恋爱",
+      "pinyin": "liànài",
+      "meaning": "tình yêu, hẹn hò",
+      "example_zh": "他们在<u>恋爱</u>。",
+      "example_vi": "Họ đang <u>yêu nhau</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "恋爱.svg",
+      "src": "images/HSK_2.0/level5/恋爱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/恋爱.svg"
+      ]
+    },
+    "良好": {
+      "hanzi": "良好",
+      "pinyin": "liánghǎo",
+      "meaning": "tốt đẹp",
+      "example_zh": "他的成绩<u>良好</u>。",
+      "example_vi": "Thành tích của anh ấy <u>tốt đẹp</u>.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "良好.svg",
+      "src": "images/HSK_2.0/level5/良好.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/良好.svg",
+        "images/HSK_3.0/level5/良好.svg"
+      ]
+    },
+    "粮食": {
+      "hanzi": "粮食",
+      "pinyin": "liángshi",
+      "meaning": "lương thực, ngũ cốc",
+      "example_zh": "这个国家<u>粮食</u>很丰富。",
+      "example_vi": "<u>Lương thực</u> của quốc gia này rất phong phú.",
+      "levels_hsk2": [
+        "level5",
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "粮食.svg",
+      "src": "images/HSK_2.0/level5/粮食.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/粮食.svg",
+        "images/HSK_3.0/level5/粮食.svg"
+      ]
+    },
+    "亮": {
+      "hanzi": "亮",
+      "pinyin": "liàng",
+      "meaning": "sáng",
+      "example_zh": "屋子里很<u>亮</u>。",
+      "example_vi": "Trong phòng rất <u>sáng</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "亮.svg",
+      "src": "images/HSK_2.0/level5/亮.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/亮.svg"
       ]
     },
     "秘书": {

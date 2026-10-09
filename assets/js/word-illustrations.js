@@ -10987,6 +10987,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/梨.svg",
     "caption": "quả lê"
   },
+  "离婚": {
+    "file": "离婚.svg",
+    "src": "images/HSK_2.0/level5/离婚.svg",
+    "caption": "ly hôn"
+  },
+  "厘米": {
+    "file": "厘米.svg",
+    "src": "images/HSK_2.0/level5/厘米.svg",
+    "caption": "xentimét"
+  },
+  "立即": {
+    "file": "立即.svg",
+    "src": "images/HSK_2.0/level5/立即.svg",
+    "caption": "lập tức"
+  },
+  "利润": {
+    "file": "利润.svg",
+    "src": "images/HSK_2.0/level5/利润.svg",
+    "caption": "lợi nhuận"
+  },
+  "利益": {
+    "file": "利益.svg",
+    "src": "images/HSK_2.0/level5/利益.svg",
+    "caption": "lợi ích"
+  },
+  "连续": {
+    "file": "连续.svg",
+    "src": "images/HSK_2.0/level5/连续.svg",
+    "caption": "liên tục"
+  },
+  "恋爱": {
+    "file": "恋爱.svg",
+    "src": "images/HSK_2.0/level5/恋爱.svg",
+    "caption": "tình yêu, hẹn hò"
+  },
+  "良好": {
+    "file": "良好.svg",
+    "src": "images/HSK_2.0/level5/良好.svg",
+    "caption": "tốt đẹp"
+  },
+  "粮食": {
+    "file": "粮食.svg",
+    "src": "images/HSK_2.0/level5/粮食.svg",
+    "caption": "lương thực, ngũ cốc"
+  },
+  "亮": {
+    "file": "亮.svg",
+    "src": "images/HSK_2.0/level5/亮.svg",
+    "caption": "sáng"
+  },
   "秘书": {
     "file": "秘书.svg",
     "src": "images/HSK_2.0/level5/秘书.svg",
