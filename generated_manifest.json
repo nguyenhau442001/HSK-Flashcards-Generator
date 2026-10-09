@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T21:12:35.286910",
-  "total_unique_words_with_illustrations": 2393,
-  "total_flat_svg_files": 2393,
+  "generated_at": "2026-10-09T21:14:32.750874",
+  "total_unique_words_with_illustrations": 2403,
+  "total_flat_svg_files": 2403,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1194,
-        "pct": "91.8%"
+        "with_svg": 1204,
+        "pct": "92.6%"
       },
       "level6": {
         "total": 2500,
@@ -58,13 +58,13 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 804,
-        "pct": "50.2%"
+        "with_svg": 812,
+        "pct": "50.7%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 222,
-        "pct": "12.3%"
+        "with_svg": 224,
+        "pct": "12.4%"
       },
       "level7": {
         "total": 5600,
@@ -44170,6 +44170,186 @@
       "src": "images/HSK_2.0/level5/摇.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/摇.svg"
+      ]
+    },
+    "要不": {
+      "hanzi": "要不",
+      "pinyin": "yàobù",
+      "meaning": "nếu không thì, hay là",
+      "example_zh": "<u>要不</u>我们换个地方吧。",
+      "example_vi": "<u>Hay là</u> chúng ta đổi nơi khác đi.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "要不.svg",
+      "src": "images/HSK_2.0/level5/要不.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/要不.svg"
+      ]
+    },
+    "业务": {
+      "hanzi": "业务",
+      "pinyin": "yèwù",
+      "meaning": "nghiệp vụ, công việc",
+      "example_zh": "他在拓展新<u>业务</u>。",
+      "example_vi": "Anh ấy đang phát triển <u>nghiệp vụ</u> mới.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "业务.svg",
+      "src": "images/HSK_2.0/level5/业务.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/业务.svg"
+      ]
+    },
+    "一辈子": {
+      "hanzi": "一辈子",
+      "pinyin": "yíbèizi",
+      "meaning": "cả đời, một đời",
+      "example_zh": "这是他<u>一辈子</u>的回忆。",
+      "example_vi": "Đây là hồi ức <u>cả đời</u> của anh ấy.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "一辈子.svg",
+      "src": "images/HSK_2.0/level5/一辈子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/一辈子.svg"
+      ]
+    },
+    "一律": {
+      "hanzi": "一律",
+      "pinyin": "yílǜ",
+      "meaning": "đồng nhất, tất cả",
+      "example_zh": "这个规定<u>一律</u>适用。",
+      "example_vi": "Quy định này áp dụng <u>đồng nhất</u> cho mọi trường hợp.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "一律.svg",
+      "src": "images/HSK_2.0/level5/一律.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/一律.svg"
+      ]
+    },
+    "移动": {
+      "hanzi": "移动",
+      "pinyin": "yídòng",
+      "meaning": "di động, di chuyển",
+      "example_zh": "他下个月要<u>移动</u>到新城市。",
+      "example_vi": "Anh ấy tháng sau sẽ <u>di chuyển</u> đến thành phố mới.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "移动.svg",
+      "src": "images/HSK_2.0/level5/移动.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/移动.svg"
+      ]
+    },
+    "遗憾": {
+      "hanzi": "遗憾",
+      "pinyin": "yíhàn",
+      "meaning": "đáng tiếc, hối tiếc",
+      "example_zh": "这真是一个<u>遗憾</u>。",
+      "example_vi": "Đây thật là một điều <u>đáng tiếc</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "遗憾.svg",
+      "src": "images/HSK_2.0/level5/遗憾.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/遗憾.svg"
+      ]
+    },
+    "乙": {
+      "hanzi": "乙",
+      "pinyin": "yǐ",
+      "meaning": "thứ hai (trong giáp, ất...)",
+      "example_zh": "甲<u>乙</u>双方都同意了。",
+      "example_vi": "Bên <u>thứ nhất và bên thứ hai</u> đều đồng ý.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "乙.svg",
+      "src": "images/HSK_2.0/level5/乙.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/乙.svg"
+      ]
+    },
+    "以及": {
+      "hanzi": "以及",
+      "pinyin": "yǐjí",
+      "meaning": "cùng với, và",
+      "example_zh": "他<u>以及</u>他的家人都来了。",
+      "example_vi": "Anh ấy <u>cùng với</u> gia đình của anh ấy đều đã đến.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "以及.svg",
+      "src": "images/HSK_2.0/level5/以及.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/以及.svg"
+      ]
+    },
+    "亿": {
+      "hanzi": "亿",
+      "pinyin": "yì",
+      "meaning": "trăm triệu, ức",
+      "example_zh": "这个城市有一<u>亿</u>人口。",
+      "example_vi": "Thành phố này có một <u>trăm triệu</u> dân.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "亿.svg",
+      "src": "images/HSK_2.0/level5/亿.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/亿.svg"
+      ]
+    },
+    "意义": {
+      "hanzi": "意义",
+      "pinyin": "yìyì",
+      "meaning": "ý nghĩa",
+      "example_zh": "这件事很有<u>意义</u>。",
+      "example_vi": "Việc này rất có <u>ý nghĩa</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "意义.svg",
+      "src": "images/HSK_2.0/level5/意义.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/意义.svg"
       ]
     }
   }

@@ -12266,6 +12266,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "摇.svg",
     "src": "images/HSK_2.0/level5/摇.svg",
     "caption": "lắc, rung"
+  },
+  "要不": {
+    "file": "要不.svg",
+    "src": "images/HSK_2.0/level5/要不.svg",
+    "caption": "nếu không thì, hay là"
+  },
+  "业务": {
+    "file": "业务.svg",
+    "src": "images/HSK_2.0/level5/业务.svg",
+    "caption": "nghiệp vụ, công việc"
+  },
+  "一辈子": {
+    "file": "一辈子.svg",
+    "src": "images/HSK_2.0/level5/一辈子.svg",
+    "caption": "cả đời, một đời"
+  },
+  "一律": {
+    "file": "一律.svg",
+    "src": "images/HSK_2.0/level5/一律.svg",
+    "caption": "đồng nhất, tất cả"
+  },
+  "移动": {
+    "file": "移动.svg",
+    "src": "images/HSK_2.0/level5/移动.svg",
+    "caption": "di động, di chuyển"
+  },
+  "遗憾": {
+    "file": "遗憾.svg",
+    "src": "images/HSK_2.0/level5/遗憾.svg",
+    "caption": "đáng tiếc, hối tiếc"
+  },
+  "乙": {
+    "file": "乙.svg",
+    "src": "images/HSK_2.0/level5/乙.svg",
+    "caption": "thứ hai (trong giáp, ất...)"
+  },
+  "以及": {
+    "file": "以及.svg",
+    "src": "images/HSK_2.0/level5/以及.svg",
+    "caption": "cùng với, và"
+  },
+  "亿": {
+    "file": "亿.svg",
+    "src": "images/HSK_2.0/level5/亿.svg",
+    "caption": "trăm triệu, ức"
+  },
+  "意义": {
+    "file": "意义.svg",
+    "src": "images/HSK_2.0/level5/意义.svg",
+    "caption": "ý nghĩa"
   }
 };
 
