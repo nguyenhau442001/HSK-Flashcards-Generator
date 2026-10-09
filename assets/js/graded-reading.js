@@ -142,6 +142,8 @@ const GradedReading = (function() {
     return data;
   }
 
+  let escapeListenerBound = false;
+
   /**
    * Main entry point
    */
@@ -149,6 +151,19 @@ const GradedReading = (function() {
     const mount = document.getElementById('screenGradedReading');
     if (!mount) return;
     document.body.classList.add('graded-reading-active');
+
+    if (!escapeListenerBound) {
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          if (activePopover) {
+            closePopover();
+          } else if (activeStory) {
+            goBackToHub();
+          }
+        }
+      });
+      escapeListenerBound = true;
+    }
 
     // Check URL parameter for direct story link
     const params = new URLSearchParams(window.location.search);
@@ -164,11 +179,27 @@ const GradedReading = (function() {
   }
 
   /**
+   * Return back to reading hub and sync URL
+   */
+  function goBackToHub() {
+    activeStory = null;
+    closePopover();
+    document.body.classList.remove('graded-story-active');
+    if (typeof SpaRouter !== 'undefined') {
+      SpaRouter.pushView({ view: 'tab', tab: 'gradedReading' }, `${window.location.pathname}?tab=gradedReading`);
+    } else {
+      window.history.pushState({}, '', `${window.location.pathname}?tab=gradedReading`);
+    }
+    renderHub();
+  }
+
+  /**
    * Render Reading Hub
    */
   function renderHub() {
     activeStory = null;
     closePopover();
+    document.body.classList.remove('graded-story-active');
     const mount = document.getElementById('screenGradedReading');
     if (!mount) return;
 
@@ -181,6 +212,13 @@ const GradedReading = (function() {
 
     mount.innerHTML = `
       <div class="graded-reading-container">
+        <!-- Back to Vocab Hub Bar -->
+        <div style="display: flex; align-items: center; justify-content: flex-start; margin-bottom: 16px;">
+          <button type="button" class="graded-back-btn" onclick="setPrimaryTab('vocab')" title="Quay lại Hub Từ vựng">
+            ← Quay lại Hub Từ vựng
+          </button>
+        </div>
+
         <!-- Hero Header -->
         <header class="graded-hub-hero">
           <div class="graded-hub-badge">📚 Graded Reading</div>
@@ -270,7 +308,7 @@ const GradedReading = (function() {
         <div class="graded-reading-container" style="text-align: center; padding: 60px 0;">
           <div style="color: #ef4444; font-weight: 700; margin-bottom: 12px;">Đã xảy ra lỗi</div>
           <p style="color: var(--text-secondary);">${e.message}</p>
-          <button type="button" class="graded-back-btn" style="margin: 16px auto;" onclick="GradedReading.renderHub()">← Trở về danh sách</button>
+          <button type="button" class="graded-back-btn" style="margin: 16px auto;" onclick="GradedReading.goBackToHub()">← Trở về danh sách</button>
         </div>
       `;
     }
@@ -283,6 +321,8 @@ const GradedReading = (function() {
     const mount = document.getElementById('screenGradedReading');
     if (!mount) return;
 
+    document.body.classList.add('graded-story-active');
+
     // Apply initial toggle preference classes
     document.body.classList.toggle('graded-pinyin-hidden', !prefs.showPinyin);
     document.body.classList.toggle('graded-translation-hidden', !prefs.showTranslation);
@@ -293,7 +333,7 @@ const GradedReading = (function() {
       <div class="graded-reading-container graded-reader-shell">
         <!-- Navigation & Toggles Bar -->
         <header class="graded-reader-nav">
-          <button type="button" class="graded-back-btn" onclick="GradedReading.renderHub()" title="Trở về danh sách bài đọc (Esc)">
+          <button type="button" class="graded-back-btn" onclick="GradedReading.goBackToHub()" title="Trở về danh sách bài đọc (Esc)">
             ← Hub bài đọc
           </button>
 
@@ -657,6 +697,7 @@ const GradedReading = (function() {
     init,
     renderHub,
     openStory,
+    goBackToHub,
     togglePinyin,
     toggleTranslation,
     setLevelFilter,

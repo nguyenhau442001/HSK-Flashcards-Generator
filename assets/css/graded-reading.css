@@ -51,6 +51,48 @@ body.graded-reading-active .workstation-middle {
   grid-area: auto !important;
 }
 
+body.graded-reading-active .app-header {
+  width: 100% !important;
+  max-width: 960px !important;
+  margin: 0 auto 16px !important;
+  position: relative !important;
+}
+
+body.graded-reading-active #primaryTabs {
+  width: 100% !important;
+  max-width: 960px !important;
+  margin: 0 auto 16px !important;
+}
+
+/* Eliminate all sidebar clutter, dashboard cards, and other hub screens */
+body.graded-reading-active .workstation-left,
+body.graded-reading-active .workstation-right,
+body.graded-reading-active #learningDashboard,
+body.graded-reading-active #continueLearningCard,
+body.graded-reading-active .dashboard-aux-column,
+body.graded-reading-active .quick-quiz-card,
+body.graded-reading-active .featured-topics,
+body.graded-reading-active .reading-promo-banner,
+body.graded-reading-active .graded-reading-promo-banner,
+body.graded-reading-active #screenVocabHub,
+body.graded-reading-active #screenCards,
+body.graded-reading-active #screenPicker,
+body.graded-reading-active #screenTopicPicker,
+body.graded-reading-active #screenReviewPicker,
+body.graded-reading-active #screenRadicalHub,
+body.graded-reading-active #screenSentenceGame,
+body.graded-reading-active #screenGuessWord,
+body.graded-reading-active #screenSpeedQuiz,
+body.graded-reading-active #screenReadingAnalysis,
+body.graded-reading-active .app-footer {
+  display: none !important;
+}
+
+/* When reading an individual story, hide primary navigation tabs for full zen immersion */
+body.graded-story-active #primaryTabs {
+  display: none !important;
+}
+
 body.graded-reading-active #screenGradedReading {
   display: flex !important;
   flex-direction: column !important;
@@ -58,6 +100,7 @@ body.graded-reading-active #screenGradedReading {
   width: 100% !important;
   max-width: 960px !important;
   margin: 0 auto !important;
+  padding: 0 !important;
 }
 
 /* Container */
@@ -573,13 +616,19 @@ body.graded-translation-hidden .graded-sentence-vi {
   position: absolute;
   z-index: 1000;
   width: 290px;
-  background: #0f172a;
+  background: var(--card-bg, #0f172a);
   border: 1px solid rgba(245, 158, 11, 0.4);
   border-radius: 14px;
   padding: 16px;
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5), 0 0 1px 1px rgba(245, 158, 11, 0.2);
   animation: popoverFadeIn 0.15s ease-out;
   box-sizing: border-box;
+}
+
+[data-theme="light"] .graded-token-popover {
+  background: #ffffff;
+  border-color: rgba(217, 119, 6, 0.4);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12), 0 0 1px 1px rgba(217, 119, 6, 0.2);
 }
 
 @keyframes popoverFadeIn {
@@ -602,7 +651,7 @@ body.graded-translation-hidden .graded-sentence-vi {
 .popover-hanzi {
   font-size: 1.8rem;
   font-weight: 850;
-  color: #fff;
+  color: var(--text-primary, #fff);
   line-height: 1.1;
 }
 

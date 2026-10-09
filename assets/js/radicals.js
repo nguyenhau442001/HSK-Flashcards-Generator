@@ -82,7 +82,7 @@ function setPrimaryTab(tab, options) {
     document.body.classList.remove('reading-zen-active');
   }
   if (tab !== 'gradedReading') {
-    document.body.classList.remove('graded-pinyin-hidden', 'graded-translation-hidden');
+    document.body.classList.remove('graded-pinyin-hidden', 'graded-translation-hidden', 'graded-story-active');
   }
   const gamesMenu = document.getElementById('primaryGamesMenu');
   if (gamesMenu) {
@@ -91,6 +91,8 @@ function setPrimaryTab(tab, options) {
   }
   const dashboard = document.getElementById('learningDashboard');
   if (dashboard) dashboard.style.display = tab === 'vocab' ? '' : 'none';
+  const continueCard = document.getElementById('continueLearningCard');
+  if (continueCard) continueCard.style.display = tab === 'vocab' ? '' : 'none';
   if (tab !== 'vocab') setActiveStudyWord(null);
   if (tab === 'radicals') ensureRadicalDataLoaded();
   if (tab === 'reading') {

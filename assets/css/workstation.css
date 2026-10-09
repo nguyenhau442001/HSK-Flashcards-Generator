@@ -28,7 +28,17 @@ body.reading-view-active .dashboard-aux-column,
 body.reading-view-active .quick-quiz-card,
 body.reading-view-active .featured-topics,
 body.reading-view-active .reading-promo-banner,
-body.reading-view-active #primaryTabs {
+body.reading-view-active #primaryTabs,
+body.graded-reading-active .workstation-left,
+body.graded-reading-active .workstation-right,
+body.graded-reading-active #learningDashboard,
+body.graded-reading-active #continueLearningCard,
+body.graded-reading-active .dashboard-aux-column,
+body.graded-reading-active .quick-quiz-card,
+body.graded-reading-active .featured-topics,
+body.graded-reading-active .reading-promo-banner,
+body.graded-reading-active .graded-reading-promo-banner,
+body.graded-story-active #primaryTabs {
   display: none !important;
 }
 
@@ -50,7 +60,8 @@ body.reading-view-active #primaryTabs {
   .workstation-left   { grid-area: left; position: sticky; top: 24px; }
   .workstation-middle { grid-area: middle; min-width: 0; }
   body.reading-view-active .workstation,
-  body.reading-zen-active .workstation {
+  body.reading-zen-active .workstation,
+  body.graded-reading-active .workstation {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
