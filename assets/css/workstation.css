@@ -520,38 +520,40 @@ body.flashcard-study-mode .view-tab.active .view-tab-icon {
   color: #f97316;
 }
 
-/* Center Progress Tracker inside Topbar */
+/* Center Progress Tracker inside Topbar: elongated and balanced */
 .study-topbar-progress {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 3px;
-  min-width: 100px;
-  max-width: 220px;
-  flex: 0 1 auto;
+  gap: 5px;
+  min-width: 130px;
+  max-width: 440px;
+  width: 100%;
+  flex: 1 1 auto;
+  margin: 0 16px;
 }
 .study-topbar-progress-info {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 10px;
   font-size: 11.5px;
 }
 .study-topbar-progress-info .study-progress-numbers {
   font-weight: 600;
   font-variant-numeric: tabular-nums;
   color: var(--text-secondary);
-  font-size: 12px;
+  font-size: 12.5px;
   letter-spacing: 0.02em;
 }
 :root[data-theme="dark"] .study-topbar-progress-info .study-progress-numbers {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.65);
 }
 .study-topbar-progress-info .study-progress-pct {
   font-size: 11px;
   font-weight: 700;
-  padding: 1px 7px;
+  padding: 1.5px 8px;
   border-radius: 999px;
   background: rgba(249, 115, 22, 0.12);
   color: #fb923c;
@@ -560,20 +562,20 @@ body.flashcard-study-mode .view-tab.active .view-tab-icon {
 }
 .study-topbar-progress .progress-bar-track {
   width: 100%;
-  height: 4px;
+  height: 5px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.08);
   overflow: hidden;
   margin: 0;
 }
 :root[data-theme="dark"] .study-topbar-progress .progress-bar-track {
-  background: rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.08);
 }
 .study-topbar-progress .progress-bar-fill {
   height: 100%;
   background: linear-gradient(90deg, #f97316 0%, #fb923c 100%);
   border-radius: 999px;
-  box-shadow: 0 0 8px rgba(249, 115, 22, 0.35);
+  box-shadow: 0 0 10px rgba(249, 115, 22, 0.4);
   transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
