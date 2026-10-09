@@ -178,7 +178,9 @@ for lvl_idx in range(1, 10):
                 "icon": data.get("icon", "📖"),
                 "estimatedMinutes": data.get("estimatedMinutes", 3),
                 "description_vi": data.get("description_vi", ""),
+                "sentence_count": len(data.get("sentences", [])),
                 "sentences_count": len(data.get("sentences", [])),
+                "spotlight_count": len(data.get("vocabulary_spotlight", [])),
                 "words_count": sum(len(s.get("tokens", [])) for s in data.get("sentences", [])),
                 "file": f"database/readings/{lvl_name}/{story_file.name}",
                 "path": f"database/readings/{lvl_name}/{story_file.name}"

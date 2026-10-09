@@ -281,7 +281,7 @@ const GradedReading = (function() {
                 </div>
               </div>
               <footer class="graded-card-footer">
-                <span>${story.sentence_count} câu · ${story.spotlight_count} từ spotlight</span>
+                <span>${story.sentence_count ?? story.sentences_count ?? 5} câu · ${story.spotlight_count ?? 10} từ spotlight</span>
                 <span class="graded-card-read-btn">Đọc ngay →</span>
               </footer>
             </article>
