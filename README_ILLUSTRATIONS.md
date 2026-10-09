@@ -1,0 +1,82 @@
+# 🎨 Kho Lưu Trữ Hình Minh Họa Ngữ Cảnh HSK (Scene-Based Vector Illustrations)
+
+*Báo cáo cập nhật tự động lúc: `2026-10-09 07:31:42`*
+
+Kho hình ảnh vector minh họa trực quan (Scene-Based Visual Mnemonics) cho toàn bộ từ vựng tiếng Trung thuộc hai hệ thống giáo trình **HSK 2.0 (HSK 1 - 6)** và **HSK 3.0 (Cấp 1 - 9)**.
+
+---
+
+## 🌟 Tiêu chuẩn thiết kế minh họa (Art Direction Standards)
+1. **Scene-Based & Action-Oriented (Gợi cảnh & Hành động thực tế)**:
+   - Toàn bộ hình vẽ được mô phỏng trực tiếp từ **câu ví dụ ngữ cảnh** của từ vựng đó.
+   - Nhân vật thực hiện hành động cụ thể, có đạo cụ (props), bối cảnh không gian thực tế (phòng học, văn phòng, đường phố, sân bay, bệnh viện, nhà hàng,...).
+   - **Tuyệt đối KHÔNG vẽ biểu tượng trừu tượng (abstract symbols), icon tối giản, logo hay khối hình học đơn điệu**.
+2. **Thân thiện với chế độ tối (Dark-Mode Friendly)**:
+   - Khung hình full-bleed nền tối sang trọng (`#1e293b` / `#0f172a`), đổ bóng mềm, viền bo tròn mềm mại (`rx="24"`).
+   - Màu sắc sinh động, ấm áp, độ tương phản cao với chữ Hán và Pinyin.
+3. **Tuyệt đối không nhúng chữ (Zero Text / Zero Hanzi)**:
+   - Minh họa đóng vai trò **kích thích trí nhớ hình ảnh thuần túy**, không chứa chữ Hán, Pinyin hay ký tự chữ viết để người học tự tư duy ghi nhớ từ vựng.
+
+---
+
+## 📁 Cấu trúc thư mục (Folder Hierarchy)
+
+```
+organized/
+├── HSK_2.0/
+│   ├── hsk1/          # Từ vựng HSK 1
+│   ├── hsk2/          # Từ vựng HSK 2
+│   ├── hsk3/          # Từ vựng HSK 3
+│   ├── hsk4/          # Từ vựng HSK 4
+│   ├── hsk5/          # Từ vựng HSK 5
+│   └── hsk6/          # Từ vựng HSK 6
+├── HSK_3.0/
+│   ├── level1/        # HSK 3.0 Cấp 1
+│   ├── level2/        # HSK 3.0 Cấp 2
+│   ├── level3/        # HSK 3.0 Cấp 3
+│   ├── level4/        # HSK 3.0 Cấp 4
+│   ├── level5/        # HSK 3.0 Cấp 5
+│   ├── level6/        # HSK 3.0 Cấp 6
+│   ├── level7/        # HSK 3.0 Cấp 7
+│   ├── level8/        # HSK 3.0 Cấp 8
+│   └── level9/        # HSK 3.0 Cấp 9
+├── generated_manifest.json    # Manifest tra cứu toàn diện JSON
+└── README.md                  # Bản thống kê chi tiết này
+```
+
+---
+
+## 📊 Bảng thống kê tiến độ HSK 2.0 (Tổng từ vựng: 5000)
+
+| Cấp độ | Đã có hình / Tổng từ | Tỷ lệ | Tiến độ trực quan | Trạng thái |
+| :--- | :---: | :---: | :--- | :--- |
+| **HSK1** | `150/150` | **100.0%** | `██████████` | ✅ Hoàn thành |
+| **HSK2** | `150/150` | **100.0%** | `██████████` | ✅ Hoàn thành |
+| **HSK3** | `170/300` | **56.7%** | `█████░░░░░` | ⏳ Đang tạo |
+| **HSK4** | `600/600` | **100.0%** | `██████████` | ✅ Hoàn thành |
+| **HSK5** | `894/1300` | **68.8%** | `██████░░░░` | ⏳ Đang tạo |
+| **HSK6** | `428/2500` | **17.1%** | `█░░░░░░░░░` | ⏳ Đang tạo |
+| **TỔNG CỘNG HSK 2.0** | **`2392/5000`** | **`47.8%`** | `████░░░░░░` | ⏳ Đang hoàn thiện |
+
+---
+
+## 📊 Bảng thống kê tiến độ HSK 3.0 (Tổng từ vựng: 22200)
+
+| Cấp độ | Đã có hình / Tổng từ | Tỷ lệ | Tiến độ trực quan | Trạng thái |
+| :--- | :---: | :---: | :--- | :--- |
+| **HSK 3.0 Cấp 1** | `207/300` | **69.0%** | `██████░░░░` | ⏳ Đang tạo |
+| **HSK 3.0 Cấp 2** | `89/200` | **44.5%** | `████░░░░░░` | ⏳ Đang tạo |
+| **HSK 3.0 Cấp 3** | `197/500` | **39.4%** | `███░░░░░░░` | ⏳ Đang tạo |
+| **HSK 3.0 Cấp 4** | `574/1000` | **57.4%** | `█████░░░░░` | ⏳ Đang tạo |
+| **HSK 3.0 Cấp 5** | `606/1600` | **37.9%** | `███░░░░░░░` | ⏳ Đang tạo |
+| **HSK 3.0 Cấp 6** | `168/1800` | **9.3%** | `░░░░░░░░░░` | ⏳ Đang tạo |
+| **HSK 3.0 Cấp 7** | `73/5600` | **1.3%** | `░░░░░░░░░░` | ⏳ Đang tạo |
+| **HSK 3.0 Cấp 8** | `73/5600` | **1.3%** | `░░░░░░░░░░` | ⏳ Đang tạo |
+| **HSK 3.0 Cấp 9** | `73/5600` | **1.3%** | `░░░░░░░░░░` | ⏳ Đang tạo |
+| **TỔNG CỘNG HSK 3.0** | **`2060/22200`** | **`9.3%`** | `░░░░░░░░░░` | ⏳ Đang hoàn thiện |
+
+---
+
+## 💡 Tổng kết tài nguyên hiện tại
+- **Tổng số từ vựng duy nhất đã có minh họa vector**: **`1963`** từ.
+- **Manifest tích hợp ứng dụng**: File [`assets/js/word-illustrations.js`](file:///assets/js/word-illustrations.js) và [`generated_manifest.json`](file:///organized/generated_manifest.json) tự động đồng bộ đường dẫn để flashcard tải trực tiếp hình ảnh theo cấp độ tương ứng.

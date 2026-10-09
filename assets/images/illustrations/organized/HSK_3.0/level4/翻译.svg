@@ -1,0 +1,133 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Glowing Screen Gradient -->
+    <linearGradient id="screenGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.05" />
+    </linearGradient>
+
+    <!-- Warm Desk Light -->
+    <radialGradient id="deskLight" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Soft Shadows -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Full Bleed Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)" />
+  <rect width="240" height="240" rx="24" fill="url(#deskLight)" />
+
+  <!-- SCENE BACKGROUND / DESK -->
+  <!-- Wooden Desk Surface -->
+  <path d="M 0 170 L 240 170 L 240 240 L 0 240 Z" fill="#090d16" />
+  <line x1="0" y1="170" x2="240" y2="170" stroke="#334155" stroke-width="2" />
+
+  <!-- Coffee Mug Prop (Left Context) -->
+  <g transform="translate(25, 145)" filter="url(#dropShadow)">
+    <rect x="0" y="5" width="20" height="25" rx="3" fill="#cbd5e1" />
+    <path d="M 20 10 C 26 10, 26 23, 20 23" fill="none" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round" />
+    <path d="M 6 0 C 7 -4, 13 -4, 14 0" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" opacity="0.6" />
+    <path d="M 10 -3 C 11 -7, 15 -7, 16 -3" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" opacity="0.4" />
+  </g>
+
+  <!-- MAIN SUBJECT: Translation Setup (Tablet/Device + Physical Documents) -->
+  
+  <!-- Stack of Source Documents / Reference Books (Bottom Layer) -->
+  <g transform="translate(45, 135) rotate(-6)" filter="url(#dropShadow)">
+    <rect x="0" y="0" width="90" height="40" rx="3" fill="#e2e8f0" />
+    <rect x="10" y="8" width="50" height="4" rx="2" fill="#94a3b8" />
+    <rect x="10" y="16" width="70" height="3" rx="1.5" fill="#cbd5e1" />
+    <rect x="10" y="23" width="40" height="3" rx="1.5" fill="#cbd5e1" />
+  </g>
+
+  <g transform="translate(105, 125) rotate(4)" filter="url(#dropShadow)">
+    <rect x="0" y="0" width="90" height="45" rx="3" fill="#f8fafc" />
+    <!-- Page lines -->
+    <line x1="12" y1="10" x2="50" y2="12" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round" />
+    <line x1="12" y1="20" x2="70" y2="22" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round" />
+    <line x1="12" y1="30" x2="55" y2="32" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <!-- Central Tablet/Translator Device -->
+  <g transform="translate(52, 55)" filter="url(#dropShadow)">
+    <!-- Device Body (Dark Modern Frame) -->
+    <rect x="0" y="0" width="136" height="96" rx="10" fill="#334155" />
+    <rect x="4" y="4" width="128" height="88" rx="7" fill="#0f172a" />
+    
+    <!-- Screen Content / Active Translation Interface -->
+    <rect x="8" y="8" width="120" height="80" rx="5" fill="url(#screenGlow)" />
+
+    <!-- Split Screen UI representing translation (Source left, Target right) -->
+    <line x1="68" y1="12" x2="68" y2="84" stroke="#334155" stroke-dasharray="3 3" stroke-width="2" />
+
+    <!-- Source Language Side (Left) -->
+    <g transform="translate(16, 20)">
+      <!-- Waveform / Audio symbol -->
+      <rect x="0" y="5" width="4" height="12" rx="2" fill="#38bdf8" />
+      <rect x="7" y="2" width="4" height="18" rx="2" fill="#38bdf8" />
+      <rect x="14" y="8" width="4" height="6" rx="2" fill="#38bdf8" />
+      <!-- Text Blocks (Abstracted lines) -->
+      <rect x="0" y="32" width="38" height="5" rx="2.5" fill="#e2e8f0" />
+      <rect x="0" y="42" width="26" height="5" rx="2.5" fill="#94a3b8" />
+    </g>
+
+    <!-- Target Language Side (Right) -->
+    <g transform="translate(78, 20)">
+      <!-- Glowing Target Indicator -->
+      <circle cx="8" cy="11" r="8" fill="#10b981" opacity="0.2" />
+      <circle cx="8" cy="11" r="4" fill="#10b981" />
+      <!-- Text Blocks (Abstracted lines) -->
+      <rect x="0" y="32" width="42" height="5" rx="2.5" fill="#34d399" />
+      <rect x="0" y="42" width="30" height="5" rx="2.5" fill="#6ee7b7" />
+    </g>
+
+    <!-- Connecting Dynamic Flow Arrow across languages -->
+    <path d="M 52 48 C 58 42, 62 42, 68 48" fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" />
+    <polygon points="68,45 74,48 68,51" fill="#f59e0b" />
+
+    <!-- Tablet Stand -->
+    <path d="M 50 96 L 86 96 L 94 104 L 42 104 Z" fill="#1e293b" />
+  </g>
+
+  <!-- ACTION/INTERACTION ELEMENTS (Floating translation symbols & sparks) -->
+  <!-- Floating Translation Nodes -->
+  <g transform="translate(35, 60)" filter="url(#dropShadow)">
+    <circle cx="0" cy="0" r="12" fill="#fb923c" opacity="0.9" />
+    <!-- Stylized exchange arrows inside node -->
+    <path d="M -4 -3 L 4 -3 L 1 -6 M 4 -3 L 1 0" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 4 3 L -4 3 L -1 6 M -4 3 L -1 0" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <g transform="translate(205, 75)" filter="url(#dropShadow)">
+    <circle cx="0" cy="0" r="14" fill="#38bdf8" opacity="0.9" />
+    <!-- Stylized speech bubble icon -->
+    <path d="M -5 -3 C -5 -6, 5 -6, 5 -3 C 5 0, 2 2, 0 5 L -3 3 L -5 3 Z" fill="#fff" />
+  </g>
+
+  <g transform="translate(190, 35)">
+    <circle cx="0" cy="0" r="8" fill="#10b981" opacity="0.8" />
+    <path d="M -3 0 L -1 2 L 4 -3" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Magical / Tech Sparkles -->
+  <g fill="#fbbf24">
+    <!-- Star 1 -->
+    <path d="M 30 35 C 30 35, 30 42, 33 42 C 36 42, 36 35, 36 35 C 36 35, 42 35, 42 32 C 42 29, 36 29, 36 29 C 36 29, 30 29, 30 32 C 30 35, 30 35, 30 35 Z" transform="scale(0.6) translate(10, 10)" />
+    <!-- Star 2 -->
+    <path d="M 200 120 C 200 120, 200 126, 203 126 C 206 126, 206 120, 206 120 C 206 120, 212 120, 212 117 C 212 114, 206 114, 206 114 C 206 114, 200 114, 200 117 C 200 120, 200 120, 200 120 Z" transform="scale(0.8) translate(5, 5)" />
+  </g>
+
+  <!-- Accent Lighting / Rim Glow on Tablet -->
+  <rect x="56" y="59" width="128" height="2" fill="#38bdf8" opacity="0.4" rx="1" />
+</svg>
