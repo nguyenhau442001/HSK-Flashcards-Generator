@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:34:48.267667",
-  "total_unique_words_with_illustrations": 2213,
-  "total_flat_svg_files": 2213,
+  "generated_at": "2026-10-09T20:36:51.230577",
+  "total_unique_words_with_illustrations": 2223,
+  "total_flat_svg_files": 2223,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1014,
-        "pct": "78.0%"
+        "with_svg": 1024,
+        "pct": "78.8%"
       },
       "level6": {
         "total": 2500,
@@ -58,12 +58,12 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 680,
-        "pct": "42.5%"
+        "with_svg": 688,
+        "pct": "43.0%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 196,
+        "with_svg": 197,
         "pct": "10.9%"
       },
       "level7": {
@@ -40802,6 +40802,182 @@
       "src": "images/HSK_2.0/level5/前途.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/前途.svg"
+      ]
+    },
+    "欠": {
+      "hanzi": "欠",
+      "pinyin": "qiàn",
+      "meaning": "thiếu, nợ",
+      "example_zh": "他<u>欠</u>了我一些钱。",
+      "example_vi": "Anh ấy <u>nợ</u> tôi một ít tiền.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "欠.svg",
+      "src": "images/HSK_2.0/level5/欠.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/欠.svg"
+      ]
+    },
+    "墙": {
+      "hanzi": "墙",
+      "pinyin": "qiáng",
+      "meaning": "tường",
+      "example_zh": "<u>墙</u>上挂着一幅画。",
+      "example_vi": "Trên <u>tường</u> treo một bức tranh.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "墙.svg",
+      "src": "images/HSK_2.0/level5/墙.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/墙.svg"
+      ]
+    },
+    "强烈": {
+      "hanzi": "强烈",
+      "pinyin": "qiángliè",
+      "meaning": "mạnh mẽ, kịch liệt",
+      "example_zh": "他的反应很<u>强烈</u>。",
+      "example_vi": "Phản ứng của anh ấy rất <u>mạnh mẽ</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "强烈.svg",
+      "src": "images/HSK_2.0/level5/强烈.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/强烈.svg"
+      ]
+    },
+    "切": {
+      "hanzi": "切",
+      "pinyin": "qiē",
+      "meaning": "cắt, thái",
+      "example_zh": "请把苹果<u>切</u>开。",
+      "example_vi": "Xin hãy <u>cắt</u> quả táo ra.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "切.svg",
+      "src": "images/HSK_2.0/level5/切.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/切.svg"
+      ]
+    },
+    "亲自": {
+      "hanzi": "亲自",
+      "pinyin": "qīnzì",
+      "meaning": "tự mình, đích thân",
+      "example_zh": "他<u>亲自</u>来看我了。",
+      "example_vi": "Anh ấy <u>đích thân</u> đến thăm tôi.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "亲自.svg",
+      "src": "images/HSK_2.0/level5/亲自.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/亲自.svg"
+      ]
+    },
+    "青": {
+      "hanzi": "青",
+      "pinyin": "qīng",
+      "meaning": "xanh (màu); trẻ",
+      "example_zh": "她还很<u>青</u>。",
+      "example_vi": "Cô ấy vẫn còn rất <u>trẻ</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "青.svg",
+      "src": "images/HSK_2.0/level5/青.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/青.svg"
+      ]
+    },
+    "青少年": {
+      "hanzi": "青少年",
+      "pinyin": "qīngshàonián",
+      "meaning": "thanh thiếu niên",
+      "example_zh": "<u>青少年</u>要注意健康。",
+      "example_vi": "<u>Thanh thiếu niên</u> phải chú ý sức khỏe.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [],
+      "file": "青少年.svg",
+      "src": "images/HSK_2.0/level5/青少年.svg",
+      "alt_srcs": []
+    },
+    "轻易": {
+      "hanzi": "轻易",
+      "pinyin": "qīngyì",
+      "meaning": "dễ dàng, tùy tiện",
+      "example_zh": "这个问题不能<u>轻易</u>解决。",
+      "example_vi": "Vấn đề này không thể giải quyết <u>dễ dàng</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "轻易.svg",
+      "src": "images/HSK_2.0/level5/轻易.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/轻易.svg"
+      ]
+    },
+    "清淡": {
+      "hanzi": "清淡",
+      "pinyin": "qīngdàn",
+      "meaning": "thanh đạm, nhạt",
+      "example_zh": "他喜欢吃<u>清淡</u>的菜。",
+      "example_vi": "Anh ấy thích ăn món ăn <u>thanh đạm</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "清淡.svg",
+      "src": "images/HSK_2.0/level5/清淡.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/清淡.svg"
+      ]
+    },
+    "情景": {
+      "hanzi": "情景",
+      "pinyin": "qíngjǐng",
+      "meaning": "cảnh tượng, tình cảnh",
+      "example_zh": "这个<u>情景</u>让我很感动。",
+      "example_vi": "<u>Cảnh tượng</u> này làm tôi rất cảm động.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "情景.svg",
+      "src": "images/HSK_2.0/level5/情景.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/情景.svg"
       ]
     },
     "挑战": {

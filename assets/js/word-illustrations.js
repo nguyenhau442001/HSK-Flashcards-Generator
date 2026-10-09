@@ -11347,6 +11347,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/前途.svg",
     "caption": "tiền đồ, tương lai"
   },
+  "欠": {
+    "file": "欠.svg",
+    "src": "images/HSK_2.0/level5/欠.svg",
+    "caption": "thiếu, nợ"
+  },
+  "墙": {
+    "file": "墙.svg",
+    "src": "images/HSK_2.0/level5/墙.svg",
+    "caption": "tường"
+  },
+  "强烈": {
+    "file": "强烈.svg",
+    "src": "images/HSK_2.0/level5/强烈.svg",
+    "caption": "mạnh mẽ, kịch liệt"
+  },
+  "切": {
+    "file": "切.svg",
+    "src": "images/HSK_2.0/level5/切.svg",
+    "caption": "cắt, thái"
+  },
+  "亲自": {
+    "file": "亲自.svg",
+    "src": "images/HSK_2.0/level5/亲自.svg",
+    "caption": "tự mình, đích thân"
+  },
+  "青": {
+    "file": "青.svg",
+    "src": "images/HSK_2.0/level5/青.svg",
+    "caption": "xanh (màu); trẻ"
+  },
+  "青少年": {
+    "file": "青少年.svg",
+    "src": "images/HSK_2.0/level5/青少年.svg",
+    "caption": "thanh thiếu niên"
+  },
+  "轻易": {
+    "file": "轻易.svg",
+    "src": "images/HSK_2.0/level5/轻易.svg",
+    "caption": "dễ dàng, tùy tiện"
+  },
+  "清淡": {
+    "file": "清淡.svg",
+    "src": "images/HSK_2.0/level5/清淡.svg",
+    "caption": "thanh đạm, nhạt"
+  },
+  "情景": {
+    "file": "情景.svg",
+    "src": "images/HSK_2.0/level5/情景.svg",
+    "caption": "cảnh tượng, tình cảnh"
+  },
   "挑战": {
     "file": "挑战.svg",
     "src": "images/HSK_2.0/level5/挑战.svg",
