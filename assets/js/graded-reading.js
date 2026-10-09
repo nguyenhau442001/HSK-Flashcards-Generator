@@ -117,7 +117,7 @@ const GradedReading = (function() {
   async function ensureManifestLoaded() {
     if (manifestLoaded && manifest.length) return manifest;
     try {
-      const res = await fetch('database/readings/manifest.json');
+      const res = await fetch('database/readings/manifest.json?v=' + Date.now());
       if (!res.ok) throw new Error('Không thể tải danh sách bài đọc.');
       manifest = await res.json();
       manifestLoaded = true;
@@ -281,7 +281,7 @@ const GradedReading = (function() {
                 </div>
               </div>
               <footer class="graded-card-footer">
-                <span>${story.sentence_count ?? story.sentences_count ?? 5} câu · ${story.spotlight_count ?? 10} từ spotlight</span>
+                <span class="graded-card-meta-text">${story.sentence_count ?? story.sentences_count ?? 5} câu · ${story.spotlight_count ?? 10} từ</span>
                 <span class="graded-card-read-btn">Đọc ngay →</span>
               </footer>
             </article>
