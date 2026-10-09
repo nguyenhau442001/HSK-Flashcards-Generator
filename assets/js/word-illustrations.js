@@ -2292,6 +2292,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level3/坏.svg",
     "caption": "hỏng, xấu"
   },
+  "欢迎": {
+    "file": "欢迎.svg",
+    "src": "images/HSK_2.0/level3/欢迎.svg",
+    "caption": "hoan nghênh, chào mừng"
+  },
+  "还（动词）": {
+    "file": "还（动词）.svg",
+    "src": "images/HSK_2.0/level3/还（动词）.svg",
+    "caption": "trả lại"
+  },
+  "环境": {
+    "file": "环境.svg",
+    "src": "images/HSK_2.0/level3/环境.svg",
+    "caption": "môi trường"
+  },
+  "换": {
+    "file": "换.svg",
+    "src": "images/HSK_2.0/level3/换.svg",
+    "caption": "đổi, thay"
+  },
+  "黄河": {
+    "file": "黄河.svg",
+    "src": "images/HSK_2.0/level3/黄河.svg",
+    "caption": "sông Hoàng Hà"
+  },
+  "回答": {
+    "file": "回答.svg",
+    "src": "images/HSK_2.0/level3/回答.svg",
+    "caption": "trả lời"
+  },
+  "会议": {
+    "file": "会议.svg",
+    "src": "images/HSK_2.0/level3/会议.svg",
+    "caption": "cuộc họp"
+  },
+  "或者": {
+    "file": "或者.svg",
+    "src": "images/HSK_2.0/level3/或者.svg",
+    "caption": "hoặc là"
+  },
+  "几乎": {
+    "file": "几乎.svg",
+    "src": "images/HSK_2.0/level3/几乎.svg",
+    "caption": "hầu như"
+  },
+  "机会": {
+    "file": "机会.svg",
+    "src": "images/HSK_2.0/level3/机会.svg",
+    "caption": "cơ hội"
+  },
   "南": {
     "file": "南.svg",
     "src": "images/HSK_2.0/level3/南.svg",

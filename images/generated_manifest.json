@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T19:53:15.799583",
-  "total_unique_words_with_illustrations": 2025,
-  "total_flat_svg_files": 2025,
+  "generated_at": "2026-10-09T19:55:21.355197",
+  "total_unique_words_with_illustrations": 2035,
+  "total_flat_svg_files": 2035,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -16,8 +16,8 @@
       },
       "level3": {
         "total": 300,
-        "with_svg": 232,
-        "pct": "77.3%"
+        "with_svg": 242,
+        "pct": "80.7%"
       },
       "level4": {
         "total": 600,
@@ -48,8 +48,8 @@
       },
       "level3": {
         "total": 500,
-        "with_svg": 243,
-        "pct": "48.6%"
+        "with_svg": 251,
+        "pct": "50.2%"
       },
       "level4": {
         "total": 1000,
@@ -7175,6 +7175,178 @@
       "src": "images/HSK_2.0/level3/坏.svg",
       "alt_srcs": [
         "images/HSK_3.0/level2/坏.svg"
+      ]
+    },
+    "欢迎": {
+      "hanzi": "欢迎",
+      "pinyin": "huānyíng",
+      "meaning": "hoan nghênh, chào mừng",
+      "example_zh": "<u>欢迎</u>来我家。",
+      "example_vi": "<u>Chào mừng</u> bạn đến nhà tôi.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "欢迎.svg",
+      "src": "images/HSK_2.0/level3/欢迎.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/欢迎.svg"
+      ]
+    },
+    "还（动词）": {
+      "hanzi": "还（动词）",
+      "pinyin": "huán",
+      "meaning": "trả lại",
+      "example_zh": "我明天<u>还</u>你钱。",
+      "example_vi": "Ngày mai tôi <u>trả</u> tiền cho bạn.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [],
+      "file": "还（动词）.svg",
+      "src": "images/HSK_2.0/level3/还（动词）.svg",
+      "alt_srcs": []
+    },
+    "环境": {
+      "hanzi": "环境",
+      "pinyin": "huánjìng",
+      "meaning": "môi trường",
+      "example_zh": "我们要保护<u>环境</u>。",
+      "example_vi": "Chúng ta phải bảo vệ <u>môi trường</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "环境.svg",
+      "src": "images/HSK_2.0/level3/环境.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/环境.svg"
+      ]
+    },
+    "换": {
+      "hanzi": "换",
+      "pinyin": "huàn",
+      "meaning": "đổi, thay",
+      "example_zh": "我想<u>换</u>一件衣服。",
+      "example_vi": "Tôi muốn <u>đổi</u> một cái áo khác.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "换.svg",
+      "src": "images/HSK_2.0/level3/换.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/换.svg"
+      ]
+    },
+    "黄河": {
+      "hanzi": "黄河",
+      "pinyin": "huánghé",
+      "meaning": "sông Hoàng Hà",
+      "example_zh": "<u>黄河</u>是中国的母亲河。",
+      "example_vi": "<u>Hoàng Hà</u> là sông mẹ của Trung Quốc.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [],
+      "file": "黄河.svg",
+      "src": "images/HSK_2.0/level3/黄河.svg",
+      "alt_srcs": []
+    },
+    "回答": {
+      "hanzi": "回答",
+      "pinyin": "huídá",
+      "meaning": "trả lời",
+      "example_zh": "请<u>回答</u>这个问题。",
+      "example_vi": "Xin hãy <u>trả lời</u> câu hỏi này.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "回答.svg",
+      "src": "images/HSK_2.0/level3/回答.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/回答.svg"
+      ]
+    },
+    "会议": {
+      "hanzi": "会议",
+      "pinyin": "huìyì",
+      "meaning": "cuộc họp",
+      "example_zh": "明天有一个<u>会议</u>。",
+      "example_vi": "Ngày mai có một <u>cuộc họp</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "会议.svg",
+      "src": "images/HSK_2.0/level3/会议.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/会议.svg"
+      ]
+    },
+    "或者": {
+      "hanzi": "或者",
+      "pinyin": "huòzhě",
+      "meaning": "hoặc là",
+      "example_zh": "你可以坐车<u>或者</u>走路。",
+      "example_vi": "Bạn có thể đi xe <u>hoặc</u> đi bộ.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "或者.svg",
+      "src": "images/HSK_2.0/level3/或者.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/或者.svg"
+      ]
+    },
+    "几乎": {
+      "hanzi": "几乎",
+      "pinyin": "jīhū",
+      "meaning": "hầu như",
+      "example_zh": "他<u>几乎</u>每天都来。",
+      "example_vi": "Anh ấy <u>hầu như</u> ngày nào cũng đến.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "几乎.svg",
+      "src": "images/HSK_2.0/level3/几乎.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/几乎.svg"
+      ]
+    },
+    "机会": {
+      "hanzi": "机会",
+      "pinyin": "jīhuì",
+      "meaning": "cơ hội",
+      "example_zh": "这是一个好<u>机会</u>。",
+      "example_vi": "Đây là một <u>cơ hội</u> tốt.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "机会.svg",
+      "src": "images/HSK_2.0/level3/机会.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/机会.svg"
       ]
     },
     "南": {
