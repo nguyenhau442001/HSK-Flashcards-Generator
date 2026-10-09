@@ -1,0 +1,968 @@
+{
+  "id": "hsk6_story_007",
+  "level": "HSK6",
+  "title": {
+    "zh": "基因编辑与生命伦理",
+    "vi": "Chỉnh sửa gen và đạo đức sinh học"
+  },
+  "topic": "bioethics",
+  "topic_vi": "Y học & Đạo đức",
+  "icon": "⚕️",
+  "estimatedMinutes": 6,
+  "description_vi": "Trước ngưỡng cửa đột phá công nghệ gen, ranh giới đạo đức và trách nhiệm nhân loại cần được định vị.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "基因编辑技术的迅猛发展，为攻克遗传性罕见疾病带来了前所未有的曙光。",
+      "pinyin": "Jīyīn biānjí jìshù de xùnměng fāzhǎn, wèi gōngkè yíchuánxìng hǎnjiàn jíbìng dàilái le qiánsuǒwèiyǒu de shǔguāng.",
+      "vi": "Sự phát triển vượt bậc của công nghệ chỉnh sửa gen đã đem lại tia hy vọng chưa từng có trong việc chinh phục các căn bệnh di truyền hiếm gặp.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "基因",
+          "pinyin": "jīyīn",
+          "hanviet": "Cơ Nhân",
+          "meaning_vi": "gene",
+          "hsk": 6,
+          "word_id": "hsk6_1120"
+        },
+        {
+          "text": "编辑",
+          "pinyin": "biānjí",
+          "hanviet": "Biên Tập",
+          "meaning_vi": "biên tập",
+          "hsk": 5,
+          "word_id": "hsk5_662"
+        },
+        {
+          "text": "技术",
+          "pinyin": "jìshù",
+          "hanviet": "Kĩ Thuật/kỹ Thuật",
+          "meaning_vi": "kỹ thuật",
+          "hsk": 4,
+          "word_id": "hsk4_196"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "迅猛",
+          "pinyin": "xùnměng",
+          "hanviet": "Tấn Mãnh",
+          "meaning_vi": "nhanh chóng như vũ bão; dũng mãnh mau lẹ",
+          "hsk": 7,
+          "word_id": "hsk7_4704"
+        },
+        {
+          "text": "发展",
+          "pinyin": "fāzhǎn",
+          "hanviet": "Phát Triển",
+          "meaning_vi": "phát triển",
+          "hsk": 4,
+          "word_id": "hsk4_106"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "为",
+          "pinyin": "wèi",
+          "hanviet": "Vi",
+          "meaning_vi": "vì, cho",
+          "hsk": 3,
+          "word_id": "hsk3_229"
+        },
+        {
+          "text": "攻克",
+          "pinyin": "gōngkè",
+          "hanviet": "Công Khắc",
+          "meaning_vi": "chiếm được, khắc phục",
+          "hsk": 6,
+          "word_id": "hsk6_958"
+        },
+        {
+          "text": "遗传",
+          "pinyin": "yíchuán",
+          "hanviet": "Di Truyền",
+          "meaning_vi": "di truyền",
+          "hsk": 6,
+          "word_id": "hsk6_2382"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "罕见",
+          "pinyin": "hǎnjiàn",
+          "hanviet": "Hãn Kiến",
+          "meaning_vi": "hiếm thấy",
+          "hsk": 6,
+          "word_id": "hsk6_1031"
+        },
+        {
+          "text": "疾"
+        },
+        {
+          "text": "病"
+        },
+        {
+          "text": "带",
+          "pinyin": "dài",
+          "hanviet": "Đới",
+          "meaning_vi": "mang theo, đai",
+          "hsk": 3,
+          "word_id": "hsk3_42"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "前所未有",
+          "pinyin": "qiánsuǒwèiyǒu",
+          "hanviet": "Tiền Sở Vị Hữu",
+          "meaning_vi": "chưa từng có; chưa từng có từ trước tới nay",
+          "hsk": 7,
+          "word_id": "hsk7_3229"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "曙光",
+          "pinyin": "shǔguāng",
+          "hanviet": "Thự Quang",
+          "meaning_vi": "ánh bình minh; rạng đông; tia hy vọng",
+          "hsk": 7,
+          "word_id": "hsk7_3778"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "科学家们可以通过精确修改特定的碱基序列，从根源上阻断致病突变的传递。",
+      "pinyin": "Kēxuéjiā men kěyǐ tōngguò jīngquè xiūgǎi tèdìng de jiǎnjī xùliè, cóng gēnyuán shàng zǔduàn zhìbìng tūbiàn de chuándì.",
+      "vi": "Các nhà khoa học có thể thông qua chỉnh sửa chuẩn xác trình tự base đặc thù để chặn đứng sự lây truyền đột biến gây bệnh từ gốc rễ.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "科学",
+          "pinyin": "kēxué",
+          "hanviet": "Khoa Học",
+          "meaning_vi": "khoa học",
+          "hsk": 4,
+          "word_id": "hsk4_252"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "们"
+        },
+        {
+          "text": "可以",
+          "pinyin": "kěyǐ",
+          "hanviet": "Khả Dĩ",
+          "meaning_vi": "có thể, được",
+          "hsk": 2,
+          "word_id": "hsk2_57"
+        },
+        {
+          "text": "通过",
+          "pinyin": "tōngguò",
+          "hanviet": "Thông Qua",
+          "meaning_vi": "thông qua",
+          "hsk": 4,
+          "word_id": "hsk4_438"
+        },
+        {
+          "text": "精确",
+          "pinyin": "jīngquè",
+          "hanviet": "Tinh Xác",
+          "meaning_vi": "chính xác",
+          "hsk": 6,
+          "word_id": "hsk6_1235"
+        },
+        {
+          "text": "修改",
+          "pinyin": "xiūgǎi",
+          "hanviet": "Tu Cải",
+          "meaning_vi": "sửa đổi",
+          "hsk": 5,
+          "word_id": "hsk5_1181"
+        },
+        {
+          "text": "特定",
+          "pinyin": "tèdìng",
+          "hanviet": "Đặc Định",
+          "meaning_vi": "đặc định, nhất định",
+          "hsk": 6,
+          "word_id": "hsk6_2005"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "碱"
+        },
+        {
+          "text": "基"
+        },
+        {
+          "text": "序列",
+          "pinyin": "xùliè",
+          "hanviet": "Tự Liệt",
+          "meaning_vi": "trình tự; chuỗi; dãy số",
+          "hsk": 7,
+          "word_id": "hsk7_4650"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "从",
+          "pinyin": "cóng",
+          "hanviet": "Tòng",
+          "meaning_vi": "từ",
+          "hsk": 2,
+          "word_id": "hsk2_14"
+        },
+        {
+          "text": "根源",
+          "pinyin": "gēnyuán",
+          "hanviet": "Căn Nguyên",
+          "meaning_vi": "căn nguyên, nguồn cội",
+          "hsk": 7,
+          "word_id": "hsk7_1354"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "阻"
+        },
+        {
+          "text": "断",
+          "pinyin": "duàn",
+          "hanviet": "Đoạn",
+          "meaning_vi": "đứt, gãy",
+          "hsk": 5,
+          "word_id": "hsk5_758"
+        },
+        {
+          "text": "致",
+          "pinyin": "zhì",
+          "hanviet": "Trí",
+          "meaning_vi": "dẫn đến, khiến cho; gửi gắm",
+          "hsk": 7,
+          "word_id": "hsk7_5324"
+        },
+        {
+          "text": "病"
+        },
+        {
+          "text": "突"
+        },
+        {
+          "text": "变"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "传递",
+          "pinyin": "chuándì",
+          "hanviet": "Truyền Đệ",
+          "meaning_vi": "truyền, chuyển (tin tức, vật)",
+          "hsk": 6,
+          "word_id": "hsk6_456"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "然而，当这项技术触及人类生殖细胞以及非医疗目的的基因增强时，引发了广泛的伦理争议。",
+      "pinyin": "Rán'ér, dāng zhè xiàng jìshù chùjí rénlèi shēngzhí xìbāo yǐjí fēi yīliáo mùdì de jīyīn zēngqiáng shí, yǐnfā le guǎngfàn de lúnlǐ zhēngyì.",
+      "vi": "Dẫu vậy, khi công nghệ này chạm đến tế bào sinh sản cũng như nâng cấp gen phi mục đích y tế, nó đã dấy lên tranh cãi đạo đức sâu rộng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "然而",
+          "pinyin": "rán'ér",
+          "hanviet": "Nhiên Nhi",
+          "meaning_vi": "tuy nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_356"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "当",
+          "pinyin": "dāng",
+          "hanviet": "Đương",
+          "meaning_vi": "khi, lúc",
+          "hsk": 4,
+          "word_id": "hsk4_76"
+        },
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "项",
+          "pinyin": "xiàng",
+          "hanviet": "Hạng",
+          "meaning_vi": "khoản, mục (lượng từ)",
+          "hsk": 5,
+          "word_id": "hsk5_1162"
+        },
+        {
+          "text": "技术",
+          "pinyin": "jìshù",
+          "hanviet": "Kĩ Thuật/kỹ Thuật",
+          "meaning_vi": "kỹ thuật",
+          "hsk": 4,
+          "word_id": "hsk4_196"
+        },
+        {
+          "text": "触"
+        },
+        {
+          "text": "及"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "生"
+        },
+        {
+          "text": "殖"
+        },
+        {
+          "text": "细胞",
+          "pinyin": "xìbāo",
+          "hanviet": "Tế Bào",
+          "meaning_vi": "tế bào",
+          "hsk": 6,
+          "word_id": "hsk6_2182"
+        },
+        {
+          "text": "以及",
+          "pinyin": "yǐjí",
+          "hanviet": "Dĩ Cập",
+          "meaning_vi": "cùng với, và",
+          "hsk": 5,
+          "word_id": "hsk5_1202"
+        },
+        {
+          "text": "非",
+          "pinyin": "fēi",
+          "hanviet": "Phi",
+          "meaning_vi": "không phải, phi",
+          "hsk": 5,
+          "word_id": "hsk5_776"
+        },
+        {
+          "text": "医"
+        },
+        {
+          "text": "疗"
+        },
+        {
+          "text": "目的",
+          "pinyin": "mùdì",
+          "hanviet": "Mục Đích",
+          "meaning_vi": "mục đích",
+          "hsk": 4,
+          "word_id": "hsk4_310"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "基因",
+          "pinyin": "jīyīn",
+          "hanviet": "Cơ Nhân",
+          "meaning_vi": "gene",
+          "hsk": 6,
+          "word_id": "hsk6_1120"
+        },
+        {
+          "text": "增"
+        },
+        {
+          "text": "强"
+        },
+        {
+          "text": "时"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "引"
+        },
+        {
+          "text": "发",
+          "pinyin": "fā",
+          "hanviet": "Phát",
+          "meaning_vi": "phát ra, gửi",
+          "hsk": 3,
+          "word_id": "hsk3_63"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "广泛",
+          "pinyin": "guǎngfàn",
+          "hanviet": "Nghiễm Phiếm",
+          "meaning_vi": "rộng rãi, phổ biến",
+          "hsk": 5,
+          "word_id": "hsk5_829"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "伦理",
+          "pinyin": "lúnlǐ",
+          "hanviet": "Luân Lý",
+          "meaning_vi": "luân lý, đạo đức",
+          "hsk": 7,
+          "word_id": "hsk7_2704"
+        },
+        {
+          "text": "争"
+        },
+        {
+          "text": "议",
+          "pinyin": "yì",
+          "hanviet": "Nghị",
+          "meaning_vi": "bàn bạc; thảo luận; nghị sự",
+          "hsk": 7,
+          "word_id": "hsk7_4847"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "科技的进步一旦脱离道德约束与法律监管，可能会加剧社会不公甚至动摇人类物种的定义。",
+      "pinyin": "Kējì de jìnbù yídàn tuōlí dàodé yuēshù yǔ fǎlǜ jiānguǎn, kěnéng huì jiājù shèhuì bùgōng shènzhì dòngyáo rénlèi wùzhǒng de dìngyì.",
+      "vi": "Tiến bộ công nghệ một khi thoát ly khỏi sự ràng buộc đạo đức và giám sát pháp luật có thể khoét sâu bất công xã hội và lung lay định nghĩa loài người.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "科"
+        },
+        {
+          "text": "技"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "进步",
+          "pinyin": "jìnbù",
+          "hanviet": "Tiến Bộ",
+          "meaning_vi": "tiến bộ",
+          "hsk": 5,
+          "word_id": "hsk5_255"
+        },
+        {
+          "text": "一旦",
+          "pinyin": "yídàn",
+          "hanviet": "Nhất Đán",
+          "meaning_vi": "một khi, nếu",
+          "hsk": 5,
+          "word_id": "hsk5_547"
+        },
+        {
+          "text": "脱离",
+          "pinyin": "tuōlí",
+          "hanviet": "Thoát Ly",
+          "meaning_vi": "thoát khỏi, tách khỏi",
+          "hsk": 6,
+          "word_id": "hsk6_2079"
+        },
+        {
+          "text": "道德",
+          "pinyin": "dàodé",
+          "hanviet": "Đạo Đức",
+          "meaning_vi": "đạo đức",
+          "hsk": 5,
+          "word_id": "hsk5_745"
+        },
+        {
+          "text": "约束",
+          "pinyin": "yuēshù",
+          "hanviet": "Yêu Thúc",
+          "meaning_vi": "ràng buộc, hạn chế",
+          "hsk": 6,
+          "word_id": "hsk6_2474"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "法律",
+          "pinyin": "fǎlǜ",
+          "hanviet": "Pháp Luật",
+          "meaning_vi": "pháp luật",
+          "hsk": 4,
+          "word_id": "hsk4_107"
+        },
+        {
+          "text": "监管",
+          "pinyin": "jiānguǎn",
+          "hanviet": "Giam Quản",
+          "meaning_vi": "giám sát quản lý, kiểm soát điều tiết",
+          "hsk": 7,
+          "word_id": "hsk7_1955"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "可能",
+          "pinyin": "kěnéng",
+          "hanviet": "Khả Năng",
+          "meaning_vi": "có thể",
+          "hsk": 2,
+          "word_id": "hsk2_56"
+        },
+        {
+          "text": "会",
+          "pinyin": "huì",
+          "hanviet": "Hội",
+          "meaning_vi": "biết, sẽ",
+          "hsk": 1,
+          "word_id": "hsk1_43"
+        },
+        {
+          "text": "加"
+        },
+        {
+          "text": "剧"
+        },
+        {
+          "text": "社会",
+          "pinyin": "shèhuì",
+          "hanviet": "Xã Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 4,
+          "word_id": "hsk4_371"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "公"
+        },
+        {
+          "text": "甚至",
+          "pinyin": "shènzhì",
+          "hanviet": "Thậm Chí",
+          "meaning_vi": "thậm chí",
+          "hsk": 4,
+          "word_id": "hsk4_374"
+        },
+        {
+          "text": "动摇",
+          "pinyin": "dòngyáo",
+          "hanviet": "Động Dao",
+          "meaning_vi": "lay chuyển, dao động, lung lay",
+          "hsk": 7,
+          "word_id": "hsk7_949"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "物种",
+          "pinyin": "wùzhǒng",
+          "hanviet": "Vật Chủng",
+          "meaning_vi": "loài",
+          "hsk": 7,
+          "word_id": "hsk7_4361"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "定义",
+          "pinyin": "dìngyì",
+          "hanviet": "Định Nghĩa",
+          "meaning_vi": "định nghĩa",
+          "hsk": 6,
+          "word_id": "hsk6_672"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "保持对生命的崇高敬畏，在探索科学真理与坚守伦理底线之间维持理性平衡，是文明延续的保障。",
+      "pinyin": "Bǎochí duì shēngmìng de chónggāo jìngwèi, zài tànsuǒ kēxué zhēnlǐ yǔ jiānshǒu lúnlǐ dǐxiàn zhījiān wéichí lǐxìng pínghéng, shì wénmíng yánxù de bǎozhàng.",
+      "vi": "Giữ vững lòng kính sợ cao quý với sự sống, duy trì cân bằng lý tính giữa tìm tòi chân lý khoa học và giữ vững lằn ranh đạo đức là bảo đảm duy trì văn minh.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "保持",
+          "pinyin": "bǎochí",
+          "hanviet": "Bảo Trì",
+          "meaning_vi": "duy trì, giữ vững",
+          "hsk": 5,
+          "word_id": "hsk5_652"
+        },
+        {
+          "text": "对",
+          "pinyin": "duì",
+          "hanviet": "Đối",
+          "meaning_vi": "đối với, hướng về (giới từ)",
+          "hsk": 2,
+          "word_id": "hsk2_24"
+        },
+        {
+          "text": "生命",
+          "pinyin": "shēngmìng",
+          "hanviet": "Sinh Mệnh",
+          "meaning_vi": "sinh mệnh, sự sống",
+          "hsk": 4,
+          "word_id": "hsk4_376"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "崇高",
+          "pinyin": "chónggāo",
+          "hanviet": "Sùng Cao",
+          "meaning_vi": "cao cả",
+          "hsk": 6,
+          "word_id": "hsk6_409"
+        },
+        {
+          "text": "敬畏",
+          "pinyin": "jìngwèi",
+          "hanviet": "Kính Uý",
+          "meaning_vi": "kính sợ, tôn kính nể sợ",
+          "hsk": 7,
+          "word_id": "hsk7_2212"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "探索",
+          "pinyin": "tànsuǒ",
+          "hanviet": "Thám Sách",
+          "meaning_vi": "thám hiểm, tìm hiểu",
+          "hsk": 6,
+          "word_id": "hsk6_1993"
+        },
+        {
+          "text": "科学",
+          "pinyin": "kēxué",
+          "hanviet": "Khoa Học",
+          "meaning_vi": "khoa học",
+          "hsk": 4,
+          "word_id": "hsk4_252"
+        },
+        {
+          "text": "真理",
+          "pinyin": "zhēnlǐ",
+          "hanviet": "Chân Lý",
+          "meaning_vi": "chân lý",
+          "hsk": 7,
+          "word_id": "hsk7_5212"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "坚守",
+          "pinyin": "jiānshǒu",
+          "hanviet": "Kiên Thủ",
+          "meaning_vi": "kiên trì",
+          "hsk": 7,
+          "word_id": "hsk7_1967"
+        },
+        {
+          "text": "伦理",
+          "pinyin": "lúnlǐ",
+          "hanviet": "Luân Lý",
+          "meaning_vi": "luân lý, đạo đức",
+          "hsk": 7,
+          "word_id": "hsk7_2704"
+        },
+        {
+          "text": "底线",
+          "pinyin": "dǐxiàn",
+          "hanviet": "Để Tuyến",
+          "meaning_vi": "giới hạn cuối cùng, lằn ranh đỏ",
+          "hsk": 7,
+          "word_id": "hsk7_848"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "间"
+        },
+        {
+          "text": "维持",
+          "pinyin": "wéichí",
+          "hanviet": "Duy Trì",
+          "meaning_vi": "duy trì",
+          "hsk": 6,
+          "word_id": "hsk6_2118"
+        },
+        {
+          "text": "理"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "平衡",
+          "pinyin": "pínghéng",
+          "hanviet": "Bình Hành",
+          "meaning_vi": "cân bằng",
+          "hsk": 5,
+          "word_id": "hsk5_1003"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "文明",
+          "pinyin": "wénmíng",
+          "hanviet": "Văn Minh",
+          "meaning_vi": "văn minh",
+          "hsk": 5,
+          "word_id": "hsk5_1138"
+        },
+        {
+          "text": "延续",
+          "pinyin": "yánxù",
+          "hanviet": "Diên Tục",
+          "meaning_vi": "tiếp tục, kéo dài",
+          "hsk": 6,
+          "word_id": "hsk6_2333"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "保障",
+          "pinyin": "bǎozhàng",
+          "hanviet": "Bảo Chướng",
+          "meaning_vi": "bảo đảm",
+          "hsk": 6,
+          "word_id": "hsk6_70"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk6_1120",
+    "hsk5_662",
+    "hsk4_196",
+    "hsk1_15",
+    "hsk7_4704",
+    "hsk4_106",
+    "hsk3_229",
+    "hsk6_958",
+    "hsk6_2382",
+    "hsk6_1031",
+    "hsk3_42",
+    "hsk1_53",
+    "hsk1_55",
+    "hsk7_3229",
+    "hsk7_3778"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Công nghệ chỉnh sửa gen đem lại triển vọng lớn trong lĩnh vực nào?",
+      "options_vi": [
+        "Chữa trị các bệnh di truyền hiếm gặp từ gốc rễ",
+        "Thay đổi màu mắt động vật",
+        "Thay thế hoàn toàn thuốc men"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 为攻克遗传性罕见疾病带来了前所未有的曙光."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Mối lo ngại đạo đức nảy sinh khi công nghệ can thiệp vào điều gì?",
+      "options_vi": [
+        "Tế bào sinh sản và tăng cường gen phi mục đích y tế",
+        "Sản xuất kháng sinh thông thường",
+        "Khám bệnh từ xa"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu có viết: 当这项技术触及人类生殖细胞以及非医疗目的的基因增强时，引发了广泛争议."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Điều kiện tiên quyết để khoa học phát triển lành mạnh vì nhân loại là gì?",
+      "options_vi": [
+        "Không cần bất kỳ sự kiểm soát nào",
+        "Kính sợ sự sống và giữ vững cân bằng giữa khoa học và lằn ranh đạo đức",
+        "Dừng mọi nghiên cứu sinh học"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 在探索科学真理与坚守伦理底线之间维持理性平衡."
+    }
+  ]
+}

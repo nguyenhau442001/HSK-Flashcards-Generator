@@ -1,0 +1,1234 @@
+{
+  "id": "hsk8_story_010",
+  "level": "HSK8",
+  "title": {
+    "zh": "城市天际线与建筑美学表达",
+    "vi": "Đường chân trời đô thị và biểu đạt mỹ học kiến trúc"
+  },
+  "topic": "urban_skyline",
+  "topic_vi": "Mỹ học & Kiến trúc",
+  "icon": "🏙️",
+  "estimatedMinutes": 8,
+  "description_vi": "Đường chân trời phản chiếu tầm vóc phát triển và khát vọng văn hóa của một đô thị hiện đại.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "城市的壮丽天际线不仅是繁华现代物质文明的直观剪影，更是时代精神与文化自信的宏伟空间宣示。",
+      "pinyin": "Chéngshì de zhuànglì tiānjìxiàn bùjǐn shì fánhuá xiàndài wùzhì wénmíng de zhíguān jiǎnyǐng, gèng shì shídài jīngshén yǔ wénhuà zìxìn de hóngwěi kōngjiān xuānshì.",
+      "vi": "Đường chân trời tráng lệ của đô thị không chỉ là hình bóng trực quan của văn minh vật chất phồn hoa, mà còn là lời tuyên ngôn không gian hùng vĩ về tinh thần thời đại và sự tự tin văn hóa.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "城市",
+          "pinyin": "chéngshì",
+          "hanviet": "Thành Thị",
+          "meaning_vi": "thành phố",
+          "hsk": 3,
+          "word_id": "hsk3_33"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "壮丽",
+          "pinyin": "zhuànglì",
+          "hanviet": "Tráng Lệ",
+          "meaning_vi": "tráng lệ, kỳ vĩ nguy nga",
+          "hsk": 7,
+          "word_id": "hsk7_5465"
+        },
+        {
+          "text": "天"
+        },
+        {
+          "text": "际"
+        },
+        {
+          "text": "线"
+        },
+        {
+          "text": "不仅",
+          "pinyin": "bùjǐn",
+          "hanviet": "Bất Cận",
+          "meaning_vi": "không chỉ",
+          "hsk": 4,
+          "word_id": "hsk4_31"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "繁华",
+          "pinyin": "fánhuá",
+          "hanviet": "Phồn Hoa",
+          "meaning_vi": "phồn hoa, sầm uất",
+          "hsk": 6,
+          "word_id": "hsk6_783"
+        },
+        {
+          "text": "现代",
+          "pinyin": "xiàndài",
+          "hanviet": "Hiện Đại",
+          "meaning_vi": "hiện đại",
+          "hsk": 5,
+          "word_id": "hsk5_1155"
+        },
+        {
+          "text": "物质",
+          "pinyin": "wùzhì",
+          "hanviet": "Vật Chất",
+          "meaning_vi": "vật chất",
+          "hsk": 5,
+          "word_id": "hsk5_500"
+        },
+        {
+          "text": "文明",
+          "pinyin": "wénmíng",
+          "hanviet": "Văn Minh",
+          "meaning_vi": "văn minh",
+          "hsk": 5,
+          "word_id": "hsk5_1138"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "直观",
+          "pinyin": "zhíguān",
+          "hanviet": "Trực Quan",
+          "meaning_vi": "trực quan, sinh động dễ thấy",
+          "hsk": 7,
+          "word_id": "hsk7_5293"
+        },
+        {
+          "text": "剪"
+        },
+        {
+          "text": "影"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "更",
+          "pinyin": "gèng",
+          "hanviet": "Canh",
+          "meaning_vi": "càng, hơn",
+          "hsk": 3,
+          "word_id": "hsk3_79"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "时代",
+          "pinyin": "shídài",
+          "hanviet": "Thời Đại",
+          "meaning_vi": "thời đại",
+          "hsk": 5,
+          "word_id": "hsk5_419"
+        },
+        {
+          "text": "精神",
+          "pinyin": "jīngshén",
+          "hanviet": "Tinh Thần",
+          "meaning_vi": "tinh thần",
+          "hsk": 5,
+          "word_id": "hsk5_258"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "文化",
+          "pinyin": "wénhuà",
+          "hanviet": "Văn Hóa",
+          "meaning_vi": "văn hóa",
+          "hsk": 3,
+          "word_id": "hsk3_232"
+        },
+        {
+          "text": "自信",
+          "pinyin": "zìxìn",
+          "hanviet": "Tự Tín",
+          "meaning_vi": "tự tin",
+          "hsk": 4,
+          "word_id": "hsk4_590"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "宏伟",
+          "pinyin": "hóngwěi",
+          "hanviet": "Hoành Vĩ",
+          "meaning_vi": "hùng vĩ",
+          "hsk": 6,
+          "word_id": "hsk6_1053"
+        },
+        {
+          "text": "空间",
+          "pinyin": "kōngjiān",
+          "hanviet": "Không Gian",
+          "meaning_vi": "không gian",
+          "hsk": 5,
+          "word_id": "hsk5_922"
+        },
+        {
+          "text": "宣"
+        },
+        {
+          "text": "示"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "高耸入云的超高层地标建筑与蜿蜒流淌的城市河流相互掩映，勾勒出起伏跌宕、富有节奏韵律的视觉诗篇。",
+      "pinyin": "Gāosǒng rù yún de chāogāocéng dìbiāo jiànzhù yǔ wānyán liútǎng de chéngshì héliú xiānghù yǎnyìng, gōulè chū qǐfú diēdàng, fùyǒu jiézòu yùnlǜ de shìjué shīpiān.",
+      "vi": "Các công trình chọc trời cao vút vươn mây soi bóng bên dòng sông đô thị uốn lượn, phác họa nên bài thơ thị giác nhịp nhàng trầm bổng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "高",
+          "pinyin": "gāo",
+          "hanviet": "Cao",
+          "meaning_vi": "cao",
+          "hsk": 2,
+          "word_id": "hsk2_29"
+        },
+        {
+          "text": "耸",
+          "pinyin": "sǒng",
+          "hanviet": "Tủng",
+          "meaning_vi": "nhún (vai), sừng sững",
+          "hsk": 6,
+          "word_id": "hsk6_1964"
+        },
+        {
+          "text": "入"
+        },
+        {
+          "text": "云",
+          "pinyin": "yún",
+          "hanviet": "Vân",
+          "meaning_vi": "mây",
+          "hsk": 4,
+          "word_id": "hsk4_545"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "超"
+        },
+        {
+          "text": "高",
+          "pinyin": "gāo",
+          "hanviet": "Cao",
+          "meaning_vi": "cao",
+          "hsk": 2,
+          "word_id": "hsk2_29"
+        },
+        {
+          "text": "层",
+          "pinyin": "céng",
+          "hanviet": "Tầng",
+          "meaning_vi": "tầng (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_28"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "标",
+          "pinyin": "biāo",
+          "hanviet": "Tiêu",
+          "meaning_vi": "tiêu chuẩn; mục tiêu; dấu",
+          "hsk": 7,
+          "word_id": "hsk7_231"
+        },
+        {
+          "text": "建筑",
+          "pinyin": "jiànzhù",
+          "hanviet": "Kiến Trúc",
+          "meaning_vi": "kiến trúc, công trình",
+          "hsk": 5,
+          "word_id": "hsk5_232"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "蜿"
+        },
+        {
+          "text": "蜒"
+        },
+        {
+          "text": "流淌",
+          "pinyin": "liútǎng",
+          "hanviet": "Lưu Thảng",
+          "meaning_vi": "chảy trôi, chảy róc rách, tuôn trào",
+          "hsk": 7,
+          "word_id": "hsk7_2659"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "城市",
+          "pinyin": "chéngshì",
+          "hanviet": "Thành Thị",
+          "meaning_vi": "thành phố",
+          "hsk": 3,
+          "word_id": "hsk3_33"
+        },
+        {
+          "text": "河"
+        },
+        {
+          "text": "流"
+        },
+        {
+          "text": "相"
+        },
+        {
+          "text": "互"
+        },
+        {
+          "text": "掩"
+        },
+        {
+          "text": "映"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "勾勒",
+          "pinyin": "gōulè",
+          "hanviet": "Câu Lặc",
+          "meaning_vi": "phác họa, phác thảo đường nét",
+          "hsk": 7,
+          "word_id": "hsk7_1420"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "起伏",
+          "pinyin": "qǐfú",
+          "hanviet": "Khởi Phục",
+          "meaning_vi": "lên xuống, nhấp nhô",
+          "hsk": 6,
+          "word_id": "hsk6_1653"
+        },
+        {
+          "text": "跌",
+          "pinyin": "diē",
+          "hanviet": "Trượt",
+          "meaning_vi": "ngã, rơi (giá)",
+          "hsk": 6,
+          "word_id": "hsk6_666"
+        },
+        {
+          "text": "宕"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "富有",
+          "pinyin": "fùyǒu",
+          "hanviet": "Phú Hữu",
+          "meaning_vi": "giàu có",
+          "hsk": 6,
+          "word_id": "hsk6_902"
+        },
+        {
+          "text": "节奏",
+          "pinyin": "jiézòu",
+          "hanviet": "Tiết Tấu",
+          "meaning_vi": "nhịp điệu, tiết tấu",
+          "hsk": 6,
+          "word_id": "hsk6_1209"
+        },
+        {
+          "text": "韵"
+        },
+        {
+          "text": "律"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "视"
+        },
+        {
+          "text": "觉"
+        },
+        {
+          "text": "诗",
+          "pinyin": "shī",
+          "hanviet": "Thi",
+          "meaning_vi": "thơ",
+          "hsk": 5,
+          "word_id": "hsk5_416"
+        },
+        {
+          "text": "篇",
+          "pinyin": "piān",
+          "hanviet": "Thiên",
+          "meaning_vi": "bài, thiên (lượng từ)",
+          "hsk": 4,
+          "word_id": "hsk4_328"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "优秀的现代建筑设计拒绝盲目堆砌钢筋水泥的冰冷体量，而是注重与周边自然地貌的有机对话与呼应。",
+      "pinyin": "Yōuxiù de xiàndài jiànzhù shèjì jùjué mángmù duīqì gāngjīn-shuǐní de lěngbīngbīng tǐliàng, ér shì zhùzhòng yǔ zhōubiān zìrán dìmào de yǒujī duìhuà yǔ hūyìng.",
+      "vi": "Thiết kế kiến trúc hiện đại xuất sắc khước từ sự chất chồng sắt thép bê tông lạnh lẽo, mà chú trọng đối thoại và cộng hưởng hữu cơ với địa hình tự nhiên xung quanh.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "优秀",
+          "pinyin": "yōuxiù",
+          "hanviet": "Ưu Tú",
+          "meaning_vi": "ưu tú, xuất sắc",
+          "hsk": 4,
+          "word_id": "hsk4_524"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "现代",
+          "pinyin": "xiàndài",
+          "hanviet": "Hiện Đại",
+          "meaning_vi": "hiện đại",
+          "hsk": 5,
+          "word_id": "hsk5_1155"
+        },
+        {
+          "text": "建筑",
+          "pinyin": "jiànzhù",
+          "hanviet": "Kiến Trúc",
+          "meaning_vi": "kiến trúc, công trình",
+          "hsk": 5,
+          "word_id": "hsk5_232"
+        },
+        {
+          "text": "设计",
+          "pinyin": "shèjì",
+          "hanviet": "Thiết Kế",
+          "meaning_vi": "thiết kế",
+          "hsk": 5,
+          "word_id": "hsk5_408"
+        },
+        {
+          "text": "拒绝",
+          "pinyin": "jùjué",
+          "hanviet": "Cự Tuyệt",
+          "meaning_vi": "từ chối",
+          "hsk": 4,
+          "word_id": "hsk4_243"
+        },
+        {
+          "text": "盲目",
+          "pinyin": "mángmù",
+          "hanviet": "Manh Mục",
+          "meaning_vi": "mù quáng",
+          "hsk": 6,
+          "word_id": "hsk6_1472"
+        },
+        {
+          "text": "堆砌",
+          "pinyin": "duīqì",
+          "hanviet": "Đồi Thế",
+          "meaning_vi": "xếp chồng, nhồi nhét (từ ngữ)",
+          "hsk": 7,
+          "word_id": "hsk7_983"
+        },
+        {
+          "text": "钢"
+        },
+        {
+          "text": "筋",
+          "pinyin": "jīn",
+          "hanviet": "Cân",
+          "meaning_vi": "gân, bắp thịt",
+          "hsk": 7,
+          "word_id": "hsk7_2127"
+        },
+        {
+          "text": "水泥",
+          "pinyin": "shuǐní",
+          "hanviet": "Thuỷ Nê",
+          "meaning_vi": "xi măng",
+          "hsk": 6,
+          "word_id": "hsk6_1950"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "冰"
+        },
+        {
+          "text": "冷",
+          "pinyin": "lěng",
+          "hanviet": "Lạnh",
+          "meaning_vi": "lạnh",
+          "hsk": 1,
+          "word_id": "hsk1_56"
+        },
+        {
+          "text": "体"
+        },
+        {
+          "text": "量"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "而",
+          "pinyin": "ér",
+          "hanviet": "Nhi",
+          "meaning_vi": "mà, và",
+          "hsk": 4,
+          "word_id": "hsk4_103"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "注",
+          "pinyin": "zhù",
+          "hanviet": "Chú",
+          "meaning_vi": "chú thích, ghi chú; rót vào, trút vào",
+          "hsk": 7,
+          "word_id": "hsk7_5409"
+        },
+        {
+          "text": "重",
+          "pinyin": "zhòng",
+          "hanviet": "Trọng",
+          "meaning_vi": "nặng",
+          "hsk": 4,
+          "word_id": "hsk4_575"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "周"
+        },
+        {
+          "text": "边"
+        },
+        {
+          "text": "自然",
+          "pinyin": "zìrán",
+          "hanviet": "Tự Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_589"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "貌"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "机"
+        },
+        {
+          "text": "对话",
+          "pinyin": "duìhuà",
+          "hanviet": "Đối Thoại",
+          "meaning_vi": "đối thoại",
+          "hsk": 4,
+          "word_id": "hsk4_101"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "呼应",
+          "pinyin": "hūyìng",
+          "hanviet": "Hô Ưng",
+          "meaning_vi": "hô ứng, tương ứng hỗ trợ",
+          "hsk": 7,
+          "word_id": "hsk7_1699"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "绿色建筑标准与幕墙节能科技的广泛采用，使得摩天大楼在展现恢宏气魄的同时践行了可持续发展的生态承诺。",
+      "pinyin": "Lǜsè jiànzhù biāozhǔn yǔ mùqiáng jiénéng kējì de guǎngfàn cǎiyòng, shǐde mótiān dàlóu zài zhǎnxiàn huīhóng qìpò de tóngshí jiànxíng le kěchíxù fāzhǎn de shēngtài chéngnuò.",
+      "vi": "Tiêu chuẩn kiến trúc xanh và công nghệ tường kính tiết kiệm năng lượng giúp cao ốc chọc trời vừa phô diễn khí phách nguy nga vừa thực thi cam kết sinh thái bền vững.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "绿",
+          "pinyin": "lǜ",
+          "hanviet": "Lục",
+          "meaning_vi": "màu xanh lá",
+          "hsk": 3,
+          "word_id": "hsk3_158"
+        },
+        {
+          "text": "色"
+        },
+        {
+          "text": "建筑",
+          "pinyin": "jiànzhù",
+          "hanviet": "Kiến Trúc",
+          "meaning_vi": "kiến trúc, công trình",
+          "hsk": 5,
+          "word_id": "hsk5_232"
+        },
+        {
+          "text": "标准",
+          "pinyin": "biāozhǔn",
+          "hanviet": "Tiêu Chuẩn",
+          "meaning_vi": "tiêu chuẩn",
+          "hsk": 4,
+          "word_id": "hsk4_20"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "幕",
+          "pinyin": "mù",
+          "hanviet": "Màn",
+          "meaning_vi": "màn; bức màn; hồi (vở kịch)",
+          "hsk": 7,
+          "word_id": "hsk7_2890"
+        },
+        {
+          "text": "墙",
+          "pinyin": "qiáng",
+          "hanviet": "Tường",
+          "meaning_vi": "tường",
+          "hsk": 5,
+          "word_id": "hsk5_1012"
+        },
+        {
+          "text": "节",
+          "pinyin": "jié",
+          "hanviet": "Tiết",
+          "meaning_vi": "đoạn, ngày lễ (lượng từ)",
+          "hsk": 4,
+          "word_id": "hsk4_222"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "科"
+        },
+        {
+          "text": "技"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "广泛",
+          "pinyin": "guǎngfàn",
+          "hanviet": "Nghiễm Phiếm",
+          "meaning_vi": "rộng rãi, phổ biến",
+          "hsk": 5,
+          "word_id": "hsk5_829"
+        },
+        {
+          "text": "采",
+          "pinyin": "cǎi",
+          "hanviet": "Thái",
+          "meaning_vi": "hái, ngắt; khai thác",
+          "hsk": 7,
+          "word_id": "hsk7_368"
+        },
+        {
+          "text": "用",
+          "pinyin": "yòng",
+          "hanviet": "Dụng",
+          "meaning_vi": "dùng",
+          "hsk": 3,
+          "word_id": "hsk3_267"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "使",
+          "pinyin": "shǐ",
+          "hanviet": "Sử",
+          "meaning_vi": "làm cho, khiến cho",
+          "hsk": 4,
+          "word_id": "hsk4_386"
+        },
+        {
+          "text": "得",
+          "pinyin": "de",
+          "hanviet": "Đắc",
+          "meaning_vi": "được (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_19"
+        },
+        {
+          "text": "摩"
+        },
+        {
+          "text": "天"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "楼",
+          "pinyin": "lóu",
+          "hanviet": "Lâu",
+          "meaning_vi": "tầng, tòa nhà",
+          "hsk": 3,
+          "word_id": "hsk3_157"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "展"
+        },
+        {
+          "text": "现"
+        },
+        {
+          "text": "恢"
+        },
+        {
+          "text": "宏"
+        },
+        {
+          "text": "气魄",
+          "pinyin": "qìpò",
+          "hanviet": "Khí Phách",
+          "meaning_vi": "khí phách, dũng khí",
+          "hsk": 6,
+          "word_id": "hsk6_1668"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "同时",
+          "pinyin": "tóngshí",
+          "hanviet": "Đồng Thời",
+          "meaning_vi": "đồng thời",
+          "hsk": 4,
+          "word_id": "hsk4_440"
+        },
+        {
+          "text": "践"
+        },
+        {
+          "text": "行",
+          "pinyin": "xíng",
+          "hanviet": "Hành",
+          "meaning_vi": "được, ổn",
+          "hsk": 4,
+          "word_id": "hsk4_483"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "可"
+        },
+        {
+          "text": "持续",
+          "pinyin": "chíxù",
+          "hanviet": "Trì Tục",
+          "meaning_vi": "tiếp tục, kéo dài",
+          "hsk": 5,
+          "word_id": "hsk5_61"
+        },
+        {
+          "text": "发展",
+          "pinyin": "fāzhǎn",
+          "hanviet": "Phát Triển",
+          "meaning_vi": "phát triển",
+          "hsk": 4,
+          "word_id": "hsk4_106"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "生态",
+          "pinyin": "shēngtài",
+          "hanviet": "Sinh Thái",
+          "meaning_vi": "sinh thái",
+          "hsk": 6,
+          "word_id": "hsk6_1855"
+        },
+        {
+          "text": "承诺",
+          "pinyin": "chéngnuò",
+          "hanviet": "Thừa Nặc",
+          "meaning_vi": "hứa hẹn, cam kết",
+          "hsk": 6,
+          "word_id": "hsk6_365"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "仰望晨光暮霭中熠熠生辉的城市轮廓，人们由衷感受到人类文明在探索生存空间极限时所迸发的无尽创造力。",
+      "pinyin": "Yǎngwàng chénguāng mù'ǎi zhōng yìyì-shēnghuī de chéngshì lúnkuò, rénmen yóuzhōng gǎnshòu dào rénlèi wénmíng zài tànsuǒ shēngcún kōngjiān jíxiàn shí suǒ bèngfā de wújìn chuàngzàolì.",
+      "vi": "Ngước nhìn đường nét đô thị lấp lánh rực rỡ trong sương sớm ráng chiều, con người cảm nhận sâu sắc sức sáng tạo vô tận của văn minh khi khai phá giới hạn không gian sống.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "仰望",
+          "pinyin": "yǎngwàng",
+          "hanviet": "Ngưỡng Vọng",
+          "meaning_vi": "ngước nhìn; ngước trông lên",
+          "hsk": 7,
+          "word_id": "hsk7_4771"
+        },
+        {
+          "text": "晨"
+        },
+        {
+          "text": "光",
+          "pinyin": "guāng",
+          "hanviet": "Quang",
+          "meaning_vi": "ánh sáng",
+          "hsk": 4,
+          "word_id": "hsk4_155"
+        },
+        {
+          "text": "暮"
+        },
+        {
+          "text": "霭"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "熠"
+        },
+        {
+          "text": "熠"
+        },
+        {
+          "text": "生"
+        },
+        {
+          "text": "辉"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "城市",
+          "pinyin": "chéngshì",
+          "hanviet": "Thành Thị",
+          "meaning_vi": "thành phố",
+          "hsk": 3,
+          "word_id": "hsk3_33"
+        },
+        {
+          "text": "轮廓",
+          "pinyin": "lúnkuò",
+          "hanviet": "Luân Khuếch",
+          "meaning_vi": "đường viền, nét phác họa",
+          "hsk": 6,
+          "word_id": "hsk6_1442"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "们"
+        },
+        {
+          "text": "由衷",
+          "pinyin": "yóuzhōng",
+          "hanviet": "Do Trung",
+          "meaning_vi": "xuất phát từ đáy lòng, chân thành",
+          "hsk": 7,
+          "word_id": "hsk7_4981"
+        },
+        {
+          "text": "感受",
+          "pinyin": "gǎnshòu",
+          "hanviet": "Cảm Thụ",
+          "meaning_vi": "cảm nhận",
+          "hsk": 5,
+          "word_id": "hsk5_798"
+        },
+        {
+          "text": "到",
+          "pinyin": "dào",
+          "hanviet": "Đáo",
+          "meaning_vi": "đến",
+          "hsk": 2,
+          "word_id": "hsk2_18"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "文明",
+          "pinyin": "wénmíng",
+          "hanviet": "Văn Minh",
+          "meaning_vi": "văn minh",
+          "hsk": 5,
+          "word_id": "hsk5_1138"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "探索",
+          "pinyin": "tànsuǒ",
+          "hanviet": "Thám Sách",
+          "meaning_vi": "thám hiểm, tìm hiểu",
+          "hsk": 6,
+          "word_id": "hsk6_1993"
+        },
+        {
+          "text": "生存",
+          "pinyin": "shēngcún",
+          "hanviet": "Sinh Tồn",
+          "meaning_vi": "sinh tồn",
+          "hsk": 6,
+          "word_id": "hsk6_1851"
+        },
+        {
+          "text": "空间",
+          "pinyin": "kōngjiān",
+          "hanviet": "Không Gian",
+          "meaning_vi": "không gian",
+          "hsk": 5,
+          "word_id": "hsk5_922"
+        },
+        {
+          "text": "极限",
+          "pinyin": "jíxiàn",
+          "hanviet": "Cực Hạn",
+          "meaning_vi": "giới hạn tối đa",
+          "hsk": 6,
+          "word_id": "hsk6_1128"
+        },
+        {
+          "text": "时"
+        },
+        {
+          "text": "所",
+          "pinyin": "suǒ",
+          "hanviet": "Sở",
+          "meaning_vi": "nơi, sở (lượng từ tổ chức)",
+          "hsk": 5,
+          "word_id": "hsk5_1095"
+        },
+        {
+          "text": "迸发",
+          "pinyin": "bèngfā",
+          "hanviet": "Bính Phát",
+          "meaning_vi": "bùng phát, tuôn ra",
+          "hsk": 6,
+          "word_id": "hsk6_113"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "无",
+          "pinyin": "wú",
+          "hanviet": "Vô",
+          "meaning_vi": "không có",
+          "hsk": 4,
+          "word_id": "hsk4_456"
+        },
+        {
+          "text": "尽",
+          "pinyin": "jǐn",
+          "hanviet": "Tận",
+          "meaning_vi": "hết sức, tận lực, trong phạm vi",
+          "hsk": 7,
+          "word_id": "hsk7_2130"
+        },
+        {
+          "text": "创造",
+          "pinyin": "chuàngzào",
+          "hanviet": "Sáng Tạo",
+          "meaning_vi": "sáng tạo",
+          "hsk": 5,
+          "word_id": "hsk5_715"
+        },
+        {
+          "text": "力"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk3_33",
+    "hsk1_15",
+    "hsk7_5465",
+    "hsk4_31",
+    "hsk1_96",
+    "hsk6_783",
+    "hsk5_1155",
+    "hsk5_500",
+    "hsk5_1138",
+    "hsk7_5293",
+    "hsk3_79",
+    "hsk5_419",
+    "hsk5_258",
+    "hsk4_535",
+    "hsk3_232"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Đường chân trời đô thị phản ánh điều gì ngoài sự phát triển vật chất?",
+      "options_vi": [
+        "Chỉ phản ánh số lượng xe hơi",
+        "Tinh thần thời đại và sự tự tin văn hóa của một vùng đất",
+        "Sự đắt đỏ của giá nhà"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 更是时代精神与文化自信的宏伟空间宣示."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Nguyên lý thẩm mỹ của thiết kế kiến trúc hiện đại xuất sắc là gì?",
+      "options_vi": [
+        "Chất chồng bê tông cốt thép dày đặc",
+        "Hòa hợp và đối thoại hữu cơ với cảnh quan tự nhiên xung quanh",
+        "Xây nhà càng giống nhau càng tốt"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 拒绝盲目堆砌钢筋水泥，而是注重与周边自然地貌的有机对话与呼应."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Yếu tố nào giúp các tòa nhà chọc trời hiện đại bảo vệ môi trường?",
+      "options_vi": [
+        "Ứng dụng tiêu chuẩn kiến trúc xanh và công nghệ tường kính tiết kiệm năng lượng",
+        "Tắt hết đèn vào ban đêm",
+        "Không sử dụng thang máy"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu có viết: 绿色建筑标准与幕墙节能科技的广泛采用，践行了可持续发展承诺."
+    }
+  ]
+}

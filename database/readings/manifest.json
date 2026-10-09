@@ -7,14 +7,13 @@
       "vi": "Một ngày của tôi"
     },
     "topic": "daily_life",
-    "topic_vi": "Sinh hoạt thường nhật",
-    "icon": "☀️",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Một câu chuyện ngắn về lịch sinh hoạt và học tập hằng ngày.",
-    "sentence_count": 7,
-    "spotlight_count": 7,
-    "quiz_count": 3,
-    "file": "database/readings/hsk1/hsk1_story_001.json"
+    "sentences_count": 7,
+    "words_count": 52,
+    "path": "database/readings/hsk1/hsk1_story_001.json"
   },
   {
     "id": "hsk1_story_002",
@@ -24,14 +23,13 @@
       "vi": "Con mèo của tôi tên Tiểu Bạch"
     },
     "topic": "pets_family",
-    "topic_vi": "Thú cưng & Gia đình",
-    "icon": "🐱",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Câu chuyện đáng yêu về chú mèo nhỏ trong gia đình.",
-    "sentence_count": 6,
-    "spotlight_count": 8,
-    "quiz_count": 3,
-    "file": "database/readings/hsk1/hsk1_story_002.json"
+    "sentences_count": 6,
+    "words_count": 58,
+    "path": "database/readings/hsk1/hsk1_story_002.json"
   },
   {
     "id": "hsk1_story_003",
@@ -41,14 +39,13 @@
       "vi": "Đi cửa hàng mua hoa quả"
     },
     "topic": "shopping",
-    "topic_vi": "Mua sắm & Đời sống",
-    "icon": "🍎",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Tập giao tiếp hỏi giá và mua hoa quả ở cửa hàng.",
-    "sentence_count": 6,
-    "spotlight_count": 8,
-    "quiz_count": 3,
-    "file": "database/readings/hsk1/hsk1_story_003.json"
+    "sentences_count": 6,
+    "words_count": 62,
+    "path": "database/readings/hsk1/hsk1_story_003.json"
   },
   {
     "id": "hsk1_story_004",
@@ -58,14 +55,13 @@
       "vi": "Học tiếng Hán ở trường học"
     },
     "topic": "school_study",
-    "topic_vi": "Học tập & Trường học",
-    "icon": "🏫",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Lớp học tiếng Hán vui vẻ với cô giáo Vương và các bạn học.",
-    "sentence_count": 5,
-    "spotlight_count": 8,
-    "quiz_count": 3,
-    "file": "database/readings/hsk1/hsk1_story_004.json"
+    "sentences_count": 5,
+    "words_count": 39,
+    "path": "database/readings/hsk1/hsk1_story_004.json"
   },
   {
     "id": "hsk1_story_005",
@@ -75,14 +71,13 @@
       "vi": "Đến nhà bạn làm khách"
     },
     "topic": "social_life",
-    "topic_vi": "Bạn bè & Đời sống",
-    "icon": "🍵",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Đến thăm nhà bạn Đại Vệ vào buổi chiều, cùng uống trà và trò chuyện.",
-    "sentence_count": 5,
-    "spotlight_count": 8,
-    "quiz_count": 3,
-    "file": "database/readings/hsk1/hsk1_story_005.json"
+    "sentences_count": 5,
+    "words_count": 43,
+    "path": "database/readings/hsk1/hsk1_story_005.json"
   },
   {
     "id": "hsk1_story_006",
@@ -92,14 +87,13 @@
       "vi": "Người bạn tốt Lý Nguyệt của tôi"
     },
     "topic": "people_friends",
-    "topic_vi": "Con người & Tình bạn",
-    "icon": "👧",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Giới thiệu về người bạn thân người Bắc Kinh cùng trường học.",
-    "sentence_count": 5,
-    "spotlight_count": 8,
-    "quiz_count": 3,
-    "file": "database/readings/hsk1/hsk1_story_006.json"
+    "sentences_count": 5,
+    "words_count": 45,
+    "path": "database/readings/hsk1/hsk1_story_006.json"
   },
   {
     "id": "hsk1_story_007",
@@ -109,14 +103,13 @@
       "vi": "Ăn món Trung Quốc ở nhà hàng"
     },
     "topic": "food_dining",
-    "topic_vi": "Ẩm thực & Nhà hàng",
-    "icon": "🍜",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Bữa trưa ngon miệng tại một nhà hàng Trung Quốc cùng bạn bè.",
-    "sentence_count": 5,
-    "spotlight_count": 8,
-    "quiz_count": 3,
-    "file": "database/readings/hsk1/hsk1_story_007.json"
+    "sentences_count": 5,
+    "words_count": 45,
+    "path": "database/readings/hsk1/hsk1_story_007.json"
   },
   {
     "id": "hsk1_story_008",
@@ -126,14 +119,13 @@
       "vi": "Đi cửa hàng mua quần áo"
     },
     "topic": "shopping",
-    "topic_vi": "Mua sắm & Đời sống",
-    "icon": "👗",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Trải nghiệm đi mua một chiếc áo mới tại cửa hàng vào cuối tuần.",
-    "sentence_count": 5,
-    "spotlight_count": 8,
-    "quiz_count": 3,
-    "file": "database/readings/hsk1/hsk1_story_008.json"
+    "sentences_count": 5,
+    "words_count": 51,
+    "path": "database/readings/hsk1/hsk1_story_008.json"
   },
   {
     "id": "hsk1_story_009",
@@ -143,14 +135,13 @@
       "vi": "Hôm nay trời mưa rồi"
     },
     "topic": "daily_life",
-    "topic_vi": "Sinh hoạt thường nhật",
-    "icon": "🌧️",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Một ngày mưa mát mẻ ở nhà đọc sách, uống trà và xem phim.",
-    "sentence_count": 5,
-    "spotlight_count": 10,
-    "quiz_count": 3,
-    "file": "database/readings/hsk1/hsk1_story_009.json"
+    "sentences_count": 5,
+    "words_count": 48,
+    "path": "database/readings/hsk1/hsk1_story_009.json"
   },
   {
     "id": "hsk1_story_010",
@@ -160,14 +151,13 @@
       "vi": "Đi máy bay đến Bắc Kinh"
     },
     "topic": "travel",
-    "topic_vi": "Du lịch & Đi lại",
-    "icon": "✈️",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Chuyến bay đầu tiên đến Bắc Kinh để du lịch và ngắm nhìn cảnh đẹp.",
-    "sentence_count": 5,
-    "spotlight_count": 12,
-    "quiz_count": 3,
-    "file": "database/readings/hsk1/hsk1_story_010.json"
+    "sentences_count": 5,
+    "words_count": 55,
+    "path": "database/readings/hsk1/hsk1_story_010.json"
   },
   {
     "id": "hsk2_story_001",
@@ -177,14 +167,13 @@
       "vi": "Bị ốm đi khám bác sĩ"
     },
     "topic": "health_daily",
-    "topic_vi": "Sức khỏe & Đời sống",
-    "icon": "🏥",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Tiểu Minh cảm thấy không khỏe và đến bệnh viện gặp bác sĩ khám bệnh.",
-    "sentence_count": 5,
-    "spotlight_count": 8,
-    "quiz_count": 3,
-    "file": "database/readings/hsk2/hsk2_story_001.json"
+    "sentences_count": 5,
+    "words_count": 51,
+    "path": "database/readings/hsk2/hsk2_story_001.json"
   },
   {
     "id": "hsk2_story_002",
@@ -194,14 +183,13 @@
       "vi": "Cuối tuần đi chơi bóng rổ"
     },
     "topic": "sports_hobby",
-    "topic_vi": "Thể thao & Sở thích",
-    "icon": "🏀",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Hoạt động thể thao rèn luyện sức khỏe cùng bạn bè vào chiều thứ Bảy.",
-    "sentence_count": 5,
-    "spotlight_count": 8,
-    "quiz_count": 3,
-    "file": "database/readings/hsk2/hsk2_story_002.json"
+    "sentences_count": 5,
+    "words_count": 48,
+    "path": "database/readings/hsk2/hsk2_story_002.json"
   },
   {
     "id": "hsk2_story_003",
@@ -211,14 +199,13 @@
       "vi": "Mua vé ở ga xe lửa"
     },
     "topic": "travel",
-    "topic_vi": "Du lịch & Đi lại",
-    "icon": "🚆",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Chuẩn bị cho chuyến đi du lịch xa bằng tàu hỏa cùng gia đình.",
-    "sentence_count": 5,
-    "spotlight_count": 8,
-    "quiz_count": 3,
-    "file": "database/readings/hsk2/hsk2_story_003.json"
+    "sentences_count": 5,
+    "words_count": 59,
+    "path": "database/readings/hsk2/hsk2_story_003.json"
   },
   {
     "id": "hsk2_story_004",
@@ -228,14 +215,13 @@
       "vi": "Chú chó nhỏ đáng yêu"
     },
     "topic": "pets_nature",
-    "topic_vi": "Thú cưng & Đời sống",
-    "icon": "🐶",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Chú chó nhỏ lông trắng chạy nhảy vui đùa trong sân nhà.",
-    "sentence_count": 5,
-    "spotlight_count": 7,
-    "quiz_count": 3,
-    "file": "database/readings/hsk2/hsk2_story_004.json"
+    "sentences_count": 5,
+    "words_count": 56,
+    "path": "database/readings/hsk2/hsk2_story_004.json"
   },
   {
     "id": "hsk2_story_005",
@@ -245,14 +231,13 @@
       "vi": "Đến khách sạn tìm bạn"
     },
     "topic": "social_life",
-    "topic_vi": "Bạn bè & Đời sống",
-    "icon": "🏨",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Đến khách sạn đón người bạn phương xa vừa đến thành phố du lịch.",
-    "sentence_count": 5,
-    "spotlight_count": 8,
-    "quiz_count": 3,
-    "file": "database/readings/hsk2/hsk2_story_005.json"
+    "sentences_count": 5,
+    "words_count": 55,
+    "path": "database/readings/hsk2/hsk2_story_005.json"
   },
   {
     "id": "hsk2_story_006",
@@ -262,14 +247,13 @@
       "vi": "Sinh nhật vui vẻ, tặng bạn đồng hồ"
     },
     "topic": "family_celebration",
-    "topic_vi": "Gia đình & Lễ kỷ niệm",
-    "icon": "⌚",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Món quà sinh nhật ý nghĩa dành cho người thân yêu trong gia đình.",
-    "sentence_count": 5,
-    "spotlight_count": 9,
-    "quiz_count": 3,
-    "file": "database/readings/hsk2/hsk2_story_006.json"
+    "sentences_count": 5,
+    "words_count": 48,
+    "path": "database/readings/hsk2/hsk2_story_006.json"
   },
   {
     "id": "hsk2_story_007",
@@ -279,14 +263,13 @@
       "vi": "Công việc mới ở công ty"
     },
     "topic": "work_office",
-    "topic_vi": "Công sở & Nghề nghiệp",
-    "icon": "💼",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Ngày đầu đi làm tại công ty mới và nhận được sự giúp đỡ của đồng nghiệp.",
-    "sentence_count": 5,
-    "spotlight_count": 9,
-    "quiz_count": 3,
-    "file": "database/readings/hsk2/hsk2_story_007.json"
+    "sentences_count": 5,
+    "words_count": 53,
+    "path": "database/readings/hsk2/hsk2_story_007.json"
   },
   {
     "id": "hsk2_story_008",
@@ -296,14 +279,13 @@
       "vi": "Mua dưa hấu và sữa tươi"
     },
     "topic": "shopping_market",
-    "topic_vi": "Đi chợ & Mua sắm",
-    "icon": "🍉",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Đi mua hoa quả tươi và đồ uống thơm ngon cho cả nhà thưởng thức.",
-    "sentence_count": 5,
-    "spotlight_count": 9,
-    "quiz_count": 3,
-    "file": "database/readings/hsk2/hsk2_story_008.json"
+    "sentences_count": 5,
+    "words_count": 62,
+    "path": "database/readings/hsk2/hsk2_story_008.json"
   },
   {
     "id": "hsk2_story_009",
@@ -313,14 +295,13 @@
       "vi": "Tuy mệt nhưng rất vui"
     },
     "topic": "daily_reflection",
-    "topic_vi": "Sinh hoạt & Tâm trạng",
-    "icon": "🌟",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Một ngày bận rộn dọn dẹp và chuẩn bị cho kỳ thi sắp tới.",
-    "sentence_count": 5,
-    "spotlight_count": 9,
-    "quiz_count": 3,
-    "file": "database/readings/hsk2/hsk2_story_009.json"
+    "sentences_count": 5,
+    "words_count": 57,
+    "path": "database/readings/hsk2/hsk2_story_009.json"
   },
   {
     "id": "hsk2_story_010",
@@ -330,14 +311,13 @@
       "vi": "Uống cà phê ở quán cà phê"
     },
     "topic": "lifestyle_leisure",
-    "topic_vi": "Thư giãn & Đời sống",
-    "icon": "☕",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 3,
     "description_vi": "Buổi chiều bình yên gặp gỡ bạn bè trò chuyện bên ly cà phê thơm nồng.",
-    "sentence_count": 5,
-    "spotlight_count": 9,
-    "quiz_count": 3,
-    "file": "database/readings/hsk2/hsk2_story_010.json"
+    "sentences_count": 5,
+    "words_count": 58,
+    "path": "database/readings/hsk2/hsk2_story_010.json"
   },
   {
     "id": "hsk3_story_001",
@@ -347,14 +327,13 @@
       "vi": "Chuyển đến nhà mới"
     },
     "topic": "housing_lifestyle",
-    "topic_vi": "Nhà cửa & Đời sống",
-    "icon": "🏠",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 4,
     "description_vi": "Trải nghiệm chuyển sang một căn nhà mới yên tĩnh và gần trạm tàu điện ngầm.",
-    "sentence_count": 5,
-    "spotlight_count": 11,
-    "quiz_count": 3,
-    "file": "database/readings/hsk3/hsk3_story_001.json"
+    "sentences_count": 5,
+    "words_count": 61,
+    "path": "database/readings/hsk3/hsk3_story_001.json"
   },
   {
     "id": "hsk3_story_002",
@@ -364,14 +343,13 @@
       "vi": "Cuối tuần đi leo núi"
     },
     "topic": "nature_outdoors",
-    "topic_vi": "Thiên nhiên & Ngoài trời",
-    "icon": "⛰️",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 4,
     "description_vi": "Chuyến dã ngoại leo núi cùng bạn bè ngắm nhìn phong cảnh và chụp ảnh kỷ niệm.",
-    "sentence_count": 5,
-    "spotlight_count": 11,
-    "quiz_count": 3,
-    "file": "database/readings/hsk3/hsk3_story_002.json"
+    "sentences_count": 5,
+    "words_count": 62,
+    "path": "database/readings/hsk3/hsk3_story_002.json"
   },
   {
     "id": "hsk3_story_003",
@@ -381,14 +359,13 @@
       "vi": "Mượn sách ở thư viện"
     },
     "topic": "study_learning",
-    "topic_vi": "Học tập & Tri thức",
-    "icon": "📚",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 4,
     "description_vi": "Tìm kiếm tài liệu và sách lịch sử Trung Quốc để nâng cao trình độ tiếng Hán.",
-    "sentence_count": 5,
-    "spotlight_count": 12,
-    "quiz_count": 3,
-    "file": "database/readings/hsk3/hsk3_story_003.json"
+    "sentences_count": 5,
+    "words_count": 62,
+    "path": "database/readings/hsk3/hsk3_story_003.json"
   },
   {
     "id": "hsk3_story_004",
@@ -398,14 +375,13 @@
       "vi": "Lần đầu đi tàu điện ngầm"
     },
     "topic": "urban_life",
-    "topic_vi": "Đô thị & Đi lại",
-    "icon": "🚇",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 4,
     "description_vi": "Trải nghiệm phương tiện giao thông công cộng hiện đại và nhanh chóng trong thành phố.",
-    "sentence_count": 5,
-    "spotlight_count": 8,
-    "quiz_count": 3,
-    "file": "database/readings/hsk3/hsk3_story_004.json"
+    "sentences_count": 5,
+    "words_count": 66,
+    "path": "database/readings/hsk3/hsk3_story_004.json"
   },
   {
     "id": "hsk3_story_005",
@@ -415,14 +391,13 @@
       "vi": "Tham gia cuộc thi hùng biện tiếng Hán"
     },
     "topic": "competition_achievement",
-    "topic_vi": "Thi cử & Thành tích",
-    "icon": "🏆",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 4,
     "description_vi": "Nỗ lực tập luyện chăm chỉ và niềm vui khi hoàn thành xuất sắc bài thi hùng biện.",
-    "sentence_count": 5,
-    "spotlight_count": 12,
-    "quiz_count": 3,
-    "file": "database/readings/hsk3/hsk3_story_005.json"
+    "sentences_count": 5,
+    "words_count": 69,
+    "path": "database/readings/hsk3/hsk3_story_005.json"
   },
   {
     "id": "hsk3_story_006",
@@ -432,14 +407,13 @@
       "vi": "Mua đồ dùng sinh hoạt ở siêu thị"
     },
     "topic": "shopping_daily",
-    "topic_vi": "Mua sắm & Đời sống",
-    "icon": "🛒",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 4,
     "description_vi": "Chuyến đi siêu thị mua thực phẩm tươi ngon và bánh mì cho bữa sáng gia đình.",
-    "sentence_count": 5,
-    "spotlight_count": 11,
-    "quiz_count": 3,
-    "file": "database/readings/hsk3/hsk3_story_006.json"
+    "sentences_count": 5,
+    "words_count": 59,
+    "path": "database/readings/hsk3/hsk3_story_006.json"
   },
   {
     "id": "hsk3_story_007",
@@ -449,14 +423,13 @@
       "vi": "Một ngày cảm cúm phát sốt"
     },
     "topic": "health_recovery",
-    "topic_vi": "Sức khỏe & Chăm sóc",
-    "icon": "🤒",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 4,
     "description_vi": "Sự quan tâm chăm sóc ấm áp của mẹ khi con bị cảm lạnh và sốt cao.",
-    "sentence_count": 5,
-    "spotlight_count": 12,
-    "quiz_count": 3,
-    "file": "database/readings/hsk3/hsk3_story_007.json"
+    "sentences_count": 5,
+    "words_count": 71,
+    "path": "database/readings/hsk3/hsk3_story_007.json"
   },
   {
     "id": "hsk3_story_008",
@@ -466,14 +439,13 @@
       "vi": "Mừng sinh nhật bà nội"
     },
     "topic": "family_love",
-    "topic_vi": "Gia đình & Tình thân",
-    "icon": "🎂",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 4,
     "description_vi": "Bữa tiệc sinh nhật ấm cúng sum vầy mừng thọ bà nội bảy mươi tuổi.",
-    "sentence_count": 5,
-    "spotlight_count": 10,
-    "quiz_count": 3,
-    "file": "database/readings/hsk3/hsk3_story_008.json"
+    "sentences_count": 5,
+    "words_count": 64,
+    "path": "database/readings/hsk3/hsk3_story_008.json"
   },
   {
     "id": "hsk3_story_009",
@@ -483,14 +455,13 @@
       "vi": "Mùa xuân tươi đẹp"
     },
     "topic": "seasons_weather",
-    "topic_vi": "Bốn mùa & Thiên nhiên",
-    "icon": "🌸",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 4,
     "description_vi": "Cảnh sắc thiên nhiên tươi mới và tràn đầy sức sống khi mùa xuân trở lại.",
-    "sentence_count": 5,
-    "spotlight_count": 10,
-    "quiz_count": 3,
-    "file": "database/readings/hsk3/hsk3_story_009.json"
+    "sentences_count": 5,
+    "words_count": 66,
+    "path": "database/readings/hsk3/hsk3_story_009.json"
   },
   {
     "id": "hsk3_story_010",
@@ -500,14 +471,13 @@
       "vi": "Người bạn cùng phòng Trung Quốc"
     },
     "topic": "friendship_culture",
-    "topic_vi": "Tình bạn & Văn hóa",
-    "icon": "🤝",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 4,
     "description_vi": "Sự sẻ chia văn hóa thú vị và tình bạn gắn bó giữa hai người bạn cùng phòng.",
-    "sentence_count": 5,
-    "spotlight_count": 11,
-    "quiz_count": 3,
-    "file": "database/readings/hsk3/hsk3_story_010.json"
+    "sentences_count": 5,
+    "words_count": 75,
+    "path": "database/readings/hsk3/hsk3_story_010.json"
   },
   {
     "id": "hsk4_story_001",
@@ -517,14 +487,13 @@
       "vi": "Tốt nghiệp đại học và phỏng vấn xin việc"
     },
     "topic": "career_growth",
-    "topic_vi": "Sự nghiệp & Việc làm",
-    "icon": "🎓",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 5,
     "description_vi": "Hành trình nỗ lực chuẩn bị hồ sơ và vượt qua buổi phỏng vấn xin việc đầu tiên.",
-    "sentence_count": 5,
-    "spotlight_count": 15,
-    "quiz_count": 3,
-    "file": "database/readings/hsk4/hsk4_story_001.json"
+    "sentences_count": 5,
+    "words_count": 77,
+    "path": "database/readings/hsk4/hsk4_story_001.json"
   },
   {
     "id": "hsk4_story_002",
@@ -534,14 +503,13 @@
       "vi": "Trải nghiệm khó quên trong chuyến du lịch"
     },
     "topic": "travel_adventure",
-    "topic_vi": "Du lịch & Trải nghiệm",
-    "icon": "🎒",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 5,
     "description_vi": "Lạc đường ở một thành phố xa lạ và nhận được sự giúp đỡ ấm áp từ người bản địa.",
-    "sentence_count": 5,
-    "spotlight_count": 11,
-    "quiz_count": 3,
-    "file": "database/readings/hsk4/hsk4_story_002.json"
+    "sentences_count": 5,
+    "words_count": 83,
+    "path": "database/readings/hsk4/hsk4_story_002.json"
   },
   {
     "id": "hsk4_story_003",
@@ -551,14 +519,13 @@
       "vi": "Đời sống hiện đại và bảo vệ môi trường"
     },
     "topic": "environment_society",
-    "topic_vi": "Môi trường & Xã hội",
-    "icon": "🌱",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 5,
     "description_vi": "Hành động nhỏ hàng ngày để giảm bớt rác thải và giữ gìn màu xanh cho Trái Đất.",
-    "sentence_count": 5,
-    "spotlight_count": 13,
-    "quiz_count": 3,
-    "file": "database/readings/hsk4/hsk4_story_003.json"
+    "sentences_count": 5,
+    "words_count": 72,
+    "path": "database/readings/hsk4/hsk4_story_003.json"
   },
   {
     "id": "hsk4_story_004",
@@ -568,14 +535,13 @@
       "vi": "Thưởng thức nghệ thuật Kinh kịch truyền thống"
     },
     "topic": "art_culture",
-    "topic_vi": "Nghệ thuật & Văn hóa",
-    "icon": "🎭",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 5,
     "description_vi": "Sức hấp dẫn độc đáo của nghệ thuật Kinh kịch qua trang phục, âm nhạc và vũ đạo điêu luyện.",
-    "sentence_count": 5,
-    "spotlight_count": 13,
-    "quiz_count": 3,
-    "file": "database/readings/hsk4/hsk4_story_004.json"
+    "sentences_count": 5,
+    "words_count": 77,
+    "path": "database/readings/hsk4/hsk4_story_004.json"
   },
   {
     "id": "hsk4_story_005",
@@ -585,14 +551,13 @@
       "vi": "Kiên trì vận động và thói quen lành mạnh"
     },
     "topic": "health_habits",
-    "topic_vi": "Sức khỏe & Rèn luyện",
-    "icon": "🏃",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 5,
     "description_vi": "Ý chí kiên trì vượt qua lười biếng để rèn luyện thói quen chạy bộ mỗi buổi sáng.",
-    "sentence_count": 5,
-    "spotlight_count": 11,
-    "quiz_count": 3,
-    "file": "database/readings/hsk4/hsk4_story_005.json"
+    "sentences_count": 5,
+    "words_count": 84,
+    "path": "database/readings/hsk4/hsk4_story_005.json"
   },
   {
     "id": "hsk4_story_006",
@@ -602,14 +567,13 @@
       "vi": "Ký kết hợp đồng thuê nhà"
     },
     "topic": "life_skills",
-    "topic_vi": "Kỹ năng sống & Pháp lý",
-    "icon": "📝",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 5,
     "description_vi": "Kiểm tra kỹ lưỡng các điều khoản hợp đồng thuê nhà để đảm bảo an toàn và quyền lợi cá nhân.",
-    "sentence_count": 5,
-    "spotlight_count": 16,
-    "quiz_count": 3,
-    "file": "database/readings/hsk4/hsk4_story_006.json"
+    "sentences_count": 5,
+    "words_count": 85,
+    "path": "database/readings/hsk4/hsk4_story_006.json"
   },
   {
     "id": "hsk4_story_007",
@@ -619,14 +583,13 @@
       "vi": "Sự thấu hiểu và bao dung giữa bạn bè"
     },
     "topic": "interpersonal_relation",
-    "topic_vi": "Tình bạn & Ứng xử",
-    "icon": "💬",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 5,
     "description_vi": "Cách giải quyết hiểu lầm chân thành giúp tình bạn càng thêm gắn bó và bền chặt.",
-    "sentence_count": 5,
-    "spotlight_count": 14,
-    "quiz_count": 3,
-    "file": "database/readings/hsk4/hsk4_story_007.json"
+    "sentences_count": 5,
+    "words_count": 88,
+    "path": "database/readings/hsk4/hsk4_story_007.json"
   },
   {
     "id": "hsk4_story_008",
@@ -636,14 +599,13 @@
       "vi": "Ăn uống lành mạnh và giảm stress khoa học"
     },
     "topic": "wellness_nutrition",
-    "topic_vi": "Sức khỏe & Ẩm thực",
-    "icon": "🥗",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 5,
     "description_vi": "Bí quyết cân bằng giữa áp lực công việc bận rộn và chế độ dinh dưỡng giàu chất xơ.",
-    "sentence_count": 5,
-    "spotlight_count": 14,
-    "quiz_count": 3,
-    "file": "database/readings/hsk4/hsk4_story_008.json"
+    "sentences_count": 5,
+    "words_count": 81,
+    "path": "database/readings/hsk4/hsk4_story_008.json"
   },
   {
     "id": "hsk4_story_009",
@@ -653,14 +615,13 @@
       "vi": "Những suy ngẫm về thành công"
     },
     "topic": "philosophy_mindset",
-    "topic_vi": "Tư duy & Thành công",
-    "icon": "💡",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 5,
     "description_vi": "Thất bại là mẹ thành công: Tích lũy kinh nghiệm và giữ vững niềm tin trên đường đời.",
-    "sentence_count": 5,
-    "spotlight_count": 18,
-    "quiz_count": 3,
-    "file": "database/readings/hsk4/hsk4_story_009.json"
+    "sentences_count": 5,
+    "words_count": 86,
+    "path": "database/readings/hsk4/hsk4_story_009.json"
   },
   {
     "id": "hsk4_story_010",
@@ -670,13 +631,812 @@
       "vi": "Trà đạo Trung Hoa và lễ nghi đãi khách"
     },
     "topic": "culture_etiquette",
-    "topic_vi": "Văn hóa & Lễ nghi",
-    "icon": "🍵",
+    "topic_vi": "Chung",
+    "icon": "📖",
     "estimatedMinutes": 5,
     "description_vi": "Nét đẹp tinh tế của văn hóa trà đạo và sự tôn trọng khách quý trong nếp sống phương Đông.",
-    "sentence_count": 5,
-    "spotlight_count": 17,
-    "quiz_count": 3,
-    "file": "database/readings/hsk4/hsk4_story_010.json"
+    "sentences_count": 5,
+    "words_count": 97,
+    "path": "database/readings/hsk4/hsk4_story_010.json"
+  },
+  {
+    "id": "hsk5_story_001",
+    "level": "HSK5",
+    "title": {
+      "zh": "传统手工艺的现代传承",
+      "vi": "Nghệ thuật thủ công truyền thống và sự kế thừa hiện đại"
+    },
+    "topic": "art_heritage",
+    "topic_vi": "Di sản nghệ thuật",
+    "icon": "🏺",
+    "estimatedMinutes": 5,
+    "description_vi": "Sự kết hợp hài hòa giữa kỹ nghệ gốm sứ truyền thống và thiết kế sáng tạo đương đại.",
+    "sentences_count": 5,
+    "words_count": 100,
+    "path": "database/readings/hsk5/hsk5_story_001.json"
+  },
+  {
+    "id": "hsk5_story_002",
+    "level": "HSK5",
+    "title": {
+      "zh": "人工智能与未来生活",
+      "vi": "Trí tuệ nhân tạo và cuộc sống tương lai"
+    },
+    "topic": "technology_ai",
+    "topic_vi": "Công nghệ & AI",
+    "icon": "🤖",
+    "estimatedMinutes": 5,
+    "description_vi": "Những bước tiến vượt bậc của trí tuệ nhân tạo và sự thích nghi của con người trong kỷ nguyên số.",
+    "sentences_count": 5,
+    "words_count": 111,
+    "path": "database/readings/hsk5/hsk5_story_002.json"
+  },
+  {
+    "id": "hsk5_story_003",
+    "level": "HSK5",
+    "title": {
+      "zh": "青年创业的机遇与挑战",
+      "vi": "Cơ hội và thách thức khi khởi nghiệp của giới trẻ"
+    },
+    "topic": "business_startup",
+    "topic_vi": "Kinh doanh & Khởi nghiệp",
+    "icon": "🚀",
+    "estimatedMinutes": 5,
+    "description_vi": "Hành trình khởi nghiệp đầy đam mê, đối mặt rủi ro tài chính và bài học lãnh đạo bản lĩnh.",
+    "sentences_count": 5,
+    "words_count": 104,
+    "path": "database/readings/hsk5/hsk5_story_003.json"
+  },
+  {
+    "id": "hsk5_story_004",
+    "level": "HSK5",
+    "title": {
+      "zh": "读书的力量与终身学习",
+      "vi": "Sức mạnh của đọc sách và học tập suốt đời"
+    },
+    "topic": "education_growth",
+    "topic_vi": "Giáo dục & Phát triển",
+    "icon": "📖",
+    "estimatedMinutes": 5,
+    "description_vi": "Thói quen đọc sách mở rộng tầm mắt, làm phong phú tâm hồn và nuôi dưỡng tư duy phản biện.",
+    "sentences_count": 5,
+    "words_count": 116,
+    "path": "database/readings/hsk5/hsk5_story_004.json"
+  },
+  {
+    "id": "hsk5_story_005",
+    "level": "HSK5",
+    "title": {
+      "zh": "城市绿色发展与生态保护",
+      "vi": "Phát triển xanh và bảo vệ sinh thái đô thị"
+    },
+    "topic": "urban_ecology",
+    "topic_vi": "Đô thị & Sinh thái",
+    "icon": "🌳",
+    "estimatedMinutes": 5,
+    "description_vi": "Kiến tạo không gian sống trong lành thông qua công viên cây xanh và quy hoạch đô thị bền vững.",
+    "sentences_count": 5,
+    "words_count": 103,
+    "path": "database/readings/hsk5/hsk5_story_005.json"
+  },
+  {
+    "id": "hsk5_story_006",
+    "level": "HSK5",
+    "title": {
+      "zh": "跨文化交流中的包容与对话",
+      "vi": "Bao dung và đối thoại trong giao lưu đa văn hóa"
+    },
+    "topic": "culture_dialogue",
+    "topic_vi": "Giao lưu văn hóa",
+    "icon": "🌐",
+    "estimatedMinutes": 5,
+    "description_vi": "Vượt qua định kiến và rào cản ngôn ngữ để thấu hiểu sự phong phú của các nền văn minh thế giới.",
+    "sentences_count": 5,
+    "words_count": 110,
+    "path": "database/readings/hsk5/hsk5_story_006.json"
+  },
+  {
+    "id": "hsk5_story_007",
+    "level": "HSK5",
+    "title": {
+      "zh": "心理韧性与压力管理",
+      "vi": "Sức bền tâm lý và quản lý áp lực cuộc sống"
+    },
+    "topic": "psychology_resilience",
+    "topic_vi": "Tâm lý & Bản lĩnh",
+    "icon": "🧘",
+    "estimatedMinutes": 5,
+    "description_vi": "Rèn luyện tâm lý vững vàng, biến áp lực thành động lực tích cực để trưởng thành hơn mỗi ngày.",
+    "sentences_count": 5,
+    "words_count": 105,
+    "path": "database/readings/hsk5/hsk5_story_007.json"
+  },
+  {
+    "id": "hsk5_story_008",
+    "level": "HSK5",
+    "title": {
+      "zh": "中国古典园林的美学智慧",
+      "vi": "Trí tuệ thẩm mỹ của hoa viên cổ điển Trung Hoa"
+    },
+    "topic": "oriental_aesthetics",
+    "topic_vi": "Thẩm mỹ phương Đông",
+    "icon": "🏞️",
+    "estimatedMinutes": 5,
+    "description_vi": "Nghệ thuật 'dời non dời sông' tài tình trong kiến trúc hoa viên Tô Châu: Thiên nhiên thu nhỏ trong tấc gang.",
+    "sentences_count": 5,
+    "words_count": 130,
+    "path": "database/readings/hsk5/hsk5_story_008.json"
+  },
+  {
+    "id": "hsk5_story_009",
+    "level": "HSK5",
+    "title": {
+      "zh": "数字化时代的社交变迁",
+      "vi": "Biến chuyển trong giao tiếp xã hội thời đại số"
+    },
+    "topic": "digital_society",
+    "topic_vi": "Xã hội số & Giao tiếp",
+    "icon": "📱",
+    "estimatedMinutes": 5,
+    "description_vi": "Mạng xã hội kéo gần khoảng cách địa lý nhưng cũng đặt ra câu hỏi về chiều sâu của các mối quan hệ thực tế.",
+    "sentences_count": 5,
+    "words_count": 116,
+    "path": "database/readings/hsk5/hsk5_story_009.json"
+  },
+  {
+    "id": "hsk5_story_010",
+    "level": "HSK5",
+    "title": {
+      "zh": "饮食文化与慢生活哲学",
+      "vi": "Văn hóa ẩm thực và triết lý sống chậm"
+    },
+    "topic": "slow_living",
+    "topic_vi": "Ẩm thực & Triết lý",
+    "icon": "🍲",
+    "estimatedMinutes": 5,
+    "description_vi": "Tận hưởng niềm vui nấu nướng và trân trọng từng hương vị tự nhiên trong nhịp sống hối hả ngày nay.",
+    "sentences_count": 5,
+    "words_count": 118,
+    "path": "database/readings/hsk5/hsk5_story_010.json"
+  },
+  {
+    "id": "hsk6_story_001",
+    "level": "HSK6",
+    "title": {
+      "zh": "深海探测与未知世界",
+      "vi": "Thám hiểm biển sâu và thế giới bí ẩn"
+    },
+    "topic": "ocean_exploration",
+    "topic_vi": "Khoa học đại dương",
+    "icon": "🌊",
+    "estimatedMinutes": 6,
+    "description_vi": "Những bước đột phá của tàu lặn thám hiểm rãnh đại dương và khám phá hệ sinh thái kỳ vĩ.",
+    "sentences_count": 5,
+    "words_count": 127,
+    "path": "database/readings/hsk6/hsk6_story_001.json"
+  },
+  {
+    "id": "hsk6_story_002",
+    "level": "HSK6",
+    "title": {
+      "zh": "古典诗词的审美意境",
+      "vi": "Ý cảnh thẩm mỹ trong thi từ cổ điển"
+    },
+    "topic": "classical_poetry",
+    "topic_vi": "Văn học & Thi ca",
+    "icon": "📜",
+    "estimatedMinutes": 6,
+    "description_vi": "Nghệ thuật 'tá cảnh sinh tình' và vẻ đẹp ngôn từ cô đọng trong kho tàng thi ca cổ điển.",
+    "sentences_count": 5,
+    "words_count": 139,
+    "path": "database/readings/hsk6/hsk6_story_002.json"
+  },
+  {
+    "id": "hsk6_story_003",
+    "level": "HSK6",
+    "title": {
+      "zh": "生物多样性与自然共生",
+      "vi": "Đa dạng sinh học và cộng sinh cùng tự nhiên"
+    },
+    "topic": "biodiversity",
+    "topic_vi": "Môi trường & Sinh thái",
+    "icon": "🐼",
+    "estimatedMinutes": 6,
+    "description_vi": "Bảo vệ các loài quý hiếm và khôi phục hệ sinh thái cân bằng cho tương lai bền vững.",
+    "sentences_count": 5,
+    "words_count": 121,
+    "path": "database/readings/hsk6/hsk6_story_003.json"
+  },
+  {
+    "id": "hsk6_story_004",
+    "level": "HSK6",
+    "title": {
+      "zh": "数字经济与金融普惠",
+      "vi": "Kinh tế số và tài chính toàn diện"
+    },
+    "topic": "fintech",
+    "topic_vi": "Kinh tế & Công nghệ",
+    "icon": "💳",
+    "estimatedMinutes": 6,
+    "description_vi": "Công nghệ tài chính số hóa giúp thu hẹp khoảng cách tiếp cận dịch vụ và thúc đẩy phát triển công bằng.",
+    "sentences_count": 5,
+    "words_count": 132,
+    "path": "database/readings/hsk6/hsk6_story_004.json"
+  },
+  {
+    "id": "hsk6_story_005",
+    "level": "HSK6",
+    "title": {
+      "zh": "认知重构与情绪智慧",
+      "vi": "Tái cấu trúc nhận thức và trí tuệ cảm xúc"
+    },
+    "topic": "psychology",
+    "topic_vi": "Tâm lý học",
+    "icon": "🧠",
+    "estimatedMinutes": 6,
+    "description_vi": "Khám phá cơ chế điều hòa tâm lý, chuyển hóa cảm xúc tiêu cực thành nguồn năng lượng tích cực.",
+    "sentences_count": 5,
+    "words_count": 129,
+    "path": "database/readings/hsk6/hsk6_story_005.json"
+  },
+  {
+    "id": "hsk6_story_006",
+    "level": "HSK6",
+    "title": {
+      "zh": "工业遗产的艺术新生",
+      "vi": "Sức sống nghệ thuật mới của di sản công nghiệp"
+    },
+    "topic": "architecture_heritage",
+    "topic_vi": "Kiến trúc & Di sản",
+    "icon": "🏛️",
+    "estimatedMinutes": 6,
+    "description_vi": "Hành trình biến đổi những nhà máy cũ hoang tàn thành trung tâm triển lãm và không gian sáng tạo sôi động.",
+    "sentences_count": 5,
+    "words_count": 145,
+    "path": "database/readings/hsk6/hsk6_story_006.json"
+  },
+  {
+    "id": "hsk6_story_007",
+    "level": "HSK6",
+    "title": {
+      "zh": "基因编辑与生命伦理",
+      "vi": "Chỉnh sửa gen và đạo đức sinh học"
+    },
+    "topic": "bioethics",
+    "topic_vi": "Y học & Đạo đức",
+    "icon": "⚕️",
+    "estimatedMinutes": 6,
+    "description_vi": "Trước ngưỡng cửa đột phá công nghệ gen, ranh giới đạo đức và trách nhiệm nhân loại cần được định vị.",
+    "sentences_count": 5,
+    "words_count": 132,
+    "path": "database/readings/hsk6/hsk6_story_007.json"
+  },
+  {
+    "id": "hsk6_story_008",
+    "level": "HSK6",
+    "title": {
+      "zh": "丝绸之路的历史回响",
+      "vi": "Dư âm lịch sử của Con đường Tơ Lụa"
+    },
+    "topic": "silk_road",
+    "topic_vi": "Lịch sử & Thương mại",
+    "icon": "🐫",
+    "estimatedMinutes": 6,
+    "description_vi": "Hành trình giao thương ngàn dặm nối liền Đông Tây, gieo mầm cho sự thấu hiểu và hòa bình giữa các nền văn minh.",
+    "sentences_count": 5,
+    "words_count": 154,
+    "path": "database/readings/hsk6/hsk6_story_008.json"
+  },
+  {
+    "id": "hsk6_story_009",
+    "level": "HSK6",
+    "title": {
+      "zh": "清洁能源与低碳转型",
+      "vi": "Năng lượng sạch và chuyển đổi carbon thấp"
+    },
+    "topic": "green_energy",
+    "topic_vi": "Năng lượng & Bền vững",
+    "icon": "⚡",
+    "estimatedMinutes": 6,
+    "description_vi": "Công nghệ quang điện, điện gió và nỗ lực đạt mục tiêu trung hòa khí thải toàn cầu.",
+    "sentences_count": 5,
+    "words_count": 152,
+    "path": "database/readings/hsk6/hsk6_story_009.json"
+  },
+  {
+    "id": "hsk6_story_010",
+    "level": "HSK6",
+    "title": {
+      "zh": "艺术创作与智能算法",
+      "vi": "Sáng tạo nghệ thuật và thuật toán thông minh"
+    },
+    "topic": "ai_art",
+    "topic_vi": "Nghệ thuật & Tương lai",
+    "icon": "🎨",
+    "estimatedMinutes": 6,
+    "description_vi": "Khi trí tuệ nhân tạo vẽ tranh và sáng tác nhạc: Câu hỏi về bản sắc và cảm xúc của nghệ thuật.",
+    "sentences_count": 5,
+    "words_count": 146,
+    "path": "database/readings/hsk6/hsk6_story_010.json"
+  },
+  {
+    "id": "hsk7_story_001",
+    "level": "HSK7",
+    "title": {
+      "zh": "宏观调控与经济高质量发展",
+      "vi": "Điều tiết vĩ mô và phát triển kinh tế chất lượng cao"
+    },
+    "topic": "macroeconomics",
+    "topic_vi": "Kinh tế học vĩ mô",
+    "icon": "📊",
+    "estimatedMinutes": 6,
+    "description_vi": "Phân tích các chính sách tài khóa và tiền tệ nhằm tối ưu hóa cơ cấu kinh tế và phát triển bền vững.",
+    "sentences_count": 5,
+    "words_count": 137,
+    "path": "database/readings/hsk7/hsk7_story_001.json"
+  },
+  {
+    "id": "hsk7_story_002",
+    "level": "HSK7",
+    "title": {
+      "zh": "中华古籍的数字化活化",
+      "vi": "Số hóa và hồi sinh cổ tịch văn hiến"
+    },
+    "topic": "ancient_texts",
+    "topic_vi": "Di sản văn hiến",
+    "icon": "📜",
+    "estimatedMinutes": 7,
+    "description_vi": "Ứng dụng công nghệ quét quang học siêu nét và AI để phục dựng và lưu trữ kho tàng văn tự cổ ngàn năm.",
+    "sentences_count": 5,
+    "words_count": 139,
+    "path": "database/readings/hsk7/hsk7_story_002.json"
+  },
+  {
+    "id": "hsk7_story_003",
+    "level": "HSK7",
+    "title": {
+      "zh": "量子信息与计算新时代",
+      "vi": "Thông tin lượng tử và kỷ nguyên tính toán mới"
+    },
+    "topic": "quantum_frontier",
+    "topic_vi": "Khoa học tiên phong",
+    "icon": "🔬",
+    "estimatedMinutes": 7,
+    "description_vi": "Khám phá nguyên lý chồng chập và vướng víu lượng tử: Bước nhảy vọt về sức mạnh tính toán và mã hóa an toàn.",
+    "sentences_count": 5,
+    "words_count": 164,
+    "path": "database/readings/hsk7/hsk7_story_003.json"
+  },
+  {
+    "id": "hsk7_story_004",
+    "level": "HSK7",
+    "title": {
+      "zh": "流域生态治理与绿色协同",
+      "vi": "Quản trị sinh thái lưu vực và hiệp đồng xanh"
+    },
+    "topic": "river_basin",
+    "topic_vi": "Sinh thái lưu vực",
+    "icon": "🏞️",
+    "estimatedMinutes": 7,
+    "description_vi": "Chiến lược quy hoạch và bảo tồn toàn diện hệ sinh thái sông lớn, hài hòa giữa kinh tế và bảo vệ nguồn nước.",
+    "sentences_count": 5,
+    "words_count": 157,
+    "path": "database/readings/hsk7/hsk7_story_004.json"
+  },
+  {
+    "id": "hsk7_story_005",
+    "level": "HSK7",
+    "title": {
+      "zh": "法治社会与契约精神",
+      "vi": "Xã hội pháp quyền và tinh thần khế ước"
+    },
+    "topic": "rule_of_law",
+    "topic_vi": "Pháp luật & Xã hội",
+    "icon": "⚖️",
+    "estimatedMinutes": 7,
+    "description_vi": "Tôn trọng luật pháp và giữ gìn chữ tín trong giao kết: Nền tảng vững chắc của xã hội văn minh hiện đại.",
+    "sentences_count": 5,
+    "words_count": 129,
+    "path": "database/readings/hsk7/hsk7_story_005.json"
+  },
+  {
+    "id": "hsk7_story_006",
+    "level": "HSK7",
+    "title": {
+      "zh": "中医药的现代化与国际化",
+      "vi": "Hiện đại hóa và quốc tế hóa y học cổ truyền"
+    },
+    "topic": "tcm_modernization",
+    "topic_vi": "Y học & Di sản",
+    "icon": "🌿",
+    "estimatedMinutes": 7,
+    "description_vi": "Kết hợp y lý biện chứng ngàn đời với dược lý phân tử hiện đại: Đóng góp tinh hoa cho y học thế giới.",
+    "sentences_count": 5,
+    "words_count": 160,
+    "path": "database/readings/hsk7/hsk7_story_006.json"
+  },
+  {
+    "id": "hsk7_story_007",
+    "level": "HSK7",
+    "title": {
+      "zh": "全球气候治理的多边机制",
+      "vi": "Cơ chế đa phương trong quản trị khí hậu toàn cầu"
+    },
+    "topic": "climate_governance",
+    "topic_vi": "Địa chính trị & Môi trường",
+    "icon": "🌍",
+    "estimatedMinutes": 7,
+    "description_vi": "Hiệp định Paris và trách nhiệm chung nhưng có phân biệt giữa các quốc gia trong cuộc chiến chống biến đổi khí hậu.",
+    "sentences_count": 5,
+    "words_count": 142,
+    "path": "database/readings/hsk7/hsk7_story_007.json"
+  },
+  {
+    "id": "hsk7_story_008",
+    "level": "HSK7",
+    "title": {
+      "zh": "深空探测与月球科学实验",
+      "vi": "Thám hiểm không gian sâu và khoa học mặt trăng"
+    },
+    "topic": "deep_space",
+    "topic_vi": "Hàng không vũ trụ",
+    "icon": "🚀",
+    "estimatedMinutes": 7,
+    "description_vi": "Những nỗ lực đưa tàu thám hiểm lấy mẫu đất đá mặt trăng và chuẩn bị cho trạm nghiên cứu liên hành tinh.",
+    "sentences_count": 5,
+    "words_count": 151,
+    "path": "database/readings/hsk7/hsk7_story_008.json"
+  },
+  {
+    "id": "hsk7_story_009",
+    "level": "HSK7",
+    "title": {
+      "zh": "乡村振兴与现代产业融合",
+      "vi": "Hồi sinh nông thôn và tích hợp công nghiệp hiện đại"
+    },
+    "topic": "rural_revitalization",
+    "topic_vi": "Phát triển nông thôn",
+    "icon": "🌾",
+    "estimatedMinutes": 7,
+    "description_vi": "Thương mại điện tử nông sản, du lịch sinh thái và công nghệ nông nghiệp thông minh đổi mới vùng quê.",
+    "sentences_count": 5,
+    "words_count": 150,
+    "path": "database/readings/hsk7/hsk7_story_009.json"
+  },
+  {
+    "id": "hsk7_story_010",
+    "level": "HSK7",
+    "title": {
+      "zh": "城市微更新与历史文脉留存",
+      "vi": "Cải tạo vi mô và lưu giữ văn mạch đô thị"
+    },
+    "topic": "urban_renewal",
+    "topic_vi": "Quy hoạch & Kiến trúc",
+    "icon": "🏙️",
+    "estimatedMinutes": 7,
+    "description_vi": "Từ đập phá ồ ạt chuyển sang chỉnh trang tỉ mỉ: Bảo tồn ký ức cộng đồng và hồn cốt phố xưa.",
+    "sentences_count": 5,
+    "words_count": 153,
+    "path": "database/readings/hsk7/hsk7_story_010.json"
+  },
+  {
+    "id": "hsk8_story_001",
+    "level": "HSK8",
+    "title": {
+      "zh": "比较文学视域下的文明互鉴",
+      "vi": "Giao lưu văn minh dưới góc nhìn văn học so sánh"
+    },
+    "topic": "comparative_lit",
+    "topic_vi": "Văn học so sánh",
+    "icon": "📚",
+    "estimatedMinutes": 6,
+    "description_vi": "Khám phá điểm tương đồng và khác biệt giữa các truyền thống văn chương Đông - Tây để hiểu sâu sắc bản chất nhân loại.",
+    "sentences_count": 5,
+    "words_count": 167,
+    "path": "database/readings/hsk8/hsk8_story_001.json"
+  },
+  {
+    "id": "hsk8_story_002",
+    "level": "HSK8",
+    "title": {
+      "zh": "脑机接口与意识探索",
+      "vi": "Giao diện não - máy và khám phá ý thức"
+    },
+    "topic": "bci_neuroscience",
+    "topic_vi": "Khoa học thần kinh",
+    "icon": "🧠",
+    "estimatedMinutes": 8,
+    "description_vi": "Công nghệ giải mã tín hiệu điện não: Từ phục hồi vận động người bệnh đến thách thức triết học về bản thể.",
+    "sentences_count": 5,
+    "words_count": 159,
+    "path": "database/readings/hsk8/hsk8_story_002.json"
+  },
+  {
+    "id": "hsk8_story_003",
+    "level": "HSK8",
+    "title": {
+      "zh": "全球供应链的韧性重构",
+      "vi": "Tái cấu trúc và độ bền chuỗi cung ứng toàn cầu"
+    },
+    "topic": "global_supply_chain",
+    "topic_vi": "Thương mại & Chuỗi cung ứng",
+    "icon": "🚢",
+    "estimatedMinutes": 8,
+    "description_vi": "Đa dạng hóa nguồn cung và chuyển đổi số hóa nhằm đối phó với các cú sốc địa chính trị và thiên tai bất ngờ.",
+    "sentences_count": 5,
+    "words_count": 152,
+    "path": "database/readings/hsk8/hsk8_story_003.json"
+  },
+  {
+    "id": "hsk8_story_004",
+    "level": "HSK8",
+    "title": {
+      "zh": "中华文明探源与考古学实证",
+      "vi": "Tìm về cội nguồn văn minh và bằng chứng khảo cổ học"
+    },
+    "topic": "archaeology_origins",
+    "topic_vi": "Khảo cổ & Lịch sử",
+    "icon": "🏺",
+    "estimatedMinutes": 8,
+    "description_vi": "Những phát hiện khai quật tại Lương Chữ và Tam Tinh Đôi chứng minh mô hình 'sao trời muôn dặm' của văn minh cổ.",
+    "sentences_count": 5,
+    "words_count": 184,
+    "path": "database/readings/hsk8/hsk8_story_004.json"
+  },
+  {
+    "id": "hsk8_story_005",
+    "level": "HSK8",
+    "title": {
+      "zh": "引力波探测与时空涟漪",
+      "vi": "Dò tìm sóng hấp dẫn và gợn sóng không - thời gian"
+    },
+    "topic": "gravitational_waves",
+    "topic_vi": "Vật lý thiên văn",
+    "icon": "🌌",
+    "estimatedMinutes": 8,
+    "description_vi": "Lắng nghe thanh âm va chạm của các lỗ đen từ hàng tỷ năm trước: Cánh cửa mới rộng mở nhìn vào vũ trụ sâu thẳm.",
+    "sentences_count": 5,
+    "words_count": 166,
+    "path": "database/readings/hsk8/hsk8_story_005.json"
+  },
+  {
+    "id": "hsk8_story_006",
+    "level": "HSK8",
+    "title": {
+      "zh": "算法向善与平台责任治理",
+      "vi": "Thuật toán hướng thiện và quản trị trách nhiệm nền tảng"
+    },
+    "topic": "algorithm_governance",
+    "topic_vi": "Đạo đức số & Quản trị",
+    "icon": "⚖️",
+    "estimatedMinutes": 8,
+    "description_vi": "Giải quyết vấn đề 'kén thông tin', bóc lột lao động nền tảng và kiểm soát thiên kiến trong thuật toán gợi ý.",
+    "sentences_count": 5,
+    "words_count": 167,
+    "path": "database/readings/hsk8/hsk8_story_006.json"
+  },
+  {
+    "id": "hsk8_story_007",
+    "level": "HSK8",
+    "title": {
+      "zh": "生态价值转化与绿色核算",
+      "vi": "Chuyển hóa giá trị sinh thái và hạch toán xanh"
+    },
+    "topic": "gep_accounting",
+    "topic_vi": "Kinh tế sinh thái",
+    "icon": "🌲",
+    "estimatedMinutes": 8,
+    "description_vi": "Định lượng giá trị kinh tế của rừng, nước và không khí trong sạch thông qua hệ thống GEP tiên tiến.",
+    "sentences_count": 5,
+    "words_count": 159,
+    "path": "database/readings/hsk8/hsk8_story_007.json"
+  },
+  {
+    "id": "hsk8_story_008",
+    "level": "HSK8",
+    "title": {
+      "zh": "非物质文化遗产的活态传承",
+      "vi": "Kế thừa sống động di sản văn hóa phi vật thể"
+    },
+    "topic": "intangible_heritage",
+    "topic_vi": "Di sản văn hóa",
+    "icon": "🎭",
+    "estimatedMinutes": 8,
+    "description_vi": "Bảo tồn nghệ thuật diễn xướng, ca kịch và kỹ nghệ thủ công bằng cách đưa chúng vào đời sống thường nhật.",
+    "sentences_count": 5,
+    "words_count": 168,
+    "path": "database/readings/hsk8/hsk8_story_008.json"
+  },
+  {
+    "id": "hsk8_story_009",
+    "level": "HSK8",
+    "title": {
+      "zh": "合成生物学与未来制造",
+      "vi": "Sinh học tổng hợp và sản xuất tương lai"
+    },
+    "topic": "synthetic_biology",
+    "topic_vi": "Công nghệ sinh học",
+    "icon": "🧪",
+    "estimatedMinutes": 8,
+    "description_vi": "Thiết kế lại mã di truyền để sản xuất dược phẩm, vật liệu sinh học mới và giảm phụ thuộc vào hóa dầu.",
+    "sentences_count": 5,
+    "words_count": 160,
+    "path": "database/readings/hsk8/hsk8_story_009.json"
+  },
+  {
+    "id": "hsk8_story_010",
+    "level": "HSK8",
+    "title": {
+      "zh": "城市天际线与建筑美学表达",
+      "vi": "Đường chân trời đô thị và biểu đạt mỹ học kiến trúc"
+    },
+    "topic": "urban_skyline",
+    "topic_vi": "Mỹ học & Kiến trúc",
+    "icon": "🏙️",
+    "estimatedMinutes": 8,
+    "description_vi": "Đường chân trời phản chiếu tầm vóc phát triển và khát vọng văn hóa của một đô thị hiện đại.",
+    "sentences_count": 5,
+    "words_count": 179,
+    "path": "database/readings/hsk8/hsk8_story_010.json"
+  },
+  {
+    "id": "hsk9_story_001",
+    "level": "HSK9",
+    "title": {
+      "zh": "先秦诸子与百家争鸣的学术盛景",
+      "vi": "Chư tử Tiên Tần và thời kỳ Bách gia tranh minh"
+    },
+    "topic": "pre_qin_philosophy",
+    "topic_vi": "Triết học cổ đại",
+    "icon": "📜",
+    "estimatedMinutes": 6,
+    "description_vi": "Khám phá đỉnh cao tư tưởng triết học phương Đông thời Xuân Thu - Chiến Quốc: Nền tảng văn hóa ngàn năm.",
+    "sentences_count": 5,
+    "words_count": 166,
+    "path": "database/readings/hsk9/hsk9_story_001.json"
+  },
+  {
+    "id": "hsk9_story_002",
+    "level": "HSK9",
+    "title": {
+      "zh": "黑洞视界与时空奇点之谜",
+      "vi": "Chân trời sự kiện lỗ đen và bí ẩn điểm kỳ dị"
+    },
+    "topic": "astrophysics_singularity",
+    "topic_vi": "Vật lý thiên văn",
+    "icon": "🌌",
+    "estimatedMinutes": 9,
+    "description_vi": "Thử thách lớn nhất của vật lý hiện đại: Nơi thuyết tương đối rộng và cơ học lượng tử đối đầu gay gắt.",
+    "sentences_count": 5,
+    "words_count": 162,
+    "path": "database/readings/hsk9/hsk9_story_002.json"
+  },
+  {
+    "id": "hsk9_story_003",
+    "level": "HSK9",
+    "title": {
+      "zh": "复杂性科学与社会系统动力学",
+      "vi": "Khoa học phức hợp và động học hệ thống xã hội"
+    },
+    "topic": "complex_systems",
+    "topic_vi": "Khoa học phức hợp",
+    "icon": "📈",
+    "estimatedMinutes": 9,
+    "description_vi": "Hiện tượng trồi hiện, phi tuyến tính và bướm đập cánh trong mạng lưới tài chính và xã hội loài người.",
+    "sentences_count": 5,
+    "words_count": 160,
+    "path": "database/readings/hsk9/hsk9_story_003.json"
+  },
+  {
+    "id": "hsk9_story_004",
+    "level": "HSK9",
+    "title": {
+      "zh": "隐喻的认知本性与人类思维",
+      "vi": "Bản chất nhận thức của ẩn dụ và tư duy con người"
+    },
+    "topic": "cognitive_linguistics",
+    "topic_vi": "Ngôn ngữ học nhận thức",
+    "icon": "🗣️",
+    "estimatedMinutes": 9,
+    "description_vi": "Ẩn dụ không đơn thuần là thủ pháp tu từ hoa mỹ, mà là phương thức nền tảng giúp con người kiến tạo thế giới tư duy.",
+    "sentences_count": 5,
+    "words_count": 173,
+    "path": "database/readings/hsk9/hsk9_story_004.json"
+  },
+  {
+    "id": "hsk9_story_005",
+    "level": "HSK9",
+    "title": {
+      "zh": "历史哲学与自由意志的张力",
+      "vi": "Triết học lịch sử và sức căng của ý chí tự do"
+    },
+    "topic": "philosophy_of_history",
+    "topic_vi": "Triết học lịch sử",
+    "icon": "⏳",
+    "estimatedMinutes": 9,
+    "description_vi": "Quy luật tất yếu của lịch sử và sự lựa chọn đạo đức của cá thể con người: Đối thoại giữa Kant và Hegel.",
+    "sentences_count": 5,
+    "words_count": 161,
+    "path": "database/readings/hsk9/hsk9_story_005.json"
+  },
+  {
+    "id": "hsk9_story_006",
+    "level": "HSK9",
+    "title": {
+      "zh": "本体论反思：存在、时间与虚无",
+      "vi": "Phản tư bản thể luận: Hiện hữu, thời gian và hư vô"
+    },
+    "topic": "ontology_reflection",
+    "topic_vi": "Bản thể luận",
+    "icon": "🕯️",
+    "estimatedMinutes": 9,
+    "description_vi": "Truy vấn cội nguồn của 'Tồn tại' và ý nghĩa của hiện sinh: Từ triết học cổ Hy Lạp đến Heidegger.",
+    "sentences_count": 5,
+    "words_count": 173,
+    "path": "database/readings/hsk9/hsk9_story_006.json"
+  },
+  {
+    "id": "hsk9_story_007",
+    "level": "HSK9",
+    "title": {
+      "zh": "深海采矿的国际法权与海洋正义",
+      "vi": "Pháp lý quốc tế về khai thác đáy biển và công lý đại dương"
+    },
+    "topic": "ocean_law_governance",
+    "topic_vi": "Luật quốc tế & Môi trường",
+    "icon": "🌊",
+    "estimatedMinutes": 9,
+    "description_vi": "Công ước Luật Biển UNCLOS và cuộc cạnh tranh nguồn tài nguyên kim loại quý dưới đáy đại dương.",
+    "sentences_count": 5,
+    "words_count": 165,
+    "path": "database/readings/hsk9/hsk9_story_007.json"
+  },
+  {
+    "id": "hsk9_story_008",
+    "level": "HSK9",
+    "title": {
+      "zh": "神经伦理学与自由意志的重构",
+      "vi": "Đạo đức thần kinh và tái cấu trúc ý chí tự do"
+    },
+    "topic": "neuroethics_freewill",
+    "topic_vi": "Khoa học thần kinh & Đạo đức",
+    "icon": "🧬",
+    "estimatedMinutes": 9,
+    "description_vi": "Thí nghiệm Libet và câu hỏi liệu bộ não quyết định trước khi ý thức kịp nhận biết.",
+    "sentences_count": 5,
+    "words_count": 167,
+    "path": "database/readings/hsk9/hsk9_story_008.json"
+  },
+  {
+    "id": "hsk9_story_009",
+    "level": "HSK9",
+    "title": {
+      "zh": "系统性金融风险的演化机制",
+      "vi": "Cơ chế tiến triển của rủi ro tài chính mang tính hệ thống"
+    },
+    "topic": "systemic_financial_risk",
+    "topic_vi": "Kinh tế & Quản trị rủi ro",
+    "icon": "🏦",
+    "estimatedMinutes": 9,
+    "description_vi": "Vòng lặp phản hồi tiêu cực giữa đòn bẩy cao, bong bóng tài sản và sự sụp đổ dây chuyền của các định chế.",
+    "sentences_count": 5,
+    "words_count": 157,
+    "path": "database/readings/hsk9/hsk9_story_009.json"
+  },
+  {
+    "id": "hsk9_story_010",
+    "level": "HSK9",
+    "title": {
+      "zh": "人类命运共同体的文明哲学建构",
+      "vi": "Kiến tạo triết học văn minh về cộng đồng cùng chia sẻ tương lai"
+    },
+    "topic": "civilization_evolution",
+    "topic_vi": "Triết học văn minh",
+    "icon": "🌐",
+    "estimatedMinutes": 9,
+    "description_vi": "Vượt qua 'Bẫy Thucydides' và sự va chạm giữa các nền văn minh: Tầm nhìn hòa bình và cùng chung sống của nhân loại.",
+    "sentences_count": 5,
+    "words_count": 167,
+    "path": "database/readings/hsk9/hsk9_story_010.json"
   }
 ]

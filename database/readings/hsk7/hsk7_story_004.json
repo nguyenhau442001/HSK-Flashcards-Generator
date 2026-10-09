@@ -1,0 +1,1083 @@
+{
+  "id": "hsk7_story_004",
+  "level": "HSK7",
+  "title": {
+    "zh": "流域生态治理与绿色协同",
+    "vi": "Quản trị sinh thái lưu vực và hiệp đồng xanh"
+  },
+  "topic": "river_basin",
+  "topic_vi": "Sinh thái lưu vực",
+  "icon": "🏞️",
+  "estimatedMinutes": 7,
+  "description_vi": "Chiến lược quy hoạch và bảo tồn toàn diện hệ sinh thái sông lớn, hài hòa giữa kinh tế và bảo vệ nguồn nước.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "大江大河作为孕育人类文明的母亲河，其流域生态系统的健康直接关乎亿万人民的福祉与未来。",
+      "pinyin": "Dàjiāng-dàhé zuòwéi yùnyù rénlèi wénmíng de mǔqīn-hé, qí liùyù shēngtài xìtǒng de jiànkāng zhíjiē guānhū yìwàn rénmín de fúzhǐ yǔ wèilái.",
+      "vi": "Những dòng sông lớn tựa như dòng sông mẹ nuôi dưỡng nền văn minh, sức khỏe hệ sinh thái lưu vực của chúng liên quan trực tiếp đến phúc lợi và tương lai hàng trăm triệu người.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "江"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "河"
+        },
+        {
+          "text": "作为",
+          "pinyin": "zuòwéi",
+          "hanviet": "Tác Vi",
+          "meaning_vi": "là, với danh nghĩa",
+          "hsk": 5,
+          "word_id": "hsk5_1300"
+        },
+        {
+          "text": "孕育",
+          "pinyin": "yùnyù",
+          "hanviet": "Dựng Dục",
+          "meaning_vi": "thai nghén, nuôi dưỡng (hình thành)",
+          "hsk": 6,
+          "word_id": "hsk6_2482"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "文明",
+          "pinyin": "wénmíng",
+          "hanviet": "Văn Minh",
+          "meaning_vi": "văn minh",
+          "hsk": 5,
+          "word_id": "hsk5_1138"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "母亲",
+          "pinyin": "mǔqīn",
+          "hanviet": "Mẫu Thân",
+          "meaning_vi": "mẹ",
+          "hsk": 4,
+          "word_id": "hsk4_309"
+        },
+        {
+          "text": "河"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "其"
+        },
+        {
+          "text": "流域",
+          "pinyin": "liúyù",
+          "hanviet": "Lưu Vực",
+          "meaning_vi": "lưu vực",
+          "hsk": 6,
+          "word_id": "hsk6_1434"
+        },
+        {
+          "text": "生态",
+          "pinyin": "shēngtài",
+          "hanviet": "Sinh Thái",
+          "meaning_vi": "sinh thái",
+          "hsk": 6,
+          "word_id": "hsk6_1855"
+        },
+        {
+          "text": "系统",
+          "pinyin": "xìtǒng",
+          "hanviet": "Hệ Thống",
+          "meaning_vi": "hệ thống",
+          "hsk": 5,
+          "word_id": "hsk5_502"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "健康",
+          "pinyin": "jiànkāng",
+          "hanviet": "Kiện Khang",
+          "meaning_vi": "khỏe mạnh, sức khỏe",
+          "hsk": 3,
+          "word_id": "hsk3_115"
+        },
+        {
+          "text": "直接",
+          "pinyin": "zhíjiē",
+          "hanviet": "Trực Tiếp",
+          "meaning_vi": "trực tiếp",
+          "hsk": 4,
+          "word_id": "hsk4_567"
+        },
+        {
+          "text": "关",
+          "pinyin": "guān",
+          "hanviet": "Quan",
+          "meaning_vi": "đóng, tắt",
+          "hsk": 3,
+          "word_id": "hsk3_84"
+        },
+        {
+          "text": "乎"
+        },
+        {
+          "text": "亿万",
+          "pinyin": "yìwàn",
+          "hanviet": "Ức Mặc",
+          "meaning_vi": "hàng trăm triệu, ức vạn",
+          "hsk": 7,
+          "word_id": "hsk7_4883"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "民"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "福"
+        },
+        {
+          "text": "祉"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "未来",
+          "pinyin": "wèilái",
+          "hanviet": "Vị Lai",
+          "meaning_vi": "tương lai",
+          "hsk": 5,
+          "word_id": "hsk5_1134"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "长期的过度开发和工业污水排放，曾一度导致沿江水质恶化与鱼类生物多样性严重锐减。",
+      "pinyin": "Chángqī de guòdù kāifā hé gōngyè wūshuǐ páifàng, céng yídù dǎozhì yánjiāng shuǐzhì èhuà yǔ yúlèi shēngwù duōyàngxìng yánzhòng ruìjiǎn.",
+      "vi": "Khai thác quá độ và xả nước thải công nghiệp kéo dài từng có thời khiến chất lượng nước suy thoái và đa dạng sinh học loài cá sụt giảm nghiêm trọng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "长",
+          "pinyin": "cháng",
+          "hanviet": "Trường",
+          "meaning_vi": "dài",
+          "hsk": 2,
+          "word_id": "hsk2_9"
+        },
+        {
+          "text": "期"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "过",
+          "pinyin": "guo",
+          "hanviet": "Quá",
+          "meaning_vi": "đã từng (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_36"
+        },
+        {
+          "text": "度"
+        },
+        {
+          "text": "开发",
+          "pinyin": "kāifā",
+          "hanviet": "Khai Phát",
+          "meaning_vi": "khai phát, phát triển",
+          "hsk": 5,
+          "word_id": "hsk5_913"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "工业",
+          "pinyin": "gōngyè",
+          "hanviet": "Công Nghiệp",
+          "meaning_vi": "công nghiệp",
+          "hsk": 5,
+          "word_id": "hsk5_162"
+        },
+        {
+          "text": "污"
+        },
+        {
+          "text": "水",
+          "pinyin": "shuǐ",
+          "hanviet": "Thuỷ",
+          "meaning_vi": "nước",
+          "hsk": 1,
+          "word_id": "hsk1_98"
+        },
+        {
+          "text": "排放",
+          "pinyin": "páifàng",
+          "hanviet": "Bài Phóng",
+          "meaning_vi": "thải ra, xả (chất thải)",
+          "hsk": 6,
+          "word_id": "hsk6_1572"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "曾"
+        },
+        {
+          "text": "一度",
+          "pinyin": "yídù",
+          "hanviet": "Nhất Độ",
+          "meaning_vi": "một thời, có lúc",
+          "hsk": 6,
+          "word_id": "hsk6_2377"
+        },
+        {
+          "text": "导致",
+          "pinyin": "dǎozhì",
+          "hanviet": "Đạo Trí",
+          "meaning_vi": "dẫn đến, gây ra",
+          "hsk": 5,
+          "word_id": "hsk5_743"
+        },
+        {
+          "text": "沿"
+        },
+        {
+          "text": "江"
+        },
+        {
+          "text": "水",
+          "pinyin": "shuǐ",
+          "hanviet": "Thuỷ",
+          "meaning_vi": "nước",
+          "hsk": 1,
+          "word_id": "hsk1_98"
+        },
+        {
+          "text": "质"
+        },
+        {
+          "text": "恶化",
+          "pinyin": "èhuà",
+          "hanviet": "Ác Hoa",
+          "meaning_vi": "xấu đi, xấu hóa",
+          "hsk": 6,
+          "word_id": "hsk6_752"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "鱼",
+          "pinyin": "yú",
+          "hanviet": "Ngư",
+          "meaning_vi": "con cá",
+          "hsk": 2,
+          "word_id": "hsk2_136"
+        },
+        {
+          "text": "类"
+        },
+        {
+          "text": "生物",
+          "pinyin": "shēngwù",
+          "hanviet": "Sinh Vật",
+          "meaning_vi": "sinh vật",
+          "hsk": 6,
+          "word_id": "hsk6_1856"
+        },
+        {
+          "text": "多",
+          "pinyin": "duō",
+          "hanviet": "Đa",
+          "meaning_vi": "nhiều",
+          "hsk": 1,
+          "word_id": "hsk1_24"
+        },
+        {
+          "text": "样"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "严重",
+          "pinyin": "yánzhòng",
+          "hanviet": "Nghiêm Trọng",
+          "meaning_vi": "nghiêm trọng",
+          "hsk": 4,
+          "word_id": "hsk4_497"
+        },
+        {
+          "text": "锐"
+        },
+        {
+          "text": "减"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "推行全流域联合执法与十年禁渔政策，彰显了从过度索取转向休养生息的坚定决心。",
+      "pinyin": "Tuīxíng quán liùyù liánhé zhífǎ yǔ shí nián jìnyú zhèngcè, zhāngxiǎn le cóng guòdù suǒqǔ zhuǎnxiàng xiūyǎng shēngxī de jiāndìng juéxīn.",
+      "vi": "Triển khai thực thi pháp luật liên hợp toàn lưu vực và chính sách cấm đánh bắt mười năm thể hiện quyết tâm sắt đá chuyển từ khai thác cạn kiệt sang bồi bổ phục hồi.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "推",
+          "pinyin": "tuī",
+          "hanviet": "Suy",
+          "meaning_vi": "đẩy",
+          "hsk": 4,
+          "word_id": "hsk4_442"
+        },
+        {
+          "text": "行",
+          "pinyin": "xíng",
+          "hanviet": "Hành",
+          "meaning_vi": "được, ổn",
+          "hsk": 4,
+          "word_id": "hsk4_483"
+        },
+        {
+          "text": "全"
+        },
+        {
+          "text": "流域",
+          "pinyin": "liúyù",
+          "hanviet": "Lưu Vực",
+          "meaning_vi": "lưu vực",
+          "hsk": 6,
+          "word_id": "hsk6_1434"
+        },
+        {
+          "text": "联合",
+          "pinyin": "liánhé",
+          "hanviet": "Liên Hợp",
+          "meaning_vi": "liên hợp, liên minh",
+          "hsk": 5,
+          "word_id": "hsk5_293"
+        },
+        {
+          "text": "执法",
+          "pinyin": "zhífǎ",
+          "hanviet": "Chấp Pháp",
+          "meaning_vi": "thực thi pháp luật, thi hành công vụ",
+          "hsk": 7,
+          "word_id": "hsk7_5292"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "十",
+          "pinyin": "shí",
+          "hanviet": "Thập",
+          "meaning_vi": "mười",
+          "hsk": 1,
+          "word_id": "hsk1_94"
+        },
+        {
+          "text": "年",
+          "pinyin": "nián",
+          "hanviet": "Niên",
+          "meaning_vi": "năm",
+          "hsk": 1,
+          "word_id": "hsk1_74"
+        },
+        {
+          "text": "禁"
+        },
+        {
+          "text": "渔"
+        },
+        {
+          "text": "政"
+        },
+        {
+          "text": "策"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "彰"
+        },
+        {
+          "text": "显"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "从",
+          "pinyin": "cóng",
+          "hanviet": "Tòng",
+          "meaning_vi": "từ",
+          "hsk": 2,
+          "word_id": "hsk2_14"
+        },
+        {
+          "text": "过",
+          "pinyin": "guo",
+          "hanviet": "Quá",
+          "meaning_vi": "đã từng (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_36"
+        },
+        {
+          "text": "度"
+        },
+        {
+          "text": "索取",
+          "pinyin": "suǒqǔ",
+          "hanviet": "Sách Thủ",
+          "meaning_vi": "yêu cầu, đòi lấy",
+          "hsk": 6,
+          "word_id": "hsk6_1979"
+        },
+        {
+          "text": "转",
+          "pinyin": "zhuàn",
+          "hanviet": "Chuyển",
+          "meaning_vi": "quay, xoay",
+          "hsk": 4,
+          "word_id": "hsk4_584"
+        },
+        {
+          "text": "向",
+          "pinyin": "xiàng",
+          "hanviet": "Hướng",
+          "meaning_vi": "hướng về, về phía",
+          "hsk": 3,
+          "word_id": "hsk3_241"
+        },
+        {
+          "text": "休养",
+          "pinyin": "xiūyǎng",
+          "hanviet": "Hưu Dưỡng",
+          "meaning_vi": "tĩnh dưỡng; an dưỡng; nghỉ ngơi bồi bổ",
+          "hsk": 7,
+          "word_id": "hsk7_4621"
+        },
+        {
+          "text": "生"
+        },
+        {
+          "text": "息"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "坚"
+        },
+        {
+          "text": "定"
+        },
+        {
+          "text": "决心",
+          "pinyin": "juéxīn",
+          "hanviet": "Quyết Tâm",
+          "meaning_vi": "quyết tâm",
+          "hsk": 5,
+          "word_id": "hsk5_909"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "沿岸重点高耗能企业的转型升级与湿地生态廊道的修复，逐步再现了一江清水碧波荡漾的生动图景。",
+      "pinyin": "Yán'àn zhòngdiǎn gāohàonéng qǐyè de zhuǎnxíng shēngjí yǔ shīdì shēngtài lángdào de xiūfù, zhúbù zàixiàn le yì jiāng qīngshuǐ bìbō dàngyàng de shēngdòng tújǐng.",
+      "vi": "Chuyển đổi các doanh nghiệp tiêu hao nhiều năng lượng và khôi phục hành lang sinh thái đất ngập nước đã dần tái hiện bức tranh dòng sông biếc sóng dập dờn sống động.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "沿岸",
+          "pinyin": "yán’àn",
+          "hanviet": "Duyên Ngạn",
+          "meaning_vi": "ven bờ; dọc bờ biển",
+          "hsk": 7,
+          "word_id": "hsk7_4723"
+        },
+        {
+          "text": "重点",
+          "pinyin": "zhòngdiǎn",
+          "hanviet": "Trọng Điểm",
+          "meaning_vi": "điểm trọng tâm, trọng điểm",
+          "hsk": 4,
+          "word_id": "hsk4_576"
+        },
+        {
+          "text": "高",
+          "pinyin": "gāo",
+          "hanviet": "Cao",
+          "meaning_vi": "cao",
+          "hsk": 2,
+          "word_id": "hsk2_29"
+        },
+        {
+          "text": "耗",
+          "pinyin": "hào",
+          "hanviet": "Hao",
+          "meaning_vi": "tiêu hao, tiêu tốn",
+          "hsk": 7,
+          "word_id": "hsk7_1608"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "企业",
+          "pinyin": "qǐyè",
+          "hanviet": "Xí Nghiệp",
+          "meaning_vi": "doanh nghiệp",
+          "hsk": 5,
+          "word_id": "hsk5_1009"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "转型",
+          "pinyin": "zhuǎnxíng",
+          "hanviet": "Chuyển Hình",
+          "meaning_vi": "chuyển đổi mô hình, chuyển mình đổi mới",
+          "hsk": 7,
+          "word_id": "hsk7_5445"
+        },
+        {
+          "text": "升",
+          "pinyin": "shēng",
+          "hanviet": "Thăng",
+          "meaning_vi": "thăng, lên",
+          "hsk": 5,
+          "word_id": "hsk5_1055"
+        },
+        {
+          "text": "级"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "湿地",
+          "pinyin": "shīdì",
+          "hanviet": "Thấp Địa",
+          "meaning_vi": "vùng đất ngập nước; đầm lầy",
+          "hsk": 7,
+          "word_id": "hsk7_3644"
+        },
+        {
+          "text": "生态",
+          "pinyin": "shēngtài",
+          "hanviet": "Sinh Thái",
+          "meaning_vi": "sinh thái",
+          "hsk": 6,
+          "word_id": "hsk6_1855"
+        },
+        {
+          "text": "廊"
+        },
+        {
+          "text": "道"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "修复",
+          "pinyin": "xiūfù",
+          "hanviet": "Tu Phục",
+          "meaning_vi": "khôi phục, sửa chữa",
+          "hsk": 6,
+          "word_id": "hsk6_2282"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "逐步",
+          "pinyin": "zhúbù",
+          "hanviet": "Trục Bộ",
+          "meaning_vi": "từng bước",
+          "hsk": 5,
+          "word_id": "hsk5_610"
+        },
+        {
+          "text": "再现",
+          "pinyin": "zàixiàn",
+          "hanviet": "Tái Hiện",
+          "meaning_vi": "tái hiện, hiện lại trước mắt",
+          "hsk": 7,
+          "word_id": "hsk7_5098"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "江"
+        },
+        {
+          "text": "清"
+        },
+        {
+          "text": "水",
+          "pinyin": "shuǐ",
+          "hanviet": "Thuỷ",
+          "meaning_vi": "nước",
+          "hsk": 1,
+          "word_id": "hsk1_98"
+        },
+        {
+          "text": "碧"
+        },
+        {
+          "text": "波"
+        },
+        {
+          "text": "荡漾",
+          "pinyin": "dàngyàng",
+          "hanviet": "Đãng Dạng",
+          "meaning_vi": "dập dềnh, gợn sóng, lay động",
+          "hsk": 7,
+          "word_id": "hsk7_791"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "生动",
+          "pinyin": "shēngdòng",
+          "hanviet": "Sinh Động",
+          "meaning_vi": "sinh động",
+          "hsk": 5,
+          "word_id": "hsk5_414"
+        },
+        {
+          "text": "图"
+        },
+        {
+          "text": "景"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "将生态优先、绿色发展的理念贯穿于流域规划全局，方能走出一条人水和谐的永续之路。",
+      "pinyin": "Jiāng shēngtài yōuxiān, lǜsè fāzhǎn de lǐniàn guànchuān yú liùyù guīhuà quánjú, fāng néng zǒu chū yì tiáo rén shuǐ héxié de yǒngxù zhī lù.",
+      "vi": "Quán triệt triết lý ưu tiên sinh thái, phát triển xanh vào quy hoạch lưu vực mới có thể mở ra con đường hòa hợp bền vững giữa con người và nguồn nước.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "将"
+        },
+        {
+          "text": "生态",
+          "pinyin": "shēngtài",
+          "hanviet": "Sinh Thái",
+          "meaning_vi": "sinh thái",
+          "hsk": 6,
+          "word_id": "hsk6_1855"
+        },
+        {
+          "text": "优先",
+          "pinyin": "yōuxiān",
+          "hanviet": "Ưu Tiên",
+          "meaning_vi": "ưu tiên",
+          "hsk": 6,
+          "word_id": "hsk6_2435"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "绿",
+          "pinyin": "lǜ",
+          "hanviet": "Lục",
+          "meaning_vi": "màu xanh lá",
+          "hsk": 3,
+          "word_id": "hsk3_158"
+        },
+        {
+          "text": "色"
+        },
+        {
+          "text": "发展",
+          "pinyin": "fāzhǎn",
+          "hanviet": "Phát Triển",
+          "meaning_vi": "phát triển",
+          "hsk": 4,
+          "word_id": "hsk4_106"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "理"
+        },
+        {
+          "text": "念",
+          "pinyin": "niàn",
+          "hanviet": "Niệm",
+          "meaning_vi": "đọc, niệm",
+          "hsk": 5,
+          "word_id": "hsk5_982"
+        },
+        {
+          "text": "贯穿",
+          "pinyin": "guànchuān",
+          "hanviet": "Quán Xuyên",
+          "meaning_vi": "xuyên suốt, bao quát xuyên qua",
+          "hsk": 7,
+          "word_id": "hsk7_1496"
+        },
+        {
+          "text": "于"
+        },
+        {
+          "text": "流域",
+          "pinyin": "liúyù",
+          "hanviet": "Lưu Vực",
+          "meaning_vi": "lưu vực",
+          "hsk": 6,
+          "word_id": "hsk6_1434"
+        },
+        {
+          "text": "规"
+        },
+        {
+          "text": "划",
+          "pinyin": "huá",
+          "hanviet": "Hoa",
+          "meaning_vi": "chèo (thuyền)",
+          "hsk": 5,
+          "word_id": "hsk5_199"
+        },
+        {
+          "text": "全局",
+          "pinyin": "quánjú",
+          "hanviet": "Toàn Cục",
+          "meaning_vi": "toàn cục, cục diện chung",
+          "hsk": 6,
+          "word_id": "hsk6_1742"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "方",
+          "pinyin": "fāng",
+          "hanviet": "Phương",
+          "meaning_vi": "vuông, phương",
+          "hsk": 5,
+          "word_id": "hsk5_774"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "走",
+          "pinyin": "zǒu",
+          "hanviet": "Tẩu",
+          "meaning_vi": "đi bộ, rời đi",
+          "hsk": 2,
+          "word_id": "hsk2_148"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "条",
+          "pinyin": "tiáo",
+          "hanviet": "Điều",
+          "meaning_vi": "con, dải (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_218"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "水",
+          "pinyin": "shuǐ",
+          "hanviet": "Thuỷ",
+          "meaning_vi": "nước",
+          "hsk": 1,
+          "word_id": "hsk1_98"
+        },
+        {
+          "text": "和谐",
+          "pinyin": "héxié",
+          "hanviet": "Hoà Hài",
+          "meaning_vi": "hài hòa",
+          "hsk": 6,
+          "word_id": "hsk6_1041"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "永"
+        },
+        {
+          "text": "续",
+          "pinyin": "xù",
+          "hanviet": "Tục",
+          "meaning_vi": "rót thêm; châm thêm; nối tiếp",
+          "hsk": 7,
+          "word_id": "hsk7_4646"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "路",
+          "pinyin": "lù",
+          "hanviet": "Lộ",
+          "meaning_vi": "đường",
+          "hsk": 2,
+          "word_id": "hsk2_65"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk1_14",
+    "hsk5_1300",
+    "hsk6_2482",
+    "hsk5_389",
+    "hsk5_1138",
+    "hsk1_15",
+    "hsk4_309",
+    "hsk6_1434",
+    "hsk6_1855",
+    "hsk5_502",
+    "hsk3_115",
+    "hsk4_567",
+    "hsk3_84",
+    "hsk7_4883",
+    "hsk1_85"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Nguyên nhân từng khiến chất lượng nước sông lớn bị suy giảm là gì?",
+      "options_vi": [
+        "Khai thác quá độ và xả thải nước công nghiệp lâu ngày",
+        "Do mưa quá nhiều",
+        "Do các loài chim di cư"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 长期的过度开发和工业污水排放，曾导致沿江水质恶化."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Chính sách quyết liệt nào được áp dụng để phục hồi nguồn lợi thủy sản?",
+      "options_vi": [
+        "Khuyến khích đánh bắt lưới lớn",
+        "Liên hợp thực thi pháp luật và cấm đánh bắt mười năm",
+        "Xây dựng thêm nhà máy ven bờ"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 推行全流域联合执法与十年禁渔政策."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Mô hình phát triển bền vững cho các lưu vực sông là gì?",
+      "options_vi": [
+        "Ưu tiên sinh thái và phát triển xanh làm kim chỉ nam",
+        "Xả thải thoải mái miễn là có lợi nhuận",
+        "Ngăn đập không cho nước chảy"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu cuối có viết: 将生态优先、绿色发展的理念贯穿于规划全局."
+    }
+  ]
+}

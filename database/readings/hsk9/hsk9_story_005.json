@@ -1,0 +1,1120 @@
+{
+  "id": "hsk9_story_005",
+  "level": "HSK9",
+  "title": {
+    "zh": "历史哲学与自由意志的张力",
+    "vi": "Triết học lịch sử và sức căng của ý chí tự do"
+  },
+  "topic": "philosophy_of_history",
+  "topic_vi": "Triết học lịch sử",
+  "icon": "⏳",
+  "estimatedMinutes": 9,
+  "description_vi": "Quy luật tất yếu của lịch sử và sự lựa chọn đạo đức của cá thể con người: Đối thoại giữa Kant và Hegel.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "历史哲学致力于追问人类历史长河演进的内在逻辑，探讨人类社会究竟是走向进步抑或陷入循环宿命。",
+      "pinyin": "Lìshǐ zhéxué zhìlì yú zhuīwèn rénlèi lìshǐ chánghé yǎnjìn de nèizài luójí, tàntǎo rénlèi shèhuì jiùjìng shì zǒuxiàng jìnbù yìhuò xiànrù xúnhuán sùmìng.",
+      "vi": "Triết học lịch sử nỗ lực truy vấn logic nội tại trong sự tiến hóa của dòng sông lịch sử nhân loại, bàn luận xem xã hội loài người đang tiến về phía trước hay rơi vào vòng xoáy định mệnh tuần hoàn.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "历史",
+          "pinyin": "lìshǐ",
+          "hanviet": "Lịch Sử",
+          "meaning_vi": "lịch sử",
+          "hsk": 3,
+          "word_id": "hsk3_149"
+        },
+        {
+          "text": "哲学",
+          "pinyin": "zhéxué",
+          "hanviet": "Triết Học",
+          "meaning_vi": "triết học",
+          "hsk": 5,
+          "word_id": "hsk5_1242"
+        },
+        {
+          "text": "致力于",
+          "pinyin": "zhìlìyú",
+          "hanviet": "Trí Lực Vu",
+          "meaning_vi": "cam kết với",
+          "hsk": 7,
+          "word_id": "hsk7_5337"
+        },
+        {
+          "text": "追问",
+          "pinyin": "zhuīwèn",
+          "hanviet": "Truy Vấn",
+          "meaning_vi": "gặng hỏi, truy hỏi dồn dập",
+          "hsk": 7,
+          "word_id": "hsk7_5474"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "历史",
+          "pinyin": "lìshǐ",
+          "hanviet": "Lịch Sử",
+          "meaning_vi": "lịch sử",
+          "hsk": 3,
+          "word_id": "hsk3_149"
+        },
+        {
+          "text": "长",
+          "pinyin": "cháng",
+          "hanviet": "Trường",
+          "meaning_vi": "dài",
+          "hsk": 2,
+          "word_id": "hsk2_9"
+        },
+        {
+          "text": "河"
+        },
+        {
+          "text": "演"
+        },
+        {
+          "text": "进",
+          "pinyin": "jìn",
+          "hanviet": "Tiến",
+          "meaning_vi": "vào",
+          "hsk": 2,
+          "word_id": "hsk2_50"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "内在",
+          "pinyin": "nèizài",
+          "hanviet": "Nội Tại",
+          "meaning_vi": "bên trong, nội tại",
+          "hsk": 6,
+          "word_id": "hsk6_1545"
+        },
+        {
+          "text": "逻辑",
+          "pinyin": "luójí",
+          "hanviet": "La Tập",
+          "meaning_vi": "logic",
+          "hsk": 5,
+          "word_id": "hsk5_957"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "探讨",
+          "pinyin": "tàntǎo",
+          "hanviet": "Thám Thảo",
+          "meaning_vi": "bàn luận, nghiên cứu thảo luận",
+          "hsk": 6,
+          "word_id": "hsk6_1994"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "社会",
+          "pinyin": "shèhuì",
+          "hanviet": "Xã Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 4,
+          "word_id": "hsk4_371"
+        },
+        {
+          "text": "究竟",
+          "pinyin": "jiūjìng",
+          "hanviet": "Cứu Cánh",
+          "meaning_vi": "rốt cuộc, cuối cùng",
+          "hsk": 4,
+          "word_id": "hsk4_239"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "走向",
+          "pinyin": "zǒuxiàng",
+          "hanviet": "Tẩu Hướng",
+          "meaning_vi": "về phía",
+          "hsk": 7,
+          "word_id": "hsk7_5557"
+        },
+        {
+          "text": "进步",
+          "pinyin": "jìnbù",
+          "hanviet": "Tiến Bộ",
+          "meaning_vi": "tiến bộ",
+          "hsk": 5,
+          "word_id": "hsk5_255"
+        },
+        {
+          "text": "抑"
+        },
+        {
+          "text": "或"
+        },
+        {
+          "text": "陷入",
+          "pinyin": "xiànrù",
+          "hanviet": "Hãm Nhập",
+          "meaning_vi": "rơi vào, sa vào",
+          "hsk": 6,
+          "word_id": "hsk6_2207"
+        },
+        {
+          "text": "循环",
+          "pinyin": "xúnhuán",
+          "hanviet": "Tuần Hoàn",
+          "meaning_vi": "tuần hoàn",
+          "hsk": 6,
+          "word_id": "hsk6_2317"
+        },
+        {
+          "text": "宿"
+        },
+        {
+          "text": "命"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "黑格尔的理性狡黠学说认为，历史理性借由个体盲目的激情与私欲，最终达成世界精神自我实现的宏大目标。",
+      "pinyin": "Hēigé'ěr de lǐxìng jiǎoxiá xuéshuō rènwéi, lìshǐ lǐxìng jiè yóu gètǐ mángmù de jīqíng yǔ sīyù, zuìzhōng dáchéng shìjiè jīngshén zìwǒ shíxiàn de hóngdà mùbiāo.",
+      "vi": "Học thuyết 'Sự giảo quyệt của lý tính' của Hegel cho rằng lý tính lịch sử mượn đam mê và tư dục mù quáng của cá nhân để đạt tới mục tiêu đại tự hiện thực hóa của tinh thần thế giới.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "黑",
+          "pinyin": "hēi",
+          "hanviet": "Hắc",
+          "meaning_vi": "đen",
+          "hsk": 2,
+          "word_id": "hsk2_40"
+        },
+        {
+          "text": "格"
+        },
+        {
+          "text": "尔"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "理"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "狡"
+        },
+        {
+          "text": "黠"
+        },
+        {
+          "text": "学说",
+          "pinyin": "xuéshuō",
+          "hanviet": "Học Thuyết",
+          "meaning_vi": "học thuyết",
+          "hsk": 6,
+          "word_id": "hsk6_2312"
+        },
+        {
+          "text": "认为",
+          "pinyin": "rènwéi",
+          "hanviet": "Nhận Vi",
+          "meaning_vi": "cho rằng, nghĩ rằng",
+          "hsk": 3,
+          "word_id": "hsk3_193"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "历史",
+          "pinyin": "lìshǐ",
+          "hanviet": "Lịch Sử",
+          "meaning_vi": "lịch sử",
+          "hsk": 3,
+          "word_id": "hsk3_149"
+        },
+        {
+          "text": "理"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "借",
+          "pinyin": "jiè",
+          "hanviet": "Tá",
+          "meaning_vi": "cho mượn, mượn",
+          "hsk": 3,
+          "word_id": "hsk3_128"
+        },
+        {
+          "text": "由",
+          "pinyin": "yóu",
+          "hanviet": "Do",
+          "meaning_vi": "do, từ",
+          "hsk": 4,
+          "word_id": "hsk4_526"
+        },
+        {
+          "text": "个",
+          "pinyin": "gè",
+          "hanviet": "Cá",
+          "meaning_vi": "cái (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_32"
+        },
+        {
+          "text": "体"
+        },
+        {
+          "text": "盲目",
+          "pinyin": "mángmù",
+          "hanviet": "Manh Mục",
+          "meaning_vi": "mù quáng",
+          "hsk": 6,
+          "word_id": "hsk6_1472"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "激"
+        },
+        {
+          "text": "情"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "私"
+        },
+        {
+          "text": "欲"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "最",
+          "pinyin": "zuì",
+          "hanviet": "Tối",
+          "meaning_vi": "nhất",
+          "hsk": 2,
+          "word_id": "hsk2_149"
+        },
+        {
+          "text": "终"
+        },
+        {
+          "text": "达成",
+          "pinyin": "dáchéng",
+          "hanviet": "Đạt Thành",
+          "meaning_vi": "đạt được (thỏa thuận)",
+          "hsk": 6,
+          "word_id": "hsk6_519"
+        },
+        {
+          "text": "世界",
+          "pinyin": "shìjiè",
+          "hanviet": "Thế Giới",
+          "meaning_vi": "thế giới",
+          "hsk": 3,
+          "word_id": "hsk3_202"
+        },
+        {
+          "text": "精神",
+          "pinyin": "jīngshén",
+          "hanviet": "Tinh Thần",
+          "meaning_vi": "tinh thần",
+          "hsk": 5,
+          "word_id": "hsk5_258"
+        },
+        {
+          "text": "自"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "实现",
+          "pinyin": "shíxiàn",
+          "hanviet": "Thực Hiện",
+          "meaning_vi": "thực hiện",
+          "hsk": 5,
+          "word_id": "hsk5_1069"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "宏"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "目标",
+          "pinyin": "mùbiāo",
+          "hanviet": "Mục Tiêu",
+          "meaning_vi": "mục tiêu",
+          "hsk": 5,
+          "word_id": "hsk5_326"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "然而，将历史全盘诉诸决定论与历史必然性，极易扼杀个体在重大历史关头的道德责任与自由抉择。",
+      "pinyin": "Rán'ér, jiāng lìshǐ quánpán sùzhū juédìnglùn yǔ lìshǐ bìránxìng, jíyì èshā gètǐ zài zhòngdà lìshǐ guāntóu de dàodé zérèn yǔ zìyóu juézé.",
+      "vi": "Thế nhưng, nếu phó thác hoàn toàn lịch sử cho thuyết tất định và tính tất yếu sẽ rất dễ bóp nghẹt trách nhiệm đạo đức và lựa chọn tự do của cá nhân trong các khúc ngoặt lịch sử.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "然而",
+          "pinyin": "rán'ér",
+          "hanviet": "Nhiên Nhi",
+          "meaning_vi": "tuy nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_356"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "将"
+        },
+        {
+          "text": "历史",
+          "pinyin": "lìshǐ",
+          "hanviet": "Lịch Sử",
+          "meaning_vi": "lịch sử",
+          "hsk": 3,
+          "word_id": "hsk3_149"
+        },
+        {
+          "text": "全"
+        },
+        {
+          "text": "盘"
+        },
+        {
+          "text": "诉诸",
+          "pinyin": "sùzhū",
+          "hanviet": "Tố Chư",
+          "meaning_vi": "viện đến; nhờ đến",
+          "hsk": 7,
+          "word_id": "hsk7_3898"
+        },
+        {
+          "text": "决定",
+          "pinyin": "juédìng",
+          "hanviet": "Quyết Định",
+          "meaning_vi": "quyết định",
+          "hsk": 3,
+          "word_id": "hsk3_135"
+        },
+        {
+          "text": "论"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "历史",
+          "pinyin": "lìshǐ",
+          "hanviet": "Lịch Sử",
+          "meaning_vi": "lịch sử",
+          "hsk": 3,
+          "word_id": "hsk3_149"
+        },
+        {
+          "text": "必然",
+          "pinyin": "bìrán",
+          "hanviet": "Tất Nhiên",
+          "meaning_vi": "tất nhiên, chắc chắn",
+          "hsk": 5,
+          "word_id": "hsk5_18"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "极",
+          "pinyin": "jí",
+          "hanviet": "Cực",
+          "meaning_vi": "cực kỳ",
+          "hsk": 3,
+          "word_id": "hsk3_110"
+        },
+        {
+          "text": "易"
+        },
+        {
+          "text": "扼"
+        },
+        {
+          "text": "杀",
+          "pinyin": "shā",
+          "hanviet": "Sát",
+          "meaning_vi": "giết",
+          "hsk": 5,
+          "word_id": "hsk5_1041"
+        },
+        {
+          "text": "个",
+          "pinyin": "gè",
+          "hanviet": "Cá",
+          "meaning_vi": "cái (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_32"
+        },
+        {
+          "text": "体"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "重大",
+          "pinyin": "zhòngdà",
+          "hanviet": "Trọng Đại",
+          "meaning_vi": "to lớn, trọng đại",
+          "hsk": 5,
+          "word_id": "hsk5_1264"
+        },
+        {
+          "text": "历史",
+          "pinyin": "lìshǐ",
+          "hanviet": "Lịch Sử",
+          "meaning_vi": "lịch sử",
+          "hsk": 3,
+          "word_id": "hsk3_149"
+        },
+        {
+          "text": "关头",
+          "pinyin": "guāntóu",
+          "hanviet": "Quan Đầu",
+          "meaning_vi": "thời điểm then chốt, bước ngoặt",
+          "hsk": 7,
+          "word_id": "hsk7_1486"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "道德",
+          "pinyin": "dàodé",
+          "hanviet": "Đạo Đức",
+          "meaning_vi": "đạo đức",
+          "hsk": 5,
+          "word_id": "hsk5_745"
+        },
+        {
+          "text": "责任",
+          "pinyin": "zérèn",
+          "hanviet": "Trách Nhâm",
+          "meaning_vi": "trách nhiệm",
+          "hsk": 4,
+          "word_id": "hsk4_551"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "自由",
+          "pinyin": "zìyóu",
+          "hanviet": "Tự Do",
+          "meaning_vi": "tự do",
+          "hsk": 5,
+          "word_id": "hsk5_630"
+        },
+        {
+          "text": "抉择",
+          "pinyin": "juézé",
+          "hanviet": "Quyết Trạch",
+          "meaning_vi": "lựa chọn, quyết định sinh tử",
+          "hsk": 7,
+          "word_id": "hsk7_2281"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "康德强调实践理性的崇高尊严，坚信道德律令赋予了人类超越经验因果必然、自主确立价值的崇高能力。",
+      "pinyin": "Kāngdé qiángdiào shíjiàn lǐxìng de chónggāo zūnyán, jiānxìn dàodé lǜlìng fùyǔ le rénlèi chāoyuè jīngyàn yīnguǒ bìrán, zìzhǔ quèlì jiàzhí de chónggāo nénglì.",
+      "vi": "Kant nhấn mạnh phẩm giá cao thượng của lý tính thực hành, tin chắc mệnh lệnh đạo đức trao cho con người năng lực siêu việt vượt lên nhân quả kinh nghiệm để tự lập giá trị.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "康"
+        },
+        {
+          "text": "德"
+        },
+        {
+          "text": "强调",
+          "pinyin": "qiángdiào",
+          "hanviet": "Cường Điệu",
+          "meaning_vi": "nhấn mạnh",
+          "hsk": 5,
+          "word_id": "hsk5_365"
+        },
+        {
+          "text": "实践",
+          "pinyin": "shíjiàn",
+          "hanviet": "Thực Tiễn",
+          "meaning_vi": "thực tiễn",
+          "hsk": 5,
+          "word_id": "hsk5_1068"
+        },
+        {
+          "text": "理"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "崇高",
+          "pinyin": "chónggāo",
+          "hanviet": "Sùng Cao",
+          "meaning_vi": "cao cả",
+          "hsk": 6,
+          "word_id": "hsk6_409"
+        },
+        {
+          "text": "尊严",
+          "pinyin": "zūnyán",
+          "hanviet": "Tôn Nghiêm",
+          "meaning_vi": "phẩm giá",
+          "hsk": 7,
+          "word_id": "hsk7_5582"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "坚信",
+          "pinyin": "jiānxìn",
+          "hanviet": "Kiên Tín",
+          "meaning_vi": "tin tưởng vững chắc, tin chắc",
+          "hsk": 7,
+          "word_id": "hsk7_1969"
+        },
+        {
+          "text": "道德",
+          "pinyin": "dàodé",
+          "hanviet": "Đạo Đức",
+          "meaning_vi": "đạo đức",
+          "hsk": 5,
+          "word_id": "hsk5_745"
+        },
+        {
+          "text": "律"
+        },
+        {
+          "text": "令"
+        },
+        {
+          "text": "赋"
+        },
+        {
+          "text": "予"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "超越",
+          "pinyin": "chāoyuè",
+          "hanviet": "Siêu Việt",
+          "meaning_vi": "vượt qua, siêu việt",
+          "hsk": 6,
+          "word_id": "hsk6_323"
+        },
+        {
+          "text": "经验",
+          "pinyin": "jīngyàn",
+          "hanviet": "Kinh Nghiệm",
+          "meaning_vi": "kinh nghiệm",
+          "hsk": 4,
+          "word_id": "hsk4_232"
+        },
+        {
+          "text": "因"
+        },
+        {
+          "text": "果"
+        },
+        {
+          "text": "必然",
+          "pinyin": "bìrán",
+          "hanviet": "Tất Nhiên",
+          "meaning_vi": "tất nhiên, chắc chắn",
+          "hsk": 5,
+          "word_id": "hsk5_18"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "自主",
+          "pinyin": "zìzhǔ",
+          "hanviet": "Tự Chủ",
+          "meaning_vi": "tự chủ, độc lập làm chủ",
+          "hsk": 7,
+          "word_id": "hsk7_5536"
+        },
+        {
+          "text": "确立",
+          "pinyin": "quèlì",
+          "hanviet": "Xác Lập",
+          "meaning_vi": "xác lập",
+          "hsk": 6,
+          "word_id": "hsk6_1753"
+        },
+        {
+          "text": "价值",
+          "pinyin": "jiàzhí",
+          "hanviet": "Giá Trị",
+          "meaning_vi": "giá trị",
+          "hsk": 5,
+          "word_id": "hsk5_879"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "崇高",
+          "pinyin": "chónggāo",
+          "hanviet": "Sùng Cao",
+          "meaning_vi": "cao cả",
+          "hsk": 6,
+          "word_id": "hsk6_409"
+        },
+        {
+          "text": "能力",
+          "pinyin": "nénglì",
+          "hanviet": "Năng Lực",
+          "meaning_vi": "năng lực",
+          "hsk": 4,
+          "word_id": "hsk4_316"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "在历史必然性的客观潮流与自由意志的主观担当之间维持深刻张力，构成了人类精神探索的最厚重篇章。",
+      "pinyin": "Zài lìshǐ bìránxìng de kèguān cháoliú yǔ zìyóu yìzhì de zhǔguān dāndāng zhījiān wéichí shēnkè zhānglì, gòuchéng le rénlèi jīngshén tànsuǒ de zuì hòuzhòng piānzhāng.",
+      "vi": "Duy trì sức căng sâu sắc giữa dòng chảy khách quan của tính tất yếu lịch sử và sự gánh vác chủ quan của ý chí tự do tạo nên trang sử thâm trầm nhất trong hành trình tinh thần nhân loại.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "历史",
+          "pinyin": "lìshǐ",
+          "hanviet": "Lịch Sử",
+          "meaning_vi": "lịch sử",
+          "hsk": 3,
+          "word_id": "hsk3_149"
+        },
+        {
+          "text": "必然",
+          "pinyin": "bìrán",
+          "hanviet": "Tất Nhiên",
+          "meaning_vi": "tất nhiên, chắc chắn",
+          "hsk": 5,
+          "word_id": "hsk5_18"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "客观",
+          "pinyin": "kèguān",
+          "hanviet": "Khách Quan",
+          "meaning_vi": "khách quan",
+          "hsk": 5,
+          "word_id": "hsk5_275"
+        },
+        {
+          "text": "潮流",
+          "pinyin": "cháoliú",
+          "hanviet": "Trào Lưu",
+          "meaning_vi": "trào lưu, xu hướng",
+          "hsk": 6,
+          "word_id": "hsk6_325"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "自由",
+          "pinyin": "zìyóu",
+          "hanviet": "Tự Do",
+          "meaning_vi": "tự do",
+          "hsk": 5,
+          "word_id": "hsk5_630"
+        },
+        {
+          "text": "意志",
+          "pinyin": "yìzhì",
+          "hanviet": "Ý Chí",
+          "meaning_vi": "ý chí",
+          "hsk": 6,
+          "word_id": "hsk6_2405"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "主观",
+          "pinyin": "zhǔguān",
+          "hanviet": "Chủ Quan",
+          "meaning_vi": "chủ quan",
+          "hsk": 5,
+          "word_id": "hsk5_613"
+        },
+        {
+          "text": "担当",
+          "pinyin": "dāndāng",
+          "hanviet": "Đảm Đương",
+          "meaning_vi": "gánh vác, đảm đương",
+          "hsk": 7,
+          "word_id": "hsk7_764"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "间"
+        },
+        {
+          "text": "维持",
+          "pinyin": "wéichí",
+          "hanviet": "Duy Trì",
+          "meaning_vi": "duy trì",
+          "hsk": 6,
+          "word_id": "hsk6_2118"
+        },
+        {
+          "text": "深刻",
+          "pinyin": "shēnkè",
+          "hanviet": "Thâm Khắc",
+          "meaning_vi": "sâu sắc",
+          "hsk": 5,
+          "word_id": "hsk5_411"
+        },
+        {
+          "text": "张",
+          "pinyin": "zhāng",
+          "hanviet": "Trương",
+          "meaning_vi": "tấm, tờ (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_277"
+        },
+        {
+          "text": "力"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "构成",
+          "pinyin": "gòuchéng",
+          "hanviet": "Cấu Thành",
+          "meaning_vi": "cấu thành",
+          "hsk": 5,
+          "word_id": "hsk5_814"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "精神",
+          "pinyin": "jīngshén",
+          "hanviet": "Tinh Thần",
+          "meaning_vi": "tinh thần",
+          "hsk": 5,
+          "word_id": "hsk5_258"
+        },
+        {
+          "text": "探索",
+          "pinyin": "tànsuǒ",
+          "hanviet": "Thám Sách",
+          "meaning_vi": "thám hiểm, tìm hiểu",
+          "hsk": 6,
+          "word_id": "hsk6_1993"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "最",
+          "pinyin": "zuì",
+          "hanviet": "Tối",
+          "meaning_vi": "nhất",
+          "hsk": 2,
+          "word_id": "hsk2_149"
+        },
+        {
+          "text": "厚",
+          "pinyin": "hòu",
+          "hanviet": "Hậu",
+          "meaning_vi": "dày",
+          "hsk": 4,
+          "word_id": "hsk4_175"
+        },
+        {
+          "text": "重",
+          "pinyin": "zhòng",
+          "hanviet": "Trọng",
+          "meaning_vi": "nặng",
+          "hsk": 4,
+          "word_id": "hsk4_575"
+        },
+        {
+          "text": "篇",
+          "pinyin": "piān",
+          "hanviet": "Thiên",
+          "meaning_vi": "bài, thiên (lượng từ)",
+          "hsk": 4,
+          "word_id": "hsk4_328"
+        },
+        {
+          "text": "章"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk3_149",
+    "hsk5_1242",
+    "hsk7_5337",
+    "hsk7_5474",
+    "hsk5_389",
+    "hsk2_9",
+    "hsk2_50",
+    "hsk1_15",
+    "hsk6_1545",
+    "hsk5_957",
+    "hsk6_1994",
+    "hsk4_371",
+    "hsk4_239",
+    "hsk1_96",
+    "hsk7_5557"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Học thuyết 'Sự giảo quyệt của lý tính' của Hegel hàm ý điều gì?",
+      "options_vi": [
+        "Lịch sử không có quy luật nào",
+        "Lý tính lịch sử mượn các hành vi và đam mê của cá nhân để hiện thực hóa mục tiêu chung",
+        "Mọi người đều hành động hoàn toàn vị tha"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 历史理性借由个体盲目的激情与私欲，最终达成宏大目标."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Mặt trái nguy hiểm nếu tuyệt đối hóa thuyết tất định trong lịch sử là gì?",
+      "options_vi": [
+        "Bóp nghẹt trách nhiệm đạo đức và sự lựa chọn tự do của cá nhân",
+        "Làm cho xã hội tiến bộ quá nhanh",
+        "Khiến con người trở nên quá lạc quan"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu có viết: 极易扼杀个体在重大历史关头的道德责任与自由抉择."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Tư tưởng của Kant về lý tính thực hành khẳng định điều gì?",
+      "options_vi": [
+        "Con người hoàn toàn là nô lệ của hoàn cảnh",
+        "Mệnh lệnh đạo đức trao cho con người năng lực vượt lên nhân quả để tự lập giá trị",
+        "Lịch sử là một vòng tuần hoàn bế tắc"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 坚信道德律令赋予了人类超越经验因果必然、自主确立价值的能力."
+    }
+  ]
+}

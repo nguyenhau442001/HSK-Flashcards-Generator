@@ -1,0 +1,1132 @@
+{
+  "id": "hsk9_story_003",
+  "level": "HSK9",
+  "title": {
+    "zh": "复杂性科学与社会系统动力学",
+    "vi": "Khoa học phức hợp và động học hệ thống xã hội"
+  },
+  "topic": "complex_systems",
+  "topic_vi": "Khoa học phức hợp",
+  "icon": "📈",
+  "estimatedMinutes": 9,
+  "description_vi": "Hiện tượng trồi hiện, phi tuyến tính và bướm đập cánh trong mạng lưới tài chính và xã hội loài người.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "复杂系统科学彻底打破了机械还原论的传统思维范式，揭示出整体远大于各部分简单相加的本质规律。",
+      "pinyin": "Fùzá xìtǒng kēxué chèdǐ dǎpò le jīxiè huányuánlùn de chuántǒng sīwéi fànshì, jiēshì chū zhěngtǐ yuǎn dàyú gè bùfen jiǎndān xiāngjiā de běnzhì guīlǜ.",
+      "vi": "Khoa học hệ thống phức hợp đập tan hoàn toàn mô thức tư duy quy giản cơ giới truyền thống, hé mở quy luật bản chất rằng tổng thể vượt xa phép cộng cơ học của các bộ phận.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "复杂",
+          "pinyin": "fùzá",
+          "hanviet": "Phức Tạp",
+          "meaning_vi": "phức tạp",
+          "hsk": 4,
+          "word_id": "hsk4_126"
+        },
+        {
+          "text": "系统",
+          "pinyin": "xìtǒng",
+          "hanviet": "Hệ Thống",
+          "meaning_vi": "hệ thống",
+          "hsk": 5,
+          "word_id": "hsk5_502"
+        },
+        {
+          "text": "科学",
+          "pinyin": "kēxué",
+          "hanviet": "Khoa Học",
+          "meaning_vi": "khoa học",
+          "hsk": 4,
+          "word_id": "hsk4_252"
+        },
+        {
+          "text": "彻底",
+          "pinyin": "chèdǐ",
+          "hanviet": "Triệt Để",
+          "meaning_vi": "triệt để",
+          "hsk": 5,
+          "word_id": "hsk5_50"
+        },
+        {
+          "text": "打"
+        },
+        {
+          "text": "破",
+          "pinyin": "pò",
+          "hanviet": "Phá",
+          "meaning_vi": "hỏng, vỡ",
+          "hsk": 4,
+          "word_id": "hsk4_332"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "机械",
+          "pinyin": "jīxiè",
+          "hanviet": "Cơ Giới",
+          "meaning_vi": "máy móc, cơ khí",
+          "hsk": 6,
+          "word_id": "hsk6_1119"
+        },
+        {
+          "text": "还",
+          "pinyin": "hái",
+          "hanviet": "Hoàn",
+          "meaning_vi": "vẫn còn",
+          "hsk": 2,
+          "word_id": "hsk2_38"
+        },
+        {
+          "text": "原"
+        },
+        {
+          "text": "论"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "传统",
+          "pinyin": "chuántǒng",
+          "hanviet": "Truyền Thống",
+          "meaning_vi": "truyền thống",
+          "hsk": 5,
+          "word_id": "hsk5_76"
+        },
+        {
+          "text": "思维",
+          "pinyin": "sīwéi",
+          "hanviet": "Tư Duy",
+          "meaning_vi": "tư duy",
+          "hsk": 6,
+          "word_id": "hsk6_1956"
+        },
+        {
+          "text": "范"
+        },
+        {
+          "text": "式"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "揭示",
+          "pinyin": "jiēshì",
+          "hanviet": "Yết Thị",
+          "meaning_vi": "làm sáng tỏ, hé lộ, vạch rõ",
+          "hsk": 7,
+          "word_id": "hsk7_2081"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "整体",
+          "pinyin": "zhěngtǐ",
+          "hanviet": "Chỉnh Thể",
+          "meaning_vi": "toàn thể, tổng thể",
+          "hsk": 5,
+          "word_id": "hsk5_1249"
+        },
+        {
+          "text": "远",
+          "pinyin": "yuǎn",
+          "hanviet": "Viễn",
+          "meaning_vi": "xa",
+          "hsk": 2,
+          "word_id": "hsk2_137"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "于"
+        },
+        {
+          "text": "各",
+          "pinyin": "gè",
+          "hanviet": "Các",
+          "meaning_vi": "mỗi, từng",
+          "hsk": 4,
+          "word_id": "hsk4_140"
+        },
+        {
+          "text": "部分",
+          "pinyin": "bùfen",
+          "hanviet": "Bộ Phận",
+          "meaning_vi": "bộ phận, một phần",
+          "hsk": 4,
+          "word_id": "hsk4_32"
+        },
+        {
+          "text": "简单",
+          "pinyin": "jiǎndān",
+          "hanviet": "Giản Thiện",
+          "meaning_vi": "đơn giản",
+          "hsk": 3,
+          "word_id": "hsk3_114"
+        },
+        {
+          "text": "相"
+        },
+        {
+          "text": "加"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "本质",
+          "pinyin": "běnzhì",
+          "hanviet": "Bản Chất",
+          "meaning_vi": "bản chất",
+          "hsk": 5,
+          "word_id": "hsk5_658"
+        },
+        {
+          "text": "规律",
+          "pinyin": "guīlǜ",
+          "hanviet": "Quy Luật",
+          "meaning_vi": "quy luật",
+          "hsk": 5,
+          "word_id": "hsk5_177"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "无论是金融市场异动、传染病暴发还是城市交通拥堵，皆呈现出高度的非线性反馈与涌现特征。",
+      "pinyin": "Wúlùn shì jīnróng shìchǎng yìdòng, chuánrǎnbìng bàofā háishì chéngshì jiāotōng yōngdǔ, jiē chéngxiàn chū gāodù de fēi-xiànxìng fǎnduì yǔ yǒngxiàn tèzhēng.",
+      "vi": "Cho dù là biến động thị trường tài chính, dịch bệnh bùng phát hay ùn tắc giao thông, đều bộc lộ đặc tính phản hồi phi tuyến tính và hiện tượng trồi hiện cao độ.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "无论",
+          "pinyin": "wúlùn",
+          "hanviet": "Vô Luận",
+          "meaning_vi": "bất luận, dù",
+          "hsk": 4,
+          "word_id": "hsk4_458"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "金融",
+          "pinyin": "jīnróng",
+          "hanviet": "Kim Dung",
+          "meaning_vi": "tài chính, tiền tệ",
+          "hsk": 6,
+          "word_id": "hsk6_1218"
+        },
+        {
+          "text": "市场",
+          "pinyin": "shìchǎng",
+          "hanviet": "Thị Trường",
+          "meaning_vi": "thị trường, chợ",
+          "hsk": 5,
+          "word_id": "hsk5_428"
+        },
+        {
+          "text": "异"
+        },
+        {
+          "text": "动"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "传染",
+          "pinyin": "chuánrǎn",
+          "hanviet": "Truyền Nhiễm",
+          "meaning_vi": "lây nhiễm",
+          "hsk": 5,
+          "word_id": "hsk5_75"
+        },
+        {
+          "text": "病"
+        },
+        {
+          "text": "暴"
+        },
+        {
+          "text": "发",
+          "pinyin": "fā",
+          "hanviet": "Phát",
+          "meaning_vi": "phát ra, gửi",
+          "hsk": 3,
+          "word_id": "hsk3_63"
+        },
+        {
+          "text": "还是",
+          "pinyin": "háishì",
+          "hanviet": "Hoàn Thị",
+          "meaning_vi": "hay là, vẫn là",
+          "hsk": 3,
+          "word_id": "hsk3_91"
+        },
+        {
+          "text": "城市",
+          "pinyin": "chéngshì",
+          "hanviet": "Thành Thị",
+          "meaning_vi": "thành phố",
+          "hsk": 3,
+          "word_id": "hsk3_33"
+        },
+        {
+          "text": "交通",
+          "pinyin": "jiāotōng",
+          "hanviet": "Giao Thông",
+          "meaning_vi": "giao thông",
+          "hsk": 4,
+          "word_id": "hsk4_213"
+        },
+        {
+          "text": "拥"
+        },
+        {
+          "text": "堵"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "皆",
+          "pinyin": "jiē",
+          "hanviet": "Giai",
+          "meaning_vi": "đều, thảy, đều là",
+          "hsk": 7,
+          "word_id": "hsk7_2065"
+        },
+        {
+          "text": "呈现",
+          "pinyin": "chéngxiàn",
+          "hanviet": "Trình Hiện",
+          "meaning_vi": "hiện ra, biểu hiện",
+          "hsk": 6,
+          "word_id": "hsk6_373"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "高",
+          "pinyin": "gāo",
+          "hanviet": "Cao",
+          "meaning_vi": "cao",
+          "hsk": 2,
+          "word_id": "hsk2_29"
+        },
+        {
+          "text": "度"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "非",
+          "pinyin": "fēi",
+          "hanviet": "Phi",
+          "meaning_vi": "không phải, phi",
+          "hsk": 5,
+          "word_id": "hsk5_776"
+        },
+        {
+          "text": "线"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "反馈",
+          "pinyin": "fǎnkuì",
+          "hanviet": "Phản Quỹ",
+          "meaning_vi": "phản hồi",
+          "hsk": 6,
+          "word_id": "hsk6_798"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "涌现",
+          "pinyin": "yǒngxiàn",
+          "hanviet": "Dũng Hiện",
+          "meaning_vi": "xuất hiện hàng loạt, nổi lên",
+          "hsk": 6,
+          "word_id": "hsk6_2431"
+        },
+        {
+          "text": "特征",
+          "pinyin": "tèzhēng",
+          "hanviet": "Đặc Trưng",
+          "meaning_vi": "đặc trưng",
+          "hsk": 5,
+          "word_id": "hsk5_1103"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "微小个体的自适应互动行为在复杂网络中层层放大，极易在临界阈值附近触发蝴蝶效应式的系统突变。",
+      "pinyin": "Wēixiǎo gètǐ de zìshìyìng hùdòng xíngwéi zài fùzá wǎngluò zhōng céngcéng fàngdà, jíyì zài línjiè yùzhí fùjìn chùfā húdié xiàoyìng shì de xìtǒng tūbiàn.",
+      "vi": "Hành vi tương tác thích ứng tự thân của từng cá thể nhỏ lẻ được khuếch đại qua các tầng mạng lưới phức hợp, rất dễ kích hoạt đột biến hệ thống dạng hiệu ứng cánh bướm quanh ngưỡng tới hạn.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "微",
+          "pinyin": "wēi",
+          "hanviet": "Vi",
+          "meaning_vi": "nhỏ bé; vi mô; khẽ",
+          "hsk": 7,
+          "word_id": "hsk7_4220"
+        },
+        {
+          "text": "小",
+          "pinyin": "xiǎo",
+          "hanviet": "Tiểu",
+          "meaning_vi": "nhỏ",
+          "hsk": 1,
+          "word_id": "hsk1_121"
+        },
+        {
+          "text": "个",
+          "pinyin": "gè",
+          "hanviet": "Cá",
+          "meaning_vi": "cái (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_32"
+        },
+        {
+          "text": "体"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "自"
+        },
+        {
+          "text": "适应",
+          "pinyin": "shìyìng",
+          "hanviet": "Thích Ứng",
+          "meaning_vi": "thích ứng",
+          "hsk": 4,
+          "word_id": "hsk4_390"
+        },
+        {
+          "text": "互"
+        },
+        {
+          "text": "动"
+        },
+        {
+          "text": "行为",
+          "pinyin": "xíngwéi",
+          "hanviet": "Hành Vi",
+          "meaning_vi": "hành vi",
+          "hsk": 5,
+          "word_id": "hsk5_526"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "复杂",
+          "pinyin": "fùzá",
+          "hanviet": "Phức Tạp",
+          "meaning_vi": "phức tạp",
+          "hsk": 4,
+          "word_id": "hsk4_126"
+        },
+        {
+          "text": "网络",
+          "pinyin": "wǎngluò",
+          "hanviet": "Võng Lạc",
+          "meaning_vi": "mạng, internet",
+          "hsk": 5,
+          "word_id": "hsk5_1125"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "层",
+          "pinyin": "céng",
+          "hanviet": "Tầng",
+          "meaning_vi": "tầng (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_28"
+        },
+        {
+          "text": "层",
+          "pinyin": "céng",
+          "hanviet": "Tầng",
+          "meaning_vi": "tầng (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_28"
+        },
+        {
+          "text": "放大",
+          "pinyin": "fàngdà",
+          "hanviet": "Phóng Đại",
+          "meaning_vi": "phóng to",
+          "hsk": 6,
+          "word_id": "hsk6_826"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "极",
+          "pinyin": "jí",
+          "hanviet": "Cực",
+          "meaning_vi": "cực kỳ",
+          "hsk": 3,
+          "word_id": "hsk3_110"
+        },
+        {
+          "text": "易"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "临",
+          "pinyin": "lín",
+          "hanviet": "Lâm",
+          "meaning_vi": "đến, giáp; sắp, trước khi",
+          "hsk": 7,
+          "word_id": "hsk7_2619"
+        },
+        {
+          "text": "界",
+          "pinyin": "jiè",
+          "hanviet": "Giới",
+          "meaning_vi": "giới, ranh giới, phạm vi",
+          "hsk": 7,
+          "word_id": "hsk7_2115"
+        },
+        {
+          "text": "阈"
+        },
+        {
+          "text": "值"
+        },
+        {
+          "text": "附近",
+          "pinyin": "fùjìn",
+          "hanviet": "Phụ Cận",
+          "meaning_vi": "gần đây, lân cận",
+          "hsk": 3,
+          "word_id": "hsk3_70"
+        },
+        {
+          "text": "触"
+        },
+        {
+          "text": "发",
+          "pinyin": "fā",
+          "hanviet": "Phát",
+          "meaning_vi": "phát ra, gửi",
+          "hsk": 3,
+          "word_id": "hsk3_63"
+        },
+        {
+          "text": "蝴蝶",
+          "pinyin": "húdié",
+          "hanviet": "Hồ Điệp",
+          "meaning_vi": "con bướm",
+          "hsk": 5,
+          "word_id": "hsk5_851"
+        },
+        {
+          "text": "效"
+        },
+        {
+          "text": "应",
+          "pinyin": "yìng",
+          "hanviet": "Ưng",
+          "meaning_vi": "đáp ứng, ứng phó, ứng lời",
+          "hsk": 7,
+          "word_id": "hsk7_4949"
+        },
+        {
+          "text": "式"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "系统",
+          "pinyin": "xìtǒng",
+          "hanviet": "Hệ Thống",
+          "meaning_vi": "hệ thống",
+          "hsk": 5,
+          "word_id": "hsk5_502"
+        },
+        {
+          "text": "突"
+        },
+        {
+          "text": "变"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "基于多智能体建模和大数据深度仿真，使科学家能够更加敏锐地预警社会经济网络中的潜在系统性崩溃。",
+      "pinyin": "Jīyú duō zhìnéngtǐ jiànmó hé dà shùjù shēndù fǎngzhēn, shǐ kēxuéjiā nénggòu gèngjiā mǐnruì de yùjǐng shèhuì jīngjì wǎngluò zhōng de qiánzài xìtǒngxìng bēngkuì.",
+      "vi": "Mô phỏng dựa trên mô hình đa tác tử và mô phỏng sâu dữ liệu lớn giúp giới khoa học cảnh báo nhạy bén hơn các nguy cơ sụp đổ mang tính hệ thống trong mạng lưới kinh tế xã hội.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "基于",
+          "pinyin": "jīyú",
+          "hanviet": "Cơ Vu",
+          "meaning_vi": "dựa trên",
+          "hsk": 6,
+          "word_id": "hsk6_1121"
+        },
+        {
+          "text": "多",
+          "pinyin": "duō",
+          "hanviet": "Đa",
+          "meaning_vi": "nhiều",
+          "hsk": 1,
+          "word_id": "hsk1_24"
+        },
+        {
+          "text": "智"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "体"
+        },
+        {
+          "text": "建"
+        },
+        {
+          "text": "模"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "大数据",
+          "pinyin": "dàshùjù",
+          "hanviet": "Đại Sổ Cư",
+          "meaning_vi": "dữ liệu lớn, big data",
+          "hsk": 7,
+          "word_id": "hsk7_739"
+        },
+        {
+          "text": "深",
+          "pinyin": "shēn",
+          "hanviet": "Thâm",
+          "meaning_vi": "sâu",
+          "hsk": 4,
+          "word_id": "hsk4_372"
+        },
+        {
+          "text": "度"
+        },
+        {
+          "text": "仿真",
+          "pinyin": "fǎngzhēn",
+          "hanviet": "Phỏng Chân",
+          "meaning_vi": "mô phỏng, giả lập",
+          "hsk": 7,
+          "word_id": "hsk7_1111"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "使",
+          "pinyin": "shǐ",
+          "hanviet": "Sử",
+          "meaning_vi": "làm cho, khiến cho",
+          "hsk": 4,
+          "word_id": "hsk4_386"
+        },
+        {
+          "text": "科学",
+          "pinyin": "kēxué",
+          "hanviet": "Khoa Học",
+          "meaning_vi": "khoa học",
+          "hsk": 4,
+          "word_id": "hsk4_252"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "够",
+          "pinyin": "gòu",
+          "hanviet": "Cú",
+          "meaning_vi": "đủ",
+          "hsk": 4,
+          "word_id": "hsk4_145"
+        },
+        {
+          "text": "更",
+          "pinyin": "gèng",
+          "hanviet": "Canh",
+          "meaning_vi": "càng, hơn",
+          "hsk": 3,
+          "word_id": "hsk3_79"
+        },
+        {
+          "text": "加"
+        },
+        {
+          "text": "敏锐",
+          "pinyin": "mǐnruì",
+          "hanviet": "Mẫn Nhuệ",
+          "meaning_vi": "nhạy bén, tinh nhuệ",
+          "hsk": 6,
+          "word_id": "hsk6_1508"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "预警",
+          "pinyin": "yùjǐng",
+          "hanviet": "Dự Cảnh",
+          "meaning_vi": "cảnh báo sớm, dự báo nguy cơ",
+          "hsk": 7,
+          "word_id": "hsk7_5022"
+        },
+        {
+          "text": "社会",
+          "pinyin": "shèhuì",
+          "hanviet": "Xã Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 4,
+          "word_id": "hsk4_371"
+        },
+        {
+          "text": "经济",
+          "pinyin": "jīngjì",
+          "hanviet": "Kinh Tế",
+          "meaning_vi": "kinh tế",
+          "hsk": 4,
+          "word_id": "hsk4_230"
+        },
+        {
+          "text": "网络",
+          "pinyin": "wǎngluò",
+          "hanviet": "Võng Lạc",
+          "meaning_vi": "mạng, internet",
+          "hsk": 5,
+          "word_id": "hsk5_1125"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "潜在",
+          "pinyin": "qiánzài",
+          "hanviet": "Tiềm Tại",
+          "meaning_vi": "tiềm tàng; tiềm ẩn",
+          "hsk": 7,
+          "word_id": "hsk7_3238"
+        },
+        {
+          "text": "系统",
+          "pinyin": "xìtǒng",
+          "hanviet": "Hệ Thống",
+          "meaning_vi": "hệ thống",
+          "hsk": 5,
+          "word_id": "hsk5_502"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "崩溃",
+          "pinyin": "bēngkuì",
+          "hanviet": "Băng Hội",
+          "meaning_vi": "sụp đổ, suy sụp",
+          "hsk": 6,
+          "word_id": "hsk6_110"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "把握复杂系统的涌现规律并具备韧性思维，是现代人类社会驾驭未知不确定性风险的最高智慧。",
+      "pinyin": "Bǎwò fùzá xìtǒng de yǒngxiàn guīlǜ bìng jùbèi rènxìng sīwéi, shì xiàndài rénlèi shèhuì jiàyù wèizhī bú-quèdìngxìng fēngxiǎn de zuìgāo zhìhuì.",
+      "vi": "Nắm vững quy luật trồi hiện của hệ thống phức hợp và sở hữu tư duy dẻo dai thích nghi là trí tuệ cao nhất để xã hội loài người chế ngự các rủi ro bất định.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "把握",
+          "pinyin": "bǎwò",
+          "hanviet": "Bả Ác",
+          "meaning_vi": "nắm bắt, nắm chắc",
+          "hsk": 5,
+          "word_id": "hsk5_644"
+        },
+        {
+          "text": "复杂",
+          "pinyin": "fùzá",
+          "hanviet": "Phức Tạp",
+          "meaning_vi": "phức tạp",
+          "hsk": 4,
+          "word_id": "hsk4_126"
+        },
+        {
+          "text": "系统",
+          "pinyin": "xìtǒng",
+          "hanviet": "Hệ Thống",
+          "meaning_vi": "hệ thống",
+          "hsk": 5,
+          "word_id": "hsk5_502"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "涌现",
+          "pinyin": "yǒngxiàn",
+          "hanviet": "Dũng Hiện",
+          "meaning_vi": "xuất hiện hàng loạt, nổi lên",
+          "hsk": 6,
+          "word_id": "hsk6_2431"
+        },
+        {
+          "text": "规律",
+          "pinyin": "guīlǜ",
+          "hanviet": "Quy Luật",
+          "meaning_vi": "quy luật",
+          "hsk": 5,
+          "word_id": "hsk5_177"
+        },
+        {
+          "text": "并"
+        },
+        {
+          "text": "具备",
+          "pinyin": "jùbèi",
+          "hanviet": "Cụ Bị",
+          "meaning_vi": "có đủ, có sẵn",
+          "hsk": 5,
+          "word_id": "hsk5_263"
+        },
+        {
+          "text": "韧性",
+          "pinyin": "rènxìng",
+          "hanviet": "Nhận Tính",
+          "meaning_vi": "tính dẻo dai; độ bền bỉ",
+          "hsk": 7,
+          "word_id": "hsk7_3425"
+        },
+        {
+          "text": "思维",
+          "pinyin": "sīwéi",
+          "hanviet": "Tư Duy",
+          "meaning_vi": "tư duy",
+          "hsk": 6,
+          "word_id": "hsk6_1956"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "现代",
+          "pinyin": "xiàndài",
+          "hanviet": "Hiện Đại",
+          "meaning_vi": "hiện đại",
+          "hsk": 5,
+          "word_id": "hsk5_1155"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "社会",
+          "pinyin": "shèhuì",
+          "hanviet": "Xã Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 4,
+          "word_id": "hsk4_371"
+        },
+        {
+          "text": "驾驭",
+          "pinyin": "jiàyù",
+          "hanviet": "Giá Ngự",
+          "meaning_vi": "làm chủ, điều khiển, chế ngự",
+          "hsk": 7,
+          "word_id": "hsk7_1944"
+        },
+        {
+          "text": "未"
+        },
+        {
+          "text": "知"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "确定",
+          "pinyin": "quèdìng",
+          "hanviet": "Xác Định",
+          "meaning_vi": "xác định",
+          "hsk": 5,
+          "word_id": "hsk5_1028"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "风险",
+          "pinyin": "fēngxiǎn",
+          "hanviet": "Phong Hiểm",
+          "meaning_vi": "rủi ro",
+          "hsk": 5,
+          "word_id": "hsk5_140"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "最",
+          "pinyin": "zuì",
+          "hanviet": "Tối",
+          "meaning_vi": "nhất",
+          "hsk": 2,
+          "word_id": "hsk2_149"
+        },
+        {
+          "text": "高",
+          "pinyin": "gāo",
+          "hanviet": "Cao",
+          "meaning_vi": "cao",
+          "hsk": 2,
+          "word_id": "hsk2_29"
+        },
+        {
+          "text": "智慧",
+          "pinyin": "zhìhuì",
+          "hanviet": "Trí Tuệ",
+          "meaning_vi": "trí tuệ",
+          "hsk": 5,
+          "word_id": "hsk5_605"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk4_126",
+    "hsk5_502",
+    "hsk4_252",
+    "hsk5_50",
+    "hsk4_332",
+    "hsk1_55",
+    "hsk6_1119",
+    "hsk2_38",
+    "hsk1_15",
+    "hsk5_76",
+    "hsk6_1956",
+    "hsk7_2081",
+    "hsk2_11",
+    "hsk5_1249",
+    "hsk2_137"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Luận điểm căn bản của khoa học hệ thống phức hợp là gì?",
+      "options_vi": [
+        "Tổng thể chỉ là phép cộng cơ học của từng bộ phận",
+        "Tổng thể vượt xa sự lắp ghép đơn giản của các bộ phận riêng lẻ",
+        "Mọi hiện tượng đều tuyến tính"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 揭示出整体远大于各部分简单相加的本质规律."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Hiện tượng nào phản ánh sự khuếch đại của các hành vi cá thể nhỏ trong mạng lưới xã hội?",
+      "options_vi": [
+        "Hiệu ứng cánh bướm và phản hồi phi tuyến tính",
+        "Hiện tượng đứng yên",
+        "Sự suy giảm dần đều"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu có viết: 极易在临界阈值附近触发蝴蝶效应式的系统突变."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Phương pháp giúp cảnh báo sớm nguy cơ đổ vỡ trong mạng lưới kinh tế xã hội là gì?",
+      "options_vi": [
+        "Đoán mò không căn cứ",
+        "Mô hình hóa đa tác tử và mô phỏng sâu bằng dữ liệu lớn",
+        "Ngừng theo dõi dữ liệu thị trường"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 基于多智能体建模和大数据深度仿真，敏锐预警潜在系统性崩溃."
+    }
+  ]
+}

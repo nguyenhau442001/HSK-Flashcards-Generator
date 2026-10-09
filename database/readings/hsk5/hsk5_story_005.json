@@ -1,0 +1,826 @@
+{
+  "id": "hsk5_story_005",
+  "level": "HSK5",
+  "title": {
+    "zh": "城市绿色发展与生态保护",
+    "vi": "Phát triển xanh và bảo vệ sinh thái đô thị"
+  },
+  "topic": "urban_ecology",
+  "topic_vi": "Đô thị & Sinh thái",
+  "icon": "🌳",
+  "estimatedMinutes": 5,
+  "description_vi": "Kiến tạo không gian sống trong lành thông qua công viên cây xanh và quy hoạch đô thị bền vững.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "现代城市的繁荣不应当以牺牲优美的自然生态环境为代价。",
+      "pinyin": "Xiàndài chéngshì de fánróng bù yīngdāng yǐ xīshēng yōuměi de zìrán shēngtài huánjìng wéi dàijià.",
+      "vi": "Sự phồn hoa của đô thị hiện đại không nên đánh đổi bằng sự hy sinh môi trường sinh thái tự nhiên.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "现代",
+          "pinyin": "xiàndài",
+          "hanviet": "Hiện Đại",
+          "meaning_vi": "hiện đại",
+          "hsk": 5,
+          "word_id": "hsk5_1155"
+        },
+        {
+          "text": "城市",
+          "pinyin": "chéngshì",
+          "hanviet": "Thành Thị",
+          "meaning_vi": "thành phố",
+          "hsk": 3,
+          "word_id": "hsk3_33"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "繁荣",
+          "pinyin": "fánróng",
+          "hanviet": "Phồn Vinh",
+          "meaning_vi": "phồn vinh, thịnh vượng",
+          "hsk": 5,
+          "word_id": "hsk5_128"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "应",
+          "pinyin": "yìng",
+          "hanviet": "Ưng",
+          "meaning_vi": "đáp ứng, ứng phó, ứng lời",
+          "hsk": 7,
+          "word_id": "hsk7_4949"
+        },
+        {
+          "text": "当",
+          "pinyin": "dāng",
+          "hanviet": "Đương",
+          "meaning_vi": "khi, lúc",
+          "hsk": 4,
+          "word_id": "hsk4_76"
+        },
+        {
+          "text": "以",
+          "pinyin": "yǐ",
+          "hanviet": "Dĩ",
+          "meaning_vi": "bằng, dùng",
+          "hsk": 4,
+          "word_id": "hsk4_512"
+        },
+        {
+          "text": "牺牲",
+          "pinyin": "xīshēng",
+          "hanviet": "Hi Sinh/hy Sinh",
+          "meaning_vi": "hy sinh",
+          "hsk": 6,
+          "word_id": "hsk6_2174"
+        },
+        {
+          "text": "优美",
+          "pinyin": "yōuměi",
+          "hanviet": "Ưu Mỹ",
+          "meaning_vi": "tươi đẹp, ưu mỹ",
+          "hsk": 5,
+          "word_id": "hsk5_1215"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "自然",
+          "pinyin": "zìrán",
+          "hanviet": "Tự Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_589"
+        },
+        {
+          "text": "生态",
+          "pinyin": "shēngtài",
+          "hanviet": "Sinh Thái",
+          "meaning_vi": "sinh thái",
+          "hsk": 6,
+          "word_id": "hsk6_1855"
+        },
+        {
+          "text": "环境",
+          "pinyin": "huánjìng",
+          "hanviet": "Hoàn Cảnh",
+          "meaning_vi": "môi trường",
+          "hsk": 3,
+          "word_id": "hsk3_102"
+        },
+        {
+          "text": "为",
+          "pinyin": "wèi",
+          "hanviet": "Vi",
+          "meaning_vi": "vì, cho",
+          "hsk": 3,
+          "word_id": "hsk3_229"
+        },
+        {
+          "text": "代价",
+          "pinyin": "dàijià",
+          "hanviet": "Đại Giá",
+          "meaning_vi": "giá phải trả",
+          "hsk": 6,
+          "word_id": "hsk6_553"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "越来越多的城市开始重视湿地公园建设和绿色公共空间的拓展。",
+      "pinyin": "Yuè lái yuè duō de chéngshì kāishǐ zhòngshì shīdì gōngyuán jiànshè hé lǜsè gōnggòng kōngjiān de tuòzhǎn.",
+      "vi": "Ngày càng nhiều đô thị coi trọng việc xây dựng công viên ngập nước và mở rộng không gian công cộng xanh.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "越",
+          "pinyin": "yuè",
+          "hanviet": "Việt",
+          "meaning_vi": "càng",
+          "hsk": 3,
+          "word_id": "hsk3_275"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "越",
+          "pinyin": "yuè",
+          "hanviet": "Việt",
+          "meaning_vi": "càng",
+          "hsk": 3,
+          "word_id": "hsk3_275"
+        },
+        {
+          "text": "多",
+          "pinyin": "duō",
+          "hanviet": "Đa",
+          "meaning_vi": "nhiều",
+          "hsk": 1,
+          "word_id": "hsk1_24"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "城市",
+          "pinyin": "chéngshì",
+          "hanviet": "Thành Thị",
+          "meaning_vi": "thành phố",
+          "hsk": 3,
+          "word_id": "hsk3_33"
+        },
+        {
+          "text": "开始",
+          "pinyin": "kāishǐ",
+          "hanviet": "Khai Thuỷ",
+          "meaning_vi": "bắt đầu",
+          "hsk": 2,
+          "word_id": "hsk2_54"
+        },
+        {
+          "text": "重视",
+          "pinyin": "zhòngshì",
+          "hanviet": "Trọng Thị",
+          "meaning_vi": "coi trọng",
+          "hsk": 4,
+          "word_id": "hsk4_577"
+        },
+        {
+          "text": "湿地",
+          "pinyin": "shīdì",
+          "hanviet": "Thấp Địa",
+          "meaning_vi": "vùng đất ngập nước; đầm lầy",
+          "hsk": 7,
+          "word_id": "hsk7_3644"
+        },
+        {
+          "text": "公园",
+          "pinyin": "gōngyuán",
+          "hanviet": "Công Viên",
+          "meaning_vi": "công viên",
+          "hsk": 3,
+          "word_id": "hsk3_81"
+        },
+        {
+          "text": "建设",
+          "pinyin": "jiànshè",
+          "hanviet": "Kiến Thiết",
+          "meaning_vi": "xây dựng",
+          "hsk": 5,
+          "word_id": "hsk5_231"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "绿",
+          "pinyin": "lǜ",
+          "hanviet": "Lục",
+          "meaning_vi": "màu xanh lá",
+          "hsk": 3,
+          "word_id": "hsk3_158"
+        },
+        {
+          "text": "色"
+        },
+        {
+          "text": "公"
+        },
+        {
+          "text": "共"
+        },
+        {
+          "text": "空间",
+          "pinyin": "kōngjiān",
+          "hanviet": "Không Gian",
+          "meaning_vi": "không gian",
+          "hsk": 5,
+          "word_id": "hsk5_922"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "拓展",
+          "pinyin": "tuòzhǎn",
+          "hanviet": "Thác Triển",
+          "meaning_vi": "mở rộng",
+          "hsk": 7,
+          "word_id": "hsk7_4166"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "大面积的绿化带不仅能够吸收粉尘，还能有效降低城市的温室效应。",
+      "pinyin": "Dà miànjī de lǜhuàdài bùjǐn nénggòu xīshōu fěnchén, hái néng yǒuxiào jiàngdī chéngshì de wēnshì xiàoyìng.",
+      "vi": "Những dải cây xanh diện tích lớn không chỉ hấp thụ khói bụi mà còn hạ giảm hiệu ứng nhà kính hiệu quả.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "面积",
+          "pinyin": "miànjī",
+          "hanviet": "Diện Tích",
+          "meaning_vi": "diện tích",
+          "hsk": 5,
+          "word_id": "hsk5_969"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "绿",
+          "pinyin": "lǜ",
+          "hanviet": "Lục",
+          "meaning_vi": "màu xanh lá",
+          "hsk": 3,
+          "word_id": "hsk3_158"
+        },
+        {
+          "text": "化"
+        },
+        {
+          "text": "带",
+          "pinyin": "dài",
+          "hanviet": "Đới",
+          "meaning_vi": "mang theo, đai",
+          "hsk": 3,
+          "word_id": "hsk3_42"
+        },
+        {
+          "text": "不仅",
+          "pinyin": "bùjǐn",
+          "hanviet": "Bất Cận",
+          "meaning_vi": "không chỉ",
+          "hsk": 4,
+          "word_id": "hsk4_31"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "够",
+          "pinyin": "gòu",
+          "hanviet": "Cú",
+          "meaning_vi": "đủ",
+          "hsk": 4,
+          "word_id": "hsk4_145"
+        },
+        {
+          "text": "吸收",
+          "pinyin": "xīshōu",
+          "hanviet": "Hấp Thu",
+          "meaning_vi": "hấp thu",
+          "hsk": 5,
+          "word_id": "hsk5_1148"
+        },
+        {
+          "text": "粉"
+        },
+        {
+          "text": "尘"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "还",
+          "pinyin": "hái",
+          "hanviet": "Hoàn",
+          "meaning_vi": "vẫn còn",
+          "hsk": 2,
+          "word_id": "hsk2_38"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "效"
+        },
+        {
+          "text": "降低",
+          "pinyin": "jiàngdī",
+          "hanviet": "Giáng Đê",
+          "meaning_vi": "hạ thấp, giảm xuống",
+          "hsk": 4,
+          "word_id": "hsk4_209"
+        },
+        {
+          "text": "城市",
+          "pinyin": "chéngshì",
+          "hanviet": "Thành Thị",
+          "meaning_vi": "thành phố",
+          "hsk": 3,
+          "word_id": "hsk3_33"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "温室",
+          "pinyin": "wēnshì",
+          "hanviet": "Ôn Thất",
+          "meaning_vi": "nhà kính (nông nghiệp)",
+          "hsk": 7,
+          "word_id": "hsk7_4271"
+        },
+        {
+          "text": "效"
+        },
+        {
+          "text": "应",
+          "pinyin": "yìng",
+          "hanviet": "Ưng",
+          "meaning_vi": "đáp ứng, ứng phó, ứng lời",
+          "hsk": 7,
+          "word_id": "hsk7_4949"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "推行公共交通和自行车出行，有助于显著改善城市上空的空气质量。",
+      "pinyin": "Tuīxíng gōnggòng jiāotōng hé zìxíngchē chūxíng, yǒuzhù yú xiǎnzhù gǎishàn chéngshì shàngkōng de kōngqì zhìliàng.",
+      "vi": "Khuyến khích giao thông công cộng và xe đạp giúp cải thiện rõ rệt chất lượng không khí.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "推",
+          "pinyin": "tuī",
+          "hanviet": "Suy",
+          "meaning_vi": "đẩy",
+          "hsk": 4,
+          "word_id": "hsk4_442"
+        },
+        {
+          "text": "行",
+          "pinyin": "xíng",
+          "hanviet": "Hành",
+          "meaning_vi": "được, ổn",
+          "hsk": 4,
+          "word_id": "hsk4_483"
+        },
+        {
+          "text": "公"
+        },
+        {
+          "text": "共"
+        },
+        {
+          "text": "交通",
+          "pinyin": "jiāotōng",
+          "hanviet": "Giao Thông",
+          "meaning_vi": "giao thông",
+          "hsk": 4,
+          "word_id": "hsk4_213"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "自行车",
+          "pinyin": "zìxíngchē",
+          "hanviet": "Tự Hành Xa",
+          "meaning_vi": "xe đạp",
+          "hsk": 3,
+          "word_id": "hsk3_295"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "行",
+          "pinyin": "xíng",
+          "hanviet": "Hành",
+          "meaning_vi": "được, ổn",
+          "hsk": 4,
+          "word_id": "hsk4_483"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "助"
+        },
+        {
+          "text": "于"
+        },
+        {
+          "text": "显著",
+          "pinyin": "xiǎnzhù",
+          "hanviet": "Hiển Trước",
+          "meaning_vi": "rõ rệt, nổi bật",
+          "hsk": 6,
+          "word_id": "hsk6_2201"
+        },
+        {
+          "text": "改善",
+          "pinyin": "gǎishàn",
+          "hanviet": "Cải Thiện",
+          "meaning_vi": "cải thiện",
+          "hsk": 5,
+          "word_id": "hsk5_792"
+        },
+        {
+          "text": "城市",
+          "pinyin": "chéngshì",
+          "hanviet": "Thành Thị",
+          "meaning_vi": "thành phố",
+          "hsk": 3,
+          "word_id": "hsk3_33"
+        },
+        {
+          "text": "上空",
+          "pinyin": "shàngkōng",
+          "hanviet": "Thướng Không",
+          "meaning_vi": "bầu trời; trên không trung",
+          "hsk": 7,
+          "word_id": "hsk7_3533"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "空气",
+          "pinyin": "kōngqì",
+          "hanviet": "Không Khí",
+          "meaning_vi": "không khí",
+          "hsk": 4,
+          "word_id": "hsk4_260"
+        },
+        {
+          "text": "质量",
+          "pinyin": "zhìliàng",
+          "hanviet": "Chất Lượng",
+          "meaning_vi": "chất lượng",
+          "hsk": 4,
+          "word_id": "hsk4_573"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "人与自然的和谐共生，才是现代文明最为理想与持久的发展模式。",
+      "pinyin": "Rén yǔ zìrán de héxié gòngshēng, cái shì xiàndài wénmíng zuìwéi lǐxiǎng yǔ chíjiǔ de fāzhǎn móshì.",
+      "vi": "Con người hòa hợp cộng sinh cùng tự nhiên mới là mô hình phát triển lý tưởng và bền vững nhất.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "自然",
+          "pinyin": "zìrán",
+          "hanviet": "Tự Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_589"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "和谐",
+          "pinyin": "héxié",
+          "hanviet": "Hoà Hài",
+          "meaning_vi": "hài hòa",
+          "hsk": 6,
+          "word_id": "hsk6_1041"
+        },
+        {
+          "text": "共"
+        },
+        {
+          "text": "生"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "才"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "现代",
+          "pinyin": "xiàndài",
+          "hanviet": "Hiện Đại",
+          "meaning_vi": "hiện đại",
+          "hsk": 5,
+          "word_id": "hsk5_1155"
+        },
+        {
+          "text": "文明",
+          "pinyin": "wénmíng",
+          "hanviet": "Văn Minh",
+          "meaning_vi": "văn minh",
+          "hsk": 5,
+          "word_id": "hsk5_1138"
+        },
+        {
+          "text": "最",
+          "pinyin": "zuì",
+          "hanviet": "Tối",
+          "meaning_vi": "nhất",
+          "hsk": 2,
+          "word_id": "hsk2_149"
+        },
+        {
+          "text": "为",
+          "pinyin": "wèi",
+          "hanviet": "Vi",
+          "meaning_vi": "vì, cho",
+          "hsk": 3,
+          "word_id": "hsk3_229"
+        },
+        {
+          "text": "理想",
+          "pinyin": "lǐxiǎng",
+          "hanviet": "Lí Tưởng/lý Tưởng",
+          "meaning_vi": "lý tưởng",
+          "hsk": 4,
+          "word_id": "hsk4_279"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "持久",
+          "pinyin": "chíjiǔ",
+          "hanviet": "Trì Cửu",
+          "meaning_vi": "lâu dài, bền lâu",
+          "hsk": 6,
+          "word_id": "hsk6_389"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "发展",
+          "pinyin": "fāzhǎn",
+          "hanviet": "Phát Triển",
+          "meaning_vi": "phát triển",
+          "hsk": 4,
+          "word_id": "hsk4_106"
+        },
+        {
+          "text": "模式",
+          "pinyin": "móshì",
+          "hanviet": "Mô Thức",
+          "meaning_vi": "mô hình, phương thức",
+          "hsk": 6,
+          "word_id": "hsk6_1521"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk5_1155",
+    "hsk3_33",
+    "hsk1_15",
+    "hsk5_128",
+    "hsk1_8",
+    "hsk7_4949",
+    "hsk4_76",
+    "hsk4_512",
+    "hsk6_2174",
+    "hsk5_1215",
+    "hsk4_589",
+    "hsk6_1855",
+    "hsk3_102",
+    "hsk3_229",
+    "hsk6_553"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Dải cây xanh đô thị mang lại lợi ích gì?",
+      "options_vi": [
+        "Hấp thụ khói bụi và giảm hiệu ứng nhà kính",
+        "Gây cản trở giao thông",
+        "Tăng chi phí bảo trì mà không có tác dụng"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 吸收粉尘，还能有效降低城市的温室效应."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Hành động giao thông nào giúp cải thiện không khí thành phố?",
+      "options_vi": [
+        "Đi xe hơi cá nhân",
+        "Sử dụng giao thông công cộng và xe đạp",
+        "Hạn chế ra đường"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 推行公共交通和自行车出行，有助于显著改善空气质量."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Mô hình phát triển lý tưởng nhất của văn minh hiện đại là gì?",
+      "options_vi": [
+        "Khai thác cạn kiệt tài nguyên",
+        "Con người hòa hợp cùng sinh tồn với tự nhiên",
+        "Xây dựng toàn bê tông"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 人与自然的和谐共生，才是最为理想与持久的发展模式."
+    }
+  ]
+}

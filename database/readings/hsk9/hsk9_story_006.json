@@ -1,0 +1,1246 @@
+{
+  "id": "hsk9_story_006",
+  "level": "HSK9",
+  "title": {
+    "zh": "本体论反思：存在、时间与虚无",
+    "vi": "Phản tư bản thể luận: Hiện hữu, thời gian và hư vô"
+  },
+  "topic": "ontology_reflection",
+  "topic_vi": "Bản thể luận",
+  "icon": "🕯️",
+  "estimatedMinutes": 9,
+  "description_vi": "Truy vấn cội nguồn của 'Tồn tại' và ý nghĩa của hiện sinh: Từ triết học cổ Hy Lạp đến Heidegger.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "存在问题作为一切哲学思辨的最初源头与终极归宿，数千年来始终萦绕在人类思想的最深邃处。",
+      "pinyin": "Cúnzài wèntí zuòwéi yíqiè zhéxué sībiàn de zuì chū yuántóu yǔ zhōngjí guīsù, shù qiān nián lái shǐzhōng yíngrào zài rénlèi sīxiǎng de zuì shēnsuì chù.",
+      "vi": "Vấn đề 'Tồn tại' với tư cách là khởi nguồn đầu tiên và chốn về tối hậu của mọi tư biện triết học, suốt hàng ngàn năm qua luôn vấn vương nơi sâu thẳm nhất của tư tưởng nhân loại.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "存在",
+          "pinyin": "cúnzài",
+          "hanviet": "Tồn Tại",
+          "meaning_vi": "tồn tại",
+          "hsk": 5,
+          "word_id": "hsk5_723"
+        },
+        {
+          "text": "问题",
+          "pinyin": "wèntí",
+          "hanviet": "Vấn Đề",
+          "meaning_vi": "câu hỏi, vấn đề",
+          "hsk": 2,
+          "word_id": "hsk2_112"
+        },
+        {
+          "text": "作为",
+          "pinyin": "zuòwéi",
+          "hanviet": "Tác Vi",
+          "meaning_vi": "là, với danh nghĩa",
+          "hsk": 5,
+          "word_id": "hsk5_1300"
+        },
+        {
+          "text": "一切",
+          "pinyin": "yíqiè",
+          "hanviet": "Nhất Thiết",
+          "meaning_vi": "tất cả, mọi thứ",
+          "hsk": 4,
+          "word_id": "hsk4_511"
+        },
+        {
+          "text": "哲学",
+          "pinyin": "zhéxué",
+          "hanviet": "Triết Học",
+          "meaning_vi": "triết học",
+          "hsk": 5,
+          "word_id": "hsk5_1242"
+        },
+        {
+          "text": "思"
+        },
+        {
+          "text": "辨"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "最初",
+          "pinyin": "zuìchū",
+          "hanviet": "Tối Sơ",
+          "meaning_vi": "ban đầu, lúc đầu",
+          "hsk": 5,
+          "word_id": "hsk5_1296"
+        },
+        {
+          "text": "源头",
+          "pinyin": "yuántóu",
+          "hanviet": "Nguyên Đầu",
+          "meaning_vi": "nguồn, đầu nguồn, cội nguồn",
+          "hsk": 7,
+          "word_id": "hsk7_5047"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "终极",
+          "pinyin": "zhōngjí",
+          "hanviet": "Chung Cực",
+          "meaning_vi": "cứu cánh, tột cùng, chung cuộc",
+          "hsk": 7,
+          "word_id": "hsk7_5355"
+        },
+        {
+          "text": "归宿",
+          "pinyin": "guīsù",
+          "hanviet": "Quy Túc",
+          "meaning_vi": "nơi quay về, kết cục",
+          "hsk": 6,
+          "word_id": "hsk6_1008"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "数",
+          "pinyin": "shǔ",
+          "hanviet": "Sổ",
+          "meaning_vi": "đếm, tính",
+          "hsk": 5,
+          "word_id": "hsk5_1083"
+        },
+        {
+          "text": "千",
+          "pinyin": "qiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "nghìn",
+          "hsk": 2,
+          "word_id": "hsk2_84"
+        },
+        {
+          "text": "年",
+          "pinyin": "nián",
+          "hanviet": "Niên",
+          "meaning_vi": "năm",
+          "hsk": 1,
+          "word_id": "hsk1_74"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "始终",
+          "pinyin": "shǐzhōng",
+          "hanviet": "Thủy Chung",
+          "meaning_vi": "trước sau, luôn luôn",
+          "hsk": 5,
+          "word_id": "hsk5_426"
+        },
+        {
+          "text": "萦"
+        },
+        {
+          "text": "绕",
+          "pinyin": "rào",
+          "hanviet": "Nhiễu",
+          "meaning_vi": "vòng quanh",
+          "hsk": 5,
+          "word_id": "hsk5_385"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "思想",
+          "pinyin": "sīxiǎng",
+          "hanviet": "Tư Tưởng",
+          "meaning_vi": "tư tưởng, suy nghĩ",
+          "hsk": 5,
+          "word_id": "hsk5_448"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "最",
+          "pinyin": "zuì",
+          "hanviet": "Tối",
+          "meaning_vi": "nhất",
+          "hsk": 2,
+          "word_id": "hsk2_149"
+        },
+        {
+          "text": "深邃",
+          "pinyin": "shēnsuì",
+          "hanviet": "Thâm Thúy",
+          "meaning_vi": "sâu thẳm; thâm sâu",
+          "hsk": 7,
+          "word_id": "hsk7_3581"
+        },
+        {
+          "text": "处"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "海德格尔在其经典著作中重新敲响本体论的钟声，深刻反思西方形而上学历经两千年的存在之遗忘。",
+      "pinyin": "Hǎidégé'ěr zài qí jīngdiǎn zhùzuò zhōng chóngxīn qiāoxiǎng běntǐlùn de zhōngshēng, shēnkè fǎnsī xīfāng xíng'érshàngxué lìjīng liǎng qiān nián de cúnzài zhī yíwàng.",
+      "vi": "Heidegger trong tác phẩm kinh điển của mình đã gióng lại hồi chuông bản thể luận, phản tỉnh sâu sắc sự lãng quên tồn tại suốt 2000 năm của hình nhi thượng học phương Tây.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "海"
+        },
+        {
+          "text": "德"
+        },
+        {
+          "text": "格"
+        },
+        {
+          "text": "尔"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "其"
+        },
+        {
+          "text": "经典",
+          "pinyin": "jīngdiǎn",
+          "hanviet": "Kinh Điển",
+          "meaning_vi": "cổ điển, kinh điển",
+          "hsk": 5,
+          "word_id": "hsk5_259"
+        },
+        {
+          "text": "著"
+        },
+        {
+          "text": "作"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "重新",
+          "pinyin": "chóngxīn",
+          "hanviet": "Trọng Tân",
+          "meaning_vi": "lại, làm lại từ đầu",
+          "hsk": 4,
+          "word_id": "hsk4_50"
+        },
+        {
+          "text": "敲",
+          "pinyin": "qiāo",
+          "hanviet": "Xao",
+          "meaning_vi": "gõ, đập",
+          "hsk": 4,
+          "word_id": "hsk4_341"
+        },
+        {
+          "text": "响",
+          "pinyin": "xiǎng",
+          "hanviet": "Hưởng",
+          "meaning_vi": "reo, vang lên",
+          "hsk": 4,
+          "word_id": "hsk4_469"
+        },
+        {
+          "text": "本",
+          "pinyin": "běn",
+          "hanviet": "Bản",
+          "meaning_vi": "cuốn (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_6"
+        },
+        {
+          "text": "体"
+        },
+        {
+          "text": "论"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "钟",
+          "pinyin": "zhōng",
+          "hanviet": "Chung",
+          "meaning_vi": "chuông",
+          "hsk": 7,
+          "word_id": "hsk7_5351"
+        },
+        {
+          "text": "声"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "深刻",
+          "pinyin": "shēnkè",
+          "hanviet": "Thâm Khắc",
+          "meaning_vi": "sâu sắc",
+          "hsk": 5,
+          "word_id": "hsk5_411"
+        },
+        {
+          "text": "反思",
+          "pinyin": "fǎnsī",
+          "hanviet": "Phản Tư",
+          "meaning_vi": "suy ngẫm lại",
+          "hsk": 6,
+          "word_id": "hsk6_801"
+        },
+        {
+          "text": "西",
+          "pinyin": "xī",
+          "hanviet": "Tây",
+          "meaning_vi": "phía tây",
+          "hsk": 3,
+          "word_id": "hsk3_233"
+        },
+        {
+          "text": "方",
+          "pinyin": "fāng",
+          "hanviet": "Phương",
+          "meaning_vi": "vuông, phương",
+          "hsk": 5,
+          "word_id": "hsk5_774"
+        },
+        {
+          "text": "形"
+        },
+        {
+          "text": "而",
+          "pinyin": "ér",
+          "hanviet": "Nhi",
+          "meaning_vi": "mà, và",
+          "hsk": 4,
+          "word_id": "hsk4_103"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "学历",
+          "pinyin": "xuélì",
+          "hanviet": "Học Lịch",
+          "meaning_vi": "học lực, học vấn",
+          "hsk": 5,
+          "word_id": "hsk5_1185"
+        },
+        {
+          "text": "经",
+          "pinyin": "jīng",
+          "hanviet": "Kinh",
+          "meaning_vi": "sách kinh điển, kinh sách",
+          "hsk": 7,
+          "word_id": "hsk7_2153"
+        },
+        {
+          "text": "两",
+          "pinyin": "liǎng",
+          "hanviet": "Lưỡng",
+          "meaning_vi": "hai (số lượng)",
+          "hsk": 2,
+          "word_id": "hsk2_63"
+        },
+        {
+          "text": "千",
+          "pinyin": "qiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "nghìn",
+          "hsk": 2,
+          "word_id": "hsk2_84"
+        },
+        {
+          "text": "年",
+          "pinyin": "nián",
+          "hanviet": "Niên",
+          "meaning_vi": "năm",
+          "hsk": 1,
+          "word_id": "hsk1_74"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "存在",
+          "pinyin": "cúnzài",
+          "hanviet": "Tồn Tại",
+          "meaning_vi": "tồn tại",
+          "hsk": 5,
+          "word_id": "hsk5_723"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "遗忘",
+          "pinyin": "yíwàng",
+          "hanviet": "Di Vong",
+          "meaning_vi": "lãng quên; quên lãng",
+          "hsk": 7,
+          "word_id": "hsk7_4837"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "人并非仅仅是现成摆在那里的静止实体，而是时刻被抛入特定历史境遇中朝向死亡而生的时间性存在。",
+      "pinyin": "Rén bìng fēi jǐnjǐn shì xiànchéng bǎi zài nàlǐ de jìngzhǐ shítǐ, ér shì shíkè bèi pāorù tèdìng lìshǐ jìngyù zhōng cháo xiàng sǐwáng ér shēng de shíjiānxìng cúnzài.",
+      "vi": "Con người không chỉ là một thực thể tĩnh tại có sẵn ở đó, mà là một hữu thể mang tính thời gian luôn bị ném vào hoàn cảnh lịch sử cụ thể và 'tồn tại hướng về cái chết'.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "并非",
+          "pinyin": "bìngfēi",
+          "hanviet": "Tinh Phi",
+          "meaning_vi": "thực ra không phải",
+          "hsk": 6,
+          "word_id": "hsk6_179"
+        },
+        {
+          "text": "仅仅",
+          "pinyin": "jǐnjǐn",
+          "hanviet": "Cận Cận",
+          "meaning_vi": "chỉ, chỉ mỗi",
+          "hsk": 6,
+          "word_id": "hsk6_1219"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "现成",
+          "pinyin": "xiànchéng",
+          "hanviet": "Hiện Thành",
+          "meaning_vi": "có sẵn",
+          "hsk": 6,
+          "word_id": "hsk6_2203"
+        },
+        {
+          "text": "摆",
+          "pinyin": "bǎi",
+          "hanviet": "Bài",
+          "meaning_vi": "bày, đặt",
+          "hsk": 5,
+          "word_id": "hsk5_645"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "那",
+          "pinyin": "nà",
+          "hanviet": "Na",
+          "meaning_vi": "đó, kia",
+          "hsk": 1,
+          "word_id": "hsk1_70"
+        },
+        {
+          "text": "里",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "bên trong",
+          "hsk": 1,
+          "word_id": "hsk1_57"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "静止",
+          "pinyin": "jìngzhǐ",
+          "hanviet": "Tĩnh Chỉ",
+          "meaning_vi": "đứng yên, tĩnh lặng, bất động",
+          "hsk": 7,
+          "word_id": "hsk7_2219"
+        },
+        {
+          "text": "实体",
+          "pinyin": "shítǐ",
+          "hanviet": "Thực Thể",
+          "meaning_vi": "thực thể; hữu hình",
+          "hsk": 7,
+          "word_id": "hsk7_3679"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "而",
+          "pinyin": "ér",
+          "hanviet": "Nhi",
+          "meaning_vi": "mà, và",
+          "hsk": 4,
+          "word_id": "hsk4_103"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "时刻",
+          "pinyin": "shíkè",
+          "hanviet": "Thời Khắc",
+          "meaning_vi": "thời khắc, giây phút",
+          "hsk": 5,
+          "word_id": "hsk5_1065"
+        },
+        {
+          "text": "被",
+          "pinyin": "bèi",
+          "hanviet": "Bị",
+          "meaning_vi": "bị (trợ từ bị động)",
+          "hsk": 3,
+          "word_id": "hsk3_16"
+        },
+        {
+          "text": "抛"
+        },
+        {
+          "text": "入"
+        },
+        {
+          "text": "特定",
+          "pinyin": "tèdìng",
+          "hanviet": "Đặc Định",
+          "meaning_vi": "đặc định, nhất định",
+          "hsk": 6,
+          "word_id": "hsk6_2005"
+        },
+        {
+          "text": "历史",
+          "pinyin": "lìshǐ",
+          "hanviet": "Lịch Sử",
+          "meaning_vi": "lịch sử",
+          "hsk": 3,
+          "word_id": "hsk3_149"
+        },
+        {
+          "text": "境遇",
+          "pinyin": "jìngyù",
+          "hanviet": "Cảnh Ngộ",
+          "meaning_vi": "cảnh ngộ, hoàn cảnh sống",
+          "hsk": 7,
+          "word_id": "hsk7_2217"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "朝",
+          "pinyin": "cháo",
+          "hanviet": "Triều",
+          "meaning_vi": "hướng về, về phía",
+          "hsk": 5,
+          "word_id": "hsk5_688"
+        },
+        {
+          "text": "向",
+          "pinyin": "xiàng",
+          "hanviet": "Hướng",
+          "meaning_vi": "hướng về, về phía",
+          "hsk": 3,
+          "word_id": "hsk3_241"
+        },
+        {
+          "text": "死亡",
+          "pinyin": "sǐwáng",
+          "hanviet": "Tử Vong",
+          "meaning_vi": "tử vong, chết",
+          "hsk": 6,
+          "word_id": "hsk6_1959"
+        },
+        {
+          "text": "而",
+          "pinyin": "ér",
+          "hanviet": "Nhi",
+          "meaning_vi": "mà, và",
+          "hsk": 4,
+          "word_id": "hsk4_103"
+        },
+        {
+          "text": "生"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "时间",
+          "pinyin": "shíjiān",
+          "hanviet": "Thời Gian",
+          "meaning_vi": "thời gian",
+          "hsk": 2,
+          "word_id": "hsk2_94"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "存在",
+          "pinyin": "cúnzài",
+          "hanviet": "Tồn Tại",
+          "meaning_vi": "tồn tại",
+          "hsk": 5,
+          "word_id": "hsk5_723"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "面对无处不在的虚无感与生命的有限性，个体唯有勇敢承担焦虑并直面本真，方能绽放出生命的绚烂光彩。",
+      "pinyin": "Miànduì wúchù-bùzài de xūwúgǎn yǔ shēngmìng de yǒuxiànxìng, gètǐ wéiyǒu yǒnggǎn chéngdān jiāolǜ bìng zhímiàn běnzhēn, fāng néng zhànfàng chū shēngmìng de xuànlàn guāngcǎi.",
+      "vi": "Đối diện cảm giác hư vô bủa vây và tính hữu hạn của đời sống, cá nhân chỉ khi dũng cảm gánh vác nỗi lo âu và đối diện chân thực mới có thể nở rộ ánh hào quang rực rỡ của sinh mệnh.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "面对",
+          "pinyin": "miànduì",
+          "hanviet": "Diện Đối",
+          "meaning_vi": "đối mặt",
+          "hsk": 5,
+          "word_id": "hsk5_314"
+        },
+        {
+          "text": "无",
+          "pinyin": "wú",
+          "hanviet": "Vô",
+          "meaning_vi": "không có",
+          "hsk": 4,
+          "word_id": "hsk4_456"
+        },
+        {
+          "text": "处"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "虚",
+          "pinyin": "xū",
+          "hanviet": "Hư",
+          "meaning_vi": "giả tạo; hư; trống rỗng",
+          "hsk": 7,
+          "word_id": "hsk7_4633"
+        },
+        {
+          "text": "无",
+          "pinyin": "wú",
+          "hanviet": "Vô",
+          "meaning_vi": "không có",
+          "hsk": 4,
+          "word_id": "hsk4_456"
+        },
+        {
+          "text": "感"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "生命",
+          "pinyin": "shēngmìng",
+          "hanviet": "Sinh Mệnh",
+          "meaning_vi": "sinh mệnh, sự sống",
+          "hsk": 4,
+          "word_id": "hsk4_376"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "限"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "个",
+          "pinyin": "gè",
+          "hanviet": "Cá",
+          "meaning_vi": "cái (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_32"
+        },
+        {
+          "text": "体"
+        },
+        {
+          "text": "唯有",
+          "pinyin": "wéiyǒu",
+          "hanviet": "Duy Hữu",
+          "meaning_vi": "chỉ có; duy chỉ có",
+          "hsk": 7,
+          "word_id": "hsk7_4243"
+        },
+        {
+          "text": "勇敢",
+          "pinyin": "yǒnggǎn",
+          "hanviet": "Dũng Cảm",
+          "meaning_vi": "dũng cảm",
+          "hsk": 4,
+          "word_id": "hsk4_521"
+        },
+        {
+          "text": "承担",
+          "pinyin": "chéngdān",
+          "hanviet": "Thừa Đảm",
+          "meaning_vi": "đảm nhận, chịu trách nhiệm",
+          "hsk": 5,
+          "word_id": "hsk5_54"
+        },
+        {
+          "text": "焦虑",
+          "pinyin": "jiāolǜ",
+          "hanviet": "Tiêu Lự",
+          "meaning_vi": "lo lắng, lo âu",
+          "hsk": 6,
+          "word_id": "hsk6_1190"
+        },
+        {
+          "text": "并"
+        },
+        {
+          "text": "直",
+          "pinyin": "zhí",
+          "hanviet": "Trực",
+          "meaning_vi": "thẳng",
+          "hsk": 5,
+          "word_id": "hsk5_1253"
+        },
+        {
+          "text": "面"
+        },
+        {
+          "text": "本",
+          "pinyin": "běn",
+          "hanviet": "Bản",
+          "meaning_vi": "cuốn (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_6"
+        },
+        {
+          "text": "真",
+          "pinyin": "zhēn",
+          "hanviet": "Chân",
+          "meaning_vi": "thật, thực sự",
+          "hsk": 2,
+          "word_id": "hsk2_144"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "方",
+          "pinyin": "fāng",
+          "hanviet": "Phương",
+          "meaning_vi": "vuông, phương",
+          "hsk": 5,
+          "word_id": "hsk5_774"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "绽放",
+          "pinyin": "zhànfàng",
+          "hanviet": "Trán Phóng",
+          "meaning_vi": "nở rộ, đua nở, bừng nở",
+          "hsk": 7,
+          "word_id": "hsk7_5156"
+        },
+        {
+          "text": "出生",
+          "pinyin": "chūshēng",
+          "hanviet": "Xuất Sinh",
+          "meaning_vi": "sinh ra",
+          "hsk": 4,
+          "word_id": "hsk4_54"
+        },
+        {
+          "text": "命"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "绚"
+        },
+        {
+          "text": "烂",
+          "pinyin": "làn",
+          "hanviet": "Lạn",
+          "meaning_vi": "thối, nát, hỏng",
+          "hsk": 5,
+          "word_id": "hsk5_281"
+        },
+        {
+          "text": "光彩",
+          "pinyin": "guāngcǎi",
+          "hanviet": "Quang Thái",
+          "meaning_vi": "vẻ vang, rạng rỡ, hào quang",
+          "hsk": 7,
+          "word_id": "hsk7_1503"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "对存在的终极追问绝非脱离现实的文字游戏，而是唤醒人类沉沦心智、重获诗意栖居神圣体验的救赎之途。",
+      "pinyin": "Duì cúnzài de zhōngjí zhuīwèn jué fēi tuōlí xiànshí de wénzì yóuxì, ér shì huànxǐng rénlèi chénlún xīnzì, chónghuò shīyì qījū shénshèng tǐyàn de jiùshú zhī tú.",
+      "vi": "Truy vấn tối hậu về tồn tại tuyệt đối không phải trò chơi chữ nghĩa thoát ly thực tế, mà là con đường cứu rỗi đánh thức tâm trí đắm chìm để con người tìm lại trải nghiệm thần thánh 'trú ngụ đầy thi vị'.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "对",
+          "pinyin": "duì",
+          "hanviet": "Đối",
+          "meaning_vi": "đối với, hướng về (giới từ)",
+          "hsk": 2,
+          "word_id": "hsk2_24"
+        },
+        {
+          "text": "存在",
+          "pinyin": "cúnzài",
+          "hanviet": "Tồn Tại",
+          "meaning_vi": "tồn tại",
+          "hsk": 5,
+          "word_id": "hsk5_723"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "终极",
+          "pinyin": "zhōngjí",
+          "hanviet": "Chung Cực",
+          "meaning_vi": "cứu cánh, tột cùng, chung cuộc",
+          "hsk": 7,
+          "word_id": "hsk7_5355"
+        },
+        {
+          "text": "追问",
+          "pinyin": "zhuīwèn",
+          "hanviet": "Truy Vấn",
+          "meaning_vi": "gặng hỏi, truy hỏi dồn dập",
+          "hsk": 7,
+          "word_id": "hsk7_5474"
+        },
+        {
+          "text": "绝",
+          "pinyin": "jué",
+          "hanviet": "Tuyệt",
+          "meaning_vi": "tuyệt đối; dứt khoát",
+          "hsk": 7,
+          "word_id": "hsk7_2271"
+        },
+        {
+          "text": "非",
+          "pinyin": "fēi",
+          "hanviet": "Phi",
+          "meaning_vi": "không phải, phi",
+          "hsk": 5,
+          "word_id": "hsk5_776"
+        },
+        {
+          "text": "脱离",
+          "pinyin": "tuōlí",
+          "hanviet": "Thoát Ly",
+          "meaning_vi": "thoát khỏi, tách khỏi",
+          "hsk": 6,
+          "word_id": "hsk6_2079"
+        },
+        {
+          "text": "现实",
+          "pinyin": "xiànshí",
+          "hanviet": "Hiện Thực",
+          "meaning_vi": "thực tế, hiện thực",
+          "hsk": 5,
+          "word_id": "hsk5_1156"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "文字",
+          "pinyin": "wénzì",
+          "hanviet": "Văn Tự",
+          "meaning_vi": "văn tự, chữ viết",
+          "hsk": 5,
+          "word_id": "hsk5_1139"
+        },
+        {
+          "text": "游戏",
+          "pinyin": "yóuxì",
+          "hanviet": "Du Hí/du Hý",
+          "meaning_vi": "trò chơi",
+          "hsk": 3,
+          "word_id": "hsk3_268"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "而",
+          "pinyin": "ér",
+          "hanviet": "Nhi",
+          "meaning_vi": "mà, và",
+          "hsk": 4,
+          "word_id": "hsk4_103"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "唤醒",
+          "pinyin": "huànxǐng",
+          "hanviet": "Hoán Tỉnh",
+          "meaning_vi": "đánh thức, thức tỉnh",
+          "hsk": 7,
+          "word_id": "hsk7_1755"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "沉"
+        },
+        {
+          "text": "沦"
+        },
+        {
+          "text": "心"
+        },
+        {
+          "text": "智"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "重",
+          "pinyin": "zhòng",
+          "hanviet": "Trọng",
+          "meaning_vi": "nặng",
+          "hsk": 4,
+          "word_id": "hsk4_575"
+        },
+        {
+          "text": "获"
+        },
+        {
+          "text": "诗",
+          "pinyin": "shī",
+          "hanviet": "Thi",
+          "meaning_vi": "thơ",
+          "hsk": 5,
+          "word_id": "hsk5_416"
+        },
+        {
+          "text": "意"
+        },
+        {
+          "text": "栖"
+        },
+        {
+          "text": "居"
+        },
+        {
+          "text": "神圣",
+          "pinyin": "shénshèng",
+          "hanviet": "Thần Thánh",
+          "meaning_vi": "thần thánh, linh thiêng",
+          "hsk": 6,
+          "word_id": "hsk6_1842"
+        },
+        {
+          "text": "体验",
+          "pinyin": "tǐyàn",
+          "hanviet": "Thể Nghiệm",
+          "meaning_vi": "trải nghiệm",
+          "hsk": 5,
+          "word_id": "hsk5_464"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "救",
+          "pinyin": "jiù",
+          "hanviet": "Cứu",
+          "meaning_vi": "cứu",
+          "hsk": 5,
+          "word_id": "hsk5_260"
+        },
+        {
+          "text": "赎",
+          "pinyin": "shú",
+          "hanviet": "Chuộc",
+          "meaning_vi": "chuộc; chuộc lại",
+          "hsk": 7,
+          "word_id": "hsk7_3777"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "途"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk5_723",
+    "hsk2_112",
+    "hsk5_1300",
+    "hsk4_511",
+    "hsk5_1242",
+    "hsk1_15",
+    "hsk5_1296",
+    "hsk7_5047",
+    "hsk4_535",
+    "hsk7_5355",
+    "hsk6_1008",
+    "hsk5_1083",
+    "hsk2_84",
+    "hsk1_74",
+    "hsk1_53"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Heidegger chỉ trích điều gì trong lịch sử hình nhi thượng học phương Tây?",
+      "options_vi": [
+        "Phát triển công nghệ quá chậm",
+        "Sự lãng quên câu hỏi về 'Tồn tại' suốt hai ngàn năm",
+        "Bỏ qua các định luật toán học"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 深刻反思西方形而上学历经两千年的存在之遗忘."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Bản chất hiện sinh của con người được định nghĩa như thế nào trong triết học hiện sinh?",
+      "options_vi": [
+        "Thực thể tĩnh tại không đổi",
+        "Hữu thể mang tính thời gian, bị ném vào hoàn cảnh và tồn tại hướng về cái chết",
+        "Cỗ máy cơ học hoàn hảo"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 是时刻被抛入特定历史境遇中朝向死亡而生的时间性存在."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Ý nghĩa thực tiễn sâu xa của việc truy vấn bản thể tồn tại là gì?",
+      "options_vi": [
+        "Là trò chơi câu chữ vô nghĩa",
+        "Đánh thức tâm trí đắm chìm và tìm lại trải nghiệm trú ngụ thi vị giữa nhân gian",
+        "Khiến con người thêm tuyệt vọng"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 唤醒人类沉沦心智、重获诗意栖居神圣体验的救赎之途."
+    }
+  ]
+}

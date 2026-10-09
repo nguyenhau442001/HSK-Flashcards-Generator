@@ -1,0 +1,1162 @@
+{
+  "id": "hsk9_story_007",
+  "level": "HSK9",
+  "title": {
+    "zh": "深海采矿的国际法权与海洋正义",
+    "vi": "Pháp lý quốc tế về khai thác đáy biển và công lý đại dương"
+  },
+  "topic": "ocean_law_governance",
+  "topic_vi": "Luật quốc tế & Môi trường",
+  "icon": "🌊",
+  "estimatedMinutes": 9,
+  "description_vi": "Công ước Luật Biển UNCLOS và cuộc cạnh tranh nguồn tài nguyên kim loại quý dưới đáy đại dương.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "《联合国海洋法公约》将国家管辖范围以外的国际海底区域及其资源，庄严确立为全人类共同继承财产。",
+      "pinyin": "《Liánhéguó Hǎiyángfǎ Gōngyuē》 jiāng guójiā guǎnxiá fànwéi yǐwài de guójì hǎidǐ qūyù jí qí zīyuán, zhuāngyán quèlì wéi quán rénlèi gòngtóng jìchéng cáichǎn.",
+      "vi": "Công ước Liên Hợp Quốc về Luật Biển (UNCLOS) xác lập trang trọng vùng đáy biển quốc tế ngoài phạm vi tài phán quốc gia và tài nguyên tại đó là di sản chung của toàn nhân loại.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "《"
+        },
+        {
+          "text": "联合",
+          "pinyin": "liánhé",
+          "hanviet": "Liên Hợp",
+          "meaning_vi": "liên hợp, liên minh",
+          "hsk": 5,
+          "word_id": "hsk5_293"
+        },
+        {
+          "text": "国"
+        },
+        {
+          "text": "海洋",
+          "pinyin": "hǎiyáng",
+          "hanviet": "Hải Dương",
+          "meaning_vi": "biển, đại dương",
+          "hsk": 4,
+          "word_id": "hsk4_164"
+        },
+        {
+          "text": "法"
+        },
+        {
+          "text": "公约",
+          "pinyin": "gōngyuē",
+          "hanviet": "Công Ước",
+          "meaning_vi": "công ước, quy ước",
+          "hsk": 7,
+          "word_id": "hsk7_1406"
+        },
+        {
+          "text": "》"
+        },
+        {
+          "text": "将"
+        },
+        {
+          "text": "国家",
+          "pinyin": "guójiā",
+          "hanviet": "Quốc Gia",
+          "meaning_vi": "quốc gia",
+          "hsk": 3,
+          "word_id": "hsk3_88"
+        },
+        {
+          "text": "管辖",
+          "pinyin": "guǎnxiá",
+          "hanviet": "Quản Hạt",
+          "meaning_vi": "cai quản, quản lý, quyền tài phán",
+          "hsk": 7,
+          "word_id": "hsk7_1491"
+        },
+        {
+          "text": "范围",
+          "pinyin": "fànwéi",
+          "hanviet": "Phạm Vi",
+          "meaning_vi": "phạm vi",
+          "hsk": 5,
+          "word_id": "hsk5_132"
+        },
+        {
+          "text": "以",
+          "pinyin": "yǐ",
+          "hanviet": "Dĩ",
+          "meaning_vi": "bằng, dùng",
+          "hsk": 4,
+          "word_id": "hsk4_512"
+        },
+        {
+          "text": "外",
+          "pinyin": "wài",
+          "hanviet": "Ngoại",
+          "meaning_vi": "ngoài",
+          "hsk": 2,
+          "word_id": "hsk2_105"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "国际",
+          "pinyin": "guójì",
+          "hanviet": "Quốc Tế",
+          "meaning_vi": "quốc tế",
+          "hsk": 4,
+          "word_id": "hsk4_160"
+        },
+        {
+          "text": "海"
+        },
+        {
+          "text": "底",
+          "pinyin": "dǐ",
+          "hanviet": "Để",
+          "meaning_vi": "đáy",
+          "hsk": 4,
+          "word_id": "hsk4_90"
+        },
+        {
+          "text": "区域",
+          "pinyin": "qūyù",
+          "hanviet": "Khu Vực",
+          "meaning_vi": "khu vực, vùng",
+          "hsk": 6,
+          "word_id": "hsk6_1733"
+        },
+        {
+          "text": "及"
+        },
+        {
+          "text": "其"
+        },
+        {
+          "text": "资源",
+          "pinyin": "zīyuán",
+          "hanviet": "Tư Nguyên",
+          "meaning_vi": "tài nguyên",
+          "hsk": 5,
+          "word_id": "hsk5_1282"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "庄严",
+          "pinyin": "zhuāngyán",
+          "hanviet": "Trang Nghiêm",
+          "meaning_vi": "trang nghiêm, uy nghiêm",
+          "hsk": 7,
+          "word_id": "hsk7_5456"
+        },
+        {
+          "text": "确立",
+          "pinyin": "quèlì",
+          "hanviet": "Xác Lập",
+          "meaning_vi": "xác lập",
+          "hsk": 6,
+          "word_id": "hsk6_1753"
+        },
+        {
+          "text": "为",
+          "pinyin": "wèi",
+          "hanviet": "Vi",
+          "meaning_vi": "vì, cho",
+          "hsk": 3,
+          "word_id": "hsk3_229"
+        },
+        {
+          "text": "全"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "共同",
+          "pinyin": "gòngtóng",
+          "hanviet": "Cộng Đồng",
+          "meaning_vi": "chung, cùng nhau",
+          "hsk": 4,
+          "word_id": "hsk4_144"
+        },
+        {
+          "text": "继承",
+          "pinyin": "jìchéng",
+          "hanviet": "Kế Thừa",
+          "meaning_vi": "kế thừa",
+          "hsk": 6,
+          "word_id": "hsk6_1140"
+        },
+        {
+          "text": "财产",
+          "pinyin": "cáichǎn",
+          "hanviet": "Tài Sản",
+          "meaning_vi": "tài sản",
+          "hsk": 5,
+          "word_id": "hsk5_37"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "深海海底富含镍、钴、铜、稀土等多金属结核，是全球支撑新能源转型不可或缺的战略战略矿产命脉。",
+      "pinyin": "Shēnhǎi hǎidǐ fùhán niè, gǔ, tóng, xītǔ děng duō jīnshǔ jiéhé, shì quánqiú zhīchēng xīn néngyuán zhuǎnxíng bùkě huòquē de zhànlüè kuàngchǎn mìngmài.",
+      "vi": "Đáy biển sâu giàu kết hạch đa kim chứa niken, coban, đồng, đất hiếm là mạch máu khoáng sản chiến lược không thể thiếu nâng đỡ chuyển đổi năng lượng mới.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "深",
+          "pinyin": "shēn",
+          "hanviet": "Thâm",
+          "meaning_vi": "sâu",
+          "hsk": 4,
+          "word_id": "hsk4_372"
+        },
+        {
+          "text": "海"
+        },
+        {
+          "text": "海"
+        },
+        {
+          "text": "底",
+          "pinyin": "dǐ",
+          "hanviet": "Để",
+          "meaning_vi": "đáy",
+          "hsk": 4,
+          "word_id": "hsk4_90"
+        },
+        {
+          "text": "富含",
+          "pinyin": "fùhán",
+          "hanviet": "Phú Hàm",
+          "meaning_vi": "giàu hàm lượng, chứa nhiều",
+          "hsk": 7,
+          "word_id": "hsk7_1258"
+        },
+        {
+          "text": "镍"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "钴"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "铜",
+          "pinyin": "tóng",
+          "hanviet": "Đồng",
+          "meaning_vi": "đồng (kim loại)",
+          "hsk": 6,
+          "word_id": "hsk6_2049"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "稀",
+          "pinyin": "xī",
+          "hanviet": "Hy",
+          "meaning_vi": "loãng; thưa; hiếm",
+          "hsk": 7,
+          "word_id": "hsk7_4363"
+        },
+        {
+          "text": "土"
+        },
+        {
+          "text": "等",
+          "pinyin": "děng",
+          "hanviet": "Đẳng",
+          "meaning_vi": "đợi, chờ",
+          "hsk": 2,
+          "word_id": "hsk2_20"
+        },
+        {
+          "text": "多",
+          "pinyin": "duō",
+          "hanviet": "Đa",
+          "meaning_vi": "nhiều",
+          "hsk": 1,
+          "word_id": "hsk1_24"
+        },
+        {
+          "text": "金属",
+          "pinyin": "jīnshǔ",
+          "hanviet": "Kim Thuộc",
+          "meaning_vi": "kim loại",
+          "hsk": 5,
+          "word_id": "hsk5_896"
+        },
+        {
+          "text": "结"
+        },
+        {
+          "text": "核",
+          "pinyin": "hé",
+          "hanviet": "Hạch",
+          "meaning_vi": "hột (quả), hạt nhân",
+          "hsk": 7,
+          "word_id": "hsk7_1619"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "全"
+        },
+        {
+          "text": "球"
+        },
+        {
+          "text": "支",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "nhánh, cây (lượng từ)",
+          "hsk": 5,
+          "word_id": "hsk5_600"
+        },
+        {
+          "text": "撑"
+        },
+        {
+          "text": "新",
+          "pinyin": "xīn",
+          "hanviet": "Tân",
+          "meaning_vi": "mới",
+          "hsk": 2,
+          "word_id": "hsk2_118"
+        },
+        {
+          "text": "能源",
+          "pinyin": "néngyuán",
+          "hanviet": "Năng Nguyên",
+          "meaning_vi": "năng lượng",
+          "hsk": 5,
+          "word_id": "hsk5_335"
+        },
+        {
+          "text": "转型",
+          "pinyin": "zhuǎnxíng",
+          "hanviet": "Chuyển Hình",
+          "meaning_vi": "chuyển đổi mô hình, chuyển mình đổi mới",
+          "hsk": 7,
+          "word_id": "hsk7_5445"
+        },
+        {
+          "text": "不可或缺",
+          "pinyin": "bùkě-huòquē",
+          "hanviet": "Bất Khả Hoặc Khuyết",
+          "meaning_vi": "không thể thiếu được, tuyệt đối tất yếu",
+          "hsk": 7,
+          "word_id": "hsk7_339"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "战略",
+          "pinyin": "zhànlüè",
+          "hanviet": "Chiến Lược",
+          "meaning_vi": "chiến lược, tầm nhìn chiến lược",
+          "hsk": 7,
+          "word_id": "hsk7_5159"
+        },
+        {
+          "text": "战略",
+          "pinyin": "zhànlüè",
+          "hanviet": "Chiến Lược",
+          "meaning_vi": "chiến lược, tầm nhìn chiến lược",
+          "hsk": 7,
+          "word_id": "hsk7_5159"
+        },
+        {
+          "text": "矿产",
+          "pinyin": "kuàngchǎn",
+          "hanviet": "Khoáng Sản",
+          "meaning_vi": "khoáng sản",
+          "hsk": 7,
+          "word_id": "hsk7_2444"
+        },
+        {
+          "text": "命"
+        },
+        {
+          "text": "脉"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "然而，大型商业开采机械作业可能会对极其脆弱的深海冷泉热液生态系统造成不可逆转的灭顶之灾。",
+      "pinyin": "Rán'ér, dàxíng shāngyè kāicǎi jīxiè zuòyè kěnéng huì duì jíqí cuìruò de shēnhǎi lěngquán rèyè shēngtài xìtǒng zàochéng bùkě nìzhuǎn de mièdǐng zhī zāi.",
+      "vi": "Tuy nhiên, các cỗ máy khai thác thương mại quy mô lớn có thể giáng đòn hủy diệt không thể đảo ngược lên hệ sinh thái suối nhiệt và suối lạnh biển sâu mong manh tột cùng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "然而",
+          "pinyin": "rán'ér",
+          "hanviet": "Nhiên Nhi",
+          "meaning_vi": "tuy nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_356"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "大型",
+          "pinyin": "dàxíng",
+          "hanviet": "Đại Hình",
+          "meaning_vi": "cỡ lớn, quy mô lớn",
+          "hsk": 5,
+          "word_id": "hsk5_730"
+        },
+        {
+          "text": "商业",
+          "pinyin": "shāngyè",
+          "hanviet": "Thương Nghiệp",
+          "meaning_vi": "thương nghiệp, kinh doanh",
+          "hsk": 5,
+          "word_id": "hsk5_1047"
+        },
+        {
+          "text": "开采",
+          "pinyin": "kāicǎi",
+          "hanviet": "Khai Thái",
+          "meaning_vi": "khai thác (mỏ)",
+          "hsk": 6,
+          "word_id": "hsk6_1289"
+        },
+        {
+          "text": "机械",
+          "pinyin": "jīxiè",
+          "hanviet": "Cơ Giới",
+          "meaning_vi": "máy móc, cơ khí",
+          "hsk": 6,
+          "word_id": "hsk6_1119"
+        },
+        {
+          "text": "作业",
+          "pinyin": "zuòyè",
+          "hanviet": "Tác Nghiệp",
+          "meaning_vi": "bài tập về nhà",
+          "hsk": 3,
+          "word_id": "hsk3_300"
+        },
+        {
+          "text": "可能",
+          "pinyin": "kěnéng",
+          "hanviet": "Khả Năng",
+          "meaning_vi": "có thể",
+          "hsk": 2,
+          "word_id": "hsk2_56"
+        },
+        {
+          "text": "会",
+          "pinyin": "huì",
+          "hanviet": "Hội",
+          "meaning_vi": "biết, sẽ",
+          "hsk": 1,
+          "word_id": "hsk1_43"
+        },
+        {
+          "text": "对",
+          "pinyin": "duì",
+          "hanviet": "Đối",
+          "meaning_vi": "đối với, hướng về (giới từ)",
+          "hsk": 2,
+          "word_id": "hsk2_24"
+        },
+        {
+          "text": "极其",
+          "pinyin": "jíqí",
+          "hanviet": "Cực Kì/cực Kỳ",
+          "meaning_vi": "cực kỳ, hết sức",
+          "hsk": 5,
+          "word_id": "hsk5_866"
+        },
+        {
+          "text": "脆弱",
+          "pinyin": "cuìruò",
+          "hanviet": "Thuý Nhược",
+          "meaning_vi": "yếu đuối, mong manh",
+          "hsk": 6,
+          "word_id": "hsk6_506"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "深",
+          "pinyin": "shēn",
+          "hanviet": "Thâm",
+          "meaning_vi": "sâu",
+          "hsk": 4,
+          "word_id": "hsk4_372"
+        },
+        {
+          "text": "海"
+        },
+        {
+          "text": "冷",
+          "pinyin": "lěng",
+          "hanviet": "Lạnh",
+          "meaning_vi": "lạnh",
+          "hsk": 1,
+          "word_id": "hsk1_56"
+        },
+        {
+          "text": "泉"
+        },
+        {
+          "text": "热",
+          "pinyin": "rè",
+          "hanviet": "Nhiệt",
+          "meaning_vi": "nóng",
+          "hsk": 1,
+          "word_id": "hsk1_84"
+        },
+        {
+          "text": "液"
+        },
+        {
+          "text": "生态",
+          "pinyin": "shēngtài",
+          "hanviet": "Sinh Thái",
+          "meaning_vi": "sinh thái",
+          "hsk": 6,
+          "word_id": "hsk6_1855"
+        },
+        {
+          "text": "系统",
+          "pinyin": "xìtǒng",
+          "hanviet": "Hệ Thống",
+          "meaning_vi": "hệ thống",
+          "hsk": 5,
+          "word_id": "hsk5_502"
+        },
+        {
+          "text": "造成",
+          "pinyin": "zàochéng",
+          "hanviet": "Tạo Thành",
+          "meaning_vi": "gây ra, tạo thành",
+          "hsk": 5,
+          "word_id": "hsk5_585"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "可"
+        },
+        {
+          "text": "逆",
+          "pinyin": "nì",
+          "hanviet": "Nghịch",
+          "meaning_vi": "nghịch; ngược lại; đi ngược lại",
+          "hsk": 7,
+          "word_id": "hsk7_2949"
+        },
+        {
+          "text": "转",
+          "pinyin": "zhuàn",
+          "hanviet": "Chuyển",
+          "meaning_vi": "quay, xoay",
+          "hsk": 4,
+          "word_id": "hsk4_584"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "灭"
+        },
+        {
+          "text": "顶",
+          "pinyin": "dǐng",
+          "hanviet": "Đỉnh",
+          "meaning_vi": "đỉnh, nóc",
+          "hsk": 5,
+          "word_id": "hsk5_108"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "灾"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "如何在保障全人类公平分享资源开发红利的同时，制定具有严格约束力的深海环境保全守则，成为重大法律考验。",
+      "pinyin": "Rúhé zài bǎozhàng quán rénlèi gōngpíng fēnxiǎng zīyuán kāifā hónglì de tóngshí, zhìdìng jùyǒu yángé yuēshùlì de shēnhǎi huánjìng bǎoquán shǒuzé, chéngwéi zhòngdà fǎlǜ kǎoyàn.",
+      "vi": "Làm thế nào để vừa bảo đảm toàn nhân loại chia sẻ công bằng lợi ích tài nguyên vừa đặt ra quy chế bảo vệ môi trường biển sâu có tính ràng buộc nghiêm ngặt là bài toán pháp lý lớn.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "如何",
+          "pinyin": "rúhé",
+          "hanviet": "Như Hà",
+          "meaning_vi": "như thế nào, làm sao",
+          "hsk": 5,
+          "word_id": "hsk5_396"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "保障",
+          "pinyin": "bǎozhàng",
+          "hanviet": "Bảo Chướng",
+          "meaning_vi": "bảo đảm",
+          "hsk": 6,
+          "word_id": "hsk6_70"
+        },
+        {
+          "text": "全"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "公平",
+          "pinyin": "gōngpíng",
+          "hanviet": "Công Bình",
+          "meaning_vi": "công bằng",
+          "hsk": 5,
+          "word_id": "hsk5_158"
+        },
+        {
+          "text": "分",
+          "pinyin": "fēn",
+          "hanviet": "Phân",
+          "meaning_vi": "phút; điểm; phân (đơn vị tiền)",
+          "hsk": 3,
+          "word_id": "hsk3_69"
+        },
+        {
+          "text": "享",
+          "pinyin": "xiǎng",
+          "hanviet": "Hưởng",
+          "meaning_vi": "hưởng; thụ hưởng; hưởng thụ",
+          "hsk": 7,
+          "word_id": "hsk7_4480"
+        },
+        {
+          "text": "资源",
+          "pinyin": "zīyuán",
+          "hanviet": "Tư Nguyên",
+          "meaning_vi": "tài nguyên",
+          "hsk": 5,
+          "word_id": "hsk5_1282"
+        },
+        {
+          "text": "开发",
+          "pinyin": "kāifā",
+          "hanviet": "Khai Phát",
+          "meaning_vi": "khai phát, phát triển",
+          "hsk": 5,
+          "word_id": "hsk5_913"
+        },
+        {
+          "text": "红利",
+          "pinyin": "hónglì",
+          "hanviet": "Hồng Lợi",
+          "meaning_vi": "cổ tức, tiền lãi cổ phần",
+          "hsk": 7,
+          "word_id": "hsk7_1671"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "同时",
+          "pinyin": "tóngshí",
+          "hanviet": "Đồng Thời",
+          "meaning_vi": "đồng thời",
+          "hsk": 4,
+          "word_id": "hsk4_440"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "制定",
+          "pinyin": "zhìdìng",
+          "hanviet": "Chế Định",
+          "meaning_vi": "đặt ra, định ra (quy định)",
+          "hsk": 5,
+          "word_id": "hsk5_603"
+        },
+        {
+          "text": "具"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "严格",
+          "pinyin": "yángé",
+          "hanviet": "Nghiêm Cách",
+          "meaning_vi": "nghiêm khắc, chặt chẽ",
+          "hsk": 4,
+          "word_id": "hsk4_496"
+        },
+        {
+          "text": "约束",
+          "pinyin": "yuēshù",
+          "hanviet": "Yêu Thúc",
+          "meaning_vi": "ràng buộc, hạn chế",
+          "hsk": 6,
+          "word_id": "hsk6_2474"
+        },
+        {
+          "text": "力"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "深",
+          "pinyin": "shēn",
+          "hanviet": "Thâm",
+          "meaning_vi": "sâu",
+          "hsk": 4,
+          "word_id": "hsk4_372"
+        },
+        {
+          "text": "海"
+        },
+        {
+          "text": "环境",
+          "pinyin": "huánjìng",
+          "hanviet": "Hoàn Cảnh",
+          "meaning_vi": "môi trường",
+          "hsk": 3,
+          "word_id": "hsk3_102"
+        },
+        {
+          "text": "保"
+        },
+        {
+          "text": "全"
+        },
+        {
+          "text": "守"
+        },
+        {
+          "text": "则",
+          "pinyin": "zé",
+          "hanviet": "Tắc",
+          "meaning_vi": "thì, là (liên từ văn viết)",
+          "hsk": 5,
+          "word_id": "hsk5_1229"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "成为",
+          "pinyin": "chéngwéi",
+          "hanviet": "Thành Vi",
+          "meaning_vi": "trở thành",
+          "hsk": 4,
+          "word_id": "hsk4_46"
+        },
+        {
+          "text": "重大",
+          "pinyin": "zhòngdà",
+          "hanviet": "Trọng Đại",
+          "meaning_vi": "to lớn, trọng đại",
+          "hsk": 5,
+          "word_id": "hsk5_1264"
+        },
+        {
+          "text": "法律",
+          "pinyin": "fǎlǜ",
+          "hanviet": "Pháp Luật",
+          "meaning_vi": "pháp luật",
+          "hsk": 4,
+          "word_id": "hsk4_107"
+        },
+        {
+          "text": "考"
+        },
+        {
+          "text": "验",
+          "pinyin": "yàn",
+          "hanviet": "Nghiệm",
+          "meaning_vi": "kiểm tra; kiểm nghiệm; thử nghiệm",
+          "hsk": 7,
+          "word_id": "hsk7_4756"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "践行真正的海洋正义，要求国际社会在代际公平与生态审慎原则指导下，审慎对待每一项开采决策。",
+      "pinyin": "Jiànxíng zhēnzhèng de hǎiyáng zhèngyì, yāoqiú guójì shèhuì zài dàijì gōngpíng yǔ shēngtài shěnshèn yuánzé zhǐdǎo xià, shěnshèn duìdài měi yí xiàng kāicǎi juécè.",
+      "vi": "Thực thi công lý đại dương chân chính đòi hỏi cộng đồng quốc tế dưới sự dẫn đường của nguyên tắc công bằng giữa các thế hệ và thận trọng sinh thái phải thận trọng trong từng quyết định khai thác.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "践"
+        },
+        {
+          "text": "行",
+          "pinyin": "xíng",
+          "hanviet": "Hành",
+          "meaning_vi": "được, ổn",
+          "hsk": 4,
+          "word_id": "hsk4_483"
+        },
+        {
+          "text": "真正",
+          "pinyin": "zhēnzhèng",
+          "hanviet": "Chân Chính",
+          "meaning_vi": "thực sự, chân chính",
+          "hsk": 4,
+          "word_id": "hsk4_556"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "海洋",
+          "pinyin": "hǎiyáng",
+          "hanviet": "Hải Dương",
+          "meaning_vi": "biển, đại dương",
+          "hsk": 4,
+          "word_id": "hsk4_164"
+        },
+        {
+          "text": "正",
+          "pinyin": "zhèng",
+          "hanviet": "Chinh",
+          "meaning_vi": "vừa, đang (trạng từ)",
+          "hsk": 5,
+          "word_id": "hsk5_597"
+        },
+        {
+          "text": "义"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "要求",
+          "pinyin": "yāoqiú",
+          "hanviet": "Yêu Cầu",
+          "meaning_vi": "yêu cầu",
+          "hsk": 3,
+          "word_id": "hsk3_252"
+        },
+        {
+          "text": "国际",
+          "pinyin": "guójì",
+          "hanviet": "Quốc Tế",
+          "meaning_vi": "quốc tế",
+          "hsk": 4,
+          "word_id": "hsk4_160"
+        },
+        {
+          "text": "社会",
+          "pinyin": "shèhuì",
+          "hanviet": "Xã Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 4,
+          "word_id": "hsk4_371"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "代"
+        },
+        {
+          "text": "际"
+        },
+        {
+          "text": "公平",
+          "pinyin": "gōngpíng",
+          "hanviet": "Công Bình",
+          "meaning_vi": "công bằng",
+          "hsk": 5,
+          "word_id": "hsk5_158"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "生态",
+          "pinyin": "shēngtài",
+          "hanviet": "Sinh Thái",
+          "meaning_vi": "sinh thái",
+          "hsk": 6,
+          "word_id": "hsk6_1855"
+        },
+        {
+          "text": "审",
+          "pinyin": "shěn",
+          "hanviet": "Thẩm",
+          "meaning_vi": "xét xử; thẩm tra",
+          "hsk": 7,
+          "word_id": "hsk7_3593"
+        },
+        {
+          "text": "慎"
+        },
+        {
+          "text": "原则",
+          "pinyin": "yuánzé",
+          "hanviet": "Nguyên Tắc",
+          "meaning_vi": "nguyên tắc",
+          "hsk": 5,
+          "word_id": "hsk5_1224"
+        },
+        {
+          "text": "指导",
+          "pinyin": "zhǐdǎo",
+          "hanviet": "Chỉ Đạo",
+          "meaning_vi": "chỉ đạo, hướng dẫn",
+          "hsk": 5,
+          "word_id": "hsk5_602"
+        },
+        {
+          "text": "下",
+          "pinyin": "xià",
+          "hanviet": "Hạ",
+          "meaning_vi": "dưới",
+          "hsk": 1,
+          "word_id": "hsk1_115"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "审",
+          "pinyin": "shěn",
+          "hanviet": "Thẩm",
+          "meaning_vi": "xét xử; thẩm tra",
+          "hsk": 7,
+          "word_id": "hsk7_3593"
+        },
+        {
+          "text": "慎"
+        },
+        {
+          "text": "对待",
+          "pinyin": "duìdài",
+          "hanviet": "Đối Đãi",
+          "meaning_vi": "đối xử",
+          "hsk": 5,
+          "word_id": "hsk5_115"
+        },
+        {
+          "text": "每",
+          "pinyin": "měi",
+          "hanviet": "Mỗi",
+          "meaning_vi": "mỗi",
+          "hsk": 2,
+          "word_id": "hsk2_70"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "项",
+          "pinyin": "xiàng",
+          "hanviet": "Hạng",
+          "meaning_vi": "khoản, mục (lượng từ)",
+          "hsk": 5,
+          "word_id": "hsk5_1162"
+        },
+        {
+          "text": "开采",
+          "pinyin": "kāicǎi",
+          "hanviet": "Khai Thái",
+          "meaning_vi": "khai thác (mỏ)",
+          "hsk": 6,
+          "word_id": "hsk6_1289"
+        },
+        {
+          "text": "决策",
+          "pinyin": "juécè",
+          "hanviet": "Quyết Sách",
+          "meaning_vi": "quyết sách, ra quyết định",
+          "hsk": 6,
+          "word_id": "hsk6_1278"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk5_293",
+    "hsk4_164",
+    "hsk7_1406",
+    "hsk3_88",
+    "hsk7_1491",
+    "hsk5_132",
+    "hsk4_512",
+    "hsk2_105",
+    "hsk1_15",
+    "hsk4_160",
+    "hsk4_90",
+    "hsk6_1733",
+    "hsk5_1282",
+    "hsk7_5456",
+    "hsk6_1753"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Quy chế pháp lý của vùng đáy biển quốc tế theo UNCLOS là gì?",
+      "options_vi": [
+        "Tài sản riêng của quốc gia tìm thấy trước",
+        "Di sản chung của toàn thể nhân loại",
+        "Khu vực không có pháp luật"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 庄严确立为全人类共同继承财产."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Mối lo ngại sinh thái lớn nhất khi tiến hành khai thác mỏ dưới đáy biển sâu là gì?",
+      "options_vi": [
+        "Làm bão lũ nhiều hơn trên bờ",
+        "Gây thảm họa hủy diệt không thể phục hồi đối với hệ sinh thái đáy biển sâu",
+        "Làm nước biển ấm lên ngay lập tức"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 对极其脆弱的深海冷泉热液生态系统造成不可逆转的灭顶之灾."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Nguyên tắc cốt lõi để bảo đảm công lý đại dương trong quản trị biển là gì?",
+      "options_vi": [
+        "Khai thác tối đa chia tiền ngay",
+        "Công bằng giữa các thế hệ và nguyên tắc thận trọng sinh thái",
+        "Bỏ qua ý kiến của các nước đang phát triển"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 在代际公平与生态审慎原则指导下，审慎对待开采决策."
+    }
+  ]
+}

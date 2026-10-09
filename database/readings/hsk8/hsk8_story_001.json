@@ -1,0 +1,1173 @@
+{
+  "id": "hsk8_story_001",
+  "level": "HSK8",
+  "title": {
+    "zh": "比较文学视域下的文明互鉴",
+    "vi": "Giao lưu văn minh dưới góc nhìn văn học so sánh"
+  },
+  "topic": "comparative_lit",
+  "topic_vi": "Văn học so sánh",
+  "icon": "📚",
+  "estimatedMinutes": 6,
+  "description_vi": "Khám phá điểm tương đồng và khác biệt giữa các truyền thống văn chương Đông - Tây để hiểu sâu sắc bản chất nhân loại.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "比较文学打破了单一民族文学研究的狭隘藩篱，将文学现象置于更为广阔的世界文化坐标系中审视。",
+      "pinyin": "Bǐjiào wénxué dǎpò le dānyī mínzú wénxué yánjiū de xiá'ài fānlí, jiāng wénxué xiànxiàng zhì yú gèngwéi guǎngkuò de shìjiè wénhuà zuòbiāoxì zhōng shěnshì.",
+      "vi": "Văn học so sánh phá vỡ rào giậu hẹp hòi của nghiên cứu văn học đơn sắc tộc, đặt hiện tượng văn học vào hệ tọa độ văn hóa thế giới rộng lớn hơn để khảo sát.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "比较",
+          "pinyin": "bǐjiào",
+          "hanviet": "Tỷ Giảo",
+          "meaning_vi": "tương đối, so sánh",
+          "hsk": 3,
+          "word_id": "hsk3_18"
+        },
+        {
+          "text": "文学",
+          "pinyin": "wénxué",
+          "hanviet": "Văn Học",
+          "meaning_vi": "văn học",
+          "hsk": 5,
+          "word_id": "hsk5_494"
+        },
+        {
+          "text": "打"
+        },
+        {
+          "text": "破",
+          "pinyin": "pò",
+          "hanviet": "Phá",
+          "meaning_vi": "hỏng, vỡ",
+          "hsk": 4,
+          "word_id": "hsk4_332"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "单"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "民族",
+          "pinyin": "mínzú",
+          "hanviet": "Dân Tộc",
+          "meaning_vi": "dân tộc",
+          "hsk": 4,
+          "word_id": "hsk4_308"
+        },
+        {
+          "text": "文学",
+          "pinyin": "wénxué",
+          "hanviet": "Văn Học",
+          "meaning_vi": "văn học",
+          "hsk": 5,
+          "word_id": "hsk5_494"
+        },
+        {
+          "text": "研究",
+          "pinyin": "yánjiū",
+          "hanviet": "Nghiên Cứu",
+          "meaning_vi": "nghiên cứu",
+          "hsk": 4,
+          "word_id": "hsk4_498"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "狭隘",
+          "pinyin": "xiá'ài",
+          "hanviet": "Hẹp Ải",
+          "meaning_vi": "hẹp hòi",
+          "hsk": 6,
+          "word_id": "hsk6_2186"
+        },
+        {
+          "text": "藩"
+        },
+        {
+          "text": "篱"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "将"
+        },
+        {
+          "text": "文学",
+          "pinyin": "wénxué",
+          "hanviet": "Văn Học",
+          "meaning_vi": "văn học",
+          "hsk": 5,
+          "word_id": "hsk5_494"
+        },
+        {
+          "text": "现象",
+          "pinyin": "xiànxiàng",
+          "hanviet": "Hiện Tượng",
+          "meaning_vi": "hiện tượng",
+          "hsk": 5,
+          "word_id": "hsk5_509"
+        },
+        {
+          "text": "置",
+          "pinyin": "zhì",
+          "hanviet": "Trí",
+          "meaning_vi": "đặt, để, bố trí; bỏ mặc",
+          "hsk": 7,
+          "word_id": "hsk7_5325"
+        },
+        {
+          "text": "于"
+        },
+        {
+          "text": "更",
+          "pinyin": "gèng",
+          "hanviet": "Canh",
+          "meaning_vi": "càng, hơn",
+          "hsk": 3,
+          "word_id": "hsk3_79"
+        },
+        {
+          "text": "为",
+          "pinyin": "wèi",
+          "hanviet": "Vi",
+          "meaning_vi": "vì, cho",
+          "hsk": 3,
+          "word_id": "hsk3_229"
+        },
+        {
+          "text": "广"
+        },
+        {
+          "text": "阔"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "世界",
+          "pinyin": "shìjiè",
+          "hanviet": "Thế Giới",
+          "meaning_vi": "thế giới",
+          "hsk": 3,
+          "word_id": "hsk3_202"
+        },
+        {
+          "text": "文化",
+          "pinyin": "wénhuà",
+          "hanviet": "Văn Hóa",
+          "meaning_vi": "văn hóa",
+          "hsk": 3,
+          "word_id": "hsk3_232"
+        },
+        {
+          "text": "坐",
+          "pinyin": "zuò",
+          "hanviet": "Toạ",
+          "meaning_vi": "ngồi",
+          "hsk": 1,
+          "word_id": "hsk1_150"
+        },
+        {
+          "text": "标",
+          "pinyin": "biāo",
+          "hanviet": "Tiêu",
+          "meaning_vi": "tiêu chuẩn; mục tiêu; dấu",
+          "hsk": 7,
+          "word_id": "hsk7_231"
+        },
+        {
+          "text": "系",
+          "pinyin": "xì",
+          "hanviet": "Hệ",
+          "meaning_vi": "khoa (trong trường đại học)",
+          "hsk": 5,
+          "word_id": "hsk5_1149"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "审视",
+          "pinyin": "shěnshì",
+          "hanviet": "Thẩm Thị",
+          "meaning_vi": "nhìn nhận xem xét kỹ; soi xét",
+          "hsk": 7,
+          "word_id": "hsk7_3601"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "不同地域的经典神话与史诗创作，虽然在语言形式和修辞手法上大相径庭，却无不映照出人类共同的心灵渴望。",
+      "pinyin": "Bùtóng dìyù de jīngdiǎn shénhuà yǔ shǐshī chuàngzuò, suīrán zài yǔyán xíngshì hé xiūcí shǒufǎ shàng dàxiāng-jìngtíng, què wúbù yìngzhào chū rénlèi gòngtóng de xīnlíng kěwàng.",
+      "vi": "Sáng tác thần thoại kinh điển và sử thi ở các vùng miền khác nhau, tuy hình thức ngôn ngữ và thủ pháp tu từ rất khác biệt, song đều phản chiếu khát vọng tâm hồn chung của nhân loại.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "同"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "域"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "经典",
+          "pinyin": "jīngdiǎn",
+          "hanviet": "Kinh Điển",
+          "meaning_vi": "cổ điển, kinh điển",
+          "hsk": 5,
+          "word_id": "hsk5_259"
+        },
+        {
+          "text": "神话",
+          "pinyin": "shénhuà",
+          "hanviet": "Thần Thoại",
+          "meaning_vi": "thần thoại",
+          "hsk": 5,
+          "word_id": "hsk5_1054"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "史"
+        },
+        {
+          "text": "诗",
+          "pinyin": "shī",
+          "hanviet": "Thi",
+          "meaning_vi": "thơ",
+          "hsk": 5,
+          "word_id": "hsk5_416"
+        },
+        {
+          "text": "创作",
+          "pinyin": "chuàngzuò",
+          "hanviet": "Sáng Tác",
+          "meaning_vi": "sáng tác",
+          "hsk": 6,
+          "word_id": "hsk6_470"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "虽"
+        },
+        {
+          "text": "然"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "语言",
+          "pinyin": "yǔyán",
+          "hanviet": "Ngữ Ngôn",
+          "meaning_vi": "ngôn ngữ",
+          "hsk": 4,
+          "word_id": "hsk4_537"
+        },
+        {
+          "text": "形式",
+          "pinyin": "xíngshì",
+          "hanviet": "Hình Thức",
+          "meaning_vi": "hình thức",
+          "hsk": 5,
+          "word_id": "hsk5_1176"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "修"
+        },
+        {
+          "text": "辞",
+          "pinyin": "cí",
+          "hanviet": "Từ",
+          "meaning_vi": "từ chức, từ chối, từ biệt",
+          "hsk": 7,
+          "word_id": "hsk7_652"
+        },
+        {
+          "text": "手法",
+          "pinyin": "shǒufǎ",
+          "hanviet": "Thủ Pháp",
+          "meaning_vi": "kỹ xảo, thủ pháp",
+          "hsk": 6,
+          "word_id": "hsk6_1921"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "相"
+        },
+        {
+          "text": "径"
+        },
+        {
+          "text": "庭"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "却",
+          "pinyin": "què",
+          "hanviet": "Khước",
+          "meaning_vi": "nhưng, lại",
+          "hsk": 4,
+          "word_id": "hsk4_354"
+        },
+        {
+          "text": "无不",
+          "pinyin": "wúbù",
+          "hanviet": "Vô Bất",
+          "meaning_vi": "không ai không; đều; không gì không",
+          "hsk": 7,
+          "word_id": "hsk7_4303"
+        },
+        {
+          "text": "映"
+        },
+        {
+          "text": "照",
+          "pinyin": "zhào",
+          "hanviet": "Chiếu",
+          "meaning_vi": "chiếu, soi",
+          "hsk": 4,
+          "word_id": "hsk4_555"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "共同",
+          "pinyin": "gòngtóng",
+          "hanviet": "Cộng Đồng",
+          "meaning_vi": "chung, cùng nhau",
+          "hsk": 4,
+          "word_id": "hsk4_144"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "心灵",
+          "pinyin": "xīnlíng",
+          "hanviet": "Tâm Linh",
+          "meaning_vi": "tâm hồn",
+          "hsk": 6,
+          "word_id": "hsk6_2250"
+        },
+        {
+          "text": "渴望",
+          "pinyin": "kěwàng",
+          "hanviet": "Khát Vọng",
+          "meaning_vi": "khát khao, mong mỏi",
+          "hsk": 6,
+          "word_id": "hsk6_1312"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "通过对跨文化译介与接受过程的细致考辨，我们可以清晰洞察思想理念在异域土壤中的移植与变异轨迹。",
+      "pinyin": "Tōngguò duì kuà-wénhuà yìjiè yǔ jiēshòu guòchéng de xìzhì kǎobiàn, wǒmen kěyǐ qīngxī dòngchá sīxiǎng lǐniàn zài yìyù tǔrǎng zhōng de yízhí yǔ biànyì guìjì.",
+      "vi": "Qua khảo chứng tỉ mỉ quá trình dịch thuật tiếp nhận đa văn hóa, ta có thể thấu suốt quỹ đạo cấy ghép và biến đổi của tư tưởng trên mảnh đất xứ người.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "通过",
+          "pinyin": "tōngguò",
+          "hanviet": "Thông Qua",
+          "meaning_vi": "thông qua",
+          "hsk": 4,
+          "word_id": "hsk4_438"
+        },
+        {
+          "text": "对",
+          "pinyin": "duì",
+          "hanviet": "Đối",
+          "meaning_vi": "đối với, hướng về (giới từ)",
+          "hsk": 2,
+          "word_id": "hsk2_24"
+        },
+        {
+          "text": "跨",
+          "pinyin": "kuà",
+          "hanviet": "Khoá",
+          "meaning_vi": "vượt qua, bước qua",
+          "hsk": 6,
+          "word_id": "hsk6_1326"
+        },
+        {
+          "text": "文化",
+          "pinyin": "wénhuà",
+          "hanviet": "Văn Hóa",
+          "meaning_vi": "văn hóa",
+          "hsk": 3,
+          "word_id": "hsk3_232"
+        },
+        {
+          "text": "译",
+          "pinyin": "yì",
+          "hanviet": "Dịch",
+          "meaning_vi": "dịch; phiên dịch; biên dịch",
+          "hsk": 7,
+          "word_id": "hsk7_4849"
+        },
+        {
+          "text": "介"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "接受",
+          "pinyin": "jiēshòu",
+          "hanviet": "Tiếp Thọ",
+          "meaning_vi": "tiếp nhận, chấp nhận",
+          "hsk": 4,
+          "word_id": "hsk4_219"
+        },
+        {
+          "text": "过程",
+          "pinyin": "guòchéng",
+          "hanviet": "Quá Trình",
+          "meaning_vi": "quá trình",
+          "hsk": 4,
+          "word_id": "hsk4_163"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "细致",
+          "pinyin": "xìzhì",
+          "hanviet": "Tế Trí",
+          "meaning_vi": "tỉ mỉ, kỹ lưỡng",
+          "hsk": 6,
+          "word_id": "hsk6_2184"
+        },
+        {
+          "text": "考"
+        },
+        {
+          "text": "辨"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "可以",
+          "pinyin": "kěyǐ",
+          "hanviet": "Khả Dĩ",
+          "meaning_vi": "có thể, được",
+          "hsk": 2,
+          "word_id": "hsk2_57"
+        },
+        {
+          "text": "清晰",
+          "pinyin": "qīngxī",
+          "hanviet": "Thanh Tích",
+          "meaning_vi": "rõ ràng, rành mạch",
+          "hsk": 6,
+          "word_id": "hsk6_1716"
+        },
+        {
+          "text": "洞",
+          "pinyin": "dòng",
+          "hanviet": "Động",
+          "meaning_vi": "cái lỗ, hang",
+          "hsk": 5,
+          "word_id": "hsk5_755"
+        },
+        {
+          "text": "察"
+        },
+        {
+          "text": "思想",
+          "pinyin": "sīxiǎng",
+          "hanviet": "Tư Tưởng",
+          "meaning_vi": "tư tưởng, suy nghĩ",
+          "hsk": 5,
+          "word_id": "hsk5_448"
+        },
+        {
+          "text": "理"
+        },
+        {
+          "text": "念",
+          "pinyin": "niàn",
+          "hanviet": "Niệm",
+          "meaning_vi": "đọc, niệm",
+          "hsk": 5,
+          "word_id": "hsk5_982"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "异"
+        },
+        {
+          "text": "域"
+        },
+        {
+          "text": "土壤",
+          "pinyin": "tǔrǎng",
+          "hanviet": "Thổ Nhưỡng",
+          "meaning_vi": "đất, thổ nhưỡng",
+          "hsk": 6,
+          "word_id": "hsk6_2069"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "移植",
+          "pinyin": "yízhí",
+          "hanviet": "Di Thực",
+          "meaning_vi": "cấy ghép (nội tạng); di thực cây",
+          "hsk": 7,
+          "word_id": "hsk7_4840"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "变异",
+          "pinyin": "biànyì",
+          "hanviet": "Biến Dị",
+          "meaning_vi": "biến dị, đột biến",
+          "hsk": 7,
+          "word_id": "hsk7_228"
+        },
+        {
+          "text": "轨迹",
+          "pinyin": "guǐjì",
+          "hanviet": "Quỹ Tích",
+          "meaning_vi": "quỹ đạo, dấu vết",
+          "hsk": 6,
+          "word_id": "hsk6_1011"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "文学互鉴不仅不是消除个性差异的同质化融合，反而是通过对镜自照而重新发现自身传统的独特魅力。",
+      "pinyin": "Wénxué hùjiàn bùjǐn bú shì xiāochú gèxìng chāyì de tóngzhìhuà rónghé, fǎn'ér shì tōngguò duìjìng zìzhào ér chóngxīn fāxiàn zìshēn chuántǒng de dútè mèilì.",
+      "vi": "Sự học hỏi giao lưu văn học không phải là san bằng khác biệt cá tính để đồng hóa, mà ngược lại soi gương phản chiếu để tái khám phá nét đẹp độc đáo của truyền thống mình.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "文学",
+          "pinyin": "wénxué",
+          "hanviet": "Văn Học",
+          "meaning_vi": "văn học",
+          "hsk": 5,
+          "word_id": "hsk5_494"
+        },
+        {
+          "text": "互"
+        },
+        {
+          "text": "鉴"
+        },
+        {
+          "text": "不仅",
+          "pinyin": "bùjǐn",
+          "hanviet": "Bất Cận",
+          "meaning_vi": "không chỉ",
+          "hsk": 4,
+          "word_id": "hsk4_31"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "消除",
+          "pinyin": "xiāochú",
+          "hanviet": "Tiêu Trừ",
+          "meaning_vi": "xóa bỏ, loại bỏ",
+          "hsk": 6,
+          "word_id": "hsk6_2225"
+        },
+        {
+          "text": "个性",
+          "pinyin": "gèxìng",
+          "hanviet": "Cá Tính",
+          "meaning_vi": "cá tính",
+          "hsk": 5,
+          "word_id": "hsk5_805"
+        },
+        {
+          "text": "差",
+          "pinyin": "chà",
+          "hanviet": "Sai",
+          "meaning_vi": "kém, thiếu",
+          "hsk": 3,
+          "word_id": "hsk3_29"
+        },
+        {
+          "text": "异"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "同"
+        },
+        {
+          "text": "质"
+        },
+        {
+          "text": "化"
+        },
+        {
+          "text": "融",
+          "pinyin": "róng",
+          "hanviet": "Dung",
+          "meaning_vi": "tan chảy; hòa tan",
+          "hsk": 7,
+          "word_id": "hsk7_3434"
+        },
+        {
+          "text": "合"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "反而",
+          "pinyin": "fǎnér",
+          "hanviet": "Phản Nhi",
+          "meaning_vi": "ngược lại, trái lại",
+          "hsk": 5,
+          "word_id": "hsk5_129"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "通过",
+          "pinyin": "tōngguò",
+          "hanviet": "Thông Qua",
+          "meaning_vi": "thông qua",
+          "hsk": 4,
+          "word_id": "hsk4_438"
+        },
+        {
+          "text": "对",
+          "pinyin": "duì",
+          "hanviet": "Đối",
+          "meaning_vi": "đối với, hướng về (giới từ)",
+          "hsk": 2,
+          "word_id": "hsk2_24"
+        },
+        {
+          "text": "镜"
+        },
+        {
+          "text": "自"
+        },
+        {
+          "text": "照",
+          "pinyin": "zhào",
+          "hanviet": "Chiếu",
+          "meaning_vi": "chiếu, soi",
+          "hsk": 4,
+          "word_id": "hsk4_555"
+        },
+        {
+          "text": "而",
+          "pinyin": "ér",
+          "hanviet": "Nhi",
+          "meaning_vi": "mà, và",
+          "hsk": 4,
+          "word_id": "hsk4_103"
+        },
+        {
+          "text": "重新",
+          "pinyin": "chóngxīn",
+          "hanviet": "Trọng Tân",
+          "meaning_vi": "lại, làm lại từ đầu",
+          "hsk": 4,
+          "word_id": "hsk4_50"
+        },
+        {
+          "text": "发现",
+          "pinyin": "fāxiàn",
+          "hanviet": "Phát Hiện",
+          "meaning_vi": "phát hiện",
+          "hsk": 3,
+          "word_id": "hsk3_65"
+        },
+        {
+          "text": "自"
+        },
+        {
+          "text": "身"
+        },
+        {
+          "text": "传统",
+          "pinyin": "chuántǒng",
+          "hanviet": "Truyền Thống",
+          "meaning_vi": "truyền thống",
+          "hsk": 5,
+          "word_id": "hsk5_76"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "独特",
+          "pinyin": "dútè",
+          "hanviet": "Độc Đặc",
+          "meaning_vi": "độc đáo",
+          "hsk": 5,
+          "word_id": "hsk5_112"
+        },
+        {
+          "text": "魅力",
+          "pinyin": "mèilì",
+          "hanviet": "Mị Lực",
+          "meaning_vi": "sức hấp dẫn, sự quyến rũ",
+          "hsk": 5,
+          "word_id": "hsk5_964"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "包容多样的文学对话能够超越地缘政治的分歧隔阂，为人类命运共同体铸牢坚韧的情感精神纽带。",
+      "pinyin": "Bāoróng duōyàng de wénxué duìhuà nénggòu chāoyuè dìyuán zhèngzhì de fēnqí géhé, wèi rénlèi mìngyùn gòngtóngtǐ zhù láo jiānrèn de qínggǎn jīngshén niǔdài.",
+      "vi": "Đối thoại văn học dung nạp đa dạng có thể vượt lên chia rẽ địa chính trị, đúc nên mối dây liên kết tinh thần và tình cảm bền chặt cho cộng đồng nhân loại.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "包容",
+          "pinyin": "bāoróng",
+          "hanviet": "Bao Dung",
+          "meaning_vi": "bao dung, độ lượng khoan dung",
+          "hsk": 7,
+          "word_id": "hsk7_102"
+        },
+        {
+          "text": "多",
+          "pinyin": "duō",
+          "hanviet": "Đa",
+          "meaning_vi": "nhiều",
+          "hsk": 1,
+          "word_id": "hsk1_24"
+        },
+        {
+          "text": "样"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "文学",
+          "pinyin": "wénxué",
+          "hanviet": "Văn Học",
+          "meaning_vi": "văn học",
+          "hsk": 5,
+          "word_id": "hsk5_494"
+        },
+        {
+          "text": "对话",
+          "pinyin": "duìhuà",
+          "hanviet": "Đối Thoại",
+          "meaning_vi": "đối thoại",
+          "hsk": 4,
+          "word_id": "hsk4_101"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "够",
+          "pinyin": "gòu",
+          "hanviet": "Cú",
+          "meaning_vi": "đủ",
+          "hsk": 4,
+          "word_id": "hsk4_145"
+        },
+        {
+          "text": "超越",
+          "pinyin": "chāoyuè",
+          "hanviet": "Siêu Việt",
+          "meaning_vi": "vượt qua, siêu việt",
+          "hsk": 6,
+          "word_id": "hsk6_323"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "缘"
+        },
+        {
+          "text": "政治",
+          "pinyin": "zhèngzhì",
+          "hanviet": "Chính Trị",
+          "meaning_vi": "chính trị",
+          "hsk": 5,
+          "word_id": "hsk5_1250"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "分歧",
+          "pinyin": "fēnqí",
+          "hanviet": "Phân Kỳ",
+          "meaning_vi": "sự khác biệt (ý kiến)",
+          "hsk": 6,
+          "word_id": "hsk6_857"
+        },
+        {
+          "text": "隔阂",
+          "pinyin": "géhé",
+          "hanviet": "Cách Ngại",
+          "meaning_vi": "khoảng cách, hiểu lầm",
+          "hsk": 6,
+          "word_id": "hsk6_935"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "为人",
+          "pinyin": "wéirén",
+          "hanviet": "Vi Nhân",
+          "meaning_vi": "làm người; phẩm cách; đối nhân xử thế",
+          "hsk": 7,
+          "word_id": "hsk7_4242"
+        },
+        {
+          "text": "类"
+        },
+        {
+          "text": "命运",
+          "pinyin": "mìngyùn",
+          "hanviet": "Mệnh Vận",
+          "meaning_vi": "vận mệnh, số phận",
+          "hsk": 5,
+          "word_id": "hsk5_974"
+        },
+        {
+          "text": "共同体",
+          "pinyin": "gòngtóngtǐ",
+          "hanviet": "Cộng Đồng Thể",
+          "meaning_vi": "khối cộng đồng, cộng đồng chung",
+          "hsk": 7,
+          "word_id": "hsk7_1415"
+        },
+        {
+          "text": "铸"
+        },
+        {
+          "text": "牢"
+        },
+        {
+          "text": "坚韧",
+          "pinyin": "jiānrèn",
+          "hanviet": "Kiên Nhận",
+          "meaning_vi": "kiên cường bền bỉ, dẻo dai",
+          "hsk": 7,
+          "word_id": "hsk7_1961"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "情"
+        },
+        {
+          "text": "感"
+        },
+        {
+          "text": "精神",
+          "pinyin": "jīngshén",
+          "hanviet": "Tinh Thần",
+          "meaning_vi": "tinh thần",
+          "hsk": 5,
+          "word_id": "hsk5_258"
+        },
+        {
+          "text": "纽带",
+          "pinyin": "niǔdài",
+          "hanviet": "Nữu Đới",
+          "meaning_vi": "cầu nối; mối liên kết; sợi dây liên lạc",
+          "hsk": 7,
+          "word_id": "hsk7_2979"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk3_18",
+    "hsk5_494",
+    "hsk4_332",
+    "hsk1_55",
+    "hsk1_130",
+    "hsk4_308",
+    "hsk4_498",
+    "hsk1_15",
+    "hsk6_2186",
+    "hsk5_509",
+    "hsk7_5325",
+    "hsk3_79",
+    "hsk3_229",
+    "hsk3_202",
+    "hsk3_232"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Ưu thế phương pháp luận của văn học so sánh là gì?",
+      "options_vi": [
+        "Chỉ tập trung vào một nhà văn duy nhất",
+        "Đặt hiện tượng văn học vào hệ quy chiếu văn hóa toàn cầu rộng lớn",
+        "Loại bỏ hoàn toàn yếu tố lịch sử"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 将文学现象置于更为广阔的世界文化坐标系中审视."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Bản chất của giao lưu học hỏi lẫn nhau trong văn học là gì?",
+      "options_vi": [
+        "Đồng hóa làm mất hết bản sắc riêng",
+        "Soi gương phản chiếu để nhận rõ hơn nét đặc sắc truyền thống của mình",
+        "Sao chép nguyên xi văn học nước ngoài"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 通过对镜自照而重新发现自身传统的独特魅力."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Giá trị nhân văn của đối thoại văn học đa dạng là gì?",
+      "options_vi": [
+        "Gây thêm xung đột địa chính trị",
+        "Vượt qua ngăn cách để đúc nên mối dây liên kết tinh thần vững chắc",
+        "Chỉ phục vụ mục đích giải trí"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 超越地缘政治的分歧隔阂，为人类命运共同体铸牢情感精神纽带."
+    }
+  ]
+}

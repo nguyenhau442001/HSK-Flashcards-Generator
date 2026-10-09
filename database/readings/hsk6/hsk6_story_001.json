@@ -1,0 +1,973 @@
+{
+  "id": "hsk6_story_001",
+  "level": "HSK6",
+  "title": {
+    "zh": "深海探测与未知世界",
+    "vi": "Thám hiểm biển sâu và thế giới bí ẩn"
+  },
+  "topic": "ocean_exploration",
+  "topic_vi": "Khoa học đại dương",
+  "icon": "🌊",
+  "estimatedMinutes": 6,
+  "description_vi": "Những bước đột phá của tàu lặn thám hiểm rãnh đại dương và khám phá hệ sinh thái kỳ vĩ.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "深海是地球上最具神秘色彩的未知领域之一，蕴藏着极其丰富的生物资源与矿产宝藏。",
+      "pinyin": "Shēnhǎi shì dìqiú shàng zuì jù shénmì sècǎi de wèizhī lǐngyù zhī yī, yùncáng zhe jíqí fēngfù de shēngwù zīyuán yǔ kuàngchǎn bǎozàng.",
+      "vi": "Biển sâu là một trong những lãnh hạt bí ẩn nhất trên trái đất, ẩn chứa nguồn tài nguyên sinh vật và khoáng sản vô cùng phong phú.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "深",
+          "pinyin": "shēn",
+          "hanviet": "Thâm",
+          "meaning_vi": "sâu",
+          "hsk": 4,
+          "word_id": "hsk4_372"
+        },
+        {
+          "text": "海"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "地球",
+          "pinyin": "dìqiú",
+          "hanviet": "Địa Cầu",
+          "meaning_vi": "địa cầu, Trái Đất",
+          "hsk": 4,
+          "word_id": "hsk4_91"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "最",
+          "pinyin": "zuì",
+          "hanviet": "Tối",
+          "meaning_vi": "nhất",
+          "hsk": 2,
+          "word_id": "hsk2_149"
+        },
+        {
+          "text": "具"
+        },
+        {
+          "text": "神秘",
+          "pinyin": "shénmì",
+          "hanviet": "Thần Bí",
+          "meaning_vi": "thần bí, huyền bí",
+          "hsk": 5,
+          "word_id": "hsk5_413"
+        },
+        {
+          "text": "色彩",
+          "pinyin": "sècǎi",
+          "hanviet": "Sắc Thái",
+          "meaning_vi": "màu sắc, sắc thái",
+          "hsk": 5,
+          "word_id": "hsk5_1040"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "未"
+        },
+        {
+          "text": "知"
+        },
+        {
+          "text": "领域",
+          "pinyin": "lǐngyù",
+          "hanviet": "Lĩnh Vực",
+          "meaning_vi": "lĩnh vực",
+          "hsk": 5,
+          "word_id": "hsk5_298"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "蕴藏",
+          "pinyin": "yùncáng",
+          "hanviet": "Uẩn Tạng",
+          "meaning_vi": "chứa đựng, ẩn chứa",
+          "hsk": 6,
+          "word_id": "hsk6_2478"
+        },
+        {
+          "text": "着",
+          "pinyin": "zhe",
+          "hanviet": "Trước",
+          "meaning_vi": "đang (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_143"
+        },
+        {
+          "text": "极其",
+          "pinyin": "jíqí",
+          "hanviet": "Cực Kì/cực Kỳ",
+          "meaning_vi": "cực kỳ, hết sức",
+          "hsk": 5,
+          "word_id": "hsk5_866"
+        },
+        {
+          "text": "丰富",
+          "pinyin": "fēngfù",
+          "hanviet": "Phong Phú",
+          "meaning_vi": "phong phú",
+          "hsk": 4,
+          "word_id": "hsk4_119"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "生物",
+          "pinyin": "shēngwù",
+          "hanviet": "Sinh Vật",
+          "meaning_vi": "sinh vật",
+          "hsk": 6,
+          "word_id": "hsk6_1856"
+        },
+        {
+          "text": "资源",
+          "pinyin": "zīyuán",
+          "hanviet": "Tư Nguyên",
+          "meaning_vi": "tài nguyên",
+          "hsk": 5,
+          "word_id": "hsk5_1282"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "矿产",
+          "pinyin": "kuàngchǎn",
+          "hanviet": "Khoáng Sản",
+          "meaning_vi": "khoáng sản",
+          "hsk": 7,
+          "word_id": "hsk7_2444"
+        },
+        {
+          "text": "宝藏",
+          "pinyin": "bǎozàng",
+          "hanviet": "Bảo Tàng",
+          "meaning_vi": "kho báu, kho tàng quý giá",
+          "hsk": 7,
+          "word_id": "hsk7_118"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "随着深海潜水器技术的不断突破，科学家们得以深入万米海底观察极端环境下的生命奇迹。",
+      "pinyin": "Suízhe shēnhǎi qiánshuǐqì jìshù de búduàn tūpò, kēxuéjiā men déyǐ shēnrù wàn mǐ hǎidǐ guānchá jiéduān huánjìng xià de shēngmìng qíjì.",
+      "vi": "Cùng với sự đột phá liên tục của công nghệ tàu lặn sâu, các nhà khoa học đã có thể lặn xuống đáy biển vạn mét để quan sát kỳ tích sự sống trong môi trường khắc nghiệt.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "随着",
+          "pinyin": "suízhe",
+          "hanviet": "Tuỳ Trước",
+          "meaning_vi": "theo cùng với",
+          "hsk": 4,
+          "word_id": "hsk4_415"
+        },
+        {
+          "text": "深",
+          "pinyin": "shēn",
+          "hanviet": "Thâm",
+          "meaning_vi": "sâu",
+          "hsk": 4,
+          "word_id": "hsk4_372"
+        },
+        {
+          "text": "海"
+        },
+        {
+          "text": "潜水",
+          "pinyin": "qiánshuǐ",
+          "hanviet": "Tiềm Thuỷ",
+          "meaning_vi": "lặn (dưới nước)",
+          "hsk": 6,
+          "word_id": "hsk6_1692"
+        },
+        {
+          "text": "器"
+        },
+        {
+          "text": "技术",
+          "pinyin": "jìshù",
+          "hanviet": "Kĩ Thuật/kỹ Thuật",
+          "meaning_vi": "kỹ thuật",
+          "hsk": 4,
+          "word_id": "hsk4_196"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "不断",
+          "pinyin": "búduàn",
+          "hanviet": "Bất Đoạn",
+          "meaning_vi": "không ngừng, liên tục",
+          "hsk": 5,
+          "word_id": "hsk5_30"
+        },
+        {
+          "text": "突破",
+          "pinyin": "tūpò",
+          "hanviet": "Đột Phá",
+          "meaning_vi": "đột phá",
+          "hsk": 6,
+          "word_id": "hsk6_2064"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "科学",
+          "pinyin": "kēxué",
+          "hanviet": "Khoa Học",
+          "meaning_vi": "khoa học",
+          "hsk": 4,
+          "word_id": "hsk4_252"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "们"
+        },
+        {
+          "text": "得",
+          "pinyin": "de",
+          "hanviet": "Đắc",
+          "meaning_vi": "được (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_19"
+        },
+        {
+          "text": "以",
+          "pinyin": "yǐ",
+          "hanviet": "Dĩ",
+          "meaning_vi": "bằng, dùng",
+          "hsk": 4,
+          "word_id": "hsk4_512"
+        },
+        {
+          "text": "深",
+          "pinyin": "shēn",
+          "hanviet": "Thâm",
+          "meaning_vi": "sâu",
+          "hsk": 4,
+          "word_id": "hsk4_372"
+        },
+        {
+          "text": "入"
+        },
+        {
+          "text": "万",
+          "pinyin": "wàn",
+          "hanviet": "Mặc",
+          "meaning_vi": "vạn (mười nghìn)",
+          "hsk": 3,
+          "word_id": "hsk3_227"
+        },
+        {
+          "text": "米",
+          "pinyin": "mǐ",
+          "hanviet": "Mễ",
+          "meaning_vi": "mét; gạo",
+          "hsk": 3,
+          "word_id": "hsk3_163"
+        },
+        {
+          "text": "海"
+        },
+        {
+          "text": "底",
+          "pinyin": "dǐ",
+          "hanviet": "Để",
+          "meaning_vi": "đáy",
+          "hsk": 4,
+          "word_id": "hsk4_90"
+        },
+        {
+          "text": "观察",
+          "pinyin": "guānchá",
+          "hanviet": "Quan Sát",
+          "meaning_vi": "quan sát",
+          "hsk": 5,
+          "word_id": "hsk5_171"
+        },
+        {
+          "text": "极端",
+          "pinyin": "jíduān",
+          "hanviet": "Cực Đoan",
+          "meaning_vi": "cực đoan",
+          "hsk": 6,
+          "word_id": "hsk6_1124"
+        },
+        {
+          "text": "环境",
+          "pinyin": "huánjìng",
+          "hanviet": "Hoàn Cảnh",
+          "meaning_vi": "môi trường",
+          "hsk": 3,
+          "word_id": "hsk3_102"
+        },
+        {
+          "text": "下",
+          "pinyin": "xià",
+          "hanviet": "Hạ",
+          "meaning_vi": "dưới",
+          "hsk": 1,
+          "word_id": "hsk1_115"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "生命",
+          "pinyin": "shēngmìng",
+          "hanviet": "Sinh Mệnh",
+          "meaning_vi": "sinh mệnh, sự sống",
+          "hsk": 4,
+          "word_id": "hsk4_376"
+        },
+        {
+          "text": "奇迹",
+          "pinyin": "qíjì",
+          "hanviet": "Kỳ Tích",
+          "meaning_vi": "kỳ tích, điều kỳ diệu",
+          "hsk": 5,
+          "word_id": "hsk5_357"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "在完全缺乏阳光与承受巨大水压的海沟深处，许多奇特生物依靠地热能量繁衍生息。",
+      "pinyin": "Zài wánquán quēfá yángguāng yǔ chéngshòu jùdà shuǐyā de hǎigōu shēnchù, xǔduō qítè shēngwù yīkào dìrè néngliàng fányǎn shēngxī.",
+      "vi": "Tại đáy rãnh biển sâu hoàn toàn thiếu ánh sáng mặt trời và chịu áp lực nước khổng lồ, nhiều sinh vật kỳ lạ dựa vào năng lượng địa nhiệt để sinh sôi nảy nở.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "完全",
+          "pinyin": "wánquán",
+          "hanviet": "Hoàn Toàn",
+          "meaning_vi": "hoàn toàn",
+          "hsk": 4,
+          "word_id": "hsk4_446"
+        },
+        {
+          "text": "缺乏",
+          "pinyin": "quēfá",
+          "hanviet": "Khuyết Phạp",
+          "meaning_vi": "thiếu thốn",
+          "hsk": 5,
+          "word_id": "hsk5_381"
+        },
+        {
+          "text": "阳光",
+          "pinyin": "yángguāng",
+          "hanviet": "Dương Quang",
+          "meaning_vi": "ánh nắng",
+          "hsk": 4,
+          "word_id": "hsk4_502"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "承受",
+          "pinyin": "chéngshòu",
+          "hanviet": "Thừa Thọ",
+          "meaning_vi": "chịu đựng, gánh chịu",
+          "hsk": 5,
+          "word_id": "hsk5_55"
+        },
+        {
+          "text": "巨大",
+          "pinyin": "jùdà",
+          "hanviet": "Cự Đại",
+          "meaning_vi": "to lớn",
+          "hsk": 5,
+          "word_id": "hsk5_264"
+        },
+        {
+          "text": "水",
+          "pinyin": "shuǐ",
+          "hanviet": "Thuỷ",
+          "meaning_vi": "nước",
+          "hsk": 1,
+          "word_id": "hsk1_98"
+        },
+        {
+          "text": "压"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "海"
+        },
+        {
+          "text": "沟"
+        },
+        {
+          "text": "深",
+          "pinyin": "shēn",
+          "hanviet": "Thâm",
+          "meaning_vi": "sâu",
+          "hsk": 4,
+          "word_id": "hsk4_372"
+        },
+        {
+          "text": "处"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "许多",
+          "pinyin": "xǔduō",
+          "hanviet": "Hứa Đa",
+          "meaning_vi": "nhiều, rất nhiều",
+          "hsk": 4,
+          "word_id": "hsk4_489"
+        },
+        {
+          "text": "奇特",
+          "pinyin": "qítè",
+          "hanviet": "Cơ Đặc",
+          "meaning_vi": "đặc biệt",
+          "hsk": 7,
+          "word_id": "hsk7_3153"
+        },
+        {
+          "text": "生物",
+          "pinyin": "shēngwù",
+          "hanviet": "Sinh Vật",
+          "meaning_vi": "sinh vật",
+          "hsk": 6,
+          "word_id": "hsk6_1856"
+        },
+        {
+          "text": "依靠",
+          "pinyin": "yīkào",
+          "hanviet": "Y Kháo",
+          "meaning_vi": "dựa vào",
+          "hsk": 6,
+          "word_id": "hsk6_2373"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "热",
+          "pinyin": "rè",
+          "hanviet": "Nhiệt",
+          "meaning_vi": "nóng",
+          "hsk": 1,
+          "word_id": "hsk1_84"
+        },
+        {
+          "text": "能量",
+          "pinyin": "néngliàng",
+          "hanviet": "Năng Lượng",
+          "meaning_vi": "năng lượng",
+          "hsk": 6,
+          "word_id": "hsk6_1546"
+        },
+        {
+          "text": "繁衍",
+          "pinyin": "fányǎn",
+          "hanviet": "Phồn Diễn",
+          "meaning_vi": "sinh sôi nảy nở, duy trì nòi giống",
+          "hsk": 7,
+          "word_id": "hsk7_1071"
+        },
+        {
+          "text": "生"
+        },
+        {
+          "text": "息"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "这些珍贵发现彻底颠覆了人类传统上对生命存在极限的固有认知。",
+      "pinyin": "Zhèxiē zhēnguì fāxiàn chèdǐ diānfù le rénlèi chuántǒng shàng duì shēngmìng cúnzài jíxiàn de gùyǒu rènzhī.",
+      "vi": "Những phát hiện quý báu này đã lật đổ hoàn toàn nhận thức cố hữu truyền thống của nhân loại về giới hạn tồn tại của sự sống.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "些",
+          "pinyin": "xiē",
+          "hanviet": "Ta",
+          "meaning_vi": "vài, một ít",
+          "hsk": 1,
+          "word_id": "hsk1_123"
+        },
+        {
+          "text": "珍"
+        },
+        {
+          "text": "贵",
+          "pinyin": "guì",
+          "hanviet": "Quý",
+          "meaning_vi": "đắt, quý",
+          "hsk": 2,
+          "word_id": "hsk2_35"
+        },
+        {
+          "text": "发现",
+          "pinyin": "fāxiàn",
+          "hanviet": "Phát Hiện",
+          "meaning_vi": "phát hiện",
+          "hsk": 3,
+          "word_id": "hsk3_65"
+        },
+        {
+          "text": "彻底",
+          "pinyin": "chèdǐ",
+          "hanviet": "Triệt Để",
+          "meaning_vi": "triệt để",
+          "hsk": 5,
+          "word_id": "hsk5_50"
+        },
+        {
+          "text": "颠覆",
+          "pinyin": "diānfù",
+          "hanviet": "Điên Phúc",
+          "meaning_vi": "lật đổ, làm đảo lộn",
+          "hsk": 7,
+          "word_id": "hsk7_873"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "传统",
+          "pinyin": "chuántǒng",
+          "hanviet": "Truyền Thống",
+          "meaning_vi": "truyền thống",
+          "hsk": 5,
+          "word_id": "hsk5_76"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "对",
+          "pinyin": "duì",
+          "hanviet": "Đối",
+          "meaning_vi": "đối với, hướng về (giới từ)",
+          "hsk": 2,
+          "word_id": "hsk2_24"
+        },
+        {
+          "text": "生命",
+          "pinyin": "shēngmìng",
+          "hanviet": "Sinh Mệnh",
+          "meaning_vi": "sinh mệnh, sự sống",
+          "hsk": 4,
+          "word_id": "hsk4_376"
+        },
+        {
+          "text": "存在",
+          "pinyin": "cúnzài",
+          "hanviet": "Tồn Tại",
+          "meaning_vi": "tồn tại",
+          "hsk": 5,
+          "word_id": "hsk5_723"
+        },
+        {
+          "text": "极限",
+          "pinyin": "jíxiàn",
+          "hanviet": "Cực Hạn",
+          "meaning_vi": "giới hạn tối đa",
+          "hsk": 6,
+          "word_id": "hsk6_1128"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "固有",
+          "pinyin": "gùyǒu",
+          "hanviet": "Cố Hữu",
+          "meaning_vi": "vốn có, cố hữu",
+          "hsk": 7,
+          "word_id": "hsk7_1458"
+        },
+        {
+          "text": "认"
+        },
+        {
+          "text": "知"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "保护深海脆弱的生态环境，是全人类在探索蓝色星球进程中不可推卸的崇高使命。",
+      "pinyin": "Bǎohù shēnhǎi cuìruò de shēngtài huánjìng, shì quán rénlèi zài tànsuǒ lánsè xīngqiú jìnchéng zhōng bùkě tuīxiè de chónggāo shǐmìng.",
+      "vi": "Bảo vệ môi trường sinh thái mong manh của biển sâu là sứ mệnh cao cả không thể thoái thác của toàn nhân loại trong hành trình khám phá hành tinh xanh.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "保护",
+          "pinyin": "bǎohù",
+          "hanviet": "Bảo Hộ",
+          "meaning_vi": "bảo vệ",
+          "hsk": 4,
+          "word_id": "hsk4_9"
+        },
+        {
+          "text": "深",
+          "pinyin": "shēn",
+          "hanviet": "Thâm",
+          "meaning_vi": "sâu",
+          "hsk": 4,
+          "word_id": "hsk4_372"
+        },
+        {
+          "text": "海"
+        },
+        {
+          "text": "脆弱",
+          "pinyin": "cuìruò",
+          "hanviet": "Thuý Nhược",
+          "meaning_vi": "yếu đuối, mong manh",
+          "hsk": 6,
+          "word_id": "hsk6_506"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "生态",
+          "pinyin": "shēngtài",
+          "hanviet": "Sinh Thái",
+          "meaning_vi": "sinh thái",
+          "hsk": 6,
+          "word_id": "hsk6_1855"
+        },
+        {
+          "text": "环境",
+          "pinyin": "huánjìng",
+          "hanviet": "Hoàn Cảnh",
+          "meaning_vi": "môi trường",
+          "hsk": 3,
+          "word_id": "hsk3_102"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "全"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "探索",
+          "pinyin": "tànsuǒ",
+          "hanviet": "Thám Sách",
+          "meaning_vi": "thám hiểm, tìm hiểu",
+          "hsk": 6,
+          "word_id": "hsk6_1993"
+        },
+        {
+          "text": "蓝",
+          "pinyin": "lán",
+          "hanviet": "Lam",
+          "meaning_vi": "màu xanh dương",
+          "hsk": 3,
+          "word_id": "hsk3_145"
+        },
+        {
+          "text": "色"
+        },
+        {
+          "text": "星球",
+          "pinyin": "xīngqiú",
+          "hanviet": "Tinh Cầu",
+          "meaning_vi": "hành tinh; thiên thể; tinh cầu",
+          "hsk": 7,
+          "word_id": "hsk7_4576"
+        },
+        {
+          "text": "进程",
+          "pinyin": "jìnchéng",
+          "hanviet": "Tiến Trình",
+          "meaning_vi": "tiến trình, quá trình phát triển",
+          "hsk": 7,
+          "word_id": "hsk7_2139"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "可"
+        },
+        {
+          "text": "推卸",
+          "pinyin": "tuīxiè",
+          "hanviet": "Suy Tá",
+          "meaning_vi": "đùn đẩy; thoái thác; trốn tránh",
+          "hsk": 7,
+          "word_id": "hsk7_4134"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "崇高",
+          "pinyin": "chónggāo",
+          "hanviet": "Sùng Cao",
+          "meaning_vi": "cao cả",
+          "hsk": 6,
+          "word_id": "hsk6_409"
+        },
+        {
+          "text": "使命",
+          "pinyin": "shǐmìng",
+          "hanviet": "Sứ Mệnh",
+          "meaning_vi": "sứ mệnh",
+          "hsk": 6,
+          "word_id": "hsk6_1893"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk4_372",
+    "hsk1_96",
+    "hsk4_91",
+    "hsk1_89",
+    "hsk2_149",
+    "hsk5_413",
+    "hsk5_1040",
+    "hsk1_15",
+    "hsk5_298",
+    "hsk4_563",
+    "hsk1_130",
+    "hsk6_2478",
+    "hsk2_143",
+    "hsk5_866",
+    "hsk4_119"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Sinh vật ở rãnh biển sâu sinh tồn dựa vào nguồn năng lượng nào?",
+      "options_vi": [
+        "Ánh sáng mặt trời",
+        "Năng lượng địa nhiệt",
+        "Thức ăn do con người cung cấp"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 许多奇特生物依靠地热能量繁衍生息."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Phát hiện sinh vật biển sâu mang lại ý nghĩa gì cho giới khoa học?",
+      "options_vi": [
+        "Lật đổ nhận thức cũ về giới hạn tồn tại của sự sống",
+        "Chứng minh không có sự sống ở đáy biển",
+        "Cho thấy biển sâu rất ô nhiễm"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu có viết: 彻底颠覆了人类传统上对生命存在极限的固有认知."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Sứ mệnh của nhân loại đối với biển sâu là gì?",
+      "options_vi": [
+        "Khai thác cạn kiệt tài nguyên",
+        "Bảo vệ môi trường sinh thái mong manh của biển sâu",
+        "Bỏ qua không quan tâm"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 保护深海脆弱的生态环境，是全人类不可推卸的崇高使命."
+    }
+  ]
+}

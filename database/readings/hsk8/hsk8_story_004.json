@@ -1,0 +1,1234 @@
+{
+  "id": "hsk8_story_004",
+  "level": "HSK8",
+  "title": {
+    "zh": "中华文明探源与考古学实证",
+    "vi": "Tìm về cội nguồn văn minh và bằng chứng khảo cổ học"
+  },
+  "topic": "archaeology_origins",
+  "topic_vi": "Khảo cổ & Lịch sử",
+  "icon": "🏺",
+  "estimatedMinutes": 8,
+  "description_vi": "Những phát hiện khai quật tại Lương Chữ và Tam Tinh Đôi chứng minh mô hình 'sao trời muôn dặm' của văn minh cổ.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "探索中华文明的起源与演进历程，是揭示中华民族精神根脉与文化基因的重大国家科学工程。",
+      "pinyin": "Tànsuǒ zhōnghuá wénmíng de qǐyuán yǔ yǎnjìn lìchéng, shì jiēshì zhōnghuá mínzú jīngshén gēnmài yǔ wénhuà jīyīn de zhòngdà guójiā kēxué gōngchéng.",
+      "vi": "Khám phá nguồn cội và tiến trình phát triển của văn minh Trung Hoa là công trình khoa học quốc gia trọng đại hé mở cội nguồn tinh thần và gen văn hóa dân tộc.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "探索",
+          "pinyin": "tànsuǒ",
+          "hanviet": "Thám Sách",
+          "meaning_vi": "thám hiểm, tìm hiểu",
+          "hsk": 6,
+          "word_id": "hsk6_1993"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "华"
+        },
+        {
+          "text": "文明",
+          "pinyin": "wénmíng",
+          "hanviet": "Văn Minh",
+          "meaning_vi": "văn minh",
+          "hsk": 5,
+          "word_id": "hsk5_1138"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "起源",
+          "pinyin": "qǐyuán",
+          "hanviet": "Khởi Nguyên",
+          "meaning_vi": "nguồn gốc, khởi nguồn",
+          "hsk": 6,
+          "word_id": "hsk6_1656"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "演"
+        },
+        {
+          "text": "进",
+          "pinyin": "jìn",
+          "hanviet": "Tiến",
+          "meaning_vi": "vào",
+          "hsk": 2,
+          "word_id": "hsk2_50"
+        },
+        {
+          "text": "历程",
+          "pinyin": "lìchéng",
+          "hanviet": "Lịch Trình",
+          "meaning_vi": "chặng đường, hành trình, quá trình",
+          "hsk": 7,
+          "word_id": "hsk7_2543"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "揭示",
+          "pinyin": "jiēshì",
+          "hanviet": "Yết Thị",
+          "meaning_vi": "làm sáng tỏ, hé lộ, vạch rõ",
+          "hsk": 7,
+          "word_id": "hsk7_2081"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "华"
+        },
+        {
+          "text": "民族",
+          "pinyin": "mínzú",
+          "hanviet": "Dân Tộc",
+          "meaning_vi": "dân tộc",
+          "hsk": 4,
+          "word_id": "hsk4_308"
+        },
+        {
+          "text": "精神",
+          "pinyin": "jīngshén",
+          "hanviet": "Tinh Thần",
+          "meaning_vi": "tinh thần",
+          "hsk": 5,
+          "word_id": "hsk5_258"
+        },
+        {
+          "text": "根",
+          "pinyin": "gēn",
+          "hanviet": "Căn",
+          "meaning_vi": "rễ, gốc",
+          "hsk": 5,
+          "word_id": "hsk5_806"
+        },
+        {
+          "text": "脉"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "文化",
+          "pinyin": "wénhuà",
+          "hanviet": "Văn Hóa",
+          "meaning_vi": "văn hóa",
+          "hsk": 3,
+          "word_id": "hsk3_232"
+        },
+        {
+          "text": "基因",
+          "pinyin": "jīyīn",
+          "hanviet": "Cơ Nhân",
+          "meaning_vi": "gene",
+          "hsk": 6,
+          "word_id": "hsk6_1120"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "重大",
+          "pinyin": "zhòngdà",
+          "hanviet": "Trọng Đại",
+          "meaning_vi": "to lớn, trọng đại",
+          "hsk": 5,
+          "word_id": "hsk5_1264"
+        },
+        {
+          "text": "国家",
+          "pinyin": "guójiā",
+          "hanviet": "Quốc Gia",
+          "meaning_vi": "quốc gia",
+          "hsk": 3,
+          "word_id": "hsk3_88"
+        },
+        {
+          "text": "科学",
+          "pinyin": "kēxué",
+          "hanviet": "Khoa Học",
+          "meaning_vi": "khoa học",
+          "hsk": 4,
+          "word_id": "hsk4_252"
+        },
+        {
+          "text": "工程",
+          "pinyin": "gōngchéng",
+          "hanviet": "Công Trình",
+          "meaning_vi": "công trình, kỹ thuật",
+          "hsk": 6,
+          "word_id": "hsk6_944"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "良渚古城巍峨的水利工程和精美玉器礼乐系统，确证了长江流域早在五千年前就已迈入成熟的国家文明阶段。",
+      "pinyin": "Liángzhǔ gǔchéng wēi'é de shuǐlì gōngchéng hé jīngměi yùqì lǐyuè xìtǒng, quèzhèng le Chángjiāng liùyù zǎo zài wǔqiān nián qián jiù yǐ màirù chéngshú de guójiā wénmíng jiēduàn.",
+      "vi": "Công trình thủy lợi đồ sộ cùng hệ thống ngọc khí lễ nhạc tinh xảo tại cổ thành Lương Chữ xác thực lưu vực Trường Giang từ 5000 năm trước đã bước vào giai đoạn văn minh quốc gia trưởng thành.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "良",
+          "pinyin": "liáng",
+          "hanviet": "Lương",
+          "meaning_vi": "lành, tốt, lương (hảo)",
+          "hsk": 7,
+          "word_id": "hsk7_2585"
+        },
+        {
+          "text": "渚"
+        },
+        {
+          "text": "古"
+        },
+        {
+          "text": "城"
+        },
+        {
+          "text": "巍"
+        },
+        {
+          "text": "峨"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "水利",
+          "pinyin": "shuǐlì",
+          "hanviet": "Thủy Lợi",
+          "meaning_vi": "thủy lợi",
+          "hsk": 6,
+          "word_id": "hsk6_1948"
+        },
+        {
+          "text": "工程",
+          "pinyin": "gōngchéng",
+          "hanviet": "Công Trình",
+          "meaning_vi": "công trình, kỹ thuật",
+          "hsk": 6,
+          "word_id": "hsk6_944"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "精",
+          "pinyin": "jīng",
+          "hanviet": "Tinh",
+          "meaning_vi": "tinh thông, tinh vi, tinh nhuệ",
+          "hsk": 7,
+          "word_id": "hsk7_2154"
+        },
+        {
+          "text": "美"
+        },
+        {
+          "text": "玉",
+          "pinyin": "yù",
+          "hanviet": "Ngọc",
+          "meaning_vi": "ngọc",
+          "hsk": 6,
+          "word_id": "hsk6_2459"
+        },
+        {
+          "text": "器"
+        },
+        {
+          "text": "礼"
+        },
+        {
+          "text": "乐"
+        },
+        {
+          "text": "系统",
+          "pinyin": "xìtǒng",
+          "hanviet": "Hệ Thống",
+          "meaning_vi": "hệ thống",
+          "hsk": 5,
+          "word_id": "hsk5_502"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "确"
+        },
+        {
+          "text": "证"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "长江",
+          "pinyin": "chángjiāng",
+          "hanviet": "Trường Giang",
+          "meaning_vi": "sông Trường Giang",
+          "hsk": 4,
+          "word_id": "hsk4_41"
+        },
+        {
+          "text": "流域",
+          "pinyin": "liúyù",
+          "hanviet": "Lưu Vực",
+          "meaning_vi": "lưu vực",
+          "hsk": 6,
+          "word_id": "hsk6_1434"
+        },
+        {
+          "text": "早"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "五",
+          "pinyin": "wǔ",
+          "hanviet": "Ngũ",
+          "meaning_vi": "năm",
+          "hsk": 1,
+          "word_id": "hsk1_113"
+        },
+        {
+          "text": "千",
+          "pinyin": "qiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "nghìn",
+          "hsk": 2,
+          "word_id": "hsk2_84"
+        },
+        {
+          "text": "年",
+          "pinyin": "nián",
+          "hanviet": "Niên",
+          "meaning_vi": "năm",
+          "hsk": 1,
+          "word_id": "hsk1_74"
+        },
+        {
+          "text": "前"
+        },
+        {
+          "text": "就",
+          "pinyin": "jiù",
+          "hanviet": "Tựu",
+          "meaning_vi": "là, ngay (trợ từ nhấn mạnh)",
+          "hsk": 2,
+          "word_id": "hsk2_51"
+        },
+        {
+          "text": "已"
+        },
+        {
+          "text": "迈",
+          "pinyin": "mài",
+          "hanviet": "Mại",
+          "meaning_vi": "bước, sải bước",
+          "hsk": 6,
+          "word_id": "hsk6_1462"
+        },
+        {
+          "text": "入"
+        },
+        {
+          "text": "成熟",
+          "pinyin": "chéngshú",
+          "hanviet": "Thành Thục",
+          "meaning_vi": "chín, trưởng thành",
+          "hsk": 5,
+          "word_id": "hsk5_699"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "国家",
+          "pinyin": "guójiā",
+          "hanviet": "Quốc Gia",
+          "meaning_vi": "quốc gia",
+          "hsk": 3,
+          "word_id": "hsk3_88"
+        },
+        {
+          "text": "文明",
+          "pinyin": "wénmíng",
+          "hanviet": "Văn Minh",
+          "meaning_vi": "văn minh",
+          "hsk": 5,
+          "word_id": "hsk5_1138"
+        },
+        {
+          "text": "阶段",
+          "pinyin": "jiēduàn",
+          "hanviet": "Giai Đoạn",
+          "meaning_vi": "giai đoạn",
+          "hsk": 5,
+          "word_id": "hsk5_894"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "三星堆祭祀坑出土的造型奇绝的青铜面具与黄金器皿，展现出多元一体文明格局中令人震撼的璀璨篇章。",
+      "pinyin": "Sānxīngduī jìsì kēng chūtǔ de zàoxíng qíjué de qīngtóng miànjù yǔ huángjīn qìmǐn, zhǎnxiàn chū duōyuán-yītǐ wénmíng géjú zhōng lìngrén zhènhàn de cuǐcàn piānzhāng.",
+      "vi": "Mặt nạ đồng thau và đồ vàng tạo hình kỳ tuyệt khai quật tại hố tế tự Tam Tinh Đôi mở ra chương sử rực rỡ đầy kinh ngạc trong cục diện văn minh đa nguyên nhất thể.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "三",
+          "pinyin": "sān",
+          "hanviet": "Tam",
+          "meaning_vi": "ba",
+          "hsk": 1,
+          "word_id": "hsk1_87"
+        },
+        {
+          "text": "星"
+        },
+        {
+          "text": "堆",
+          "pinyin": "duī",
+          "hanviet": "Đồi",
+          "meaning_vi": "đống, chồng",
+          "hsk": 5,
+          "word_id": "hsk5_759"
+        },
+        {
+          "text": "祭祀",
+          "pinyin": "jìsì",
+          "hanviet": "Tế Tự",
+          "meaning_vi": "cúng tế, tế lễ, tế tự",
+          "hsk": 7,
+          "word_id": "hsk7_1913"
+        },
+        {
+          "text": "坑",
+          "pinyin": "kēng",
+          "hanviet": "Khanh",
+          "meaning_vi": "cái hố, hầm",
+          "hsk": 6,
+          "word_id": "hsk6_1303"
+        },
+        {
+          "text": "出土",
+          "pinyin": "chūtǔ",
+          "hanviet": "Xuất Thổ",
+          "meaning_vi": "khai quật, đào được",
+          "hsk": 7,
+          "word_id": "hsk7_590"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "造型",
+          "pinyin": "zàoxíng",
+          "hanviet": "Tạo Hình",
+          "meaning_vi": "tạo hình, kiểu dáng",
+          "hsk": 6,
+          "word_id": "hsk6_2499"
+        },
+        {
+          "text": "奇"
+        },
+        {
+          "text": "绝",
+          "pinyin": "jué",
+          "hanviet": "Tuyệt",
+          "meaning_vi": "tuyệt đối; dứt khoát",
+          "hsk": 7,
+          "word_id": "hsk7_2271"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "青",
+          "pinyin": "qīng",
+          "hanviet": "Thanh",
+          "meaning_vi": "xanh (màu); trẻ",
+          "hsk": 5,
+          "word_id": "hsk5_1016"
+        },
+        {
+          "text": "铜",
+          "pinyin": "tóng",
+          "hanviet": "Đồng",
+          "meaning_vi": "đồng (kim loại)",
+          "hsk": 6,
+          "word_id": "hsk6_2049"
+        },
+        {
+          "text": "面"
+        },
+        {
+          "text": "具"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "黄金",
+          "pinyin": "huángjīn",
+          "hanviet": "Hoàng Kim",
+          "meaning_vi": "vàng",
+          "hsk": 5,
+          "word_id": "hsk5_204"
+        },
+        {
+          "text": "器"
+        },
+        {
+          "text": "皿"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "展"
+        },
+        {
+          "text": "现"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "多",
+          "pinyin": "duō",
+          "hanviet": "Đa",
+          "meaning_vi": "nhiều",
+          "hsk": 1,
+          "word_id": "hsk1_24"
+        },
+        {
+          "text": "元",
+          "pinyin": "yuán",
+          "hanviet": "Nguyên",
+          "meaning_vi": "đồng (tiền)",
+          "hsk": 3,
+          "word_id": "hsk3_272"
+        },
+        {
+          "text": "一体",
+          "pinyin": "yìtǐ",
+          "hanviet": "Nhất Thể",
+          "meaning_vi": "một khối thống nhất, tích hợp đồng bộ",
+          "hsk": 7,
+          "word_id": "hsk7_4880"
+        },
+        {
+          "text": "文明",
+          "pinyin": "wénmíng",
+          "hanviet": "Văn Minh",
+          "meaning_vi": "văn minh",
+          "hsk": 5,
+          "word_id": "hsk5_1138"
+        },
+        {
+          "text": "格局",
+          "pinyin": "géjú",
+          "hanviet": "Cách Cục",
+          "meaning_vi": "cục diện, cấu trúc tổng thể",
+          "hsk": 6,
+          "word_id": "hsk6_936"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "令"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "震撼",
+          "pinyin": "zhènhàn",
+          "hanviet": "Chấn Hám",
+          "meaning_vi": "chấn động lòng người, rung chuyển sâu sắc",
+          "hsk": 7,
+          "word_id": "hsk7_5231"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "璀璨",
+          "pinyin": "cuǐcàn",
+          "hanviet": "Thôi Xán",
+          "meaning_vi": "rực rỡ lấp lánh, xán lạn",
+          "hsk": 7,
+          "word_id": "hsk7_695"
+        },
+        {
+          "text": "篇",
+          "pinyin": "piān",
+          "hanviet": "Thiên",
+          "meaning_vi": "bài, thiên (lượng từ)",
+          "hsk": 4,
+          "word_id": "hsk4_328"
+        },
+        {
+          "text": "章"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "现代碳十四高精度测年、古DNA基因组学与同位素示踪技术，使考古学家能够以空前的精度复原古代社会图景。",
+      "pinyin": "Xiàndài tàn-shísì gāo jīngdù cènián, gǔ-DNA jīyīnzǔxué yǔ tóngwèisù shìzōng jìshù, shǐ kǎogǔxuéjiā nénggòu yǐ kōngqián de jīngdù fùyuán gǔdài shèhuì tújǐng.",
+      "vi": "Định tuổi carbon-14 độ chính xác cao, gen cổ DNA và đồng vị phóng xạ giúp các nhà khảo cổ phục dựng bức tranh xã hội cổ đại với độ chuẩn xác chưa từng thấy.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "现代",
+          "pinyin": "xiàndài",
+          "hanviet": "Hiện Đại",
+          "meaning_vi": "hiện đại",
+          "hsk": 5,
+          "word_id": "hsk5_1155"
+        },
+        {
+          "text": "碳"
+        },
+        {
+          "text": "十",
+          "pinyin": "shí",
+          "hanviet": "Thập",
+          "meaning_vi": "mười",
+          "hsk": 1,
+          "word_id": "hsk1_94"
+        },
+        {
+          "text": "四",
+          "pinyin": "sì",
+          "hanviet": "Tứ",
+          "meaning_vi": "bốn",
+          "hsk": 1,
+          "word_id": "hsk1_102"
+        },
+        {
+          "text": "高",
+          "pinyin": "gāo",
+          "hanviet": "Cao",
+          "meaning_vi": "cao",
+          "hsk": 2,
+          "word_id": "hsk2_29"
+        },
+        {
+          "text": "精度",
+          "pinyin": "jīngdù",
+          "hanviet": "Tinh Độ",
+          "meaning_vi": "độ chính xác",
+          "hsk": 7,
+          "word_id": "hsk7_2160"
+        },
+        {
+          "text": "测"
+        },
+        {
+          "text": "年",
+          "pinyin": "nián",
+          "hanviet": "Niên",
+          "meaning_vi": "năm",
+          "hsk": 1,
+          "word_id": "hsk1_74"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "古"
+        },
+        {
+          "text": "D"
+        },
+        {
+          "text": "N"
+        },
+        {
+          "text": "A"
+        },
+        {
+          "text": "基因",
+          "pinyin": "jīyīn",
+          "hanviet": "Cơ Nhân",
+          "meaning_vi": "gene",
+          "hsk": 6,
+          "word_id": "hsk6_1120"
+        },
+        {
+          "text": "组",
+          "pinyin": "zǔ",
+          "hanviet": "Tổ",
+          "meaning_vi": "nhóm, tổ",
+          "hsk": 5,
+          "word_id": "hsk5_1292"
+        },
+        {
+          "text": "学"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "同"
+        },
+        {
+          "text": "位",
+          "pinyin": "wèi",
+          "hanviet": "Vị",
+          "meaning_vi": "vị (lượng từ kính trọng)",
+          "hsk": 3,
+          "word_id": "hsk3_231"
+        },
+        {
+          "text": "素",
+          "pinyin": "sù",
+          "hanviet": "Tố",
+          "meaning_vi": "chay; thanh đạm",
+          "hsk": 7,
+          "word_id": "hsk7_3889"
+        },
+        {
+          "text": "示"
+        },
+        {
+          "text": "踪"
+        },
+        {
+          "text": "技术",
+          "pinyin": "jìshù",
+          "hanviet": "Kĩ Thuật/kỹ Thuật",
+          "meaning_vi": "kỹ thuật",
+          "hsk": 4,
+          "word_id": "hsk4_196"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "使",
+          "pinyin": "shǐ",
+          "hanviet": "Sử",
+          "meaning_vi": "làm cho, khiến cho",
+          "hsk": 4,
+          "word_id": "hsk4_386"
+        },
+        {
+          "text": "考古",
+          "pinyin": "kǎogǔ",
+          "hanviet": "Khảo Cổ",
+          "meaning_vi": "khảo cổ",
+          "hsk": 6,
+          "word_id": "hsk6_1300"
+        },
+        {
+          "text": "学"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "够",
+          "pinyin": "gòu",
+          "hanviet": "Cú",
+          "meaning_vi": "đủ",
+          "hsk": 4,
+          "word_id": "hsk4_145"
+        },
+        {
+          "text": "以",
+          "pinyin": "yǐ",
+          "hanviet": "Dĩ",
+          "meaning_vi": "bằng, dùng",
+          "hsk": 4,
+          "word_id": "hsk4_512"
+        },
+        {
+          "text": "空前",
+          "pinyin": "kōngqián",
+          "hanviet": "Không Tiền",
+          "meaning_vi": "chưa từng có, tiền đề chưa từng có",
+          "hsk": 7,
+          "word_id": "hsk7_2374"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "精度",
+          "pinyin": "jīngdù",
+          "hanviet": "Tinh Độ",
+          "meaning_vi": "độ chính xác",
+          "hsk": 7,
+          "word_id": "hsk7_2160"
+        },
+        {
+          "text": "复原",
+          "pinyin": "fùyuán",
+          "hanviet": "Phục Nguyên",
+          "meaning_vi": "phục hồi nguyên trạng, bình phục",
+          "hsk": 7,
+          "word_id": "hsk7_1270"
+        },
+        {
+          "text": "古代",
+          "pinyin": "gǔdài",
+          "hanviet": "Cổ Đại",
+          "meaning_vi": "cổ đại",
+          "hsk": 5,
+          "word_id": "hsk5_166"
+        },
+        {
+          "text": "社会",
+          "pinyin": "shèhuì",
+          "hanviet": "Xã Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 4,
+          "word_id": "hsk4_371"
+        },
+        {
+          "text": "图"
+        },
+        {
+          "text": "景"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "考古发掘生动证明，中华文明如同满天星斗汇聚为奔腾江海，走过了一条兼收并蓄、生生不息的发展长卷。",
+      "pinyin": "Kǎogǔ fājué shēngdòng zhèngmíng, zhōnghuá wénmíng rútóng mǎntiān xīngdǒu huìjù wéi bēnténg jiānghǎi, zǒu guò le yì tiáo jiānshōu-bìngxù, shēngshēng-bùxī de fāzhǎn chángjuàn.",
+      "vi": "Khai quật khảo cổ chứng minh sống động rằng văn minh Trung Hoa tựa muôn vì sao hội tụ thành sông dài cuộn sóng, trải qua trang sử dung nạp đa dạng và trường tồn bất diệt.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "考古",
+          "pinyin": "kǎogǔ",
+          "hanviet": "Khảo Cổ",
+          "meaning_vi": "khảo cổ",
+          "hsk": 6,
+          "word_id": "hsk6_1300"
+        },
+        {
+          "text": "发掘",
+          "pinyin": "fājué",
+          "hanviet": "Phát Quật",
+          "meaning_vi": "khai quật, phát hiện",
+          "hsk": 6,
+          "word_id": "hsk6_769"
+        },
+        {
+          "text": "生动",
+          "pinyin": "shēngdòng",
+          "hanviet": "Sinh Động",
+          "meaning_vi": "sinh động",
+          "hsk": 5,
+          "word_id": "hsk5_414"
+        },
+        {
+          "text": "证明",
+          "pinyin": "zhèngmíng",
+          "hanviet": "Chứng Minh",
+          "meaning_vi": "chứng minh",
+          "hsk": 4,
+          "word_id": "hsk4_562"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "华"
+        },
+        {
+          "text": "文明",
+          "pinyin": "wénmíng",
+          "hanviet": "Văn Minh",
+          "meaning_vi": "văn minh",
+          "hsk": 5,
+          "word_id": "hsk5_1138"
+        },
+        {
+          "text": "如"
+        },
+        {
+          "text": "同"
+        },
+        {
+          "text": "满",
+          "pinyin": "mǎn",
+          "hanviet": "Mãn",
+          "meaning_vi": "đầy",
+          "hsk": 4,
+          "word_id": "hsk4_299"
+        },
+        {
+          "text": "天"
+        },
+        {
+          "text": "星"
+        },
+        {
+          "text": "斗",
+          "pinyin": "dòu",
+          "hanviet": "Đẩu",
+          "meaning_vi": "đấu, đọ sức, chiến đấu",
+          "hsk": 7,
+          "word_id": "hsk7_957"
+        },
+        {
+          "text": "汇聚",
+          "pinyin": "huìjù",
+          "hanviet": "Hối Tụ",
+          "meaning_vi": "quy tụ, tụ hội, hội tụ",
+          "hsk": 7,
+          "word_id": "hsk7_1798"
+        },
+        {
+          "text": "为",
+          "pinyin": "wèi",
+          "hanviet": "Vi",
+          "meaning_vi": "vì, cho",
+          "hsk": 3,
+          "word_id": "hsk3_229"
+        },
+        {
+          "text": "奔",
+          "pinyin": "bèn",
+          "hanviet": "Bôn",
+          "meaning_vi": "lao về phía, chạy hướng tới",
+          "hsk": 7,
+          "word_id": "hsk7_165"
+        },
+        {
+          "text": "腾",
+          "pinyin": "téng",
+          "hanviet": "Đằng",
+          "meaning_vi": "dọn trống; nhường chỗ; nhảy vọt",
+          "hsk": 7,
+          "word_id": "hsk7_3982"
+        },
+        {
+          "text": "江"
+        },
+        {
+          "text": "海"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "走",
+          "pinyin": "zǒu",
+          "hanviet": "Tẩu",
+          "meaning_vi": "đi bộ, rời đi",
+          "hsk": 2,
+          "word_id": "hsk2_148"
+        },
+        {
+          "text": "过",
+          "pinyin": "guo",
+          "hanviet": "Quá",
+          "meaning_vi": "đã từng (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_36"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "条",
+          "pinyin": "tiáo",
+          "hanviet": "Điều",
+          "meaning_vi": "con, dải (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_218"
+        },
+        {
+          "text": "兼",
+          "pinyin": "jiān",
+          "hanviet": "Kiêm",
+          "meaning_vi": "kiêm, đồng thời, gồm cả",
+          "hsk": 7,
+          "word_id": "hsk7_1948"
+        },
+        {
+          "text": "收",
+          "pinyin": "shōu",
+          "hanviet": "Thu",
+          "meaning_vi": "thu, nhận",
+          "hsk": 4,
+          "word_id": "hsk4_392"
+        },
+        {
+          "text": "并"
+        },
+        {
+          "text": "蓄"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "生"
+        },
+        {
+          "text": "生"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "息"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "发展",
+          "pinyin": "fāzhǎn",
+          "hanviet": "Phát Triển",
+          "meaning_vi": "phát triển",
+          "hsk": 4,
+          "word_id": "hsk4_106"
+        },
+        {
+          "text": "长",
+          "pinyin": "cháng",
+          "hanviet": "Trường",
+          "meaning_vi": "dài",
+          "hsk": 2,
+          "word_id": "hsk2_9"
+        },
+        {
+          "text": "卷",
+          "pinyin": "juǎn",
+          "hanviet": "Cuộn",
+          "meaning_vi": "cuốn, cuộn lại",
+          "hsk": 6,
+          "word_id": "hsk6_1277"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk6_1993",
+    "hsk5_1138",
+    "hsk1_15",
+    "hsk6_1656",
+    "hsk4_535",
+    "hsk2_50",
+    "hsk7_2543",
+    "hsk1_96",
+    "hsk7_2081",
+    "hsk4_308",
+    "hsk5_258",
+    "hsk5_806",
+    "hsk3_232",
+    "hsk6_1120",
+    "hsk5_1264"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Phát hiện tại di chỉ Lương Chữ xác nhận điều gì về lịch sử văn minh?",
+      "options_vi": [
+        "Văn minh lưu vực Trường Giang đã bước vào giai đoạn nhà nước từ 5000 năm trước",
+        "Con người thời đó chưa biết làm nông",
+        "Chỉ là một ngôi làng nhỏ lẻ"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 确证了长江流域早在五千年前就已迈入成熟的国家文明阶段."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Di tích Tam Tinh Đôi nổi tiếng với những hiện vật khai quật nào?",
+      "options_vi": [
+        "Mặt nạ đồng thau tạo hình kỳ dị và đồ tạo tác bằng vàng",
+        "Sách in bằng máy",
+        "Gốm công nghiệp"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu có viết: 出土的造型奇绝的青铜面具与黄金器皿."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Đặc trưng hình thành của nền văn minh cổ đại được khẳng định là gì?",
+      "options_vi": [
+        "Một nguồn đơn nhất khép kín",
+        "Mô hình đa nguyên hội tụ tựa muôn vì sao, dung nạp phong phú và trường tồn",
+        "Hoàn toàn vay mượn từ bên ngoài"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 如同满天星斗汇聚为奔腾江海，兼收并蓄、生生不息."
+    }
+  ]
+}

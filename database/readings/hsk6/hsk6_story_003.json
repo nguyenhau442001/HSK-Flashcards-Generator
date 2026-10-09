@@ -1,0 +1,895 @@
+{
+  "id": "hsk6_story_003",
+  "level": "HSK6",
+  "title": {
+    "zh": "生物多样性与自然共生",
+    "vi": "Đa dạng sinh học và cộng sinh cùng tự nhiên"
+  },
+  "topic": "biodiversity",
+  "topic_vi": "Môi trường & Sinh thái",
+  "icon": "🐼",
+  "estimatedMinutes": 6,
+  "description_vi": "Bảo vệ các loài quý hiếm và khôi phục hệ sinh thái cân bằng cho tương lai bền vững.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "生物多样性是地球生命支持系统的基石，维持着自然界脆弱而精妙的动态平衡。",
+      "pinyin": "Shēngwù duōyàngxìng shì dìqiú shēngmìng zhīchí xìtǒng de jīshí, wéichí zhe zìránjiè cuìruò ér jīngmiào de dòngtài pínghéng.",
+      "vi": "Đa dạng sinh học là tảng đá nền móng của hệ thống nâng đỡ sự sống trên trái đất, duy trì sự cân bằng động tinh vi mong manh của giới tự nhiên.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "生物",
+          "pinyin": "shēngwù",
+          "hanviet": "Sinh Vật",
+          "meaning_vi": "sinh vật",
+          "hsk": 6,
+          "word_id": "hsk6_1856"
+        },
+        {
+          "text": "多",
+          "pinyin": "duō",
+          "hanviet": "Đa",
+          "meaning_vi": "nhiều",
+          "hsk": 1,
+          "word_id": "hsk1_24"
+        },
+        {
+          "text": "样"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "地球",
+          "pinyin": "dìqiú",
+          "hanviet": "Địa Cầu",
+          "meaning_vi": "địa cầu, Trái Đất",
+          "hsk": 4,
+          "word_id": "hsk4_91"
+        },
+        {
+          "text": "生命",
+          "pinyin": "shēngmìng",
+          "hanviet": "Sinh Mệnh",
+          "meaning_vi": "sinh mệnh, sự sống",
+          "hsk": 4,
+          "word_id": "hsk4_376"
+        },
+        {
+          "text": "支持",
+          "pinyin": "zhīchí",
+          "hanviet": "Chi Trì",
+          "meaning_vi": "ủng hộ",
+          "hsk": 4,
+          "word_id": "hsk4_564"
+        },
+        {
+          "text": "系统",
+          "pinyin": "xìtǒng",
+          "hanviet": "Hệ Thống",
+          "meaning_vi": "hệ thống",
+          "hsk": 5,
+          "word_id": "hsk5_502"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "基"
+        },
+        {
+          "text": "石"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "维持",
+          "pinyin": "wéichí",
+          "hanviet": "Duy Trì",
+          "meaning_vi": "duy trì",
+          "hsk": 6,
+          "word_id": "hsk6_2118"
+        },
+        {
+          "text": "着",
+          "pinyin": "zhe",
+          "hanviet": "Trước",
+          "meaning_vi": "đang (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_143"
+        },
+        {
+          "text": "自然界",
+          "pinyin": "zìránjiè",
+          "hanviet": "Tự Nhiên Giới",
+          "meaning_vi": "giới tự nhiên, thế giới tự nhiên",
+          "hsk": 7,
+          "word_id": "hsk7_5522"
+        },
+        {
+          "text": "脆弱",
+          "pinyin": "cuìruò",
+          "hanviet": "Thuý Nhược",
+          "meaning_vi": "yếu đuối, mong manh",
+          "hsk": 6,
+          "word_id": "hsk6_506"
+        },
+        {
+          "text": "而",
+          "pinyin": "ér",
+          "hanviet": "Nhi",
+          "meaning_vi": "mà, và",
+          "hsk": 4,
+          "word_id": "hsk4_103"
+        },
+        {
+          "text": "精妙",
+          "pinyin": "jīngmiào",
+          "hanviet": "Tinh Diệu",
+          "meaning_vi": "tinh diệu, tinh tế kỳ diệu, khéo léo tuyệt vời",
+          "hsk": 7,
+          "word_id": "hsk7_2172"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "动态",
+          "pinyin": "dòngtài",
+          "hanviet": "Động Thái",
+          "meaning_vi": "động thái, diễn biến",
+          "hsk": 6,
+          "word_id": "hsk6_691"
+        },
+        {
+          "text": "平衡",
+          "pinyin": "pínghéng",
+          "hanviet": "Bình Hành",
+          "meaning_vi": "cân bằng",
+          "hsk": 5,
+          "word_id": "hsk5_1003"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "森林砍伐、气候变暖和环境污染正在以前所未有的速度导致物种栖息地破碎化。",
+      "pinyin": "Sēnlín kǎnfá, qìhòu biànnuǎn hé huánjìng wūrǎn zhèngzài yǐ qiánsuǒwèiyǒu de sùdù dǎozhì wùzhǒng qīxīdì pòsuìhuà.",
+      "vi": "Nạn phá rừng, nóng lên toàn cầu và ô nhiễm môi trường đang khiến môi trường sống của các loài bị chia cắt với tốc độ chưa từng có.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "森林",
+          "pinyin": "sēnlín",
+          "hanviet": "Sâm Lâm",
+          "meaning_vi": "rừng",
+          "hsk": 4,
+          "word_id": "hsk4_365"
+        },
+        {
+          "text": "砍伐",
+          "pinyin": "kǎnfá",
+          "hanviet": "Khảm Phạt",
+          "meaning_vi": "chặt phá, đốn hạ (cây cối)",
+          "hsk": 7,
+          "word_id": "hsk7_2324"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "气候",
+          "pinyin": "qìhòu",
+          "hanviet": "Khí Hậu",
+          "meaning_vi": "khí hậu",
+          "hsk": 4,
+          "word_id": "hsk4_338"
+        },
+        {
+          "text": "变"
+        },
+        {
+          "text": "暖和",
+          "pinyin": "nuǎnhuo",
+          "hanviet": "Noãn Hoà",
+          "meaning_vi": "ấm áp",
+          "hsk": 4,
+          "word_id": "hsk4_319"
+        },
+        {
+          "text": "环境",
+          "pinyin": "huánjìng",
+          "hanviet": "Hoàn Cảnh",
+          "meaning_vi": "môi trường",
+          "hsk": 3,
+          "word_id": "hsk3_102"
+        },
+        {
+          "text": "污染",
+          "pinyin": "wūrǎn",
+          "hanviet": "Ô Nhiễm",
+          "meaning_vi": "ô nhiễm",
+          "hsk": 4,
+          "word_id": "hsk4_455"
+        },
+        {
+          "text": "正在",
+          "pinyin": "zhèngzài",
+          "hanviet": "Chinh Tại",
+          "meaning_vi": "đang",
+          "hsk": 2,
+          "word_id": "hsk2_145"
+        },
+        {
+          "text": "以前",
+          "pinyin": "yǐqián",
+          "hanviet": "Dĩ Tiền",
+          "meaning_vi": "trước đây",
+          "hsk": 3,
+          "word_id": "hsk3_258"
+        },
+        {
+          "text": "所",
+          "pinyin": "suǒ",
+          "hanviet": "Sở",
+          "meaning_vi": "nơi, sở (lượng từ tổ chức)",
+          "hsk": 5,
+          "word_id": "hsk5_1095"
+        },
+        {
+          "text": "未"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "速度",
+          "pinyin": "sùdù",
+          "hanviet": "Tốc Độ",
+          "meaning_vi": "tốc độ",
+          "hsk": 4,
+          "word_id": "hsk4_411"
+        },
+        {
+          "text": "导致",
+          "pinyin": "dǎozhì",
+          "hanviet": "Đạo Trí",
+          "meaning_vi": "dẫn đến, gây ra",
+          "hsk": 5,
+          "word_id": "hsk5_743"
+        },
+        {
+          "text": "物种",
+          "pinyin": "wùzhǒng",
+          "hanviet": "Vật Chủng",
+          "meaning_vi": "loài",
+          "hsk": 7,
+          "word_id": "hsk7_4361"
+        },
+        {
+          "text": "栖"
+        },
+        {
+          "text": "息"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "破碎",
+          "pinyin": "pòsuì",
+          "hanviet": "Phá Toái",
+          "meaning_vi": "vỡ nát; vỡ vụn; tan nát",
+          "hsk": 7,
+          "word_id": "hsk7_3130"
+        },
+        {
+          "text": "化"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "建立国家公园与自然保护区，为濒危野生动植物提供了休养生息的庇护港湾。",
+      "pinyin": "Jiànlì guójiā gōngyuán yǔ zìrán bǎohùqū, wèi bīnwēi yèshēng dòngzhíwù tígōng le xiūyǎng shēngxī de bìhù gǎngwān.",
+      "vi": "Xây dựng các vườn quốc gia và khu bảo tồn thiên nhiên đã mang lại bến đỗ bình yên để các loài động thực vật hoang dã nguy cấp sinh sôi hồi phục.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "建立",
+          "pinyin": "jiànlì",
+          "hanviet": "Kiến Lập",
+          "meaning_vi": "xây dựng, kiến lập",
+          "hsk": 5,
+          "word_id": "hsk5_886"
+        },
+        {
+          "text": "国家",
+          "pinyin": "guójiā",
+          "hanviet": "Quốc Gia",
+          "meaning_vi": "quốc gia",
+          "hsk": 3,
+          "word_id": "hsk3_88"
+        },
+        {
+          "text": "公园",
+          "pinyin": "gōngyuán",
+          "hanviet": "Công Viên",
+          "meaning_vi": "công viên",
+          "hsk": 3,
+          "word_id": "hsk3_81"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "自然",
+          "pinyin": "zìrán",
+          "hanviet": "Tự Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_589"
+        },
+        {
+          "text": "保护",
+          "pinyin": "bǎohù",
+          "hanviet": "Bảo Hộ",
+          "meaning_vi": "bảo vệ",
+          "hsk": 4,
+          "word_id": "hsk4_9"
+        },
+        {
+          "text": "区"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "为",
+          "pinyin": "wèi",
+          "hanviet": "Vi",
+          "meaning_vi": "vì, cho",
+          "hsk": 3,
+          "word_id": "hsk3_229"
+        },
+        {
+          "text": "濒危",
+          "pinyin": "bīnwēi",
+          "hanviet": "Tần Nguy",
+          "meaning_vi": "nguy cấp, có nguy cơ tuyệt chủng",
+          "hsk": 7,
+          "word_id": "hsk7_258"
+        },
+        {
+          "text": "野"
+        },
+        {
+          "text": "生动",
+          "pinyin": "shēngdòng",
+          "hanviet": "Sinh Động",
+          "meaning_vi": "sinh động",
+          "hsk": 5,
+          "word_id": "hsk5_414"
+        },
+        {
+          "text": "植物",
+          "pinyin": "zhíwù",
+          "hanviet": "Thực Vật",
+          "meaning_vi": "thực vật",
+          "hsk": 4,
+          "word_id": "hsk4_568"
+        },
+        {
+          "text": "提供",
+          "pinyin": "tígōng",
+          "hanviet": "Đề Cung",
+          "meaning_vi": "cung cấp",
+          "hsk": 4,
+          "word_id": "hsk4_431"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "休养",
+          "pinyin": "xiūyǎng",
+          "hanviet": "Hưu Dưỡng",
+          "meaning_vi": "tĩnh dưỡng; an dưỡng; nghỉ ngơi bồi bổ",
+          "hsk": 7,
+          "word_id": "hsk7_4621"
+        },
+        {
+          "text": "生"
+        },
+        {
+          "text": "息"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "庇"
+        },
+        {
+          "text": "护",
+          "pinyin": "hù",
+          "hanviet": "Hộ",
+          "meaning_vi": "che chở, bảo vệ",
+          "hsk": 7,
+          "word_id": "hsk7_1710"
+        },
+        {
+          "text": "港湾",
+          "pinyin": "gǎngwān",
+          "hanviet": "Cảng Loan",
+          "meaning_vi": "bến cảng, vịnh cảng, bến đỗ bình yên",
+          "hsk": 7,
+          "word_id": "hsk7_1306"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "保护野生动物不仅是出于慈悲之心，更是为了维护人类自身生存所依赖的生态安全。",
+      "pinyin": "Bǎohù yèshēng dòngwù bùjǐn shì chūyú cíbēi zhī xīn, gèng shì wèile wéihù rénlèi zìshēn shēngcún suǒ yīlài de shēngtài ānquán.",
+      "vi": "Bảo vệ động vật hoang dã không chỉ xuất phát từ lòng từ bi, mà còn nhằm bảo vệ an ninh sinh thái mà sự sinh tồn của con người dựa vào.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "保护",
+          "pinyin": "bǎohù",
+          "hanviet": "Bảo Hộ",
+          "meaning_vi": "bảo vệ",
+          "hsk": 4,
+          "word_id": "hsk4_9"
+        },
+        {
+          "text": "野"
+        },
+        {
+          "text": "生动",
+          "pinyin": "shēngdòng",
+          "hanviet": "Sinh Động",
+          "meaning_vi": "sinh động",
+          "hsk": 5,
+          "word_id": "hsk5_414"
+        },
+        {
+          "text": "物"
+        },
+        {
+          "text": "不仅",
+          "pinyin": "bùjǐn",
+          "hanviet": "Bất Cận",
+          "meaning_vi": "không chỉ",
+          "hsk": 4,
+          "word_id": "hsk4_31"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "于"
+        },
+        {
+          "text": "慈"
+        },
+        {
+          "text": "悲"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "心"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "更",
+          "pinyin": "gèng",
+          "hanviet": "Canh",
+          "meaning_vi": "càng, hơn",
+          "hsk": 3,
+          "word_id": "hsk3_79"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "为了",
+          "pinyin": "wèile",
+          "hanviet": "Vi Liễu",
+          "meaning_vi": "để (mục đích)",
+          "hsk": 3,
+          "word_id": "hsk3_230"
+        },
+        {
+          "text": "维护",
+          "pinyin": "wéihù",
+          "hanviet": "Duy Hộ",
+          "meaning_vi": "bảo vệ, gìn giữ",
+          "hsk": 6,
+          "word_id": "hsk6_2119"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "自"
+        },
+        {
+          "text": "身"
+        },
+        {
+          "text": "生存",
+          "pinyin": "shēngcún",
+          "hanviet": "Sinh Tồn",
+          "meaning_vi": "sinh tồn",
+          "hsk": 6,
+          "word_id": "hsk6_1851"
+        },
+        {
+          "text": "所",
+          "pinyin": "suǒ",
+          "hanviet": "Sở",
+          "meaning_vi": "nơi, sở (lượng từ tổ chức)",
+          "hsk": 5,
+          "word_id": "hsk5_1095"
+        },
+        {
+          "text": "依赖",
+          "pinyin": "yīlài",
+          "hanviet": "Ỷ Lại",
+          "meaning_vi": "phụ thuộc vào",
+          "hsk": 6,
+          "word_id": "hsk6_2374"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "生态",
+          "pinyin": "shēngtài",
+          "hanviet": "Sinh Thái",
+          "meaning_vi": "sinh thái",
+          "hsk": 6,
+          "word_id": "hsk6_1855"
+        },
+        {
+          "text": "安全",
+          "pinyin": "ānquán",
+          "hanviet": "An Toàn",
+          "meaning_vi": "an toàn",
+          "hsk": 4,
+          "word_id": "hsk4_3"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "只有当全社会形成尊重自然、顺应自然的共识，我们才能迎来繁荣美好的明天。",
+      "pinyin": "Zhǐyǒu dāng quán shèhuì xíngchéng zūnzhòng zìrán, shùnyìng zìrán de gòngshí, wǒmen cái néng yínglái fánróng měihǎo de míngtiān.",
+      "vi": "Chỉ khi toàn xã hội hình thành nhận thức chung về tôn trọng tự nhiên và thuận theo tự nhiên, chúng ta mới có thể đón nhận ngày mai phồn vinh tốt đẹp.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "只"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "当",
+          "pinyin": "dāng",
+          "hanviet": "Đương",
+          "meaning_vi": "khi, lúc",
+          "hsk": 4,
+          "word_id": "hsk4_76"
+        },
+        {
+          "text": "全"
+        },
+        {
+          "text": "社会",
+          "pinyin": "shèhuì",
+          "hanviet": "Xã Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 4,
+          "word_id": "hsk4_371"
+        },
+        {
+          "text": "形成",
+          "pinyin": "xíngchéng",
+          "hanviet": "Hình Thành",
+          "meaning_vi": "hình thành",
+          "hsk": 5,
+          "word_id": "hsk5_1175"
+        },
+        {
+          "text": "尊重",
+          "pinyin": "zūnzhòng",
+          "hanviet": "Tôn Trọng",
+          "meaning_vi": "tôn trọng",
+          "hsk": 4,
+          "word_id": "hsk4_594"
+        },
+        {
+          "text": "自然",
+          "pinyin": "zìrán",
+          "hanviet": "Tự Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_589"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "顺应",
+          "pinyin": "shùnyìng",
+          "hanviet": "Thuận Ưng",
+          "meaning_vi": "thuận theo; thích ứng với",
+          "hsk": 7,
+          "word_id": "hsk7_3837"
+        },
+        {
+          "text": "自然",
+          "pinyin": "zìrán",
+          "hanviet": "Tự Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_589"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "共识",
+          "pinyin": "gòngshí",
+          "hanviet": "Cộng Thức",
+          "meaning_vi": "nhận thức chung, sự đồng thuận",
+          "hsk": 7,
+          "word_id": "hsk7_1414"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "才"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "迎"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "繁荣",
+          "pinyin": "fánróng",
+          "hanviet": "Phồn Vinh",
+          "meaning_vi": "phồn vinh, thịnh vượng",
+          "hsk": 5,
+          "word_id": "hsk5_128"
+        },
+        {
+          "text": "美"
+        },
+        {
+          "text": "好",
+          "pinyin": "hǎo",
+          "hanviet": "Hảo",
+          "meaning_vi": "tốt, được",
+          "hsk": 1,
+          "word_id": "hsk1_36"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "明天",
+          "pinyin": "míngtiān",
+          "hanviet": "Minh Thiên",
+          "meaning_vi": "ngày mai",
+          "hsk": 1,
+          "word_id": "hsk1_67"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk6_1856",
+    "hsk1_24",
+    "hsk1_96",
+    "hsk4_91",
+    "hsk4_376",
+    "hsk4_564",
+    "hsk5_502",
+    "hsk1_15",
+    "hsk6_2118",
+    "hsk2_143",
+    "hsk7_5522",
+    "hsk6_506",
+    "hsk4_103",
+    "hsk7_2172",
+    "hsk6_691"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Nguyên nhân nào khiến nơi cư trú của các sinh vật bị chia cắt?",
+      "options_vi": [
+        "Phá rừng, biến đổi khí hậu và ô nhiễm môi trường",
+        "Sự bảo tồn quá mức",
+        "Do động vật di cư tự nhiên"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 森林砍伐、气候变暖和环境污染正在导致物种栖息地破碎化."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Vai trò của các khu bảo tồn thiên nhiên là gì?",
+      "options_vi": [
+        "Khai thác du lịch thương mại",
+        "Cung cấp bến đỗ bảo bọc để các loài quý hiếm hồi phục sinh sôi",
+        "Bắt nhốt động vật"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 为濒危野生动植物提供了休养生息的庇护港湾."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Mục đích cốt lõi của việc bảo vệ động vật hoang dã là gì?",
+      "options_vi": [
+        "Duy trì an ninh sinh thái cho chính sự tồn vong của loài người",
+        "Tạo thú vui tiêu khiển",
+        "Để lấy giống chăn nuôi"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu có viết: 为了维护人类自身生存所依赖的生态安全."
+    }
+  ]
+}

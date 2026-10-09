@@ -1,0 +1,807 @@
+{
+  "id": "hsk5_story_007",
+  "level": "HSK5",
+  "title": {
+    "zh": "心理韧性与压力管理",
+    "vi": "Sức bền tâm lý và quản lý áp lực cuộc sống"
+  },
+  "topic": "psychology_resilience",
+  "topic_vi": "Tâm lý & Bản lĩnh",
+  "icon": "🧘",
+  "estimatedMinutes": 5,
+  "description_vi": "Rèn luyện tâm lý vững vàng, biến áp lực thành động lực tích cực để trưởng thành hơn mỗi ngày.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "在竞争激烈的现代社会，每个人都会不可避免地承受各种心理压力。",
+      "pinyin": "Zài jìngzhēng jīliè de xiàndài shèhuì, měi gè rén dōu huì bùkě-bìmiǎn de chéngshòu gèzhǒng xīnlǐ yālì.",
+      "vi": "Trong xã hội hiện đại cạnh tranh gay gắt, ai cũng khó tránh khỏi việc chịu đựng các áp lực tâm lý.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "竞争",
+          "pinyin": "jìngzhēng",
+          "hanviet": "Cạnh Tranh",
+          "meaning_vi": "cạnh tranh",
+          "hsk": 4,
+          "word_id": "hsk4_237"
+        },
+        {
+          "text": "激烈",
+          "pinyin": "jīliè",
+          "hanviet": "Kích Liệt",
+          "meaning_vi": "kịch liệt, gay gắt",
+          "hsk": 5,
+          "word_id": "hsk5_864"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "现代",
+          "pinyin": "xiàndài",
+          "hanviet": "Hiện Đại",
+          "meaning_vi": "hiện đại",
+          "hsk": 5,
+          "word_id": "hsk5_1155"
+        },
+        {
+          "text": "社会",
+          "pinyin": "shèhuì",
+          "hanviet": "Xã Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 4,
+          "word_id": "hsk4_371"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "每",
+          "pinyin": "měi",
+          "hanviet": "Mỗi",
+          "meaning_vi": "mỗi",
+          "hsk": 2,
+          "word_id": "hsk2_70"
+        },
+        {
+          "text": "个人",
+          "pinyin": "gèrén",
+          "hanviet": "Cá Nhân",
+          "meaning_vi": "cá nhân",
+          "hsk": 5,
+          "word_id": "hsk5_154"
+        },
+        {
+          "text": "都会",
+          "pinyin": "dūhuì",
+          "hanviet": "Đô Hội",
+          "meaning_vi": "đô thị, đại đô thị",
+          "hsk": 7,
+          "word_id": "hsk7_962"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "可"
+        },
+        {
+          "text": "避免",
+          "pinyin": "bìmiǎn",
+          "hanviet": "Tị Miễn",
+          "meaning_vi": "tránh, tránh khỏi",
+          "hsk": 5,
+          "word_id": "hsk5_661"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "承受",
+          "pinyin": "chéngshòu",
+          "hanviet": "Thừa Thọ",
+          "meaning_vi": "chịu đựng, gánh chịu",
+          "hsk": 5,
+          "word_id": "hsk5_55"
+        },
+        {
+          "text": "各",
+          "pinyin": "gè",
+          "hanviet": "Các",
+          "meaning_vi": "mỗi, từng",
+          "hsk": 4,
+          "word_id": "hsk4_140"
+        },
+        {
+          "text": "种",
+          "pinyin": "zhǒng",
+          "hanviet": "Chủng",
+          "meaning_vi": "loại, giống (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_289"
+        },
+        {
+          "text": "心理",
+          "pinyin": "xīnlǐ",
+          "hanviet": "Tâm Lí/tâm Lý",
+          "meaning_vi": "tâm lý",
+          "hsk": 5,
+          "word_id": "hsk5_523"
+        },
+        {
+          "text": "压力",
+          "pinyin": "yālì",
+          "hanviet": "Áp Lực",
+          "meaning_vi": "áp lực",
+          "hsk": 4,
+          "word_id": "hsk4_491"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "适度的压力能够激发我们的潜能，但过度的焦虑则会损害身心健康。",
+      "pinyin": "Shìdù de yālì nénggòu jīfā wǒmen de qiánnéng, dàn guòdù de jiāolǜ zé huì sǔnhài shēnxīn jiànkāng.",
+      "vi": "Áp lực vừa phải có thể khơi dậy tiềm năng, nhưng lo âu quá mức sẽ gây tổn hại sức khỏe thân tâm.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "适"
+        },
+        {
+          "text": "度"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "压力",
+          "pinyin": "yālì",
+          "hanviet": "Áp Lực",
+          "meaning_vi": "áp lực",
+          "hsk": 4,
+          "word_id": "hsk4_491"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "够",
+          "pinyin": "gòu",
+          "hanviet": "Cú",
+          "meaning_vi": "đủ",
+          "hsk": 4,
+          "word_id": "hsk4_145"
+        },
+        {
+          "text": "激发",
+          "pinyin": "jīfā",
+          "hanviet": "Kích Phát",
+          "meaning_vi": "khơi gợi, kích phát",
+          "hsk": 6,
+          "word_id": "hsk6_1111"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "潜能",
+          "pinyin": "qiánnéng",
+          "hanviet": "Tiềm Năng",
+          "meaning_vi": "tiềm năng; năng lực tiềm ẩn",
+          "hsk": 7,
+          "word_id": "hsk7_3225"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "但"
+        },
+        {
+          "text": "过",
+          "pinyin": "guo",
+          "hanviet": "Quá",
+          "meaning_vi": "đã từng (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_36"
+        },
+        {
+          "text": "度"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "焦虑",
+          "pinyin": "jiāolǜ",
+          "hanviet": "Tiêu Lự",
+          "meaning_vi": "lo lắng, lo âu",
+          "hsk": 6,
+          "word_id": "hsk6_1190"
+        },
+        {
+          "text": "则",
+          "pinyin": "zé",
+          "hanviet": "Tắc",
+          "meaning_vi": "thì, là (liên từ văn viết)",
+          "hsk": 5,
+          "word_id": "hsk5_1229"
+        },
+        {
+          "text": "会",
+          "pinyin": "huì",
+          "hanviet": "Hội",
+          "meaning_vi": "biết, sẽ",
+          "hsk": 1,
+          "word_id": "hsk1_43"
+        },
+        {
+          "text": "损"
+        },
+        {
+          "text": "害"
+        },
+        {
+          "text": "身"
+        },
+        {
+          "text": "心"
+        },
+        {
+          "text": "健康",
+          "pinyin": "jiànkāng",
+          "hanviet": "Kiện Khang",
+          "meaning_vi": "khỏe mạnh, sức khỏe",
+          "hsk": 3,
+          "word_id": "hsk3_115"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "培养强大的心理韧性，意味着我们在面对挫折时能够迅速调整心态。",
+      "pinyin": "Péiyǎng qiángdà de xīnlǐ rènxìng, yìwèizhe wǒmen zài miànduì cuòzhé shí nénggòu xùnsù tiáozhěng xīntài.",
+      "vi": "Rèn luyện sức bền tâm lý vững vàng nghĩa là ta có thể nhanh chóng điều chỉnh tâm trạng trước nghịch cảnh.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "培养",
+          "pinyin": "péiyǎng",
+          "hanviet": "Bồi Dưỡng",
+          "meaning_vi": "bồi dưỡng, nuôi dưỡng",
+          "hsk": 5,
+          "word_id": "hsk5_345"
+        },
+        {
+          "text": "强"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "心理",
+          "pinyin": "xīnlǐ",
+          "hanviet": "Tâm Lí/tâm Lý",
+          "meaning_vi": "tâm lý",
+          "hsk": 5,
+          "word_id": "hsk5_523"
+        },
+        {
+          "text": "韧性",
+          "pinyin": "rènxìng",
+          "hanviet": "Nhận Tính",
+          "meaning_vi": "tính dẻo dai; độ bền bỉ",
+          "hsk": 7,
+          "word_id": "hsk7_3425"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "意味着",
+          "pinyin": "yìwèizhe",
+          "hanviet": "Ý Vị Trước",
+          "meaning_vi": "có nghĩa là, ngụ ý rằng",
+          "hsk": 6,
+          "word_id": "hsk6_2403"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "面对",
+          "pinyin": "miànduì",
+          "hanviet": "Diện Đối",
+          "meaning_vi": "đối mặt",
+          "hsk": 5,
+          "word_id": "hsk5_314"
+        },
+        {
+          "text": "挫折",
+          "pinyin": "cuòzhé",
+          "hanviet": "Toả Chiết",
+          "meaning_vi": "thất bại, trắc trở",
+          "hsk": 6,
+          "word_id": "hsk6_512"
+        },
+        {
+          "text": "时"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "够",
+          "pinyin": "gòu",
+          "hanviet": "Cú",
+          "meaning_vi": "đủ",
+          "hsk": 4,
+          "word_id": "hsk4_145"
+        },
+        {
+          "text": "迅速",
+          "pinyin": "xùnsù",
+          "hanviet": "Tấn Tốc",
+          "meaning_vi": "nhanh chóng",
+          "hsk": 5,
+          "word_id": "hsk5_1189"
+        },
+        {
+          "text": "调整",
+          "pinyin": "tiáozhěng",
+          "hanviet": "Điều Chỉnh",
+          "meaning_vi": "điều chỉnh",
+          "hsk": 5,
+          "word_id": "hsk5_467"
+        },
+        {
+          "text": "心态",
+          "pinyin": "xīntài",
+          "hanviet": "Tâm Thái",
+          "meaning_vi": "tâm thế, trạng thái tâm lý",
+          "hsk": 6,
+          "word_id": "hsk6_2251"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "学会倾诉、规律运动以及保持充足睡眠，是有效缓解压力的科学良方。",
+      "pinyin": "Xuéhuì qīngsù, guīlǜ yùndòng yǐjí bǎochí chōngzú shuìmián, shì yǒuxiào huǎnjiě yālì de kēxué liángfāng.",
+      "vi": "Biết chia sẻ, vận động điều độ và ngủ đủ giấc là những phương thuốc khoa học xua tan áp lực.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "学"
+        },
+        {
+          "text": "会",
+          "pinyin": "huì",
+          "hanviet": "Hội",
+          "meaning_vi": "biết, sẽ",
+          "hsk": 1,
+          "word_id": "hsk1_43"
+        },
+        {
+          "text": "倾诉",
+          "pinyin": "qīngsù",
+          "hanviet": "Khuynh Tố",
+          "meaning_vi": "giãi bày; trút bầu tâm sự",
+          "hsk": 7,
+          "word_id": "hsk7_3307"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "规律",
+          "pinyin": "guīlǜ",
+          "hanviet": "Quy Luật",
+          "meaning_vi": "quy luật",
+          "hsk": 5,
+          "word_id": "hsk5_177"
+        },
+        {
+          "text": "运动",
+          "pinyin": "yùndòng",
+          "hanviet": "Vận Động",
+          "meaning_vi": "vận động, thể thao",
+          "hsk": 2,
+          "word_id": "hsk2_138"
+        },
+        {
+          "text": "以及",
+          "pinyin": "yǐjí",
+          "hanviet": "Dĩ Cập",
+          "meaning_vi": "cùng với, và",
+          "hsk": 5,
+          "word_id": "hsk5_1202"
+        },
+        {
+          "text": "保持",
+          "pinyin": "bǎochí",
+          "hanviet": "Bảo Trì",
+          "meaning_vi": "duy trì, giữ vững",
+          "hsk": 5,
+          "word_id": "hsk5_652"
+        },
+        {
+          "text": "充足",
+          "pinyin": "chōngzú",
+          "hanviet": "Sung Túc",
+          "meaning_vi": "đầy đủ, dồi dào",
+          "hsk": 6,
+          "word_id": "hsk6_405"
+        },
+        {
+          "text": "睡"
+        },
+        {
+          "text": "眠"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "效"
+        },
+        {
+          "text": "缓解",
+          "pinyin": "huǎnjiě",
+          "hanviet": "Hoãn Giải",
+          "meaning_vi": "làm giảm, giảm nhẹ",
+          "hsk": 5,
+          "word_id": "hsk5_856"
+        },
+        {
+          "text": "压力",
+          "pinyin": "yālì",
+          "hanviet": "Áp Lực",
+          "meaning_vi": "áp lực",
+          "hsk": 4,
+          "word_id": "hsk4_491"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "科学",
+          "pinyin": "kēxué",
+          "hanviet": "Khoa Học",
+          "meaning_vi": "khoa học",
+          "hsk": 4,
+          "word_id": "hsk4_252"
+        },
+        {
+          "text": "良",
+          "pinyin": "liáng",
+          "hanviet": "Lương",
+          "meaning_vi": "lành, tốt, lương (hảo)",
+          "hsk": 7,
+          "word_id": "hsk7_2585"
+        },
+        {
+          "text": "方",
+          "pinyin": "fāng",
+          "hanviet": "Phương",
+          "meaning_vi": "vuông, phương",
+          "hsk": 5,
+          "word_id": "hsk5_774"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "从容面对生活的起伏，才能在风雨过后迎接属于自己的明媚阳光。",
+      "pinyin": "Cóngróng miànduì shēnghuó de qǐfú, cái néng zài fēngyǔ guòhòu yíngjiē shǔyú zìjǐ de míngmèi yángguāng.",
+      "vi": "Bình thản đón nhận những thăng trầm cuộc đời, ta mới có thể đón ánh nắng rực rỡ sau cơn mưa.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "从容",
+          "pinyin": "cóngróng",
+          "hanviet": "Tòng Dung",
+          "meaning_vi": "điềm tĩnh, ung dung",
+          "hsk": 7,
+          "word_id": "hsk7_677"
+        },
+        {
+          "text": "面对",
+          "pinyin": "miànduì",
+          "hanviet": "Diện Đối",
+          "meaning_vi": "đối mặt",
+          "hsk": 5,
+          "word_id": "hsk5_314"
+        },
+        {
+          "text": "生活",
+          "pinyin": "shēnghuó",
+          "hanviet": "Sinh Hoạt",
+          "meaning_vi": "sinh hoạt, cuộc sống",
+          "hsk": 4,
+          "word_id": "hsk4_375"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "起伏",
+          "pinyin": "qǐfú",
+          "hanviet": "Khởi Phục",
+          "meaning_vi": "lên xuống, nhấp nhô",
+          "hsk": 6,
+          "word_id": "hsk6_1653"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "才"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "风"
+        },
+        {
+          "text": "雨"
+        },
+        {
+          "text": "过",
+          "pinyin": "guo",
+          "hanviet": "Quá",
+          "meaning_vi": "đã từng (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_36"
+        },
+        {
+          "text": "后"
+        },
+        {
+          "text": "迎接",
+          "pinyin": "yíngjiē",
+          "hanviet": "Nghênh Tiếp",
+          "meaning_vi": "đón tiếp, chào đón",
+          "hsk": 5,
+          "word_id": "hsk5_1209"
+        },
+        {
+          "text": "属于",
+          "pinyin": "shǔyú",
+          "hanviet": "Thuộc Vu",
+          "meaning_vi": "thuộc về",
+          "hsk": 5,
+          "word_id": "hsk5_1082"
+        },
+        {
+          "text": "自己",
+          "pinyin": "zìjǐ",
+          "hanviet": "Tự Kỷ",
+          "meaning_vi": "tự mình, bản thân",
+          "hsk": 3,
+          "word_id": "hsk3_294"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "明媚",
+          "pinyin": "míngmèi",
+          "hanviet": "Minh Mị",
+          "meaning_vi": "tươi đẹp; rực rỡ (ánh nắng, cảnh vật)",
+          "hsk": 7,
+          "word_id": "hsk7_2845"
+        },
+        {
+          "text": "阳光",
+          "pinyin": "yángguāng",
+          "hanviet": "Dương Quang",
+          "meaning_vi": "ánh nắng",
+          "hsk": 4,
+          "word_id": "hsk4_502"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk1_139",
+    "hsk4_237",
+    "hsk5_864",
+    "hsk1_15",
+    "hsk5_1155",
+    "hsk4_371",
+    "hsk2_70",
+    "hsk5_154",
+    "hsk7_962",
+    "hsk1_8",
+    "hsk5_661",
+    "hsk3_46",
+    "hsk5_55",
+    "hsk4_140",
+    "hsk3_289"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Tác động của áp lực đối với con người được phân tích như thế nào?",
+      "options_vi": [
+        "Hoàn toàn có hại",
+        "Áp lực vừa phải kích thích tiềm năng, lo âu quá độ gây hại sức khỏe",
+        "Không có ảnh hưởng gì"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 适度的压力能够激发我们的潜能，但过度的焦虑则会损害身心健康."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Biện pháp khoa học nào giúp giải tỏa căng thẳng hiệu quả?",
+      "options_vi": [
+        "Tâm sự, vận động điều độ và ngủ đủ giấc",
+        "Làm việc liên tục không nghỉ",
+        "Tự cô lập bản thân"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu có viết: 学会倾诉、规律运动以及保持充足睡眠，是有效缓解压力的科学良方."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Ý nghĩa của sức bền tâm lý là gì?",
+      "options_vi": [
+        "Không bao giờ gặp khó khăn",
+        "Có thể nhanh chóng điều chỉnh tâm thái khi đối mặt thất bại",
+        "Luôn vui vẻ giả tạo"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 在面对挫折时能够迅速调整心态."
+    }
+  ]
+}

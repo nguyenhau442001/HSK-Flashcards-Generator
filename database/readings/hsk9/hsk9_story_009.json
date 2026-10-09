@@ -1,0 +1,1088 @@
+{
+  "id": "hsk9_story_009",
+  "level": "HSK9",
+  "title": {
+    "zh": "系统性金融风险的演化机制",
+    "vi": "Cơ chế tiến triển của rủi ro tài chính mang tính hệ thống"
+  },
+  "topic": "systemic_financial_risk",
+  "topic_vi": "Kinh tế & Quản trị rủi ro",
+  "icon": "🏦",
+  "estimatedMinutes": 9,
+  "description_vi": "Vòng lặp phản hồi tiêu cực giữa đòn bẩy cao, bong bóng tài sản và sự sụp đổ dây chuyền của các định chế.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "现代金融体系的极端复杂性与高维关联度，使得微小局部风险极易通过网络传染诱发系统性海啸。",
+      "pinyin": "Xiàndài jīnróng tǐxì de jiéduān fùzáxìng yǔ gāowéi guānliándù, shǐde wēixiǎo júbù fēngxiǎn jíyì tōngguò wǎngluò chuánrǎn yòufā xìtǒngxìng hǎixiào.",
+      "vi": "Độ phức tạp cực đoan và tính liên kết đa chiều của hệ thống tài chính hiện đại khiến rủi ro cục bộ nhỏ lẻ rất dễ lây lan qua mạng lưới kích hoạt sóng thần hệ thống.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "现代",
+          "pinyin": "xiàndài",
+          "hanviet": "Hiện Đại",
+          "meaning_vi": "hiện đại",
+          "hsk": 5,
+          "word_id": "hsk5_1155"
+        },
+        {
+          "text": "金融",
+          "pinyin": "jīnróng",
+          "hanviet": "Kim Dung",
+          "meaning_vi": "tài chính, tiền tệ",
+          "hsk": 6,
+          "word_id": "hsk6_1218"
+        },
+        {
+          "text": "体系",
+          "pinyin": "tǐxì",
+          "hanviet": "Thể Hệ",
+          "meaning_vi": "hệ thống",
+          "hsk": 6,
+          "word_id": "hsk6_2016"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "极端",
+          "pinyin": "jíduān",
+          "hanviet": "Cực Đoan",
+          "meaning_vi": "cực đoan",
+          "hsk": 6,
+          "word_id": "hsk6_1124"
+        },
+        {
+          "text": "复杂",
+          "pinyin": "fùzá",
+          "hanviet": "Phức Tạp",
+          "meaning_vi": "phức tạp",
+          "hsk": 4,
+          "word_id": "hsk4_126"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "高",
+          "pinyin": "gāo",
+          "hanviet": "Cao",
+          "meaning_vi": "cao",
+          "hsk": 2,
+          "word_id": "hsk2_29"
+        },
+        {
+          "text": "维"
+        },
+        {
+          "text": "关",
+          "pinyin": "guān",
+          "hanviet": "Quan",
+          "meaning_vi": "đóng, tắt",
+          "hsk": 3,
+          "word_id": "hsk3_84"
+        },
+        {
+          "text": "联"
+        },
+        {
+          "text": "度"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "使",
+          "pinyin": "shǐ",
+          "hanviet": "Sử",
+          "meaning_vi": "làm cho, khiến cho",
+          "hsk": 4,
+          "word_id": "hsk4_386"
+        },
+        {
+          "text": "得",
+          "pinyin": "de",
+          "hanviet": "Đắc",
+          "meaning_vi": "được (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_19"
+        },
+        {
+          "text": "微",
+          "pinyin": "wēi",
+          "hanviet": "Vi",
+          "meaning_vi": "nhỏ bé; vi mô; khẽ",
+          "hsk": 7,
+          "word_id": "hsk7_4220"
+        },
+        {
+          "text": "小",
+          "pinyin": "xiǎo",
+          "hanviet": "Tiểu",
+          "meaning_vi": "nhỏ",
+          "hsk": 1,
+          "word_id": "hsk1_121"
+        },
+        {
+          "text": "局部",
+          "pinyin": "júbù",
+          "hanviet": "Cục Bộ",
+          "meaning_vi": "cục bộ, một phần",
+          "hsk": 6,
+          "word_id": "hsk6_1263"
+        },
+        {
+          "text": "风险",
+          "pinyin": "fēngxiǎn",
+          "hanviet": "Phong Hiểm",
+          "meaning_vi": "rủi ro",
+          "hsk": 5,
+          "word_id": "hsk5_140"
+        },
+        {
+          "text": "极",
+          "pinyin": "jí",
+          "hanviet": "Cực",
+          "meaning_vi": "cực kỳ",
+          "hsk": 3,
+          "word_id": "hsk3_110"
+        },
+        {
+          "text": "易"
+        },
+        {
+          "text": "通过",
+          "pinyin": "tōngguò",
+          "hanviet": "Thông Qua",
+          "meaning_vi": "thông qua",
+          "hsk": 4,
+          "word_id": "hsk4_438"
+        },
+        {
+          "text": "网络",
+          "pinyin": "wǎngluò",
+          "hanviet": "Võng Lạc",
+          "meaning_vi": "mạng, internet",
+          "hsk": 5,
+          "word_id": "hsk5_1125"
+        },
+        {
+          "text": "传染",
+          "pinyin": "chuánrǎn",
+          "hanviet": "Truyền Nhiễm",
+          "meaning_vi": "lây nhiễm",
+          "hsk": 5,
+          "word_id": "hsk5_75"
+        },
+        {
+          "text": "诱发",
+          "pinyin": "yòufā",
+          "hanviet": "Dụ Phát",
+          "meaning_vi": "dẫn đến, kích hoạt, gây khởi phát",
+          "hsk": 7,
+          "word_id": "hsk7_4993"
+        },
+        {
+          "text": "系统",
+          "pinyin": "xìtǒng",
+          "hanviet": "Hệ Thống",
+          "meaning_vi": "hệ thống",
+          "hsk": 5,
+          "word_id": "hsk5_502"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "海啸",
+          "pinyin": "hǎixiào",
+          "hanviet": "Hải Khiếu",
+          "meaning_vi": "sóng thần",
+          "hsk": 7,
+          "word_id": "hsk7_1572"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "在经济繁荣周期的乐观情绪驱动下，过度加杠杆与资产价格泡沫往往相互交织、彼此推波助澜。",
+      "pinyin": "Zài jīngjì fánróng zhōuqī de lèguān qíngxù qūdòng xià, guòdù jiā gànggǎn yǔ zīchǎn jiàgé pàomò wǎngwǎng xiānghù jiāozhī, bǐcǐ tuībō-zhùlán.",
+      "vi": "Dưới tác động của tâm lý lạc quan trong chu kỳ kinh tế phồn vinh, đòn bẩy quá mức và bong bóng giá tài sản thường đan xen, đẩy sóng dâng cao lẫn nhau.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "经济",
+          "pinyin": "jīngjì",
+          "hanviet": "Kinh Tế",
+          "meaning_vi": "kinh tế",
+          "hsk": 4,
+          "word_id": "hsk4_230"
+        },
+        {
+          "text": "繁荣",
+          "pinyin": "fánróng",
+          "hanviet": "Phồn Vinh",
+          "meaning_vi": "phồn vinh, thịnh vượng",
+          "hsk": 5,
+          "word_id": "hsk5_128"
+        },
+        {
+          "text": "周"
+        },
+        {
+          "text": "期"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "乐观",
+          "pinyin": "lèguān",
+          "hanviet": "Lạc Quan",
+          "meaning_vi": "lạc quan",
+          "hsk": 5,
+          "word_id": "hsk5_934"
+        },
+        {
+          "text": "情绪",
+          "pinyin": "qíngxù",
+          "hanviet": "Tình Tự",
+          "meaning_vi": "tâm trạng, cảm xúc",
+          "hsk": 5,
+          "word_id": "hsk5_1021"
+        },
+        {
+          "text": "驱动",
+          "pinyin": "qūdòng",
+          "hanviet": "Khu Động",
+          "meaning_vi": "thúc đẩy; truyền động",
+          "hsk": 7,
+          "word_id": "hsk7_3338"
+        },
+        {
+          "text": "下",
+          "pinyin": "xià",
+          "hanviet": "Hạ",
+          "meaning_vi": "dưới",
+          "hsk": 1,
+          "word_id": "hsk1_115"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "过",
+          "pinyin": "guo",
+          "hanviet": "Quá",
+          "meaning_vi": "đã từng (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_36"
+        },
+        {
+          "text": "度"
+        },
+        {
+          "text": "加"
+        },
+        {
+          "text": "杠杆",
+          "pinyin": "gànggǎn",
+          "hanviet": "Giang Can",
+          "meaning_vi": "đòn bẩy",
+          "hsk": 7,
+          "word_id": "hsk7_1307"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "资"
+        },
+        {
+          "text": "产"
+        },
+        {
+          "text": "价格",
+          "pinyin": "jiàgé",
+          "hanviet": "Giới Cách",
+          "meaning_vi": "giá cả",
+          "hsk": 4,
+          "word_id": "hsk4_202"
+        },
+        {
+          "text": "泡沫",
+          "pinyin": "pàomò",
+          "hanviet": "Phao Mạt",
+          "meaning_vi": "bong bóng, bọt",
+          "hsk": 6,
+          "word_id": "hsk6_1582"
+        },
+        {
+          "text": "往往",
+          "pinyin": "wǎngwǎng",
+          "hanviet": "Vãng Vãng",
+          "meaning_vi": "thường thường",
+          "hsk": 4,
+          "word_id": "hsk4_447"
+        },
+        {
+          "text": "相"
+        },
+        {
+          "text": "互"
+        },
+        {
+          "text": "交织",
+          "pinyin": "jiāozhī",
+          "hanviet": "Giao Chức",
+          "meaning_vi": "đan xen, quyện vào nhau",
+          "hsk": 7,
+          "word_id": "hsk7_2046"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "彼此",
+          "pinyin": "bǐcǐ",
+          "hanviet": "Bỉ Thử",
+          "meaning_vi": "lẫn nhau, hai bên",
+          "hsk": 5,
+          "word_id": "hsk5_659"
+        },
+        {
+          "text": "推",
+          "pinyin": "tuī",
+          "hanviet": "Suy",
+          "meaning_vi": "đẩy",
+          "hsk": 4,
+          "word_id": "hsk4_442"
+        },
+        {
+          "text": "波"
+        },
+        {
+          "text": "助"
+        },
+        {
+          "text": "澜"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "一旦流动性意外枯竭与资产抛售形成负向螺旋，即便资本充足率较高的金融机构也难逃流动性挤兑厄运。",
+      "pinyin": "Yídàn liúdòngxìng yìwài kūjié yǔ zīchǎn pāoshòu xíngchéng fùxiàng luóxuán, jíbiàn zībēn chōngzúlǜ jiàogāo de jīnróng jīgòu yě nán táo liúdòngxìng jǐduì èyùn.",
+      "vi": "Một khi tính thanh khoản cạn kiệt bất ngờ kết hợp với làn sóng bán tháo tạo thành vòng xoáy trượt dốc, ngay cả định chế có tỷ lệ an toàn vốn cao cũng khó thoát khỏi số phận bị rút tiền ồ ạt.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "一旦",
+          "pinyin": "yídàn",
+          "hanviet": "Nhất Đán",
+          "meaning_vi": "một khi, nếu",
+          "hsk": 5,
+          "word_id": "hsk5_547"
+        },
+        {
+          "text": "流"
+        },
+        {
+          "text": "动"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "意外",
+          "pinyin": "yìwài",
+          "hanviet": "Ý Ngoại",
+          "meaning_vi": "ngoài ý muốn, bất ngờ",
+          "hsk": 5,
+          "word_id": "hsk5_553"
+        },
+        {
+          "text": "枯竭",
+          "pinyin": "kūjié",
+          "hanviet": "Khô Kiệt",
+          "meaning_vi": "cạn kiệt, khô kiệt",
+          "hsk": 7,
+          "word_id": "hsk7_2404"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "资"
+        },
+        {
+          "text": "产"
+        },
+        {
+          "text": "抛"
+        },
+        {
+          "text": "售"
+        },
+        {
+          "text": "形成",
+          "pinyin": "xíngchéng",
+          "hanviet": "Hình Thành",
+          "meaning_vi": "hình thành",
+          "hsk": 5,
+          "word_id": "hsk5_1175"
+        },
+        {
+          "text": "负",
+          "pinyin": "fù",
+          "hanviet": "Phụ",
+          "meaning_vi": "gánh vác, chịu, thua",
+          "hsk": 7,
+          "word_id": "hsk7_1250"
+        },
+        {
+          "text": "向",
+          "pinyin": "xiàng",
+          "hanviet": "Hướng",
+          "meaning_vi": "hướng về, về phía",
+          "hsk": 3,
+          "word_id": "hsk3_241"
+        },
+        {
+          "text": "螺"
+        },
+        {
+          "text": "旋"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "即",
+          "pinyin": "jí",
+          "hanviet": "Tức",
+          "meaning_vi": "tức là, là, liền",
+          "hsk": 7,
+          "word_id": "hsk7_1861"
+        },
+        {
+          "text": "便",
+          "pinyin": "biàn",
+          "hanviet": "Tiện",
+          "meaning_vi": "thì, liền (liên từ)",
+          "hsk": 5,
+          "word_id": "hsk5_663"
+        },
+        {
+          "text": "资"
+        },
+        {
+          "text": "本",
+          "pinyin": "běn",
+          "hanviet": "Bản",
+          "meaning_vi": "cuốn (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_6"
+        },
+        {
+          "text": "充足",
+          "pinyin": "chōngzú",
+          "hanviet": "Sung Túc",
+          "meaning_vi": "đầy đủ, dồi dào",
+          "hsk": 6,
+          "word_id": "hsk6_405"
+        },
+        {
+          "text": "率",
+          "pinyin": "shuài",
+          "hanviet": "Luật",
+          "meaning_vi": "dẫn dắt; dẫn đầu; thống lĩnh",
+          "hsk": 7,
+          "word_id": "hsk7_3801"
+        },
+        {
+          "text": "较"
+        },
+        {
+          "text": "高",
+          "pinyin": "gāo",
+          "hanviet": "Cao",
+          "meaning_vi": "cao",
+          "hsk": 2,
+          "word_id": "hsk2_29"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "金融",
+          "pinyin": "jīnróng",
+          "hanviet": "Kim Dung",
+          "meaning_vi": "tài chính, tiền tệ",
+          "hsk": 6,
+          "word_id": "hsk6_1218"
+        },
+        {
+          "text": "机"
+        },
+        {
+          "text": "构"
+        },
+        {
+          "text": "也",
+          "pinyin": "yě",
+          "hanviet": "Dã",
+          "meaning_vi": "cũng",
+          "hsk": 2,
+          "word_id": "hsk2_127"
+        },
+        {
+          "text": "难",
+          "pinyin": "nán",
+          "hanviet": "Nan",
+          "meaning_vi": "khó",
+          "hsk": 3,
+          "word_id": "hsk3_169"
+        },
+        {
+          "text": "逃",
+          "pinyin": "táo",
+          "hanviet": "Đào",
+          "meaning_vi": "chạy trốn, trốn",
+          "hsk": 5,
+          "word_id": "hsk5_456"
+        },
+        {
+          "text": "流"
+        },
+        {
+          "text": "动"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "挤"
+        },
+        {
+          "text": "兑",
+          "pinyin": "duì",
+          "hanviet": "Đoái",
+          "meaning_vi": "đổi (tiền, giải thưởng), pha",
+          "hsk": 7,
+          "word_id": "hsk7_984"
+        },
+        {
+          "text": "厄运",
+          "pinyin": "èyùn",
+          "hanviet": "Ách Vận",
+          "meaning_vi": "vận rủi, tai ương, bất hạnh",
+          "hsk": 7,
+          "word_id": "hsk7_1021"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "宏观审慎监管框架的建立，致力于防范顺周期积累与跨市场风险交叉蔓延，给整个体系构筑防火墙。",
+      "pinyin": "Hóngguān shěnshèn jiānguǎn kuàngjià de jiànlì, zhìlì yú fángfàn shùnzhōuqī jīlěi yǔ kuà-shìchǎng fēngxiǎn jiāochā mànyán, gěi zhěnggè tǐxì gòuzhù fánghuǒqiáng.",
+      "vi": "Việc xây dựng khung giám sát an toàn vĩ mô hướng tới ngăn chặn sự tích tụ rủi ro thuận chu kỳ và lây lan chéo giữa các thị trường, dựng nên tường lửa cho toàn hệ thống.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "宏观",
+          "pinyin": "hóngguān",
+          "hanviet": "Hoành Quán",
+          "meaning_vi": "vĩ mô",
+          "hsk": 7,
+          "word_id": "hsk7_1669"
+        },
+        {
+          "text": "审",
+          "pinyin": "shěn",
+          "hanviet": "Thẩm",
+          "meaning_vi": "xét xử; thẩm tra",
+          "hsk": 7,
+          "word_id": "hsk7_3593"
+        },
+        {
+          "text": "慎"
+        },
+        {
+          "text": "监管",
+          "pinyin": "jiānguǎn",
+          "hanviet": "Giam Quản",
+          "meaning_vi": "giám sát quản lý, kiểm soát điều tiết",
+          "hsk": 7,
+          "word_id": "hsk7_1955"
+        },
+        {
+          "text": "框架",
+          "pinyin": "kuàngjià",
+          "hanviet": "Khung Giá",
+          "meaning_vi": "khuôn khổ, khung sườn, khung kết cấu",
+          "hsk": 7,
+          "word_id": "hsk7_2445"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "建立",
+          "pinyin": "jiànlì",
+          "hanviet": "Kiến Lập",
+          "meaning_vi": "xây dựng, kiến lập",
+          "hsk": 5,
+          "word_id": "hsk5_886"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "致力于",
+          "pinyin": "zhìlìyú",
+          "hanviet": "Trí Lực Vu",
+          "meaning_vi": "cam kết với",
+          "hsk": 7,
+          "word_id": "hsk7_5337"
+        },
+        {
+          "text": "防范",
+          "pinyin": "fángfàn",
+          "hanviet": "Phòng Phạm",
+          "meaning_vi": "đề phòng, phòng ngừa",
+          "hsk": 7,
+          "word_id": "hsk7_1102"
+        },
+        {
+          "text": "顺"
+        },
+        {
+          "text": "周"
+        },
+        {
+          "text": "期"
+        },
+        {
+          "text": "积累",
+          "pinyin": "jīlěi",
+          "hanviet": "Tích Lũy",
+          "meaning_vi": "tích lũy",
+          "hsk": 4,
+          "word_id": "hsk4_189"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "跨",
+          "pinyin": "kuà",
+          "hanviet": "Khoá",
+          "meaning_vi": "vượt qua, bước qua",
+          "hsk": 6,
+          "word_id": "hsk6_1326"
+        },
+        {
+          "text": "市场",
+          "pinyin": "shìchǎng",
+          "hanviet": "Thị Trường",
+          "meaning_vi": "thị trường, chợ",
+          "hsk": 5,
+          "word_id": "hsk5_428"
+        },
+        {
+          "text": "风险",
+          "pinyin": "fēngxiǎn",
+          "hanviet": "Phong Hiểm",
+          "meaning_vi": "rủi ro",
+          "hsk": 5,
+          "word_id": "hsk5_140"
+        },
+        {
+          "text": "交叉",
+          "pinyin": "jiāochā",
+          "hanviet": "Giao Xoa",
+          "meaning_vi": "giao nhau, đan chéo, xen kẽ",
+          "hsk": 7,
+          "word_id": "hsk7_2025"
+        },
+        {
+          "text": "蔓延",
+          "pinyin": "mànyán",
+          "hanviet": "Man Diên",
+          "meaning_vi": "lan rộng, lây lan",
+          "hsk": 6,
+          "word_id": "hsk6_1468"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "给",
+          "pinyin": "gěi",
+          "hanviet": "Cấp",
+          "meaning_vi": "cho, tặng",
+          "hsk": 2,
+          "word_id": "hsk2_32"
+        },
+        {
+          "text": "整个",
+          "pinyin": "zhěnggè",
+          "hanviet": "Chỉnh Cá",
+          "meaning_vi": "toàn bộ, cả",
+          "hsk": 5,
+          "word_id": "hsk5_595"
+        },
+        {
+          "text": "体系",
+          "pinyin": "tǐxì",
+          "hanviet": "Thể Hệ",
+          "meaning_vi": "hệ thống",
+          "hsk": 6,
+          "word_id": "hsk6_2016"
+        },
+        {
+          "text": "构"
+        },
+        {
+          "text": "筑",
+          "pinyin": "zhù",
+          "hanviet": "Trúc",
+          "meaning_vi": "xây dựng",
+          "hsk": 7,
+          "word_id": "hsk7_5411"
+        },
+        {
+          "text": "防火墙",
+          "pinyin": "fánghuǒqiáng",
+          "hanviet": "Phòng Hoả Tường",
+          "meaning_vi": "tường lửa",
+          "hsk": 7,
+          "word_id": "hsk7_1104"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "防范化解重大金融风险，守住不发生系统性风险的底线，是保障经济平稳健康长远航行的定盘星。",
+      "pinyin": "Fángfàn huàjiě zhòngdà jīnróng fēngxiǎn, shǒuzhù bù fāshēng xìtǒngxìng fēngxiǎn de dǐxiàn, shì bǎozhàng jīngjì píngwěn jiànkāng chángyuǎn hángxíng de dìngpánxīng.",
+      "vi": "Phòng ngừa và hóa giải rủi ro tài chính lớn, giữ vững lằn ranh không để xảy ra rủi ro hệ thống là chiếc la bàn bảo đảm nền kinh tế vận hành bình ổn, mạnh khỏe và vươn xa.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "防范",
+          "pinyin": "fángfàn",
+          "hanviet": "Phòng Phạm",
+          "meaning_vi": "đề phòng, phòng ngừa",
+          "hsk": 7,
+          "word_id": "hsk7_1102"
+        },
+        {
+          "text": "化解",
+          "pinyin": "huàjiě",
+          "hanviet": "Hóa Giải",
+          "meaning_vi": "hóa giải, giải tỏa",
+          "hsk": 7,
+          "word_id": "hsk7_1730"
+        },
+        {
+          "text": "重大",
+          "pinyin": "zhòngdà",
+          "hanviet": "Trọng Đại",
+          "meaning_vi": "to lớn, trọng đại",
+          "hsk": 5,
+          "word_id": "hsk5_1264"
+        },
+        {
+          "text": "金融",
+          "pinyin": "jīnróng",
+          "hanviet": "Kim Dung",
+          "meaning_vi": "tài chính, tiền tệ",
+          "hsk": 6,
+          "word_id": "hsk6_1218"
+        },
+        {
+          "text": "风险",
+          "pinyin": "fēngxiǎn",
+          "hanviet": "Phong Hiểm",
+          "meaning_vi": "rủi ro",
+          "hsk": 5,
+          "word_id": "hsk5_140"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "守"
+        },
+        {
+          "text": "住",
+          "pinyin": "zhù",
+          "hanviet": "Trú",
+          "meaning_vi": "ở, sống",
+          "hsk": 1,
+          "word_id": "hsk1_145"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "发生",
+          "pinyin": "fāshēng",
+          "hanviet": "Phát Sinh",
+          "meaning_vi": "phát sinh, xảy ra",
+          "hsk": 4,
+          "word_id": "hsk4_105"
+        },
+        {
+          "text": "系统",
+          "pinyin": "xìtǒng",
+          "hanviet": "Hệ Thống",
+          "meaning_vi": "hệ thống",
+          "hsk": 5,
+          "word_id": "hsk5_502"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "风险",
+          "pinyin": "fēngxiǎn",
+          "hanviet": "Phong Hiểm",
+          "meaning_vi": "rủi ro",
+          "hsk": 5,
+          "word_id": "hsk5_140"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "底线",
+          "pinyin": "dǐxiàn",
+          "hanviet": "Để Tuyến",
+          "meaning_vi": "giới hạn cuối cùng, lằn ranh đỏ",
+          "hsk": 7,
+          "word_id": "hsk7_848"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "保障",
+          "pinyin": "bǎozhàng",
+          "hanviet": "Bảo Chướng",
+          "meaning_vi": "bảo đảm",
+          "hsk": 6,
+          "word_id": "hsk6_70"
+        },
+        {
+          "text": "经济",
+          "pinyin": "jīngjì",
+          "hanviet": "Kinh Tế",
+          "meaning_vi": "kinh tế",
+          "hsk": 4,
+          "word_id": "hsk4_230"
+        },
+        {
+          "text": "平稳",
+          "pinyin": "píngwěn",
+          "hanviet": "Bình Ổn",
+          "meaning_vi": "vững vàng; êm ả; ổn định",
+          "hsk": 7,
+          "word_id": "hsk7_3110"
+        },
+        {
+          "text": "健康",
+          "pinyin": "jiànkāng",
+          "hanviet": "Kiện Khang",
+          "meaning_vi": "khỏe mạnh, sức khỏe",
+          "hsk": 3,
+          "word_id": "hsk3_115"
+        },
+        {
+          "text": "长",
+          "pinyin": "cháng",
+          "hanviet": "Trường",
+          "meaning_vi": "dài",
+          "hsk": 2,
+          "word_id": "hsk2_9"
+        },
+        {
+          "text": "远",
+          "pinyin": "yuǎn",
+          "hanviet": "Viễn",
+          "meaning_vi": "xa",
+          "hsk": 2,
+          "word_id": "hsk2_137"
+        },
+        {
+          "text": "航行",
+          "pinyin": "hángxíng",
+          "hanviet": "Hàng Hành",
+          "meaning_vi": "hành trình đi biển, di chuyển",
+          "hsk": 7,
+          "word_id": "hsk7_1596"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "定"
+        },
+        {
+          "text": "盘"
+        },
+        {
+          "text": "星"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk5_1155",
+    "hsk6_1218",
+    "hsk6_2016",
+    "hsk1_15",
+    "hsk6_1124",
+    "hsk4_126",
+    "hsk4_535",
+    "hsk2_29",
+    "hsk3_84",
+    "hsk4_386",
+    "hsk2_19",
+    "hsk7_4220",
+    "hsk1_121",
+    "hsk6_1263",
+    "hsk5_140"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Yếu tố nào thường thúc đẩy bong bóng tài sản trong giai đoạn kinh tế hưng thịnh?",
+      "options_vi": [
+        "Chính sách thắt lưng buộc bụng",
+        "Tâm lý lạc quan quá đà và việc lạm dụng đòn bẩy tài chính",
+        "Sự suy giảm đầu tư"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 过度加杠杆与资产价格泡沫相互交织、彼此推波助澜."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Hiện tượng nguy hiểm nào xảy ra khi thanh khoản cạn kiệt?",
+      "options_vi": [
+        "Mọi người giữ tiền mặt nhiều hơn",
+        "Vòng xoáy bán tháo tài sản và khủng hoảng rút tiền hàng loạt (bank run)",
+        "Lãi suất giảm về 0"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 流动性枯竭与资产抛售形成负向螺旋，难逃流动性挤兑厄运."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Mục tiêu cốt lõi của khung giám sát an toàn vĩ mô là gì?",
+      "options_vi": [
+        "Giữ vững lằn ranh đỏ không để bùng phát rủi ro tài chính mang tính hệ thống",
+        "Ngừng cấp vốn cho mọi doanh nghiệp",
+        "Khuyến khích đầu cơ mạo hiểm"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu cuối có viết: 守住不发生系统性风险的底线，是保障经济平稳健康航行的定盘星."
+    }
+  ]
+}

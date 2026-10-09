@@ -1,0 +1,1129 @@
+{
+  "id": "hsk8_story_007",
+  "level": "HSK8",
+  "title": {
+    "zh": "生态价值转化与绿色核算",
+    "vi": "Chuyển hóa giá trị sinh thái và hạch toán xanh"
+  },
+  "topic": "gep_accounting",
+  "topic_vi": "Kinh tế sinh thái",
+  "icon": "🌲",
+  "estimatedMinutes": 8,
+  "description_vi": "Định lượng giá trị kinh tế của rừng, nước và không khí trong sạch thông qua hệ thống GEP tiên tiến.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "将优美生态环境所蕴含的自然资本转化为实实在在的经济价值，是实现可持续发展的绿色密码。",
+      "pinyin": "Jiāng yōuměi shēngtài huánjìng suǒ yùnhán de zìrán zībēn zhuǎnhuà wéi shíshízàizài de jīngjì jiàzhí, shì shíxiàn kěchíxù fāzhǎn de lǜsè mìmǎ.",
+      "vi": "Chuyển hóa vốn tự nhiên chứa đựng trong môi trường sinh thái tươi đẹp thành giá trị kinh tế thực chất là mật mã xanh thực hiện phát triển bền vững.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "将"
+        },
+        {
+          "text": "优美",
+          "pinyin": "yōuměi",
+          "hanviet": "Ưu Mỹ",
+          "meaning_vi": "tươi đẹp, ưu mỹ",
+          "hsk": 5,
+          "word_id": "hsk5_1215"
+        },
+        {
+          "text": "生态",
+          "pinyin": "shēngtài",
+          "hanviet": "Sinh Thái",
+          "meaning_vi": "sinh thái",
+          "hsk": 6,
+          "word_id": "hsk6_1855"
+        },
+        {
+          "text": "环境",
+          "pinyin": "huánjìng",
+          "hanviet": "Hoàn Cảnh",
+          "meaning_vi": "môi trường",
+          "hsk": 3,
+          "word_id": "hsk3_102"
+        },
+        {
+          "text": "所",
+          "pinyin": "suǒ",
+          "hanviet": "Sở",
+          "meaning_vi": "nơi, sở (lượng từ tổ chức)",
+          "hsk": 5,
+          "word_id": "hsk5_1095"
+        },
+        {
+          "text": "蕴含",
+          "pinyin": "yùnhán",
+          "hanviet": "Uẩn Hàm",
+          "meaning_vi": "hàm chứa, ẩn chứa bên trong",
+          "hsk": 7,
+          "word_id": "hsk7_5078"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "自然",
+          "pinyin": "zìrán",
+          "hanviet": "Tự Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_589"
+        },
+        {
+          "text": "资"
+        },
+        {
+          "text": "本",
+          "pinyin": "běn",
+          "hanviet": "Bản",
+          "meaning_vi": "cuốn (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_6"
+        },
+        {
+          "text": "转化",
+          "pinyin": "zhuǎnhuà",
+          "hanviet": "Chuyển Hóa",
+          "meaning_vi": "chuyển hóa, chuyển thành",
+          "hsk": 7,
+          "word_id": "hsk7_5443"
+        },
+        {
+          "text": "为",
+          "pinyin": "wèi",
+          "hanviet": "Vi",
+          "meaning_vi": "vì, cho",
+          "hsk": 3,
+          "word_id": "hsk3_229"
+        },
+        {
+          "text": "实"
+        },
+        {
+          "text": "实在",
+          "pinyin": "shízài",
+          "hanviet": "Thực Tại",
+          "meaning_vi": "thực sự, thật là",
+          "hsk": 4,
+          "word_id": "hsk4_385"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "经济",
+          "pinyin": "jīngjì",
+          "hanviet": "Kinh Tế",
+          "meaning_vi": "kinh tế",
+          "hsk": 4,
+          "word_id": "hsk4_230"
+        },
+        {
+          "text": "价值",
+          "pinyin": "jiàzhí",
+          "hanviet": "Giá Trị",
+          "meaning_vi": "giá trị",
+          "hsk": 5,
+          "word_id": "hsk5_879"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "实现",
+          "pinyin": "shíxiàn",
+          "hanviet": "Thực Hiện",
+          "meaning_vi": "thực hiện",
+          "hsk": 5,
+          "word_id": "hsk5_1069"
+        },
+        {
+          "text": "可"
+        },
+        {
+          "text": "持续",
+          "pinyin": "chíxù",
+          "hanviet": "Trì Tục",
+          "meaning_vi": "tiếp tục, kéo dài",
+          "hsk": 5,
+          "word_id": "hsk5_61"
+        },
+        {
+          "text": "发展",
+          "pinyin": "fāzhǎn",
+          "hanviet": "Phát Triển",
+          "meaning_vi": "phát triển",
+          "hsk": 4,
+          "word_id": "hsk4_106"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "绿",
+          "pinyin": "lǜ",
+          "hanviet": "Lục",
+          "meaning_vi": "màu xanh lá",
+          "hsk": 3,
+          "word_id": "hsk3_158"
+        },
+        {
+          "text": "色"
+        },
+        {
+          "text": "密码",
+          "pinyin": "mìmǎ",
+          "hanviet": "Mật Mã",
+          "meaning_vi": "mật khẩu",
+          "hsk": 4,
+          "word_id": "hsk4_305"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "生态系统生产总值核算体系的建立，使得森林水源涵养、空气净化和固碳释氧等功能首次拥有了科学量化指标。",
+      "pinyin": "Shēngtài xìtǒng shēngchǎn zǒngzhí héshuàn tǐxì de jiànlì, shǐde sēnlín shuǐyuán hánhyǎng, kōngqì jìnghuà hé gùtàn shìyǎng děng gōngnéng shǒucì yōngyǒu le kēxué liànghuà zhǐbiāo.",
+      "vi": "Việc xây dựng hệ thống hạch toán tổng giá trị sản phẩm sinh thái (GEP) giúp các chức năng giữ nước rừng đầu nguồn, lọc sạch không khí và hấp thụ carbon lần đầu tiên có chỉ tiêu lượng hóa khoa học.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "生态",
+          "pinyin": "shēngtài",
+          "hanviet": "Sinh Thái",
+          "meaning_vi": "sinh thái",
+          "hsk": 6,
+          "word_id": "hsk6_1855"
+        },
+        {
+          "text": "系统",
+          "pinyin": "xìtǒng",
+          "hanviet": "Hệ Thống",
+          "meaning_vi": "hệ thống",
+          "hsk": 5,
+          "word_id": "hsk5_502"
+        },
+        {
+          "text": "生产",
+          "pinyin": "shēngchǎn",
+          "hanviet": "Sinh Sản",
+          "meaning_vi": "sản xuất",
+          "hsk": 5,
+          "word_id": "hsk5_1056"
+        },
+        {
+          "text": "总"
+        },
+        {
+          "text": "值"
+        },
+        {
+          "text": "核",
+          "pinyin": "hé",
+          "hanviet": "Hạch",
+          "meaning_vi": "hột (quả), hạt nhân",
+          "hsk": 7,
+          "word_id": "hsk7_1619"
+        },
+        {
+          "text": "算"
+        },
+        {
+          "text": "体系",
+          "pinyin": "tǐxì",
+          "hanviet": "Thể Hệ",
+          "meaning_vi": "hệ thống",
+          "hsk": 6,
+          "word_id": "hsk6_2016"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "建立",
+          "pinyin": "jiànlì",
+          "hanviet": "Kiến Lập",
+          "meaning_vi": "xây dựng, kiến lập",
+          "hsk": 5,
+          "word_id": "hsk5_886"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "使",
+          "pinyin": "shǐ",
+          "hanviet": "Sử",
+          "meaning_vi": "làm cho, khiến cho",
+          "hsk": 4,
+          "word_id": "hsk4_386"
+        },
+        {
+          "text": "得",
+          "pinyin": "de",
+          "hanviet": "Đắc",
+          "meaning_vi": "được (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_19"
+        },
+        {
+          "text": "森林",
+          "pinyin": "sēnlín",
+          "hanviet": "Sâm Lâm",
+          "meaning_vi": "rừng",
+          "hsk": 4,
+          "word_id": "hsk4_365"
+        },
+        {
+          "text": "水源",
+          "pinyin": "shuǐyuán",
+          "hanviet": "Thuỷ Nguyên",
+          "meaning_vi": "nguồn nước",
+          "hsk": 7,
+          "word_id": "hsk7_3821"
+        },
+        {
+          "text": "涵"
+        },
+        {
+          "text": "养"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "空气",
+          "pinyin": "kōngqì",
+          "hanviet": "Không Khí",
+          "meaning_vi": "không khí",
+          "hsk": 4,
+          "word_id": "hsk4_260"
+        },
+        {
+          "text": "净化",
+          "pinyin": "jìnghuà",
+          "hanviet": "Tịnh Hoa",
+          "meaning_vi": "thanh lọc",
+          "hsk": 7,
+          "word_id": "hsk7_2204"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "固"
+        },
+        {
+          "text": "碳"
+        },
+        {
+          "text": "释"
+        },
+        {
+          "text": "氧"
+        },
+        {
+          "text": "等",
+          "pinyin": "děng",
+          "hanviet": "Đẳng",
+          "meaning_vi": "đợi, chờ",
+          "hsk": 2,
+          "word_id": "hsk2_20"
+        },
+        {
+          "text": "功能",
+          "pinyin": "gōngnéng",
+          "hanviet": "Công Năng",
+          "meaning_vi": "công năng, chức năng",
+          "hsk": 5,
+          "word_id": "hsk5_163"
+        },
+        {
+          "text": "首",
+          "pinyin": "shǒu",
+          "hanviet": "Thủ",
+          "meaning_vi": "đầu, người đứng đầu",
+          "hsk": 5,
+          "word_id": "hsk5_434"
+        },
+        {
+          "text": "次",
+          "pinyin": "cì",
+          "hanviet": "Thứ",
+          "meaning_vi": "lần",
+          "hsk": 2,
+          "word_id": "hsk2_13"
+        },
+        {
+          "text": "拥有",
+          "pinyin": "yōngyǒu",
+          "hanviet": "Ủng Hữu",
+          "meaning_vi": "sở hữu, có",
+          "hsk": 6,
+          "word_id": "hsk6_2427"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "科学",
+          "pinyin": "kēxué",
+          "hanviet": "Khoa Học",
+          "meaning_vi": "khoa học",
+          "hsk": 4,
+          "word_id": "hsk4_252"
+        },
+        {
+          "text": "量化",
+          "pinyin": "liànghuà",
+          "hanviet": "Lượng Hoa",
+          "meaning_vi": "định lượng, lượng hóa",
+          "hsk": 7,
+          "word_id": "hsk7_2595"
+        },
+        {
+          "text": "指标",
+          "pinyin": "zhǐbiāo",
+          "hanviet": "Chỉ Tiêu",
+          "meaning_vi": "chỉ tiêu, mục tiêu định mức",
+          "hsk": 7,
+          "word_id": "hsk7_5307"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "通过发展碳汇交易、生态农业与高端生态康养旅游，昔日偏远贫困的山区成功探索出生态富民的共赢路径。",
+      "pinyin": "Tōngguò fāzhǎn tànhuì jiāoyì, shēngtài nóngyè yǔ gāoduān shēngtài kāngyǎng lǚyóu, xīrì piānyuǎn pínkùn de shānqū chénggōng tànsuǒ chū shēngtài fùmín de gòngyíng lùjìng.",
+      "vi": "Nhờ phát triển giao dịch tín chỉ carbon, nông nghiệp sinh thái và du lịch nghỉ dưỡng dưỡng sinh cao cấp, những vùng núi nghèo hẻo lánh trước đây đã tìm ra lối thoát nghèo cùng thắng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "通过",
+          "pinyin": "tōngguò",
+          "hanviet": "Thông Qua",
+          "meaning_vi": "thông qua",
+          "hsk": 4,
+          "word_id": "hsk4_438"
+        },
+        {
+          "text": "发展",
+          "pinyin": "fāzhǎn",
+          "hanviet": "Phát Triển",
+          "meaning_vi": "phát triển",
+          "hsk": 4,
+          "word_id": "hsk4_106"
+        },
+        {
+          "text": "碳"
+        },
+        {
+          "text": "汇"
+        },
+        {
+          "text": "交",
+          "pinyin": "jiāo",
+          "hanviet": "Giao",
+          "meaning_vi": "giao, đưa",
+          "hsk": 4,
+          "word_id": "hsk4_211"
+        },
+        {
+          "text": "易"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "生态",
+          "pinyin": "shēngtài",
+          "hanviet": "Sinh Thái",
+          "meaning_vi": "sinh thái",
+          "hsk": 6,
+          "word_id": "hsk6_1855"
+        },
+        {
+          "text": "农业",
+          "pinyin": "nóngyè",
+          "hanviet": "Nông Nghiệp",
+          "meaning_vi": "nông nghiệp",
+          "hsk": 5,
+          "word_id": "hsk5_341"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "高",
+          "pinyin": "gāo",
+          "hanviet": "Cao",
+          "meaning_vi": "cao",
+          "hsk": 2,
+          "word_id": "hsk2_29"
+        },
+        {
+          "text": "端",
+          "pinyin": "duān",
+          "hanviet": "Đoan",
+          "meaning_vi": "bưng, mang (bằng hai tay)",
+          "hsk": 6,
+          "word_id": "hsk6_710"
+        },
+        {
+          "text": "生态",
+          "pinyin": "shēngtài",
+          "hanviet": "Sinh Thái",
+          "meaning_vi": "sinh thái",
+          "hsk": 6,
+          "word_id": "hsk6_1855"
+        },
+        {
+          "text": "康"
+        },
+        {
+          "text": "养"
+        },
+        {
+          "text": "旅游",
+          "pinyin": "lǜyóu",
+          "hanviet": "Lữ Du",
+          "meaning_vi": "du lịch",
+          "hsk": 2,
+          "word_id": "hsk2_66"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "昔日",
+          "pinyin": "xīrì",
+          "hanviet": "Tích Nhật",
+          "meaning_vi": "ngày xưa",
+          "hsk": 6,
+          "word_id": "hsk6_2173"
+        },
+        {
+          "text": "偏远",
+          "pinyin": "piānyuǎn",
+          "hanviet": "Thiên Viễn",
+          "meaning_vi": "xa xôi hẻo lánh",
+          "hsk": 7,
+          "word_id": "hsk7_3073"
+        },
+        {
+          "text": "贫困",
+          "pinyin": "pínkùn",
+          "hanviet": "Bần Khốn",
+          "meaning_vi": "nghèo khó",
+          "hsk": 6,
+          "word_id": "hsk6_1612"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "山"
+        },
+        {
+          "text": "区"
+        },
+        {
+          "text": "成功",
+          "pinyin": "chénggōng",
+          "hanviet": "Thành Công",
+          "meaning_vi": "thành công",
+          "hsk": 4,
+          "word_id": "hsk4_45"
+        },
+        {
+          "text": "探索",
+          "pinyin": "tànsuǒ",
+          "hanviet": "Thám Sách",
+          "meaning_vi": "thám hiểm, tìm hiểu",
+          "hsk": 6,
+          "word_id": "hsk6_1993"
+        },
+        {
+          "text": "出生",
+          "pinyin": "chūshēng",
+          "hanviet": "Xuất Sinh",
+          "meaning_vi": "sinh ra",
+          "hsk": 4,
+          "word_id": "hsk4_54"
+        },
+        {
+          "text": "态"
+        },
+        {
+          "text": "富",
+          "pinyin": "fù",
+          "hanviet": "Phú",
+          "meaning_vi": "giàu",
+          "hsk": 4,
+          "word_id": "hsk4_122"
+        },
+        {
+          "text": "民"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "共"
+        },
+        {
+          "text": "赢",
+          "pinyin": "yíng",
+          "hanviet": "Doanh",
+          "meaning_vi": "thắng",
+          "hsk": 4,
+          "word_id": "hsk4_520"
+        },
+        {
+          "text": "路径",
+          "pinyin": "lùjìng",
+          "hanviet": "Lộ Kính",
+          "meaning_vi": "lộ trình, con đường, phương thức tiếp cận",
+          "hsk": 7,
+          "word_id": "hsk7_2683"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "绿水青山不仅能够抵御自然灾害并涵养生机，其转化为金山银山的溢价效应正在日益凸显。",
+      "pinyin": "Lǜshuǐ-qīngshān bùjǐn nénggòu dǐyù zìrán zāihài bìng hánhyǎng shēngjī, qí zhuǎnhuà wéi jīnshān-yínshān de yìjià xiàoyìng zhèngzài rìyì tūxiǎn.",
+      "vi": "Núi xanh nước biếc không chỉ giúp chống đỡ thiên tai và nuôi dưỡng sinh khí, hiệu ứng thặng dư khi chuyển hóa thành của cải vàng bạc ngày càng bộc lộ rõ nét.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "绿",
+          "pinyin": "lǜ",
+          "hanviet": "Lục",
+          "meaning_vi": "màu xanh lá",
+          "hsk": 3,
+          "word_id": "hsk3_158"
+        },
+        {
+          "text": "水",
+          "pinyin": "shuǐ",
+          "hanviet": "Thuỷ",
+          "meaning_vi": "nước",
+          "hsk": 1,
+          "word_id": "hsk1_98"
+        },
+        {
+          "text": "青",
+          "pinyin": "qīng",
+          "hanviet": "Thanh",
+          "meaning_vi": "xanh (màu); trẻ",
+          "hsk": 5,
+          "word_id": "hsk5_1016"
+        },
+        {
+          "text": "山"
+        },
+        {
+          "text": "不仅",
+          "pinyin": "bùjǐn",
+          "hanviet": "Bất Cận",
+          "meaning_vi": "không chỉ",
+          "hsk": 4,
+          "word_id": "hsk4_31"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "够",
+          "pinyin": "gòu",
+          "hanviet": "Cú",
+          "meaning_vi": "đủ",
+          "hsk": 4,
+          "word_id": "hsk4_145"
+        },
+        {
+          "text": "抵御",
+          "pinyin": "dǐyù",
+          "hanviet": "Để Ngự",
+          "meaning_vi": "chống lại, phòng ngự",
+          "hsk": 7,
+          "word_id": "hsk7_851"
+        },
+        {
+          "text": "自然",
+          "pinyin": "zìrán",
+          "hanviet": "Tự Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_589"
+        },
+        {
+          "text": "灾害",
+          "pinyin": "zāihài",
+          "hanviet": "Tai Hại",
+          "meaning_vi": "tai họa, thiên tai",
+          "hsk": 5,
+          "word_id": "hsk5_580"
+        },
+        {
+          "text": "并"
+        },
+        {
+          "text": "涵"
+        },
+        {
+          "text": "养生",
+          "pinyin": "yǎngshēng",
+          "hanviet": "Dưỡng Sinh",
+          "meaning_vi": "dưỡng sinh; chăm sóc sức khỏe",
+          "hsk": 7,
+          "word_id": "hsk7_4770"
+        },
+        {
+          "text": "机"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "其"
+        },
+        {
+          "text": "转化",
+          "pinyin": "zhuǎnhuà",
+          "hanviet": "Chuyển Hóa",
+          "meaning_vi": "chuyển hóa, chuyển thành",
+          "hsk": 7,
+          "word_id": "hsk7_5443"
+        },
+        {
+          "text": "为",
+          "pinyin": "wèi",
+          "hanviet": "Vi",
+          "meaning_vi": "vì, cho",
+          "hsk": 3,
+          "word_id": "hsk3_229"
+        },
+        {
+          "text": "金"
+        },
+        {
+          "text": "山"
+        },
+        {
+          "text": "银",
+          "pinyin": "yín",
+          "hanviet": "Ngân",
+          "meaning_vi": "bạc",
+          "hsk": 5,
+          "word_id": "hsk5_1206"
+        },
+        {
+          "text": "山"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "溢",
+          "pinyin": "yì",
+          "hanviet": "Dật",
+          "meaning_vi": "tràn ngập; dạt dào; lan tỏa",
+          "hsk": 7,
+          "word_id": "hsk7_4850"
+        },
+        {
+          "text": "价"
+        },
+        {
+          "text": "效"
+        },
+        {
+          "text": "应",
+          "pinyin": "yìng",
+          "hanviet": "Ưng",
+          "meaning_vi": "đáp ứng, ứng phó, ứng lời",
+          "hsk": 7,
+          "word_id": "hsk7_4949"
+        },
+        {
+          "text": "正在",
+          "pinyin": "zhèngzài",
+          "hanviet": "Chinh Tại",
+          "meaning_vi": "đang",
+          "hsk": 2,
+          "word_id": "hsk2_145"
+        },
+        {
+          "text": "日益",
+          "pinyin": "rìyì",
+          "hanviet": "Nhật Ích",
+          "meaning_vi": "ngày càng",
+          "hsk": 6,
+          "word_id": "hsk6_1785"
+        },
+        {
+          "text": "凸显",
+          "pinyin": "tūxiǎn",
+          "hanviet": "Đột Hiển",
+          "meaning_vi": "làm nổi bật; lộ rõ; thể hiện rõ nét",
+          "hsk": 7,
+          "word_id": "hsk7_4114"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "让保护生态者在经济上得到丰厚回报，才能构建起全社会自觉呵护自然环境的内在长效激励机制。",
+      "pinyin": "Ràng bǎohù shēngtài zhě zài jīngjì shàng dédào fēnghòu huíbào, cái néng gòujiàn qǐ quán shèhuì zìjué hēhù zìrán huánjìng de nèizài chángxiào jīlì jīzhì.",
+      "vi": "Để những người bảo vệ sinh thái nhận được đền đáp kinh tế xứng đáng mới có thể dựng nên cơ chế khuyến khích nội tại lâu dài giúp toàn xã hội tự giác che chở thiên nhiên.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "让",
+          "pinyin": "ràng",
+          "hanviet": "Nhượng",
+          "meaning_vi": "để cho, khiến",
+          "hsk": 2,
+          "word_id": "hsk2_88"
+        },
+        {
+          "text": "保护",
+          "pinyin": "bǎohù",
+          "hanviet": "Bảo Hộ",
+          "meaning_vi": "bảo vệ",
+          "hsk": 4,
+          "word_id": "hsk4_9"
+        },
+        {
+          "text": "生态",
+          "pinyin": "shēngtài",
+          "hanviet": "Sinh Thái",
+          "meaning_vi": "sinh thái",
+          "hsk": 6,
+          "word_id": "hsk6_1855"
+        },
+        {
+          "text": "者"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "经济",
+          "pinyin": "jīngjì",
+          "hanviet": "Kinh Tế",
+          "meaning_vi": "kinh tế",
+          "hsk": 4,
+          "word_id": "hsk4_230"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "得",
+          "pinyin": "de",
+          "hanviet": "Đắc",
+          "meaning_vi": "được (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_19"
+        },
+        {
+          "text": "到",
+          "pinyin": "dào",
+          "hanviet": "Đáo",
+          "meaning_vi": "đến",
+          "hsk": 2,
+          "word_id": "hsk2_18"
+        },
+        {
+          "text": "丰厚",
+          "pinyin": "fēnghòu",
+          "hanviet": "Phong Hậu",
+          "meaning_vi": "hậu hĩnh, dồi dào",
+          "hsk": 7,
+          "word_id": "hsk7_1188"
+        },
+        {
+          "text": "回",
+          "pinyin": "huí",
+          "hanviet": "Hồi",
+          "meaning_vi": "trở về",
+          "hsk": 1,
+          "word_id": "hsk1_42"
+        },
+        {
+          "text": "报",
+          "pinyin": "bào",
+          "hanviet": "Báo",
+          "meaning_vi": "báo cáo",
+          "hsk": 7,
+          "word_id": "hsk7_120"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "才"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "构建",
+          "pinyin": "gòujiàn",
+          "hanviet": "Cấu Kiến",
+          "meaning_vi": "xây dựng, kiến tạo",
+          "hsk": 7,
+          "word_id": "hsk7_1421"
+        },
+        {
+          "text": "起"
+        },
+        {
+          "text": "全"
+        },
+        {
+          "text": "社会",
+          "pinyin": "shèhuì",
+          "hanviet": "Xã Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 4,
+          "word_id": "hsk4_371"
+        },
+        {
+          "text": "自觉",
+          "pinyin": "zìjué",
+          "hanviet": "Tự Giác",
+          "meaning_vi": "tự giác",
+          "hsk": 5,
+          "word_id": "hsk5_1287"
+        },
+        {
+          "text": "呵护",
+          "pinyin": "hēhù",
+          "hanviet": "A Hộ",
+          "meaning_vi": "che chở, nâng niu, chăm sóc",
+          "hsk": 7,
+          "word_id": "hsk7_1616"
+        },
+        {
+          "text": "自然",
+          "pinyin": "zìrán",
+          "hanviet": "Tự Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_589"
+        },
+        {
+          "text": "环境",
+          "pinyin": "huánjìng",
+          "hanviet": "Hoàn Cảnh",
+          "meaning_vi": "môi trường",
+          "hsk": 3,
+          "word_id": "hsk3_102"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "内在",
+          "pinyin": "nèizài",
+          "hanviet": "Nội Tại",
+          "meaning_vi": "bên trong, nội tại",
+          "hsk": 6,
+          "word_id": "hsk6_1545"
+        },
+        {
+          "text": "长效",
+          "pinyin": "chángxiào",
+          "hanviet": "Trường Hiệu",
+          "meaning_vi": "hiệu quả lâu dài, tác dụng lâu dài",
+          "hsk": 7,
+          "word_id": "hsk7_448"
+        },
+        {
+          "text": "激"
+        },
+        {
+          "text": "励"
+        },
+        {
+          "text": "机制",
+          "pinyin": "jīzhì",
+          "hanviet": "Cơ Chế",
+          "meaning_vi": "cơ chế",
+          "hsk": 6,
+          "word_id": "hsk6_1122"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk5_1215",
+    "hsk6_1855",
+    "hsk3_102",
+    "hsk5_1095",
+    "hsk7_5078",
+    "hsk1_15",
+    "hsk4_589",
+    "hsk1_6",
+    "hsk7_5443",
+    "hsk3_229",
+    "hsk4_385",
+    "hsk1_139",
+    "hsk4_230",
+    "hsk5_879",
+    "hsk1_96"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Hệ thống chỉ số GEP (Tổng sản phẩm sinh thái) có tác dụng đột phá gì?",
+      "options_vi": [
+        "Khoa học hóa và lượng hóa giá trị sinh thái như giữ nước và hấp thụ carbon",
+        "Đếm số lượng cây bị chặt",
+        "Tính tiền phạt người dân"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 使得森林水源涵养、空气净化和固碳释氧等功能首次拥有了科学量化指标."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Vùng núi khó khăn đã chuyển đổi sinh thái thành kinh tế qua những mô hình nào?",
+      "options_vi": [
+        "Giao dịch tín chỉ carbon, nông nghiệp sinh thái và du lịch dưỡng sinh",
+        "Khai thác vàng trái phép",
+        "Đốt rừng làm nương rẫy"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu có viết: 通过发展碳汇交易、生态农业与高端生态康养旅游."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Cơ chế căn bản để toàn xã hội tự giác bảo vệ môi trường lâu dài là gì?",
+      "options_vi": [
+        "Bảo đảm người bảo vệ thiên nhiên nhận được lợi ích kinh tế xứng đáng",
+        "Chỉ dùng biện pháp xử phạt hành chính",
+        "Trông chờ vào sự tự nguyện mà không hỗ trợ gì"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu cuối có viết: 让保护生态者在经济上得到丰厚回报，构建内在长效激励机制."
+    }
+  ]
+}

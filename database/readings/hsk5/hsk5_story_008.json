@@ -1,0 +1,887 @@
+{
+  "id": "hsk5_story_008",
+  "level": "HSK5",
+  "title": {
+    "zh": "中国古典园林的美学智慧",
+    "vi": "Trí tuệ thẩm mỹ của hoa viên cổ điển Trung Hoa"
+  },
+  "topic": "oriental_aesthetics",
+  "topic_vi": "Thẩm mỹ phương Đông",
+  "icon": "🏞️",
+  "estimatedMinutes": 5,
+  "description_vi": "Nghệ thuật 'dời non dời sông' tài tình trong kiến trúc hoa viên Tô Châu: Thiên nhiên thu nhỏ trong tấc gang.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "苏州古典园林是中国古代建筑艺术的杰出代表，被誉为凝固的优美诗篇。",
+      "pinyin": "Sūzhōu gǔdiǎn yuánlín shì zhōngguó gǔdài jiànzhù yìshù de jiéchū dàibiǎo, bèi yù wéi nínggù de yōuměi shīpiān.",
+      "vi": "Hoa viên cổ điển Tô Châu là đại diện kiệt xuất của nghệ thuật kiến trúc cổ đại Trung Hoa, được ví như bài thơ ngưng đọng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "苏"
+        },
+        {
+          "text": "州"
+        },
+        {
+          "text": "古典",
+          "pinyin": "gǔdiǎn",
+          "hanviet": "Cổ Điển",
+          "meaning_vi": "cổ điển",
+          "hsk": 5,
+          "word_id": "hsk5_816"
+        },
+        {
+          "text": "园林",
+          "pinyin": "yuánlín",
+          "hanviet": "Viên Lâm",
+          "meaning_vi": "vườn cảnh",
+          "hsk": 6,
+          "word_id": "hsk6_2472"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "中国",
+          "pinyin": "zhōngguó",
+          "hanviet": "Trung Quốc",
+          "meaning_vi": "Trung Quốc",
+          "hsk": 1,
+          "word_id": "hsk1_143"
+        },
+        {
+          "text": "古代",
+          "pinyin": "gǔdài",
+          "hanviet": "Cổ Đại",
+          "meaning_vi": "cổ đại",
+          "hsk": 5,
+          "word_id": "hsk5_166"
+        },
+        {
+          "text": "建筑",
+          "pinyin": "jiànzhù",
+          "hanviet": "Kiến Trúc",
+          "meaning_vi": "kiến trúc, công trình",
+          "hsk": 5,
+          "word_id": "hsk5_232"
+        },
+        {
+          "text": "艺术",
+          "pinyin": "yìshù",
+          "hanviet": "Nghệ Thuật",
+          "meaning_vi": "nghệ thuật",
+          "hsk": 4,
+          "word_id": "hsk4_515"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "杰出",
+          "pinyin": "jiéchū",
+          "hanviet": "Kiệt Xuất",
+          "meaning_vi": "xuất sắc, kiệt xuất",
+          "hsk": 6,
+          "word_id": "hsk6_1204"
+        },
+        {
+          "text": "代表",
+          "pinyin": "dàibiǎo",
+          "hanviet": "Đại Biểu",
+          "meaning_vi": "đại diện",
+          "hsk": 5,
+          "word_id": "hsk5_91"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "被",
+          "pinyin": "bèi",
+          "hanviet": "Bị",
+          "meaning_vi": "bị (trợ từ bị động)",
+          "hsk": 3,
+          "word_id": "hsk3_16"
+        },
+        {
+          "text": "誉"
+        },
+        {
+          "text": "为",
+          "pinyin": "wèi",
+          "hanviet": "Vi",
+          "meaning_vi": "vì, cho",
+          "hsk": 3,
+          "word_id": "hsk3_229"
+        },
+        {
+          "text": "凝固",
+          "pinyin": "nínggù",
+          "hanviet": "Ngưng Cố",
+          "meaning_vi": "đông cứng, ngưng kết",
+          "hsk": 6,
+          "word_id": "hsk6_1552"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "优美",
+          "pinyin": "yōuměi",
+          "hanviet": "Ưu Mỹ",
+          "meaning_vi": "tươi đẹp, ưu mỹ",
+          "hsk": 5,
+          "word_id": "hsk5_1215"
+        },
+        {
+          "text": "诗",
+          "pinyin": "shī",
+          "hanviet": "Thi",
+          "meaning_vi": "thơ",
+          "hsk": 5,
+          "word_id": "hsk5_416"
+        },
+        {
+          "text": "篇",
+          "pinyin": "piān",
+          "hanviet": "Thiên",
+          "meaning_vi": "bài, thiên (lượng từ)",
+          "hsk": 4,
+          "word_id": "hsk4_328"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "造园名家巧妙利用假山、池水、花木和亭台，在有限空间内创造无限意境。",
+      "pinyin": "Zàoyuán míngjiā qiǎomiào lìyòng jiǎshān, chíshuǐ, huāmù hé tíngtái, zài yǒuxiàn kōngjiān nèi chuàngzào wúxiàn yìjìng.",
+      "vi": "Các bậc thầy làm vườn khéo léo dùng hòn non bộ, hồ nước, hoa cỏ và lầu đình để tạo ý cảnh vô tận trong không gian hữu hạn.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "造"
+        },
+        {
+          "text": "园"
+        },
+        {
+          "text": "名"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "巧妙",
+          "pinyin": "qiǎomiào",
+          "hanviet": "Xảo Diệu",
+          "meaning_vi": "khéo léo, tài tình",
+          "hsk": 5,
+          "word_id": "hsk5_369"
+        },
+        {
+          "text": "利用",
+          "pinyin": "lìyòng",
+          "hanviet": "Lợi Dụng",
+          "meaning_vi": "lợi dụng, tận dụng",
+          "hsk": 5,
+          "word_id": "hsk5_291"
+        },
+        {
+          "text": "假",
+          "pinyin": "jiǎ",
+          "hanviet": "Giả",
+          "meaning_vi": "giả",
+          "hsk": 4,
+          "word_id": "hsk4_201"
+        },
+        {
+          "text": "山"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "池"
+        },
+        {
+          "text": "水",
+          "pinyin": "shuǐ",
+          "hanviet": "Thuỷ",
+          "meaning_vi": "nước",
+          "hsk": 1,
+          "word_id": "hsk1_98"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "花"
+        },
+        {
+          "text": "木"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "亭"
+        },
+        {
+          "text": "台",
+          "pinyin": "tái",
+          "hanviet": "Đài",
+          "meaning_vi": "cái, bục, đài (lượng từ)",
+          "hsk": 4,
+          "word_id": "hsk4_418"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "限"
+        },
+        {
+          "text": "空间",
+          "pinyin": "kōngjiān",
+          "hanviet": "Không Gian",
+          "meaning_vi": "không gian",
+          "hsk": 5,
+          "word_id": "hsk5_922"
+        },
+        {
+          "text": "内",
+          "pinyin": "nèi",
+          "hanviet": "Nội",
+          "meaning_vi": "trong, nội",
+          "hsk": 4,
+          "word_id": "hsk4_314"
+        },
+        {
+          "text": "创造",
+          "pinyin": "chuàngzào",
+          "hanviet": "Sáng Tạo",
+          "meaning_vi": "sáng tạo",
+          "hsk": 5,
+          "word_id": "hsk5_715"
+        },
+        {
+          "text": "无",
+          "pinyin": "wú",
+          "hanviet": "Vô",
+          "meaning_vi": "không có",
+          "hsk": 4,
+          "word_id": "hsk4_456"
+        },
+        {
+          "text": "限"
+        },
+        {
+          "text": "意"
+        },
+        {
+          "text": "境"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "漫步在曲折的回廊之中，游人一步一景，处处感受到自然的生机与静谧。",
+      "pinyin": "Mànbù zài qūzhé de huíláng zhī zhōng, yóurén yí bù yì jǐng, chùchù gǎnshòu dào zìrán de shēngjī yǔ jìngmì.",
+      "vi": "Tản bộ giữa những dãy hành lang uốn lượn, du khách bước một bước đổi một cảnh, cảm nhận sinh khí và tĩnh mịch.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "漫",
+          "pinyin": "màn",
+          "hanviet": "Mạn",
+          "meaning_vi": "tràn ngập, ngập tràn, lan tỏa",
+          "hsk": 7,
+          "word_id": "hsk7_2741"
+        },
+        {
+          "text": "步"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "曲折",
+          "pinyin": "qūzhé",
+          "hanviet": "Khúc Chiết",
+          "meaning_vi": "quanh co, khúc mắc",
+          "hsk": 6,
+          "word_id": "hsk6_1735"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "回",
+          "pinyin": "huí",
+          "hanviet": "Hồi",
+          "meaning_vi": "trở về",
+          "hsk": 1,
+          "word_id": "hsk1_42"
+        },
+        {
+          "text": "廊"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "游"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "步"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "景"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "处"
+        },
+        {
+          "text": "处"
+        },
+        {
+          "text": "感受",
+          "pinyin": "gǎnshòu",
+          "hanviet": "Cảm Thụ",
+          "meaning_vi": "cảm nhận",
+          "hsk": 5,
+          "word_id": "hsk5_798"
+        },
+        {
+          "text": "到",
+          "pinyin": "dào",
+          "hanviet": "Đáo",
+          "meaning_vi": "đến",
+          "hsk": 2,
+          "word_id": "hsk2_18"
+        },
+        {
+          "text": "自然",
+          "pinyin": "zìrán",
+          "hanviet": "Tự Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_589"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "生机",
+          "pinyin": "shēngjī",
+          "hanviet": "Sinh Cơ",
+          "meaning_vi": "sức sống, sinh khí",
+          "hsk": 6,
+          "word_id": "hsk6_1852"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "静"
+        },
+        {
+          "text": "谧"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "这种虽由人作、宛自天开的艺术追求，深刻体现了天人合一的哲学思想。",
+      "pinyin": "Zhè zhǒng suī yóu rén zuò, wǎn zì tiān kāi de yìshù zhuīqiú, shēnkè tǐxiàn le tiānrén-héyī de zhéxué sīxiǎng.",
+      "vi": "Sự theo đuổi nghệ thuật 'tuy do người làm mà như trời tạo' thể hiện sâu sắc tư tưởng triết học thiên nhân hợp nhất.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "种",
+          "pinyin": "zhǒng",
+          "hanviet": "Chủng",
+          "meaning_vi": "loại, giống (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_289"
+        },
+        {
+          "text": "虽"
+        },
+        {
+          "text": "由",
+          "pinyin": "yóu",
+          "hanviet": "Do",
+          "meaning_vi": "do, từ",
+          "hsk": 4,
+          "word_id": "hsk4_526"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "作"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "宛"
+        },
+        {
+          "text": "自"
+        },
+        {
+          "text": "天"
+        },
+        {
+          "text": "开",
+          "pinyin": "kāi",
+          "hanviet": "Khai",
+          "meaning_vi": "mở, lái (xe)",
+          "hsk": 1,
+          "word_id": "hsk1_49"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "艺术",
+          "pinyin": "yìshù",
+          "hanviet": "Nghệ Thuật",
+          "meaning_vi": "nghệ thuật",
+          "hsk": 4,
+          "word_id": "hsk4_515"
+        },
+        {
+          "text": "追求",
+          "pinyin": "zhuīqiú",
+          "hanviet": "Truy Cầu",
+          "meaning_vi": "theo đuổi",
+          "hsk": 5,
+          "word_id": "hsk5_1280"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "深刻",
+          "pinyin": "shēnkè",
+          "hanviet": "Thâm Khắc",
+          "meaning_vi": "sâu sắc",
+          "hsk": 5,
+          "word_id": "hsk5_411"
+        },
+        {
+          "text": "体现",
+          "pinyin": "tǐxiàn",
+          "hanviet": "Thể Hiện",
+          "meaning_vi": "thể hiện",
+          "hsk": 5,
+          "word_id": "hsk5_1108"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "天"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "合"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "哲学",
+          "pinyin": "zhéxué",
+          "hanviet": "Triết Học",
+          "meaning_vi": "triết học",
+          "hsk": 5,
+          "word_id": "hsk5_1242"
+        },
+        {
+          "text": "思想",
+          "pinyin": "sīxiǎng",
+          "hanviet": "Tư Tưởng",
+          "meaning_vi": "tư tưởng, suy nghĩ",
+          "hsk": 5,
+          "word_id": "hsk5_448"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "古典园林不仅是游览胜地，更是滋养心灵、体悟东方文化的静心之所。",
+      "pinyin": "Gǔdiǎn yuánlín bùjǐn shì yóulǎn shèngdì, gèng shì zīyǎng xīnlíng, tǐwù dōngfāng wénhuà de jìngxīn zhī suǒ.",
+      "vi": "Hoa viên cổ điển không chỉ là thắng cảnh du ngoạn mà còn là nơi nuôi dưỡng tâm hồn và chiêm nghiệm văn hóa phương Đông.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "古典",
+          "pinyin": "gǔdiǎn",
+          "hanviet": "Cổ Điển",
+          "meaning_vi": "cổ điển",
+          "hsk": 5,
+          "word_id": "hsk5_816"
+        },
+        {
+          "text": "园林",
+          "pinyin": "yuánlín",
+          "hanviet": "Viên Lâm",
+          "meaning_vi": "vườn cảnh",
+          "hsk": 6,
+          "word_id": "hsk6_2472"
+        },
+        {
+          "text": "不仅",
+          "pinyin": "bùjǐn",
+          "hanviet": "Bất Cận",
+          "meaning_vi": "không chỉ",
+          "hsk": 4,
+          "word_id": "hsk4_31"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "游览",
+          "pinyin": "yóulǎn",
+          "hanviet": "Du Lãm",
+          "meaning_vi": "du ngoạn, tham quan",
+          "hsk": 5,
+          "word_id": "hsk5_1216"
+        },
+        {
+          "text": "胜"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "更",
+          "pinyin": "gèng",
+          "hanviet": "Canh",
+          "meaning_vi": "càng, hơn",
+          "hsk": 3,
+          "word_id": "hsk3_79"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "滋"
+        },
+        {
+          "text": "养"
+        },
+        {
+          "text": "心灵",
+          "pinyin": "xīnlíng",
+          "hanviet": "Tâm Linh",
+          "meaning_vi": "tâm hồn",
+          "hsk": 6,
+          "word_id": "hsk6_2250"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "体"
+        },
+        {
+          "text": "悟"
+        },
+        {
+          "text": "东",
+          "pinyin": "dōng",
+          "hanviet": "Đông",
+          "meaning_vi": "phía đông",
+          "hsk": 3,
+          "word_id": "hsk3_53"
+        },
+        {
+          "text": "方",
+          "pinyin": "fāng",
+          "hanviet": "Phương",
+          "meaning_vi": "vuông, phương",
+          "hsk": 5,
+          "word_id": "hsk5_774"
+        },
+        {
+          "text": "文化",
+          "pinyin": "wénhuà",
+          "hanviet": "Văn Hóa",
+          "meaning_vi": "văn hóa",
+          "hsk": 3,
+          "word_id": "hsk3_232"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "静"
+        },
+        {
+          "text": "心"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "所",
+          "pinyin": "suǒ",
+          "hanviet": "Sở",
+          "meaning_vi": "nơi, sở (lượng từ tổ chức)",
+          "hsk": 5,
+          "word_id": "hsk5_1095"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk5_816",
+    "hsk6_2472",
+    "hsk1_96",
+    "hsk1_143",
+    "hsk5_166",
+    "hsk5_232",
+    "hsk4_515",
+    "hsk1_15",
+    "hsk6_1204",
+    "hsk5_91",
+    "hsk3_16",
+    "hsk3_229",
+    "hsk6_1552",
+    "hsk5_1215",
+    "hsk5_416"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Các bậc thầy hoa viên Tô Châu đã sử dụng thủ pháp gì?",
+      "options_vi": [
+        "Dùng bê tông cốt thép hiện đại",
+        "Kết hợp non bộ, hồ nước, cây cỏ tạo ý cảnh vô hạn trong không gian nhỏ",
+        "Chặt hết cây cối"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 利用假山、池水、花木和亭台，在有限空间内创造无限意境."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Tư tưởng triết học cốt lõi nào được thể hiện qua hoa viên cổ điển?",
+      "options_vi": [
+        "Thiên nhân hợp nhất (con người hòa hợp với tự nhiên)",
+        "Chinh phục tự nhiên bằng vũ lực",
+        "Chủ nghĩa tiêu dùng"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 深刻体现了天人合一的哲学思想."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Trải nghiệm đặc sắc của du khách khi dạo bước trong hoa viên là gì?",
+      "options_vi": [
+        "Nhìn cảnh vật đơn điệu",
+        "Mỗi bước đi là một cảnh trí mới lạ đầy sức sống",
+        "Cảm thấy ngột ngạt"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 游人一步一景，处处感受到自然的生机与静谧."
+    }
+  ]
+}

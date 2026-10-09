@@ -1,0 +1,1079 @@
+{
+  "id": "hsk6_story_008",
+  "level": "HSK6",
+  "title": {
+    "zh": "丝绸之路的历史回响",
+    "vi": "Dư âm lịch sử của Con đường Tơ Lụa"
+  },
+  "topic": "silk_road",
+  "topic_vi": "Lịch sử & Thương mại",
+  "icon": "🐫",
+  "estimatedMinutes": 6,
+  "description_vi": "Hành trình giao thương ngàn dặm nối liền Đông Tây, gieo mầm cho sự thấu hiểu và hòa bình giữa các nền văn minh.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "在漫长的历史长河中，古老的丝绸之路宛如一条金色的纽带，将欧亚大陆紧密连接在一起。",
+      "pinyin": "Zài màncháng de lìshǐ chánghé zhōng, gǔlǎo de sīchóuzhīlù wǎnrú yì tiáo jīnsè de niǔdài, jiāng Ōu-Yà dàlù jǐnmì liánjiē zài yìqǐ.",
+      "vi": "Trong dòng chảy lịch sử đằng đẵng, Con đường Tơ Lụa cổ xưa tựa như một dải lụa vàng kết nối chặt chẽ lục địa Á - Âu.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "漫长",
+          "pinyin": "màncháng",
+          "hanviet": "Mạn Trường",
+          "meaning_vi": "dài đằng đẵng, dài lâu",
+          "hsk": 6,
+          "word_id": "hsk6_1466"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "历史",
+          "pinyin": "lìshǐ",
+          "hanviet": "Lịch Sử",
+          "meaning_vi": "lịch sử",
+          "hsk": 3,
+          "word_id": "hsk3_149"
+        },
+        {
+          "text": "长",
+          "pinyin": "cháng",
+          "hanviet": "Trường",
+          "meaning_vi": "dài",
+          "hsk": 2,
+          "word_id": "hsk2_9"
+        },
+        {
+          "text": "河"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "古"
+        },
+        {
+          "text": "老",
+          "pinyin": "lǎo",
+          "hanviet": "Lão",
+          "meaning_vi": "già",
+          "hsk": 3,
+          "word_id": "hsk3_146"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "丝绸",
+          "pinyin": "sīchóu",
+          "hanviet": "Tơ Trù",
+          "meaning_vi": "lụa, tơ lụa",
+          "hsk": 5,
+          "word_id": "hsk5_447"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "路",
+          "pinyin": "lù",
+          "hanviet": "Lộ",
+          "meaning_vi": "đường",
+          "hsk": 2,
+          "word_id": "hsk2_65"
+        },
+        {
+          "text": "宛"
+        },
+        {
+          "text": "如一",
+          "pinyin": "rúyī",
+          "hanviet": "Như Nhất",
+          "meaning_vi": "trước sau như một; không hề thay đổi",
+          "hsk": 7,
+          "word_id": "hsk7_3455"
+        },
+        {
+          "text": "条",
+          "pinyin": "tiáo",
+          "hanviet": "Điều",
+          "meaning_vi": "con, dải (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_218"
+        },
+        {
+          "text": "金"
+        },
+        {
+          "text": "色"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "纽带",
+          "pinyin": "niǔdài",
+          "hanviet": "Nữu Đới",
+          "meaning_vi": "cầu nối; mối liên kết; sợi dây liên lạc",
+          "hsk": 7,
+          "word_id": "hsk7_2979"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "将"
+        },
+        {
+          "text": "欧"
+        },
+        {
+          "text": "亚"
+        },
+        {
+          "text": "大陆",
+          "pinyin": "dàlù",
+          "hanviet": "Đại Lục",
+          "meaning_vi": "lục địa",
+          "hsk": 7,
+          "word_id": "hsk7_735"
+        },
+        {
+          "text": "紧"
+        },
+        {
+          "text": "密"
+        },
+        {
+          "text": "连",
+          "pinyin": "lián",
+          "hanviet": "Liên",
+          "meaning_vi": "liên tiếp, ngay cả",
+          "hsk": 4,
+          "word_id": "hsk4_286"
+        },
+        {
+          "text": "接",
+          "pinyin": "jiē",
+          "hanviet": "Tiếp",
+          "meaning_vi": "đón, nhận",
+          "hsk": 3,
+          "word_id": "hsk3_121"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "一起",
+          "pinyin": "yīqǐ",
+          "hanviet": "Nhất Khởi",
+          "meaning_vi": "cùng nhau",
+          "hsk": 2,
+          "word_id": "hsk2_130"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "清脆的骆驼铃声回荡在广袤无垠的沙漠绿洲之间，见证了东西方商旅的艰辛跋涉与繁荣贸易。",
+      "pinyin": "Qīngcuì de luòtuo língshēng huídàng zài guǎngmào wúyín de shāmò lǜzhōu zhījiān, jiànzhèng le dōng-xīfāng shānglǚ de jiānxīn báshè yǔ fánróng màoyì.",
+      "vi": "Tiếng chuông lạc đà trong trẻo ngân vang giữa những ốc đảo sa mạc mênh mông, chứng kiến bước chân bươn chải nhọc nhằn và giao thương phồn thịnh giữa Đông và Tây.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "清脆",
+          "pinyin": "qīngcuì",
+          "hanviet": "Thanh Thuý",
+          "meaning_vi": "trong trẻo; giòn giã",
+          "hsk": 7,
+          "word_id": "hsk7_3298"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "骆"
+        },
+        {
+          "text": "驼"
+        },
+        {
+          "text": "铃",
+          "pinyin": "líng",
+          "hanviet": "Linh",
+          "meaning_vi": "cái chuông",
+          "hsk": 5,
+          "word_id": "hsk5_949"
+        },
+        {
+          "text": "声"
+        },
+        {
+          "text": "回",
+          "pinyin": "huí",
+          "hanviet": "Hồi",
+          "meaning_vi": "trở về",
+          "hsk": 1,
+          "word_id": "hsk1_42"
+        },
+        {
+          "text": "荡"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "广"
+        },
+        {
+          "text": "袤"
+        },
+        {
+          "text": "无",
+          "pinyin": "wú",
+          "hanviet": "Vô",
+          "meaning_vi": "không có",
+          "hsk": 4,
+          "word_id": "hsk4_456"
+        },
+        {
+          "text": "垠"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "沙漠",
+          "pinyin": "shāmò",
+          "hanviet": "Sa Mạc",
+          "meaning_vi": "sa mạc",
+          "hsk": 5,
+          "word_id": "hsk5_1042"
+        },
+        {
+          "text": "绿洲",
+          "pinyin": "lǜzhōu",
+          "hanviet": "Lục Châu",
+          "meaning_vi": "ốc đảo (sa mạc)",
+          "hsk": 7,
+          "word_id": "hsk7_2694"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "间"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "见证",
+          "pinyin": "jiànzhèng",
+          "hanviet": "Kiến Chứng",
+          "meaning_vi": "làm chứng, chứng kiến",
+          "hsk": 6,
+          "word_id": "hsk6_1173"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "东西",
+          "pinyin": "dōngxi",
+          "hanviet": "Đông Tây",
+          "meaning_vi": "đồ vật",
+          "hsk": 1,
+          "word_id": "hsk1_20"
+        },
+        {
+          "text": "方",
+          "pinyin": "fāng",
+          "hanviet": "Phương",
+          "meaning_vi": "vuông, phương",
+          "hsk": 5,
+          "word_id": "hsk5_774"
+        },
+        {
+          "text": "商"
+        },
+        {
+          "text": "旅"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "艰"
+        },
+        {
+          "text": "辛"
+        },
+        {
+          "text": "跋"
+        },
+        {
+          "text": "涉"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "繁荣",
+          "pinyin": "fánróng",
+          "hanviet": "Phồn Vinh",
+          "meaning_vi": "phồn vinh, thịnh vượng",
+          "hsk": 5,
+          "word_id": "hsk5_128"
+        },
+        {
+          "text": "贸易",
+          "pinyin": "màoyì",
+          "hanviet": "Mậu Dịch",
+          "meaning_vi": "mậu dịch, thương mại",
+          "hsk": 5,
+          "word_id": "hsk5_961"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "丝绸之路不仅仅是商品交易的物流通道，更是文化思想、天文医药与造纸印刷技术传播的巨大动脉。",
+      "pinyin": "Sīchóuzhīlù bù jǐnjǐn shì shāngpǐn jiāoyì de wùliú tōngdào, gèng shì wénhuà sīxiǎng, tiānwén yīyào yǔ zàozhǐ yìnshuā jìshù chuánbō de jùdà dòngmài.",
+      "vi": "Con đường Tơ Lụa không chỉ là tuyến đường vận tải hàng hóa mà còn là đại động mạch lan tỏa tư tưởng văn hóa, thiên văn y dược cùng kỹ thuật làm giấy in ấn.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "丝绸",
+          "pinyin": "sīchóu",
+          "hanviet": "Tơ Trù",
+          "meaning_vi": "lụa, tơ lụa",
+          "hsk": 5,
+          "word_id": "hsk5_447"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "路",
+          "pinyin": "lù",
+          "hanviet": "Lộ",
+          "meaning_vi": "đường",
+          "hsk": 2,
+          "word_id": "hsk2_65"
+        },
+        {
+          "text": "不仅",
+          "pinyin": "bùjǐn",
+          "hanviet": "Bất Cận",
+          "meaning_vi": "không chỉ",
+          "hsk": 4,
+          "word_id": "hsk4_31"
+        },
+        {
+          "text": "仅"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "商品",
+          "pinyin": "shāngpǐn",
+          "hanviet": "Thương Phẩm",
+          "meaning_vi": "hàng hóa",
+          "hsk": 5,
+          "word_id": "hsk5_404"
+        },
+        {
+          "text": "交",
+          "pinyin": "jiāo",
+          "hanviet": "Giao",
+          "meaning_vi": "giao, đưa",
+          "hsk": 4,
+          "word_id": "hsk4_211"
+        },
+        {
+          "text": "易"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "物流",
+          "pinyin": "wùliú",
+          "hanviet": "Vật Lưu",
+          "meaning_vi": "hậu cần logistics; luân chuyển hàng hóa",
+          "hsk": 7,
+          "word_id": "hsk7_4355"
+        },
+        {
+          "text": "通"
+        },
+        {
+          "text": "道"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "更",
+          "pinyin": "gèng",
+          "hanviet": "Canh",
+          "meaning_vi": "càng, hơn",
+          "hsk": 3,
+          "word_id": "hsk3_79"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "文化",
+          "pinyin": "wénhuà",
+          "hanviet": "Văn Hóa",
+          "meaning_vi": "văn hóa",
+          "hsk": 3,
+          "word_id": "hsk3_232"
+        },
+        {
+          "text": "思想",
+          "pinyin": "sīxiǎng",
+          "hanviet": "Tư Tưởng",
+          "meaning_vi": "tư tưởng, suy nghĩ",
+          "hsk": 5,
+          "word_id": "hsk5_448"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "天文",
+          "pinyin": "tiānwén",
+          "hanviet": "Thiên Văn",
+          "meaning_vi": "thiên văn",
+          "hsk": 6,
+          "word_id": "hsk6_2023"
+        },
+        {
+          "text": "医"
+        },
+        {
+          "text": "药",
+          "pinyin": "yào",
+          "hanviet": "Dược",
+          "meaning_vi": "thuốc",
+          "hsk": 2,
+          "word_id": "hsk2_125"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "造"
+        },
+        {
+          "text": "纸"
+        },
+        {
+          "text": "印刷",
+          "pinyin": "yìnshuā",
+          "hanviet": "Ấn Loát",
+          "meaning_vi": "in ấn",
+          "hsk": 5,
+          "word_id": "hsk5_1207"
+        },
+        {
+          "text": "技术",
+          "pinyin": "jìshù",
+          "hanviet": "Kĩ Thuật/kỹ Thuật",
+          "meaning_vi": "kỹ thuật",
+          "hsk": 4,
+          "word_id": "hsk4_196"
+        },
+        {
+          "text": "传播",
+          "pinyin": "chuánbō",
+          "hanviet": "Truyền Bá",
+          "meaning_vi": "truyền bá, lan truyền",
+          "hsk": 5,
+          "word_id": "hsk5_712"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "巨大",
+          "pinyin": "jùdà",
+          "hanviet": "Cự Đại",
+          "meaning_vi": "to lớn",
+          "hsk": 5,
+          "word_id": "hsk5_264"
+        },
+        {
+          "text": "动脉",
+          "pinyin": "dòngmài",
+          "hanviet": "Động Mạch",
+          "meaning_vi": "động mạch",
+          "hsk": 6,
+          "word_id": "hsk6_688"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "不同宗教、信仰与习俗在这里和平交汇、相互汲取营养，造就了灿烂辉煌的多元文明体系。",
+      "pinyin": "Bùtóng zōngjiào, xìnyǎng yǔ xísú zài zhèlǐ hépíng jiāohuì, xiānghù jíqǔ yíngyǎng, zàojiù le cànlàn huīhuáng de duōyuán wénmíng tǐxì.",
+      "vi": "Các tôn giáo, tín ngưỡng và tập tục khác biệt đã giao thoa hòa bình, tiếp thu dinh dưỡng lẫn nhau, tạo nên hệ thống văn minh đa nguyên rực rỡ.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "同"
+        },
+        {
+          "text": "宗教",
+          "pinyin": "zōngjiào",
+          "hanviet": "Tông Giáo",
+          "meaning_vi": "tôn giáo",
+          "hsk": 7,
+          "word_id": "hsk7_5540"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "信仰",
+          "pinyin": "xìnyǎng",
+          "hanviet": "Tín Ngưỡng",
+          "meaning_vi": "tín ngưỡng",
+          "hsk": 6,
+          "word_id": "hsk6_2262"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "习俗",
+          "pinyin": "xísú",
+          "hanviet": "Tập Tục",
+          "meaning_vi": "tập tục",
+          "hsk": 6,
+          "word_id": "hsk6_2177"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "里",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "bên trong",
+          "hsk": 1,
+          "word_id": "hsk1_57"
+        },
+        {
+          "text": "和平",
+          "pinyin": "hépíng",
+          "hanviet": "Hòa Bình",
+          "meaning_vi": "hòa bình",
+          "hsk": 5,
+          "word_id": "hsk5_844"
+        },
+        {
+          "text": "交",
+          "pinyin": "jiāo",
+          "hanviet": "Giao",
+          "meaning_vi": "giao, đưa",
+          "hsk": 4,
+          "word_id": "hsk4_211"
+        },
+        {
+          "text": "汇"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "相"
+        },
+        {
+          "text": "互"
+        },
+        {
+          "text": "汲取",
+          "pinyin": "jíqǔ",
+          "hanviet": "Cấp Thủ",
+          "meaning_vi": "chắt lọc, tiếp thu, rút ra bài học",
+          "hsk": 7,
+          "word_id": "hsk7_1874"
+        },
+        {
+          "text": "营养",
+          "pinyin": "yíngyǎng",
+          "hanviet": "Dinh Dưỡng",
+          "meaning_vi": "dinh dưỡng",
+          "hsk": 5,
+          "word_id": "hsk5_558"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "造就",
+          "pinyin": "zàojiù",
+          "hanviet": "Tạo Tựu",
+          "meaning_vi": "đào tạo nên, tôi luyện nên, thành tựu",
+          "hsk": 7,
+          "word_id": "hsk7_5122"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "灿烂",
+          "pinyin": "cànlàn",
+          "hanviet": "Xán Lạn",
+          "meaning_vi": "rực rỡ, sáng chói",
+          "hsk": 6,
+          "word_id": "hsk6_262"
+        },
+        {
+          "text": "辉煌",
+          "pinyin": "huīhuáng",
+          "hanviet": "Huy Hoàng",
+          "meaning_vi": "huy hoàng, rực rỡ",
+          "hsk": 6,
+          "word_id": "hsk6_1094"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "多",
+          "pinyin": "duō",
+          "hanviet": "Đa",
+          "meaning_vi": "nhiều",
+          "hsk": 1,
+          "word_id": "hsk1_24"
+        },
+        {
+          "text": "元",
+          "pinyin": "yuán",
+          "hanviet": "Nguyên",
+          "meaning_vi": "đồng (tiền)",
+          "hsk": 3,
+          "word_id": "hsk3_272"
+        },
+        {
+          "text": "文明",
+          "pinyin": "wénmíng",
+          "hanviet": "Văn Minh",
+          "meaning_vi": "văn minh",
+          "hsk": 5,
+          "word_id": "hsk5_1138"
+        },
+        {
+          "text": "体系",
+          "pinyin": "tǐxì",
+          "hanviet": "Thể Hệ",
+          "meaning_vi": "hệ thống",
+          "hsk": 6,
+          "word_id": "hsk6_2016"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "回顾丝路历史给予我们最宝贵的启迪，便是开放带来进步，包容方能共赢。",
+      "pinyin": "Huígù sīlù lìshǐ jǐyǔ wǒmen zuì bǎoguì de qǐdí, biàn shì kāifàng dàilái jìnbù, bāoróng fāng néng gòngyíng.",
+      "vi": "Nhìn lại lịch sử con đường tơ lụa cho ta bài học quý giá nhất: Cởi mở đem lại tiến bộ, bao dung mới có thể cùng thắng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "回",
+          "pinyin": "huí",
+          "hanviet": "Hồi",
+          "meaning_vi": "trở về",
+          "hsk": 1,
+          "word_id": "hsk1_42"
+        },
+        {
+          "text": "顾"
+        },
+        {
+          "text": "丝",
+          "pinyin": "sī",
+          "hanviet": "Tơ",
+          "meaning_vi": "mảy may; sợi tơ; chút xíu",
+          "hsk": 7,
+          "word_id": "hsk7_3842"
+        },
+        {
+          "text": "路",
+          "pinyin": "lù",
+          "hanviet": "Lộ",
+          "meaning_vi": "đường",
+          "hsk": 2,
+          "word_id": "hsk2_65"
+        },
+        {
+          "text": "历史",
+          "pinyin": "lìshǐ",
+          "hanviet": "Lịch Sử",
+          "meaning_vi": "lịch sử",
+          "hsk": 3,
+          "word_id": "hsk3_149"
+        },
+        {
+          "text": "给",
+          "pinyin": "gěi",
+          "hanviet": "Cấp",
+          "meaning_vi": "cho, tặng",
+          "hsk": 2,
+          "word_id": "hsk2_32"
+        },
+        {
+          "text": "予"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "最",
+          "pinyin": "zuì",
+          "hanviet": "Tối",
+          "meaning_vi": "nhất",
+          "hsk": 2,
+          "word_id": "hsk2_149"
+        },
+        {
+          "text": "宝贵",
+          "pinyin": "bǎoguì",
+          "hanviet": "Bảo Quý",
+          "meaning_vi": "quý báu",
+          "hsk": 5,
+          "word_id": "hsk5_7"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "启迪",
+          "pinyin": "qǐdí",
+          "hanviet": "Khởi Địch",
+          "meaning_vi": "soi sáng; khơi gợi; gợi mở; khai sáng",
+          "hsk": 7,
+          "word_id": "hsk7_3160"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "便",
+          "pinyin": "biàn",
+          "hanviet": "Tiện",
+          "meaning_vi": "thì, liền (liên từ)",
+          "hsk": 5,
+          "word_id": "hsk5_663"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "开放",
+          "pinyin": "kāifàng",
+          "hanviet": "Khai Phóng",
+          "meaning_vi": "mở cửa, khai phóng",
+          "hsk": 5,
+          "word_id": "hsk5_268"
+        },
+        {
+          "text": "带",
+          "pinyin": "dài",
+          "hanviet": "Đới",
+          "meaning_vi": "mang theo, đai",
+          "hsk": 3,
+          "word_id": "hsk3_42"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "进步",
+          "pinyin": "jìnbù",
+          "hanviet": "Tiến Bộ",
+          "meaning_vi": "tiến bộ",
+          "hsk": 5,
+          "word_id": "hsk5_255"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "包容",
+          "pinyin": "bāoróng",
+          "hanviet": "Bao Dung",
+          "meaning_vi": "bao dung, độ lượng khoan dung",
+          "hsk": 7,
+          "word_id": "hsk7_102"
+        },
+        {
+          "text": "方",
+          "pinyin": "fāng",
+          "hanviet": "Phương",
+          "meaning_vi": "vuông, phương",
+          "hsk": 5,
+          "word_id": "hsk5_774"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "共"
+        },
+        {
+          "text": "赢",
+          "pinyin": "yíng",
+          "hanviet": "Doanh",
+          "meaning_vi": "thắng",
+          "hsk": 4,
+          "word_id": "hsk4_520"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk1_139",
+    "hsk6_1466",
+    "hsk1_15",
+    "hsk3_149",
+    "hsk2_9",
+    "hsk3_146",
+    "hsk5_447",
+    "hsk4_563",
+    "hsk2_65",
+    "hsk7_3455",
+    "hsk3_218",
+    "hsk7_2979",
+    "hsk7_735",
+    "hsk4_286",
+    "hsk3_121"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Hình ảnh âm thanh nào tượng trưng cho các đoàn thương buôn trên con đường tơ lụa cổ xưa?",
+      "options_vi": [
+        "Tiếng còi tàu hỏa",
+        "Tiếng chuông lạc đà ngân vang giữa sa mạc",
+        "Tiếng động cơ máy bay"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 清脆的骆驼铃声回荡在广袤无垠的沙漠绿洲之间."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Ngoài hàng hóa buôn bán, Con đường Tơ Lụa còn truyền bá những gì?",
+      "options_vi": [
+        "Văn hóa, tư tưởng, thiên văn y dược và kỹ thuật làm giấy",
+        "Vũ khí hủy diệt",
+        "Chỉ truyền đi tin đồn"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu có viết: 更是文化思想、天文医药与造纸印刷技术传播的巨大动脉."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Bài học quý giá nhất mà lịch sử con đường tơ lụa để lại là gì?",
+      "options_vi": [
+        "Bế quan tỏa cảng để an toàn",
+        "Cởi mở đem lại tiến bộ, bao dung mới có thể cùng thắng",
+        "Tranh giành lãnh thổ"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 开放带来进步，包容方能共赢."
+    }
+  ]
+}

@@ -210,12 +210,11 @@ const GradedReading = (function() {
       ? manifest
       : manifest.filter(m => m.level.toLowerCase() === currentLevelFilter.toLowerCase());
 
-    const counts = {
-      HSK1: manifest.filter(m => m.level.toUpperCase() === 'HSK1').length,
-      HSK2: manifest.filter(m => m.level.toUpperCase() === 'HSK2').length,
-      HSK3: manifest.filter(m => m.level.toUpperCase() === 'HSK3').length,
-      HSK4: manifest.filter(m => m.level.toUpperCase() === 'HSK4').length,
-    };
+    const levels = ['HSK1', 'HSK2', 'HSK3', 'HSK4', 'HSK5', 'HSK6', 'HSK7', 'HSK8', 'HSK9'];
+    const levelCounts = {};
+    levels.forEach(lvl => {
+      levelCounts[lvl] = manifest.filter(m => m.level.toUpperCase() === lvl).length;
+    });
 
     mount.innerHTML = `
       <div class="graded-reading-container">
@@ -240,18 +239,23 @@ const GradedReading = (function() {
           <button type="button" class="graded-filter-pill ${currentLevelFilter === 'all' ? 'active' : ''}" onclick="GradedReading.setLevelFilter('all')">
             Tất cả (${manifest.length})
           </button>
-          <button type="button" class="graded-filter-pill ${counts.HSK1 > 0 ? (currentLevelFilter === 'HSK1' ? 'active' : '') : 'disabled'}" ${counts.HSK1 > 0 ? `onclick="GradedReading.setLevelFilter('HSK1')"` : 'title="Đang cập nhật"'}>
-            HSK 1 (${counts.HSK1} bài)
-          </button>
-          <button type="button" class="graded-filter-pill ${counts.HSK2 > 0 ? (currentLevelFilter === 'HSK2' ? 'active' : '') : 'disabled'}" ${counts.HSK2 > 0 ? `onclick="GradedReading.setLevelFilter('HSK2')"` : 'title="Đang cập nhật"'}>
-            HSK 2 (${counts.HSK2 > 0 ? `${counts.HSK2} bài` : 'Sắp có'})
-          </button>
-          <button type="button" class="graded-filter-pill ${counts.HSK3 > 0 ? (currentLevelFilter === 'HSK3' ? 'active' : '') : 'disabled'}" ${counts.HSK3 > 0 ? `onclick="GradedReading.setLevelFilter('HSK3')"` : 'title="Đang cập nhật"'}>
-            HSK 3 (${counts.HSK3 > 0 ? `${counts.HSK3} bài` : 'Sắp có'})
-          </button>
-          <button type="button" class="graded-filter-pill ${counts.HSK4 > 0 ? (currentLevelFilter === 'HSK4' ? 'active' : '') : 'disabled'}" ${counts.HSK4 > 0 ? `onclick="GradedReading.setLevelFilter('HSK4')"` : 'title="Đang cập nhật"'}>
-            HSK 4 (${counts.HSK4 > 0 ? `${counts.HSK4} bài` : 'Sắp có'})
-          </button>
+          ${levels.map(lvl => {
+            const count = levelCounts[lvl] || 0;
+            const lvlDisplay = lvl.replace('HSK', 'HSK ');
+            if (count > 0) {
+              return `
+                <button type="button" class="graded-filter-pill ${currentLevelFilter === lvl ? 'active' : ''}" onclick="GradedReading.setLevelFilter('${lvl}')">
+                  ${lvlDisplay} (${count} bài)
+                </button>
+              `;
+            } else {
+              return `
+                <button type="button" class="graded-filter-pill disabled" title="Đang cập nhật thêm bài đọc">
+                  ${lvlDisplay} (Sắp có)
+                </button>
+              `;
+            }
+          }).join('')}
         </nav>
 
         <!-- Stories Grid -->

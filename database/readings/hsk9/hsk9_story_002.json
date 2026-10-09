@@ -1,0 +1,1113 @@
+{
+  "id": "hsk9_story_002",
+  "level": "HSK9",
+  "title": {
+    "zh": "黑洞视界与时空奇点之谜",
+    "vi": "Chân trời sự kiện lỗ đen và bí ẩn điểm kỳ dị"
+  },
+  "topic": "astrophysics_singularity",
+  "topic_vi": "Vật lý thiên văn",
+  "icon": "🌌",
+  "estimatedMinutes": 9,
+  "description_vi": "Thử thách lớn nhất của vật lý hiện đại: Nơi thuyết tương đối rộng và cơ học lượng tử đối đầu gay gắt.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "黑洞作为广义相对论预言的最极端天体，代表着宇宙引力坍缩走向极致的神秘终局。",
+      "pinyin": "Hēidòng zuòwéi guǎngyì xiāngduìlùn yùyán de zuì jiéduān tiāntǐ, dàibiǎo zhe yǔzhòu yǐnlì tānsuō zǒuxiàng jízhì de shénmì zhōngjú.",
+      "vi": "Lỗ đen với tư cách là thiên thể cực đoan nhất mà thuyết tương đối rộng dự đoán, đại diện cho kết cục bí ẩn nơi lực hấp dẫn sụp đổ đến tột cùng trong vũ trụ.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "黑",
+          "pinyin": "hēi",
+          "hanviet": "Hắc",
+          "meaning_vi": "đen",
+          "hsk": 2,
+          "word_id": "hsk2_40"
+        },
+        {
+          "text": "洞",
+          "pinyin": "dòng",
+          "hanviet": "Động",
+          "meaning_vi": "cái lỗ, hang",
+          "hsk": 5,
+          "word_id": "hsk5_755"
+        },
+        {
+          "text": "作为",
+          "pinyin": "zuòwéi",
+          "hanviet": "Tác Vi",
+          "meaning_vi": "là, với danh nghĩa",
+          "hsk": 5,
+          "word_id": "hsk5_1300"
+        },
+        {
+          "text": "广义",
+          "pinyin": "guǎngyì",
+          "hanviet": "Nghiễm Nghĩa",
+          "meaning_vi": "nghĩa rộng",
+          "hsk": 7,
+          "word_id": "hsk7_1514"
+        },
+        {
+          "text": "相对",
+          "pinyin": "xiāngduì",
+          "hanviet": "Tương Đối",
+          "meaning_vi": "tương đối",
+          "hsk": 5,
+          "word_id": "hsk5_1159"
+        },
+        {
+          "text": "论"
+        },
+        {
+          "text": "预言",
+          "pinyin": "yùyán",
+          "hanviet": "Dự Ngôn",
+          "meaning_vi": "dự đoán, lời tiên đoán",
+          "hsk": 6,
+          "word_id": "hsk6_2457"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "最",
+          "pinyin": "zuì",
+          "hanviet": "Tối",
+          "meaning_vi": "nhất",
+          "hsk": 2,
+          "word_id": "hsk2_149"
+        },
+        {
+          "text": "极端",
+          "pinyin": "jíduān",
+          "hanviet": "Cực Đoan",
+          "meaning_vi": "cực đoan",
+          "hsk": 6,
+          "word_id": "hsk6_1124"
+        },
+        {
+          "text": "天"
+        },
+        {
+          "text": "体"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "代表",
+          "pinyin": "dàibiǎo",
+          "hanviet": "Đại Biểu",
+          "meaning_vi": "đại diện",
+          "hsk": 5,
+          "word_id": "hsk5_91"
+        },
+        {
+          "text": "着",
+          "pinyin": "zhe",
+          "hanviet": "Trước",
+          "meaning_vi": "đang (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_143"
+        },
+        {
+          "text": "宇宙",
+          "pinyin": "yǔzhòu",
+          "hanviet": "Vũ Trụ",
+          "meaning_vi": "vũ trụ",
+          "hsk": 6,
+          "word_id": "hsk6_2451"
+        },
+        {
+          "text": "引"
+        },
+        {
+          "text": "力"
+        },
+        {
+          "text": "坍"
+        },
+        {
+          "text": "缩",
+          "pinyin": "suō",
+          "hanviet": "Súc",
+          "meaning_vi": "co lại; rụt vào",
+          "hsk": 7,
+          "word_id": "hsk7_3913"
+        },
+        {
+          "text": "走向",
+          "pinyin": "zǒuxiàng",
+          "hanviet": "Tẩu Hướng",
+          "meaning_vi": "về phía",
+          "hsk": 7,
+          "word_id": "hsk7_5557"
+        },
+        {
+          "text": "极",
+          "pinyin": "jí",
+          "hanviet": "Cực",
+          "meaning_vi": "cực kỳ",
+          "hsk": 3,
+          "word_id": "hsk3_110"
+        },
+        {
+          "text": "致",
+          "pinyin": "zhì",
+          "hanviet": "Trí",
+          "meaning_vi": "dẫn đến, khiến cho; gửi gắm",
+          "hsk": 7,
+          "word_id": "hsk7_5324"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "神秘",
+          "pinyin": "shénmì",
+          "hanviet": "Thần Bí",
+          "meaning_vi": "thần bí, huyền bí",
+          "hsk": 5,
+          "word_id": "hsk5_413"
+        },
+        {
+          "text": "终"
+        },
+        {
+          "text": "局"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "事件视界是任何物质与光线都无法逃逸的单向边界，将黑洞内部的时空与外部世界彻底隔绝开来。",
+      "pinyin": "Shìjiàn shìjiè shì rènhé wùzhì yǔ guāngxiàn dōu wúfǎ táoyì de dānxiàng biānjiè, jiāng hēidòng nèibù de shíkōng yǔ wàibù shìjiè chèdǐ géjué kāi lái.",
+      "vi": "Chân trời sự kiện là đường biên giới một chiều mà không vật chất hay ánh sáng nào có thể thoát ra, cô lập hoàn toàn không - thời gian bên trong lỗ đen với thế giới bên ngoài.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "事件",
+          "pinyin": "shìjiàn",
+          "hanviet": "Sự Kiện",
+          "meaning_vi": "sự kiện",
+          "hsk": 6,
+          "word_id": "hsk6_1906"
+        },
+        {
+          "text": "视"
+        },
+        {
+          "text": "界",
+          "pinyin": "jiè",
+          "hanviet": "Giới",
+          "meaning_vi": "giới, ranh giới, phạm vi",
+          "hsk": 7,
+          "word_id": "hsk7_2115"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "任何",
+          "pinyin": "rènhé",
+          "hanviet": "Nhâm Hà",
+          "meaning_vi": "bất kỳ, mọi",
+          "hsk": 4,
+          "word_id": "hsk4_358"
+        },
+        {
+          "text": "物质",
+          "pinyin": "wùzhì",
+          "hanviet": "Vật Chất",
+          "meaning_vi": "vật chất",
+          "hsk": 5,
+          "word_id": "hsk5_500"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "光",
+          "pinyin": "guāng",
+          "hanviet": "Quang",
+          "meaning_vi": "ánh sáng",
+          "hsk": 4,
+          "word_id": "hsk4_155"
+        },
+        {
+          "text": "线"
+        },
+        {
+          "text": "都",
+          "pinyin": "dōu",
+          "hanviet": "Đô",
+          "meaning_vi": "đều",
+          "hsk": 1,
+          "word_id": "hsk1_21"
+        },
+        {
+          "text": "无",
+          "pinyin": "wú",
+          "hanviet": "Vô",
+          "meaning_vi": "không có",
+          "hsk": 4,
+          "word_id": "hsk4_456"
+        },
+        {
+          "text": "法"
+        },
+        {
+          "text": "逃",
+          "pinyin": "táo",
+          "hanviet": "Đào",
+          "meaning_vi": "chạy trốn, trốn",
+          "hsk": 5,
+          "word_id": "hsk5_456"
+        },
+        {
+          "text": "逸"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "单"
+        },
+        {
+          "text": "向",
+          "pinyin": "xiàng",
+          "hanviet": "Hướng",
+          "meaning_vi": "hướng về, về phía",
+          "hsk": 3,
+          "word_id": "hsk3_241"
+        },
+        {
+          "text": "边界",
+          "pinyin": "biānjiè",
+          "hanviet": "Biên Giới",
+          "meaning_vi": "ranh giới, biên giới",
+          "hsk": 6,
+          "word_id": "hsk6_134"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "将"
+        },
+        {
+          "text": "黑",
+          "pinyin": "hēi",
+          "hanviet": "Hắc",
+          "meaning_vi": "đen",
+          "hsk": 2,
+          "word_id": "hsk2_40"
+        },
+        {
+          "text": "洞",
+          "pinyin": "dòng",
+          "hanviet": "Động",
+          "meaning_vi": "cái lỗ, hang",
+          "hsk": 5,
+          "word_id": "hsk5_755"
+        },
+        {
+          "text": "内部",
+          "pinyin": "nèibù",
+          "hanviet": "Nội Bộ",
+          "meaning_vi": "nội bộ, bên trong",
+          "hsk": 5,
+          "word_id": "hsk5_980"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "时空",
+          "pinyin": "shíkōng",
+          "hanviet": "Thời Không",
+          "meaning_vi": "không gian và thời gian; thời không",
+          "hsk": 7,
+          "word_id": "hsk7_3672"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "外",
+          "pinyin": "wài",
+          "hanviet": "Ngoại",
+          "meaning_vi": "ngoài",
+          "hsk": 2,
+          "word_id": "hsk2_105"
+        },
+        {
+          "text": "部"
+        },
+        {
+          "text": "世界",
+          "pinyin": "shìjiè",
+          "hanviet": "Thế Giới",
+          "meaning_vi": "thế giới",
+          "hsk": 3,
+          "word_id": "hsk3_202"
+        },
+        {
+          "text": "彻底",
+          "pinyin": "chèdǐ",
+          "hanviet": "Triệt Để",
+          "meaning_vi": "triệt để",
+          "hsk": 5,
+          "word_id": "hsk5_50"
+        },
+        {
+          "text": "隔"
+        },
+        {
+          "text": "绝",
+          "pinyin": "jué",
+          "hanviet": "Tuyệt",
+          "meaning_vi": "tuyệt đối; dứt khoát",
+          "hsk": 7,
+          "word_id": "hsk7_2271"
+        },
+        {
+          "text": "开",
+          "pinyin": "kāi",
+          "hanviet": "Khai",
+          "meaning_vi": "mở, lái (xe)",
+          "hsk": 1,
+          "word_id": "hsk1_49"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "在黑洞中心的奇点处，物质密度与时空曲率趋近于无穷大，现有的经典物理定律在此处全盘失效。",
+      "pinyin": "Zài hēidòng zhōngxīn de qídiǎn chù, wùzhì mìdù yǔ shíkōng qūlǜ qūjìn yú wúqióngdà, xiànyǒu de jīngdiǎn wùlǐ dìnglǜ zài cǐ chù quánpán shīxiào.",
+      "vi": "Tại điểm kỳ dị ở trung tâm lỗ đen, mật độ vật chất và độ uốn cong không - thời gian tiệm cận vô cùng lớn, khiến toàn bộ định luật vật lý cổ điển hiện hành hoàn toàn sụp đổ.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "黑",
+          "pinyin": "hēi",
+          "hanviet": "Hắc",
+          "meaning_vi": "đen",
+          "hsk": 2,
+          "word_id": "hsk2_40"
+        },
+        {
+          "text": "洞",
+          "pinyin": "dòng",
+          "hanviet": "Động",
+          "meaning_vi": "cái lỗ, hang",
+          "hsk": 5,
+          "word_id": "hsk5_755"
+        },
+        {
+          "text": "中心",
+          "pinyin": "zhōngxīn",
+          "hanviet": "Trung Tâm",
+          "meaning_vi": "trung tâm",
+          "hsk": 5,
+          "word_id": "hsk5_1262"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "奇"
+        },
+        {
+          "text": "点",
+          "pinyin": "diǎn",
+          "hanviet": "Điểm",
+          "meaning_vi": "giờ, điểm",
+          "hsk": 1,
+          "word_id": "hsk1_16"
+        },
+        {
+          "text": "处"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "物质",
+          "pinyin": "wùzhì",
+          "hanviet": "Vật Chất",
+          "meaning_vi": "vật chất",
+          "hsk": 5,
+          "word_id": "hsk5_500"
+        },
+        {
+          "text": "密度",
+          "pinyin": "mìdù",
+          "hanviet": "Mật Độ",
+          "meaning_vi": "mật độ",
+          "hsk": 6,
+          "word_id": "hsk6_1490"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "时空",
+          "pinyin": "shíkōng",
+          "hanviet": "Thời Không",
+          "meaning_vi": "không gian và thời gian; thời không",
+          "hsk": 7,
+          "word_id": "hsk7_3672"
+        },
+        {
+          "text": "曲"
+        },
+        {
+          "text": "率",
+          "pinyin": "shuài",
+          "hanviet": "Luật",
+          "meaning_vi": "dẫn dắt; dẫn đầu; thống lĩnh",
+          "hsk": 7,
+          "word_id": "hsk7_3801"
+        },
+        {
+          "text": "趋"
+        },
+        {
+          "text": "近",
+          "pinyin": "jìn",
+          "hanviet": "Cận",
+          "meaning_vi": "gần",
+          "hsk": 2,
+          "word_id": "hsk2_49"
+        },
+        {
+          "text": "于"
+        },
+        {
+          "text": "无穷",
+          "pinyin": "wúqióng",
+          "hanviet": "Vô Cùng",
+          "meaning_vi": "vô cùng; bất tận; vô tận",
+          "hsk": 7,
+          "word_id": "hsk7_4327"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "现"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "经典",
+          "pinyin": "jīngdiǎn",
+          "hanviet": "Kinh Điển",
+          "meaning_vi": "cổ điển, kinh điển",
+          "hsk": 5,
+          "word_id": "hsk5_259"
+        },
+        {
+          "text": "物理",
+          "pinyin": "wùlǐ",
+          "hanviet": "Vật Lí/vật Lý",
+          "meaning_vi": "vật lý",
+          "hsk": 5,
+          "word_id": "hsk5_1147"
+        },
+        {
+          "text": "定律",
+          "pinyin": "dìnglǜ",
+          "hanviet": "Định Luật",
+          "meaning_vi": "định luật",
+          "hsk": 7,
+          "word_id": "hsk7_920"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "此"
+        },
+        {
+          "text": "处"
+        },
+        {
+          "text": "全"
+        },
+        {
+          "text": "盘"
+        },
+        {
+          "text": "失效",
+          "pinyin": "shīxiào",
+          "hanviet": "Thất Hiệu",
+          "meaning_vi": "hết hiệu lực; mất tác dụng",
+          "hsk": 7,
+          "word_id": "hsk7_3658"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "霍金辐射理论的提出，巧妙地将量子力学、热力学与广义相对论交织在一起，揭示了黑洞蒸发的微观机理。",
+      "pinyin": "Huòjīn fúshè lǐlùn de tíchū, qiǎomiào de jiāng liàngzǐ lìxué, rèlìxué yǔ guǎngyì xiāngduìlùn jiāozhī zài yìqǐ, jiēshì le hēidòng zhēngfā de wēiguān jīlǐ.",
+      "vi": "Thuyết bức xạ Hawking được đề xuất đã khéo léo đan dệt cơ học lượng tử, nhiệt động lực học và thuyết tương đối rộng, hé mở cơ chế vi mô của sự bốc hơi lỗ đen.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "霍"
+        },
+        {
+          "text": "金"
+        },
+        {
+          "text": "辐射",
+          "pinyin": "fúshè",
+          "hanviet": "Bức Xạ",
+          "meaning_vi": "bức xạ, lan tỏa",
+          "hsk": 7,
+          "word_id": "hsk7_1235"
+        },
+        {
+          "text": "理论",
+          "pinyin": "lǐlùn",
+          "hanviet": "Lí Luận/lý Luận",
+          "meaning_vi": "lý luận",
+          "hsk": 5,
+          "word_id": "hsk5_286"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "提",
+          "pinyin": "tí",
+          "hanviet": "Đề",
+          "meaning_vi": "mang, xách; nêu ra",
+          "hsk": 4,
+          "word_id": "hsk4_430"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "巧妙",
+          "pinyin": "qiǎomiào",
+          "hanviet": "Xảo Diệu",
+          "meaning_vi": "khéo léo, tài tình",
+          "hsk": 5,
+          "word_id": "hsk5_369"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "将"
+        },
+        {
+          "text": "量"
+        },
+        {
+          "text": "子"
+        },
+        {
+          "text": "力"
+        },
+        {
+          "text": "学"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "热",
+          "pinyin": "rè",
+          "hanviet": "Nhiệt",
+          "meaning_vi": "nóng",
+          "hsk": 1,
+          "word_id": "hsk1_84"
+        },
+        {
+          "text": "力"
+        },
+        {
+          "text": "学"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "广义",
+          "pinyin": "guǎngyì",
+          "hanviet": "Nghiễm Nghĩa",
+          "meaning_vi": "nghĩa rộng",
+          "hsk": 7,
+          "word_id": "hsk7_1514"
+        },
+        {
+          "text": "相对",
+          "pinyin": "xiāngduì",
+          "hanviet": "Tương Đối",
+          "meaning_vi": "tương đối",
+          "hsk": 5,
+          "word_id": "hsk5_1159"
+        },
+        {
+          "text": "论"
+        },
+        {
+          "text": "交织",
+          "pinyin": "jiāozhī",
+          "hanviet": "Giao Chức",
+          "meaning_vi": "đan xen, quyện vào nhau",
+          "hsk": 7,
+          "word_id": "hsk7_2046"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "一起",
+          "pinyin": "yīqǐ",
+          "hanviet": "Nhất Khởi",
+          "meaning_vi": "cùng nhau",
+          "hsk": 2,
+          "word_id": "hsk2_130"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "揭示",
+          "pinyin": "jiēshì",
+          "hanviet": "Yết Thị",
+          "meaning_vi": "làm sáng tỏ, hé lộ, vạch rõ",
+          "hsk": 7,
+          "word_id": "hsk7_2081"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "黑",
+          "pinyin": "hēi",
+          "hanviet": "Hắc",
+          "meaning_vi": "đen",
+          "hsk": 2,
+          "word_id": "hsk2_40"
+        },
+        {
+          "text": "洞",
+          "pinyin": "dòng",
+          "hanviet": "Động",
+          "meaning_vi": "cái lỗ, hang",
+          "hsk": 5,
+          "word_id": "hsk5_755"
+        },
+        {
+          "text": "蒸发",
+          "pinyin": "zhēngfā",
+          "hanviet": "Chưng Phát",
+          "meaning_vi": "bốc hơi, bay hơi",
+          "hsk": 7,
+          "word_id": "hsk7_5242"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "微观",
+          "pinyin": "wēiguān",
+          "hanviet": "Vi Quán",
+          "meaning_vi": "vi mô",
+          "hsk": 6,
+          "word_id": "hsk6_2111"
+        },
+        {
+          "text": "机"
+        },
+        {
+          "text": "理"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "攻克黑洞奇点与信息悖论，被公认为人类通往统一量子引力理论终极梦想的关键钥匙。",
+      "pinyin": "Gōngkè hēidòng qídiǎn yǔ xìnxī bèilùn, bèi gōngrèn wéi rénlèi tōng wǎng tǒngyī liàngzǐ yǐnlì lǐlùn zhōngjí mèngxiǎng de guānjiàn yàoshi.",
+      "vi": "Chinh phục điểm kỳ dị lỗ đen và nghịch lý thông tin được công nhận là chìa khóa then chốt dẫn nhân loại đến giấc mơ tối thượng: Lý thuyết hấp dẫn lượng tử thống nhất.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "攻克",
+          "pinyin": "gōngkè",
+          "hanviet": "Công Khắc",
+          "meaning_vi": "chiếm được, khắc phục",
+          "hsk": 6,
+          "word_id": "hsk6_958"
+        },
+        {
+          "text": "黑",
+          "pinyin": "hēi",
+          "hanviet": "Hắc",
+          "meaning_vi": "đen",
+          "hsk": 2,
+          "word_id": "hsk2_40"
+        },
+        {
+          "text": "洞",
+          "pinyin": "dòng",
+          "hanviet": "Động",
+          "meaning_vi": "cái lỗ, hang",
+          "hsk": 5,
+          "word_id": "hsk5_755"
+        },
+        {
+          "text": "奇"
+        },
+        {
+          "text": "点",
+          "pinyin": "diǎn",
+          "hanviet": "Điểm",
+          "meaning_vi": "giờ, điểm",
+          "hsk": 1,
+          "word_id": "hsk1_16"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "信息",
+          "pinyin": "xìnxī",
+          "hanviet": "Tín Tức",
+          "meaning_vi": "thông tin",
+          "hsk": 4,
+          "word_id": "hsk4_480"
+        },
+        {
+          "text": "悖"
+        },
+        {
+          "text": "论"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "被",
+          "pinyin": "bèi",
+          "hanviet": "Bị",
+          "meaning_vi": "bị (trợ từ bị động)",
+          "hsk": 3,
+          "word_id": "hsk3_16"
+        },
+        {
+          "text": "公认",
+          "pinyin": "gōngrèn",
+          "hanviet": "Công Nhận",
+          "meaning_vi": "được công nhận chung",
+          "hsk": 6,
+          "word_id": "hsk6_953"
+        },
+        {
+          "text": "为人",
+          "pinyin": "wéirén",
+          "hanviet": "Vi Nhân",
+          "meaning_vi": "làm người; phẩm cách; đối nhân xử thế",
+          "hsk": 7,
+          "word_id": "hsk7_4242"
+        },
+        {
+          "text": "类"
+        },
+        {
+          "text": "通"
+        },
+        {
+          "text": "往",
+          "pinyin": "wǎng",
+          "hanviet": "Vãng",
+          "meaning_vi": "hướng về, đi về",
+          "hsk": 2,
+          "word_id": "hsk2_109"
+        },
+        {
+          "text": "统一",
+          "pinyin": "tǒngyī",
+          "hanviet": "Thống Nhất",
+          "meaning_vi": "thống nhất",
+          "hsk": 5,
+          "word_id": "hsk5_469"
+        },
+        {
+          "text": "量"
+        },
+        {
+          "text": "子"
+        },
+        {
+          "text": "引"
+        },
+        {
+          "text": "力"
+        },
+        {
+          "text": "理论",
+          "pinyin": "lǐlùn",
+          "hanviet": "Lí Luận/lý Luận",
+          "meaning_vi": "lý luận",
+          "hsk": 5,
+          "word_id": "hsk5_286"
+        },
+        {
+          "text": "终极",
+          "pinyin": "zhōngjí",
+          "hanviet": "Chung Cực",
+          "meaning_vi": "cứu cánh, tột cùng, chung cuộc",
+          "hsk": 7,
+          "word_id": "hsk7_5355"
+        },
+        {
+          "text": "梦想",
+          "pinyin": "mèngxiǎng",
+          "hanviet": "Mộng Tưởng",
+          "meaning_vi": "ước mơ",
+          "hsk": 5,
+          "word_id": "hsk5_965"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "关键",
+          "pinyin": "guānjiàn",
+          "hanviet": "Quan Kiện",
+          "meaning_vi": "mấu chốt, then chốt",
+          "hsk": 4,
+          "word_id": "hsk4_152"
+        },
+        {
+          "text": "钥匙",
+          "pinyin": "yàoshi",
+          "hanviet": "Thược Thi",
+          "meaning_vi": "chìa khóa",
+          "hsk": 4,
+          "word_id": "hsk4_507"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk2_40",
+    "hsk5_755",
+    "hsk5_1300",
+    "hsk7_1514",
+    "hsk5_1159",
+    "hsk6_2457",
+    "hsk1_15",
+    "hsk2_149",
+    "hsk6_1124",
+    "hsk5_91",
+    "hsk2_143",
+    "hsk6_2451",
+    "hsk7_3913",
+    "hsk7_5557",
+    "hsk3_110"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Đặc tính của chân trời sự kiện (Event Horizon) xung quanh lỗ đen là gì?",
+      "options_vi": [
+        "Cho phép ánh sáng tự do ra vào",
+        "Là đường ranh giới một chiều mà không vật chất hay ánh sáng nào thoát ra được",
+        "Nhiệt độ rất thấp"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 事件视界是任何物质与光线都无法逃逸的单向边界."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Điều gì xảy ra với các định luật vật lý tại điểm kỳ dị của lỗ đen?",
+      "options_vi": [
+        "Hoạt động chuẩn xác hơn bình thường",
+        "Toàn bộ định luật vật lý hiện hành đều mất hiệu lực",
+        "Không có ảnh hưởng gì"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 现有的经典物理定律在此处全盘失效."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Mục tiêu tối thượng của các nhà vật lý khi nghiên cứu lỗ đen là gì?",
+      "options_vi": [
+        "Tìm ra lý thuyết hấp dẫn lượng tử thống nhất vũ trụ",
+        "Để chế tạo vũ khí mới",
+        "Khai thác đá trên lỗ đen"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu cuối có viết: 通往统一量子引力理论终极梦想的关键钥匙."
+    }
+  ]
+}

@@ -1,0 +1,1108 @@
+{
+  "id": "hsk8_story_003",
+  "level": "HSK8",
+  "title": {
+    "zh": "全球供应链的韧性重构",
+    "vi": "Tái cấu trúc và độ bền chuỗi cung ứng toàn cầu"
+  },
+  "topic": "global_supply_chain",
+  "topic_vi": "Thương mại & Chuỗi cung ứng",
+  "icon": "🚢",
+  "estimatedMinutes": 8,
+  "description_vi": "Đa dạng hóa nguồn cung và chuyển đổi số hóa nhằm đối phó với các cú sốc địa chính trị và thiên tai bất ngờ.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "全球供应链在过去数十年间追求极致的成本效率，高度依赖跨国分工与零库存管理模式。",
+      "pinyin": "Quánqiú gōngyìngliàn zài guòqù shù shí nián jiān zhuīqiú jízhì de chéngběn xiàolǜ, gāodù yīlài kuàguó fēngōng yǔ líng kùcún guǎnlǐ móshì.",
+      "vi": "Chuỗi cung ứng toàn cầu hàng chục năm qua mải miết theo đuổi hiệu quả chi phí tối đa, phụ thuộc cao vào phân công xuyên quốc gia và quản lý tồn kho bằng không.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "全"
+        },
+        {
+          "text": "球"
+        },
+        {
+          "text": "供应链",
+          "pinyin": "gōngyìngliàn",
+          "hanviet": "Cung Ưng Liên",
+          "meaning_vi": "chuỗi cung ứng",
+          "hsk": 7,
+          "word_id": "hsk7_1404"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "过去",
+          "pinyin": "guòqù",
+          "hanviet": "Quá Khứ",
+          "meaning_vi": "quá khứ",
+          "hsk": 3,
+          "word_id": "hsk3_89"
+        },
+        {
+          "text": "数",
+          "pinyin": "shǔ",
+          "hanviet": "Sổ",
+          "meaning_vi": "đếm, tính",
+          "hsk": 5,
+          "word_id": "hsk5_1083"
+        },
+        {
+          "text": "十",
+          "pinyin": "shí",
+          "hanviet": "Thập",
+          "meaning_vi": "mười",
+          "hsk": 1,
+          "word_id": "hsk1_94"
+        },
+        {
+          "text": "年",
+          "pinyin": "nián",
+          "hanviet": "Niên",
+          "meaning_vi": "năm",
+          "hsk": 1,
+          "word_id": "hsk1_74"
+        },
+        {
+          "text": "间"
+        },
+        {
+          "text": "追求",
+          "pinyin": "zhuīqiú",
+          "hanviet": "Truy Cầu",
+          "meaning_vi": "theo đuổi",
+          "hsk": 5,
+          "word_id": "hsk5_1280"
+        },
+        {
+          "text": "极",
+          "pinyin": "jí",
+          "hanviet": "Cực",
+          "meaning_vi": "cực kỳ",
+          "hsk": 3,
+          "word_id": "hsk3_110"
+        },
+        {
+          "text": "致",
+          "pinyin": "zhì",
+          "hanviet": "Trí",
+          "meaning_vi": "dẫn đến, khiến cho; gửi gắm",
+          "hsk": 7,
+          "word_id": "hsk7_5324"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "成本",
+          "pinyin": "chéngběn",
+          "hanviet": "Thành Bản",
+          "meaning_vi": "chi phí, giá thành",
+          "hsk": 6,
+          "word_id": "hsk6_355"
+        },
+        {
+          "text": "效率",
+          "pinyin": "xiàolǜ",
+          "hanviet": "Hiệu Suất",
+          "meaning_vi": "hiệu suất",
+          "hsk": 5,
+          "word_id": "hsk5_1169"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "高",
+          "pinyin": "gāo",
+          "hanviet": "Cao",
+          "meaning_vi": "cao",
+          "hsk": 2,
+          "word_id": "hsk2_29"
+        },
+        {
+          "text": "度"
+        },
+        {
+          "text": "依赖",
+          "pinyin": "yīlài",
+          "hanviet": "Ỷ Lại",
+          "meaning_vi": "phụ thuộc vào",
+          "hsk": 6,
+          "word_id": "hsk6_2374"
+        },
+        {
+          "text": "跨国",
+          "pinyin": "kuàguó",
+          "hanviet": "Khoá Quốc",
+          "meaning_vi": "đa quốc gia, xuyên quốc gia",
+          "hsk": 7,
+          "word_id": "hsk7_2424"
+        },
+        {
+          "text": "分",
+          "pinyin": "fēn",
+          "hanviet": "Phân",
+          "meaning_vi": "phút; điểm; phân (đơn vị tiền)",
+          "hsk": 3,
+          "word_id": "hsk3_69"
+        },
+        {
+          "text": "工"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "零",
+          "pinyin": "líng",
+          "hanviet": "Linh",
+          "meaning_vi": "không (số)",
+          "hsk": 2,
+          "word_id": "hsk2_64"
+        },
+        {
+          "text": "库存",
+          "pinyin": "kùcún",
+          "hanviet": "Khố Tồn",
+          "meaning_vi": "tồn kho, lượng hàng trong kho",
+          "hsk": 7,
+          "word_id": "hsk7_2415"
+        },
+        {
+          "text": "管理",
+          "pinyin": "guǎnlǐ",
+          "hanviet": "Quản Lí/quản Lý",
+          "meaning_vi": "quản lý",
+          "hsk": 4,
+          "word_id": "hsk4_154"
+        },
+        {
+          "text": "模式",
+          "pinyin": "móshì",
+          "hanviet": "Mô Thức",
+          "meaning_vi": "mô hình, phương thức",
+          "hsk": 6,
+          "word_id": "hsk6_1521"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "地缘政治冲突、突发公共卫生事件与贸易壁垒的叠加冲击，暴露出单一供应网络极度脆弱的致命短板。",
+      "pinyin": "Dìyuán zhèngzhì chōngtū, tūfā gōnggòng wèishēng shìjiàn yǔ màoyì bìlěi de diéjiā chōngjī, bàolù chū dānyī gōngyìng wǎngluò jídù cuìruò de zhìmìng duǎnbǎn.",
+      "vi": "Tác động kép từ xung đột địa chính trị, biến cố y tế đột xuất và rào cản thương mại đã bộc lộ yếu điểm chí mạng mong manh cùng cực của mạng lưới cung ứng đơn lẻ.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "缘"
+        },
+        {
+          "text": "政治",
+          "pinyin": "zhèngzhì",
+          "hanviet": "Chính Trị",
+          "meaning_vi": "chính trị",
+          "hsk": 5,
+          "word_id": "hsk5_1250"
+        },
+        {
+          "text": "冲突",
+          "pinyin": "chōngtū",
+          "hanviet": "Xung Đột",
+          "meaning_vi": "xung đột",
+          "hsk": 6,
+          "word_id": "hsk6_404"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "突"
+        },
+        {
+          "text": "发",
+          "pinyin": "fā",
+          "hanviet": "Phát",
+          "meaning_vi": "phát ra, gửi",
+          "hsk": 3,
+          "word_id": "hsk3_63"
+        },
+        {
+          "text": "公"
+        },
+        {
+          "text": "共"
+        },
+        {
+          "text": "卫"
+        },
+        {
+          "text": "生"
+        },
+        {
+          "text": "事件",
+          "pinyin": "shìjiàn",
+          "hanviet": "Sự Kiện",
+          "meaning_vi": "sự kiện",
+          "hsk": 6,
+          "word_id": "hsk6_1906"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "贸易",
+          "pinyin": "màoyì",
+          "hanviet": "Mậu Dịch",
+          "meaning_vi": "mậu dịch, thương mại",
+          "hsk": 5,
+          "word_id": "hsk5_961"
+        },
+        {
+          "text": "壁垒",
+          "pinyin": "bìlěi",
+          "hanviet": "Bích Luỹ",
+          "meaning_vi": "bức tường rào cản, rào lũy",
+          "hsk": 7,
+          "word_id": "hsk7_188"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "叠",
+          "pinyin": "dié",
+          "hanviet": "Điệp",
+          "meaning_vi": "gấp, xếp",
+          "hsk": 7,
+          "word_id": "hsk7_905"
+        },
+        {
+          "text": "加"
+        },
+        {
+          "text": "冲击",
+          "pinyin": "chōngjī",
+          "hanviet": "Xung Kích",
+          "meaning_vi": "xung kích, va đập, tác động mạnh",
+          "hsk": 6,
+          "word_id": "hsk6_400"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "暴露",
+          "pinyin": "bàolù",
+          "hanviet": "Bộc Lộ",
+          "meaning_vi": "phơi bày, để lộ",
+          "hsk": 6,
+          "word_id": "hsk6_81"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "单"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "供应",
+          "pinyin": "gōngyìng",
+          "hanviet": "Cung Ứng",
+          "meaning_vi": "cung ứng",
+          "hsk": 6,
+          "word_id": "hsk6_963"
+        },
+        {
+          "text": "网络",
+          "pinyin": "wǎngluò",
+          "hanviet": "Võng Lạc",
+          "meaning_vi": "mạng, internet",
+          "hsk": 5,
+          "word_id": "hsk5_1125"
+        },
+        {
+          "text": "极度",
+          "pinyin": "jídù",
+          "hanviet": "Cực Độ",
+          "meaning_vi": "cực độ, vô cùng",
+          "hsk": 7,
+          "word_id": "hsk7_1864"
+        },
+        {
+          "text": "脆弱",
+          "pinyin": "cuìruò",
+          "hanviet": "Thuý Nhược",
+          "meaning_vi": "yếu đuối, mong manh",
+          "hsk": 6,
+          "word_id": "hsk6_506"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "致命",
+          "pinyin": "zhìmìng",
+          "hanviet": "Trí Mệnh",
+          "meaning_vi": "chí mạng, gây chết người, nguy hại chết người",
+          "hsk": 7,
+          "word_id": "hsk7_5338"
+        },
+        {
+          "text": "短",
+          "pinyin": "duǎn",
+          "hanviet": "Đoản",
+          "meaning_vi": "ngắn",
+          "hsk": 3,
+          "word_id": "hsk3_56"
+        },
+        {
+          "text": "板"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "现代跨国企业正在从单纯追求效率至上，全面转向注重供应链的安全性、冗余度与抗风险韧性。",
+      "pinyin": "Xiàndài kuàguó qǐyè zhèngzài cóng dānchún zhuīqiú xiàolǜ zhìshàng, quánmiàn zhuǎnxiàng zhùzhòng gōngyìngliàn de ānquánxìng, rǒngyúdù yǔ kàng-fēngxiǎn rènxìng.",
+      "vi": "Các tập đoàn đa quốc gia hiện đại đang từ chỗ đơn thuần coi trọng hiệu quả chuyển dịch toàn diện sang chú trọng tính an toàn, độ dự phòng và năng lực chống chịu rủi ro.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "现代",
+          "pinyin": "xiàndài",
+          "hanviet": "Hiện Đại",
+          "meaning_vi": "hiện đại",
+          "hsk": 5,
+          "word_id": "hsk5_1155"
+        },
+        {
+          "text": "跨国",
+          "pinyin": "kuàguó",
+          "hanviet": "Khoá Quốc",
+          "meaning_vi": "đa quốc gia, xuyên quốc gia",
+          "hsk": 7,
+          "word_id": "hsk7_2424"
+        },
+        {
+          "text": "企业",
+          "pinyin": "qǐyè",
+          "hanviet": "Xí Nghiệp",
+          "meaning_vi": "doanh nghiệp",
+          "hsk": 5,
+          "word_id": "hsk5_1009"
+        },
+        {
+          "text": "正在",
+          "pinyin": "zhèngzài",
+          "hanviet": "Chinh Tại",
+          "meaning_vi": "đang",
+          "hsk": 2,
+          "word_id": "hsk2_145"
+        },
+        {
+          "text": "从",
+          "pinyin": "cóng",
+          "hanviet": "Tòng",
+          "meaning_vi": "từ",
+          "hsk": 2,
+          "word_id": "hsk2_14"
+        },
+        {
+          "text": "单纯",
+          "pinyin": "dānchún",
+          "hanviet": "Thiện Thuần",
+          "meaning_vi": "đơn giản, đơn thuần",
+          "hsk": 5,
+          "word_id": "hsk5_734"
+        },
+        {
+          "text": "追求",
+          "pinyin": "zhuīqiú",
+          "hanviet": "Truy Cầu",
+          "meaning_vi": "theo đuổi",
+          "hsk": 5,
+          "word_id": "hsk5_1280"
+        },
+        {
+          "text": "效率",
+          "pinyin": "xiàolǜ",
+          "hanviet": "Hiệu Suất",
+          "meaning_vi": "hiệu suất",
+          "hsk": 5,
+          "word_id": "hsk5_1169"
+        },
+        {
+          "text": "至"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "全面",
+          "pinyin": "quánmiàn",
+          "hanviet": "Toàn Diện",
+          "meaning_vi": "toàn diện",
+          "hsk": 5,
+          "word_id": "hsk5_1026"
+        },
+        {
+          "text": "转",
+          "pinyin": "zhuàn",
+          "hanviet": "Chuyển",
+          "meaning_vi": "quay, xoay",
+          "hsk": 4,
+          "word_id": "hsk4_584"
+        },
+        {
+          "text": "向",
+          "pinyin": "xiàng",
+          "hanviet": "Hướng",
+          "meaning_vi": "hướng về, về phía",
+          "hsk": 3,
+          "word_id": "hsk3_241"
+        },
+        {
+          "text": "注",
+          "pinyin": "zhù",
+          "hanviet": "Chú",
+          "meaning_vi": "chú thích, ghi chú; rót vào, trút vào",
+          "hsk": 7,
+          "word_id": "hsk7_5409"
+        },
+        {
+          "text": "重",
+          "pinyin": "zhòng",
+          "hanviet": "Trọng",
+          "meaning_vi": "nặng",
+          "hsk": 4,
+          "word_id": "hsk4_575"
+        },
+        {
+          "text": "供应链",
+          "pinyin": "gōngyìngliàn",
+          "hanviet": "Cung Ưng Liên",
+          "meaning_vi": "chuỗi cung ứng",
+          "hsk": 7,
+          "word_id": "hsk7_1404"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "安全",
+          "pinyin": "ānquán",
+          "hanviet": "An Toàn",
+          "meaning_vi": "an toàn",
+          "hsk": 4,
+          "word_id": "hsk4_3"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "冗"
+        },
+        {
+          "text": "余",
+          "pinyin": "yú",
+          "hanviet": "Dư",
+          "meaning_vi": "dư, hơn, sót lại",
+          "hsk": 7,
+          "word_id": "hsk7_4998"
+        },
+        {
+          "text": "度"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "抗"
+        },
+        {
+          "text": "风险",
+          "pinyin": "fēngxiǎn",
+          "hanviet": "Phong Hiểm",
+          "meaning_vi": "rủi ro",
+          "hsk": 5,
+          "word_id": "hsk5_140"
+        },
+        {
+          "text": "韧性",
+          "pinyin": "rènxìng",
+          "hanviet": "Nhận Tính",
+          "meaning_vi": "tính dẻo dai; độ bền bỉ",
+          "hsk": 7,
+          "word_id": "hsk7_3425"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "布局近岸外包、推动多元化供应商采购以及运用区块链技术提升物流透明度，成为重塑格局的战略举措。",
+      "pinyin": "Bùjú jìn'àn wàibāo, tuīdòng duōyuánhuà gōngyìngshāng cǎigòu yǐjí yùnyòng qūkuàiliàn jìshù tíshēng wùliú tòumíngdù, chéngwéi chóngsù géjú de zhànlüè jǔcuò.",
+      "vi": "Bố trí gia công cận bờ, đa dạng hóa nhà cung ứng và ứng dụng chuỗi khối tăng độ minh bạch hậu cần đã trở thành bước đi chiến lược định hình lại cục diện.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "布局",
+          "pinyin": "bùjú",
+          "hanviet": "Bố Cục",
+          "meaning_vi": "bố cục, cách bố trí",
+          "hsk": 6,
+          "word_id": "hsk6_215"
+        },
+        {
+          "text": "近",
+          "pinyin": "jìn",
+          "hanviet": "Cận",
+          "meaning_vi": "gần",
+          "hsk": 2,
+          "word_id": "hsk2_49"
+        },
+        {
+          "text": "岸",
+          "pinyin": "àn",
+          "hanviet": "Ngạn",
+          "meaning_vi": "bờ (sông, biển)",
+          "hsk": 5,
+          "word_id": "hsk5_4"
+        },
+        {
+          "text": "外",
+          "pinyin": "wài",
+          "hanviet": "Ngoại",
+          "meaning_vi": "ngoài",
+          "hsk": 2,
+          "word_id": "hsk2_105"
+        },
+        {
+          "text": "包",
+          "pinyin": "bāo",
+          "hanviet": "Bao",
+          "meaning_vi": "cái túi; bao gồm",
+          "hsk": 3,
+          "word_id": "hsk3_13"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "推",
+          "pinyin": "tuī",
+          "hanviet": "Suy",
+          "meaning_vi": "đẩy",
+          "hsk": 4,
+          "word_id": "hsk4_442"
+        },
+        {
+          "text": "动"
+        },
+        {
+          "text": "多元化",
+          "pinyin": "duōyuánhuà",
+          "hanviet": "Đa Nguyên Hoa",
+          "meaning_vi": "đa dạng hóa",
+          "hsk": 6,
+          "word_id": "hsk6_745"
+        },
+        {
+          "text": "供应",
+          "pinyin": "gōngyìng",
+          "hanviet": "Cung Ứng",
+          "meaning_vi": "cung ứng",
+          "hsk": 6,
+          "word_id": "hsk6_963"
+        },
+        {
+          "text": "商"
+        },
+        {
+          "text": "采购",
+          "pinyin": "cǎigòu",
+          "hanviet": "Thái Cấu",
+          "meaning_vi": "mua sắm, thu mua",
+          "hsk": 6,
+          "word_id": "hsk6_247"
+        },
+        {
+          "text": "以及",
+          "pinyin": "yǐjí",
+          "hanviet": "Dĩ Cập",
+          "meaning_vi": "cùng với, và",
+          "hsk": 5,
+          "word_id": "hsk5_1202"
+        },
+        {
+          "text": "运用",
+          "pinyin": "yùnyòng",
+          "hanviet": "Vận Dụng",
+          "meaning_vi": "vận dụng",
+          "hsk": 5,
+          "word_id": "hsk5_579"
+        },
+        {
+          "text": "区"
+        },
+        {
+          "text": "块",
+          "pinyin": "kuài",
+          "hanviet": "Khối",
+          "meaning_vi": "đồng (tiền), miếng",
+          "hsk": 1,
+          "word_id": "hsk1_52"
+        },
+        {
+          "text": "链"
+        },
+        {
+          "text": "技术",
+          "pinyin": "jìshù",
+          "hanviet": "Kĩ Thuật/kỹ Thuật",
+          "meaning_vi": "kỹ thuật",
+          "hsk": 4,
+          "word_id": "hsk4_196"
+        },
+        {
+          "text": "提",
+          "pinyin": "tí",
+          "hanviet": "Đề",
+          "meaning_vi": "mang, xách; nêu ra",
+          "hsk": 4,
+          "word_id": "hsk4_430"
+        },
+        {
+          "text": "升",
+          "pinyin": "shēng",
+          "hanviet": "Thăng",
+          "meaning_vi": "thăng, lên",
+          "hsk": 5,
+          "word_id": "hsk5_1055"
+        },
+        {
+          "text": "物流",
+          "pinyin": "wùliú",
+          "hanviet": "Vật Lưu",
+          "meaning_vi": "hậu cần logistics; luân chuyển hàng hóa",
+          "hsk": 7,
+          "word_id": "hsk7_4355"
+        },
+        {
+          "text": "透明",
+          "pinyin": "tòumíng",
+          "hanviet": "Thấu Minh",
+          "meaning_vi": "trong suốt, minh bạch",
+          "hsk": 5,
+          "word_id": "hsk5_1113"
+        },
+        {
+          "text": "度"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "成为",
+          "pinyin": "chéngwéi",
+          "hanviet": "Thành Vi",
+          "meaning_vi": "trở thành",
+          "hsk": 4,
+          "word_id": "hsk4_46"
+        },
+        {
+          "text": "重",
+          "pinyin": "zhòng",
+          "hanviet": "Trọng",
+          "meaning_vi": "nặng",
+          "hsk": 4,
+          "word_id": "hsk4_575"
+        },
+        {
+          "text": "塑"
+        },
+        {
+          "text": "格局",
+          "pinyin": "géjú",
+          "hanviet": "Cách Cục",
+          "meaning_vi": "cục diện, cấu trúc tổng thể",
+          "hsk": 6,
+          "word_id": "hsk6_936"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "战略",
+          "pinyin": "zhànlüè",
+          "hanviet": "Chiến Lược",
+          "meaning_vi": "chiến lược, tầm nhìn chiến lược",
+          "hsk": 7,
+          "word_id": "hsk7_5159"
+        },
+        {
+          "text": "举措",
+          "pinyin": "jǔcuò",
+          "hanviet": "Cử Thố",
+          "meaning_vi": "biện pháp, quyết sách, động thái",
+          "hsk": 7,
+          "word_id": "hsk7_2249"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "兼顾本土制造保障与全球开放协作，才能在不确定的世界经济格局中建立真正稳健的产业护城河。",
+      "pinyin": "Jiāngù běntǔ zhìzào bǎozhàng yǔ quánqiú kāifàng xiézuò, cái néng zài bú quèdìng de shìjiè jīngjì géjú zhōng jiànlì zhēnzhèng wěnjiàn de chǎnyè hùchénghé.",
+      "vi": "Kết hợp bảo đảm sản xuất nội địa với hợp tác cởi mở toàn cầu mới có thể xây dựng con hào kinh tế thực sự vững chãi giữa những bấp bênh của kinh tế thế giới.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "兼顾",
+          "pinyin": "jiāngù",
+          "hanviet": "Kiêm Cố",
+          "meaning_vi": "tính đến cả hai, kết hợp hài hòa",
+          "hsk": 7,
+          "word_id": "hsk7_1954"
+        },
+        {
+          "text": "本",
+          "pinyin": "běn",
+          "hanviet": "Bản",
+          "meaning_vi": "cuốn (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_6"
+        },
+        {
+          "text": "土"
+        },
+        {
+          "text": "制造",
+          "pinyin": "zhìzào",
+          "hanviet": "Chế Tạo",
+          "meaning_vi": "chế tạo",
+          "hsk": 5,
+          "word_id": "hsk5_604"
+        },
+        {
+          "text": "保障",
+          "pinyin": "bǎozhàng",
+          "hanviet": "Bảo Chướng",
+          "meaning_vi": "bảo đảm",
+          "hsk": 6,
+          "word_id": "hsk6_70"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "全"
+        },
+        {
+          "text": "球"
+        },
+        {
+          "text": "开放",
+          "pinyin": "kāifàng",
+          "hanviet": "Khai Phóng",
+          "meaning_vi": "mở cửa, khai phóng",
+          "hsk": 5,
+          "word_id": "hsk5_268"
+        },
+        {
+          "text": "协作",
+          "pinyin": "xiézuò",
+          "hanviet": "Hiệp Tác",
+          "meaning_vi": "hợp tác phối hợp; hiệp tác",
+          "hsk": 7,
+          "word_id": "hsk7_4524"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "才"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "确定",
+          "pinyin": "quèdìng",
+          "hanviet": "Xác Định",
+          "meaning_vi": "xác định",
+          "hsk": 5,
+          "word_id": "hsk5_1028"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "世界",
+          "pinyin": "shìjiè",
+          "hanviet": "Thế Giới",
+          "meaning_vi": "thế giới",
+          "hsk": 3,
+          "word_id": "hsk3_202"
+        },
+        {
+          "text": "经济",
+          "pinyin": "jīngjì",
+          "hanviet": "Kinh Tế",
+          "meaning_vi": "kinh tế",
+          "hsk": 4,
+          "word_id": "hsk4_230"
+        },
+        {
+          "text": "格局",
+          "pinyin": "géjú",
+          "hanviet": "Cách Cục",
+          "meaning_vi": "cục diện, cấu trúc tổng thể",
+          "hsk": 6,
+          "word_id": "hsk6_936"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "建立",
+          "pinyin": "jiànlì",
+          "hanviet": "Kiến Lập",
+          "meaning_vi": "xây dựng, kiến lập",
+          "hsk": 5,
+          "word_id": "hsk5_886"
+        },
+        {
+          "text": "真正",
+          "pinyin": "zhēnzhèng",
+          "hanviet": "Chân Chính",
+          "meaning_vi": "thực sự, chân chính",
+          "hsk": 4,
+          "word_id": "hsk4_556"
+        },
+        {
+          "text": "稳健",
+          "pinyin": "wěnjiàn",
+          "hanviet": "Ổn Kiện",
+          "meaning_vi": "vững vàng; thận trọng kiên định",
+          "hsk": 7,
+          "word_id": "hsk7_4286"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "产业",
+          "pinyin": "chǎnyè",
+          "hanviet": "Sản Nghiệp",
+          "meaning_vi": "ngành công nghiệp, sản nghiệp",
+          "hsk": 6,
+          "word_id": "hsk6_298"
+        },
+        {
+          "text": "护",
+          "pinyin": "hù",
+          "hanviet": "Hộ",
+          "meaning_vi": "che chở, bảo vệ",
+          "hsk": 7,
+          "word_id": "hsk7_1710"
+        },
+        {
+          "text": "城"
+        },
+        {
+          "text": "河"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk7_1404",
+    "hsk1_139",
+    "hsk3_89",
+    "hsk5_1083",
+    "hsk1_94",
+    "hsk1_74",
+    "hsk5_1280",
+    "hsk3_110",
+    "hsk7_5324",
+    "hsk1_15",
+    "hsk6_355",
+    "hsk5_1169",
+    "hsk2_29",
+    "hsk6_2374",
+    "hsk7_2424"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Mô hình chuỗi cung ứng truyền thống trước đây có nhược điểm lớn gì?",
+      "options_vi": [
+        "Quá chú trọng chi phí thấp và tồn kho bằng không dẫn đến dễ tổn thương khi có biến cố",
+        "Chi phí vận hành quá cao",
+        "Dự trữ hàng hóa quá nhiều"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 暴露出单一供应网络极度脆弱的致命短板."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Chiến lược tái cấu trúc của các tập đoàn đa quốc gia hiện nay là gì?",
+      "options_vi": [
+        "Chỉ mua từ một nhà máy duy nhất",
+        "Đa dạng hóa nhà cung ứng, gia công cận bờ và tăng độ minh bạch",
+        "Ngừng nhập khẩu hoàn toàn"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 推动多元化供应商采购以及运用区块链技术提升透明度."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Giải pháp xây dựng bức tường thành công nghiệp bền vững là gì?",
+      "options_vi": [
+        "Cân bằng giữa sản xuất nội địa và hợp tác mở rộng toàn cầu",
+        "Đóng cửa biên giới tự cung tự cấp",
+        "Bỏ rơi toàn bộ ngành sản xuất trong nước"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu cuối có viết: 兼顾本土制造保障与全球开放协作，建立真正稳健的产业护城河."
+    }
+  ]
+}

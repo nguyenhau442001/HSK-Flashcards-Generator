@@ -1,0 +1,1141 @@
+{
+  "id": "hsk9_story_004",
+  "level": "HSK9",
+  "title": {
+    "zh": "隐喻的认知本性与人类思维",
+    "vi": "Bản chất nhận thức của ẩn dụ và tư duy con người"
+  },
+  "topic": "cognitive_linguistics",
+  "topic_vi": "Ngôn ngữ học nhận thức",
+  "icon": "🗣️",
+  "estimatedMinutes": 9,
+  "description_vi": "Ẩn dụ không đơn thuần là thủ pháp tu từ hoa mỹ, mà là phương thức nền tảng giúp con người kiến tạo thế giới tư duy.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "认知语言学颠覆了将隐喻仅仅视为文学修辞手法的传统观念，确证隐喻在本质上是一种基础认知机制。",
+      "pinyin": "Rènzhī yǔyánhué diānfù le jiāng yǐnyù jǐnjǐn shì wéi wénxué xiūcí shǒufǎ de chuántǒng guānniàn, quèzhèng yǐnyù zài běnzhì shàng shì yì zhǒng jīchǔ rènzhī jīzhì.",
+      "vi": "Ngôn ngữ học nhận thức đã lật đổ quan niệm truyền thống coi ẩn dụ chỉ là biện pháp tu từ văn chương, khẳng định ẩn dụ về bản chất là một cơ chế nhận thức nền tảng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "认"
+        },
+        {
+          "text": "知"
+        },
+        {
+          "text": "语言",
+          "pinyin": "yǔyán",
+          "hanviet": "Ngữ Ngôn",
+          "meaning_vi": "ngôn ngữ",
+          "hsk": 4,
+          "word_id": "hsk4_537"
+        },
+        {
+          "text": "学"
+        },
+        {
+          "text": "颠覆",
+          "pinyin": "diānfù",
+          "hanviet": "Điên Phúc",
+          "meaning_vi": "lật đổ, làm đảo lộn",
+          "hsk": 7,
+          "word_id": "hsk7_873"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "将"
+        },
+        {
+          "text": "隐"
+        },
+        {
+          "text": "喻"
+        },
+        {
+          "text": "仅仅",
+          "pinyin": "jǐnjǐn",
+          "hanviet": "Cận Cận",
+          "meaning_vi": "chỉ, chỉ mỗi",
+          "hsk": 6,
+          "word_id": "hsk6_1219"
+        },
+        {
+          "text": "视"
+        },
+        {
+          "text": "为",
+          "pinyin": "wèi",
+          "hanviet": "Vi",
+          "meaning_vi": "vì, cho",
+          "hsk": 3,
+          "word_id": "hsk3_229"
+        },
+        {
+          "text": "文学",
+          "pinyin": "wénxué",
+          "hanviet": "Văn Học",
+          "meaning_vi": "văn học",
+          "hsk": 5,
+          "word_id": "hsk5_494"
+        },
+        {
+          "text": "修"
+        },
+        {
+          "text": "辞",
+          "pinyin": "cí",
+          "hanviet": "Từ",
+          "meaning_vi": "từ chức, từ chối, từ biệt",
+          "hsk": 7,
+          "word_id": "hsk7_652"
+        },
+        {
+          "text": "手法",
+          "pinyin": "shǒufǎ",
+          "hanviet": "Thủ Pháp",
+          "meaning_vi": "kỹ xảo, thủ pháp",
+          "hsk": 6,
+          "word_id": "hsk6_1921"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "传统",
+          "pinyin": "chuántǒng",
+          "hanviet": "Truyền Thống",
+          "meaning_vi": "truyền thống",
+          "hsk": 5,
+          "word_id": "hsk5_76"
+        },
+        {
+          "text": "观念",
+          "pinyin": "guānniàn",
+          "hanviet": "Quan Niệm",
+          "meaning_vi": "quan niệm",
+          "hsk": 5,
+          "word_id": "hsk5_172"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "确"
+        },
+        {
+          "text": "证"
+        },
+        {
+          "text": "隐"
+        },
+        {
+          "text": "喻"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "本质",
+          "pinyin": "běnzhì",
+          "hanviet": "Bản Chất",
+          "meaning_vi": "bản chất",
+          "hsk": 5,
+          "word_id": "hsk5_658"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "种",
+          "pinyin": "zhǒng",
+          "hanviet": "Chủng",
+          "meaning_vi": "loại, giống (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_289"
+        },
+        {
+          "text": "基础",
+          "pinyin": "jīchǔ",
+          "hanviet": "Cơ Sở",
+          "meaning_vi": "cơ sở, nền tảng",
+          "hsk": 4,
+          "word_id": "hsk4_186"
+        },
+        {
+          "text": "认"
+        },
+        {
+          "text": "知"
+        },
+        {
+          "text": "机制",
+          "pinyin": "jīzhì",
+          "hanviet": "Cơ Chế",
+          "meaning_vi": "cơ chế",
+          "hsk": 6,
+          "word_id": "hsk6_1122"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "人类借由具体的身体经验与感知互动，将有形的源域概念系统性地映射到抽象复杂的无形目标域之中。",
+      "pinyin": "Rénlèi jiè yóu jùtǐ de shēntǐ jīngyàn yǔ gǎnzhī hùdòng, jiāng yǒuxíng de yuányù gàiniàn xìtǒngxìng de yìngshè dào chōuxiàng fùzá de wúxíng mùbiāoyù zhī zhōng.",
+      "vi": "Loài người thông qua trải nghiệm thân thể cụ thể và tương tác cảm giác đã ánh xạ có hệ thống khái niệm miền nguồn hữu hình sang miền đích vô hình trừu tượng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "借",
+          "pinyin": "jiè",
+          "hanviet": "Tá",
+          "meaning_vi": "cho mượn, mượn",
+          "hsk": 3,
+          "word_id": "hsk3_128"
+        },
+        {
+          "text": "由",
+          "pinyin": "yóu",
+          "hanviet": "Do",
+          "meaning_vi": "do, từ",
+          "hsk": 4,
+          "word_id": "hsk4_526"
+        },
+        {
+          "text": "具体",
+          "pinyin": "jùtǐ",
+          "hanviet": "Cụ Thể",
+          "meaning_vi": "cụ thể",
+          "hsk": 5,
+          "word_id": "hsk5_905"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "身体",
+          "pinyin": "shēntǐ",
+          "hanviet": "Thân Thể",
+          "meaning_vi": "cơ thể, sức khỏe",
+          "hsk": 2,
+          "word_id": "hsk2_91"
+        },
+        {
+          "text": "经验",
+          "pinyin": "jīngyàn",
+          "hanviet": "Kinh Nghiệm",
+          "meaning_vi": "kinh nghiệm",
+          "hsk": 4,
+          "word_id": "hsk4_232"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "感"
+        },
+        {
+          "text": "知"
+        },
+        {
+          "text": "互"
+        },
+        {
+          "text": "动"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "将"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "形"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "源"
+        },
+        {
+          "text": "域"
+        },
+        {
+          "text": "概念",
+          "pinyin": "gàiniàn",
+          "hanviet": "Khái Niệm",
+          "meaning_vi": "khái niệm",
+          "hsk": 5,
+          "word_id": "hsk5_794"
+        },
+        {
+          "text": "系统",
+          "pinyin": "xìtǒng",
+          "hanviet": "Hệ Thống",
+          "meaning_vi": "hệ thống",
+          "hsk": 5,
+          "word_id": "hsk5_502"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "映"
+        },
+        {
+          "text": "射"
+        },
+        {
+          "text": "到",
+          "pinyin": "dào",
+          "hanviet": "Đáo",
+          "meaning_vi": "đến",
+          "hsk": 2,
+          "word_id": "hsk2_18"
+        },
+        {
+          "text": "抽象",
+          "pinyin": "chōuxiàng",
+          "hanviet": "Trừu Tượng",
+          "meaning_vi": "trừu tượng",
+          "hsk": 5,
+          "word_id": "hsk5_67"
+        },
+        {
+          "text": "复杂",
+          "pinyin": "fùzá",
+          "hanviet": "Phức Tạp",
+          "meaning_vi": "phức tạp",
+          "hsk": 4,
+          "word_id": "hsk4_126"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "无形",
+          "pinyin": "wúxíng",
+          "hanviet": "Vô Hình",
+          "meaning_vi": "vô hình",
+          "hsk": 7,
+          "word_id": "hsk7_4334"
+        },
+        {
+          "text": "目标",
+          "pinyin": "mùbiāo",
+          "hanviet": "Mục Tiêu",
+          "meaning_vi": "mục tiêu",
+          "hsk": 5,
+          "word_id": "hsk5_326"
+        },
+        {
+          "text": "域"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "诸如时间就是金钱争论就是战争等普遍概念隐喻，不知不觉中深刻规训着我们的日常言语与行为决策。",
+      "pinyin": "Zhūrú shíjiān jiù shì jīnqián zhēnglùn jiù shì zhànzhēng děng pǔbiàn gàiniàn yǐnyù, bùzhī-bùjué zhōng shēnkè guīxùn zhe wǒmen de rìcháng yányǔ yǔ xíngwéi juécè.",
+      "vi": "Những ẩn dụ khái niệm phổ biến như 'Thời gian là tiền bạc' hay 'Tranh luận là chiến tranh' âm thầm quy định sâu sắc lời ăn tiếng nói và quyết định hành vi hàng ngày.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "诸"
+        },
+        {
+          "text": "如"
+        },
+        {
+          "text": "时间",
+          "pinyin": "shíjiān",
+          "hanviet": "Thời Gian",
+          "meaning_vi": "thời gian",
+          "hsk": 2,
+          "word_id": "hsk2_94"
+        },
+        {
+          "text": "就",
+          "pinyin": "jiù",
+          "hanviet": "Tựu",
+          "meaning_vi": "là, ngay (trợ từ nhấn mạnh)",
+          "hsk": 2,
+          "word_id": "hsk2_51"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "金"
+        },
+        {
+          "text": "钱",
+          "pinyin": "qián",
+          "hanviet": "Tiền",
+          "meaning_vi": "tiền",
+          "hsk": 1,
+          "word_id": "hsk1_81"
+        },
+        {
+          "text": "争论",
+          "pinyin": "zhēnglùn",
+          "hanviet": "Tranh Luận",
+          "meaning_vi": "tranh luận, cãi vã",
+          "hsk": 5,
+          "word_id": "hsk5_1247"
+        },
+        {
+          "text": "就",
+          "pinyin": "jiù",
+          "hanviet": "Tựu",
+          "meaning_vi": "là, ngay (trợ từ nhấn mạnh)",
+          "hsk": 2,
+          "word_id": "hsk2_51"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "战争",
+          "pinyin": "zhànzhēng",
+          "hanviet": "Chiến Tranh",
+          "meaning_vi": "chiến tranh",
+          "hsk": 5,
+          "word_id": "hsk5_1234"
+        },
+        {
+          "text": "等",
+          "pinyin": "děng",
+          "hanviet": "Đẳng",
+          "meaning_vi": "đợi, chờ",
+          "hsk": 2,
+          "word_id": "hsk2_20"
+        },
+        {
+          "text": "普遍",
+          "pinyin": "pǔbiàn",
+          "hanviet": "Phổ Biến",
+          "meaning_vi": "phổ biến",
+          "hsk": 4,
+          "word_id": "hsk4_334"
+        },
+        {
+          "text": "概念",
+          "pinyin": "gàiniàn",
+          "hanviet": "Khái Niệm",
+          "meaning_vi": "khái niệm",
+          "hsk": 5,
+          "word_id": "hsk5_794"
+        },
+        {
+          "text": "隐"
+        },
+        {
+          "text": "喻"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "不知不觉",
+          "pinyin": "bùzhī-bùjué",
+          "hanviet": "Bất Tri Bất Giác",
+          "meaning_vi": "bất giác, lúc nào không hay",
+          "hsk": 7,
+          "word_id": "hsk7_356"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "深刻",
+          "pinyin": "shēnkè",
+          "hanviet": "Thâm Khắc",
+          "meaning_vi": "sâu sắc",
+          "hsk": 5,
+          "word_id": "hsk5_411"
+        },
+        {
+          "text": "规"
+        },
+        {
+          "text": "训",
+          "pinyin": "xùn",
+          "hanviet": "Huấn",
+          "meaning_vi": "mắng mỏ dạy bảo; răn dạy; khiển trách",
+          "hsk": 7,
+          "word_id": "hsk7_4702"
+        },
+        {
+          "text": "着",
+          "pinyin": "zhe",
+          "hanviet": "Trước",
+          "meaning_vi": "đang (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_143"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "日常",
+          "pinyin": "rìcháng",
+          "hanviet": "Nhật Thường",
+          "meaning_vi": "thường ngày, hàng ngày",
+          "hsk": 5,
+          "word_id": "hsk5_1034"
+        },
+        {
+          "text": "言"
+        },
+        {
+          "text": "语"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "行为",
+          "pinyin": "xíngwéi",
+          "hanviet": "Hành Vi",
+          "meaning_vi": "hành vi",
+          "hsk": 5,
+          "word_id": "hsk5_526"
+        },
+        {
+          "text": "决策",
+          "pinyin": "juécè",
+          "hanviet": "Quyết Sách",
+          "meaning_vi": "quyết sách, ra quyết định",
+          "hsk": 6,
+          "word_id": "hsk6_1278"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "不同文化背景所孕育的独特隐喻构架，生动折射出各民族在认识自然与反思自我过程中的思维异彩。",
+      "pinyin": "Bùtóng wénhuà bèijǐng suǒ yùnyù de dútè yǐnyù gòujià, shēngdòng zhéshè chū gè mínzú zài rènshí zìrán yǔ fǎnsī zìwǒ guòchéng zhōng de sīwéi yìcǎi.",
+      "vi": "Khung ẩn dụ độc đáo nuôi dưỡng bởi các nền văn hóa khác nhau phản chiếu sinh động vẻ rực rỡ riêng trong tư duy nhận thức tự nhiên và phản tỉnh bản thân.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "同"
+        },
+        {
+          "text": "文化",
+          "pinyin": "wénhuà",
+          "hanviet": "Văn Hóa",
+          "meaning_vi": "văn hóa",
+          "hsk": 3,
+          "word_id": "hsk3_232"
+        },
+        {
+          "text": "背景",
+          "pinyin": "bèijǐng",
+          "hanviet": "Bối Cảnh",
+          "meaning_vi": "bối cảnh",
+          "hsk": 5,
+          "word_id": "hsk5_13"
+        },
+        {
+          "text": "所",
+          "pinyin": "suǒ",
+          "hanviet": "Sở",
+          "meaning_vi": "nơi, sở (lượng từ tổ chức)",
+          "hsk": 5,
+          "word_id": "hsk5_1095"
+        },
+        {
+          "text": "孕育",
+          "pinyin": "yùnyù",
+          "hanviet": "Dựng Dục",
+          "meaning_vi": "thai nghén, nuôi dưỡng (hình thành)",
+          "hsk": 6,
+          "word_id": "hsk6_2482"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "独特",
+          "pinyin": "dútè",
+          "hanviet": "Độc Đặc",
+          "meaning_vi": "độc đáo",
+          "hsk": 5,
+          "word_id": "hsk5_112"
+        },
+        {
+          "text": "隐"
+        },
+        {
+          "text": "喻"
+        },
+        {
+          "text": "构"
+        },
+        {
+          "text": "架"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "生动",
+          "pinyin": "shēngdòng",
+          "hanviet": "Sinh Động",
+          "meaning_vi": "sinh động",
+          "hsk": 5,
+          "word_id": "hsk5_414"
+        },
+        {
+          "text": "折射",
+          "pinyin": "zhéshè",
+          "hanviet": "Chiết Xạ",
+          "meaning_vi": "khúc xạ; phản ánh, phản chiếu",
+          "hsk": 7,
+          "word_id": "hsk7_5206"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "各",
+          "pinyin": "gè",
+          "hanviet": "Các",
+          "meaning_vi": "mỗi, từng",
+          "hsk": 4,
+          "word_id": "hsk4_140"
+        },
+        {
+          "text": "民族",
+          "pinyin": "mínzú",
+          "hanviet": "Dân Tộc",
+          "meaning_vi": "dân tộc",
+          "hsk": 4,
+          "word_id": "hsk4_308"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "认识",
+          "pinyin": "rènshi",
+          "hanviet": "Nhận Thức",
+          "meaning_vi": "biết, quen biết",
+          "hsk": 1,
+          "word_id": "hsk1_86"
+        },
+        {
+          "text": "自然",
+          "pinyin": "zìrán",
+          "hanviet": "Tự Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_589"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "反思",
+          "pinyin": "fǎnsī",
+          "hanviet": "Phản Tư",
+          "meaning_vi": "suy ngẫm lại",
+          "hsk": 6,
+          "word_id": "hsk6_801"
+        },
+        {
+          "text": "自"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "过程",
+          "pinyin": "guòchéng",
+          "hanviet": "Quá Trình",
+          "meaning_vi": "quá trình",
+          "hsk": 4,
+          "word_id": "hsk4_163"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "思维",
+          "pinyin": "sīwéi",
+          "hanviet": "Tư Duy",
+          "meaning_vi": "tư duy",
+          "hsk": 6,
+          "word_id": "hsk6_1956"
+        },
+        {
+          "text": "异"
+        },
+        {
+          "text": "彩"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "解构隐喻背后的认知图式，使我们得以穿透符号的迷雾，直抵人类心智运作与意义建构的深层殿堂。",
+      "pinyin": "Jiěgòu yǐnyù bèihòu de rènzhī túshì, shǐ wǒmen déyǐ chuāntòu fúhào de míwù, zhídǐ rénlèi xīnzì yùnzuò yǔ yìyì jiàngòu de shēncéng diàntáng.",
+      "vi": "Giải cấu trúc lược đồ nhận thức ẩn sau các ẩn dụ giúp ta xuyên qua màn sương biểu tượng, chạm tới điện thờ sâu xa của vận hành tâm trí và kiến tạo ý nghĩa nhân loại.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "解"
+        },
+        {
+          "text": "构"
+        },
+        {
+          "text": "隐"
+        },
+        {
+          "text": "喻"
+        },
+        {
+          "text": "背",
+          "pinyin": "bèi",
+          "hanviet": "Bối",
+          "meaning_vi": "lưng, cõng",
+          "hsk": 5,
+          "word_id": "hsk5_657"
+        },
+        {
+          "text": "后"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "认"
+        },
+        {
+          "text": "知"
+        },
+        {
+          "text": "图"
+        },
+        {
+          "text": "式"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "使",
+          "pinyin": "shǐ",
+          "hanviet": "Sử",
+          "meaning_vi": "làm cho, khiến cho",
+          "hsk": 4,
+          "word_id": "hsk4_386"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "得",
+          "pinyin": "de",
+          "hanviet": "Đắc",
+          "meaning_vi": "được (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_19"
+        },
+        {
+          "text": "以",
+          "pinyin": "yǐ",
+          "hanviet": "Dĩ",
+          "meaning_vi": "bằng, dùng",
+          "hsk": 4,
+          "word_id": "hsk4_512"
+        },
+        {
+          "text": "穿",
+          "pinyin": "chuān",
+          "hanviet": "Xuyên",
+          "meaning_vi": "mặc",
+          "hsk": 2,
+          "word_id": "hsk2_12"
+        },
+        {
+          "text": "透"
+        },
+        {
+          "text": "符"
+        },
+        {
+          "text": "号",
+          "pinyin": "hào",
+          "hanviet": "Gào",
+          "meaning_vi": "ngày, số",
+          "hsk": 1,
+          "word_id": "hsk1_37"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "迷"
+        },
+        {
+          "text": "雾",
+          "pinyin": "wù",
+          "hanviet": "Vụ",
+          "meaning_vi": "sương mù",
+          "hsk": 5,
+          "word_id": "hsk5_1146"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "直",
+          "pinyin": "zhí",
+          "hanviet": "Trực",
+          "meaning_vi": "thẳng",
+          "hsk": 5,
+          "word_id": "hsk5_1253"
+        },
+        {
+          "text": "抵",
+          "pinyin": "dǐ",
+          "hanviet": "Để",
+          "meaning_vi": "chống đỡ, gán nợ, tương đương",
+          "hsk": 7,
+          "word_id": "hsk7_844"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "心"
+        },
+        {
+          "text": "智"
+        },
+        {
+          "text": "运作",
+          "pinyin": "yùnzuò",
+          "hanviet": "Vận Tác",
+          "meaning_vi": "vận hành, hoạt động điều hành",
+          "hsk": 7,
+          "word_id": "hsk7_5085"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "意义",
+          "pinyin": "yìyì",
+          "hanviet": "Ý Nghĩa",
+          "meaning_vi": "ý nghĩa",
+          "hsk": 5,
+          "word_id": "hsk5_1204"
+        },
+        {
+          "text": "建"
+        },
+        {
+          "text": "构"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "深",
+          "pinyin": "shēn",
+          "hanviet": "Thâm",
+          "meaning_vi": "sâu",
+          "hsk": 4,
+          "word_id": "hsk4_372"
+        },
+        {
+          "text": "层",
+          "pinyin": "céng",
+          "hanviet": "Tầng",
+          "meaning_vi": "tầng (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_28"
+        },
+        {
+          "text": "殿堂",
+          "pinyin": "diàntáng",
+          "hanviet": "Điện Đường",
+          "meaning_vi": "thánh đường, điện thờ, cung điện",
+          "hsk": 7,
+          "word_id": "hsk7_885"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk4_537",
+    "hsk7_873",
+    "hsk1_55",
+    "hsk6_1219",
+    "hsk3_229",
+    "hsk5_494",
+    "hsk7_652",
+    "hsk6_1921",
+    "hsk1_15",
+    "hsk5_76",
+    "hsk5_172",
+    "hsk1_139",
+    "hsk5_658",
+    "hsk1_89",
+    "hsk1_96"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Theo ngôn ngữ học nhận thức, ẩn dụ đóng vai trò cốt lõi gì?",
+      "options_vi": [
+        "Chỉ là cách dùng từ hoa mỹ trong thơ",
+        "Là cơ chế nhận thức nền tảng giúp con người tư duy và cấu trúc hóa thế giới",
+        "Chỉ dùng khi kể chuyện ngụ ngôn"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 确证隐喻在本质上是一种基础认知机制."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Cơ chế hình thành của ẩn dụ nhận thức diễn ra như thế nào?",
+      "options_vi": [
+        "Sao chép nguyên văn sách giáo khoa",
+        "Ánh xạ có hệ thống từ miền nguồn cụ thể sang miền đích trừu tượng",
+        "Ngẫu nhiên ghép từ không theo quy luật"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 将有形的源域概念系统性地映射到抽象复杂的无形目标域之中."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Lợi ích của việc giải mã lược đồ nhận thức đằng sau ẩn dụ là gì?",
+      "options_vi": [
+        "Hiểu thấu cơ chế vận hành tâm trí và sự kiến tạo ý nghĩa sâu xa của con người",
+        "Làm từ vựng trở nên phức tạp khó hiểu",
+        "Xóa bỏ sự đa dạng văn hóa"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu cuối có viết: 穿透符号的迷雾，直抵人类心智运作与意义建构的深层殿堂."
+    }
+  ]
+}

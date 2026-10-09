@@ -1,0 +1,870 @@
+{
+  "id": "hsk5_story_009",
+  "level": "HSK5",
+  "title": {
+    "zh": "数字化时代的社交变迁",
+    "vi": "Biến chuyển trong giao tiếp xã hội thời đại số"
+  },
+  "topic": "digital_society",
+  "topic_vi": "Xã hội số & Giao tiếp",
+  "icon": "📱",
+  "estimatedMinutes": 5,
+  "description_vi": "Mạng xã hội kéo gần khoảng cách địa lý nhưng cũng đặt ra câu hỏi về chiều sâu của các mối quan hệ thực tế.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "智能手机与社交媒体的普及，彻底重塑了人们日常交流沟通的方式。",
+      "pinyin": "Zhìnéng shǒujī yǔ shèjiāo méitǐ de pǔjí, chèdǐ chóngsù le rénmen rìcháng jiāoliú gōutōng de fāngshì.",
+      "vi": "Sự phổ cập của điện thoại thông minh và mạng xã hội đã định hình lại hoàn toàn phương thức giao tiếp thường nhật.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "智"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "手机",
+          "pinyin": "shǒujī",
+          "hanviet": "Thủ Cơ",
+          "meaning_vi": "điện thoại di động",
+          "hsk": 2,
+          "word_id": "hsk2_97"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "社交",
+          "pinyin": "shèjiāo",
+          "hanviet": "Xã Giao",
+          "meaning_vi": "xã hội",
+          "hsk": 7,
+          "word_id": "hsk7_3560"
+        },
+        {
+          "text": "媒体",
+          "pinyin": "méitǐ",
+          "hanviet": "Môi Thể",
+          "meaning_vi": "truyền thông, media",
+          "hsk": 5,
+          "word_id": "hsk5_962"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "普及",
+          "pinyin": "pǔjí",
+          "hanviet": "Phổ Cập",
+          "meaning_vi": "phổ cập, phổ biến",
+          "hsk": 6,
+          "word_id": "hsk6_1636"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "彻底",
+          "pinyin": "chèdǐ",
+          "hanviet": "Triệt Để",
+          "meaning_vi": "triệt để",
+          "hsk": 5,
+          "word_id": "hsk5_50"
+        },
+        {
+          "text": "重",
+          "pinyin": "zhòng",
+          "hanviet": "Trọng",
+          "meaning_vi": "nặng",
+          "hsk": 4,
+          "word_id": "hsk4_575"
+        },
+        {
+          "text": "塑"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "们"
+        },
+        {
+          "text": "日常",
+          "pinyin": "rìcháng",
+          "hanviet": "Nhật Thường",
+          "meaning_vi": "thường ngày, hàng ngày",
+          "hsk": 5,
+          "word_id": "hsk5_1034"
+        },
+        {
+          "text": "交流",
+          "pinyin": "jiāoliú",
+          "hanviet": "Giao Lưu",
+          "meaning_vi": "giao lưu, trao đổi",
+          "hsk": 4,
+          "word_id": "hsk4_212"
+        },
+        {
+          "text": "沟通",
+          "pinyin": "gōutōng",
+          "hanviet": "Câu Thông",
+          "meaning_vi": "giao tiếp, trao đổi",
+          "hsk": 5,
+          "word_id": "hsk5_164"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "方式",
+          "pinyin": "fāngshì",
+          "hanviet": "Phương Thức",
+          "meaning_vi": "phương thức, cách thức",
+          "hsk": 5,
+          "word_id": "hsk5_134"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "无论身处世界的哪一个角落，我们都可以瞬间通过屏幕分享文字与视频。",
+      "pinyin": "Wúlùn shēn chǔ shìjiè de nǎ yí gè jiǎoluò, wǒmen dōu kěyǐ shùnjiān tōngguò píngmù fēnxiǎng wénzì yǔ shìpín.",
+      "vi": "Bất kể ở góc nào trên thế giới, ta đều có thể lập tức chia sẻ câu chữ và video qua màn hình.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "无论",
+          "pinyin": "wúlùn",
+          "hanviet": "Vô Luận",
+          "meaning_vi": "bất luận, dù",
+          "hsk": 4,
+          "word_id": "hsk4_458"
+        },
+        {
+          "text": "身"
+        },
+        {
+          "text": "处"
+        },
+        {
+          "text": "世界",
+          "pinyin": "shìjiè",
+          "hanviet": "Thế Giới",
+          "meaning_vi": "thế giới",
+          "hsk": 3,
+          "word_id": "hsk3_202"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "哪",
+          "pinyin": "nǎ",
+          "hanviet": "Nả",
+          "meaning_vi": "nào",
+          "hsk": 1,
+          "word_id": "hsk1_68"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "个",
+          "pinyin": "gè",
+          "hanviet": "Cá",
+          "meaning_vi": "cái (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_32"
+        },
+        {
+          "text": "角",
+          "pinyin": "jiǎo",
+          "hanviet": "Giác",
+          "meaning_vi": "góc; hào (tiền)",
+          "hsk": 3,
+          "word_id": "hsk3_119"
+        },
+        {
+          "text": "落"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "都",
+          "pinyin": "dōu",
+          "hanviet": "Đô",
+          "meaning_vi": "đều",
+          "hsk": 1,
+          "word_id": "hsk1_21"
+        },
+        {
+          "text": "可以",
+          "pinyin": "kěyǐ",
+          "hanviet": "Khả Dĩ",
+          "meaning_vi": "có thể, được",
+          "hsk": 2,
+          "word_id": "hsk2_57"
+        },
+        {
+          "text": "瞬间",
+          "pinyin": "shùnjiān",
+          "hanviet": "Thuấn Gian",
+          "meaning_vi": "khoảnh khắc, trong tức khắc",
+          "hsk": 6,
+          "word_id": "hsk6_1951"
+        },
+        {
+          "text": "通过",
+          "pinyin": "tōngguò",
+          "hanviet": "Thông Qua",
+          "meaning_vi": "thông qua",
+          "hsk": 4,
+          "word_id": "hsk4_438"
+        },
+        {
+          "text": "屏幕",
+          "pinyin": "píngmù",
+          "hanviet": "Bình Màn",
+          "meaning_vi": "màn hình",
+          "hsk": 6,
+          "word_id": "hsk6_1626"
+        },
+        {
+          "text": "分",
+          "pinyin": "fēn",
+          "hanviet": "Phân",
+          "meaning_vi": "phút; điểm; phân (đơn vị tiền)",
+          "hsk": 3,
+          "word_id": "hsk3_69"
+        },
+        {
+          "text": "享",
+          "pinyin": "xiǎng",
+          "hanviet": "Hưởng",
+          "meaning_vi": "hưởng; thụ hưởng; hưởng thụ",
+          "hsk": 7,
+          "word_id": "hsk7_4480"
+        },
+        {
+          "text": "文字",
+          "pinyin": "wénzì",
+          "hanviet": "Văn Tự",
+          "meaning_vi": "văn tự, chữ viết",
+          "hsk": 5,
+          "word_id": "hsk5_1139"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "视频",
+          "pinyin": "shìpín",
+          "hanviet": "Thị Tần",
+          "meaning_vi": "video",
+          "hsk": 6,
+          "word_id": "hsk6_1913"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "然而，虚拟世界中热闹的点赞与互动，有时却掩盖了现实中的孤独感。",
+      "pinyin": "Rán'ér, xūnǐ shìjiè zhōng rènao de diǎnzàn yǔ hùdòng, yǒushí què yǎngài le xiànshí zhōng de gūdúgǎn.",
+      "vi": "Dẫu vậy, những lượt thích và tương tác náo nhiệt trên mạng ảo đôi khi lại che giấu sự cô đơn ngoài đời thực.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "然而",
+          "pinyin": "rán'ér",
+          "hanviet": "Nhiên Nhi",
+          "meaning_vi": "tuy nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_356"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "虚拟",
+          "pinyin": "xūnǐ",
+          "hanviet": "Hư Nghĩ",
+          "meaning_vi": "ảo; mô phỏng ảo",
+          "hsk": 7,
+          "word_id": "hsk7_4637"
+        },
+        {
+          "text": "世界",
+          "pinyin": "shìjiè",
+          "hanviet": "Thế Giới",
+          "meaning_vi": "thế giới",
+          "hsk": 3,
+          "word_id": "hsk3_202"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "热闹",
+          "pinyin": "rènao",
+          "hanviet": "Nhiệt Náo",
+          "meaning_vi": "náo nhiệt, nhộn nhịp",
+          "hsk": 4,
+          "word_id": "hsk4_357"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "点",
+          "pinyin": "diǎn",
+          "hanviet": "Điểm",
+          "meaning_vi": "giờ, điểm",
+          "hsk": 1,
+          "word_id": "hsk1_16"
+        },
+        {
+          "text": "赞"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "互"
+        },
+        {
+          "text": "动"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "时"
+        },
+        {
+          "text": "却",
+          "pinyin": "què",
+          "hanviet": "Khước",
+          "meaning_vi": "nhưng, lại",
+          "hsk": 4,
+          "word_id": "hsk4_354"
+        },
+        {
+          "text": "掩盖",
+          "pinyin": "yǎngài",
+          "hanviet": "Yểm Cái",
+          "meaning_vi": "che đậy",
+          "hsk": 6,
+          "word_id": "hsk6_2347"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "现实",
+          "pinyin": "xiànshí",
+          "hanviet": "Hiện Thực",
+          "meaning_vi": "thực tế, hiện thực",
+          "hsk": 5,
+          "word_id": "hsk5_1156"
+        },
+        {
+          "text": "中"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "孤独",
+          "pinyin": "gūdú",
+          "hanviet": "Cô Độc",
+          "meaning_vi": "cô độc",
+          "hsk": 6,
+          "word_id": "hsk6_975"
+        },
+        {
+          "text": "感"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "面对面的眼神接触、温暖的拥抱和真实的陪伴，是任何算法都无法替代的。",
+      "pinyin": "Miànduìmiàn de yǎnshén jiēchù, wēnnuǎn de yōngbào hé zhēnshí de péibàn, shì rènhé suànfǎ dōu wúfǎ tìdài de.",
+      "vi": "Ánh mắt chạm nhau trực tiếp, cái ôm ấm áp và sự đồng hành chân thực là điều không thuật toán nào thay thế nổi.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "面对",
+          "pinyin": "miànduì",
+          "hanviet": "Diện Đối",
+          "meaning_vi": "đối mặt",
+          "hsk": 5,
+          "word_id": "hsk5_314"
+        },
+        {
+          "text": "面"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "眼神",
+          "pinyin": "yǎnshén",
+          "hanviet": "Nhãn Thần",
+          "meaning_vi": "thần thái ánh mắt",
+          "hsk": 6,
+          "word_id": "hsk6_2352"
+        },
+        {
+          "text": "接触",
+          "pinyin": "jiēchù",
+          "hanviet": "Tiếp Xúc",
+          "meaning_vi": "tiếp xúc",
+          "hsk": 5,
+          "word_id": "hsk5_892"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "温暖",
+          "pinyin": "wēnnuǎn",
+          "hanviet": "Ôn Noãn",
+          "meaning_vi": "ấm áp",
+          "hsk": 5,
+          "word_id": "hsk5_1135"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "拥抱",
+          "pinyin": "yōngbào",
+          "hanviet": "Ủng Bão",
+          "meaning_vi": "ôm, ôm chầm",
+          "hsk": 5,
+          "word_id": "hsk5_1213"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "真实",
+          "pinyin": "zhēnshí",
+          "hanviet": "Chân Thật",
+          "meaning_vi": "chân thực",
+          "hsk": 5,
+          "word_id": "hsk5_1243"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "陪",
+          "pinyin": "péi",
+          "hanviet": "Bồi",
+          "meaning_vi": "đi cùng, tháp tùng",
+          "hsk": 4,
+          "word_id": "hsk4_324"
+        },
+        {
+          "text": "伴",
+          "pinyin": "bàn",
+          "hanviet": "Bạn",
+          "meaning_vi": "bạn đồng hành, bồi bạn, cùng",
+          "hsk": 7,
+          "word_id": "hsk7_77"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "任何",
+          "pinyin": "rènhé",
+          "hanviet": "Nhâm Hà",
+          "meaning_vi": "bất kỳ, mọi",
+          "hsk": 4,
+          "word_id": "hsk4_358"
+        },
+        {
+          "text": "算"
+        },
+        {
+          "text": "法"
+        },
+        {
+          "text": "都",
+          "pinyin": "dōu",
+          "hanviet": "Đô",
+          "meaning_vi": "đều",
+          "hsk": 1,
+          "word_id": "hsk1_21"
+        },
+        {
+          "text": "无",
+          "pinyin": "wú",
+          "hanviet": "Vô",
+          "meaning_vi": "không có",
+          "hsk": 4,
+          "word_id": "hsk4_456"
+        },
+        {
+          "text": "法"
+        },
+        {
+          "text": "替"
+        },
+        {
+          "text": "代"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "合理掌控使用屏幕的时间，多回归现实生活，才能建立真正深厚的友谊。",
+      "pinyin": "Hélǐ zhǎngkòng shǐyòng píngmù de shíjiān, duō huíguī xiànshí shēnghuó, cái néng jiànlì zhēnzhèng shēnhòu de yǒuyì.",
+      "vi": "Kiểm soát hợp lý thời gian nhìn màn hình, trở về với đời sống thực tế mới có thể xây dựng tình bạn sâu sắc bền lâu.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "合理",
+          "pinyin": "hélǐ",
+          "hanviet": "Hợp Lí/hợp Lý",
+          "meaning_vi": "hợp lý",
+          "hsk": 5,
+          "word_id": "hsk5_188"
+        },
+        {
+          "text": "掌"
+        },
+        {
+          "text": "控"
+        },
+        {
+          "text": "使用",
+          "pinyin": "shǐyòng",
+          "hanviet": "Sử Dụng",
+          "meaning_vi": "sử dụng",
+          "hsk": 4,
+          "word_id": "hsk4_387"
+        },
+        {
+          "text": "屏幕",
+          "pinyin": "píngmù",
+          "hanviet": "Bình Màn",
+          "meaning_vi": "màn hình",
+          "hsk": 6,
+          "word_id": "hsk6_1626"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "时间",
+          "pinyin": "shíjiān",
+          "hanviet": "Thời Gian",
+          "meaning_vi": "thời gian",
+          "hsk": 2,
+          "word_id": "hsk2_94"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "多",
+          "pinyin": "duō",
+          "hanviet": "Đa",
+          "meaning_vi": "nhiều",
+          "hsk": 1,
+          "word_id": "hsk1_24"
+        },
+        {
+          "text": "回归",
+          "pinyin": "huíguī",
+          "hanviet": "Hồi Quy",
+          "meaning_vi": "trở về, quay về",
+          "hsk": 7,
+          "word_id": "hsk7_1781"
+        },
+        {
+          "text": "现实",
+          "pinyin": "xiànshí",
+          "hanviet": "Hiện Thực",
+          "meaning_vi": "thực tế, hiện thực",
+          "hsk": 5,
+          "word_id": "hsk5_1156"
+        },
+        {
+          "text": "生活",
+          "pinyin": "shēnghuó",
+          "hanviet": "Sinh Hoạt",
+          "meaning_vi": "sinh hoạt, cuộc sống",
+          "hsk": 4,
+          "word_id": "hsk4_375"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "才"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "建立",
+          "pinyin": "jiànlì",
+          "hanviet": "Kiến Lập",
+          "meaning_vi": "xây dựng, kiến lập",
+          "hsk": 5,
+          "word_id": "hsk5_886"
+        },
+        {
+          "text": "真正",
+          "pinyin": "zhēnzhèng",
+          "hanviet": "Chân Chính",
+          "meaning_vi": "thực sự, chân chính",
+          "hsk": 4,
+          "word_id": "hsk4_556"
+        },
+        {
+          "text": "深",
+          "pinyin": "shēn",
+          "hanviet": "Thâm",
+          "meaning_vi": "sâu",
+          "hsk": 4,
+          "word_id": "hsk4_372"
+        },
+        {
+          "text": "厚",
+          "pinyin": "hòu",
+          "hanviet": "Hậu",
+          "meaning_vi": "dày",
+          "hsk": 4,
+          "word_id": "hsk4_175"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "友谊",
+          "pinyin": "yǒuyì",
+          "hanviet": "Hữu Nghị",
+          "meaning_vi": "tình hữu nghị",
+          "hsk": 4,
+          "word_id": "hsk4_532"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk1_72",
+    "hsk2_97",
+    "hsk4_535",
+    "hsk7_3560",
+    "hsk5_962",
+    "hsk1_15",
+    "hsk6_1636",
+    "hsk5_50",
+    "hsk4_575",
+    "hsk1_55",
+    "hsk1_85",
+    "hsk5_1034",
+    "hsk4_212",
+    "hsk5_164",
+    "hsk5_134"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Mạng xã hội đã mang lại sự tiện lợi gì cho giao lưu con người?",
+      "options_vi": [
+        "Cho phép chia sẻ hình ảnh và tin nhắn tức thì từ mọi nơi",
+        "Loại bỏ hoàn toàn công việc văn phòng",
+        "Tạo ra lương thực miễn phí"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 无论身处世界的哪一个角落，我们都可以瞬间通过屏幕分享文字与视频."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Thực trạng tâm lý đáng chú ý trong thế giới ảo là gì?",
+      "options_vi": [
+        "Không ai còn cảm thấy buồn",
+        "Sự tương tác náo nhiệt trên mạng đôi khi che giấu nỗi cô đơn thực tế",
+        "Mọi người đều trở nên xa cách tuyệt đối"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 虚拟世界中热闹的点赞与互动，有时却掩盖了现实中的孤独感."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Tác giả khuyên điều gì để có tình bạn sâu sắc đích thực?",
+      "options_vi": [
+        "Tăng thời gian lướt mạng gấp đôi",
+        "Kiểm soát thời gian dùng màn hình và quay về với đời sống thực tế",
+        "Ngừng giao tiếp với người ngoài"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 合理掌控使用屏幕的时间，多回归现实生活."
+    }
+  ]
+}

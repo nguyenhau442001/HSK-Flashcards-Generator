@@ -22,7 +22,15 @@ for lvl in range(1, 7):
                 wid = f"hsk{lvl}_{item['id']}"
                 VOCAB_BY_ID[wid] = item
 
-print(f"[*] Loaded {len(VOCAB_BY_ID)} vocabulary items from HSK 1..6 databases.")
+for lvl in range(7, 10):
+    path = VOCAB_DIR / "hsk3_0" / f"level{lvl}_vocabularies.json"
+    if path.exists():
+        with open(path, "r", encoding="utf-8") as f:
+            for item in json.load(f):
+                wid = f"hsk{lvl}_{item['id']}"
+                VOCAB_BY_ID[wid] = item
+
+print(f"[*] Loaded {len(VOCAB_BY_ID)} vocabulary items from HSK 1..9 databases.")
 
 # 2. Validation rules
 REQUIRED_TOP_FIELDS = [

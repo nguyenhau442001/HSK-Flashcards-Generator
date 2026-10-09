@@ -1,0 +1,820 @@
+{
+  "id": "hsk5_story_002",
+  "level": "HSK5",
+  "title": {
+    "zh": "人工智能与未来生活",
+    "vi": "Trí tuệ nhân tạo và cuộc sống tương lai"
+  },
+  "topic": "technology_ai",
+  "topic_vi": "Công nghệ & AI",
+  "icon": "🤖",
+  "estimatedMinutes": 5,
+  "description_vi": "Những bước tiến vượt bậc của trí tuệ nhân tạo và sự thích nghi của con người trong kỷ nguyên số.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "人工智能技术的飞速突破，正在深刻地改变着人类社会的方方面面。",
+      "pinyin": "Réngōng zhìnéng jìshù de fēisù tūpò, zhèngzài shēnkè de gǎibiàn zhe rénlèi shèhuì de fāngfāng-miànmiàn.",
+      "vi": "Sự đột phá thần tốc của trí tuệ nhân tạo đang làm thay đổi sâu sắc mọi mặt đời sống nhân loại.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "人工",
+          "pinyin": "réngōng",
+          "hanviet": "Nhân Công",
+          "meaning_vi": "nhân công, nhân tạo",
+          "hsk": 6,
+          "word_id": "hsk6_1767"
+        },
+        {
+          "text": "智"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "技术",
+          "pinyin": "jìshù",
+          "hanviet": "Kĩ Thuật/kỹ Thuật",
+          "meaning_vi": "kỹ thuật",
+          "hsk": 4,
+          "word_id": "hsk4_196"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "飞"
+        },
+        {
+          "text": "速"
+        },
+        {
+          "text": "突破",
+          "pinyin": "tūpò",
+          "hanviet": "Đột Phá",
+          "meaning_vi": "đột phá",
+          "hsk": 6,
+          "word_id": "hsk6_2064"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "正在",
+          "pinyin": "zhèngzài",
+          "hanviet": "Chinh Tại",
+          "meaning_vi": "đang",
+          "hsk": 2,
+          "word_id": "hsk2_145"
+        },
+        {
+          "text": "深刻",
+          "pinyin": "shēnkè",
+          "hanviet": "Thâm Khắc",
+          "meaning_vi": "sâu sắc",
+          "hsk": 5,
+          "word_id": "hsk5_411"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "改变",
+          "pinyin": "gǎibiàn",
+          "hanviet": "Cải Biến",
+          "meaning_vi": "thay đổi",
+          "hsk": 4,
+          "word_id": "hsk4_128"
+        },
+        {
+          "text": "着",
+          "pinyin": "zhe",
+          "hanviet": "Trước",
+          "meaning_vi": "đang (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_143"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "社会",
+          "pinyin": "shèhuì",
+          "hanviet": "Xã Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 4,
+          "word_id": "hsk4_371"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "方",
+          "pinyin": "fāng",
+          "hanviet": "Phương",
+          "meaning_vi": "vuông, phương",
+          "hsk": 5,
+          "word_id": "hsk5_774"
+        },
+        {
+          "text": "方面",
+          "pinyin": "fāngmiàn",
+          "hanviet": "Phương Diện",
+          "meaning_vi": "phương diện, mặt",
+          "hsk": 4,
+          "word_id": "hsk4_112"
+        },
+        {
+          "text": "面"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "从自动驾驶汽车到智能医疗诊断，科技让我们的日常生活更加高效便捷。",
+      "pinyin": "Cóng zìdòng jiàshǐ qìchē dào zhìnéng yīliáo zhěnduàn, kējì ràng wǒmen de rìcháng shēnghuó gèngjiā gāoxiào biànjié.",
+      "vi": "Từ xe tự lái đến chẩn đoán y tế thông minh, công nghệ giúp sinh hoạt thường nhật thêm hiệu quả và tiện lợi.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "从",
+          "pinyin": "cóng",
+          "hanviet": "Tòng",
+          "meaning_vi": "từ",
+          "hsk": 2,
+          "word_id": "hsk2_14"
+        },
+        {
+          "text": "自动",
+          "pinyin": "zìdòng",
+          "hanviet": "Tự Động",
+          "meaning_vi": "tự động",
+          "hsk": 5,
+          "word_id": "hsk5_629"
+        },
+        {
+          "text": "驾驶",
+          "pinyin": "jiàshǐ",
+          "hanviet": "Giá Sử",
+          "meaning_vi": "lái (xe)",
+          "hsk": 5,
+          "word_id": "hsk5_225"
+        },
+        {
+          "text": "汽"
+        },
+        {
+          "text": "车"
+        },
+        {
+          "text": "到",
+          "pinyin": "dào",
+          "hanviet": "Đáo",
+          "meaning_vi": "đến",
+          "hsk": 2,
+          "word_id": "hsk2_18"
+        },
+        {
+          "text": "智"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "医"
+        },
+        {
+          "text": "疗"
+        },
+        {
+          "text": "诊断",
+          "pinyin": "zhěnduàn",
+          "hanviet": "Chẩn Đoạn",
+          "meaning_vi": "chẩn đoán",
+          "hsk": 5,
+          "word_id": "hsk5_1245"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "科"
+        },
+        {
+          "text": "技"
+        },
+        {
+          "text": "让",
+          "pinyin": "ràng",
+          "hanviet": "Nhượng",
+          "meaning_vi": "để cho, khiến",
+          "hsk": 2,
+          "word_id": "hsk2_88"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "日常",
+          "pinyin": "rìcháng",
+          "hanviet": "Nhật Thường",
+          "meaning_vi": "thường ngày, hàng ngày",
+          "hsk": 5,
+          "word_id": "hsk5_1034"
+        },
+        {
+          "text": "生活",
+          "pinyin": "shēnghuó",
+          "hanviet": "Sinh Hoạt",
+          "meaning_vi": "sinh hoạt, cuộc sống",
+          "hsk": 4,
+          "word_id": "hsk4_375"
+        },
+        {
+          "text": "更",
+          "pinyin": "gèng",
+          "hanviet": "Canh",
+          "meaning_vi": "càng, hơn",
+          "hsk": 3,
+          "word_id": "hsk3_79"
+        },
+        {
+          "text": "加"
+        },
+        {
+          "text": "高",
+          "pinyin": "gāo",
+          "hanviet": "Cao",
+          "meaning_vi": "cao",
+          "hsk": 2,
+          "word_id": "hsk2_29"
+        },
+        {
+          "text": "效"
+        },
+        {
+          "text": "便",
+          "pinyin": "biàn",
+          "hanviet": "Tiện",
+          "meaning_vi": "thì, liền (liên từ)",
+          "hsk": 5,
+          "word_id": "hsk5_663"
+        },
+        {
+          "text": "捷"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "然而，机器的高速运算并不能完全代替人类的情感关怀与创造性思维。",
+      "pinyin": "Rán'ér, jīqì de gāosù yùnsuàn bìng bù néng wánquán dàitì rénlèi de qínggǎn guānhuái yǔ chuàngzàoxìng sīwéi.",
+      "vi": "Thế nhưng, tốc độ tính toán siêu việt của máy móc không thể thay thế hoàn toàn tình cảm và tư duy sáng tạo của con người.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "然而",
+          "pinyin": "rán'ér",
+          "hanviet": "Nhiên Nhi",
+          "meaning_vi": "tuy nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_356"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "机器",
+          "pinyin": "jīqì",
+          "hanviet": "Cơ Khí",
+          "meaning_vi": "máy móc",
+          "hsk": 5,
+          "word_id": "hsk5_212"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "高",
+          "pinyin": "gāo",
+          "hanviet": "Cao",
+          "meaning_vi": "cao",
+          "hsk": 2,
+          "word_id": "hsk2_29"
+        },
+        {
+          "text": "速"
+        },
+        {
+          "text": "运算",
+          "pinyin": "yùnsuàn",
+          "hanviet": "Vận Toán",
+          "meaning_vi": "tính toán",
+          "hsk": 6,
+          "word_id": "hsk6_2479"
+        },
+        {
+          "text": "并"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "完全",
+          "pinyin": "wánquán",
+          "hanviet": "Hoàn Toàn",
+          "meaning_vi": "hoàn toàn",
+          "hsk": 4,
+          "word_id": "hsk4_446"
+        },
+        {
+          "text": "代替",
+          "pinyin": "dàitì",
+          "hanviet": "Đại Thế",
+          "meaning_vi": "thay thế",
+          "hsk": 5,
+          "word_id": "hsk5_732"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "情"
+        },
+        {
+          "text": "感"
+        },
+        {
+          "text": "关怀",
+          "pinyin": "guānhuái",
+          "hanviet": "Quan Hoài",
+          "meaning_vi": "quan tâm, chăm sóc",
+          "hsk": 6,
+          "word_id": "hsk6_997"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "创造",
+          "pinyin": "chuàngzào",
+          "hanviet": "Sáng Tạo",
+          "meaning_vi": "sáng tạo",
+          "hsk": 5,
+          "word_id": "hsk5_715"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "思维",
+          "pinyin": "sīwéi",
+          "hanviet": "Tư Duy",
+          "meaning_vi": "tư duy",
+          "hsk": 6,
+          "word_id": "hsk6_1956"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "面对未来的挑战，我们需要学会与人工智能合作，提升自身的核心价值。",
+      "pinyin": "Miànduì wèilái de tiǎozhàn, wǒmen xūyào xuéhuì yǔ réngōng zhìnéng hézuò, tíshēng zìshēn de héxīn jiàzhí.",
+      "vi": "Đối diện thử thách tương lai, chúng ta cần học cách cộng tác cùng AI và nâng cao giá trị cốt lõi của bản thân.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "面对",
+          "pinyin": "miànduì",
+          "hanviet": "Diện Đối",
+          "meaning_vi": "đối mặt",
+          "hsk": 5,
+          "word_id": "hsk5_314"
+        },
+        {
+          "text": "未来",
+          "pinyin": "wèilái",
+          "hanviet": "Vị Lai",
+          "meaning_vi": "tương lai",
+          "hsk": 5,
+          "word_id": "hsk5_1134"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "挑战",
+          "pinyin": "tiǎozhàn",
+          "hanviet": "Khiêu Chiến",
+          "meaning_vi": "thử thách, thách thức",
+          "hsk": 5,
+          "word_id": "hsk5_1110"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "需要",
+          "pinyin": "xūyào",
+          "hanviet": "Nhu Yêu",
+          "meaning_vi": "cần thiết, cần",
+          "hsk": 3,
+          "word_id": "hsk3_250"
+        },
+        {
+          "text": "学"
+        },
+        {
+          "text": "会",
+          "pinyin": "huì",
+          "hanviet": "Hội",
+          "meaning_vi": "biết, sẽ",
+          "hsk": 1,
+          "word_id": "hsk1_43"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "人工",
+          "pinyin": "réngōng",
+          "hanviet": "Nhân Công",
+          "meaning_vi": "nhân công, nhân tạo",
+          "hsk": 6,
+          "word_id": "hsk6_1767"
+        },
+        {
+          "text": "智"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "合作",
+          "pinyin": "hézuò",
+          "hanviet": "Hợp Tác",
+          "meaning_vi": "hợp tác",
+          "hsk": 5,
+          "word_id": "hsk5_190"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "提",
+          "pinyin": "tí",
+          "hanviet": "Đề",
+          "meaning_vi": "mang, xách; nêu ra",
+          "hsk": 4,
+          "word_id": "hsk4_430"
+        },
+        {
+          "text": "升",
+          "pinyin": "shēng",
+          "hanviet": "Thăng",
+          "meaning_vi": "thăng, lên",
+          "hsk": 5,
+          "word_id": "hsk5_1055"
+        },
+        {
+          "text": "自"
+        },
+        {
+          "text": "身"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "核心",
+          "pinyin": "héxīn",
+          "hanviet": "Hạch Tâm",
+          "meaning_vi": "hạt nhân, trọng tâm",
+          "hsk": 5,
+          "word_id": "hsk5_847"
+        },
+        {
+          "text": "价值",
+          "pinyin": "jiàzhí",
+          "hanviet": "Giá Trị",
+          "meaning_vi": "giá trị",
+          "hsk": 5,
+          "word_id": "hsk5_879"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "科技的终极目标，应当是促进人类社会的公平、温暖与繁荣。",
+      "pinyin": "Kējì de zhōngjí mùbiāo, yīngdāng shì cùjìn rénlèi shèhuì de gōngpíng, wēnnuǎn yǔ fánróng.",
+      "vi": "Mục tiêu tối thượng của công nghệ phải là thúc đẩy một xã hội công bằng, ấm áp và thịnh vượng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "科"
+        },
+        {
+          "text": "技"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "终极",
+          "pinyin": "zhōngjí",
+          "hanviet": "Chung Cực",
+          "meaning_vi": "cứu cánh, tột cùng, chung cuộc",
+          "hsk": 7,
+          "word_id": "hsk7_5355"
+        },
+        {
+          "text": "目标",
+          "pinyin": "mùbiāo",
+          "hanviet": "Mục Tiêu",
+          "meaning_vi": "mục tiêu",
+          "hsk": 5,
+          "word_id": "hsk5_326"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "应",
+          "pinyin": "yìng",
+          "hanviet": "Ưng",
+          "meaning_vi": "đáp ứng, ứng phó, ứng lời",
+          "hsk": 7,
+          "word_id": "hsk7_4949"
+        },
+        {
+          "text": "当",
+          "pinyin": "dāng",
+          "hanviet": "Đương",
+          "meaning_vi": "khi, lúc",
+          "hsk": 4,
+          "word_id": "hsk4_76"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "促进",
+          "pinyin": "cùjìn",
+          "hanviet": "Xúc Tiến",
+          "meaning_vi": "thúc đẩy",
+          "hsk": 5,
+          "word_id": "hsk5_721"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "社会",
+          "pinyin": "shèhuì",
+          "hanviet": "Xã Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 4,
+          "word_id": "hsk4_371"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "公平",
+          "pinyin": "gōngpíng",
+          "hanviet": "Công Bình",
+          "meaning_vi": "công bằng",
+          "hsk": 5,
+          "word_id": "hsk5_158"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "温暖",
+          "pinyin": "wēnnuǎn",
+          "hanviet": "Ôn Noãn",
+          "meaning_vi": "ấm áp",
+          "hsk": 5,
+          "word_id": "hsk5_1135"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "繁荣",
+          "pinyin": "fánróng",
+          "hanviet": "Phồn Vinh",
+          "meaning_vi": "phồn vinh, thịnh vượng",
+          "hsk": 5,
+          "word_id": "hsk5_128"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk6_1767",
+    "hsk1_72",
+    "hsk4_196",
+    "hsk1_15",
+    "hsk6_2064",
+    "hsk2_145",
+    "hsk5_411",
+    "hsk3_46",
+    "hsk4_128",
+    "hsk2_143",
+    "hsk5_389",
+    "hsk4_371",
+    "hsk5_774",
+    "hsk4_112",
+    "hsk2_14"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "AI đã ứng dụng vào những lĩnh vực nào được nêu trong bài?",
+      "options_vi": [
+        "Xe tự lái và chẩn đoán y tế thông minh",
+        "Nấu ăn trong gia đình",
+        "Du lịch vũ trụ"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 从自动驾驶汽车到智能医疗诊断."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Điều gì máy móc không thể thay thế con người?",
+      "options_vi": [
+        "Tốc độ tính toán",
+        "Tình cảm và tư duy sáng tạo",
+        "Lưu trữ dữ liệu"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 并不能完全代替人类的情感关怀与创造性思维."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Mục tiêu tối hậu của công nghệ là gì?",
+      "options_vi": [
+        "Thay thế con người",
+        "Thúc đẩy xã hội công bằng, ấm áp và thịnh vượng",
+        "Kiếm lợi nhuận cao nhất"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 促进人类社会的公平、温暖与繁荣."
+    }
+  ]
+}

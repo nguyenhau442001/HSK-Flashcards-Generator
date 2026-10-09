@@ -1,0 +1,1148 @@
+{
+  "id": "hsk8_story_006",
+  "level": "HSK8",
+  "title": {
+    "zh": "算法向善与平台责任治理",
+    "vi": "Thuật toán hướng thiện và quản trị trách nhiệm nền tảng"
+  },
+  "topic": "algorithm_governance",
+  "topic_vi": "Đạo đức số & Quản trị",
+  "icon": "⚖️",
+  "estimatedMinutes": 8,
+  "description_vi": "Giải quyết vấn đề 'kén thông tin', bóc lột lao động nền tảng và kiểm soát thiên kiến trong thuật toán gợi ý.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "算法推荐系统在极大提高内容分发与资源匹配效率的同时，也带来了信息茧房和群体极化等社会问题。",
+      "pinyin": "Suànfǎ tuījiàn xìtǒng zài jídà tígāo nèiróng fēnfā yǔ zīyuán pǐpèi xiàolǜ de tóngshí, yě dàilái le xìnxī jiǎnfáng hé qúntǐ jíhuà děng shèhuì wèntí.",
+      "vi": "Hệ thống thuật toán gợi ý bên cạnh việc nâng cao vượt bậc hiệu quả phân phối nội dung cũng mang lại các vấn nạn xã hội như 'kén thông tin' và phân cực nhóm.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "算"
+        },
+        {
+          "text": "法"
+        },
+        {
+          "text": "推荐",
+          "pinyin": "tuījiàn",
+          "hanviet": "Suy Tiến",
+          "meaning_vi": "đề cử, giới thiệu",
+          "hsk": 5,
+          "word_id": "hsk5_477"
+        },
+        {
+          "text": "系统",
+          "pinyin": "xìtǒng",
+          "hanviet": "Hệ Thống",
+          "meaning_vi": "hệ thống",
+          "hsk": 5,
+          "word_id": "hsk5_502"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "极",
+          "pinyin": "jí",
+          "hanviet": "Cực",
+          "meaning_vi": "cực kỳ",
+          "hsk": 3,
+          "word_id": "hsk3_110"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "提高",
+          "pinyin": "tígāo",
+          "hanviet": "Đề Cao",
+          "meaning_vi": "nâng cao",
+          "hsk": 3,
+          "word_id": "hsk3_215"
+        },
+        {
+          "text": "内容",
+          "pinyin": "nèiróng",
+          "hanviet": "Nội Dung",
+          "meaning_vi": "nội dung",
+          "hsk": 4,
+          "word_id": "hsk4_315"
+        },
+        {
+          "text": "分发",
+          "pinyin": "fēnfā",
+          "hanviet": "Phân Phát",
+          "meaning_vi": "phân phát, phát",
+          "hsk": 7,
+          "word_id": "hsk7_1152"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "资源",
+          "pinyin": "zīyuán",
+          "hanviet": "Tư Nguyên",
+          "meaning_vi": "tài nguyên",
+          "hsk": 5,
+          "word_id": "hsk5_1282"
+        },
+        {
+          "text": "匹配",
+          "pinyin": "pǐpèi",
+          "hanviet": "Thất Phối",
+          "meaning_vi": "ăn khớp; tương thích; phù hợp",
+          "hsk": 7,
+          "word_id": "hsk7_3058"
+        },
+        {
+          "text": "效率",
+          "pinyin": "xiàolǜ",
+          "hanviet": "Hiệu Suất",
+          "meaning_vi": "hiệu suất",
+          "hsk": 5,
+          "word_id": "hsk5_1169"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "同时",
+          "pinyin": "tóngshí",
+          "hanviet": "Đồng Thời",
+          "meaning_vi": "đồng thời",
+          "hsk": 4,
+          "word_id": "hsk4_440"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "也",
+          "pinyin": "yě",
+          "hanviet": "Dã",
+          "meaning_vi": "cũng",
+          "hsk": 2,
+          "word_id": "hsk2_127"
+        },
+        {
+          "text": "带",
+          "pinyin": "dài",
+          "hanviet": "Đới",
+          "meaning_vi": "mang theo, đai",
+          "hsk": 3,
+          "word_id": "hsk3_42"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "信息",
+          "pinyin": "xìnxī",
+          "hanviet": "Tín Tức",
+          "meaning_vi": "thông tin",
+          "hsk": 4,
+          "word_id": "hsk4_480"
+        },
+        {
+          "text": "茧"
+        },
+        {
+          "text": "房"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "群",
+          "pinyin": "qún",
+          "hanviet": "Quần",
+          "meaning_vi": "đám, nhóm (lượng từ)",
+          "hsk": 5,
+          "word_id": "hsk5_383"
+        },
+        {
+          "text": "体"
+        },
+        {
+          "text": "极",
+          "pinyin": "jí",
+          "hanviet": "Cực",
+          "meaning_vi": "cực kỳ",
+          "hsk": 3,
+          "word_id": "hsk3_110"
+        },
+        {
+          "text": "化"
+        },
+        {
+          "text": "等",
+          "pinyin": "děng",
+          "hanviet": "Đẳng",
+          "meaning_vi": "đợi, chờ",
+          "hsk": 2,
+          "word_id": "hsk2_20"
+        },
+        {
+          "text": "社会",
+          "pinyin": "shèhuì",
+          "hanviet": "Xã Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 4,
+          "word_id": "hsk4_371"
+        },
+        {
+          "text": "问题",
+          "pinyin": "wèntí",
+          "hanviet": "Vấn Đề",
+          "meaning_vi": "câu hỏi, vấn đề",
+          "hsk": 2,
+          "word_id": "hsk2_112"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "部分平台为了过度追求用户黏性与商业流量变现，放任低俗猎奇甚至虚假误导性内容的算法加权传播。",
+      "pinyin": "Bùfen píngtái wèile guòdù zhuīqiú yònghù niánxìng yǔ shāngyè liúliàng biànxiàn, fàngrèn dīsú lièqí shènzhì xūjiǎ wùdǎoxìng nèiróng de suànfǎ jiāquán chuánbō.",
+      "vi": "Một số nền tảng vì mải miết theo đuổi độ bám dính của người dùng và kiếm tiền từ lưu lượng đã buông lỏng cho nội dung giật gân, độc hại lan truyền qua thuật toán.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "部分",
+          "pinyin": "bùfen",
+          "hanviet": "Bộ Phận",
+          "meaning_vi": "bộ phận, một phần",
+          "hsk": 4,
+          "word_id": "hsk4_32"
+        },
+        {
+          "text": "平",
+          "pinyin": "píng",
+          "hanviet": "Bình",
+          "meaning_vi": "bằng, phẳng",
+          "hsk": 5,
+          "word_id": "hsk5_350"
+        },
+        {
+          "text": "台",
+          "pinyin": "tái",
+          "hanviet": "Đài",
+          "meaning_vi": "cái, bục, đài (lượng từ)",
+          "hsk": 4,
+          "word_id": "hsk4_418"
+        },
+        {
+          "text": "为了",
+          "pinyin": "wèile",
+          "hanviet": "Vi Liễu",
+          "meaning_vi": "để (mục đích)",
+          "hsk": 3,
+          "word_id": "hsk3_230"
+        },
+        {
+          "text": "过",
+          "pinyin": "guo",
+          "hanviet": "Quá",
+          "meaning_vi": "đã từng (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_36"
+        },
+        {
+          "text": "度"
+        },
+        {
+          "text": "追求",
+          "pinyin": "zhuīqiú",
+          "hanviet": "Truy Cầu",
+          "meaning_vi": "theo đuổi",
+          "hsk": 5,
+          "word_id": "hsk5_1280"
+        },
+        {
+          "text": "用户",
+          "pinyin": "yònghù",
+          "hanviet": "Dụng Hộ",
+          "meaning_vi": "người dùng",
+          "hsk": 6,
+          "word_id": "hsk6_2433"
+        },
+        {
+          "text": "黏",
+          "pinyin": "nián",
+          "hanviet": "Niêm",
+          "meaning_vi": "dính; quánh; dẻo",
+          "hsk": 7,
+          "word_id": "hsk7_2954"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "商业",
+          "pinyin": "shāngyè",
+          "hanviet": "Thương Nghiệp",
+          "meaning_vi": "thương nghiệp, kinh doanh",
+          "hsk": 5,
+          "word_id": "hsk5_1047"
+        },
+        {
+          "text": "流"
+        },
+        {
+          "text": "量"
+        },
+        {
+          "text": "变"
+        },
+        {
+          "text": "现"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "放",
+          "pinyin": "fàng",
+          "hanviet": "Phóng",
+          "meaning_vi": "đặt, để",
+          "hsk": 3,
+          "word_id": "hsk3_67"
+        },
+        {
+          "text": "任",
+          "pinyin": "rèn",
+          "hanviet": "Nhâm",
+          "meaning_vi": "ren",
+          "hsk": 7,
+          "word_id": "hsk7_3422"
+        },
+        {
+          "text": "低",
+          "pinyin": "dī",
+          "hanviet": "Đê",
+          "meaning_vi": "thấp",
+          "hsk": 4,
+          "word_id": "hsk4_89"
+        },
+        {
+          "text": "俗",
+          "pinyin": "sú",
+          "hanviet": "Tục",
+          "meaning_vi": "dung tục; tầm thường; thô tục",
+          "hsk": 7,
+          "word_id": "hsk7_3885"
+        },
+        {
+          "text": "猎"
+        },
+        {
+          "text": "奇"
+        },
+        {
+          "text": "甚至",
+          "pinyin": "shènzhì",
+          "hanviet": "Thậm Chí",
+          "meaning_vi": "thậm chí",
+          "hsk": 4,
+          "word_id": "hsk4_374"
+        },
+        {
+          "text": "虚假",
+          "pinyin": "xūjiǎ",
+          "hanviet": "Hư Giả",
+          "meaning_vi": "giả dối",
+          "hsk": 6,
+          "word_id": "hsk6_2288"
+        },
+        {
+          "text": "误导",
+          "pinyin": "wùdǎo",
+          "hanviet": "Ngộ Đạo",
+          "meaning_vi": "hướng dẫn sai; làm hiểu lầm",
+          "hsk": 7,
+          "word_id": "hsk7_4352"
+        },
+        {
+          "text": "性"
+        },
+        {
+          "text": "内容",
+          "pinyin": "nèiróng",
+          "hanviet": "Nội Dung",
+          "meaning_vi": "nội dung",
+          "hsk": 4,
+          "word_id": "hsk4_315"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "算"
+        },
+        {
+          "text": "法"
+        },
+        {
+          "text": "加"
+        },
+        {
+          "text": "权"
+        },
+        {
+          "text": "传播",
+          "pinyin": "chuánbō",
+          "hanviet": "Truyền Bá",
+          "meaning_vi": "truyền bá, lan truyền",
+          "hsk": 5,
+          "word_id": "hsk5_712"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "算法黑箱内部所隐藏的性别歧视、劳动者算法压榨等偏见，引发了全社会关于数字正义的深刻反思。",
+      "pinyin": "Suànfǎ hēixiāng nèibù suǒ yǐncáng de xìngbié qíshì, láodòngzhě suànfǎ yāzhà děng piānjiàn, yǐnfā le quán shèhuì guānyú shùzì zhèngyì de shēnkè fǎnsī.",
+      "vi": "Những định kiến ẩn giấu bên trong 'hộp đen thuật toán' như kỳ thị giới tính, bóc lột người lao động công nghệ đã dấy lên sự phản tỉnh sâu sắc về công lý số.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "算"
+        },
+        {
+          "text": "法"
+        },
+        {
+          "text": "黑",
+          "pinyin": "hēi",
+          "hanviet": "Hắc",
+          "meaning_vi": "đen",
+          "hsk": 2,
+          "word_id": "hsk2_40"
+        },
+        {
+          "text": "箱"
+        },
+        {
+          "text": "内部",
+          "pinyin": "nèibù",
+          "hanviet": "Nội Bộ",
+          "meaning_vi": "nội bộ, bên trong",
+          "hsk": 5,
+          "word_id": "hsk5_980"
+        },
+        {
+          "text": "所",
+          "pinyin": "suǒ",
+          "hanviet": "Sở",
+          "meaning_vi": "nơi, sở (lượng từ tổ chức)",
+          "hsk": 5,
+          "word_id": "hsk5_1095"
+        },
+        {
+          "text": "隐"
+        },
+        {
+          "text": "藏"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "性别",
+          "pinyin": "xìngbié",
+          "hanviet": "Tính Biệt",
+          "meaning_vi": "giới tính",
+          "hsk": 4,
+          "word_id": "hsk4_485"
+        },
+        {
+          "text": "歧视",
+          "pinyin": "qíshì",
+          "hanviet": "Kỳ Thị",
+          "meaning_vi": "phân biệt, kỳ thị",
+          "hsk": 6,
+          "word_id": "hsk6_1650"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "劳动",
+          "pinyin": "láodòng",
+          "hanviet": "Lao Động",
+          "meaning_vi": "lao động",
+          "hsk": 5,
+          "word_id": "hsk5_282"
+        },
+        {
+          "text": "者"
+        },
+        {
+          "text": "算"
+        },
+        {
+          "text": "法"
+        },
+        {
+          "text": "压榨",
+          "pinyin": "yāzhà",
+          "hanviet": "Áp Trá",
+          "meaning_vi": "bóc lột, ép (dầu)",
+          "hsk": 6,
+          "word_id": "hsk6_2325"
+        },
+        {
+          "text": "等",
+          "pinyin": "děng",
+          "hanviet": "Đẳng",
+          "meaning_vi": "đợi, chờ",
+          "hsk": 2,
+          "word_id": "hsk2_20"
+        },
+        {
+          "text": "偏见",
+          "pinyin": "piānjiàn",
+          "hanviet": "Thiên Kiến",
+          "meaning_vi": "thiên kiến, định kiến",
+          "hsk": 6,
+          "word_id": "hsk6_1599"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "引"
+        },
+        {
+          "text": "发",
+          "pinyin": "fā",
+          "hanviet": "Phát",
+          "meaning_vi": "phát ra, gửi",
+          "hsk": 3,
+          "word_id": "hsk3_63"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "全"
+        },
+        {
+          "text": "社会",
+          "pinyin": "shèhuì",
+          "hanviet": "Xã Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 4,
+          "word_id": "hsk4_371"
+        },
+        {
+          "text": "关于",
+          "pinyin": "guānyú",
+          "hanviet": "Quan Vu",
+          "meaning_vi": "về, liên quan đến",
+          "hsk": 3,
+          "word_id": "hsk3_87"
+        },
+        {
+          "text": "数字",
+          "pinyin": "shùzì",
+          "hanviet": "Sổ Tự",
+          "meaning_vi": "số, chữ số",
+          "hsk": 4,
+          "word_id": "hsk4_403"
+        },
+        {
+          "text": "正",
+          "pinyin": "zhèng",
+          "hanviet": "Chinh",
+          "meaning_vi": "vừa, đang (trạng từ)",
+          "hsk": 5,
+          "word_id": "hsk5_597"
+        },
+        {
+          "text": "义"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "深刻",
+          "pinyin": "shēnkè",
+          "hanviet": "Thâm Khắc",
+          "meaning_vi": "sâu sắc",
+          "hsk": 5,
+          "word_id": "hsk5_411"
+        },
+        {
+          "text": "反思",
+          "pinyin": "fǎnsī",
+          "hanviet": "Phản Tư",
+          "meaning_vi": "suy ngẫm lại",
+          "hsk": 6,
+          "word_id": "hsk6_801"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "推进算法透明度审计、保障劳动者合法休息权益与打破信息闭环，已成为数字平台治理的核心议题。",
+      "pinyin": "Tuījìn suànfǎ tòumíngdù shěnjì, bǎozhàng láodòngzhě héfǎ xiūxi quányì yǔ dǎpò xìnxī bìhuán, yǐ chéngwéi shùzì píngtái zhìlǐ de héxīn yìtí.",
+      "vi": "Thúc đẩy kiểm toán minh bạch thuật toán, bảo vệ quyền nghỉ ngơi của người lao động và phá vỡ vòng tròn thông tin khép kín đã trở thành nghị trình trọng tâm.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "推",
+          "pinyin": "tuī",
+          "hanviet": "Suy",
+          "meaning_vi": "đẩy",
+          "hsk": 4,
+          "word_id": "hsk4_442"
+        },
+        {
+          "text": "进",
+          "pinyin": "jìn",
+          "hanviet": "Tiến",
+          "meaning_vi": "vào",
+          "hsk": 2,
+          "word_id": "hsk2_50"
+        },
+        {
+          "text": "算"
+        },
+        {
+          "text": "法"
+        },
+        {
+          "text": "透明",
+          "pinyin": "tòumíng",
+          "hanviet": "Thấu Minh",
+          "meaning_vi": "trong suốt, minh bạch",
+          "hsk": 5,
+          "word_id": "hsk5_1113"
+        },
+        {
+          "text": "度"
+        },
+        {
+          "text": "审计",
+          "pinyin": "shěnjì",
+          "hanviet": "Thẩm Kế",
+          "meaning_vi": "kiểm toán",
+          "hsk": 7,
+          "word_id": "hsk7_3597"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "保障",
+          "pinyin": "bǎozhàng",
+          "hanviet": "Bảo Chướng",
+          "meaning_vi": "bảo đảm",
+          "hsk": 6,
+          "word_id": "hsk6_70"
+        },
+        {
+          "text": "劳动",
+          "pinyin": "láodòng",
+          "hanviet": "Lao Động",
+          "meaning_vi": "lao động",
+          "hsk": 5,
+          "word_id": "hsk5_282"
+        },
+        {
+          "text": "者"
+        },
+        {
+          "text": "合法",
+          "pinyin": "héfǎ",
+          "hanviet": "Hợp Pháp",
+          "meaning_vi": "hợp pháp",
+          "hsk": 5,
+          "word_id": "hsk5_187"
+        },
+        {
+          "text": "休息",
+          "pinyin": "xiūxi",
+          "hanviet": "Hưu Tức",
+          "meaning_vi": "nghỉ ngơi",
+          "hsk": 2,
+          "word_id": "hsk2_120"
+        },
+        {
+          "text": "权益",
+          "pinyin": "quányì",
+          "hanviet": "Quyền Ích",
+          "meaning_vi": "quyền và lợi ích; quyền lợi",
+          "hsk": 7,
+          "word_id": "hsk7_3373"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "打"
+        },
+        {
+          "text": "破",
+          "pinyin": "pò",
+          "hanviet": "Phá",
+          "meaning_vi": "hỏng, vỡ",
+          "hsk": 4,
+          "word_id": "hsk4_332"
+        },
+        {
+          "text": "信息",
+          "pinyin": "xìnxī",
+          "hanviet": "Tín Tức",
+          "meaning_vi": "thông tin",
+          "hsk": 4,
+          "word_id": "hsk4_480"
+        },
+        {
+          "text": "闭"
+        },
+        {
+          "text": "环"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "已"
+        },
+        {
+          "text": "成为",
+          "pinyin": "chéngwéi",
+          "hanviet": "Thành Vi",
+          "meaning_vi": "trở thành",
+          "hsk": 4,
+          "word_id": "hsk4_46"
+        },
+        {
+          "text": "数字",
+          "pinyin": "shùzì",
+          "hanviet": "Sổ Tự",
+          "meaning_vi": "số, chữ số",
+          "hsk": 4,
+          "word_id": "hsk4_403"
+        },
+        {
+          "text": "平",
+          "pinyin": "píng",
+          "hanviet": "Bình",
+          "meaning_vi": "bằng, phẳng",
+          "hsk": 5,
+          "word_id": "hsk5_350"
+        },
+        {
+          "text": "台",
+          "pinyin": "tái",
+          "hanviet": "Đài",
+          "meaning_vi": "cái, bục, đài (lượng từ)",
+          "hsk": 4,
+          "word_id": "hsk4_418"
+        },
+        {
+          "text": "治"
+        },
+        {
+          "text": "理"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "核心",
+          "pinyin": "héxīn",
+          "hanviet": "Hạch Tâm",
+          "meaning_vi": "hạt nhân, trọng tâm",
+          "hsk": 5,
+          "word_id": "hsk5_847"
+        },
+        {
+          "text": "议题",
+          "pinyin": "yìtí",
+          "hanviet": "Nghị Đề",
+          "meaning_vi": "đề tài thảo luận, chủ đề nghị sự",
+          "hsk": 7,
+          "word_id": "hsk7_4879"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "唯有坚守科技向善、以人为本的价值底色，人工智能与算法才能真正成为推动社会公平进步的积极力量。",
+      "pinyin": "Wéiyǒu jiānshǒu kējì xiàngshàn, yǐrénwéiběn de jiàzhí dǐsè, réngōng zhìnéng yǔ suànfǎ cái néng zhēnzhèng chéngwéi tuīdòng shèhuì gōngpíng jìnbù de jījí lìliàng.",
+      "vi": "Chỉ khi giữ vững giá trị hướng thiện vì con người, trí tuệ nhân tạo và thuật toán mới có thể thực sự trở thành lực lượng tích cực thúc đẩy công bằng xã hội.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "唯有",
+          "pinyin": "wéiyǒu",
+          "hanviet": "Duy Hữu",
+          "meaning_vi": "chỉ có; duy chỉ có",
+          "hsk": 7,
+          "word_id": "hsk7_4243"
+        },
+        {
+          "text": "坚守",
+          "pinyin": "jiānshǒu",
+          "hanviet": "Kiên Thủ",
+          "meaning_vi": "kiên trì",
+          "hsk": 7,
+          "word_id": "hsk7_1967"
+        },
+        {
+          "text": "科"
+        },
+        {
+          "text": "技"
+        },
+        {
+          "text": "向",
+          "pinyin": "xiàng",
+          "hanviet": "Hướng",
+          "meaning_vi": "hướng về, về phía",
+          "hsk": 3,
+          "word_id": "hsk3_241"
+        },
+        {
+          "text": "善",
+          "pinyin": "shàn",
+          "hanviet": "Thiện",
+          "meaning_vi": "thiện; lương thiện",
+          "hsk": 7,
+          "word_id": "hsk7_3509"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "以",
+          "pinyin": "yǐ",
+          "hanviet": "Dĩ",
+          "meaning_vi": "bằng, dùng",
+          "hsk": 4,
+          "word_id": "hsk4_512"
+        },
+        {
+          "text": "人为",
+          "pinyin": "rénwéi",
+          "hanviet": "Nhân Vi",
+          "meaning_vi": "do con người, nhân tạo",
+          "hsk": 6,
+          "word_id": "hsk6_1771"
+        },
+        {
+          "text": "本",
+          "pinyin": "běn",
+          "hanviet": "Bản",
+          "meaning_vi": "cuốn (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_6"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "价值",
+          "pinyin": "jiàzhí",
+          "hanviet": "Giá Trị",
+          "meaning_vi": "giá trị",
+          "hsk": 5,
+          "word_id": "hsk5_879"
+        },
+        {
+          "text": "底",
+          "pinyin": "dǐ",
+          "hanviet": "Để",
+          "meaning_vi": "đáy",
+          "hsk": 4,
+          "word_id": "hsk4_90"
+        },
+        {
+          "text": "色"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "人工",
+          "pinyin": "réngōng",
+          "hanviet": "Nhân Công",
+          "meaning_vi": "nhân công, nhân tạo",
+          "hsk": 6,
+          "word_id": "hsk6_1767"
+        },
+        {
+          "text": "智"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "算"
+        },
+        {
+          "text": "法"
+        },
+        {
+          "text": "才"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "真正",
+          "pinyin": "zhēnzhèng",
+          "hanviet": "Chân Chính",
+          "meaning_vi": "thực sự, chân chính",
+          "hsk": 4,
+          "word_id": "hsk4_556"
+        },
+        {
+          "text": "成为",
+          "pinyin": "chéngwéi",
+          "hanviet": "Thành Vi",
+          "meaning_vi": "trở thành",
+          "hsk": 4,
+          "word_id": "hsk4_46"
+        },
+        {
+          "text": "推",
+          "pinyin": "tuī",
+          "hanviet": "Suy",
+          "meaning_vi": "đẩy",
+          "hsk": 4,
+          "word_id": "hsk4_442"
+        },
+        {
+          "text": "动"
+        },
+        {
+          "text": "社会",
+          "pinyin": "shèhuì",
+          "hanviet": "Xã Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 4,
+          "word_id": "hsk4_371"
+        },
+        {
+          "text": "公平",
+          "pinyin": "gōngpíng",
+          "hanviet": "Công Bình",
+          "meaning_vi": "công bằng",
+          "hsk": 5,
+          "word_id": "hsk5_158"
+        },
+        {
+          "text": "进步",
+          "pinyin": "jìnbù",
+          "hanviet": "Tiến Bộ",
+          "meaning_vi": "tiến bộ",
+          "hsk": 5,
+          "word_id": "hsk5_255"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "积极",
+          "pinyin": "jījí",
+          "hanviet": "Tích Cực",
+          "meaning_vi": "tích cực",
+          "hsk": 4,
+          "word_id": "hsk4_188"
+        },
+        {
+          "text": "力量",
+          "pinyin": "lìliàng",
+          "hanviet": "Lực Lượng",
+          "meaning_vi": "lực lượng, sức mạnh",
+          "hsk": 5,
+          "word_id": "hsk5_289"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk5_477",
+    "hsk5_502",
+    "hsk1_139",
+    "hsk3_110",
+    "hsk1_14",
+    "hsk3_215",
+    "hsk4_315",
+    "hsk7_1152",
+    "hsk4_535",
+    "hsk5_1282",
+    "hsk7_3058",
+    "hsk5_1169",
+    "hsk1_15",
+    "hsk4_440",
+    "hsk2_127"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Mặt trái xã hội đáng lo ngại của các hệ thống thuật toán gợi ý là gì?",
+      "options_vi": [
+        "Tạo ra hiệu ứng kén thông tin và thúc đẩy phân cực xã hội",
+        "Làm mất kết nối internet",
+        "Giảm lưu lượng truy cập"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 带来了信息茧房和群体极化等社会问题."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Hiện tượng hộp đen thuật toán đặt ra vấn đề gì về đạo đức công nghệ?",
+      "options_vi": [
+        "Ẩn chứa các thiên kiến như bất bình đẳng và chèn ép người lao động",
+        "Làm hỏng màn hình máy tính",
+        "Khiến thuật toán chạy chậm"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu có viết: 隐藏的性别歧视、劳动者算法压榨等偏见，引发了关于数字正义的反思."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Yêu cầu căn bản để thuật toán thực sự phục vụ công bằng xã hội là gì?",
+      "options_vi": [
+        "Kiếm thật nhiều tiền bằng mọi giá",
+        "Kiên định công nghệ hướng thiện và lấy con người làm gốc",
+        "Xóa bỏ toàn bộ internet"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 坚守科技向善、以人为本的价值底色，才能成为推动公平进步的力量."
+    }
+  ]
+}
