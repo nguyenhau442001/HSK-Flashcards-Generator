@@ -11647,6 +11647,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/实用.svg",
     "caption": "thực dụng, hữu dụng"
   },
+  "食物": {
+    "file": "食物.svg",
+    "src": "images/HSK_2.0/level5/食物.svg",
+    "caption": "thức ăn, thực phẩm"
+  },
+  "士兵": {
+    "file": "士兵.svg",
+    "src": "images/HSK_2.0/level5/士兵.svg",
+    "caption": "binh sĩ"
+  },
+  "似的": {
+    "file": "似的.svg",
+    "src": "images/HSK_2.0/level5/似的.svg",
+    "caption": "giống như, tựa như"
+  },
+  "事实": {
+    "file": "事实.svg",
+    "src": "images/HSK_2.0/level5/事实.svg",
+    "caption": "sự thật"
+  },
+  "事先": {
+    "file": "事先.svg",
+    "src": "images/HSK_2.0/level5/事先.svg",
+    "caption": "trước đó, trước khi"
+  },
+  "收获": {
+    "file": "收获.svg",
+    "src": "images/HSK_2.0/level5/收获.svg",
+    "caption": "thu hoạch"
+  },
+  "手套": {
+    "file": "手套.svg",
+    "src": "images/HSK_2.0/level5/手套.svg",
+    "caption": "bao tay, găng tay"
+  },
+  "手指": {
+    "file": "手指.svg",
+    "src": "images/HSK_2.0/level5/手指.svg",
+    "caption": "ngón tay"
+  },
+  "蔬菜": {
+    "file": "蔬菜.svg",
+    "src": "images/HSK_2.0/level5/蔬菜.svg",
+    "caption": "rau xanh"
+  },
+  "舒适": {
+    "file": "舒适.svg",
+    "src": "images/HSK_2.0/level5/舒适.svg",
+    "caption": "thoải mái, dễ chịu"
+  },
   "挑战": {
     "file": "挑战.svg",
     "src": "images/HSK_2.0/level5/挑战.svg",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:47:13.606326",
-  "total_unique_words_with_illustrations": 2273,
-  "total_flat_svg_files": 2273,
+  "generated_at": "2026-10-09T20:49:16.180263",
+  "total_unique_words_with_illustrations": 2283,
+  "total_flat_svg_files": 2283,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1074,
-        "pct": "82.6%"
+        "with_svg": 1084,
+        "pct": "83.4%"
       },
       "level6": {
         "total": 2500,
@@ -53,17 +53,17 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 593,
-        "pct": "59.3%"
+        "with_svg": 594,
+        "pct": "59.4%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 719,
-        "pct": "44.9%"
+        "with_svg": 727,
+        "pct": "45.4%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 205,
+        "with_svg": 206,
         "pct": "11.4%"
       },
       "level7": {
@@ -41892,6 +41892,186 @@
       "src": "images/HSK_2.0/level5/实用.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/实用.svg"
+      ]
+    },
+    "食物": {
+      "hanzi": "食物",
+      "pinyin": "shíwù",
+      "meaning": "thức ăn, thực phẩm",
+      "example_zh": "请提供新鲜的<u>食物</u>。",
+      "example_vi": "Xin hãy cung cấp <u>thực phẩm</u> tươi mới.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "食物.svg",
+      "src": "images/HSK_2.0/level5/食物.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/食物.svg"
+      ]
+    },
+    "士兵": {
+      "hanzi": "士兵",
+      "pinyin": "shìbīng",
+      "meaning": "binh sĩ",
+      "example_zh": "<u>士兵</u>们正在训练。",
+      "example_vi": "Các <u>binh sĩ</u> đang huấn luyện.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "士兵.svg",
+      "src": "images/HSK_2.0/level5/士兵.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/士兵.svg"
+      ]
+    },
+    "似的": {
+      "hanzi": "似的",
+      "pinyin": "shìde",
+      "meaning": "giống như, tựa như",
+      "example_zh": "他好像生病了<u>似的</u>。",
+      "example_vi": "Anh ấy <u>có vẻ như</u> bị bệnh.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "似的.svg",
+      "src": "images/HSK_2.0/level5/似的.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/似的.svg"
+      ]
+    },
+    "事实": {
+      "hanzi": "事实",
+      "pinyin": "shìshí",
+      "meaning": "sự thật",
+      "example_zh": "这是一个<u>事实</u>。",
+      "example_vi": "Đây là một <u>sự thật</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "事实.svg",
+      "src": "images/HSK_2.0/level5/事实.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/事实.svg"
+      ]
+    },
+    "事先": {
+      "hanzi": "事先",
+      "pinyin": "shìxiān",
+      "meaning": "trước đó, trước khi",
+      "example_zh": "请<u>事先</u>通知我。",
+      "example_vi": "Xin hãy thông báo <u>trước</u> cho tôi.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "事先.svg",
+      "src": "images/HSK_2.0/level5/事先.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/事先.svg"
+      ]
+    },
+    "收获": {
+      "hanzi": "收获",
+      "pinyin": "shōuhuò",
+      "meaning": "thu hoạch",
+      "example_zh": "这次旅行很有<u>收获</u>。",
+      "example_vi": "Chuyến du lịch lần này có nhiều <u>thu hoạch</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "收获.svg",
+      "src": "images/HSK_2.0/level5/收获.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/收获.svg"
+      ]
+    },
+    "手套": {
+      "hanzi": "手套",
+      "pinyin": "shǒutào",
+      "meaning": "bao tay, găng tay",
+      "example_zh": "冬天要戴<u>手套</u>。",
+      "example_vi": "Mùa đông phải đeo <u>bao tay</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "手套.svg",
+      "src": "images/HSK_2.0/level5/手套.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/手套.svg"
+      ]
+    },
+    "手指": {
+      "hanzi": "手指",
+      "pinyin": "shǒuzhǐ",
+      "meaning": "ngón tay",
+      "example_zh": "他的<u>手指</u>很长。",
+      "example_vi": "<u>Ngón tay</u> của anh ấy rất dài.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "手指.svg",
+      "src": "images/HSK_2.0/level5/手指.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/手指.svg"
+      ]
+    },
+    "蔬菜": {
+      "hanzi": "蔬菜",
+      "pinyin": "shūcài",
+      "meaning": "rau xanh",
+      "example_zh": "我每天吃<u>蔬菜</u>。",
+      "example_vi": "Tôi mỗi ngày ăn <u>rau xanh</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "蔬菜.svg",
+      "src": "images/HSK_2.0/level5/蔬菜.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/蔬菜.svg"
+      ]
+    },
+    "舒适": {
+      "hanzi": "舒适",
+      "pinyin": "shūshì",
+      "meaning": "thoải mái, dễ chịu",
+      "example_zh": "这个房间很<u>舒适</u>。",
+      "example_vi": "Căn phòng này rất <u>thoải mái</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "舒适.svg",
+      "src": "images/HSK_2.0/level5/舒适.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/舒适.svg"
       ]
     },
     "挑战": {
