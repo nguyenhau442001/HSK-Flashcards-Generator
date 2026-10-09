@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T21:18:33.187237",
-  "total_unique_words_with_illustrations": 2423,
-  "total_flat_svg_files": 2423,
+  "generated_at": "2026-10-09T21:20:34.771046",
+  "total_unique_words_with_illustrations": 2433,
+  "total_flat_svg_files": 2433,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1224,
-        "pct": "94.2%"
+        "with_svg": 1234,
+        "pct": "94.9%"
       },
       "level6": {
         "total": 2500,
@@ -58,28 +58,28 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 827,
-        "pct": "51.7%"
+        "with_svg": 832,
+        "pct": "52.0%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 229,
-        "pct": "12.7%"
+        "with_svg": 232,
+        "pct": "12.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 97,
-        "pct": "1.7%"
+        "with_svg": 98,
+        "pct": "1.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 97,
-        "pct": "1.7%"
+        "with_svg": 98,
+        "pct": "1.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 97,
-        "pct": "1.7%"
+        "with_svg": 98,
+        "pct": "1.8%"
       }
     }
   },
@@ -44710,6 +44710,186 @@
       "src": "images/HSK_2.0/level5/原则.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/原则.svg"
+      ]
+    },
+    "乐器": {
+      "hanzi": "乐器",
+      "pinyin": "yuèqì",
+      "meaning": "nhạc cụ",
+      "example_zh": "他会弹很多<u>乐器</u>。",
+      "example_vi": "Anh ấy biết chơi nhiều <u>nhạc cụ</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "乐器.svg",
+      "src": "images/HSK_2.0/level5/乐器.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/乐器.svg"
+      ]
+    },
+    "运输": {
+      "hanzi": "运输",
+      "pinyin": "yùnshū",
+      "meaning": "vận chuyển, vận tải",
+      "example_zh": "这些货物需要<u>运输</u>。",
+      "example_vi": "Những hàng hóa này cần <u>vận chuyển</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "运输.svg",
+      "src": "images/HSK_2.0/level5/运输.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/运输.svg"
+      ]
+    },
+    "在于": {
+      "hanzi": "在于",
+      "pinyin": "zàiyú",
+      "meaning": "ở chỗ, nằm ở",
+      "example_zh": "问题<u>在于</u>时间不够。",
+      "example_vi": "Vấn đề <u>nằm ở</u> việc thời gian không đủ.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "在于.svg",
+      "src": "images/HSK_2.0/level5/在于.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/在于.svg"
+      ]
+    },
+    "赞美": {
+      "hanzi": "赞美",
+      "pinyin": "zànměi",
+      "meaning": "khen ngợi, ca ngợi",
+      "example_zh": "大家<u>赞美</u>了他的勇气。",
+      "example_vi": "Mọi người đã <u>ca ngợi</u> sự can đảm của anh ấy.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "赞美.svg",
+      "src": "images/HSK_2.0/level5/赞美.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/赞美.svg",
+        "images/HSK_3.0/level8/赞美.svg",
+        "images/HSK_3.0/level9/赞美.svg"
+      ]
+    },
+    "则": {
+      "hanzi": "则",
+      "pinyin": "zé",
+      "meaning": "thì, là (liên từ văn viết)",
+      "example_zh": "他学习好，工作能力<u>则</u>更强。",
+      "example_vi": "Anh ấy học tốt, <u>thì</u> năng lực làm việc còn mạnh hơn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [],
+      "file": "则.svg",
+      "src": "images/HSK_2.0/level5/则.svg",
+      "alt_srcs": []
+    },
+    "摘": {
+      "hanzi": "摘",
+      "pinyin": "zhāi",
+      "meaning": "ngắt, hái",
+      "example_zh": "她<u>摘</u>了一朵花。",
+      "example_vi": "Cô ấy đã <u>ngắt</u> một bông hoa.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "摘.svg",
+      "src": "images/HSK_2.0/level5/摘.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/摘.svg"
+      ]
+    },
+    "粘贴": {
+      "hanzi": "粘贴",
+      "pinyin": "zhāntiē",
+      "meaning": "dán",
+      "example_zh": "请把图片<u>粘贴</u>上去。",
+      "example_vi": "Xin hãy <u>dán</u> hình ảnh lên.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "粘贴.svg",
+      "src": "images/HSK_2.0/level5/粘贴.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/粘贴.svg"
+      ]
+    },
+    "展览": {
+      "hanzi": "展览",
+      "pinyin": "zhǎnlǎn",
+      "meaning": "triển lãm",
+      "example_zh": "我们去看<u>展览</u>。",
+      "example_vi": "Chúng tôi đi xem <u>triển lãm</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "展览.svg",
+      "src": "images/HSK_2.0/level5/展览.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/展览.svg"
+      ]
+    },
+    "占": {
+      "hanzi": "占",
+      "pinyin": "zhàn",
+      "meaning": "chiếm, chiếm giữ",
+      "example_zh": "这个座位被<u>占</u>了。",
+      "example_vi": "Chỗ ngồi này đã bị <u>chiếm</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "占.svg",
+      "src": "images/HSK_2.0/level5/占.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/占.svg"
+      ]
+    },
+    "战争": {
+      "hanzi": "战争",
+      "pinyin": "zhànzhēng",
+      "meaning": "chiến tranh",
+      "example_zh": "<u>战争</u>带来了很多痛苦。",
+      "example_vi": "<u>Chiến tranh</u> đã mang lại nhiều đau khổ.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "战争.svg",
+      "src": "images/HSK_2.0/level5/战争.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/战争.svg"
       ]
     }
   }

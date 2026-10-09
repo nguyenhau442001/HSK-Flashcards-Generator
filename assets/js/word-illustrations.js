@@ -12416,6 +12416,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "原则.svg",
     "src": "images/HSK_2.0/level5/原则.svg",
     "caption": "nguyên tắc"
+  },
+  "乐器": {
+    "file": "乐器.svg",
+    "src": "images/HSK_2.0/level5/乐器.svg",
+    "caption": "nhạc cụ"
+  },
+  "运输": {
+    "file": "运输.svg",
+    "src": "images/HSK_2.0/level5/运输.svg",
+    "caption": "vận chuyển, vận tải"
+  },
+  "在于": {
+    "file": "在于.svg",
+    "src": "images/HSK_2.0/level5/在于.svg",
+    "caption": "ở chỗ, nằm ở"
+  },
+  "赞美": {
+    "file": "赞美.svg",
+    "src": "images/HSK_2.0/level5/赞美.svg",
+    "caption": "khen ngợi, ca ngợi"
+  },
+  "则": {
+    "file": "则.svg",
+    "src": "images/HSK_2.0/level5/则.svg",
+    "caption": "thì, là (liên từ văn viết)"
+  },
+  "摘": {
+    "file": "摘.svg",
+    "src": "images/HSK_2.0/level5/摘.svg",
+    "caption": "ngắt, hái"
+  },
+  "粘贴": {
+    "file": "粘贴.svg",
+    "src": "images/HSK_2.0/level5/粘贴.svg",
+    "caption": "dán"
+  },
+  "展览": {
+    "file": "展览.svg",
+    "src": "images/HSK_2.0/level5/展览.svg",
+    "caption": "triển lãm"
+  },
+  "占": {
+    "file": "占.svg",
+    "src": "images/HSK_2.0/level5/占.svg",
+    "caption": "chiếm, chiếm giữ"
+  },
+  "战争": {
+    "file": "战争.svg",
+    "src": "images/HSK_2.0/level5/战争.svg",
+    "caption": "chiến tranh"
   }
 };
 
