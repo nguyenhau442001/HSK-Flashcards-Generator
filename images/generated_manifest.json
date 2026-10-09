@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T19:44:55.456308",
-  "total_unique_words_with_illustrations": 1985,
-  "total_flat_svg_files": 1985,
+  "generated_at": "2026-10-09T19:47:00.501217",
+  "total_unique_words_with_illustrations": 1995,
+  "total_flat_svg_files": 1995,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -16,8 +16,8 @@
       },
       "level3": {
         "total": 300,
-        "with_svg": 192,
-        "pct": "64.0%"
+        "with_svg": 202,
+        "pct": "67.3%"
       },
       "level4": {
         "total": 600,
@@ -38,8 +38,8 @@
     "hsk_3_0": {
       "level1": {
         "total": 300,
-        "with_svg": 207,
-        "pct": "69.0%"
+        "with_svg": 208,
+        "pct": "69.3%"
       },
       "level2": {
         "total": 200,
@@ -48,13 +48,13 @@
       },
       "level3": {
         "total": 500,
-        "with_svg": 216,
-        "pct": "43.2%"
+        "with_svg": 223,
+        "pct": "44.6%"
       },
       "level4": {
         "total": 1000,
-        "with_svg": 574,
-        "pct": "57.4%"
+        "with_svg": 575,
+        "pct": "57.5%"
       },
       "level5": {
         "total": 1600,
@@ -6445,6 +6445,128 @@
         "images/HSK_3.0/level3/段.svg"
       ]
     },
+    "锻炼": {
+      "hanzi": "锻炼",
+      "pinyin": "duànliàn",
+      "meaning": "rèn luyện, tập thể dục",
+      "example_zh": "他每天<u>锻炼</u>身体。",
+      "example_vi": "Anh ấy mỗi ngày <u>tập luyện thể dục</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "锻炼.svg",
+      "src": "images/HSK_2.0/level3/锻炼.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/锻炼.svg"
+      ]
+    },
+    "多么": {
+      "hanzi": "多么",
+      "pinyin": "duōme",
+      "meaning": "biết bao, thế nào",
+      "example_zh": "这个地方<u>多么</u>美啊！",
+      "example_vi": "Nơi này đẹp <u>biết bao</u>!",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "多么.svg",
+      "src": "images/HSK_2.0/level3/多么.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/多么.svg"
+      ]
+    },
+    "饿": {
+      "hanzi": "饿",
+      "pinyin": "è",
+      "meaning": "đói",
+      "example_zh": "我<u>饿</u>了，想吃饭。",
+      "example_vi": "Tôi <u>đói</u> rồi, muốn ăn cơm.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "饿.svg",
+      "src": "images/HSK_2.0/level3/饿.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/饿.svg"
+      ]
+    },
+    "不但…而且…": {
+      "hanzi": "不但…而且…",
+      "pinyin": "búdàn…érqiě…",
+      "meaning": "không những… mà còn…",
+      "example_zh": "他<u>不但</u>聪明，<u>而且</u>努力。",
+      "example_vi": "Anh ấy <u>không những</u> thông minh, <u>mà còn</u> chăm chỉ.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [],
+      "file": "不但…而且….svg",
+      "src": "images/HSK_2.0/level3/不但…而且….svg",
+      "alt_srcs": []
+    },
+    "耳朵": {
+      "hanzi": "耳朵",
+      "pinyin": "ěrduo",
+      "meaning": "tai",
+      "example_zh": "他的<u>耳朵</u>很大。",
+      "example_vi": "<u>Tai</u> của anh ấy rất to.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "耳朵.svg",
+      "src": "images/HSK_2.0/level3/耳朵.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/耳朵.svg"
+      ]
+    },
+    "发": {
+      "hanzi": "发",
+      "pinyin": "fā",
+      "meaning": "phát ra, gửi",
+      "example_zh": "他<u>发</u>了一条短信。",
+      "example_vi": "Anh ấy đã <u>gửi</u> một tin nhắn.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "发.svg",
+      "src": "images/HSK_2.0/level3/发.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/发.svg"
+      ]
+    },
+    "发烧": {
+      "hanzi": "发烧",
+      "pinyin": "fāshāo",
+      "meaning": "sốt",
+      "example_zh": "孩子<u>发烧</u>了。",
+      "example_vi": "Em bé đã bị <u>sốt</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "发烧.svg",
+      "src": "images/HSK_2.0/level3/发烧.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/发烧.svg"
+      ]
+    },
     "发现": {
       "hanzi": "发现",
       "pinyin": "fāxiàn",
@@ -6463,6 +6585,24 @@
         "images/HSK_3.0/level3/发现.svg"
       ]
     },
+    "方便": {
+      "hanzi": "方便",
+      "pinyin": "fāngbiàn",
+      "meaning": "thuận tiện",
+      "example_zh": "这个软件很<u>方便</u>。",
+      "example_vi": "Phần mềm này rất <u>thuận tiện</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "方便.svg",
+      "src": "images/HSK_2.0/level3/方便.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/方便.svg"
+      ]
+    },
     "放": {
       "hanzi": "放",
       "pinyin": "fàng",
@@ -6479,6 +6619,42 @@
       "src": "images/HSK_2.0/level3/放.svg",
       "alt_srcs": [
         "images/HSK_3.0/level3/放.svg"
+      ]
+    },
+    "放心": {
+      "hanzi": "放心",
+      "pinyin": "fàngxīn",
+      "meaning": "yên tâm",
+      "example_zh": "你<u>放心</u>，没问题。",
+      "example_vi": "Bạn <u>yên tâm</u>, không có vấn đề gì.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "放心.svg",
+      "src": "images/HSK_2.0/level3/放心.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/放心.svg"
+      ]
+    },
+    "分": {
+      "hanzi": "分",
+      "pinyin": "fēn",
+      "meaning": "phút; điểm; phân (đơn vị tiền)",
+      "example_zh": "现在是三点十<u>分</u>。",
+      "example_vi": "Bây giờ là ba giờ <u>mười phút</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level1"
+      ],
+      "file": "分.svg",
+      "src": "images/HSK_2.0/level3/分.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level1/分.svg"
       ]
     },
     "南": {

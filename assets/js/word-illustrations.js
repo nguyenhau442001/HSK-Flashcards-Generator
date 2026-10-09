@@ -2082,15 +2082,65 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level3/段.svg",
     "caption": "đoạn (lượng từ)"
   },
+  "锻炼": {
+    "file": "锻炼.svg",
+    "src": "images/HSK_2.0/level3/锻炼.svg",
+    "caption": "rèn luyện, tập thể dục"
+  },
+  "多么": {
+    "file": "多么.svg",
+    "src": "images/HSK_2.0/level3/多么.svg",
+    "caption": "biết bao, thế nào"
+  },
+  "饿": {
+    "file": "饿.svg",
+    "src": "images/HSK_2.0/level3/饿.svg",
+    "caption": "đói"
+  },
+  "不但…而且…": {
+    "file": "不但…而且….svg",
+    "src": "images/HSK_2.0/level3/不但…而且….svg",
+    "caption": "không những… mà còn…"
+  },
+  "耳朵": {
+    "file": "耳朵.svg",
+    "src": "images/HSK_2.0/level3/耳朵.svg",
+    "caption": "tai"
+  },
+  "发": {
+    "file": "发.svg",
+    "src": "images/HSK_2.0/level3/发.svg",
+    "caption": "phát ra, gửi"
+  },
+  "发烧": {
+    "file": "发烧.svg",
+    "src": "images/HSK_2.0/level3/发烧.svg",
+    "caption": "sốt"
+  },
   "发现": {
     "file": "发现.svg",
     "src": "images/HSK_2.0/level3/发现.svg",
     "caption": "phát hiện"
   },
+  "方便": {
+    "file": "方便.svg",
+    "src": "images/HSK_2.0/level3/方便.svg",
+    "caption": "thuận tiện"
+  },
   "放": {
     "file": "放.svg",
     "src": "images/HSK_2.0/level3/放.svg",
     "caption": "đặt, để"
+  },
+  "放心": {
+    "file": "放心.svg",
+    "src": "images/HSK_2.0/level3/放心.svg",
+    "caption": "yên tâm"
+  },
+  "分": {
+    "file": "分.svg",
+    "src": "images/HSK_2.0/level3/分.svg",
+    "caption": "phút; điểm; phân (đơn vị tiền)"
   },
   "南": {
     "file": "南.svg",
