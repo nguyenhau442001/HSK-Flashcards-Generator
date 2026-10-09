@@ -2592,6 +2592,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level3/马.svg",
     "caption": "con ngựa"
   },
+  "马上": {
+    "file": "马上.svg",
+    "src": "images/HSK_2.0/level3/马上.svg",
+    "caption": "ngay lập tức"
+  },
+  "满意": {
+    "file": "满意.svg",
+    "src": "images/HSK_2.0/level3/满意.svg",
+    "caption": "hài lòng"
+  },
+  "帽子": {
+    "file": "帽子.svg",
+    "src": "images/HSK_2.0/level3/帽子.svg",
+    "caption": "cái mũ"
+  },
+  "米": {
+    "file": "米.svg",
+    "src": "images/HSK_2.0/level3/米.svg",
+    "caption": "mét; gạo"
+  },
+  "面包": {
+    "file": "面包.svg",
+    "src": "images/HSK_2.0/level3/面包.svg",
+    "caption": "bánh mì"
+  },
+  "明白": {
+    "file": "明白.svg",
+    "src": "images/HSK_2.0/level3/明白.svg",
+    "caption": "hiểu rõ, rõ ràng"
+  },
+  "拿": {
+    "file": "拿.svg",
+    "src": "images/HSK_2.0/level3/拿.svg",
+    "caption": "cầm, lấy"
+  },
+  "奶奶": {
+    "file": "奶奶.svg",
+    "src": "images/HSK_2.0/level3/奶奶.svg",
+    "caption": "bà nội"
+  },
   "南": {
     "file": "南.svg",
     "src": "images/HSK_2.0/level3/南.svg",

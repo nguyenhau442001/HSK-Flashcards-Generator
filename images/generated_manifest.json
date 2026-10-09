@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:07:43.134226",
-  "total_unique_words_with_illustrations": 2085,
-  "total_flat_svg_files": 2085,
+  "generated_at": "2026-10-09T20:09:33.917435",
+  "total_unique_words_with_illustrations": 2093,
+  "total_flat_svg_files": 2093,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -16,8 +16,8 @@
       },
       "level3": {
         "total": 300,
-        "with_svg": 292,
-        "pct": "97.3%"
+        "with_svg": 300,
+        "pct": "100.0%"
       },
       "level4": {
         "total": 600,
@@ -38,23 +38,23 @@
     "hsk_3_0": {
       "level1": {
         "total": 300,
-        "with_svg": 209,
-        "pct": "69.7%"
+        "with_svg": 210,
+        "pct": "70.0%"
       },
       "level2": {
         "total": 200,
-        "with_svg": 101,
-        "pct": "50.5%"
+        "with_svg": 103,
+        "pct": "51.5%"
       },
       "level3": {
         "total": 500,
-        "with_svg": 292,
-        "pct": "58.4%"
+        "with_svg": 296,
+        "pct": "59.2%"
       },
       "level4": {
         "total": 1000,
-        "with_svg": 576,
-        "pct": "57.6%"
+        "with_svg": 577,
+        "pct": "57.7%"
       },
       "level5": {
         "total": 1600,
@@ -8242,6 +8242,150 @@
       "src": "images/HSK_2.0/level3/马.svg",
       "alt_srcs": [
         "images/HSK_3.0/level3/马.svg"
+      ]
+    },
+    "马上": {
+      "hanzi": "马上",
+      "pinyin": "mǎshàng",
+      "meaning": "ngay lập tức",
+      "example_zh": "我<u>马上</u>就到。",
+      "example_vi": "Tôi sẽ đến <u>ngay lập tức</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "马上.svg",
+      "src": "images/HSK_2.0/level3/马上.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/马上.svg"
+      ]
+    },
+    "满意": {
+      "hanzi": "满意",
+      "pinyin": "mǎnyì",
+      "meaning": "hài lòng",
+      "example_zh": "老师对他的回答很<u>满意</u>。",
+      "example_vi": "Thầy giáo rất <u>hài lòng</u> với câu trả lời của anh ấy.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "满意.svg",
+      "src": "images/HSK_2.0/level3/满意.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/满意.svg"
+      ]
+    },
+    "帽子": {
+      "hanzi": "帽子",
+      "pinyin": "màozi",
+      "meaning": "cái mũ",
+      "example_zh": "他戴着一个<u>帽子</u>。",
+      "example_vi": "Anh ấy đang đội một <u>cái mũ</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "帽子.svg",
+      "src": "images/HSK_2.0/level3/帽子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/帽子.svg"
+      ]
+    },
+    "米": {
+      "hanzi": "米",
+      "pinyin": "mǐ",
+      "meaning": "mét; gạo",
+      "example_zh": "这条河有多少<u>米</u>长？",
+      "example_vi": "Con sông này dài bao nhiêu <u>mét</u>?",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "米.svg",
+      "src": "images/HSK_2.0/level3/米.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/米.svg"
+      ]
+    },
+    "面包": {
+      "hanzi": "面包",
+      "pinyin": "miànbāo",
+      "meaning": "bánh mì",
+      "example_zh": "我早上吃<u>面包</u>。",
+      "example_vi": "Tôi ăn <u>bánh mì</u> vào buổi sáng.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level1"
+      ],
+      "file": "面包.svg",
+      "src": "images/HSK_2.0/level3/面包.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level1/面包.svg"
+      ]
+    },
+    "明白": {
+      "hanzi": "明白",
+      "pinyin": "míngbai",
+      "meaning": "hiểu rõ, rõ ràng",
+      "example_zh": "我<u>明白</u>你的意思了。",
+      "example_vi": "Tôi đã <u>hiểu rõ</u> ý của bạn.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "明白.svg",
+      "src": "images/HSK_2.0/level3/明白.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/明白.svg"
+      ]
+    },
+    "拿": {
+      "hanzi": "拿",
+      "pinyin": "ná",
+      "meaning": "cầm, lấy",
+      "example_zh": "请<u>拿</u>一本书给我。",
+      "example_vi": "Xin hãy <u>lấy</u> một cuốn sách cho tôi.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "拿.svg",
+      "src": "images/HSK_2.0/level3/拿.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/拿.svg"
+      ]
+    },
+    "奶奶": {
+      "hanzi": "奶奶",
+      "pinyin": "nǎinai",
+      "meaning": "bà nội",
+      "example_zh": "我<u>奶奶</u>身体很健康。",
+      "example_vi": "<u>Bà nội</u> tôi sức khỏe rất tốt.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "奶奶.svg",
+      "src": "images/HSK_2.0/level3/奶奶.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/奶奶.svg"
       ]
     },
     "南": {
