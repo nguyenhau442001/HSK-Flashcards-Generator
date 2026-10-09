@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T19:57:26.670396",
-  "total_unique_words_with_illustrations": 2045,
-  "total_flat_svg_files": 2045,
+  "generated_at": "2026-10-09T19:59:41.908888",
+  "total_unique_words_with_illustrations": 2055,
+  "total_flat_svg_files": 2055,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -16,8 +16,8 @@
       },
       "level3": {
         "total": 300,
-        "with_svg": 252,
-        "pct": "84.0%"
+        "with_svg": 262,
+        "pct": "87.3%"
       },
       "level4": {
         "total": 600,
@@ -43,18 +43,18 @@
       },
       "level2": {
         "total": 200,
-        "with_svg": 98,
-        "pct": "49.0%"
+        "with_svg": 99,
+        "pct": "49.5%"
       },
       "level3": {
         "total": 500,
-        "with_svg": 259,
-        "pct": "51.8%"
+        "with_svg": 267,
+        "pct": "53.4%"
       },
       "level4": {
         "total": 1000,
-        "with_svg": 575,
-        "pct": "57.5%"
+        "with_svg": 576,
+        "pct": "57.6%"
       },
       "level5": {
         "total": 1600,
@@ -7527,6 +7527,186 @@
       "src": "images/HSK_2.0/level3/角.svg",
       "alt_srcs": [
         "images/HSK_3.0/level3/角.svg"
+      ]
+    },
+    "脚": {
+      "hanzi": "脚",
+      "pinyin": "jiǎo",
+      "meaning": "chân",
+      "example_zh": "我的<u>脚</u>很疼。",
+      "example_vi": "<u>Chân</u> tôi rất đau.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "脚.svg",
+      "src": "images/HSK_2.0/level3/脚.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/脚.svg"
+      ]
+    },
+    "接": {
+      "hanzi": "接",
+      "pinyin": "jiē",
+      "meaning": "đón, nhận",
+      "example_zh": "我去机场<u>接</u>朋友。",
+      "example_vi": "Tôi đến sân bay <u>đón</u> bạn.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "接.svg",
+      "src": "images/HSK_2.0/level3/接.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/接.svg"
+      ]
+    },
+    "街道": {
+      "hanzi": "街道",
+      "pinyin": "jiēdào",
+      "meaning": "đường phố",
+      "example_zh": "这条<u>街道</u>很热闹。",
+      "example_vi": "Con <u>phố</u> này rất náo nhiệt.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "街道.svg",
+      "src": "images/HSK_2.0/level3/街道.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/街道.svg"
+      ]
+    },
+    "结婚": {
+      "hanzi": "结婚",
+      "pinyin": "jiéhūn",
+      "meaning": "kết hôn",
+      "example_zh": "他们去年<u>结婚</u>了。",
+      "example_vi": "Họ đã <u>kết hôn</u> năm ngoái.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "结婚.svg",
+      "src": "images/HSK_2.0/level3/结婚.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/结婚.svg"
+      ]
+    },
+    "结束": {
+      "hanzi": "结束",
+      "pinyin": "jiéshù",
+      "meaning": "kết thúc",
+      "example_zh": "电影<u>结束</u>了。",
+      "example_vi": "Phim đã <u>kết thúc</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "结束.svg",
+      "src": "images/HSK_2.0/level3/结束.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/结束.svg"
+      ]
+    },
+    "节目": {
+      "hanzi": "节目",
+      "pinyin": "jiémù",
+      "meaning": "tiết mục, chương trình",
+      "example_zh": "今晚有一个好<u>节目</u>。",
+      "example_vi": "Tối nay có một <u>tiết mục</u> hay.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "节目.svg",
+      "src": "images/HSK_2.0/level3/节目.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/节目.svg"
+      ]
+    },
+    "节日": {
+      "hanzi": "节日",
+      "pinyin": "jiérì",
+      "meaning": "ngày lễ",
+      "example_zh": "春节是中国最重要的<u>节日</u>。",
+      "example_vi": "Tết Xuân là <u>ngày lễ</u> quan trọng nhất của Trung Quốc.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "节日.svg",
+      "src": "images/HSK_2.0/level3/节日.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/节日.svg"
+      ]
+    },
+    "解决": {
+      "hanzi": "解决",
+      "pinyin": "jiějué",
+      "meaning": "giải quyết",
+      "example_zh": "我们<u>解决</u>了这个问题。",
+      "example_vi": "Chúng tôi đã <u>giải quyết</u> vấn đề này.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "解决.svg",
+      "src": "images/HSK_2.0/level3/解决.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/解决.svg"
+      ]
+    },
+    "借": {
+      "hanzi": "借",
+      "pinyin": "jiè",
+      "meaning": "cho mượn, mượn",
+      "example_zh": "我想<u>借</u>你的书。",
+      "example_vi": "Tôi muốn <u>mượn</u> sách của bạn.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "借.svg",
+      "src": "images/HSK_2.0/level3/借.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/借.svg"
+      ]
+    },
+    "经常": {
+      "hanzi": "经常",
+      "pinyin": "jīngcháng",
+      "meaning": "thường xuyên",
+      "example_zh": "他<u>经常</u>去图书馆。",
+      "example_vi": "Anh ấy <u>thường xuyên</u> đi thư viện.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "经常.svg",
+      "src": "images/HSK_2.0/level3/经常.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/经常.svg"
       ]
     },
     "南": {

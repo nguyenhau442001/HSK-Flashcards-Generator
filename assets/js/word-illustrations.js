@@ -2392,6 +2392,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level3/角.svg",
     "caption": "góc; hào (tiền)"
   },
+  "脚": {
+    "file": "脚.svg",
+    "src": "images/HSK_2.0/level3/脚.svg",
+    "caption": "chân"
+  },
+  "接": {
+    "file": "接.svg",
+    "src": "images/HSK_2.0/level3/接.svg",
+    "caption": "đón, nhận"
+  },
+  "街道": {
+    "file": "街道.svg",
+    "src": "images/HSK_2.0/level3/街道.svg",
+    "caption": "đường phố"
+  },
+  "结婚": {
+    "file": "结婚.svg",
+    "src": "images/HSK_2.0/level3/结婚.svg",
+    "caption": "kết hôn"
+  },
+  "结束": {
+    "file": "结束.svg",
+    "src": "images/HSK_2.0/level3/结束.svg",
+    "caption": "kết thúc"
+  },
+  "节目": {
+    "file": "节目.svg",
+    "src": "images/HSK_2.0/level3/节目.svg",
+    "caption": "tiết mục, chương trình"
+  },
+  "节日": {
+    "file": "节日.svg",
+    "src": "images/HSK_2.0/level3/节日.svg",
+    "caption": "ngày lễ"
+  },
+  "解决": {
+    "file": "解决.svg",
+    "src": "images/HSK_2.0/level3/解决.svg",
+    "caption": "giải quyết"
+  },
+  "借": {
+    "file": "借.svg",
+    "src": "images/HSK_2.0/level3/借.svg",
+    "caption": "cho mượn, mượn"
+  },
+  "经常": {
+    "file": "经常.svg",
+    "src": "images/HSK_2.0/level3/经常.svg",
+    "caption": "thường xuyên"
+  },
   "南": {
     "file": "南.svg",
     "src": "images/HSK_2.0/level3/南.svg",
