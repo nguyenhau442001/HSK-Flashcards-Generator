@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T19:59:41.908888",
-  "total_unique_words_with_illustrations": 2055,
-  "total_flat_svg_files": 2055,
+  "generated_at": "2026-10-09T20:01:53.858344",
+  "total_unique_words_with_illustrations": 2065,
+  "total_flat_svg_files": 2065,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -16,8 +16,8 @@
       },
       "level3": {
         "total": 300,
-        "with_svg": 262,
-        "pct": "87.3%"
+        "with_svg": 272,
+        "pct": "90.7%"
       },
       "level4": {
         "total": 600,
@@ -48,8 +48,8 @@
       },
       "level3": {
         "total": 500,
-        "with_svg": 267,
-        "pct": "53.4%"
+        "with_svg": 277,
+        "pct": "55.4%"
       },
       "level4": {
         "total": 1000,
@@ -7707,6 +7707,186 @@
       "src": "images/HSK_2.0/level3/经常.svg",
       "alt_srcs": [
         "images/HSK_3.0/level2/经常.svg"
+      ]
+    },
+    "经过": {
+      "hanzi": "经过",
+      "pinyin": "jīngguò",
+      "meaning": "trải qua, đi qua",
+      "example_zh": "我<u>经过</u>学校回家。",
+      "example_vi": "Tôi <u>đi qua</u> trường học về nhà.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "经过.svg",
+      "src": "images/HSK_2.0/level3/经过.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/经过.svg"
+      ]
+    },
+    "经理": {
+      "hanzi": "经理",
+      "pinyin": "jīnglǐ",
+      "meaning": "giám đốc, quản lý",
+      "example_zh": "他是公司的<u>经理</u>。",
+      "example_vi": "Anh ấy là <u>giám đốc</u> của công ty.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "经理.svg",
+      "src": "images/HSK_2.0/level3/经理.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/经理.svg"
+      ]
+    },
+    "久": {
+      "hanzi": "久",
+      "pinyin": "jiǔ",
+      "meaning": "lâu",
+      "example_zh": "他离开很<u>久</u>了。",
+      "example_vi": "Anh ấy đã rời đi rất <u>lâu</u> rồi.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "久.svg",
+      "src": "images/HSK_2.0/level3/久.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/久.svg"
+      ]
+    },
+    "旧": {
+      "hanzi": "旧",
+      "pinyin": "jiù",
+      "meaning": "cũ",
+      "example_zh": "这是一本<u>旧</u>书。",
+      "example_vi": "Đây là một cuốn sách <u>cũ</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "旧.svg",
+      "src": "images/HSK_2.0/level3/旧.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/旧.svg"
+      ]
+    },
+    "句子": {
+      "hanzi": "句子",
+      "pinyin": "jùzi",
+      "meaning": "câu (văn)",
+      "example_zh": "请写一个<u>句子</u>。",
+      "example_vi": "Xin hãy viết một <u>câu</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "句子.svg",
+      "src": "images/HSK_2.0/level3/句子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/句子.svg"
+      ]
+    },
+    "决定": {
+      "hanzi": "决定",
+      "pinyin": "juédìng",
+      "meaning": "quyết định",
+      "example_zh": "我<u>决定</u>去中国留学。",
+      "example_vi": "Tôi <u>quyết định</u> đi du học Trung Quốc.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "决定.svg",
+      "src": "images/HSK_2.0/level3/决定.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/决定.svg"
+      ]
+    },
+    "渴": {
+      "hanzi": "渴",
+      "pinyin": "kě",
+      "meaning": "khát",
+      "example_zh": "我<u>渴</u>了，想喝水。",
+      "example_vi": "Tôi <u>khát</u> rồi, muốn uống nước.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "渴.svg",
+      "src": "images/HSK_2.0/level3/渴.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/渴.svg"
+      ]
+    },
+    "可爱": {
+      "hanzi": "可爱",
+      "pinyin": "kě'ài",
+      "meaning": "đáng yêu",
+      "example_zh": "这只小猫很<u>可爱</u>。",
+      "example_vi": "Con mèo nhỏ này rất <u>đáng yêu</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "可爱.svg",
+      "src": "images/HSK_2.0/level3/可爱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/可爱.svg"
+      ]
+    },
+    "刻": {
+      "hanzi": "刻",
+      "pinyin": "kè",
+      "meaning": "khắc (15 phút)",
+      "example_zh": "现在是九点一<u>刻</u>。",
+      "example_vi": "Bây giờ là chín giờ <u>mười lăm</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "刻.svg",
+      "src": "images/HSK_2.0/level3/刻.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/刻.svg"
+      ]
+    },
+    "客人": {
+      "hanzi": "客人",
+      "pinyin": "kèrén",
+      "meaning": "khách",
+      "example_zh": "今天家里有<u>客人</u>。",
+      "example_vi": "Hôm nay nhà có <u>khách</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "客人.svg",
+      "src": "images/HSK_2.0/level3/客人.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/客人.svg"
       ]
     },
     "南": {

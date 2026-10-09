@@ -2442,6 +2442,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level3/经常.svg",
     "caption": "thường xuyên"
   },
+  "经过": {
+    "file": "经过.svg",
+    "src": "images/HSK_2.0/level3/经过.svg",
+    "caption": "trải qua, đi qua"
+  },
+  "经理": {
+    "file": "经理.svg",
+    "src": "images/HSK_2.0/level3/经理.svg",
+    "caption": "giám đốc, quản lý"
+  },
+  "久": {
+    "file": "久.svg",
+    "src": "images/HSK_2.0/level3/久.svg",
+    "caption": "lâu"
+  },
+  "旧": {
+    "file": "旧.svg",
+    "src": "images/HSK_2.0/level3/旧.svg",
+    "caption": "cũ"
+  },
+  "句子": {
+    "file": "句子.svg",
+    "src": "images/HSK_2.0/level3/句子.svg",
+    "caption": "câu (văn)"
+  },
+  "决定": {
+    "file": "决定.svg",
+    "src": "images/HSK_2.0/level3/决定.svg",
+    "caption": "quyết định"
+  },
+  "渴": {
+    "file": "渴.svg",
+    "src": "images/HSK_2.0/level3/渴.svg",
+    "caption": "khát"
+  },
+  "可爱": {
+    "file": "可爱.svg",
+    "src": "images/HSK_2.0/level3/可爱.svg",
+    "caption": "đáng yêu"
+  },
+  "刻": {
+    "file": "刻.svg",
+    "src": "images/HSK_2.0/level3/刻.svg",
+    "caption": "khắc (15 phút)"
+  },
+  "客人": {
+    "file": "客人.svg",
+    "src": "images/HSK_2.0/level3/客人.svg",
+    "caption": "khách"
+  },
   "南": {
     "file": "南.svg",
     "src": "images/HSK_2.0/level3/南.svg",
