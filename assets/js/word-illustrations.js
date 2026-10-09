@@ -11397,6 +11397,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/情景.svg",
     "caption": "cảnh tượng, tình cảnh"
   },
+  "情绪": {
+    "file": "情绪.svg",
+    "src": "images/HSK_2.0/level5/情绪.svg",
+    "caption": "tâm trạng, cảm xúc"
+  },
+  "庆祝": {
+    "file": "庆祝.svg",
+    "src": "images/HSK_2.0/level5/庆祝.svg",
+    "caption": "chúc mừng, ăn mừng"
+  },
+  "娶": {
+    "file": "娶.svg",
+    "src": "images/HSK_2.0/level5/娶.svg",
+    "caption": "lấy vợ, cưới"
+  },
+  "取消": {
+    "file": "取消.svg",
+    "src": "images/HSK_2.0/level5/取消.svg",
+    "caption": "hủy bỏ"
+  },
+  "圈": {
+    "file": "圈.svg",
+    "src": "images/HSK_2.0/level5/圈.svg",
+    "caption": "vòng, khoanh tròn"
+  },
+  "全面": {
+    "file": "全面.svg",
+    "src": "images/HSK_2.0/level5/全面.svg",
+    "caption": "toàn diện"
+  },
+  "权利": {
+    "file": "权利.svg",
+    "src": "images/HSK_2.0/level5/权利.svg",
+    "caption": "quyền lợi"
+  },
+  "确定": {
+    "file": "确定.svg",
+    "src": "images/HSK_2.0/level5/确定.svg",
+    "caption": "xác định"
+  },
+  "热烈": {
+    "file": "热烈.svg",
+    "src": "images/HSK_2.0/level5/热烈.svg",
+    "caption": "nhiệt liệt, sôi nổi"
+  },
+  "人口": {
+    "file": "人口.svg",
+    "src": "images/HSK_2.0/level5/人口.svg",
+    "caption": "dân số"
+  },
   "挑战": {
     "file": "挑战.svg",
     "src": "images/HSK_2.0/level5/挑战.svg",

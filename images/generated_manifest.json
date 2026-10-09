@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:36:51.230577",
-  "total_unique_words_with_illustrations": 2223,
-  "total_flat_svg_files": 2223,
+  "generated_at": "2026-10-09T20:39:05.070076",
+  "total_unique_words_with_illustrations": 2233,
+  "total_flat_svg_files": 2233,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1024,
-        "pct": "78.8%"
+        "with_svg": 1034,
+        "pct": "79.5%"
       },
       "level6": {
         "total": 2500,
@@ -53,33 +53,33 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 586,
-        "pct": "58.6%"
+        "with_svg": 588,
+        "pct": "58.8%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 688,
-        "pct": "43.0%"
+        "with_svg": 694,
+        "pct": "43.4%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 197,
-        "pct": "10.9%"
+        "with_svg": 199,
+        "pct": "11.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 80,
-        "pct": "1.4%"
+        "with_svg": 82,
+        "pct": "1.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 80,
-        "pct": "1.4%"
+        "with_svg": 82,
+        "pct": "1.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 80,
-        "pct": "1.4%"
+        "with_svg": 82,
+        "pct": "1.5%"
       }
     }
   },
@@ -40978,6 +40978,192 @@
       "src": "images/HSK_2.0/level5/情景.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/情景.svg"
+      ]
+    },
+    "情绪": {
+      "hanzi": "情绪",
+      "pinyin": "qíngxù",
+      "meaning": "tâm trạng, cảm xúc",
+      "example_zh": "他的<u>情绪</u>不太好。",
+      "example_vi": "<u>Tâm trạng</u> của anh ấy không tốt lắm.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "情绪.svg",
+      "src": "images/HSK_2.0/level5/情绪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/情绪.svg"
+      ]
+    },
+    "庆祝": {
+      "hanzi": "庆祝",
+      "pinyin": "qìngzhù",
+      "meaning": "chúc mừng, ăn mừng",
+      "example_zh": "我们要<u>庆祝</u>这个节日。",
+      "example_vi": "Chúng ta phải <u>chúc mừng</u> ngày lễ này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "庆祝.svg",
+      "src": "images/HSK_2.0/level5/庆祝.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/庆祝.svg"
+      ]
+    },
+    "娶": {
+      "hanzi": "娶",
+      "pinyin": "qǔ",
+      "meaning": "lấy vợ, cưới",
+      "example_zh": "他<u>娶</u>了一个好妻子。",
+      "example_vi": "Anh ấy đã <u>cưới</u> được một người vợ tốt.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "娶.svg",
+      "src": "images/HSK_2.0/level5/娶.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/娶.svg"
+      ]
+    },
+    "取消": {
+      "hanzi": "取消",
+      "pinyin": "qǔxiāo",
+      "meaning": "hủy bỏ",
+      "example_zh": "他<u>取消</u>了这个计划。",
+      "example_vi": "Anh ấy đã <u>hủy bỏ</u> kế hoạch này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "取消.svg",
+      "src": "images/HSK_2.0/level5/取消.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/取消.svg"
+      ]
+    },
+    "圈": {
+      "hanzi": "圈",
+      "pinyin": "quān",
+      "meaning": "vòng, khoanh tròn",
+      "example_zh": "请画一个<u>圈</u>。",
+      "example_vi": "Xin hãy vẽ một <u>vòng</u> tròn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6",
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "圈.svg",
+      "src": "images/HSK_2.0/level5/圈.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/圈.svg",
+        "images/HSK_3.0/level7/圈.svg",
+        "images/HSK_3.0/level8/圈.svg",
+        "images/HSK_3.0/level9/圈.svg"
+      ]
+    },
+    "全面": {
+      "hanzi": "全面",
+      "pinyin": "quánmiàn",
+      "meaning": "toàn diện",
+      "example_zh": "请<u>全面</u>考虑这个问题。",
+      "example_vi": "Xin hãy xem xét <u>toàn diện</u> vấn đề này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "全面.svg",
+      "src": "images/HSK_2.0/level5/全面.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/全面.svg"
+      ]
+    },
+    "权利": {
+      "hanzi": "权利",
+      "pinyin": "quánlì",
+      "meaning": "quyền lợi",
+      "example_zh": "每个人都有自己的<u>权利</u>。",
+      "example_vi": "Mỗi người đều có <u>quyền lợi</u> của riêng mình.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "权利.svg",
+      "src": "images/HSK_2.0/level5/权利.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/权利.svg"
+      ]
+    },
+    "确定": {
+      "hanzi": "确定",
+      "pinyin": "quèdìng",
+      "meaning": "xác định",
+      "example_zh": "请<u>确定</u>一下时间。",
+      "example_vi": "Xin hãy <u>xác định</u> thời gian.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "确定.svg",
+      "src": "images/HSK_2.0/level5/确定.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/确定.svg"
+      ]
+    },
+    "热烈": {
+      "hanzi": "热烈",
+      "pinyin": "rèliè",
+      "meaning": "nhiệt liệt, sôi nổi",
+      "example_zh": "大家<u>热烈</u>讨论这个话题。",
+      "example_vi": "Mọi người thảo luận <u>sôi nổi</u> về chủ đề này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "热烈.svg",
+      "src": "images/HSK_2.0/level5/热烈.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/热烈.svg"
+      ]
+    },
+    "人口": {
+      "hanzi": "人口",
+      "pinyin": "rénkǒu",
+      "meaning": "dân số",
+      "example_zh": "这个城市的<u>人口</u>很多。",
+      "example_vi": "<u>Dân số</u> của thành phố này rất nhiều.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "人口.svg",
+      "src": "images/HSK_2.0/level5/人口.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/人口.svg"
       ]
     },
     "挑战": {
