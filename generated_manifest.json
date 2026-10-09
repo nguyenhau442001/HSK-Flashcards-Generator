@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:39:05.070076",
-  "total_unique_words_with_illustrations": 2233,
-  "total_flat_svg_files": 2233,
+  "generated_at": "2026-10-09T20:41:07.131281",
+  "total_unique_words_with_illustrations": 2243,
+  "total_flat_svg_files": 2243,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1034,
-        "pct": "79.5%"
+        "with_svg": 1044,
+        "pct": "80.3%"
       },
       "level6": {
         "total": 2500,
@@ -53,17 +53,17 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 588,
-        "pct": "58.8%"
+        "with_svg": 592,
+        "pct": "59.2%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 694,
-        "pct": "43.4%"
+        "with_svg": 699,
+        "pct": "43.7%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 199,
+        "with_svg": 200,
         "pct": "11.1%"
       },
       "level7": {
@@ -41164,6 +41164,186 @@
       "src": "images/HSK_2.0/level5/人口.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/人口.svg"
+      ]
+    },
+    "人民币": {
+      "hanzi": "人民币",
+      "pinyin": "rénmínbì",
+      "meaning": "đồng nhân dân tệ",
+      "example_zh": "请用<u>人民币</u>付款。",
+      "example_vi": "Xin hãy thanh toán bằng <u>nhân dân tệ</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "人民币.svg",
+      "src": "images/HSK_2.0/level5/人民币.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/人民币.svg"
+      ]
+    },
+    "人事": {
+      "hanzi": "人事",
+      "pinyin": "rénshì",
+      "meaning": "nhân sự",
+      "example_zh": "这是<u>人事</u>部门的工作。",
+      "example_vi": "Đây là công việc của bộ phận <u>nhân sự</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "人事.svg",
+      "src": "images/HSK_2.0/level5/人事.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/人事.svg"
+      ]
+    },
+    "人员": {
+      "hanzi": "人员",
+      "pinyin": "rényuán",
+      "meaning": "nhân viên, người làm",
+      "example_zh": "公司需要更多<u>人员</u>。",
+      "example_vi": "Công ty cần nhiều <u>nhân viên</u> hơn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "人员.svg",
+      "src": "images/HSK_2.0/level5/人员.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/人员.svg"
+      ]
+    },
+    "日常": {
+      "hanzi": "日常",
+      "pinyin": "rìcháng",
+      "meaning": "thường ngày, hàng ngày",
+      "example_zh": "这是<u>日常</u>的工作。",
+      "example_vi": "Đây là công việc <u>thường ngày</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "日常.svg",
+      "src": "images/HSK_2.0/level5/日常.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/日常.svg"
+      ]
+    },
+    "日期": {
+      "hanzi": "日期",
+      "pinyin": "rìqī",
+      "meaning": "ngày, ngày tháng",
+      "example_zh": "请告诉我考试的<u>日期</u>。",
+      "example_vi": "Xin hãy cho tôi biết <u>ngày</u> thi.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "日期.svg",
+      "src": "images/HSK_2.0/level5/日期.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/日期.svg"
+      ]
+    },
+    "日子": {
+      "hanzi": "日子",
+      "pinyin": "rìzi",
+      "meaning": "ngày tháng, cuộc sống",
+      "example_zh": "他每天的<u>日子</u>都很忙。",
+      "example_vi": "<u>Ngày tháng</u> của anh ấy đều rất bận rộn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "日子.svg",
+      "src": "images/HSK_2.0/level5/日子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/日子.svg"
+      ]
+    },
+    "如今": {
+      "hanzi": "如今",
+      "pinyin": "rújīn",
+      "meaning": "hiện nay, ngày nay",
+      "example_zh": "<u>如今</u>生活变化很大。",
+      "example_vi": "<u>Ngày nay</u> cuộc sống thay đổi rất nhiều.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "如今.svg",
+      "src": "images/HSK_2.0/level5/如今.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/如今.svg"
+      ]
+    },
+    "软": {
+      "hanzi": "软",
+      "pinyin": "ruǎn",
+      "meaning": "mềm",
+      "example_zh": "这个枕头很<u>软</u>。",
+      "example_vi": "Cái gối này rất <u>mềm</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "软.svg",
+      "src": "images/HSK_2.0/level5/软.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/软.svg"
+      ]
+    },
+    "弱": {
+      "hanzi": "弱",
+      "pinyin": "ruò",
+      "meaning": "yếu",
+      "example_zh": "他的身体比较<u>弱</u>。",
+      "example_vi": "Cơ thể của anh ấy tương đối <u>yếu</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "弱.svg",
+      "src": "images/HSK_2.0/level5/弱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/弱.svg"
+      ]
+    },
+    "色彩": {
+      "hanzi": "色彩",
+      "pinyin": "sècǎi",
+      "meaning": "màu sắc, sắc thái",
+      "example_zh": "这幅画的<u>色彩</u>很丰富。",
+      "example_vi": "<u>Màu sắc</u> của bức tranh này rất phong phú.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "色彩.svg",
+      "src": "images/HSK_2.0/level5/色彩.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/色彩.svg"
       ]
     },
     "挑战": {

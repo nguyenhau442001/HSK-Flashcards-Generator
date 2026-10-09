@@ -11447,6 +11447,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/人口.svg",
     "caption": "dân số"
   },
+  "人民币": {
+    "file": "人民币.svg",
+    "src": "images/HSK_2.0/level5/人民币.svg",
+    "caption": "đồng nhân dân tệ"
+  },
+  "人事": {
+    "file": "人事.svg",
+    "src": "images/HSK_2.0/level5/人事.svg",
+    "caption": "nhân sự"
+  },
+  "人员": {
+    "file": "人员.svg",
+    "src": "images/HSK_2.0/level5/人员.svg",
+    "caption": "nhân viên, người làm"
+  },
+  "日常": {
+    "file": "日常.svg",
+    "src": "images/HSK_2.0/level5/日常.svg",
+    "caption": "thường ngày, hàng ngày"
+  },
+  "日期": {
+    "file": "日期.svg",
+    "src": "images/HSK_2.0/level5/日期.svg",
+    "caption": "ngày, ngày tháng"
+  },
+  "日子": {
+    "file": "日子.svg",
+    "src": "images/HSK_2.0/level5/日子.svg",
+    "caption": "ngày tháng, cuộc sống"
+  },
+  "如今": {
+    "file": "如今.svg",
+    "src": "images/HSK_2.0/level5/如今.svg",
+    "caption": "hiện nay, ngày nay"
+  },
+  "软": {
+    "file": "软.svg",
+    "src": "images/HSK_2.0/level5/软.svg",
+    "caption": "mềm"
+  },
+  "弱": {
+    "file": "弱.svg",
+    "src": "images/HSK_2.0/level5/弱.svg",
+    "caption": "yếu"
+  },
+  "色彩": {
+    "file": "色彩.svg",
+    "src": "images/HSK_2.0/level5/色彩.svg",
+    "caption": "màu sắc, sắc thái"
+  },
   "挑战": {
     "file": "挑战.svg",
     "src": "images/HSK_2.0/level5/挑战.svg",
