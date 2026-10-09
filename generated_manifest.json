@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:04:40.197154",
-  "total_unique_words_with_illustrations": 2075,
-  "total_flat_svg_files": 2075,
+  "generated_at": "2026-10-09T20:07:43.134226",
+  "total_unique_words_with_illustrations": 2085,
+  "total_flat_svg_files": 2085,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -16,8 +16,8 @@
       },
       "level3": {
         "total": 300,
-        "with_svg": 282,
-        "pct": "94.0%"
+        "with_svg": 292,
+        "pct": "97.3%"
       },
       "level4": {
         "total": 600,
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 435,
+        "with_svg": 436,
         "pct": "17.4%"
       }
     },
@@ -43,13 +43,13 @@
       },
       "level2": {
         "total": 200,
-        "with_svg": 100,
-        "pct": "50.0%"
+        "with_svg": 101,
+        "pct": "50.5%"
       },
       "level3": {
         "total": 500,
-        "with_svg": 285,
-        "pct": "57.0%"
+        "with_svg": 292,
+        "pct": "58.4%"
       },
       "level4": {
         "total": 1000,
@@ -8067,6 +8067,181 @@
       "src": "images/HSK_2.0/level3/历史.svg",
       "alt_srcs": [
         "images/HSK_3.0/level3/历史.svg"
+      ]
+    },
+    "脸": {
+      "hanzi": "脸",
+      "pinyin": "liǎn",
+      "meaning": "khuôn mặt",
+      "example_zh": "她的<u>脸</u>很漂亮。",
+      "example_vi": "<u>Khuôn mặt</u> của cô ấy rất đẹp.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "脸.svg",
+      "src": "images/HSK_2.0/level3/脸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/脸.svg"
+      ]
+    },
+    "聊天": {
+      "hanzi": "聊天",
+      "pinyin": "liáotiān",
+      "meaning": "nói chuyện, chat",
+      "example_zh": "我们经常<u>聊天</u>。",
+      "example_vi": "Chúng tôi thường xuyên <u>nói chuyện</u>.",
+      "levels_hsk2": [
+        "level3",
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "聊天.svg",
+      "src": "images/HSK_2.0/level3/聊天.svg",
+      "alt_srcs": [
+        "images/HSK_2.0/level6/聊天.svg"
+      ]
+    },
+    "练习": {
+      "hanzi": "练习",
+      "pinyin": "liànxí",
+      "meaning": "luyện tập, bài tập",
+      "example_zh": "请做这个<u>练习</u>。",
+      "example_vi": "Xin hãy làm <u>bài tập</u> này.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "练习.svg",
+      "src": "images/HSK_2.0/level3/练习.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/练习.svg"
+      ]
+    },
+    "辆": {
+      "hanzi": "辆",
+      "pinyin": "liàng",
+      "meaning": "chiếc (lượng từ xe)",
+      "example_zh": "我家有两<u>辆</u>车。",
+      "example_vi": "Nhà tôi có hai <u>chiếc</u> xe.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "辆.svg",
+      "src": "images/HSK_2.0/level3/辆.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/辆.svg"
+      ]
+    },
+    "了解": {
+      "hanzi": "了解",
+      "pinyin": "liǎojiě",
+      "meaning": "hiểu rõ, tìm hiểu",
+      "example_zh": "我想<u>了解</u>这个国家。",
+      "example_vi": "Tôi muốn <u>tìm hiểu</u> về quốc gia này.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "了解.svg",
+      "src": "images/HSK_2.0/level3/了解.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/了解.svg"
+      ]
+    },
+    "邻居": {
+      "hanzi": "邻居",
+      "pinyin": "línjū",
+      "meaning": "hàng xóm",
+      "example_zh": "我的<u>邻居</u>很友好。",
+      "example_vi": "<u>Hàng xóm</u> của tôi rất thân thiện.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "邻居.svg",
+      "src": "images/HSK_2.0/level3/邻居.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/邻居.svg"
+      ]
+    },
+    "留学": {
+      "hanzi": "留学",
+      "pinyin": "liúxué",
+      "meaning": "du học",
+      "example_zh": "她去美国<u>留学</u>了。",
+      "example_vi": "Cô ấy đã đi <u>du học</u> Mỹ.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "留学.svg",
+      "src": "images/HSK_2.0/level3/留学.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/留学.svg"
+      ]
+    },
+    "楼": {
+      "hanzi": "楼",
+      "pinyin": "lóu",
+      "meaning": "tầng, tòa nhà",
+      "example_zh": "我住在五<u>楼</u>。",
+      "example_vi": "Tôi sống ở <u>tầng</u> năm.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "楼.svg",
+      "src": "images/HSK_2.0/level3/楼.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/楼.svg"
+      ]
+    },
+    "绿": {
+      "hanzi": "绿",
+      "pinyin": "lǜ",
+      "meaning": "màu xanh lá",
+      "example_zh": "这片叶子是<u>绿</u>色的。",
+      "example_vi": "Lá cây này có <u>màu xanh lá</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [],
+      "file": "绿.svg",
+      "src": "images/HSK_2.0/level3/绿.svg",
+      "alt_srcs": []
+    },
+    "马": {
+      "hanzi": "马",
+      "pinyin": "mǎ",
+      "meaning": "con ngựa",
+      "example_zh": "他骑<u>马</u>去了。",
+      "example_vi": "Anh ấy đã đi bằng <u>ngựa</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "马.svg",
+      "src": "images/HSK_2.0/level3/马.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/马.svg"
       ]
     },
     "南": {

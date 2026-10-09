@@ -2542,6 +2542,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level3/历史.svg",
     "caption": "lịch sử"
   },
+  "脸": {
+    "file": "脸.svg",
+    "src": "images/HSK_2.0/level3/脸.svg",
+    "caption": "khuôn mặt"
+  },
+  "聊天": {
+    "file": "聊天.svg",
+    "src": "images/HSK_2.0/level3/聊天.svg",
+    "caption": "nói chuyện, chat"
+  },
+  "练习": {
+    "file": "练习.svg",
+    "src": "images/HSK_2.0/level3/练习.svg",
+    "caption": "luyện tập, bài tập"
+  },
+  "辆": {
+    "file": "辆.svg",
+    "src": "images/HSK_2.0/level3/辆.svg",
+    "caption": "chiếc (lượng từ xe)"
+  },
+  "了解": {
+    "file": "了解.svg",
+    "src": "images/HSK_2.0/level3/了解.svg",
+    "caption": "hiểu rõ, tìm hiểu"
+  },
+  "邻居": {
+    "file": "邻居.svg",
+    "src": "images/HSK_2.0/level3/邻居.svg",
+    "caption": "hàng xóm"
+  },
+  "留学": {
+    "file": "留学.svg",
+    "src": "images/HSK_2.0/level3/留学.svg",
+    "caption": "du học"
+  },
+  "楼": {
+    "file": "楼.svg",
+    "src": "images/HSK_2.0/level3/楼.svg",
+    "caption": "tầng, tòa nhà"
+  },
+  "绿": {
+    "file": "绿.svg",
+    "src": "images/HSK_2.0/level3/绿.svg",
+    "caption": "màu xanh lá"
+  },
+  "马": {
+    "file": "马.svg",
+    "src": "images/HSK_2.0/level3/马.svg",
+    "caption": "con ngựa"
+  },
   "南": {
     "file": "南.svg",
     "src": "images/HSK_2.0/level3/南.svg",
