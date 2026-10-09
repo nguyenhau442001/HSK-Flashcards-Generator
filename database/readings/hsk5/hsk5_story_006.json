@@ -20,13 +20,20 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "全"
+          "text": "全球",
+          "pinyin": "quánqiú",
+          "hanviet": "Toàn Cầu",
+          "meaning_vi": "toàn cầu",
+          "hsk": 4,
+          "word_id": "hsk4_601"
         },
         {
-          "text": "球"
-        },
-        {
-          "text": "化"
+          "text": "化",
+          "pinyin": "huà",
+          "hanviet": "Hoa",
+          "meaning_vi": "hóa (-ize); tan chảy, biến đổi",
+          "hsk": 5,
+          "word_id": "hsk5_497"
         },
         {
           "text": "使",
@@ -53,7 +60,12 @@
           "word_id": "hsk4_140"
         },
         {
-          "text": "国"
+          "text": "国",
+          "pinyin": "guó",
+          "hanviet": "Quốc",
+          "meaning_vi": "đất nước",
+          "hsk": 1,
+          "word_id": "hsk1_518"
         },
         {
           "text": "的",
@@ -72,20 +84,12 @@
           "word_id": "hsk4_244"
         },
         {
-          "text": "大",
-          "pinyin": "dà",
-          "hanviet": "Đại",
-          "meaning_vi": "to, lớn",
-          "hsk": 1,
-          "word_id": "hsk1_14"
-        },
-        {
-          "text": "大",
-          "pinyin": "dà",
-          "hanviet": "Đại",
-          "meaning_vi": "to, lớn",
-          "hsk": 1,
-          "word_id": "hsk1_14"
+          "text": "大大",
+          "pinyin": "dàdà",
+          "hanviet": "Đại Đại",
+          "meaning_vi": "rất nhiều, đáng kể",
+          "hsk": 4,
+          "word_id": "hsk4_124"
         },
         {
           "text": "缩短",
@@ -123,7 +127,12 @@
           "word_id": "hsk4_212"
         },
         {
-          "text": "变"
+          "text": "变",
+          "pinyin": "biàn",
+          "hanviet": "Biến",
+          "meaning_vi": "thay đổi, biến thành",
+          "hsk": 3,
+          "word_id": "hsk3_626"
         },
         {
           "text": "得",
@@ -179,15 +188,12 @@
           "word_id": "hsk5_314"
         },
         {
-          "text": "不",
-          "pinyin": "bù",
-          "hanviet": "Bất",
-          "meaning_vi": "không",
-          "hsk": 1,
-          "word_id": "hsk1_8"
-        },
-        {
-          "text": "同"
+          "text": "不同",
+          "pinyin": "bù tóng",
+          "hanviet": "Bất Đồng",
+          "meaning_vi": "khác nhau, không giống",
+          "hsk": 3,
+          "word_id": "hsk3_640"
         },
         {
           "text": "的",
@@ -241,10 +247,12 @@
           "text": "，"
         },
         {
-          "text": "相"
-        },
-        {
-          "text": "互"
+          "text": "相互",
+          "pinyin": "xiānghù",
+          "hanviet": "Tương Hỗ",
+          "meaning_vi": "lẫn nhau",
+          "hsk": 4,
+          "word_id": "hsk4_805"
         },
         {
           "text": "尊重",
@@ -396,20 +404,12 @@
           "word_id": "hsk6_1050"
         },
         {
-          "text": "他",
-          "pinyin": "tā",
-          "hanviet": "Tha",
-          "meaning_vi": "anh ấy, nó",
-          "hsk": 1,
-          "word_id": "hsk1_104"
-        },
-        {
-          "text": "人",
-          "pinyin": "rén",
-          "hanviet": "Nhân",
-          "meaning_vi": "người",
-          "hsk": 1,
-          "word_id": "hsk1_85"
+          "text": "他人",
+          "pinyin": "tārén",
+          "hanviet": "Tha Nhân",
+          "meaning_vi": "những người khác (đại từ)",
+          "hsk": 5,
+          "word_id": "hsk5_1100"
         },
         {
           "text": "的",
@@ -500,15 +500,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "学"
-        },
-        {
-          "text": "会",
-          "pinyin": "huì",
-          "hanviet": "Hội",
-          "meaning_vi": "biết, sẽ",
-          "hsk": 1,
-          "word_id": "hsk1_43"
+          "text": "学会",
+          "pinyin": "xuéhuì",
+          "hanviet": "Học Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 6,
+          "word_id": "hsk6_1489"
         },
         {
           "text": "倾听",
@@ -586,20 +583,12 @@
           "word_id": "hsk3_65"
         },
         {
-          "text": "多",
-          "pinyin": "duō",
-          "hanviet": "Đa",
-          "meaning_vi": "nhiều",
-          "hsk": 1,
-          "word_id": "hsk1_24"
-        },
-        {
-          "text": "元",
-          "pinyin": "yuán",
-          "hanviet": "Nguyên",
-          "meaning_vi": "đồng (tiền)",
-          "hsk": 3,
-          "word_id": "hsk3_272"
+          "text": "多元",
+          "pinyin": "duōyuán",
+          "hanviet": "Đa Nguyên",
+          "meaning_vi": "đa dạng, đa nguyên",
+          "hsk": 6,
+          "word_id": "hsk6_340"
         },
         {
           "text": "文化",
@@ -610,15 +599,12 @@
           "word_id": "hsk3_232"
         },
         {
-          "text": "背",
-          "pinyin": "bèi",
-          "hanviet": "Bối",
-          "meaning_vi": "lưng, cõng",
+          "text": "背后",
+          "pinyin": "bèihòu",
+          "hanviet": "Bối Hậu",
+          "meaning_vi": "phía sau, sau lưng",
           "hsk": 5,
-          "word_id": "hsk5_657"
-        },
-        {
-          "text": "后"
+          "word_id": "hsk5_37"
         },
         {
           "text": "共同",
@@ -645,15 +631,12 @@
           "word_id": "hsk6_1772"
         },
         {
-          "text": "美"
-        },
-        {
-          "text": "好",
-          "pinyin": "hǎo",
-          "hanviet": "Hảo",
-          "meaning_vi": "tốt, được",
-          "hsk": 1,
-          "word_id": "hsk1_36"
+          "text": "美好",
+          "pinyin": "měihǎo",
+          "hanviet": "Mỹ Hảo",
+          "meaning_vi": "tốt đẹp",
+          "hsk": 4,
+          "word_id": "hsk4_501"
         },
         {
           "text": "。"
@@ -704,37 +687,36 @@
           "text": "，"
         },
         {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
+          "text": "能够",
+          "pinyin": "nénggòu",
+          "hanviet": "Năng Cú",
           "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
-        },
-        {
-          "text": "够",
-          "pinyin": "gòu",
-          "hanviet": "Cú",
-          "meaning_vi": "đủ",
           "hsk": 4,
-          "word_id": "hsk4_145"
+          "word_id": "hsk4_532"
         },
         {
-          "text": "架"
+          "text": "架",
+          "pinyin": "jià",
+          "hanviet": "Giá",
+          "meaning_vi": "chiếc, cỗ (máy bay, đàn); giá, kệ",
+          "hsk": 5,
+          "word_id": "hsk5_560"
         },
         {
-          "text": "起"
+          "text": "起",
+          "pinyin": "qǐ",
+          "hanviet": "Khởi",
+          "meaning_vi": "dậy, đứng lên; vụ (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_883"
         },
         {
-          "text": "不",
-          "pinyin": "bù",
-          "hanviet": "Bất",
-          "meaning_vi": "không",
-          "hsk": 1,
-          "word_id": "hsk1_8"
-        },
-        {
-          "text": "同"
+          "text": "不同",
+          "pinyin": "bù tóng",
+          "hanviet": "Bất Đồng",
+          "meaning_vi": "khác nhau, không giống",
+          "hsk": 3,
+          "word_id": "hsk3_640"
         },
         {
           "text": "文明",
@@ -745,15 +727,12 @@
           "word_id": "hsk5_1138"
         },
         {
-          "text": "之",
-          "pinyin": "zhī",
-          "hanviet": "Chi",
-          "meaning_vi": "của (trợ từ văn viết)",
+          "text": "之间",
+          "pinyin": "zhījiān",
+          "hanviet": "Chi Gian",
+          "meaning_vi": "giữa",
           "hsk": 4,
-          "word_id": "hsk4_563"
-        },
-        {
-          "text": "间"
+          "word_id": "hsk4_942"
         },
         {
           "text": "友谊",
@@ -788,10 +767,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "坚"
-        },
-        {
-          "text": "固"
+          "text": "坚固",
+          "pinyin": "jiāngù",
+          "hanviet": "Kiên Cố",
+          "meaning_vi": "rắn",
+          "hsk": 6,
+          "word_id": "hsk6_645"
         },
         {
           "text": "桥梁",
@@ -813,7 +794,6 @@
     "hsk4_140",
     "hsk1_15",
     "hsk4_244",
-    "hsk1_14",
     "hsk5_1094",
     "hsk6_1326",
     "hsk3_232",
@@ -822,7 +802,8 @@
     "hsk7_3229",
     "hsk3_46",
     "hsk6_1609",
-    "hsk5_314"
+    "hsk5_314",
+    "hsk4_601"
   ],
   "quiz": [
     {

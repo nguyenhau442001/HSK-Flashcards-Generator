@@ -20,10 +20,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "全"
-        },
-        {
-          "text": "球"
+          "text": "全球",
+          "pinyin": "quánqiú",
+          "hanviet": "Toàn Cầu",
+          "meaning_vi": "toàn cầu",
+          "hsk": 4,
+          "word_id": "hsk4_601"
         },
         {
           "text": "供应链",
@@ -74,7 +76,12 @@
           "word_id": "hsk1_74"
         },
         {
-          "text": "间"
+          "text": "间",
+          "pinyin": "jiān",
+          "hanviet": "Gian",
+          "meaning_vi": "gian, phòng (lượng từ); giữa",
+          "hsk": 2,
+          "word_id": "hsk2_366"
         },
         {
           "text": "追求",
@@ -128,15 +135,12 @@
           "text": "，"
         },
         {
-          "text": "高",
-          "pinyin": "gāo",
-          "hanviet": "Cao",
-          "meaning_vi": "cao",
-          "hsk": 2,
-          "word_id": "hsk2_29"
-        },
-        {
-          "text": "度"
+          "text": "高度",
+          "pinyin": "gāodù",
+          "hanviet": "Cao Độ",
+          "meaning_vi": "độ cao; cao độ, rất",
+          "hsk": 5,
+          "word_id": "hsk5_388"
         },
         {
           "text": "依赖",
@@ -155,15 +159,12 @@
           "word_id": "hsk7_2424"
         },
         {
-          "text": "分",
-          "pinyin": "fēn",
-          "hanviet": "Phân",
-          "meaning_vi": "phút; điểm; phân (đơn vị tiền)",
-          "hsk": 3,
-          "word_id": "hsk3_69"
-        },
-        {
-          "text": "工"
+          "text": "分工",
+          "pinyin": "fēngōng",
+          "hanviet": "Phân Công",
+          "meaning_vi": "phân công công việc",
+          "hsk": 6,
+          "word_id": "hsk6_384"
         },
         {
           "text": "与",
@@ -249,27 +250,28 @@
           "text": "、"
         },
         {
-          "text": "突"
+          "text": "突发",
+          "pinyin": "tūfā",
+          "hanviet": "Đột Phát",
+          "meaning_vi": "bùng phát đột ngột, bất ngờ xảy ra",
+          "hsk": 6,
+          "word_id": "hsk6_1326"
         },
         {
-          "text": "发",
-          "pinyin": "fā",
-          "hanviet": "Phát",
-          "meaning_vi": "phát ra, gửi",
-          "hsk": 3,
-          "word_id": "hsk3_63"
+          "text": "公共",
+          "pinyin": "gōnggòng",
+          "hanviet": "Công Cộng",
+          "meaning_vi": "công cộng",
+          "hsk": 4,
+          "word_id": "hsk4_252"
         },
         {
-          "text": "公"
-        },
-        {
-          "text": "共"
-        },
-        {
-          "text": "卫"
-        },
-        {
-          "text": "生"
+          "text": "卫生",
+          "pinyin": "wèishēng",
+          "hanviet": "Vệ Sinh",
+          "meaning_vi": "vệ sinh; sạch sẽ",
+          "hsk": 4,
+          "word_id": "hsk4_774"
         },
         {
           "text": "事件",
@@ -320,7 +322,12 @@
           "word_id": "hsk7_905"
         },
         {
-          "text": "加"
+          "text": "加",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "cộng, thêm",
+          "hsk": 3,
+          "word_id": "hsk3_783"
         },
         {
           "text": "冲击",
@@ -350,15 +357,12 @@
           "word_id": "hsk2_11"
         },
         {
-          "text": "单"
-        },
-        {
-          "text": "一",
-          "pinyin": "yī",
-          "hanviet": "Nhất",
-          "meaning_vi": "một",
-          "hsk": 1,
-          "word_id": "hsk1_130"
+          "text": "单一",
+          "pinyin": "dānyī",
+          "hanviet": "Thiện Nhất",
+          "meaning_vi": "đơn nhất, đơn điệu",
+          "hsk": 5,
+          "word_id": "hsk5_241"
         },
         {
           "text": "供应",
@@ -497,7 +501,12 @@
           "word_id": "hsk5_1169"
         },
         {
-          "text": "至"
+          "text": "至",
+          "pinyin": "zhì",
+          "hanviet": "Chí",
+          "meaning_vi": "đến",
+          "hsk": 5,
+          "word_id": "hsk5_1508"
         },
         {
           "text": "上",
@@ -535,20 +544,12 @@
           "word_id": "hsk3_241"
         },
         {
-          "text": "注",
-          "pinyin": "zhù",
-          "hanviet": "Chú",
-          "meaning_vi": "chú thích, ghi chú; rót vào, trút vào",
-          "hsk": 7,
-          "word_id": "hsk7_5409"
-        },
-        {
-          "text": "重",
-          "pinyin": "zhòng",
-          "hanviet": "Trọng",
-          "meaning_vi": "nặng",
-          "hsk": 4,
-          "word_id": "hsk4_575"
+          "text": "注重",
+          "pinyin": "zhùzhòng",
+          "hanviet": "Chú Trọng",
+          "meaning_vi": "chú ý đến",
+          "hsk": 5,
+          "word_id": "hsk5_1553"
         },
         {
           "text": "供应链",
@@ -575,7 +576,12 @@
           "word_id": "hsk4_3"
         },
         {
-          "text": "性"
+          "text": "性",
+          "pinyin": "xìng",
+          "hanviet": "Tính",
+          "meaning_vi": "tính (hậu tố: tính chất)",
+          "hsk": 4,
+          "word_id": "hsk4_828"
         },
         {
           "text": "、"
@@ -592,7 +598,12 @@
           "word_id": "hsk7_4998"
         },
         {
-          "text": "度"
+          "text": "度",
+          "pinyin": "dù",
+          "hanviet": "Độ",
+          "meaning_vi": "độ (nhiệt độ, góc); mức độ",
+          "hsk": 5,
+          "word_id": "hsk5_300"
         },
         {
           "text": "与",
@@ -678,15 +689,12 @@
           "text": "、"
         },
         {
-          "text": "推",
-          "pinyin": "tuī",
-          "hanviet": "Suy",
-          "meaning_vi": "đẩy",
-          "hsk": 4,
-          "word_id": "hsk4_442"
-        },
-        {
-          "text": "动"
+          "text": "推动",
+          "pinyin": "tuīdòng",
+          "hanviet": "Suy Động",
+          "meaning_vi": "thúc đẩy, đẩy mạnh",
+          "hsk": 5,
+          "word_id": "hsk5_1158"
         },
         {
           "text": "多元化",
@@ -732,7 +740,12 @@
           "word_id": "hsk5_579"
         },
         {
-          "text": "区"
+          "text": "区",
+          "pinyin": "qū",
+          "hanviet": "Âu",
+          "meaning_vi": "khu, quận",
+          "hsk": 4,
+          "word_id": "hsk4_593"
         },
         {
           "text": "块",
@@ -754,20 +767,12 @@
           "word_id": "hsk4_196"
         },
         {
-          "text": "提",
-          "pinyin": "tí",
-          "hanviet": "Đề",
-          "meaning_vi": "mang, xách; nêu ra",
-          "hsk": 4,
-          "word_id": "hsk4_430"
-        },
-        {
-          "text": "升",
-          "pinyin": "shēng",
-          "hanviet": "Thăng",
-          "meaning_vi": "thăng, lên",
+          "text": "提升",
+          "pinyin": "tíshēng",
+          "hanviet": "Đề Thăng",
+          "meaning_vi": "nâng cao, cải thiện, đề bạt",
           "hsk": 5,
-          "word_id": "hsk5_1055"
+          "word_id": "hsk5_1117"
         },
         {
           "text": "物流",
@@ -786,7 +791,12 @@
           "word_id": "hsk5_1113"
         },
         {
-          "text": "度"
+          "text": "度",
+          "pinyin": "dù",
+          "hanviet": "Độ",
+          "meaning_vi": "độ (nhiệt độ, góc); mức độ",
+          "hsk": 5,
+          "word_id": "hsk5_300"
         },
         {
           "text": "，"
@@ -864,15 +874,12 @@
           "word_id": "hsk7_1954"
         },
         {
-          "text": "本",
-          "pinyin": "běn",
-          "hanviet": "Bản",
-          "meaning_vi": "cuốn (lượng từ)",
-          "hsk": 1,
-          "word_id": "hsk1_6"
-        },
-        {
-          "text": "土"
+          "text": "本土",
+          "pinyin": "běntǔ",
+          "hanviet": "Bản Thổ",
+          "meaning_vi": "bản xứ, bản địa, trong nước",
+          "hsk": 6,
+          "word_id": "hsk6_47"
         },
         {
           "text": "制造",
@@ -899,10 +906,12 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "全"
-        },
-        {
-          "text": "球"
+          "text": "全球",
+          "pinyin": "quánqiú",
+          "hanviet": "Toàn Cầu",
+          "meaning_vi": "toàn cầu",
+          "hsk": 4,
+          "word_id": "hsk4_601"
         },
         {
           "text": "开放",
@@ -924,15 +933,12 @@
           "text": "，"
         },
         {
-          "text": "才"
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
+          "text": "才能",
+          "pinyin": "cáinéng",
+          "hanviet": "Tài Năng",
+          "meaning_vi": "tài năng",
+          "hsk": 6,
+          "word_id": "hsk6_97"
         },
         {
           "text": "在",
@@ -991,7 +997,12 @@
           "word_id": "hsk6_936"
         },
         {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "建立",
@@ -1042,10 +1053,20 @@
           "word_id": "hsk7_1710"
         },
         {
-          "text": "城"
+          "text": "城",
+          "pinyin": "chéng",
+          "hanviet": "Thành",
+          "meaning_vi": "thành phố; thành (tường thành)",
+          "hsk": 4,
+          "word_id": "hsk4_77"
         },
         {
-          "text": "河"
+          "text": "河",
+          "pinyin": "hé",
+          "hanviet": "Hà",
+          "meaning_vi": "sông",
+          "hsk": 3,
+          "word_id": "hsk3_757"
         },
         {
           "text": "。"
@@ -1066,9 +1087,9 @@
     "hsk1_15",
     "hsk6_355",
     "hsk5_1169",
-    "hsk2_29",
     "hsk6_2374",
-    "hsk7_2424"
+    "hsk7_2424",
+    "hsk4_601"
   ],
   "quiz": [
     {

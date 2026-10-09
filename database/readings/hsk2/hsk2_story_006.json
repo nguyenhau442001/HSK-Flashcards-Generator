@@ -95,16 +95,12 @@
           "word_id": "hsk2_83"
         },
         {
-          "text": "以",
-          "pinyin": "yǐ",
-          "hanviet": "Dĩ",
-          "meaning_vi": "bằng, dùng",
-          "hsk": 4,
-          "word_id": "hsk4_512"
-        },
-        {
-          "text": "后",
-          "unknown": true
+          "text": "以后",
+          "pinyin": "yǐhòu",
+          "hanviet": "Dĩ Hậu",
+          "meaning_vi": "sau này, sau khi",
+          "hsk": 3,
+          "word_id": "hsk3_1005"
         },
         {
           "text": "，"
@@ -275,20 +271,20 @@
           "word_id": "hsk1_89"
         },
         {
-          "text": "新",
-          "pinyin": "xīn",
-          "hanviet": "Tân",
-          "meaning_vi": "mới",
-          "hsk": 2,
-          "word_id": "hsk2_118"
+          "text": "新手",
+          "pinyin": "xīnshǒu",
+          "hanviet": "Tân Thủ",
+          "meaning_vi": "người mới; người mới vào nghề",
+          "hsk": 7,
+          "word_id": "hsk7_4555"
         },
         {
-          "text": "手表",
-          "pinyin": "shǒubiǎo",
-          "hanviet": "Thủ Biểu",
-          "meaning_vi": "đồng hồ đeo tay",
-          "hsk": 2,
-          "word_id": "hsk2_96"
+          "text": "表",
+          "pinyin": "biǎo",
+          "hanviet": "Biểu",
+          "meaning_vi": "bảng, biểu mẫu; đồng hồ đeo tay",
+          "hsk": 4,
+          "word_id": "hsk4_33"
         },
         {
           "text": "，"
@@ -407,9 +403,15 @@
     "hsk2_60",
     "hsk2_99",
     "hsk2_96",
-    "hsk2_118",
     "hsk2_149",
-    "hsk2_27"
+    "hsk2_27",
+    "hsk1_47",
+    "hsk1_96",
+    "hsk1_15",
+    "hsk2_140",
+    "hsk1_111",
+    "hsk3_1005",
+    "hsk2_24"
   ],
   "quiz": [
     {

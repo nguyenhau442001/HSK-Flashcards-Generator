@@ -167,16 +167,36 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "定"
+          "text": "定",
+          "pinyin": "dìng",
+          "hanviet": "Định",
+          "meaning_vi": "định, quyết định; cố định",
+          "hsk": 4,
+          "word_id": "hsk4_164"
         },
         {
-          "text": "海"
+          "text": "海",
+          "pinyin": "hǎi",
+          "hanviet": "Hải",
+          "meaning_vi": "biển",
+          "hsk": 3,
+          "word_id": "hsk3_751"
         },
         {
-          "text": "神"
+          "text": "神",
+          "pinyin": "shén",
+          "hanviet": "Thần",
+          "meaning_vi": "thần kỳ, kỳ diệu; thần linh",
+          "hsk": 6,
+          "word_id": "hsk6_1165"
         },
         {
-          "text": "针"
+          "text": "针",
+          "pinyin": "zhēn",
+          "hanviet": "Châm",
+          "meaning_vi": "cây kim, mũi tiêm",
+          "hsk": 6,
+          "word_id": "hsk6_1676"
         },
         {
           "text": "。"
@@ -216,10 +236,12 @@
           "word_id": "hsk6_244"
         },
         {
-          "text": "政"
-        },
-        {
-          "text": "策"
+          "text": "政策",
+          "pinyin": "zhèngcè",
+          "hanviet": "Chính Sách",
+          "meaning_vi": "chính sách",
+          "hsk": 6,
+          "word_id": "hsk6_1688"
         },
         {
           "text": "与",
@@ -254,16 +276,20 @@
           "word_id": "hsk6_1105"
         },
         {
-          "text": "政"
+          "text": "政策",
+          "pinyin": "zhèngcè",
+          "hanviet": "Chính Sách",
+          "meaning_vi": "chính sách",
+          "hsk": 6,
+          "word_id": "hsk6_1688"
         },
         {
-          "text": "策"
-        },
-        {
-          "text": "相"
-        },
-        {
-          "text": "互"
+          "text": "相互",
+          "pinyin": "xiānghù",
+          "hanviet": "Tương Hỗ",
+          "meaning_vi": "lẫn nhau",
+          "hsk": 4,
+          "word_id": "hsk4_805"
         },
         {
           "text": "协同",
@@ -277,15 +303,12 @@
           "text": "，"
         },
         {
-          "text": "精",
-          "pinyin": "jīng",
-          "hanviet": "Tinh",
-          "meaning_vi": "tinh thông, tinh vi, tinh nhuệ",
-          "hsk": 7,
-          "word_id": "hsk7_2154"
-        },
-        {
-          "text": "准"
+          "text": "精准",
+          "pinyin": "jīngzhǔn",
+          "hanviet": "Tinh Chuẩn",
+          "meaning_vi": "chuẩn xác, chính xác cao",
+          "hsk": 6,
+          "word_id": "hsk6_721"
         },
         {
           "text": "支持",
@@ -320,10 +343,12 @@
           "word_id": "hsk1_39"
         },
         {
-          "text": "科"
-        },
-        {
-          "text": "技"
+          "text": "科技",
+          "pinyin": "kējì",
+          "hanviet": "Khoa Kỹ",
+          "meaning_vi": "khoa học kỹ thuật, công nghệ",
+          "hsk": 4,
+          "word_id": "hsk4_425"
         },
         {
           "text": "创新",
@@ -350,15 +375,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "研"
-        },
-        {
-          "text": "发",
-          "pinyin": "fā",
-          "hanviet": "Phát",
-          "meaning_vi": "phát ra, gửi",
-          "hsk": 3,
-          "word_id": "hsk3_63"
+          "text": "研发",
+          "pinyin": "yánfā",
+          "hanviet": "Nghiên Phát",
+          "meaning_vi": "nghiên cứu và phát triển (R&D)",
+          "hsk": 5,
+          "word_id": "hsk5_1327"
         },
         {
           "text": "投入",
@@ -398,7 +420,12 @@
           "word_id": "hsk6_962"
         },
         {
-          "text": "侧"
+          "text": "侧",
+          "pinyin": "cè",
+          "hanviet": "Trắc",
+          "meaning_vi": "bên, bên hông, sườn",
+          "hsk": 6,
+          "word_id": "hsk6_111"
         },
         {
           "text": "结构",
@@ -409,7 +436,12 @@
           "word_id": "hsk5_245"
         },
         {
-          "text": "性"
+          "text": "性",
+          "pinyin": "xìng",
+          "hanviet": "Tính",
+          "meaning_vi": "tính (hậu tố: tính chất)",
+          "hsk": 4,
+          "word_id": "hsk4_828"
         },
         {
           "text": "改革",
@@ -447,7 +479,12 @@
           "word_id": "hsk5_306"
         },
         {
-          "text": "产"
+          "text": "产",
+          "pinyin": "chǎn",
+          "hanviet": "Sản",
+          "meaning_vi": "sản xuất, sinh sản",
+          "hsk": 5,
+          "word_id": "hsk5_104"
         },
         {
           "text": "能",
@@ -458,7 +495,12 @@
           "word_id": "hsk1_72"
         },
         {
-          "text": "并"
+          "text": "并",
+          "pinyin": "bìng",
+          "hanviet": "Tinh",
+          "meaning_vi": "và, đồng thời; hoàn toàn (không)",
+          "hsk": 4,
+          "word_id": "hsk4_39"
         },
         {
           "text": "培育",
@@ -469,15 +511,12 @@
           "word_id": "hsk6_1583"
         },
         {
-          "text": "具"
-        },
-        {
-          "text": "有",
-          "pinyin": "yǒu",
-          "hanviet": "Hữu",
+          "text": "具有",
+          "pinyin": "jùyǒu",
+          "hanviet": "Cụ Hữu",
           "meaning_vi": "có",
-          "hsk": 1,
-          "word_id": "hsk1_136"
+          "hsk": 5,
+          "word_id": "hsk5_643"
         },
         {
           "text": "核心",
@@ -496,7 +535,12 @@
           "word_id": "hsk4_237"
         },
         {
-          "text": "力"
+          "text": "力",
+          "pinyin": "lì",
+          "hanviet": "Lực",
+          "meaning_vi": "sức, sức lực; lực",
+          "hsk": 5,
+          "word_id": "hsk5_704"
         },
         {
           "text": "的",
@@ -515,18 +559,20 @@
           "word_id": "hsk7_5159"
         },
         {
-          "text": "性"
+          "text": "性",
+          "pinyin": "xìng",
+          "hanviet": "Tính",
+          "meaning_vi": "tính (hậu tố: tính chất)",
+          "hsk": 4,
+          "word_id": "hsk4_828"
         },
         {
-          "text": "新",
-          "pinyin": "xīn",
-          "hanviet": "Tân",
-          "meaning_vi": "mới",
-          "hsk": 2,
-          "word_id": "hsk2_118"
-        },
-        {
-          "text": "兴"
+          "text": "新兴",
+          "pinyin": "xīnxīng",
+          "hanviet": "Tân Hưng",
+          "meaning_vi": "mới nổi, mới phát triển",
+          "hsk": 6,
+          "word_id": "hsk6_1469"
         },
         {
           "text": "产业",
@@ -574,10 +620,12 @@
           "word_id": "hsk4_230"
         },
         {
-          "text": "活"
-        },
-        {
-          "text": "力"
+          "text": "活力",
+          "pinyin": "huólì",
+          "hanviet": "Hoạt Lực",
+          "meaning_vi": "sức sống, sinh khí, sự năng động",
+          "hsk": 6,
+          "word_id": "hsk6_597"
         },
         {
           "text": "与",
@@ -588,10 +636,12 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "优"
-        },
-        {
-          "text": "化"
+          "text": "优化",
+          "pinyin": "yōuhuà",
+          "hanviet": "Ưu Hoa",
+          "meaning_vi": "tối ưu hóa",
+          "hsk": 6,
+          "word_id": "hsk6_1597"
         },
         {
           "text": "营"
@@ -619,15 +669,12 @@
           "word_id": "hsk1_96"
         },
         {
-          "text": "推",
-          "pinyin": "tuī",
-          "hanviet": "Suy",
-          "meaning_vi": "đẩy",
-          "hsk": 4,
-          "word_id": "hsk4_442"
-        },
-        {
-          "text": "动"
+          "text": "推动",
+          "pinyin": "tuīdòng",
+          "hanviet": "Suy Động",
+          "meaning_vi": "thúc đẩy, đẩy mạnh",
+          "hsk": 5,
+          "word_id": "hsk5_1158"
         },
         {
           "text": "经济",
@@ -654,15 +701,12 @@
           "word_id": "hsk4_573"
         },
         {
-          "text": "增"
-        },
-        {
-          "text": "长",
-          "pinyin": "cháng",
-          "hanviet": "Trường",
-          "meaning_vi": "dài",
-          "hsk": 2,
-          "word_id": "hsk2_9"
+          "text": "增长",
+          "pinyin": "zēngzhǎng",
+          "hanviet": "Tăng Trưởng",
+          "meaning_vi": "tăng trưởng, tăng lên",
+          "hsk": 4,
+          "word_id": "hsk4_922"
         },
         {
           "text": "与",
@@ -689,10 +733,12 @@
           "word_id": "hsk6_1257"
         },
         {
-          "text": "容"
-        },
-        {
-          "text": "量"
+          "text": "容量",
+          "pinyin": "róngliàng",
+          "hanviet": "Dung Lượng",
+          "meaning_vi": "dung lượng, sức chứa",
+          "hsk": 6,
+          "word_id": "hsk6_1115"
         },
         {
           "text": "的",
@@ -780,29 +826,23 @@
           "word_id": "hsk2_45"
         },
         {
-          "text": "大",
-          "pinyin": "dà",
-          "hanviet": "Đại",
-          "meaning_vi": "to, lớn",
-          "hsk": 1,
-          "word_id": "hsk1_14"
-        },
-        {
-          "text": "事"
+          "text": "大事",
+          "pinyin": "dàshì",
+          "hanviet": "Đại Sự",
+          "meaning_vi": "việc lớn, chuyện lớn",
+          "hsk": 5,
+          "word_id": "hsk5_227"
         },
         {
           "text": "，"
         },
         {
-          "text": "才"
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
+          "text": "才能",
+          "pinyin": "cáinéng",
+          "hanviet": "Tài Năng",
+          "meaning_vi": "tài năng",
+          "hsk": 6,
+          "word_id": "hsk6_97"
         },
         {
           "text": "确保",
@@ -845,18 +885,20 @@
           "word_id": "hsk7_1193"
         },
         {
-          "text": "考"
+          "text": "考验",
+          "pinyin": "kǎoyàn",
+          "hanviet": "Khảo Nghiệm",
+          "meaning_vi": "thử thách, khảo nghiệm",
+          "hsk": 6,
+          "word_id": "hsk6_778"
         },
         {
-          "text": "验",
-          "pinyin": "yàn",
-          "hanviet": "Nghiệm",
-          "meaning_vi": "kiểm tra; kiểm nghiệm; thử nghiệm",
-          "hsk": 7,
-          "word_id": "hsk7_4756"
-        },
-        {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "始终",
@@ -907,7 +949,12 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "后"
+          "text": "后",
+          "pinyin": "hòu",
+          "hanviet": "Hậu",
+          "meaning_vi": "sau",
+          "hsk": 1,
+          "word_id": "hsk1_524"
         },
         {
           "text": "劲",

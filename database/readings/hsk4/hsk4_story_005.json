@@ -35,7 +35,11 @@
         },
         {
           "text": "总",
-          "unknown": true
+          "pinyin": "zǒng",
+          "hanviet": "Tổng",
+          "meaning_vi": "luôn, lúc nào cũng; tổng",
+          "hsk": 3,
+          "word_id": "hsk3_1072"
         },
         {
           "text": "觉得",
@@ -134,16 +138,12 @@
           "word_id": "hsk3_94"
         },
         {
-          "text": "因",
-          "unknown": true
-        },
-        {
-          "text": "为",
-          "pinyin": "wèi",
-          "hanviet": "Vi",
-          "meaning_vi": "vì, cho",
-          "hsk": 3,
-          "word_id": "hsk3_229"
+          "text": "因为",
+          "pinyin": "yīnwèi",
+          "hanviet": "Nhân Vi",
+          "meaning_vi": "bởi vì",
+          "hsk": 2,
+          "word_id": "hsk2_476"
         },
         {
           "text": "经常",
@@ -243,15 +243,19 @@
         },
         {
           "text": "天",
-          "unknown": true
+          "pinyin": "tiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "trời (danh từ, định lượng)",
+          "hsk": 1,
+          "word_id": "hsk1_573"
         },
         {
-          "text": "早",
-          "unknown": true
-        },
-        {
-          "text": "晨",
-          "unknown": true
+          "text": "早晨",
+          "pinyin": "zǎochen",
+          "hanviet": "Tảo Thần",
+          "meaning_vi": "buổi sáng sớm",
+          "hsk": 4,
+          "word_id": "hsk4_919"
         },
         {
           "text": "六",
@@ -330,7 +334,11 @@
         },
         {
           "text": "跑",
-          "unknown": true
+          "pinyin": "pǎo",
+          "hanviet": "Bào",
+          "meaning_vi": "chạy",
+          "hsk": 2,
+          "word_id": "hsk2_414"
         },
         {
           "text": "半",
@@ -402,16 +410,12 @@
           "word_id": "hsk1_137"
         },
         {
-          "text": "以",
-          "pinyin": "yǐ",
-          "hanviet": "Dĩ",
-          "meaning_vi": "bằng, dùng",
-          "hsk": 4,
-          "word_id": "hsk4_512"
-        },
-        {
-          "text": "后",
-          "unknown": true
+          "text": "以后",
+          "pinyin": "yǐhòu",
+          "hanviet": "Dĩ Hậu",
+          "meaning_vi": "sau này, sau khi",
+          "hsk": 3,
+          "word_id": "hsk3_1005"
         },
         {
           "text": "，"
@@ -433,28 +437,20 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "体",
-          "unknown": true
-        },
-        {
-          "text": "重",
-          "pinyin": "zhòng",
-          "hanviet": "Trọng",
-          "meaning_vi": "nặng",
+          "text": "体重",
+          "pinyin": "tǐzhòng",
+          "hanviet": "Thể Trọng",
+          "meaning_vi": "cân nặng",
           "hsk": 4,
-          "word_id": "hsk4_575"
+          "word_id": "hsk4_734"
         },
         {
-          "text": "减",
-          "unknown": true
-        },
-        {
-          "text": "轻",
-          "pinyin": "qīng",
-          "hanviet": "Khinh",
-          "meaning_vi": "nhẹ",
+          "text": "减轻",
+          "pinyin": "jiǎnqīng",
+          "hanviet": "Giảm Khinh",
+          "meaning_vi": "giảm nhẹ, giảm bớt",
           "hsk": 4,
-          "word_id": "hsk4_345"
+          "word_id": "hsk4_350"
         },
         {
           "text": "了",
@@ -476,20 +472,12 @@
           "word_id": "hsk5_258"
         },
         {
-          "text": "也",
-          "pinyin": "yě",
-          "hanviet": "Dã",
-          "meaning_vi": "cũng",
-          "hsk": 2,
-          "word_id": "hsk2_127"
-        },
-        {
-          "text": "好",
-          "pinyin": "hǎo",
-          "hanviet": "Hảo",
-          "meaning_vi": "tốt, được",
-          "hsk": 1,
-          "word_id": "hsk1_36"
+          "text": "也好",
+          "pinyin": "yěhǎo",
+          "hanviet": "Dã Hảo",
+          "meaning_vi": "cũng được, dù sao cũng tốt",
+          "hsk": 6,
+          "word_id": "hsk6_1531"
         },
         {
           "text": "了",
@@ -573,7 +561,11 @@
         },
         {
           "text": "并",
-          "unknown": true
+          "pinyin": "bìng",
+          "hanviet": "Tinh",
+          "meaning_vi": "và, đồng thời; hoàn toàn (không)",
+          "hsk": 4,
+          "word_id": "hsk4_39"
         },
         {
           "text": "不",
@@ -648,7 +640,11 @@
     "hsk4_4",
     "hsk4_203",
     "hsk5_258",
-    "hsk4_265"
+    "hsk4_265",
+    "hsk3_89",
+    "hsk1_111",
+    "hsk3_1072",
+    "hsk2_52"
   ],
   "quiz": [
     {

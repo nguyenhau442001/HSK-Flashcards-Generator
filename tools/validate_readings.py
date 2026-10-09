@@ -14,21 +14,22 @@ READINGS_DIR = REPO_ROOT / "database" / "readings"
 
 # 1. Load entire HSK vocabulary database into lookups
 VOCAB_BY_ID = {}
-for lvl in range(1, 7):
-    path = VOCAB_DIR / f"hsk{lvl}_vocabularies.json"
-    if path.exists():
-        with open(path, "r", encoding="utf-8") as f:
-            for item in json.load(f):
-                wid = f"hsk{lvl}_{item['id']}"
-                VOCAB_BY_ID[wid] = item
-
-for lvl in range(7, 10):
+for lvl in range(1, 10):
     path = VOCAB_DIR / "hsk3_0" / f"level{lvl}_vocabularies.json"
     if path.exists():
         with open(path, "r", encoding="utf-8") as f:
             for item in json.load(f):
                 wid = f"hsk{lvl}_{item['id']}"
                 VOCAB_BY_ID[wid] = item
+
+for lvl in range(1, 7):
+    path = VOCAB_DIR / f"hsk{lvl}_vocabularies.json"
+    if path.exists():
+        with open(path, "r", encoding="utf-8") as f:
+            for item in json.load(f):
+                wid = f"hsk{lvl}_{item['id']}"
+                if wid not in VOCAB_BY_ID:
+                    VOCAB_BY_ID[wid] = item
 
 print(f"[*] Loaded {len(VOCAB_BY_ID)} vocabulary items from HSK 1..9 databases.")
 

@@ -28,15 +28,12 @@
           "word_id": "hsk4_76"
         },
         {
-          "text": "深",
-          "pinyin": "shēn",
-          "hanviet": "Thâm",
-          "meaning_vi": "sâu",
-          "hsk": 4,
-          "word_id": "hsk4_372"
-        },
-        {
-          "text": "度"
+          "text": "深度",
+          "pinyin": "shēndù",
+          "hanviet": "Thâm Độ",
+          "meaning_vi": "độ sâu; chuyên sâu, sâu sắc",
+          "hsk": 5,
+          "word_id": "hsk5_981"
         },
         {
           "text": "学习",
@@ -47,26 +44,28 @@
           "word_id": "hsk1_128"
         },
         {
-          "text": "算"
-        },
-        {
-          "text": "法"
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
-        },
-        {
-          "text": "够",
-          "pinyin": "gòu",
-          "hanviet": "Cú",
-          "meaning_vi": "đủ",
+          "text": "算",
+          "pinyin": "suàn",
+          "hanviet": "Toán",
+          "meaning_vi": "tính, đếm; coi như",
           "hsk": 4,
-          "word_id": "hsk4_145"
+          "word_id": "hsk4_708"
+        },
+        {
+          "text": "法",
+          "pinyin": "fǎ",
+          "hanviet": "Pháp",
+          "meaning_vi": "luật, pháp luật; phương pháp",
+          "hsk": 4,
+          "word_id": "hsk4_187"
+        },
+        {
+          "text": "能够",
+          "pinyin": "nénggòu",
+          "hanviet": "Năng Cú",
+          "meaning_vi": "có thể",
+          "hsk": 4,
+          "word_id": "hsk4_532"
         },
         {
           "text": "在",
@@ -93,10 +92,12 @@
           "word_id": "hsk6_1951"
         },
         {
-          "text": "生"
-        },
-        {
-          "text": "成"
+          "text": "生成",
+          "pinyin": "shēngchéng",
+          "hanviet": "Sinh Thành",
+          "meaning_vi": "tạo ra, sinh ra",
+          "hsk": 6,
+          "word_id": "hsk6_1170"
         },
         {
           "text": "华丽",
@@ -150,15 +151,12 @@
           "word_id": "hsk7_5064"
         },
         {
-          "text": "动"
-        },
-        {
-          "text": "听",
-          "pinyin": "tīng",
-          "hanviet": "Dẫn",
-          "meaning_vi": "nghe",
-          "hsk": 1,
-          "word_id": "hsk1_108"
+          "text": "动听",
+          "pinyin": "dòngtīng",
+          "hanviet": "Động Dẫn",
+          "meaning_vi": "du dương, êm tai, dễ nghe",
+          "hsk": 6,
+          "word_id": "hsk6_321"
         },
         {
           "text": "的",
@@ -177,7 +175,12 @@
           "word_id": "hsk7_2043"
         },
         {
-          "text": "时"
+          "text": "时",
+          "pinyin": "shí",
+          "hanviet": "Thời",
+          "meaning_vi": "thời gian (danh từ, số lượng)",
+          "hsk": 2,
+          "word_id": "hsk2_431"
         },
         {
           "text": "，"
@@ -295,10 +298,20 @@
           "word_id": "hsk1_56"
         },
         {
-          "text": "冰"
+          "text": "冰",
+          "pinyin": "bīng",
+          "hanviet": "Băng",
+          "meaning_vi": "băng, nước đá; ướp lạnh",
+          "hsk": 3,
+          "word_id": "hsk3_633"
         },
         {
-          "text": "冰"
+          "text": "冰",
+          "pinyin": "bīng",
+          "hanviet": "Băng",
+          "meaning_vi": "băng, nước đá; ướp lạnh",
+          "hsk": 3,
+          "word_id": "hsk3_633"
         },
         {
           "text": "的",
@@ -309,7 +322,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "代"
+          "text": "代",
+          "pinyin": "dài",
+          "hanviet": "Đại",
+          "meaning_vi": "thay, thay mặt; thế hệ, đời",
+          "hsk": 5,
+          "word_id": "hsk5_233"
         },
         {
           "text": "码"
@@ -363,20 +381,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
+          "text": "能够",
+          "pinyin": "nénggòu",
+          "hanviet": "Năng Cú",
           "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
-        },
-        {
-          "text": "够",
-          "pinyin": "gòu",
-          "hanviet": "Cú",
-          "meaning_vi": "đủ",
           "hsk": 4,
-          "word_id": "hsk4_145"
+          "word_id": "hsk4_532"
         },
         {
           "text": "具备",
@@ -403,20 +413,12 @@
           "word_id": "hsk7_963"
         },
         {
-          "text": "有",
-          "pinyin": "yǒu",
-          "hanviet": "Hữu",
-          "meaning_vi": "có",
+          "text": "有的",
+          "pinyin": "yǒude",
+          "hanviet": "Hữu Đích",
+          "meaning_vi": "có người, có cái, một số",
           "hsk": 1,
-          "word_id": "hsk1_136"
-        },
-        {
-          "text": "的",
-          "pinyin": "de",
-          "hanviet": "Đích",
-          "meaning_vi": "của (trợ từ)",
-          "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_597"
         },
         {
           "text": "灵感",
@@ -443,7 +445,12 @@
           "word_id": "hsk5_715"
         },
         {
-          "text": "力"
+          "text": "力",
+          "pinyin": "lì",
+          "hanviet": "Lực",
+          "meaning_vi": "sức, sức lực; lực",
+          "hsk": 5,
+          "word_id": "hsk5_704"
         },
         {
           "text": "。"
@@ -467,7 +474,12 @@
           "word_id": "hsk1_8"
         },
         {
-          "text": "可"
+          "text": "可",
+          "pinyin": "kě",
+          "hanviet": "Khả",
+          "meaning_vi": "nhưng; thật là (nhấn mạnh)",
+          "hsk": 3,
+          "word_id": "hsk3_814"
         },
         {
           "text": "否认",
@@ -481,23 +493,12 @@
           "text": "，"
         },
         {
-          "text": "人工",
-          "pinyin": "réngōng",
-          "hanviet": "Nhân Công",
-          "meaning_vi": "nhân công, nhân tạo",
+          "text": "人工智能",
+          "pinyin": "réngōng zhìnéng",
+          "hanviet": "Nhân Công Trí Năng",
+          "meaning_vi": "trí tuệ nhân tạo",
           "hsk": 6,
-          "word_id": "hsk6_1767"
-        },
-        {
-          "text": "智"
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
+          "word_id": "hsk6_1094"
         },
         {
           "text": "是",
@@ -516,15 +517,12 @@
           "word_id": "hsk5_866"
         },
         {
-          "text": "高",
-          "pinyin": "gāo",
-          "hanviet": "Cao",
-          "meaning_vi": "cao",
-          "hsk": 2,
-          "word_id": "hsk2_29"
-        },
-        {
-          "text": "效"
+          "text": "高效",
+          "pinyin": "gāoxiào",
+          "hanviet": "Cao Hiệu",
+          "meaning_vi": "hiệu quả cao",
+          "hsk": 5,
+          "word_id": "hsk5_391"
         },
         {
           "text": "的",
@@ -554,20 +552,12 @@
           "text": "，"
         },
         {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
+          "text": "能够",
+          "pinyin": "nénggòu",
+          "hanviet": "Năng Cú",
           "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
-        },
-        {
-          "text": "够",
-          "pinyin": "gòu",
-          "hanviet": "Cú",
-          "meaning_vi": "đủ",
           "hsk": 4,
-          "word_id": "hsk4_145"
+          "word_id": "hsk4_532"
         },
         {
           "text": "极",
@@ -722,7 +712,12 @@
           "word_id": "hsk4_372"
         },
         {
-          "text": "处"
+          "text": "处",
+          "pinyin": "chǔ",
+          "hanviet": "Xử",
+          "meaning_vi": "sống chung, đối xử; xử lý",
+          "hsk": 5,
+          "word_id": "hsk5_179"
         },
         {
           "text": "的",
@@ -760,10 +755,12 @@
           "word_id": "hsk5_426"
         },
         {
-          "text": "源"
-        },
-        {
-          "text": "于"
+          "text": "源于",
+          "pinyin": "yuányú",
+          "hanviet": "Nguyên Vu",
+          "meaning_vi": "từ",
+          "hsk": 6,
+          "word_id": "hsk6_1625"
         },
         {
           "text": "艺术",
@@ -801,10 +798,12 @@
           "text": "、"
         },
         {
-          "text": "欢"
-        },
-        {
-          "text": "乐"
+          "text": "欢乐",
+          "pinyin": "huānlè",
+          "hanviet": "Hoan Lạc",
+          "meaning_vi": "vui tươi, hân hoan, niềm vui",
+          "hsk": 6,
+          "word_id": "hsk6_575"
         },
         {
           "text": "与",
@@ -860,10 +859,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "科"
-        },
-        {
-          "text": "技"
+          "text": "科技",
+          "pinyin": "kējì",
+          "hanviet": "Khoa Kỹ",
+          "meaning_vi": "khoa học kỹ thuật, công nghệ",
+          "hsk": 4,
+          "word_id": "hsk4_425"
         },
         {
           "text": "与",
@@ -997,7 +998,12 @@
           "word_id": "hsk2_56"
         },
         {
-          "text": "性"
+          "text": "性",
+          "pinyin": "xìng",
+          "hanviet": "Tính",
+          "meaning_vi": "tính (hậu tố: tính chất)",
+          "hsk": 4,
+          "word_id": "hsk4_828"
         },
         {
           "text": "的",
@@ -1008,26 +1014,20 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "全"
+          "text": "全新",
+          "pinyin": "quánxīn",
+          "hanviet": "Toàn Tân",
+          "meaning_vi": "thương hiệu mới",
+          "hsk": 5,
+          "word_id": "hsk5_903"
         },
         {
-          "text": "新",
-          "pinyin": "xīn",
-          "hanviet": "Tân",
-          "meaning_vi": "mới",
-          "hsk": 2,
-          "word_id": "hsk2_118"
-        },
-        {
-          "text": "起"
-        },
-        {
-          "text": "点",
-          "pinyin": "diǎn",
-          "hanviet": "Điểm",
-          "meaning_vi": "giờ, điểm",
-          "hsk": 1,
-          "word_id": "hsk1_16"
+          "text": "起点",
+          "pinyin": "qǐdiǎn",
+          "hanviet": "Khởi Điểm",
+          "meaning_vi": "điểm khởi đầu, vạch xuất phát",
+          "hsk": 6,
+          "word_id": "hsk6_1019"
         },
         {
           "text": "。"
@@ -1039,8 +1039,6 @@
     "hsk4_76",
     "hsk4_372",
     "hsk1_128",
-    "hsk1_72",
-    "hsk4_145",
     "hsk1_139",
     "hsk1_130",
     "hsk6_1951",
@@ -1050,7 +1048,9 @@
     "hsk3_98",
     "hsk4_535",
     "hsk7_5064",
-    "hsk1_108"
+    "hsk5_981",
+    "hsk4_708",
+    "hsk4_187"
   ],
   "quiz": [
     {

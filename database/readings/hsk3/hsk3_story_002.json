@@ -107,7 +107,11 @@
       "tokens": [
         {
           "text": "山",
-          "unknown": true
+          "pinyin": "shān",
+          "hanviet": "Sơn",
+          "meaning_vi": "núi",
+          "hsk": 3,
+          "word_id": "hsk3_905"
         },
         {
           "text": "上",
@@ -153,16 +157,12 @@
           "text": "，"
         },
         {
-          "text": "树",
-          "pinyin": "shù",
-          "hanviet": "Thụ",
-          "meaning_vi": "cây",
-          "hsk": 3,
-          "word_id": "hsk3_206"
-        },
-        {
-          "text": "木",
-          "unknown": true
+          "text": "树木",
+          "pinyin": "shùmù",
+          "hanviet": "Thụ Mộc",
+          "meaning_vi": "cây cối",
+          "hsk": 5,
+          "word_id": "hsk5_1068"
         },
         {
           "text": "很",
@@ -290,16 +290,20 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "虽",
-          "unknown": true
-        },
-        {
-          "text": "然",
-          "unknown": true
+          "text": "虽然",
+          "pinyin": "suīrán",
+          "hanviet": "Tuy Nhiên",
+          "meaning_vi": "mặc dù",
+          "hsk": 2,
+          "word_id": "hsk2_438"
         },
         {
           "text": "爬",
-          "unknown": true
+          "pinyin": "pá",
+          "hanviet": "Bò",
+          "meaning_vi": "leo, trèo; bò",
+          "hsk": 3,
+          "word_id": "hsk3_871"
         },
         {
           "text": "到",
@@ -318,16 +322,12 @@
           "word_id": "hsk1_55"
         },
         {
-          "text": "山",
-          "unknown": true
-        },
-        {
-          "text": "顶",
-          "pinyin": "dǐng",
-          "hanviet": "Đỉnh",
-          "meaning_vi": "đỉnh, nóc",
-          "hsk": 5,
-          "word_id": "hsk5_108"
+          "text": "山顶",
+          "pinyin": "shāndǐng",
+          "hanviet": "Sơn Đỉnh",
+          "meaning_vi": "đỉnh núi",
+          "hsk": 6,
+          "word_id": "hsk6_1137"
         },
         {
           "text": "很",
@@ -349,16 +349,12 @@
           "text": "，"
         },
         {
-          "text": "但",
-          "unknown": true
-        },
-        {
-          "text": "是",
-          "pinyin": "shì",
-          "hanviet": "Thị",
-          "meaning_vi": "là",
-          "hsk": 1,
-          "word_id": "hsk1_96"
+          "text": "但是",
+          "pinyin": "dànshì",
+          "hanviet": "Đãn Thị",
+          "meaning_vi": "nhưng",
+          "hsk": 2,
+          "word_id": "hsk2_331"
         },
         {
           "text": "风景",
@@ -422,16 +418,12 @@
           "word_id": "hsk1_112"
         },
         {
-          "text": "感",
-          "unknown": true
-        },
-        {
-          "text": "到",
-          "pinyin": "dào",
-          "hanviet": "Đáo",
-          "meaning_vi": "đến",
-          "hsk": 2,
-          "word_id": "hsk2_18"
+          "text": "感到",
+          "pinyin": "gǎndào",
+          "hanviet": "Cảm Đáo",
+          "meaning_vi": "cảm thấy",
+          "hsk": 3,
+          "word_id": "hsk3_730"
         },
         {
           "text": "很",
@@ -485,7 +477,11 @@
     "hsk2_61",
     "hsk3_110",
     "hsk3_115",
-    "hsk2_60"
+    "hsk2_60",
+    "hsk1_47",
+    "hsk1_107",
+    "hsk6_1722",
+    "hsk1_111"
   ],
   "quiz": [
     {

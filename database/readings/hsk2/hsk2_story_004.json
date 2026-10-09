@@ -51,19 +51,19 @@
         },
         {
           "text": "只",
-          "unknown": true
+          "pinyin": "zhī",
+          "hanviet": "Chỉ",
+          "meaning_vi": "con, chiếc, cái (lượng từ: 一只猫)",
+          "hsk": 1,
+          "word_id": "hsk1_609"
         },
         {
-          "text": "白",
-          "pinyin": "bái",
-          "hanviet": "Bạch",
+          "text": "白色",
+          "pinyin": "báisè",
+          "hanviet": "Bạch Sắc",
           "meaning_vi": "trắng",
           "hsk": 2,
-          "word_id": "hsk2_2"
-        },
-        {
-          "text": "色",
-          "unknown": true
+          "word_id": "hsk2_303"
         },
         {
           "text": "的",
@@ -261,16 +261,12 @@
           "word_id": "hsk1_139"
         },
         {
-          "text": "外",
-          "pinyin": "wài",
-          "hanviet": "Ngoại",
-          "meaning_vi": "ngoài",
+          "text": "外面",
+          "pinyin": "wàimiàn",
+          "hanviet": "Ngoại Diện",
+          "meaning_vi": "bên ngoài",
           "hsk": 2,
-          "word_id": "hsk2_105"
-        },
-        {
-          "text": "面",
-          "unknown": true
+          "word_id": "hsk2_447"
         },
         {
           "text": "玩",
@@ -303,7 +299,11 @@
         },
         {
           "text": "跑",
-          "unknown": true
+          "pinyin": "pǎo",
+          "hanviet": "Bào",
+          "meaning_vi": "chạy",
+          "hsk": 2,
+          "word_id": "hsk2_414"
         },
         {
           "text": "得",
@@ -366,7 +366,11 @@
         },
         {
           "text": "跑",
-          "unknown": true
+          "pinyin": "pǎo",
+          "hanviet": "Bào",
+          "meaning_vi": "chạy",
+          "hsk": 2,
+          "word_id": "hsk2_414"
         },
         {
           "text": "。"
@@ -391,7 +395,11 @@
         },
         {
           "text": "全",
-          "unknown": true
+          "pinyin": "quán",
+          "hanviet": "Toàn",
+          "meaning_vi": "toàn bộ, đầy đủ; hoàn toàn",
+          "hsk": 4,
+          "word_id": "hsk4_598"
         },
         {
           "text": "家",
@@ -440,13 +448,21 @@
     }
   ],
   "vocabulary_spotlight": [
-    "hsk2_2",
     "hsk2_101",
     "hsk2_123",
     "hsk2_144",
     "hsk2_86",
     "hsk2_107",
-    "hsk2_59"
+    "hsk2_59",
+    "hsk1_111",
+    "hsk1_45",
+    "hsk1_136",
+    "hsk1_130",
+    "hsk1_609",
+    "hsk2_303",
+    "hsk1_15",
+    "hsk1_121",
+    "hsk1_34"
   ],
   "quiz": [
     {

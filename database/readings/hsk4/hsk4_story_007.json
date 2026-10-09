@@ -85,16 +85,12 @@
           "word_id": "hsk1_76"
         },
         {
-          "text": "之",
-          "pinyin": "zhī",
-          "hanviet": "Chi",
-          "meaning_vi": "của (trợ từ văn viết)",
+          "text": "之间",
+          "pinyin": "zhījiān",
+          "hanviet": "Chi Gian",
+          "meaning_vi": "giữa",
           "hsk": 4,
-          "word_id": "hsk4_563"
-        },
-        {
-          "text": "间",
-          "unknown": true
+          "word_id": "hsk4_942"
         },
         {
           "text": "发生",
@@ -142,16 +138,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "因",
-          "unknown": true
-        },
-        {
-          "text": "为",
-          "pinyin": "wèi",
-          "hanviet": "Vi",
-          "meaning_vi": "vì, cho",
-          "hsk": 3,
-          "word_id": "hsk3_229"
+          "text": "因为",
+          "pinyin": "yīnwèi",
+          "hanviet": "Nhân Vi",
+          "meaning_vi": "bởi vì",
+          "hsk": 2,
+          "word_id": "hsk2_476"
         },
         {
           "text": "缺少",
@@ -213,20 +205,12 @@
           "word_id": "hsk5_154"
         },
         {
-          "text": "一",
-          "pinyin": "yī",
-          "hanviet": "Nhất",
-          "meaning_vi": "một",
-          "hsk": 1,
-          "word_id": "hsk1_130"
-        },
-        {
-          "text": "连",
-          "pinyin": "lián",
-          "hanviet": "Liên",
-          "meaning_vi": "liên tiếp, ngay cả",
-          "hsk": 4,
-          "word_id": "hsk4_286"
+          "text": "一连",
+          "pinyin": "yìlián",
+          "hanviet": "Nhất Liên",
+          "meaning_vi": "liên tiếp, liên tục",
+          "hsk": 7,
+          "word_id": "hsk7_4866"
         },
         {
           "text": "几",
@@ -238,7 +222,11 @@
         },
         {
           "text": "天",
-          "unknown": true
+          "pinyin": "tiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "trời (danh từ, định lượng)",
+          "hsk": 1,
+          "word_id": "hsk1_573"
         },
         {
           "text": "都",
@@ -330,7 +318,11 @@
         },
         {
           "text": "约",
-          "unknown": true
+          "pinyin": "yuē",
+          "hanviet": "Yêu",
+          "meaning_vi": "hẹn; khoảng chừng",
+          "hsk": 4,
+          "word_id": "hsk4_906"
         },
         {
           "text": "他",
@@ -341,20 +333,12 @@
           "word_id": "hsk1_104"
         },
         {
-          "text": "出",
-          "pinyin": "chū",
-          "hanviet": "Xuất",
-          "meaning_vi": "ra, đi ra",
+          "text": "出来",
+          "pinyin": "chūlái",
+          "hanviet": "Xuất Lai",
+          "meaning_vi": "đi ra",
           "hsk": 2,
-          "word_id": "hsk2_11"
-        },
-        {
-          "text": "来",
-          "pinyin": "lái",
-          "hanviet": "Lai",
-          "meaning_vi": "đến, tới",
-          "hsk": 1,
-          "word_id": "hsk1_53"
+          "word_id": "hsk2_318"
         },
         {
           "text": "面对",
@@ -365,8 +349,7 @@
           "word_id": "hsk5_314"
         },
         {
-          "text": "面",
-          "unknown": true
+          "text": "面"
         },
         {
           "text": "谈",
@@ -378,7 +361,11 @@
         },
         {
           "text": "心",
-          "unknown": true
+          "pinyin": "xīn",
+          "hanviet": "Tâm",
+          "meaning_vi": "tim; lòng, tâm",
+          "hsk": 4,
+          "word_id": "hsk4_819"
         },
         {
           "text": "。"
@@ -426,16 +413,12 @@
           "word_id": "hsk3_6"
         },
         {
-          "text": "心",
-          "unknown": true
-        },
-        {
-          "text": "里",
-          "pinyin": "lǐ",
-          "hanviet": "Lý",
-          "meaning_vi": "bên trong",
-          "hsk": 1,
-          "word_id": "hsk1_57"
+          "text": "心里",
+          "pinyin": "xīnlǐ",
+          "hanviet": "Tâm Lý",
+          "meaning_vi": "trong lòng",
+          "hsk": 3,
+          "word_id": "hsk3_981"
         },
         {
           "text": "的",
@@ -446,16 +429,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "想",
-          "pinyin": "xiǎng",
-          "hanviet": "Tưởng",
-          "meaning_vi": "muốn, nghĩ",
-          "hsk": 1,
-          "word_id": "hsk1_120"
-        },
-        {
-          "text": "法",
-          "unknown": true
+          "text": "想法",
+          "pinyin": "xiǎngfǎ",
+          "hanviet": "Tưởng Pháp",
+          "meaning_vi": "suy nghĩ, ý tưởng",
+          "hsk": 4,
+          "word_id": "hsk4_809"
         },
         {
           "text": "讲",
@@ -466,20 +445,12 @@
           "word_id": "hsk3_117"
         },
         {
-          "text": "出",
-          "pinyin": "chū",
-          "hanviet": "Xuất",
-          "meaning_vi": "ra, đi ra",
+          "text": "出来",
+          "pinyin": "chūlái",
+          "hanviet": "Xuất Lai",
+          "meaning_vi": "đi ra",
           "hsk": 2,
-          "word_id": "hsk2_11"
-        },
-        {
-          "text": "来",
-          "pinyin": "lái",
-          "hanviet": "Lai",
-          "meaning_vi": "đến, tới",
-          "hsk": 1,
-          "word_id": "hsk1_53"
+          "word_id": "hsk2_318"
         },
         {
           "text": "，"
@@ -501,16 +472,20 @@
           "word_id": "hsk5_288"
         },
         {
-          "text": "解",
-          "unknown": true
+          "text": "解除",
+          "pinyin": "jiěchú",
+          "hanviet": "Giải Trừ",
+          "meaning_vi": "xóa bỏ, bãi bỏ, giải trừ",
+          "hsk": 7,
+          "word_id": "hsk7_2103"
         },
         {
-          "text": "除了",
-          "pinyin": "chúle",
-          "hanviet": "Trừ Liễu",
-          "meaning_vi": "ngoài ra, trừ",
-          "hsk": 3,
-          "word_id": "hsk3_35"
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
         },
         {
           "text": "。"
@@ -582,16 +557,12 @@
           "word_id": "hsk1_39"
         },
         {
-          "text": "包",
-          "pinyin": "bāo",
-          "hanviet": "Bao",
-          "meaning_vi": "cái túi; bao gồm",
-          "hsk": 3,
-          "word_id": "hsk3_13"
-        },
-        {
-          "text": "容",
-          "unknown": true
+          "text": "包容",
+          "pinyin": "bāoróng",
+          "hanviet": "Bao Dung",
+          "meaning_vi": "bao dung, độ lượng khoan dung",
+          "hsk": 7,
+          "word_id": "hsk7_102"
         },
         {
           "text": "，"
@@ -621,16 +592,12 @@
           "word_id": "hsk1_111"
         },
         {
-          "text": "更",
-          "pinyin": "gèng",
-          "hanviet": "Canh",
-          "meaning_vi": "càng, hơn",
-          "hsk": 3,
-          "word_id": "hsk3_79"
-        },
-        {
-          "text": "加",
-          "unknown": true
+          "text": "更加",
+          "pinyin": "gèngjiā",
+          "hanviet": "Canh Gia",
+          "meaning_vi": "càng, càng thêm",
+          "hsk": 4,
+          "word_id": "hsk4_249"
         },
         {
           "text": "珍惜",
@@ -684,7 +651,8 @@
     "hsk4_532",
     "hsk4_179",
     "hsk4_594",
-    "hsk4_134"
+    "hsk4_134",
+    "hsk1_89"
   ],
   "quiz": [
     {

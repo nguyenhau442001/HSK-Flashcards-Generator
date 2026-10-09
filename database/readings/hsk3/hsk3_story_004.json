@@ -77,20 +77,12 @@
           "word_id": "hsk2_18"
         },
         {
-          "text": "哪",
-          "pinyin": "nǎ",
-          "hanviet": "Nả",
-          "meaning_vi": "nào",
+          "text": "哪里",
+          "pinyin": "nǎlǐ",
+          "hanviet": "Nả Lý",
+          "meaning_vi": "ở đâu (đại từ)",
           "hsk": 1,
-          "word_id": "hsk1_68"
-        },
-        {
-          "text": "里",
-          "pinyin": "lǐ",
-          "hanviet": "Lý",
-          "meaning_vi": "bên trong",
-          "hsk": 1,
-          "word_id": "hsk1_57"
+          "word_id": "hsk1_542"
         },
         {
           "text": "都",
@@ -307,11 +299,19 @@
         },
         {
           "text": "刷",
-          "unknown": true
+          "pinyin": "shuā",
+          "hanviet": "Xoát",
+          "meaning_vi": "chải, đánh (răng); quẹt (thẻ)",
+          "hsk": 3,
+          "word_id": "hsk3_924"
         },
         {
           "text": "卡",
-          "unknown": true
+          "pinyin": "kǎ",
+          "hanviet": "Ca",
+          "meaning_vi": "thẻ",
+          "hsk": 3,
+          "word_id": "hsk3_809"
         },
         {
           "text": "。"
@@ -336,7 +336,11 @@
         },
         {
           "text": "跑",
-          "unknown": true
+          "pinyin": "pǎo",
+          "hanviet": "Bào",
+          "meaning_vi": "chạy",
+          "hsk": 2,
+          "word_id": "hsk2_414"
         },
         {
           "text": "得",
@@ -366,16 +370,12 @@
           "text": "，"
         },
         {
-          "text": "而",
-          "pinyin": "ér",
-          "hanviet": "Nhi",
-          "meaning_vi": "mà, và",
-          "hsk": 4,
-          "word_id": "hsk4_103"
-        },
-        {
-          "text": "且",
-          "unknown": true
+          "text": "而且",
+          "pinyin": "érqiě",
+          "hanviet": "Nhi Thả",
+          "meaning_vi": "mà còn, hơn nữa",
+          "hsk": 3,
+          "word_id": "hsk3_707"
         },
         {
           "text": "从来",
@@ -416,7 +416,11 @@
       "tokens": [
         {
           "text": "只",
-          "unknown": true
+          "pinyin": "zhī",
+          "hanviet": "Chỉ",
+          "meaning_vi": "con, chiếc, cái (lượng từ: 一只猫)",
+          "hsk": 1,
+          "word_id": "hsk1_609"
         },
         {
           "text": "用",
@@ -452,7 +456,11 @@
         },
         {
           "text": "钟",
-          "unknown": true
+          "pinyin": "zhōng",
+          "hanviet": "Chung",
+          "meaning_vi": "chuông",
+          "hsk": 7,
+          "word_id": "hsk7_5351"
         },
         {
           "text": "，"
@@ -498,20 +506,12 @@
           "word_id": "hsk1_55"
         },
         {
-          "text": "目的",
-          "pinyin": "mùdì",
-          "hanviet": "Mục Đích",
-          "meaning_vi": "mục đích",
+          "text": "目的地",
+          "pinyin": "mùdìdì",
+          "hanviet": "Mục Đích Địa",
+          "meaning_vi": "điểm đến, nơi đến",
           "hsk": 4,
-          "word_id": "hsk4_310"
-        },
-        {
-          "text": "地",
-          "pinyin": "de",
-          "hanviet": "Địa",
-          "meaning_vi": "cách (trợ từ trạng ngữ)",
-          "hsk": 3,
-          "word_id": "hsk3_46"
+          "word_id": "hsk4_519"
         },
         {
           "text": "。"
@@ -527,7 +527,14 @@
     "hsk3_110",
     "hsk2_59",
     "hsk2_18",
-    "hsk3_267"
+    "hsk3_267",
+    "hsk1_5",
+    "hsk1_15",
+    "hsk5_1125",
+    "hsk2_27",
+    "hsk1_14",
+    "hsk1_542",
+    "hsk1_21"
   ],
   "quiz": [
     {

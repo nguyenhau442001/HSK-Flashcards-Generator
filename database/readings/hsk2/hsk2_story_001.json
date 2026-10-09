@@ -295,20 +295,12 @@
           "word_id": "hsk1_55"
         },
         {
-          "text": "一",
-          "pinyin": "yī",
-          "hanviet": "Nhất",
-          "meaning_vi": "một",
+          "text": "一些",
+          "pinyin": "yìxiē",
+          "hanviet": "Nhất Ta",
+          "meaning_vi": "một số, một vài, một ít",
           "hsk": 1,
-          "word_id": "hsk1_130"
-        },
-        {
-          "text": "些",
-          "pinyin": "xiē",
-          "hanviet": "Ta",
-          "meaning_vi": "vài, một ít",
-          "hsk": 1,
-          "word_id": "hsk1_123"
+          "word_id": "hsk1_596"
         },
         {
           "text": "药",
@@ -356,16 +348,12 @@
           "word_id": "hsk2_125"
         },
         {
-          "text": "以",
-          "pinyin": "yǐ",
-          "hanviet": "Dĩ",
-          "meaning_vi": "bằng, dùng",
-          "hsk": 4,
-          "word_id": "hsk4_512"
-        },
-        {
-          "text": "后",
-          "unknown": true
+          "text": "以后",
+          "pinyin": "yǐhòu",
+          "hanviet": "Dĩ Hậu",
+          "meaning_vi": "sau này, sau khi",
+          "hsk": 3,
+          "word_id": "hsk3_1005"
         },
         {
           "text": "，"
@@ -395,20 +383,12 @@
           "word_id": "hsk1_45"
         },
         {
-          "text": "好",
-          "pinyin": "hǎo",
-          "hanviet": "Hảo",
-          "meaning_vi": "tốt, được",
-          "hsk": 1,
-          "word_id": "hsk1_36"
-        },
-        {
-          "text": "好",
-          "pinyin": "hǎo",
-          "hanviet": "Hảo",
-          "meaning_vi": "tốt, được",
-          "hsk": 1,
-          "word_id": "hsk1_36"
+          "text": "好好",
+          "pinyin": "hǎohǎo",
+          "hanviet": "Hảo Hảo",
+          "meaning_vi": "cẩn thận, chăm chỉ; tử tế",
+          "hsk": 4,
+          "word_id": "hsk4_291"
         },
         {
           "text": "休息",
@@ -432,7 +412,14 @@
     "hsk2_30",
     "hsk2_92",
     "hsk2_125",
-    "hsk2_120"
+    "hsk2_120",
+    "hsk1_47",
+    "hsk2_140",
+    "hsk1_111",
+    "hsk1_8",
+    "hsk3_204",
+    "hsk1_60",
+    "hsk3_42"
   ],
   "quiz": [
     {

@@ -61,20 +61,12 @@
           "word_id": "hsk1_39"
         },
         {
-          "text": "家",
-          "pinyin": "jiā",
-          "hanviet": "Gia",
-          "meaning_vi": "nhà",
+          "text": "家人",
+          "pinyin": "jiārén",
+          "hanviet": "Gia Nhân",
+          "meaning_vi": "gia đình",
           "hsk": 1,
-          "word_id": "hsk1_45"
-        },
-        {
-          "text": "人",
-          "pinyin": "rén",
-          "hanviet": "Nhân",
-          "meaning_vi": "người",
-          "hsk": 1,
-          "word_id": "hsk1_85"
+          "word_id": "hsk1_526"
         },
         {
           "text": "搬",
@@ -109,12 +101,12 @@
           "word_id": "hsk2_118"
         },
         {
-          "text": "房",
-          "unknown": true
-        },
-        {
-          "text": "子",
-          "unknown": true
+          "text": "房子",
+          "pinyin": "fángzi",
+          "hanviet": "Phòng Tử",
+          "meaning_vi": "nhà, căn nhà",
+          "hsk": 3,
+          "word_id": "hsk3_718"
         },
         {
           "text": "。"
@@ -130,20 +122,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "这",
-          "pinyin": "zhè",
-          "hanviet": "Giá",
-          "meaning_vi": "này",
+          "text": "这里",
+          "pinyin": "zhèlǐ",
+          "hanviet": "Giá Lý",
+          "meaning_vi": "đây (đại từ)",
           "hsk": 1,
-          "word_id": "hsk1_142"
-        },
-        {
-          "text": "里",
-          "pinyin": "lǐ",
-          "hanviet": "Lý",
-          "meaning_vi": "bên trong",
-          "hsk": 1,
-          "word_id": "hsk1_57"
+          "word_id": "hsk1_606"
         },
         {
           "text": "的",
@@ -226,12 +210,12 @@
           "word_id": "hsk2_118"
         },
         {
-          "text": "房",
-          "unknown": true
-        },
-        {
-          "text": "子",
-          "unknown": true
+          "text": "房子",
+          "pinyin": "fángzi",
+          "hanviet": "Phòng Tử",
+          "meaning_vi": "nhà, căn nhà",
+          "hsk": 3,
+          "word_id": "hsk3_718"
         },
         {
           "text": "离",
@@ -373,20 +357,12 @@
           "word_id": "hsk3_129"
         },
         {
-          "text": "过",
-          "pinyin": "guo",
-          "hanviet": "Quá",
-          "meaning_vi": "đã từng (trợ từ)",
+          "text": "过来",
+          "pinyin": "guòlái",
+          "hanviet": "Quá Lai",
+          "meaning_vi": "đến",
           "hsk": 2,
-          "word_id": "hsk2_36"
-        },
-        {
-          "text": "来",
-          "pinyin": "lái",
-          "hanviet": "Lai",
-          "meaning_vi": "đến, tới",
-          "hsk": 1,
-          "word_id": "hsk1_53"
+          "word_id": "hsk2_348"
         },
         {
           "text": "帮忙",
@@ -475,7 +451,11 @@
         },
         {
           "text": "净",
-          "unknown": true
+          "pinyin": "jìng",
+          "hanviet": "Tịnh",
+          "meaning_vi": "sạch sẽ, thanh tịnh; chỉ toàn (thuần)",
+          "hsk": 6,
+          "word_id": "hsk6_727"
         },
         {
           "text": "。"
@@ -494,7 +474,11 @@
     "hsk3_155",
     "hsk3_192",
     "hsk3_12",
-    "hsk3_72"
+    "hsk3_72",
+    "hsk1_89",
+    "hsk1_32",
+    "hsk1_111",
+    "hsk1_39"
   ],
   "quiz": [
     {

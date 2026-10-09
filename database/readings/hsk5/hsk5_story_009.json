@@ -20,15 +20,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "智"
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
+          "text": "智能",
+          "pinyin": "zhìnéng",
+          "hanviet": "Trí Năng",
+          "meaning_vi": "thông minh (smart, AI)",
+          "hsk": 5,
+          "word_id": "hsk5_1516"
         },
         {
           "text": "手机",
@@ -117,7 +114,12 @@
           "word_id": "hsk1_85"
         },
         {
-          "text": "们"
+          "text": "们",
+          "pinyin": "men",
+          "hanviet": "Môn",
+          "meaning_vi": "họ (hậu tố)",
+          "hsk": 1,
+          "word_id": "hsk1_538"
         },
         {
           "text": "日常",
@@ -181,10 +183,20 @@
           "word_id": "hsk4_458"
         },
         {
-          "text": "身"
+          "text": "身",
+          "pinyin": "shēn",
+          "hanviet": "Thân",
+          "meaning_vi": "thân, cơ thể; bộ (quần áo)",
+          "hsk": 4,
+          "word_id": "hsk4_641"
         },
         {
-          "text": "处"
+          "text": "处",
+          "pinyin": "chǔ",
+          "hanviet": "Xử",
+          "meaning_vi": "sống chung, đối xử; xử lý",
+          "hsk": 5,
+          "word_id": "hsk5_179"
         },
         {
           "text": "世界",
@@ -227,15 +239,12 @@
           "word_id": "hsk1_32"
         },
         {
-          "text": "角",
-          "pinyin": "jiǎo",
-          "hanviet": "Giác",
-          "meaning_vi": "góc; hào (tiền)",
-          "hsk": 3,
-          "word_id": "hsk3_119"
-        },
-        {
-          "text": "落"
+          "text": "角落",
+          "pinyin": "jiǎoluò",
+          "hanviet": "Giác Lạc",
+          "meaning_vi": "góc nhà, xó xỉnh, góc khuất",
+          "hsk": 6,
+          "word_id": "hsk6_677"
         },
         {
           "text": "，"
@@ -289,20 +298,12 @@
           "word_id": "hsk6_1626"
         },
         {
-          "text": "分",
-          "pinyin": "fēn",
-          "hanviet": "Phân",
-          "meaning_vi": "phút; điểm; phân (đơn vị tiền)",
-          "hsk": 3,
-          "word_id": "hsk3_69"
-        },
-        {
-          "text": "享",
-          "pinyin": "xiǎng",
-          "hanviet": "Hưởng",
-          "meaning_vi": "hưởng; thụ hưởng; hưởng thụ",
-          "hsk": 7,
-          "word_id": "hsk7_4480"
+          "text": "分享",
+          "pinyin": "fēnxiǎng",
+          "hanviet": "Phân Hưởng",
+          "meaning_vi": "chia sẻ",
+          "hsk": 5,
+          "word_id": "hsk5_356"
         },
         {
           "text": "文字",
@@ -369,7 +370,12 @@
           "word_id": "hsk3_202"
         },
         {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "热闹",
@@ -388,15 +394,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "点",
-          "pinyin": "diǎn",
-          "hanviet": "Điểm",
-          "meaning_vi": "giờ, điểm",
-          "hsk": 1,
-          "word_id": "hsk1_16"
-        },
-        {
-          "text": "赞"
+          "text": "点赞",
+          "pinyin": "diǎnzàn",
+          "hanviet": "Điểm Tán",
+          "meaning_vi": "bấm thích, like",
+          "hsk": 5,
+          "word_id": "hsk5_277"
         },
         {
           "text": "与",
@@ -407,24 +410,23 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "互"
-        },
-        {
-          "text": "动"
+          "text": "互动",
+          "pinyin": "hùdòng",
+          "hanviet": "Hỗ Động",
+          "meaning_vi": "tương tác, giao lưu",
+          "hsk": 5,
+          "word_id": "hsk5_492"
         },
         {
           "text": "，"
         },
         {
-          "text": "有",
-          "pinyin": "yǒu",
-          "hanviet": "Hữu",
-          "meaning_vi": "có",
-          "hsk": 1,
-          "word_id": "hsk1_136"
-        },
-        {
-          "text": "时"
+          "text": "有时",
+          "pinyin": "yǒushí",
+          "hanviet": "Hữu Thời",
+          "meaning_vi": "đôi khi",
+          "hsk": 2,
+          "word_id": "hsk2_480"
         },
         {
           "text": "却",
@@ -459,7 +461,12 @@
           "word_id": "hsk5_1156"
         },
         {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "的",
@@ -478,7 +485,12 @@
           "word_id": "hsk6_975"
         },
         {
-          "text": "感"
+          "text": "感",
+          "pinyin": "gǎn",
+          "hanviet": "Cảm",
+          "meaning_vi": "cảm giác (hậu tố: cảm…)",
+          "hsk": 4,
+          "word_id": "hsk4_224"
         },
         {
           "text": "。"
@@ -580,20 +592,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "陪",
-          "pinyin": "péi",
-          "hanviet": "Bồi",
-          "meaning_vi": "đi cùng, tháp tùng",
-          "hsk": 4,
-          "word_id": "hsk4_324"
-        },
-        {
-          "text": "伴",
-          "pinyin": "bàn",
-          "hanviet": "Bạn",
-          "meaning_vi": "bạn đồng hành, bồi bạn, cùng",
-          "hsk": 7,
-          "word_id": "hsk7_77"
+          "text": "陪伴",
+          "pinyin": "péibàn",
+          "hanviet": "Bồi Bạn",
+          "meaning_vi": "đồng hành, ở bên cạnh, làm bạn",
+          "hsk": 5,
+          "word_id": "hsk5_816"
         },
         {
           "text": "，"
@@ -615,10 +619,20 @@
           "word_id": "hsk4_358"
         },
         {
-          "text": "算"
+          "text": "算",
+          "pinyin": "suàn",
+          "hanviet": "Toán",
+          "meaning_vi": "tính, đếm; coi như",
+          "hsk": 4,
+          "word_id": "hsk4_708"
         },
         {
-          "text": "法"
+          "text": "法",
+          "pinyin": "fǎ",
+          "hanviet": "Pháp",
+          "meaning_vi": "luật, pháp luật; phương pháp",
+          "hsk": 4,
+          "word_id": "hsk4_187"
         },
         {
           "text": "都",
@@ -629,21 +643,28 @@
           "word_id": "hsk1_21"
         },
         {
-          "text": "无",
-          "pinyin": "wú",
-          "hanviet": "Vô",
-          "meaning_vi": "không có",
+          "text": "无法",
+          "pinyin": "wúfǎ",
+          "hanviet": "Vô Pháp",
+          "meaning_vi": "không thể, không có cách nào",
           "hsk": 4,
-          "word_id": "hsk4_456"
+          "word_id": "hsk4_782"
         },
         {
-          "text": "法"
+          "text": "替",
+          "pinyin": "tì",
+          "hanviet": "Thế",
+          "meaning_vi": "thay, hộ, giúp",
+          "hsk": 5,
+          "word_id": "hsk5_1123"
         },
         {
-          "text": "替"
-        },
-        {
-          "text": "代"
+          "text": "代",
+          "pinyin": "dài",
+          "hanviet": "Đại",
+          "meaning_vi": "thay, thay mặt; thế hệ, đời",
+          "hsk": 5,
+          "word_id": "hsk5_233"
         },
         {
           "text": "的",
@@ -751,15 +772,12 @@
           "text": "，"
         },
         {
-          "text": "才"
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
+          "text": "才能",
+          "pinyin": "cáinéng",
+          "hanviet": "Tài Năng",
+          "meaning_vi": "tài năng",
+          "hsk": 6,
+          "word_id": "hsk6_97"
         },
         {
           "text": "建立",
@@ -778,20 +796,12 @@
           "word_id": "hsk4_556"
         },
         {
-          "text": "深",
-          "pinyin": "shēn",
-          "hanviet": "Thâm",
-          "meaning_vi": "sâu",
-          "hsk": 4,
-          "word_id": "hsk4_372"
-        },
-        {
-          "text": "厚",
-          "pinyin": "hòu",
-          "hanviet": "Hậu",
-          "meaning_vi": "dày",
-          "hsk": 4,
-          "word_id": "hsk4_175"
+          "text": "深厚",
+          "pinyin": "shēnhòu",
+          "hanviet": "Thâm Hậu",
+          "meaning_vi": "sâu sắc, sâu đậm, thâm hậu",
+          "hsk": 5,
+          "word_id": "hsk5_983"
         },
         {
           "text": "的",
@@ -816,7 +826,6 @@
     }
   ],
   "vocabulary_spotlight": [
-    "hsk1_72",
     "hsk2_97",
     "hsk4_535",
     "hsk7_3560",
@@ -830,7 +839,8 @@
     "hsk5_1034",
     "hsk4_212",
     "hsk5_164",
-    "hsk5_134"
+    "hsk5_134",
+    "hsk5_1516"
   ],
   "quiz": [
     {

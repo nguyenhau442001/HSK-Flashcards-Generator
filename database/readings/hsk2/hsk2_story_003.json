@@ -75,7 +75,11 @@
         },
         {
           "text": "海",
-          "unknown": true
+          "pinyin": "hǎi",
+          "hanviet": "Hải",
+          "meaning_vi": "biển",
+          "hsk": 3,
+          "word_id": "hsk3_751"
         },
         {
           "text": "旅游",
@@ -252,7 +256,11 @@
         },
         {
           "text": "车",
-          "unknown": true
+          "pinyin": "chē",
+          "hanviet": "Xa",
+          "meaning_vi": "xe hơi",
+          "hsk": 1,
+          "word_id": "hsk1_35"
         },
         {
           "text": "。"
@@ -295,16 +303,12 @@
           "text": "，"
         },
         {
-          "text": "火",
-          "pinyin": "huǒ",
-          "hanviet": "Hoả",
-          "meaning_vi": "lửa",
-          "hsk": 4,
-          "word_id": "hsk4_184"
-        },
-        {
-          "text": "车",
-          "unknown": true
+          "text": "火车",
+          "pinyin": "huǒchē",
+          "hanviet": "Hoả Xa",
+          "meaning_vi": "xe lửa",
+          "hsk": 1,
+          "word_id": "hsk1_525"
         },
         {
           "text": "票",
@@ -430,8 +434,7 @@
           "word_id": "hsk1_31"
         },
         {
-          "text": "兴",
-          "unknown": true
+          "text": "兴"
         },
         {
           "text": "地",
@@ -479,7 +482,14 @@
     "hsk2_17",
     "hsk2_20",
     "hsk2_28",
-    "hsk2_80"
+    "hsk2_80",
+    "hsk1_115",
+    "hsk1_32",
+    "hsk1_137",
+    "hsk1_112",
+    "hsk1_83",
+    "hsk1_89",
+    "hsk3_751"
   ],
   "quiz": [
     {

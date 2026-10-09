@@ -44,15 +44,12 @@
           "word_id": "hsk1_55"
         },
         {
-          "text": "快",
-          "pinyin": "kuài",
-          "hanviet": "Khoái",
-          "meaning_vi": "nhanh",
-          "hsk": 2,
-          "word_id": "hsk2_59"
-        },
-        {
-          "text": "餐"
+          "text": "快餐",
+          "pinyin": "kuàicān",
+          "hanviet": "Khoái Xan",
+          "meaning_vi": "đồ ăn nhanh",
+          "hsk": 4,
+          "word_id": "hsk4_442"
         },
         {
           "text": "与",
@@ -63,20 +60,12 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "外",
-          "pinyin": "wài",
-          "hanviet": "Ngoại",
-          "meaning_vi": "ngoài",
-          "hsk": 2,
-          "word_id": "hsk2_105"
-        },
-        {
-          "text": "卖",
-          "pinyin": "mài",
-          "hanviet": "Mại",
-          "meaning_vi": "bán",
-          "hsk": 2,
-          "word_id": "hsk2_67"
+          "text": "外卖",
+          "pinyin": "wàimài",
+          "hanviet": "Ngoại Mại",
+          "meaning_vi": "đồ ăn mang đi; gọi đồ ăn",
+          "hsk": 3,
+          "word_id": "hsk3_945"
         },
         {
           "text": "的",
@@ -103,7 +92,12 @@
           "word_id": "hsk6_1209"
         },
         {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "，"
@@ -117,21 +111,20 @@
           "word_id": "hsk1_112"
         },
         {
-          "text": "常"
+          "text": "常常",
+          "pinyin": "chángcháng",
+          "hanviet": "Thường Thường",
+          "meaning_vi": "thường thường, thường xuyên",
+          "hsk": 3,
+          "word_id": "hsk3_655"
         },
         {
-          "text": "常"
-        },
-        {
-          "text": "忽"
-        },
-        {
-          "text": "略",
-          "pinyin": "lüè",
-          "hanviet": "Lược",
-          "meaning_vi": "sơ qua, lướt qua; hơi, một chút",
-          "hsk": 7,
-          "word_id": "hsk7_2698"
+          "text": "忽略",
+          "pinyin": "hūlüè",
+          "hanviet": "Hốt Lược",
+          "meaning_vi": "lơ là, bỏ sót, xem nhẹ",
+          "hsk": 6,
+          "word_id": "hsk6_557"
         },
         {
           "text": "了",
@@ -166,7 +159,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "纯"
+          "text": "纯",
+          "pinyin": "chún",
+          "hanviet": "Thuần",
+          "meaning_vi": "nguyên chất, thuần khiết, đơn thuần",
+          "hsk": 6,
+          "word_id": "hsk6_217"
         },
         {
           "text": "正",
@@ -233,7 +231,12 @@
           "word_id": "hsk1_85"
         },
         {
-          "text": "们"
+          "text": "们",
+          "pinyin": "men",
+          "hanviet": "Môn",
+          "meaning_vi": "họ (hậu tố)",
+          "hsk": 1,
+          "word_id": "hsk1_538"
         },
         {
           "text": "放",
@@ -268,15 +271,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "脚",
-          "pinyin": "jiǎo",
-          "hanviet": "Cước",
-          "meaning_vi": "chân",
-          "hsk": 3,
-          "word_id": "hsk3_120"
-        },
-        {
-          "text": "步"
+          "text": "脚步",
+          "pinyin": "jiǎobù",
+          "hanviet": "Cước Bộ",
+          "meaning_vi": "bước chân, nhịp bước",
+          "hsk": 5,
+          "word_id": "hsk5_591"
         },
         {
           "text": "，"
@@ -290,15 +290,12 @@
           "word_id": "hsk5_1015"
         },
         {
-          "text": "挑",
-          "pinyin": "tiǎo",
-          "hanviet": "Khiêu",
-          "meaning_vi": "khêu; gảy; chọc",
-          "hsk": 7,
-          "word_id": "hsk7_4044"
-        },
-        {
-          "text": "选"
+          "text": "挑选",
+          "pinyin": "tiāoxuǎn",
+          "hanviet": "Khiêu Tuyển",
+          "meaning_vi": "lựa chọn, tuyển chọn",
+          "hsk": 5,
+          "word_id": "hsk5_1129"
         },
         {
           "text": "新鲜",
@@ -315,18 +312,20 @@
           "text": "材"
         },
         {
-          "text": "并"
+          "text": "并",
+          "pinyin": "bìng",
+          "hanviet": "Tinh",
+          "meaning_vi": "và, đồng thời; hoàn toàn (không)",
+          "hsk": 4,
+          "word_id": "hsk4_39"
         },
         {
-          "text": "用",
-          "pinyin": "yòng",
-          "hanviet": "Dụng",
-          "meaning_vi": "dùng",
-          "hsk": 3,
-          "word_id": "hsk3_267"
-        },
-        {
-          "text": "心"
+          "text": "用心",
+          "pinyin": "yòngxīn",
+          "hanviet": "Dụng Tâm",
+          "meaning_vi": "để tâm, chăm chú, tận tụy",
+          "hsk": 6,
+          "word_id": "hsk6_1596"
         },
         {
           "text": "烹饪",
@@ -358,20 +357,12 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "家",
-          "pinyin": "jiā",
-          "hanviet": "Gia",
-          "meaning_vi": "nhà",
+          "text": "家人",
+          "pinyin": "jiārén",
+          "hanviet": "Gia Nhân",
+          "meaning_vi": "gia đình",
           "hsk": 1,
-          "word_id": "hsk1_45"
-        },
-        {
-          "text": "人",
-          "pinyin": "rén",
-          "hanviet": "Nhân",
-          "meaning_vi": "người",
-          "hsk": 1,
-          "word_id": "hsk1_85"
+          "word_id": "hsk1_526"
         },
         {
           "text": "朋友",
@@ -382,7 +373,12 @@
           "word_id": "hsk1_76"
         },
         {
-          "text": "围"
+          "text": "围",
+          "pinyin": "wéi",
+          "hanviet": "Vi",
+          "meaning_vi": "vây quanh, bao quanh",
+          "hsk": 5,
+          "word_id": "hsk5_1183"
         },
         {
           "text": "坐",
@@ -412,10 +408,20 @@
           "text": "，"
         },
         {
-          "text": "细"
+          "text": "细",
+          "pinyin": "xì",
+          "hanviet": "Tế",
+          "meaning_vi": "mảnh, nhỏ; tỉ mỉ",
+          "hsk": 4,
+          "word_id": "hsk4_791"
         },
         {
-          "text": "细"
+          "text": "细",
+          "pinyin": "xì",
+          "hanviet": "Tế",
+          "meaning_vi": "mảnh, nhỏ; tỉ mỉ",
+          "hsk": 4,
+          "word_id": "hsk4_791"
         },
         {
           "text": "品味",
@@ -442,7 +448,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "饭"
+          "text": "饭",
+          "pinyin": "fàn",
+          "hanviet": "Phạn",
+          "meaning_vi": "cơm",
+          "hsk": 1,
+          "word_id": "hsk1_514"
         },
         {
           "text": "菜",
@@ -573,7 +584,12 @@
           "word_id": "hsk7_4721"
         },
         {
-          "text": "气"
+          "text": "气",
+          "pinyin": "qì",
+          "hanviet": "Khí",
+          "meaning_vi": "khí, hơi; tức giận; làm tức",
+          "hsk": 4,
+          "word_id": "hsk4_570"
         },
         {
           "text": "，"
@@ -611,7 +627,12 @@
           "word_id": "hsk1_130"
         },
         {
-          "text": "天"
+          "text": "天",
+          "pinyin": "tiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "trời (danh từ, định lượng)",
+          "hsk": 1,
+          "word_id": "hsk1_573"
         },
         {
           "text": "奔波",
@@ -683,20 +704,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "懂",
-          "pinyin": "dǒng",
-          "hanviet": "Đổng",
-          "meaning_vi": "hiểu",
-          "hsk": 2,
-          "word_id": "hsk2_23"
-        },
-        {
-          "text": "得",
-          "pinyin": "de",
-          "hanviet": "Đắc",
-          "meaning_vi": "được (trợ từ)",
-          "hsk": 2,
-          "word_id": "hsk2_19"
+          "text": "懂得",
+          "pinyin": "dǒngde",
+          "hanviet": "Đổng Đắc",
+          "meaning_vi": "hiểu, biết",
+          "hsk": 3,
+          "word_id": "hsk3_699"
         },
         {
           "text": "享受",
@@ -782,7 +795,12 @@
           "word_id": "hsk1_130"
         },
         {
-          "text": "天"
+          "text": "天",
+          "pinyin": "tiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "trời (danh từ, định lượng)",
+          "hsk": 1,
+          "word_id": "hsk1_573"
         },
         {
           "text": "也",
@@ -845,18 +863,18 @@
     "hsk1_139",
     "hsk3_234",
     "hsk1_55",
-    "hsk2_59",
     "hsk4_535",
-    "hsk2_105",
-    "hsk2_67",
     "hsk1_15",
     "hsk6_1469",
     "hsk6_1209",
     "hsk1_112",
-    "hsk7_2698",
     "hsk5_1071",
     "hsk6_105",
-    "hsk5_597"
+    "hsk5_597",
+    "hsk4_442",
+    "hsk3_945",
+    "hsk3_1060",
+    "hsk3_655"
   ],
   "quiz": [
     {

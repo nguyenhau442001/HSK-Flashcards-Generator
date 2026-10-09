@@ -28,7 +28,12 @@
           "word_id": "hsk4_372"
         },
         {
-          "text": "海"
+          "text": "海",
+          "pinyin": "hǎi",
+          "hanviet": "Hải",
+          "meaning_vi": "biển",
+          "hsk": 3,
+          "word_id": "hsk3_751"
         },
         {
           "text": "是",
@@ -90,7 +95,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "未"
+          "text": "未",
+          "pinyin": "wèi",
+          "hanviet": "Vị",
+          "meaning_vi": "chưa, không",
+          "hsk": 6,
+          "word_id": "hsk6_1377"
         },
         {
           "text": "知"
@@ -232,7 +242,12 @@
           "word_id": "hsk4_372"
         },
         {
-          "text": "海"
+          "text": "海",
+          "pinyin": "hǎi",
+          "hanviet": "Hải",
+          "meaning_vi": "biển",
+          "hsk": 3,
+          "word_id": "hsk3_751"
         },
         {
           "text": "潜水",
@@ -297,34 +312,28 @@
           "word_id": "hsk1_45"
         },
         {
-          "text": "们"
+          "text": "们",
+          "pinyin": "men",
+          "hanviet": "Môn",
+          "meaning_vi": "họ (hậu tố)",
+          "hsk": 1,
+          "word_id": "hsk1_538"
         },
         {
-          "text": "得",
-          "pinyin": "de",
-          "hanviet": "Đắc",
-          "meaning_vi": "được (trợ từ)",
-          "hsk": 2,
-          "word_id": "hsk2_19"
+          "text": "得以",
+          "pinyin": "déyǐ",
+          "hanviet": "Đắc Dĩ",
+          "meaning_vi": "nhờ đó mà có thể, được",
+          "hsk": 6,
+          "word_id": "hsk6_283"
         },
         {
-          "text": "以",
-          "pinyin": "yǐ",
-          "hanviet": "Dĩ",
-          "meaning_vi": "bằng, dùng",
-          "hsk": 4,
-          "word_id": "hsk4_512"
-        },
-        {
-          "text": "深",
-          "pinyin": "shēn",
-          "hanviet": "Thâm",
-          "meaning_vi": "sâu",
-          "hsk": 4,
-          "word_id": "hsk4_372"
-        },
-        {
-          "text": "入"
+          "text": "深入",
+          "pinyin": "shēnrù",
+          "hanviet": "Thâm Nhập",
+          "meaning_vi": "đi sâu vào, sâu sắc, sâu rộng",
+          "hsk": 5,
+          "word_id": "hsk5_985"
         },
         {
           "text": "万",
@@ -343,7 +352,12 @@
           "word_id": "hsk3_163"
         },
         {
-          "text": "海"
+          "text": "海",
+          "pinyin": "hǎi",
+          "hanviet": "Hải",
+          "meaning_vi": "biển",
+          "hsk": 3,
+          "word_id": "hsk3_751"
         },
         {
           "text": "底",
@@ -487,7 +501,12 @@
           "word_id": "hsk1_98"
         },
         {
-          "text": "压"
+          "text": "压",
+          "pinyin": "yā",
+          "hanviet": "Áp",
+          "meaning_vi": "đè, ép",
+          "hsk": 4,
+          "word_id": "hsk4_839"
         },
         {
           "text": "的",
@@ -498,10 +517,20 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "海"
+          "text": "海",
+          "pinyin": "hǎi",
+          "hanviet": "Hải",
+          "meaning_vi": "biển",
+          "hsk": 3,
+          "word_id": "hsk3_751"
         },
         {
-          "text": "沟"
+          "text": "沟",
+          "pinyin": "gōu",
+          "hanviet": "Câu",
+          "meaning_vi": "mương nước, rãnh, hào",
+          "hsk": 6,
+          "word_id": "hsk6_471"
         },
         {
           "text": "深",
@@ -512,7 +541,12 @@
           "word_id": "hsk4_372"
         },
         {
-          "text": "处"
+          "text": "处",
+          "pinyin": "chǔ",
+          "hanviet": "Xử",
+          "meaning_vi": "sống chung, đối xử; xử lý",
+          "hsk": 5,
+          "word_id": "hsk5_179"
         },
         {
           "text": "，"
@@ -601,31 +635,20 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "这",
-          "pinyin": "zhè",
-          "hanviet": "Giá",
-          "meaning_vi": "này",
+          "text": "这些",
+          "pinyin": "zhèxiē",
+          "hanviet": "Giá Ta",
+          "meaning_vi": "những (đại từ) này",
           "hsk": 1,
-          "word_id": "hsk1_142"
+          "word_id": "hsk1_608"
         },
         {
-          "text": "些",
-          "pinyin": "xiē",
-          "hanviet": "Ta",
-          "meaning_vi": "vài, một ít",
-          "hsk": 1,
-          "word_id": "hsk1_123"
-        },
-        {
-          "text": "珍"
-        },
-        {
-          "text": "贵",
-          "pinyin": "guì",
-          "hanviet": "Quý",
-          "meaning_vi": "đắt, quý",
-          "hsk": 2,
-          "word_id": "hsk2_35"
+          "text": "珍贵",
+          "pinyin": "zhēnguì",
+          "hanviet": "Trân Quý",
+          "meaning_vi": "quý giá",
+          "hsk": 5,
+          "word_id": "hsk5_1483"
         },
         {
           "text": "发现",
@@ -732,10 +755,12 @@
           "word_id": "hsk7_1458"
         },
         {
-          "text": "认"
-        },
-        {
-          "text": "知"
+          "text": "认知",
+          "pinyin": "rènzhī",
+          "hanviet": "Nhận Tri",
+          "meaning_vi": "nhận thức",
+          "hsk": 6,
+          "word_id": "hsk6_1107"
         },
         {
           "text": "。"
@@ -767,7 +792,12 @@
           "word_id": "hsk4_372"
         },
         {
-          "text": "海"
+          "text": "海",
+          "pinyin": "hǎi",
+          "hanviet": "Hải",
+          "meaning_vi": "biển",
+          "hsk": 3,
+          "word_id": "hsk3_751"
         },
         {
           "text": "脆弱",
@@ -813,7 +843,12 @@
           "word_id": "hsk1_96"
         },
         {
-          "text": "全"
+          "text": "全",
+          "pinyin": "quán",
+          "hanviet": "Toàn",
+          "meaning_vi": "toàn bộ, đầy đủ; hoàn toàn",
+          "hsk": 4,
+          "word_id": "hsk4_598"
         },
         {
           "text": "人类",
@@ -867,7 +902,12 @@
           "word_id": "hsk7_2139"
         },
         {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "不",
@@ -878,7 +918,12 @@
           "word_id": "hsk1_8"
         },
         {
-          "text": "可"
+          "text": "可",
+          "pinyin": "kě",
+          "hanviet": "Khả",
+          "meaning_vi": "nhưng; thật là (nhấn mạnh)",
+          "hsk": 3,
+          "word_id": "hsk3_814"
         },
         {
           "text": "推卸",

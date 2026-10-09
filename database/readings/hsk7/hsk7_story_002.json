@@ -36,10 +36,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "中"
-        },
-        {
-          "text": "华"
+          "text": "中华",
+          "pinyin": "Zhōnghuá",
+          "hanviet": "Trung Hoa",
+          "meaning_vi": "trung Quốc",
+          "hsk": 5,
+          "word_id": "hsk5_1520"
         },
         {
           "text": "古代",
@@ -75,18 +77,12 @@
           "word_id": "hsk1_96"
         },
         {
-          "text": "中"
-        },
-        {
-          "text": "华"
-        },
-        {
-          "text": "民族",
-          "pinyin": "mínzú",
-          "hanviet": "Dân Tộc",
-          "meaning_vi": "dân tộc",
-          "hsk": 4,
-          "word_id": "hsk4_308"
+          "text": "中华民族",
+          "pinyin": "Zhōnghuá Mínzú",
+          "hanviet": "Trung Hoa Dân Tộc",
+          "meaning_vi": "dân tộc Trung Hoa",
+          "hsk": 5,
+          "word_id": "hsk5_1521"
         },
         {
           "text": "数",
@@ -239,7 +235,12 @@
           "word_id": "hsk5_315"
         },
         {
-          "text": "纸"
+          "text": "纸",
+          "pinyin": "zhǐ",
+          "hanviet": "Chỉ",
+          "meaning_vi": "giấy",
+          "hsk": 3,
+          "word_id": "hsk3_1055"
         },
         {
           "text": "张",
@@ -258,10 +259,20 @@
           "word_id": "hsk7_2498"
         },
         {
-          "text": "脆"
+          "text": "脆",
+          "pinyin": "cuì",
+          "hanviet": "Thuý",
+          "meaning_vi": "giòn (đồ ăn giòn, tiếng giòn tan)",
+          "hsk": 6,
+          "word_id": "hsk6_227"
         },
         {
-          "text": "化"
+          "text": "化",
+          "pinyin": "huà",
+          "hanviet": "Hoa",
+          "meaning_vi": "hóa (-ize); tan chảy, biến đổi",
+          "hsk": 5,
+          "word_id": "hsk5_497"
         },
         {
           "text": "、"
@@ -276,7 +287,12 @@
           "text": "霉"
         },
         {
-          "text": "变"
+          "text": "变",
+          "pinyin": "biàn",
+          "hanviet": "Biến",
+          "meaning_vi": "thay đổi, biến thành",
+          "hsk": 3,
+          "word_id": "hsk3_626"
         },
         {
           "text": "等",
@@ -356,10 +372,12 @@
           "word_id": "hsk7_2160"
         },
         {
-          "text": "扫"
-        },
-        {
-          "text": "描"
+          "text": "扫描",
+          "pinyin": "sǎomiáo",
+          "hanviet": "Tảo Miêu",
+          "meaning_vi": "quét (mã, tài liệu)",
+          "hsk": 6,
+          "word_id": "hsk6_1132"
         },
         {
           "text": "与",
@@ -378,15 +396,12 @@
           "word_id": "hsk4_403"
         },
         {
-          "text": "图"
-        },
-        {
-          "text": "像",
-          "pinyin": "xiàng",
-          "hanviet": "Tượng",
-          "meaning_vi": "giống như",
-          "hsk": 3,
-          "word_id": "hsk3_242"
+          "text": "图像",
+          "pinyin": "túxiàng",
+          "hanviet": "Đồ Tượng",
+          "meaning_vi": "hình ảnh, đồ họa",
+          "hsk": 6,
+          "word_id": "hsk6_1332"
         },
         {
           "text": "修复",
@@ -424,20 +439,12 @@
           "text": "，"
         },
         {
-          "text": "使",
-          "pinyin": "shǐ",
-          "hanviet": "Sử",
-          "meaning_vi": "làm cho, khiến cho",
-          "hsk": 4,
-          "word_id": "hsk4_386"
-        },
-        {
-          "text": "得",
-          "pinyin": "de",
-          "hanviet": "Đắc",
-          "meaning_vi": "được (trợ từ)",
-          "hsk": 2,
-          "word_id": "hsk2_19"
+          "text": "使得",
+          "pinyin": "shǐde",
+          "hanviet": "Sử Đắc",
+          "meaning_vi": "khiến cho, làm cho",
+          "hsk": 5,
+          "word_id": "hsk5_1026"
         },
         {
           "text": "残",
@@ -480,15 +487,12 @@
           "word_id": "hsk1_139"
         },
         {
-          "text": "计算",
-          "pinyin": "jìsuàn",
-          "hanviet": "Kế Toán",
-          "meaning_vi": "tính toán",
+          "text": "计算机",
+          "pinyin": "jìsuànjī",
+          "hanviet": "Kế Toán Cơ",
+          "meaning_vi": "máy tính",
           "hsk": 5,
-          "word_id": "hsk5_870"
-        },
-        {
-          "text": "机"
+          "word_id": "hsk5_548"
         },
         {
           "text": "虚拟",
@@ -507,7 +511,12 @@
           "word_id": "hsk3_202"
         },
         {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "重现",
@@ -518,15 +527,12 @@
           "word_id": "hsk7_548"
         },
         {
-          "text": "原"
-        },
-        {
-          "text": "本",
-          "pinyin": "běn",
-          "hanviet": "Bản",
-          "meaning_vi": "cuốn (lượng từ)",
-          "hsk": 1,
-          "word_id": "hsk1_6"
+          "text": "原本",
+          "pinyin": "yuánběn",
+          "hanviet": "Nguyên Bản",
+          "meaning_vi": "vốn dĩ, ban đầu",
+          "hsk": 6,
+          "word_id": "hsk6_1615"
         },
         {
           "text": "风貌",
@@ -598,7 +604,12 @@
           "word_id": "hsk4_565"
         },
         {
-          "text": "图"
+          "text": "图",
+          "pinyin": "tú",
+          "hanviet": "Đồ",
+          "meaning_vi": "hình vẽ, bản đồ, tranh",
+          "hsk": 4,
+          "word_id": "hsk4_752"
         },
         {
           "text": "谱",
@@ -612,13 +623,20 @@
           "text": "，"
         },
         {
-          "text": "学"
+          "text": "学者",
+          "pinyin": "xuézhě",
+          "hanviet": "Học Giả",
+          "meaning_vi": "học giả, nhà nghiên cứu",
+          "hsk": 5,
+          "word_id": "hsk5_1314"
         },
         {
-          "text": "者"
-        },
-        {
-          "text": "们"
+          "text": "们",
+          "pinyin": "men",
+          "hanviet": "Môn",
+          "meaning_vi": "họ (hậu tố)",
+          "hsk": 1,
+          "word_id": "hsk1_538"
         },
         {
           "text": "可以",
@@ -643,24 +661,23 @@
           "text": "料"
         },
         {
-          "text": "障"
-        },
-        {
-          "text": "碍"
+          "text": "障碍",
+          "pinyin": "zhàng’ài",
+          "hanviet": "Chướng Ngại",
+          "meaning_vi": "chướng ngại vật, trở ngại",
+          "hsk": 6,
+          "word_id": "hsk6_1667"
         },
         {
           "text": "，"
         },
         {
-          "text": "高",
-          "pinyin": "gāo",
-          "hanviet": "Cao",
-          "meaning_vi": "cao",
-          "hsk": 2,
-          "word_id": "hsk2_29"
-        },
-        {
-          "text": "效"
+          "text": "高效",
+          "pinyin": "gāoxiào",
+          "hanviet": "Cao Hiệu",
+          "meaning_vi": "hiệu quả cao",
+          "hsk": 5,
+          "word_id": "hsk5_391"
         },
         {
           "text": "检"
@@ -677,15 +694,12 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "深",
-          "pinyin": "shēn",
-          "hanviet": "Thâm",
-          "meaning_vi": "sâu",
-          "hsk": 4,
-          "word_id": "hsk4_372"
-        },
-        {
-          "text": "度"
+          "text": "深度",
+          "pinyin": "shēndù",
+          "hanviet": "Thâm Độ",
+          "meaning_vi": "độ sâu; chuyên sâu, sâu sắc",
+          "hsk": 5,
+          "word_id": "hsk5_981"
         },
         {
           "text": "挖掘",
@@ -835,7 +849,12 @@
           "word_id": "hsk3_229"
         },
         {
-          "text": "全"
+          "text": "全",
+          "pinyin": "quán",
+          "hanviet": "Toàn",
+          "meaning_vi": "toàn bộ, đầy đủ; hoàn toàn",
+          "hsk": 4,
+          "word_id": "hsk4_598"
         },
         {
           "text": "人类",
@@ -846,15 +865,12 @@
           "word_id": "hsk5_389"
         },
         {
-          "text": "共"
-        },
-        {
-          "text": "享",
-          "pinyin": "xiǎng",
-          "hanviet": "Hưởng",
-          "meaning_vi": "hưởng; thụ hưởng; hưởng thụ",
-          "hsk": 7,
-          "word_id": "hsk7_4480"
+          "text": "共享",
+          "pinyin": "gòngxiǎng",
+          "hanviet": "Cộng Hưởng",
+          "meaning_vi": "chia sẻ, dùng chung",
+          "hsk": 5,
+          "word_id": "hsk5_419"
         },
         {
           "text": "经典",
@@ -873,15 +889,12 @@
           "word_id": "hsk5_1138"
         },
         {
-          "text": "开",
-          "pinyin": "kāi",
-          "hanviet": "Khai",
-          "meaning_vi": "mở, lái (xe)",
-          "hsk": 1,
-          "word_id": "hsk1_49"
-        },
-        {
-          "text": "启"
+          "text": "开启",
+          "pinyin": "kāiqǐ",
+          "hanviet": "Khai Khởi",
+          "meaning_vi": "mở ra, khởi đầu (kỷ nguyên mới, hành trình mới)",
+          "hsk": 6,
+          "word_id": "hsk6_763"
         },
         {
           "text": "了",
@@ -935,7 +948,6 @@
     "hsk5_166",
     "hsk6_2137",
     "hsk1_96",
-    "hsk4_308",
     "hsk5_1083",
     "hsk2_84",
     "hsk1_74",
@@ -944,7 +956,8 @@
     "hsk4_535",
     "hsk5_1242",
     "hsk3_149",
-    "hsk6_1173"
+    "hsk6_1173",
+    "hsk5_1520"
   ],
   "quiz": [
     {

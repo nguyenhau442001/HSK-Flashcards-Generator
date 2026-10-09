@@ -95,7 +95,12 @@
           "word_id": "hsk6_2382"
         },
         {
-          "text": "性"
+          "text": "性",
+          "pinyin": "xìng",
+          "hanviet": "Tính",
+          "meaning_vi": "tính (hậu tố: tính chất)",
+          "hsk": 4,
+          "word_id": "hsk4_828"
         },
         {
           "text": "罕见",
@@ -106,10 +111,12 @@
           "word_id": "hsk6_1031"
         },
         {
-          "text": "疾"
-        },
-        {
-          "text": "病"
+          "text": "疾病",
+          "pinyin": "jíbìng",
+          "hanviet": "Tật Bệnh",
+          "meaning_vi": "căn bệnh",
+          "hsk": 5,
+          "word_id": "hsk5_528"
         },
         {
           "text": "带",
@@ -189,7 +196,12 @@
           "word_id": "hsk1_45"
         },
         {
-          "text": "们"
+          "text": "们",
+          "pinyin": "men",
+          "hanviet": "Môn",
+          "meaning_vi": "họ (hậu tố)",
+          "hsk": 1,
+          "word_id": "hsk1_538"
         },
         {
           "text": "可以",
@@ -300,13 +312,23 @@
           "word_id": "hsk7_5324"
         },
         {
-          "text": "病"
+          "text": "病",
+          "pinyin": "bìng",
+          "hanviet": "Bệnh",
+          "meaning_vi": "bệnh",
+          "hsk": 1,
+          "word_id": "hsk1_502"
         },
         {
           "text": "突"
         },
         {
-          "text": "变"
+          "text": "变",
+          "pinyin": "biàn",
+          "hanviet": "Biến",
+          "meaning_vi": "thay đổi, biến thành",
+          "hsk": 3,
+          "word_id": "hsk3_626"
         },
         {
           "text": "的",
@@ -384,7 +406,12 @@
           "text": "触"
         },
         {
-          "text": "及"
+          "text": "及",
+          "pinyin": "jí",
+          "hanviet": "Cập",
+          "meaning_vi": "và, cùng với",
+          "hsk": 5,
+          "word_id": "hsk5_525"
         },
         {
           "text": "人类",
@@ -425,10 +452,12 @@
           "word_id": "hsk5_776"
         },
         {
-          "text": "医"
-        },
-        {
-          "text": "疗"
+          "text": "医疗",
+          "pinyin": "yīliáo",
+          "hanviet": "Y Liệu",
+          "meaning_vi": "y tế, khám chữa bệnh",
+          "hsk": 5,
+          "word_id": "hsk5_1348"
         },
         {
           "text": "目的",
@@ -455,27 +484,31 @@
           "word_id": "hsk6_1120"
         },
         {
-          "text": "增"
+          "text": "增强",
+          "pinyin": "zēngqiáng",
+          "hanviet": "Tăng Cường",
+          "meaning_vi": "tăng cường",
+          "hsk": 5,
+          "word_id": "hsk5_1457"
         },
         {
-          "text": "强"
-        },
-        {
-          "text": "时"
+          "text": "时",
+          "pinyin": "shí",
+          "hanviet": "Thời",
+          "meaning_vi": "thời gian (danh từ, số lượng)",
+          "hsk": 2,
+          "word_id": "hsk2_431"
         },
         {
           "text": "，"
         },
         {
-          "text": "引"
-        },
-        {
-          "text": "发",
-          "pinyin": "fā",
-          "hanviet": "Phát",
-          "meaning_vi": "phát ra, gửi",
-          "hsk": 3,
-          "word_id": "hsk3_63"
+          "text": "引发",
+          "pinyin": "yǐnfā",
+          "hanviet": "Dẫn Phát",
+          "meaning_vi": "gây ra, làm bùng phát, khơi mào",
+          "hsk": 6,
+          "word_id": "hsk6_1581"
         },
         {
           "text": "了",
@@ -510,15 +543,12 @@
           "word_id": "hsk7_2704"
         },
         {
-          "text": "争"
-        },
-        {
-          "text": "议",
-          "pinyin": "yì",
-          "hanviet": "Nghị",
-          "meaning_vi": "bàn bạc; thảo luận; nghị sự",
-          "hsk": 7,
-          "word_id": "hsk7_4847"
+          "text": "争议",
+          "pinyin": "zhēngyì",
+          "hanviet": "Tranh Nghị",
+          "meaning_vi": "tranh cãi, tranh chấp",
+          "hsk": 6,
+          "word_id": "hsk6_1687"
         },
         {
           "text": "。"
@@ -534,10 +564,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "科"
-        },
-        {
-          "text": "技"
+          "text": "科技",
+          "pinyin": "kējì",
+          "hanviet": "Khoa Kỹ",
+          "meaning_vi": "khoa học kỹ thuật, công nghệ",
+          "hsk": 4,
+          "word_id": "hsk4_425"
         },
         {
           "text": "的",
@@ -631,10 +663,12 @@
           "word_id": "hsk1_43"
         },
         {
-          "text": "加"
-        },
-        {
-          "text": "剧"
+          "text": "加剧",
+          "pinyin": "jiājù",
+          "hanviet": "Gia Kịch",
+          "meaning_vi": "tăng nhanh, gia tăng gay gắt, trầm trọng hơn",
+          "hsk": 6,
+          "word_id": "hsk6_632"
         },
         {
           "text": "社会",
@@ -653,7 +687,12 @@
           "word_id": "hsk1_8"
         },
         {
-          "text": "公"
+          "text": "公",
+          "pinyin": "gōng",
+          "hanviet": "Công",
+          "meaning_vi": "công cộng; công bằng; giống đực",
+          "hsk": 6,
+          "word_id": "hsk6_450"
         },
         {
           "text": "甚至",
@@ -832,15 +871,12 @@
           "word_id": "hsk7_848"
         },
         {
-          "text": "之",
-          "pinyin": "zhī",
-          "hanviet": "Chi",
-          "meaning_vi": "của (trợ từ văn viết)",
+          "text": "之间",
+          "pinyin": "zhījiān",
+          "hanviet": "Chi Gian",
+          "meaning_vi": "giữa",
           "hsk": 4,
-          "word_id": "hsk4_563"
-        },
-        {
-          "text": "间"
+          "word_id": "hsk4_942"
         },
         {
           "text": "维持",
@@ -851,10 +887,12 @@
           "word_id": "hsk6_2118"
         },
         {
-          "text": "理"
-        },
-        {
-          "text": "性"
+          "text": "理性",
+          "pinyin": "lǐxìng",
+          "hanviet": "Lý Tính",
+          "meaning_vi": "lý tính, lý trí",
+          "hsk": 6,
+          "word_id": "hsk6_834"
         },
         {
           "text": "平衡",

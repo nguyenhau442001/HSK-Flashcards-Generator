@@ -55,7 +55,12 @@
           "text": "迭"
         },
         {
-          "text": "代"
+          "text": "代",
+          "pinyin": "dài",
+          "hanviet": "Đại",
+          "meaning_vi": "thay, thay mặt; thế hệ, đời",
+          "hsk": 5,
+          "word_id": "hsk5_233"
         },
         {
           "text": "，"
@@ -80,10 +85,12 @@
           "text": "构"
         },
         {
-          "text": "全"
-        },
-        {
-          "text": "球"
+          "text": "全球",
+          "pinyin": "quánqiú",
+          "hanviet": "Toàn Cầu",
+          "meaning_vi": "toàn cầu",
+          "hsk": 4,
+          "word_id": "hsk4_601"
         },
         {
           "text": "金融",
@@ -118,7 +125,12 @@
           "word_id": "hsk7_845"
         },
         {
-          "text": "架"
+          "text": "架",
+          "pinyin": "jià",
+          "hanviet": "Giá",
+          "meaning_vi": "chiếc, cỗ (máy bay, đàn); giá, kệ",
+          "hsk": 5,
+          "word_id": "hsk5_560"
         },
         {
           "text": "构"
@@ -132,10 +144,12 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "服"
-        },
-        {
-          "text": "务"
+          "text": "服务",
+          "pinyin": "fúwù",
+          "hanviet": "Phục Vụ",
+          "meaning_vi": "phục vụ",
+          "hsk": 3,
+          "word_id": "hsk3_725"
         },
         {
           "text": "模式",
@@ -167,15 +181,12 @@
           "word_id": "hsk5_1199"
         },
         {
-          "text": "支",
-          "pinyin": "zhī",
-          "hanviet": "Chi",
-          "meaning_vi": "nhánh, cây (lượng từ)",
-          "hsk": 5,
-          "word_id": "hsk5_600"
-        },
-        {
-          "text": "付"
+          "text": "支付",
+          "pinyin": "zhīfù",
+          "hanviet": "Chi Phó",
+          "meaning_vi": "chi trả, thanh toán",
+          "hsk": 4,
+          "word_id": "hsk4_940"
         },
         {
           "text": "与",
@@ -219,20 +230,12 @@
           "text": "，"
         },
         {
-          "text": "使",
-          "pinyin": "shǐ",
-          "hanviet": "Sử",
-          "meaning_vi": "làm cho, khiến cho",
-          "hsk": 4,
-          "word_id": "hsk4_386"
-        },
-        {
-          "text": "得",
-          "pinyin": "de",
-          "hanviet": "Đắc",
-          "meaning_vi": "được (trợ từ)",
-          "hsk": 2,
-          "word_id": "hsk2_19"
+          "text": "使得",
+          "pinyin": "shǐde",
+          "hanviet": "Sử Đắc",
+          "meaning_vi": "khiến cho, làm cho",
+          "hsk": 5,
+          "word_id": "hsk5_1026"
         },
         {
           "text": "偏远",
@@ -262,7 +265,12 @@
           "text": "农"
         },
         {
-          "text": "户"
+          "text": "户",
+          "pinyin": "hù",
+          "hanviet": "Hộ",
+          "meaning_vi": "hộ, hộ gia đình",
+          "hsk": 6,
+          "word_id": "hsk6_560"
         },
         {
           "text": "也",
@@ -281,15 +289,12 @@
           "word_id": "hsk1_72"
         },
         {
-          "text": "便",
-          "pinyin": "biàn",
-          "hanviet": "Tiện",
-          "meaning_vi": "thì, liền (liên từ)",
-          "hsk": 5,
-          "word_id": "hsk5_663"
-        },
-        {
-          "text": "捷"
+          "text": "便捷",
+          "pinyin": "biànjié",
+          "hanviet": "Tiện Tiệp",
+          "meaning_vi": "nhanh chóng tiện lợi, thuận tiện",
+          "hsk": 6,
+          "word_id": "hsk6_58"
         },
         {
           "text": "地",
@@ -385,56 +390,44 @@
           "word_id": "hsk1_39"
         },
         {
-          "text": "人工",
-          "pinyin": "réngōng",
-          "hanviet": "Nhân Công",
-          "meaning_vi": "nhân công, nhân tạo",
+          "text": "人工智能",
+          "pinyin": "réngōng zhìnéng",
+          "hanviet": "Nhân Công Trí Năng",
+          "meaning_vi": "trí tuệ nhân tạo",
           "hsk": 6,
-          "word_id": "hsk6_1767"
+          "word_id": "hsk6_1094"
         },
         {
-          "text": "智"
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
-        },
-        {
-          "text": "算"
-        },
-        {
-          "text": "法"
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
-        },
-        {
-          "text": "够",
-          "pinyin": "gòu",
-          "hanviet": "Cú",
-          "meaning_vi": "đủ",
+          "text": "算",
+          "pinyin": "suàn",
+          "hanviet": "Toán",
+          "meaning_vi": "tính, đếm; coi như",
           "hsk": 4,
-          "word_id": "hsk4_145"
+          "word_id": "hsk4_708"
         },
         {
-          "text": "有",
-          "pinyin": "yǒu",
-          "hanviet": "Hữu",
-          "meaning_vi": "có",
-          "hsk": 1,
-          "word_id": "hsk1_136"
+          "text": "法",
+          "pinyin": "fǎ",
+          "hanviet": "Pháp",
+          "meaning_vi": "luật, pháp luật; phương pháp",
+          "hsk": 4,
+          "word_id": "hsk4_187"
         },
         {
-          "text": "效"
+          "text": "能够",
+          "pinyin": "nénggòu",
+          "hanviet": "Năng Cú",
+          "meaning_vi": "có thể",
+          "hsk": 4,
+          "word_id": "hsk4_532"
+        },
+        {
+          "text": "有效",
+          "pinyin": "yǒuxiào",
+          "hanviet": "Hữu Hiệu",
+          "meaning_vi": "có hiệu lực, hiệu quả",
+          "hsk": 4,
+          "word_id": "hsk4_892"
         },
         {
           "text": "评估",
@@ -445,15 +438,12 @@
           "word_id": "hsk6_1623"
         },
         {
-          "text": "信"
-        },
-        {
-          "text": "用",
-          "pinyin": "yòng",
-          "hanviet": "Dụng",
-          "meaning_vi": "dùng",
-          "hsk": 3,
-          "word_id": "hsk3_267"
+          "text": "信用",
+          "pinyin": "xìnyòng",
+          "hanviet": "Tín Dụng",
+          "meaning_vi": "uy tín, chữ tín, tín dụng",
+          "hsk": 5,
+          "word_id": "hsk5_1285"
         },
         {
           "text": "风险",
@@ -507,10 +497,12 @@
           "word_id": "hsk6_1218"
         },
         {
-          "text": "服"
-        },
-        {
-          "text": "务"
+          "text": "服务",
+          "pinyin": "fúwù",
+          "hanviet": "Phục Vụ",
+          "meaning_vi": "phục vụ",
+          "hsk": 3,
+          "word_id": "hsk3_725"
         },
         {
           "text": "的",
@@ -553,15 +545,12 @@
           "text": "，"
         },
         {
-          "text": "数字",
-          "pinyin": "shùzì",
-          "hanviet": "Sổ Tự",
-          "meaning_vi": "số, chữ số",
-          "hsk": 4,
-          "word_id": "hsk4_403"
-        },
-        {
-          "text": "化"
+          "text": "数字化",
+          "pinyin": "shùzìhuà",
+          "hanviet": "Sổ Tự Hoa",
+          "meaning_vi": "số hóa",
+          "hsk": 6,
+          "word_id": "hsk6_1229"
         },
         {
           "text": "在",
@@ -588,26 +577,20 @@
           "word_id": "hsk1_53"
         },
         {
-          "text": "高",
-          "pinyin": "gāo",
-          "hanviet": "Cao",
-          "meaning_vi": "cao",
-          "hsk": 2,
-          "word_id": "hsk2_29"
-        },
-        {
-          "text": "效"
-        },
-        {
-          "text": "便",
-          "pinyin": "biàn",
-          "hanviet": "Tiện",
-          "meaning_vi": "thì, liền (liên từ)",
+          "text": "高效",
+          "pinyin": "gāoxiào",
+          "hanviet": "Cao Hiệu",
+          "meaning_vi": "hiệu quả cao",
           "hsk": 5,
-          "word_id": "hsk5_663"
+          "word_id": "hsk5_391"
         },
         {
-          "text": "捷"
+          "text": "便捷",
+          "pinyin": "biànjié",
+          "hanviet": "Tiện Tiệp",
+          "meaning_vi": "nhanh chóng tiện lợi, thuận tiện",
+          "hsk": 6,
+          "word_id": "hsk6_58"
         },
         {
           "text": "的",
@@ -693,20 +676,12 @@
           "word_id": "hsk4_3"
         },
         {
-          "text": "提",
-          "pinyin": "tí",
-          "hanviet": "Đề",
-          "meaning_vi": "mang, xách; nêu ra",
+          "text": "提出",
+          "pinyin": "tíchū",
+          "hanviet": "Đề Xuất",
+          "meaning_vi": "đưa ra, nêu ra",
           "hsk": 4,
-          "word_id": "hsk4_430"
-        },
-        {
-          "text": "出",
-          "pinyin": "chū",
-          "hanviet": "Xuất",
-          "meaning_vi": "ra, đi ra",
-          "hsk": 2,
-          "word_id": "hsk2_11"
+          "word_id": "hsk4_727"
         },
         {
           "text": "了",
@@ -725,15 +700,12 @@
           "word_id": "hsk6_2336"
         },
         {
-          "text": "考"
-        },
-        {
-          "text": "验",
-          "pinyin": "yàn",
-          "hanviet": "Nghiệm",
-          "meaning_vi": "kiểm tra; kiểm nghiệm; thử nghiệm",
-          "hsk": 7,
-          "word_id": "hsk7_4756"
+          "text": "考验",
+          "pinyin": "kǎoyàn",
+          "hanviet": "Khảo Nghiệm",
+          "meaning_vi": "thử thách, khảo nghiệm",
+          "hsk": 6,
+          "word_id": "hsk6_778"
         },
         {
           "text": "。"
@@ -782,15 +754,12 @@
           "text": "惠"
         },
         {
-          "text": "共"
-        },
-        {
-          "text": "享",
-          "pinyin": "xiǎng",
-          "hanviet": "Hưởng",
-          "meaning_vi": "hưởng; thụ hưởng; hưởng thụ",
-          "hsk": 7,
-          "word_id": "hsk7_4480"
+          "text": "共享",
+          "pinyin": "gòngxiǎng",
+          "hanviet": "Cộng Hưởng",
+          "meaning_vi": "chia sẻ, dùng chung",
+          "hsk": 5,
+          "word_id": "hsk5_419"
         },
         {
           "text": "的",
@@ -860,18 +829,20 @@
           "word_id": "hsk7_102"
         },
         {
-          "text": "性"
+          "text": "性",
+          "pinyin": "xìng",
+          "hanviet": "Tính",
+          "meaning_vi": "tính (hậu tố: tính chất)",
+          "hsk": 4,
+          "word_id": "hsk4_828"
         },
         {
-          "text": "增"
-        },
-        {
-          "text": "长",
-          "pinyin": "cháng",
-          "hanviet": "Trường",
-          "meaning_vi": "dài",
-          "hsk": 2,
-          "word_id": "hsk2_9"
+          "text": "增长",
+          "pinyin": "zēngzhǎng",
+          "hanviet": "Tăng Trưởng",
+          "meaning_vi": "tăng trưởng, tăng lên",
+          "hsk": 4,
+          "word_id": "hsk4_922"
         },
         {
           "text": "的",
@@ -916,9 +887,9 @@
     "hsk4_535",
     "hsk6_1521",
     "hsk5_1199",
-    "hsk5_600",
     "hsk5_246",
-    "hsk4_386"
+    "hsk5_233",
+    "hsk4_601"
   ],
   "quiz": [
     {

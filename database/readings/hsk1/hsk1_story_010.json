@@ -311,20 +311,20 @@
           "word_id": "hsk1_5"
         },
         {
-          "text": "看",
-          "pinyin": "kàn",
-          "hanviet": "Khán",
-          "meaning_vi": "nhìn, xem",
-          "hsk": 1,
-          "word_id": "hsk1_50"
+          "text": "看中",
+          "pinyin": "kànzhòng",
+          "hanviet": "Khán Trung",
+          "meaning_vi": "chấm, ưng ý, vừa mắt",
+          "hsk": 6,
+          "word_id": "hsk6_772"
         },
         {
-          "text": "中国",
-          "pinyin": "zhōngguó",
-          "hanviet": "Trung Quốc",
-          "meaning_vi": "Trung Quốc",
+          "text": "国",
+          "pinyin": "guó",
+          "hanviet": "Quốc",
+          "meaning_vi": "đất nước",
           "hsk": 1,
-          "word_id": "hsk1_143"
+          "word_id": "hsk1_518"
         },
         {
           "text": "朋友",
@@ -467,7 +467,10 @@
     "hsk1_77",
     "hsk1_120",
     "hsk1_76",
-    "hsk1_106"
+    "hsk1_106",
+    "hsk1_112",
+    "hsk2_126",
+    "hsk1_150"
   ],
   "quiz": [
     {

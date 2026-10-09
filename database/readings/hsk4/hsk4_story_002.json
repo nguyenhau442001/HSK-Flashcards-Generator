@@ -139,11 +139,19 @@
         },
         {
           "text": "古",
-          "unknown": true
+          "pinyin": "gǔ",
+          "hanviet": "Cổ",
+          "meaning_vi": "cổ, cổ xưa, ngày xưa",
+          "hsk": 5,
+          "word_id": "hsk5_422"
         },
         {
           "text": "城",
-          "unknown": true
+          "pinyin": "chéng",
+          "hanviet": "Thành",
+          "meaning_vi": "thành phố; thành (tường thành)",
+          "hsk": 4,
+          "word_id": "hsk4_77"
         },
         {
           "text": "里",
@@ -163,7 +171,11 @@
         },
         {
           "text": "时",
-          "unknown": true
+          "pinyin": "shí",
+          "hanviet": "Thời",
+          "meaning_vi": "thời gian (danh từ, số lượng)",
+          "hsk": 2,
+          "word_id": "hsk2_431"
         },
         {
           "text": "，"
@@ -356,20 +368,12 @@
           "word_id": "hsk2_148"
         },
         {
-          "text": "过",
-          "pinyin": "guo",
-          "hanviet": "Quá",
-          "meaning_vi": "đã từng (trợ từ)",
+          "text": "过来",
+          "pinyin": "guòlái",
+          "hanviet": "Quá Lai",
+          "meaning_vi": "đến",
           "hsk": 2,
-          "word_id": "hsk2_36"
-        },
-        {
-          "text": "来",
-          "pinyin": "lái",
-          "hanviet": "Lai",
-          "meaning_vi": "đến, tới",
-          "hsk": 1,
-          "word_id": "hsk1_53"
+          "word_id": "hsk2_348"
         },
         {
           "text": "。"
@@ -629,7 +633,11 @@
         },
         {
           "text": "们",
-          "unknown": true
+          "pinyin": "men",
+          "hanviet": "Môn",
+          "meaning_vi": "họ (hậu tố)",
+          "hsk": 1,
+          "word_id": "hsk1_538"
         },
         {
           "text": "的",
@@ -664,7 +672,11 @@
     "hsk4_468",
     "hsk4_224",
     "hsk4_231",
-    "hsk3_192"
+    "hsk3_192",
+    "hsk2_87",
+    "hsk1_15",
+    "hsk1_95",
+    "hsk1_111"
   ],
   "quiz": [
     {

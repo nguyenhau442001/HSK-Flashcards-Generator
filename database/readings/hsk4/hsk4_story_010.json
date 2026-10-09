@@ -51,26 +51,30 @@
         },
         {
           "text": "中",
-          "unknown": true
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "，"
         },
         {
-          "text": "请",
-          "pinyin": "qǐng",
-          "hanviet": "Thỉnh",
-          "meaning_vi": "xin mời",
-          "hsk": 1,
-          "word_id": "hsk1_82"
+          "text": "请客",
+          "pinyin": "qǐngkè",
+          "hanviet": "Thỉnh Khách",
+          "meaning_vi": "mời khách, khao",
+          "hsk": 3,
+          "word_id": "hsk3_891"
         },
         {
-          "text": "客人",
-          "pinyin": "kèrén",
-          "hanviet": "Khách Nhân",
-          "meaning_vi": "khách",
-          "hsk": 3,
-          "word_id": "hsk3_139"
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
         },
         {
           "text": "喝",
@@ -159,7 +163,11 @@
       "tokens": [
         {
           "text": "泡",
-          "unknown": true
+          "pinyin": "pào",
+          "hanviet": "Phao",
+          "meaning_vi": "ngâm, pha (trà)",
+          "hsk": 6,
+          "word_id": "hsk6_974"
         },
         {
           "text": "茶",
@@ -230,7 +238,11 @@
         },
         {
           "text": "步",
-          "unknown": true
+          "pinyin": "bù",
+          "hanviet": "Bộ",
+          "meaning_vi": "bước",
+          "hsk": 4,
+          "word_id": "hsk4_49"
         },
         {
           "text": "都",
@@ -295,7 +307,11 @@
         },
         {
           "text": "泡",
-          "unknown": true
+          "pinyin": "pào",
+          "hanviet": "Phao",
+          "meaning_vi": "ngâm, pha (trà)",
+          "hsk": 6,
+          "word_id": "hsk6_974"
         },
         {
           "text": "好",
@@ -339,7 +355,11 @@
         },
         {
           "text": "气",
-          "unknown": true
+          "pinyin": "qì",
+          "hanviet": "Khí",
+          "meaning_vi": "khí, hơi; tức giận; làm tức",
+          "hsk": 4,
+          "word_id": "hsk4_570"
         },
         {
           "text": "扑",
@@ -350,8 +370,7 @@
           "word_id": "hsk6_1634"
         },
         {
-          "text": "鼻",
-          "unknown": true
+          "text": "鼻"
         },
         {
           "text": "，"
@@ -406,30 +425,33 @@
         },
         {
           "text": "味",
-          "unknown": true
+          "pinyin": "wèi",
+          "hanviet": "Vị",
+          "meaning_vi": "vị; mùi",
+          "hsk": 4,
+          "word_id": "hsk4_772"
         },
         {
           "text": "，"
         },
         {
           "text": "但",
-          "unknown": true
+          "pinyin": "dàn",
+          "hanviet": "Đãn",
+          "meaning_vi": "nhưng, nhưng mà",
+          "hsk": 2,
+          "word_id": "hsk2_330"
         },
         {
-          "text": "回",
-          "pinyin": "huí",
-          "hanviet": "Hồi",
-          "meaning_vi": "trở về",
-          "hsk": 1,
-          "word_id": "hsk1_42"
+          "text": "回味",
+          "pinyin": "huíwèi",
+          "hanviet": "Hồi Vị",
+          "meaning_vi": "chiêm nghiệm, dư vị",
+          "hsk": 7,
+          "word_id": "hsk7_1787"
         },
         {
-          "text": "味",
-          "unknown": true
-        },
-        {
-          "text": "甘",
-          "unknown": true
+          "text": "甘"
         },
         {
           "text": "甜",
@@ -502,7 +524,11 @@
         },
         {
           "text": "清",
-          "unknown": true
+          "pinyin": "qīng",
+          "hanviet": "Thanh",
+          "meaning_vi": "trong vắt, trong trẻo; thanh toán",
+          "hsk": 6,
+          "word_id": "hsk6_1052"
         },
         {
           "text": "茶",
@@ -548,16 +574,12 @@
           "word_id": "hsk3_46"
         },
         {
-          "text": "谈",
-          "pinyin": "tán",
-          "hanviet": "Đàm",
-          "meaning_vi": "nói chuyện, bàn",
-          "hsk": 4,
-          "word_id": "hsk4_421"
-        },
-        {
-          "text": "论",
-          "unknown": true
+          "text": "谈论",
+          "pinyin": "tánlùn",
+          "hanviet": "Đàm Luận",
+          "meaning_vi": "bàn luận, trò chuyện",
+          "hsk": 6,
+          "word_id": "hsk6_1261"
         },
         {
           "text": "生活",
@@ -613,8 +635,7 @@
           "word_id": "hsk1_10"
         },
         {
-          "text": "杯",
-          "unknown": true
+          "text": "杯"
         },
         {
           "text": "里",
@@ -628,12 +649,12 @@
           "text": "，"
         },
         {
-          "text": "蕴",
-          "unknown": true
-        },
-        {
-          "text": "含",
-          "unknown": true
+          "text": "蕴含",
+          "pinyin": "yùnhán",
+          "hanviet": "Uẩn Hàm",
+          "meaning_vi": "hàm chứa, ẩn chứa bên trong",
+          "hsk": 7,
+          "word_id": "hsk7_5078"
         },
         {
           "text": "着",
@@ -736,9 +757,7 @@
     "hsk4_369",
     "hsk4_262",
     "hsk6_1613",
-    "hsk4_346",
-    "hsk4_533",
-    "hsk4_278"
+    "hsk4_346"
   ],
   "quiz": [
     {

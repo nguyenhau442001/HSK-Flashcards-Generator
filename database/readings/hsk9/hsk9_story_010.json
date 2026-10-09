@@ -20,15 +20,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "当",
-          "pinyin": "dāng",
-          "hanviet": "Đương",
-          "meaning_vi": "khi, lúc",
-          "hsk": 4,
-          "word_id": "hsk4_76"
-        },
-        {
-          "text": "今"
+          "text": "当今",
+          "pinyin": "dāngjīn",
+          "hanviet": "Đương Kim",
+          "meaning_vi": "ngày nay, hiện nay, đương thời",
+          "hsk": 6,
+          "word_id": "hsk6_270"
         },
         {
           "text": "世界",
@@ -66,7 +63,12 @@
           "word_id": "hsk1_74"
         },
         {
-          "text": "未"
+          "text": "未",
+          "pinyin": "wèi",
+          "hanviet": "Vị",
+          "meaning_vi": "chưa, không",
+          "hsk": 6,
+          "word_id": "hsk6_1377"
         },
         {
           "text": "有",
@@ -93,7 +95,12 @@
           "word_id": "hsk1_14"
         },
         {
-          "text": "变"
+          "text": "变",
+          "pinyin": "biàn",
+          "hanviet": "Biến",
+          "meaning_vi": "thay đổi, biến thành",
+          "hsk": 3,
+          "word_id": "hsk3_626"
         },
         {
           "text": "局"
@@ -172,7 +179,12 @@
           "word_id": "hsk7_2949"
         },
         {
-          "text": "流"
+          "text": "流",
+          "pinyin": "liú",
+          "hanviet": "Lưu",
+          "meaning_vi": "chảy",
+          "hsk": 4,
+          "word_id": "hsk4_483"
         },
         {
           "text": "给",
@@ -183,10 +195,12 @@
           "word_id": "hsk2_32"
         },
         {
-          "text": "全"
-        },
-        {
-          "text": "球"
+          "text": "全球",
+          "pinyin": "quánqiú",
+          "hanviet": "Toàn Cầu",
+          "meaning_vi": "toàn cầu",
+          "hsk": 4,
+          "word_id": "hsk4_601"
         },
         {
           "text": "秩序",
@@ -293,13 +307,28 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "国"
+          "text": "国",
+          "pinyin": "guó",
+          "hanviet": "Quốc",
+          "meaning_vi": "đất nước",
+          "hsk": 1,
+          "word_id": "hsk1_518"
         },
         {
-          "text": "强"
+          "text": "强",
+          "pinyin": "qiáng",
+          "hanviet": "Cường",
+          "meaning_vi": "mạnh, giỏi",
+          "hsk": 4,
+          "word_id": "hsk4_579"
         },
         {
-          "text": "必"
+          "text": "必",
+          "pinyin": "bì",
+          "hanviet": "Tất",
+          "meaning_vi": "ắt hẳn, nhất định",
+          "hsk": 5,
+          "word_id": "hsk5_49"
         },
         {
           "text": "霸"
@@ -313,20 +342,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "西",
-          "pinyin": "xī",
-          "hanviet": "Tây",
-          "meaning_vi": "phía tây",
+          "text": "西方",
+          "pinyin": "xīfāng",
+          "hanviet": "Tây Phương",
+          "meaning_vi": "phía tây; phương Tây",
           "hsk": 3,
-          "word_id": "hsk3_233"
-        },
-        {
-          "text": "方",
-          "pinyin": "fāng",
-          "hanviet": "Phương",
-          "meaning_vi": "vuông, phương",
-          "hsk": 5,
-          "word_id": "hsk5_774"
+          "word_id": "hsk3_961"
         },
         {
           "text": "现实",
@@ -345,10 +366,20 @@
           "word_id": "hsk7_5407"
         },
         {
-          "text": "强"
+          "text": "强",
+          "pinyin": "qiáng",
+          "hanviet": "Cường",
+          "meaning_vi": "mạnh, giỏi",
+          "hsk": 4,
+          "word_id": "hsk4_579"
         },
         {
-          "text": "权"
+          "text": "权",
+          "pinyin": "quán",
+          "hanviet": "Quyền",
+          "meaning_vi": "quyền, quyền lợi, quyền lực",
+          "hsk": 5,
+          "word_id": "hsk5_898"
         },
         {
           "text": "逻辑",
@@ -362,21 +393,20 @@
           "text": "，"
         },
         {
-          "text": "早"
+          "text": "早已",
+          "pinyin": "zǎoyǐ",
+          "hanviet": "Tảo Dĩ",
+          "meaning_vi": "đã từ lâu, sớm đã",
+          "hsk": 5,
+          "word_id": "hsk5_1452"
         },
         {
-          "text": "已"
-        },
-        {
-          "text": "无",
-          "pinyin": "wú",
-          "hanviet": "Vô",
-          "meaning_vi": "không có",
+          "text": "无法",
+          "pinyin": "wúfǎ",
+          "hanviet": "Vô Pháp",
+          "meaning_vi": "không thể, không có cách nào",
           "hsk": 4,
-          "word_id": "hsk4_456"
-        },
-        {
-          "text": "法"
+          "word_id": "hsk4_782"
         },
         {
           "text": "妥善",
@@ -395,7 +425,12 @@
           "word_id": "hsk4_224"
         },
         {
-          "text": "并"
+          "text": "并",
+          "pinyin": "bìng",
+          "hanviet": "Tinh",
+          "meaning_vi": "và, đồng thời; hoàn toàn (không)",
+          "hsk": 4,
+          "word_id": "hsk4_39"
         },
         {
           "text": "解决",
@@ -430,16 +465,20 @@
           "word_id": "hsk2_20"
         },
         {
-          "text": "全"
+          "text": "全球",
+          "pinyin": "quánqiú",
+          "hanviet": "Toàn Cầu",
+          "meaning_vi": "toàn cầu",
+          "hsk": 4,
+          "word_id": "hsk4_601"
         },
         {
-          "text": "球"
-        },
-        {
-          "text": "公"
-        },
-        {
-          "text": "共"
+          "text": "公共",
+          "pinyin": "gōnggòng",
+          "hanviet": "Công Cộng",
+          "meaning_vi": "công cộng",
+          "hsk": 4,
+          "word_id": "hsk4_252"
         },
         {
           "text": "挑战",
@@ -487,15 +526,12 @@
           "word_id": "hsk7_1415"
         },
         {
-          "text": "理"
-        },
-        {
-          "text": "念",
-          "pinyin": "niàn",
-          "hanviet": "Niệm",
-          "meaning_vi": "đọc, niệm",
-          "hsk": 5,
-          "word_id": "hsk5_982"
+          "text": "理念",
+          "pinyin": "lǐniàn",
+          "hanviet": "Lý Niệm",
+          "meaning_vi": "quan niệm, triết lý, ý niệm",
+          "hsk": 6,
+          "word_id": "hsk6_833"
         },
         {
           "text": "汲取",
@@ -514,15 +550,12 @@
           "word_id": "hsk1_55"
         },
         {
-          "text": "天"
-        },
-        {
-          "text": "下",
-          "pinyin": "xià",
-          "hanviet": "Hạ",
-          "meaning_vi": "dưới",
-          "hsk": 1,
-          "word_id": "hsk1_115"
+          "text": "天下",
+          "pinyin": "tiānxià",
+          "hanviet": "Thiên Hạ",
+          "meaning_vi": "thiên hạ, thế giới, khắp nơi",
+          "hsk": 6,
+          "word_id": "hsk6_1293"
         },
         {
           "text": "大",
@@ -533,7 +566,12 @@
           "word_id": "hsk1_14"
         },
         {
-          "text": "同"
+          "text": "同",
+          "pinyin": "tóng",
+          "hanviet": "Đồng",
+          "meaning_vi": "cùng, cùng với; giống nhau",
+          "hsk": 5,
+          "word_id": "hsk5_1141"
         },
         {
           "text": "与",
@@ -574,31 +612,20 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "东",
-          "pinyin": "dōng",
-          "hanviet": "Đông",
-          "meaning_vi": "phía đông",
+          "text": "东方",
+          "pinyin": "dōngfāng",
+          "hanviet": "Đông Phương",
+          "meaning_vi": "phía đông; phương Đông",
           "hsk": 3,
-          "word_id": "hsk3_53"
+          "word_id": "hsk3_696"
         },
         {
-          "text": "方",
-          "pinyin": "fāng",
-          "hanviet": "Phương",
-          "meaning_vi": "vuông, phương",
+          "text": "古老",
+          "pinyin": "gǔlǎo",
+          "hanviet": "Cổ Lão",
+          "meaning_vi": "cổ xưa",
           "hsk": 5,
-          "word_id": "hsk5_774"
-        },
-        {
-          "text": "古"
-        },
-        {
-          "text": "老",
-          "pinyin": "lǎo",
-          "hanviet": "Lão",
-          "meaning_vi": "già",
-          "hsk": 3,
-          "word_id": "hsk3_146"
+          "word_id": "hsk5_425"
         },
         {
           "text": "智慧",
@@ -722,7 +749,12 @@
           "word_id": "hsk5_190"
         },
         {
-          "text": "共"
+          "text": "共",
+          "pinyin": "gòng",
+          "hanviet": "Cộng",
+          "meaning_vi": "tổng cộng; cùng",
+          "hsk": 4,
+          "word_id": "hsk4_258"
         },
         {
           "text": "赢",
@@ -784,15 +816,12 @@
           "word_id": "hsk7_5337"
         },
         {
-          "text": "推",
-          "pinyin": "tuī",
-          "hanviet": "Suy",
-          "meaning_vi": "đẩy",
-          "hsk": 4,
-          "word_id": "hsk4_442"
-        },
-        {
-          "text": "动"
+          "text": "推动",
+          "pinyin": "tuīdòng",
+          "hanviet": "Suy Động",
+          "meaning_vi": "thúc đẩy, đẩy mạnh",
+          "hsk": 5,
+          "word_id": "hsk5_1158"
         },
         {
           "text": "构建",
@@ -803,10 +832,12 @@
           "word_id": "hsk7_1421"
         },
         {
-          "text": "相"
-        },
-        {
-          "text": "互"
+          "text": "相互",
+          "pinyin": "xiānghù",
+          "hanviet": "Tương Hỗ",
+          "meaning_vi": "lẫn nhau",
+          "hsk": 4,
+          "word_id": "hsk4_805"
         },
         {
           "text": "尊重",
@@ -828,15 +859,12 @@
           "word_id": "hsk5_158"
         },
         {
-          "text": "正",
-          "pinyin": "zhèng",
-          "hanviet": "Chinh",
-          "meaning_vi": "vừa, đang (trạng từ)",
-          "hsk": 5,
-          "word_id": "hsk5_597"
-        },
-        {
-          "text": "义"
+          "text": "正义",
+          "pinyin": "zhèngyì",
+          "hanviet": "Chính Nghĩa",
+          "meaning_vi": "chính nghĩa, công lý",
+          "hsk": 6,
+          "word_id": "hsk6_1692"
         },
         {
           "text": "的",
@@ -847,16 +875,20 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "全"
+          "text": "全球",
+          "pinyin": "quánqiú",
+          "hanviet": "Toàn Cầu",
+          "meaning_vi": "toàn cầu",
+          "hsk": 4,
+          "word_id": "hsk4_601"
         },
         {
-          "text": "球"
-        },
-        {
-          "text": "治"
-        },
-        {
-          "text": "理"
+          "text": "治理",
+          "pinyin": "zhìlǐ",
+          "hanviet": "Trị Lý",
+          "meaning_vi": "cải tạo, xử lý, trị lý (môi trường/sông suối)",
+          "hsk": 6,
+          "word_id": "hsk6_1715"
         },
         {
           "text": "新",
@@ -915,7 +947,12 @@
           "word_id": "hsk7_4522"
         },
         {
-          "text": "并"
+          "text": "并",
+          "pinyin": "bìng",
+          "hanviet": "Tinh",
+          "meaning_vi": "và, đồng thời; hoàn toàn (không)",
+          "hsk": 4,
+          "word_id": "hsk4_39"
         },
         {
           "text": "进",
@@ -1004,21 +1041,23 @@
           "text": "巨"
         },
         {
-          "text": "轮"
+          "text": "轮",
+          "pinyin": "lún",
+          "hanviet": "Luân",
+          "meaning_vi": "bánh xe; vòng, lượt (lượng từ: 第一轮)",
+          "hsk": 6,
+          "word_id": "hsk6_875"
         },
         {
           "text": "，"
         },
         {
-          "text": "才"
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
+          "text": "才能",
+          "pinyin": "cáinéng",
+          "hanviet": "Tài Năng",
+          "meaning_vi": "tài năng",
+          "hsk": 6,
+          "word_id": "hsk6_97"
         },
         {
           "text": "穿越",
@@ -1089,7 +1128,6 @@
     }
   ],
   "vocabulary_spotlight": [
-    "hsk4_76",
     "hsk3_202",
     "hsk7_5264",
     "hsk2_3",
@@ -1103,7 +1141,8 @@
     "hsk7_291",
     "hsk4_535",
     "hsk4_9",
-    "hsk7_2949"
+    "hsk7_2949",
+    "hsk6_270"
   ],
   "quiz": [
     {

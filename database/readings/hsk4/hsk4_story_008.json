@@ -221,20 +221,12 @@
           "word_id": "hsk4_55"
         },
         {
-          "text": "各",
-          "pinyin": "gè",
-          "hanviet": "Các",
-          "meaning_vi": "mỗi, từng",
+          "text": "各种",
+          "pinyin": "gèzhǒng",
+          "hanviet": "Các Chủng",
+          "meaning_vi": "các loại, đủ loại",
           "hsk": 4,
-          "word_id": "hsk4_140"
-        },
-        {
-          "text": "种",
-          "pinyin": "zhǒng",
-          "hanviet": "Chủng",
-          "meaning_vi": "loại, giống (lượng từ)",
-          "hsk": 3,
-          "word_id": "hsk3_289"
+          "word_id": "hsk4_248"
         },
         {
           "text": "毛病",
@@ -421,12 +413,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "睡",
-          "unknown": true
-        },
-        {
-          "text": "眠",
-          "unknown": true
+          "text": "睡眠",
+          "pinyin": "shuìmián",
+          "hanviet": "Thuỵ Miên",
+          "meaning_vi": "giấc ngủ",
+          "hsk": 5,
+          "word_id": "hsk5_1073"
         },
         {
           "text": "和",
@@ -437,16 +429,12 @@
           "word_id": "hsk1_39"
         },
         {
-          "text": "适",
-          "unknown": true
-        },
-        {
-          "text": "当",
-          "pinyin": "dāng",
-          "hanviet": "Đương",
-          "meaning_vi": "khi, lúc",
-          "hsk": 4,
-          "word_id": "hsk4_76"
+          "text": "适当",
+          "pinyin": "shìdàng",
+          "hanviet": "Quát Đương",
+          "meaning_vi": "thích hợp",
+          "hsk": 5,
+          "word_id": "hsk5_1029"
         },
         {
           "text": "放松",
@@ -473,12 +461,12 @@
           "word_id": "hsk1_96"
         },
         {
-          "text": "减",
-          "unknown": true
-        },
-        {
-          "text": "压",
-          "unknown": true
+          "text": "减压",
+          "pinyin": "jiǎnyā",
+          "hanviet": "Giảm Áp",
+          "meaning_vi": "giảm áp lực, xả stress",
+          "hsk": 6,
+          "word_id": "hsk6_655"
         },
         {
           "text": "的",
@@ -553,16 +541,12 @@
           "text": "，"
         },
         {
-          "text": "才",
-          "unknown": true
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
+          "text": "才能",
+          "pinyin": "cáinéng",
+          "hanviet": "Tài Năng",
+          "meaning_vi": "tài năng",
+          "hsk": 6,
+          "word_id": "hsk6_97"
         },
         {
           "text": "积极",
@@ -590,7 +574,11 @@
         },
         {
           "text": "中",
-          "unknown": true
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "的",
@@ -601,20 +589,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "各",
-          "pinyin": "gè",
-          "hanviet": "Các",
-          "meaning_vi": "mỗi, từng",
+          "text": "各种",
+          "pinyin": "gèzhǒng",
+          "hanviet": "Các Chủng",
+          "meaning_vi": "các loại, đủ loại",
           "hsk": 4,
-          "word_id": "hsk4_140"
-        },
-        {
-          "text": "种",
-          "pinyin": "zhǒng",
-          "hanviet": "Chủng",
-          "meaning_vi": "loại, giống (lượng từ)",
-          "hsk": 3,
-          "word_id": "hsk3_289"
+          "word_id": "hsk4_248"
         },
         {
           "text": "挑战",
@@ -644,7 +624,8 @@
     "hsk4_117",
     "hsk4_111",
     "hsk4_478",
-    "hsk4_188"
+    "hsk4_188",
+    "hsk5_1155"
   ],
   "quiz": [
     {

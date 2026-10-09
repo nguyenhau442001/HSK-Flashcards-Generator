@@ -20,26 +20,20 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "应",
-          "pinyin": "yìng",
-          "hanviet": "Ưng",
-          "meaning_vi": "đáp ứng, ứng phó, ứng lời",
-          "hsk": 7,
-          "word_id": "hsk7_4949"
+          "text": "应对",
+          "pinyin": "yìngduì",
+          "hanviet": "Ứng Đối",
+          "meaning_vi": "ứng phó, đối phó, xử lý",
+          "hsk": 5,
+          "word_id": "hsk5_1385"
         },
         {
-          "text": "对",
-          "pinyin": "duì",
-          "hanviet": "Đối",
-          "meaning_vi": "đối với, hướng về (giới từ)",
-          "hsk": 2,
-          "word_id": "hsk2_24"
-        },
-        {
-          "text": "全"
-        },
-        {
-          "text": "球"
+          "text": "全球",
+          "pinyin": "quánqiú",
+          "hanviet": "Toàn Cầu",
+          "meaning_vi": "toàn cầu",
+          "hsk": 4,
+          "word_id": "hsk4_601"
         },
         {
           "text": "气候",
@@ -85,21 +79,20 @@
           "text": "，"
         },
         {
-          "text": "加"
+          "text": "加速",
+          "pinyin": "jiāsù",
+          "hanviet": "Gia Tốc",
+          "meaning_vi": "tăng tốc, đẩy nhanh",
+          "hsk": 5,
+          "word_id": "hsk5_556"
         },
         {
-          "text": "速"
-        },
-        {
-          "text": "推",
-          "pinyin": "tuī",
-          "hanviet": "Suy",
-          "meaning_vi": "đẩy",
-          "hsk": 4,
-          "word_id": "hsk4_442"
-        },
-        {
-          "text": "动"
+          "text": "推动",
+          "pinyin": "tuīdòng",
+          "hanviet": "Suy Động",
+          "meaning_vi": "thúc đẩy, đẩy mạnh",
+          "hsk": 5,
+          "word_id": "hsk5_1158"
         },
         {
           "text": "能源",
@@ -126,26 +119,20 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "绿",
-          "pinyin": "lǜ",
-          "hanviet": "Lục",
-          "meaning_vi": "màu xanh lá",
-          "hsk": 3,
-          "word_id": "hsk3_158"
+          "text": "绿色",
+          "pinyin": "lǜsè",
+          "hanviet": "Lục Sắc",
+          "meaning_vi": "xanh",
+          "hsk": 2,
+          "word_id": "hsk2_396"
         },
         {
-          "text": "色"
-        },
-        {
-          "text": "低",
-          "pinyin": "dī",
-          "hanviet": "Đê",
-          "meaning_vi": "thấp",
-          "hsk": 4,
-          "word_id": "hsk4_89"
-        },
-        {
-          "text": "碳"
+          "text": "低碳",
+          "pinyin": "dītàn",
+          "hanviet": "Đê Thán",
+          "meaning_vi": "carbon thấp",
+          "hsk": 6,
+          "word_id": "hsk6_288"
         },
         {
           "text": "转型",
@@ -156,7 +143,12 @@
           "word_id": "hsk7_5445"
         },
         {
-          "text": "已"
+          "text": "已",
+          "pinyin": "yǐ",
+          "hanviet": "Dĩ",
+          "meaning_vi": "đã",
+          "hsk": 4,
+          "word_id": "hsk4_866"
         },
         {
           "text": "成为",
@@ -183,7 +175,12 @@
           "word_id": "hsk4_140"
         },
         {
-          "text": "国"
+          "text": "国",
+          "pinyin": "guó",
+          "hanviet": "Quốc",
+          "meaning_vi": "đất nước",
+          "hsk": 1,
+          "word_id": "hsk1_518"
         },
         {
           "text": "的",
@@ -223,7 +220,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "风"
+          "text": "风",
+          "pinyin": "fēng",
+          "hanviet": "Phong",
+          "meaning_vi": "gió",
+          "hsk": 3,
+          "word_id": "hsk3_723"
         },
         {
           "text": "能",
@@ -242,31 +244,20 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "太阳",
-          "pinyin": "tàiyáng",
-          "hanviet": "Thái Dương",
-          "meaning_vi": "mặt trời",
-          "hsk": 3,
-          "word_id": "hsk3_212"
+          "text": "太阳能",
+          "pinyin": "tàiyángnéng",
+          "hanviet": "Thái Dương Năng",
+          "meaning_vi": "năng lượng mặt trời",
+          "hsk": 6,
+          "word_id": "hsk6_1260"
         },
         {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
-        },
-        {
-          "text": "发",
-          "pinyin": "fā",
-          "hanviet": "Phát",
-          "meaning_vi": "phát ra, gửi",
-          "hsk": 3,
-          "word_id": "hsk3_63"
-        },
-        {
-          "text": "电"
+          "text": "发电",
+          "pinyin": "fādiàn",
+          "hanviet": "Phát Điện",
+          "meaning_vi": "phát điện, tạo ra điện",
+          "hsk": 6,
+          "word_id": "hsk6_351"
         },
         {
           "text": "技术",
@@ -288,7 +279,12 @@
           "text": "突"
         },
         {
-          "text": "飞"
+          "text": "飞",
+          "pinyin": "fēi",
+          "hanviet": "Phi",
+          "meaning_vi": "bay",
+          "hsk": 2,
+          "word_id": "hsk2_340"
         },
         {
           "text": "猛",
@@ -310,34 +306,28 @@
           "text": "，"
         },
         {
-          "text": "使",
-          "pinyin": "shǐ",
-          "hanviet": "Sử",
-          "meaning_vi": "làm cho, khiến cho",
-          "hsk": 4,
-          "word_id": "hsk4_386"
+          "text": "使得",
+          "pinyin": "shǐde",
+          "hanviet": "Sử Đắc",
+          "meaning_vi": "khiến cho, làm cho",
+          "hsk": 5,
+          "word_id": "hsk5_1026"
         },
         {
-          "text": "得",
-          "pinyin": "de",
-          "hanviet": "Đắc",
-          "meaning_vi": "được (trợ từ)",
-          "hsk": 2,
-          "word_id": "hsk2_19"
+          "text": "可",
+          "pinyin": "kě",
+          "hanviet": "Khả",
+          "meaning_vi": "nhưng; thật là (nhấn mạnh)",
+          "hsk": 3,
+          "word_id": "hsk3_814"
         },
         {
-          "text": "可"
-        },
-        {
-          "text": "再",
-          "pinyin": "zài",
-          "hanviet": "Tái",
-          "meaning_vi": "lại, lần nữa",
-          "hsk": 2,
-          "word_id": "hsk2_139"
-        },
-        {
-          "text": "生"
+          "text": "再生",
+          "pinyin": "zàishēng",
+          "hanviet": "Tái Sinh",
+          "meaning_vi": "tái sinh, tái chế",
+          "hsk": 6,
+          "word_id": "hsk6_1644"
         },
         {
           "text": "清洁",
@@ -348,10 +338,12 @@
           "word_id": "hsk6_1714"
         },
         {
-          "text": "电"
-        },
-        {
-          "text": "力"
+          "text": "电力",
+          "pinyin": "diànlì",
+          "hanviet": "Điện Lực",
+          "meaning_vi": "điện lực, nguồn điện",
+          "hsk": 6,
+          "word_id": "hsk6_301"
         },
         {
           "text": "的",
@@ -370,31 +362,20 @@
           "word_id": "hsk6_355"
         },
         {
-          "text": "大",
-          "pinyin": "dà",
-          "hanviet": "Đại",
-          "meaning_vi": "to, lớn",
-          "hsk": 1,
-          "word_id": "hsk1_14"
+          "text": "大幅",
+          "pinyin": "dàfú",
+          "hanviet": "Đại Bức",
+          "meaning_vi": "đáng kể, biên độ lớn, mạnh mẽ",
+          "hsk": 6,
+          "word_id": "hsk6_249"
         },
         {
-          "text": "幅",
-          "pinyin": "fú",
-          "hanviet": "Bức",
-          "meaning_vi": "bức (lượng từ tranh, ảnh)",
-          "hsk": 5,
-          "word_id": "hsk5_787"
-        },
-        {
-          "text": "下",
-          "pinyin": "xià",
-          "hanviet": "Hạ",
-          "meaning_vi": "dưới",
-          "hsk": 1,
-          "word_id": "hsk1_115"
-        },
-        {
-          "text": "降"
+          "text": "下降",
+          "pinyin": "xiàjiàng",
+          "hanviet": "Hạ Giáng",
+          "meaning_vi": "giảm, hạ xuống",
+          "hsk": 4,
+          "word_id": "hsk4_793"
         },
         {
           "text": "，"
@@ -424,7 +405,12 @@
           "word_id": "hsk3_110"
         },
         {
-          "text": "强"
+          "text": "强",
+          "pinyin": "qiáng",
+          "hanviet": "Cường",
+          "meaning_vi": "mạnh, giỏi",
+          "hsk": 4,
+          "word_id": "hsk4_579"
         },
         {
           "text": "的",
@@ -451,7 +437,12 @@
           "word_id": "hsk4_237"
         },
         {
-          "text": "力"
+          "text": "力",
+          "pinyin": "lì",
+          "hanviet": "Lực",
+          "meaning_vi": "sức, sức lực; lực",
+          "hsk": 5,
+          "word_id": "hsk5_704"
         },
         {
           "text": "。"
@@ -510,15 +501,12 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "智"
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
+          "text": "智能",
+          "pinyin": "zhìnéng",
+          "hanviet": "Trí Năng",
+          "meaning_vi": "thông minh (smart, AI)",
+          "hsk": 5,
+          "word_id": "hsk5_1516"
         },
         {
           "text": "电网",
@@ -655,15 +643,12 @@
           "word_id": "hsk4_152"
         },
         {
-          "text": "支",
-          "pinyin": "zhī",
-          "hanviet": "Chi",
-          "meaning_vi": "nhánh, cây (lượng từ)",
-          "hsk": 5,
-          "word_id": "hsk5_600"
-        },
-        {
-          "text": "撑"
+          "text": "支撑",
+          "pinyin": "zhīchēng",
+          "hanviet": "Chi Chống",
+          "meaning_vi": "chống đỡ, trụ vững",
+          "hsk": 6,
+          "word_id": "hsk6_1696"
         },
         {
           "text": "。"
@@ -687,10 +672,20 @@
           "word_id": "hsk5_610"
         },
         {
-          "text": "替"
+          "text": "替",
+          "pinyin": "tì",
+          "hanviet": "Thế",
+          "meaning_vi": "thay, hộ, giúp",
+          "hsk": 5,
+          "word_id": "hsk5_1123"
         },
         {
-          "text": "代"
+          "text": "代",
+          "pinyin": "dài",
+          "hanviet": "Đại",
+          "meaning_vi": "thay, thay mặt; thế hệ, đời",
+          "hsk": 5,
+          "word_id": "hsk5_233"
         },
         {
           "text": "传统",
@@ -725,18 +720,12 @@
           "word_id": "hsk4_31"
         },
         {
-          "text": "有",
-          "pinyin": "yǒu",
-          "hanviet": "Hữu",
-          "meaning_vi": "có",
-          "hsk": 1,
-          "word_id": "hsk1_136"
-        },
-        {
-          "text": "助"
-        },
-        {
-          "text": "于"
+          "text": "有助于",
+          "pinyin": "yǒuzhùyú",
+          "hanviet": "Hữu Trợ Vu",
+          "meaning_vi": "có lợi cho, giúp ích cho, góp phần",
+          "hsk": 5,
+          "word_id": "hsk5_1414"
         },
         {
           "text": "减少",
@@ -755,10 +744,12 @@
           "word_id": "hsk7_4271"
         },
         {
-          "text": "气"
-        },
-        {
-          "text": "体"
+          "text": "气体",
+          "pinyin": "qìtǐ",
+          "hanviet": "Khí Thể",
+          "meaning_vi": "chất khí, thể khí",
+          "hsk": 6,
+          "word_id": "hsk6_1026"
         },
         {
           "text": "排放",
@@ -788,15 +779,12 @@
           "word_id": "hsk1_72"
         },
         {
-          "text": "有",
-          "pinyin": "yǒu",
-          "hanviet": "Hữu",
-          "meaning_vi": "có",
-          "hsk": 1,
-          "word_id": "hsk1_136"
-        },
-        {
-          "text": "效"
+          "text": "有效",
+          "pinyin": "yǒuxiào",
+          "hanviet": "Hữu Hiệu",
+          "meaning_vi": "có hiệu lực, hiệu quả",
+          "hsk": 4,
+          "word_id": "hsk4_892"
         },
         {
           "text": "改善",
@@ -879,7 +867,12 @@
           "text": "碳"
         },
         {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "和",
@@ -938,10 +931,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "科"
-        },
-        {
-          "text": "技"
+          "text": "科技",
+          "pinyin": "kējì",
+          "hanviet": "Khoa Kỹ",
+          "meaning_vi": "khoa học kỹ thuật, công nghệ",
+          "hsk": 4,
+          "word_id": "hsk4_425"
         },
         {
           "text": "创新",
@@ -960,7 +955,12 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "全"
+          "text": "全",
+          "pinyin": "quán",
+          "hanviet": "Toàn",
+          "meaning_vi": "toàn bộ, đầy đủ; hoàn toàn",
+          "hsk": 4,
+          "word_id": "hsk4_598"
         },
         {
           "text": "社会",
@@ -1022,15 +1022,12 @@
           "word_id": "hsk4_91"
         },
         {
-          "text": "家",
-          "pinyin": "jiā",
-          "hanviet": "Gia",
-          "meaning_vi": "nhà",
-          "hsk": 1,
-          "word_id": "hsk1_45"
-        },
-        {
-          "text": "园"
+          "text": "家园",
+          "pinyin": "jiāyuán",
+          "hanviet": "Gia Viên",
+          "meaning_vi": "mái ấm, quê hương, mảnh đất quê nhà",
+          "hsk": 6,
+          "word_id": "hsk6_636"
         },
         {
           "text": "。"
@@ -1039,21 +1036,21 @@
     }
   ],
   "vocabulary_spotlight": [
-    "hsk7_4949",
-    "hsk2_24",
     "hsk4_338",
     "hsk3_22",
     "hsk1_15",
     "hsk6_2336",
     "hsk5_1110",
-    "hsk4_442",
     "hsk5_335",
     "hsk5_245",
-    "hsk3_158",
-    "hsk4_89",
     "hsk7_5445",
     "hsk4_46",
-    "hsk3_202"
+    "hsk3_202",
+    "hsk5_1385",
+    "hsk4_601",
+    "hsk5_556",
+    "hsk5_1158",
+    "hsk2_396"
   ],
   "quiz": [
     {

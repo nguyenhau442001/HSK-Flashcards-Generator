@@ -90,8 +90,7 @@
           "word_id": "hsk2_53"
         },
         {
-          "text": "馆",
-          "unknown": true
+          "text": "馆"
         },
         {
           "text": "。"
@@ -107,20 +106,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "这",
-          "pinyin": "zhè",
-          "hanviet": "Giá",
-          "meaning_vi": "này",
+          "text": "这里",
+          "pinyin": "zhèlǐ",
+          "hanviet": "Giá Lý",
+          "meaning_vi": "đây (đại từ)",
           "hsk": 1,
-          "word_id": "hsk1_142"
-        },
-        {
-          "text": "里",
-          "pinyin": "lǐ",
-          "hanviet": "Lý",
-          "meaning_vi": "bên trong",
-          "hsk": 1,
-          "word_id": "hsk1_57"
+          "word_id": "hsk1_606"
         },
         {
           "text": "的",
@@ -456,20 +447,12 @@
           "word_id": "hsk1_53"
         },
         {
-          "text": "这",
-          "pinyin": "zhè",
-          "hanviet": "Giá",
-          "meaning_vi": "này",
+          "text": "这里",
+          "pinyin": "zhèlǐ",
+          "hanviet": "Giá Lý",
+          "meaning_vi": "đây (đại từ)",
           "hsk": 1,
-          "word_id": "hsk1_142"
-        },
-        {
-          "text": "里",
-          "pinyin": "lǐ",
-          "hanviet": "Lý",
-          "meaning_vi": "bên trong",
-          "hsk": 1,
-          "word_id": "hsk1_57"
+          "word_id": "hsk1_606"
         },
         {
           "text": "休息",
@@ -494,7 +477,13 @@
     "hsk2_117",
     "hsk2_113",
     "hsk2_70",
-    "hsk2_120"
+    "hsk2_120",
+    "hsk1_129",
+    "hsk1_49",
+    "hsk1_55",
+    "hsk1_130",
+    "hsk1_45",
+    "hsk1_121"
   ],
   "quiz": [
     {

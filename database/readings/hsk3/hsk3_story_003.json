@@ -18,16 +18,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "大",
-          "pinyin": "dà",
-          "hanviet": "Đại",
-          "meaning_vi": "to, lớn",
+          "text": "大学",
+          "pinyin": "dàxué",
+          "hanviet": "Đại Học",
+          "meaning_vi": "đại học",
           "hsk": 1,
-          "word_id": "hsk1_14"
-        },
-        {
-          "text": "学",
-          "unknown": true
+          "word_id": "hsk1_506"
         },
         {
           "text": "里",
@@ -142,12 +138,12 @@
           "word_id": "hsk1_111"
         },
         {
-          "text": "常",
-          "unknown": true
-        },
-        {
-          "text": "常",
-          "unknown": true
+          "text": "常常",
+          "pinyin": "chángcháng",
+          "hanviet": "Thường Thường",
+          "meaning_vi": "thường thường, thường xuyên",
+          "hsk": 3,
+          "word_id": "hsk3_655"
         },
         {
           "text": "来",
@@ -158,20 +154,12 @@
           "word_id": "hsk1_53"
         },
         {
-          "text": "这",
-          "pinyin": "zhè",
-          "hanviet": "Giá",
-          "meaning_vi": "này",
+          "text": "这里",
+          "pinyin": "zhèlǐ",
+          "hanviet": "Giá Lý",
+          "meaning_vi": "đây (đại từ)",
           "hsk": 1,
-          "word_id": "hsk1_142"
-        },
-        {
-          "text": "里",
-          "pinyin": "lǐ",
-          "hanviet": "Lý",
-          "meaning_vi": "bên trong",
-          "hsk": 1,
-          "word_id": "hsk1_57"
+          "word_id": "hsk1_606"
         },
         {
           "text": "看",
@@ -457,7 +445,11 @@
         },
         {
           "text": "学",
-          "unknown": true
+          "pinyin": "xué",
+          "hanviet": "Học",
+          "meaning_vi": "học",
+          "hsk": 1,
+          "word_id": "hsk1_589"
         },
         {
           "text": "到",
@@ -517,7 +509,10 @@
     "hsk3_1",
     "hsk3_21",
     "hsk2_38",
-    "hsk3_194"
+    "hsk3_194",
+    "hsk1_506",
+    "hsk1_57",
+    "hsk1_15"
   ],
   "quiz": [
     {

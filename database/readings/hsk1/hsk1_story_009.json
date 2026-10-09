@@ -90,16 +90,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "外",
-          "pinyin": "wài",
-          "hanviet": "Ngoại",
-          "meaning_vi": "ngoài",
+          "text": "外面",
+          "pinyin": "wàimiàn",
+          "hanviet": "Ngoại Diện",
+          "meaning_vi": "bên ngoài",
           "hsk": 2,
-          "word_id": "hsk2_105"
-        },
-        {
-          "text": "面",
-          "unknown": true
+          "word_id": "hsk2_447"
         },
         {
           "text": "冷",
@@ -410,7 +406,12 @@
     "hsk1_50",
     "hsk1_18",
     "hsk1_84",
-    "hsk1_31"
+    "hsk1_31",
+    "hsk1_47",
+    "hsk1_8",
+    "hsk1_106",
+    "hsk1_36",
+    "hsk1_55"
   ],
   "quiz": [
     {

@@ -50,11 +50,15 @@
           "word_id": "hsk1_83"
         },
         {
-          "text": "大卫",
-          "is_name": true,
-          "pinyin": "Dàwèi",
-          "hanviet": "Đại Vệ",
-          "meaning_vi": "Đại Vệ (David)"
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "卫"
         },
         {
           "text": "家",
@@ -78,11 +82,15 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "大卫",
-          "is_name": true,
-          "pinyin": "Dàwèi",
-          "hanviet": "Đại Vệ",
-          "meaning_vi": "Đại Vệ (David)"
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "卫"
         },
         {
           "text": "的",
@@ -157,11 +165,15 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "大卫",
-          "is_name": true,
-          "pinyin": "Dàwèi",
-          "hanviet": "Đại Vệ",
-          "meaning_vi": "Đại Vệ (David)"
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "卫"
         },
         {
           "text": "请",
@@ -374,7 +386,14 @@
     "hsk1_38",
     "hsk1_10",
     "hsk1_31",
-    "hsk1_12"
+    "hsk1_12",
+    "hsk1_111",
+    "hsk1_83",
+    "hsk1_14",
+    "hsk1_45",
+    "hsk1_15",
+    "hsk1_8",
+    "hsk2_127"
   ],
   "quiz": [
     {

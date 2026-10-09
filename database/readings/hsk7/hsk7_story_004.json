@@ -28,7 +28,12 @@
           "word_id": "hsk1_14"
         },
         {
-          "text": "江"
+          "text": "江",
+          "pinyin": "jiāng",
+          "hanviet": "Giang",
+          "meaning_vi": "sông (lớn)",
+          "hsk": 4,
+          "word_id": "hsk4_355"
         },
         {
           "text": "大",
@@ -39,7 +44,12 @@
           "word_id": "hsk1_14"
         },
         {
-          "text": "河"
+          "text": "河",
+          "pinyin": "hé",
+          "hanviet": "Hà",
+          "meaning_vi": "sông",
+          "hsk": 3,
+          "word_id": "hsk3_757"
         },
         {
           "text": "作为",
@@ -90,13 +100,23 @@
           "word_id": "hsk4_309"
         },
         {
-          "text": "河"
+          "text": "河",
+          "pinyin": "hé",
+          "hanviet": "Hà",
+          "meaning_vi": "sông",
+          "hsk": 3,
+          "word_id": "hsk3_757"
         },
         {
           "text": "，"
         },
         {
-          "text": "其"
+          "text": "其",
+          "pinyin": "qí",
+          "hanviet": "Kỳ",
+          "meaning_vi": "của nó, của họ; trong đó",
+          "hsk": 5,
+          "word_id": "hsk5_853"
         },
         {
           "text": "流域",
@@ -166,15 +186,12 @@
           "word_id": "hsk7_4883"
         },
         {
-          "text": "人",
-          "pinyin": "rén",
-          "hanviet": "Nhân",
-          "meaning_vi": "người",
-          "hsk": 1,
-          "word_id": "hsk1_85"
-        },
-        {
-          "text": "民"
+          "text": "人民",
+          "pinyin": "rénmín",
+          "hanviet": "Nhân Dân",
+          "meaning_vi": "mọi người",
+          "hsk": 5,
+          "word_id": "hsk5_923"
         },
         {
           "text": "的",
@@ -185,7 +202,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "福"
+          "text": "福",
+          "pinyin": "fú",
+          "hanviet": "Phúc",
+          "meaning_vi": "phúc, phước",
+          "hsk": 5,
+          "word_id": "hsk5_367"
         },
         {
           "text": "祉"
@@ -220,15 +242,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "长",
-          "pinyin": "cháng",
-          "hanviet": "Trường",
-          "meaning_vi": "dài",
-          "hsk": 2,
-          "word_id": "hsk2_9"
-        },
-        {
-          "text": "期"
+          "text": "长期",
+          "pinyin": "chángqī",
+          "hanviet": "Trường Kì",
+          "meaning_vi": "thời gian dài, dài hạn",
+          "hsk": 5,
+          "word_id": "hsk5_111"
         },
         {
           "text": "的",
@@ -239,15 +258,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "过",
-          "pinyin": "guo",
-          "hanviet": "Quá",
-          "meaning_vi": "đã từng (trợ từ)",
-          "hsk": 2,
-          "word_id": "hsk2_36"
-        },
-        {
-          "text": "度"
+          "text": "过度",
+          "pinyin": "guòdù",
+          "hanviet": "Quá Độ",
+          "meaning_vi": "quá mức, thái quá",
+          "hsk": 5,
+          "word_id": "hsk5_454"
         },
         {
           "text": "开发",
@@ -274,15 +290,12 @@
           "word_id": "hsk5_162"
         },
         {
-          "text": "污"
-        },
-        {
-          "text": "水",
-          "pinyin": "shuǐ",
-          "hanviet": "Thuỷ",
-          "meaning_vi": "nước",
-          "hsk": 1,
-          "word_id": "hsk1_98"
+          "text": "污水",
+          "pinyin": "wūshuǐ",
+          "hanviet": "Ô Thuỷ",
+          "meaning_vi": "nước thải, nước bẩn",
+          "hsk": 6,
+          "word_id": "hsk6_1395"
         },
         {
           "text": "排放",
@@ -296,7 +309,12 @@
           "text": "，"
         },
         {
-          "text": "曾"
+          "text": "曾",
+          "pinyin": "céng",
+          "hanviet": "Tằng",
+          "meaning_vi": "từng, đã từng",
+          "hsk": 5,
+          "word_id": "hsk5_97"
         },
         {
           "text": "一度",
@@ -315,10 +333,20 @@
           "word_id": "hsk5_743"
         },
         {
-          "text": "沿"
+          "text": "沿",
+          "pinyin": "yán",
+          "hanviet": "Duyên",
+          "meaning_vi": "men theo, dọc theo; mép, bờ",
+          "hsk": 5,
+          "word_id": "hsk5_1325"
         },
         {
-          "text": "江"
+          "text": "江",
+          "pinyin": "jiāng",
+          "hanviet": "Giang",
+          "meaning_vi": "sông (lớn)",
+          "hsk": 4,
+          "word_id": "hsk4_355"
         },
         {
           "text": "水",
@@ -356,7 +384,12 @@
           "word_id": "hsk2_136"
         },
         {
-          "text": "类"
+          "text": "类",
+          "pinyin": "lèi",
+          "hanviet": "Loại",
+          "meaning_vi": "loại, loài; chủng loại",
+          "hsk": 5,
+          "word_id": "hsk5_693"
         },
         {
           "text": "生物",
@@ -367,18 +400,20 @@
           "word_id": "hsk6_1856"
         },
         {
-          "text": "多",
-          "pinyin": "duō",
-          "hanviet": "Đa",
-          "meaning_vi": "nhiều",
-          "hsk": 1,
-          "word_id": "hsk1_24"
+          "text": "多样",
+          "pinyin": "duōyàng",
+          "hanviet": "Đa Dạng",
+          "meaning_vi": "đa dạng",
+          "hsk": 4,
+          "word_id": "hsk4_182"
         },
         {
-          "text": "样"
-        },
-        {
-          "text": "性"
+          "text": "性",
+          "pinyin": "xìng",
+          "hanviet": "Tính",
+          "meaning_vi": "tính (hậu tố: tính chất)",
+          "hsk": 4,
+          "word_id": "hsk4_828"
         },
         {
           "text": "严重",
@@ -392,7 +427,12 @@
           "text": "锐"
         },
         {
-          "text": "减"
+          "text": "减",
+          "pinyin": "jiǎn",
+          "hanviet": "Giảm",
+          "meaning_vi": "trừ, giảm",
+          "hsk": 4,
+          "word_id": "hsk4_349"
         },
         {
           "text": "。"
@@ -408,23 +448,20 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "推",
-          "pinyin": "tuī",
-          "hanviet": "Suy",
-          "meaning_vi": "đẩy",
-          "hsk": 4,
-          "word_id": "hsk4_442"
+          "text": "推行",
+          "pinyin": "tuīxíng",
+          "hanviet": "Suy Hành",
+          "meaning_vi": "thúc đẩy thực hiện, triển khai rộng rãi",
+          "hsk": 6,
+          "word_id": "hsk6_1341"
         },
         {
-          "text": "行",
-          "pinyin": "xíng",
-          "hanviet": "Hành",
-          "meaning_vi": "được, ổn",
+          "text": "全",
+          "pinyin": "quán",
+          "hanviet": "Toàn",
+          "meaning_vi": "toàn bộ, đầy đủ; hoàn toàn",
           "hsk": 4,
-          "word_id": "hsk4_483"
-        },
-        {
-          "text": "全"
+          "word_id": "hsk4_598"
         },
         {
           "text": "流域",
@@ -481,10 +518,12 @@
           "text": "渔"
         },
         {
-          "text": "政"
-        },
-        {
-          "text": "策"
+          "text": "政策",
+          "pinyin": "zhèngcè",
+          "hanviet": "Chính Sách",
+          "meaning_vi": "chính sách",
+          "hsk": 6,
+          "word_id": "hsk6_1688"
         },
         {
           "text": "，"
@@ -493,7 +532,12 @@
           "text": "彰"
         },
         {
-          "text": "显"
+          "text": "显",
+          "pinyin": "xiǎn",
+          "hanviet": "Hiển",
+          "meaning_vi": "lộ ra, tỏ ra, trông",
+          "hsk": 6,
+          "word_id": "hsk6_1423"
         },
         {
           "text": "了",
@@ -512,15 +556,12 @@
           "word_id": "hsk2_14"
         },
         {
-          "text": "过",
-          "pinyin": "guo",
-          "hanviet": "Quá",
-          "meaning_vi": "đã từng (trợ từ)",
-          "hsk": 2,
-          "word_id": "hsk2_36"
-        },
-        {
-          "text": "度"
+          "text": "过度",
+          "pinyin": "guòdù",
+          "hanviet": "Quá Độ",
+          "meaning_vi": "quá mức, thái quá",
+          "hsk": 5,
+          "word_id": "hsk5_454"
         },
         {
           "text": "索取",
@@ -569,10 +610,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "坚"
-        },
-        {
-          "text": "定"
+          "text": "坚定",
+          "pinyin": "jiāndìng",
+          "hanviet": "Kiên Định",
+          "meaning_vi": "kiên định, vững vàng",
+          "hsk": 6,
+          "word_id": "hsk6_643"
         },
         {
           "text": "决心",
@@ -660,15 +703,12 @@
           "word_id": "hsk7_5445"
         },
         {
-          "text": "升",
-          "pinyin": "shēng",
-          "hanviet": "Thăng",
-          "meaning_vi": "thăng, lên",
+          "text": "升级",
+          "pinyin": "shēngjí",
+          "hanviet": "Thăng Cấp",
+          "meaning_vi": "nâng cấp",
           "hsk": 5,
-          "word_id": "hsk5_1055"
-        },
-        {
-          "text": "级"
+          "word_id": "hsk5_993"
         },
         {
           "text": "与",
@@ -698,7 +738,12 @@
           "text": "廊"
         },
         {
-          "text": "道"
+          "text": "道",
+          "pinyin": "dào",
+          "hanviet": "Đạo",
+          "meaning_vi": "đường; đạo lý; (lượng từ cho câu hỏi, món ăn, cửa)",
+          "hsk": 4,
+          "word_id": "hsk4_140"
         },
         {
           "text": "的",
@@ -752,10 +797,20 @@
           "word_id": "hsk1_130"
         },
         {
-          "text": "江"
+          "text": "江",
+          "pinyin": "jiāng",
+          "hanviet": "Giang",
+          "meaning_vi": "sông (lớn)",
+          "hsk": 4,
+          "word_id": "hsk4_355"
         },
         {
-          "text": "清"
+          "text": "清",
+          "pinyin": "qīng",
+          "hanviet": "Thanh",
+          "meaning_vi": "trong vắt, trong trẻo; thanh toán",
+          "hsk": 6,
+          "word_id": "hsk6_1052"
         },
         {
           "text": "水",
@@ -796,7 +851,12 @@
           "word_id": "hsk5_414"
         },
         {
-          "text": "图"
+          "text": "图",
+          "pinyin": "tú",
+          "hanviet": "Đồ",
+          "meaning_vi": "hình vẽ, bản đồ, tranh",
+          "hsk": 4,
+          "word_id": "hsk4_752"
         },
         {
           "text": "景"
@@ -815,7 +875,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "将"
+          "text": "将",
+          "pinyin": "jiāng",
+          "hanviet": "Tương",
+          "meaning_vi": "sẽ; đem, lấy (như 把)",
+          "hsk": 4,
+          "word_id": "hsk4_356"
         },
         {
           "text": "生态",
@@ -837,15 +902,12 @@
           "text": "、"
         },
         {
-          "text": "绿",
-          "pinyin": "lǜ",
-          "hanviet": "Lục",
-          "meaning_vi": "màu xanh lá",
-          "hsk": 3,
-          "word_id": "hsk3_158"
-        },
-        {
-          "text": "色"
+          "text": "绿色",
+          "pinyin": "lǜsè",
+          "hanviet": "Lục Sắc",
+          "meaning_vi": "xanh",
+          "hsk": 2,
+          "word_id": "hsk2_396"
         },
         {
           "text": "发展",
@@ -864,15 +926,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "理"
-        },
-        {
-          "text": "念",
-          "pinyin": "niàn",
-          "hanviet": "Niệm",
-          "meaning_vi": "đọc, niệm",
-          "hsk": 5,
-          "word_id": "hsk5_982"
+          "text": "理念",
+          "pinyin": "lǐniàn",
+          "hanviet": "Lý Niệm",
+          "meaning_vi": "quan niệm, triết lý, ý niệm",
+          "hsk": 6,
+          "word_id": "hsk6_833"
         },
         {
           "text": "贯穿",
@@ -883,7 +942,12 @@
           "word_id": "hsk7_1496"
         },
         {
-          "text": "于"
+          "text": "于",
+          "pinyin": "yú",
+          "hanviet": "Vu",
+          "meaning_vi": "tại",
+          "hsk": 6,
+          "word_id": "hsk6_1606"
         },
         {
           "text": "流域",
@@ -894,15 +958,12 @@
           "word_id": "hsk6_1434"
         },
         {
-          "text": "规"
-        },
-        {
-          "text": "划",
-          "pinyin": "huá",
-          "hanviet": "Hoa",
-          "meaning_vi": "chèo (thuyền)",
-          "hsk": 5,
-          "word_id": "hsk5_199"
+          "text": "规划",
+          "pinyin": "guīhuà",
+          "hanviet": "Quy Hoạch",
+          "meaning_vi": "quy hoạch, kế hoạch phát triển",
+          "hsk": 6,
+          "word_id": "hsk6_501"
         },
         {
           "text": "全局",

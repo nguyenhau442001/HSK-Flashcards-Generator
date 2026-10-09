@@ -20,10 +20,20 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "算"
+          "text": "算",
+          "pinyin": "suàn",
+          "hanviet": "Toán",
+          "meaning_vi": "tính, đếm; coi như",
+          "hsk": 4,
+          "word_id": "hsk4_708"
         },
         {
-          "text": "法"
+          "text": "法",
+          "pinyin": "fǎ",
+          "hanviet": "Pháp",
+          "meaning_vi": "luật, pháp luật; phương pháp",
+          "hsk": 4,
+          "word_id": "hsk4_187"
         },
         {
           "text": "推荐",
@@ -195,15 +205,12 @@
           "word_id": "hsk1_39"
         },
         {
-          "text": "群",
-          "pinyin": "qún",
-          "hanviet": "Quần",
-          "meaning_vi": "đám, nhóm (lượng từ)",
+          "text": "群体",
+          "pinyin": "qúntǐ",
+          "hanviet": "Quần Thể",
+          "meaning_vi": "quần thể, nhóm cộng đồng, tập thể",
           "hsk": 5,
-          "word_id": "hsk5_383"
-        },
-        {
-          "text": "体"
+          "word_id": "hsk5_910"
         },
         {
           "text": "极",
@@ -214,7 +221,12 @@
           "word_id": "hsk3_110"
         },
         {
-          "text": "化"
+          "text": "化",
+          "pinyin": "huà",
+          "hanviet": "Hoa",
+          "meaning_vi": "hóa (-ize); tan chảy, biến đổi",
+          "hsk": 5,
+          "word_id": "hsk5_497"
         },
         {
           "text": "等",
@@ -262,20 +274,12 @@
           "word_id": "hsk4_32"
         },
         {
-          "text": "平",
-          "pinyin": "píng",
-          "hanviet": "Bình",
-          "meaning_vi": "bằng, phẳng",
+          "text": "平台",
+          "pinyin": "píngtái",
+          "hanviet": "Bình Đài",
+          "meaning_vi": "nền tảng",
           "hsk": 5,
-          "word_id": "hsk5_350"
-        },
-        {
-          "text": "台",
-          "pinyin": "tái",
-          "hanviet": "Đài",
-          "meaning_vi": "cái, bục, đài (lượng từ)",
-          "hsk": 4,
-          "word_id": "hsk4_418"
+          "word_id": "hsk5_847"
         },
         {
           "text": "为了",
@@ -286,15 +290,12 @@
           "word_id": "hsk3_230"
         },
         {
-          "text": "过",
-          "pinyin": "guo",
-          "hanviet": "Quá",
-          "meaning_vi": "đã từng (trợ từ)",
-          "hsk": 2,
-          "word_id": "hsk2_36"
-        },
-        {
-          "text": "度"
+          "text": "过度",
+          "pinyin": "guòdù",
+          "hanviet": "Quá Độ",
+          "meaning_vi": "quá mức, thái quá",
+          "hsk": 5,
+          "word_id": "hsk5_454"
         },
         {
           "text": "追求",
@@ -321,7 +322,12 @@
           "word_id": "hsk7_2954"
         },
         {
-          "text": "性"
+          "text": "性",
+          "pinyin": "xìng",
+          "hanviet": "Tính",
+          "meaning_vi": "tính (hậu tố: tính chất)",
+          "hsk": 4,
+          "word_id": "hsk4_828"
         },
         {
           "text": "与",
@@ -340,13 +346,20 @@
           "word_id": "hsk5_1047"
         },
         {
-          "text": "流"
+          "text": "流量",
+          "pinyin": "liúliàng",
+          "hanviet": "Lưu Lượng",
+          "meaning_vi": "lưu lượng (dữ liệu mạng, xe cộ, dòng nước)",
+          "hsk": 6,
+          "word_id": "hsk6_857"
         },
         {
-          "text": "量"
-        },
-        {
-          "text": "变"
+          "text": "变",
+          "pinyin": "biàn",
+          "hanviet": "Biến",
+          "meaning_vi": "thay đổi, biến thành",
+          "hsk": 3,
+          "word_id": "hsk3_626"
         },
         {
           "text": "现"
@@ -417,7 +430,12 @@
           "word_id": "hsk7_4352"
         },
         {
-          "text": "性"
+          "text": "性",
+          "pinyin": "xìng",
+          "hanviet": "Tính",
+          "meaning_vi": "tính (hậu tố: tính chất)",
+          "hsk": 4,
+          "word_id": "hsk4_828"
         },
         {
           "text": "内容",
@@ -436,16 +454,36 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "算"
+          "text": "算",
+          "pinyin": "suàn",
+          "hanviet": "Toán",
+          "meaning_vi": "tính, đếm; coi như",
+          "hsk": 4,
+          "word_id": "hsk4_708"
         },
         {
-          "text": "法"
+          "text": "法",
+          "pinyin": "fǎ",
+          "hanviet": "Pháp",
+          "meaning_vi": "luật, pháp luật; phương pháp",
+          "hsk": 4,
+          "word_id": "hsk4_187"
         },
         {
-          "text": "加"
+          "text": "加",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "cộng, thêm",
+          "hsk": 3,
+          "word_id": "hsk3_783"
         },
         {
-          "text": "权"
+          "text": "权",
+          "pinyin": "quán",
+          "hanviet": "Quyền",
+          "meaning_vi": "quyền, quyền lợi, quyền lực",
+          "hsk": 5,
+          "word_id": "hsk5_898"
         },
         {
           "text": "传播",
@@ -469,10 +507,20 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "算"
+          "text": "算",
+          "pinyin": "suàn",
+          "hanviet": "Toán",
+          "meaning_vi": "tính, đếm; coi như",
+          "hsk": 4,
+          "word_id": "hsk4_708"
         },
         {
-          "text": "法"
+          "text": "法",
+          "pinyin": "fǎ",
+          "hanviet": "Pháp",
+          "meaning_vi": "luật, pháp luật; phương pháp",
+          "hsk": 4,
+          "word_id": "hsk4_187"
         },
         {
           "text": "黑",
@@ -502,10 +550,12 @@
           "word_id": "hsk5_1095"
         },
         {
-          "text": "隐"
-        },
-        {
-          "text": "藏"
+          "text": "隐藏",
+          "pinyin": "yǐncáng",
+          "hanviet": "Ẩn Tạng",
+          "meaning_vi": "ẩn giấu, giấu kín",
+          "hsk": 6,
+          "word_id": "hsk6_1579"
         },
         {
           "text": "的",
@@ -543,13 +593,28 @@
           "word_id": "hsk5_282"
         },
         {
-          "text": "者"
+          "text": "者",
+          "pinyin": "zhě",
+          "hanviet": "Giả",
+          "meaning_vi": "người (hậu tố: …giả)",
+          "hsk": 4,
+          "word_id": "hsk4_926"
         },
         {
-          "text": "算"
+          "text": "算",
+          "pinyin": "suàn",
+          "hanviet": "Toán",
+          "meaning_vi": "tính, đếm; coi như",
+          "hsk": 4,
+          "word_id": "hsk4_708"
         },
         {
-          "text": "法"
+          "text": "法",
+          "pinyin": "fǎ",
+          "hanviet": "Pháp",
+          "meaning_vi": "luật, pháp luật; phương pháp",
+          "hsk": 4,
+          "word_id": "hsk4_187"
         },
         {
           "text": "压榨",
@@ -579,15 +644,12 @@
           "text": "，"
         },
         {
-          "text": "引"
-        },
-        {
-          "text": "发",
-          "pinyin": "fā",
-          "hanviet": "Phát",
-          "meaning_vi": "phát ra, gửi",
-          "hsk": 3,
-          "word_id": "hsk3_63"
+          "text": "引发",
+          "pinyin": "yǐnfā",
+          "hanviet": "Dẫn Phát",
+          "meaning_vi": "gây ra, làm bùng phát, khơi mào",
+          "hsk": 6,
+          "word_id": "hsk6_1581"
         },
         {
           "text": "了",
@@ -598,7 +660,12 @@
           "word_id": "hsk1_55"
         },
         {
-          "text": "全"
+          "text": "全",
+          "pinyin": "quán",
+          "hanviet": "Toàn",
+          "meaning_vi": "toàn bộ, đầy đủ; hoàn toàn",
+          "hsk": 4,
+          "word_id": "hsk4_598"
         },
         {
           "text": "社会",
@@ -625,15 +692,12 @@
           "word_id": "hsk4_403"
         },
         {
-          "text": "正",
-          "pinyin": "zhèng",
-          "hanviet": "Chinh",
-          "meaning_vi": "vừa, đang (trạng từ)",
-          "hsk": 5,
-          "word_id": "hsk5_597"
-        },
-        {
-          "text": "义"
+          "text": "正义",
+          "pinyin": "zhèngyì",
+          "hanviet": "Chính Nghĩa",
+          "meaning_vi": "chính nghĩa, công lý",
+          "hsk": 6,
+          "word_id": "hsk6_1692"
         },
         {
           "text": "的",
@@ -673,26 +737,28 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "推",
-          "pinyin": "tuī",
-          "hanviet": "Suy",
-          "meaning_vi": "đẩy",
+          "text": "推进",
+          "pinyin": "tuījìn",
+          "hanviet": "Suy Tiến",
+          "meaning_vi": "đẩy mạnh tiến độ, xúc tiến",
+          "hsk": 5,
+          "word_id": "hsk5_1161"
+        },
+        {
+          "text": "算",
+          "pinyin": "suàn",
+          "hanviet": "Toán",
+          "meaning_vi": "tính, đếm; coi như",
           "hsk": 4,
-          "word_id": "hsk4_442"
+          "word_id": "hsk4_708"
         },
         {
-          "text": "进",
-          "pinyin": "jìn",
-          "hanviet": "Tiến",
-          "meaning_vi": "vào",
-          "hsk": 2,
-          "word_id": "hsk2_50"
-        },
-        {
-          "text": "算"
-        },
-        {
-          "text": "法"
+          "text": "法",
+          "pinyin": "fǎ",
+          "hanviet": "Pháp",
+          "meaning_vi": "luật, pháp luật; phương pháp",
+          "hsk": 4,
+          "word_id": "hsk4_187"
         },
         {
           "text": "透明",
@@ -703,7 +769,12 @@
           "word_id": "hsk5_1113"
         },
         {
-          "text": "度"
+          "text": "度",
+          "pinyin": "dù",
+          "hanviet": "Độ",
+          "meaning_vi": "độ (nhiệt độ, góc); mức độ",
+          "hsk": 5,
+          "word_id": "hsk5_300"
         },
         {
           "text": "审计",
@@ -733,7 +804,12 @@
           "word_id": "hsk5_282"
         },
         {
-          "text": "者"
+          "text": "者",
+          "pinyin": "zhě",
+          "hanviet": "Giả",
+          "meaning_vi": "người (hậu tố: …giả)",
+          "hsk": 4,
+          "word_id": "hsk4_926"
         },
         {
           "text": "合法",
@@ -768,15 +844,12 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "打"
-        },
-        {
-          "text": "破",
-          "pinyin": "pò",
-          "hanviet": "Phá",
-          "meaning_vi": "hỏng, vỡ",
-          "hsk": 4,
-          "word_id": "hsk4_332"
+          "text": "打破",
+          "pinyin": "dǎpò",
+          "hanviet": "Đả Phá",
+          "meaning_vi": "làm vỡ; phá (kỷ lục)",
+          "hsk": 5,
+          "word_id": "hsk5_216"
         },
         {
           "text": "信息",
@@ -787,16 +860,31 @@
           "word_id": "hsk4_480"
         },
         {
-          "text": "闭"
+          "text": "闭",
+          "pinyin": "bì",
+          "hanviet": "Bế",
+          "meaning_vi": "nhắm (mắt), đóng (cửa), bế mạc",
+          "hsk": 6,
+          "word_id": "hsk6_51"
         },
         {
-          "text": "环"
+          "text": "环",
+          "pinyin": "huán",
+          "hanviet": "Hoàn",
+          "meaning_vi": "vòng, khâu, mắt xích",
+          "hsk": 6,
+          "word_id": "hsk6_576"
         },
         {
           "text": "，"
         },
         {
-          "text": "已"
+          "text": "已",
+          "pinyin": "yǐ",
+          "hanviet": "Dĩ",
+          "meaning_vi": "đã",
+          "hsk": 4,
+          "word_id": "hsk4_866"
         },
         {
           "text": "成为",
@@ -815,26 +903,20 @@
           "word_id": "hsk4_403"
         },
         {
-          "text": "平",
-          "pinyin": "píng",
-          "hanviet": "Bình",
-          "meaning_vi": "bằng, phẳng",
+          "text": "平台",
+          "pinyin": "píngtái",
+          "hanviet": "Bình Đài",
+          "meaning_vi": "nền tảng",
           "hsk": 5,
-          "word_id": "hsk5_350"
+          "word_id": "hsk5_847"
         },
         {
-          "text": "台",
-          "pinyin": "tái",
-          "hanviet": "Đài",
-          "meaning_vi": "cái, bục, đài (lượng từ)",
-          "hsk": 4,
-          "word_id": "hsk4_418"
-        },
-        {
-          "text": "治"
-        },
-        {
-          "text": "理"
+          "text": "治理",
+          "pinyin": "zhìlǐ",
+          "hanviet": "Trị Lý",
+          "meaning_vi": "cải tạo, xử lý, trị lý (môi trường/sông suối)",
+          "hsk": 6,
+          "word_id": "hsk6_1715"
         },
         {
           "text": "的",
@@ -890,10 +972,12 @@
           "word_id": "hsk7_1967"
         },
         {
-          "text": "科"
-        },
-        {
-          "text": "技"
+          "text": "科技",
+          "pinyin": "kējì",
+          "hanviet": "Khoa Kỹ",
+          "meaning_vi": "khoa học kỹ thuật, công nghệ",
+          "hsk": 4,
+          "word_id": "hsk4_425"
         },
         {
           "text": "向",
@@ -969,23 +1053,12 @@
           "text": "，"
         },
         {
-          "text": "人工",
-          "pinyin": "réngōng",
-          "hanviet": "Nhân Công",
-          "meaning_vi": "nhân công, nhân tạo",
+          "text": "人工智能",
+          "pinyin": "réngōng zhìnéng",
+          "hanviet": "Nhân Công Trí Năng",
+          "meaning_vi": "trí tuệ nhân tạo",
           "hsk": 6,
-          "word_id": "hsk6_1767"
-        },
-        {
-          "text": "智"
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
+          "word_id": "hsk6_1094"
         },
         {
           "text": "与",
@@ -996,21 +1069,28 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "算"
+          "text": "算",
+          "pinyin": "suàn",
+          "hanviet": "Toán",
+          "meaning_vi": "tính, đếm; coi như",
+          "hsk": 4,
+          "word_id": "hsk4_708"
         },
         {
-          "text": "法"
+          "text": "法",
+          "pinyin": "fǎ",
+          "hanviet": "Pháp",
+          "meaning_vi": "luật, pháp luật; phương pháp",
+          "hsk": 4,
+          "word_id": "hsk4_187"
         },
         {
-          "text": "才"
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
+          "text": "才能",
+          "pinyin": "cáinéng",
+          "hanviet": "Tài Năng",
+          "meaning_vi": "tài năng",
+          "hsk": 6,
+          "word_id": "hsk6_97"
         },
         {
           "text": "真正",
@@ -1029,15 +1109,12 @@
           "word_id": "hsk4_46"
         },
         {
-          "text": "推",
-          "pinyin": "tuī",
-          "hanviet": "Suy",
-          "meaning_vi": "đẩy",
-          "hsk": 4,
-          "word_id": "hsk4_442"
-        },
-        {
-          "text": "动"
+          "text": "推动",
+          "pinyin": "tuīdòng",
+          "hanviet": "Suy Động",
+          "meaning_vi": "thúc đẩy, đẩy mạnh",
+          "hsk": 5,
+          "word_id": "hsk5_1158"
         },
         {
           "text": "社会",

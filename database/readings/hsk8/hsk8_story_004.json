@@ -28,10 +28,12 @@
           "word_id": "hsk6_1993"
         },
         {
-          "text": "中"
-        },
-        {
-          "text": "华"
+          "text": "中华",
+          "pinyin": "Zhōnghuá",
+          "hanviet": "Trung Hoa",
+          "meaning_vi": "trung Quốc",
+          "hsk": 5,
+          "word_id": "hsk5_1520"
         },
         {
           "text": "文明",
@@ -66,7 +68,12 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "演"
+          "text": "演",
+          "pinyin": "yǎn",
+          "hanviet": "Diễn",
+          "meaning_vi": "diễn, đóng (vai)",
+          "hsk": 4,
+          "word_id": "hsk4_849"
         },
         {
           "text": "进",
@@ -104,18 +111,12 @@
           "word_id": "hsk7_2081"
         },
         {
-          "text": "中"
-        },
-        {
-          "text": "华"
-        },
-        {
-          "text": "民族",
-          "pinyin": "mínzú",
-          "hanviet": "Dân Tộc",
-          "meaning_vi": "dân tộc",
-          "hsk": 4,
-          "word_id": "hsk4_308"
+          "text": "中华民族",
+          "pinyin": "Zhōnghuá Mínzú",
+          "hanviet": "Trung Hoa Dân Tộc",
+          "meaning_vi": "dân tộc Trung Hoa",
+          "hsk": 5,
+          "word_id": "hsk5_1521"
         },
         {
           "text": "精神",
@@ -225,10 +226,20 @@
           "text": "渚"
         },
         {
-          "text": "古"
+          "text": "古",
+          "pinyin": "gǔ",
+          "hanviet": "Cổ",
+          "meaning_vi": "cổ, cổ xưa, ngày xưa",
+          "hsk": 5,
+          "word_id": "hsk5_422"
         },
         {
-          "text": "城"
+          "text": "城",
+          "pinyin": "chéng",
+          "hanviet": "Thành",
+          "meaning_vi": "thành phố; thành (tường thành)",
+          "hsk": 4,
+          "word_id": "hsk4_77"
         },
         {
           "text": "巍"
@@ -269,15 +280,12 @@
           "word_id": "hsk1_39"
         },
         {
-          "text": "精",
-          "pinyin": "jīng",
-          "hanviet": "Tinh",
-          "meaning_vi": "tinh thông, tinh vi, tinh nhuệ",
-          "hsk": 7,
-          "word_id": "hsk7_2154"
-        },
-        {
-          "text": "美"
+          "text": "精美",
+          "pinyin": "jīngměi",
+          "hanviet": "Tinh Mỹ",
+          "meaning_vi": "tinh xảo, tinh mỹ, tuyệt đẹp",
+          "hsk": 6,
+          "word_id": "hsk6_713"
         },
         {
           "text": "玉",
@@ -311,7 +319,12 @@
           "text": "确"
         },
         {
-          "text": "证"
+          "text": "证",
+          "pinyin": "zhèng",
+          "hanviet": "Chứng",
+          "meaning_vi": "giấy chứng nhận, thẻ",
+          "hsk": 4,
+          "word_id": "hsk4_931"
         },
         {
           "text": "了",
@@ -338,7 +351,12 @@
           "word_id": "hsk6_1434"
         },
         {
-          "text": "早"
+          "text": "早",
+          "pinyin": "zǎo",
+          "hanviet": "Tảo",
+          "meaning_vi": "sớm",
+          "hsk": 1,
+          "word_id": "hsk1_602"
         },
         {
           "text": "在",
@@ -373,7 +391,12 @@
           "word_id": "hsk1_74"
         },
         {
-          "text": "前"
+          "text": "前",
+          "pinyin": "qián",
+          "hanviet": "Tiền",
+          "meaning_vi": "trước",
+          "hsk": 1,
+          "word_id": "hsk1_558"
         },
         {
           "text": "就",
@@ -384,7 +407,12 @@
           "word_id": "hsk2_51"
         },
         {
-          "text": "已"
+          "text": "已",
+          "pinyin": "yǐ",
+          "hanviet": "Dĩ",
+          "meaning_vi": "đã",
+          "hsk": 4,
+          "word_id": "hsk4_866"
         },
         {
           "text": "迈",
@@ -395,7 +423,12 @@
           "word_id": "hsk6_1462"
         },
         {
-          "text": "入"
+          "text": "入",
+          "pinyin": "rù",
+          "hanviet": "Nhập",
+          "meaning_vi": "vào, nhập",
+          "hsk": 4,
+          "word_id": "hsk4_622"
         },
         {
           "text": "成熟",
@@ -576,10 +609,12 @@
           "text": "，"
         },
         {
-          "text": "展"
-        },
-        {
-          "text": "现"
+          "text": "展现",
+          "pinyin": "zhǎnxiàn",
+          "hanviet": "Triển Hiện",
+          "meaning_vi": "hiển thị",
+          "hsk": 5,
+          "word_id": "hsk5_1467"
         },
         {
           "text": "出",
@@ -590,20 +625,12 @@
           "word_id": "hsk2_11"
         },
         {
-          "text": "多",
-          "pinyin": "duō",
-          "hanviet": "Đa",
-          "meaning_vi": "nhiều",
-          "hsk": 1,
-          "word_id": "hsk1_24"
-        },
-        {
-          "text": "元",
-          "pinyin": "yuán",
-          "hanviet": "Nguyên",
-          "meaning_vi": "đồng (tiền)",
-          "hsk": 3,
-          "word_id": "hsk3_272"
+          "text": "多元",
+          "pinyin": "duōyuán",
+          "hanviet": "Đa Nguyên",
+          "meaning_vi": "đa dạng, đa nguyên",
+          "hsk": 6,
+          "word_id": "hsk6_340"
         },
         {
           "text": "一体",
@@ -630,10 +657,20 @@
           "word_id": "hsk6_936"
         },
         {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
-          "text": "令"
+          "text": "令",
+          "pinyin": "lìng",
+          "hanviet": "Lệnh",
+          "meaning_vi": "khiến cho, làm cho",
+          "hsk": 5,
+          "word_id": "hsk5_731"
         },
         {
           "text": "人",
@@ -676,7 +713,12 @@
           "word_id": "hsk4_328"
         },
         {
-          "text": "章"
+          "text": "章",
+          "pinyin": "zhāng",
+          "hanviet": "Chương",
+          "meaning_vi": "chương (sách); con dấu",
+          "hsk": 6,
+          "word_id": "hsk6_1665"
         },
         {
           "text": "。"
@@ -735,7 +777,12 @@
           "word_id": "hsk7_2160"
         },
         {
-          "text": "测"
+          "text": "测",
+          "pinyin": "cè",
+          "hanviet": "Trắc",
+          "meaning_vi": "đo, đo lường",
+          "hsk": 5,
+          "word_id": "hsk5_95"
         },
         {
           "text": "年",
@@ -749,7 +796,12 @@
           "text": "、"
         },
         {
-          "text": "古"
+          "text": "古",
+          "pinyin": "gǔ",
+          "hanviet": "Cổ",
+          "meaning_vi": "cổ, cổ xưa, ngày xưa",
+          "hsk": 5,
+          "word_id": "hsk5_422"
         },
         {
           "text": "D"
@@ -777,7 +829,12 @@
           "word_id": "hsk5_1292"
         },
         {
-          "text": "学"
+          "text": "学",
+          "pinyin": "xué",
+          "hanviet": "Học",
+          "meaning_vi": "học",
+          "hsk": 1,
+          "word_id": "hsk1_589"
         },
         {
           "text": "与",
@@ -788,7 +845,12 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "同"
+          "text": "同",
+          "pinyin": "tóng",
+          "hanviet": "Đồng",
+          "meaning_vi": "cùng, cùng với; giống nhau",
+          "hsk": 5,
+          "word_id": "hsk5_1141"
         },
         {
           "text": "位",
@@ -840,7 +902,12 @@
           "word_id": "hsk6_1300"
         },
         {
-          "text": "学"
+          "text": "学",
+          "pinyin": "xué",
+          "hanviet": "Học",
+          "meaning_vi": "học",
+          "hsk": 1,
+          "word_id": "hsk1_589"
         },
         {
           "text": "家",
@@ -851,20 +918,12 @@
           "word_id": "hsk1_45"
         },
         {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
+          "text": "能够",
+          "pinyin": "nénggòu",
+          "hanviet": "Năng Cú",
           "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
-        },
-        {
-          "text": "够",
-          "pinyin": "gòu",
-          "hanviet": "Cú",
-          "meaning_vi": "đủ",
           "hsk": 4,
-          "word_id": "hsk4_145"
+          "word_id": "hsk4_532"
         },
         {
           "text": "以",
@@ -923,7 +982,12 @@
           "word_id": "hsk4_371"
         },
         {
-          "text": "图"
+          "text": "图",
+          "pinyin": "tú",
+          "hanviet": "Đồ",
+          "meaning_vi": "hình vẽ, bản đồ, tranh",
+          "hsk": 4,
+          "word_id": "hsk4_752"
         },
         {
           "text": "景"
@@ -977,10 +1041,12 @@
           "text": "，"
         },
         {
-          "text": "中"
-        },
-        {
-          "text": "华"
+          "text": "中华",
+          "pinyin": "Zhōnghuá",
+          "hanviet": "Trung Hoa",
+          "meaning_vi": "trung Quốc",
+          "hsk": 5,
+          "word_id": "hsk5_1520"
         },
         {
           "text": "文明",
@@ -991,10 +1057,12 @@
           "word_id": "hsk5_1138"
         },
         {
-          "text": "如"
-        },
-        {
-          "text": "同"
+          "text": "如同",
+          "pinyin": "rútóng",
+          "hanviet": "Như Đồng",
+          "meaning_vi": "như, giống như, tựa như",
+          "hsk": 5,
+          "word_id": "hsk5_936"
         },
         {
           "text": "满",
@@ -1005,7 +1073,12 @@
           "word_id": "hsk4_299"
         },
         {
-          "text": "天"
+          "text": "天",
+          "pinyin": "tiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "trời (danh từ, định lượng)",
+          "hsk": 1,
+          "word_id": "hsk1_573"
         },
         {
           "text": "星"
@@ -1051,10 +1124,20 @@
           "word_id": "hsk7_3982"
         },
         {
-          "text": "江"
+          "text": "江",
+          "pinyin": "jiāng",
+          "hanviet": "Giang",
+          "meaning_vi": "sông (lớn)",
+          "hsk": 4,
+          "word_id": "hsk4_355"
         },
         {
-          "text": "海"
+          "text": "海",
+          "pinyin": "hǎi",
+          "hanviet": "Hải",
+          "meaning_vi": "biển",
+          "hsk": 3,
+          "word_id": "hsk3_751"
         },
         {
           "text": "，"
@@ -1116,7 +1199,12 @@
           "word_id": "hsk4_392"
         },
         {
-          "text": "并"
+          "text": "并",
+          "pinyin": "bìng",
+          "hanviet": "Tinh",
+          "meaning_vi": "và, đồng thời; hoàn toàn (không)",
+          "hsk": 4,
+          "word_id": "hsk4_39"
         },
         {
           "text": "蓄"
@@ -1189,12 +1277,12 @@
     "hsk7_2543",
     "hsk1_96",
     "hsk7_2081",
-    "hsk4_308",
     "hsk5_258",
     "hsk5_806",
     "hsk3_232",
     "hsk6_1120",
-    "hsk5_1264"
+    "hsk5_1264",
+    "hsk5_1520"
   ],
   "quiz": [
     {

@@ -18,16 +18,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "大",
-          "pinyin": "dà",
-          "hanviet": "Đại",
-          "meaning_vi": "to, lớn",
+          "text": "大学",
+          "pinyin": "dàxué",
+          "hanviet": "Đại Học",
+          "meaning_vi": "đại học",
           "hsk": 1,
-          "word_id": "hsk1_14"
-        },
-        {
-          "text": "学",
-          "unknown": true
+          "word_id": "hsk1_506"
         },
         {
           "text": "毕业",
@@ -38,16 +34,12 @@
           "word_id": "hsk4_18"
         },
         {
-          "text": "以",
-          "pinyin": "yǐ",
-          "hanviet": "Dĩ",
-          "meaning_vi": "bằng, dùng",
-          "hsk": 4,
-          "word_id": "hsk4_512"
-        },
-        {
-          "text": "后",
-          "unknown": true
+          "text": "以后",
+          "pinyin": "yǐhòu",
+          "hanviet": "Dĩ Hậu",
+          "meaning_vi": "sau này, sau khi",
+          "hsk": 3,
+          "word_id": "hsk3_1005"
         },
         {
           "text": "，"
@@ -157,16 +149,12 @@
           "word_id": "hsk3_194"
         },
         {
-          "text": "填",
-          "unknown": true
-        },
-        {
-          "text": "写",
-          "pinyin": "xiě",
-          "hanviet": "Tả",
-          "meaning_vi": "viết",
-          "hsk": 1,
-          "word_id": "hsk1_124"
+          "text": "填写",
+          "pinyin": "tiánxiě",
+          "hanviet": "Điền Tả",
+          "meaning_vi": "điền (vào mẫu)",
+          "hsk": 4,
+          "word_id": "hsk4_735"
         },
         {
           "text": "了",
@@ -222,16 +210,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "面",
-          "unknown": true
-        },
-        {
-          "text": "试",
-          "pinyin": "shì",
-          "hanviet": "Thí",
-          "meaning_vi": "thử, thi",
-          "hsk": 3,
-          "word_id": "hsk3_201"
+          "text": "面试",
+          "pinyin": "miànshì",
+          "hanviet": "Diện Thí",
+          "meaning_vi": "phỏng vấn",
+          "hsk": 4,
+          "word_id": "hsk4_510"
         },
         {
           "text": "那",
@@ -243,7 +227,11 @@
         },
         {
           "text": "天",
-          "unknown": true
+          "pinyin": "tiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "trời (danh từ, định lượng)",
+          "hsk": 1,
+          "word_id": "hsk1_573"
         },
         {
           "text": "我",
@@ -273,28 +261,20 @@
           "text": "，"
         },
         {
-          "text": "但",
-          "unknown": true
+          "text": "但是",
+          "pinyin": "dànshì",
+          "hanviet": "Đãn Thị",
+          "meaning_vi": "nhưng",
+          "hsk": 2,
+          "word_id": "hsk2_331"
         },
         {
-          "text": "是",
-          "pinyin": "shì",
-          "hanviet": "Thị",
-          "meaning_vi": "là",
-          "hsk": 1,
-          "word_id": "hsk1_96"
-        },
-        {
-          "text": "面",
-          "unknown": true
-        },
-        {
-          "text": "试",
-          "pinyin": "shì",
-          "hanviet": "Thí",
-          "meaning_vi": "thử, thi",
-          "hsk": 3,
-          "word_id": "hsk3_201"
+          "text": "面试",
+          "pinyin": "miànshì",
+          "hanviet": "Diện Thí",
+          "meaning_vi": "phỏng vấn",
+          "hsk": 4,
+          "word_id": "hsk4_510"
         },
         {
           "text": "官",
@@ -350,20 +330,12 @@
           "word_id": "hsk1_104"
         },
         {
-          "text": "提",
-          "pinyin": "tí",
-          "hanviet": "Đề",
-          "meaning_vi": "mang, xách; nêu ra",
+          "text": "提出",
+          "pinyin": "tíchū",
+          "hanviet": "Đề Xuất",
+          "meaning_vi": "đưa ra, nêu ra",
           "hsk": 4,
-          "word_id": "hsk4_430"
-        },
-        {
-          "text": "出",
-          "pinyin": "chū",
-          "hanviet": "Xuất",
-          "meaning_vi": "ra, đi ra",
-          "hsk": 2,
-          "word_id": "hsk2_11"
+          "word_id": "hsk4_727"
         },
         {
           "text": "的",
@@ -382,12 +354,12 @@
           "word_id": "hsk2_112"
         },
         {
-          "text": "虽",
-          "unknown": true
-        },
-        {
-          "text": "然",
-          "unknown": true
+          "text": "虽然",
+          "pinyin": "suīrán",
+          "hanviet": "Tuy Nhiên",
+          "meaning_vi": "mặc dù",
+          "hsk": 2,
+          "word_id": "hsk2_438"
         },
         {
           "text": "专业",
@@ -402,7 +374,11 @@
         },
         {
           "text": "但",
-          "unknown": true
+          "pinyin": "dàn",
+          "hanviet": "Đãn",
+          "meaning_vi": "nhưng, nhưng mà",
+          "hsk": 2,
+          "word_id": "hsk2_330"
         },
         {
           "text": "我",
@@ -467,11 +443,19 @@
         },
         {
           "text": "天",
-          "unknown": true
+          "pinyin": "tiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "trời (danh từ, định lượng)",
+          "hsk": 1,
+          "word_id": "hsk1_573"
         },
         {
           "text": "后",
-          "unknown": true
+          "pinyin": "hòu",
+          "hanviet": "Hậu",
+          "meaning_vi": "sau",
+          "hsk": 1,
+          "word_id": "hsk1_524"
         },
         {
           "text": "，"

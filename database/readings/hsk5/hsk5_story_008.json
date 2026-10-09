@@ -23,7 +23,12 @@
           "text": "苏"
         },
         {
-          "text": "州"
+          "text": "州",
+          "pinyin": "zhōu",
+          "hanviet": "Châu",
+          "meaning_vi": "tiểu bang, châu",
+          "hsk": 6,
+          "word_id": "hsk6_1736"
         },
         {
           "text": "古典",
@@ -181,13 +186,28 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "造"
+          "text": "造",
+          "pinyin": "zào",
+          "hanviet": "Tạo",
+          "meaning_vi": "làm, chế tạo, tạo dựng",
+          "hsk": 5,
+          "word_id": "hsk5_1453"
         },
         {
-          "text": "园"
+          "text": "园",
+          "pinyin": "yuán",
+          "hanviet": "Viên",
+          "meaning_vi": "vườn; khu (công viên, vườn trường)",
+          "hsk": 3,
+          "word_id": "hsk3_1034"
         },
         {
-          "text": "名"
+          "text": "名",
+          "pinyin": "míng",
+          "hanviet": "Danh",
+          "meaning_vi": "người, vị (lượng từ: 一名医生); tên",
+          "hsk": 2,
+          "word_id": "hsk2_404"
         },
         {
           "text": "家",
@@ -222,13 +242,23 @@
           "word_id": "hsk4_201"
         },
         {
-          "text": "山"
+          "text": "山",
+          "pinyin": "shān",
+          "hanviet": "Sơn",
+          "meaning_vi": "núi",
+          "hsk": 3,
+          "word_id": "hsk3_905"
         },
         {
           "text": "、"
         },
         {
-          "text": "池"
+          "text": "池",
+          "pinyin": "chí",
+          "hanviet": "Trì",
+          "meaning_vi": "ao, bể",
+          "hsk": 5,
+          "word_id": "hsk5_154"
         },
         {
           "text": "水",
@@ -278,15 +308,12 @@
           "word_id": "hsk1_139"
         },
         {
-          "text": "有",
-          "pinyin": "yǒu",
-          "hanviet": "Hữu",
-          "meaning_vi": "có",
-          "hsk": 1,
-          "word_id": "hsk1_136"
-        },
-        {
-          "text": "限"
+          "text": "有限",
+          "pinyin": "yǒuxiàn",
+          "hanviet": "Hữu Hạn",
+          "meaning_vi": "có hạn, hữu hạn",
+          "hsk": 5,
+          "word_id": "hsk5_1412"
         },
         {
           "text": "空间",
@@ -313,15 +340,12 @@
           "word_id": "hsk5_715"
         },
         {
-          "text": "无",
-          "pinyin": "wú",
-          "hanviet": "Vô",
-          "meaning_vi": "không có",
-          "hsk": 4,
-          "word_id": "hsk4_456"
-        },
-        {
-          "text": "限"
+          "text": "无限",
+          "pinyin": "wúxiàn",
+          "hanviet": "Vô Hạn",
+          "meaning_vi": "vô hạn, vô tận, không biên giới",
+          "hsk": 5,
+          "word_id": "hsk5_1209"
         },
         {
           "text": "意"
@@ -351,7 +375,12 @@
           "word_id": "hsk7_2741"
         },
         {
-          "text": "步"
+          "text": "步",
+          "pinyin": "bù",
+          "hanviet": "Bộ",
+          "meaning_vi": "bước",
+          "hsk": 4,
+          "word_id": "hsk4_49"
         },
         {
           "text": "在",
@@ -389,29 +418,23 @@
           "text": "廊"
         },
         {
-          "text": "之",
-          "pinyin": "zhī",
-          "hanviet": "Chi",
-          "meaning_vi": "của (trợ từ văn viết)",
+          "text": "之中",
+          "pinyin": "zhīzhōng",
+          "hanviet": "Chi Trung",
+          "meaning_vi": "trong, trong số",
           "hsk": 4,
-          "word_id": "hsk4_563"
-        },
-        {
-          "text": "中"
+          "word_id": "hsk4_945"
         },
         {
           "text": "，"
         },
         {
-          "text": "游"
-        },
-        {
-          "text": "人",
-          "pinyin": "rén",
-          "hanviet": "Nhân",
-          "meaning_vi": "người",
-          "hsk": 1,
-          "word_id": "hsk1_85"
+          "text": "游人",
+          "pinyin": "yóurén",
+          "hanviet": "Du Nhân",
+          "meaning_vi": "du khách, người đi chơi",
+          "hsk": 6,
+          "word_id": "hsk6_1601"
         },
         {
           "text": "一",
@@ -422,7 +445,12 @@
           "word_id": "hsk1_130"
         },
         {
-          "text": "步"
+          "text": "步",
+          "pinyin": "bù",
+          "hanviet": "Bộ",
+          "meaning_vi": "bước",
+          "hsk": 4,
+          "word_id": "hsk4_49"
         },
         {
           "text": "一",
@@ -439,10 +467,12 @@
           "text": "，"
         },
         {
-          "text": "处"
-        },
-        {
-          "text": "处"
+          "text": "处处",
+          "pinyin": "chùchù",
+          "hanviet": "Xử Xử",
+          "meaning_vi": "khắp nơi, mọi nơi, chốn chốn",
+          "hsk": 6,
+          "word_id": "hsk6_199"
         },
         {
           "text": "感受",
@@ -493,7 +523,12 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "静"
+          "text": "静",
+          "pinyin": "jìng",
+          "hanviet": "Tĩnh",
+          "meaning_vi": "yên tĩnh, tĩnh lặng",
+          "hsk": 5,
+          "word_id": "hsk5_626"
         },
         {
           "text": "谧"
@@ -528,7 +563,12 @@
           "word_id": "hsk3_289"
         },
         {
-          "text": "虽"
+          "text": "虽",
+          "pinyin": "suī",
+          "hanviet": "Tuy",
+          "meaning_vi": "tuy, mặc dù",
+          "hsk": 6,
+          "word_id": "hsk6_1249"
         },
         {
           "text": "由",
@@ -556,10 +596,20 @@
           "text": "宛"
         },
         {
-          "text": "自"
+          "text": "自",
+          "pinyin": "zì",
+          "hanviet": "Tự",
+          "meaning_vi": "từ (văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_980"
         },
         {
-          "text": "天"
+          "text": "天",
+          "pinyin": "tiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "trời (danh từ, định lượng)",
+          "hsk": 1,
+          "word_id": "hsk1_573"
         },
         {
           "text": "开",
@@ -621,7 +671,12 @@
           "word_id": "hsk1_55"
         },
         {
-          "text": "天"
+          "text": "天",
+          "pinyin": "tiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "trời (danh từ, định lượng)",
+          "hsk": 1,
+          "word_id": "hsk1_573"
         },
         {
           "text": "人",
@@ -632,7 +687,12 @@
           "word_id": "hsk1_85"
         },
         {
-          "text": "合"
+          "text": "合",
+          "pinyin": "hé",
+          "hanviet": "Cáp",
+          "meaning_vi": "khép lại, đóng lại; hợp lại",
+          "hsk": 5,
+          "word_id": "hsk5_474"
         },
         {
           "text": "一",
@@ -720,7 +780,12 @@
           "word_id": "hsk5_1216"
         },
         {
-          "text": "胜"
+          "text": "胜",
+          "pinyin": "shèng",
+          "hanviet": "Thắng",
+          "meaning_vi": "thắng, chiến thắng",
+          "hsk": 5,
+          "word_id": "hsk5_1001"
         },
         {
           "text": "地",
@@ -753,7 +818,12 @@
           "text": "滋"
         },
         {
-          "text": "养"
+          "text": "养",
+          "pinyin": "yǎng",
+          "hanviet": "Dưỡng",
+          "meaning_vi": "nuôi",
+          "hsk": 3,
+          "word_id": "hsk3_998"
         },
         {
           "text": "心灵",
@@ -773,20 +843,12 @@
           "text": "悟"
         },
         {
-          "text": "东",
-          "pinyin": "dōng",
-          "hanviet": "Đông",
-          "meaning_vi": "phía đông",
+          "text": "东方",
+          "pinyin": "dōngfāng",
+          "hanviet": "Đông Phương",
+          "meaning_vi": "phía đông; phương Đông",
           "hsk": 3,
-          "word_id": "hsk3_53"
-        },
-        {
-          "text": "方",
-          "pinyin": "fāng",
-          "hanviet": "Phương",
-          "meaning_vi": "vuông, phương",
-          "hsk": 5,
-          "word_id": "hsk5_774"
+          "word_id": "hsk3_696"
         },
         {
           "text": "文化",
@@ -805,10 +867,20 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "静"
+          "text": "静",
+          "pinyin": "jìng",
+          "hanviet": "Tĩnh",
+          "meaning_vi": "yên tĩnh, tĩnh lặng",
+          "hsk": 5,
+          "word_id": "hsk5_626"
         },
         {
-          "text": "心"
+          "text": "心",
+          "pinyin": "xīn",
+          "hanviet": "Tâm",
+          "meaning_vi": "tim; lòng, tâm",
+          "hsk": 4,
+          "word_id": "hsk4_819"
         },
         {
           "text": "之",

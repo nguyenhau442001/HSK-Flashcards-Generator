@@ -86,7 +86,11 @@
         },
         {
           "text": "全",
-          "unknown": true
+          "pinyin": "quán",
+          "hanviet": "Toàn",
+          "meaning_vi": "toàn bộ, đầy đủ; hoàn toàn",
+          "hsk": 4,
+          "word_id": "hsk4_598"
         },
         {
           "text": "家",
@@ -291,16 +295,12 @@
           "word_id": "hsk3_218"
         },
         {
-          "text": "红",
-          "pinyin": "hóng",
-          "hanviet": "Hồng",
-          "meaning_vi": "đỏ",
+          "text": "红色",
+          "pinyin": "hóngsè",
+          "hanviet": "Hồng Sắc",
+          "meaning_vi": "màu đỏ",
           "hsk": 2,
-          "word_id": "hsk2_41"
-        },
-        {
-          "text": "色",
-          "unknown": true
+          "word_id": "hsk2_355"
         },
         {
           "text": "的",
@@ -365,7 +365,11 @@
         },
         {
           "text": "祝",
-          "unknown": true
+          "pinyin": "zhù",
+          "hanviet": "Chúc",
+          "meaning_vi": "chúc",
+          "hsk": 4,
+          "word_id": "hsk4_965"
         },
         {
           "text": "奶奶",
@@ -476,7 +480,11 @@
         },
         {
           "text": "灭",
-          "unknown": true
+          "pinyin": "miè",
+          "hanviet": "Diệt",
+          "meaning_vi": "tắt, dập tắt",
+          "hsk": 6,
+          "word_id": "hsk6_917"
         },
         {
           "text": "了",
@@ -495,12 +503,12 @@
           "word_id": "hsk2_93"
         },
         {
-          "text": "蜡",
-          "unknown": true
-        },
-        {
-          "text": "烛",
-          "unknown": true
+          "text": "蜡烛",
+          "pinyin": "làzhú",
+          "hanviet": "Lạp Chúc",
+          "meaning_vi": "cây nến, ngọn nến",
+          "hsk": 7,
+          "word_id": "hsk7_2467"
         },
         {
           "text": "。"
@@ -513,12 +521,17 @@
     "hsk2_93",
     "hsk3_44",
     "hsk2_99",
-    "hsk2_41",
     "hsk3_218",
     "hsk2_17",
     "hsk2_91",
     "hsk3_115",
-    "hsk2_117"
+    "hsk2_117",
+    "hsk1_47",
+    "hsk1_96",
+    "hsk1_79",
+    "hsk1_94",
+    "hsk1_103",
+    "hsk1_15"
   ],
   "quiz": [
     {

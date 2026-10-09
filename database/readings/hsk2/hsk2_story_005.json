@@ -34,16 +34,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "外",
-          "pinyin": "wài",
-          "hanviet": "Ngoại",
-          "meaning_vi": "ngoài",
+          "text": "外国",
+          "pinyin": "wàiguó",
+          "hanviet": "Ngoại Quốc",
+          "meaning_vi": "nước ngoài",
           "hsk": 2,
-          "word_id": "hsk2_105"
-        },
-        {
-          "text": "国",
-          "unknown": true
+          "word_id": "hsk2_446"
         },
         {
           "text": "朋友",
@@ -296,20 +292,12 @@
           "word_id": "hsk2_8"
         },
         {
-          "text": "门",
-          "pinyin": "mén",
-          "hanviet": "Môn",
-          "meaning_vi": "cửa",
+          "text": "门口",
+          "pinyin": "ménkǒu",
+          "hanviet": "Môn Khẩu",
+          "meaning_vi": "cổng, cửa, trước cửa",
           "hsk": 2,
-          "word_id": "hsk2_72"
-        },
-        {
-          "text": "口",
-          "pinyin": "kǒu",
-          "hanviet": "Khẩu",
-          "meaning_vi": "miệng; cái (lượng từ)",
-          "hsk": 3,
-          "word_id": "hsk3_141"
+          "word_id": "hsk2_401"
         },
         {
           "text": "，"
@@ -392,8 +380,7 @@
           "word_id": "hsk1_31"
         },
         {
-          "text": "兴",
-          "unknown": true
+          "text": "兴"
         },
         {
           "text": "地",
@@ -444,8 +431,7 @@
           "word_id": "hsk2_53"
         },
         {
-          "text": "馆",
-          "unknown": true
+          "text": "馆"
         },
         {
           "text": "。"
@@ -460,8 +446,15 @@
     "hsk2_137",
     "hsk2_49",
     "hsk2_148",
-    "hsk2_72",
-    "hsk2_53"
+    "hsk2_53",
+    "hsk1_111",
+    "hsk1_15",
+    "hsk2_446",
+    "hsk1_76",
+    "hsk1_148",
+    "hsk1_55",
+    "hsk1_5",
+    "hsk1_104"
   ],
   "quiz": [
     {

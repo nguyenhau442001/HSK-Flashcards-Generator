@@ -60,24 +60,31 @@
           "word_id": "hsk2_9"
         },
         {
-          "text": "河"
+          "text": "河",
+          "pinyin": "hé",
+          "hanviet": "Hà",
+          "meaning_vi": "sông",
+          "hsk": 3,
+          "word_id": "hsk3_757"
         },
         {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "，"
         },
         {
-          "text": "古"
-        },
-        {
-          "text": "老",
-          "pinyin": "lǎo",
-          "hanviet": "Lão",
-          "meaning_vi": "già",
-          "hsk": 3,
-          "word_id": "hsk3_146"
+          "text": "古老",
+          "pinyin": "gǔlǎo",
+          "hanviet": "Cổ Lão",
+          "meaning_vi": "cổ xưa",
+          "hsk": 5,
+          "word_id": "hsk5_425"
         },
         {
           "text": "的",
@@ -156,7 +163,12 @@
           "text": "，"
         },
         {
-          "text": "将"
+          "text": "将",
+          "pinyin": "jiāng",
+          "hanviet": "Tương",
+          "meaning_vi": "sẽ; đem, lấy (như 把)",
+          "hsk": 4,
+          "word_id": "hsk4_356"
         },
         {
           "text": "欧"
@@ -173,26 +185,20 @@
           "word_id": "hsk7_735"
         },
         {
-          "text": "紧"
+          "text": "紧密",
+          "pinyin": "jǐnmì",
+          "hanviet": "Khẩn Mật",
+          "meaning_vi": "chặt chẽ, mật thiết",
+          "hsk": 5,
+          "word_id": "hsk5_611"
         },
         {
-          "text": "密"
-        },
-        {
-          "text": "连",
-          "pinyin": "lián",
-          "hanviet": "Liên",
-          "meaning_vi": "liên tiếp, ngay cả",
-          "hsk": 4,
-          "word_id": "hsk4_286"
-        },
-        {
-          "text": "接",
-          "pinyin": "jiē",
-          "hanviet": "Tiếp",
-          "meaning_vi": "đón, nhận",
-          "hsk": 3,
-          "word_id": "hsk3_121"
+          "text": "连接",
+          "pinyin": "liánjiē",
+          "hanviet": "Liên Tiếp",
+          "meaning_vi": "kết nối, nối liền",
+          "hsk": 5,
+          "word_id": "hsk5_712"
         },
         {
           "text": "在",
@@ -254,7 +260,12 @@
           "word_id": "hsk5_949"
         },
         {
-          "text": "声"
+          "text": "声",
+          "pinyin": "shēng",
+          "hanviet": "Thanh",
+          "meaning_vi": "tiếng, âm thanh; tiếng (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_910"
         },
         {
           "text": "回",
@@ -276,7 +287,12 @@
           "word_id": "hsk1_139"
         },
         {
-          "text": "广"
+          "text": "广",
+          "pinyin": "guǎng",
+          "hanviet": "Nghiễm",
+          "meaning_vi": "rộng, rộng rãi",
+          "hsk": 5,
+          "word_id": "hsk5_439"
         },
         {
           "text": "袤"
@@ -317,15 +333,12 @@
           "word_id": "hsk7_2694"
         },
         {
-          "text": "之",
-          "pinyin": "zhī",
-          "hanviet": "Chi",
-          "meaning_vi": "của (trợ từ văn viết)",
+          "text": "之间",
+          "pinyin": "zhījiān",
+          "hanviet": "Chi Gian",
+          "meaning_vi": "giữa",
           "hsk": 4,
-          "word_id": "hsk4_563"
-        },
-        {
-          "text": "间"
+          "word_id": "hsk4_942"
         },
         {
           "text": "，"
@@ -377,10 +390,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "艰"
-        },
-        {
-          "text": "辛"
+          "text": "艰辛",
+          "pinyin": "jiānxīn",
+          "hanviet": "Gian Tân",
+          "meaning_vi": "gian nan vất vả, gian truân",
+          "hsk": 6,
+          "word_id": "hsk6_648"
         },
         {
           "text": "跋"
@@ -458,7 +473,12 @@
           "word_id": "hsk4_31"
         },
         {
-          "text": "仅"
+          "text": "仅",
+          "pinyin": "jǐn",
+          "hanviet": "Cận",
+          "meaning_vi": "chỉ",
+          "hsk": 4,
+          "word_id": "hsk4_388"
         },
         {
           "text": "是",
@@ -477,15 +497,12 @@
           "word_id": "hsk5_404"
         },
         {
-          "text": "交",
-          "pinyin": "jiāo",
-          "hanviet": "Giao",
-          "meaning_vi": "giao, đưa",
-          "hsk": 4,
-          "word_id": "hsk4_211"
-        },
-        {
-          "text": "易"
+          "text": "交易",
+          "pinyin": "jiāoyì",
+          "hanviet": "Giao Dịch",
+          "meaning_vi": "giao dịch",
+          "hsk": 5,
+          "word_id": "hsk5_590"
         },
         {
           "text": "的",
@@ -504,10 +521,12 @@
           "word_id": "hsk7_4355"
         },
         {
-          "text": "通"
-        },
-        {
-          "text": "道"
+          "text": "通道",
+          "pinyin": "tōngdào",
+          "hanviet": "Thông Đạo",
+          "meaning_vi": "lối đi, hành lang, kênh dẫn",
+          "hsk": 6,
+          "word_id": "hsk6_1303"
         },
         {
           "text": "，"
@@ -556,15 +575,12 @@
           "word_id": "hsk6_2023"
         },
         {
-          "text": "医"
-        },
-        {
-          "text": "药",
-          "pinyin": "yào",
-          "hanviet": "Dược",
-          "meaning_vi": "thuốc",
-          "hsk": 2,
-          "word_id": "hsk2_125"
+          "text": "医药",
+          "pinyin": "yīyào",
+          "hanviet": "Y Dược",
+          "meaning_vi": "y dược, thuốc men",
+          "hsk": 6,
+          "word_id": "hsk6_1540"
         },
         {
           "text": "与",
@@ -575,10 +591,20 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "造"
+          "text": "造",
+          "pinyin": "zào",
+          "hanviet": "Tạo",
+          "meaning_vi": "làm, chế tạo, tạo dựng",
+          "hsk": 5,
+          "word_id": "hsk5_1453"
         },
         {
-          "text": "纸"
+          "text": "纸",
+          "pinyin": "zhǐ",
+          "hanviet": "Chỉ",
+          "meaning_vi": "giấy",
+          "hsk": 3,
+          "word_id": "hsk3_1055"
         },
         {
           "text": "印刷",
@@ -642,15 +668,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "不",
-          "pinyin": "bù",
-          "hanviet": "Bất",
-          "meaning_vi": "không",
-          "hsk": 1,
-          "word_id": "hsk1_8"
-        },
-        {
-          "text": "同"
+          "text": "不同",
+          "pinyin": "bù tóng",
+          "hanviet": "Bất Đồng",
+          "meaning_vi": "khác nhau, không giống",
+          "hsk": 3,
+          "word_id": "hsk3_640"
         },
         {
           "text": "宗教",
@@ -696,20 +719,12 @@
           "word_id": "hsk1_139"
         },
         {
-          "text": "这",
-          "pinyin": "zhè",
-          "hanviet": "Giá",
-          "meaning_vi": "này",
+          "text": "这里",
+          "pinyin": "zhèlǐ",
+          "hanviet": "Giá Lý",
+          "meaning_vi": "đây (đại từ)",
           "hsk": 1,
-          "word_id": "hsk1_142"
-        },
-        {
-          "text": "里",
-          "pinyin": "lǐ",
-          "hanviet": "Lý",
-          "meaning_vi": "bên trong",
-          "hsk": 1,
-          "word_id": "hsk1_57"
+          "word_id": "hsk1_606"
         },
         {
           "text": "和平",
@@ -728,16 +743,23 @@
           "word_id": "hsk4_211"
         },
         {
-          "text": "汇"
+          "text": "汇",
+          "pinyin": "huì",
+          "hanviet": "Hối",
+          "meaning_vi": "tập hợp, tụ hội; gửi tiền, chuyển khoản",
+          "hsk": 6,
+          "word_id": "hsk6_588"
         },
         {
           "text": "、"
         },
         {
-          "text": "相"
-        },
-        {
-          "text": "互"
+          "text": "相互",
+          "pinyin": "xiānghù",
+          "hanviet": "Tương Hỗ",
+          "meaning_vi": "lẫn nhau",
+          "hsk": 4,
+          "word_id": "hsk4_805"
         },
         {
           "text": "汲取",
@@ -799,20 +821,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "多",
-          "pinyin": "duō",
-          "hanviet": "Đa",
-          "meaning_vi": "nhiều",
-          "hsk": 1,
-          "word_id": "hsk1_24"
-        },
-        {
-          "text": "元",
-          "pinyin": "yuán",
-          "hanviet": "Nguyên",
-          "meaning_vi": "đồng (tiền)",
-          "hsk": 3,
-          "word_id": "hsk3_272"
+          "text": "多元",
+          "pinyin": "duōyuán",
+          "hanviet": "Đa Nguyên",
+          "meaning_vi": "đa dạng, đa nguyên",
+          "hsk": 6,
+          "word_id": "hsk6_340"
         },
         {
           "text": "文明",
@@ -844,15 +858,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "回",
-          "pinyin": "huí",
-          "hanviet": "Hồi",
-          "meaning_vi": "trở về",
-          "hsk": 1,
-          "word_id": "hsk1_42"
-        },
-        {
-          "text": "顾"
+          "text": "回顾",
+          "pinyin": "huígù",
+          "hanviet": "Hồi Cố",
+          "meaning_vi": "nhìn lại, điểm lại, hồi tưởng",
+          "hsk": 6,
+          "word_id": "hsk6_586"
         },
         {
           "text": "丝",
@@ -879,15 +890,12 @@
           "word_id": "hsk3_149"
         },
         {
-          "text": "给",
-          "pinyin": "gěi",
-          "hanviet": "Cấp",
-          "meaning_vi": "cho, tặng",
-          "hsk": 2,
-          "word_id": "hsk2_32"
-        },
-        {
-          "text": "予"
+          "text": "给予",
+          "pinyin": "jǐyǔ",
+          "hanviet": "Cấp Dư",
+          "meaning_vi": "cho",
+          "hsk": 6,
+          "word_id": "hsk6_446"
         },
         {
           "text": "我们",
@@ -1008,7 +1016,12 @@
           "word_id": "hsk1_72"
         },
         {
-          "text": "共"
+          "text": "共",
+          "pinyin": "gòng",
+          "hanviet": "Cộng",
+          "meaning_vi": "tổng cộng; cùng",
+          "hsk": 4,
+          "word_id": "hsk4_258"
         },
         {
           "text": "赢",
@@ -1030,7 +1043,6 @@
     "hsk1_15",
     "hsk3_149",
     "hsk2_9",
-    "hsk3_146",
     "hsk5_447",
     "hsk4_563",
     "hsk2_65",
@@ -1038,8 +1050,9 @@
     "hsk3_218",
     "hsk7_2979",
     "hsk7_735",
-    "hsk4_286",
-    "hsk3_121"
+    "hsk3_757",
+    "hsk3_1060",
+    "hsk5_425"
   ],
   "quiz": [
     {

@@ -20,7 +20,7 @@
         {
           "text": "我",
           "pinyin": "wǒ",
-          "hanviet": "ngã",
+          "hanviet": "Ngã",
           "meaning_vi": "tôi",
           "hsk": 1,
           "word_id": "hsk1_111"
@@ -28,7 +28,7 @@
         {
           "text": "家",
           "pinyin": "jiā",
-          "hanviet": "gia",
+          "hanviet": "Gia",
           "meaning_vi": "nhà",
           "hsk": 1,
           "word_id": "hsk1_45"
@@ -36,7 +36,7 @@
         {
           "text": "有",
           "pinyin": "yǒu",
-          "hanviet": "hữu",
+          "hanviet": "Hữu",
           "meaning_vi": "có",
           "hsk": 1,
           "word_id": "hsk1_136"
@@ -44,7 +44,7 @@
         {
           "text": "一",
           "pinyin": "yī",
-          "hanviet": "nhất",
+          "hanviet": "Nhất",
           "meaning_vi": "một",
           "hsk": 1,
           "word_id": "hsk1_130"
@@ -52,15 +52,15 @@
         {
           "text": "只",
           "pinyin": "zhī",
-          "hanviet": "chích",
-          "meaning_vi": "con (lượng từ chỉ động vật)",
-          "hsk": 3,
-          "word_id": "hsk3_283"
+          "hanviet": "Chỉ",
+          "meaning_vi": "con, chiếc, cái (lượng từ: 一只猫)",
+          "hsk": 1,
+          "word_id": "hsk1_609"
         },
         {
           "text": "猫",
           "pinyin": "māo",
-          "hanviet": "miêu",
+          "hanviet": "Miêu",
           "meaning_vi": "con mèo",
           "hsk": 1,
           "word_id": "hsk1_62"
@@ -71,7 +71,7 @@
         {
           "text": "它",
           "pinyin": "tā",
-          "hanviet": "tha",
+          "hanviet": "Tha",
           "meaning_vi": "nó (vật, con vật)",
           "hsk": 2,
           "word_id": "hsk2_101"
@@ -79,17 +79,26 @@
         {
           "text": "叫",
           "pinyin": "jiào",
-          "hanviet": "khiếu",
+          "hanviet": "Khiếu",
           "meaning_vi": "gọi là, tên là",
           "hsk": 1,
           "word_id": "hsk1_46"
         },
         {
-          "text": "小白",
-          "pinyin": "Xiǎobái",
-          "hanviet": "tiểu bạch",
-          "meaning_vi": "Tiểu Bạch (tên chú mèo)",
-          "is_name": true
+          "text": "小",
+          "pinyin": "xiǎo",
+          "hanviet": "Tiểu",
+          "meaning_vi": "nhỏ",
+          "hsk": 1,
+          "word_id": "hsk1_121"
+        },
+        {
+          "text": "白",
+          "pinyin": "bái",
+          "hanviet": "Bạch",
+          "meaning_vi": "trắng",
+          "hsk": 2,
+          "word_id": "hsk2_2"
         },
         {
           "text": "。"
@@ -105,16 +114,25 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "小白",
-          "pinyin": "Xiǎobái",
-          "hanviet": "tiểu bạch",
-          "meaning_vi": "Tiểu Bạch (tên chú mèo)",
-          "is_name": true
+          "text": "小",
+          "pinyin": "xiǎo",
+          "hanviet": "Tiểu",
+          "meaning_vi": "nhỏ",
+          "hsk": 1,
+          "word_id": "hsk1_121"
+        },
+        {
+          "text": "白",
+          "pinyin": "bái",
+          "hanviet": "Bạch",
+          "meaning_vi": "trắng",
+          "hsk": 2,
+          "word_id": "hsk2_2"
         },
         {
           "text": "很",
           "pinyin": "hěn",
-          "hanviet": "ngận",
+          "hanviet": "Ngận",
           "meaning_vi": "rất",
           "hsk": 1,
           "word_id": "hsk1_40"
@@ -122,7 +140,7 @@
         {
           "text": "小",
           "pinyin": "xiǎo",
-          "hanviet": "tiểu",
+          "hanviet": "Tiểu",
           "meaning_vi": "nhỏ",
           "hsk": 1,
           "word_id": "hsk1_121"
@@ -133,7 +151,7 @@
         {
           "text": "也",
           "pinyin": "yě",
-          "hanviet": "dã",
+          "hanviet": "Dã",
           "meaning_vi": "cũng",
           "hsk": 2,
           "word_id": "hsk2_127"
@@ -141,7 +159,7 @@
         {
           "text": "很",
           "pinyin": "hěn",
-          "hanviet": "ngận",
+          "hanviet": "Ngận",
           "meaning_vi": "rất",
           "hsk": 1,
           "word_id": "hsk1_40"
@@ -149,7 +167,7 @@
         {
           "text": "漂亮",
           "pinyin": "piàoliang",
-          "hanviet": "phiêu lượng",
+          "hanviet": "Phiêu Lượng",
           "meaning_vi": "đẹp",
           "hsk": 1,
           "word_id": "hsk1_77"
@@ -170,7 +188,7 @@
         {
           "text": "它",
           "pinyin": "tā",
-          "hanviet": "tha",
+          "hanviet": "Tha",
           "meaning_vi": "nó (vật, con vật)",
           "hsk": 2,
           "word_id": "hsk2_101"
@@ -178,7 +196,7 @@
         {
           "text": "喜欢",
           "pinyin": "xǐhuan",
-          "hanviet": "hỷ hoan",
+          "hanviet": "Hỷ Hoan",
           "meaning_vi": "thích",
           "hsk": 1,
           "word_id": "hsk1_114"
@@ -186,7 +204,7 @@
         {
           "text": "在",
           "pinyin": "zài",
-          "hanviet": "tại",
+          "hanviet": "Tại",
           "meaning_vi": "ở, đang",
           "hsk": 1,
           "word_id": "hsk1_139"
@@ -194,7 +212,7 @@
         {
           "text": "椅子",
           "pinyin": "yǐzi",
-          "hanviet": "ỷ tử",
+          "hanviet": "Ỷ Tử",
           "meaning_vi": "cái ghế",
           "hsk": 1,
           "word_id": "hsk1_135"
@@ -202,7 +220,7 @@
         {
           "text": "上",
           "pinyin": "shàng",
-          "hanviet": "thướng",
+          "hanviet": "Thướng",
           "meaning_vi": "trên",
           "hsk": 1,
           "word_id": "hsk1_89"
@@ -210,7 +228,7 @@
         {
           "text": "睡觉",
           "pinyin": "shuìjiào",
-          "hanviet": "thụy giác",
+          "hanviet": "Thụy Giác",
           "meaning_vi": "ngủ",
           "hsk": 1,
           "word_id": "hsk1_100"
@@ -231,22 +249,31 @@
         {
           "text": "今天",
           "pinyin": "jīntiān",
-          "hanviet": "kim thiên",
+          "hanviet": "Kim Thiên",
           "meaning_vi": "hôm nay",
           "hsk": 1,
           "word_id": "hsk1_47"
         },
         {
-          "text": "小白",
-          "pinyin": "Xiǎobái",
-          "hanviet": "tiểu bạch",
-          "meaning_vi": "Tiểu Bạch (tên chú mèo)",
-          "is_name": true
+          "text": "小",
+          "pinyin": "xiǎo",
+          "hanviet": "Tiểu",
+          "meaning_vi": "nhỏ",
+          "hsk": 1,
+          "word_id": "hsk1_121"
+        },
+        {
+          "text": "白",
+          "pinyin": "bái",
+          "hanviet": "Bạch",
+          "meaning_vi": "trắng",
+          "hsk": 2,
+          "word_id": "hsk2_2"
         },
         {
           "text": "不",
           "pinyin": "bù",
-          "hanviet": "bất",
+          "hanviet": "Bất",
           "meaning_vi": "không",
           "hsk": 1,
           "word_id": "hsk1_8"
@@ -254,7 +281,7 @@
         {
           "text": "吃",
           "pinyin": "chī",
-          "hanviet": "cật",
+          "hanviet": "Cật",
           "meaning_vi": "ăn",
           "hsk": 1,
           "word_id": "hsk1_11"
@@ -262,7 +289,7 @@
         {
           "text": "东西",
           "pinyin": "dōngxi",
-          "hanviet": "đông tây",
+          "hanviet": "Đông Tây",
           "meaning_vi": "đồ vật",
           "hsk": 1,
           "word_id": "hsk1_20"
@@ -272,16 +299,16 @@
         },
         {
           "text": "只",
-          "pinyin": "zhǐ",
-          "hanviet": "chỉ",
-          "meaning_vi": "chỉ, chỉ có",
-          "hsk": 3,
-          "word_id": "hsk3_284"
+          "pinyin": "zhī",
+          "hanviet": "Chỉ",
+          "meaning_vi": "con, chiếc, cái (lượng từ: 一只猫)",
+          "hsk": 1,
+          "word_id": "hsk1_609"
         },
         {
           "text": "喝",
           "pinyin": "hē",
-          "hanviet": "húp",
+          "hanviet": "Húp",
           "meaning_vi": "uống",
           "hsk": 1,
           "word_id": "hsk1_38"
@@ -289,7 +316,7 @@
         {
           "text": "水",
           "pinyin": "shuǐ",
-          "hanviet": "thuỷ",
+          "hanviet": "Thuỷ",
           "meaning_vi": "nước",
           "hsk": 1,
           "word_id": "hsk1_98"
@@ -310,7 +337,7 @@
         {
           "text": "我",
           "pinyin": "wǒ",
-          "hanviet": "ngã",
+          "hanviet": "Ngã",
           "meaning_vi": "tôi",
           "hsk": 1,
           "word_id": "hsk1_111"
@@ -318,7 +345,7 @@
         {
           "text": "问",
           "pinyin": "wèn",
-          "hanviet": "vấn",
+          "hanviet": "Vấn",
           "meaning_vi": "hỏi",
           "hsk": 2,
           "word_id": "hsk2_111"
@@ -326,7 +353,7 @@
         {
           "text": "它",
           "pinyin": "tā",
-          "hanviet": "tha",
+          "hanviet": "Tha",
           "meaning_vi": "nó (vật, con vật)",
           "hsk": 2,
           "word_id": "hsk2_101"
@@ -340,7 +367,7 @@
         {
           "text": "你",
           "pinyin": "nǐ",
-          "hanviet": "nễ",
+          "hanviet": "Nễ",
           "meaning_vi": "bạn",
           "hsk": 1,
           "word_id": "hsk1_73"
@@ -348,7 +375,7 @@
         {
           "text": "怎么",
           "pinyin": "zěnme",
-          "hanviet": "chẩm ma",
+          "hanviet": "Chẩm Ma",
           "meaning_vi": "thế nào, sao",
           "hsk": 1,
           "word_id": "hsk1_140"
@@ -356,7 +383,7 @@
         {
           "text": "了",
           "pinyin": "le",
-          "hanviet": "liễu",
+          "hanviet": "Liễu",
           "meaning_vi": "rồi (trợ từ)",
           "hsk": 1,
           "word_id": "hsk1_55"
@@ -380,22 +407,31 @@
         {
           "text": "下午",
           "pinyin": "xiàwǔ",
-          "hanviet": "hạ ngọ",
+          "hanviet": "Hạ Ngọ",
           "meaning_vi": "buổi chiều",
           "hsk": 1,
           "word_id": "hsk1_116"
         },
         {
-          "text": "小白",
-          "pinyin": "Xiǎobái",
-          "hanviet": "tiểu bạch",
-          "meaning_vi": "Tiểu Bạch (tên chú mèo)",
-          "is_name": true
+          "text": "小",
+          "pinyin": "xiǎo",
+          "hanviet": "Tiểu",
+          "meaning_vi": "nhỏ",
+          "hsk": 1,
+          "word_id": "hsk1_121"
+        },
+        {
+          "text": "白",
+          "pinyin": "bái",
+          "hanviet": "Bạch",
+          "meaning_vi": "trắng",
+          "hsk": 2,
+          "word_id": "hsk2_2"
         },
         {
           "text": "看见",
           "pinyin": "kànjiàn",
-          "hanviet": "khán kiến",
+          "hanviet": "Khán Kiến",
           "meaning_vi": "nhìn thấy",
           "hsk": 1,
           "word_id": "hsk1_51"
@@ -403,7 +439,7 @@
         {
           "text": "一",
           "pinyin": "yī",
-          "hanviet": "nhất",
+          "hanviet": "Nhất",
           "meaning_vi": "một",
           "hsk": 1,
           "word_id": "hsk1_130"
@@ -411,15 +447,15 @@
         {
           "text": "只",
           "pinyin": "zhī",
-          "hanviet": "chích",
-          "meaning_vi": "con (lượng từ chỉ động vật)",
-          "hsk": 3,
-          "word_id": "hsk3_283"
+          "hanviet": "Chỉ",
+          "meaning_vi": "con, chiếc, cái (lượng từ: 一只猫)",
+          "hsk": 1,
+          "word_id": "hsk1_609"
         },
         {
           "text": "小",
           "pinyin": "xiǎo",
-          "hanviet": "tiểu",
+          "hanviet": "Tiểu",
           "meaning_vi": "nhỏ",
           "hsk": 1,
           "word_id": "hsk1_121"
@@ -427,7 +463,7 @@
         {
           "text": "狗",
           "pinyin": "gǒu",
-          "hanviet": "cẩu",
+          "hanviet": "Cẩu",
           "meaning_vi": "con chó",
           "hsk": 1,
           "word_id": "hsk1_34"
@@ -438,7 +474,7 @@
         {
           "text": "它",
           "pinyin": "tā",
-          "hanviet": "tha",
+          "hanviet": "Tha",
           "meaning_vi": "nó (vật, con vật)",
           "hsk": 2,
           "word_id": "hsk2_101"
@@ -446,7 +482,7 @@
         {
           "text": "很",
           "pinyin": "hěn",
-          "hanviet": "ngận",
+          "hanviet": "Ngận",
           "meaning_vi": "rất",
           "hsk": 1,
           "word_id": "hsk1_40"
@@ -454,7 +490,7 @@
         {
           "text": "高兴",
           "pinyin": "gāoxìng",
-          "hanviet": "cao hứng",
+          "hanviet": "Cao Hứng",
           "meaning_vi": "vui, vui mừng",
           "hsk": 1,
           "word_id": "hsk1_31"
@@ -473,7 +509,14 @@
     "hsk1_135",
     "hsk1_100",
     "hsk1_51",
-    "hsk1_34"
+    "hsk1_34",
+    "hsk1_111",
+    "hsk1_45",
+    "hsk1_136",
+    "hsk1_130",
+    "hsk1_609",
+    "hsk2_101",
+    "hsk1_46"
   ],
   "quiz": [
     {

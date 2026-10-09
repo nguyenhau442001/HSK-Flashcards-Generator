@@ -51,7 +51,11 @@
         },
         {
           "text": "头",
-          "unknown": true
+          "pinyin": "tóu",
+          "hanviet": "Đầu",
+          "meaning_vi": "đầu (danh từ, số lượng, tính từ)",
+          "hsk": 2,
+          "word_id": "hsk2_445"
         },
         {
           "text": "疼",
@@ -66,7 +70,11 @@
         },
         {
           "text": "身",
-          "unknown": true
+          "pinyin": "shēn",
+          "hanviet": "Thân",
+          "meaning_vi": "thân, cơ thể; bộ (quần áo)",
+          "hsk": 4,
+          "word_id": "hsk4_641"
         },
         {
           "text": "上",
@@ -242,12 +250,10 @@
           "word_id": "hsk1_130"
         },
         {
-          "text": "杯",
-          "unknown": true
+          "text": "杯"
         },
         {
-          "text": "温",
-          "unknown": true
+          "text": "温"
         },
         {
           "text": "水",
@@ -294,7 +300,11 @@
         },
         {
           "text": "床",
-          "unknown": true
+          "pinyin": "chuáng",
+          "hanviet": "Sàng",
+          "meaning_vi": "cái giường",
+          "hsk": 2,
+          "word_id": "hsk2_321"
         },
         {
           "text": "上",
@@ -343,7 +353,11 @@
         },
         {
           "text": "量",
-          "unknown": true
+          "pinyin": "liáng",
+          "hanviet": "Lượng",
+          "meaning_vi": "đo",
+          "hsk": 4,
+          "word_id": "hsk4_472"
         },
         {
           "text": "了",
@@ -354,12 +368,12 @@
           "word_id": "hsk1_55"
         },
         {
-          "text": "体",
-          "unknown": true
-        },
-        {
-          "text": "温",
-          "unknown": true
+          "text": "体温",
+          "pinyin": "tǐwēn",
+          "hanviet": "Thể Ôn",
+          "meaning_vi": "nhiệt độ cơ thể",
+          "hsk": 4,
+          "word_id": "hsk4_733"
         },
         {
           "text": "，"
@@ -382,7 +396,11 @@
         },
         {
           "text": "烧",
-          "unknown": true
+          "pinyin": "shāo",
+          "hanviet": "Thiêu",
+          "meaning_vi": "đốt; nấu, nướng; sốt (bị sốt)",
+          "hsk": 5,
+          "word_id": "hsk5_967"
         },
         {
           "text": "了",
@@ -465,12 +483,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "细",
-          "unknown": true
-        },
-        {
-          "text": "心",
-          "unknown": true
+          "text": "细心",
+          "pinyin": "xìxīn",
+          "hanviet": "Tế Tâm",
+          "meaning_vi": "cẩn thận, tỉ mỉ",
+          "hsk": 4,
+          "word_id": "hsk4_792"
         },
         {
           "text": "照顾",
@@ -541,7 +559,10 @@
     "hsk2_129",
     "hsk3_204",
     "hsk3_280",
-    "hsk2_59"
+    "hsk2_59",
+    "hsk1_148",
+    "hsk2_108",
+    "hsk1_111"
   ],
   "quiz": [
     {

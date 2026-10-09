@@ -93,16 +93,12 @@
           "word_id": "hsk1_114"
         },
         {
-          "text": "春",
-          "pinyin": "chūn",
-          "hanviet": "Xuân",
+          "text": "春天",
+          "pinyin": "chūntiān",
+          "hanviet": "Xuân Thiên",
           "meaning_vi": "mùa xuân",
           "hsk": 3,
-          "word_id": "hsk3_37"
-        },
-        {
-          "text": "天",
-          "unknown": true
+          "word_id": "hsk3_666"
         },
         {
           "text": "。"
@@ -118,16 +114,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "春",
-          "pinyin": "chūn",
-          "hanviet": "Xuân",
+          "text": "春天",
+          "pinyin": "chūntiān",
+          "hanviet": "Xuân Thiên",
           "meaning_vi": "mùa xuân",
           "hsk": 3,
-          "word_id": "hsk3_37"
-        },
-        {
-          "text": "天",
-          "unknown": true
+          "word_id": "hsk3_666"
         },
         {
           "text": "来",
@@ -157,16 +149,20 @@
           "word_id": "hsk1_107"
         },
         {
-          "text": "渐",
-          "unknown": true
-        },
-        {
-          "text": "渐",
-          "unknown": true
+          "text": "渐渐",
+          "pinyin": "jiànjiàn",
+          "hanviet": "Tiêm Tiêm",
+          "meaning_vi": "dần dần",
+          "hsk": 5,
+          "word_id": "hsk5_574"
         },
         {
           "text": "变",
-          "unknown": true
+          "pinyin": "biàn",
+          "hanviet": "Biến",
+          "meaning_vi": "thay đổi, biến thành",
+          "hsk": 3,
+          "word_id": "hsk3_626"
         },
         {
           "text": "得",
@@ -230,12 +226,10 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "花",
-          "unknown": true
+          "text": "花"
         },
         {
-          "text": "儿",
-          "unknown": true
+          "text": "儿"
         },
         {
           "text": "都",
@@ -290,7 +284,11 @@
         },
         {
           "text": "变",
-          "unknown": true
+          "pinyin": "biàn",
+          "hanviet": "Biến",
+          "meaning_vi": "thay đổi, biến thành",
+          "hsk": 3,
+          "word_id": "hsk3_626"
         },
         {
           "text": "绿",
@@ -516,7 +514,12 @@
     "hsk3_206",
     "hsk2_60",
     "hsk2_10",
-    "hsk3_129"
+    "hsk3_129",
+    "hsk1_130",
+    "hsk1_74",
+    "hsk1_102",
+    "hsk1_32",
+    "hsk1_57"
   ],
   "quiz": [
     {

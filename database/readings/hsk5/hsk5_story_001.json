@@ -44,15 +44,12 @@
           "word_id": "hsk5_162"
         },
         {
-          "text": "快",
-          "pinyin": "kuài",
-          "hanviet": "Khoái",
-          "meaning_vi": "nhanh",
-          "hsk": 2,
-          "word_id": "hsk2_59"
-        },
-        {
-          "text": "速"
+          "text": "快速",
+          "pinyin": "kuàisù",
+          "hanviet": "Khoái Tốc",
+          "meaning_vi": "nhanh chóng, tốc độ nhanh",
+          "hsk": 4,
+          "word_id": "hsk4_444"
         },
         {
           "text": "发展",
@@ -197,7 +194,12 @@
           "text": "师"
         },
         {
-          "text": "将"
+          "text": "将",
+          "pinyin": "jiāng",
+          "hanviet": "Tương",
+          "meaning_vi": "sẽ; đem, lấy (như 把)",
+          "hsk": 4,
+          "word_id": "hsk4_356"
         },
         {
           "text": "现代",
@@ -240,15 +242,12 @@
           "word_id": "hsk3_46"
         },
         {
-          "text": "融",
-          "pinyin": "róng",
-          "hanviet": "Dung",
-          "meaning_vi": "tan chảy; hòa tan",
-          "hsk": 7,
-          "word_id": "hsk7_3434"
-        },
-        {
-          "text": "入"
+          "text": "融入",
+          "pinyin": "róngrù",
+          "hanviet": "Dung Nhập",
+          "meaning_vi": "hòa nhập vào, hòa mình vào",
+          "hsk": 6,
+          "word_id": "hsk6_1116"
         },
         {
           "text": "古典",
@@ -275,7 +274,12 @@
           "word_id": "hsk5_1257"
         },
         {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "。"
@@ -347,10 +351,12 @@
           "word_id": "hsk5_76"
         },
         {
-          "text": "技"
-        },
-        {
-          "text": "艺"
+          "text": "技艺",
+          "pinyin": "jìyì",
+          "hanviet": "Kỹ Nghệ",
+          "meaning_vi": "tay nghề, kỹ nghệ điêu luyện",
+          "hsk": 6,
+          "word_id": "hsk6_627"
         },
         {
           "text": "的",
@@ -372,26 +378,20 @@
           "text": "，"
         },
         {
-          "text": "而",
-          "pinyin": "ér",
-          "hanviet": "Nhi",
-          "meaning_vi": "mà, và",
-          "hsk": 4,
-          "word_id": "hsk4_103"
+          "text": "而且",
+          "pinyin": "érqiě",
+          "hanviet": "Nhi Thả",
+          "meaning_vi": "mà còn, hơn nữa",
+          "hsk": 3,
+          "word_id": "hsk3_707"
         },
         {
-          "text": "且",
-          "pinyin": "qiě",
-          "hanviet": "Thả",
-          "meaning_vi": "hơn nữa; vả lại",
-          "hsk": 7,
-          "word_id": "hsk7_3270"
-        },
-        {
-          "text": "赋"
-        },
-        {
-          "text": "予"
+          "text": "赋予",
+          "pinyin": "fùyǔ",
+          "hanviet": "Phú Dư",
+          "meaning_vi": "ban cho, trao cho, giao phó",
+          "hsk": 6,
+          "word_id": "hsk6_412"
         },
         {
           "text": "了",
@@ -402,15 +402,12 @@
           "word_id": "hsk1_55"
         },
         {
-          "text": "古"
-        },
-        {
-          "text": "老",
-          "pinyin": "lǎo",
-          "hanviet": "Lão",
-          "meaning_vi": "già",
-          "hsk": 3,
-          "word_id": "hsk3_146"
+          "text": "古老",
+          "pinyin": "gǔlǎo",
+          "hanviet": "Cổ Lão",
+          "meaning_vi": "cổ xưa",
+          "hsk": 5,
+          "word_id": "hsk5_425"
         },
         {
           "text": "器"
@@ -435,15 +432,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "生命",
-          "pinyin": "shēngmìng",
-          "hanviet": "Sinh Mệnh",
-          "meaning_vi": "sinh mệnh, sự sống",
-          "hsk": 4,
-          "word_id": "hsk4_376"
-        },
-        {
-          "text": "力"
+          "text": "生命力",
+          "pinyin": "shēngmìnglì",
+          "hanviet": "Sinh Mệnh Lực",
+          "meaning_vi": "sức sống, sức sống mãnh liệt",
+          "hsk": 6,
+          "word_id": "hsk6_1172"
         },
         {
           "text": "。"
@@ -499,15 +493,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "消费",
-          "pinyin": "xiāofèi",
-          "hanviet": "Tiêu Phí",
-          "meaning_vi": "tiêu dùng, chi tiêu",
+          "text": "消费者",
+          "pinyin": "xiāofèizhě",
+          "hanviet": "Tiêu Phí Giả",
+          "meaning_vi": "người tiêu dùng",
           "hsk": 5,
-          "word_id": "hsk5_1165"
-        },
-        {
-          "text": "者"
+          "word_id": "hsk5_1263"
         },
         {
           "text": "愿意",
@@ -526,15 +517,12 @@
           "word_id": "hsk3_229"
         },
         {
-          "text": "具"
-        },
-        {
-          "text": "有",
-          "pinyin": "yǒu",
-          "hanviet": "Hữu",
+          "text": "具有",
+          "pinyin": "jùyǒu",
+          "hanviet": "Cụ Hữu",
           "meaning_vi": "có",
-          "hsk": 1,
-          "word_id": "hsk1_136"
+          "hsk": 5,
+          "word_id": "hsk5_643"
         },
         {
           "text": "文化",
@@ -569,10 +557,12 @@
           "word_id": "hsk5_431"
         },
         {
-          "text": "制"
-        },
-        {
-          "text": "品"
+          "text": "制品",
+          "pinyin": "zhìpǐn",
+          "hanviet": "Chế Phẩm",
+          "meaning_vi": "chế phẩm, sản phẩm chế tạo",
+          "hsk": 6,
+          "word_id": "hsk6_1716"
         },
         {
           "text": "买",
@@ -583,7 +573,12 @@
           "word_id": "hsk1_61"
         },
         {
-          "text": "单"
+          "text": "单",
+          "pinyin": "dān",
+          "hanviet": "Thiện",
+          "meaning_vi": "đơn, một mình; tờ, phiếu",
+          "hsk": 5,
+          "word_id": "hsk5_238"
         },
         {
           "text": "。"
@@ -615,15 +610,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "传",
-          "pinyin": "zhuàn",
-          "hanviet": "Truyền",
-          "meaning_vi": "truyện, tiểu sử, sách ghi chép",
-          "hsk": 7,
-          "word_id": "hsk7_5450"
-        },
-        {
-          "text": "承"
+          "text": "传承",
+          "pinyin": "chuánchéng",
+          "hanviet": "Truyền Thừa",
+          "meaning_vi": "kế thừa và phát huy, lưu truyền",
+          "hsk": 6,
+          "word_id": "hsk6_201"
         },
         {
           "text": "需要",
@@ -726,7 +718,6 @@
     "hsk1_139",
     "hsk5_1155",
     "hsk5_162",
-    "hsk2_59",
     "hsk4_106",
     "hsk1_15",
     "hsk1_47",
@@ -737,7 +728,8 @@
     "hsk2_143",
     "hsk5_112",
     "hsk5_964",
-    "hsk4_489"
+    "hsk4_489",
+    "hsk4_444"
   ],
   "quiz": [
     {

@@ -444,14 +444,14 @@ const GradedReading = (function() {
    * Render individual token inside sentence
    */
   function renderTokenHtml(token, sidx, tidx, storyLvlNum) {
-    if (!token.word_id && !token.is_name) {
-      // Punctuation
+    const isPunct = /^[，。？！、：；“”‘’（）…—《》\s]+$/.test(token.text);
+    if (isPunct) {
       return `<span class="graded-punctuation">${token.text}</span>`;
     }
 
     const srsStatus = getTokenSrsStatus(token);
     const tokenLvl = token.hsk || 1;
-    const isOverLevel = tokenLvl > storyLvlNum;
+    const isOverLevel = Boolean(token.word_id && tokenLvl > storyLvlNum);
     const overLevelBadge = isOverLevel ? `<span class="token-overlevel-badge">+${tokenLvl - storyLvlNum}</span>` : '';
 
     const srsClass = srsStatus !== 'none' ? `token-${srsStatus}` : '';
@@ -465,8 +465,8 @@ const GradedReading = (function() {
             onclick="GradedReading.handleTokenClick(event, ${sidx}, ${tidx})"
             title="Bấm để xem nghĩa & thêm vào SRS">
         <ruby>
-          <rb>${token.text}</rb>
           <rt class="token-pinyin">${token.pinyin || ''}</rt>
+          <rb>${token.text}</rb>
         </ruby>${overLevelBadge}
       </span>
     `;

@@ -28,26 +28,20 @@
           "word_id": "hsk5_1026"
         },
         {
-          "text": "推",
-          "pinyin": "tuī",
-          "hanviet": "Suy",
-          "meaning_vi": "đẩy",
-          "hsk": 4,
-          "word_id": "hsk4_442"
+          "text": "推进",
+          "pinyin": "tuījìn",
+          "hanviet": "Suy Tiến",
+          "meaning_vi": "đẩy mạnh tiến độ, xúc tiến",
+          "hsk": 5,
+          "word_id": "hsk5_1161"
         },
         {
-          "text": "进",
-          "pinyin": "jìn",
-          "hanviet": "Tiến",
-          "meaning_vi": "vào",
-          "hsk": 2,
-          "word_id": "hsk2_50"
-        },
-        {
-          "text": "乡"
-        },
-        {
-          "text": "村"
+          "text": "乡村",
+          "pinyin": "xiāngcūn",
+          "hanviet": "Hương Thôn",
+          "meaning_vi": "nông thôn",
+          "hsk": 5,
+          "word_id": "hsk5_1248"
         },
         {
           "text": "振兴",
@@ -115,21 +109,20 @@
           "word_id": "hsk5_1069"
         },
         {
-          "text": "全"
+          "text": "全体",
+          "pinyin": "quántǐ",
+          "hanviet": "Toàn Thể",
+          "meaning_vi": "toàn thể, tất cả",
+          "hsk": 5,
+          "word_id": "hsk5_902"
         },
         {
-          "text": "体"
-        },
-        {
-          "text": "人",
-          "pinyin": "rén",
-          "hanviet": "Nhân",
-          "meaning_vi": "người",
-          "hsk": 1,
-          "word_id": "hsk1_85"
-        },
-        {
-          "text": "民"
+          "text": "人民",
+          "pinyin": "rénmín",
+          "hanviet": "Nhân Dân",
+          "meaning_vi": "mọi người",
+          "hsk": 5,
+          "word_id": "hsk5_923"
         },
         {
           "text": "共同",
@@ -241,26 +234,20 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "深",
-          "pinyin": "shēn",
-          "hanviet": "Thâm",
-          "meaning_vi": "sâu",
-          "hsk": 4,
-          "word_id": "hsk4_372"
+          "text": "深度",
+          "pinyin": "shēndù",
+          "hanviet": "Thâm Độ",
+          "meaning_vi": "độ sâu; chuyên sâu, sâu sắc",
+          "hsk": 5,
+          "word_id": "hsk5_981"
         },
         {
-          "text": "度"
-        },
-        {
-          "text": "融",
-          "pinyin": "róng",
-          "hanviet": "Dung",
-          "meaning_vi": "tan chảy; hòa tan",
-          "hsk": 7,
-          "word_id": "hsk7_3434"
-        },
-        {
-          "text": "合"
+          "text": "融合",
+          "pinyin": "rónghé",
+          "hanviet": "Dung Hợp",
+          "meaning_vi": "dung hợp, hòa hợp, gắn kết",
+          "hsk": 6,
+          "word_id": "hsk6_1113"
         },
         {
           "text": "，"
@@ -326,7 +313,12 @@
           "text": "巡"
         },
         {
-          "text": "田"
+          "text": "田",
+          "pinyin": "tián",
+          "hanviet": "Điền",
+          "meaning_vi": "ruộng đồng, ruộng lúa",
+          "hsk": 6,
+          "word_id": "hsk6_1295"
         },
         {
           "text": "等",
@@ -353,15 +345,12 @@
           "word_id": "hsk5_993"
         },
         {
-          "text": "现代",
-          "pinyin": "xiàndài",
-          "hanviet": "Hiện Đại",
-          "meaning_vi": "hiện đại",
+          "text": "现代化",
+          "pinyin": "xiàndàihuà",
+          "hanviet": "Hiện Đại Hoa",
+          "meaning_vi": "hiện đại hóa",
           "hsk": 5,
-          "word_id": "hsk5_1155"
-        },
-        {
-          "text": "化"
+          "word_id": "hsk5_1240"
         },
         {
           "text": "生产",
@@ -401,10 +390,20 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "电"
+          "text": "电",
+          "pinyin": "diàn",
+          "hanviet": "Điện",
+          "meaning_vi": "điện",
+          "hsk": 3,
+          "word_id": "hsk3_690"
         },
         {
-          "text": "子"
+          "text": "子",
+          "pinyin": "zi",
+          "hanviet": "Tử",
+          "meaning_vi": "hậu tố danh từ (như 桌子, 椅子)",
+          "hsk": 3,
+          "word_id": "hsk3_1071"
         },
         {
           "text": "商务",
@@ -423,19 +422,39 @@
           "word_id": "hsk2_50"
         },
         {
-          "text": "村"
+          "text": "村",
+          "pinyin": "cūn",
+          "hanviet": "Thôn",
+          "meaning_vi": "làng, thôn",
+          "hsk": 4,
+          "word_id": "hsk4_107"
         },
         {
-          "text": "入"
+          "text": "入",
+          "pinyin": "rù",
+          "hanviet": "Nhập",
+          "meaning_vi": "vào, nhập",
+          "hsk": 4,
+          "word_id": "hsk4_622"
         },
         {
-          "text": "户"
+          "text": "户",
+          "pinyin": "hù",
+          "hanviet": "Hộ",
+          "meaning_vi": "hộ, hộ gia đình",
+          "hsk": 6,
+          "word_id": "hsk6_560"
         },
         {
           "text": "打"
         },
         {
-          "text": "通"
+          "text": "通",
+          "pinyin": "tōng",
+          "hanviet": "Thông",
+          "meaning_vi": "thông, thông suốt; (gọi điện) được",
+          "hsk": 4,
+          "word_id": "hsk4_743"
         },
         {
           "text": "了",
@@ -446,15 +465,12 @@
           "word_id": "hsk1_55"
         },
         {
-          "text": "农"
-        },
-        {
-          "text": "产品",
-          "pinyin": "chǎnpǐn",
-          "hanviet": "Sản Phẩm",
-          "meaning_vi": "sản phẩm",
-          "hsk": 5,
-          "word_id": "hsk5_684"
+          "text": "农产品",
+          "pinyin": "nóngchǎnpǐn",
+          "hanviet": "Nông Sản Phẩm",
+          "meaning_vi": "nông sản",
+          "hsk": 6,
+          "word_id": "hsk6_960"
         },
         {
           "text": "出",
@@ -465,7 +481,12 @@
           "word_id": "hsk2_11"
         },
         {
-          "text": "山"
+          "text": "山",
+          "pinyin": "shān",
+          "hanviet": "Sơn",
+          "meaning_vi": "núi",
+          "hsk": 3,
+          "word_id": "hsk3_905"
         },
         {
           "text": "的",
@@ -484,7 +505,12 @@
           "word_id": "hsk7_4355"
         },
         {
-          "text": "堵"
+          "text": "堵",
+          "pinyin": "dǔ",
+          "hanviet": "Đổ",
+          "meaning_vi": "chặn, tắc",
+          "hsk": 5,
+          "word_id": "hsk5_299"
         },
         {
           "text": "点",
@@ -506,15 +532,12 @@
           "word_id": "hsk2_88"
         },
         {
-          "text": "绿",
-          "pinyin": "lǜ",
-          "hanviet": "Lục",
-          "meaning_vi": "màu xanh lá",
-          "hsk": 3,
-          "word_id": "hsk3_158"
-        },
-        {
-          "text": "色"
+          "text": "绿色",
+          "pinyin": "lǜsè",
+          "hanviet": "Lục Sắc",
+          "meaning_vi": "xanh",
+          "hsk": 2,
+          "word_id": "hsk2_396"
         },
         {
           "text": "无",
@@ -549,10 +572,12 @@
           "word_id": "hsk7_4026"
         },
         {
-          "text": "美"
-        },
-        {
-          "text": "味"
+          "text": "美味",
+          "pinyin": "měiwèi",
+          "hanviet": "Mỹ Vị",
+          "meaning_vi": "món ngon; thơm ngon, mỹ vị",
+          "hsk": 5,
+          "word_id": "hsk5_759"
         },
         {
           "text": "直达",
@@ -622,15 +647,12 @@
           "word_id": "hsk4_589"
         },
         {
-          "text": "风"
-        },
-        {
-          "text": "光",
-          "pinyin": "guāng",
-          "hanviet": "Quang",
-          "meaning_vi": "ánh sáng",
-          "hsk": 4,
-          "word_id": "hsk4_155"
+          "text": "风光",
+          "pinyin": "fēngguāng",
+          "hanviet": "Phong Quang",
+          "meaning_vi": "phong cảnh; rạng rỡ, vẻ vang",
+          "hsk": 6,
+          "word_id": "hsk6_392"
         },
         {
           "text": "和",
@@ -641,20 +663,12 @@
           "word_id": "hsk1_39"
         },
         {
-          "text": "深",
-          "pinyin": "shēn",
-          "hanviet": "Thâm",
-          "meaning_vi": "sâu",
-          "hsk": 4,
-          "word_id": "hsk4_372"
-        },
-        {
-          "text": "厚",
-          "pinyin": "hòu",
-          "hanviet": "Hậu",
-          "meaning_vi": "dày",
-          "hsk": 4,
-          "word_id": "hsk4_175"
+          "text": "深厚",
+          "pinyin": "shēnhòu",
+          "hanviet": "Thâm Hậu",
+          "meaning_vi": "sâu sắc, sâu đậm, thâm hậu",
+          "hsk": 5,
+          "word_id": "hsk5_983"
         },
         {
           "text": "的",
@@ -665,30 +679,39 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "乡"
+          "text": "乡",
+          "pinyin": "xiāng",
+          "hanviet": "Hương",
+          "meaning_vi": "thị trấn",
+          "hsk": 5,
+          "word_id": "hsk5_1246"
         },
         {
-          "text": "土"
+          "text": "土",
+          "pinyin": "tǔ",
+          "hanviet": "Thổ",
+          "meaning_vi": "đất; quê mùa",
+          "hsk": 4,
+          "word_id": "hsk4_754"
         },
         {
-          "text": "民"
-        },
-        {
-          "text": "俗",
-          "pinyin": "sú",
-          "hanviet": "Tục",
-          "meaning_vi": "dung tục; tầm thường; thô tục",
-          "hsk": 7,
-          "word_id": "hsk7_3885"
+          "text": "民俗",
+          "pinyin": "mínsú",
+          "hanviet": "Dân Tục",
+          "meaning_vi": "phong tục dân gian",
+          "hsk": 6,
+          "word_id": "hsk6_920"
         },
         {
           "text": "，"
         },
         {
-          "text": "乡"
-        },
-        {
-          "text": "村"
+          "text": "乡村",
+          "pinyin": "xiāngcūn",
+          "hanviet": "Hương Thôn",
+          "meaning_vi": "nông thôn",
+          "hsk": 5,
+          "word_id": "hsk5_1248"
         },
         {
           "text": "生态",
@@ -718,10 +741,12 @@
           "word_id": "hsk6_298"
         },
         {
-          "text": "展"
-        },
-        {
-          "text": "现"
+          "text": "展现",
+          "pinyin": "zhǎnxiàn",
+          "hanviet": "Triển Hiện",
+          "meaning_vi": "hiển thị",
+          "hsk": 5,
+          "word_id": "hsk5_1467"
         },
         {
           "text": "出",
@@ -828,10 +853,20 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "乡"
+          "text": "乡",
+          "pinyin": "xiāng",
+          "hanviet": "Hương",
+          "meaning_vi": "thị trấn",
+          "hsk": 5,
+          "word_id": "hsk5_1246"
         },
         {
-          "text": "风"
+          "text": "风",
+          "pinyin": "fēng",
+          "hanviet": "Phong",
+          "meaning_vi": "gió",
+          "hsk": 3,
+          "word_id": "hsk3_723"
         },
         {
           "text": "文明",
@@ -913,15 +948,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "现代",
-          "pinyin": "xiàndài",
-          "hanviet": "Hiện Đại",
-          "meaning_vi": "hiện đại",
+          "text": "现代化",
+          "pinyin": "xiàndàihuà",
+          "hanviet": "Hiện Đại Hoa",
+          "meaning_vi": "hiện đại hóa",
           "hsk": 5,
-          "word_id": "hsk5_1155"
-        },
-        {
-          "text": "化"
+          "word_id": "hsk5_1240"
         },
         {
           "text": "美丽",
@@ -932,10 +964,12 @@
           "word_id": "hsk4_302"
         },
         {
-          "text": "乡"
-        },
-        {
-          "text": "村"
+          "text": "乡村",
+          "pinyin": "xiāngcūn",
+          "hanviet": "Hương Thôn",
+          "meaning_vi": "nông thôn",
+          "hsk": 5,
+          "word_id": "hsk5_1248"
         },
         {
           "text": "新",
@@ -969,7 +1003,6 @@
   ],
   "vocabulary_spotlight": [
     "hsk5_1026",
-    "hsk4_442",
     "hsk2_50",
     "hsk7_5235",
     "hsk1_96",
@@ -982,7 +1015,8 @@
     "hsk4_144",
     "hsk6_890",
     "hsk1_15",
-    "hsk7_5159"
+    "hsk7_5159",
+    "hsk5_1161"
   ],
   "quiz": [
     {

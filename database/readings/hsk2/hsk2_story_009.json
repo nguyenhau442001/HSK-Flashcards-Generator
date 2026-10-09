@@ -303,12 +303,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "虽",
-          "unknown": true
-        },
-        {
-          "text": "然",
-          "unknown": true
+          "text": "虽然",
+          "pinyin": "suīrán",
+          "hanviet": "Tuy Nhiên",
+          "meaning_vi": "mặc dù",
+          "hsk": 2,
+          "word_id": "hsk2_438"
         },
         {
           "text": "今天",
@@ -346,28 +346,20 @@
           "text": "，"
         },
         {
-          "text": "但",
-          "unknown": true
+          "text": "但是",
+          "pinyin": "dànshì",
+          "hanviet": "Đãn Thị",
+          "meaning_vi": "nhưng",
+          "hsk": 2,
+          "word_id": "hsk2_331"
         },
         {
-          "text": "是",
-          "pinyin": "shì",
-          "hanviet": "Thị",
-          "meaning_vi": "là",
-          "hsk": 1,
-          "word_id": "hsk1_96"
-        },
-        {
-          "text": "心",
-          "unknown": true
-        },
-        {
-          "text": "里",
-          "pinyin": "lǐ",
-          "hanviet": "Lý",
-          "meaning_vi": "bên trong",
-          "hsk": 1,
-          "word_id": "hsk1_57"
+          "text": "心里",
+          "pinyin": "xīnlǐ",
+          "hanviet": "Tâm Lý",
+          "meaning_vi": "trong lòng",
+          "hsk": 3,
+          "word_id": "hsk3_981"
         },
         {
           "text": "很",
@@ -440,7 +432,11 @@
         },
         {
           "text": "考",
-          "unknown": true
+          "pinyin": "kǎo",
+          "hanviet": "Khảo",
+          "meaning_vi": "thi, kiểm tra",
+          "hsk": 2,
+          "word_id": "hsk2_380"
         },
         {
           "text": "好",
@@ -465,7 +461,13 @@
     "hsk2_147",
     "hsk2_106",
     "hsk2_61",
-    "hsk1_31"
+    "hsk1_31",
+    "hsk1_47",
+    "hsk2_140",
+    "hsk1_111",
+    "hsk1_21",
+    "hsk1_40",
+    "hsk1_67"
   ],
   "quiz": [
     {

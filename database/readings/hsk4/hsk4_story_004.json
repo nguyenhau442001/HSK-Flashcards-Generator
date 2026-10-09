@@ -37,16 +37,12 @@
           "text": "，"
         },
         {
-          "text": "留学",
-          "pinyin": "liúxué",
-          "hanviet": "Lưu Học",
-          "meaning_vi": "du học",
+          "text": "留学生",
+          "pinyin": "liúxuéshēng",
+          "hanviet": "Lưu Học Sinh",
+          "meaning_vi": "lưu học sinh, du học sinh",
           "hsk": 3,
-          "word_id": "hsk3_156"
-        },
-        {
-          "text": "生",
-          "unknown": true
+          "word_id": "hsk3_842"
         },
         {
           "text": "朋友",
@@ -97,12 +93,12 @@
           "word_id": "hsk1_14"
         },
         {
-          "text": "剧",
-          "unknown": true
-        },
-        {
-          "text": "院",
-          "unknown": true
+          "text": "剧院",
+          "pinyin": "jùyuàn",
+          "hanviet": "Kịch Viện",
+          "meaning_vi": "nhà hát",
+          "hsk": 4,
+          "word_id": "hsk4_418"
         },
         {
           "text": "看",
@@ -193,20 +189,12 @@
           "text": "，"
         },
         {
-          "text": "有",
-          "pinyin": "yǒu",
-          "hanviet": "Hữu",
-          "meaning_vi": "có",
-          "hsk": 1,
-          "word_id": "hsk1_136"
-        },
-        {
-          "text": "着",
-          "pinyin": "zhe",
-          "hanviet": "Trước",
-          "meaning_vi": "đang (trợ từ)",
-          "hsk": 2,
-          "word_id": "hsk2_143"
+          "text": "有着",
+          "pinyin": "yǒuzhe",
+          "hanviet": "Hữu Trước",
+          "meaning_vi": "có (thường dùng trong văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_894"
         },
         {
           "text": "两",
@@ -270,16 +258,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "舞",
-          "unknown": true
-        },
-        {
-          "text": "台",
-          "pinyin": "tái",
-          "hanviet": "Đài",
-          "meaning_vi": "cái, bục, đài (lượng từ)",
-          "hsk": 4,
-          "word_id": "hsk4_418"
+          "text": "舞台",
+          "pinyin": "wǔtái",
+          "hanviet": "Vũ Đài",
+          "meaning_vi": "sân khấu",
+          "hsk": 5,
+          "word_id": "hsk5_1213"
         },
         {
           "text": "上",
@@ -307,7 +291,11 @@
         },
         {
           "text": "们",
-          "unknown": true
+          "pinyin": "men",
+          "hanviet": "Môn",
+          "meaning_vi": "họ (hậu tố)",
+          "hsk": 1,
+          "word_id": "hsk1_538"
         },
         {
           "text": "动作",
@@ -595,12 +583,12 @@
           "word_id": "hsk1_14"
         },
         {
-          "text": "兴",
-          "unknown": true
-        },
-        {
-          "text": "趣",
-          "unknown": true
+          "text": "兴趣",
+          "pinyin": "xìngqù",
+          "hanviet": "Hứng Thú",
+          "meaning_vi": "hứng thú, sở thích",
+          "hsk": 3,
+          "word_id": "hsk3_989"
         },
         {
           "text": "。"
@@ -609,7 +597,6 @@
     }
   ],
   "vocabulary_spotlight": [
-    "hsk3_156",
     "hsk4_505",
     "hsk4_233",
     "hsk4_581",
@@ -621,7 +608,10 @@
     "hsk4_23",
     "hsk4_461",
     "hsk4_153",
-    "hsk4_499"
+    "hsk4_499",
+    "hsk1_148",
+    "hsk2_108",
+    "hsk3_842"
   ],
   "quiz": [
     {

@@ -20,28 +20,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "近",
-          "pinyin": "jìn",
-          "hanviet": "Cận",
-          "meaning_vi": "gần",
-          "hsk": 2,
-          "word_id": "hsk2_49"
-        },
-        {
-          "text": "年",
-          "pinyin": "nián",
-          "hanviet": "Niên",
-          "meaning_vi": "năm",
-          "hsk": 1,
-          "word_id": "hsk1_74"
-        },
-        {
-          "text": "来",
-          "pinyin": "lái",
-          "hanviet": "Lai",
-          "meaning_vi": "đến, tới",
-          "hsk": 1,
-          "word_id": "hsk1_53"
+          "text": "近年来",
+          "pinyin": "jìnnián lái",
+          "hanviet": "Cận Niên Lai",
+          "meaning_vi": "những năm gần đây",
+          "hsk": 5,
+          "word_id": "hsk5_617"
         },
         {
           "text": "，"
@@ -95,26 +79,20 @@
           "word_id": "hsk3_172"
         },
         {
-          "text": "大",
-          "pinyin": "dà",
-          "hanviet": "Đại",
-          "meaning_vi": "to, lớn",
+          "text": "大学",
+          "pinyin": "dàxué",
+          "hanviet": "Đại Học",
+          "meaning_vi": "đại học",
           "hsk": 1,
-          "word_id": "hsk1_14"
+          "word_id": "hsk1_506"
         },
         {
-          "text": "学"
-        },
-        {
-          "text": "毕业",
-          "pinyin": "bìyè",
-          "hanviet": "Tất Nghiệp",
-          "meaning_vi": "tốt nghiệp",
+          "text": "毕业生",
+          "pinyin": "bìyèshēng",
+          "hanviet": "Tất Nghiệp Sinh",
+          "meaning_vi": "sinh viên tốt nghiệp",
           "hsk": 4,
-          "word_id": "hsk4_18"
-        },
-        {
-          "text": "生"
+          "word_id": "hsk4_30"
         },
         {
           "text": "选择",
@@ -165,15 +143,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "道"
-        },
-        {
-          "text": "路",
-          "pinyin": "lù",
-          "hanviet": "Lộ",
-          "meaning_vi": "đường",
-          "hsk": 2,
-          "word_id": "hsk2_65"
+          "text": "道路",
+          "pinyin": "dàolù",
+          "hanviet": "Đạo Lộ",
+          "meaning_vi": "đường sá, con đường",
+          "hsk": 4,
+          "word_id": "hsk4_143"
         },
         {
           "text": "。"
@@ -221,10 +196,12 @@
           "word_id": "hsk5_706"
         },
         {
-          "text": "激"
-        },
-        {
-          "text": "情"
+          "text": "激情",
+          "pinyin": "jīqíng",
+          "hanviet": "Kích Tình",
+          "meaning_vi": "niềm đam mê, nhiệt huyết tràn trề",
+          "hsk": 6,
+          "word_id": "hsk6_610"
         },
         {
           "text": "的",
@@ -286,10 +263,12 @@
           "word_id": "hsk5_428"
         },
         {
-          "text": "调"
-        },
-        {
-          "text": "研"
+          "text": "调研",
+          "pinyin": "diàoyán",
+          "hanviet": "Điệu Nghiên",
+          "meaning_vi": "điều tra nghiên cứu, khảo sát",
+          "hsk": 5,
+          "word_id": "hsk5_285"
         },
         {
           "text": "和",
@@ -380,15 +359,12 @@
           "word_id": "hsk6_468"
         },
         {
-          "text": "团",
-          "pinyin": "tuán",
-          "hanviet": "Đoàn",
-          "meaning_vi": "đoàn, nhóm",
+          "text": "团队",
+          "pinyin": "tuánduì",
+          "hanviet": "Đoàn Đội",
+          "meaning_vi": "đội",
           "hsk": 5,
-          "word_id": "hsk5_1116"
-        },
-        {
-          "text": "队"
+          "word_id": "hsk5_1157"
         },
         {
           "text": "往往",
@@ -570,15 +546,12 @@
           "text": "，"
         },
         {
-          "text": "才"
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
+          "text": "才能",
+          "pinyin": "cáinéng",
+          "hanviet": "Tài Năng",
+          "meaning_vi": "tài năng",
+          "hsk": 6,
+          "word_id": "hsk6_97"
         },
         {
           "text": "在",
@@ -597,7 +570,12 @@
           "word_id": "hsk7_2950"
         },
         {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "生存",
@@ -608,20 +586,12 @@
           "word_id": "hsk6_1851"
         },
         {
-          "text": "下",
-          "pinyin": "xià",
-          "hanviet": "Hạ",
-          "meaning_vi": "dưới",
-          "hsk": 1,
-          "word_id": "hsk1_115"
-        },
-        {
-          "text": "来",
-          "pinyin": "lái",
-          "hanviet": "Lai",
-          "meaning_vi": "đến, tới",
-          "hsk": 1,
-          "word_id": "hsk1_53"
+          "text": "下来",
+          "pinyin": "xiàlái",
+          "hanviet": "Hạ Lai",
+          "meaning_vi": "đi xuống",
+          "hsk": 2,
+          "word_id": "hsk2_458"
         },
         {
           "text": "。"
@@ -645,15 +615,12 @@
           "word_id": "hsk4_458"
         },
         {
-          "text": "最",
-          "pinyin": "zuì",
-          "hanviet": "Tối",
-          "meaning_vi": "nhất",
-          "hsk": 2,
-          "word_id": "hsk2_149"
-        },
-        {
-          "text": "终"
+          "text": "最终",
+          "pinyin": "zuìzhōng",
+          "hanviet": "Tối Chung",
+          "meaning_vi": "cuối cùng",
+          "hsk": 4,
+          "word_id": "hsk4_988"
         },
         {
           "text": "成功",
@@ -699,20 +666,12 @@
           "word_id": "hsk6_105"
         },
         {
-          "text": "就",
-          "pinyin": "jiù",
-          "hanviet": "Tựu",
-          "meaning_vi": "là, ngay (trợ từ nhấn mạnh)",
-          "hsk": 2,
-          "word_id": "hsk2_51"
-        },
-        {
-          "text": "是",
-          "pinyin": "shì",
-          "hanviet": "Thị",
-          "meaning_vi": "là",
-          "hsk": 1,
-          "word_id": "hsk1_96"
+          "text": "就是",
+          "pinyin": "jiùshì",
+          "hanviet": "Tựu Thị",
+          "meaning_vi": "chính là; dù… cũng",
+          "hsk": 4,
+          "word_id": "hsk4_408"
         },
         {
           "text": "人生",
@@ -723,7 +682,12 @@
           "word_id": "hsk5_390"
         },
         {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "一",
@@ -734,7 +698,12 @@
           "word_id": "hsk1_130"
         },
         {
-          "text": "笔"
+          "text": "笔",
+          "pinyin": "bǐ",
+          "hanviet": "Bút",
+          "meaning_vi": "bút (danh từ, số lượng)",
+          "hsk": 2,
+          "word_id": "hsk2_310"
         },
         {
           "text": "极其",
@@ -775,21 +744,21 @@
     }
   ],
   "vocabulary_spotlight": [
-    "hsk2_49",
-    "hsk1_74",
     "hsk1_53",
     "hsk3_275",
     "hsk1_24",
     "hsk1_15",
     "hsk3_172",
-    "hsk1_14",
-    "hsk4_18",
     "hsk3_251",
     "hsk7_3927",
     "hsk1_89",
     "hsk7_5536",
     "hsk6_468",
-    "hsk2_65"
+    "hsk5_617",
+    "hsk1_506",
+    "hsk4_30",
+    "hsk4_143",
+    "hsk4_31"
   ],
   "quiz": [
     {

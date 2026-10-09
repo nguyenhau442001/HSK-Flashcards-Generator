@@ -34,24 +34,23 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "大",
-          "pinyin": "dà",
-          "hanviet": "Đại",
-          "meaning_vi": "to, lớn",
+          "text": "大学",
+          "pinyin": "dàxué",
+          "hanviet": "Đại Học",
+          "meaning_vi": "đại học",
           "hsk": 1,
-          "word_id": "hsk1_14"
-        },
-        {
-          "text": "学",
-          "unknown": true
+          "word_id": "hsk1_506"
         },
         {
           "text": "室",
-          "unknown": true
+          "pinyin": "shì",
+          "hanviet": "Thất",
+          "meaning_vi": "phòng",
+          "hsk": 3,
+          "word_id": "hsk3_915"
         },
         {
-          "text": "友",
-          "unknown": true
+          "text": "友"
         },
         {
           "text": "张",
@@ -62,8 +61,7 @@
           "word_id": "hsk3_277"
         },
         {
-          "text": "伟",
-          "unknown": true
+          "text": "伟"
         },
         {
           "text": "是",
@@ -247,20 +245,12 @@
           "word_id": "hsk3_271"
         },
         {
-          "text": "难",
-          "pinyin": "nán",
-          "hanviet": "Nan",
-          "meaning_vi": "khó",
+          "text": "难题",
+          "pinyin": "nántí",
+          "hanviet": "Nan Đề",
+          "meaning_vi": "vấn đề khó, bài toán khó",
           "hsk": 3,
-          "word_id": "hsk3_169"
-        },
-        {
-          "text": "题",
-          "pinyin": "tí",
-          "hanviet": "Đề",
-          "meaning_vi": "câu hỏi, đề bài",
-          "hsk": 2,
-          "word_id": "hsk2_103"
+          "word_id": "hsk3_863"
         },
         {
           "text": "的",
@@ -375,12 +365,12 @@
           "word_id": "hsk5_154"
         },
         {
-          "text": "虽",
-          "unknown": true
-        },
-        {
-          "text": "然",
-          "unknown": true
+          "text": "虽然",
+          "pinyin": "suīrán",
+          "hanviet": "Tuy Nhiên",
+          "meaning_vi": "mặc dù",
+          "hsk": 2,
+          "word_id": "hsk2_438"
         },
         {
           "text": "来自",
@@ -391,16 +381,12 @@
           "word_id": "hsk4_269"
         },
         {
-          "text": "不",
-          "pinyin": "bù",
-          "hanviet": "Bất",
-          "meaning_vi": "không",
-          "hsk": 1,
-          "word_id": "hsk1_8"
-        },
-        {
-          "text": "同",
-          "unknown": true
+          "text": "不同",
+          "pinyin": "bù tóng",
+          "hanviet": "Bất Đồng",
+          "meaning_vi": "khác nhau, không giống",
+          "hsk": 3,
+          "word_id": "hsk3_640"
         },
         {
           "text": "国家",
@@ -414,16 +400,12 @@
           "text": "，"
         },
         {
-          "text": "但",
-          "unknown": true
-        },
-        {
-          "text": "是",
-          "pinyin": "shì",
-          "hanviet": "Thị",
-          "meaning_vi": "là",
-          "hsk": 1,
-          "word_id": "hsk1_96"
+          "text": "但是",
+          "pinyin": "dànshì",
+          "hanviet": "Đãn Thị",
+          "meaning_vi": "nhưng",
+          "hsk": 2,
+          "word_id": "hsk2_331"
         },
         {
           "text": "相处",
@@ -487,24 +469,20 @@
           "word_id": "hsk1_112"
         },
         {
-          "text": "约",
-          "unknown": true
+          "text": "约定",
+          "pinyin": "yuēdìng",
+          "hanviet": "Ước Định",
+          "meaning_vi": "thỏa thuận",
+          "hsk": 5,
+          "word_id": "hsk5_1436"
         },
         {
-          "text": "定",
-          "unknown": true
-        },
-        {
-          "text": "以",
-          "pinyin": "yǐ",
-          "hanviet": "Dĩ",
-          "meaning_vi": "bằng, dùng",
-          "hsk": 4,
-          "word_id": "hsk4_512"
-        },
-        {
-          "text": "后",
-          "unknown": true
+          "text": "以后",
+          "pinyin": "yǐhòu",
+          "hanviet": "Dĩ Hậu",
+          "meaning_vi": "sau này, sau khi",
+          "hsk": 3,
+          "word_id": "hsk3_1005"
         },
         {
           "text": "要",
@@ -583,11 +561,15 @@
     "hsk2_73",
     "hsk3_154",
     "hsk3_232",
-    "hsk3_169",
     "hsk3_296",
     "hsk3_165",
     "hsk3_242",
-    "hsk2_66"
+    "hsk2_66",
+    "hsk1_111",
+    "hsk1_15",
+    "hsk1_506",
+    "hsk3_915",
+    "hsk3_277"
   ],
   "quiz": [
     {

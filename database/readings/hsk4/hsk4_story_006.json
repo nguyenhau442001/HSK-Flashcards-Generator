@@ -58,20 +58,12 @@
           "word_id": "hsk2_49"
         },
         {
-          "text": "一",
-          "pinyin": "yī",
-          "hanviet": "Nhất",
-          "meaning_vi": "một",
+          "text": "一些",
+          "pinyin": "yìxiē",
+          "hanviet": "Nhất Ta",
+          "meaning_vi": "một số, một vài, một ít",
           "hsk": 1,
-          "word_id": "hsk1_130"
-        },
-        {
-          "text": "些",
-          "pinyin": "xiē",
-          "hanviet": "Ta",
-          "meaning_vi": "vài, một ít",
-          "hsk": 1,
-          "word_id": "hsk1_123"
+          "word_id": "hsk1_596"
         },
         {
           "text": "，"
@@ -282,20 +274,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "这",
-          "pinyin": "zhè",
-          "hanviet": "Giá",
-          "meaning_vi": "này",
+          "text": "这里",
+          "pinyin": "zhèlǐ",
+          "hanviet": "Giá Lý",
+          "meaning_vi": "đây (đại từ)",
           "hsk": 1,
-          "word_id": "hsk1_142"
-        },
-        {
-          "text": "里",
-          "pinyin": "lǐ",
-          "hanviet": "Lý",
-          "meaning_vi": "bên trong",
-          "hsk": 1,
-          "word_id": "hsk1_57"
+          "word_id": "hsk1_606"
         },
         {
           "text": "的",
@@ -421,32 +405,20 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "签",
-          "pinyin": "qiān",
-          "hanviet": "Thiêm",
-          "meaning_vi": "ký (tên)",
+          "text": "签字",
+          "pinyin": "qiānzì",
+          "hanviet": "Thiêm Tự",
+          "meaning_vi": "ký hiệu",
           "hsk": 5,
-          "word_id": "hsk5_362"
+          "word_id": "hsk5_862"
         },
         {
-          "text": "字",
-          "pinyin": "zì",
-          "hanviet": "Tự",
-          "meaning_vi": "chữ",
-          "hsk": 1,
-          "word_id": "hsk1_147"
-        },
-        {
-          "text": "之",
-          "pinyin": "zhī",
-          "hanviet": "Chi",
-          "meaning_vi": "của (trợ từ văn viết)",
+          "text": "之前",
+          "pinyin": "zhīqián",
+          "hanviet": "Chi Tiền",
+          "meaning_vi": "trước, trước khi",
           "hsk": 4,
-          "word_id": "hsk4_563"
-        },
-        {
-          "text": "前",
-          "unknown": true
+          "word_id": "hsk4_943"
         },
         {
           "text": "，"
@@ -578,7 +550,11 @@
         },
         {
           "text": "后",
-          "unknown": true
+          "pinyin": "hòu",
+          "hanviet": "Hậu",
+          "meaning_vi": "sau",
+          "hsk": 1,
+          "word_id": "hsk1_524"
         },
         {
           "text": "顺利",
@@ -609,7 +585,11 @@
         },
         {
           "text": "周",
-          "unknown": true
+          "pinyin": "zhōu",
+          "hanviet": "Chu",
+          "meaning_vi": "tuần, tuần lễ",
+          "hsk": 2,
+          "word_id": "hsk2_492"
         },
         {
           "text": "就",
@@ -644,20 +624,12 @@
           "word_id": "hsk3_8"
         },
         {
-          "text": "进",
-          "pinyin": "jìn",
-          "hanviet": "Tiến",
-          "meaning_vi": "vào",
+          "text": "进来",
+          "pinyin": "jìnlái",
+          "hanviet": "Tiến Lai",
+          "meaning_vi": "đi vào",
           "hsk": 2,
-          "word_id": "hsk2_50"
-        },
-        {
-          "text": "来",
-          "pinyin": "lái",
-          "hanviet": "Lai",
-          "meaning_vi": "đến, tới",
-          "hsk": 1,
-          "word_id": "hsk1_53"
+          "word_id": "hsk2_372"
         },
         {
           "text": "了",
@@ -688,8 +660,7 @@
     "hsk4_588",
     "hsk4_544",
     "hsk4_152",
-    "hsk4_123",
-    "hsk4_561"
+    "hsk4_123"
   ],
   "quiz": [
     {

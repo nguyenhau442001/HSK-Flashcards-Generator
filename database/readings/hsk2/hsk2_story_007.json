@@ -51,7 +51,11 @@
         },
         {
           "text": "天",
-          "unknown": true
+          "pinyin": "tiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "trời (danh từ, định lượng)",
+          "hsk": 1,
+          "word_id": "hsk1_573"
         },
         {
           "text": "在",
@@ -323,12 +327,12 @@
           "text": "，"
         },
         {
-          "text": "常",
-          "unknown": true
-        },
-        {
-          "text": "常",
-          "unknown": true
+          "text": "常常",
+          "pinyin": "chángcháng",
+          "hanviet": "Thường Thường",
+          "meaning_vi": "thường thường, thường xuyên",
+          "hsk": 3,
+          "word_id": "hsk3_655"
         },
         {
           "text": "帮助",
@@ -376,20 +380,12 @@
           "word_id": "hsk2_52"
         },
         {
-          "text": "这",
-          "pinyin": "zhè",
-          "hanviet": "Giá",
-          "meaning_vi": "này",
+          "text": "这里",
+          "pinyin": "zhèlǐ",
+          "hanviet": "Giá Lý",
+          "meaning_vi": "đây (đại từ)",
           "hsk": 1,
-          "word_id": "hsk1_142"
-        },
-        {
-          "text": "里",
-          "pinyin": "lǐ",
-          "hanviet": "Lý",
-          "meaning_vi": "bên trong",
-          "hsk": 1,
-          "word_id": "hsk1_57"
+          "word_id": "hsk1_606"
         },
         {
           "text": "的",
@@ -446,7 +442,13 @@
     "hsk2_112",
     "hsk2_23",
     "hsk2_78",
-    "hsk2_4"
+    "hsk2_4",
+    "hsk1_142",
+    "hsk1_96",
+    "hsk1_111",
+    "hsk1_573",
+    "hsk1_139",
+    "hsk1_45"
   ],
   "quiz": [
     {

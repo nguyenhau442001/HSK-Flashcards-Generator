@@ -85,12 +85,12 @@
           "word_id": "hsk4_46"
         },
         {
-          "text": "全",
-          "unknown": true
-        },
-        {
-          "text": "球",
-          "unknown": true
+          "text": "全球",
+          "pinyin": "quánqiú",
+          "hanviet": "Toàn Cầu",
+          "meaning_vi": "toàn cầu",
+          "hsk": 4,
+          "word_id": "hsk4_601"
         },
         {
           "text": "的",
@@ -155,7 +155,11 @@
         },
         {
           "text": "中",
-          "unknown": true
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "，"
@@ -193,24 +197,12 @@
           "word_id": "hsk4_387"
         },
         {
-          "text": "一",
-          "pinyin": "yī",
-          "hanviet": "Nhất",
-          "meaning_vi": "một",
-          "hsk": 1,
-          "word_id": "hsk1_130"
-        },
-        {
-          "text": "次",
-          "pinyin": "cì",
-          "hanviet": "Thứ",
-          "meaning_vi": "lần",
-          "hsk": 2,
-          "word_id": "hsk2_13"
-        },
-        {
-          "text": "性",
-          "unknown": true
+          "text": "一次性",
+          "pinyin": "yícìxìng",
+          "hanviet": "Nhất Thứ Tính",
+          "meaning_vi": "dùng một lần",
+          "hsk": 5,
+          "word_id": "hsk5_1352"
         },
         {
           "text": "塑料袋",
@@ -242,20 +234,12 @@
           "word_id": "hsk4_331"
         },
         {
-          "text": "出",
-          "pinyin": "chū",
-          "hanviet": "Xuất",
-          "meaning_vi": "ra, đi ra",
+          "text": "出门",
+          "pinyin": "chūmén",
+          "hanviet": "Xuất Môn",
+          "meaning_vi": "đi ra ngoài",
           "hsk": 2,
-          "word_id": "hsk2_11"
-        },
-        {
-          "text": "门",
-          "pinyin": "mén",
-          "hanviet": "Môn",
-          "meaning_vi": "cửa",
-          "hsk": 2,
-          "word_id": "hsk2_72"
+          "word_id": "hsk2_319"
         },
         {
           "text": "购物",
@@ -301,12 +285,12 @@
           "word_id": "hsk6_1081"
         },
         {
-          "text": "袋",
-          "unknown": true
-        },
-        {
-          "text": "子",
-          "unknown": true
+          "text": "袋子",
+          "pinyin": "dàizi",
+          "hanviet": "Đại Tử",
+          "meaning_vi": "túi",
+          "hsk": 4,
+          "word_id": "hsk4_133"
         },
         {
           "text": "。"
@@ -322,24 +306,20 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "垃",
-          "unknown": true
+          "text": "垃圾",
+          "pinyin": "lājī",
+          "hanviet": "Lạp Sắc",
+          "meaning_vi": "rác",
+          "hsk": 4,
+          "word_id": "hsk4_448"
         },
         {
-          "text": "圾",
-          "unknown": true
-        },
-        {
-          "text": "分",
-          "pinyin": "fēn",
-          "hanviet": "Phân",
-          "meaning_vi": "phút; điểm; phân (đơn vị tiền)",
-          "hsk": 3,
-          "word_id": "hsk3_69"
-        },
-        {
-          "text": "类",
-          "unknown": true
+          "text": "分类",
+          "pinyin": "fēnlèi",
+          "hanviet": "Phân Loại",
+          "meaning_vi": "phân loại",
+          "hsk": 5,
+          "word_id": "hsk5_351"
         },
         {
           "text": "不仅",
@@ -401,16 +381,12 @@
           "word_id": "hsk4_223"
         },
         {
-          "text": "大",
-          "pinyin": "dà",
-          "hanviet": "Đại",
-          "meaning_vi": "to, lớn",
-          "hsk": 1,
-          "word_id": "hsk1_14"
-        },
-        {
-          "text": "量",
-          "unknown": true
+          "text": "大量",
+          "pinyin": "dàliàng",
+          "hanviet": "Đại Lượng",
+          "meaning_vi": "lượng lớn, nhiều",
+          "hsk": 4,
+          "word_id": "hsk4_126"
         },
         {
           "text": "宝贵",
@@ -559,7 +535,9 @@
     "hsk4_146",
     "hsk4_223",
     "hsk4_91",
-    "hsk4_551"
+    "hsk4_551",
+    "hsk4_415",
+    "hsk1_15"
   ],
   "quiz": [
     {

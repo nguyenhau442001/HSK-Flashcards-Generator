@@ -68,7 +68,12 @@
           "word_id": "hsk1_14"
         },
         {
-          "text": "建"
+          "text": "建",
+          "pinyin": "jiàn",
+          "hanviet": "Kiến",
+          "meaning_vi": "xây, xây dựng",
+          "hsk": 5,
+          "word_id": "hsk5_572"
         },
         {
           "text": "的",
@@ -79,15 +84,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "快",
-          "pinyin": "kuài",
-          "hanviet": "Khoái",
-          "meaning_vi": "nhanh",
-          "hsk": 2,
-          "word_id": "hsk2_59"
-        },
-        {
-          "text": "速"
+          "text": "快速",
+          "pinyin": "kuàisù",
+          "hanviet": "Khoái Tốc",
+          "meaning_vi": "nhanh chóng, tốc độ nhanh",
+          "hsk": 4,
+          "word_id": "hsk4_444"
         },
         {
           "text": "扩张",
@@ -106,7 +108,12 @@
           "word_id": "hsk5_894"
         },
         {
-          "text": "后"
+          "text": "后",
+          "pinyin": "hòu",
+          "hanviet": "Hậu",
+          "meaning_vi": "sau",
+          "hsk": 1,
+          "word_id": "hsk1_524"
         },
         {
           "text": "，"
@@ -176,7 +183,12 @@
           "word_id": "hsk7_2184"
         },
         {
-          "text": "化"
+          "text": "化",
+          "pinyin": "huà",
+          "hanviet": "Hoa",
+          "meaning_vi": "hóa (-ize); tan chảy, biến đổi",
+          "hsk": 5,
+          "word_id": "hsk5_497"
         },
         {
           "text": "的",
@@ -187,15 +199,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "有",
-          "pinyin": "yǒu",
-          "hanviet": "Hữu",
-          "meaning_vi": "có",
-          "hsk": 1,
-          "word_id": "hsk1_136"
-        },
-        {
-          "text": "机"
+          "text": "有机",
+          "pinyin": "yǒujī",
+          "hanviet": "Hữu Cơ",
+          "meaning_vi": "hữu cơ",
+          "hsk": 6,
+          "word_id": "hsk6_1603"
         },
         {
           "text": "微",
@@ -251,10 +260,20 @@
           "word_id": "hsk3_146"
         },
         {
-          "text": "街"
+          "text": "街",
+          "pinyin": "jiē",
+          "hanviet": "Nhai",
+          "meaning_vi": "phố, đường phố",
+          "hsk": 3,
+          "word_id": "hsk3_793"
         },
         {
-          "text": "区"
+          "text": "区",
+          "pinyin": "qū",
+          "hanviet": "Âu",
+          "meaning_vi": "khu, quận",
+          "hsk": 4,
+          "word_id": "hsk4_593"
         },
         {
           "text": "的",
@@ -265,21 +284,23 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "原"
-        },
-        {
-          "text": "有",
-          "pinyin": "yǒu",
-          "hanviet": "Hữu",
-          "meaning_vi": "có",
-          "hsk": 1,
-          "word_id": "hsk1_136"
+          "text": "原有",
+          "pinyin": "yuán yǒu",
+          "hanviet": "Nguyên Hữu",
+          "meaning_vi": "vốn có, sẵn có từ trước",
+          "hsk": 5,
+          "word_id": "hsk5_1430"
         },
         {
           "text": "肌"
         },
         {
-          "text": "理"
+          "text": "理",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "để ý, đoái hoài; đạo lý; lý lẽ",
+          "hsk": 6,
+          "word_id": "hsk6_830"
         },
         {
           "text": "和",
@@ -342,7 +363,12 @@
           "word_id": "hsk1_139"
         },
         {
-          "text": "修"
+          "text": "修",
+          "pinyin": "xiū",
+          "hanviet": "Tu",
+          "meaning_vi": "sửa",
+          "hsk": 4,
+          "word_id": "hsk4_834"
         },
         {
           "text": "旧",
@@ -353,7 +379,12 @@
           "word_id": "hsk3_133"
         },
         {
-          "text": "如"
+          "text": "如",
+          "pinyin": "rú",
+          "hanviet": "Như",
+          "meaning_vi": "chẳng hạn như",
+          "hsk": 5,
+          "word_id": "hsk5_932"
         },
         {
           "text": "旧",
@@ -388,15 +419,12 @@
           "word_id": "hsk1_115"
         },
         {
-          "text": "融",
-          "pinyin": "róng",
-          "hanviet": "Dung",
-          "meaning_vi": "tan chảy; hòa tan",
-          "hsk": 7,
-          "word_id": "hsk7_3434"
-        },
-        {
-          "text": "入"
+          "text": "融入",
+          "pinyin": "róngrù",
+          "hanviet": "Dung Nhập",
+          "meaning_vi": "hòa nhập vào, hòa mình vào",
+          "hsk": 6,
+          "word_id": "hsk6_1116"
         },
         {
           "text": "现代",
@@ -436,15 +464,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "口",
-          "pinyin": "kǒu",
-          "hanviet": "Khẩu",
-          "meaning_vi": "miệng; cái (lượng từ)",
-          "hsk": 3,
-          "word_id": "hsk3_141"
-        },
-        {
-          "text": "袋"
+          "text": "口袋",
+          "pinyin": "kǒudai",
+          "hanviet": "Khẩu Đại",
+          "meaning_vi": "túi áo, túi quần, túi",
+          "hsk": 5,
+          "word_id": "hsk5_674"
         },
         {
           "text": "公园",
@@ -498,7 +523,12 @@
           "word_id": "hsk3_232"
         },
         {
-          "text": "街"
+          "text": "街",
+          "pinyin": "jiē",
+          "hanviet": "Nhai",
+          "meaning_vi": "phố, đường phố",
+          "hsk": 3,
+          "word_id": "hsk3_793"
         },
         {
           "text": "巷",
@@ -517,10 +547,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "改"
-        },
-        {
-          "text": "造"
+          "text": "改造",
+          "pinyin": "gǎizào",
+          "hanviet": "Cải Tạo",
+          "meaning_vi": "cải tạo, nâng cấp",
+          "hsk": 6,
+          "word_id": "hsk6_415"
         },
         {
           "text": "，"
@@ -574,36 +606,20 @@
           "word_id": "hsk3_110"
         },
         {
-          "text": "大",
-          "pinyin": "dà",
-          "hanviet": "Đại",
-          "meaning_vi": "to, lớn",
-          "hsk": 1,
-          "word_id": "hsk1_14"
+          "text": "大地",
+          "pinyin": "dàdì",
+          "hanviet": "Đại Địa",
+          "meaning_vi": "mặt đất, đất mẹ, đại địa",
+          "hsk": 6,
+          "word_id": "hsk6_246"
         },
         {
-          "text": "地",
-          "pinyin": "de",
-          "hanviet": "Địa",
-          "meaning_vi": "cách (trợ từ trạng ngữ)",
-          "hsk": 3,
-          "word_id": "hsk3_46"
-        },
-        {
-          "text": "提",
-          "pinyin": "tí",
-          "hanviet": "Đề",
-          "meaning_vi": "mang, xách; nêu ra",
-          "hsk": 4,
-          "word_id": "hsk4_430"
-        },
-        {
-          "text": "升",
-          "pinyin": "shēng",
-          "hanviet": "Thăng",
-          "meaning_vi": "thăng, lên",
+          "text": "提升",
+          "pinyin": "tíshēng",
+          "hanviet": "Đề Thăng",
+          "meaning_vi": "nâng cao, cải thiện, đề bạt",
           "hsk": 5,
-          "word_id": "hsk5_1055"
+          "word_id": "hsk5_1117"
         },
         {
           "text": "了",
@@ -715,7 +731,12 @@
           "word_id": "hsk2_84"
         },
         {
-          "text": "城"
+          "text": "城",
+          "pinyin": "chéng",
+          "hanviet": "Thành",
+          "meaning_vi": "thành phố; thành (tường thành)",
+          "hsk": 4,
+          "word_id": "hsk4_77"
         },
         {
           "text": "一面",
@@ -734,13 +755,23 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "同"
+          "text": "同",
+          "pinyin": "tóng",
+          "hanviet": "Đồng",
+          "meaning_vi": "cùng, cùng với; giống nhau",
+          "hsk": 5,
+          "word_id": "hsk5_1141"
         },
         {
           "text": "质"
         },
         {
-          "text": "化"
+          "text": "化",
+          "pinyin": "huà",
+          "hanviet": "Hoa",
+          "meaning_vi": "hóa (-ize); tan chảy, biến đổi",
+          "hsk": 5,
+          "word_id": "hsk5_497"
         },
         {
           "text": "开发",
@@ -778,7 +809,12 @@
           "word_id": "hsk5_50"
         },
         {
-          "text": "割"
+          "text": "割",
+          "pinyin": "gē",
+          "hanviet": "Cắt",
+          "meaning_vi": "cắt, gặt (lúa, cỏ); cắt đứt",
+          "hsk": 6,
+          "word_id": "hsk6_441"
         },
         {
           "text": "裂",
@@ -832,16 +868,20 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "情"
+          "text": "情感",
+          "pinyin": "qínggǎn",
+          "hanviet": "Tình Cảm",
+          "meaning_vi": "cảm xúc",
+          "hsk": 5,
+          "word_id": "hsk5_889"
         },
         {
-          "text": "感"
-        },
-        {
-          "text": "认"
-        },
-        {
-          "text": "同"
+          "text": "认同",
+          "pinyin": "rèntóng",
+          "hanviet": "Nhận Đồng",
+          "meaning_vi": "đồng tình, đồng cảm, công nhận",
+          "hsk": 6,
+          "word_id": "hsk6_1106"
         },
         {
           "text": "。"
@@ -908,21 +948,20 @@
           "text": "，"
         },
         {
-          "text": "才"
+          "text": "才能",
+          "pinyin": "cáinéng",
+          "hanviet": "Tài Năng",
+          "meaning_vi": "tài năng",
+          "hsk": 6,
+          "word_id": "hsk6_97"
         },
         {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
-        },
-        {
-          "text": "打"
-        },
-        {
-          "text": "造"
+          "text": "打造",
+          "pinyin": "dǎzào",
+          "hanviet": "Đả Tạo",
+          "meaning_vi": "xây dựng, đúc tạo, kiến tạo",
+          "hsk": 6,
+          "word_id": "hsk6_242"
         },
         {
           "text": "出",
@@ -982,10 +1021,20 @@
           "text": "辨"
         },
         {
-          "text": "识"
+          "text": "识",
+          "pinyin": "shí",
+          "hanviet": "Thức",
+          "meaning_vi": "nhận biết, biết chữ, hiểu biết",
+          "hsk": 6,
+          "word_id": "hsk6_1181"
         },
         {
-          "text": "度"
+          "text": "度",
+          "pinyin": "dù",
+          "hanviet": "Độ",
+          "meaning_vi": "độ (nhiệt độ, góc); mức độ",
+          "hsk": 5,
+          "word_id": "hsk5_300"
         },
         {
           "text": "的",
@@ -1004,15 +1053,12 @@
           "word_id": "hsk4_556"
         },
         {
-          "text": "现代",
-          "pinyin": "xiàndài",
-          "hanviet": "Hiện Đại",
-          "meaning_vi": "hiện đại",
+          "text": "现代化",
+          "pinyin": "xiàndàihuà",
+          "hanviet": "Hiện Đại Hoa",
+          "meaning_vi": "hiện đại hóa",
           "hsk": 5,
-          "word_id": "hsk5_1155"
-        },
-        {
-          "text": "化"
+          "word_id": "hsk5_1240"
         },
         {
           "text": "都市",
@@ -1043,7 +1089,6 @@
     "hsk1_14",
     "hsk5_44",
     "hsk1_15",
-    "hsk2_59",
     "hsk6_1339",
     "hsk5_894",
     "hsk6_577",
@@ -1051,7 +1096,8 @@
     "hsk4_106",
     "hsk5_597",
     "hsk5_610",
-    "hsk4_584"
+    "hsk4_584",
+    "hsk5_572"
   ],
   "quiz": [
     {

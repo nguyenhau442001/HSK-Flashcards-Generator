@@ -208,7 +208,11 @@
         },
         {
           "text": "选",
-          "unknown": true
+          "pinyin": "xuǎn",
+          "hanviet": "Tuyển",
+          "meaning_vi": "chọn",
+          "hsk": 3,
+          "word_id": "hsk3_992"
         },
         {
           "text": "了",
@@ -262,8 +266,7 @@
           "word_id": "hsk1_14"
         },
         {
-          "text": "瓶",
-          "unknown": true
+          "text": "瓶"
         },
         {
           "text": "牛奶",
@@ -319,20 +322,12 @@
           "word_id": "hsk1_55"
         },
         {
-          "text": "一",
-          "pinyin": "yī",
-          "hanviet": "Nhất",
-          "meaning_vi": "một",
+          "text": "一些",
+          "pinyin": "yìxiē",
+          "hanviet": "Nhất Ta",
+          "meaning_vi": "một số, một vài, một ít",
           "hsk": 1,
-          "word_id": "hsk1_130"
-        },
-        {
-          "text": "些",
-          "pinyin": "xiē",
-          "hanviet": "Ta",
-          "meaning_vi": "vài, một ít",
-          "hsk": 1,
-          "word_id": "hsk1_123"
+          "word_id": "hsk1_596"
         },
         {
           "text": "面包",
@@ -362,12 +357,12 @@
           "word_id": "hsk1_67"
         },
         {
-          "text": "早",
-          "unknown": true
-        },
-        {
-          "text": "餐",
-          "unknown": true
+          "text": "早餐",
+          "pinyin": "zǎocān",
+          "hanviet": "Tảo Xan",
+          "meaning_vi": "bữa sáng",
+          "hsk": 4,
+          "word_id": "hsk4_918"
         },
         {
           "text": "吃",
@@ -424,7 +419,11 @@
         },
         {
           "text": "帮",
-          "unknown": true
+          "pinyin": "bāng",
+          "hanviet": "Bang",
+          "meaning_vi": "giúp đỡ",
+          "hsk": 2,
+          "word_id": "hsk2_305"
         },
         {
           "text": "我们",
@@ -451,12 +450,12 @@
           "word_id": "hsk1_36"
         },
         {
-          "text": "袋",
-          "unknown": true
-        },
-        {
-          "text": "子",
-          "unknown": true
+          "text": "袋子",
+          "pinyin": "dàizi",
+          "hanviet": "Đại Tử",
+          "meaning_vi": "túi",
+          "hsk": 4,
+          "word_id": "hsk4_133"
         },
         {
           "text": "。"
@@ -475,7 +474,11 @@
     "hsk3_164",
     "hsk2_147",
     "hsk2_28",
-    "hsk3_192"
+    "hsk3_192",
+    "hsk1_47",
+    "hsk1_116",
+    "hsk1_111",
+    "hsk1_39"
   ],
   "quiz": [
     {

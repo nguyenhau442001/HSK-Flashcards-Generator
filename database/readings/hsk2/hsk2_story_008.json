@@ -103,20 +103,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "这",
-          "pinyin": "zhè",
-          "hanviet": "Giá",
-          "meaning_vi": "này",
+          "text": "这里",
+          "pinyin": "zhèlǐ",
+          "hanviet": "Giá Lý",
+          "meaning_vi": "đây (đại từ)",
           "hsk": 1,
-          "word_id": "hsk1_142"
-        },
-        {
-          "text": "里",
-          "pinyin": "lǐ",
-          "hanviet": "Lý",
-          "meaning_vi": "bên trong",
-          "hsk": 1,
-          "word_id": "hsk1_57"
+          "word_id": "hsk1_606"
         },
         {
           "text": "的",
@@ -279,8 +271,7 @@
           "word_id": "hsk2_63"
         },
         {
-          "text": "瓶",
-          "unknown": true
+          "text": "瓶"
         },
         {
           "text": "牛奶",
@@ -336,20 +327,12 @@
           "word_id": "hsk1_61"
         },
         {
-          "text": "一",
-          "pinyin": "yī",
-          "hanviet": "Nhất",
-          "meaning_vi": "một",
+          "text": "一些",
+          "pinyin": "yìxiē",
+          "hanviet": "Nhất Ta",
+          "meaning_vi": "một số, một vài, một ít",
           "hsk": 1,
-          "word_id": "hsk1_130"
-        },
-        {
-          "text": "些",
-          "pinyin": "xiē",
-          "hanviet": "Ta",
-          "meaning_vi": "vài, một ít",
-          "hsk": 1,
-          "word_id": "hsk1_123"
+          "word_id": "hsk1_596"
         },
         {
           "text": "鸡蛋",
@@ -521,7 +504,13 @@
     "hsk2_44",
     "hsk2_67",
     "hsk2_117",
-    "hsk2_139"
+    "hsk2_139",
+    "hsk1_47",
+    "hsk1_116",
+    "hsk1_111",
+    "hsk1_39",
+    "hsk1_83",
+    "hsk5_428"
   ],
   "quiz": [
     {

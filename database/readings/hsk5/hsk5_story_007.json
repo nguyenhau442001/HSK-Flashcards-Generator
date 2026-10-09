@@ -103,7 +103,12 @@
           "word_id": "hsk1_8"
         },
         {
-          "text": "可"
+          "text": "可",
+          "pinyin": "kě",
+          "hanviet": "Khả",
+          "meaning_vi": "nhưng; thật là (nhấn mạnh)",
+          "hsk": 3,
+          "word_id": "hsk3_814"
         },
         {
           "text": "避免",
@@ -130,20 +135,12 @@
           "word_id": "hsk5_55"
         },
         {
-          "text": "各",
-          "pinyin": "gè",
-          "hanviet": "Các",
-          "meaning_vi": "mỗi, từng",
+          "text": "各种",
+          "pinyin": "gèzhǒng",
+          "hanviet": "Các Chủng",
+          "meaning_vi": "các loại, đủ loại",
           "hsk": 4,
-          "word_id": "hsk4_140"
-        },
-        {
-          "text": "种",
-          "pinyin": "zhǒng",
-          "hanviet": "Chủng",
-          "meaning_vi": "loại, giống (lượng từ)",
-          "hsk": 3,
-          "word_id": "hsk3_289"
+          "word_id": "hsk4_248"
         },
         {
           "text": "心理",
@@ -175,10 +172,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "适"
-        },
-        {
-          "text": "度"
+          "text": "适度",
+          "pinyin": "shìdù",
+          "hanviet": "Quát Độ",
+          "meaning_vi": "vừa phải, có chừng mực, điều độ",
+          "hsk": 6,
+          "word_id": "hsk6_1197"
         },
         {
           "text": "的",
@@ -197,20 +196,12 @@
           "word_id": "hsk4_491"
         },
         {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
+          "text": "能够",
+          "pinyin": "nénggòu",
+          "hanviet": "Năng Cú",
           "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
-        },
-        {
-          "text": "够",
-          "pinyin": "gòu",
-          "hanviet": "Cú",
-          "meaning_vi": "đủ",
           "hsk": 4,
-          "word_id": "hsk4_145"
+          "word_id": "hsk4_532"
         },
         {
           "text": "激发",
@@ -248,18 +239,20 @@
           "text": "，"
         },
         {
-          "text": "但"
-        },
-        {
-          "text": "过",
-          "pinyin": "guo",
-          "hanviet": "Quá",
-          "meaning_vi": "đã từng (trợ từ)",
+          "text": "但",
+          "pinyin": "dàn",
+          "hanviet": "Đãn",
+          "meaning_vi": "nhưng, nhưng mà",
           "hsk": 2,
-          "word_id": "hsk2_36"
+          "word_id": "hsk2_330"
         },
         {
-          "text": "度"
+          "text": "过度",
+          "pinyin": "guòdù",
+          "hanviet": "Quá Độ",
+          "meaning_vi": "quá mức, thái quá",
+          "hsk": 5,
+          "word_id": "hsk5_454"
         },
         {
           "text": "的",
@@ -294,16 +287,20 @@
           "word_id": "hsk1_43"
         },
         {
-          "text": "损"
+          "text": "损害",
+          "pinyin": "sǔnhài",
+          "hanviet": "Tổn Hại",
+          "meaning_vi": "làm hại, tổn hại, thiệt hại",
+          "hsk": 5,
+          "word_id": "hsk5_1094"
         },
         {
-          "text": "害"
-        },
-        {
-          "text": "身"
-        },
-        {
-          "text": "心"
+          "text": "身心",
+          "pinyin": "shēnxīn",
+          "hanviet": "Thân Tâm",
+          "meaning_vi": "thể xác và tinh thần, thân tâm",
+          "hsk": 6,
+          "word_id": "hsk6_1163"
         },
         {
           "text": "健康",
@@ -335,15 +332,12 @@
           "word_id": "hsk5_345"
         },
         {
-          "text": "强"
-        },
-        {
-          "text": "大",
-          "pinyin": "dà",
-          "hanviet": "Đại",
-          "meaning_vi": "to, lớn",
-          "hsk": 1,
-          "word_id": "hsk1_14"
+          "text": "强大",
+          "pinyin": "qiángdà",
+          "hanviet": "Cường Đại",
+          "meaning_vi": "mạnh mẽ",
+          "hsk": 5,
+          "word_id": "hsk5_870"
         },
         {
           "text": "的",
@@ -413,23 +407,20 @@
           "word_id": "hsk6_512"
         },
         {
-          "text": "时"
+          "text": "时",
+          "pinyin": "shí",
+          "hanviet": "Thời",
+          "meaning_vi": "thời gian (danh từ, số lượng)",
+          "hsk": 2,
+          "word_id": "hsk2_431"
         },
         {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
+          "text": "能够",
+          "pinyin": "nénggòu",
+          "hanviet": "Năng Cú",
           "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
-        },
-        {
-          "text": "够",
-          "pinyin": "gòu",
-          "hanviet": "Cú",
-          "meaning_vi": "đủ",
           "hsk": 4,
-          "word_id": "hsk4_145"
+          "word_id": "hsk4_532"
         },
         {
           "text": "迅速",
@@ -469,15 +460,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "学"
-        },
-        {
-          "text": "会",
-          "pinyin": "huì",
-          "hanviet": "Hội",
-          "meaning_vi": "biết, sẽ",
-          "hsk": 1,
-          "word_id": "hsk1_43"
+          "text": "学会",
+          "pinyin": "xuéhuì",
+          "hanviet": "Học Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 6,
+          "word_id": "hsk6_1489"
         },
         {
           "text": "倾诉",
@@ -531,10 +519,12 @@
           "word_id": "hsk6_405"
         },
         {
-          "text": "睡"
-        },
-        {
-          "text": "眠"
+          "text": "睡眠",
+          "pinyin": "shuìmián",
+          "hanviet": "Thuỵ Miên",
+          "meaning_vi": "giấc ngủ",
+          "hsk": 5,
+          "word_id": "hsk5_1073"
         },
         {
           "text": "，"
@@ -548,15 +538,12 @@
           "word_id": "hsk1_96"
         },
         {
-          "text": "有",
-          "pinyin": "yǒu",
-          "hanviet": "Hữu",
-          "meaning_vi": "có",
-          "hsk": 1,
-          "word_id": "hsk1_136"
-        },
-        {
-          "text": "效"
+          "text": "有效",
+          "pinyin": "yǒuxiào",
+          "hanviet": "Hữu Hiệu",
+          "meaning_vi": "có hiệu lực, hiệu quả",
+          "hsk": 4,
+          "word_id": "hsk4_892"
         },
         {
           "text": "缓解",
@@ -663,15 +650,12 @@
           "text": "，"
         },
         {
-          "text": "才"
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
+          "text": "才能",
+          "pinyin": "cáinéng",
+          "hanviet": "Tài Năng",
+          "meaning_vi": "tài năng",
+          "hsk": 6,
+          "word_id": "hsk6_97"
         },
         {
           "text": "在",
@@ -682,21 +666,20 @@
           "word_id": "hsk1_139"
         },
         {
-          "text": "风"
+          "text": "风雨",
+          "pinyin": "fēngyǔ",
+          "hanviet": "Phong Vũ",
+          "meaning_vi": "mưa gió, phong ba bão táp",
+          "hsk": 6,
+          "word_id": "hsk6_395"
         },
         {
-          "text": "雨"
-        },
-        {
-          "text": "过",
-          "pinyin": "guo",
-          "hanviet": "Quá",
-          "meaning_vi": "đã từng (trợ từ)",
-          "hsk": 2,
-          "word_id": "hsk2_36"
-        },
-        {
-          "text": "后"
+          "text": "过后",
+          "pinyin": "guòhòu",
+          "hanviet": "Quá Hậu",
+          "meaning_vi": "sau đó, về sau",
+          "hsk": 6,
+          "word_id": "hsk6_515"
         },
         {
           "text": "迎接",
@@ -766,8 +749,8 @@
     "hsk5_661",
     "hsk3_46",
     "hsk5_55",
-    "hsk4_140",
-    "hsk3_289"
+    "hsk3_814",
+    "hsk4_248"
   ],
   "quiz": [
     {

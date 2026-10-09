@@ -122,32 +122,20 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "上",
-          "pinyin": "shàng",
-          "hanviet": "Thướng",
-          "meaning_vi": "trên",
-          "hsk": 1,
-          "word_id": "hsk1_89"
+          "text": "上台",
+          "pinyin": "shàngtái",
+          "hanviet": "Thướng Đài",
+          "meaning_vi": "lên sân khấu, lên bục phát biểu",
+          "hsk": 6,
+          "word_id": "hsk6_1152"
         },
         {
-          "text": "台",
-          "pinyin": "tái",
-          "hanviet": "Đài",
-          "meaning_vi": "cái, bục, đài (lượng từ)",
+          "text": "之前",
+          "pinyin": "zhīqián",
+          "hanviet": "Chi Tiền",
+          "meaning_vi": "trước, trước khi",
           "hsk": 4,
-          "word_id": "hsk4_418"
-        },
-        {
-          "text": "之",
-          "pinyin": "zhī",
-          "hanviet": "Chi",
-          "meaning_vi": "của (trợ từ văn viết)",
-          "hsk": 4,
-          "word_id": "hsk4_563"
-        },
-        {
-          "text": "前",
-          "unknown": true
+          "word_id": "hsk4_943"
         },
         {
           "text": "，"
@@ -161,36 +149,20 @@
           "word_id": "hsk1_111"
         },
         {
-          "text": "心",
-          "unknown": true
+          "text": "心里",
+          "pinyin": "xīnlǐ",
+          "hanviet": "Tâm Lý",
+          "meaning_vi": "trong lòng",
+          "hsk": 3,
+          "word_id": "hsk3_981"
         },
         {
-          "text": "里",
-          "pinyin": "lǐ",
-          "hanviet": "Lý",
-          "meaning_vi": "bên trong",
+          "text": "有点儿",
+          "pinyin": "yǒudiǎnr",
+          "hanviet": "Hữu Điểm Nhân",
+          "meaning_vi": "hơi, một chút",
           "hsk": 1,
-          "word_id": "hsk1_57"
-        },
-        {
-          "text": "有",
-          "pinyin": "yǒu",
-          "hanviet": "Hữu",
-          "meaning_vi": "có",
-          "hsk": 1,
-          "word_id": "hsk1_136"
-        },
-        {
-          "text": "点",
-          "pinyin": "diǎn",
-          "hanviet": "Điểm",
-          "meaning_vi": "giờ, điểm",
-          "hsk": 1,
-          "word_id": "hsk1_16"
-        },
-        {
-          "text": "儿",
-          "unknown": true
+          "word_id": "hsk1_598"
         },
         {
           "text": "担心",
@@ -562,7 +534,10 @@
     "hsk2_106",
     "hsk3_87",
     "hsk3_82",
-    "hsk3_166"
+    "hsk3_166",
+    "hsk1_89",
+    "hsk1_32",
+    "hsk1_126"
   ],
   "quiz": [
     {

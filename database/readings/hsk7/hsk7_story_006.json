@@ -20,10 +20,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "中"
-        },
-        {
-          "text": "医"
+          "text": "中医",
+          "pinyin": "zhōngyī",
+          "hanviet": "Trung Y",
+          "meaning_vi": "đông y, y học cổ truyền Trung Quốc",
+          "hsk": 5,
+          "word_id": "hsk5_1528"
         },
         {
           "text": "药",
@@ -34,7 +36,12 @@
           "word_id": "hsk2_125"
         },
         {
-          "text": "学"
+          "text": "学",
+          "pinyin": "xué",
+          "hanviet": "Học",
+          "meaning_vi": "học",
+          "hsk": 1,
+          "word_id": "hsk1_589"
         },
         {
           "text": "是",
@@ -104,18 +111,12 @@
           "word_id": "hsk2_143"
         },
         {
-          "text": "中"
-        },
-        {
-          "text": "华"
-        },
-        {
-          "text": "民族",
-          "pinyin": "mínzú",
-          "hanviet": "Dân Tộc",
-          "meaning_vi": "dân tộc",
-          "hsk": 4,
-          "word_id": "hsk4_308"
+          "text": "中华民族",
+          "pinyin": "Zhōnghuá Mínzú",
+          "hanviet": "Trung Hoa Dân Tộc",
+          "meaning_vi": "dân tộc Trung Hoa",
+          "hsk": 5,
+          "word_id": "hsk5_1521"
         },
         {
           "text": "几",
@@ -150,13 +151,20 @@
           "word_id": "hsk1_53"
         },
         {
-          "text": "同"
+          "text": "同",
+          "pinyin": "tóng",
+          "hanviet": "Đồng",
+          "meaning_vi": "cùng, cùng với; giống nhau",
+          "hsk": 5,
+          "word_id": "hsk5_1141"
         },
         {
-          "text": "疾"
-        },
-        {
-          "text": "病"
+          "text": "疾病",
+          "pinyin": "jíbìng",
+          "hanviet": "Tật Bệnh",
+          "meaning_vi": "căn bệnh",
+          "hsk": 5,
+          "word_id": "hsk5_528"
         },
         {
           "text": "作"
@@ -237,13 +245,23 @@
           "text": "辨"
         },
         {
-          "text": "证"
+          "text": "证",
+          "pinyin": "zhèng",
+          "hanviet": "Chứng",
+          "meaning_vi": "giấy chứng nhận, thẻ",
+          "hsk": 4,
+          "word_id": "hsk4_931"
         },
         {
           "text": "论"
         },
         {
-          "text": "治"
+          "text": "治",
+          "pinyin": "zhì",
+          "hanviet": "Trị",
+          "meaning_vi": "chữa trị (bệnh); trị an, quản lý",
+          "hsk": 5,
+          "word_id": "hsk5_1509"
         },
         {
           "text": "是",
@@ -254,10 +272,12 @@
           "word_id": "hsk1_96"
         },
         {
-          "text": "中"
-        },
-        {
-          "text": "医"
+          "text": "中医",
+          "pinyin": "zhōngyī",
+          "hanviet": "Trung Y",
+          "meaning_vi": "đông y, y học cổ truyền Trung Quốc",
+          "hsk": 5,
+          "word_id": "hsk5_1528"
         },
         {
           "text": "的",
@@ -306,13 +326,28 @@
           "text": "、"
         },
         {
-          "text": "因"
+          "text": "因",
+          "pinyin": "yīn",
+          "hanviet": "Nhân",
+          "meaning_vi": "bởi vì",
+          "hsk": 6,
+          "word_id": "hsk6_1574"
         },
         {
-          "text": "时"
+          "text": "时",
+          "pinyin": "shí",
+          "hanviet": "Thời",
+          "meaning_vi": "thời gian (danh từ, số lượng)",
+          "hsk": 2,
+          "word_id": "hsk2_431"
         },
         {
-          "text": "制"
+          "text": "制",
+          "pinyin": "zhì",
+          "hanviet": "Chế",
+          "meaning_vi": "chế tạo, làm ra; chế độ",
+          "hsk": 6,
+          "word_id": "hsk6_1712"
         },
         {
           "text": "宜"
@@ -334,13 +369,28 @@
           "word_id": "hsk5_805"
         },
         {
-          "text": "化"
+          "text": "化",
+          "pinyin": "huà",
+          "hanviet": "Hoa",
+          "meaning_vi": "hóa (-ize); tan chảy, biến đổi",
+          "hsk": 5,
+          "word_id": "hsk5_497"
         },
         {
-          "text": "调"
+          "text": "调",
+          "pinyin": "tiáo",
+          "hanviet": "Điệu",
+          "meaning_vi": "điều chỉnh, nêm nếm, phối trộn",
+          "hsk": 5,
+          "word_id": "hsk5_1130"
         },
         {
-          "text": "理"
+          "text": "理",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "để ý, đoái hoài; đạo lý; lý lẽ",
+          "hsk": 6,
+          "word_id": "hsk6_830"
         },
         {
           "text": "方案",
@@ -388,7 +438,12 @@
           "word_id": "hsk3_69"
         },
         {
-          "text": "子"
+          "text": "子",
+          "pinyin": "zi",
+          "hanviet": "Tử",
+          "meaning_vi": "hậu tố danh từ (như 桌子, 椅子)",
+          "hsk": 3,
+          "word_id": "hsk3_1071"
         },
         {
           "text": "生物",
@@ -399,7 +454,12 @@
           "word_id": "hsk6_1856"
         },
         {
-          "text": "学"
+          "text": "学",
+          "pinyin": "xué",
+          "hanviet": "Học",
+          "meaning_vi": "học",
+          "hsk": 1,
+          "word_id": "hsk1_589"
         },
         {
           "text": "和",
@@ -410,31 +470,20 @@
           "word_id": "hsk1_39"
         },
         {
-          "text": "药",
-          "pinyin": "yào",
-          "hanviet": "Dược",
-          "meaning_vi": "thuốc",
-          "hsk": 2,
-          "word_id": "hsk2_125"
+          "text": "药物",
+          "pinyin": "yàowù",
+          "hanviet": "Dược Vật",
+          "meaning_vi": "thuốc, dược chất",
+          "hsk": 5,
+          "word_id": "hsk5_1341"
         },
         {
-          "text": "物"
-        },
-        {
-          "text": "提",
-          "pinyin": "tí",
-          "hanviet": "Đề",
-          "meaning_vi": "mang, xách; nêu ra",
-          "hsk": 4,
-          "word_id": "hsk4_430"
-        },
-        {
-          "text": "取",
-          "pinyin": "qǔ",
-          "hanviet": "Thủ",
-          "meaning_vi": "lấy",
-          "hsk": 4,
-          "word_id": "hsk4_350"
+          "text": "提取",
+          "pinyin": "tíqǔ",
+          "hanviet": "Đề Thủ",
+          "meaning_vi": "rút (tiền), chiết xuất, trích xuất",
+          "hsk": 6,
+          "word_id": "hsk6_1282"
         },
         {
           "text": "技术",
@@ -448,10 +497,12 @@
           "text": "，"
         },
         {
-          "text": "科"
-        },
-        {
-          "text": "研"
+          "text": "科研",
+          "pinyin": "kēyán",
+          "hanviet": "Khoa Nghiên",
+          "meaning_vi": "nghiên cứu khoa học",
+          "hsk": 5,
+          "word_id": "hsk5_663"
         },
         {
           "text": "人员",
@@ -484,21 +535,20 @@
           "word_id": "hsk1_55"
         },
         {
-          "text": "诸"
+          "text": "诸多",
+          "pinyin": "zhūduō",
+          "hanviet": "Chư Đa",
+          "meaning_vi": "rất nhiều, nhiều",
+          "hsk": 6,
+          "word_id": "hsk6_1743"
         },
         {
-          "text": "多",
-          "pinyin": "duō",
-          "hanviet": "Đa",
-          "meaning_vi": "nhiều",
-          "hsk": 1,
-          "word_id": "hsk1_24"
-        },
-        {
-          "text": "天"
-        },
-        {
-          "text": "然"
+          "text": "天然",
+          "pinyin": "tiānrán",
+          "hanviet": "Thiên Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 6,
+          "word_id": "hsk6_1290"
         },
         {
           "text": "草药",
@@ -517,10 +567,20 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "活"
+          "text": "活",
+          "pinyin": "huó",
+          "hanviet": "Hoạt",
+          "meaning_vi": "sống; sinh động; công việc",
+          "hsk": 4,
+          "word_id": "hsk4_311"
         },
         {
-          "text": "性"
+          "text": "性",
+          "pinyin": "xìng",
+          "hanviet": "Tính",
+          "meaning_vi": "tính (hậu tố: tính chất)",
+          "hsk": 4,
+          "word_id": "hsk4_828"
         },
         {
           "text": "成分",
@@ -550,7 +610,12 @@
           "text": "机"
         },
         {
-          "text": "理"
+          "text": "理",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "để ý, đoái hoài; đạo lý; lý lẽ",
+          "hsk": 6,
+          "word_id": "hsk6_830"
         },
         {
           "text": "。"
@@ -601,10 +666,12 @@
           "word_id": "hsk5_1264"
         },
         {
-          "text": "科"
-        },
-        {
-          "text": "研"
+          "text": "科研",
+          "pinyin": "kēyán",
+          "hanviet": "Khoa Nghiên",
+          "meaning_vi": "nghiên cứu khoa học",
+          "hsk": 5,
+          "word_id": "hsk5_663"
         },
         {
           "text": "成果",
@@ -629,24 +696,28 @@
           "text": "击"
         },
         {
-          "text": "全"
+          "text": "全球",
+          "pinyin": "quánqiú",
+          "hanviet": "Toàn Cầu",
+          "meaning_vi": "toàn cầu",
+          "hsk": 4,
+          "word_id": "hsk4_601"
         },
         {
-          "text": "球"
+          "text": "传染病",
+          "pinyin": "chuánrǎnbìng",
+          "hanviet": "Truyền Nhiễm Bệnh",
+          "meaning_vi": "bệnh truyền nhiễm",
+          "hsk": 6,
+          "word_id": "hsk6_204"
         },
         {
-          "text": "传染",
-          "pinyin": "chuánrǎn",
-          "hanviet": "Truyền Nhiễm",
-          "meaning_vi": "lây nhiễm",
-          "hsk": 5,
-          "word_id": "hsk5_75"
-        },
-        {
-          "text": "病"
-        },
-        {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "的",
@@ -676,20 +747,12 @@
           "text": "，"
         },
         {
-          "text": "赢",
-          "pinyin": "yíng",
-          "hanviet": "Doanh",
-          "meaning_vi": "thắng",
+          "text": "赢得",
+          "pinyin": "yíngdé",
+          "hanviet": "Doanh Đắc",
+          "meaning_vi": "giành được",
           "hsk": 4,
-          "word_id": "hsk4_520"
-        },
-        {
-          "text": "得",
-          "pinyin": "de",
-          "hanviet": "Đắc",
-          "meaning_vi": "được (trợ từ)",
-          "hsk": 2,
-          "word_id": "hsk2_19"
+          "word_id": "hsk4_875"
         },
         {
           "text": "了",
@@ -708,10 +771,12 @@
           "word_id": "hsk4_160"
         },
         {
-          "text": "医"
-        },
-        {
-          "text": "学"
+          "text": "医学",
+          "pinyin": "yīxué",
+          "hanviet": "Y Học",
+          "meaning_vi": "y học",
+          "hsk": 5,
+          "word_id": "hsk5_1350"
         },
         {
           "text": "界",
@@ -773,21 +838,20 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "推",
-          "pinyin": "tuī",
-          "hanviet": "Suy",
-          "meaning_vi": "đẩy",
-          "hsk": 4,
-          "word_id": "hsk4_442"
+          "text": "推动",
+          "pinyin": "tuīdòng",
+          "hanviet": "Suy Động",
+          "meaning_vi": "thúc đẩy, đẩy mạnh",
+          "hsk": 5,
+          "word_id": "hsk5_1158"
         },
         {
-          "text": "动"
-        },
-        {
-          "text": "中"
-        },
-        {
-          "text": "医"
+          "text": "中医",
+          "pinyin": "zhōngyī",
+          "hanviet": "Trung Y",
+          "meaning_vi": "đông y, y học cổ truyền Trung Quốc",
+          "hsk": 5,
+          "word_id": "hsk5_1528"
         },
         {
           "text": "药",
@@ -814,10 +878,12 @@
           "word_id": "hsk5_1155"
         },
         {
-          "text": "医"
-        },
-        {
-          "text": "学"
+          "text": "医学",
+          "pinyin": "yīxué",
+          "hanviet": "Y Học",
+          "meaning_vi": "y học",
+          "hsk": 5,
+          "word_id": "hsk5_1350"
         },
         {
           "text": "的",
@@ -852,32 +918,31 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "深",
-          "pinyin": "shēn",
-          "hanviet": "Thâm",
-          "meaning_vi": "sâu",
-          "hsk": 4,
-          "word_id": "hsk4_372"
+          "text": "深度",
+          "pinyin": "shēndù",
+          "hanviet": "Thâm Độ",
+          "meaning_vi": "độ sâu; chuyên sâu, sâu sắc",
+          "hsk": 5,
+          "word_id": "hsk5_981"
         },
         {
-          "text": "度"
-        },
-        {
-          "text": "融",
-          "pinyin": "róng",
-          "hanviet": "Dung",
-          "meaning_vi": "tan chảy; hòa tan",
-          "hsk": 7,
-          "word_id": "hsk7_3434"
-        },
-        {
-          "text": "合"
+          "text": "融合",
+          "pinyin": "rónghé",
+          "hanviet": "Dung Hợp",
+          "meaning_vi": "dung hợp, hòa hợp, gắn kết",
+          "hsk": 6,
+          "word_id": "hsk6_1113"
         },
         {
           "text": "，"
         },
         {
-          "text": "将"
+          "text": "将",
+          "pinyin": "jiāng",
+          "hanviet": "Tương",
+          "meaning_vi": "sẽ; đem, lấy (như 把)",
+          "hsk": 4,
+          "word_id": "hsk4_356"
         },
         {
           "text": "为",
@@ -896,7 +961,12 @@
           "word_id": "hsk6_2119"
         },
         {
-          "text": "全"
+          "text": "全",
+          "pinyin": "quán",
+          "hanviet": "Toàn",
+          "meaning_vi": "toàn bộ, đầy đủ; hoàn toàn",
+          "hsk": 4,
+          "word_id": "hsk4_598"
         },
         {
           "text": "人类",
@@ -923,7 +993,12 @@
           "word_id": "hsk3_115"
         },
         {
-          "text": "福"
+          "text": "福",
+          "pinyin": "fú",
+          "hanviet": "Phúc",
+          "meaning_vi": "phúc, phước",
+          "hsk": 5,
+          "word_id": "hsk5_367"
         },
         {
           "text": "祉"
@@ -953,20 +1028,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "东",
-          "pinyin": "dōng",
-          "hanviet": "Đông",
-          "meaning_vi": "phía đông",
+          "text": "东方",
+          "pinyin": "dōngfāng",
+          "hanviet": "Đông Phương",
+          "meaning_vi": "phía đông; phương Đông",
           "hsk": 3,
-          "word_id": "hsk3_53"
-        },
-        {
-          "text": "方",
-          "pinyin": "fāng",
-          "hanviet": "Phương",
-          "meaning_vi": "vuông, phương",
-          "hsk": 5,
-          "word_id": "hsk5_774"
+          "word_id": "hsk3_696"
         },
         {
           "text": "方案",
@@ -992,12 +1059,12 @@
     "hsk7_1516",
     "hsk6_1553",
     "hsk2_143",
-    "hsk4_308",
     "hsk1_44",
     "hsk2_84",
     "hsk1_74",
     "hsk1_53",
-    "hsk6_698"
+    "hsk6_698",
+    "hsk5_1528"
   ],
   "quiz": [
     {

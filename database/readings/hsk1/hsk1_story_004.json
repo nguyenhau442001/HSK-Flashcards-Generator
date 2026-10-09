@@ -18,11 +18,15 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "王老师",
-          "is_name": true,
-          "pinyin": "Wáng lǎoshī",
-          "hanviet": "Vương lão sư",
-          "meaning_vi": "cô giáo Vương"
+          "text": "王"
+        },
+        {
+          "text": "老师",
+          "pinyin": "lǎoshī",
+          "hanviet": "Lão Sư",
+          "meaning_vi": "thầy/cô giáo",
+          "hsk": 1,
+          "word_id": "hsk1_54"
         },
         {
           "text": "是",
@@ -292,7 +296,11 @@
         },
         {
           "text": "们",
-          "unknown": true
+          "pinyin": "men",
+          "hanviet": "Môn",
+          "meaning_vi": "họ (hậu tố)",
+          "hsk": 1,
+          "word_id": "hsk1_538"
         },
         {
           "text": "都",
@@ -319,11 +327,15 @@
           "word_id": "hsk1_114"
         },
         {
-          "text": "王老师",
-          "is_name": true,
-          "pinyin": "Wáng lǎoshī",
-          "hanviet": "Vương lão sư",
-          "meaning_vi": "cô giáo Vương"
+          "text": "王"
+        },
+        {
+          "text": "老师",
+          "pinyin": "lǎoshī",
+          "hanviet": "Lão Sư",
+          "meaning_vi": "thầy/cô giáo",
+          "hsk": 1,
+          "word_id": "hsk1_54"
         },
         {
           "text": "。"
@@ -339,7 +351,14 @@
     "hsk1_124",
     "hsk1_147",
     "hsk1_114",
-    "hsk1_129"
+    "hsk1_129",
+    "hsk1_96",
+    "hsk1_112",
+    "hsk1_15",
+    "hsk1_105",
+    "hsk1_87",
+    "hsk1_94",
+    "hsk1_103"
   ],
   "quiz": [
     {

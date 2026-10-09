@@ -18,11 +18,15 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "李月",
-          "is_name": true,
-          "pinyin": "Lǐ Yuè",
-          "hanviet": "Lý Nguyệt",
-          "meaning_vi": "Lý Nguyệt"
+          "text": "李"
+        },
+        {
+          "text": "月",
+          "pinyin": "yuè",
+          "hanviet": "Nguyệt",
+          "meaning_vi": "tháng",
+          "hsk": 1,
+          "word_id": "hsk1_137"
         },
         {
           "text": "是",
@@ -158,11 +162,15 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "李月",
-          "is_name": true,
-          "pinyin": "Lǐ Yuè",
-          "hanviet": "Lý Nguyệt",
-          "meaning_vi": "Lý Nguyệt"
+          "text": "李"
+        },
+        {
+          "text": "月",
+          "pinyin": "yuè",
+          "hanviet": "Nguyệt",
+          "meaning_vi": "tháng",
+          "hsk": 1,
+          "word_id": "hsk1_137"
         },
         {
           "text": "喜欢",
@@ -342,11 +350,19 @@
         },
         {
           "text": "天",
-          "unknown": true
+          "pinyin": "tiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "trời (danh từ, định lượng)",
+          "hsk": 1,
+          "word_id": "hsk1_573"
         },
         {
           "text": "天",
-          "unknown": true
+          "pinyin": "tiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "trời (danh từ, định lượng)",
+          "hsk": 1,
+          "word_id": "hsk1_573"
         },
         {
           "text": "在",
@@ -378,7 +394,14 @@
     "hsk1_50",
     "hsk1_128",
     "hsk1_36",
-    "hsk1_114"
+    "hsk1_114",
+    "hsk1_137",
+    "hsk1_96",
+    "hsk1_111",
+    "hsk1_15",
+    "hsk1_105",
+    "hsk1_85",
+    "hsk1_139"
   ],
   "quiz": [
     {

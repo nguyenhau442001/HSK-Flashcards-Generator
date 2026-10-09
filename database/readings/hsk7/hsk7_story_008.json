@@ -199,15 +199,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "月",
-          "pinyin": "yuè",
-          "hanviet": "Nguyệt",
-          "meaning_vi": "tháng",
-          "hsk": 1,
-          "word_id": "hsk1_137"
-        },
-        {
-          "text": "球"
+          "text": "月球",
+          "pinyin": "yuèqiú",
+          "hanviet": "Nguyệt Cầu",
+          "meaning_vi": "mặt Trăng",
+          "hsk": 6,
+          "word_id": "hsk6_1631"
         },
         {
           "text": "作为",
@@ -250,13 +247,20 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "天"
+          "text": "天然",
+          "pinyin": "tiānrán",
+          "hanviet": "Thiên Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 6,
+          "word_id": "hsk6_1290"
         },
         {
-          "text": "然"
-        },
-        {
-          "text": "天"
+          "text": "天",
+          "pinyin": "tiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "trời (danh từ, định lượng)",
+          "hsk": 1,
+          "word_id": "hsk1_573"
         },
         {
           "text": "体"
@@ -337,15 +341,12 @@
           "word_id": "hsk3_46"
         },
         {
-          "text": "外",
-          "pinyin": "wài",
-          "hanviet": "Ngoại",
-          "meaning_vi": "ngoài",
-          "hsk": 2,
-          "word_id": "hsk2_105"
-        },
-        {
-          "text": "科"
+          "text": "外科",
+          "pinyin": "wàikē",
+          "hanviet": "Ngoại Khoa",
+          "meaning_vi": "ngoại khoa",
+          "hsk": 6,
+          "word_id": "hsk6_1354"
         },
         {
           "text": "研"
@@ -375,7 +376,12 @@
           "word_id": "hsk6_1924"
         },
         {
-          "text": "前"
+          "text": "前",
+          "pinyin": "qián",
+          "hanviet": "Tiền",
+          "meaning_vi": "trước",
+          "hsk": 1,
+          "word_id": "hsk1_558"
         },
         {
           "text": "哨",
@@ -434,15 +440,12 @@
           "word_id": "hsk1_139"
         },
         {
-          "text": "月",
-          "pinyin": "yuè",
-          "hanviet": "Nguyệt",
-          "meaning_vi": "tháng",
-          "hsk": 1,
-          "word_id": "hsk1_137"
-        },
-        {
-          "text": "球"
+          "text": "月球",
+          "pinyin": "yuèqiú",
+          "hanviet": "Nguyệt Cầu",
+          "meaning_vi": "mặt Trăng",
+          "hsk": 6,
+          "word_id": "hsk6_1631"
         },
         {
           "text": "背面",
@@ -464,7 +467,12 @@
           "text": "陆"
         },
         {
-          "text": "并"
+          "text": "并",
+          "pinyin": "bìng",
+          "hanviet": "Tinh",
+          "meaning_vi": "và, đồng thời; hoàn toàn (không)",
+          "hsk": 4,
+          "word_id": "hsk4_39"
         },
         {
           "text": "成功",
@@ -483,18 +491,20 @@
           "word_id": "hsk4_350"
         },
         {
-          "text": "样"
+          "text": "样",
+          "pinyin": "yàng",
+          "hanviet": "Dạng",
+          "meaning_vi": "loại, thứ, mẫu",
+          "hsk": 6,
+          "word_id": "hsk6_1525"
         },
         {
-          "text": "返"
-        },
-        {
-          "text": "回",
-          "pinyin": "huí",
-          "hanviet": "Hồi",
-          "meaning_vi": "trở về",
-          "hsk": 1,
-          "word_id": "hsk1_42"
+          "text": "返回",
+          "pinyin": "fǎnhuí",
+          "hanviet": "Phản Hồi",
+          "meaning_vi": "trở về, quay lại",
+          "hsk": 5,
+          "word_id": "hsk5_333"
         },
         {
           "text": "，"
@@ -532,26 +542,20 @@
           "word_id": "hsk2_24"
         },
         {
-          "text": "月",
-          "pinyin": "yuè",
-          "hanviet": "Nguyệt",
-          "meaning_vi": "tháng",
-          "hsk": 1,
-          "word_id": "hsk1_137"
+          "text": "月球",
+          "pinyin": "yuèqiú",
+          "hanviet": "Nguyệt Cầu",
+          "meaning_vi": "mặt Trăng",
+          "hsk": 6,
+          "word_id": "hsk6_1631"
         },
         {
-          "text": "球"
-        },
-        {
-          "text": "古"
-        },
-        {
-          "text": "老",
-          "pinyin": "lǎo",
-          "hanviet": "Lão",
-          "meaning_vi": "già",
-          "hsk": 3,
-          "word_id": "hsk3_146"
+          "text": "古老",
+          "pinyin": "gǔlǎo",
+          "hanviet": "Cổ Lão",
+          "meaning_vi": "cổ xưa",
+          "hsk": 5,
+          "word_id": "hsk5_425"
         },
         {
           "text": "地质",
@@ -626,7 +630,12 @@
           "text": "壤"
         },
         {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "蕴含",
@@ -653,7 +662,12 @@
           "word_id": "hsk4_119"
         },
         {
-          "text": "同"
+          "text": "同",
+          "pinyin": "tóng",
+          "hanviet": "Đồng",
+          "meaning_vi": "cùng, cùng với; giống nhau",
+          "hsk": 5,
+          "word_id": "hsk5_1141"
         },
         {
           "text": "位",
@@ -688,10 +702,20 @@
           "word_id": "hsk1_98"
         },
         {
-          "text": "冰"
+          "text": "冰",
+          "pinyin": "bīng",
+          "hanviet": "Băng",
+          "meaning_vi": "băng, nước đá; ướp lạnh",
+          "hsk": 3,
+          "word_id": "hsk3_633"
         },
         {
-          "text": "沉"
+          "text": "沉",
+          "pinyin": "chén",
+          "hanviet": "Trầm",
+          "meaning_vi": "chìm; nặng",
+          "hsk": 5,
+          "word_id": "hsk5_130"
         },
         {
           "text": "积",
@@ -729,21 +753,20 @@
           "word_id": "hsk5_1134"
         },
         {
-          "text": "月",
-          "pinyin": "yuè",
-          "hanviet": "Nguyệt",
-          "meaning_vi": "tháng",
-          "hsk": 1,
-          "word_id": "hsk1_137"
+          "text": "月球",
+          "pinyin": "yuèqiú",
+          "hanviet": "Nguyệt Cầu",
+          "meaning_vi": "mặt Trăng",
+          "hsk": 6,
+          "word_id": "hsk6_1631"
         },
         {
-          "text": "球"
-        },
-        {
-          "text": "科"
-        },
-        {
-          "text": "研"
+          "text": "科研",
+          "pinyin": "kēyán",
+          "hanviet": "Khoa Nghiên",
+          "meaning_vi": "nghiên cứu khoa học",
+          "hsk": 5,
+          "word_id": "hsk5_663"
         },
         {
           "text": "站",
@@ -794,15 +817,12 @@
           "word_id": "hsk1_55"
         },
         {
-          "text": "无",
-          "pinyin": "wú",
-          "hanviet": "Vô",
-          "meaning_vi": "không có",
-          "hsk": 4,
-          "word_id": "hsk4_456"
-        },
-        {
-          "text": "限"
+          "text": "无限",
+          "pinyin": "wúxiàn",
+          "hanviet": "Vô Hạn",
+          "meaning_vi": "vô hạn, vô tận, không biên giới",
+          "hsk": 5,
+          "word_id": "hsk5_1209"
         },
         {
           "text": "遐"
@@ -952,10 +972,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "认"
-        },
-        {
-          "text": "知"
+          "text": "认知",
+          "pinyin": "rènzhī",
+          "hanviet": "Nhận Tri",
+          "meaning_vi": "nhận thức",
+          "hsk": 6,
+          "word_id": "hsk6_1107"
         },
         {
           "text": "边界",
@@ -969,10 +991,12 @@
           "text": "，"
         },
         {
-          "text": "激"
-        },
-        {
-          "text": "励"
+          "text": "激励",
+          "pinyin": "jīlì",
+          "hanviet": "Kích Lệ",
+          "meaning_vi": "khích lệ, động viên, cổ vũ",
+          "hsk": 6,
+          "word_id": "hsk6_609"
         },
         {
           "text": "着",
@@ -991,15 +1015,12 @@
           "word_id": "hsk1_115"
         },
         {
-          "text": "一",
-          "pinyin": "yī",
-          "hanviet": "Nhất",
-          "meaning_vi": "một",
-          "hsk": 1,
-          "word_id": "hsk1_130"
-        },
-        {
-          "text": "代"
+          "text": "一代",
+          "pinyin": "yídài",
+          "hanviet": "Nhất Đại",
+          "meaning_vi": "một thế hệ",
+          "hsk": 5,
+          "word_id": "hsk5_1353"
         },
         {
           "text": "勇敢",
@@ -1032,7 +1053,12 @@
           "word_id": "hsk1_14"
         },
         {
-          "text": "海"
+          "text": "海",
+          "pinyin": "hǎi",
+          "hanviet": "Hải",
+          "meaning_vi": "biển",
+          "hsk": 3,
+          "word_id": "hsk3_751"
         },
         {
           "text": "。"

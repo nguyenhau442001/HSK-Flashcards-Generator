@@ -66,36 +66,28 @@
           "word_id": "hsk1_72"
         },
         {
-          "text": "早",
-          "unknown": true
+          "text": "早日",
+          "pinyin": "zǎorì",
+          "hanviet": "Tảo Nhật",
+          "meaning_vi": "sớm ngày, sớm",
+          "hsk": 7,
+          "word_id": "hsk7_5117"
         },
         {
-          "text": "日",
-          "pinyin": "rì",
-          "hanviet": "Nhật",
-          "meaning_vi": "ngày, mặt trời",
-          "hsk": 2,
-          "word_id": "hsk2_89"
-        },
-        {
-          "text": "取",
-          "pinyin": "qǔ",
-          "hanviet": "Thủ",
-          "meaning_vi": "lấy",
+          "text": "取得",
+          "pinyin": "qǔdé",
+          "hanviet": "Thủ Đắc",
+          "meaning_vi": "giành được, đạt được",
           "hsk": 4,
-          "word_id": "hsk4_350"
-        },
-        {
-          "text": "得",
-          "pinyin": "de",
-          "hanviet": "Đắc",
-          "meaning_vi": "được (trợ từ)",
-          "hsk": 2,
-          "word_id": "hsk2_19"
+          "word_id": "hsk4_596"
         },
         {
           "text": "令",
-          "unknown": true
+          "pinyin": "lìng",
+          "hanviet": "Lệnh",
+          "meaning_vi": "khiến cho, làm cho",
+          "hsk": 5,
+          "word_id": "hsk5_731"
         },
         {
           "text": "人",
@@ -192,7 +184,11 @@
         },
         {
           "text": "中",
-          "unknown": true
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "，"
@@ -310,20 +306,12 @@
           "text": "，"
         },
         {
-          "text": "懂",
-          "pinyin": "dǒng",
-          "hanviet": "Đổng",
-          "meaning_vi": "hiểu",
-          "hsk": 2,
-          "word_id": "hsk2_23"
-        },
-        {
-          "text": "得",
-          "pinyin": "de",
-          "hanviet": "Đắc",
-          "meaning_vi": "được (trợ từ)",
-          "hsk": 2,
-          "word_id": "hsk2_19"
+          "text": "懂得",
+          "pinyin": "dǒngde",
+          "hanviet": "Đổng Đắc",
+          "meaning_vi": "hiểu, biết",
+          "hsk": 3,
+          "word_id": "hsk3_699"
         },
         {
           "text": "从",
@@ -343,7 +331,11 @@
         },
         {
           "text": "中",
-          "unknown": true
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "总结",
@@ -407,8 +399,7 @@
           "word_id": "hsk4_345"
         },
         {
-          "text": "言",
-          "unknown": true
+          "text": "言"
         },
         {
           "text": "放弃",
@@ -470,20 +461,12 @@
           "word_id": "hsk1_96"
         },
         {
-          "text": "提",
-          "pinyin": "tí",
-          "hanviet": "Đề",
-          "meaning_vi": "mang, xách; nêu ra",
-          "hsk": 4,
-          "word_id": "hsk4_430"
-        },
-        {
-          "text": "升",
-          "pinyin": "shēng",
-          "hanviet": "Thăng",
-          "meaning_vi": "thăng, lên",
+          "text": "提升",
+          "pinyin": "tíshēng",
+          "hanviet": "Đề Thăng",
+          "meaning_vi": "nâng cao, cải thiện, đề bạt",
           "hsk": 5,
-          "word_id": "hsk5_1055"
+          "word_id": "hsk5_1117"
         },
         {
           "text": "能力",
@@ -503,7 +486,11 @@
         },
         {
           "text": "绝",
-          "unknown": true
+          "pinyin": "jué",
+          "hanviet": "Tuyệt",
+          "meaning_vi": "tuyệt đối; dứt khoát",
+          "hsk": 7,
+          "word_id": "hsk7_2271"
         },
         {
           "text": "好",
@@ -535,12 +522,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "坚",
-          "unknown": true
-        },
-        {
-          "text": "定",
-          "unknown": true
+          "text": "坚定",
+          "pinyin": "jiāndìng",
+          "hanviet": "Kiên Định",
+          "meaning_vi": "kiên định, vững vàng",
+          "hsk": 6,
+          "word_id": "hsk6_643"
         },
         {
           "text": "的",
@@ -567,16 +554,12 @@
           "word_id": "hsk1_39"
         },
         {
-          "text": "长",
-          "pinyin": "cháng",
-          "hanviet": "Trường",
-          "meaning_vi": "dài",
-          "hsk": 2,
-          "word_id": "hsk2_9"
-        },
-        {
-          "text": "期",
-          "unknown": true
+          "text": "长期",
+          "pinyin": "chángqī",
+          "hanviet": "Trường Kì",
+          "meaning_vi": "thời gian dài, dài hạn",
+          "hsk": 5,
+          "word_id": "hsk5_111"
         },
         {
           "text": "的",
@@ -598,8 +581,7 @@
           "text": "，"
         },
         {
-          "text": "才",
-          "unknown": true
+          "text": "才"
         },
         {
           "text": "是",
@@ -611,7 +593,11 @@
         },
         {
           "text": "通",
-          "unknown": true
+          "pinyin": "tōng",
+          "hanviet": "Thông",
+          "meaning_vi": "thông, thông suốt; (gọi điện) được",
+          "hsk": 4,
+          "word_id": "hsk4_743"
         },
         {
           "text": "向",
@@ -674,10 +660,7 @@
     "hsk4_591",
     "hsk4_232",
     "hsk4_115",
-    "hsk4_316",
-    "hsk3_109",
-    "hsk4_420",
-    "hsk4_507"
+    "hsk4_316"
   ],
   "quiz": [
     {

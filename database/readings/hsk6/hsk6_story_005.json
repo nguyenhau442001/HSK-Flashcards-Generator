@@ -36,7 +36,12 @@
           "word_id": "hsk5_523"
         },
         {
-          "text": "学"
+          "text": "学",
+          "pinyin": "xué",
+          "hanviet": "Học",
+          "meaning_vi": "học",
+          "hsk": 1,
+          "word_id": "hsk1_589"
         },
         {
           "text": "研究",
@@ -242,21 +247,28 @@
           "word_id": "hsk7_703"
         },
         {
-          "text": "感"
+          "text": "感",
+          "pinyin": "gǎn",
+          "hanviet": "Cảm",
+          "meaning_vi": "cảm giác (hậu tố: cảm…)",
+          "hsk": 4,
+          "word_id": "hsk4_224"
         },
         {
-          "text": "或"
+          "text": "或",
+          "pinyin": "huò",
+          "hanviet": "Hoặc",
+          "meaning_vi": "hoặc",
+          "hsk": 3,
+          "word_id": "hsk3_774"
         },
         {
-          "text": "过",
-          "pinyin": "guo",
-          "hanviet": "Quá",
-          "meaning_vi": "đã từng (trợ từ)",
-          "hsk": 2,
-          "word_id": "hsk2_36"
-        },
-        {
-          "text": "度"
+          "text": "过度",
+          "pinyin": "guòdù",
+          "hanviet": "Quá Độ",
+          "meaning_vi": "quá mức, thái quá",
+          "hsk": 5,
+          "word_id": "hsk5_454"
         },
         {
           "text": "自责",
@@ -267,16 +279,23 @@
           "word_id": "hsk7_5534"
         },
         {
-          "text": "时"
+          "text": "时",
+          "pinyin": "shí",
+          "hanviet": "Thời",
+          "meaning_vi": "thời gian (danh từ, số lượng)",
+          "hsk": 2,
+          "word_id": "hsk2_431"
         },
         {
           "text": "，"
         },
         {
-          "text": "认"
-        },
-        {
-          "text": "知"
+          "text": "认知",
+          "pinyin": "rènzhī",
+          "hanviet": "Nhận Tri",
+          "meaning_vi": "nhận thức",
+          "hsk": 6,
+          "word_id": "hsk6_1107"
         },
         {
           "text": "偏差",
@@ -287,10 +306,12 @@
           "word_id": "hsk6_1598"
         },
         {
-          "text": "常"
-        },
-        {
-          "text": "常"
+          "text": "常常",
+          "pinyin": "chángcháng",
+          "hanviet": "Thường Thường",
+          "meaning_vi": "thường thường, thường xuyên",
+          "hsk": 3,
+          "word_id": "hsk3_655"
         },
         {
           "text": "会",
@@ -325,7 +346,12 @@
           "word_id": "hsk4_265"
         },
         {
-          "text": "并"
+          "text": "并",
+          "pinyin": "bìng",
+          "hanviet": "Tinh",
+          "meaning_vi": "và, đồng thời; hoàn toàn (không)",
+          "hsk": 4,
+          "word_id": "hsk4_39"
         },
         {
           "text": "削弱",
@@ -344,7 +370,12 @@
           "word_id": "hsk4_590"
         },
         {
-          "text": "心"
+          "text": "心",
+          "pinyin": "xīn",
+          "hanviet": "Tâm",
+          "meaning_vi": "tim; lòng, tâm",
+          "hsk": 4,
+          "word_id": "hsk4_819"
         },
         {
           "text": "。"
@@ -376,7 +407,12 @@
           "word_id": "hsk7_4990"
         },
         {
-          "text": "识"
+          "text": "识",
+          "pinyin": "shí",
+          "hanviet": "Thức",
+          "meaning_vi": "nhận biết, biết chữ, hiểu biết",
+          "hsk": 6,
+          "word_id": "hsk6_1181"
         },
         {
           "text": "的",
@@ -387,10 +423,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "认"
-        },
-        {
-          "text": "知"
+          "text": "认知",
+          "pinyin": "rènzhī",
+          "hanviet": "Nhận Tri",
+          "meaning_vi": "nhận thức",
+          "hsk": 6,
+          "word_id": "hsk6_1107"
         },
         {
           "text": "重",
@@ -431,15 +469,12 @@
           "word_id": "hsk2_57"
         },
         {
-          "text": "学"
-        },
-        {
-          "text": "会",
-          "pinyin": "huì",
-          "hanviet": "Hội",
-          "meaning_vi": "biết, sẽ",
-          "hsk": 1,
-          "word_id": "hsk1_43"
+          "text": "学会",
+          "pinyin": "xuéhuì",
+          "hanviet": "Học Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 6,
+          "word_id": "hsk6_1489"
         },
         {
           "text": "识别",
@@ -466,7 +501,12 @@
           "word_id": "hsk6_1956"
         },
         {
-          "text": "并"
+          "text": "并",
+          "pinyin": "bìng",
+          "hanviet": "Tinh",
+          "meaning_vi": "và, đồng thời; hoàn toàn (không)",
+          "hsk": 4,
+          "word_id": "hsk4_39"
         },
         {
           "text": "用",
@@ -485,10 +525,12 @@
           "word_id": "hsk5_275"
         },
         {
-          "text": "理"
-        },
-        {
-          "text": "性"
+          "text": "理性",
+          "pinyin": "lǐxìng",
+          "hanviet": "Lý Tính",
+          "meaning_vi": "lý tính, lý trí",
+          "hsk": 6,
+          "word_id": "hsk6_834"
         },
         {
           "text": "的",
@@ -568,18 +610,20 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "自"
+          "text": "自我",
+          "pinyin": "zìwǒ",
+          "hanviet": "Tự Ngã",
+          "meaning_vi": "bản thân, tự mình, cái tôi",
+          "hsk": 6,
+          "word_id": "hsk6_1782"
         },
         {
-          "text": "我",
-          "pinyin": "wǒ",
-          "hanviet": "Ngã",
-          "meaning_vi": "tôi",
-          "hsk": 1,
-          "word_id": "hsk1_111"
-        },
-        {
-          "text": "并"
+          "text": "并",
+          "pinyin": "bìng",
+          "hanviet": "Tinh",
+          "meaning_vi": "và, đồng thời; hoàn toàn (không)",
+          "hsk": 4,
+          "word_id": "hsk4_39"
         },
         {
           "text": "不",
@@ -716,15 +760,12 @@
           "word_id": "hsk6_2427"
         },
         {
-          "text": "高",
-          "pinyin": "gāo",
-          "hanviet": "Cao",
-          "meaning_vi": "cao",
-          "hsk": 2,
-          "word_id": "hsk2_29"
-        },
-        {
-          "text": "度"
+          "text": "高度",
+          "pinyin": "gāodù",
+          "hanviet": "Cao Độ",
+          "meaning_vi": "độ cao; cao độ, rất",
+          "hsk": 5,
+          "word_id": "hsk5_388"
         },
         {
           "text": "的",
@@ -794,7 +835,12 @@
           "word_id": "hsk7_1193"
         },
         {
-          "text": "中"
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
         },
         {
           "text": "稳",
@@ -816,7 +862,12 @@
           "text": "舵"
         },
         {
-          "text": "盘"
+          "text": "盘",
+          "pinyin": "pán",
+          "hanviet": "Bàn",
+          "meaning_vi": "đĩa, mâm, ván (cờ)",
+          "hsk": 6,
+          "word_id": "hsk6_970"
         },
         {
           "text": "，"
@@ -830,15 +881,12 @@
           "word_id": "hsk4_46"
         },
         {
-          "text": "内",
-          "pinyin": "nèi",
-          "hanviet": "Nội",
-          "meaning_vi": "trong, nội",
+          "text": "内心",
+          "pinyin": "nèixīn",
+          "hanviet": "Nội Tâm",
+          "meaning_vi": "nội tâm, trong lòng",
           "hsk": 4,
-          "word_id": "hsk4_314"
-        },
-        {
-          "text": "心"
+          "word_id": "hsk4_530"
         },
         {
           "text": "平静",
@@ -857,10 +905,12 @@
           "word_id": "hsk4_103"
         },
         {
-          "text": "坚"
-        },
-        {
-          "text": "定"
+          "text": "坚定",
+          "pinyin": "jiāndìng",
+          "hanviet": "Kiên Định",
+          "meaning_vi": "kiên định, vững vàng",
+          "hsk": 6,
+          "word_id": "hsk6_643"
         },
         {
           "text": "的",

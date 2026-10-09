@@ -20,16 +20,36 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "量"
+          "text": "量",
+          "pinyin": "liáng",
+          "hanviet": "Lượng",
+          "meaning_vi": "đo",
+          "hsk": 4,
+          "word_id": "hsk4_472"
         },
         {
-          "text": "子"
+          "text": "子",
+          "pinyin": "zi",
+          "hanviet": "Tử",
+          "meaning_vi": "hậu tố danh từ (như 桌子, 椅子)",
+          "hsk": 3,
+          "word_id": "hsk3_1071"
         },
         {
-          "text": "力"
+          "text": "力",
+          "pinyin": "lì",
+          "hanviet": "Lực",
+          "meaning_vi": "sức, sức lực; lực",
+          "hsk": 5,
+          "word_id": "hsk5_704"
         },
         {
-          "text": "学"
+          "text": "学",
+          "pinyin": "xué",
+          "hanviet": "Học",
+          "meaning_vi": "học",
+          "hsk": 1,
+          "word_id": "hsk1_589"
         },
         {
           "text": "作为",
@@ -56,7 +76,12 @@
           "word_id": "hsk5_1147"
         },
         {
-          "text": "学"
+          "text": "学",
+          "pinyin": "xué",
+          "hanviet": "Học",
+          "meaning_vi": "học",
+          "hsk": 1,
+          "word_id": "hsk1_589"
         },
         {
           "text": "的",
@@ -116,7 +141,12 @@
           "word_id": "hsk6_2193"
         },
         {
-          "text": "第"
+          "text": "第",
+          "pinyin": "dì",
+          "hanviet": "Đệ",
+          "meaning_vi": "thứ (tiền tố chỉ số thứ tự)",
+          "hsk": 1,
+          "word_id": "hsk1_508"
         },
         {
           "text": "二",
@@ -143,10 +173,12 @@
           "word_id": "hsk4_480"
         },
         {
-          "text": "科"
-        },
-        {
-          "text": "技"
+          "text": "科技",
+          "pinyin": "kējì",
+          "hanviet": "Khoa Kỹ",
+          "meaning_vi": "khoa học kỹ thuật, công nghệ",
+          "hsk": 4,
+          "word_id": "hsk4_425"
         },
         {
           "text": "革命",
@@ -205,10 +237,20 @@
           "word_id": "hsk5_291"
         },
         {
-          "text": "量"
+          "text": "量",
+          "pinyin": "liáng",
+          "hanviet": "Lượng",
+          "meaning_vi": "đo",
+          "hsk": 4,
+          "word_id": "hsk4_472"
         },
         {
-          "text": "子"
+          "text": "子",
+          "pinyin": "zi",
+          "hanviet": "Tử",
+          "meaning_vi": "hậu tố danh từ (như 桌子, 椅子)",
+          "hsk": 3,
+          "word_id": "hsk3_1071"
         },
         {
           "text": "叠",
@@ -219,7 +261,12 @@
           "word_id": "hsk7_905"
         },
         {
-          "text": "加"
+          "text": "加",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "cộng, thêm",
+          "hsk": 3,
+          "word_id": "hsk3_783"
         },
         {
           "text": "与",
@@ -262,52 +309,55 @@
           "word_id": "hsk5_1147"
         },
         {
-          "text": "特"
-        },
-        {
-          "text": "性"
+          "text": "特性",
+          "pinyin": "tèxìng",
+          "hanviet": "Đặc Tính",
+          "meaning_vi": "đặc tính",
+          "hsk": 6,
+          "word_id": "hsk6_1279"
         },
         {
           "text": "，"
         },
         {
-          "text": "量"
-        },
-        {
-          "text": "子"
-        },
-        {
-          "text": "计算",
-          "pinyin": "jìsuàn",
-          "hanviet": "Kế Toán",
-          "meaning_vi": "tính toán",
-          "hsk": 5,
-          "word_id": "hsk5_870"
-        },
-        {
-          "text": "机"
-        },
-        {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
-          "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
-        },
-        {
-          "text": "够",
-          "pinyin": "gòu",
-          "hanviet": "Cú",
-          "meaning_vi": "đủ",
+          "text": "量",
+          "pinyin": "liáng",
+          "hanviet": "Lượng",
+          "meaning_vi": "đo",
           "hsk": 4,
-          "word_id": "hsk4_145"
+          "word_id": "hsk4_472"
         },
         {
-          "text": "展"
+          "text": "子",
+          "pinyin": "zi",
+          "hanviet": "Tử",
+          "meaning_vi": "hậu tố danh từ (như 桌子, 椅子)",
+          "hsk": 3,
+          "word_id": "hsk3_1071"
         },
         {
-          "text": "现"
+          "text": "计算机",
+          "pinyin": "jìsuànjī",
+          "hanviet": "Kế Toán Cơ",
+          "meaning_vi": "máy tính",
+          "hsk": 5,
+          "word_id": "hsk5_548"
+        },
+        {
+          "text": "能够",
+          "pinyin": "nénggòu",
+          "hanviet": "Năng Cú",
+          "meaning_vi": "có thể",
+          "hsk": 4,
+          "word_id": "hsk4_532"
+        },
+        {
+          "text": "展现",
+          "pinyin": "zhǎnxiàn",
+          "hanviet": "Triển Hiện",
+          "meaning_vi": "hiển thị",
+          "hsk": 5,
+          "word_id": "hsk5_1467"
         },
         {
           "text": "出",
@@ -342,15 +392,12 @@
           "word_id": "hsk5_687"
         },
         {
-          "text": "计算",
-          "pinyin": "jìsuàn",
-          "hanviet": "Kế Toán",
-          "meaning_vi": "tính toán",
+          "text": "计算机",
+          "pinyin": "jìsuànjī",
+          "hanviet": "Kế Toán Cơ",
+          "meaning_vi": "máy tính",
           "hsk": 5,
-          "word_id": "hsk5_870"
-        },
-        {
-          "text": "机"
+          "word_id": "hsk5_548"
         },
         {
           "text": "的",
@@ -369,13 +416,28 @@
           "word_id": "hsk7_5318"
         },
         {
-          "text": "级"
+          "text": "级",
+          "pinyin": "jí",
+          "hanviet": "Cấp",
+          "meaning_vi": "cấp, bậc, mức độ",
+          "hsk": 5,
+          "word_id": "hsk5_526"
         },
         {
-          "text": "算"
+          "text": "算",
+          "pinyin": "suàn",
+          "hanviet": "Toán",
+          "meaning_vi": "tính, đếm; coi như",
+          "hsk": 4,
+          "word_id": "hsk4_708"
         },
         {
-          "text": "力"
+          "text": "力",
+          "pinyin": "lì",
+          "hanviet": "Lực",
+          "meaning_vi": "sức, sức lực; lực",
+          "hsk": 5,
+          "word_id": "hsk5_704"
         },
         {
           "text": "。"
@@ -399,15 +461,12 @@
           "word_id": "hsk1_139"
         },
         {
-          "text": "药",
-          "pinyin": "yào",
-          "hanviet": "Dược",
-          "meaning_vi": "thuốc",
-          "hsk": 2,
-          "word_id": "hsk2_125"
-        },
-        {
-          "text": "物"
+          "text": "药物",
+          "pinyin": "yàowù",
+          "hanviet": "Dược Vật",
+          "meaning_vi": "thuốc, dược chất",
+          "hsk": 5,
+          "word_id": "hsk5_1341"
         },
         {
           "text": "分",
@@ -418,18 +477,20 @@
           "word_id": "hsk3_69"
         },
         {
-          "text": "子"
+          "text": "子",
+          "pinyin": "zi",
+          "hanviet": "Tử",
+          "meaning_vi": "hậu tố danh từ (như 桌子, 椅子)",
+          "hsk": 3,
+          "word_id": "hsk3_1071"
         },
         {
-          "text": "模"
-        },
-        {
-          "text": "拟",
-          "pinyin": "nǐ",
-          "hanviet": "Nghĩ",
-          "meaning_vi": "dự định; soạn thảo; phác thảo",
-          "hsk": 7,
-          "word_id": "hsk7_2947"
+          "text": "模拟",
+          "pinyin": "mónǐ",
+          "hanviet": "Mô Nghĩ",
+          "meaning_vi": "mô phỏng",
+          "hsk": 6,
+          "word_id": "hsk6_932"
         },
         {
           "text": "、"
@@ -451,15 +512,12 @@
           "word_id": "hsk4_252"
         },
         {
-          "text": "研"
-        },
-        {
-          "text": "发",
-          "pinyin": "fā",
-          "hanviet": "Phát",
-          "meaning_vi": "phát ra, gửi",
-          "hsk": 3,
-          "word_id": "hsk3_63"
+          "text": "研发",
+          "pinyin": "yánfā",
+          "hanviet": "Nghiên Phát",
+          "meaning_vi": "nghiên cứu và phát triển (R&D)",
+          "hsk": 5,
+          "word_id": "hsk5_1327"
         },
         {
           "text": "以及",
@@ -486,10 +544,12 @@
           "word_id": "hsk6_1672"
         },
         {
-          "text": "预"
-        },
-        {
-          "text": "测"
+          "text": "预测",
+          "pinyin": "yùcè",
+          "hanviet": "Dự Trắc",
+          "meaning_vi": "dự đoán, dự báo",
+          "hsk": 5,
+          "word_id": "hsk5_1422"
         },
         {
           "text": "等",
@@ -519,22 +579,44 @@
           "text": "，"
         },
         {
-          "text": "量"
+          "text": "量",
+          "pinyin": "liáng",
+          "hanviet": "Lượng",
+          "meaning_vi": "đo",
+          "hsk": 4,
+          "word_id": "hsk4_472"
         },
         {
-          "text": "子"
+          "text": "子",
+          "pinyin": "zi",
+          "hanviet": "Tử",
+          "meaning_vi": "hậu tố danh từ (như 桌子, 椅子)",
+          "hsk": 3,
+          "word_id": "hsk3_1071"
         },
         {
-          "text": "算"
+          "text": "算",
+          "pinyin": "suàn",
+          "hanviet": "Toán",
+          "meaning_vi": "tính, đếm; coi như",
+          "hsk": 4,
+          "word_id": "hsk4_708"
         },
         {
-          "text": "力"
+          "text": "力",
+          "pinyin": "lì",
+          "hanviet": "Lực",
+          "meaning_vi": "sức, sức lực; lực",
+          "hsk": 5,
+          "word_id": "hsk5_704"
         },
         {
-          "text": "展"
-        },
-        {
-          "text": "现"
+          "text": "展现",
+          "pinyin": "zhǎnxiàn",
+          "hanviet": "Triển Hiện",
+          "meaning_vi": "hiển thị",
+          "hsk": 5,
+          "word_id": "hsk5_1467"
         },
         {
           "text": "了",
@@ -553,13 +635,23 @@
           "word_id": "hsk4_456"
         },
         {
-          "text": "可"
+          "text": "可",
+          "pinyin": "kě",
+          "hanviet": "Khả",
+          "meaning_vi": "nhưng; thật là (nhấn mạnh)",
+          "hsk": 3,
+          "word_id": "hsk3_814"
         },
         {
           "text": "估"
         },
         {
-          "text": "量"
+          "text": "量",
+          "pinyin": "liáng",
+          "hanviet": "Lượng",
+          "meaning_vi": "đo",
+          "hsk": 4,
+          "word_id": "hsk4_472"
         },
         {
           "text": "的",
@@ -607,7 +699,12 @@
           "word_id": "hsk4_535"
         },
         {
-          "text": "此"
+          "text": "此",
+          "pinyin": "cǐ",
+          "hanviet": "Thử",
+          "meaning_vi": "này, đây",
+          "hsk": 4,
+          "word_id": "hsk4_99"
         },
         {
           "text": "同时",
@@ -629,13 +726,28 @@
           "word_id": "hsk6_1121"
         },
         {
-          "text": "量"
+          "text": "量",
+          "pinyin": "liáng",
+          "hanviet": "Lượng",
+          "meaning_vi": "đo",
+          "hsk": 4,
+          "word_id": "hsk4_472"
         },
         {
-          "text": "子"
+          "text": "子",
+          "pinyin": "zi",
+          "hanviet": "Tử",
+          "meaning_vi": "hậu tố danh từ (như 桌子, 椅子)",
+          "hsk": 3,
+          "word_id": "hsk3_1071"
         },
         {
-          "text": "密"
+          "text": "密",
+          "pinyin": "mì",
+          "hanviet": "Mật",
+          "meaning_vi": "dày đặc, kín, khít",
+          "hsk": 6,
+          "word_id": "hsk6_902"
         },
         {
           "text": "钥"
@@ -665,10 +777,12 @@
           "word_id": "hsk6_65"
         },
         {
-          "text": "通"
-        },
-        {
-          "text": "信"
+          "text": "通信",
+          "pinyin": "tōngxìn",
+          "hanviet": "Thông Tín",
+          "meaning_vi": "thông tin liên lạc, viễn thông",
+          "hsk": 6,
+          "word_id": "hsk6_1306"
         },
         {
           "text": "网络",
@@ -682,20 +796,12 @@
           "text": "，"
         },
         {
-          "text": "能",
-          "pinyin": "néng",
-          "hanviet": "Năng",
+          "text": "能够",
+          "pinyin": "nénggòu",
+          "hanviet": "Năng Cú",
           "meaning_vi": "có thể",
-          "hsk": 1,
-          "word_id": "hsk1_72"
-        },
-        {
-          "text": "够",
-          "pinyin": "gòu",
-          "hanviet": "Cú",
-          "meaning_vi": "đủ",
           "hsk": 4,
-          "word_id": "hsk4_145"
+          "word_id": "hsk4_532"
         },
         {
           "text": "为",
@@ -749,15 +855,12 @@
           "word_id": "hsk7_5411"
         },
         {
-          "text": "无",
-          "pinyin": "wú",
-          "hanviet": "Vô",
-          "meaning_vi": "không có",
+          "text": "无法",
+          "pinyin": "wúfǎ",
+          "hanviet": "Vô Pháp",
+          "meaning_vi": "không thể, không có cách nào",
           "hsk": 4,
-          "word_id": "hsk4_456"
-        },
-        {
-          "text": "法"
+          "word_id": "hsk4_782"
         },
         {
           "text": "破",
@@ -784,16 +887,23 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "坚"
-        },
-        {
-          "text": "固"
+          "text": "坚固",
+          "pinyin": "jiāngù",
+          "hanviet": "Kiên Cố",
+          "meaning_vi": "rắn",
+          "hsk": 6,
+          "word_id": "hsk6_645"
         },
         {
           "text": "盾"
         },
         {
-          "text": "牌"
+          "text": "牌",
+          "pinyin": "pái",
+          "hanviet": "Bài",
+          "meaning_vi": "biển, bảng; nhãn hiệu; bài (chơi)",
+          "hsk": 4,
+          "word_id": "hsk4_544"
         },
         {
           "text": "。"
@@ -817,16 +927,28 @@
           "word_id": "hsk6_1576"
         },
         {
-          "text": "量"
+          "text": "量",
+          "pinyin": "liáng",
+          "hanviet": "Lượng",
+          "meaning_vi": "đo",
+          "hsk": 4,
+          "word_id": "hsk4_472"
         },
         {
-          "text": "子"
+          "text": "子",
+          "pinyin": "zi",
+          "hanviet": "Tử",
+          "meaning_vi": "hậu tố danh từ (như 桌子, 椅子)",
+          "hsk": 3,
+          "word_id": "hsk3_1071"
         },
         {
-          "text": "科"
-        },
-        {
-          "text": "技"
+          "text": "科技",
+          "pinyin": "kējì",
+          "hanviet": "Khoa Kỹ",
+          "meaning_vi": "khoa học kỹ thuật, công nghệ",
+          "hsk": 4,
+          "word_id": "hsk4_425"
         },
         {
           "text": "的",
@@ -837,10 +959,12 @@
           "word_id": "hsk1_15"
         },
         {
-          "text": "科"
-        },
-        {
-          "text": "研"
+          "text": "科研",
+          "pinyin": "kēyán",
+          "hanviet": "Khoa Nghiên",
+          "meaning_vi": "nghiên cứu khoa học",
+          "hsk": 5,
+          "word_id": "hsk5_663"
         },
         {
           "text": "高峰",
@@ -854,7 +978,12 @@
           "text": "，"
         },
         {
-          "text": "将"
+          "text": "将",
+          "pinyin": "jiāng",
+          "hanviet": "Tương",
+          "meaning_vi": "sẽ; đem, lấy (như 把)",
+          "hsk": 4,
+          "word_id": "hsk4_356"
         },
         {
           "text": "为人",
@@ -865,7 +994,12 @@
           "word_id": "hsk7_4242"
         },
         {
-          "text": "类"
+          "text": "类",
+          "pinyin": "lèi",
+          "hanviet": "Loại",
+          "meaning_vi": "loại, loài; chủng loại",
+          "hsk": 5,
+          "word_id": "hsk5_693"
         },
         {
           "text": "探索",
@@ -876,7 +1010,12 @@
           "word_id": "hsk6_1993"
         },
         {
-          "text": "未"
+          "text": "未",
+          "pinyin": "wèi",
+          "hanviet": "Vị",
+          "meaning_vi": "chưa, không",
+          "hsk": 6,
+          "word_id": "hsk6_1377"
         },
         {
           "text": "知"
@@ -906,10 +1045,12 @@
           "word_id": "hsk7_4166"
         },
         {
-          "text": "认"
-        },
-        {
-          "text": "知"
+          "text": "认知",
+          "pinyin": "rènzhī",
+          "hanviet": "Nhận Tri",
+          "meaning_vi": "nhận thức",
+          "hsk": 6,
+          "word_id": "hsk6_1107"
         },
         {
           "text": "边界",
@@ -928,18 +1069,20 @@
           "word_id": "hsk4_431"
         },
         {
-          "text": "强"
+          "text": "强",
+          "pinyin": "qiáng",
+          "hanviet": "Cường",
+          "meaning_vi": "mạnh, giỏi",
+          "hsk": 4,
+          "word_id": "hsk4_579"
         },
         {
-          "text": "有",
-          "pinyin": "yǒu",
-          "hanviet": "Hữu",
-          "meaning_vi": "có",
-          "hsk": 1,
-          "word_id": "hsk1_136"
-        },
-        {
-          "text": "力"
+          "text": "有力",
+          "pinyin": "yǒulì",
+          "hanviet": "Hữu Lực",
+          "meaning_vi": "mạnh mẽ, đắc lực, có lực",
+          "hsk": 5,
+          "word_id": "hsk5_1410"
         },
         {
           "text": "的",
@@ -958,15 +1101,12 @@
           "word_id": "hsk7_845"
         },
         {
-          "text": "支",
-          "pinyin": "zhī",
-          "hanviet": "Chi",
-          "meaning_vi": "nhánh, cây (lượng từ)",
-          "hsk": 5,
-          "word_id": "hsk5_600"
-        },
-        {
-          "text": "撑"
+          "text": "支撑",
+          "pinyin": "zhīchēng",
+          "hanviet": "Chi Chống",
+          "meaning_vi": "chống đỡ, trụ vững",
+          "hsk": 6,
+          "word_id": "hsk6_1696"
         },
         {
           "text": "。"
