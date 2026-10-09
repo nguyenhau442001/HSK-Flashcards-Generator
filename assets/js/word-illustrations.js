@@ -2142,6 +2142,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level3/分.svg",
     "caption": "phút; điểm; phân (đơn vị tiền)"
   },
+  "附近": {
+    "file": "附近.svg",
+    "src": "images/HSK_2.0/level3/附近.svg",
+    "caption": "gần đây, lân cận"
+  },
+  "复习": {
+    "file": "复习.svg",
+    "src": "images/HSK_2.0/level3/复习.svg",
+    "caption": "ôn tập"
+  },
+  "干净": {
+    "file": "干净.svg",
+    "src": "images/HSK_2.0/level3/干净.svg",
+    "caption": "sạch sẽ"
+  },
+  "感兴趣": {
+    "file": "感兴趣.svg",
+    "src": "images/HSK_2.0/level3/感兴趣.svg",
+    "caption": "có hứng thú"
+  },
+  "感冒": {
+    "file": "感冒.svg",
+    "src": "images/HSK_2.0/level3/感冒.svg",
+    "caption": "bị cảm"
+  },
+  "刚才": {
+    "file": "刚才.svg",
+    "src": "images/HSK_2.0/level3/刚才.svg",
+    "caption": "vừa nãy"
+  },
+  "个子": {
+    "file": "个子.svg",
+    "src": "images/HSK_2.0/level3/个子.svg",
+    "caption": "chiều cao, vóc người"
+  },
+  "跟": {
+    "file": "跟.svg",
+    "src": "images/HSK_2.0/level3/跟.svg",
+    "caption": "cùng với, theo"
+  },
+  "根据": {
+    "file": "根据.svg",
+    "src": "images/HSK_2.0/level3/根据.svg",
+    "caption": "căn cứ, dựa theo"
+  },
+  "更": {
+    "file": "更.svg",
+    "src": "images/HSK_2.0/level3/更.svg",
+    "caption": "càng, hơn"
+  },
   "南": {
     "file": "南.svg",
     "src": "images/HSK_2.0/level3/南.svg",

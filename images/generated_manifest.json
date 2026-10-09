@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T19:47:00.501217",
-  "total_unique_words_with_illustrations": 1995,
-  "total_flat_svg_files": 1995,
+  "generated_at": "2026-10-09T19:49:05.728630",
+  "total_unique_words_with_illustrations": 2005,
+  "total_flat_svg_files": 2005,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -16,8 +16,8 @@
       },
       "level3": {
         "total": 300,
-        "with_svg": 202,
-        "pct": "67.3%"
+        "with_svg": 212,
+        "pct": "70.7%"
       },
       "level4": {
         "total": 600,
@@ -43,13 +43,13 @@
       },
       "level2": {
         "total": 200,
-        "with_svg": 91,
-        "pct": "45.5%"
+        "with_svg": 93,
+        "pct": "46.5%"
       },
       "level3": {
         "total": 500,
-        "with_svg": 223,
-        "pct": "44.6%"
+        "with_svg": 231,
+        "pct": "46.2%"
       },
       "level4": {
         "total": 1000,
@@ -6655,6 +6655,186 @@
       "src": "images/HSK_2.0/level3/分.svg",
       "alt_srcs": [
         "images/HSK_3.0/level1/分.svg"
+      ]
+    },
+    "附近": {
+      "hanzi": "附近",
+      "pinyin": "fùjìn",
+      "meaning": "gần đây, lân cận",
+      "example_zh": "我家<u>附近</u>有个公园。",
+      "example_vi": "<u>Gần</u> nhà tôi có một công viên.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "附近.svg",
+      "src": "images/HSK_2.0/level3/附近.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/附近.svg"
+      ]
+    },
+    "复习": {
+      "hanzi": "复习",
+      "pinyin": "fùxí",
+      "meaning": "ôn tập",
+      "example_zh": "考试前要<u>复习</u>。",
+      "example_vi": "Trước khi thi phải <u>ôn tập</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "复习.svg",
+      "src": "images/HSK_2.0/level3/复习.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/复习.svg"
+      ]
+    },
+    "干净": {
+      "hanzi": "干净",
+      "pinyin": "gānjìng",
+      "meaning": "sạch sẽ",
+      "example_zh": "房间很<u>干净</u>。",
+      "example_vi": "Căn phòng rất <u>sạch sẽ</u>.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "干净.svg",
+      "src": "images/HSK_2.0/level3/干净.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/干净.svg"
+      ]
+    },
+    "感兴趣": {
+      "hanzi": "感兴趣",
+      "pinyin": "gǎnxìngqù",
+      "meaning": "có hứng thú",
+      "example_zh": "我对音乐很<u>感兴趣</u>。",
+      "example_vi": "Tôi rất <u>có hứng thú</u> với âm nhạc.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "感兴趣.svg",
+      "src": "images/HSK_2.0/level3/感兴趣.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/感兴趣.svg"
+      ]
+    },
+    "感冒": {
+      "hanzi": "感冒",
+      "pinyin": "gǎnmào",
+      "meaning": "bị cảm",
+      "example_zh": "他<u>感冒</u>了，没去上班。",
+      "example_vi": "Anh ấy <u>bị cảm</u>, không đi làm.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "感冒.svg",
+      "src": "images/HSK_2.0/level3/感冒.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/感冒.svg"
+      ]
+    },
+    "刚才": {
+      "hanzi": "刚才",
+      "pinyin": "gāngcái",
+      "meaning": "vừa nãy",
+      "example_zh": "他<u>刚才</u>还在这里。",
+      "example_vi": "Anh ấy <u>vừa nãy</u> vẫn còn ở đây.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "刚才.svg",
+      "src": "images/HSK_2.0/level3/刚才.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/刚才.svg"
+      ]
+    },
+    "个子": {
+      "hanzi": "个子",
+      "pinyin": "gèzi",
+      "meaning": "chiều cao, vóc người",
+      "example_zh": "他的<u>个子</u>很高。",
+      "example_vi": "Anh ấy có <u>chiều cao</u> rất cao.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "个子.svg",
+      "src": "images/HSK_2.0/level3/个子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/个子.svg"
+      ]
+    },
+    "跟": {
+      "hanzi": "跟",
+      "pinyin": "gēn",
+      "meaning": "cùng với, theo",
+      "example_zh": "我<u>跟</u>他一起去。",
+      "example_vi": "Tôi <u>cùng với</u> anh ấy đi.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "跟.svg",
+      "src": "images/HSK_2.0/level3/跟.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/跟.svg"
+      ]
+    },
+    "根据": {
+      "hanzi": "根据",
+      "pinyin": "gēnjù",
+      "meaning": "căn cứ, dựa theo",
+      "example_zh": "<u>根据</u>天气预报，明天会下雨。",
+      "example_vi": "<u>Căn cứ</u> theo dự báo thời tiết, ngày mai sẽ mưa.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "根据.svg",
+      "src": "images/HSK_2.0/level3/根据.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/根据.svg"
+      ]
+    },
+    "更": {
+      "hanzi": "更",
+      "pinyin": "gèng",
+      "meaning": "càng, hơn",
+      "example_zh": "今天比昨天<u>更</u>冷。",
+      "example_vi": "Hôm nay lạnh <u>hơn</u> hôm qua.",
+      "levels_hsk2": [
+        "level3"
+      ],
+      "levels_hsk3": [
+        "level3"
+      ],
+      "file": "更.svg",
+      "src": "images/HSK_2.0/level3/更.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level3/更.svg"
       ]
     },
     "南": {
