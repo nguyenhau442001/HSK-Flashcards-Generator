@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T21:25:04.565375",
-  "total_unique_words_with_illustrations": 2453,
-  "total_flat_svg_files": 2453,
+  "generated_at": "2026-10-09T21:27:08.789344",
+  "total_unique_words_with_illustrations": 2463,
+  "total_flat_svg_files": 2463,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1254,
-        "pct": "96.5%"
+        "with_svg": 1264,
+        "pct": "97.2%"
       },
       "level6": {
         "total": 2500,
@@ -58,13 +58,13 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 844,
-        "pct": "52.8%"
+        "with_svg": 852,
+        "pct": "53.2%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 236,
-        "pct": "13.1%"
+        "with_svg": 238,
+        "pct": "13.2%"
       },
       "level7": {
         "total": 5600,
@@ -45268,6 +45268,186 @@
         "images/HSK_3.0/level7/执照.svg",
         "images/HSK_3.0/level8/执照.svg",
         "images/HSK_3.0/level9/执照.svg"
+      ]
+    },
+    "指挥": {
+      "hanzi": "指挥",
+      "pinyin": "zhǐhuī",
+      "meaning": "chỉ huy",
+      "example_zh": "他<u>指挥</u>整个项目。",
+      "example_vi": "Anh ấy <u>chỉ huy</u> toàn bộ dự án.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "指挥.svg",
+      "src": "images/HSK_2.0/level5/指挥.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/指挥.svg"
+      ]
+    },
+    "制度": {
+      "hanzi": "制度",
+      "pinyin": "zhìdù",
+      "meaning": "chế độ, thể chế",
+      "example_zh": "公司有自己的<u>制度</u>。",
+      "example_vi": "Công ty có <u>chế độ</u> riêng của mình.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "制度.svg",
+      "src": "images/HSK_2.0/level5/制度.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/制度.svg"
+      ]
+    },
+    "制作": {
+      "hanzi": "制作",
+      "pinyin": "zhìzuò",
+      "meaning": "chế tác, làm ra",
+      "example_zh": "工厂在<u>制作</u>家具。",
+      "example_vi": "Nhà máy đang <u>chế tác</u> đồ nội thất.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "制作.svg",
+      "src": "images/HSK_2.0/level5/制作.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/制作.svg"
+      ]
+    },
+    "至今": {
+      "hanzi": "至今",
+      "pinyin": "zhìjīn",
+      "meaning": "đến nay",
+      "example_zh": "<u>至今</u>他还没有回信。",
+      "example_vi": "<u>Đến nay</u> anh ấy vẫn chưa hồi âm.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "至今.svg",
+      "src": "images/HSK_2.0/level5/至今.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/至今.svg"
+      ]
+    },
+    "至于": {
+      "hanzi": "至于",
+      "pinyin": "zhìyú",
+      "meaning": "về việc, đối với",
+      "example_zh": "<u>至于</u>这个问题，我们以后再谈。",
+      "example_vi": "<u>Về việc</u> này, chúng ta sẽ nói sau.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "至于.svg",
+      "src": "images/HSK_2.0/level5/至于.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/至于.svg"
+      ]
+    },
+    "治疗": {
+      "hanzi": "治疗",
+      "pinyin": "zhìliáo",
+      "meaning": "điều trị",
+      "example_zh": "医生正在<u>治疗</u>病人。",
+      "example_vi": "Bác sĩ đang <u>điều trị</u> bệnh nhân.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "治疗.svg",
+      "src": "images/HSK_2.0/level5/治疗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/治疗.svg"
+      ]
+    },
+    "志愿者": {
+      "hanzi": "志愿者",
+      "pinyin": "zhìyuànzhě",
+      "meaning": "người tự nguyện, tình nguyện viên",
+      "example_zh": "他是一名<u>志愿者</u>。",
+      "example_vi": "Anh ấy là một người <u>tình nguyện viên</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "志愿者.svg",
+      "src": "images/HSK_2.0/level5/志愿者.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/志愿者.svg"
+      ]
+    },
+    "中心": {
+      "hanzi": "中心",
+      "pinyin": "zhōngxīn",
+      "meaning": "trung tâm",
+      "example_zh": "这是城市的<u>中心</u>。",
+      "example_vi": "Đây là <u>trung tâm</u> của thành phố.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "中心.svg",
+      "src": "images/HSK_2.0/level5/中心.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/中心.svg"
+      ]
+    },
+    "种类": {
+      "hanzi": "种类",
+      "pinyin": "zhǒnglèi",
+      "meaning": "chủng loại",
+      "example_zh": "这家店有很多<u>种类</u>的商品。",
+      "example_vi": "Cửa hàng này có nhiều <u>chủng loại</u> hàng hóa.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "种类.svg",
+      "src": "images/HSK_2.0/level5/种类.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/种类.svg"
+      ]
+    },
+    "重大": {
+      "hanzi": "重大",
+      "pinyin": "zhòngdà",
+      "meaning": "to lớn, trọng đại",
+      "example_zh": "这是一个<u>重大</u>的决定。",
+      "example_vi": "Đây là một quyết định <u>trọng đại</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "重大.svg",
+      "src": "images/HSK_2.0/level5/重大.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/重大.svg"
       ]
     }
   }

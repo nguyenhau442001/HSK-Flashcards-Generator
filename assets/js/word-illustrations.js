@@ -12566,6 +12566,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "执照.svg",
     "src": "images/HSK_2.0/level5/执照.svg",
     "caption": "giấy phép"
+  },
+  "指挥": {
+    "file": "指挥.svg",
+    "src": "images/HSK_2.0/level5/指挥.svg",
+    "caption": "chỉ huy"
+  },
+  "制度": {
+    "file": "制度.svg",
+    "src": "images/HSK_2.0/level5/制度.svg",
+    "caption": "chế độ, thể chế"
+  },
+  "制作": {
+    "file": "制作.svg",
+    "src": "images/HSK_2.0/level5/制作.svg",
+    "caption": "chế tác, làm ra"
+  },
+  "至今": {
+    "file": "至今.svg",
+    "src": "images/HSK_2.0/level5/至今.svg",
+    "caption": "đến nay"
+  },
+  "至于": {
+    "file": "至于.svg",
+    "src": "images/HSK_2.0/level5/至于.svg",
+    "caption": "về việc, đối với"
+  },
+  "治疗": {
+    "file": "治疗.svg",
+    "src": "images/HSK_2.0/level5/治疗.svg",
+    "caption": "điều trị"
+  },
+  "志愿者": {
+    "file": "志愿者.svg",
+    "src": "images/HSK_2.0/level5/志愿者.svg",
+    "caption": "người tự nguyện, tình nguyện viên"
+  },
+  "中心": {
+    "file": "中心.svg",
+    "src": "images/HSK_2.0/level5/中心.svg",
+    "caption": "trung tâm"
+  },
+  "种类": {
+    "file": "种类.svg",
+    "src": "images/HSK_2.0/level5/种类.svg",
+    "caption": "chủng loại"
+  },
+  "重大": {
+    "file": "重大.svg",
+    "src": "images/HSK_2.0/level5/重大.svg",
+    "caption": "to lớn, trọng đại"
   }
 };
 
