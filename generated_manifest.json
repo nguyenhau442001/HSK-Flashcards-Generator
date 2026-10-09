@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:23:38.081965",
-  "total_unique_words_with_illustrations": 2163,
-  "total_flat_svg_files": 2163,
+  "generated_at": "2026-10-09T20:25:38.048681",
+  "total_unique_words_with_illustrations": 2173,
+  "total_flat_svg_files": 2173,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 964,
-        "pct": "74.2%"
+        "with_svg": 974,
+        "pct": "74.9%"
       },
       "level6": {
         "total": 2500,
@@ -53,32 +53,32 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 581,
-        "pct": "58.1%"
+        "with_svg": 582,
+        "pct": "58.2%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 651,
-        "pct": "40.7%"
+        "with_svg": 657,
+        "pct": "41.1%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 184,
-        "pct": "10.2%"
+        "with_svg": 186,
+        "pct": "10.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 78,
+        "with_svg": 79,
         "pct": "1.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 78,
+        "with_svg": 79,
         "pct": "1.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 78,
+        "with_svg": 79,
         "pct": "1.4%"
       }
     }
@@ -39868,6 +39868,172 @@
         "images/HSK_3.0/level4/馒头.svg"
       ]
     },
+    "毛病": {
+      "hanzi": "毛病",
+      "pinyin": "máobìng",
+      "meaning": "lỗi, thói xấu, trục trặc",
+      "example_zh": "这台电脑有点<u>毛病</u>。",
+      "example_vi": "Cái máy tính này có chút <u>trục trặc</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "毛病.svg",
+      "src": "images/HSK_2.0/level5/毛病.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/毛病.svg"
+      ]
+    },
+    "矛盾": {
+      "hanzi": "矛盾",
+      "pinyin": "máodùn",
+      "meaning": "mâu thuẫn",
+      "example_zh": "他们之间有<u>矛盾</u>。",
+      "example_vi": "Giữa họ có <u>mâu thuẫn</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "矛盾.svg",
+      "src": "images/HSK_2.0/level5/矛盾.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/矛盾.svg"
+      ]
+    },
+    "贸易": {
+      "hanzi": "贸易",
+      "pinyin": "màoyì",
+      "meaning": "mậu dịch, thương mại",
+      "example_zh": "两国进行<u>贸易</u>合作。",
+      "example_vi": "Hai nước hợp tác <u>mậu dịch</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "贸易.svg",
+      "src": "images/HSK_2.0/level5/贸易.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/贸易.svg"
+      ]
+    },
+    "媒体": {
+      "hanzi": "媒体",
+      "pinyin": "méitǐ",
+      "meaning": "truyền thông, media",
+      "example_zh": "这是一个<u>媒体</u>报道。",
+      "example_vi": "Đây là một bản tin <u>truyền thông</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "媒体.svg",
+      "src": "images/HSK_2.0/level5/媒体.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/媒体.svg"
+      ]
+    },
+    "煤炭": {
+      "hanzi": "煤炭",
+      "pinyin": "méitàn",
+      "meaning": "than đá",
+      "example_zh": "这个地区有<u>煤炭</u>资源。",
+      "example_vi": "Khu vực này có nguồn tài nguyên <u>than đá</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "煤炭.svg",
+      "src": "images/HSK_2.0/level5/煤炭.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/煤炭.svg",
+        "images/HSK_3.0/level8/煤炭.svg",
+        "images/HSK_3.0/level9/煤炭.svg"
+      ]
+    },
+    "魅力": {
+      "hanzi": "魅力",
+      "pinyin": "mèilì",
+      "meaning": "sức hấp dẫn, sự quyến rũ",
+      "example_zh": "她很有<u>魅力</u>。",
+      "example_vi": "Cô ấy rất có <u>sức hấp dẫn</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "魅力.svg",
+      "src": "images/HSK_2.0/level5/魅力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/魅力.svg"
+      ]
+    },
+    "梦想": {
+      "hanzi": "梦想",
+      "pinyin": "mèngxiǎng",
+      "meaning": "ước mơ",
+      "example_zh": "他实现了自己的<u>梦想</u>。",
+      "example_vi": "Anh ấy đã thực hiện được <u>ước mơ</u> của mình.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "梦想.svg",
+      "src": "images/HSK_2.0/level5/梦想.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/梦想.svg"
+      ]
+    },
+    "蜜蜂": {
+      "hanzi": "蜜蜂",
+      "pinyin": "mìfēng",
+      "meaning": "con ong",
+      "example_zh": "花园里有<u>蜜蜂</u>。",
+      "example_vi": "Tr<u>ong</u> vườn hoa có ong.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "蜜蜂.svg",
+      "src": "images/HSK_2.0/level5/蜜蜂.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/蜜蜂.svg"
+      ]
+    },
+    "密切": {
+      "hanzi": "密切",
+      "pinyin": "mìqiè",
+      "meaning": "mật thiết, chặt chẽ",
+      "example_zh": "我们的关系很<u>密切</u>。",
+      "example_vi": "Quan hệ của chúng tôi rất <u>mật thiết</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "密切.svg",
+      "src": "images/HSK_2.0/level5/密切.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/密切.svg"
+      ]
+    },
     "秘书": {
       "hanzi": "秘书",
       "pinyin": "mìshū",
@@ -39884,6 +40050,24 @@
       "src": "images/HSK_2.0/level5/秘书.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/秘书.svg"
+      ]
+    },
+    "面积": {
+      "hanzi": "面积",
+      "pinyin": "miànjī",
+      "meaning": "diện tích",
+      "example_zh": "这个房间的<u>面积</u>很大。",
+      "example_vi": "<u>Diện tích</u> của căn phòng này rất lớn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "面积.svg",
+      "src": "images/HSK_2.0/level5/面积.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/面积.svg"
       ]
     },
     "批准": {

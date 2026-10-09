@@ -11087,10 +11087,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/馒头.svg",
     "caption": "bánh bao (không nhân)"
   },
+  "毛病": {
+    "file": "毛病.svg",
+    "src": "images/HSK_2.0/level5/毛病.svg",
+    "caption": "lỗi, thói xấu, trục trặc"
+  },
+  "矛盾": {
+    "file": "矛盾.svg",
+    "src": "images/HSK_2.0/level5/矛盾.svg",
+    "caption": "mâu thuẫn"
+  },
+  "贸易": {
+    "file": "贸易.svg",
+    "src": "images/HSK_2.0/level5/贸易.svg",
+    "caption": "mậu dịch, thương mại"
+  },
+  "媒体": {
+    "file": "媒体.svg",
+    "src": "images/HSK_2.0/level5/媒体.svg",
+    "caption": "truyền thông, media"
+  },
+  "煤炭": {
+    "file": "煤炭.svg",
+    "src": "images/HSK_2.0/level5/煤炭.svg",
+    "caption": "than đá"
+  },
+  "魅力": {
+    "file": "魅力.svg",
+    "src": "images/HSK_2.0/level5/魅力.svg",
+    "caption": "sức hấp dẫn, sự quyến rũ"
+  },
+  "梦想": {
+    "file": "梦想.svg",
+    "src": "images/HSK_2.0/level5/梦想.svg",
+    "caption": "ước mơ"
+  },
+  "蜜蜂": {
+    "file": "蜜蜂.svg",
+    "src": "images/HSK_2.0/level5/蜜蜂.svg",
+    "caption": "con ong"
+  },
+  "密切": {
+    "file": "密切.svg",
+    "src": "images/HSK_2.0/level5/密切.svg",
+    "caption": "mật thiết, chặt chẽ"
+  },
   "秘书": {
     "file": "秘书.svg",
     "src": "images/HSK_2.0/level5/秘书.svg",
     "caption": "thư ký"
+  },
+  "面积": {
+    "file": "面积.svg",
+    "src": "images/HSK_2.0/level5/面积.svg",
+    "caption": "diện tích"
   },
   "批准": {
     "file": "批准.svg",
