@@ -11142,6 +11142,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/面积.svg",
     "caption": "diện tích"
   },
+  "描写": {
+    "file": "描写.svg",
+    "src": "images/HSK_2.0/level5/描写.svg",
+    "caption": "miêu tả"
+  },
+  "敏感": {
+    "file": "敏感.svg",
+    "src": "images/HSK_2.0/level5/敏感.svg",
+    "caption": "nhạy cảm"
+  },
+  "明星": {
+    "file": "明星.svg",
+    "src": "images/HSK_2.0/level5/明星.svg",
+    "caption": "minh tinh, ngôi sao"
+  },
+  "名片": {
+    "file": "名片.svg",
+    "src": "images/HSK_2.0/level5/名片.svg",
+    "caption": "danh thiếp"
+  },
+  "命运": {
+    "file": "命运.svg",
+    "src": "images/HSK_2.0/level5/命运.svg",
+    "caption": "vận mệnh, số phận"
+  },
+  "模仿": {
+    "file": "模仿.svg",
+    "src": "images/HSK_2.0/level5/模仿.svg",
+    "caption": "mô phỏng, bắt chước"
+  },
+  "模特": {
+    "file": "模特.svg",
+    "src": "images/HSK_2.0/level5/模特.svg",
+    "caption": "người mẫu"
+  },
+  "陌生": {
+    "file": "陌生.svg",
+    "src": "images/HSK_2.0/level5/陌生.svg",
+    "caption": "lạ, xa lạ"
+  },
+  "目前": {
+    "file": "目前.svg",
+    "src": "images/HSK_2.0/level5/目前.svg",
+    "caption": "hiện tại, trước mắt"
+  },
+  "难怪": {
+    "file": "难怪.svg",
+    "src": "images/HSK_2.0/level5/难怪.svg",
+    "caption": "chẳng trách, không lạ gì"
+  },
   "批准": {
     "file": "批准.svg",
     "src": "images/HSK_2.0/level5/批准.svg",

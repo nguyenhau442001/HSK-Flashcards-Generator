@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:25:38.048681",
-  "total_unique_words_with_illustrations": 2173,
-  "total_flat_svg_files": 2173,
+  "generated_at": "2026-10-09T20:27:44.501207",
+  "total_unique_words_with_illustrations": 2183,
+  "total_flat_svg_files": 2183,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 974,
-        "pct": "74.9%"
+        "with_svg": 984,
+        "pct": "75.7%"
       },
       "level6": {
         "total": 2500,
@@ -53,32 +53,32 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 582,
-        "pct": "58.2%"
+        "with_svg": 583,
+        "pct": "58.3%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 657,
-        "pct": "41.1%"
+        "with_svg": 662,
+        "pct": "41.4%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 186,
-        "pct": "10.3%"
+        "with_svg": 188,
+        "pct": "10.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 79,
+        "with_svg": 80,
         "pct": "1.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 79,
+        "with_svg": 80,
         "pct": "1.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 79,
+        "with_svg": 80,
         "pct": "1.4%"
       }
     }
@@ -40068,6 +40068,186 @@
       "src": "images/HSK_2.0/level5/面积.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/面积.svg"
+      ]
+    },
+    "描写": {
+      "hanzi": "描写",
+      "pinyin": "miáoxiě",
+      "meaning": "miêu tả",
+      "example_zh": "他<u>描写</u>了这个场景。",
+      "example_vi": "Anh ấy đã <u>miêu tả</u> cảnh tượng này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "描写.svg",
+      "src": "images/HSK_2.0/level5/描写.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/描写.svg"
+      ]
+    },
+    "敏感": {
+      "hanzi": "敏感",
+      "pinyin": "mǐngǎn",
+      "meaning": "nhạy cảm",
+      "example_zh": "他对批评很<u>敏感</u>。",
+      "example_vi": "Anh ấy rất <u>nhạy cảm</u> với phê bình.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "敏感.svg",
+      "src": "images/HSK_2.0/level5/敏感.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/敏感.svg"
+      ]
+    },
+    "明星": {
+      "hanzi": "明星",
+      "pinyin": "míngxīng",
+      "meaning": "minh tinh, ngôi sao",
+      "example_zh": "她是一位电影<u>明星</u>。",
+      "example_vi": "Cô ấy là một <u>minh tinh</u> điện ảnh.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "明星.svg",
+      "src": "images/HSK_2.0/level5/明星.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/明星.svg"
+      ]
+    },
+    "名片": {
+      "hanzi": "名片",
+      "pinyin": "míngpiàn",
+      "meaning": "danh thiếp",
+      "example_zh": "请给我一张<u>名片</u>。",
+      "example_vi": "Xin hãy cho tôi một tấm <u>danh thiếp</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "名片.svg",
+      "src": "images/HSK_2.0/level5/名片.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/名片.svg"
+      ]
+    },
+    "命运": {
+      "hanzi": "命运",
+      "pinyin": "mìngyùn",
+      "meaning": "vận mệnh, số phận",
+      "example_zh": "这是他的<u>命运</u>。",
+      "example_vi": "Đây là <u>vận mệnh</u> của anh ấy.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "命运.svg",
+      "src": "images/HSK_2.0/level5/命运.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/命运.svg"
+      ]
+    },
+    "模仿": {
+      "hanzi": "模仿",
+      "pinyin": "mófǎng",
+      "meaning": "mô phỏng, bắt chước",
+      "example_zh": "他在<u>模仿</u>别人说话。",
+      "example_vi": "Anh ấy đang <u>bắt chước</u> cách nói của người khác.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "模仿.svg",
+      "src": "images/HSK_2.0/level5/模仿.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/模仿.svg"
+      ]
+    },
+    "模特": {
+      "hanzi": "模特",
+      "pinyin": "mótè",
+      "meaning": "người mẫu",
+      "example_zh": "她是一名时装<u>模特</u>。",
+      "example_vi": "Cô ấy là một <u>người mẫu</u> thời trang.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [],
+      "file": "模特.svg",
+      "src": "images/HSK_2.0/level5/模特.svg",
+      "alt_srcs": []
+    },
+    "陌生": {
+      "hanzi": "陌生",
+      "pinyin": "mòshēng",
+      "meaning": "lạ, xa lạ",
+      "example_zh": "这个地方对我很<u>陌生</u>。",
+      "example_vi": "Nơi này rất <u>lạ</u> lẫm với tôi.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "陌生.svg",
+      "src": "images/HSK_2.0/level5/陌生.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/陌生.svg"
+      ]
+    },
+    "目前": {
+      "hanzi": "目前",
+      "pinyin": "mùqián",
+      "meaning": "hiện tại, trước mắt",
+      "example_zh": "<u>目前</u>情况还不错。",
+      "example_vi": "<u>Hiện tại</u> tình hình vẫn khá tốt.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "目前.svg",
+      "src": "images/HSK_2.0/level5/目前.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/目前.svg"
+      ]
+    },
+    "难怪": {
+      "hanzi": "难怪",
+      "pinyin": "nánguài",
+      "meaning": "chẳng trách, không lạ gì",
+      "example_zh": "<u>难怪</u>他这么累。",
+      "example_vi": "<u>Chẳng trách</u> anh ấy mệt như vậy.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "难怪.svg",
+      "src": "images/HSK_2.0/level5/难怪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/难怪.svg",
+        "images/HSK_3.0/level8/难怪.svg",
+        "images/HSK_3.0/level9/难怪.svg"
       ]
     },
     "批准": {
