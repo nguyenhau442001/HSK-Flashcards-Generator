@@ -49,5 +49,124 @@
     "spotlight_count": 8,
     "quiz_count": 3,
     "file": "database/readings/hsk1/hsk1_story_003.json"
+  },
+  {
+    "id": "hsk1_story_004",
+    "level": "HSK1",
+    "title": {
+      "zh": "在学校学习汉语",
+      "vi": "Học tiếng Hán ở trường học"
+    },
+    "topic": "school_study",
+    "topic_vi": "Học tập & Trường học",
+    "icon": "🏫",
+    "estimatedMinutes": 3,
+    "description_vi": "Lớp học tiếng Hán vui vẻ với cô giáo Vương và các bạn học.",
+    "sentence_count": 5,
+    "spotlight_count": 8,
+    "quiz_count": 3,
+    "file": "database/readings/hsk1/hsk1_story_004.json"
+  },
+  {
+    "id": "hsk1_story_005",
+    "level": "HSK1",
+    "title": {
+      "zh": "去朋友家做客",
+      "vi": "Đến nhà bạn làm khách"
+    },
+    "topic": "social_life",
+    "topic_vi": "Bạn bè & Đời sống",
+    "icon": "🍵",
+    "estimatedMinutes": 3,
+    "description_vi": "Đến thăm nhà bạn Đại Vệ vào buổi chiều, cùng uống trà và trò chuyện.",
+    "sentence_count": 5,
+    "spotlight_count": 8,
+    "quiz_count": 3,
+    "file": "database/readings/hsk1/hsk1_story_005.json"
+  },
+  {
+    "id": "hsk1_story_006",
+    "level": "HSK1",
+    "title": {
+      "zh": "我的好朋友李月",
+      "vi": "Người bạn tốt Lý Nguyệt của tôi"
+    },
+    "topic": "people_friends",
+    "topic_vi": "Con người & Tình bạn",
+    "icon": "👧",
+    "estimatedMinutes": 3,
+    "description_vi": "Giới thiệu về người bạn thân người Bắc Kinh cùng trường học.",
+    "sentence_count": 5,
+    "spotlight_count": 8,
+    "quiz_count": 3,
+    "file": "database/readings/hsk1/hsk1_story_006.json"
+  },
+  {
+    "id": "hsk1_story_007",
+    "level": "HSK1",
+    "title": {
+      "zh": "在饭馆吃中国菜",
+      "vi": "Ăn món Trung Quốc ở nhà hàng"
+    },
+    "topic": "food_dining",
+    "topic_vi": "Ẩm thực & Nhà hàng",
+    "icon": "🍜",
+    "estimatedMinutes": 3,
+    "description_vi": "Bữa trưa ngon miệng tại một nhà hàng Trung Quốc cùng bạn bè.",
+    "sentence_count": 5,
+    "spotlight_count": 8,
+    "quiz_count": 3,
+    "file": "database/readings/hsk1/hsk1_story_007.json"
+  },
+  {
+    "id": "hsk1_story_008",
+    "level": "HSK1",
+    "title": {
+      "zh": "去商店买衣服",
+      "vi": "Đi cửa hàng mua quần áo"
+    },
+    "topic": "shopping",
+    "topic_vi": "Mua sắm & Đời sống",
+    "icon": "👗",
+    "estimatedMinutes": 3,
+    "description_vi": "Trải nghiệm đi mua một chiếc áo mới tại cửa hàng vào cuối tuần.",
+    "sentence_count": 5,
+    "spotlight_count": 8,
+    "quiz_count": 3,
+    "file": "database/readings/hsk1/hsk1_story_008.json"
+  },
+  {
+    "id": "hsk1_story_009",
+    "level": "HSK1",
+    "title": {
+      "zh": "今天下雨了",
+      "vi": "Hôm nay trời mưa rồi"
+    },
+    "topic": "daily_life",
+    "topic_vi": "Sinh hoạt thường nhật",
+    "icon": "🌧️",
+    "estimatedMinutes": 3,
+    "description_vi": "Một ngày mưa mát mẻ ở nhà đọc sách, uống trà và xem phim.",
+    "sentence_count": 5,
+    "spotlight_count": 10,
+    "quiz_count": 3,
+    "file": "database/readings/hsk1/hsk1_story_009.json"
+  },
+  {
+    "id": "hsk1_story_010",
+    "level": "HSK1",
+    "title": {
+      "zh": "坐飞机去北京",
+      "vi": "Đi máy bay đến Bắc Kinh"
+    },
+    "topic": "travel",
+    "topic_vi": "Du lịch & Trải nghiệm",
+    "icon": "✈️",
+    "estimatedMinutes": 3,
+    "description_vi": "Chuyến bay đầu tiên đến Bắc Kinh để du lịch và ngắm nhìn cảnh đẹp.",
+    "sentence_count": 5,
+    "spotlight_count": 12,
+    "quiz_count": 3,
+    "file": "database/readings/hsk1/hsk1_story_010.json"
   }
 ]

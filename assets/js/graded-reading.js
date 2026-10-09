@@ -210,6 +210,13 @@ const GradedReading = (function() {
       ? manifest
       : manifest.filter(m => m.level.toLowerCase() === currentLevelFilter.toLowerCase());
 
+    const counts = {
+      HSK1: manifest.filter(m => m.level.toUpperCase() === 'HSK1').length,
+      HSK2: manifest.filter(m => m.level.toUpperCase() === 'HSK2').length,
+      HSK3: manifest.filter(m => m.level.toUpperCase() === 'HSK3').length,
+      HSK4: manifest.filter(m => m.level.toUpperCase() === 'HSK4').length,
+    };
+
     mount.innerHTML = `
       <div class="graded-reading-container">
         <!-- Back to Vocab Hub Bar -->
@@ -233,17 +240,17 @@ const GradedReading = (function() {
           <button type="button" class="graded-filter-pill ${currentLevelFilter === 'all' ? 'active' : ''}" onclick="GradedReading.setLevelFilter('all')">
             Tất cả (${manifest.length})
           </button>
-          <button type="button" class="graded-filter-pill ${currentLevelFilter === 'HSK1' ? 'active' : ''}" onclick="GradedReading.setLevelFilter('HSK1')">
-            HSK 1 (3 bài)
+          <button type="button" class="graded-filter-pill ${counts.HSK1 > 0 ? (currentLevelFilter === 'HSK1' ? 'active' : '') : 'disabled'}" ${counts.HSK1 > 0 ? `onclick="GradedReading.setLevelFilter('HSK1')"` : 'title="Đang cập nhật"'}>
+            HSK 1 (${counts.HSK1} bài)
           </button>
-          <button type="button" class="graded-filter-pill disabled" title="Đang cập nhật thêm bài đọc">
-            HSK 2 (Sắp có)
+          <button type="button" class="graded-filter-pill ${counts.HSK2 > 0 ? (currentLevelFilter === 'HSK2' ? 'active' : '') : 'disabled'}" ${counts.HSK2 > 0 ? `onclick="GradedReading.setLevelFilter('HSK2')"` : 'title="Đang cập nhật"'}>
+            HSK 2 (${counts.HSK2 > 0 ? `${counts.HSK2} bài` : 'Sắp có'})
           </button>
-          <button type="button" class="graded-filter-pill disabled" title="Đang cập nhật thêm bài đọc">
-            HSK 3 (Sắp có)
+          <button type="button" class="graded-filter-pill ${counts.HSK3 > 0 ? (currentLevelFilter === 'HSK3' ? 'active' : '') : 'disabled'}" ${counts.HSK3 > 0 ? `onclick="GradedReading.setLevelFilter('HSK3')"` : 'title="Đang cập nhật"'}>
+            HSK 3 (${counts.HSK3 > 0 ? `${counts.HSK3} bài` : 'Sắp có'})
           </button>
-          <button type="button" class="graded-filter-pill disabled" title="Đang cập nhật thêm bài đọc">
-            HSK 4 (Sắp có)
+          <button type="button" class="graded-filter-pill ${counts.HSK4 > 0 ? (currentLevelFilter === 'HSK4' ? 'active' : '') : 'disabled'}" ${counts.HSK4 > 0 ? `onclick="GradedReading.setLevelFilter('HSK4')"` : 'title="Đang cập nhật"'}>
+            HSK 4 (${counts.HSK4 > 0 ? `${counts.HSK4} bài` : 'Sắp có'})
           </button>
         </nav>
 
