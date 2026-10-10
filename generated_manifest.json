@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:01:40.893217",
-  "total_unique_words_with_illustrations": 2722,
-  "total_flat_svg_files": 2722,
+  "generated_at": "2026-10-10T10:03:32.525652",
+  "total_unique_words_with_illustrations": 2732,
+  "total_flat_svg_files": 2732,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 508,
-        "pct": "20.3%"
+        "with_svg": 510,
+        "pct": "20.4%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1103,
-        "pct": "68.9%"
+        "with_svg": 1113,
+        "pct": "69.6%"
       },
       "level6": {
         "total": 1800,
@@ -46854,6 +46854,42 @@
         "images/HSK_3.0/level5/海外.svg"
       ]
     },
+    "花费": {
+      "hanzi": "花费",
+      "pinyin": "huāfèi",
+      "meaning": "tốn, chi tiêu",
+      "example_zh": "装修<u>花费</u>了不少钱。",
+      "example_vi": "Sửa nhà <u>tốn</u> không ít tiền.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "花费.svg",
+      "src": "images/HSK_2.0/level6/花费.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/花费.svg"
+      ]
+    },
+    "环节": {
+      "hanzi": "环节",
+      "pinyin": "huánjié",
+      "meaning": "khâu, mắt xích",
+      "example_zh": "这是整个流程中的关键<u>环节</u>。",
+      "example_vi": "Đây là <u>khâu</u> then chốt trong toàn bộ quy trình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "环节.svg",
+      "src": "images/HSK_2.0/level6/环节.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/环节.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -49393,6 +49429,118 @@
       ],
       "file": "湖.svg",
       "src": "images/HSK_3.0/level5/湖.svg",
+      "alt_srcs": []
+    },
+    "互动": {
+      "hanzi": "互动",
+      "pinyin": "hùdòng",
+      "meaning": "tương tác, giao lưu",
+      "example_zh": "老师在课堂上经常和学生<u>互动</u>。",
+      "example_vi": "Thầy giáo trên lớp thường xuyên <u>tương tác</u> với học sinh.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "互动.svg",
+      "src": "images/HSK_3.0/level5/互动.svg",
+      "alt_srcs": []
+    },
+    "户外": {
+      "hanzi": "户外",
+      "pinyin": "hùwài",
+      "meaning": "ngoài trời",
+      "example_zh": "周末我们打算去参加<u>户外</u>活动。",
+      "example_vi": "Cuối tuần chúng tôi dự định tham gia hoạt động <u>ngoài trời</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "户外.svg",
+      "src": "images/HSK_3.0/level5/户外.svg",
+      "alt_srcs": []
+    },
+    "化": {
+      "hanzi": "化",
+      "pinyin": "huà",
+      "meaning": "hóa (-ize); tan chảy, biến đổi",
+      "example_zh": "外面的雪已经开始<u>化</u>了。",
+      "example_vi": "Tuyết bên ngoài đã bắt đầu <u>tan</u> rồi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "化.svg",
+      "src": "images/HSK_3.0/level5/化.svg",
+      "alt_srcs": []
+    },
+    "话费": {
+      "hanzi": "话费",
+      "pinyin": "huàfèi",
+      "meaning": "cước điện thoại, tiền điện thoại",
+      "example_zh": "我的手机<u>话费</u>用完了，需要充值。",
+      "example_vi": "<u>Tiền điện thoại</u> của tôi hết rồi, cần nạp thêm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "话费.svg",
+      "src": "images/HSK_3.0/level5/话费.svg",
+      "alt_srcs": []
+    },
+    "画面": {
+      "hanzi": "画面",
+      "pinyin": "huàmiàn",
+      "meaning": "hình ảnh, khung hình, cảnh tượng",
+      "example_zh": "电视机上的<u>画面</u>非常清晰。",
+      "example_vi": "<u>Hình ảnh</u> trên tivi rất sắc nét.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "画面.svg",
+      "src": "images/HSK_3.0/level5/画面.svg",
+      "alt_srcs": []
+    },
+    "缓慢": {
+      "hanzi": "缓慢",
+      "pinyin": "huǎnmàn",
+      "meaning": "chậm rãi, chậm chạp",
+      "example_zh": "汽车在雪地上<u>缓慢</u>行驶。",
+      "example_vi": "Ô tô di chuyển <u>chậm rãi</u> trên đường tuyết.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "缓慢.svg",
+      "src": "images/HSK_3.0/level5/缓慢.svg",
+      "alt_srcs": []
+    },
+    "黄瓜": {
+      "hanzi": "黄瓜",
+      "pinyin": "huángguā",
+      "meaning": "dưa chuột, dưa leo",
+      "example_zh": "夏天吃<u>黄瓜</u>很清凉。",
+      "example_vi": "Mùa hè ăn <u>dưa chuột</u> rất thanh mát.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "黄瓜.svg",
+      "src": "images/HSK_3.0/level5/黄瓜.svg",
+      "alt_srcs": []
+    },
+    "灰色": {
+      "hanzi": "灰色",
+      "pinyin": "huīsè",
+      "meaning": "màu xám",
+      "example_zh": "墙的颜色是<u>灰色</u>的",
+      "example_vi": "Màu của tường là màu xám.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "灰色.svg",
+      "src": "images/HSK_3.0/level5/灰色.svg",
       "alt_srcs": []
     }
   }

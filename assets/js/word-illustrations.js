@@ -13007,6 +13007,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/海外.svg",
     "caption": "hải ngoại, nước ngoài"
   },
+  "花费": {
+    "file": "花费.svg",
+    "src": "images/HSK_2.0/level6/花费.svg",
+    "caption": "tốn, chi tiêu"
+  },
+  "环节": {
+    "file": "环节.svg",
+    "src": "images/HSK_2.0/level6/环节.svg",
+    "caption": "khâu, mắt xích"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13911,6 +13921,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "湖.svg",
     "src": "images/HSK_3.0/level5/湖.svg",
     "caption": "hồ"
+  },
+  "互动": {
+    "file": "互动.svg",
+    "src": "images/HSK_3.0/level5/互动.svg",
+    "caption": "tương tác, giao lưu"
+  },
+  "户外": {
+    "file": "户外.svg",
+    "src": "images/HSK_3.0/level5/户外.svg",
+    "caption": "ngoài trời"
+  },
+  "化": {
+    "file": "化.svg",
+    "src": "images/HSK_3.0/level5/化.svg",
+    "caption": "hóa (-ize); tan chảy, biến đổi"
+  },
+  "话费": {
+    "file": "话费.svg",
+    "src": "images/HSK_3.0/level5/话费.svg",
+    "caption": "cước điện thoại, tiền điện thoại"
+  },
+  "画面": {
+    "file": "画面.svg",
+    "src": "images/HSK_3.0/level5/画面.svg",
+    "caption": "hình ảnh, khung hình, cảnh tượng"
+  },
+  "缓慢": {
+    "file": "缓慢.svg",
+    "src": "images/HSK_3.0/level5/缓慢.svg",
+    "caption": "chậm rãi, chậm chạp"
+  },
+  "黄瓜": {
+    "file": "黄瓜.svg",
+    "src": "images/HSK_3.0/level5/黄瓜.svg",
+    "caption": "dưa chuột, dưa leo"
+  },
+  "灰色": {
+    "file": "灰色.svg",
+    "src": "images/HSK_3.0/level5/灰色.svg",
+    "caption": "màu xám"
   }
 };
 
