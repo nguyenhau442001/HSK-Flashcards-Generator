@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:24:23.619579",
-  "total_unique_words_with_illustrations": 2882,
-  "total_flat_svg_files": 2882,
+  "generated_at": "2026-10-10T10:25:38.906281",
+  "total_unique_words_with_illustrations": 2892,
+  "total_flat_svg_files": 2892,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 531,
-        "pct": "21.2%"
+        "with_svg": 532,
+        "pct": "21.3%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1263,
-        "pct": "78.9%"
+        "with_svg": 1273,
+        "pct": "79.6%"
       },
       "level6": {
         "total": 1800,
@@ -47268,6 +47268,24 @@
         "images/HSK_3.0/level5/普及.svg"
       ]
     },
+    "抢救": {
+      "hanzi": "抢救",
+      "pinyin": "qiǎngjiù",
+      "meaning": "cấp cứu, cứu chữa gấp",
+      "example_zh": "医生正在全力<u>抢救</u>病人。",
+      "example_vi": "Bác sĩ đang dồn hết sức <u>cấp cứu</u> bệnh nhân.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "抢救.svg",
+      "src": "images/HSK_2.0/level6/抢救.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/抢救.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -51731,6 +51749,132 @@
       ],
       "file": "签订.svg",
       "src": "images/HSK_3.0/level5/签订.svg",
+      "alt_srcs": []
+    },
+    "签名": {
+      "hanzi": "签名",
+      "pinyin": "qiānmíng",
+      "meaning": "chữ ký",
+      "example_zh": "请在这里<u>签名</u>",
+      "example_vi": "Xin hãy ký tên ở đây.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "签名.svg",
+      "src": "images/HSK_3.0/level5/签名.svg",
+      "alt_srcs": []
+    },
+    "签字": {
+      "hanzi": "签字",
+      "pinyin": "qiānzì",
+      "meaning": "ký hiệu",
+      "example_zh": "这件事需要本人<u>签字</u>",
+      "example_vi": "Việc này cần chính người đó ký tên.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "签字.svg",
+      "src": "images/HSK_3.0/level5/签字.svg",
+      "alt_srcs": []
+    },
+    "前进": {
+      "hanzi": "前进",
+      "pinyin": "qiánjìn",
+      "meaning": "tiến về phía trước",
+      "example_zh": "老师的话鞭策着我<u>前进</u>",
+      "example_vi": "Lời thầy giáo thúc đẩy tôi tiến lên.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "前进.svg",
+      "src": "images/HSK_3.0/level5/前进.svg",
+      "alt_srcs": []
+    },
+    "前来": {
+      "hanzi": "前来",
+      "pinyin": "qiánlái",
+      "meaning": "đến, tới tham dự",
+      "example_zh": "感谢各位嘉宾今天<u>前来</u>参加活动。",
+      "example_vi": "Cảm ơn các vị khách quý hôm nay đã <u>đến</u> tham dự sự kiện.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "前来.svg",
+      "src": "images/HSK_3.0/level5/前来.svg",
+      "alt_srcs": []
+    },
+    "前往": {
+      "hanzi": "前往",
+      "pinyin": "qiánwǎng",
+      "meaning": "đi",
+      "example_zh": "宇航员将<u>前往</u>太空执行任务",
+      "example_vi": "Nhà du hành sẽ đi vào không gian vũ trụ thực hiện nhiệm vụ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "前往.svg",
+      "src": "images/HSK_3.0/level5/前往.svg",
+      "alt_srcs": []
+    },
+    "强大": {
+      "hanzi": "强大",
+      "pinyin": "qiángdà",
+      "meaning": "mạnh mẽ",
+      "example_zh": "知识是最<u>强大</u>的武器",
+      "example_vi": "Tri thức là vũ khí mạnh nhất.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "强大.svg",
+      "src": "images/HSK_3.0/level5/强大.svg",
+      "alt_srcs": []
+    },
+    "强度": {
+      "hanzi": "强度",
+      "pinyin": "qiángdù",
+      "meaning": "cường độ",
+      "example_zh": "台风<u>强度</u>正在减弱",
+      "example_vi": "Cường độ bão đang suy yếu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "强度.svg",
+      "src": "images/HSK_3.0/level5/强度.svg",
+      "alt_srcs": []
+    },
+    "亲": {
+      "hanzi": "亲",
+      "pinyin": "qīn",
+      "meaning": "thân thiết; người thân; hôn",
+      "example_zh": "妈妈轻轻地<u>亲</u>了一下宝宝的脸。",
+      "example_vi": "Người mẹ nhẹ nhàng <u>hôn</u> lên má em bé một cái.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "亲.svg",
+      "src": "images/HSK_3.0/level5/亲.svg",
+      "alt_srcs": []
+    },
+    "亲朋好友": {
+      "hanzi": "亲朋好友",
+      "pinyin": "qīnpéng-hǎoyǒu",
+      "meaning": "bạn bè và người thân, thân bằng hảo hữu",
+      "example_zh": "过年时，大家都会去走访<u>亲朋好友</u>。",
+      "example_vi": "Dịp Tết, mọi người đều đi chúc Tết <u>bạn bè và người thân</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "亲朋好友.svg",
+      "src": "images/HSK_3.0/level5/亲朋好友.svg",
       "alt_srcs": []
     }
   }

@@ -13122,6 +13122,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/普及.svg",
     "caption": "phổ cập, phổ biến"
   },
+  "抢救": {
+    "file": "抢救.svg",
+    "src": "images/HSK_2.0/level6/抢救.svg",
+    "caption": "cấp cứu, cứu chữa gấp"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -14711,6 +14716,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "签订.svg",
     "src": "images/HSK_3.0/level5/签订.svg",
     "caption": "ký hiệu"
+  },
+  "签名": {
+    "file": "签名.svg",
+    "src": "images/HSK_3.0/level5/签名.svg",
+    "caption": "chữ ký"
+  },
+  "签字": {
+    "file": "签字.svg",
+    "src": "images/HSK_3.0/level5/签字.svg",
+    "caption": "ký hiệu"
+  },
+  "前进": {
+    "file": "前进.svg",
+    "src": "images/HSK_3.0/level5/前进.svg",
+    "caption": "tiến về phía trước"
+  },
+  "前来": {
+    "file": "前来.svg",
+    "src": "images/HSK_3.0/level5/前来.svg",
+    "caption": "đến, tới tham dự"
+  },
+  "前往": {
+    "file": "前往.svg",
+    "src": "images/HSK_3.0/level5/前往.svg",
+    "caption": "đi"
+  },
+  "强大": {
+    "file": "强大.svg",
+    "src": "images/HSK_3.0/level5/强大.svg",
+    "caption": "mạnh mẽ"
+  },
+  "强度": {
+    "file": "强度.svg",
+    "src": "images/HSK_3.0/level5/强度.svg",
+    "caption": "cường độ"
+  },
+  "亲": {
+    "file": "亲.svg",
+    "src": "images/HSK_3.0/level5/亲.svg",
+    "caption": "thân thiết; người thân; hôn"
+  },
+  "亲朋好友": {
+    "file": "亲朋好友.svg",
+    "src": "images/HSK_3.0/level5/亲朋好友.svg",
+    "caption": "bạn bè và người thân, thân bằng hảo hữu"
   }
 };
 
