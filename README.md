@@ -4,7 +4,7 @@
 > Kết hợp minh họa câu chuyện trực quan (Visual Mnemonics), thuật toán **Spaced Repetition (SRS)**, phân tích ngữ pháp đọc hiểu **HSK 4 Chuẩn Hanban**, luyện viết thứ tự nét và tra cứu âm Hán - Việt chuyên sâu.
 
 <p align="center">
-  <a href="https://nguyenhau442001.github.io/HSK-Flashcards-Generator/">
+  <a href="https://nguyenhau442001.github.io/synapse-hanzi/">
     <img src="https://img.shields.io/badge/Demo_Trực_Tuyến-Mở_Ngay-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo">
   </a>
   <img src="https://img.shields.io/badge/Chế_độ-100%25_Offline_(PWA)-22c55e?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA">
@@ -108,8 +108,8 @@ Không cần cài đặt Node.js hay npm:
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/nguyenhau442001/HSK-Flashcards-Generator.git
-cd HSK-Flashcards-Generator
+git clone https://github.com/nguyenhau442001/synapse-hanzi.git
+cd synapse-hanzi
 
 # 2. Khởi chạy HTTP server (bằng Python 3)
 python3 -m http.server 8000

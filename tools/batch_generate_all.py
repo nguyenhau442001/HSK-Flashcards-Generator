@@ -39,7 +39,7 @@ HSK3_DIR = VOCAB_DIR / "hsk3_0"
 FLAT_OUTPUT_DIR = REPO_ROOT / "assets" / "images" / "illustrations"
 IMAGES_DIR = REPO_ROOT / "images"
 WORD_ILLUSTRATIONS_JS = REPO_ROOT / "assets" / "js" / "word-illustrations.js"
-WORKTREE_DIR = Path("/Users/haunguyen/.gemini/antigravity/worktrees/HSK-Flashcards-Generator/add_hsk4_reading_analysis")
+WORKTREE_DIR = REPO_ROOT
 
 def get_default_api_key():
     if os.environ.get("GOOGLE_AI_KEY"):

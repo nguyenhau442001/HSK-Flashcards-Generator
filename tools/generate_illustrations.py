@@ -22,7 +22,7 @@ OUTPUT_DIR = REPO_ROOT / "assets" / "images" / "illustrations"
 WORD_ILLUSTRATIONS_JS = REPO_ROOT / "assets" / "js" / "word-illustrations.js"
 
 # Optional worktree directory to keep in sync
-WORKTREE_DIR = Path("/Users/haunguyen/.gemini/antigravity/worktrees/HSK-Flashcards-Generator/add_hsk4_reading_analysis")
+WORKTREE_DIR = REPO_ROOT
 
 POS_NAMES = {
     'noun': 'noun / physical object or conceptual entity',
