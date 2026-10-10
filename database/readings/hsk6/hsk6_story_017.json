@@ -1,0 +1,1281 @@
+{
+  "id": "hsk6_story_017",
+  "level": "HSK6",
+  "title": {
+    "zh": "古琴艺术与文人精神风骨",
+    "vi": "Nghệ thuật cổ cầm và cốt cách tinh thần văn nhân xưa"
+  },
+  "topic": "guqin_art",
+  "topic_vi": "Âm nhạc & Cổ học",
+  "icon": "🎼",
+  "estimatedMinutes": 5,
+  "description_vi": "Thanh âm trầm ấm tĩnh tại của cây đàn bảy dây là phương tiện đối thoại nội tâm, biểu đạt tiết tháo thanh cao của kẻ sĩ.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "古琴位列琴棋书画四艺之首，数千年来始终被视作中国古代文人士大夫砥砺操守、抒发幽思的雅乐圣器。",
+      "pinyin": "Gǔqín wèiliè qín-qí-shū-huà sìyì zhī shǒu, shù qiān nián lái shǐzhōng bèi shì zuò Zhōngguó gǔdài wénrén shìdàfū dǐlì cāoshǒu, shūfā yōusī de yǎyuè shèngqì.",
+      "vi": "Cổ cầm đứng đầu trong tứ nghệ Cầm - Kỳ - Thi - Họa, suốt hàng ngàn năm luôn được xem là nhạc khí thanh nhã thiêng liêng để giới văn nhân sĩ đại phu rèn giũa khí tiết và gửi gắm nỗi niềm u hoài.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "古",
+          "pinyin": "gǔ",
+          "hanviet": "Cổ",
+          "meaning_vi": "cổ, cổ xưa, ngày xưa",
+          "hsk": 5,
+          "word_id": "hsk5_422"
+        },
+        {
+          "text": "琴",
+          "pinyin": "qín",
+          "hanviet": "Cầm",
+          "meaning_vi": "đàn (nhạc cụ)",
+          "hsk": 4,
+          "word_id": "hsk4_585"
+        },
+        {
+          "text": "位",
+          "pinyin": "wèi",
+          "hanviet": "Vị",
+          "meaning_vi": "vị (lượng từ kính trọng)",
+          "hsk": 3,
+          "word_id": "hsk3_231"
+        },
+        {
+          "text": "列",
+          "pinyin": "liè",
+          "hanviet": "Liệt",
+          "meaning_vi": "xếp hàng, liệt kê; đoàn (tàu)",
+          "hsk": 4,
+          "word_id": "hsk4_475"
+        },
+        {
+          "text": "琴棋书画",
+          "pinyin": "qín-qí-shū-huà",
+          "hanviet": "Cầm Kỳ Thư Hoạ",
+          "meaning_vi": "cầm kỳ thi họa",
+          "hsk": 7,
+          "word_id": "hsk7_3293"
+        },
+        {
+          "text": "四",
+          "pinyin": "sì",
+          "hanviet": "Tứ",
+          "meaning_vi": "bốn",
+          "hsk": 1,
+          "word_id": "hsk1_102"
+        },
+        {
+          "text": "艺"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "首",
+          "pinyin": "shǒu",
+          "hanviet": "Thủ",
+          "meaning_vi": "đầu, người đứng đầu",
+          "hsk": 5,
+          "word_id": "hsk5_434"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "数",
+          "pinyin": "shǔ",
+          "hanviet": "Sổ",
+          "meaning_vi": "đếm, tính",
+          "hsk": 5,
+          "word_id": "hsk5_1083"
+        },
+        {
+          "text": "千",
+          "pinyin": "qiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "nghìn",
+          "hsk": 2,
+          "word_id": "hsk2_84"
+        },
+        {
+          "text": "年",
+          "pinyin": "nián",
+          "hanviet": "Niên",
+          "meaning_vi": "năm",
+          "hsk": 1,
+          "word_id": "hsk1_74"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "始终",
+          "pinyin": "shǐzhōng",
+          "hanviet": "Thủy Chung",
+          "meaning_vi": "trước sau, luôn luôn",
+          "hsk": 5,
+          "word_id": "hsk5_426"
+        },
+        {
+          "text": "被",
+          "pinyin": "bèi",
+          "hanviet": "Bị",
+          "meaning_vi": "bị (trợ từ bị động)",
+          "hsk": 3,
+          "word_id": "hsk3_16"
+        },
+        {
+          "text": "视"
+        },
+        {
+          "text": "作"
+        },
+        {
+          "text": "中国",
+          "pinyin": "zhōngguó",
+          "hanviet": "Trung Quốc",
+          "meaning_vi": "Trung Quốc",
+          "hsk": 1,
+          "word_id": "hsk1_143"
+        },
+        {
+          "text": "古代",
+          "pinyin": "gǔdài",
+          "hanviet": "Cổ Đại",
+          "meaning_vi": "cổ đại",
+          "hsk": 5,
+          "word_id": "hsk5_166"
+        },
+        {
+          "text": "文人",
+          "pinyin": "wénrén",
+          "hanviet": "Văn Nhân",
+          "meaning_vi": "văn nhân; mặc khách; học giả",
+          "hsk": 7,
+          "word_id": "hsk7_4278"
+        },
+        {
+          "text": "士"
+        },
+        {
+          "text": "大夫",
+          "pinyin": "dàifu",
+          "hanviet": "Đại Phu",
+          "meaning_vi": "bác sĩ",
+          "hsk": 4,
+          "word_id": "hsk4_75"
+        },
+        {
+          "text": "砥"
+        },
+        {
+          "text": "砺"
+        },
+        {
+          "text": "操"
+        },
+        {
+          "text": "守",
+          "pinyin": "shǒu",
+          "hanviet": "Thủ",
+          "meaning_vi": "giữ, canh giữ, tuân thủ",
+          "hsk": 5,
+          "word_id": "hsk5_1046"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "抒"
+        },
+        {
+          "text": "发",
+          "pinyin": "fā",
+          "hanviet": "Phát",
+          "meaning_vi": "phát ra, gửi",
+          "hsk": 3,
+          "word_id": "hsk3_63"
+        },
+        {
+          "text": "幽"
+        },
+        {
+          "text": "思"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "雅"
+        },
+        {
+          "text": "乐"
+        },
+        {
+          "text": "圣"
+        },
+        {
+          "text": "器"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "七弦古琴的音色深沉悠远、清微淡远，讲究大音希声的美学韵致与弦外之音的悠长意蕴。",
+      "pinyin": "Qī xián gǔqín de yīnsè shēnchén yōuyuǎn, qīng wēi dàn yuǎn, jiǎngjiu dàyīn-xīshēng de měixué yùnzhì yǔ xiánwài-zhīyīn de yōucháng yìyùn.",
+      "vi": "Âm sắc của cây cổ cầm bảy dây trầm lắng vang xa, thanh tao đạm bạc, đề cao vận vị mỹ học 'đại âm hy thanh' cùng hàm ý sâu xa phía sau tiếng tơ đồng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "七",
+          "pinyin": "qī",
+          "hanviet": "Thất",
+          "meaning_vi": "bảy",
+          "hsk": 1,
+          "word_id": "hsk1_79"
+        },
+        {
+          "text": "弦",
+          "pinyin": "xián",
+          "hanviet": "Huyền",
+          "meaning_vi": "dây (đàn)",
+          "hsk": 6,
+          "word_id": "hsk6_2195"
+        },
+        {
+          "text": "古",
+          "pinyin": "gǔ",
+          "hanviet": "Cổ",
+          "meaning_vi": "cổ, cổ xưa, ngày xưa",
+          "hsk": 5,
+          "word_id": "hsk5_422"
+        },
+        {
+          "text": "琴",
+          "pinyin": "qín",
+          "hanviet": "Cầm",
+          "meaning_vi": "đàn (nhạc cụ)",
+          "hsk": 4,
+          "word_id": "hsk4_585"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "音"
+        },
+        {
+          "text": "色"
+        },
+        {
+          "text": "深沉",
+          "pinyin": "shēnchén",
+          "hanviet": "Thâm Trầm",
+          "meaning_vi": "trầm tĩnh, sâu sắc",
+          "hsk": 6,
+          "word_id": "hsk6_1834"
+        },
+        {
+          "text": "悠"
+        },
+        {
+          "text": "远",
+          "pinyin": "yuǎn",
+          "hanviet": "Viễn",
+          "meaning_vi": "xa",
+          "hsk": 2,
+          "word_id": "hsk2_137"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "清",
+          "pinyin": "qīng",
+          "hanviet": "Thanh",
+          "meaning_vi": "trong vắt, trong trẻo; thanh toán",
+          "hsk": 6,
+          "word_id": "hsk6_1052"
+        },
+        {
+          "text": "微",
+          "pinyin": "wēi",
+          "hanviet": "Vi",
+          "meaning_vi": "nhỏ bé; vi mô; khẽ",
+          "hsk": 7,
+          "word_id": "hsk7_4220"
+        },
+        {
+          "text": "淡",
+          "pinyin": "dàn",
+          "hanviet": "Đạm",
+          "meaning_vi": "nhạt",
+          "hsk": 5,
+          "word_id": "hsk5_97"
+        },
+        {
+          "text": "远",
+          "pinyin": "yuǎn",
+          "hanviet": "Viễn",
+          "meaning_vi": "xa",
+          "hsk": 2,
+          "word_id": "hsk2_137"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "讲究",
+          "pinyin": "jiǎngjiu",
+          "hanviet": "Giảng Cứu",
+          "meaning_vi": "chú trọng, cầu kỳ",
+          "hsk": 5,
+          "word_id": "hsk5_887"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "音"
+        },
+        {
+          "text": "希"
+        },
+        {
+          "text": "声",
+          "pinyin": "shēng",
+          "hanviet": "Thanh",
+          "meaning_vi": "tiếng, âm thanh; tiếng (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_910"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "美学",
+          "pinyin": "měixué",
+          "hanviet": "Mỹ Học",
+          "meaning_vi": "mỹ học",
+          "hsk": 7,
+          "word_id": "hsk7_2770"
+        },
+        {
+          "text": "韵"
+        },
+        {
+          "text": "致",
+          "pinyin": "zhì",
+          "hanviet": "Trí",
+          "meaning_vi": "dẫn đến, khiến cho; gửi gắm",
+          "hsk": 7,
+          "word_id": "hsk7_5324"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "弦",
+          "pinyin": "xián",
+          "hanviet": "Huyền",
+          "meaning_vi": "dây (đàn)",
+          "hsk": 6,
+          "word_id": "hsk6_2195"
+        },
+        {
+          "text": "外",
+          "pinyin": "wài",
+          "hanviet": "Ngoại",
+          "meaning_vi": "ngoài",
+          "hsk": 2,
+          "word_id": "hsk2_105"
+        },
+        {
+          "text": "之",
+          "pinyin": "zhī",
+          "hanviet": "Chi",
+          "meaning_vi": "của (trợ từ văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_563"
+        },
+        {
+          "text": "音"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "悠"
+        },
+        {
+          "text": "长",
+          "pinyin": "cháng",
+          "hanviet": "Trường",
+          "meaning_vi": "dài",
+          "hsk": 2,
+          "word_id": "hsk2_9"
+        },
+        {
+          "text": "意"
+        },
+        {
+          "text": "蕴"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "抚琴并非为了取悦听众，而是抚琴者借由指尖与丝弦的摩挲，与山川明月共鸣、与先贤圣哲进行深切的心灵独白。",
+      "pinyin": "Fǔqín bìng fēi wèile qǔyuè tīngzhòng, ér shì fǔqínzhě jièyóu zhǐjiān yǔ sīxián de mósā, yǔ shānchuān míngyuè gòngmíng, yǔ xiānxián shèngzhé jìnxíng shēnqiè de xīnlíng dúbái.",
+      "vi": "Gảy cầm không nhằm mua vui cho thính giả, mà là người chơi đàn mượn sự vuốt ve giữa đầu ngón tay và dây tơ để giao cảm cùng non sông trăng sáng, độc thoại sâu sắc với các bậc hiền triết.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "抚"
+        },
+        {
+          "text": "琴",
+          "pinyin": "qín",
+          "hanviet": "Cầm",
+          "meaning_vi": "đàn (nhạc cụ)",
+          "hsk": 4,
+          "word_id": "hsk4_585"
+        },
+        {
+          "text": "并非",
+          "pinyin": "bìngfēi",
+          "hanviet": "Tinh Phi",
+          "meaning_vi": "thực ra không phải",
+          "hsk": 6,
+          "word_id": "hsk6_179"
+        },
+        {
+          "text": "为了",
+          "pinyin": "wèile",
+          "hanviet": "Vi Liễu",
+          "meaning_vi": "để (mục đích)",
+          "hsk": 3,
+          "word_id": "hsk3_230"
+        },
+        {
+          "text": "取",
+          "pinyin": "qǔ",
+          "hanviet": "Thủ",
+          "meaning_vi": "lấy",
+          "hsk": 4,
+          "word_id": "hsk4_350"
+        },
+        {
+          "text": "悦"
+        },
+        {
+          "text": "听众",
+          "pinyin": "tīngzhòng",
+          "hanviet": "Dẫn Chúng",
+          "meaning_vi": "thính giả",
+          "hsk": 4,
+          "word_id": "hsk4_738"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "而",
+          "pinyin": "ér",
+          "hanviet": "Nhi",
+          "meaning_vi": "mà, và",
+          "hsk": 4,
+          "word_id": "hsk4_103"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "抚"
+        },
+        {
+          "text": "琴",
+          "pinyin": "qín",
+          "hanviet": "Cầm",
+          "meaning_vi": "đàn (nhạc cụ)",
+          "hsk": 4,
+          "word_id": "hsk4_585"
+        },
+        {
+          "text": "者",
+          "pinyin": "zhě",
+          "hanviet": "Giả",
+          "meaning_vi": "người (hậu tố: …giả)",
+          "hsk": 4,
+          "word_id": "hsk4_926"
+        },
+        {
+          "text": "借",
+          "pinyin": "jiè",
+          "hanviet": "Tá",
+          "meaning_vi": "cho mượn, mượn",
+          "hsk": 3,
+          "word_id": "hsk3_128"
+        },
+        {
+          "text": "由",
+          "pinyin": "yóu",
+          "hanviet": "Do",
+          "meaning_vi": "do, từ",
+          "hsk": 4,
+          "word_id": "hsk4_526"
+        },
+        {
+          "text": "指",
+          "pinyin": "zhǐ",
+          "hanviet": "Chỉ",
+          "meaning_vi": "ngón tay; chỉ vào",
+          "hsk": 4,
+          "word_id": "hsk4_570"
+        },
+        {
+          "text": "尖",
+          "pinyin": "jiān",
+          "hanviet": "Tiêm",
+          "meaning_vi": "sắc nhọn, nhọn; mũi nhọn",
+          "hsk": 6,
+          "word_id": "hsk6_640"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "丝",
+          "pinyin": "sī",
+          "hanviet": "Tơ",
+          "meaning_vi": "mảy may; sợi tơ; chút xíu",
+          "hsk": 7,
+          "word_id": "hsk7_3842"
+        },
+        {
+          "text": "弦",
+          "pinyin": "xián",
+          "hanviet": "Huyền",
+          "meaning_vi": "dây (đàn)",
+          "hsk": 6,
+          "word_id": "hsk6_2195"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "摩"
+        },
+        {
+          "text": "挲"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "山川",
+          "pinyin": "shānchuān",
+          "hanviet": "Sơn Xuyên",
+          "meaning_vi": "non sông; núi sông",
+          "hsk": 7,
+          "word_id": "hsk7_3502"
+        },
+        {
+          "text": "明"
+        },
+        {
+          "text": "月",
+          "pinyin": "yuè",
+          "hanviet": "Nguyệt",
+          "meaning_vi": "tháng",
+          "hsk": 1,
+          "word_id": "hsk1_137"
+        },
+        {
+          "text": "共鸣",
+          "pinyin": "gòngmíng",
+          "hanviet": "Cộng Minh",
+          "meaning_vi": "đồng cảm, tiếng vang, cộng hưởng",
+          "hsk": 7,
+          "word_id": "hsk7_1413"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "先",
+          "pinyin": "xiān",
+          "hanviet": "Tiên",
+          "meaning_vi": "trước",
+          "hsk": 3,
+          "word_id": "hsk3_238"
+        },
+        {
+          "text": "贤"
+        },
+        {
+          "text": "圣"
+        },
+        {
+          "text": "哲"
+        },
+        {
+          "text": "进行",
+          "pinyin": "jìnxíng",
+          "hanviet": "Tiến Hành",
+          "meaning_vi": "tiến hành",
+          "hsk": 4,
+          "word_id": "hsk4_227"
+        },
+        {
+          "text": "深切",
+          "pinyin": "shēnqiè",
+          "hanviet": "Thâm Tiếp",
+          "meaning_vi": "sâu sắc; sâu đậm",
+          "hsk": 7,
+          "word_id": "hsk7_3572"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "心灵",
+          "pinyin": "xīnlíng",
+          "hanviet": "Tâm Linh",
+          "meaning_vi": "tâm hồn",
+          "hsk": 6,
+          "word_id": "hsk6_2250"
+        },
+        {
+          "text": "独",
+          "pinyin": "dú",
+          "hanviet": "Độc",
+          "meaning_vi": "riêng, duy nhất, một mình",
+          "hsk": 7,
+          "word_id": "hsk7_963"
+        },
+        {
+          "text": "白",
+          "pinyin": "bái",
+          "hanviet": "Bạch",
+          "meaning_vi": "trắng",
+          "hsk": 2,
+          "word_id": "hsk2_2"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "琴曲中所寄托的清正和雅与傲骨铮铮，生动诠释了士人阶层宁折不弯的精神品格与独立人格。",
+      "pinyin": "Qínqǔ zhōng suǒ jìtuō de qīngzhèng hé yǎ yǔ àogǔ-zhēngzhēng, shēngdòng quánshì le shìrén jiēcéng nìngzhé-bùwān de jīngshén pǐngé yǔ dúlì réngé.",
+      "vi": "Sự thanh chính hòa nhã cùng cốt cách ngạo nghễ kiên cường gửi gắm trong khúc nhạc giải thích sống động phẩm cách tinh thần thà gãy không cong của tầng lớp kẻ sĩ.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "琴",
+          "pinyin": "qín",
+          "hanviet": "Cầm",
+          "meaning_vi": "đàn (nhạc cụ)",
+          "hsk": 4,
+          "word_id": "hsk4_585"
+        },
+        {
+          "text": "曲",
+          "pinyin": "qǔ",
+          "hanviet": "Khúc",
+          "meaning_vi": "khúc ca, bài hát, giai điệu",
+          "hsk": 6,
+          "word_id": "hsk6_1075"
+        },
+        {
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
+        },
+        {
+          "text": "所",
+          "pinyin": "suǒ",
+          "hanviet": "Sở",
+          "meaning_vi": "nơi, sở (lượng từ tổ chức)",
+          "hsk": 5,
+          "word_id": "hsk5_1095"
+        },
+        {
+          "text": "寄托",
+          "pinyin": "jìtuō",
+          "hanviet": "Ký Thác",
+          "meaning_vi": "gửi gắm, ký thác",
+          "hsk": 6,
+          "word_id": "hsk6_1136"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "清",
+          "pinyin": "qīng",
+          "hanviet": "Thanh",
+          "meaning_vi": "trong vắt, trong trẻo; thanh toán",
+          "hsk": 6,
+          "word_id": "hsk6_1052"
+        },
+        {
+          "text": "正",
+          "pinyin": "zhèng",
+          "hanviet": "Chinh",
+          "meaning_vi": "vừa, đang (trạng từ)",
+          "hsk": 5,
+          "word_id": "hsk5_597"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "雅"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "傲",
+          "pinyin": "ào",
+          "hanviet": "Ngạo",
+          "meaning_vi": "kiêu ngạo, ngạo nghễ",
+          "hsk": 7,
+          "word_id": "hsk7_31"
+        },
+        {
+          "text": "骨"
+        },
+        {
+          "text": "铮"
+        },
+        {
+          "text": "铮"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "生动",
+          "pinyin": "shēngdòng",
+          "hanviet": "Sinh Động",
+          "meaning_vi": "sinh động",
+          "hsk": 5,
+          "word_id": "hsk5_414"
+        },
+        {
+          "text": "诠释",
+          "pinyin": "quánshì",
+          "hanviet": "Thuyên Thích",
+          "meaning_vi": "diễn giải; thể hiện sống động",
+          "hsk": 7,
+          "word_id": "hsk7_3368"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "士"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "阶层",
+          "pinyin": "jiēcéng",
+          "hanviet": "Giai Tầng",
+          "meaning_vi": "tầng lớp, giai tầng",
+          "hsk": 7,
+          "word_id": "hsk7_2070"
+        },
+        {
+          "text": "宁"
+        },
+        {
+          "text": "折",
+          "pinyin": "zhé",
+          "hanviet": "Chiết",
+          "meaning_vi": "gấp, gập, bẻ gãy",
+          "hsk": 6,
+          "word_id": "hsk6_1675"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "弯",
+          "pinyin": "wān",
+          "hanviet": "Loan",
+          "meaning_vi": "cong; cúi (người); khúc cua",
+          "hsk": 5,
+          "word_id": "hsk5_1172"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "精神",
+          "pinyin": "jīngshén",
+          "hanviet": "Tinh Thần",
+          "meaning_vi": "tinh thần",
+          "hsk": 5,
+          "word_id": "hsk5_258"
+        },
+        {
+          "text": "品",
+          "pinyin": "pǐn",
+          "hanviet": "Phẩm",
+          "meaning_vi": "nếm, thưởng thức; phẩm chất",
+          "hsk": 5,
+          "word_id": "hsk5_832"
+        },
+        {
+          "text": "格"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "独立",
+          "pinyin": "dúlì",
+          "hanviet": "Độc Lập",
+          "meaning_vi": "độc lập",
+          "hsk": 5,
+          "word_id": "hsk5_757"
+        },
+        {
+          "text": "人格",
+          "pinyin": "réngé",
+          "hanviet": "Nhân Cách",
+          "meaning_vi": "nhân cách",
+          "hsk": 6,
+          "word_id": "hsk6_1766"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "静听一曲高山流水，不仅是一场听觉的纯化，更是浮华尘世中唤醒士人风骨的精神归宿。",
+      "pinyin": "Jìngtīng yì qǔ Gāoshān Liúshuǐ, bùjǐn shì yì chǎng tīngjué de chúnhuà, gèng shì fúhuá chénshì zhōng huànxǐng shìrén fēnggǔ de jīngshén guīsù.",
+      "vi": "Tĩnh tâm lắng nghe khúc 'Cao Sơn Lưu Thủy' không chỉ là sự gạn lọc thính giác mà còn là chốn về tinh thần thức tỉnh cốt cách văn nhân giữa cõi trần phù hoa.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "静",
+          "pinyin": "jìng",
+          "hanviet": "Tĩnh",
+          "meaning_vi": "yên tĩnh, tĩnh lặng",
+          "hsk": 5,
+          "word_id": "hsk5_626"
+        },
+        {
+          "text": "听",
+          "pinyin": "tīng",
+          "hanviet": "Dẫn",
+          "meaning_vi": "nghe",
+          "hsk": 1,
+          "word_id": "hsk1_108"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "曲",
+          "pinyin": "qǔ",
+          "hanviet": "Khúc",
+          "meaning_vi": "khúc ca, bài hát, giai điệu",
+          "hsk": 6,
+          "word_id": "hsk6_1075"
+        },
+        {
+          "text": "高",
+          "pinyin": "gāo",
+          "hanviet": "Cao",
+          "meaning_vi": "cao",
+          "hsk": 2,
+          "word_id": "hsk2_29"
+        },
+        {
+          "text": "山",
+          "pinyin": "shān",
+          "hanviet": "Sơn",
+          "meaning_vi": "núi",
+          "hsk": 3,
+          "word_id": "hsk3_905"
+        },
+        {
+          "text": "流水",
+          "pinyin": "liúshuǐ",
+          "hanviet": "Lưu Thuỷ",
+          "meaning_vi": "nước chảy",
+          "hsk": 7,
+          "word_id": "hsk7_2658"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "不仅",
+          "pinyin": "bùjǐn",
+          "hanviet": "Bất Cận",
+          "meaning_vi": "không chỉ",
+          "hsk": 4,
+          "word_id": "hsk4_31"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "场",
+          "pinyin": "chǎng",
+          "hanviet": "Tràng",
+          "meaning_vi": "bãi, sân (lượng từ)",
+          "hsk": 4,
+          "word_id": "hsk4_42"
+        },
+        {
+          "text": "听觉",
+          "pinyin": "tīngjué",
+          "hanviet": "Thính Giác",
+          "meaning_vi": "thính giác",
+          "hsk": 6,
+          "word_id": "hsk6_1301"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "纯",
+          "pinyin": "chún",
+          "hanviet": "Thuần",
+          "meaning_vi": "nguyên chất, thuần khiết, đơn thuần",
+          "hsk": 6,
+          "word_id": "hsk6_217"
+        },
+        {
+          "text": "化",
+          "pinyin": "huà",
+          "hanviet": "Hoa",
+          "meaning_vi": "hóa (-ize); tan chảy, biến đổi",
+          "hsk": 5,
+          "word_id": "hsk5_497"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "更",
+          "pinyin": "gèng",
+          "hanviet": "Canh",
+          "meaning_vi": "càng, hơn",
+          "hsk": 3,
+          "word_id": "hsk3_79"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "浮",
+          "pinyin": "fú",
+          "hanviet": "Phù",
+          "meaning_vi": "nổi, trôi nổi",
+          "hsk": 6,
+          "word_id": "hsk6_399"
+        },
+        {
+          "text": "华"
+        },
+        {
+          "text": "尘"
+        },
+        {
+          "text": "世"
+        },
+        {
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
+        },
+        {
+          "text": "唤醒",
+          "pinyin": "huànxǐng",
+          "hanviet": "Hoán Tỉnh",
+          "meaning_vi": "đánh thức, thức tỉnh",
+          "hsk": 7,
+          "word_id": "hsk7_1755"
+        },
+        {
+          "text": "士"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "风",
+          "pinyin": "fēng",
+          "hanviet": "Phong",
+          "meaning_vi": "gió",
+          "hsk": 3,
+          "word_id": "hsk3_723"
+        },
+        {
+          "text": "骨"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "精神",
+          "pinyin": "jīngshén",
+          "hanviet": "Tinh Thần",
+          "meaning_vi": "tinh thần",
+          "hsk": 5,
+          "word_id": "hsk5_258"
+        },
+        {
+          "text": "归宿",
+          "pinyin": "guīsù",
+          "hanviet": "Quy Túc",
+          "meaning_vi": "nơi quay về, kết cục",
+          "hsk": 6,
+          "word_id": "hsk6_1008"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk5_422",
+    "hsk4_585",
+    "hsk3_231",
+    "hsk4_475",
+    "hsk7_3293",
+    "hsk1_102",
+    "hsk4_563",
+    "hsk5_434",
+    "hsk5_1083",
+    "hsk2_84",
+    "hsk1_74",
+    "hsk1_53",
+    "hsk5_426",
+    "hsk3_16",
+    "hsk1_143"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Vị trí và ý nghĩa của cổ cầm trong đời sống văn nhân cổ đại là gì?",
+      "options_vi": [
+        "Dùng để hòa tấu ngoài chợ",
+        "Đứng đầu tứ nghệ, là nhạc cụ tao nhã giúp rèn luyện khí tiết và đối thoại nội tâm",
+        "Đồ chơi của trẻ con"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 位列琴棋书画四艺之首，被视作砥砺操守、抒发幽思的雅乐圣器."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Mục đích cốt lõi của người gảy cổ cầm (抚琴) là gì?",
+      "options_vi": [
+        "Kiếm tiền bán vé",
+        "Không nhằm mua vui thính giả mà để giao cảm với non sông và độc thoại tâm hồn với thánh hiền",
+        "Làm ồn xung quanh"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 并非为了取悦听众，而是与山川明月共鸣、与先贤圣哲进行心灵独白."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Khúc cầm 'Cao Sơn Lưu Thủy' gửi gắm phẩm chất gì của bậc trí thức xưa?",
+      "options_vi": [
+        "Tính tham lam danh vọng",
+        "Khí phách thà gãy không cong, trong sạch hòa nhã và nhân cách độc lập",
+        "Sự phục tùng quyền lực vô điều kiện"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 清正和雅与傲骨铮铮，宁折不弯的精神品格与独立人格."
+    }
+  ]
+}

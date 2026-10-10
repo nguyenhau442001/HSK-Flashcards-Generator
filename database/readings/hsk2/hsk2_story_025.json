@@ -1,0 +1,582 @@
+{
+  "id": "hsk2_story_025",
+  "level": "HSK2",
+  "title": {
+    "zh": "虽然累但是很高兴",
+    "vi": "Tuy mệt nhưng rất vui"
+  },
+  "topic": "daily_life",
+  "topic_vi": "Đời sống",
+  "icon": "😊",
+  "estimatedMinutes": 3,
+  "description_vi": "Cả ngày cùng nhau tổng vệ sinh nhà cửa đón chào năm mới tuy mệt nhoài mà ai nấy đều rạng rỡ.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "快过年了，今天我们全家一起大扫除。",
+      "pinyin": "Kuài guònián le, jīntiān wǒmen quán jiā yìqǐ dàsǎochú.",
+      "vi": "Sắp Tết rồi, hôm nay cả nhà chúng tôi cùng nhau tổng vệ sinh.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "快",
+          "pinyin": "kuài",
+          "hanviet": "Khoái",
+          "meaning_vi": "nhanh",
+          "hsk": 2,
+          "word_id": "hsk2_59"
+        },
+        {
+          "text": "过年",
+          "pinyin": "guònián",
+          "hanviet": "Quá Niên",
+          "meaning_vi": "năm mới",
+          "hsk": 2,
+          "word_id": "hsk2_349"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "今天",
+          "pinyin": "jīntiān",
+          "hanviet": "Kim Thiên",
+          "meaning_vi": "hôm nay",
+          "hsk": 1,
+          "word_id": "hsk1_47"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "全",
+          "pinyin": "quán",
+          "hanviet": "Toàn",
+          "meaning_vi": "toàn bộ, đầy đủ; hoàn toàn",
+          "hsk": 4,
+          "word_id": "hsk4_598"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "一起",
+          "pinyin": "yīqǐ",
+          "hanviet": "Nhất Khởi",
+          "meaning_vi": "cùng nhau",
+          "hsk": 2,
+          "word_id": "hsk2_130"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "扫除",
+          "pinyin": "sǎochú",
+          "hanviet": "Tảo Trừ",
+          "meaning_vi": "quét sạch; dẹp tan",
+          "hsk": 7,
+          "word_id": "hsk7_3487"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "爸爸擦窗户，妈妈扫地，我洗衣服。",
+      "pinyin": "Bàba cā chuānghu, māma sǎo dì, wǒ xǐ yīfu.",
+      "vi": "Bố lau cửa sổ, mẹ quét nhà, còn tôi giặt quần áo.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "爸爸",
+          "pinyin": "bàba",
+          "hanviet": "Ba Ba",
+          "meaning_vi": "ba, bố",
+          "hsk": 1,
+          "word_id": "hsk1_3"
+        },
+        {
+          "text": "擦",
+          "pinyin": "cā",
+          "hanviet": "Sát",
+          "meaning_vi": "lau, chùi",
+          "hsk": 4,
+          "word_id": "hsk4_33"
+        },
+        {
+          "text": "窗户",
+          "pinyin": "chuānghu",
+          "hanviet": "Song Hộ",
+          "meaning_vi": "cửa sổ",
+          "hsk": 4,
+          "word_id": "hsk4_58"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "妈妈",
+          "pinyin": "māma",
+          "hanviet": "Ma Ma",
+          "meaning_vi": "mẹ",
+          "hsk": 1,
+          "word_id": "hsk1_60"
+        },
+        {
+          "text": "扫",
+          "pinyin": "sǎo",
+          "hanviet": "Tảo",
+          "meaning_vi": "quét",
+          "hsk": 3,
+          "word_id": "hsk3_903"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "洗",
+          "pinyin": "xǐ",
+          "hanviet": "Tẩy",
+          "meaning_vi": "rửa, tắm giặt",
+          "hsk": 2,
+          "word_id": "hsk2_115"
+        },
+        {
+          "text": "衣服",
+          "pinyin": "yīfu",
+          "hanviet": "Y Phục",
+          "meaning_vi": "quần áo",
+          "hsk": 1,
+          "word_id": "hsk1_134"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "我们从早上八点一直忙到下午三点。",
+      "pinyin": "Wǒmen cóng zǎoshang bā diǎn yìzhí máng dào xiàwǔ sān diǎn.",
+      "vi": "Chúng tôi bận rộn từ tám giờ sáng cho đến tận ba giờ chiều.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "从",
+          "pinyin": "cóng",
+          "hanviet": "Tòng",
+          "meaning_vi": "từ",
+          "hsk": 2,
+          "word_id": "hsk2_14"
+        },
+        {
+          "text": "早上",
+          "pinyin": "zǎoshang",
+          "hanviet": "Tảo Thướng",
+          "meaning_vi": "buổi sáng sớm",
+          "hsk": 2,
+          "word_id": "hsk2_140"
+        },
+        {
+          "text": "八",
+          "pinyin": "bā",
+          "hanviet": "Bát",
+          "meaning_vi": "tám",
+          "hsk": 1,
+          "word_id": "hsk1_2"
+        },
+        {
+          "text": "点",
+          "pinyin": "diǎn",
+          "hanviet": "Điểm",
+          "meaning_vi": "giờ, điểm",
+          "hsk": 1,
+          "word_id": "hsk1_16"
+        },
+        {
+          "text": "一直",
+          "pinyin": "yìzhí",
+          "hanviet": "Nhất Trực",
+          "meaning_vi": "luôn luôn, thẳng",
+          "hsk": 3,
+          "word_id": "hsk3_261"
+        },
+        {
+          "text": "忙",
+          "pinyin": "máng",
+          "hanviet": "Mang",
+          "meaning_vi": "bận",
+          "hsk": 2,
+          "word_id": "hsk2_69"
+        },
+        {
+          "text": "到",
+          "pinyin": "dào",
+          "hanviet": "Đáo",
+          "meaning_vi": "đến",
+          "hsk": 2,
+          "word_id": "hsk2_18"
+        },
+        {
+          "text": "下午",
+          "pinyin": "xiàwǔ",
+          "hanviet": "Hạ Ngọ",
+          "meaning_vi": "buổi chiều",
+          "hsk": 1,
+          "word_id": "hsk1_116"
+        },
+        {
+          "text": "三",
+          "pinyin": "sān",
+          "hanviet": "Tam",
+          "meaning_vi": "ba",
+          "hsk": 1,
+          "word_id": "hsk1_87"
+        },
+        {
+          "text": "点",
+          "pinyin": "diǎn",
+          "hanviet": "Điểm",
+          "meaning_vi": "giờ, điểm",
+          "hsk": 1,
+          "word_id": "hsk1_16"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "看着干干净净、明亮漂亮的家，大家笑了。",
+      "pinyin": "Kàn zhe gāngānjìngjìng, míngliàng piàoliang de jiā, dàjiā xiào le.",
+      "vi": "Ngắm nhìn ngôi nhà sạch bong sáng sủa xinh đẹp, ai nấy đều mỉm cười.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "看",
+          "pinyin": "kàn",
+          "hanviet": "Khán",
+          "meaning_vi": "nhìn, xem",
+          "hsk": 1,
+          "word_id": "hsk1_50"
+        },
+        {
+          "text": "着",
+          "pinyin": "zhe",
+          "hanviet": "Trước",
+          "meaning_vi": "đang (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_143"
+        },
+        {
+          "text": "干",
+          "pinyin": "gān",
+          "hanviet": "Can",
+          "meaning_vi": "khô",
+          "hsk": 4,
+          "word_id": "hsk4_136"
+        },
+        {
+          "text": "干净",
+          "pinyin": "gānjìng",
+          "hanviet": "Can Tịnh",
+          "meaning_vi": "sạch sẽ",
+          "hsk": 3,
+          "word_id": "hsk3_72"
+        },
+        {
+          "text": "净",
+          "pinyin": "jìng",
+          "hanviet": "Tịnh",
+          "meaning_vi": "sạch sẽ, thanh tịnh; chỉ toàn (thuần)",
+          "hsk": 6,
+          "word_id": "hsk6_727"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "明亮",
+          "pinyin": "míngliàng",
+          "hanviet": "Minh Lượng",
+          "meaning_vi": "sáng sủa, sáng ngời",
+          "hsk": 6,
+          "word_id": "hsk6_925"
+        },
+        {
+          "text": "漂亮",
+          "pinyin": "piàoliang",
+          "hanviet": "Phiêu Lượng",
+          "meaning_vi": "đẹp",
+          "hsk": 1,
+          "word_id": "hsk1_77"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "大家",
+          "pinyin": "dàjiā",
+          "hanviet": "Đại Gia",
+          "meaning_vi": "mọi người",
+          "hsk": 2,
+          "word_id": "hsk2_17"
+        },
+        {
+          "text": "笑",
+          "pinyin": "xiào",
+          "hanviet": "Tiếu",
+          "meaning_vi": "cười",
+          "hsk": 2,
+          "word_id": "hsk2_117"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "虽然忙了一整天特别累，但是心里真高兴。",
+      "pinyin": "Suīrán máng le yì zhěng tiān tèbié lèi, dànshì xīnlǐ zhēn gāoxìng.",
+      "vi": "Tuy bận suốt cả ngày đặc biệt mệt, nhưng trong lòng thực sự rất vui.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "虽然",
+          "pinyin": "suīrán",
+          "hanviet": "Tuy Nhiên",
+          "meaning_vi": "mặc dù",
+          "hsk": 2,
+          "word_id": "hsk2_438"
+        },
+        {
+          "text": "忙",
+          "pinyin": "máng",
+          "hanviet": "Mang",
+          "meaning_vi": "bận",
+          "hsk": 2,
+          "word_id": "hsk2_69"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "整",
+          "pinyin": "zhěng",
+          "hanviet": "Chỉnh",
+          "meaning_vi": "cả, nguyên, tròn",
+          "hsk": 4,
+          "word_id": "hsk4_928"
+        },
+        {
+          "text": "天",
+          "pinyin": "tiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "trời (danh từ, định lượng)",
+          "hsk": 1,
+          "word_id": "hsk1_573"
+        },
+        {
+          "text": "特别",
+          "pinyin": "tèbié",
+          "hanviet": "Đặc Biệt",
+          "meaning_vi": "đặc biệt",
+          "hsk": 3,
+          "word_id": "hsk3_213"
+        },
+        {
+          "text": "累",
+          "pinyin": "lèi",
+          "hanviet": "Luỵ",
+          "meaning_vi": "mệt",
+          "hsk": 2,
+          "word_id": "hsk2_61"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "但是",
+          "pinyin": "dànshì",
+          "hanviet": "Đãn Thị",
+          "meaning_vi": "nhưng",
+          "hsk": 2,
+          "word_id": "hsk2_331"
+        },
+        {
+          "text": "心里",
+          "pinyin": "xīnlǐ",
+          "hanviet": "Tâm Lý",
+          "meaning_vi": "trong lòng",
+          "hsk": 3,
+          "word_id": "hsk3_981"
+        },
+        {
+          "text": "真",
+          "pinyin": "zhēn",
+          "hanviet": "Chân",
+          "meaning_vi": "thật, thực sự",
+          "hsk": 2,
+          "word_id": "hsk2_144"
+        },
+        {
+          "text": "高兴",
+          "pinyin": "gāoxìng",
+          "hanviet": "Cao Hứng",
+          "meaning_vi": "vui, vui mừng",
+          "hsk": 1,
+          "word_id": "hsk1_31"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk2_59",
+    "hsk2_349",
+    "hsk1_55",
+    "hsk1_47",
+    "hsk1_112",
+    "hsk4_598",
+    "hsk1_45",
+    "hsk2_130",
+    "hsk1_14",
+    "hsk7_3487",
+    "hsk1_3",
+    "hsk4_33",
+    "hsk4_58",
+    "hsk1_60",
+    "hsk3_903"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Cả gia đình làm việc gì trong ngày hôm nay?",
+      "options_vi": [
+        "Đi mua sắm Tết",
+        "Cùng nhau tổng vệ sinh nhà cửa",
+        "Đi dã ngoại"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 今天我们全家一起大扫除 (Hôm nay cả nhà chúng tôi cùng nhau tổng vệ sinh)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Công việc của nhân vật chính được phân công là gì?",
+      "options_vi": [
+        "Lau cửa sổ",
+        "Quét nhà",
+        "Giặt quần áo"
+      ],
+      "answer": 2,
+      "explanation_vi": "Trong bài có câu: 爸爸擦窗户，妈妈扫地，我洗衣服 (Bố lau cửa sổ, mẹ quét nhà, tôi giặt đồ)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Cảm xúc của các thành viên trong gia đình sau khi hoàn thành là gì?",
+      "options_vi": [
+        "Bực bội vì tốn sức",
+        "Tuy mệt nhưng trong lòng thật sự rất vui",
+        "Buồn bã"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 虽然忙了一整天特别累，但是心里真高兴 (Tuy mệt nhưng trong lòng rất vui)."
+    }
+  ]
+}

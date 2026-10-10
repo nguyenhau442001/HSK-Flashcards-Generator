@@ -1,0 +1,569 @@
+{
+  "id": "hsk2_story_034",
+  "level": "HSK2",
+  "title": {
+    "zh": "介绍一位新同事",
+    "vi": "Giới thiệu một người đồng nghiệp mới"
+  },
+  "topic": "work",
+  "topic_vi": "Công việc",
+  "icon": "🤝",
+  "estimatedMinutes": 3,
+  "description_vi": "Buổi họp đầu tuần chào đón thành viên mới gia nhập phòng ban với sự nhiệt tình và cởi mở.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "在今天早上的例会上，经理向大家介绍了一位新同事。",
+      "pinyin": "Zài jīntiān zǎoshang de lìhuì shang, jīnglǐ xiàng dàjiā jièshào le yí wèi xīn tóngshì.",
+      "vi": "Trong cuộc họp định kỳ sáng nay, giám đốc đã giới thiệu một đồng nghiệp mới với mọi người.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "今天",
+          "pinyin": "jīntiān",
+          "hanviet": "Kim Thiên",
+          "meaning_vi": "hôm nay",
+          "hsk": 1,
+          "word_id": "hsk1_47"
+        },
+        {
+          "text": "早上",
+          "pinyin": "zǎoshang",
+          "hanviet": "Tảo Thướng",
+          "meaning_vi": "buổi sáng sớm",
+          "hsk": 2,
+          "word_id": "hsk2_140"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "例"
+        },
+        {
+          "text": "会",
+          "pinyin": "huì",
+          "hanviet": "Hội",
+          "meaning_vi": "biết, sẽ",
+          "hsk": 1,
+          "word_id": "hsk1_43"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "经理",
+          "pinyin": "jīnglǐ",
+          "hanviet": "Kinh Lý",
+          "meaning_vi": "giám đốc, quản lý",
+          "hsk": 3,
+          "word_id": "hsk3_131"
+        },
+        {
+          "text": "向",
+          "pinyin": "xiàng",
+          "hanviet": "Hướng",
+          "meaning_vi": "hướng về, về phía",
+          "hsk": 3,
+          "word_id": "hsk3_241"
+        },
+        {
+          "text": "大家",
+          "pinyin": "dàjiā",
+          "hanviet": "Đại Gia",
+          "meaning_vi": "mọi người",
+          "hsk": 2,
+          "word_id": "hsk2_17"
+        },
+        {
+          "text": "介绍",
+          "pinyin": "jièshào",
+          "hanviet": "Giới Thiệu",
+          "meaning_vi": "giới thiệu",
+          "hsk": 2,
+          "word_id": "hsk2_48"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "位",
+          "pinyin": "wèi",
+          "hanviet": "Vị",
+          "meaning_vi": "vị (lượng từ kính trọng)",
+          "hsk": 3,
+          "word_id": "hsk3_231"
+        },
+        {
+          "text": "新",
+          "pinyin": "xīn",
+          "hanviet": "Tân",
+          "meaning_vi": "mới",
+          "hsk": 2,
+          "word_id": "hsk2_118"
+        },
+        {
+          "text": "同事",
+          "pinyin": "tóngshì",
+          "hanviet": "Đồng Sự",
+          "meaning_vi": "đồng nghiệp",
+          "hsk": 3,
+          "word_id": "hsk3_219"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "他叫张伟，以前在一家知名网络公司工作。",
+      "pinyin": "Tā jiào Zhāng Wěi, yǐqián zài yì jiā zhīmíng wǎngluò gōngsī gōngzuò.",
+      "vi": "Cậu ấy tên là Trương Vĩ, trước đây từng làm việc ở một công ty mạng nổi tiếng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "他",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "anh ấy, nó",
+          "hsk": 1,
+          "word_id": "hsk1_104"
+        },
+        {
+          "text": "叫",
+          "pinyin": "jiào",
+          "hanviet": "Khiếu",
+          "meaning_vi": "gọi là, tên là",
+          "hsk": 1,
+          "word_id": "hsk1_46"
+        },
+        {
+          "text": "张",
+          "pinyin": "zhāng",
+          "hanviet": "Trương",
+          "meaning_vi": "tấm, tờ (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_277"
+        },
+        {
+          "text": "伟"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "以前",
+          "pinyin": "yǐqián",
+          "hanviet": "Dĩ Tiền",
+          "meaning_vi": "trước đây",
+          "hsk": 3,
+          "word_id": "hsk3_258"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "知名",
+          "pinyin": "zhīmíng",
+          "hanviet": "Tri Danh",
+          "meaning_vi": "nổi tiếng, có tiếng tăm",
+          "hsk": 5,
+          "word_id": "hsk5_1500"
+        },
+        {
+          "text": "网络",
+          "pinyin": "wǎngluò",
+          "hanviet": "Võng Lạc",
+          "meaning_vi": "mạng, internet",
+          "hsk": 5,
+          "word_id": "hsk5_1125"
+        },
+        {
+          "text": "公司",
+          "pinyin": "gōngsī",
+          "hanviet": "Công Ty",
+          "meaning_vi": "công ty",
+          "hsk": 2,
+          "word_id": "hsk2_34"
+        },
+        {
+          "text": "工作",
+          "pinyin": "gōngzuò",
+          "hanviet": "Công Tác",
+          "meaning_vi": "công việc, làm việc",
+          "hsk": 1,
+          "word_id": "hsk1_33"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "张伟性格开朗，说话非常有礼貌。",
+      "pinyin": "Zhāng Wěi xìnggé kāilǎng, shuōhuà fēicháng yǒu lǐmào.",
+      "vi": "Trương Vĩ tính cách cởi mở, nói năng vô cùng lịch thiệp.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "张",
+          "pinyin": "zhāng",
+          "hanviet": "Trương",
+          "meaning_vi": "tấm, tờ (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_277"
+        },
+        {
+          "text": "伟"
+        },
+        {
+          "text": "性格",
+          "pinyin": "xìnggé",
+          "hanviet": "Tính Cách",
+          "meaning_vi": "tính cách",
+          "hsk": 4,
+          "word_id": "hsk4_486"
+        },
+        {
+          "text": "开朗",
+          "pinyin": "kāilǎng",
+          "hanviet": "Khai Lãng",
+          "meaning_vi": "cởi mở, vui vẻ (tính cách)",
+          "hsk": 6,
+          "word_id": "hsk6_1292"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "说话",
+          "pinyin": "shuōhuà",
+          "hanviet": "Thuyết Thoại",
+          "meaning_vi": "nói chuyện",
+          "hsk": 2,
+          "word_id": "hsk2_98"
+        },
+        {
+          "text": "非常",
+          "pinyin": "fēicháng",
+          "hanviet": "Phi Thường",
+          "meaning_vi": "rất, vô cùng",
+          "hsk": 2,
+          "word_id": "hsk2_27"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "礼貌",
+          "pinyin": "lǐmào",
+          "hanviet": "Lễ Mạo",
+          "meaning_vi": "lễ độ, phép tắc",
+          "hsk": 4,
+          "word_id": "hsk4_280"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "他今后将负责我们部门的市场推广工作。",
+      "pinyin": "Tā jīnhòu jiāng fùzé wǒmen bùmén de shìchǎng tuīguǎng gōngzuò.",
+      "vi": "Từ nay về sau cậu ấy sẽ phụ trách công tác tiếp thị quảng bá của bộ phận chúng tôi.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "他",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "anh ấy, nó",
+          "hsk": 1,
+          "word_id": "hsk1_104"
+        },
+        {
+          "text": "今后",
+          "pinyin": "jīnhòu",
+          "hanviet": "Kim Hậu",
+          "meaning_vi": "từ nay về sau, sau này",
+          "hsk": 4,
+          "word_id": "hsk4_387"
+        },
+        {
+          "text": "将",
+          "pinyin": "jiāng",
+          "hanviet": "Tương",
+          "meaning_vi": "sẽ; đem, lấy (như 把)",
+          "hsk": 4,
+          "word_id": "hsk4_356"
+        },
+        {
+          "text": "负责",
+          "pinyin": "fùzé",
+          "hanviet": "Phụ Trách",
+          "meaning_vi": "chịu trách nhiệm",
+          "hsk": 4,
+          "word_id": "hsk4_127"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "部门",
+          "pinyin": "bùmén",
+          "hanviet": "Bộ Môn",
+          "meaning_vi": "bộ phận, phòng ban",
+          "hsk": 5,
+          "word_id": "hsk5_36"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "市场",
+          "pinyin": "shìchǎng",
+          "hanviet": "Thị Trường",
+          "meaning_vi": "thị trường, chợ",
+          "hsk": 5,
+          "word_id": "hsk5_428"
+        },
+        {
+          "text": "推广",
+          "pinyin": "tuīguǎng",
+          "hanviet": "Suy Nghiễm",
+          "meaning_vi": "quảng bá, phổ biến rộng",
+          "hsk": 5,
+          "word_id": "hsk5_1117"
+        },
+        {
+          "text": "工作",
+          "pinyin": "gōngzuò",
+          "hanviet": "Công Tác",
+          "meaning_vi": "công việc, làm việc",
+          "hsk": 1,
+          "word_id": "hsk1_33"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "大家纷纷鼓掌，热情地欢迎他的加入。",
+      "pinyin": "Dàjiā fēnfēn gǔzhǎng, rèqíng de huānyíng tā de jiārù.",
+      "vi": "Mọi người tới tấp vỗ tay, nồng nhiệt chào đón sự gia nhập của cậu ấy.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "大家",
+          "pinyin": "dàjiā",
+          "hanviet": "Đại Gia",
+          "meaning_vi": "mọi người",
+          "hsk": 2,
+          "word_id": "hsk2_17"
+        },
+        {
+          "text": "纷纷",
+          "pinyin": "fēnfēn",
+          "hanviet": "Phân Phân",
+          "meaning_vi": "lần lượt, ùn ùn",
+          "hsk": 5,
+          "word_id": "hsk5_781"
+        },
+        {
+          "text": "鼓掌",
+          "pinyin": "gǔzhǎng",
+          "hanviet": "Cổ Chưởng",
+          "meaning_vi": "vỗ tay",
+          "hsk": 5,
+          "word_id": "hsk5_167"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "热情",
+          "pinyin": "rèqíng",
+          "hanviet": "Nhiệt Tình",
+          "meaning_vi": "nhiệt tình",
+          "hsk": 3,
+          "word_id": "hsk3_192"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "欢迎",
+          "pinyin": "huānyíng",
+          "hanviet": "Hoan Nghênh",
+          "meaning_vi": "hoan nghênh, chào mừng",
+          "hsk": 3,
+          "word_id": "hsk3_100"
+        },
+        {
+          "text": "他",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "anh ấy, nó",
+          "hsk": 1,
+          "word_id": "hsk1_104"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "加入",
+          "pinyin": "jiārù",
+          "hanviet": "Gia Nhập",
+          "meaning_vi": "gia nhập, tham gia; cho thêm vào",
+          "hsk": 4,
+          "word_id": "hsk4_338"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk1_139",
+    "hsk1_47",
+    "hsk2_140",
+    "hsk1_15",
+    "hsk1_43",
+    "hsk1_89",
+    "hsk3_131",
+    "hsk3_241",
+    "hsk2_17",
+    "hsk2_48",
+    "hsk1_55",
+    "hsk1_130",
+    "hsk3_231",
+    "hsk2_118",
+    "hsk3_219"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Ai là người giới thiệu đồng nghiệp mới trong cuộc họp?",
+      "options_vi": [
+        "Bảo vệ",
+        "Giám đốc",
+        "Thư ký"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 经理向大家介绍了一位新同事 (Giám đốc giới thiệu đồng nghiệp mới)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Người đồng nghiệp mới tên là gì và từng làm ở đâu?",
+      "options_vi": [
+        "Lý Cương từng làm ngân hàng",
+        "Trương Vĩ từng làm công ty mạng",
+        "Vương Minh từng làm bệnh viện"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 他叫张伟，以前在一家知名网络公司工作 (Cậu ấy tên Trương Vĩ, từng làm ở công ty mạng)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Trương Vĩ sẽ đảm nhận công việc gì trong bộ phận?",
+      "options_vi": [
+        "Quản lý kho",
+        "Tiếp thị thị trường của bộ phận",
+        "Kế toán tài chính"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 他今后将负责我们部门的市场推广工作 (Cậu ấy phụ trách việc tiếp thị của bộ phận)."
+    }
+  ]
+}

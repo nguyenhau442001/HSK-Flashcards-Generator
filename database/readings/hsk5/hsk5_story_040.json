@@ -1,0 +1,1035 @@
+{
+  "id": "hsk5_story_040",
+  "level": "HSK5",
+  "title": {
+    "zh": "现代舞台艺术的跨界创新",
+    "vi": "Đổi mới liên ngành trong nghệ thuật sân khấu đương đại"
+  },
+  "topic": "performing_arts",
+  "topic_vi": "Sân khấu & Nghệ thuật",
+  "icon": "🎭",
+  "estimatedMinutes": 5,
+  "description_vi": "Sự kết hợp giữa kịch nghệ truyền thống, công nghệ kỹ thuật số và vũ đạo hiện đại mang đến diện mạo mới cho sân khấu.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "当古典戏剧与现代多媒体技术在舞台上邂逅碰撞，一场震撼人心的视听盛宴便悄然诞生。",
+      "pinyin": "Dāng gǔdiǎn xìjù yǔ xiàndài duōméitǐ jìshù zài wǔtái shàng xièhòu pèngzhuàng, yì chǎng zhènhàn-rénxīn de shì-tīng shèngyàn biàn qiǎorán dànshēng.",
+      "vi": "Khi hí kịch cổ điển và công nghệ đa phương tiện hiện đại gặp gỡ va chạm trên sân khấu, một bữa tiệc nghe nhìn chấn động lòng người đã lặng lẽ chào đời.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "当",
+          "pinyin": "dāng",
+          "hanviet": "Đương",
+          "meaning_vi": "khi, lúc",
+          "hsk": 4,
+          "word_id": "hsk4_76"
+        },
+        {
+          "text": "古典",
+          "pinyin": "gǔdiǎn",
+          "hanviet": "Cổ Điển",
+          "meaning_vi": "cổ điển",
+          "hsk": 5,
+          "word_id": "hsk5_816"
+        },
+        {
+          "text": "戏剧",
+          "pinyin": "xìjù",
+          "hanviet": "Hí Kịch",
+          "meaning_vi": "kịch, hí kịch",
+          "hsk": 5,
+          "word_id": "hsk5_503"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "现代",
+          "pinyin": "xiàndài",
+          "hanviet": "Hiện Đại",
+          "meaning_vi": "hiện đại",
+          "hsk": 5,
+          "word_id": "hsk5_1155"
+        },
+        {
+          "text": "多媒体",
+          "pinyin": "duōméitǐ",
+          "hanviet": "Đa Môi Thể",
+          "meaning_vi": "đa phương tiện (multimedia)",
+          "hsk": 6,
+          "word_id": "hsk6_338"
+        },
+        {
+          "text": "技术",
+          "pinyin": "jìshù",
+          "hanviet": "Kĩ Thuật/kỹ Thuật",
+          "meaning_vi": "kỹ thuật",
+          "hsk": 4,
+          "word_id": "hsk4_196"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "舞台",
+          "pinyin": "wǔtái",
+          "hanviet": "Vũ Đài",
+          "meaning_vi": "sân khấu",
+          "hsk": 5,
+          "word_id": "hsk5_1213"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "邂"
+        },
+        {
+          "text": "逅"
+        },
+        {
+          "text": "碰撞",
+          "pinyin": "pèngzhuàng",
+          "hanviet": "Bính Tràng",
+          "meaning_vi": "va chạm, đụng độ",
+          "hsk": 6,
+          "word_id": "hsk6_983"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "场",
+          "pinyin": "chǎng",
+          "hanviet": "Tràng",
+          "meaning_vi": "bãi, sân (lượng từ)",
+          "hsk": 4,
+          "word_id": "hsk4_42"
+        },
+        {
+          "text": "震撼",
+          "pinyin": "zhènhàn",
+          "hanviet": "Chấn Hám",
+          "meaning_vi": "chấn động lòng người, rung chuyển sâu sắc",
+          "hsk": 7,
+          "word_id": "hsk7_5231"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "心",
+          "pinyin": "xīn",
+          "hanviet": "Tâm",
+          "meaning_vi": "tim; lòng, tâm",
+          "hsk": 4,
+          "word_id": "hsk4_819"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "视"
+        },
+        {
+          "text": "听",
+          "pinyin": "tīng",
+          "hanviet": "Dẫn",
+          "meaning_vi": "nghe",
+          "hsk": 1,
+          "word_id": "hsk1_108"
+        },
+        {
+          "text": "盛宴",
+          "pinyin": "shèngyàn",
+          "hanviet": "Thịnh Yến",
+          "meaning_vi": "bữa tiệc thịnh soạn; đại tiệc",
+          "hsk": 7,
+          "word_id": "hsk7_3642"
+        },
+        {
+          "text": "便",
+          "pinyin": "biàn",
+          "hanviet": "Tiện",
+          "meaning_vi": "thì, liền (liên từ)",
+          "hsk": 5,
+          "word_id": "hsk5_663"
+        },
+        {
+          "text": "悄"
+        },
+        {
+          "text": "然"
+        },
+        {
+          "text": "诞生",
+          "pinyin": "dànshēng",
+          "hanviet": "Đản Sinh",
+          "meaning_vi": "ra đời, sinh ra",
+          "hsk": 6,
+          "word_id": "hsk6_574"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "传统舞台往往受限于固定的布景道具，而全息投影与三维声效则打破了这一物理空间界限。",
+      "pinyin": "Chuántǒng wǔtái wǎngwǎng shòuxiàn yú gùdìng de bùjǐng dàojù, ér quánxī tóuyǐng yǔ sānwéi shēngxiào zé dǎpò le zhè yì wùlǐ kōngjiān jièxiàn.",
+      "vi": "Sân khấu truyền thống thường bị giới hạn bởi phông cảnh và đạo cụ cố định, trong khi hình chiếu 3D holographic và âm thanh vòm đã phá vỡ ranh giới không gian vật lý này.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "传统",
+          "pinyin": "chuántǒng",
+          "hanviet": "Truyền Thống",
+          "meaning_vi": "truyền thống",
+          "hsk": 5,
+          "word_id": "hsk5_76"
+        },
+        {
+          "text": "舞台",
+          "pinyin": "wǔtái",
+          "hanviet": "Vũ Đài",
+          "meaning_vi": "sân khấu",
+          "hsk": 5,
+          "word_id": "hsk5_1213"
+        },
+        {
+          "text": "往往",
+          "pinyin": "wǎngwǎng",
+          "hanviet": "Vãng Vãng",
+          "meaning_vi": "thường thường",
+          "hsk": 4,
+          "word_id": "hsk4_447"
+        },
+        {
+          "text": "受",
+          "pinyin": "shòu",
+          "hanviet": "Thọ",
+          "meaning_vi": "chịu, bị; nhận",
+          "hsk": 3,
+          "word_id": "hsk3_919"
+        },
+        {
+          "text": "限于",
+          "pinyin": "xiànyú",
+          "hanviet": "Hạn Vu",
+          "meaning_vi": "giới hạn ở, do hạn chế",
+          "hsk": 6,
+          "word_id": "hsk6_1433"
+        },
+        {
+          "text": "固定",
+          "pinyin": "gùdìng",
+          "hanviet": "Cố Định",
+          "meaning_vi": "cố định",
+          "hsk": 5,
+          "word_id": "hsk5_819"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "布",
+          "pinyin": "bù",
+          "hanviet": "Bố",
+          "meaning_vi": "vải",
+          "hsk": 5,
+          "word_id": "hsk5_670"
+        },
+        {
+          "text": "景"
+        },
+        {
+          "text": "道具",
+          "pinyin": "dàojù",
+          "hanviet": "Đạo Cụ",
+          "meaning_vi": "đạo cụ",
+          "hsk": 7,
+          "word_id": "hsk7_806"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "而",
+          "pinyin": "ér",
+          "hanviet": "Nhi",
+          "meaning_vi": "mà, và",
+          "hsk": 4,
+          "word_id": "hsk4_103"
+        },
+        {
+          "text": "全",
+          "pinyin": "quán",
+          "hanviet": "Toàn",
+          "meaning_vi": "toàn bộ, đầy đủ; hoàn toàn",
+          "hsk": 4,
+          "word_id": "hsk4_598"
+        },
+        {
+          "text": "息"
+        },
+        {
+          "text": "投",
+          "pinyin": "tóu",
+          "hanviet": "Đầu",
+          "meaning_vi": "ném; bỏ (phiếu); đầu tư",
+          "hsk": 5,
+          "word_id": "hsk5_1147"
+        },
+        {
+          "text": "影"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "三维",
+          "pinyin": "sānwéi",
+          "hanviet": "Tam Duy",
+          "meaning_vi": "ba chiều; không gian 3D",
+          "hsk": 7,
+          "word_id": "hsk7_3479"
+        },
+        {
+          "text": "声",
+          "pinyin": "shēng",
+          "hanviet": "Thanh",
+          "meaning_vi": "tiếng, âm thanh; tiếng (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_910"
+        },
+        {
+          "text": "效"
+        },
+        {
+          "text": "则",
+          "pinyin": "zé",
+          "hanviet": "Tắc",
+          "meaning_vi": "thì, là (liên từ văn viết)",
+          "hsk": 5,
+          "word_id": "hsk5_1229"
+        },
+        {
+          "text": "打破",
+          "pinyin": "dǎpò",
+          "hanviet": "Đả Phá",
+          "meaning_vi": "làm vỡ; phá (kỷ lục)",
+          "hsk": 5,
+          "word_id": "hsk5_216"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "物理",
+          "pinyin": "wùlǐ",
+          "hanviet": "Vật Lí/vật Lý",
+          "meaning_vi": "vật lý",
+          "hsk": 5,
+          "word_id": "hsk5_1147"
+        },
+        {
+          "text": "空间",
+          "pinyin": "kōngjiān",
+          "hanviet": "Không Gian",
+          "meaning_vi": "không gian",
+          "hsk": 5,
+          "word_id": "hsk5_922"
+        },
+        {
+          "text": "界限",
+          "pinyin": "jièxiàn",
+          "hanviet": "Giới Hạn",
+          "meaning_vi": "giới hạn, ranh giới",
+          "hsk": 6,
+          "word_id": "hsk6_1215"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "年轻的编导们大胆将传统戏曲唱腔与现代交响乐、当代舞肢体语言有机融为一体。",
+      "pinyin": "Niánqīng de biāndǎo men dàdǎn jiāng chuántǒng xìqǔ chàngqiāng yǔ xiàndài jiāoxiǎngyuè, dāngdài wǔ zhītǐ yǔyán yǒujī róng wéi yītǐ.",
+      "vi": "Các đạo diễn biên kịch trẻ tuổi táo bạo dung hợp làn điệu tuồng cổ truyền thống cùng nhạc giao hưởng hiện đại và ngôn ngữ hình thể múa đương đại.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "年轻",
+          "pinyin": "niánqīng",
+          "hanviet": "Niên Khinh",
+          "meaning_vi": "trẻ tuổi",
+          "hsk": 3,
+          "word_id": "hsk3_172"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "编",
+          "pinyin": "biān",
+          "hanviet": "Biên",
+          "meaning_vi": "biên soạn; đan dệt; bịa đặt",
+          "hsk": 6,
+          "word_id": "hsk6_54"
+        },
+        {
+          "text": "导"
+        },
+        {
+          "text": "们",
+          "pinyin": "men",
+          "hanviet": "Môn",
+          "meaning_vi": "họ (hậu tố)",
+          "hsk": 1,
+          "word_id": "hsk1_538"
+        },
+        {
+          "text": "大胆",
+          "pinyin": "dàdǎn",
+          "hanviet": "Đại Đảm",
+          "meaning_vi": "mạnh dạn, táo bạo",
+          "hsk": 5,
+          "word_id": "hsk5_218"
+        },
+        {
+          "text": "将",
+          "pinyin": "jiāng",
+          "hanviet": "Tương",
+          "meaning_vi": "sẽ; đem, lấy (như 把)",
+          "hsk": 4,
+          "word_id": "hsk4_356"
+        },
+        {
+          "text": "传统",
+          "pinyin": "chuántǒng",
+          "hanviet": "Truyền Thống",
+          "meaning_vi": "truyền thống",
+          "hsk": 5,
+          "word_id": "hsk5_76"
+        },
+        {
+          "text": "戏曲",
+          "pinyin": "xìqǔ",
+          "hanviet": "Hí Khúc",
+          "meaning_vi": "hí khúc, nghệ thuật sân khấu truyền thống",
+          "hsk": 6,
+          "word_id": "hsk6_1411"
+        },
+        {
+          "text": "唱",
+          "pinyin": "chàng",
+          "hanviet": "Xướng",
+          "meaning_vi": "hát",
+          "hsk": 1,
+          "word_id": "hsk1_504"
+        },
+        {
+          "text": "腔",
+          "pinyin": "qiāng",
+          "hanviet": "Khoang",
+          "meaning_vi": "khoang; xoang (ngực, bụng); giọng điệu",
+          "hsk": 7,
+          "word_id": "hsk7_3245"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "现代",
+          "pinyin": "xiàndài",
+          "hanviet": "Hiện Đại",
+          "meaning_vi": "hiện đại",
+          "hsk": 5,
+          "word_id": "hsk5_1155"
+        },
+        {
+          "text": "交响乐",
+          "pinyin": "jiāoxiǎngyuè",
+          "hanviet": "Giao Hưởng Lạc",
+          "meaning_vi": "nhạc giao hưởng, bản giao hưởng",
+          "hsk": 7,
+          "word_id": "hsk7_2043"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "当代",
+          "pinyin": "dāngdài",
+          "hanviet": "Đương Đại",
+          "meaning_vi": "thời đại hiện nay",
+          "hsk": 6,
+          "word_id": "hsk6_577"
+        },
+        {
+          "text": "舞",
+          "pinyin": "wǔ",
+          "hanviet": "Vũ",
+          "meaning_vi": "múa; nhảy múa",
+          "hsk": 7,
+          "word_id": "hsk7_4341"
+        },
+        {
+          "text": "肢体",
+          "pinyin": "zhītǐ",
+          "hanviet": "Chi Thể",
+          "meaning_vi": "tay chân, tứ chi, thân thể",
+          "hsk": 7,
+          "word_id": "hsk7_5285"
+        },
+        {
+          "text": "语言",
+          "pinyin": "yǔyán",
+          "hanviet": "Ngữ Ngôn",
+          "meaning_vi": "ngôn ngữ",
+          "hsk": 4,
+          "word_id": "hsk4_537"
+        },
+        {
+          "text": "有机",
+          "pinyin": "yǒujī",
+          "hanviet": "Hữu Cơ",
+          "meaning_vi": "hữu cơ",
+          "hsk": 6,
+          "word_id": "hsk6_1603"
+        },
+        {
+          "text": "融",
+          "pinyin": "róng",
+          "hanviet": "Dung",
+          "meaning_vi": "tan chảy; hòa tan",
+          "hsk": 7,
+          "word_id": "hsk7_3434"
+        },
+        {
+          "text": "为",
+          "pinyin": "wèi",
+          "hanviet": "Vi",
+          "meaning_vi": "vì, cho",
+          "hsk": 3,
+          "word_id": "hsk3_229"
+        },
+        {
+          "text": "一体",
+          "pinyin": "yìtǐ",
+          "hanviet": "Nhất Thể",
+          "meaning_vi": "một khối thống nhất, tích hợp đồng bộ",
+          "hsk": 7,
+          "word_id": "hsk7_4880"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "这种新颖独特的表现手法，成功打破了年轻一代对传统舞台艺术枯燥晦涩的刻板印象。",
+      "pinyin": "Zhè zhǒng xīnyǐng dútè de biǎoxiàn shǒufǎ, chénggōng dǎpò le niánqīng yídài duì chuántǒng wǔtái yìshù kūzào huìsè de kèbǎn yìnxiàng.",
+      "vi": "Thủ pháp biểu hiện mới mẻ độc đáo này đã phá vỡ thành công định kiến khô khan khó hiểu của thế hệ trẻ về nghệ thuật sân khấu cổ điển.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "种",
+          "pinyin": "zhǒng",
+          "hanviet": "Chủng",
+          "meaning_vi": "loại, giống (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_289"
+        },
+        {
+          "text": "新颖",
+          "pinyin": "xīnyǐng",
+          "hanviet": "Tân Dĩnh",
+          "meaning_vi": "mới mẻ, độc đáo",
+          "hsk": 6,
+          "word_id": "hsk6_2248"
+        },
+        {
+          "text": "独特",
+          "pinyin": "dútè",
+          "hanviet": "Độc Đặc",
+          "meaning_vi": "độc đáo",
+          "hsk": 5,
+          "word_id": "hsk5_112"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "表现",
+          "pinyin": "biǎoxiàn",
+          "hanviet": "Biểu Hiện",
+          "meaning_vi": "biểu hiện, thể hiện",
+          "hsk": 5,
+          "word_id": "hsk5_26"
+        },
+        {
+          "text": "手法",
+          "pinyin": "shǒufǎ",
+          "hanviet": "Thủ Pháp",
+          "meaning_vi": "kỹ xảo, thủ pháp",
+          "hsk": 6,
+          "word_id": "hsk6_1921"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "成功",
+          "pinyin": "chénggōng",
+          "hanviet": "Thành Công",
+          "meaning_vi": "thành công",
+          "hsk": 4,
+          "word_id": "hsk4_45"
+        },
+        {
+          "text": "打破",
+          "pinyin": "dǎpò",
+          "hanviet": "Đả Phá",
+          "meaning_vi": "làm vỡ; phá (kỷ lục)",
+          "hsk": 5,
+          "word_id": "hsk5_216"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "年轻",
+          "pinyin": "niánqīng",
+          "hanviet": "Niên Khinh",
+          "meaning_vi": "trẻ tuổi",
+          "hsk": 3,
+          "word_id": "hsk3_172"
+        },
+        {
+          "text": "一代",
+          "pinyin": "yídài",
+          "hanviet": "Nhất Đại",
+          "meaning_vi": "một thế hệ",
+          "hsk": 5,
+          "word_id": "hsk5_1353"
+        },
+        {
+          "text": "对",
+          "pinyin": "duì",
+          "hanviet": "Đối",
+          "meaning_vi": "đối với, hướng về (giới từ)",
+          "hsk": 2,
+          "word_id": "hsk2_24"
+        },
+        {
+          "text": "传统",
+          "pinyin": "chuántǒng",
+          "hanviet": "Truyền Thống",
+          "meaning_vi": "truyền thống",
+          "hsk": 5,
+          "word_id": "hsk5_76"
+        },
+        {
+          "text": "舞台",
+          "pinyin": "wǔtái",
+          "hanviet": "Vũ Đài",
+          "meaning_vi": "sân khấu",
+          "hsk": 5,
+          "word_id": "hsk5_1213"
+        },
+        {
+          "text": "艺术",
+          "pinyin": "yìshù",
+          "hanviet": "Nghệ Thuật",
+          "meaning_vi": "nghệ thuật",
+          "hsk": 4,
+          "word_id": "hsk4_515"
+        },
+        {
+          "text": "枯燥",
+          "pinyin": "kūzào",
+          "hanviet": "Khô Táo",
+          "meaning_vi": "khô khan, nhàm chán, tẻ nhạt",
+          "hsk": 6,
+          "word_id": "hsk6_798"
+        },
+        {
+          "text": "晦"
+        },
+        {
+          "text": "涩"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "刻",
+          "pinyin": "kè",
+          "hanviet": "Khắc",
+          "meaning_vi": "khắc (15 phút)",
+          "hsk": 3,
+          "word_id": "hsk3_138"
+        },
+        {
+          "text": "板"
+        },
+        {
+          "text": "印象",
+          "pinyin": "yìnxiàng",
+          "hanviet": "Ấn Tượng",
+          "meaning_vi": "ấn tượng",
+          "hsk": 4,
+          "word_id": "hsk4_518"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "艺术在坚守精神内核的同时勇敢拥抱现代创新，才能在时代的洪流中焕发勃勃生机。",
+      "pinyin": "Yìshù zài jiānshǒu jīngshén nèihé de tóngshí yǒnggǎn yōngbào xiàndài chuàngxīn, cái néng zài shídài de hóngliú zhōng huànfā bóbó shēngjī.",
+      "vi": "Nghệ thuật một khi vừa giữ vững cốt lõi tinh thần vừa dũng cảm đón nhận đổi mới hiện đại mới có thể bừng sáng sức sống dồi dào giữa dòng chảy thời đại.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "艺术",
+          "pinyin": "yìshù",
+          "hanviet": "Nghệ Thuật",
+          "meaning_vi": "nghệ thuật",
+          "hsk": 4,
+          "word_id": "hsk4_515"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "坚守",
+          "pinyin": "jiānshǒu",
+          "hanviet": "Kiên Thủ",
+          "meaning_vi": "kiên trì",
+          "hsk": 7,
+          "word_id": "hsk7_1967"
+        },
+        {
+          "text": "精神",
+          "pinyin": "jīngshén",
+          "hanviet": "Tinh Thần",
+          "meaning_vi": "tinh thần",
+          "hsk": 5,
+          "word_id": "hsk5_258"
+        },
+        {
+          "text": "内",
+          "pinyin": "nèi",
+          "hanviet": "Nội",
+          "meaning_vi": "trong, nội",
+          "hsk": 4,
+          "word_id": "hsk4_314"
+        },
+        {
+          "text": "核",
+          "pinyin": "hé",
+          "hanviet": "Hạch",
+          "meaning_vi": "hột (quả), hạt nhân",
+          "hsk": 7,
+          "word_id": "hsk7_1619"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "同时",
+          "pinyin": "tóngshí",
+          "hanviet": "Đồng Thời",
+          "meaning_vi": "đồng thời",
+          "hsk": 4,
+          "word_id": "hsk4_440"
+        },
+        {
+          "text": "勇敢",
+          "pinyin": "yǒnggǎn",
+          "hanviet": "Dũng Cảm",
+          "meaning_vi": "dũng cảm",
+          "hsk": 4,
+          "word_id": "hsk4_521"
+        },
+        {
+          "text": "拥抱",
+          "pinyin": "yōngbào",
+          "hanviet": "Ủng Bão",
+          "meaning_vi": "ôm, ôm chầm",
+          "hsk": 5,
+          "word_id": "hsk5_1213"
+        },
+        {
+          "text": "现代",
+          "pinyin": "xiàndài",
+          "hanviet": "Hiện Đại",
+          "meaning_vi": "hiện đại",
+          "hsk": 5,
+          "word_id": "hsk5_1155"
+        },
+        {
+          "text": "创新",
+          "pinyin": "chuàngxīn",
+          "hanviet": "Thương Tân",
+          "meaning_vi": "sáng tạo, đổi mới",
+          "hsk": 6,
+          "word_id": "hsk6_467"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "才能",
+          "pinyin": "cáinéng",
+          "hanviet": "Tài Năng",
+          "meaning_vi": "tài năng",
+          "hsk": 6,
+          "word_id": "hsk6_97"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "时代",
+          "pinyin": "shídài",
+          "hanviet": "Thời Đại",
+          "meaning_vi": "thời đại",
+          "hsk": 5,
+          "word_id": "hsk5_419"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "洪"
+        },
+        {
+          "text": "流",
+          "pinyin": "liú",
+          "hanviet": "Lưu",
+          "meaning_vi": "chảy",
+          "hsk": 4,
+          "word_id": "hsk4_483"
+        },
+        {
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
+        },
+        {
+          "text": "焕发",
+          "pinyin": "huànfā",
+          "hanviet": "Hoán Phát",
+          "meaning_vi": "bừng sáng, rạng rỡ, tràn trề",
+          "hsk": 7,
+          "word_id": "hsk7_1750"
+        },
+        {
+          "text": "勃"
+        },
+        {
+          "text": "勃"
+        },
+        {
+          "text": "生机",
+          "pinyin": "shēngjī",
+          "hanviet": "Sinh Cơ",
+          "meaning_vi": "sức sống, sinh khí",
+          "hsk": 6,
+          "word_id": "hsk6_1852"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk4_76",
+    "hsk5_816",
+    "hsk5_503",
+    "hsk4_535",
+    "hsk5_1155",
+    "hsk6_338",
+    "hsk4_196",
+    "hsk1_139",
+    "hsk5_1213",
+    "hsk1_89",
+    "hsk6_983",
+    "hsk1_130",
+    "hsk4_42",
+    "hsk7_5231",
+    "hsk1_85"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Công nghệ nào giúp sân khấu hiện đại vượt qua giới hạn phông cảnh truyền thống?",
+      "options_vi": [
+        "Vẽ tranh tường cố định",
+        "Hình chiếu 3D holographic và hiệu ứng âm thanh vòm",
+        "Tắt hết đèn sân khấu"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 全息投影与三维声效则打破了这一物理空间界限."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Các đạo diễn trẻ đã kết hợp những yếu tố nghệ thuật nào?",
+      "options_vi": [
+        "Chỉ dùng nhạc nước ngoài",
+        "Làn điệu hí kịch truyền thống, nhạc giao hưởng và múa đương đại",
+        "Không dùng âm nhạc"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 将传统戏曲唱腔与现代交响乐、当代舞肢体语言有机融为一体."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Sự đổi mới sân khấu đem lại hiệu quả tích cực nào đối với khán giả trẻ?",
+      "options_vi": [
+        "Làm khán giả rời đi",
+        "Xóa tan định kiến khô khan khó hiểu của thế hệ trẻ về nghệ thuật cổ truyền",
+        "Tăng giá vé gấp nhiều lần"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu có viết: 成功打破了年轻一代对传统舞台艺术枯燥晦涩的刻板印象."
+    }
+  ]
+}

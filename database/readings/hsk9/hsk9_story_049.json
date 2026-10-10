@@ -1,0 +1,1825 @@
+{
+  "id": "hsk9_story_049",
+  "level": "HSK9",
+  "title": {
+    "zh": "进化认识论与科学知识的生长机制",
+    "vi": "Nhận thức luận tiến hóa và cơ chế phát triển tri thức khoa học"
+  },
+  "topic": "evolutionary_epistemology",
+  "topic_vi": "Nhận thức luận",
+  "icon": "🌳",
+  "estimatedMinutes": 5,
+  "description_vi": "Sự tương đồng giữa đột biến gen sinh học và sự xuất hiện của các giả thuyết khoa học: Chọn lọc tự nhiên trong thế giới tư tưởng thế giới 3 của Popper.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "进化认识论将达尔文生物进化论的变异与自然选择机制，开拓性地引申泛化为解释人类人类心智认知架构与科学知识演进的核心范式。",
+      "pinyin": "Jìn huà rèn shí lùn jiāng dá ěr wén shēng wù jìn huà lùn de biàn yì yǔ zì rán xuǎn zé jī zhì, kāi tuò xìng dì yǐn shēn fàn huà wèi jiě shì rén lèi rén lèi xīn zhì rèn zhī jià gòu yǔ kē xué zhī shí yǎn jìn de hé xīn fàn shì.",
+      "vi": "Nhận thức luận tiến hóa đưa cơ chế biến dị và chọn lọc tự nhiên của Darwin vào giải thích cấu trúc nhận thức tâm trí và sự phát triển tri thức khoa học.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "进化",
+          "pinyin": "jìnhuà",
+          "hanviet": "Tiến Hóa",
+          "meaning_vi": "tiến hóa",
+          "hsk": 6,
+          "word_id": "hsk6_709"
+        },
+        {
+          "text": "认识",
+          "pinyin": "rènshi",
+          "hanviet": "Nhận Thức",
+          "meaning_vi": "biết, quen biết",
+          "hsk": 1,
+          "word_id": "hsk1_86"
+        },
+        {
+          "text": "论"
+        },
+        {
+          "text": "将",
+          "pinyin": "jiāng",
+          "hanviet": "Tương",
+          "meaning_vi": "sẽ; đem, lấy (như 把)",
+          "hsk": 4,
+          "word_id": "hsk4_356"
+        },
+        {
+          "text": "达"
+        },
+        {
+          "text": "尔"
+        },
+        {
+          "text": "文",
+          "pinyin": "wén",
+          "hanviet": "Văn",
+          "meaning_vi": "văn tự; chữ viết; văn",
+          "hsk": 7,
+          "word_id": "hsk7_4275"
+        },
+        {
+          "text": "生物",
+          "pinyin": "shēngwù",
+          "hanviet": "Sinh Vật",
+          "meaning_vi": "sinh vật",
+          "hsk": 6,
+          "word_id": "hsk6_1856"
+        },
+        {
+          "text": "进化",
+          "pinyin": "jìnhuà",
+          "hanviet": "Tiến Hóa",
+          "meaning_vi": "tiến hóa",
+          "hsk": 6,
+          "word_id": "hsk6_709"
+        },
+        {
+          "text": "论"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "变异",
+          "pinyin": "biànyì",
+          "hanviet": "Biến Dị",
+          "meaning_vi": "biến dị, đột biến",
+          "hsk": 7,
+          "word_id": "hsk7_228"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "自然",
+          "pinyin": "zìrán",
+          "hanviet": "Tự Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_589"
+        },
+        {
+          "text": "选择",
+          "pinyin": "xuǎnzé",
+          "hanviet": "Tuyển Trạch",
+          "meaning_vi": "lựa chọn",
+          "hsk": 3,
+          "word_id": "hsk3_251"
+        },
+        {
+          "text": "机制",
+          "pinyin": "jīzhì",
+          "hanviet": "Cơ Chế",
+          "meaning_vi": "cơ chế",
+          "hsk": 6,
+          "word_id": "hsk6_1122"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "开拓",
+          "pinyin": "kāituò",
+          "hanviet": "Khai Thác",
+          "meaning_vi": "khai mở, mở rộng",
+          "hsk": 6,
+          "word_id": "hsk6_1293"
+        },
+        {
+          "text": "性",
+          "pinyin": "xìng",
+          "hanviet": "Tính",
+          "meaning_vi": "tính (hậu tố: tính chất)",
+          "hsk": 4,
+          "word_id": "hsk4_828"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "引",
+          "pinyin": "yǐn",
+          "hanviet": "Dẫn",
+          "meaning_vi": "dẫn dắt, trích dẫn, gây nên",
+          "hsk": 6,
+          "word_id": "hsk6_1578"
+        },
+        {
+          "text": "申"
+        },
+        {
+          "text": "泛"
+        },
+        {
+          "text": "化",
+          "pinyin": "huà",
+          "hanviet": "Hoa",
+          "meaning_vi": "hóa (-ize); tan chảy, biến đổi",
+          "hsk": 5,
+          "word_id": "hsk5_497"
+        },
+        {
+          "text": "为",
+          "pinyin": "wèi",
+          "hanviet": "Vi",
+          "meaning_vi": "vì, cho",
+          "hsk": 3,
+          "word_id": "hsk3_229"
+        },
+        {
+          "text": "解释",
+          "pinyin": "jiěshì",
+          "hanviet": "Giải Thích",
+          "meaning_vi": "giải thích",
+          "hsk": 4,
+          "word_id": "hsk4_224"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "心",
+          "pinyin": "xīn",
+          "hanviet": "Tâm",
+          "meaning_vi": "tim; lòng, tâm",
+          "hsk": 4,
+          "word_id": "hsk4_819"
+        },
+        {
+          "text": "智"
+        },
+        {
+          "text": "认知",
+          "pinyin": "rènzhī",
+          "hanviet": "Nhận Tri",
+          "meaning_vi": "nhận thức",
+          "hsk": 6,
+          "word_id": "hsk6_1107"
+        },
+        {
+          "text": "架",
+          "pinyin": "jià",
+          "hanviet": "Giá",
+          "meaning_vi": "chiếc, cỗ (máy bay, đàn); giá, kệ",
+          "hsk": 5,
+          "word_id": "hsk5_560"
+        },
+        {
+          "text": "构"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "科学",
+          "pinyin": "kēxué",
+          "hanviet": "Khoa Học",
+          "meaning_vi": "khoa học",
+          "hsk": 4,
+          "word_id": "hsk4_252"
+        },
+        {
+          "text": "知识",
+          "pinyin": "zhīshi",
+          "hanviet": "Tri Thức",
+          "meaning_vi": "kiến thức",
+          "hsk": 4,
+          "word_id": "hsk4_565"
+        },
+        {
+          "text": "演",
+          "pinyin": "yǎn",
+          "hanviet": "Diễn",
+          "meaning_vi": "diễn, đóng (vai)",
+          "hsk": 4,
+          "word_id": "hsk4_849"
+        },
+        {
+          "text": "进",
+          "pinyin": "jìn",
+          "hanviet": "Tiến",
+          "meaning_vi": "vào",
+          "hsk": 2,
+          "word_id": "hsk2_50"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "核心",
+          "pinyin": "héxīn",
+          "hanviet": "Hạch Tâm",
+          "meaning_vi": "hạt nhân, trọng tâm",
+          "hsk": 5,
+          "word_id": "hsk5_847"
+        },
+        {
+          "text": "范"
+        },
+        {
+          "text": "式",
+          "pinyin": "shì",
+          "hanviet": "Thức",
+          "meaning_vi": "kiểu, dạng, phong cách",
+          "hsk": 5,
+          "word_id": "hsk5_1028"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "康拉德·洛伦茨指出，人类先天先验的认知范畴并非不可解释的神秘神赐，本质上是人类物种在漫长系统发育史中经受严酷自然选择所沉淀的后天适应器官。",
+      "pinyin": "Kāng lā dé · luò lún cí zhǐ chū, rén lèi xiān tiān xiān yàn de rèn zhī fàn chóu bìng fēi bù kě jiě shì de shén mì shén cì, běn zhì shàng shì rén lèi wù zhǒng zài màn cháng xì tǒng fā yù shǐ zhōng jīng shòu yán kù zì rán xuǎn zé suǒ chén diàn de hòu tiān shì yìng qì guān.",
+      "vi": "Konrad Lorenz chỉ ra: các phạm trù tiên nghiệm của con người không phải phép màu thần bí, mà là sự thích nghi tiến hóa được chọn lọc tự nhiên đọng lại qua lịch sử loài.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "康"
+        },
+        {
+          "text": "拉",
+          "pinyin": "lā",
+          "hanviet": "Lạp",
+          "meaning_vi": "kéo",
+          "hsk": 4,
+          "word_id": "hsk4_266"
+        },
+        {
+          "text": "德"
+        },
+        {
+          "text": "·"
+        },
+        {
+          "text": "洛"
+        },
+        {
+          "text": "伦"
+        },
+        {
+          "text": "茨"
+        },
+        {
+          "text": "指出",
+          "pinyin": "zhǐchū",
+          "hanviet": "Chỉ Xuất",
+          "meaning_vi": "chỉ ra",
+          "hsk": 4,
+          "word_id": "hsk4_952"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "先天",
+          "pinyin": "xiāntiān",
+          "hanviet": "Tiên Thiên",
+          "meaning_vi": "bẩm sinh; tiên thiên",
+          "hsk": 7,
+          "word_id": "hsk7_4434"
+        },
+        {
+          "text": "先",
+          "pinyin": "xiān",
+          "hanviet": "Tiên",
+          "meaning_vi": "trước",
+          "hsk": 3,
+          "word_id": "hsk3_238"
+        },
+        {
+          "text": "验",
+          "pinyin": "yàn",
+          "hanviet": "Nghiệm",
+          "meaning_vi": "kiểm tra; kiểm nghiệm; thử nghiệm",
+          "hsk": 7,
+          "word_id": "hsk7_4756"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "认知",
+          "pinyin": "rènzhī",
+          "hanviet": "Nhận Tri",
+          "meaning_vi": "nhận thức",
+          "hsk": 6,
+          "word_id": "hsk6_1107"
+        },
+        {
+          "text": "范畴",
+          "pinyin": "fànchóu",
+          "hanviet": "Phạm Trù",
+          "meaning_vi": "phạm trù",
+          "hsk": 6,
+          "word_id": "hsk6_807"
+        },
+        {
+          "text": "并非",
+          "pinyin": "bìngfēi",
+          "hanviet": "Tinh Phi",
+          "meaning_vi": "thực ra không phải",
+          "hsk": 6,
+          "word_id": "hsk6_179"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "可",
+          "pinyin": "kě",
+          "hanviet": "Khả",
+          "meaning_vi": "nhưng; thật là (nhấn mạnh)",
+          "hsk": 3,
+          "word_id": "hsk3_814"
+        },
+        {
+          "text": "解释",
+          "pinyin": "jiěshì",
+          "hanviet": "Giải Thích",
+          "meaning_vi": "giải thích",
+          "hsk": 4,
+          "word_id": "hsk4_224"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "神秘",
+          "pinyin": "shénmì",
+          "hanviet": "Thần Bí",
+          "meaning_vi": "thần bí, huyền bí",
+          "hsk": 5,
+          "word_id": "hsk5_413"
+        },
+        {
+          "text": "神",
+          "pinyin": "shén",
+          "hanviet": "Thần",
+          "meaning_vi": "thần kỳ, kỳ diệu; thần linh",
+          "hsk": 6,
+          "word_id": "hsk6_1165"
+        },
+        {
+          "text": "赐",
+          "pinyin": "cì",
+          "hanviet": "Tứ",
+          "meaning_vi": "ban cho, ban thưởng",
+          "hsk": 7,
+          "word_id": "hsk7_663"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "本质",
+          "pinyin": "běnzhì",
+          "hanviet": "Bản Chất",
+          "meaning_vi": "bản chất",
+          "hsk": 5,
+          "word_id": "hsk5_658"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "物种",
+          "pinyin": "wùzhǒng",
+          "hanviet": "Vật Chủng",
+          "meaning_vi": "loài",
+          "hsk": 7,
+          "word_id": "hsk7_4361"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "漫长",
+          "pinyin": "màncháng",
+          "hanviet": "Mạn Trường",
+          "meaning_vi": "dài đằng đẵng, dài lâu",
+          "hsk": 6,
+          "word_id": "hsk6_1466"
+        },
+        {
+          "text": "系统",
+          "pinyin": "xìtǒng",
+          "hanviet": "Hệ Thống",
+          "meaning_vi": "hệ thống",
+          "hsk": 5,
+          "word_id": "hsk5_502"
+        },
+        {
+          "text": "发育",
+          "pinyin": "fāyù",
+          "hanviet": "Phát Dục",
+          "meaning_vi": "phát triển (thể chất)",
+          "hsk": 6,
+          "word_id": "hsk6_778"
+        },
+        {
+          "text": "史"
+        },
+        {
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
+        },
+        {
+          "text": "经受",
+          "pinyin": "jīngshòu",
+          "hanviet": "Kinh Thọ",
+          "meaning_vi": "chịu đựng, trải qua thử thách",
+          "hsk": 7,
+          "word_id": "hsk7_2180"
+        },
+        {
+          "text": "严",
+          "pinyin": "yán",
+          "hanviet": "Nghiêm",
+          "meaning_vi": "nghiêm khắc, chặt chẽ",
+          "hsk": 6,
+          "word_id": "hsk6_1503"
+        },
+        {
+          "text": "酷",
+          "pinyin": "kù",
+          "hanviet": "Khốc",
+          "meaning_vi": "ngầu, cực chất (cool); tàn khốc",
+          "hsk": 6,
+          "word_id": "hsk6_799"
+        },
+        {
+          "text": "自然",
+          "pinyin": "zìrán",
+          "hanviet": "Tự Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_589"
+        },
+        {
+          "text": "选择",
+          "pinyin": "xuǎnzé",
+          "hanviet": "Tuyển Trạch",
+          "meaning_vi": "lựa chọn",
+          "hsk": 3,
+          "word_id": "hsk3_251"
+        },
+        {
+          "text": "所",
+          "pinyin": "suǒ",
+          "hanviet": "Sở",
+          "meaning_vi": "nơi, sở (lượng từ tổ chức)",
+          "hsk": 5,
+          "word_id": "hsk5_1095"
+        },
+        {
+          "text": "沉淀",
+          "pinyin": "chéndiàn",
+          "hanviet": "Trầm Điến",
+          "meaning_vi": "lắng đọng, kết tủa",
+          "hsk": 6,
+          "word_id": "hsk6_334"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "后天",
+          "pinyin": "hòutiān",
+          "hanviet": "Hậu Thiên",
+          "meaning_vi": "ngày kia",
+          "hsk": 3,
+          "word_id": "hsk3_763"
+        },
+        {
+          "text": "适应",
+          "pinyin": "shìyìng",
+          "hanviet": "Thích Ứng",
+          "meaning_vi": "thích ứng",
+          "hsk": 4,
+          "word_id": "hsk4_390"
+        },
+        {
+          "text": "器官",
+          "pinyin": "qìguān",
+          "hanviet": "Khí Quan",
+          "meaning_vi": "cơ quan (trong cơ thể)",
+          "hsk": 6,
+          "word_id": "hsk6_1665"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "卡尔·波普尔的世界三客观知识论进一步阐明，科学理论的繁衍演变乃是独立于肉身主体的客观思想世界中的达尔文式演化博弈。",
+      "pinyin": "Kǎ ěr · bō pǔ ěr de shì jiè sān kè guān zhī shí lùn jìn yí bù chǎn míng, kē xué lǐ lùn de fán yǎn yǎn biàn nǎi shì dú lì yú ròu shēn zhǔ tǐ de kè guān sī xiǎng shì jiè zhōng de dá ěr wén shì yǎn huà bó yì.",
+      "vi": "Thuyết Thế giới 3 của Karl Popper giải thích: sự sinh sôi biến đổi của lý thuyết khoa học là cuộc chơi tiến hóa kiểu Darwin trong thế giới tư tưởng khách quan.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "卡",
+          "pinyin": "kǎ",
+          "hanviet": "Ca",
+          "meaning_vi": "thẻ",
+          "hsk": 3,
+          "word_id": "hsk3_809"
+        },
+        {
+          "text": "尔"
+        },
+        {
+          "text": "·"
+        },
+        {
+          "text": "波"
+        },
+        {
+          "text": "普"
+        },
+        {
+          "text": "尔"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "世界",
+          "pinyin": "shìjiè",
+          "hanviet": "Thế Giới",
+          "meaning_vi": "thế giới",
+          "hsk": 3,
+          "word_id": "hsk3_202"
+        },
+        {
+          "text": "三",
+          "pinyin": "sān",
+          "hanviet": "Tam",
+          "meaning_vi": "ba",
+          "hsk": 1,
+          "word_id": "hsk1_87"
+        },
+        {
+          "text": "客观",
+          "pinyin": "kèguān",
+          "hanviet": "Khách Quan",
+          "meaning_vi": "khách quan",
+          "hsk": 5,
+          "word_id": "hsk5_275"
+        },
+        {
+          "text": "知识",
+          "pinyin": "zhīshi",
+          "hanviet": "Tri Thức",
+          "meaning_vi": "kiến thức",
+          "hsk": 4,
+          "word_id": "hsk4_565"
+        },
+        {
+          "text": "论"
+        },
+        {
+          "text": "进一步",
+          "pinyin": "jìnyíbù",
+          "hanviet": "Tiến Nhất Bộ",
+          "meaning_vi": "hơn nữa",
+          "hsk": 5,
+          "word_id": "hsk5_620"
+        },
+        {
+          "text": "阐"
+        },
+        {
+          "text": "明"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "科学",
+          "pinyin": "kēxué",
+          "hanviet": "Khoa Học",
+          "meaning_vi": "khoa học",
+          "hsk": 4,
+          "word_id": "hsk4_252"
+        },
+        {
+          "text": "理论",
+          "pinyin": "lǐlùn",
+          "hanviet": "Lí Luận/lý Luận",
+          "meaning_vi": "lý luận",
+          "hsk": 5,
+          "word_id": "hsk5_286"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "繁衍",
+          "pinyin": "fányǎn",
+          "hanviet": "Phồn Diễn",
+          "meaning_vi": "sinh sôi nảy nở, duy trì nòi giống",
+          "hsk": 7,
+          "word_id": "hsk7_1071"
+        },
+        {
+          "text": "演变",
+          "pinyin": "yǎnbiàn",
+          "hanviet": "Diễn Biến",
+          "meaning_vi": "diễn biến, biến đổi",
+          "hsk": 6,
+          "word_id": "hsk6_2343"
+        },
+        {
+          "text": "乃",
+          "pinyin": "nǎi",
+          "hanviet": "Nãi",
+          "meaning_vi": "là; chính là",
+          "hsk": 7,
+          "word_id": "hsk7_2910"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "独立",
+          "pinyin": "dúlì",
+          "hanviet": "Độc Lập",
+          "meaning_vi": "độc lập",
+          "hsk": 5,
+          "word_id": "hsk5_757"
+        },
+        {
+          "text": "于",
+          "pinyin": "yú",
+          "hanviet": "Vu",
+          "meaning_vi": "tại",
+          "hsk": 6,
+          "word_id": "hsk6_1606"
+        },
+        {
+          "text": "肉",
+          "pinyin": "ròu",
+          "hanviet": "Nhục",
+          "meaning_vi": "thịt",
+          "hsk": 2,
+          "word_id": "hsk2_423"
+        },
+        {
+          "text": "身",
+          "pinyin": "shēn",
+          "hanviet": "Thân",
+          "meaning_vi": "thân, cơ thể; bộ (quần áo)",
+          "hsk": 4,
+          "word_id": "hsk4_641"
+        },
+        {
+          "text": "主体",
+          "pinyin": "zhǔtǐ",
+          "hanviet": "Chủ Thể",
+          "meaning_vi": "chủ thể, phần nòng cốt chính",
+          "hsk": 7,
+          "word_id": "hsk7_5403"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "客观",
+          "pinyin": "kèguān",
+          "hanviet": "Khách Quan",
+          "meaning_vi": "khách quan",
+          "hsk": 5,
+          "word_id": "hsk5_275"
+        },
+        {
+          "text": "思想",
+          "pinyin": "sīxiǎng",
+          "hanviet": "Tư Tưởng",
+          "meaning_vi": "tư tưởng, suy nghĩ",
+          "hsk": 5,
+          "word_id": "hsk5_448"
+        },
+        {
+          "text": "世界",
+          "pinyin": "shìjiè",
+          "hanviet": "Thế Giới",
+          "meaning_vi": "thế giới",
+          "hsk": 3,
+          "word_id": "hsk3_202"
+        },
+        {
+          "text": "中",
+          "pinyin": "zhōng",
+          "hanviet": "Trung",
+          "meaning_vi": "giữa, trong",
+          "hsk": 3,
+          "word_id": "hsk3_1060"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "达"
+        },
+        {
+          "text": "尔"
+        },
+        {
+          "text": "文",
+          "pinyin": "wén",
+          "hanviet": "Văn",
+          "meaning_vi": "văn tự; chữ viết; văn",
+          "hsk": 7,
+          "word_id": "hsk7_4275"
+        },
+        {
+          "text": "式",
+          "pinyin": "shì",
+          "hanviet": "Thức",
+          "meaning_vi": "kiểu, dạng, phong cách",
+          "hsk": 5,
+          "word_id": "hsk5_1028"
+        },
+        {
+          "text": "演化",
+          "pinyin": "yǎnhuà",
+          "hanviet": "Diễn Hoa",
+          "meaning_vi": "tiến hóa; diễn hóa biến đổi",
+          "hsk": 7,
+          "word_id": "hsk7_4742"
+        },
+        {
+          "text": "博弈",
+          "pinyin": "bóyì",
+          "hanviet": "Bác Dịch",
+          "meaning_vi": "đọ sức đấu trí, cuộc chơi bàn cờ",
+          "hsk": 7,
+          "word_id": "hsk7_291"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "科学家提出的大胆理论猜想如同基因突变，而严苛的实验检验与学术共同体的批判筛选则构成了淘汰劣质假说的自然选择压力。",
+      "pinyin": "Kē xué jiā tí chū de dà dǎn lǐ lùn cāi xiǎng rú tóng jī yīn tū biàn, ér yán kē de shí yàn jiǎn yàn yǔ xué shù gòng tóng tǐ de pī pàn shāi xuǎn zé gòu chéng le táo tài liè zhì jiǎ shuō de zì rán xuǎn zé yā lì.",
+      "vi": "Các phỏng đoán táo bạo của nhà khoa học tựa như đột biến gen, trong khi thực nghiệm ngặt nghèo và phản biện học thuật cấu thành áp lực chọn lọc tự nhiên đào thải.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "科学",
+          "pinyin": "kēxué",
+          "hanviet": "Khoa Học",
+          "meaning_vi": "khoa học",
+          "hsk": 4,
+          "word_id": "hsk4_252"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "提出",
+          "pinyin": "tíchū",
+          "hanviet": "Đề Xuất",
+          "meaning_vi": "đưa ra, nêu ra",
+          "hsk": 4,
+          "word_id": "hsk4_727"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "大胆",
+          "pinyin": "dàdǎn",
+          "hanviet": "Đại Đảm",
+          "meaning_vi": "mạnh dạn, táo bạo",
+          "hsk": 5,
+          "word_id": "hsk5_218"
+        },
+        {
+          "text": "理论",
+          "pinyin": "lǐlùn",
+          "hanviet": "Lí Luận/lý Luận",
+          "meaning_vi": "lý luận",
+          "hsk": 5,
+          "word_id": "hsk5_286"
+        },
+        {
+          "text": "猜想",
+          "pinyin": "cāixiǎng",
+          "hanviet": "Sai Tưởng",
+          "meaning_vi": "phỏng đoán, suy đoán",
+          "hsk": 7,
+          "word_id": "hsk7_358"
+        },
+        {
+          "text": "如同",
+          "pinyin": "rútóng",
+          "hanviet": "Như Đồng",
+          "meaning_vi": "như, giống như, tựa như",
+          "hsk": 5,
+          "word_id": "hsk5_936"
+        },
+        {
+          "text": "基因",
+          "pinyin": "jīyīn",
+          "hanviet": "Cơ Nhân",
+          "meaning_vi": "gene",
+          "hsk": 6,
+          "word_id": "hsk6_1120"
+        },
+        {
+          "text": "突"
+        },
+        {
+          "text": "变",
+          "pinyin": "biàn",
+          "hanviet": "Biến",
+          "meaning_vi": "thay đổi, biến thành",
+          "hsk": 3,
+          "word_id": "hsk3_626"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "而",
+          "pinyin": "ér",
+          "hanviet": "Nhi",
+          "meaning_vi": "mà, và",
+          "hsk": 4,
+          "word_id": "hsk4_103"
+        },
+        {
+          "text": "严",
+          "pinyin": "yán",
+          "hanviet": "Nghiêm",
+          "meaning_vi": "nghiêm khắc, chặt chẽ",
+          "hsk": 6,
+          "word_id": "hsk6_1503"
+        },
+        {
+          "text": "苛"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "实验",
+          "pinyin": "shíyàn",
+          "hanviet": "Thực Nghiệm",
+          "meaning_vi": "thí nghiệm, thực nghiệm",
+          "hsk": 5,
+          "word_id": "hsk5_423"
+        },
+        {
+          "text": "检验",
+          "pinyin": "jiǎnyàn",
+          "hanviet": "Kiểm Nghiệm",
+          "meaning_vi": "kiểm nghiệm, kiểm tra đánh giá",
+          "hsk": 6,
+          "word_id": "hsk6_656"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "学术",
+          "pinyin": "xuéshù",
+          "hanviet": "Học Thuật",
+          "meaning_vi": "học thuật",
+          "hsk": 5,
+          "word_id": "hsk5_534"
+        },
+        {
+          "text": "共同体",
+          "pinyin": "gòngtóngtǐ",
+          "hanviet": "Cộng Đồng Thể",
+          "meaning_vi": "khối cộng đồng, cộng đồng chung",
+          "hsk": 7,
+          "word_id": "hsk7_1415"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "批判",
+          "pinyin": "pīpàn",
+          "hanviet": "Phê Phán",
+          "meaning_vi": "phê phán",
+          "hsk": 6,
+          "word_id": "hsk6_1592"
+        },
+        {
+          "text": "筛选",
+          "pinyin": "shāixuǎn",
+          "hanviet": "Si Tuyển",
+          "meaning_vi": "sàng lọc, chọn lọc",
+          "hsk": 6,
+          "word_id": "hsk6_1809"
+        },
+        {
+          "text": "则",
+          "pinyin": "zé",
+          "hanviet": "Tắc",
+          "meaning_vi": "thì, là (liên từ văn viết)",
+          "hsk": 5,
+          "word_id": "hsk5_1229"
+        },
+        {
+          "text": "构成",
+          "pinyin": "gòuchéng",
+          "hanviet": "Cấu Thành",
+          "meaning_vi": "cấu thành",
+          "hsk": 5,
+          "word_id": "hsk5_814"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "淘汰",
+          "pinyin": "táotài",
+          "hanviet": "Đào Thải",
+          "meaning_vi": "loại bỏ, sa thải (qua sàng lọc)",
+          "hsk": 6,
+          "word_id": "hsk6_2002"
+        },
+        {
+          "text": "劣质",
+          "pinyin": "lièzhì",
+          "hanviet": "Liệt Chất",
+          "meaning_vi": "kém chất lượng, đồ dỏm",
+          "hsk": 7,
+          "word_id": "hsk7_2617"
+        },
+        {
+          "text": "假",
+          "pinyin": "jiǎ",
+          "hanviet": "Giả",
+          "meaning_vi": "giả",
+          "hsk": 4,
+          "word_id": "hsk4_201"
+        },
+        {
+          "text": "说",
+          "pinyin": "shuō",
+          "hanviet": "Thuyết",
+          "meaning_vi": "nói",
+          "hsk": 1,
+          "word_id": "hsk1_101"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "自然",
+          "pinyin": "zìrán",
+          "hanviet": "Tự Nhiên",
+          "meaning_vi": "tự nhiên",
+          "hsk": 4,
+          "word_id": "hsk4_589"
+        },
+        {
+          "text": "选择",
+          "pinyin": "xuǎnzé",
+          "hanviet": "Tuyển Trạch",
+          "meaning_vi": "lựa chọn",
+          "hsk": 3,
+          "word_id": "hsk3_251"
+        },
+        {
+          "text": "压力",
+          "pinyin": "yālì",
+          "hanviet": "Áp Lực",
+          "meaning_vi": "áp lực",
+          "hsk": 4,
+          "word_id": "hsk4_491"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "优胜劣汰的科学试错机制确保了存活下来的科学范式在经验适当性与预测能力上展现出不断拟合客观实在的动态自适应进化优势。",
+      "pinyin": "Yōu shèng liè tài de kē xué shì cuò jī zhì què bǎo le cún huó xià lái de kē xué fàn shì zài jīng yàn shì dàng xìng yǔ yù cè néng lì shàng zhǎn xiàn chū bù duàn nǐ hé kè guān shí zài de dòng tài zì shì yìng jìn huà yōu shì.",
+      "vi": "Cơ chế thử và sai đào thải đảm bảo các hệ hình khoa học sống sót thể hiện ưu thế tiến hóa thích nghi ngày càng khớp nối chính xác hơn với thực tại khách quan.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "优胜劣汰",
+          "pinyin": "yōushèngliètài",
+          "hanviet": "Ưu Thắng Liệt Thải",
+          "meaning_vi": "chọn lọc tự nhiên, mạnh thắng yếu thua",
+          "hsk": 6,
+          "word_id": "hsk6_2434"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "科学",
+          "pinyin": "kēxué",
+          "hanviet": "Khoa Học",
+          "meaning_vi": "khoa học",
+          "hsk": 4,
+          "word_id": "hsk4_252"
+        },
+        {
+          "text": "试",
+          "pinyin": "shì",
+          "hanviet": "Thí",
+          "meaning_vi": "thử, thi",
+          "hsk": 3,
+          "word_id": "hsk3_201"
+        },
+        {
+          "text": "错",
+          "pinyin": "cuò",
+          "hanviet": "Thác",
+          "meaning_vi": "sai, nhầm",
+          "hsk": 2,
+          "word_id": "hsk2_15"
+        },
+        {
+          "text": "机制",
+          "pinyin": "jīzhì",
+          "hanviet": "Cơ Chế",
+          "meaning_vi": "cơ chế",
+          "hsk": 6,
+          "word_id": "hsk6_1122"
+        },
+        {
+          "text": "确保",
+          "pinyin": "quèbǎo",
+          "hanviet": "Xác Bảo",
+          "meaning_vi": "đảm bảo chắc chắn",
+          "hsk": 6,
+          "word_id": "hsk6_1752"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "存活",
+          "pinyin": "cúnhuó",
+          "hanviet": "Tồn Hoạt",
+          "meaning_vi": "sống sót, sinh tồn",
+          "hsk": 7,
+          "word_id": "hsk7_697"
+        },
+        {
+          "text": "下来",
+          "pinyin": "xiàlái",
+          "hanviet": "Hạ Lai",
+          "meaning_vi": "đi xuống",
+          "hsk": 2,
+          "word_id": "hsk2_458"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "科学",
+          "pinyin": "kēxué",
+          "hanviet": "Khoa Học",
+          "meaning_vi": "khoa học",
+          "hsk": 4,
+          "word_id": "hsk4_252"
+        },
+        {
+          "text": "范"
+        },
+        {
+          "text": "式",
+          "pinyin": "shì",
+          "hanviet": "Thức",
+          "meaning_vi": "kiểu, dạng, phong cách",
+          "hsk": 5,
+          "word_id": "hsk5_1028"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "经验",
+          "pinyin": "jīngyàn",
+          "hanviet": "Kinh Nghiệm",
+          "meaning_vi": "kinh nghiệm",
+          "hsk": 4,
+          "word_id": "hsk4_232"
+        },
+        {
+          "text": "适当",
+          "pinyin": "shìdàng",
+          "hanviet": "Quát Đương",
+          "meaning_vi": "thích hợp",
+          "hsk": 5,
+          "word_id": "hsk5_1029"
+        },
+        {
+          "text": "性",
+          "pinyin": "xìng",
+          "hanviet": "Tính",
+          "meaning_vi": "tính (hậu tố: tính chất)",
+          "hsk": 4,
+          "word_id": "hsk4_828"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "预测",
+          "pinyin": "yùcè",
+          "hanviet": "Dự Trắc",
+          "meaning_vi": "dự đoán, dự báo",
+          "hsk": 5,
+          "word_id": "hsk5_1422"
+        },
+        {
+          "text": "能力",
+          "pinyin": "nénglì",
+          "hanviet": "Năng Lực",
+          "meaning_vi": "năng lực",
+          "hsk": 4,
+          "word_id": "hsk4_316"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "展现",
+          "pinyin": "zhǎnxiàn",
+          "hanviet": "Triển Hiện",
+          "meaning_vi": "hiển thị",
+          "hsk": 5,
+          "word_id": "hsk5_1467"
+        },
+        {
+          "text": "出",
+          "pinyin": "chū",
+          "hanviet": "Xuất",
+          "meaning_vi": "ra, đi ra",
+          "hsk": 2,
+          "word_id": "hsk2_11"
+        },
+        {
+          "text": "不断",
+          "pinyin": "búduàn",
+          "hanviet": "Bất Đoạn",
+          "meaning_vi": "không ngừng, liên tục",
+          "hsk": 5,
+          "word_id": "hsk5_30"
+        },
+        {
+          "text": "拟",
+          "pinyin": "nǐ",
+          "hanviet": "Nghĩ",
+          "meaning_vi": "dự định; soạn thảo; phác thảo",
+          "hsk": 7,
+          "word_id": "hsk7_2947"
+        },
+        {
+          "text": "合",
+          "pinyin": "hé",
+          "hanviet": "Cáp",
+          "meaning_vi": "khép lại, đóng lại; hợp lại",
+          "hsk": 5,
+          "word_id": "hsk5_474"
+        },
+        {
+          "text": "客观",
+          "pinyin": "kèguān",
+          "hanviet": "Khách Quan",
+          "meaning_vi": "khách quan",
+          "hsk": 5,
+          "word_id": "hsk5_275"
+        },
+        {
+          "text": "实在",
+          "pinyin": "shízài",
+          "hanviet": "Thực Tại",
+          "meaning_vi": "thực sự, thật là",
+          "hsk": 4,
+          "word_id": "hsk4_385"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "动态",
+          "pinyin": "dòngtài",
+          "hanviet": "Động Thái",
+          "meaning_vi": "động thái, diễn biến",
+          "hsk": 6,
+          "word_id": "hsk6_691"
+        },
+        {
+          "text": "自",
+          "pinyin": "zì",
+          "hanviet": "Tự",
+          "meaning_vi": "từ (văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_980"
+        },
+        {
+          "text": "适应",
+          "pinyin": "shìyìng",
+          "hanviet": "Thích Ứng",
+          "meaning_vi": "thích ứng",
+          "hsk": 4,
+          "word_id": "hsk4_390"
+        },
+        {
+          "text": "进化",
+          "pinyin": "jìnhuà",
+          "hanviet": "Tiến Hóa",
+          "meaning_vi": "tiến hóa",
+          "hsk": 6,
+          "word_id": "hsk6_709"
+        },
+        {
+          "text": "优势",
+          "pinyin": "yōushì",
+          "hanviet": "Ưu Thế",
+          "meaning_vi": "ưu thế",
+          "hsk": 5,
+          "word_id": "hsk5_566"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "zh": "将知识视作生生不息、开放进化的生命有机体，赋予了人类探索未知征程以永不僵化的自新活力与生生不息的求真韧性。",
+      "pinyin": "Jiāng zhī shí shì zuò shēng shēng bù xī, kāi fàng jìn huà de shēng mìng yǒu jī tǐ, fù yǔ le rén lèi tàn suǒ wèi zhī zhēng chéng yǐ yǒng bù jiāng huà de zì xīn huó lì yǔ shēng shēng bù xī de qiú zhēn rèn xìng.",
+      "vi": "Coi tri thức như một sinh thể hữu cơ sống động, tiến hóa cởi mở trao cho hành trình tìm kiếm chân lý sức sống tự đổi mới không bao giờ xơ cứng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "将",
+          "pinyin": "jiāng",
+          "hanviet": "Tương",
+          "meaning_vi": "sẽ; đem, lấy (như 把)",
+          "hsk": 4,
+          "word_id": "hsk4_356"
+        },
+        {
+          "text": "知识",
+          "pinyin": "zhīshi",
+          "hanviet": "Tri Thức",
+          "meaning_vi": "kiến thức",
+          "hsk": 4,
+          "word_id": "hsk4_565"
+        },
+        {
+          "text": "视"
+        },
+        {
+          "text": "作"
+        },
+        {
+          "text": "生"
+        },
+        {
+          "text": "生"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "息"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "开放",
+          "pinyin": "kāifàng",
+          "hanviet": "Khai Phóng",
+          "meaning_vi": "mở cửa, khai phóng",
+          "hsk": 5,
+          "word_id": "hsk5_268"
+        },
+        {
+          "text": "进化",
+          "pinyin": "jìnhuà",
+          "hanviet": "Tiến Hóa",
+          "meaning_vi": "tiến hóa",
+          "hsk": 6,
+          "word_id": "hsk6_709"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "生命",
+          "pinyin": "shēngmìng",
+          "hanviet": "Sinh Mệnh",
+          "meaning_vi": "sinh mệnh, sự sống",
+          "hsk": 4,
+          "word_id": "hsk4_376"
+        },
+        {
+          "text": "有机",
+          "pinyin": "yǒujī",
+          "hanviet": "Hữu Cơ",
+          "meaning_vi": "hữu cơ",
+          "hsk": 6,
+          "word_id": "hsk6_1603"
+        },
+        {
+          "text": "体"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "赋予",
+          "pinyin": "fùyǔ",
+          "hanviet": "Phú Dư",
+          "meaning_vi": "ban cho, trao cho, giao phó",
+          "hsk": 6,
+          "word_id": "hsk6_412"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "人类",
+          "pinyin": "rénlèi",
+          "hanviet": "Nhân Loại",
+          "meaning_vi": "loài người, nhân loại",
+          "hsk": 5,
+          "word_id": "hsk5_389"
+        },
+        {
+          "text": "探索",
+          "pinyin": "tànsuǒ",
+          "hanviet": "Thám Sách",
+          "meaning_vi": "thám hiểm, tìm hiểu",
+          "hsk": 6,
+          "word_id": "hsk6_1993"
+        },
+        {
+          "text": "未",
+          "pinyin": "wèi",
+          "hanviet": "Vị",
+          "meaning_vi": "chưa, không",
+          "hsk": 6,
+          "word_id": "hsk6_1377"
+        },
+        {
+          "text": "知"
+        },
+        {
+          "text": "征",
+          "pinyin": "zhēng",
+          "hanviet": "Chinh",
+          "meaning_vi": "chiêu mộ, chinh phục; đánh thuế; dấu hiệu",
+          "hsk": 7,
+          "word_id": "hsk7_5238"
+        },
+        {
+          "text": "程"
+        },
+        {
+          "text": "以",
+          "pinyin": "yǐ",
+          "hanviet": "Dĩ",
+          "meaning_vi": "bằng, dùng",
+          "hsk": 4,
+          "word_id": "hsk4_512"
+        },
+        {
+          "text": "永"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "僵化",
+          "pinyin": "jiānghuà",
+          "hanviet": "Cương Hoa",
+          "meaning_vi": "cứng nhắc, xơ cứng, giáo điều",
+          "hsk": 7,
+          "word_id": "hsk7_2013"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "自",
+          "pinyin": "zì",
+          "hanviet": "Tự",
+          "meaning_vi": "từ (văn viết)",
+          "hsk": 4,
+          "word_id": "hsk4_980"
+        },
+        {
+          "text": "新",
+          "pinyin": "xīn",
+          "hanviet": "Tân",
+          "meaning_vi": "mới",
+          "hsk": 2,
+          "word_id": "hsk2_118"
+        },
+        {
+          "text": "活力",
+          "pinyin": "huólì",
+          "hanviet": "Hoạt Lực",
+          "meaning_vi": "sức sống, sinh khí, sự năng động",
+          "hsk": 6,
+          "word_id": "hsk6_597"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "生"
+        },
+        {
+          "text": "生"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "息"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "求",
+          "pinyin": "qiú",
+          "hanviet": "Cầu",
+          "meaning_vi": "cầu xin, xin, yêu cầu",
+          "hsk": 6,
+          "word_id": "hsk6_1068"
+        },
+        {
+          "text": "真",
+          "pinyin": "zhēn",
+          "hanviet": "Chân",
+          "meaning_vi": "thật, thực sự",
+          "hsk": 2,
+          "word_id": "hsk2_144"
+        },
+        {
+          "text": "韧性",
+          "pinyin": "rènxìng",
+          "hanviet": "Nhận Tính",
+          "meaning_vi": "tính dẻo dai; độ bền bỉ",
+          "hsk": 7,
+          "word_id": "hsk7_3425"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk6_709",
+    "hsk1_86",
+    "hsk4_356",
+    "hsk7_4275",
+    "hsk6_1856",
+    "hsk1_15",
+    "hsk7_228",
+    "hsk4_535",
+    "hsk4_589",
+    "hsk3_251",
+    "hsk6_1122",
+    "hsk6_1293",
+    "hsk4_828",
+    "hsk3_46",
+    "hsk6_1578"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Luận điểm nổi tiếng của Konrad Lorenz về các 'khuôn khổ tiên nghiệm' của Kant theo góc nhìn sinh học tiến hóa là gì?",
+      "options_vi": [
+        "Kant hoàn toàn sai lầm",
+        "Những gì là 'tiên thiên' (tiên nghiệm) đối với từng cá nhân sinh ra, thực chất chính là kết quả 'hậu thiên' được chọn lọc tự nhiên đúc kết qua hàng triệu năm tiến hóa của giống loài người",
+        "Bộ não không hề tiến hóa"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 先验认知范畴并非神秘神赐，本质是物种在系统发育史中经受自然选择所沉淀的适应器官."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Khái niệm 'Thế giới 3' (World 3) của Karl Popper dùng để chỉ thế giới nào?",
+      "options_vi": [
+        "Thế giới các hành tinh xa xôi",
+        "Thế giới các sản phẩm trí tuệ khách quan (như lý thuyết khoa học, sách vở, tác phẩm nghệ thuật, bài toán) độc lập với tâm trí chủ quan cá nhân",
+        "Thế giới tâm linh"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài nêu: 科学理论的演变乃是独立于肉身主体的客观思想世界（世界三）中的演化博弈."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Sự tương đồng giữa tiến hóa sinh học và tiến hóa tri thức khoa học thể hiện qua cơ chế nào?",
+      "options_vi": [
+        "Cả hai đều diễn ra trong phòng thí nghiệm",
+        "Các giả thuyết khoa học mới tương đương với 'đột biến gen ngẫu nhiên', và các thực nghiệm phản biện khoa học đóng vai trò 'chọn lọc tự nhiên' đào thải lý thuyết sai lầm",
+        "Không có sự tương đồng nào"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu thứ tư viết: 猜想如同基因突变，而实验检验与批判筛选则构成了淘汰劣质假说的选择压力."
+    }
+  ]
+}

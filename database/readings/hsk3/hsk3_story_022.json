@@ -1,0 +1,809 @@
+{
+  "id": "hsk3_story_022",
+  "level": "HSK3",
+  "title": {
+    "zh": "踢足球比赛",
+    "vi": "Trận đấu bóng đá"
+  },
+  "topic": "sports_team",
+  "topic_vi": "Thể thao & Tinh thần đồng đội",
+  "icon": "⚽",
+  "estimatedMinutes": 3,
+  "description_vi": "Tinh thần đoàn kết và pha ghi bàn quyết định phút cuối trong trận bóng gay cấn.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "今天下午，我们学校和邻校举行了一场足球友谊赛。",
+      "pinyin": "Jīntiān xiàwǔ, wǒmen xuéxiào hé línxiào jǔxíng le yì chǎng zúqiú yǒuyìsài.",
+      "vi": "Chiều nay, trường chúng tôi và trường bạn tổ chức một trận bóng đá giao hữu.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "今天",
+          "pinyin": "jīntiān",
+          "hanviet": "Kim Thiên",
+          "meaning_vi": "hôm nay",
+          "hsk": 1,
+          "word_id": "hsk1_47"
+        },
+        {
+          "text": "下午",
+          "pinyin": "xiàwǔ",
+          "hanviet": "Hạ Ngọ",
+          "meaning_vi": "buổi chiều",
+          "hsk": 1,
+          "word_id": "hsk1_116"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "学校",
+          "pinyin": "xuéxiào",
+          "hanviet": "Học Hiệu",
+          "meaning_vi": "trường học",
+          "hsk": 1,
+          "word_id": "hsk1_129"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "邻"
+        },
+        {
+          "text": "校"
+        },
+        {
+          "text": "举行",
+          "pinyin": "jǔxíng",
+          "hanviet": "Cử Hành",
+          "meaning_vi": "cử hành, tổ chức",
+          "hsk": 4,
+          "word_id": "hsk4_242"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "场",
+          "pinyin": "chǎng",
+          "hanviet": "Tràng",
+          "meaning_vi": "bãi, sân (lượng từ)",
+          "hsk": 4,
+          "word_id": "hsk4_42"
+        },
+        {
+          "text": "足球",
+          "pinyin": "zúqiú",
+          "hanviet": "Túc Cầu",
+          "meaning_vi": "bóng đá",
+          "hsk": 2,
+          "word_id": "hsk2_497"
+        },
+        {
+          "text": "友谊",
+          "pinyin": "yǒuyì",
+          "hanviet": "Hữu Nghị",
+          "meaning_vi": "tình hữu nghị",
+          "hsk": 4,
+          "word_id": "hsk4_532"
+        },
+        {
+          "text": "赛",
+          "pinyin": "sài",
+          "hanviet": "Tái",
+          "meaning_vi": "chạy đua; thi đua; tranh tài",
+          "hsk": 7,
+          "word_id": "hsk7_3473"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "球场周围挤满了热情的同学，大家都在加油助威。",
+      "pinyin": "Qiúchǎng zhōuwéi jǐmǎn le rèqíng de tóngxué, dàjiā dōu zài jiāyóu zhùwēi.",
+      "vi": "Xung quanh sân bóng chật kín các bạn học nhiệt tình, ai ai cũng hò reo cổ vũ.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "球场",
+          "pinyin": "qiúchǎng",
+          "hanviet": "Cầu Tràng",
+          "meaning_vi": "sân bóng",
+          "hsk": 3,
+          "word_id": "hsk3_893"
+        },
+        {
+          "text": "周围",
+          "pinyin": "zhōuwéi",
+          "hanviet": "Chu Vi",
+          "meaning_vi": "xung quanh",
+          "hsk": 4,
+          "word_id": "hsk4_578"
+        },
+        {
+          "text": "挤",
+          "pinyin": "jǐ",
+          "hanviet": "Tễ",
+          "meaning_vi": "chen chúc, đông đúc; vắt, nặn",
+          "hsk": 5,
+          "word_id": "hsk5_538"
+        },
+        {
+          "text": "满",
+          "pinyin": "mǎn",
+          "hanviet": "Mãn",
+          "meaning_vi": "đầy",
+          "hsk": 4,
+          "word_id": "hsk4_299"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "热情",
+          "pinyin": "rèqíng",
+          "hanviet": "Nhiệt Tình",
+          "meaning_vi": "nhiệt tình",
+          "hsk": 3,
+          "word_id": "hsk3_192"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "同学",
+          "pinyin": "tóngxué",
+          "hanviet": "Đồng Học",
+          "meaning_vi": "bạn học",
+          "hsk": 1,
+          "word_id": "hsk1_109"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "大家",
+          "pinyin": "dàjiā",
+          "hanviet": "Đại Gia",
+          "meaning_vi": "mọi người",
+          "hsk": 2,
+          "word_id": "hsk2_17"
+        },
+        {
+          "text": "都",
+          "pinyin": "dōu",
+          "hanviet": "Đô",
+          "meaning_vi": "đều",
+          "hsk": 1,
+          "word_id": "hsk1_21"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "加油",
+          "pinyin": "jiāyóu",
+          "hanviet": "Gia Dầu",
+          "meaning_vi": "cố lên; đổ xăng",
+          "hsk": 4,
+          "word_id": "hsk4_342"
+        },
+        {
+          "text": "助威",
+          "pinyin": "zhùwēi",
+          "hanviet": "Trợ Uy",
+          "meaning_vi": "cổ vũ, trợ oai, hò reo tiếp sức",
+          "hsk": 7,
+          "word_id": "hsk7_5421"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "比赛进行得非常激烈，双方比分一直紧咬不放。",
+      "pinyin": "Bǐsài jìnxíng de fēicháng jīliè, shuāngfāng bǐfēn yìzhí jǐnyǎo-bùfàng.",
+      "vi": "Trận đấu diễn ra vô cùng quyết liệt, tỷ số đôi bên bám đuổi sát nút.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "比赛",
+          "pinyin": "bǐsài",
+          "hanviet": "Tỷ Tái",
+          "meaning_vi": "cuộc thi đấu",
+          "hsk": 3,
+          "word_id": "hsk3_19"
+        },
+        {
+          "text": "进行",
+          "pinyin": "jìnxíng",
+          "hanviet": "Tiến Hành",
+          "meaning_vi": "tiến hành",
+          "hsk": 4,
+          "word_id": "hsk4_227"
+        },
+        {
+          "text": "得",
+          "pinyin": "de",
+          "hanviet": "Đắc",
+          "meaning_vi": "được (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_19"
+        },
+        {
+          "text": "非常",
+          "pinyin": "fēicháng",
+          "hanviet": "Phi Thường",
+          "meaning_vi": "rất, vô cùng",
+          "hsk": 2,
+          "word_id": "hsk2_27"
+        },
+        {
+          "text": "激烈",
+          "pinyin": "jīliè",
+          "hanviet": "Kích Liệt",
+          "meaning_vi": "kịch liệt, gay gắt",
+          "hsk": 5,
+          "word_id": "hsk5_864"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "双方",
+          "pinyin": "shuāngfāng",
+          "hanviet": "Song Phương",
+          "meaning_vi": "hai bên, đôi bên",
+          "hsk": 5,
+          "word_id": "hsk5_444"
+        },
+        {
+          "text": "比分",
+          "pinyin": "bǐfēn",
+          "hanviet": "Tỷ Phân",
+          "meaning_vi": "tỷ số",
+          "hsk": 5,
+          "word_id": "hsk5_46"
+        },
+        {
+          "text": "一直",
+          "pinyin": "yìzhí",
+          "hanviet": "Nhất Trực",
+          "meaning_vi": "luôn luôn, thẳng",
+          "hsk": 3,
+          "word_id": "hsk3_261"
+        },
+        {
+          "text": "紧",
+          "pinyin": "jǐn",
+          "hanviet": "Khẩn",
+          "meaning_vi": "chặt; gấp, gấp gáp",
+          "hsk": 5,
+          "word_id": "hsk5_607"
+        },
+        {
+          "text": "咬",
+          "pinyin": "yǎo",
+          "hanviet": "Giảo",
+          "meaning_vi": "cắn",
+          "hsk": 5,
+          "word_id": "hsk5_543"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "放",
+          "pinyin": "fàng",
+          "hanviet": "Phóng",
+          "meaning_vi": "đặt, để",
+          "hsk": 3,
+          "word_id": "hsk3_67"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "在最后一分钟，队友把球稳稳地传到了我的脚下。",
+      "pinyin": "Zài zuìhòu yì fēnzhōng, duìyǒu bǎ qiú wěnswěn de chuán dào le wǒ de jiǎoxià.",
+      "vi": "Vào phút cuối cùng, đồng đội đã chuyền bóng chuẩn xác đến chân tôi.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "最后",
+          "pinyin": "zuìhòu",
+          "hanviet": "Tối Hậu",
+          "meaning_vi": "cuối cùng",
+          "hsk": 3,
+          "word_id": "hsk3_298"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "分钟",
+          "pinyin": "fēnzhōng",
+          "hanviet": "Phân Chung",
+          "meaning_vi": "phút",
+          "hsk": 1,
+          "word_id": "hsk1_30"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "队",
+          "pinyin": "duì",
+          "hanviet": "Đội",
+          "meaning_vi": "đội; hàng (xếp hàng)",
+          "hsk": 4,
+          "word_id": "hsk4_173"
+        },
+        {
+          "text": "友"
+        },
+        {
+          "text": "把",
+          "pinyin": "bǎ",
+          "hanviet": "Bả",
+          "meaning_vi": "cái, chiếc (lượng từ); cầm, nắm",
+          "hsk": 3,
+          "word_id": "hsk3_6"
+        },
+        {
+          "text": "球",
+          "pinyin": "qiú",
+          "hanviet": "Cầu",
+          "meaning_vi": "quả bóng",
+          "hsk": 2,
+          "word_id": "hsk2_421"
+        },
+        {
+          "text": "稳",
+          "pinyin": "wěn",
+          "hanviet": "Ổn",
+          "meaning_vi": "vững vàng; chắc chắn; ổn định",
+          "hsk": 7,
+          "word_id": "hsk7_4283"
+        },
+        {
+          "text": "稳",
+          "pinyin": "wěn",
+          "hanviet": "Ổn",
+          "meaning_vi": "vững vàng; chắc chắn; ổn định",
+          "hsk": 7,
+          "word_id": "hsk7_4283"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "传",
+          "pinyin": "chuán",
+          "hanviet": "Truyền",
+          "meaning_vi": "truyền, đưa; lan truyền",
+          "hsk": 5,
+          "word_id": "hsk5_183"
+        },
+        {
+          "text": "到",
+          "pinyin": "dào",
+          "hanviet": "Đáo",
+          "meaning_vi": "đến",
+          "hsk": 2,
+          "word_id": "hsk2_18"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "脚",
+          "pinyin": "jiǎo",
+          "hanviet": "Cước",
+          "meaning_vi": "chân",
+          "hsk": 3,
+          "word_id": "hsk3_120"
+        },
+        {
+          "text": "下",
+          "pinyin": "xià",
+          "hanviet": "Hạ",
+          "meaning_vi": "dưới",
+          "hsk": 1,
+          "word_id": "hsk1_115"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "我抓住机会用力一踢，足球飞进了对方球门。",
+      "pinyin": "Wǒ zhuāzhù jīhuì yònglì yì tī, zúqiú fēijìn le duìfāng qiúmén.",
+      "vi": "Tôi nắm bắt cơ hội sút mạnh một cú, quả bóng bay thẳng vào lưới đối phương.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "抓",
+          "pinyin": "zhuā",
+          "hanviet": "Trảo",
+          "meaning_vi": "nắm, tóm",
+          "hsk": 5,
+          "word_id": "hsk5_616"
+        },
+        {
+          "text": "住",
+          "pinyin": "zhù",
+          "hanviet": "Trú",
+          "meaning_vi": "ở, sống",
+          "hsk": 1,
+          "word_id": "hsk1_145"
+        },
+        {
+          "text": "机会",
+          "pinyin": "jīhuì",
+          "hanviet": "Cơ Hội",
+          "meaning_vi": "cơ hội",
+          "hsk": 3,
+          "word_id": "hsk3_109"
+        },
+        {
+          "text": "用力",
+          "pinyin": "yònglì",
+          "hanviet": "Dụng Lực",
+          "meaning_vi": "dùng sức",
+          "hsk": 5,
+          "word_id": "hsk5_1393"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "踢",
+          "pinyin": "tī",
+          "hanviet": "Thích",
+          "meaning_vi": "đá (bóng)",
+          "hsk": 2,
+          "word_id": "hsk2_441"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "足球",
+          "pinyin": "zúqiú",
+          "hanviet": "Túc Cầu",
+          "meaning_vi": "bóng đá",
+          "hsk": 2,
+          "word_id": "hsk2_497"
+        },
+        {
+          "text": "飞",
+          "pinyin": "fēi",
+          "hanviet": "Phi",
+          "meaning_vi": "bay",
+          "hsk": 2,
+          "word_id": "hsk2_340"
+        },
+        {
+          "text": "进",
+          "pinyin": "jìn",
+          "hanviet": "Tiến",
+          "meaning_vi": "vào",
+          "hsk": 2,
+          "word_id": "hsk2_50"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "对方",
+          "pinyin": "duìfāng",
+          "hanviet": "Đối Phương",
+          "meaning_vi": "đối phương, phía bên kia",
+          "hsk": 5,
+          "word_id": "hsk5_760"
+        },
+        {
+          "text": "球",
+          "pinyin": "qiú",
+          "hanviet": "Cầu",
+          "meaning_vi": "quả bóng",
+          "hsk": 2,
+          "word_id": "hsk2_421"
+        },
+        {
+          "text": "门",
+          "pinyin": "mén",
+          "hanviet": "Môn",
+          "meaning_vi": "cửa",
+          "hsk": 2,
+          "word_id": "hsk2_72"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "zh": "这场胜利让大家明白了团结合作才能取得成功。",
+      "pinyin": "Zhè chǎng shènglì ràng dàjiā míngbai le tuánjié hézuò cái néng qǔdé chénggōng.",
+      "vi": "Chiến thắng này giúp mọi người hiểu rằng đoàn kết hợp tác mới có thể giành được thành công.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "场",
+          "pinyin": "chǎng",
+          "hanviet": "Tràng",
+          "meaning_vi": "bãi, sân (lượng từ)",
+          "hsk": 4,
+          "word_id": "hsk4_42"
+        },
+        {
+          "text": "胜利",
+          "pinyin": "shènglì",
+          "hanviet": "Thắng Lợi",
+          "meaning_vi": "thắng lợi",
+          "hsk": 5,
+          "word_id": "hsk5_1060"
+        },
+        {
+          "text": "让",
+          "pinyin": "ràng",
+          "hanviet": "Nhượng",
+          "meaning_vi": "để cho, khiến",
+          "hsk": 2,
+          "word_id": "hsk2_88"
+        },
+        {
+          "text": "大家",
+          "pinyin": "dàjiā",
+          "hanviet": "Đại Gia",
+          "meaning_vi": "mọi người",
+          "hsk": 2,
+          "word_id": "hsk2_17"
+        },
+        {
+          "text": "明白",
+          "pinyin": "míngbai",
+          "hanviet": "Minh Bạch",
+          "meaning_vi": "hiểu rõ, rõ ràng",
+          "hsk": 3,
+          "word_id": "hsk3_165"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "团结",
+          "pinyin": "tuánjié",
+          "hanviet": "Đoàn Kết",
+          "meaning_vi": "đoàn kết",
+          "hsk": 6,
+          "word_id": "hsk6_2071"
+        },
+        {
+          "text": "合作",
+          "pinyin": "hézuò",
+          "hanviet": "Hợp Tác",
+          "meaning_vi": "hợp tác",
+          "hsk": 5,
+          "word_id": "hsk5_190"
+        },
+        {
+          "text": "才能",
+          "pinyin": "cáinéng",
+          "hanviet": "Tài Năng",
+          "meaning_vi": "tài năng",
+          "hsk": 6,
+          "word_id": "hsk6_97"
+        },
+        {
+          "text": "取得",
+          "pinyin": "qǔdé",
+          "hanviet": "Thủ Đắc",
+          "meaning_vi": "giành được, đạt được",
+          "hsk": 4,
+          "word_id": "hsk4_596"
+        },
+        {
+          "text": "成功",
+          "pinyin": "chénggōng",
+          "hanviet": "Thành Công",
+          "meaning_vi": "thành công",
+          "hsk": 4,
+          "word_id": "hsk4_45"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk1_47",
+    "hsk1_116",
+    "hsk1_112",
+    "hsk1_129",
+    "hsk1_39",
+    "hsk4_242",
+    "hsk1_55",
+    "hsk1_130",
+    "hsk4_42",
+    "hsk2_497",
+    "hsk4_532",
+    "hsk7_3473",
+    "hsk3_893",
+    "hsk4_578",
+    "hsk5_538"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Tính chất của trận bóng đá chiều nay là gì?",
+      "options_vi": [
+        "Trận bóng đá giao hữu giữa hai trường",
+        "Trận chung kết giải quốc gia",
+        "Buổi tập luyện nội bộ lớp"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 我们学校和邻校举行了一场足球友谊赛."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Điều gì đã xảy ra trong một phút cuối cùng của trận đấu?",
+      "options_vi": [
+        "Trọng tài thổi phạt đền",
+        "Đồng đội chuyền bóng và người viết sút bóng vào lưới",
+        "Một cầu thủ bị thương"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 队友把球稳稳地传到了我的脚下... 足球飞进了对方球门."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Bài học ý nghĩa nhất sau trận đấu là gì?",
+      "options_vi": [
+        "Chỉ cần một cá nhân xuất sắc",
+        "Đoàn kết hợp tác mới tạo nên thắng lợi",
+        "Chiến thắng không quan trọng bằng may mắn"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong câu cuối có viết: 明白了团结合作才能取得成功."
+    }
+  ]
+}

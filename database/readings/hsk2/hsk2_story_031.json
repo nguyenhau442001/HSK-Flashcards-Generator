@@ -1,0 +1,680 @@
+{
+  "id": "hsk2_story_031",
+  "level": "HSK2",
+  "title": {
+    "zh": "医生让我多休息",
+    "vi": "Bác sĩ bảo tôi nghỉ ngơi nhiều"
+  },
+  "topic": "health",
+  "topic_vi": "Sức khỏe",
+  "icon": "💊",
+  "estimatedMinutes": 3,
+  "description_vi": "Cơn cảm cúm khiến đầu đau mỏi mệt, lời khuyên và đơn thuốc của bác sĩ giúp bệnh mau hồi phục.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "昨天晚上我有些发烧，头也痛得厉害。",
+      "pinyin": "Zuótiān wǎnshang wǒ yǒuxiē fāshāo, tóu yě tòng de lìhai.",
+      "vi": "Tối hôm qua tôi có chút sốt, đầu cũng đau dữ dội.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "昨天",
+          "pinyin": "zuótiān",
+          "hanviet": "Tạc Thiên",
+          "meaning_vi": "hôm qua",
+          "hsk": 1,
+          "word_id": "hsk1_148"
+        },
+        {
+          "text": "晚上",
+          "pinyin": "wǎnshang",
+          "hanviet": "Vãn Thướng",
+          "meaning_vi": "buổi tối",
+          "hsk": 2,
+          "word_id": "hsk2_108"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "有些",
+          "pinyin": "yǒuxiē",
+          "hanviet": "Hữu Ta",
+          "meaning_vi": "một số (đại từ, trạng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_599"
+        },
+        {
+          "text": "发烧",
+          "pinyin": "fāshāo",
+          "hanviet": "Phát Thiêu",
+          "meaning_vi": "sốt",
+          "hsk": 3,
+          "word_id": "hsk3_64"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "头",
+          "pinyin": "tóu",
+          "hanviet": "Đầu",
+          "meaning_vi": "đầu (danh từ, số lượng, tính từ)",
+          "hsk": 2,
+          "word_id": "hsk2_445"
+        },
+        {
+          "text": "也",
+          "pinyin": "yě",
+          "hanviet": "Dã",
+          "meaning_vi": "cũng",
+          "hsk": 2,
+          "word_id": "hsk2_127"
+        },
+        {
+          "text": "痛",
+          "pinyin": "tòng",
+          "hanviet": "Thống",
+          "meaning_vi": "đau; thỏa thích",
+          "hsk": 4,
+          "word_id": "hsk4_750"
+        },
+        {
+          "text": "得",
+          "pinyin": "de",
+          "hanviet": "Đắc",
+          "meaning_vi": "được (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_19"
+        },
+        {
+          "text": "厉害",
+          "pinyin": "lìhai",
+          "hanviet": "Lệ Hại",
+          "meaning_vi": "ghê gớm, lợi hại",
+          "hsk": 4,
+          "word_id": "hsk4_282"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "今天一大早妈妈就带我来到了医院。",
+      "pinyin": "Jīntiān yídàzǎo māma jiù dài wǒ lái dào le yīyuàn.",
+      "vi": "Sáng sớm hôm nay mẹ đã đưa tôi đến bệnh viện.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "今天",
+          "pinyin": "jīntiān",
+          "hanviet": "Kim Thiên",
+          "meaning_vi": "hôm nay",
+          "hsk": 1,
+          "word_id": "hsk1_47"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "早",
+          "pinyin": "zǎo",
+          "hanviet": "Tảo",
+          "meaning_vi": "sớm",
+          "hsk": 1,
+          "word_id": "hsk1_602"
+        },
+        {
+          "text": "妈妈",
+          "pinyin": "māma",
+          "hanviet": "Ma Ma",
+          "meaning_vi": "mẹ",
+          "hsk": 1,
+          "word_id": "hsk1_60"
+        },
+        {
+          "text": "就",
+          "pinyin": "jiù",
+          "hanviet": "Tựu",
+          "meaning_vi": "là, ngay (trợ từ nhấn mạnh)",
+          "hsk": 2,
+          "word_id": "hsk2_51"
+        },
+        {
+          "text": "带",
+          "pinyin": "dài",
+          "hanviet": "Đới",
+          "meaning_vi": "mang theo, đai",
+          "hsk": 3,
+          "word_id": "hsk3_42"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "到",
+          "pinyin": "dào",
+          "hanviet": "Đáo",
+          "meaning_vi": "đến",
+          "hsk": 2,
+          "word_id": "hsk2_18"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "医院",
+          "pinyin": "yīyuàn",
+          "hanviet": "Y Viện",
+          "meaning_vi": "bệnh viện",
+          "hsk": 1,
+          "word_id": "hsk1_133"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "医生给我量了体温，仔细地检查了咽喉。",
+      "pinyin": "Yīshēng gěi wǒ liáng le tǐwēn, zǐxì de jiǎnchá le yānhóu.",
+      "vi": "Bác sĩ đo nhiệt độ cho tôi, cẩn thận kiểm tra họng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "医生",
+          "pinyin": "yīshēng",
+          "hanviet": "Y Sinh",
+          "meaning_vi": "bác sĩ",
+          "hsk": 1,
+          "word_id": "hsk1_132"
+        },
+        {
+          "text": "给",
+          "pinyin": "gěi",
+          "hanviet": "Cấp",
+          "meaning_vi": "cho, tặng",
+          "hsk": 2,
+          "word_id": "hsk2_32"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "量",
+          "pinyin": "liáng",
+          "hanviet": "Lượng",
+          "meaning_vi": "đo",
+          "hsk": 4,
+          "word_id": "hsk4_472"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "体温",
+          "pinyin": "tǐwēn",
+          "hanviet": "Thể Ôn",
+          "meaning_vi": "nhiệt độ cơ thể",
+          "hsk": 4,
+          "word_id": "hsk4_733"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "仔细",
+          "pinyin": "zǐxì",
+          "hanviet": "Tể Tế",
+          "meaning_vi": "cẩn thận, kỹ lưỡng",
+          "hsk": 4,
+          "word_id": "hsk4_588"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "检查",
+          "pinyin": "jiǎnchá",
+          "hanviet": "Kiểm Tra",
+          "meaning_vi": "kiểm tra",
+          "hsk": 3,
+          "word_id": "hsk3_113"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "咽喉",
+          "pinyin": "yānhóu",
+          "hanviet": "Yết Hầu",
+          "meaning_vi": "yết hầu; cổ họng; vị trí hiểm yếu",
+          "hsk": 7,
+          "word_id": "hsk7_4719"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "医生说只是普通感冒，不用太担心。",
+      "pinyin": "Yīshēng shuō zhǐ shì pǔtōng gǎnmào, bú yòng tài dānxīn.",
+      "vi": "Bác sĩ nói chỉ là cảm cúm thông thường, không cần quá lo lắng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "医生",
+          "pinyin": "yīshēng",
+          "hanviet": "Y Sinh",
+          "meaning_vi": "bác sĩ",
+          "hsk": 1,
+          "word_id": "hsk1_132"
+        },
+        {
+          "text": "说",
+          "pinyin": "shuō",
+          "hanviet": "Thuyết",
+          "meaning_vi": "nói",
+          "hsk": 1,
+          "word_id": "hsk1_101"
+        },
+        {
+          "text": "只是",
+          "pinyin": "zhǐshì",
+          "hanviet": "Chỉ Thị",
+          "meaning_vi": "chỉ là; có điều",
+          "hsk": 3,
+          "word_id": "hsk3_1057"
+        },
+        {
+          "text": "普通",
+          "pinyin": "pǔtōng",
+          "hanviet": "Phổ Thông",
+          "meaning_vi": "bình thường, phổ thông",
+          "hsk": 4,
+          "word_id": "hsk4_562"
+        },
+        {
+          "text": "感冒",
+          "pinyin": "gǎnmào",
+          "hanviet": "Cảm Mạo",
+          "meaning_vi": "bị cảm",
+          "hsk": 3,
+          "word_id": "hsk3_74"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "不用",
+          "pinyin": "búyòng",
+          "hanviet": "Bất Dụng",
+          "meaning_vi": "không cần",
+          "hsk": 3,
+          "word_id": "hsk3_639"
+        },
+        {
+          "text": "太",
+          "pinyin": "tài",
+          "hanviet": "Thái",
+          "meaning_vi": "quá",
+          "hsk": 1,
+          "word_id": "hsk1_106"
+        },
+        {
+          "text": "担心",
+          "pinyin": "dānxīn",
+          "hanviet": "Đảm Tâm",
+          "meaning_vi": "lo lắng",
+          "hsk": 3,
+          "word_id": "hsk3_43"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "他给我开了药，并嘱咐我一定要多休息多喝水。",
+      "pinyin": "Tā gěi wǒ kāi le yào, bìng zhǔfù wǒ yídìng yào duō xiūxi duō hē shuǐ.",
+      "vi": "Bác sĩ kê thuốc cho tôi, dặn tôi nhất định phải nghỉ ngơi nhiều và uống nước.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "他",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "anh ấy, nó",
+          "hsk": 1,
+          "word_id": "hsk1_104"
+        },
+        {
+          "text": "给",
+          "pinyin": "gěi",
+          "hanviet": "Cấp",
+          "meaning_vi": "cho, tặng",
+          "hsk": 2,
+          "word_id": "hsk2_32"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "开",
+          "pinyin": "kāi",
+          "hanviet": "Khai",
+          "meaning_vi": "mở, lái (xe)",
+          "hsk": 1,
+          "word_id": "hsk1_49"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "药",
+          "pinyin": "yào",
+          "hanviet": "Dược",
+          "meaning_vi": "thuốc",
+          "hsk": 2,
+          "word_id": "hsk2_125"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "并",
+          "pinyin": "bìng",
+          "hanviet": "Tinh",
+          "meaning_vi": "và, đồng thời; hoàn toàn (không)",
+          "hsk": 4,
+          "word_id": "hsk4_39"
+        },
+        {
+          "text": "嘱咐",
+          "pinyin": "zhǔfù",
+          "hanviet": "Chúc Phó",
+          "meaning_vi": "dặn dò, dặn bảo",
+          "hsk": 7,
+          "word_id": "hsk7_5399"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "一定",
+          "pinyin": "yídìng",
+          "hanviet": "Nhất Định",
+          "meaning_vi": "nhất định",
+          "hsk": 3,
+          "word_id": "hsk3_254"
+        },
+        {
+          "text": "要",
+          "pinyin": "yào",
+          "hanviet": "Yêu",
+          "meaning_vi": "muốn, cần",
+          "hsk": 2,
+          "word_id": "hsk2_126"
+        },
+        {
+          "text": "多",
+          "pinyin": "duō",
+          "hanviet": "Đa",
+          "meaning_vi": "nhiều",
+          "hsk": 1,
+          "word_id": "hsk1_24"
+        },
+        {
+          "text": "休息",
+          "pinyin": "xiūxi",
+          "hanviet": "Hưu Tức",
+          "meaning_vi": "nghỉ ngơi",
+          "hsk": 2,
+          "word_id": "hsk2_120"
+        },
+        {
+          "text": "多",
+          "pinyin": "duō",
+          "hanviet": "Đa",
+          "meaning_vi": "nhiều",
+          "hsk": 1,
+          "word_id": "hsk1_24"
+        },
+        {
+          "text": "喝",
+          "pinyin": "hē",
+          "hanviet": "Húp",
+          "meaning_vi": "uống",
+          "hsk": 1,
+          "word_id": "hsk1_38"
+        },
+        {
+          "text": "水",
+          "pinyin": "shuǐ",
+          "hanviet": "Thuỷ",
+          "meaning_vi": "nước",
+          "hsk": 1,
+          "word_id": "hsk1_98"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "zh": "按时吃药后，我感觉好多了。",
+      "pinyin": "Ànshí chī yào hòu, wǒ gǎnjué hǎo duō le.",
+      "vi": "Sau khi uống thuốc đúng giờ, tôi cảm thấy đỡ hơn nhiều.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "按时",
+          "pinyin": "ànshí",
+          "hanviet": "Án Thời",
+          "meaning_vi": "đúng giờ",
+          "hsk": 4,
+          "word_id": "hsk4_4"
+        },
+        {
+          "text": "吃",
+          "pinyin": "chī",
+          "hanviet": "Cật",
+          "meaning_vi": "ăn",
+          "hsk": 1,
+          "word_id": "hsk1_11"
+        },
+        {
+          "text": "药",
+          "pinyin": "yào",
+          "hanviet": "Dược",
+          "meaning_vi": "thuốc",
+          "hsk": 2,
+          "word_id": "hsk2_125"
+        },
+        {
+          "text": "后",
+          "pinyin": "hòu",
+          "hanviet": "Hậu",
+          "meaning_vi": "sau",
+          "hsk": 1,
+          "word_id": "hsk1_524"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "感觉",
+          "pinyin": "gǎnjué",
+          "hanviet": "Cảm Giác",
+          "meaning_vi": "cảm giác",
+          "hsk": 4,
+          "word_id": "hsk4_133"
+        },
+        {
+          "text": "好多",
+          "pinyin": "hǎoduō",
+          "hanviet": "Hảo Đa",
+          "meaning_vi": "rất nhiều",
+          "hsk": 3,
+          "word_id": "hsk3_753"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk1_148",
+    "hsk2_108",
+    "hsk1_111",
+    "hsk1_599",
+    "hsk3_64",
+    "hsk2_445",
+    "hsk2_127",
+    "hsk4_750",
+    "hsk2_19",
+    "hsk4_282",
+    "hsk1_47",
+    "hsk1_130",
+    "hsk1_14",
+    "hsk1_602",
+    "hsk1_60"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Nhân vật chính gặp triệu chứng sức khỏe gì vào tối qua?",
+      "options_vi": [
+        "Đau dạ dày",
+        "Có chút sốt và đầu đau dữ dội",
+        "Gãy chân"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 昨天晚上我有些发烧，头也痛得厉害 (Tối qua tôi bị sốt, đầu đau dữ dội)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Bác sĩ chẩn đoán căn bệnh là gì?",
+      "options_vi": [
+        "Cảm cúm thông thường",
+        "Viêm phổi nặng",
+        "Không có bệnh gì"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 医生说只是普通感冒，不用太担心 (Bác sĩ nói chỉ là cảm cúm thông thường)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Bác sĩ dặn dò bệnh nhân cần làm gì?",
+      "options_vi": [
+        "Chạy bộ nhiều",
+        "Nghỉ ngơi nhiều và uống nhiều nước",
+        "Đi du lịch"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 嘱咐我一定要多休息多喝水 (Dặn tôi phải nghỉ ngơi nhiều và uống nước)."
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "id": "hsk1_story_019",
+  "level": "HSK1",
+  "title": {
+    "zh": "爸爸的电脑",
+    "vi": "Máy tính của bố"
+  },
+  "topic": "daily_life",
+  "topic_vi": "Đời sống",
+  "icon": "💻",
+  "estimatedMinutes": 3,
+  "description_vi": "Chiếc máy tính trên bàn làm việc của bố giúp bố làm việc và đọc tin tức mỗi ngày.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "爸爸的桌子上有一台新电脑。",
+      "pinyin": "Bàba de zhuōzi shang yǒu yì tái xīn diànnǎo.",
+      "vi": "Trên bàn của bố có một chiếc máy tính mới.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "爸爸",
+          "pinyin": "bàba",
+          "hanviet": "Ba Ba",
+          "meaning_vi": "ba, bố",
+          "hsk": 1,
+          "word_id": "hsk1_3"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "桌子",
+          "pinyin": "zhuōzi",
+          "hanviet": "Trác Tử",
+          "meaning_vi": "cái bàn",
+          "hsk": 1,
+          "word_id": "hsk1_146"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "台",
+          "pinyin": "tái",
+          "hanviet": "Đài",
+          "meaning_vi": "cái, bục, đài (lượng từ)",
+          "hsk": 4,
+          "word_id": "hsk4_418"
+        },
+        {
+          "text": "新",
+          "pinyin": "xīn",
+          "hanviet": "Tân",
+          "meaning_vi": "mới",
+          "hsk": 2,
+          "word_id": "hsk2_118"
+        },
+        {
+          "text": "电脑",
+          "pinyin": "diànnǎo",
+          "hanviet": "Điện Não",
+          "meaning_vi": "máy tính",
+          "hsk": 1,
+          "word_id": "hsk1_17"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "这台电脑很大，也很漂亮。",
+      "pinyin": "Zhè tái diànnǎo hěn dà, yě hěn piàoliang.",
+      "vi": "Chiếc máy tính này rất to, cũng rất đẹp.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "台",
+          "pinyin": "tái",
+          "hanviet": "Đài",
+          "meaning_vi": "cái, bục, đài (lượng từ)",
+          "hsk": 4,
+          "word_id": "hsk4_418"
+        },
+        {
+          "text": "电脑",
+          "pinyin": "diànnǎo",
+          "hanviet": "Điện Não",
+          "meaning_vi": "máy tính",
+          "hsk": 1,
+          "word_id": "hsk1_17"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "也",
+          "pinyin": "yě",
+          "hanviet": "Dã",
+          "meaning_vi": "cũng",
+          "hsk": 2,
+          "word_id": "hsk2_127"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "漂亮",
+          "pinyin": "piàoliang",
+          "hanviet": "Phiêu Lượng",
+          "meaning_vi": "đẹp",
+          "hsk": 1,
+          "word_id": "hsk1_77"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "爸爸每天用电脑工作。",
+      "pinyin": "Bàba měitiān yòng diànnǎo gōngzuò.",
+      "vi": "Bố mỗi ngày dùng máy tính để làm việc.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "爸爸",
+          "pinyin": "bàba",
+          "hanviet": "Ba Ba",
+          "meaning_vi": "ba, bố",
+          "hsk": 1,
+          "word_id": "hsk1_3"
+        },
+        {
+          "text": "每",
+          "pinyin": "měi",
+          "hanviet": "Mỗi",
+          "meaning_vi": "mỗi",
+          "hsk": 2,
+          "word_id": "hsk2_70"
+        },
+        {
+          "text": "天",
+          "pinyin": "tiān",
+          "hanviet": "Thiên",
+          "meaning_vi": "trời (danh từ, định lượng)",
+          "hsk": 1,
+          "word_id": "hsk1_573"
+        },
+        {
+          "text": "用",
+          "pinyin": "yòng",
+          "hanviet": "Dụng",
+          "meaning_vi": "dùng",
+          "hsk": 3,
+          "word_id": "hsk3_267"
+        },
+        {
+          "text": "电脑",
+          "pinyin": "diànnǎo",
+          "hanviet": "Điện Não",
+          "meaning_vi": "máy tính",
+          "hsk": 1,
+          "word_id": "hsk1_17"
+        },
+        {
+          "text": "工作",
+          "pinyin": "gōngzuò",
+          "hanviet": "Công Tác",
+          "meaning_vi": "công việc, làm việc",
+          "hsk": 1,
+          "word_id": "hsk1_33"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "有时候爸爸用电脑看新闻。",
+      "pinyin": "Yǒushíhou bàba yòng diànnǎo kàn xīnwén.",
+      "vi": "Có lúc bố dùng máy tính để xem tin tức.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "有时",
+          "pinyin": "yǒushí",
+          "hanviet": "Hữu Thời",
+          "meaning_vi": "đôi khi",
+          "hsk": 2,
+          "word_id": "hsk2_480"
+        },
+        {
+          "text": "候"
+        },
+        {
+          "text": "爸爸",
+          "pinyin": "bàba",
+          "hanviet": "Ba Ba",
+          "meaning_vi": "ba, bố",
+          "hsk": 1,
+          "word_id": "hsk1_3"
+        },
+        {
+          "text": "用",
+          "pinyin": "yòng",
+          "hanviet": "Dụng",
+          "meaning_vi": "dùng",
+          "hsk": 3,
+          "word_id": "hsk3_267"
+        },
+        {
+          "text": "电脑",
+          "pinyin": "diànnǎo",
+          "hanviet": "Điện Não",
+          "meaning_vi": "máy tính",
+          "hsk": 1,
+          "word_id": "hsk1_17"
+        },
+        {
+          "text": "看",
+          "pinyin": "kàn",
+          "hanviet": "Khán",
+          "meaning_vi": "nhìn, xem",
+          "hsk": 1,
+          "word_id": "hsk1_50"
+        },
+        {
+          "text": "新闻",
+          "pinyin": "xīnwén",
+          "hanviet": "Tân Văn",
+          "meaning_vi": "tin tức",
+          "hsk": 3,
+          "word_id": "hsk3_245"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "爸爸也教我在电脑上看汉字。",
+      "pinyin": "Bàba yě jiāo wǒ zài diànnǎo shang kàn hànzì.",
+      "vi": "Bố cũng dạy tôi xem chữ Hán trên máy tính.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "爸爸",
+          "pinyin": "bàba",
+          "hanviet": "Ba Ba",
+          "meaning_vi": "ba, bố",
+          "hsk": 1,
+          "word_id": "hsk1_3"
+        },
+        {
+          "text": "也",
+          "pinyin": "yě",
+          "hanviet": "Dã",
+          "meaning_vi": "cũng",
+          "hsk": 2,
+          "word_id": "hsk2_127"
+        },
+        {
+          "text": "教",
+          "pinyin": "jiāo",
+          "hanviet": "Giáo",
+          "meaning_vi": "dạy",
+          "hsk": 3,
+          "word_id": "hsk3_118"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "电脑",
+          "pinyin": "diànnǎo",
+          "hanviet": "Điện Não",
+          "meaning_vi": "máy tính",
+          "hsk": 1,
+          "word_id": "hsk1_17"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "看",
+          "pinyin": "kàn",
+          "hanviet": "Khán",
+          "meaning_vi": "nhìn, xem",
+          "hsk": 1,
+          "word_id": "hsk1_50"
+        },
+        {
+          "text": "汉字",
+          "pinyin": "Hànzì",
+          "hanviet": "Hán Tự",
+          "meaning_vi": "chữ Hán",
+          "hsk": 1,
+          "word_id": "hsk1_519"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "zh": "我很喜欢爸爸的电脑。",
+      "pinyin": "Wǒ hěn xǐhuan bàba de diànnǎo.",
+      "vi": "Tôi rất thích chiếc máy tính của bố.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "喜欢",
+          "pinyin": "xǐhuan",
+          "hanviet": "Hỷ Hoan",
+          "meaning_vi": "thích",
+          "hsk": 1,
+          "word_id": "hsk1_114"
+        },
+        {
+          "text": "爸爸",
+          "pinyin": "bàba",
+          "hanviet": "Ba Ba",
+          "meaning_vi": "ba, bố",
+          "hsk": 1,
+          "word_id": "hsk1_3"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "电脑",
+          "pinyin": "diànnǎo",
+          "hanviet": "Điện Não",
+          "meaning_vi": "máy tính",
+          "hsk": 1,
+          "word_id": "hsk1_17"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk1_3",
+    "hsk1_15",
+    "hsk1_146",
+    "hsk1_89",
+    "hsk1_136",
+    "hsk1_130",
+    "hsk4_418",
+    "hsk2_118",
+    "hsk1_17",
+    "hsk1_142",
+    "hsk1_40",
+    "hsk1_14",
+    "hsk2_127",
+    "hsk1_77",
+    "hsk2_70"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Chiếc máy tính của bố được đặt ở đâu?",
+      "options_vi": [
+        "Ở trên giường",
+        "Ở trên bàn",
+        "Ở dưới đất"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 爸爸的桌子上有一台新电脑 (Trên bàn của bố có một chiếc máy tính mới)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Bố dùng máy tính mỗi ngày để làm gì?",
+      "options_vi": [
+        "Làm việc",
+        "Chơi trò chơi điện tử",
+        "Nghe nhạc cả ngày"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 爸爸每天用电脑工作 (Bố mỗi ngày dùng máy tính để làm việc)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Bố dạy nhân vật chính điều gì trên máy tính?",
+      "options_vi": [
+        "Hát tiếng Anh",
+        "Xem chữ Hán",
+        "Nấu ăn"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 爸爸也教我在电脑上看汉字 (Bố cũng dạy tôi xem chữ Hán trên máy tính)."
+    }
+  ]
+}

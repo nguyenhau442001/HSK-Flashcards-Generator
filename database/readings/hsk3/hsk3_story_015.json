@@ -1,0 +1,832 @@
+{
+  "id": "hsk3_story_015",
+  "level": "HSK3",
+  "title": {
+    "zh": "丢了钱包之后",
+    "vi": "Sau khi làm mất ví tiền"
+  },
+  "topic": "daily_incident",
+  "topic_vi": "Đời sống thường nhật",
+  "icon": "👛",
+  "estimatedMinutes": 3,
+  "description_vi": "Câu chuyện may mắn tìm lại chiếc ví đánh rơi nhờ sự tử tế của người lạ.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "昨天下午坐公交车的时候，我不小心把钱包弄丢了。",
+      "pinyin": "Zuótiān xiàwǔ zuò gōngjiāochē de shíhou, wǒ bù xiǎoxīn bǎ qiánbāo nòngdiū le.",
+      "vi": "Chiều hôm qua lúc đi xe buýt, tôi vô tình đánh mất chiếc ví tiền.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "昨天",
+          "pinyin": "zuótiān",
+          "hanviet": "Tạc Thiên",
+          "meaning_vi": "hôm qua",
+          "hsk": 1,
+          "word_id": "hsk1_148"
+        },
+        {
+          "text": "下午",
+          "pinyin": "xiàwǔ",
+          "hanviet": "Hạ Ngọ",
+          "meaning_vi": "buổi chiều",
+          "hsk": 1,
+          "word_id": "hsk1_116"
+        },
+        {
+          "text": "坐",
+          "pinyin": "zuò",
+          "hanviet": "Toạ",
+          "meaning_vi": "ngồi",
+          "hsk": 1,
+          "word_id": "hsk1_150"
+        },
+        {
+          "text": "公交车",
+          "pinyin": "gōngjiāochē",
+          "hanviet": "Công Giao Xa",
+          "meaning_vi": "xe buýt",
+          "hsk": 2,
+          "word_id": "hsk2_346"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "时候",
+          "pinyin": "shíhou",
+          "hanviet": "Thời Hậu",
+          "meaning_vi": "lúc, thời điểm",
+          "hsk": 1,
+          "word_id": "hsk1_95"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "小心",
+          "pinyin": "xiǎoxīn",
+          "hanviet": "Tiểu Tâm",
+          "meaning_vi": "cẩn thận",
+          "hsk": 3,
+          "word_id": "hsk3_243"
+        },
+        {
+          "text": "把",
+          "pinyin": "bǎ",
+          "hanviet": "Bả",
+          "meaning_vi": "cái, chiếc (lượng từ); cầm, nắm",
+          "hsk": 3,
+          "word_id": "hsk3_6"
+        },
+        {
+          "text": "钱",
+          "pinyin": "qián",
+          "hanviet": "Tiền",
+          "meaning_vi": "tiền",
+          "hsk": 1,
+          "word_id": "hsk1_81"
+        },
+        {
+          "text": "包",
+          "pinyin": "bāo",
+          "hanviet": "Bao",
+          "meaning_vi": "cái túi; bao gồm",
+          "hsk": 3,
+          "word_id": "hsk3_13"
+        },
+        {
+          "text": "弄",
+          "pinyin": "nòng",
+          "hanviet": "Lộng",
+          "meaning_vi": "làm, thao tác",
+          "hsk": 4,
+          "word_id": "hsk4_318"
+        },
+        {
+          "text": "丢",
+          "pinyin": "diū",
+          "hanviet": "Đâu",
+          "meaning_vi": "mất, đánh mất",
+          "hsk": 4,
+          "word_id": "hsk4_95"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "钱包里不仅有现金，还有我的身份证和银行卡。",
+      "pinyin": "Qiánbāo lǐ bùjǐn yǒu xiànjīn, hái yǒu wǒ de shēnfènzhèng hé yínhángkǎ.",
+      "vi": "Trong ví không chỉ có tiền mặt mà còn có chứng minh thư và thẻ ngân hàng của tôi.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "钱",
+          "pinyin": "qián",
+          "hanviet": "Tiền",
+          "meaning_vi": "tiền",
+          "hsk": 1,
+          "word_id": "hsk1_81"
+        },
+        {
+          "text": "包",
+          "pinyin": "bāo",
+          "hanviet": "Bao",
+          "meaning_vi": "cái túi; bao gồm",
+          "hsk": 3,
+          "word_id": "hsk3_13"
+        },
+        {
+          "text": "里",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "bên trong",
+          "hsk": 1,
+          "word_id": "hsk1_57"
+        },
+        {
+          "text": "不仅",
+          "pinyin": "bùjǐn",
+          "hanviet": "Bất Cận",
+          "meaning_vi": "không chỉ",
+          "hsk": 4,
+          "word_id": "hsk4_31"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "现金",
+          "pinyin": "xiànjīn",
+          "hanviet": "Hiện Kim",
+          "meaning_vi": "tiền mặt",
+          "hsk": 4,
+          "word_id": "hsk4_463"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "还",
+          "pinyin": "hái",
+          "hanviet": "Hoàn",
+          "meaning_vi": "vẫn còn",
+          "hsk": 2,
+          "word_id": "hsk2_38"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "身份证",
+          "pinyin": "shēnfènzhèng",
+          "hanviet": "Thân Phần Chứng",
+          "meaning_vi": "chứng minh thư, căn cước",
+          "hsk": 4,
+          "word_id": "hsk4_643"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "银行卡",
+          "pinyin": "yínhángkǎ",
+          "hanviet": "Ngân Hành Ca",
+          "meaning_vi": "thẻ ngân hàng",
+          "hsk": 3,
+          "word_id": "hsk3_1016"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "回到家发现钱包不见了，我心里着急得不得了。",
+      "pinyin": "Huí dào jiā fāxiàn qiánbāo bújiàn le, wǒ xīnlǐ zháojí de bùdéliǎo.",
+      "vi": "Về đến nhà phát hiện ví biến mất, lòng tôi sốt ruột vô cùng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "回",
+          "pinyin": "huí",
+          "hanviet": "Hồi",
+          "meaning_vi": "trở về",
+          "hsk": 1,
+          "word_id": "hsk1_42"
+        },
+        {
+          "text": "到",
+          "pinyin": "dào",
+          "hanviet": "Đáo",
+          "meaning_vi": "đến",
+          "hsk": 2,
+          "word_id": "hsk2_18"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "发现",
+          "pinyin": "fāxiàn",
+          "hanviet": "Phát Hiện",
+          "meaning_vi": "phát hiện",
+          "hsk": 3,
+          "word_id": "hsk3_65"
+        },
+        {
+          "text": "钱",
+          "pinyin": "qián",
+          "hanviet": "Tiền",
+          "meaning_vi": "tiền",
+          "hsk": 1,
+          "word_id": "hsk1_81"
+        },
+        {
+          "text": "包",
+          "pinyin": "bāo",
+          "hanviet": "Bao",
+          "meaning_vi": "cái túi; bao gồm",
+          "hsk": 3,
+          "word_id": "hsk3_13"
+        },
+        {
+          "text": "不见",
+          "pinyin": "bújiàn",
+          "hanviet": "Bất Kiến",
+          "meaning_vi": "không thấy, mất",
+          "hsk": 3,
+          "word_id": "hsk3_638"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "心里",
+          "pinyin": "xīnlǐ",
+          "hanviet": "Tâm Lý",
+          "meaning_vi": "trong lòng",
+          "hsk": 3,
+          "word_id": "hsk3_981"
+        },
+        {
+          "text": "着急",
+          "pinyin": "zháojí",
+          "hanviet": "Trước Cấp",
+          "meaning_vi": "lo lắng, sốt ruột",
+          "hsk": 3,
+          "word_id": "hsk3_279"
+        },
+        {
+          "text": "得",
+          "pinyin": "de",
+          "hanviet": "Đắc",
+          "meaning_vi": "được (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_19"
+        },
+        {
+          "text": "不得了",
+          "pinyin": "bùdéliǎo",
+          "hanviet": "Bất Đắc Liễu",
+          "meaning_vi": "lắm, vô cùng",
+          "hsk": 5,
+          "word_id": "hsk5_672"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "正在我不知所措的时候，手机忽然响了起来。",
+      "pinyin": "Zhèngzài wǒ bùzhī-suǒcuò de shíhou, shǒujī hūrán xiǎng le qǐlái.",
+      "vi": "Đúng lúc tôi đang bối rối lúng túng thì điện thoại bỗng reo lên.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "正在",
+          "pinyin": "zhèngzài",
+          "hanviet": "Chinh Tại",
+          "meaning_vi": "đang",
+          "hsk": 2,
+          "word_id": "hsk2_145"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "不知所措",
+          "pinyin": "bùzhī-suǒcuò",
+          "hanviet": "Bất Tri Sở Thố",
+          "meaning_vi": "lúng túng luống cuống, không biết làm sao",
+          "hsk": 7,
+          "word_id": "hsk7_357"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "时候",
+          "pinyin": "shíhou",
+          "hanviet": "Thời Hậu",
+          "meaning_vi": "lúc, thời điểm",
+          "hsk": 1,
+          "word_id": "hsk1_95"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "手机",
+          "pinyin": "shǒujī",
+          "hanviet": "Thủ Cơ",
+          "meaning_vi": "điện thoại di động",
+          "hsk": 2,
+          "word_id": "hsk2_97"
+        },
+        {
+          "text": "忽然",
+          "pinyin": "hūrán",
+          "hanviet": "Hốt Nhiên",
+          "meaning_vi": "bỗng nhiên, đột nhiên",
+          "hsk": 5,
+          "word_id": "hsk5_849"
+        },
+        {
+          "text": "响",
+          "pinyin": "xiǎng",
+          "hanviet": "Hưởng",
+          "meaning_vi": "reo, vang lên",
+          "hsk": 4,
+          "word_id": "hsk4_469"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "起来",
+          "pinyin": "qǐlái",
+          "hanviet": "Khởi Lai",
+          "meaning_vi": "dậy, lên (chỉ hướng)",
+          "hsk": 3,
+          "word_id": "hsk3_185"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "原来是一位热心的老爷爷捡到了，并主动联系了我。",
+      "pinyin": "Yuánlái shì yí wèi rèxīn de lǎoyéye jiǎndào le, bìng zhǔdòng liánxì le wǒ.",
+      "vi": "Hóa ra là một cụ ông nhiệt tình đã nhặt được và chủ động liên lạc với tôi.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "原来",
+          "pinyin": "yuánlái",
+          "hanviet": "Nguyên Lai",
+          "meaning_vi": "ban đầu, hóa ra",
+          "hsk": 4,
+          "word_id": "hsk4_540"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "位",
+          "pinyin": "wèi",
+          "hanviet": "Vị",
+          "meaning_vi": "vị (lượng từ kính trọng)",
+          "hsk": 3,
+          "word_id": "hsk3_231"
+        },
+        {
+          "text": "热心",
+          "pinyin": "rèxīn",
+          "hanviet": "Nhiệt Tâm",
+          "meaning_vi": "nhiệt tâm",
+          "hsk": 5,
+          "word_id": "hsk5_387"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "老",
+          "pinyin": "lǎo",
+          "hanviet": "Lão",
+          "meaning_vi": "già",
+          "hsk": 3,
+          "word_id": "hsk3_146"
+        },
+        {
+          "text": "爷爷",
+          "pinyin": "yéye",
+          "hanviet": "Gia Gia",
+          "meaning_vi": "ông nội",
+          "hsk": 3,
+          "word_id": "hsk3_253"
+        },
+        {
+          "text": "捡",
+          "pinyin": "jiǎn",
+          "hanviet": "Kiểm",
+          "meaning_vi": "nhặt, lượm",
+          "hsk": 5,
+          "word_id": "hsk5_228"
+        },
+        {
+          "text": "到",
+          "pinyin": "dào",
+          "hanviet": "Đáo",
+          "meaning_vi": "đến",
+          "hsk": 2,
+          "word_id": "hsk2_18"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "并",
+          "pinyin": "bìng",
+          "hanviet": "Tinh",
+          "meaning_vi": "và, đồng thời; hoàn toàn (không)",
+          "hsk": 4,
+          "word_id": "hsk4_39"
+        },
+        {
+          "text": "主动",
+          "pinyin": "zhǔdòng",
+          "hanviet": "Chủ Động",
+          "meaning_vi": "chủ động",
+          "hsk": 5,
+          "word_id": "hsk5_1269"
+        },
+        {
+          "text": "联系",
+          "pinyin": "liánxì",
+          "hanviet": "Liên Hệ",
+          "meaning_vi": "liên hệ",
+          "hsk": 4,
+          "word_id": "hsk4_287"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "zh": "这件小事让我深深感受到了社会上的温暖与善意。",
+      "pinyin": "Zhè jiàn xiǎoshì ràng wǒ shēnshēn gǎnshòudào le shèhuì shang de wēnnuǎn yǔ shànyì.",
+      "vi": "Chuyện nhỏ này khiến tôi cảm nhận sâu sắc sự ấm áp và thiện chí trong xã hội.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "件",
+          "pinyin": "jiàn",
+          "hanviet": "Kiện",
+          "meaning_vi": "cái, chiếc (lượng từ)",
+          "hsk": 2,
+          "word_id": "hsk2_45"
+        },
+        {
+          "text": "小",
+          "pinyin": "xiǎo",
+          "hanviet": "Tiểu",
+          "meaning_vi": "nhỏ",
+          "hsk": 1,
+          "word_id": "hsk1_121"
+        },
+        {
+          "text": "事",
+          "pinyin": "shì",
+          "hanviet": "Sự",
+          "meaning_vi": "thứ",
+          "hsk": 1,
+          "word_id": "hsk1_565"
+        },
+        {
+          "text": "让",
+          "pinyin": "ràng",
+          "hanviet": "Nhượng",
+          "meaning_vi": "để cho, khiến",
+          "hsk": 2,
+          "word_id": "hsk2_88"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "深",
+          "pinyin": "shēn",
+          "hanviet": "Thâm",
+          "meaning_vi": "sâu",
+          "hsk": 4,
+          "word_id": "hsk4_372"
+        },
+        {
+          "text": "深",
+          "pinyin": "shēn",
+          "hanviet": "Thâm",
+          "meaning_vi": "sâu",
+          "hsk": 4,
+          "word_id": "hsk4_372"
+        },
+        {
+          "text": "感受",
+          "pinyin": "gǎnshòu",
+          "hanviet": "Cảm Thụ",
+          "meaning_vi": "cảm nhận",
+          "hsk": 5,
+          "word_id": "hsk5_798"
+        },
+        {
+          "text": "到",
+          "pinyin": "dào",
+          "hanviet": "Đáo",
+          "meaning_vi": "đến",
+          "hsk": 2,
+          "word_id": "hsk2_18"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "社会",
+          "pinyin": "shèhuì",
+          "hanviet": "Xã Hội",
+          "meaning_vi": "xã hội",
+          "hsk": 4,
+          "word_id": "hsk4_371"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "温暖",
+          "pinyin": "wēnnuǎn",
+          "hanviet": "Ôn Noãn",
+          "meaning_vi": "ấm áp",
+          "hsk": 5,
+          "word_id": "hsk5_1135"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "善意",
+          "pinyin": "shànyì",
+          "hanviet": "Thiện Ý",
+          "meaning_vi": "thiện ý; lòng tốt",
+          "hsk": 7,
+          "word_id": "hsk7_3512"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk1_148",
+    "hsk1_116",
+    "hsk1_150",
+    "hsk2_346",
+    "hsk1_15",
+    "hsk1_95",
+    "hsk1_111",
+    "hsk1_8",
+    "hsk3_243",
+    "hsk3_6",
+    "hsk1_81",
+    "hsk3_13",
+    "hsk4_318",
+    "hsk4_95",
+    "hsk1_55"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Trong chiếc ví bị mất có những đồ vật quan trọng nào?",
+      "options_vi": [
+        "Chỉ có vài đồng xu lẻ",
+        "Tiền mặt, chứng minh thư và thẻ ngân hàng",
+        "Chỉ có ảnh thẻ và vé xem phim"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 钱包里不仅有现金，还有我的身份证和银行卡."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Ai là người đã nhặt được chiếc ví và liên lạc lại?",
+      "options_vi": [
+        "Một người tài xế xe buýt",
+        "Một nhân viên ngân hàng",
+        "Một cụ ông tốt bụng"
+      ],
+      "answer": 2,
+      "explanation_vi": "Trong bài có câu: 原来是一位热心的老爷爷捡到了，并主动联系了我."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Nhân vật chính cảm nhận được điều gì sau sự việc?",
+      "options_vi": [
+        "Sự ấm áp và lòng tốt trong xã hội",
+        "Sự tức giận vì sơ ý",
+        "Cần phải mua một chiếc ví mới đắt hơn"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong câu cuối có viết: 让我深深感受到了社会上的温暖与善意."
+    }
+  ]
+}

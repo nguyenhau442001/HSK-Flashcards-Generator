@@ -1,0 +1,514 @@
+{
+  "id": "hsk1_story_024",
+  "level": "HSK1",
+  "title": {
+    "zh": "下午看电影",
+    "vi": "Buổi chiều xem phim"
+  },
+  "topic": "hobbies",
+  "topic_vi": "Sở thích",
+  "icon": "🎬",
+  "estimatedMinutes": 3,
+  "description_vi": "Chiều thứ bảy hai người bạn rủ nhau đi rạp xem một bộ phim Trung Quốc rất hay.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "星期六下午，我和小王去看电影。",
+      "pinyin": "Xīngqīliù xiàwǔ, wǒ hé Xiǎo Wáng qù kàn diànyǐng.",
+      "vi": "Chiều thứ Bảy, tôi và Tiểu Vương đi xem phim.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "星期",
+          "pinyin": "xīngqī",
+          "hanviet": "Tinh Kỳ",
+          "meaning_vi": "tuần, thứ (trong tuần)",
+          "hsk": 1,
+          "word_id": "hsk1_126"
+        },
+        {
+          "text": "六",
+          "pinyin": "liù",
+          "hanviet": "Lục",
+          "meaning_vi": "sáu",
+          "hsk": 1,
+          "word_id": "hsk1_58"
+        },
+        {
+          "text": "下午",
+          "pinyin": "xiàwǔ",
+          "hanviet": "Hạ Ngọ",
+          "meaning_vi": "buổi chiều",
+          "hsk": 1,
+          "word_id": "hsk1_116"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "小",
+          "pinyin": "xiǎo",
+          "hanviet": "Tiểu",
+          "meaning_vi": "nhỏ",
+          "hsk": 1,
+          "word_id": "hsk1_121"
+        },
+        {
+          "text": "王"
+        },
+        {
+          "text": "去",
+          "pinyin": "qù",
+          "hanviet": "Khứ",
+          "meaning_vi": "đi",
+          "hsk": 1,
+          "word_id": "hsk1_83"
+        },
+        {
+          "text": "看",
+          "pinyin": "kàn",
+          "hanviet": "Khán",
+          "meaning_vi": "nhìn, xem",
+          "hsk": 1,
+          "word_id": "hsk1_50"
+        },
+        {
+          "text": "电影",
+          "pinyin": "diànyǐng",
+          "hanviet": "Điện Ảnh",
+          "meaning_vi": "phim",
+          "hsk": 1,
+          "word_id": "hsk1_19"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "电影院离学校不太远。",
+      "pinyin": "Diànyǐngyuàn lí xuéxiào bú tài yuǎn.",
+      "vi": "Rạp chiếu phim cách trường học không xa lắm.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "电影院",
+          "pinyin": "diànyǐngyuàn",
+          "hanviet": "Điện Ảnh Viện",
+          "meaning_vi": "rạp chiếu phim",
+          "hsk": 1,
+          "word_id": "hsk1_511"
+        },
+        {
+          "text": "离",
+          "pinyin": "lí",
+          "hanviet": "Ly",
+          "meaning_vi": "cách (khoảng cách)",
+          "hsk": 2,
+          "word_id": "hsk2_62"
+        },
+        {
+          "text": "学校",
+          "pinyin": "xuéxiào",
+          "hanviet": "Học Hiệu",
+          "meaning_vi": "trường học",
+          "hsk": 1,
+          "word_id": "hsk1_129"
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "hanviet": "Bất",
+          "meaning_vi": "không",
+          "hsk": 1,
+          "word_id": "hsk1_8"
+        },
+        {
+          "text": "太",
+          "pinyin": "tài",
+          "hanviet": "Thái",
+          "meaning_vi": "quá",
+          "hsk": 1,
+          "word_id": "hsk1_106"
+        },
+        {
+          "text": "远",
+          "pinyin": "yuǎn",
+          "hanviet": "Viễn",
+          "meaning_vi": "xa",
+          "hsk": 2,
+          "word_id": "hsk2_137"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "这部电影是一个中国电影。",
+      "pinyin": "Zhè bù diànyǐng shì yí gè zhōngguó diànyǐng.",
+      "vi": "Bộ phim này là một bộ phim Trung Quốc.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "这",
+          "pinyin": "zhè",
+          "hanviet": "Giá",
+          "meaning_vi": "này",
+          "hsk": 1,
+          "word_id": "hsk1_142"
+        },
+        {
+          "text": "部",
+          "pinyin": "bù",
+          "hanviet": "Bộ",
+          "meaning_vi": "bộ phận, phòng ban; bộ (phim, máy)",
+          "hsk": 4,
+          "word_id": "hsk4_50"
+        },
+        {
+          "text": "电影",
+          "pinyin": "diànyǐng",
+          "hanviet": "Điện Ảnh",
+          "meaning_vi": "phim",
+          "hsk": 1,
+          "word_id": "hsk1_19"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "个",
+          "pinyin": "gè",
+          "hanviet": "Cá",
+          "meaning_vi": "cái (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_32"
+        },
+        {
+          "text": "中国",
+          "pinyin": "zhōngguó",
+          "hanviet": "Trung Quốc",
+          "meaning_vi": "Trung Quốc",
+          "hsk": 1,
+          "word_id": "hsk1_143"
+        },
+        {
+          "text": "电影",
+          "pinyin": "diànyǐng",
+          "hanviet": "Điện Ảnh",
+          "meaning_vi": "phim",
+          "hsk": 1,
+          "word_id": "hsk1_19"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "电影里的人说话很有意思。",
+      "pinyin": "Diànyǐng lǐ de rén shuōhuà hěn yǒu yìsi.",
+      "vi": "Những người trong phim nói chuyện rất thú vị.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "电影",
+          "pinyin": "diànyǐng",
+          "hanviet": "Điện Ảnh",
+          "meaning_vi": "phim",
+          "hsk": 1,
+          "word_id": "hsk1_19"
+        },
+        {
+          "text": "里",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "bên trong",
+          "hsk": 1,
+          "word_id": "hsk1_57"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "说话",
+          "pinyin": "shuōhuà",
+          "hanviet": "Thuyết Thoại",
+          "meaning_vi": "nói chuyện",
+          "hsk": 2,
+          "word_id": "hsk2_98"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "有意思",
+          "pinyin": "yǒu yìsi",
+          "hanviet": "Hữu Ý Tư",
+          "meaning_vi": "thú vị",
+          "hsk": 2,
+          "word_id": "hsk2_479"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "我们看了两个小时。",
+      "pinyin": "Wǒmen kàn le liǎng gè xiǎoshí.",
+      "vi": "Chúng tôi đã xem trong hai tiếng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "看",
+          "pinyin": "kàn",
+          "hanviet": "Khán",
+          "meaning_vi": "nhìn, xem",
+          "hsk": 1,
+          "word_id": "hsk1_50"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "两",
+          "pinyin": "liǎng",
+          "hanviet": "Lưỡng",
+          "meaning_vi": "hai (số lượng)",
+          "hsk": 2,
+          "word_id": "hsk2_63"
+        },
+        {
+          "text": "个",
+          "pinyin": "gè",
+          "hanviet": "Cá",
+          "meaning_vi": "cái (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_32"
+        },
+        {
+          "text": "小时",
+          "pinyin": "xiǎoshí",
+          "hanviet": "Tiểu Thời",
+          "meaning_vi": "giờ (đơn vị thời gian)",
+          "hsk": 2,
+          "word_id": "hsk2_116"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "zh": "看完了电影，我们高兴地回家。",
+      "pinyin": "Kàn wán le diànyǐng, wǒmen gāoxìng de huí jiā.",
+      "vi": "Xem xong phim, chúng tôi vui vẻ về nhà.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "看",
+          "pinyin": "kàn",
+          "hanviet": "Khán",
+          "meaning_vi": "nhìn, xem",
+          "hsk": 1,
+          "word_id": "hsk1_50"
+        },
+        {
+          "text": "完",
+          "pinyin": "wán",
+          "hanviet": "Hoàn",
+          "meaning_vi": "hoàn thành, xong",
+          "hsk": 2,
+          "word_id": "hsk2_106"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "电影",
+          "pinyin": "diànyǐng",
+          "hanviet": "Điện Ảnh",
+          "meaning_vi": "phim",
+          "hsk": 1,
+          "word_id": "hsk1_19"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "高兴",
+          "pinyin": "gāoxìng",
+          "hanviet": "Cao Hứng",
+          "meaning_vi": "vui, vui mừng",
+          "hsk": 1,
+          "word_id": "hsk1_31"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "回",
+          "pinyin": "huí",
+          "hanviet": "Hồi",
+          "meaning_vi": "trở về",
+          "hsk": 1,
+          "word_id": "hsk1_42"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk1_126",
+    "hsk1_58",
+    "hsk1_116",
+    "hsk1_111",
+    "hsk1_39",
+    "hsk1_121",
+    "hsk1_83",
+    "hsk1_50",
+    "hsk1_19",
+    "hsk1_511",
+    "hsk2_62",
+    "hsk1_129",
+    "hsk1_8",
+    "hsk1_106",
+    "hsk2_137"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Ai đi xem phim cùng nhân vật chính?",
+      "options_vi": [
+        "Thầy giáo",
+        "Tiểu Vương",
+        "Mẹ"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 我和小王去看电影 (Tôi và Tiểu Vương đi xem phim)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Bộ phim họ xem là phim nước nào?",
+      "options_vi": [
+        "Phim Trung Quốc",
+        "Phim Mỹ",
+        "Phim Hàn Quốc"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 这部电影是一个中国电影 (Bộ phim này là một bộ phim Trung Quốc)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Họ đã xem bộ phim trong bao lâu?",
+      "options_vi": [
+        "1 tiếng",
+        "2 tiếng",
+        "3 tiếng"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 我们看了两个小时 (Chúng tôi đã xem trong hai tiếng)."
+    }
+  ]
+}

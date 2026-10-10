@@ -1,0 +1,790 @@
+{
+  "id": "hsk3_story_018",
+  "level": "HSK3",
+  "title": {
+    "zh": "邻居家的可爱小狗",
+    "vi": "Chú chó nhỏ đáng yêu của nhà hàng xóm"
+  },
+  "topic": "pets_life",
+  "topic_vi": "Thú cưng & Đời sống",
+  "icon": "🐕",
+  "estimatedMinutes": 3,
+  "description_vi": "Tình bạn thân thiết giữa một cậu bé và chú chó con lông vàng đáng yêu.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "新搬来的邻居家养了一只非常可爱的小狗。",
+      "pinyin": "Xīn bānlái de línjū jiā yǎng le yì zhī fēicháng kě'ài de xiǎogǒu.",
+      "vi": "Gia đình hàng xóm mới chuyển tới nuôi một chú chó con rất đáng yêu.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "新",
+          "pinyin": "xīn",
+          "hanviet": "Tân",
+          "meaning_vi": "mới",
+          "hsk": 2,
+          "word_id": "hsk2_118"
+        },
+        {
+          "text": "搬",
+          "pinyin": "bān",
+          "hanviet": "Ban",
+          "meaning_vi": "dọn, di chuyển",
+          "hsk": 3,
+          "word_id": "hsk3_8"
+        },
+        {
+          "text": "来",
+          "pinyin": "lái",
+          "hanviet": "Lai",
+          "meaning_vi": "đến, tới",
+          "hsk": 1,
+          "word_id": "hsk1_53"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "邻居",
+          "pinyin": "línjū",
+          "hanviet": "Lân Cư",
+          "meaning_vi": "hàng xóm",
+          "hsk": 3,
+          "word_id": "hsk3_155"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "养",
+          "pinyin": "yǎng",
+          "hanviet": "Dưỡng",
+          "meaning_vi": "nuôi",
+          "hsk": 3,
+          "word_id": "hsk3_998"
+        },
+        {
+          "text": "了",
+          "pinyin": "le",
+          "hanviet": "Liễu",
+          "meaning_vi": "rồi (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_55"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "只",
+          "pinyin": "zhī",
+          "hanviet": "Chỉ",
+          "meaning_vi": "con, chiếc, cái (lượng từ: 一只猫)",
+          "hsk": 1,
+          "word_id": "hsk1_609"
+        },
+        {
+          "text": "非常",
+          "pinyin": "fēicháng",
+          "hanviet": "Phi Thường",
+          "meaning_vi": "rất, vô cùng",
+          "hsk": 2,
+          "word_id": "hsk2_27"
+        },
+        {
+          "text": "可爱",
+          "pinyin": "kě'ài",
+          "hanviet": "Khả Ái",
+          "meaning_vi": "đáng yêu",
+          "hsk": 3,
+          "word_id": "hsk3_137"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "小",
+          "pinyin": "xiǎo",
+          "hanviet": "Tiểu",
+          "meaning_vi": "nhỏ",
+          "hsk": 1,
+          "word_id": "hsk1_121"
+        },
+        {
+          "text": "狗",
+          "pinyin": "gǒu",
+          "hanviet": "Cẩu",
+          "meaning_vi": "con chó",
+          "hsk": 1,
+          "word_id": "hsk1_34"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "它的身上长着金黄色的毛，眼睛又大又亮。",
+      "pinyin": "Tā de shēnshang zhǎng zhe jīnhuángsè de máo, yǎnjīng yòu dà yòu liàng.",
+      "vi": "Trên mình nó phủ lớp lông màu vàng óng, đôi mắt vừa to vừa sáng.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "它",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "nó (vật, con vật)",
+          "hsk": 2,
+          "word_id": "hsk2_101"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "身",
+          "pinyin": "shēn",
+          "hanviet": "Thân",
+          "meaning_vi": "thân, cơ thể; bộ (quần áo)",
+          "hsk": 4,
+          "word_id": "hsk4_641"
+        },
+        {
+          "text": "上",
+          "pinyin": "shàng",
+          "hanviet": "Thướng",
+          "meaning_vi": "trên",
+          "hsk": 1,
+          "word_id": "hsk1_89"
+        },
+        {
+          "text": "长",
+          "pinyin": "cháng",
+          "hanviet": "Trường",
+          "meaning_vi": "dài",
+          "hsk": 2,
+          "word_id": "hsk2_9"
+        },
+        {
+          "text": "着",
+          "pinyin": "zhe",
+          "hanviet": "Trước",
+          "meaning_vi": "đang (trợ từ)",
+          "hsk": 2,
+          "word_id": "hsk2_143"
+        },
+        {
+          "text": "金"
+        },
+        {
+          "text": "黄色",
+          "pinyin": "huángsè",
+          "hanviet": "Hoàng Sắc",
+          "meaning_vi": "màu vàng",
+          "hsk": 3,
+          "word_id": "hsk3_771"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "毛",
+          "pinyin": "máo",
+          "hanviet": "Mao",
+          "meaning_vi": "lông; hào (tiền)",
+          "hsk": 4,
+          "word_id": "hsk4_300"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "眼睛",
+          "pinyin": "yǎnjing",
+          "hanviet": "Nhãn Tình",
+          "meaning_vi": "mắt",
+          "hsk": 2,
+          "word_id": "hsk2_123"
+        },
+        {
+          "text": "又",
+          "pinyin": "yòu",
+          "hanviet": "Hựu",
+          "meaning_vi": "lại (lần nữa)",
+          "hsk": 3,
+          "word_id": "hsk3_270"
+        },
+        {
+          "text": "大",
+          "pinyin": "dà",
+          "hanviet": "Đại",
+          "meaning_vi": "to, lớn",
+          "hsk": 1,
+          "word_id": "hsk1_14"
+        },
+        {
+          "text": "又",
+          "pinyin": "yòu",
+          "hanviet": "Hựu",
+          "meaning_vi": "lại (lần nữa)",
+          "hsk": 3,
+          "word_id": "hsk3_270"
+        },
+        {
+          "text": "亮",
+          "pinyin": "liàng",
+          "hanviet": "Lượng",
+          "meaning_vi": "sáng",
+          "hsk": 5,
+          "word_id": "hsk5_948"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "每当我放学回家，它总是在门口欢快地摇尾巴。",
+      "pinyin": "Měidāng wǒ fàngxué huíjiā, tā zǒngshì zài ménkǒu huānkuài de yáo wěiba.",
+      "vi": "Mỗi khi tôi đi học về nhà, nó luôn vui mừng vẫy đuôi ở cửa.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "每",
+          "pinyin": "měi",
+          "hanviet": "Mỗi",
+          "meaning_vi": "mỗi",
+          "hsk": 2,
+          "word_id": "hsk2_70"
+        },
+        {
+          "text": "当",
+          "pinyin": "dāng",
+          "hanviet": "Đương",
+          "meaning_vi": "khi, lúc",
+          "hsk": 4,
+          "word_id": "hsk4_76"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "放学",
+          "pinyin": "fàngxué",
+          "hanviet": "Phóng Học",
+          "meaning_vi": "tan học",
+          "hsk": 3,
+          "word_id": "hsk3_721"
+        },
+        {
+          "text": "回",
+          "pinyin": "huí",
+          "hanviet": "Hồi",
+          "meaning_vi": "trở về",
+          "hsk": 1,
+          "word_id": "hsk1_42"
+        },
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "它",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "nó (vật, con vật)",
+          "hsk": 2,
+          "word_id": "hsk2_101"
+        },
+        {
+          "text": "总是",
+          "pinyin": "zǒngshì",
+          "hanviet": "Tổng Thị",
+          "meaning_vi": "luôn luôn",
+          "hsk": 3,
+          "word_id": "hsk3_296"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "门口",
+          "pinyin": "ménkǒu",
+          "hanviet": "Môn Khẩu",
+          "meaning_vi": "cổng, cửa, trước cửa",
+          "hsk": 2,
+          "word_id": "hsk2_401"
+        },
+        {
+          "text": "欢快",
+          "pinyin": "huānkuài",
+          "hanviet": "Hoan Khoái",
+          "meaning_vi": "vui tươi, rộn rã",
+          "hsk": 7,
+          "word_id": "hsk7_1743"
+        },
+        {
+          "text": "地",
+          "pinyin": "de",
+          "hanviet": "Địa",
+          "meaning_vi": "cách (trợ từ trạng ngữ)",
+          "hsk": 3,
+          "word_id": "hsk3_46"
+        },
+        {
+          "text": "摇",
+          "pinyin": "yáo",
+          "hanviet": "Dao",
+          "meaning_vi": "lắc, rung",
+          "hsk": 5,
+          "word_id": "hsk5_1194"
+        },
+        {
+          "text": "尾巴",
+          "pinyin": "wěiba",
+          "hanviet": "Vĩ Ba",
+          "meaning_vi": "cái đuôi",
+          "hsk": 5,
+          "word_id": "hsk5_487"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "虽然它年纪还小，但是特别聪明懂事。",
+      "pinyin": "Suīrán tā niánjì hái xiǎo, dànshì tèbié cōngmíng dǒngshì.",
+      "vi": "Tuy tuổi nó còn nhỏ nhưng đặc biệt thông minh và ngoan ngoãn.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "虽然",
+          "pinyin": "suīrán",
+          "hanviet": "Tuy Nhiên",
+          "meaning_vi": "mặc dù",
+          "hsk": 2,
+          "word_id": "hsk2_438"
+        },
+        {
+          "text": "它",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "nó (vật, con vật)",
+          "hsk": 2,
+          "word_id": "hsk2_101"
+        },
+        {
+          "text": "年纪",
+          "pinyin": "niánjì",
+          "hanviet": "Niên Kỷ",
+          "meaning_vi": "tuổi tác",
+          "hsk": 5,
+          "word_id": "hsk5_337"
+        },
+        {
+          "text": "还",
+          "pinyin": "hái",
+          "hanviet": "Hoàn",
+          "meaning_vi": "vẫn còn",
+          "hsk": 2,
+          "word_id": "hsk2_38"
+        },
+        {
+          "text": "小",
+          "pinyin": "xiǎo",
+          "hanviet": "Tiểu",
+          "meaning_vi": "nhỏ",
+          "hsk": 1,
+          "word_id": "hsk1_121"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "但是",
+          "pinyin": "dànshì",
+          "hanviet": "Đãn Thị",
+          "meaning_vi": "nhưng",
+          "hsk": 2,
+          "word_id": "hsk2_331"
+        },
+        {
+          "text": "特别",
+          "pinyin": "tèbié",
+          "hanviet": "Đặc Biệt",
+          "meaning_vi": "đặc biệt",
+          "hsk": 3,
+          "word_id": "hsk3_213"
+        },
+        {
+          "text": "聪明",
+          "pinyin": "cōngming",
+          "hanviet": "Thông Minh",
+          "meaning_vi": "thông minh",
+          "hsk": 3,
+          "word_id": "hsk3_39"
+        },
+        {
+          "text": "懂事",
+          "pinyin": "dǒngshì",
+          "hanviet": "Đổng Sự",
+          "meaning_vi": "hiểu chuyện, biết điều",
+          "hsk": 7,
+          "word_id": "hsk7_934"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "有时候邻居出差，我就主动帮他们照顾小狗。",
+      "pinyin": "Yǒushíhou línjū chūchāi, wǒ jiù zhǔdòng bāng tāmen zhàogù xiǎogǒu.",
+      "vi": "Đôi khi hàng xóm đi công tác, tôi chủ động giúp họ chăm sóc chú chó.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "有时",
+          "pinyin": "yǒushí",
+          "hanviet": "Hữu Thời",
+          "meaning_vi": "đôi khi",
+          "hsk": 2,
+          "word_id": "hsk2_480"
+        },
+        {
+          "text": "候"
+        },
+        {
+          "text": "邻居",
+          "pinyin": "línjū",
+          "hanviet": "Lân Cư",
+          "meaning_vi": "hàng xóm",
+          "hsk": 3,
+          "word_id": "hsk3_155"
+        },
+        {
+          "text": "出差",
+          "pinyin": "chūchāi",
+          "hanviet": "Xuất Sai",
+          "meaning_vi": "đi công tác",
+          "hsk": 4,
+          "word_id": "hsk4_52"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "就",
+          "pinyin": "jiù",
+          "hanviet": "Tựu",
+          "meaning_vi": "là, ngay (trợ từ nhấn mạnh)",
+          "hsk": 2,
+          "word_id": "hsk2_51"
+        },
+        {
+          "text": "主动",
+          "pinyin": "zhǔdòng",
+          "hanviet": "Chủ Động",
+          "meaning_vi": "chủ động",
+          "hsk": 5,
+          "word_id": "hsk5_1269"
+        },
+        {
+          "text": "帮",
+          "pinyin": "bāng",
+          "hanviet": "Bang",
+          "meaning_vi": "giúp đỡ",
+          "hsk": 2,
+          "word_id": "hsk2_305"
+        },
+        {
+          "text": "他们",
+          "pinyin": "tāmen",
+          "hanviet": "Tha Môn",
+          "meaning_vi": "họ (đại từ)",
+          "hsk": 1,
+          "word_id": "hsk1_570"
+        },
+        {
+          "text": "照顾",
+          "pinyin": "zhàogù",
+          "hanviet": "Chiếu Cố",
+          "meaning_vi": "chăm sóc",
+          "hsk": 3,
+          "word_id": "hsk3_280"
+        },
+        {
+          "text": "小",
+          "pinyin": "xiǎo",
+          "hanviet": "Tiểu",
+          "meaning_vi": "nhỏ",
+          "hsk": 1,
+          "word_id": "hsk1_121"
+        },
+        {
+          "text": "狗",
+          "pinyin": "gǒu",
+          "hanviet": "Cẩu",
+          "meaning_vi": "con chó",
+          "hsk": 1,
+          "word_id": "hsk1_34"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "zh": "和小动物相处的时光，总能带给我许多欢乐与平静。",
+      "pinyin": "Hé xiǎodòngwù xiāngchǔ de shíguāng, zǒng néng dài gěi wǒ xǔduō huānlè yǔ píngjìng.",
+      "vi": "Khoảng thời gian bên cạnh động vật nhỏ luôn đem lại cho tôi nhiều niềm vui và bình yên.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "和",
+          "pinyin": "hé",
+          "hanviet": "Hoà",
+          "meaning_vi": "và",
+          "hsk": 1,
+          "word_id": "hsk1_39"
+        },
+        {
+          "text": "小",
+          "pinyin": "xiǎo",
+          "hanviet": "Tiểu",
+          "meaning_vi": "nhỏ",
+          "hsk": 1,
+          "word_id": "hsk1_121"
+        },
+        {
+          "text": "动物",
+          "pinyin": "dòngwù",
+          "hanviet": "Động Vật",
+          "meaning_vi": "động vật",
+          "hsk": 3,
+          "word_id": "hsk3_55"
+        },
+        {
+          "text": "相处",
+          "pinyin": "xiāngchǔ",
+          "hanviet": "Tương Xử",
+          "meaning_vi": "sống cùng, chung sống",
+          "hsk": 5,
+          "word_id": "hsk5_1158"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "时光",
+          "pinyin": "shíguāng",
+          "hanviet": "Thời Quang",
+          "meaning_vi": "thời gian, năm tháng",
+          "hsk": 6,
+          "word_id": "hsk6_1883"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "总",
+          "pinyin": "zǒng",
+          "hanviet": "Tổng",
+          "meaning_vi": "luôn, lúc nào cũng; tổng",
+          "hsk": 3,
+          "word_id": "hsk3_1072"
+        },
+        {
+          "text": "能",
+          "pinyin": "néng",
+          "hanviet": "Năng",
+          "meaning_vi": "có thể",
+          "hsk": 1,
+          "word_id": "hsk1_72"
+        },
+        {
+          "text": "带",
+          "pinyin": "dài",
+          "hanviet": "Đới",
+          "meaning_vi": "mang theo, đai",
+          "hsk": 3,
+          "word_id": "hsk3_42"
+        },
+        {
+          "text": "给",
+          "pinyin": "gěi",
+          "hanviet": "Cấp",
+          "meaning_vi": "cho, tặng",
+          "hsk": 2,
+          "word_id": "hsk2_32"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "许多",
+          "pinyin": "xǔduō",
+          "hanviet": "Hứa Đa",
+          "meaning_vi": "nhiều, rất nhiều",
+          "hsk": 4,
+          "word_id": "hsk4_489"
+        },
+        {
+          "text": "欢乐",
+          "pinyin": "huānlè",
+          "hanviet": "Hoan Lạc",
+          "meaning_vi": "vui tươi, hân hoan, niềm vui",
+          "hsk": 6,
+          "word_id": "hsk6_575"
+        },
+        {
+          "text": "与",
+          "pinyin": "yǔ",
+          "hanviet": "Dư",
+          "meaning_vi": "và, với",
+          "hsk": 4,
+          "word_id": "hsk4_535"
+        },
+        {
+          "text": "平静",
+          "pinyin": "píngjìng",
+          "hanviet": "Bình Tĩnh",
+          "meaning_vi": "bình tĩnh, yên tĩnh",
+          "hsk": 5,
+          "word_id": "hsk5_353"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk2_118",
+    "hsk3_8",
+    "hsk1_53",
+    "hsk1_15",
+    "hsk3_155",
+    "hsk1_45",
+    "hsk3_998",
+    "hsk1_55",
+    "hsk1_130",
+    "hsk1_609",
+    "hsk2_27",
+    "hsk3_137",
+    "hsk1_121",
+    "hsk1_34",
+    "hsk2_101"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Chú chó của nhà hàng xóm có ngoại hình ra sao?",
+      "options_vi": [
+        "Lông đen tuyền, mắt nhỏ",
+        "Lông màu vàng óng, mắt to và sáng",
+        "Lông trắng điểm đốm nâu"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 它的身上长着金黄色的毛，眼睛又大又亮."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Khi người viết đi học về, chú chó làm hành động gì?",
+      "options_vi": [
+        "Sủa to giận dữ",
+        "Trốn vào góc nhà",
+        "Vui vẻ vẫy đuôi ở cửa"
+      ],
+      "answer": 2,
+      "explanation_vi": "Trong bài có câu: 每当我放学回家，它总是在门口欢快地摇尾巴."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Người viết giúp hàng xóm việc gì khi họ vắng nhà?",
+      "options_vi": [
+        "Trông nhà giúp",
+        "Giúp họ chăm sóc chú chó",
+        "Tưới cây trong vườn"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 有时候邻居出差，我就主动帮他们照顾小狗."
+    }
+  ]
+}

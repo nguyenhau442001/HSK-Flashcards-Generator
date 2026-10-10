@@ -1,0 +1,453 @@
+{
+  "id": "hsk1_story_036",
+  "level": "HSK1",
+  "title": {
+    "zh": "椅子下面的猫",
+    "vi": "Con mèo ở dưới ghế"
+  },
+  "topic": "pets",
+  "topic_vi": "Thú cưng",
+  "icon": "🐱",
+  "estimatedMinutes": 3,
+  "description_vi": "Chú mèo con tinh nghịch thích nằm ngủ lười biếng bên dưới chiếc ghế gỗ.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "家里有一只可爱的小花猫。",
+      "pinyin": "Jiā lǐ yǒu yì zhī kě'ài de xiǎo huāmāo.",
+      "vi": "Trong nhà có một chú mèo hoa nhỏ đáng yêu.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "家",
+          "pinyin": "jiā",
+          "hanviet": "Gia",
+          "meaning_vi": "nhà",
+          "hsk": 1,
+          "word_id": "hsk1_45"
+        },
+        {
+          "text": "里",
+          "pinyin": "lǐ",
+          "hanviet": "Lý",
+          "meaning_vi": "bên trong",
+          "hsk": 1,
+          "word_id": "hsk1_57"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "只",
+          "pinyin": "zhī",
+          "hanviet": "Chỉ",
+          "meaning_vi": "con, chiếc, cái (lượng từ: 一只猫)",
+          "hsk": 1,
+          "word_id": "hsk1_609"
+        },
+        {
+          "text": "可爱",
+          "pinyin": "kě'ài",
+          "hanviet": "Khả Ái",
+          "meaning_vi": "đáng yêu",
+          "hsk": 3,
+          "word_id": "hsk3_137"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "小",
+          "pinyin": "xiǎo",
+          "hanviet": "Tiểu",
+          "meaning_vi": "nhỏ",
+          "hsk": 1,
+          "word_id": "hsk1_121"
+        },
+        {
+          "text": "花"
+        },
+        {
+          "text": "猫",
+          "pinyin": "māo",
+          "hanviet": "Miêu",
+          "meaning_vi": "con mèo",
+          "hsk": 1,
+          "word_id": "hsk1_62"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "它最喜欢呆在椅子下面。",
+      "pinyin": "Tā zuì xǐhuan dāi zài yǐzi xiàmiàn.",
+      "vi": "Nó thích nhất là ở dưới gầm ghế.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "它",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "nó (vật, con vật)",
+          "hsk": 2,
+          "word_id": "hsk2_101"
+        },
+        {
+          "text": "最",
+          "pinyin": "zuì",
+          "hanviet": "Tối",
+          "meaning_vi": "nhất",
+          "hsk": 2,
+          "word_id": "hsk2_149"
+        },
+        {
+          "text": "喜欢",
+          "pinyin": "xǐhuan",
+          "hanviet": "Hỷ Hoan",
+          "meaning_vi": "thích",
+          "hsk": 1,
+          "word_id": "hsk1_114"
+        },
+        {
+          "text": "呆",
+          "pinyin": "dāi",
+          "hanviet": "Ngốc",
+          "meaning_vi": "ở lại, đờ đẫn",
+          "hsk": 5,
+          "word_id": "hsk5_731"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "椅子",
+          "pinyin": "yǐzi",
+          "hanviet": "Ỷ Tử",
+          "meaning_vi": "cái ghế",
+          "hsk": 1,
+          "word_id": "hsk1_135"
+        },
+        {
+          "text": "下面",
+          "pinyin": "xiàmiàn",
+          "hanviet": "Hạ Diện",
+          "meaning_vi": "bên dưới",
+          "hsk": 2,
+          "word_id": "hsk2_459"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "椅子下面又暖和又安静。",
+      "pinyin": "Yǐzi xiàmiàn yòu nuǎnhuo yòu ānjìng.",
+      "vi": "Phía dưới ghế vừa ấm áp lại vừa yên tĩnh.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "椅子",
+          "pinyin": "yǐzi",
+          "hanviet": "Ỷ Tử",
+          "meaning_vi": "cái ghế",
+          "hsk": 1,
+          "word_id": "hsk1_135"
+        },
+        {
+          "text": "下面",
+          "pinyin": "xiàmiàn",
+          "hanviet": "Hạ Diện",
+          "meaning_vi": "bên dưới",
+          "hsk": 2,
+          "word_id": "hsk2_459"
+        },
+        {
+          "text": "又",
+          "pinyin": "yòu",
+          "hanviet": "Hựu",
+          "meaning_vi": "lại (lần nữa)",
+          "hsk": 3,
+          "word_id": "hsk3_270"
+        },
+        {
+          "text": "暖和",
+          "pinyin": "nuǎnhuo",
+          "hanviet": "Noãn Hoà",
+          "meaning_vi": "ấm áp",
+          "hsk": 4,
+          "word_id": "hsk4_319"
+        },
+        {
+          "text": "又",
+          "pinyin": "yòu",
+          "hanviet": "Hựu",
+          "meaning_vi": "lại (lần nữa)",
+          "hsk": 3,
+          "word_id": "hsk3_270"
+        },
+        {
+          "text": "安静",
+          "pinyin": "ānjìng",
+          "hanviet": "An Tĩnh",
+          "meaning_vi": "yên tĩnh",
+          "hsk": 3,
+          "word_id": "hsk3_5"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "有时候它在椅子下面玩线团。",
+      "pinyin": "Yǒushíhou tā zài yǐzi xiàmiàn wán xiàntuán.",
+      "vi": "Có lúc nó nghịch cuộn len dưới gầm ghế.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "有时",
+          "pinyin": "yǒushí",
+          "hanviet": "Hữu Thời",
+          "meaning_vi": "đôi khi",
+          "hsk": 2,
+          "word_id": "hsk2_480"
+        },
+        {
+          "text": "候"
+        },
+        {
+          "text": "它",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "nó (vật, con vật)",
+          "hsk": 2,
+          "word_id": "hsk2_101"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "椅子",
+          "pinyin": "yǐzi",
+          "hanviet": "Ỷ Tử",
+          "meaning_vi": "cái ghế",
+          "hsk": 1,
+          "word_id": "hsk1_135"
+        },
+        {
+          "text": "下面",
+          "pinyin": "xiàmiàn",
+          "hanviet": "Hạ Diện",
+          "meaning_vi": "bên dưới",
+          "hsk": 2,
+          "word_id": "hsk2_459"
+        },
+        {
+          "text": "玩",
+          "pinyin": "wán",
+          "hanviet": "Ngoạn",
+          "meaning_vi": "chơi",
+          "hsk": 2,
+          "word_id": "hsk2_107"
+        },
+        {
+          "text": "线",
+          "pinyin": "xiàn",
+          "hanviet": "Tuyến",
+          "meaning_vi": "sợi chỉ, đường kẻ, tuyến",
+          "hsk": 6,
+          "word_id": "hsk6_1427"
+        },
+        {
+          "text": "团",
+          "pinyin": "tuán",
+          "hanviet": "Đoàn",
+          "meaning_vi": "đoàn, nhóm",
+          "hsk": 5,
+          "word_id": "hsk5_1116"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "看它安静的样子，真讨人喜欢。",
+      "pinyin": "Kàn tā ānjìng de yàngzi, zhēn tǎorén xǐhuan.",
+      "vi": "Ngắm nhìn dáng vẻ yên bình của nó, thật dễ thương làm sao.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "看",
+          "pinyin": "kàn",
+          "hanviet": "Khán",
+          "meaning_vi": "nhìn, xem",
+          "hsk": 1,
+          "word_id": "hsk1_50"
+        },
+        {
+          "text": "它",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "nó (vật, con vật)",
+          "hsk": 2,
+          "word_id": "hsk2_101"
+        },
+        {
+          "text": "安静",
+          "pinyin": "ānjìng",
+          "hanviet": "An Tĩnh",
+          "meaning_vi": "yên tĩnh",
+          "hsk": 3,
+          "word_id": "hsk3_5"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "样子",
+          "pinyin": "yàngzi",
+          "hanviet": "Dạng Tử",
+          "meaning_vi": "dáng vẻ, hình dạng",
+          "hsk": 4,
+          "word_id": "hsk4_504"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "真",
+          "pinyin": "zhēn",
+          "hanviet": "Chân",
+          "meaning_vi": "thật, thực sự",
+          "hsk": 2,
+          "word_id": "hsk2_144"
+        },
+        {
+          "text": "讨",
+          "pinyin": "tǎo",
+          "hanviet": "Thảo",
+          "meaning_vi": "đòi; xin; chuốc lấy",
+          "hsk": 7,
+          "word_id": "hsk7_3973"
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "hanviet": "Nhân",
+          "meaning_vi": "người",
+          "hsk": 1,
+          "word_id": "hsk1_85"
+        },
+        {
+          "text": "喜欢",
+          "pinyin": "xǐhuan",
+          "hanviet": "Hỷ Hoan",
+          "meaning_vi": "thích",
+          "hsk": 1,
+          "word_id": "hsk1_114"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk1_45",
+    "hsk1_57",
+    "hsk1_136",
+    "hsk1_130",
+    "hsk1_609",
+    "hsk3_137",
+    "hsk1_15",
+    "hsk1_121",
+    "hsk1_62",
+    "hsk2_101",
+    "hsk2_149",
+    "hsk1_114",
+    "hsk5_731",
+    "hsk1_139",
+    "hsk1_135"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Chú mèo hoa thích ở đâu nhất trong nhà?",
+      "options_vi": [
+        "Trên nóc tủ",
+        "Dưới gầm ghế",
+        "Bên ngoài ban công"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 它最喜欢呆在椅子下面 (Nó thích nhất là ở dưới gầm ghế)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Vì sao chú mèo thích ở dưới ghế?",
+      "options_vi": [
+        "Vừa ấm áp vừa yên tĩnh",
+        "Vì có nhiều thức ăn",
+        "Vì trời mưa"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 椅子下面又暖和又安静 (Phía dưới ghế vừa ấm áp lại vừa yên tĩnh)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Có lúc chú mèo chơi đùa với thứ gì?",
+      "options_vi": [
+        "Quả bóng nhựa",
+        "Cuộn len",
+        "Đôi giày"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 有时候它在椅子下面玩线团 (Có lúc nó nghịch cuộn len dưới gầm ghế)."
+    }
+  ]
+}

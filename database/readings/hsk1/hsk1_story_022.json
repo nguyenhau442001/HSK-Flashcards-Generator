@@ -1,0 +1,521 @@
+{
+  "id": "hsk1_story_022",
+  "level": "HSK1",
+  "title": {
+    "zh": "我的中国朋友",
+    "vi": "Người bạn Trung Quốc của tôi"
+  },
+  "topic": "friends",
+  "topic_vi": "Bạn bè",
+  "icon": "🤝",
+  "estimatedMinutes": 3,
+  "description_vi": "Lý Minh là người bạn Trung Quốc nhiệt tình, thường giúp tôi học phát âm tiếng Hán.",
+  "sentences": [
+    {
+      "id": "s1",
+      "zh": "我有一个中国朋友，他叫李明。",
+      "pinyin": "Wǒ yǒu yí gè zhōngguó péngyou, tā jiào Lǐ Míng.",
+      "vi": "Tôi có một người bạn Trung Quốc, cậu ấy tên là Lý Minh.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "有",
+          "pinyin": "yǒu",
+          "hanviet": "Hữu",
+          "meaning_vi": "có",
+          "hsk": 1,
+          "word_id": "hsk1_136"
+        },
+        {
+          "text": "一",
+          "pinyin": "yī",
+          "hanviet": "Nhất",
+          "meaning_vi": "một",
+          "hsk": 1,
+          "word_id": "hsk1_130"
+        },
+        {
+          "text": "个",
+          "pinyin": "gè",
+          "hanviet": "Cá",
+          "meaning_vi": "cái (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_32"
+        },
+        {
+          "text": "中国",
+          "pinyin": "zhōngguó",
+          "hanviet": "Trung Quốc",
+          "meaning_vi": "Trung Quốc",
+          "hsk": 1,
+          "word_id": "hsk1_143"
+        },
+        {
+          "text": "朋友",
+          "pinyin": "péngyou",
+          "hanviet": "Bằng Hữu",
+          "meaning_vi": "bạn",
+          "hsk": 1,
+          "word_id": "hsk1_76"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "他",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "anh ấy, nó",
+          "hsk": 1,
+          "word_id": "hsk1_104"
+        },
+        {
+          "text": "叫",
+          "pinyin": "jiào",
+          "hanviet": "Khiếu",
+          "meaning_vi": "gọi là, tên là",
+          "hsk": 1,
+          "word_id": "hsk1_46"
+        },
+        {
+          "text": "李"
+        },
+        {
+          "text": "明"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "zh": "李明今年二十岁，是个大学生。",
+      "pinyin": "Lǐ Míng jīnnián èrshí suì, shì gè dàxuéshēng.",
+      "vi": "Lý Minh năm nay hai mươi tuổi, là sinh viên đại học.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "李"
+        },
+        {
+          "text": "明"
+        },
+        {
+          "text": "今年",
+          "pinyin": "jīnnián",
+          "hanviet": "Kim Niên",
+          "meaning_vi": "năm nay",
+          "hsk": 1,
+          "word_id": "hsk1_529"
+        },
+        {
+          "text": "二",
+          "pinyin": "èr",
+          "hanviet": "Nhị",
+          "meaning_vi": "hai",
+          "hsk": 1,
+          "word_id": "hsk1_27"
+        },
+        {
+          "text": "十",
+          "pinyin": "shí",
+          "hanviet": "Thập",
+          "meaning_vi": "mười",
+          "hsk": 1,
+          "word_id": "hsk1_94"
+        },
+        {
+          "text": "岁",
+          "pinyin": "suì",
+          "hanviet": "Tuế",
+          "meaning_vi": "tuổi",
+          "hsk": 1,
+          "word_id": "hsk1_103"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "个",
+          "pinyin": "gè",
+          "hanviet": "Cá",
+          "meaning_vi": "cái (lượng từ)",
+          "hsk": 1,
+          "word_id": "hsk1_32"
+        },
+        {
+          "text": "大学生",
+          "pinyin": "dàxuéshēng",
+          "hanviet": "Đại Học Sinh",
+          "meaning_vi": "sinh viên đại học",
+          "hsk": 1,
+          "word_id": "hsk1_507"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "zh": "他很喜欢帮助别人。",
+      "pinyin": "Tā hěn xǐhuan bāngzhù biérén.",
+      "vi": "Cậu ấy rất thích giúp đỡ người khác.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "他",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "anh ấy, nó",
+          "hsk": 1,
+          "word_id": "hsk1_104"
+        },
+        {
+          "text": "很",
+          "pinyin": "hěn",
+          "hanviet": "Ngận",
+          "meaning_vi": "rất",
+          "hsk": 1,
+          "word_id": "hsk1_40"
+        },
+        {
+          "text": "喜欢",
+          "pinyin": "xǐhuan",
+          "hanviet": "Hỷ Hoan",
+          "meaning_vi": "thích",
+          "hsk": 1,
+          "word_id": "hsk1_114"
+        },
+        {
+          "text": "帮助",
+          "pinyin": "bāngzhù",
+          "hanviet": "Bang Trợ",
+          "meaning_vi": "giúp đỡ",
+          "hsk": 2,
+          "word_id": "hsk2_4"
+        },
+        {
+          "text": "别人",
+          "pinyin": "biérén",
+          "hanviet": "Biệt Nhân",
+          "meaning_vi": "người khác",
+          "hsk": 3,
+          "word_id": "hsk3_23"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "zh": "我们常常一起在学校看书。",
+      "pinyin": "Wǒmen chángcháng yìqǐ zài xuéxiào kàn shū.",
+      "vi": "Chúng tôi thường cùng nhau đọc sách ở trường.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "我们",
+          "pinyin": "wǒmen",
+          "hanviet": "Ngã Môn",
+          "meaning_vi": "chúng tôi, chúng ta",
+          "hsk": 1,
+          "word_id": "hsk1_112"
+        },
+        {
+          "text": "常常",
+          "pinyin": "chángcháng",
+          "hanviet": "Thường Thường",
+          "meaning_vi": "thường thường, thường xuyên",
+          "hsk": 3,
+          "word_id": "hsk3_655"
+        },
+        {
+          "text": "一起",
+          "pinyin": "yīqǐ",
+          "hanviet": "Nhất Khởi",
+          "meaning_vi": "cùng nhau",
+          "hsk": 2,
+          "word_id": "hsk2_130"
+        },
+        {
+          "text": "在",
+          "pinyin": "zài",
+          "hanviet": "Tại",
+          "meaning_vi": "ở, đang",
+          "hsk": 1,
+          "word_id": "hsk1_139"
+        },
+        {
+          "text": "学校",
+          "pinyin": "xuéxiào",
+          "hanviet": "Học Hiệu",
+          "meaning_vi": "trường học",
+          "hsk": 1,
+          "word_id": "hsk1_129"
+        },
+        {
+          "text": "看",
+          "pinyin": "kàn",
+          "hanviet": "Khán",
+          "meaning_vi": "nhìn, xem",
+          "hsk": 1,
+          "word_id": "hsk1_50"
+        },
+        {
+          "text": "书",
+          "pinyin": "shū",
+          "hanviet": "Thư",
+          "meaning_vi": "sách",
+          "hsk": 1,
+          "word_id": "hsk1_97"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "zh": "他教我说汉语，我教他说越南语。",
+      "pinyin": "Tā jiāo wǒ shuō hànyǔ, wǒ jiāo tā shuō yuènányǔ.",
+      "vi": "Cậu ấy dạy tôi nói tiếng Hán, tôi dạy cậu ấy nói tiếng Việt.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "他",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "anh ấy, nó",
+          "hsk": 1,
+          "word_id": "hsk1_104"
+        },
+        {
+          "text": "教",
+          "pinyin": "jiāo",
+          "hanviet": "Giáo",
+          "meaning_vi": "dạy",
+          "hsk": 3,
+          "word_id": "hsk3_118"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "说",
+          "pinyin": "shuō",
+          "hanviet": "Thuyết",
+          "meaning_vi": "nói",
+          "hsk": 1,
+          "word_id": "hsk1_101"
+        },
+        {
+          "text": "汉语",
+          "pinyin": "hànyǔ",
+          "hanviet": "Hán Ngữ",
+          "meaning_vi": "tiếng Hán, tiếng Trung",
+          "hsk": 1,
+          "word_id": "hsk1_35"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "教",
+          "pinyin": "jiāo",
+          "hanviet": "Giáo",
+          "meaning_vi": "dạy",
+          "hsk": 3,
+          "word_id": "hsk3_118"
+        },
+        {
+          "text": "他",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "anh ấy, nó",
+          "hsk": 1,
+          "word_id": "hsk1_104"
+        },
+        {
+          "text": "说",
+          "pinyin": "shuō",
+          "hanviet": "Thuyết",
+          "meaning_vi": "nói",
+          "hsk": 1,
+          "word_id": "hsk1_101"
+        },
+        {
+          "text": "越",
+          "pinyin": "yuè",
+          "hanviet": "Việt",
+          "meaning_vi": "càng",
+          "hsk": 3,
+          "word_id": "hsk3_275"
+        },
+        {
+          "text": "南",
+          "pinyin": "nán",
+          "hanviet": "Nam",
+          "meaning_vi": "phía nam",
+          "hsk": 3,
+          "word_id": "hsk3_168"
+        },
+        {
+          "text": "语"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "zh": "他是我的好朋友。",
+      "pinyin": "Tā shì wǒ de hǎo péngyou.",
+      "vi": "Cậu ấy là người bạn tốt của tôi.",
+      "audio_start_ms": null,
+      "audio_end_ms": null,
+      "tokens": [
+        {
+          "text": "他",
+          "pinyin": "tā",
+          "hanviet": "Tha",
+          "meaning_vi": "anh ấy, nó",
+          "hsk": 1,
+          "word_id": "hsk1_104"
+        },
+        {
+          "text": "是",
+          "pinyin": "shì",
+          "hanviet": "Thị",
+          "meaning_vi": "là",
+          "hsk": 1,
+          "word_id": "hsk1_96"
+        },
+        {
+          "text": "我",
+          "pinyin": "wǒ",
+          "hanviet": "Ngã",
+          "meaning_vi": "tôi",
+          "hsk": 1,
+          "word_id": "hsk1_111"
+        },
+        {
+          "text": "的",
+          "pinyin": "de",
+          "hanviet": "Đích",
+          "meaning_vi": "của (trợ từ)",
+          "hsk": 1,
+          "word_id": "hsk1_15"
+        },
+        {
+          "text": "好",
+          "pinyin": "hǎo",
+          "hanviet": "Hảo",
+          "meaning_vi": "tốt, được",
+          "hsk": 1,
+          "word_id": "hsk1_36"
+        },
+        {
+          "text": "朋友",
+          "pinyin": "péngyou",
+          "hanviet": "Bằng Hữu",
+          "meaning_vi": "bạn",
+          "hsk": 1,
+          "word_id": "hsk1_76"
+        },
+        {
+          "text": "。"
+        }
+      ]
+    }
+  ],
+  "vocabulary_spotlight": [
+    "hsk1_111",
+    "hsk1_136",
+    "hsk1_130",
+    "hsk1_32",
+    "hsk1_143",
+    "hsk1_76",
+    "hsk1_104",
+    "hsk1_46",
+    "hsk1_529",
+    "hsk1_27",
+    "hsk1_94",
+    "hsk1_103",
+    "hsk1_96",
+    "hsk1_507",
+    "hsk1_40"
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question_vi": "Người bạn Trung Quốc tên là gì?",
+      "options_vi": [
+        "Vương Bình",
+        "Lý Minh",
+        "Trương Hoa"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 他叫李明 (Cậu ấy tên là Lý Minh)."
+    },
+    {
+      "id": "q2",
+      "question_vi": "Lý Minh năm nay bao nhiêu tuổi?",
+      "options_vi": [
+        "18 tuổi",
+        "20 tuổi",
+        "25 tuổi"
+      ],
+      "answer": 1,
+      "explanation_vi": "Trong bài có câu: 李明今年二十岁 (Lý Minh năm nay hai mươi tuổi)."
+    },
+    {
+      "id": "q3",
+      "question_vi": "Hai người dạy ngôn ngữ cho nhau như thế nào?",
+      "options_vi": [
+        "Lý Minh dạy tiếng Hán, tôi dạy tiếng Việt",
+        "Cả hai cùng học tiếng Anh",
+        "Lý Minh dạy tiếng Pháp"
+      ],
+      "answer": 0,
+      "explanation_vi": "Trong bài có câu: 他教我说汉语，我教他说越南语 (Cậu ấy dạy tôi nói tiếng Hán, tôi dạy cậu ấy nói tiếng Việt)."
+    }
+  ]
+}

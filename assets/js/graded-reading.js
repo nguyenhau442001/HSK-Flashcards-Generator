@@ -31,6 +31,96 @@ const GradedReading = (function() {
     } catch (e) {}
   }
 
+  // Read Stories Tracking
+  const READ_STORIES_STORAGE_KEY = 'synapse_graded_read_stories_v1';
+  let readStories = {};
+
+  try {
+    const savedRead = localStorage.getItem(READ_STORIES_STORAGE_KEY);
+    if (savedRead) readStories = JSON.parse(savedRead) || {};
+  } catch (e) {
+    readStories = {};
+  }
+
+  function saveReadStories() {
+    try {
+      localStorage.setItem(READ_STORIES_STORAGE_KEY, JSON.stringify(readStories));
+    } catch (e) {}
+  }
+
+  function isStoryRead(storyId) {
+    return Boolean(readStories[storyId]);
+  }
+
+  function markStoryAsRead(storyId) {
+    if (!storyId) return;
+    readStories[storyId] = {
+      readAt: new Date().toISOString()
+    };
+    saveReadStories();
+  }
+
+  function unmarkStoryAsRead(storyId) {
+    if (!storyId) return;
+    delete readStories[storyId];
+    saveReadStories();
+  }
+
+  function toggleStoryRead(storyId, event) {
+    if (event) {
+      if (typeof event.preventDefault === 'function') event.preventDefault();
+      if (typeof event.stopPropagation === 'function') event.stopPropagation();
+    }
+    if (!storyId) return;
+    if (isStoryRead(storyId)) {
+      unmarkStoryAsRead(storyId);
+    } else {
+      markStoryAsRead(storyId);
+    }
+
+    if (!activeStory) {
+      renderHub();
+    } else {
+      updateStoryReadUI();
+    }
+  }
+
+  function toggleCurrentStoryRead() {
+    if (!activeStory) return;
+    toggleStoryRead(activeStory.id);
+  }
+
+  function updateStoryReadUI() {
+    if (!activeStory) return;
+    const isRead = isStoryRead(activeStory.id);
+
+    const navBtn = document.getElementById('toggleReadStoryBtn');
+    if (navBtn) {
+      navBtn.classList.toggle('active', isRead);
+      navBtn.classList.toggle('read-active', isRead);
+      navBtn.innerHTML = isRead
+        ? `<span>✓ Đã đọc</span>`
+        : `<span>○ Đánh dấu đã đọc</span>`;
+      navBtn.title = isRead ? 'Đã đọc (Bấm để hủy đánh dấu)' : 'Đánh dấu đã đọc bài này';
+    }
+
+    const compCard = document.getElementById('storyCompletionCard');
+    if (compCard) {
+      compCard.classList.toggle('completed', isRead);
+      const icon = compCard.querySelector('.completion-icon-box');
+      if (icon) icon.textContent = isRead ? '🎉' : '📖';
+      const heading = compCard.querySelector('.completion-heading');
+      if (heading) heading.textContent = isRead ? 'Đã hoàn thành bài đọc!' : 'Hoàn thành bài đọc này?';
+      const sub = compCard.querySelector('.completion-sub');
+      if (sub) sub.textContent = isRead ? 'Bài viết đã được lưu vào danh sách Đã đọc của bạn.' : 'Đánh dấu đã đọc để lưu tiến trình và theo dõi lộ trình học tập.';
+      const ctaBtn = compCard.querySelector('.graded-completion-btn');
+      if (ctaBtn) {
+        ctaBtn.classList.toggle('active', isRead);
+        ctaBtn.textContent = isRead ? '✓ Đã hoàn thành (Bấm để hủy)' : '✓ Đánh dấu đã đọc';
+      }
+    }
+  }
+
   /**
    * Determine user's SRS memory state for a given token
    * Returns: 'mastered' | 'learning' | 'new'
@@ -207,9 +297,15 @@ const GradedReading = (function() {
     // Apply preference classes
     document.body.classList.remove('graded-pinyin-hidden', 'graded-translation-hidden');
 
-    const filtered = currentLevelFilter === 'all'
-      ? manifest
-      : manifest.filter(m => m.level.toLowerCase() === currentLevelFilter.toLowerCase());
+    const readCount = manifest.filter(m => isStoryRead(m.id)).length;
+    const progressPercent = manifest.length ? Math.round((readCount / manifest.length) * 100) : 0;
+
+    let filtered = manifest;
+    if (currentLevelFilter === 'read') {
+      filtered = manifest.filter(m => isStoryRead(m.id));
+    } else if (currentLevelFilter !== 'all') {
+      filtered = manifest.filter(m => m.level.toLowerCase() === currentLevelFilter.toLowerCase());
+    }
 
     const levels = ['HSK1', 'HSK2', 'HSK3', 'HSK4', 'HSK5', 'HSK6', 'HSK7', 'HSK8', 'HSK9'];
     const levelCounts = {};
@@ -233,6 +329,14 @@ const GradedReading = (function() {
           <p class="graded-hub-subtitle">
             Luyện đọc hiểu phân cấp theo ngữ cảnh thực tế · Vòng lặp học từ khép kín · Nhận diện vốn từ SRS cá nhân
           </p>
+          <div class="graded-hub-progress-wrap">
+            <div class="graded-hub-progress-bar">
+              <div class="graded-hub-progress-fill" style="width: ${progressPercent}%;"></div>
+            </div>
+            <div class="graded-hub-progress-meta">
+              <span>Tiến độ đọc: <strong>${readCount}/${manifest.length}</strong> bài (${progressPercent}%)</span>
+            </div>
+          </div>
         </header>
 
         <!-- Filter Pills -->
@@ -240,13 +344,18 @@ const GradedReading = (function() {
           <button type="button" class="graded-filter-pill ${currentLevelFilter === 'all' ? 'active' : ''}" onclick="GradedReading.setLevelFilter('all')">
             Tất cả (${manifest.length})
           </button>
+          <button type="button" class="graded-filter-pill ${currentLevelFilter === 'read' ? 'active' : ''} ${readCount === 0 ? 'disabled' : ''}" onclick="GradedReading.setLevelFilter('read')" title="Xem bài đã đọc">
+            ✓ Đã đọc (${readCount})
+          </button>
           ${levels.map(lvl => {
             const count = levelCounts[lvl] || 0;
             const lvlDisplay = lvl.replace('HSK', 'HSK ');
+            const lvlReadCount = manifest.filter(m => m.level.toUpperCase() === lvl && isStoryRead(m.id)).length;
             if (count > 0) {
+              const readTag = lvlReadCount > 0 ? ` · ${lvlReadCount}✓` : '';
               return `
                 <button type="button" class="graded-filter-pill ${currentLevelFilter === lvl ? 'active' : ''}" onclick="GradedReading.setLevelFilter('${lvl}')">
-                  ${lvlDisplay} (${count} bài)
+                  ${lvlDisplay} (${count} bài${readTag})
                 </button>
               `;
             } else {
@@ -261,14 +370,38 @@ const GradedReading = (function() {
 
         <!-- Stories Grid -->
         <div class="graded-stories-grid">
-          ${filtered.map(story => `
-            <article class="graded-story-card" onclick="GradedReading.openStory('${story.id}')" tabindex="0" role="button" aria-label="Đọc bài ${story.title.vi}">
+          ${filtered.length === 0 ? `
+            <div class="graded-empty-state">
+              <span style="font-size: 2.2rem;">📖</span>
+              <div style="font-weight: 700; font-size: 1.05rem; margin-top: 10px; color: var(--graded-text-primary);">
+                ${currentLevelFilter === 'read' ? 'Bạn chưa đánh dấu bài đọc nào' : 'Không có bài đọc nào phù hợp'}
+              </div>
+              <p style="color: var(--graded-text-secondary); font-size: 0.88rem; max-width: 480px; margin: 6px auto 16px;">
+                ${currentLevelFilter === 'read' ? 'Hãy mở một bài đọc và bấm "Đánh dấu đã đọc" sau khi đọc xong, hoặc bấm nút tích trên thẻ bài đọc.' : 'Vui lòng chọn cấp độ khác.'}
+              </p>
+              <button type="button" class="graded-filter-pill active" onclick="GradedReading.setLevelFilter('all')">Xem tất cả bài đọc</button>
+            </div>
+          ` : filtered.map(story => {
+            const isRead = isStoryRead(story.id);
+            return `
+            <article class="graded-story-card ${isRead ? 'is-read' : ''}" onclick="GradedReading.openStory('${story.id}')" tabindex="0" role="button" aria-label="Đọc bài ${story.title.vi}">
               <div>
                 <div class="graded-card-header">
-                  <span class="graded-card-level-badge">${story.level}</span>
+                  <div style="display: flex; align-items: center; gap: 6px;">
+                    <span class="graded-card-level-badge">${story.level}</span>
+                    ${isRead ? `
+                      <span class="graded-card-read-badge" title="Đã hoàn thành bài đọc">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        Đã đọc
+                      </span>
+                    ` : ''}
+                  </div>
                   <div style="display: flex; align-items: center; gap: 8px;">
                     <span class="graded-card-topic">${story.topic_vi}</span>
                     <span class="graded-card-time">⏱️ ${story.estimatedMinutes}m</span>
+                    <button type="button" class="graded-card-mark-toggle ${isRead ? 'read' : ''}" onclick="GradedReading.toggleStoryRead('${story.id}', event)" title="${isRead ? 'Bỏ đánh dấu đã đọc' : 'Đánh dấu đã đọc'}" aria-label="${isRead ? 'Bỏ đánh dấu đã đọc' : 'Đánh dấu đã đọc'}">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="${isRead ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </button>
                   </div>
                 </div>
                 <div class="graded-card-body">
@@ -282,10 +415,13 @@ const GradedReading = (function() {
               </div>
               <footer class="graded-card-footer">
                 <span class="graded-card-meta-text">${story.sentence_count ?? story.sentences_count ?? 5} câu · ${story.spotlight_count ?? 10} từ</span>
-                <span class="graded-card-read-btn">Đọc ngay →</span>
+                <span class="graded-card-read-btn ${isRead ? 'read' : ''}">
+                  ${isRead ? 'Đọc lại →' : 'Đọc ngay →'}
+                </span>
               </footer>
             </article>
-          `).join('')}
+            `;
+          }).join('')}
         </div>
       </div>
     `;
@@ -340,6 +476,7 @@ const GradedReading = (function() {
     document.body.classList.toggle('graded-translation-hidden', !prefs.showTranslation);
 
     const storyLvlNum = parseInt(story.level.replace(/\D/g, '') || '1', 10);
+    const isRead = isStoryRead(story.id);
 
     mount.innerHTML = `
       <div class="graded-reading-container graded-reader-shell">
@@ -358,6 +495,9 @@ const GradedReading = (function() {
           </div>
 
           <div class="graded-reader-actions">
+            <button type="button" id="toggleReadStoryBtn" class="graded-toggle-btn ${isRead ? 'active read-active' : ''}" onclick="GradedReading.toggleCurrentStoryRead()" title="${isRead ? 'Đã đọc (Bấm để hủy đánh dấu)' : 'Đánh dấu đã đọc bài này'}">
+              ${isRead ? '<span>✓ Đã đọc</span>' : '<span>○ Đánh dấu đã đọc</span>'}
+            </button>
             <button type="button" id="togglePinyinBtn" class="graded-toggle-btn ${prefs.showPinyin ? 'active' : ''}" onclick="GradedReading.togglePinyin()" title="Bật/Tắt phiên âm Pinyin">
               拼 Pinyin
             </button>
@@ -435,6 +575,18 @@ const GradedReading = (function() {
               </div>
             `).join('')}
           </div>
+        </section>
+
+        <!-- Story Completion Section -->
+        <section class="graded-completion-card ${isRead ? 'completed' : ''}" id="storyCompletionCard">
+          <div class="completion-icon-box">${isRead ? '🎉' : '📖'}</div>
+          <div class="completion-content">
+            <h3 class="completion-heading">${isRead ? 'Đã hoàn thành bài đọc!' : 'Hoàn thành bài đọc này?'}</h3>
+            <p class="completion-sub">${isRead ? 'Bài viết đã được lưu vào danh sách Đã đọc của bạn.' : 'Đánh dấu đã đọc để lưu tiến trình và theo dõi lộ trình học tập.'}</p>
+          </div>
+          <button type="button" class="graded-completion-btn ${isRead ? 'active' : ''}" onclick="GradedReading.toggleCurrentStoryRead()">
+            ${isRead ? '✓ Đã hoàn thành (Bấm để hủy)' : '✓ Đánh dấu đã đọc'}
+          </button>
         </section>
       </div>
     `;
@@ -679,6 +831,15 @@ const GradedReading = (function() {
         <div>${q.explanation_vi}</div>
       `;
     }
+
+    // Auto-mark as read if all quiz questions are answered
+    if (activeStory && activeStory.quiz) {
+      const allAnswered = activeStory.quiz.every(item => quizState[item.id] !== undefined);
+      if (allAnswered && !isStoryRead(activeStory.id)) {
+        markStoryAsRead(activeStory.id);
+        updateStoryReadUI();
+      }
+    }
   }
 
   /**
@@ -717,7 +878,12 @@ const GradedReading = (function() {
     inspectByWordId,
     triggerAddSrs,
     closePopover,
-    answerQuiz
+    answerQuiz,
+    isStoryRead,
+    markStoryAsRead,
+    unmarkStoryAsRead,
+    toggleStoryRead,
+    toggleCurrentStoryRead
   };
 })();
 
