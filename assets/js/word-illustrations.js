@@ -12917,6 +12917,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/当前.svg",
     "caption": "hiện tại, trước mắt"
   },
+  "登录": {
+    "file": "登录.svg",
+    "src": "images/HSK_2.0/level6/登录.svg",
+    "caption": "đăng nhập"
+  },
+  "等候": {
+    "file": "等候.svg",
+    "src": "images/HSK_2.0/level6/等候.svg",
+    "caption": "chờ đợi"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13411,6 +13421,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "当作.svg",
     "src": "images/HSK_3.0/level5/当作.svg",
     "caption": "coi như, xem như"
+  },
+  "到期": {
+    "file": "到期.svg",
+    "src": "images/HSK_3.0/level5/到期.svg",
+    "caption": "hết hạn, đến hạn"
+  },
+  "登": {
+    "file": "登.svg",
+    "src": "images/HSK_3.0/level5/登.svg",
+    "caption": "trèo, leo lên; đăng"
+  },
+  "灯光": {
+    "file": "灯光.svg",
+    "src": "images/HSK_3.0/level5/灯光.svg",
+    "caption": "ánh đèn"
+  },
+  "低头": {
+    "file": "低头.svg",
+    "src": "images/HSK_3.0/level5/低头.svg",
+    "caption": "cúi đầu; chịu khuất phục"
+  },
+  "地面": {
+    "file": "地面.svg",
+    "src": "images/HSK_3.0/level5/地面.svg",
+    "caption": "mặt đất, sàn"
+  },
+  "地下": {
+    "file": "地下.svg",
+    "src": "images/HSK_3.0/level5/地下.svg",
+    "caption": "dưới đất, ngầm"
+  },
+  "点赞": {
+    "file": "点赞.svg",
+    "src": "images/HSK_3.0/level5/点赞.svg",
+    "caption": "bấm thích, like"
+  },
+  "电动": {
+    "file": "电动.svg",
+    "src": "images/HSK_3.0/level5/电动.svg",
+    "caption": "chạy điện"
   }
 };
 

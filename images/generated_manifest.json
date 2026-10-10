@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:49:11.047483",
-  "total_unique_words_with_illustrations": 2622,
-  "total_flat_svg_files": 2622,
+  "generated_at": "2026-10-10T09:50:37.559193",
+  "total_unique_words_with_illustrations": 2632,
+  "total_flat_svg_files": 2632,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 490,
-        "pct": "19.6%"
+        "with_svg": 492,
+        "pct": "19.7%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1003,
-        "pct": "62.7%"
+        "with_svg": 1013,
+        "pct": "63.3%"
       },
       "level6": {
         "total": 1800,
@@ -46530,6 +46530,42 @@
         "images/HSK_3.0/level5/当前.svg"
       ]
     },
+    "登录": {
+      "hanzi": "登录",
+      "pinyin": "dēnglù",
+      "meaning": "đăng nhập",
+      "example_zh": "请用账号<u>登录</u>系统。",
+      "example_vi": "Xin hãy <u>đăng nhập</u> hệ thống bằng tài khoản.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "登录.svg",
+      "src": "images/HSK_2.0/level6/登录.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/登录.svg"
+      ]
+    },
+    "等候": {
+      "hanzi": "等候",
+      "pinyin": "děnghòu",
+      "meaning": "chờ đợi",
+      "example_zh": "请在这里<u>等候</u>。",
+      "example_vi": "Xin hãy <u>chờ đợi</u> ở đây.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "等候.svg",
+      "src": "images/HSK_2.0/level6/等候.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/等候.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -47921,6 +47957,118 @@
       ],
       "file": "当作.svg",
       "src": "images/HSK_3.0/level5/当作.svg",
+      "alt_srcs": []
+    },
+    "到期": {
+      "hanzi": "到期",
+      "pinyin": "dàoqī",
+      "meaning": "hết hạn, đến hạn",
+      "example_zh": "我的签证下个月<u>到期</u>。",
+      "example_vi": "Visa của tôi tháng sau <u>hết hạn</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "到期.svg",
+      "src": "images/HSK_3.0/level5/到期.svg",
+      "alt_srcs": []
+    },
+    "登": {
+      "hanzi": "登",
+      "pinyin": "dēng",
+      "meaning": "trèo, leo lên; đăng",
+      "example_zh": "我们一起去<u>登</u>长城吧。",
+      "example_vi": "Chúng ta cùng đi <u>leo</u> Vạn Lý Trường Thành nhé.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "登.svg",
+      "src": "images/HSK_3.0/level5/登.svg",
+      "alt_srcs": []
+    },
+    "灯光": {
+      "hanzi": "灯光",
+      "pinyin": "dēngguāng",
+      "meaning": "ánh đèn",
+      "example_zh": "晚上城市的<u>灯光</u>很美。",
+      "example_vi": "<u>Ánh đèn</u> thành phố về đêm rất đẹp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "灯光.svg",
+      "src": "images/HSK_3.0/level5/灯光.svg",
+      "alt_srcs": []
+    },
+    "低头": {
+      "hanzi": "低头",
+      "pinyin": "dītóu",
+      "meaning": "cúi đầu; chịu khuất phục",
+      "example_zh": "他<u>低头</u>看手机，没看见我。",
+      "example_vi": "Anh ấy <u>cúi đầu</u> xem điện thoại, không thấy tôi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "低头.svg",
+      "src": "images/HSK_3.0/level5/低头.svg",
+      "alt_srcs": []
+    },
+    "地面": {
+      "hanzi": "地面",
+      "pinyin": "dìmiàn",
+      "meaning": "mặt đất, sàn",
+      "example_zh": "下雨后<u>地面</u>很滑。",
+      "example_vi": "Sau mưa <u>mặt đất</u> rất trơn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "地面.svg",
+      "src": "images/HSK_3.0/level5/地面.svg",
+      "alt_srcs": []
+    },
+    "地下": {
+      "hanzi": "地下",
+      "pinyin": "dìxià",
+      "meaning": "dưới đất, ngầm",
+      "example_zh": "车停在<u>地下</u>停车场。",
+      "example_vi": "Xe đỗ ở bãi đỗ xe <u>ngầm</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "地下.svg",
+      "src": "images/HSK_3.0/level5/地下.svg",
+      "alt_srcs": []
+    },
+    "点赞": {
+      "hanzi": "点赞",
+      "pinyin": "diǎnzàn",
+      "meaning": "bấm thích, like",
+      "example_zh": "很多人给他的照片<u>点赞</u>。",
+      "example_vi": "Rất nhiều người đã <u>thả like</u> cho ảnh của anh ấy.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "点赞.svg",
+      "src": "images/HSK_3.0/level5/点赞.svg",
+      "alt_srcs": []
+    },
+    "电动": {
+      "hanzi": "电动",
+      "pinyin": "diàndòng",
+      "meaning": "chạy điện",
+      "example_zh": "我买了一把<u>电动</u>牙刷。",
+      "example_vi": "Tôi đã mua một chiếc bàn chải đánh răng <u>điện</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "电动.svg",
+      "src": "images/HSK_3.0/level5/电动.svg",
       "alt_srcs": []
     }
   }
