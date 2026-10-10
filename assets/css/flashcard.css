@@ -131,7 +131,7 @@
   overflow: hidden; position: relative; touch-action: pan-y;
 }
 :root[data-theme="dark"] .card {
-  background: linear-gradient(180deg, #181920 0%, #15161c 100%);
+  background-color: var(--card-bg);
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
@@ -396,37 +396,37 @@
 
 /* Light Mode Defaults */
 .rating-btn--again {
-  background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+  background-color: #fef2f2;
   color: #dc2626;
-  border-color: #f87171;
+  border-color: #fca5a5;
   box-shadow: 0 2px 8px rgba(220, 38, 38, 0.12);
 }
 .rating-btn--again:hover {
-  background: linear-gradient(135deg, #fee2e2 0%, #fca5a5 100%);
+  background-color: #fee2e2;
   transform: translateY(-1.5px);
   box-shadow: 0 4px 12px rgba(220, 38, 38, 0.2);
 }
 .rating-btn--good {
-  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  background-color: #f0fdf4;
   color: #16a34a;
-  border-color: #4ade80;
+  border-color: #86efac;
   box-shadow: 0 2px 8px rgba(22, 163, 74, 0.12);
 }
 .rating-btn--good:hover {
-  background: linear-gradient(135deg, #dcfce7 0%, #86efac 100%);
+  background-color: #dcfce7;
   transform: translateY(-1.5px);
   box-shadow: 0 4px 12px rgba(22, 163, 74, 0.2);
 }
 
 /* Dark Mode Calm Educational CTAs */
 :root[data-theme="dark"] .rating-btn--again {
-  background: rgba(244, 63, 94, 0.08);
+  background-color: rgba(244, 63, 94, 0.08);
   color: #fb7185;
   border-color: rgba(244, 63, 94, 0.22);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 :root[data-theme="dark"] .rating-btn--again:hover {
-  background: rgba(244, 63, 94, 0.16);
+  background-color: rgba(244, 63, 94, 0.16);
   border-color: rgba(244, 63, 94, 0.4);
   color: #ffffff;
   transform: translateY(-1.5px);
@@ -438,13 +438,13 @@
 }
 
 :root[data-theme="dark"] .rating-btn--good {
-  background: rgba(16, 185, 129, 0.08);
+  background-color: rgba(16, 185, 129, 0.08);
   color: #34d399;
   border-color: rgba(16, 185, 129, 0.22);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 :root[data-theme="dark"] .rating-btn--good:hover {
-  background: rgba(16, 185, 129, 0.16);
+  background-color: rgba(16, 185, 129, 0.16);
   border-color: rgba(16, 185, 129, 0.4);
   color: #ffffff;
   transform: translateY(-1.5px);
