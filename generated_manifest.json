@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:08:03.241531",
-  "total_unique_words_with_illustrations": 2752,
-  "total_flat_svg_files": 2752,
+  "generated_at": "2026-10-10T10:09:42.924725",
+  "total_unique_words_with_illustrations": 2762,
+  "total_flat_svg_files": 2762,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 512,
+        "with_svg": 513,
         "pct": "20.5%"
       }
     },
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1133,
-        "pct": "70.8%"
+        "with_svg": 1143,
+        "pct": "71.4%"
       },
       "level6": {
         "total": 1800,
@@ -46926,6 +46926,24 @@
         "images/HSK_3.0/level5/季度.svg"
       ]
     },
+    "加工": {
+      "hanzi": "加工",
+      "pinyin": "jiāgōng",
+      "meaning": "gia công, chế biến",
+      "example_zh": "这些原料需要<u>加工</u>。",
+      "example_vi": "Những nguyên liệu này cần <u>gia công</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "加工.svg",
+      "src": "images/HSK_2.0/level6/加工.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/加工.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -49829,6 +49847,132 @@
       ],
       "file": "计算机.svg",
       "src": "images/HSK_3.0/level5/计算机.svg",
+      "alt_srcs": []
+    },
+    "家电": {
+      "hanzi": "家电",
+      "pinyin": "jiādiàn",
+      "meaning": "đồ điện gia dụng",
+      "example_zh": "这家商场正在促销各种<u>家电</u>。",
+      "example_vi": "Trung tâm thương mại này đang khuyến mãi các loại <u>đồ điện gia dụng</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "家电.svg",
+      "src": "images/HSK_3.0/level5/家电.svg",
+      "alt_srcs": []
+    },
+    "加热": {
+      "hanzi": "加热",
+      "pinyin": "jiārè",
+      "meaning": "hâm nóng, làm nóng, gia nhiệt",
+      "example_zh": "把牛奶放在微波炉里<u>加热</u>一分钟。",
+      "example_vi": "Cho sữa vào lò vi sóng <u>hâm nóng</u> một phút.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "加热.svg",
+      "src": "images/HSK_3.0/level5/加热.svg",
+      "alt_srcs": []
+    },
+    "加深": {
+      "hanzi": "加深",
+      "pinyin": "jiāshēn",
+      "meaning": "làm sâu sắc thêm, sâu hơn",
+      "example_zh": "这次旅行<u>加深</u>了大家之间的友谊。",
+      "example_vi": "Chuyến đi lần này đã <u>làm sâu sắc thêm</u> tình bạn giữa mọi người.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "加深.svg",
+      "src": "images/HSK_3.0/level5/加深.svg",
+      "alt_srcs": []
+    },
+    "加速": {
+      "hanzi": "加速",
+      "pinyin": "jiāsù",
+      "meaning": "tăng tốc, đẩy nhanh",
+      "example_zh": "司机踩下油门，汽车开始<u>加速</u>。",
+      "example_vi": "Tài xế đạp ga, chiếc xe bắt đầu <u>tăng tốc</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "加速.svg",
+      "src": "images/HSK_3.0/level5/加速.svg",
+      "alt_srcs": []
+    },
+    "架": {
+      "hanzi": "架",
+      "pinyin": "jià",
+      "meaning": "chiếc, cỗ (máy bay, đàn); giá, kệ",
+      "example_zh": "天空中飞过一<u>架</u>飞机。",
+      "example_vi": "Trên bầu trời bay qua một <u>chiếc</u> máy bay.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "架.svg",
+      "src": "images/HSK_3.0/level5/架.svg",
+      "alt_srcs": []
+    },
+    "驾照": {
+      "hanzi": "驾照",
+      "pinyin": "jiàzhào",
+      "meaning": "bằng lái xe",
+      "example_zh": "满十八岁就可以去考<u>驾照</u>了。",
+      "example_vi": "Đủ mười tám tuổi là có thể đi thi <u>bằng lái xe</u> rồi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "驾照.svg",
+      "src": "images/HSK_3.0/level5/驾照.svg",
+      "alt_srcs": []
+    },
+    "剪": {
+      "hanzi": "剪",
+      "pinyin": "jiǎn",
+      "meaning": "cắt, tỉa (bằng kéo)",
+      "example_zh": "我想把头发<u>剪</u>短一点儿。",
+      "example_vi": "Tôi muốn <u>cắt</u> tóc ngắn đi một chút.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "剪.svg",
+      "src": "images/HSK_3.0/level5/剪.svg",
+      "alt_srcs": []
+    },
+    "建": {
+      "hanzi": "建",
+      "pinyin": "jiàn",
+      "meaning": "xây, xây dựng",
+      "example_zh": "这里打算<u>建</u>一座新的图书馆。",
+      "example_vi": "Ở đây dự định <u>xây</u> một thư viện mới.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "建.svg",
+      "src": "images/HSK_3.0/level5/建.svg",
+      "alt_srcs": []
+    },
+    "键": {
+      "hanzi": "键",
+      "pinyin": "jiàn",
+      "meaning": "phím, nút bấm",
+      "example_zh": "按回车<u>键</u>就可以发送消息。",
+      "example_vi": "Bấm <u>phím</u> Enter là có thể gửi tin nhắn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "键.svg",
+      "src": "images/HSK_3.0/level5/键.svg",
       "alt_srcs": []
     }
   }

@@ -13027,6 +13027,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/季度.svg",
     "caption": "quý (3 tháng)"
   },
+  "加工": {
+    "file": "加工.svg",
+    "src": "images/HSK_2.0/level6/加工.svg",
+    "caption": "gia công, chế biến"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -14061,6 +14066,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "计算机.svg",
     "src": "images/HSK_3.0/level5/计算机.svg",
     "caption": "máy tính"
+  },
+  "家电": {
+    "file": "家电.svg",
+    "src": "images/HSK_3.0/level5/家电.svg",
+    "caption": "đồ điện gia dụng"
+  },
+  "加热": {
+    "file": "加热.svg",
+    "src": "images/HSK_3.0/level5/加热.svg",
+    "caption": "hâm nóng, làm nóng, gia nhiệt"
+  },
+  "加深": {
+    "file": "加深.svg",
+    "src": "images/HSK_3.0/level5/加深.svg",
+    "caption": "làm sâu sắc thêm, sâu hơn"
+  },
+  "加速": {
+    "file": "加速.svg",
+    "src": "images/HSK_3.0/level5/加速.svg",
+    "caption": "tăng tốc, đẩy nhanh"
+  },
+  "架": {
+    "file": "架.svg",
+    "src": "images/HSK_3.0/level5/架.svg",
+    "caption": "chiếc, cỗ (máy bay, đàn); giá, kệ"
+  },
+  "驾照": {
+    "file": "驾照.svg",
+    "src": "images/HSK_3.0/level5/驾照.svg",
+    "caption": "bằng lái xe"
+  },
+  "剪": {
+    "file": "剪.svg",
+    "src": "images/HSK_3.0/level5/剪.svg",
+    "caption": "cắt, tỉa (bằng kéo)"
+  },
+  "建": {
+    "file": "建.svg",
+    "src": "images/HSK_3.0/level5/建.svg",
+    "caption": "xây, xây dựng"
+  },
+  "键": {
+    "file": "键.svg",
+    "src": "images/HSK_3.0/level5/键.svg",
+    "caption": "phím, nút bấm"
   }
 };
 
