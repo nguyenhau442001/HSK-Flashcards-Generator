@@ -13127,6 +13127,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/抢救.svg",
     "caption": "cấp cứu, cứu chữa gấp"
   },
+  "请教": {
+    "file": "请教.svg",
+    "src": "images/HSK_2.0/level6/请教.svg",
+    "caption": "thỉnh giáo, hỏi ý kiến"
+  },
+  "区域": {
+    "file": "区域.svg",
+    "src": "images/HSK_2.0/level6/区域.svg",
+    "caption": "khu vực, vùng"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -14761,6 +14771,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "亲朋好友.svg",
     "src": "images/HSK_3.0/level5/亲朋好友.svg",
     "caption": "bạn bè và người thân, thân bằng hảo hữu"
+  },
+  "亲情": {
+    "file": "亲情.svg",
+    "src": "images/HSK_3.0/level5/亲情.svg",
+    "caption": "tình thân, tình cảm gia đình"
+  },
+  "亲人": {
+    "file": "亲人.svg",
+    "src": "images/HSK_3.0/level5/亲人.svg",
+    "caption": "họ hàng"
+  },
+  "轻重": {
+    "file": "轻重.svg",
+    "src": "images/HSK_3.0/level5/轻重.svg",
+    "caption": "mức độ nặng nhẹ, tầm quan trọng, chừng mực"
+  },
+  "情感": {
+    "file": "情感.svg",
+    "src": "images/HSK_3.0/level5/情感.svg",
+    "caption": "cảm xúc"
+  },
+  "权": {
+    "file": "权.svg",
+    "src": "images/HSK_3.0/level5/权.svg",
+    "caption": "quyền, quyền lợi, quyền lực"
+  },
+  "全力": {
+    "file": "全力.svg",
+    "src": "images/HSK_3.0/level5/全力.svg",
+    "caption": "toàn bộ sức mạnh"
+  },
+  "全体": {
+    "file": "全体.svg",
+    "src": "images/HSK_3.0/level5/全体.svg",
+    "caption": "toàn thể, tất cả"
+  },
+  "全新": {
+    "file": "全新.svg",
+    "src": "images/HSK_3.0/level5/全新.svg",
+    "caption": "thương hiệu mới"
   }
 };
 

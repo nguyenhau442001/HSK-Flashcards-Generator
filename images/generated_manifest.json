@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:25:38.906281",
-  "total_unique_words_with_illustrations": 2892,
-  "total_flat_svg_files": 2892,
+  "generated_at": "2026-10-10T10:26:38.970768",
+  "total_unique_words_with_illustrations": 2902,
+  "total_flat_svg_files": 2902,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 532,
-        "pct": "21.3%"
+        "with_svg": 534,
+        "pct": "21.4%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1273,
-        "pct": "79.6%"
+        "with_svg": 1283,
+        "pct": "80.2%"
       },
       "level6": {
         "total": 1800,
@@ -47286,6 +47286,42 @@
         "images/HSK_3.0/level5/抢救.svg"
       ]
     },
+    "请教": {
+      "hanzi": "请教",
+      "pinyin": "qǐngjiào",
+      "meaning": "thỉnh giáo, hỏi ý kiến",
+      "example_zh": "我想向您<u>请教</u>一个问题。",
+      "example_vi": "Tôi muốn <u>thỉnh giáo</u> ngài một vấn đề.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "请教.svg",
+      "src": "images/HSK_2.0/level6/请教.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/请教.svg"
+      ]
+    },
+    "区域": {
+      "hanzi": "区域",
+      "pinyin": "qūyù",
+      "meaning": "khu vực, vùng",
+      "example_zh": "这是一个经济发达<u>区域</u>。",
+      "example_vi": "Đây là một <u>khu vực</u> kinh tế phát triển.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "区域.svg",
+      "src": "images/HSK_2.0/level6/区域.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/区域.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -51875,6 +51911,118 @@
       ],
       "file": "亲朋好友.svg",
       "src": "images/HSK_3.0/level5/亲朋好友.svg",
+      "alt_srcs": []
+    },
+    "亲情": {
+      "hanzi": "亲情",
+      "pinyin": "qīnqíng",
+      "meaning": "tình thân, tình cảm gia đình",
+      "example_zh": "无论走多远，世界上最温暖的还是<u>亲情</u>。",
+      "example_vi": "Dù đi bao xa, điều ấm áp nhất trên thế giới vẫn là <u>tình thân</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "亲情.svg",
+      "src": "images/HSK_3.0/level5/亲情.svg",
+      "alt_srcs": []
+    },
+    "亲人": {
+      "hanzi": "亲人",
+      "pinyin": "qīnrén",
+      "meaning": "họ hàng",
+      "example_zh": "失去<u>亲人</u>让她感到无比悲哀",
+      "example_vi": "Mất người thân khiến cô ấy cảm thấy vô cùng đau buồn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "亲人.svg",
+      "src": "images/HSK_3.0/level5/亲人.svg",
+      "alt_srcs": []
+    },
+    "轻重": {
+      "hanzi": "轻重",
+      "pinyin": "qīngzhòng",
+      "meaning": "mức độ nặng nhẹ, tầm quan trọng, chừng mực",
+      "example_zh": "做事要分清事情的<u>轻重</u>缓急。",
+      "example_vi": "Làm việc phải phân biệt rõ mức độ <u>nặng nhẹ</u> và khẩn cấp của sự việc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "轻重.svg",
+      "src": "images/HSK_3.0/level5/轻重.svg",
+      "alt_srcs": []
+    },
+    "情感": {
+      "hanzi": "情感",
+      "pinyin": "qínggǎn",
+      "meaning": "cảm xúc",
+      "example_zh": "这首诗寄托了诗人的<u>情感</u>",
+      "example_vi": "Bài thơ này gửi gắm tình cảm của nhà thơ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "情感.svg",
+      "src": "images/HSK_3.0/level5/情感.svg",
+      "alt_srcs": []
+    },
+    "权": {
+      "hanzi": "权",
+      "pinyin": "quán",
+      "meaning": "quyền, quyền lợi, quyền lực",
+      "example_zh": "每个人都有保护自己隐私的<u>权</u>利。",
+      "example_vi": "Mỗi người đều có <u>quyền</u> bảo vệ quyền riêng tư của mình.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "权.svg",
+      "src": "images/HSK_3.0/level5/权.svg",
+      "alt_srcs": []
+    },
+    "全力": {
+      "hanzi": "全力",
+      "pinyin": "quánlì",
+      "meaning": "toàn bộ sức mạnh",
+      "example_zh": "医生正在<u>全力</u>抢救病人",
+      "example_vi": "Bác sĩ đang dồn hết sức cấp cứu bệnh nhân.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "全力.svg",
+      "src": "images/HSK_3.0/level5/全力.svg",
+      "alt_srcs": []
+    },
+    "全体": {
+      "hanzi": "全体",
+      "pinyin": "quántǐ",
+      "meaning": "toàn thể, tất cả",
+      "example_zh": "<u>全体</u>同学起立，向老师问好。",
+      "example_vi": "<u>Toàn thể</u> học sinh đứng dậy, chào thầy cô.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "全体.svg",
+      "src": "images/HSK_3.0/level5/全体.svg",
+      "alt_srcs": []
+    },
+    "全新": {
+      "hanzi": "全新",
+      "pinyin": "quánxīn",
+      "meaning": "thương hiệu mới",
+      "example_zh": "这是一个<u>全新</u>的概念",
+      "example_vi": "Đây là một khái niệm hoàn toàn mới.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "全新.svg",
+      "src": "images/HSK_3.0/level5/全新.svg",
       "alt_srcs": []
     }
   }
