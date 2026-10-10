@@ -445,6 +445,8 @@ body.graded-reading-active #screenGradedReading {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .graded-filter-pill:hover {
@@ -499,6 +501,26 @@ body.graded-reading-active #screenGradedReading {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 12px;
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+
+.graded-card-header-left {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+
+.graded-card-header-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  flex-wrap: nowrap;
 }
 
 .graded-card-level-badge {
@@ -510,6 +532,8 @@ body.graded-reading-active #screenGradedReading {
   border: 1px solid var(--graded-hsk-badge-border);
   color: var(--graded-hsk-badge-text);
   letter-spacing: 0.5px;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .graded-card-read-badge {
@@ -523,6 +547,9 @@ body.graded-reading-active #screenGradedReading {
   display: inline-flex;
   align-items: center;
   gap: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  line-height: 1;
 }
 
 .graded-card-mark-toggle {
@@ -762,6 +789,8 @@ body.graded-reading-active #screenGradedReading {
   display: flex;
   align-items: center;
   gap: 5px;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .graded-toggle-btn:hover {

@@ -100,8 +100,8 @@ const GradedReading = (function() {
       navBtn.classList.toggle('read-active', isRead);
       navBtn.innerHTML = isRead
         ? `<span>✓ Đã đọc</span>`
-        : `<span>○ Đánh dấu đã đọc</span>`;
-      navBtn.title = isRead ? 'Đã đọc (Bấm để hủy đánh dấu)' : 'Đánh dấu đã đọc bài này';
+        : `<span>○ Đã đọc</span>`;
+      navBtn.title = isRead ? 'Đã đọc (Bấm để hủy)' : 'Đánh dấu đã đọc bài này';
     }
 
     const compCard = document.getElementById('storyCompletionCard');
@@ -116,7 +116,7 @@ const GradedReading = (function() {
       const ctaBtn = compCard.querySelector('.graded-completion-btn');
       if (ctaBtn) {
         ctaBtn.classList.toggle('active', isRead);
-        ctaBtn.textContent = isRead ? '✓ Đã hoàn thành (Bấm để hủy)' : '✓ Đánh dấu đã đọc';
+        ctaBtn.textContent = isRead ? '✓ Đã hoàn thành (Bấm để hủy)' : '✓ Đã đọc (Lưu tiến trình)';
       }
     }
   }
@@ -391,20 +391,20 @@ const GradedReading = (function() {
             <article class="graded-story-card ${isRead ? 'is-read' : ''}" onclick="GradedReading.openStory('${story.id}')" tabindex="0" role="button" aria-label="Đọc bài ${story.title.vi}">
               <div>
                 <div class="graded-card-header">
-                  <div style="display: flex; align-items: center; gap: 6px;">
+                  <div class="graded-card-header-left">
                     <span class="graded-card-level-badge">${story.level}</span>
                     ${isRead ? `
-                      <span class="graded-card-read-badge" title="Đã hoàn thành bài đọc">
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                        Đã đọc
+                      <span class="graded-card-read-badge" title="Đã đọc">
+                        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        <span>Đã đọc</span>
                       </span>
                     ` : ''}
                   </div>
-                  <div style="display: flex; align-items: center; gap: 8px;">
+                  <div class="graded-card-header-right">
                     <span class="graded-card-topic">${story.topic_vi}</span>
                     <span class="graded-card-time">⏱️ ${story.estimatedMinutes}m</span>
-                    <button type="button" class="graded-card-mark-toggle ${isRead ? 'read' : ''}" onclick="GradedReading.toggleStoryRead('${story.id}', event)" title="${isRead ? 'Bỏ đánh dấu đã đọc' : 'Đánh dấu đã đọc'}" aria-label="${isRead ? 'Bỏ đánh dấu đã đọc' : 'Đánh dấu đã đọc'}">
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="${isRead ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <button type="button" class="graded-card-mark-toggle ${isRead ? 'read' : ''}" onclick="GradedReading.toggleStoryRead('${story.id}', event)" title="${isRead ? 'Đã đọc (Bấm để hủy)' : 'Đánh dấu đã đọc'}" aria-label="${isRead ? 'Đã đọc (Bấm để hủy)' : 'Đánh dấu đã đọc'}">
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="${isRead ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
                     </button>
                   </div>
                 </div>
@@ -499,8 +499,8 @@ const GradedReading = (function() {
           </div>
 
           <div class="graded-reader-actions">
-            <button type="button" id="toggleReadStoryBtn" class="graded-toggle-btn ${isRead ? 'active read-active' : ''}" onclick="GradedReading.toggleCurrentStoryRead()" title="${isRead ? 'Đã đọc (Bấm để hủy đánh dấu)' : 'Đánh dấu đã đọc bài này'}">
-              ${isRead ? '<span>✓ Đã đọc</span>' : '<span>○ Đánh dấu đã đọc</span>'}
+            <button type="button" id="toggleReadStoryBtn" class="graded-toggle-btn ${isRead ? 'active read-active' : ''}" onclick="GradedReading.toggleCurrentStoryRead()" title="${isRead ? 'Đã đọc (Bấm để hủy)' : 'Đánh dấu đã đọc bài này'}">
+              ${isRead ? '<span>✓ Đã đọc</span>' : '<span>○ Đã đọc</span>'}
             </button>
             <button type="button" id="togglePinyinBtn" class="graded-toggle-btn ${prefs.showPinyin ? 'active' : ''}" onclick="GradedReading.togglePinyin()" title="Bật/Tắt phiên âm Pinyin">
               拼 Pinyin
@@ -589,7 +589,7 @@ const GradedReading = (function() {
             <p class="completion-sub">${isRead ? 'Bài viết đã được lưu vào danh sách Đã đọc của bạn.' : 'Đánh dấu đã đọc để lưu tiến trình và theo dõi lộ trình học tập.'}</p>
           </div>
           <button type="button" class="graded-completion-btn ${isRead ? 'active' : ''}" onclick="GradedReading.toggleCurrentStoryRead()">
-            ${isRead ? '✓ Đã hoàn thành (Bấm để hủy)' : '✓ Đánh dấu đã đọc'}
+            ${isRead ? '✓ Đã hoàn thành (Bấm để hủy)' : '✓ Đã đọc (Lưu tiến trình)'}
           </button>
         </section>
       </div>
