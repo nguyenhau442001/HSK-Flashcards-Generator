@@ -50,10 +50,12 @@ def get_default_api_key():
     return ""
 
 MODELS_TO_TRY = [
-    "gemini-2.5-flash",
-    "gemini-3.5-flash-lite",
     "gemini-3-flash-preview",
+    "gemini-3.1-flash-lite",
+    "gemini-3.6-flash",
     "gemini-3.5-flash",
+    "gemini-3.5-flash-lite",
+    "gemini-2.5-flash",
 ]
 
 def guess_pos(meaning):
