@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:51:37.695146",
-  "total_unique_words_with_illustrations": 2642,
-  "total_flat_svg_files": 2642,
+  "generated_at": "2026-10-10T09:52:38.618429",
+  "total_unique_words_with_illustrations": 2652,
+  "total_flat_svg_files": 2652,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 493,
-        "pct": "19.7%"
+        "with_svg": 495,
+        "pct": "19.8%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1023,
-        "pct": "63.9%"
+        "with_svg": 1033,
+        "pct": "64.6%"
       },
       "level6": {
         "total": 1800,
@@ -46584,6 +46584,42 @@
         "images/HSK_3.0/level5/定期.svg"
       ]
     },
+    "动手": {
+      "hanzi": "动手",
+      "pinyin": "dòngshǒu",
+      "meaning": "ra tay, bắt tay vào làm",
+      "example_zh": "别<u>动手</u>打人！",
+      "example_vi": "Đừng <u>ra tay</u> đánh người!",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "动手.svg",
+      "src": "images/HSK_2.0/level6/动手.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/动手.svg"
+      ]
+    },
+    "队伍": {
+      "hanzi": "队伍",
+      "pinyin": "duìwu",
+      "meaning": "đội ngũ",
+      "example_zh": "一支<u>队伍</u>正在前进。",
+      "example_vi": "Một <u>đội ngũ</u> đang tiến lên.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "队伍.svg",
+      "src": "images/HSK_2.0/level6/队伍.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/队伍.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -48213,6 +48249,118 @@
       ],
       "file": "动人.svg",
       "src": "images/HSK_3.0/level5/动人.svg",
+      "alt_srcs": []
+    },
+    "豆浆": {
+      "hanzi": "豆浆",
+      "pinyin": "dòujiāng",
+      "meaning": "sữa đậu nành",
+      "example_zh": "早上我喝了一杯<u>豆浆</u>。",
+      "example_vi": "Sáng nay tôi uống một cốc <u>sữa đậu nành</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "豆浆.svg",
+      "src": "images/HSK_3.0/level5/豆浆.svg",
+      "alt_srcs": []
+    },
+    "读音": {
+      "hanzi": "读音",
+      "pinyin": "dúyīn",
+      "meaning": "cách đọc, âm đọc",
+      "example_zh": "这个字有两个<u>读音</u>。",
+      "example_vi": "Chữ này có hai <u>cách đọc</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "读音.svg",
+      "src": "images/HSK_3.0/level5/读音.svg",
+      "alt_srcs": []
+    },
+    "独自": {
+      "hanzi": "独自",
+      "pinyin": "dúzì",
+      "meaning": "một mình",
+      "example_zh": "她<u>独自</u>一人去旅行。",
+      "example_vi": "Cô ấy <u>một mình</u> đi du lịch.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "独自.svg",
+      "src": "images/HSK_3.0/level5/独自.svg",
+      "alt_srcs": []
+    },
+    "堵": {
+      "hanzi": "堵",
+      "pinyin": "dǔ",
+      "meaning": "chặn, tắc",
+      "example_zh": "路上<u>堵</u>车了，我会晚点儿到。",
+      "example_vi": "Trên đường <u>tắc</u> xe, tôi sẽ đến muộn một chút.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "堵.svg",
+      "src": "images/HSK_3.0/level5/堵.svg",
+      "alt_srcs": []
+    },
+    "度": {
+      "hanzi": "度",
+      "pinyin": "dù",
+      "meaning": "độ (nhiệt độ, góc); mức độ",
+      "example_zh": "今天最高气温三十<u>度</u>。",
+      "example_vi": "Nhiệt độ cao nhất hôm nay là ba mươi <u>độ</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "度.svg",
+      "src": "images/HSK_3.0/level5/度.svg",
+      "alt_srcs": []
+    },
+    "短处": {
+      "hanzi": "短处",
+      "pinyin": "duǎnchù",
+      "meaning": "điểm yếu, khuyết điểm",
+      "example_zh": "我们要正确对待自己的<u>短处</u>。",
+      "example_vi": "Chúng ta phải nhìn nhận đúng <u>điểm yếu</u> của mình.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "短处.svg",
+      "src": "images/HSK_3.0/level5/短处.svg",
+      "alt_srcs": []
+    },
+    "短期": {
+      "hanzi": "短期",
+      "pinyin": "duǎnqī",
+      "meaning": "ngắn hạn",
+      "example_zh": "我参加了一个<u>短期</u>汉语班。",
+      "example_vi": "Tôi đã tham gia một lớp tiếng Trung <u>ngắn hạn</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "短期.svg",
+      "src": "images/HSK_3.0/level5/短期.svg",
+      "alt_srcs": []
+    },
+    "躲": {
+      "hanzi": "躲",
+      "pinyin": "duǒ",
+      "meaning": "trốn, tránh",
+      "example_zh": "小猫<u>躲</u>在床下不出来。",
+      "example_vi": "Con mèo con <u>trốn</u> dưới gầm giường không chịu ra.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "躲.svg",
+      "src": "images/HSK_3.0/level5/躲.svg",
       "alt_srcs": []
     }
   }

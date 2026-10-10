@@ -12932,6 +12932,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/定期.svg",
     "caption": "định kỳ"
   },
+  "动手": {
+    "file": "动手.svg",
+    "src": "images/HSK_2.0/level6/动手.svg",
+    "caption": "ra tay, bắt tay vào làm"
+  },
+  "队伍": {
+    "file": "队伍.svg",
+    "src": "images/HSK_2.0/level6/队伍.svg",
+    "caption": "đội ngũ"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13511,6 +13521,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "动人.svg",
     "src": "images/HSK_3.0/level5/动人.svg",
     "caption": "cảm động, lay động lòng người"
+  },
+  "豆浆": {
+    "file": "豆浆.svg",
+    "src": "images/HSK_3.0/level5/豆浆.svg",
+    "caption": "sữa đậu nành"
+  },
+  "读音": {
+    "file": "读音.svg",
+    "src": "images/HSK_3.0/level5/读音.svg",
+    "caption": "cách đọc, âm đọc"
+  },
+  "独自": {
+    "file": "独自.svg",
+    "src": "images/HSK_3.0/level5/独自.svg",
+    "caption": "một mình"
+  },
+  "堵": {
+    "file": "堵.svg",
+    "src": "images/HSK_3.0/level5/堵.svg",
+    "caption": "chặn, tắc"
+  },
+  "度": {
+    "file": "度.svg",
+    "src": "images/HSK_3.0/level5/度.svg",
+    "caption": "độ (nhiệt độ, góc); mức độ"
+  },
+  "短处": {
+    "file": "短处.svg",
+    "src": "images/HSK_3.0/level5/短处.svg",
+    "caption": "điểm yếu, khuyết điểm"
+  },
+  "短期": {
+    "file": "短期.svg",
+    "src": "images/HSK_3.0/level5/短期.svg",
+    "caption": "ngắn hạn"
+  },
+  "躲": {
+    "file": "躲.svg",
+    "src": "images/HSK_3.0/level5/躲.svg",
+    "caption": "trốn, tránh"
   }
 };
 
