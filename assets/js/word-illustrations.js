@@ -13137,6 +13137,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/区域.svg",
     "caption": "khu vực, vùng"
   },
+  "确保": {
+    "file": "确保.svg",
+    "src": "images/HSK_2.0/level6/确保.svg",
+    "caption": "đảm bảo chắc chắn"
+  },
+  "人工": {
+    "file": "人工.svg",
+    "src": "images/HSK_2.0/level6/人工.svg",
+    "caption": "nhân công, nhân tạo"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -14811,6 +14821,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "全新.svg",
     "src": "images/HSK_3.0/level5/全新.svg",
     "caption": "thương hiệu mới"
+  },
+  "群体": {
+    "file": "群体.svg",
+    "src": "images/HSK_3.0/level5/群体.svg",
+    "caption": "quần thể, nhóm cộng đồng, tập thể"
+  },
+  "热量": {
+    "file": "热量.svg",
+    "src": "images/HSK_3.0/level5/热量.svg",
+    "caption": "nhiệt lượng, lượng calo"
+  },
+  "人际": {
+    "file": "人际.svg",
+    "src": "images/HSK_3.0/level5/人际.svg",
+    "caption": "giữa các cá nhân, quan hệ xã giao"
+  },
+  "人力": {
+    "file": "人力.svg",
+    "src": "images/HSK_3.0/level5/人力.svg",
+    "caption": "nhân lực, sức người"
+  },
+  "人民": {
+    "file": "人民.svg",
+    "src": "images/HSK_3.0/level5/人民.svg",
+    "caption": "mọi người"
+  },
+  "人群": {
+    "file": "人群.svg",
+    "src": "images/HSK_3.0/level5/人群.svg",
+    "caption": "đám đông, dòng người"
+  },
+  "人体": {
+    "file": "人体.svg",
+    "src": "images/HSK_3.0/level5/人体.svg",
+    "caption": "cơ thể con người"
+  },
+  "忍": {
+    "file": "忍.svg",
+    "src": "images/HSK_3.0/level5/忍.svg",
+    "caption": "nhịn, nhẫn nhịn, chịu đựng"
   }
 };
 

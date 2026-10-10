@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:26:38.970768",
-  "total_unique_words_with_illustrations": 2902,
-  "total_flat_svg_files": 2902,
+  "generated_at": "2026-10-10T10:27:42.375844",
+  "total_unique_words_with_illustrations": 2912,
+  "total_flat_svg_files": 2912,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 534,
+        "with_svg": 536,
         "pct": "21.4%"
       }
     },
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1283,
-        "pct": "80.2%"
+        "with_svg": 1293,
+        "pct": "80.8%"
       },
       "level6": {
         "total": 1800,
@@ -47322,6 +47322,42 @@
         "images/HSK_3.0/level5/区域.svg"
       ]
     },
+    "确保": {
+      "hanzi": "确保",
+      "pinyin": "quèbǎo",
+      "meaning": "đảm bảo chắc chắn",
+      "example_zh": "我们必须<u>确保</u>产品的质量。",
+      "example_vi": "Chúng ta phải <u>đảm bảo</u> chất lượng sản phẩm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "确保.svg",
+      "src": "images/HSK_2.0/level6/确保.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/确保.svg"
+      ]
+    },
+    "人工": {
+      "hanzi": "人工",
+      "pinyin": "réngōng",
+      "meaning": "nhân công, nhân tạo",
+      "example_zh": "这是<u>人工</u>智能技术。",
+      "example_vi": "Đây là công nghệ trí tuệ <u>nhân tạo</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "人工.svg",
+      "src": "images/HSK_2.0/level6/人工.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/人工.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -52023,6 +52059,118 @@
       ],
       "file": "全新.svg",
       "src": "images/HSK_3.0/level5/全新.svg",
+      "alt_srcs": []
+    },
+    "群体": {
+      "hanzi": "群体",
+      "pinyin": "qúntǐ",
+      "meaning": "quần thể, nhóm cộng đồng, tập thể",
+      "example_zh": "我们应该关注老年人这个<u>群体</u>的需求。",
+      "example_vi": "Chúng ta nên quan tâm đến nhu cầu của <u>nhóm</u> người cao tuổi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "群体.svg",
+      "src": "images/HSK_3.0/level5/群体.svg",
+      "alt_srcs": []
+    },
+    "热量": {
+      "hanzi": "热量",
+      "pinyin": "rèliàng",
+      "meaning": "nhiệt lượng, lượng calo",
+      "example_zh": "甜食含有很高的<u>热量</u>，不宜吃太多。",
+      "example_vi": "Đồ ngọt chứa <u>lượng calo</u> rất cao, không nên ăn quá nhiều.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "热量.svg",
+      "src": "images/HSK_3.0/level5/热量.svg",
+      "alt_srcs": []
+    },
+    "人际": {
+      "hanzi": "人际",
+      "pinyin": "rénjì",
+      "meaning": "giữa các cá nhân, quan hệ xã giao",
+      "example_zh": "良好的沟通技巧有助于改善<u>人际</u>关系。",
+      "example_vi": "Kỹ năng giao tiếp tốt giúp cải thiện quan hệ <u>giữa người với người</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "人际.svg",
+      "src": "images/HSK_3.0/level5/人际.svg",
+      "alt_srcs": []
+    },
+    "人力": {
+      "hanzi": "人力",
+      "pinyin": "rénlì",
+      "meaning": "nhân lực, sức người",
+      "example_zh": "完成这个大项目需要投入大量<u>人力</u>和物力。",
+      "example_vi": "Hoàn thành dự án lớn này cần đầu tư rất nhiều <u>nhân lực</u> và vật lực.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "人力.svg",
+      "src": "images/HSK_3.0/level5/人力.svg",
+      "alt_srcs": []
+    },
+    "人民": {
+      "hanzi": "人民",
+      "pinyin": "rénmín",
+      "meaning": "mọi người",
+      "example_zh": "<u>人民</u>英勇抵抗侵略者",
+      "example_vi": "Người dân anh dũng chống lại quân xâm lược.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "人民.svg",
+      "src": "images/HSK_3.0/level5/人民.svg",
+      "alt_srcs": []
+    },
+    "人群": {
+      "hanzi": "人群",
+      "pinyin": "rénqún",
+      "meaning": "đám đông, dòng người",
+      "example_zh": "他在拥挤的<u>人群</u>中找到了朋友。",
+      "example_vi": "Anh ấy đã tìm thấy bạn mình giữa <u>đám đông</u> chen chúc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "人群.svg",
+      "src": "images/HSK_3.0/level5/人群.svg",
+      "alt_srcs": []
+    },
+    "人体": {
+      "hanzi": "人体",
+      "pinyin": "réntǐ",
+      "meaning": "cơ thể con người",
+      "example_zh": "心脏是<u>人体</u>重要的器官",
+      "example_vi": "Tim là cơ quan quan trọng của cơ thể con người.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "人体.svg",
+      "src": "images/HSK_3.0/level5/人体.svg",
+      "alt_srcs": []
+    },
+    "忍": {
+      "hanzi": "忍",
+      "pinyin": "rěn",
+      "meaning": "nhịn, nhẫn nhịn, chịu đựng",
+      "example_zh": "他牙疼得实在受不了，<u>忍</u>不住叫出了声。",
+      "example_vi": "Anh ấy đau răng không chịu nổi, không <u>nhịn</u> được bèn kêu lên.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "忍.svg",
+      "src": "images/HSK_3.0/level5/忍.svg",
       "alt_srcs": []
     }
   }
