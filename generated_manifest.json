@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:14:24.138342",
-  "total_unique_words_with_illustrations": 2792,
-  "total_flat_svg_files": 2792,
+  "generated_at": "2026-10-10T10:15:37.246885",
+  "total_unique_words_with_illustrations": 2802,
+  "total_flat_svg_files": 2802,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 517,
+        "with_svg": 518,
         "pct": "20.7%"
       }
     },
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1173,
-        "pct": "73.3%"
+        "with_svg": 1183,
+        "pct": "73.9%"
       },
       "level6": {
         "total": 1800,
@@ -47016,6 +47016,24 @@
         "images/HSK_3.0/level5/居住.svg"
       ]
     },
+    "开展": {
+      "hanzi": "开展",
+      "pinyin": "kāizhǎn",
+      "meaning": "triển khai",
+      "example_zh": "公司<u>开展</u>了新业务。",
+      "example_vi": "Công ty <u>triển khai</u> mảng kinh doanh mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "开展.svg",
+      "src": "images/HSK_2.0/level6/开展.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/开展.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -50412,6 +50430,132 @@
       ],
       "file": "具有.svg",
       "src": "images/HSK_3.0/level5/具有.svg",
+      "alt_srcs": []
+    },
+    "开幕": {
+      "hanzi": "开幕",
+      "pinyin": "kāimù",
+      "meaning": "khai mạc",
+      "example_zh": "电影节今天下午正式<u>开幕</u>。",
+      "example_vi": "Liên hoan phim chính thức <u>khai mạc</u> vào chiều nay.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "开幕.svg",
+      "src": "images/HSK_3.0/level5/开幕.svg",
+      "alt_srcs": []
+    },
+    "开通": {
+      "hanzi": "开通",
+      "pinyin": "kāitōng",
+      "meaning": "khai thông, thông tuyến, mở (dịch vụ)",
+      "example_zh": "这条地铁线路下个月就<u>开通</u>了。",
+      "example_vi": "Tuyến tàu điện ngầm này tháng sau sẽ <u>khai thông</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "开通.svg",
+      "src": "images/HSK_3.0/level5/开通.svg",
+      "alt_srcs": []
+    },
+    "开业": {
+      "hanzi": "开业",
+      "pinyin": "kāiyè",
+      "meaning": "khai trương, mở cửa kinh doanh",
+      "example_zh": "新开的书店明天正式<u>开业</u>。",
+      "example_vi": "Hiệu sách mới ngày mai chính thức <u>khai trương</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "开业.svg",
+      "src": "images/HSK_3.0/level5/开业.svg",
+      "alt_srcs": []
+    },
+    "看作": {
+      "hanzi": "看作",
+      "pinyin": "kànzuò",
+      "meaning": "coi như, xem như",
+      "example_zh": "他把这次失败<u>看作</u>一次学习的机会。",
+      "example_vi": "Anh ấy <u>coi</u> thất bại lần này <u>như</u> một cơ hội học hỏi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "看作.svg",
+      "src": "images/HSK_3.0/level5/看作.svg",
+      "alt_srcs": []
+    },
+    "靠近": {
+      "hanzi": "靠近",
+      "pinyin": "kàojìn",
+      "meaning": "tiếp cận",
+      "example_zh": "船慢慢<u>靠近</u>了岸边",
+      "example_vi": "Con thuyền từ từ tiến gần đến bờ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "靠近.svg",
+      "src": "images/HSK_3.0/level5/靠近.svg",
+      "alt_srcs": []
+    },
+    "科研": {
+      "hanzi": "科研",
+      "pinyin": "kēyán",
+      "meaning": "nghiên cứu khoa học",
+      "example_zh": "这所大学非常重视<u>科研</u>工作。",
+      "example_vi": "Trường đại học này rất coi trọng công tác <u>nghiên cứu khoa học</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "科研.svg",
+      "src": "images/HSK_3.0/level5/科研.svg",
+      "alt_srcs": []
+    },
+    "客服": {
+      "hanzi": "客服",
+      "pinyin": "kèfú",
+      "meaning": "dịch vụ chăm sóc khách hàng, nhân viên hỗ trợ",
+      "example_zh": "如果你有疑问，可以联系在线<u>客服</u>。",
+      "example_vi": "Nếu bạn có thắc mắc, có thể liên hệ <u>chăm sóc khách hàng</u> trực tuyến.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "客服.svg",
+      "src": "images/HSK_3.0/level5/客服.svg",
+      "alt_srcs": []
+    },
+    "客户": {
+      "hanzi": "客户",
+      "pinyin": "kèhù",
+      "meaning": "khách hàng",
+      "example_zh": "我经常跟外国<u>客户</u>打交道",
+      "example_vi": "Tôi thường tiếp xúc với khách hàng nước ngoài.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "客户.svg",
+      "src": "images/HSK_3.0/level5/客户.svg",
+      "alt_srcs": []
+    },
+    "空中": {
+      "hanzi": "空中",
+      "pinyin": "kōngzhōng",
+      "meaning": "không khí",
+      "example_zh": "雪花在<u>空中</u>飘",
+      "example_vi": "Bông tuyết bay lơ lửng trong không khí.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "空中.svg",
+      "src": "images/HSK_3.0/level5/空中.svg",
       "alt_srcs": []
     }
   }

@@ -13052,6 +13052,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/居住.svg",
     "caption": "cư trú, sinh sống"
   },
+  "开展": {
+    "file": "开展.svg",
+    "src": "images/HSK_2.0/level6/开展.svg",
+    "caption": "triển khai"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -14261,6 +14266,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "具有.svg",
     "src": "images/HSK_3.0/level5/具有.svg",
     "caption": "có"
+  },
+  "开幕": {
+    "file": "开幕.svg",
+    "src": "images/HSK_3.0/level5/开幕.svg",
+    "caption": "khai mạc"
+  },
+  "开通": {
+    "file": "开通.svg",
+    "src": "images/HSK_3.0/level5/开通.svg",
+    "caption": "khai thông, thông tuyến, mở (dịch vụ)"
+  },
+  "开业": {
+    "file": "开业.svg",
+    "src": "images/HSK_3.0/level5/开业.svg",
+    "caption": "khai trương, mở cửa kinh doanh"
+  },
+  "看作": {
+    "file": "看作.svg",
+    "src": "images/HSK_3.0/level5/看作.svg",
+    "caption": "coi như, xem như"
+  },
+  "靠近": {
+    "file": "靠近.svg",
+    "src": "images/HSK_3.0/level5/靠近.svg",
+    "caption": "tiếp cận"
+  },
+  "科研": {
+    "file": "科研.svg",
+    "src": "images/HSK_3.0/level5/科研.svg",
+    "caption": "nghiên cứu khoa học"
+  },
+  "客服": {
+    "file": "客服.svg",
+    "src": "images/HSK_3.0/level5/客服.svg",
+    "caption": "dịch vụ chăm sóc khách hàng, nhân viên hỗ trợ"
+  },
+  "客户": {
+    "file": "客户.svg",
+    "src": "images/HSK_3.0/level5/客户.svg",
+    "caption": "khách hàng"
+  },
+  "空中": {
+    "file": "空中.svg",
+    "src": "images/HSK_3.0/level5/空中.svg",
+    "caption": "không khí"
   }
 };
 
