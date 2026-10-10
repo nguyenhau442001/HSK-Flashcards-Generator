@@ -13032,6 +13032,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/加工.svg",
     "caption": "gia công, chế biến"
   },
+  "将近": {
+    "file": "将近.svg",
+    "src": "images/HSK_2.0/level6/将近.svg",
+    "caption": "gần (số lượng, thời gian)"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -14111,6 +14116,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "键.svg",
     "src": "images/HSK_3.0/level5/键.svg",
     "caption": "phím, nút bấm"
+  },
+  "渐渐": {
+    "file": "渐渐.svg",
+    "src": "images/HSK_3.0/level5/渐渐.svg",
+    "caption": "dần dần"
+  },
+  "建造": {
+    "file": "建造.svg",
+    "src": "images/HSK_3.0/level5/建造.svg",
+    "caption": "xây dựng"
+  },
+  "讲话": {
+    "file": "讲话.svg",
+    "src": "images/HSK_3.0/level5/讲话.svg",
+    "caption": "nói chuyện, phát biểu; bài phát biểu"
+  },
+  "奖励": {
+    "file": "奖励.svg",
+    "src": "images/HSK_3.0/level5/奖励.svg",
+    "caption": "khen thưởng, phần thưởng"
+  },
+  "讲述": {
+    "file": "讲述.svg",
+    "src": "images/HSK_3.0/level5/讲述.svg",
+    "caption": "kể"
+  },
+  "降水": {
+    "file": "降水.svg",
+    "src": "images/HSK_3.0/level5/降水.svg",
+    "caption": "lượng mưa, giáng thủy"
+  },
+  "交易": {
+    "file": "交易.svg",
+    "src": "images/HSK_3.0/level5/交易.svg",
+    "caption": "giao dịch"
+  },
+  "脚步": {
+    "file": "脚步.svg",
+    "src": "images/HSK_3.0/level5/脚步.svg",
+    "caption": "bước chân, nhịp bước"
+  },
+  "较": {
+    "file": "较.svg",
+    "src": "images/HSK_3.0/level5/较.svg",
+    "caption": "so sánh"
   }
 };
 

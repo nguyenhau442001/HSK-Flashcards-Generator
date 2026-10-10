@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:09:42.924725",
-  "total_unique_words_with_illustrations": 2762,
-  "total_flat_svg_files": 2762,
+  "generated_at": "2026-10-10T10:11:21.023008",
+  "total_unique_words_with_illustrations": 2772,
+  "total_flat_svg_files": 2772,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 513,
-        "pct": "20.5%"
+        "with_svg": 514,
+        "pct": "20.6%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1143,
-        "pct": "71.4%"
+        "with_svg": 1153,
+        "pct": "72.1%"
       },
       "level6": {
         "total": 1800,
@@ -46944,6 +46944,24 @@
         "images/HSK_3.0/level5/加工.svg"
       ]
     },
+    "将近": {
+      "hanzi": "将近",
+      "pinyin": "jiāngjìn",
+      "meaning": "gần (số lượng, thời gian)",
+      "example_zh": "这个项目<u>将近</u>完成了。",
+      "example_vi": "Dự án này <u>gần</u> hoàn thành rồi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "将近.svg",
+      "src": "images/HSK_2.0/level6/将近.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/将近.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -49973,6 +49991,132 @@
       ],
       "file": "键.svg",
       "src": "images/HSK_3.0/level5/键.svg",
+      "alt_srcs": []
+    },
+    "渐渐": {
+      "hanzi": "渐渐",
+      "pinyin": "jiànjiàn",
+      "meaning": "dần dần",
+      "example_zh": "他<u>渐渐</u>堕落了",
+      "example_vi": "Anh ấy dần dần sa đọa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "渐渐.svg",
+      "src": "images/HSK_3.0/level5/渐渐.svg",
+      "alt_srcs": []
+    },
+    "建造": {
+      "hanzi": "建造",
+      "pinyin": "jiànzào",
+      "meaning": "xây dựng",
+      "example_zh": "这座桥是用钢铁<u>建造</u>的",
+      "example_vi": "Cây cầu này được xây bằng thép.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "建造.svg",
+      "src": "images/HSK_3.0/level5/建造.svg",
+      "alt_srcs": []
+    },
+    "讲话": {
+      "hanzi": "讲话",
+      "pinyin": "jiǎnghuà",
+      "meaning": "nói chuyện, phát biểu; bài phát biểu",
+      "example_zh": "校长在毕业典礼上作了<u>讲话</u>。",
+      "example_vi": "Hiệu trưởng đã có <u>bài phát biểu</u> tại lễ tốt nghiệp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "讲话.svg",
+      "src": "images/HSK_3.0/level5/讲话.svg",
+      "alt_srcs": []
+    },
+    "奖励": {
+      "hanzi": "奖励",
+      "pinyin": "jiǎnglì",
+      "meaning": "khen thưởng, phần thưởng",
+      "example_zh": "公司对优秀员工进行了<u>奖励</u>。",
+      "example_vi": "Công ty đã <u>khen thưởng</u> các nhân viên xuất sắc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "奖励.svg",
+      "src": "images/HSK_3.0/level5/奖励.svg",
+      "alt_srcs": []
+    },
+    "讲述": {
+      "hanzi": "讲述",
+      "pinyin": "jiǎngshù",
+      "meaning": "kể",
+      "example_zh": "这部电影<u>讲述</u>穿越时空的故事",
+      "example_vi": "Bộ phim này kể câu chuyện vượt qua không gian thời gian.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "讲述.svg",
+      "src": "images/HSK_3.0/level5/讲述.svg",
+      "alt_srcs": []
+    },
+    "降水": {
+      "hanzi": "降水",
+      "pinyin": "jiàngshuǐ",
+      "meaning": "lượng mưa, giáng thủy",
+      "example_zh": "今年夏天的<u>降水</u>比去年多很多。",
+      "example_vi": "<u>Lượng mưa</u> mùa hè năm nay nhiều hơn năm ngoái rất nhiều.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "降水.svg",
+      "src": "images/HSK_3.0/level5/降水.svg",
+      "alt_srcs": []
+    },
+    "交易": {
+      "hanzi": "交易",
+      "pinyin": "jiāoyì",
+      "meaning": "giao dịch",
+      "example_zh": "政府严厉打击毒品<u>交易</u>",
+      "example_vi": "Chính phủ trấn áp nghiêm khắc việc mua bán ma túy.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "交易.svg",
+      "src": "images/HSK_3.0/level5/交易.svg",
+      "alt_srcs": []
+    },
+    "脚步": {
+      "hanzi": "脚步",
+      "pinyin": "jiǎobù",
+      "meaning": "bước chân, nhịp bước",
+      "example_zh": "门外传来了急促的<u>脚步</u>声。",
+      "example_vi": "Bên ngoài cửa vang lên tiếng <u>bước chân</u> vội vã.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "脚步.svg",
+      "src": "images/HSK_3.0/level5/脚步.svg",
+      "alt_srcs": []
+    },
+    "较": {
+      "hanzi": "较",
+      "pinyin": "jiào",
+      "meaning": "so sánh",
+      "example_zh": "高山地区气压<u>较</u>低",
+      "example_vi": "Vùng núi cao có áp suất khí quyển thấp hơn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "较.svg",
+      "src": "images/HSK_3.0/level5/较.svg",
       "alt_srcs": []
     }
   }
