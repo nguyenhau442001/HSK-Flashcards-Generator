@@ -13167,6 +13167,26 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/社区.svg",
     "caption": "khu dân cư, cộng đồng"
   },
+  "生存": {
+    "file": "生存.svg",
+    "src": "images/HSK_2.0/level6/生存.svg",
+    "caption": "sinh tồn"
+  },
+  "生物": {
+    "file": "生物.svg",
+    "src": "images/HSK_2.0/level6/生物.svg",
+    "caption": "sinh vật"
+  },
+  "生肖": {
+    "file": "生肖.svg",
+    "src": "images/HSK_2.0/level6/生肖.svg",
+    "caption": "con giáp"
+  },
+  "省会": {
+    "file": "省会.svg",
+    "src": "images/HSK_2.0/level6/省会.svg",
+    "caption": "tỉnh lị, thủ phủ tỉnh"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -15011,6 +15031,36 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "升¹.svg",
     "src": "images/HSK_3.0/level5/升¹.svg",
     "caption": "thăng, lên"
+  },
+  "升级": {
+    "file": "升级.svg",
+    "src": "images/HSK_3.0/level5/升级.svg",
+    "caption": "nâng cấp"
+  },
+  "升温": {
+    "file": "升温.svg",
+    "src": "images/HSK_3.0/level5/升温.svg",
+    "caption": "tăng nhiệt độ, nóng lên, ấm lên"
+  },
+  "省²": {
+    "file": "省².svg",
+    "src": "images/HSK_3.0/level5/省².svg",
+    "caption": "tỉnh; tiết kiệm"
+  },
+  "省份": {
+    "file": "省份.svg",
+    "src": "images/HSK_3.0/level5/省份.svg",
+    "caption": "tỉnh, tỉnh thành"
+  },
+  "胜": {
+    "file": "胜.svg",
+    "src": "images/HSK_3.0/level5/胜.svg",
+    "caption": "thắng, chiến thắng"
+  },
+  "湿": {
+    "file": "湿.svg",
+    "src": "images/HSK_3.0/level5/湿.svg",
+    "caption": "ướt, ẩm ướt"
   }
 };
 

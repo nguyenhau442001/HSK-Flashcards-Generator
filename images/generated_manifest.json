@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:31:10.655432",
-  "total_unique_words_with_illustrations": 2942,
-  "total_flat_svg_files": 2942,
+  "generated_at": "2026-10-10T10:32:11.986613",
+  "total_unique_words_with_illustrations": 2952,
+  "total_flat_svg_files": 2952,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 540,
-        "pct": "21.6%"
+        "with_svg": 544,
+        "pct": "21.8%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1323,
-        "pct": "82.7%"
+        "with_svg": 1333,
+        "pct": "83.3%"
       },
       "level6": {
         "total": 1800,
@@ -47430,6 +47430,78 @@
         "images/HSK_3.0/level5/社区.svg"
       ]
     },
+    "生存": {
+      "hanzi": "生存",
+      "pinyin": "shēngcún",
+      "meaning": "sinh tồn",
+      "example_zh": "动物要在野外学会<u>生存</u>。",
+      "example_vi": "Động vật phải học cách <u>sinh tồn</u> ngoài tự nhiên.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "生存.svg",
+      "src": "images/HSK_2.0/level6/生存.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/生存.svg"
+      ]
+    },
+    "生物": {
+      "hanzi": "生物",
+      "pinyin": "shēngwù",
+      "meaning": "sinh vật",
+      "example_zh": "海洋里有很多奇特的<u>生物</u>。",
+      "example_vi": "Trong đại dương có rất nhiều <u>sinh vật</u> kỳ lạ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "生物.svg",
+      "src": "images/HSK_2.0/level6/生物.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/生物.svg"
+      ]
+    },
+    "生肖": {
+      "hanzi": "生肖",
+      "pinyin": "shēngxiào",
+      "meaning": "con giáp",
+      "example_zh": "你的<u>生肖</u>是什么？",
+      "example_vi": "<u>Con giáp</u> của bạn là gì?",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "生肖.svg",
+      "src": "images/HSK_2.0/level6/生肖.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/生肖.svg"
+      ]
+    },
+    "省会": {
+      "hanzi": "省会",
+      "pinyin": "shěnghuì",
+      "meaning": "tỉnh lị, thủ phủ tỉnh",
+      "example_zh": "广州是广东省的<u>省会</u>。",
+      "example_vi": "Quảng Châu là <u>tỉnh lị</u> của tỉnh Quảng Đông.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "省会.svg",
+      "src": "images/HSK_2.0/level6/省会.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/省会.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -52610,6 +52682,90 @@
       ],
       "file": "升¹.svg",
       "src": "images/HSK_3.0/level5/升¹.svg",
+      "alt_srcs": []
+    },
+    "升级": {
+      "hanzi": "升级",
+      "pinyin": "shēngjí",
+      "meaning": "nâng cấp",
+      "example_zh": "这个系统需要<u>升级</u>了",
+      "example_vi": "Hệ thống này cần được nâng cấp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "升级.svg",
+      "src": "images/HSK_3.0/level5/升级.svg",
+      "alt_srcs": []
+    },
+    "升温": {
+      "hanzi": "升温",
+      "pinyin": "shēngwēn",
+      "meaning": "tăng nhiệt độ, nóng lên, ấm lên",
+      "example_zh": "进入五月以后，全国各地的气温迅速<u>升温</u>。",
+      "example_vi": "Sau khi bước sang tháng năm, nhiệt độ khắp nơi nhanh chóng <u>tăng lên</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "升温.svg",
+      "src": "images/HSK_3.0/level5/升温.svg",
+      "alt_srcs": []
+    },
+    "省²": {
+      "hanzi": "省²",
+      "pinyin": "shěng",
+      "meaning": "tỉnh; tiết kiệm",
+      "example_zh": "他来自广东<u>省</u>。",
+      "example_vi": "Anh ấy đến từ <u>tỉnh</u> Quảng Đông.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "省².svg",
+      "src": "images/HSK_3.0/level5/省².svg",
+      "alt_srcs": []
+    },
+    "省份": {
+      "hanzi": "省份",
+      "pinyin": "shěngfèn",
+      "meaning": "tỉnh, tỉnh thành",
+      "example_zh": "中国一共有二十三个<u>省份</u>。",
+      "example_vi": "Trung Quốc có tổng cộng hai mươi ba <u>tỉnh thành</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "省份.svg",
+      "src": "images/HSK_3.0/level5/省份.svg",
+      "alt_srcs": []
+    },
+    "胜": {
+      "hanzi": "胜",
+      "pinyin": "shèng",
+      "meaning": "thắng, chiến thắng",
+      "example_zh": "他们经过艰苦拼搏，最终战<u>胜</u>了对手。",
+      "example_vi": "Trải qua nỗ lực gian khổ, cuối cùng họ đã chiến <u>thắng</u> đối thủ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "胜.svg",
+      "src": "images/HSK_3.0/level5/胜.svg",
+      "alt_srcs": []
+    },
+    "湿": {
+      "hanzi": "湿",
+      "pinyin": "shī",
+      "meaning": "ướt, ẩm ướt",
+      "example_zh": "外面下大雨，他的衣服全淋<u>湿</u>了。",
+      "example_vi": "Bên ngoài mưa to, quần áo của anh ấy bị ướt <u>sũng</u> cả rồi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "湿.svg",
+      "src": "images/HSK_3.0/level5/湿.svg",
       "alt_srcs": []
     }
   }
