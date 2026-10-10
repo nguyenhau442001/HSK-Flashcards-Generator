@@ -248,13 +248,16 @@ function openRadicalInCards(groupIndex, itemIndexInGroup) {
   });
 }
 
-function toggleRadicalTransferPanel() {
+function toggleRadicalTransferPanel(forceOpen) {
   const panel = document.getElementById('radicalTransferPanel');
   const button = document.getElementById('radicalTransferToggle');
-  const willOpen = panel.hidden;
+  if (!panel) return;
+  const willOpen = typeof forceOpen === 'boolean' ? forceOpen : panel.hidden;
   panel.hidden = !willOpen;
-  button.setAttribute('aria-expanded', String(willOpen));
-  button.classList.toggle('on', willOpen);
+  if (button) {
+    button.setAttribute('aria-expanded', String(willOpen));
+    button.classList.toggle('on', willOpen);
+  }
 }
 
 function radicalRelationLabel(type) {

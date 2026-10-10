@@ -12,7 +12,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Synapse Hanzi">
-<link rel="stylesheet" href="assets/flashcards.css?v=20261010-smooth-theme1">
+<link rel="stylesheet" href="assets/flashcards.css?v=20261010-close-backup1">
 <link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20261006-ui-refinement1">
 <link rel="stylesheet" href="assets/css/workstation.css?v=20261010-smooth-theme1">
 <link rel="stylesheet" href="assets/css/sidebar-lab.css?v=20261006-multichar-grid1">
@@ -451,7 +451,10 @@ if ('serviceWorker' in navigator) {
       <div class="filter-row" id="filterRow"></div>
 
       <div class="transfer-panel" id="transferPanel" hidden>
-        <div class="transfer-panel-title">Sao lưu và chuyển thiết bị</div>
+        <div class="transfer-panel-header">
+          <div class="transfer-panel-title">Sao lưu và chuyển thiết bị</div>
+          <button type="button" class="transfer-panel-close-btn" onclick="toggleTransferPanel(false)" aria-label="Đóng bảng sao lưu" title="Đóng (Esc)">✕</button>
+        </div>
         <div class="transfer-panel-content">
           <div class="transfer-actions">
             <button onclick="exportProgress()">💾 Tải bản sao tiến trình</button>
@@ -543,7 +546,10 @@ if ('serviceWorker' in navigator) {
       <div class="filter-row" id="radicalFilterRow"></div>
 
       <div class="transfer-panel" id="radicalTransferPanel" hidden>
-        <div class="transfer-panel-title">Sao lưu và chuyển thiết bị</div>
+        <div class="transfer-panel-header">
+          <div class="transfer-panel-title">Sao lưu và chuyển thiết bị</div>
+          <button type="button" class="transfer-panel-close-btn" onclick="toggleRadicalTransferPanel(false)" aria-label="Đóng bảng sao lưu" title="Đóng (Esc)">✕</button>
+        </div>
         <div class="transfer-panel-content">
           <div class="transfer-actions">
             <button onclick="exportRadicalProgress()">💾 Tải bản sao tiến trình</button>
@@ -853,18 +859,18 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/fast-review.js?v=20261006-review-mistakes1"></script>
 <script src="assets/js/hanviet-dict.js?v=20261007-pos-visual2"></script>
 <script src="assets/js/word-illustrations.js?v=20261009-instant-load-v1"></script>
-<script src="assets/js/flashcard.js?v=20261009-instant-load-v1"></script>
+<script src="assets/js/flashcard.js?v=20261010-close-backup1"></script>
 <script src="assets/js/card-interactions.js?v=20261008-redesign-zen-v1"></script>
 <script src="assets/js/speechService.js?v=20261010-speech-mvp1"></script>
 <script src="assets/js/speech.js?v=20261010-speech-mvp1"></script>
-<script src="assets/js/progress.js?v=20261006-hanviet1"></script>
+<script src="assets/js/progress.js?v=20261010-close-backup1"></script>
 <script src="assets/js/due-review.js?v=20261007-router1"></script>
 <script src="assets/js/theme.js?v=20261010-smooth-theme1"></script>
-<script src="assets/js/backup.js?v=20261003-hsk20-rich1"></script>
+<script src="assets/js/backup.js?v=20261010-close-backup1"></script>
 <script src="assets/js/memory-curve.js?v=20261008-fix-stroke-drawer2"></script>
 <script src="assets/js/radicals-state.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/radicals.js?v=20261009-graded2"></script>
-<script src="assets/js/radical-card.js?v=20261003-hsk20-rich1"></script>
+<script src="assets/js/radical-card.js?v=20261010-close-backup1"></script>
 <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3/dist/hanzi-writer.min.js"></script>
 <script src="assets/js/sidebar-search.js?v=20261006-nav-fix1"></script>
 <script src="assets/js/sidebar-radicals-filter.js?v=20261003-hsk20-rich1"></script>

@@ -142,14 +142,34 @@ function resetProgress() {
   saveProgress();
   setFilter(currentFilter);
 }
-function toggleTransferPanel() {
+function toggleTransferPanel(forceOpen) {
   const panel = document.getElementById('transferPanel');
   const button = document.getElementById('transferToggle');
-  const willOpen = panel.hidden;
+  if (!panel) return;
+  const willOpen = typeof forceOpen === 'boolean' ? forceOpen : panel.hidden;
   panel.hidden = !willOpen;
-  button.setAttribute('aria-expanded', String(willOpen));
-  button.classList.toggle('on', willOpen);
+  if (button) {
+    button.setAttribute('aria-expanded', String(willOpen));
+    button.classList.toggle('on', willOpen);
+  }
 }
+
+document.addEventListener('click', event => {
+  const panel = document.getElementById('transferPanel');
+  if (panel && !panel.hidden) {
+    const button = document.getElementById('transferToggle');
+    if (!panel.contains(event.target) && (!button || !button.contains(event.target))) {
+      toggleTransferPanel(false);
+    }
+  }
+  const radicalPanel = document.getElementById('radicalTransferPanel');
+  if (radicalPanel && !radicalPanel.hidden) {
+    const radButton = document.getElementById('radicalTransferToggle');
+    if (!radicalPanel.contains(event.target) && (!radButton || !radButton.contains(event.target))) {
+      if (typeof toggleRadicalTransferPanel === 'function') toggleRadicalTransferPanel(false);
+    }
+  }
+});
 function toggleUnknownWords() {
   const box = document.getElementById('unknownWordsList');
   const button = document.getElementById('unknownWordsToggle');
@@ -176,6 +196,20 @@ function toggleUnknownWords() {
 }
 
 document.addEventListener('keydown', event => {
+  if (event.key === 'Escape') {
+    const transferPanel = document.getElementById('transferPanel');
+    if (transferPanel && !transferPanel.hidden) {
+      event.preventDefault();
+      toggleTransferPanel(false);
+      return;
+    }
+    const radicalTransferPanel = document.getElementById('radicalTransferPanel');
+    if (radicalTransferPanel && !radicalTransferPanel.hidden) {
+      event.preventDefault();
+      if (typeof toggleRadicalTransferPanel === 'function') toggleRadicalTransferPanel(false);
+      return;
+    }
+  }
   if (!currentLevel || currentView !== 'cards' || event.altKey || event.ctrlKey || event.metaKey) return;
   if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement && document.activeElement.tagName)) return;
   if (event.key === 'Escape') {

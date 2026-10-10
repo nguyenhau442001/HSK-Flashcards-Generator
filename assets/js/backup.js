@@ -17,6 +17,9 @@ function exportProgress() {
   a.click();
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
+  setTimeout(() => {
+    if (typeof toggleTransferPanel === 'function') toggleTransferPanel(false);
+  }, 400);
 }
 
 function importProgress(event) {
@@ -63,6 +66,7 @@ function importProgress(event) {
       btn.classList.toggle('on', !showPinyin);
       setFilter(currentFilter);
       if (filteredOrder.length) updateSrsPreviews(WORDS[filteredOrder[idx % filteredOrder.length]]);
+      if (typeof toggleTransferPanel === 'function') toggleTransferPanel(false);
       alert('Đã khôi phục tiến trình thành công!');
     } catch (err) {
       alert('Bản sao tiến trình không hợp lệ.');
@@ -99,6 +103,9 @@ function exportRadicalProgress() {
   link.click();
   document.body.removeChild(link);
   URL.revokeObjectURL(url);
+  setTimeout(() => {
+    if (typeof toggleRadicalTransferPanel === 'function') toggleRadicalTransferPanel(false);
+  }, 400);
 }
 
 function importRadicalProgress(event) {
@@ -131,6 +138,7 @@ function importRadicalProgress(event) {
       }
       setRadicalFilter(radicalCurrentFilter);
       if (radicalCurrentView === 'overview') renderRadicalOverview();
+      if (typeof toggleRadicalTransferPanel === 'function') toggleRadicalTransferPanel(false);
       alert('Đã khôi phục tiến trình Bộ thủ thành công!');
     } catch (error) {
       alert('Bản sao tiến trình Bộ thủ không hợp lệ.');

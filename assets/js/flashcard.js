@@ -386,6 +386,8 @@ function toggleStudyWritingPanel(forceOpen) {
 }
 
 function closeAllStudyDrawers() {
+  if (typeof toggleTransferPanel === 'function') toggleTransferPanel(false);
+  if (typeof toggleRadicalTransferPanel === 'function') toggleRadicalTransferPanel(false);
   const wasOpen = document.body.classList.contains('study-sidebar-open');
   document.body.classList.remove('study-sidebar-open');
   updateStudyDrawerButtons();
