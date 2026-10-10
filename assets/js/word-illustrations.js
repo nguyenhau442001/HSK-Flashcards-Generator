@@ -12827,6 +12827,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/拨打.svg",
     "caption": "bấm gọi (điện thoại)"
   },
+  "裁判": {
+    "file": "裁判.svg",
+    "src": "images/HSK_2.0/level6/裁判.svg",
+    "caption": "trọng tài; xét xử"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -12946,6 +12951,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "不利.svg",
     "src": "images/HSK_3.0/level5/不利.svg",
     "caption": "bất lợi"
+  },
+  "不幸": {
+    "file": "不幸.svg",
+    "src": "images/HSK_3.0/level5/不幸.svg",
+    "caption": "bất hạnh, không may"
+  },
+  "不符": {
+    "file": "不符.svg",
+    "src": "images/HSK_3.0/level5/不符.svg",
+    "caption": "không phù hợp, không khớp"
+  },
+  "不良": {
+    "file": "不良.svg",
+    "src": "images/HSK_3.0/level5/不良.svg",
+    "caption": "không tốt, xấu"
+  },
+  "步行": {
+    "file": "步行.svg",
+    "src": "images/HSK_3.0/level5/步行.svg",
+    "caption": "đi bộ"
+  },
+  "才²": {
+    "file": "才².svg",
+    "src": "images/HSK_3.0/level5/才².svg",
+    "caption": "tài năng, nhân tài"
+  },
+  "彩色": {
+    "file": "彩色.svg",
+    "src": "images/HSK_3.0/level5/彩色.svg",
+    "caption": "màu, nhiều màu"
+  },
+  "采用": {
+    "file": "采用.svg",
+    "src": "images/HSK_3.0/level5/采用.svg",
+    "caption": "áp dụng, sử dụng"
+  },
+  "餐饮": {
+    "file": "餐饮.svg",
+    "src": "images/HSK_3.0/level5/餐饮.svg",
+    "caption": "ăn uống, dịch vụ ăn uống"
+  },
+  "藏": {
+    "file": "藏.svg",
+    "src": "images/HSK_3.0/level5/藏.svg",
+    "caption": "giấu, cất giấu; trốn"
   }
 };
 

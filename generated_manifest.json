@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:35:57.692543",
-  "total_unique_words_with_illustrations": 2529,
-  "total_flat_svg_files": 2529,
+  "generated_at": "2026-10-10T09:37:09.120430",
+  "total_unique_words_with_illustrations": 2539,
+  "total_flat_svg_files": 2539,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 472,
+        "with_svg": 473,
         "pct": "18.9%"
       }
     },
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 909,
-        "pct": "56.8%"
+        "with_svg": 919,
+        "pct": "57.4%"
       },
       "level6": {
         "total": 1800,
@@ -46206,6 +46206,24 @@
         "images/HSK_3.0/level5/拨打.svg"
       ]
     },
+    "裁判": {
+      "hanzi": "裁判",
+      "pinyin": "cáipàn",
+      "meaning": "trọng tài; xét xử",
+      "example_zh": "<u>裁判</u>吹响了哨子。",
+      "example_vi": "<u>Trọng tài</u> thổi còi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "裁判.svg",
+      "src": "images/HSK_2.0/level6/裁判.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/裁判.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -46540,6 +46558,132 @@
       ],
       "file": "不利.svg",
       "src": "images/HSK_3.0/level5/不利.svg",
+      "alt_srcs": []
+    },
+    "不幸": {
+      "hanzi": "不幸",
+      "pinyin": "búxìng",
+      "meaning": "bất hạnh, không may",
+      "example_zh": "他<u>不幸</u>遇到了车祸。",
+      "example_vi": "Anh ấy <u>không may</u> gặp tai nạn xe.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "不幸.svg",
+      "src": "images/HSK_3.0/level5/不幸.svg",
+      "alt_srcs": []
+    },
+    "不符": {
+      "hanzi": "不符",
+      "pinyin": "bùfú",
+      "meaning": "không phù hợp, không khớp",
+      "example_zh": "他说的和事实<u>不符</u>。",
+      "example_vi": "Điều anh ấy nói <u>không khớp</u> với sự thật.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "不符.svg",
+      "src": "images/HSK_3.0/level5/不符.svg",
+      "alt_srcs": []
+    },
+    "不良": {
+      "hanzi": "不良",
+      "pinyin": "bùliáng",
+      "meaning": "không tốt, xấu",
+      "example_zh": "我们要改掉<u>不良</u>习惯。",
+      "example_vi": "Chúng ta phải bỏ những thói quen <u>xấu</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "不良.svg",
+      "src": "images/HSK_3.0/level5/不良.svg",
+      "alt_srcs": []
+    },
+    "步行": {
+      "hanzi": "步行",
+      "pinyin": "bùxíng",
+      "meaning": "đi bộ",
+      "example_zh": "从这儿<u>步行</u>到车站只要十分钟。",
+      "example_vi": "Từ đây <u>đi bộ</u> đến bến xe chỉ mất mười phút.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "步行.svg",
+      "src": "images/HSK_3.0/level5/步行.svg",
+      "alt_srcs": []
+    },
+    "才²": {
+      "hanzi": "才²",
+      "pinyin": "cái",
+      "meaning": "tài năng, nhân tài",
+      "example_zh": "他是一个难得的人<u>才</u>。",
+      "example_vi": "Anh ấy là một nhân <u>tài</u> hiếm có.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "才².svg",
+      "src": "images/HSK_3.0/level5/才².svg",
+      "alt_srcs": []
+    },
+    "彩色": {
+      "hanzi": "彩色",
+      "pinyin": "cǎisè",
+      "meaning": "màu, nhiều màu",
+      "example_zh": "我想打印一张<u>彩色</u>照片。",
+      "example_vi": "Tôi muốn in một tấm ảnh <u>màu</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "彩色.svg",
+      "src": "images/HSK_3.0/level5/彩色.svg",
+      "alt_srcs": []
+    },
+    "采用": {
+      "hanzi": "采用",
+      "pinyin": "cǎiyòng",
+      "meaning": "áp dụng, sử dụng",
+      "example_zh": "我们<u>采用</u>了新的方法。",
+      "example_vi": "Chúng tôi đã <u>áp dụng</u> phương pháp mới.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "采用.svg",
+      "src": "images/HSK_3.0/level5/采用.svg",
+      "alt_srcs": []
+    },
+    "餐饮": {
+      "hanzi": "餐饮",
+      "pinyin": "cānyǐn",
+      "meaning": "ăn uống, dịch vụ ăn uống",
+      "example_zh": "他在一家<u>餐饮</u>公司工作。",
+      "example_vi": "Anh ấy làm việc ở một công ty <u>dịch vụ ăn uống</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "餐饮.svg",
+      "src": "images/HSK_3.0/level5/餐饮.svg",
+      "alt_srcs": []
+    },
+    "藏": {
+      "hanzi": "藏",
+      "pinyin": "cáng",
+      "meaning": "giấu, cất giấu; trốn",
+      "example_zh": "他把钱<u>藏</u>在了床底下。",
+      "example_vi": "Anh ấy <u>giấu</u> tiền dưới gầm giường.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "藏.svg",
+      "src": "images/HSK_3.0/level5/藏.svg",
       "alt_srcs": []
     }
   }
