@@ -200,6 +200,11 @@ document.addEventListener('keydown', event => {
     if (typeof toggleHanViet === 'function') toggleHanViet();
     return;
   }
+  if (event.key === 'a' || event.key === 'A') {
+    event.preventDefault();
+    if (typeof speakWord === 'function') speakWord();
+    return;
+  }
   if (event.key === ' ') {
     if (document.activeElement && document.activeElement.closest('button, summary, a')) return;
     event.preventDefault();

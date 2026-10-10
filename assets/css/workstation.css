@@ -1265,6 +1265,16 @@ body.flashcard-study-mode .sound-btn:hover {
   background: rgba(255, 255, 255, 0.04);
   color: rgba(255, 255, 255, 0.7);
 }
+:root[data-theme="light"] body.flashcard-study-mode .sound-btn {
+  border-color: rgba(0, 0, 0, 0.08);
+  background: rgba(0, 0, 0, 0.03);
+  color: var(--text-secondary);
+}
+:root[data-theme="light"] body.flashcard-study-mode .sound-btn:hover {
+  background: rgba(192, 86, 56, 0.1);
+  border-color: rgba(192, 86, 56, 0.3);
+  color: var(--accent);
+}
 
 body.flashcard-study-mode .meaning {
   font-size: 22.5px;

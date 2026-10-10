@@ -1,12 +1,11 @@
-const ASSET_VERSION = '20261010-smooth-theme1';
+const ASSET_VERSION = '20261010-speech-mvp1';
 const CACHE_NAME = 'hsk-flashcards-v' + ASSET_VERSION;
 const FSRS_CDN_URL = 'https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js';
-const APP_SHELL_URL = new URL('./flashcards.html', self.registration.scope).href;
+const APP_SHELL_URL = new URL('./index.html', self.registration.scope).href;
 const INDEX_SHELL_URL = new URL('./index.html', self.registration.scope).href;
 const ROOT_SHELL_URL = new URL('./', self.registration.scope).href;
 // Dashboard assets are precached so the home screen works offline right away.
 const PRECACHE_ASSET_URLS = [
-  APP_SHELL_URL,
   INDEX_SHELL_URL,
   ROOT_SHELL_URL,
   './assets/flashcards.css?v=' + ASSET_VERSION,
@@ -14,6 +13,8 @@ const PRECACHE_ASSET_URLS = [
   './assets/css/workstation.css?v=' + ASSET_VERSION,
   './assets/css/reading-analysis.css?v=' + ASSET_VERSION,
   './assets/js/theme.js?v=' + ASSET_VERSION,
+  './assets/js/speechService.js?v=' + ASSET_VERSION,
+  './assets/js/speech.js?v=' + ASSET_VERSION,
   './assets/js/home-widgets.js?v=' + ASSET_VERSION,
   './assets/css/home-widgets.css?v=' + ASSET_VERSION,
   './assets/js/dashboard-enhancements.js?v=' + ASSET_VERSION,

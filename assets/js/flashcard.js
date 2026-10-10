@@ -561,6 +561,7 @@ function render(animate) {
       setActiveStudyWord(null);
       renderStudyWordList();
       syncRevealControls();
+      if (typeof syncSpeechButtons === 'function') syncSpeechButtons();
       return;
     }
     if (content) content.classList.remove('is-empty');
@@ -673,6 +674,7 @@ function render(animate) {
     updateCardPosition();
     updateStats();
     syncRevealControls();
+    if (typeof syncSpeechButtons === 'function') syncSpeechButtons();
     if (animate && content && !prefersReduced) {
       if (animate === 'next') content.classList.add('enter-right');
       else if (animate === 'prev') content.classList.add('enter-left');

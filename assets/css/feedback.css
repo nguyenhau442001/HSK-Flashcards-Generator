@@ -36,7 +36,7 @@
   50% { transform: scale(1.14); }
 }
 .sound-btn {
-  display: none; align-items: center; justify-content: center;
+  display: inline-flex; align-items: center; justify-content: center;
   width: 28px; height: 28px; padding: 0;
   border: 1px solid transparent; border-radius: 50%;
   background: transparent; color: var(--text-secondary); opacity: 0.65;
@@ -48,6 +48,22 @@
 .sound-btn:active { transform: scale(0.92); }
 .sound-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .sound-btn.show { display: inline-flex; }
+.sound-btn:disabled,
+.sound-btn.is-disabled,
+.example-sound-btn:disabled,
+.example-sound-btn.is-disabled {
+  opacity: 0.3 !important;
+  cursor: not-allowed !important;
+  pointer-events: auto;
+}
+.sound-btn:disabled:hover,
+.sound-btn.is-disabled:hover,
+.example-sound-btn:disabled:hover,
+.example-sound-btn.is-disabled:hover {
+  background: transparent !important;
+  color: var(--text-secondary) !important;
+  transform: none !important;
+}
 .sound-btn-icon { display: inline-block; font-size: 15px; line-height: 1; transform-origin: center; }
 .sound-btn.is-playing {
   background: var(--accent-light); color: var(--accent); border-color: var(--accent); opacity: 1;

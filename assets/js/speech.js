@@ -1,4 +1,37 @@
-// Word and example pronunciation through prebuilt audio with Web Speech fallback.
+// assets/js/speech.js
+// Speech orchestration for Chinese vocabulary & example sentences.
+// Uses SpeechService (Web Speech API) with safe audio fallback.
+
+function getSpeechService() {
+  if (typeof SpeechService !== 'undefined') return SpeechService;
+  if (typeof window !== 'undefined' && window.SpeechService) return window.SpeechService;
+  if (typeof globalThis !== 'undefined' && globalThis.SpeechService) return globalThis.SpeechService;
+  return null;
+}
+
+function checkSpeechSupported() {
+  if (typeof isSpeechSupported === 'function') return isSpeechSupported();
+  const svc = getSpeechService();
+  if (svc && typeof svc.isSpeechSupported === 'function') return svc.isSpeechSupported();
+  return typeof window !== 'undefined' && 'speechSynthesis' in window;
+}
+
+function callSpeakChinese(text, options) {
+  if (typeof speakChinese === 'function') return speakChinese(text, options);
+  const svc = getSpeechService();
+  if (svc && typeof svc.speakChinese === 'function') return svc.speakChinese(text, options);
+  return false;
+}
+
+function callStopSpeaking() {
+  if (typeof stopSpeaking === 'function') return stopSpeaking();
+  const svc = getSpeechService();
+  if (svc && typeof svc.stopSpeaking === 'function') return svc.stopSpeaking();
+  if (typeof window !== 'undefined' && 'speechSynthesis' in window && (speechSynthesis.speaking || speechSynthesis.pending)) {
+    try { speechSynthesis.cancel(); } catch (e) {}
+  }
+}
+
 async function loadPrebuiltAudioManifest(level) {
   prebuiltAudioManifest = null;
   const config = LEVELS[level];
@@ -11,8 +44,7 @@ async function loadPrebuiltAudioManifest(level) {
     if (currentLevel !== level || manifest.level !== level || !manifest.items) return;
     prebuiltAudioManifest = manifest;
   } catch (error) {
-    // A missing or invalid manifest is expected while a level is being rolled
-    // out. Individual speech requests continue through Web Speech below.
+    // Missing manifest is expected when rolling out or using Web Speech directly.
   }
 }
 
@@ -27,9 +59,12 @@ function speakWord() {
 
   const wIdx = filteredOrder[idx % filteredOrder.length];
   const word = WORDS[wIdx];
+  if (!word || !word.hanzi) return;
+
+  const btn = document.getElementById('soundBtn');
   speakText(
     word.hanzi,
-    document.getElementById('soundBtn'),
+    btn,
     SPEECH_RATE,
     prebuiltAudioUrl(word, 'word')
   );
@@ -41,12 +76,13 @@ function speakExample() {
   const wIdx = filteredOrder[idx % filteredOrder.length];
   const word = WORDS[wIdx];
   const example = document.getElementById('exZh');
-  const text = example ? example.textContent.trim() : '';
+  const text = (example ? example.textContent.trim() : '') || (word ? word.example_zh : '');
   if (!text) return;
 
+  const btn = document.getElementById('exampleSoundBtn');
   speakText(
     text,
-    document.getElementById('exampleSoundBtn'),
+    btn,
     exampleSpeechSpeed,
     prebuiltAudioUrl(word, 'example')
   );
@@ -65,11 +101,43 @@ function speakText(text, button, rate = SPEECH_RATE, audioUrl = null) {
   const prevHint = hint ? hint.textContent : '';
 
   activeSpeechButton = button;
+
+  const supported = checkSpeechSupported();
+
+  if (supported) {
+    const started = callSpeakChinese(text, {
+      rate: rate,
+      onStart: () => {
+        if (requestId !== speechRequestId) return;
+        setSpeechButtonState(button, true, text);
+      },
+      onEnd: () => {
+        if (requestId !== speechRequestId) return;
+        setSpeechButtonState(button, false);
+      },
+      onError: () => {
+        if (requestId !== speechRequestId) return;
+        if (audioUrl) {
+          playPrebuiltAudio(text, button, rate, audioUrl, requestId, hint, prevHint);
+          return;
+        }
+        setSpeechButtonState(button, false);
+        showSpeechHint(hint, 'Không thể phát âm trên trình duyệt này', prevHint);
+      }
+    });
+
+    if (started) return;
+  }
+
+  // Fallback to prebuilt audio if available when Web Speech is unsupported or couldn't start
   if (audioUrl) {
     playPrebuiltAudio(text, button, rate, audioUrl, requestId, hint, prevHint);
     return;
   }
-  speakWithWebSpeech(text, button, rate, requestId, hint, prevHint);
+
+  // Graceful fallback when speech is completely unavailable
+  setSpeechButtonState(button, false);
+  showSpeechHint(hint, 'Trình duyệt này không hỗ trợ phát âm (Web Speech API), hãy mở bằng Chrome hoặc Safari', prevHint);
 }
 
 function playPrebuiltAudio(text, button, rate, audioUrl, requestId, hint, prevHint) {
@@ -109,64 +177,35 @@ function playPrebuiltAudio(text, button, rate, audioUrl, requestId, hint, prevHi
 
 function speakWithWebSpeech(text, button, rate, requestId, hint, prevHint) {
   if (requestId !== speechRequestId) return;
-  if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') {
+  const supported = checkSpeechSupported();
+  if (!supported) {
     setSpeechButtonState(button, false);
     showSpeechHint(hint, 'Trình duyệt này không hỗ trợ phát âm, hãy mở bằng Chrome hoặc Safari', prevHint);
     return;
   }
 
   activeSpeechButton = button;
-  const attempt = (voice, isRetry) => {
-    if (requestId !== speechRequestId) return;
-
-    const utter = new SpeechSynthesisUtterance(text);
-    utter.lang = 'zh-CN';
-    utter.rate = rate;
-    if (voice) utter.voice = voice;
-
-    let spoke = false;
-    let settled = false;
-    let startTimer = null;
-
-    const fail = () => {
-      if (settled || requestId !== speechRequestId) return;
-      settled = true;
-      if (startTimer) clearTimeout(startTimer);
-      if (!isRetry) { attempt(null, true); return; }
+  const started = callSpeakChinese(text, {
+    rate: rate,
+    onStart: () => {
+      if (requestId !== speechRequestId) return;
+      setSpeechButtonState(button, true, text);
+    },
+    onEnd: () => {
+      if (requestId !== speechRequestId) return;
+      setSpeechButtonState(button, false);
+    },
+    onError: () => {
+      if (requestId !== speechRequestId) return;
       setSpeechButtonState(button, false);
       showSpeechHint(hint, 'Không thể phát âm trên trình duyệt này', prevHint);
-    };
+    }
+  });
 
-    utter.onstart = () => {
-      if (requestId !== speechRequestId) return;
-      spoke = true;
-      setSpeechButtonState(button, true, text);
-    };
-    utter.onend = () => {
-      if (settled || requestId !== speechRequestId) return;
-      settled = true;
-      if (startTimer) clearTimeout(startTimer);
-      setSpeechButtonState(button, false);
-    };
-    utter.onerror = fail;
-
-    startTimer = setTimeout(() => {
-      if (spoke || speechSynthesis.speaking || requestId !== speechRequestId) return;
-      if (!isRetry) {
-        settled = true;
-        attempt(null, true);
-        return;
-      }
-      settled = true;
-      setSpeechButtonState(button, false);
-      showSpeechHint(hint, 'Không thể phát âm, hãy thử mở bằng Chrome hoặc Safari', prevHint);
-    }, 800);
-
-    if (speechSynthesis.speaking || speechSynthesis.pending) speechSynthesis.cancel();
-    speechSynthesis.speak(utter);
-  };
-
-  attempt(pickChineseVoice(), false);
+  if (!started) {
+    setSpeechButtonState(button, false);
+    showSpeechHint(hint, 'Không thể phát âm trên trình duyệt này', prevHint);
+  }
 }
 
 function showSpeechHint(hint, message, previousMessage) {
@@ -189,14 +228,58 @@ function setSpeechButtonState(button, isPlaying, text) {
       ? (isExample ? 'Đang phát câu ví dụ' : `Đang phát âm ${text || ''}`.trim())
       : (isExample ? 'Nghe câu ví dụ' : 'Nghe phát âm')
   );
-  button.title = isPlaying ? 'Bấm để dừng' : (isExample ? 'Nghe câu ví dụ' : 'Nghe phát âm');
+  button.title = isPlaying ? 'Bấm để dừng' : (isExample ? 'Nghe câu ví dụ' : 'Nghe phát âm (A)');
 
   if (isPlaying) activeSpeechButton = button;
   else if (activeSpeechButton === button) activeSpeechButton = null;
 }
 
+function syncSpeechButtons() {
+  const soundBtn = document.getElementById('soundBtn');
+  const exampleSoundBtn = document.getElementById('exampleSoundBtn');
+  const supported = checkSpeechSupported();
+
+  if (soundBtn) {
+    if (!supported) {
+      soundBtn.disabled = true;
+      soundBtn.classList.add('is-disabled');
+      soundBtn.setAttribute('aria-disabled', 'true');
+      soundBtn.title = 'Trình duyệt không hỗ trợ phát âm (Web Speech API)';
+    } else {
+      soundBtn.disabled = false;
+      soundBtn.classList.remove('is-disabled');
+      soundBtn.removeAttribute('aria-disabled');
+      soundBtn.title = 'Nghe phát âm (A)';
+    }
+  }
+
+  if (exampleSoundBtn) {
+    const currentWord = (filteredOrder && filteredOrder.length > 0) ? WORDS[filteredOrder[idx % filteredOrder.length]] : null;
+    const hasExample = Boolean(currentWord && (currentWord.example_zh || currentWord.example_py || currentWord.example_vi));
+
+    if (!supported) {
+      exampleSoundBtn.disabled = true;
+      exampleSoundBtn.classList.add('is-disabled');
+      exampleSoundBtn.setAttribute('aria-disabled', 'true');
+      exampleSoundBtn.title = 'Trình duyệt không hỗ trợ phát âm (Web Speech API)';
+    } else if (!hasExample) {
+      exampleSoundBtn.disabled = true;
+      exampleSoundBtn.classList.add('is-disabled');
+      exampleSoundBtn.setAttribute('aria-disabled', 'true');
+      exampleSoundBtn.title = 'Không có câu ví dụ';
+    } else {
+      exampleSoundBtn.disabled = false;
+      exampleSoundBtn.classList.remove('is-disabled');
+      exampleSoundBtn.removeAttribute('aria-disabled');
+      exampleSoundBtn.title = 'Nghe câu ví dụ';
+    }
+  }
+}
+
 function stopSpeech() {
   speechRequestId++;
+  callStopSpeaking();
+
   if (activeSpeechAudio) {
     const audio = activeSpeechAudio;
     activeSpeechAudio = null;
@@ -206,8 +289,18 @@ function stopSpeech() {
     audio.pause();
     try { audio.currentTime = 0; } catch (error) {}
   }
-  if ('speechSynthesis' in window && (speechSynthesis.speaking || speechSynthesis.pending)) {
-    speechSynthesis.cancel();
-  }
+
   if (activeSpeechButton) setSpeechButtonState(activeSpeechButton, false);
+}
+
+// Subscribe to async voice loading to refresh button state if needed
+const svc = getSpeechService();
+if (svc && typeof svc.onVoicesChanged === 'function') {
+  svc.onVoicesChanged(() => {
+    syncSpeechButtons();
+  });
+} else if (typeof onVoicesChanged === 'function') {
+  onVoicesChanged(() => {
+    syncSpeechButtons();
+  });
 }

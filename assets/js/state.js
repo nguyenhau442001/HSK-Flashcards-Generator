@@ -137,6 +137,10 @@ function setExampleSpeechSpeed(value) {
 }
 
 function pickChineseVoice() {
+  if (typeof getChineseVoice === 'function') return getChineseVoice();
+  if (typeof SpeechService !== 'undefined' && typeof SpeechService.getChineseVoice === 'function') {
+    return SpeechService.getChineseVoice();
+  }
   if (!('speechSynthesis' in window)) return null;
   if (!cachedVoices.length) cachedVoices = speechSynthesis.getVoices();
   return cachedVoices.find(v => v.lang === 'zh-CN')

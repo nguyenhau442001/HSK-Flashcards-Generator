@@ -95,6 +95,7 @@ Tra cứu và học bộ thủ theo số nét, ý nghĩa, ví dụ và thống k
 | `Space` / `Enter` | **Lật thẻ** (Xem mặt sau / Ẩn mặt sau) |
 | `1` hoặc `←` | Đánh dấu **❌ Chưa nhớ** (Ôn lại hôm nay) |
 | `2` hoặc `→` | Đánh dấu **✅ Đã nhớ** (Tăng chu kỳ SRS) |
+| `A` | **Nghe phát âm** chữ Hán (Web Speech API) |
 | `R` | Ngẫu nhiên nhảy đến một từ bất kỳ |
 | `H` | Bật / Tắt hiển thị **âm Hán - Việt** |
 | `W` | Mở / Đóng bảng **Luyện viết chữ Hán** & Bút thuận |
