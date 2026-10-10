@@ -12832,6 +12832,26 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/裁判.svg",
     "caption": "trọng tài; xét xử"
   },
+  "操作": {
+    "file": "操作.svg",
+    "src": "images/HSK_2.0/level6/操作.svg",
+    "caption": "vận hành, thao tác"
+  },
+  "差别": {
+    "file": "差别.svg",
+    "src": "images/HSK_2.0/level6/差别.svg",
+    "caption": "sự khác biệt"
+  },
+  "产业": {
+    "file": "产业.svg",
+    "src": "images/HSK_2.0/level6/产业.svg",
+    "caption": "ngành công nghiệp, sản nghiệp"
+  },
+  "尝试": {
+    "file": "尝试.svg",
+    "src": "images/HSK_2.0/level6/尝试.svg",
+    "caption": "thử nghiệm"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -12996,6 +13016,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "藏.svg",
     "src": "images/HSK_3.0/level5/藏.svg",
     "caption": "giấu, cất giấu; trốn"
+  },
+  "测": {
+    "file": "测.svg",
+    "src": "images/HSK_3.0/level5/测.svg",
+    "caption": "đo, đo lường"
+  },
+  "测试": {
+    "file": "测试.svg",
+    "src": "images/HSK_3.0/level5/测试.svg",
+    "caption": "kiểm tra, thử nghiệm"
+  },
+  "曾": {
+    "file": "曾.svg",
+    "src": "images/HSK_3.0/level5/曾.svg",
+    "caption": "từng, đã từng"
+  },
+  "产": {
+    "file": "产.svg",
+    "src": "images/HSK_3.0/level5/产.svg",
+    "caption": "sản xuất, sinh sản"
+  },
+  "产量": {
+    "file": "产量.svg",
+    "src": "images/HSK_3.0/level5/产量.svg",
+    "caption": "sản lượng"
+  },
+  "长处": {
+    "file": "长处.svg",
+    "src": "images/HSK_3.0/level5/长处.svg",
+    "caption": "điểm mạnh, sở trường"
+  },
+  "长度": {
+    "file": "长度.svg",
+    "src": "images/HSK_3.0/level5/长度.svg",
+    "caption": "chiều dài"
+  },
+  "长久": {
+    "file": "长久.svg",
+    "src": "images/HSK_3.0/level5/长久.svg",
+    "caption": "lâu dài"
+  },
+  "长期": {
+    "file": "长期.svg",
+    "src": "images/HSK_3.0/level5/长期.svg",
+    "caption": "thời gian dài, dài hạn"
   }
 };
 

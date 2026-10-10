@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:37:09.120430",
-  "total_unique_words_with_illustrations": 2539,
-  "total_flat_svg_files": 2539,
+  "generated_at": "2026-10-10T09:41:49.432871",
+  "total_unique_words_with_illustrations": 2552,
+  "total_flat_svg_files": 2552,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 473,
-        "pct": "18.9%"
+        "with_svg": 477,
+        "pct": "19.1%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 919,
-        "pct": "57.4%"
+        "with_svg": 932,
+        "pct": "58.2%"
       },
       "level6": {
         "total": 1800,
@@ -46224,6 +46224,78 @@
         "images/HSK_3.0/level5/裁判.svg"
       ]
     },
+    "操作": {
+      "hanzi": "操作",
+      "pinyin": "cāozuò",
+      "meaning": "vận hành, thao tác",
+      "example_zh": "这台机器很容易<u>操作</u>。",
+      "example_vi": "Cái máy này rất dễ <u>vận hành</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "操作.svg",
+      "src": "images/HSK_2.0/level6/操作.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/操作.svg"
+      ]
+    },
+    "差别": {
+      "hanzi": "差别",
+      "pinyin": "chābié",
+      "meaning": "sự khác biệt",
+      "example_zh": "两者之间有明显<u>差别</u>。",
+      "example_vi": "Giữa hai bên có <u>sự khác biệt</u> rõ rệt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "差别.svg",
+      "src": "images/HSK_2.0/level6/差别.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/差别.svg"
+      ]
+    },
+    "产业": {
+      "hanzi": "产业",
+      "pinyin": "chǎnyè",
+      "meaning": "ngành công nghiệp, sản nghiệp",
+      "example_zh": "旅游<u>产业</u>发展迅速。",
+      "example_vi": "<u>Ngành</u> du lịch phát triển nhanh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "产业.svg",
+      "src": "images/HSK_2.0/level6/产业.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/产业.svg"
+      ]
+    },
+    "尝试": {
+      "hanzi": "尝试",
+      "pinyin": "chángshì",
+      "meaning": "thử nghiệm",
+      "example_zh": "我们应该多<u>尝试</u>新事物。",
+      "example_vi": "Chúng ta nên <u>thử nghiệm</u> nhiều điều mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "尝试.svg",
+      "src": "images/HSK_2.0/level6/尝试.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/尝试.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -46684,6 +46756,132 @@
       ],
       "file": "藏.svg",
       "src": "images/HSK_3.0/level5/藏.svg",
+      "alt_srcs": []
+    },
+    "测": {
+      "hanzi": "测",
+      "pinyin": "cè",
+      "meaning": "đo, đo lường",
+      "example_zh": "我们来<u>测</u>一下房间的大小。",
+      "example_vi": "Chúng ta <u>đo</u> kích thước căn phòng nhé.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "测.svg",
+      "src": "images/HSK_3.0/level5/测.svg",
+      "alt_srcs": []
+    },
+    "测试": {
+      "hanzi": "测试",
+      "pinyin": "cèshì",
+      "meaning": "kiểm tra, thử nghiệm",
+      "example_zh": "新产品需要先进行<u>测试</u>。",
+      "example_vi": "Sản phẩm mới cần được <u>thử nghiệm</u> trước.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "测试.svg",
+      "src": "images/HSK_3.0/level5/测试.svg",
+      "alt_srcs": []
+    },
+    "曾": {
+      "hanzi": "曾",
+      "pinyin": "céng",
+      "meaning": "từng, đã từng",
+      "example_zh": "我<u>曾</u>在北京住过两年。",
+      "example_vi": "Tôi <u>từng</u> sống ở Bắc Kinh hai năm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "曾.svg",
+      "src": "images/HSK_3.0/level5/曾.svg",
+      "alt_srcs": []
+    },
+    "产": {
+      "hanzi": "产",
+      "pinyin": "chǎn",
+      "meaning": "sản xuất, sinh sản",
+      "example_zh": "这个地方<u>产</u>大米。",
+      "example_vi": "Vùng này <u>sản xuất</u> gạo.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "产.svg",
+      "src": "images/HSK_3.0/level5/产.svg",
+      "alt_srcs": []
+    },
+    "产量": {
+      "hanzi": "产量",
+      "pinyin": "chǎnliàng",
+      "meaning": "sản lượng",
+      "example_zh": "今年的粮食<u>产量</u>很高。",
+      "example_vi": "<u>Sản lượng</u> lương thực năm nay rất cao.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "产量.svg",
+      "src": "images/HSK_3.0/level5/产量.svg",
+      "alt_srcs": []
+    },
+    "长处": {
+      "hanzi": "长处",
+      "pinyin": "chángchù",
+      "meaning": "điểm mạnh, sở trường",
+      "example_zh": "每个人都有自己的<u>长处</u>。",
+      "example_vi": "Mỗi người đều có <u>điểm mạnh</u> của riêng mình.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "长处.svg",
+      "src": "images/HSK_3.0/level5/长处.svg",
+      "alt_srcs": []
+    },
+    "长度": {
+      "hanzi": "长度",
+      "pinyin": "chángdù",
+      "meaning": "chiều dài",
+      "example_zh": "这条河的<u>长度</u>是多少？",
+      "example_vi": "<u>Chiều dài</u> của con sông này là bao nhiêu?",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "长度.svg",
+      "src": "images/HSK_3.0/level5/长度.svg",
+      "alt_srcs": []
+    },
+    "长久": {
+      "hanzi": "长久",
+      "pinyin": "chángjiǔ",
+      "meaning": "lâu dài",
+      "example_zh": "这不是<u>长久</u>的办法。",
+      "example_vi": "Đây không phải cách <u>lâu dài</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "长久.svg",
+      "src": "images/HSK_3.0/level5/长久.svg",
+      "alt_srcs": []
+    },
+    "长期": {
+      "hanzi": "长期",
+      "pinyin": "chángqī",
+      "meaning": "thời gian dài, dài hạn",
+      "example_zh": "他<u>长期</u>在国外工作。",
+      "example_vi": "Anh ấy làm việc ở nước ngoài <u>trong thời gian dài</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "长期.svg",
+      "src": "images/HSK_3.0/level5/长期.svg",
       "alt_srcs": []
     }
   }
