@@ -13861,6 +13861,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "含量.svg",
     "src": "images/HSK_3.0/level5/含量.svg",
     "caption": "hàm lượng"
+  },
+  "含有": {
+    "file": "含有.svg",
+    "src": "images/HSK_3.0/level5/含有.svg",
+    "caption": "chứa"
+  },
+  "汗水": {
+    "file": "汗水.svg",
+    "src": "images/HSK_3.0/level5/汗水.svg",
+    "caption": "mồ hôi"
+  },
+  "好评": {
+    "file": "好评.svg",
+    "src": "images/HSK_3.0/level5/好评.svg",
+    "caption": "đánh giá tốt, nhận xét tốt"
+  },
+  "好运": {
+    "file": "好运.svg",
+    "src": "images/HSK_3.0/level5/好运.svg",
+    "caption": "may mắn, vận may"
+  },
+  "好转": {
+    "file": "好转.svg",
+    "src": "images/HSK_3.0/level5/好转.svg",
+    "caption": "trở nên tốt hơn"
+  },
+  "合": {
+    "file": "合.svg",
+    "src": "images/HSK_3.0/level5/合.svg",
+    "caption": "khép lại, đóng lại; hợp lại"
+  },
+  "盒饭": {
+    "file": "盒饭.svg",
+    "src": "images/HSK_3.0/level5/盒饭.svg",
+    "caption": "cơm hộp"
+  },
+  "河流": {
+    "file": "河流.svg",
+    "src": "images/HSK_3.0/level5/河流.svg",
+    "caption": "sông"
+  },
+  "厚度": {
+    "file": "厚度.svg",
+    "src": "images/HSK_3.0/level5/厚度.svg",
+    "caption": "độ dày, bề dày"
+  },
+  "湖": {
+    "file": "湖.svg",
+    "src": "images/HSK_3.0/level5/湖.svg",
+    "caption": "hồ"
   }
 };
 

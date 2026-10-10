@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:59:42.881092",
-  "total_unique_words_with_illustrations": 2712,
-  "total_flat_svg_files": 2712,
+  "generated_at": "2026-10-10T10:01:40.893217",
+  "total_unique_words_with_illustrations": 2722,
+  "total_flat_svg_files": 2722,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1093,
-        "pct": "68.3%"
+        "with_svg": 1103,
+        "pct": "68.9%"
       },
       "level6": {
         "total": 1800,
@@ -49253,6 +49253,146 @@
       ],
       "file": "含量.svg",
       "src": "images/HSK_3.0/level5/含量.svg",
+      "alt_srcs": []
+    },
+    "含有": {
+      "hanzi": "含有",
+      "pinyin": "hányǒu",
+      "meaning": "chứa",
+      "example_zh": "鸡蛋<u>含有</u>丰富的蛋白质",
+      "example_vi": "Trứng có chứa nhiều protein.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "含有.svg",
+      "src": "images/HSK_3.0/level5/含有.svg",
+      "alt_srcs": []
+    },
+    "汗水": {
+      "hanzi": "汗水",
+      "pinyin": "hànshuǐ",
+      "meaning": "mồ hôi",
+      "example_zh": "他的额头上满是<u>汗水</u>。",
+      "example_vi": "Trên trán anh ấy đầm đìa <u>mồ hôi</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "汗水.svg",
+      "src": "images/HSK_3.0/level5/汗水.svg",
+      "alt_srcs": []
+    },
+    "好评": {
+      "hanzi": "好评",
+      "pinyin": "hǎopíng",
+      "meaning": "đánh giá tốt, nhận xét tốt",
+      "example_zh": "这部电影得到了观众的<u>好评</u>。",
+      "example_vi": "Bộ phim này đã nhận được nhiều <u>đánh giá tốt</u> từ khán giả.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "好评.svg",
+      "src": "images/HSK_3.0/level5/好评.svg",
+      "alt_srcs": []
+    },
+    "好运": {
+      "hanzi": "好运",
+      "pinyin": "hǎoyùn",
+      "meaning": "may mắn, vận may",
+      "example_zh": "祝你在考试中获得<u>好运</u>！",
+      "example_vi": "Chúc bạn gặp nhiều <u>may mắn</u> trong kỳ thi!",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "好运.svg",
+      "src": "images/HSK_3.0/level5/好运.svg",
+      "alt_srcs": []
+    },
+    "好转": {
+      "hanzi": "好转",
+      "pinyin": "hǎozhuǎn",
+      "meaning": "trở nên tốt hơn",
+      "example_zh": "数据表明经济正在<u>好转</u>",
+      "example_vi": "Số liệu chỉ rõ kinh tế đang chuyển biến tốt.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "好转.svg",
+      "src": "images/HSK_3.0/level5/好转.svg",
+      "alt_srcs": []
+    },
+    "合": {
+      "hanzi": "合",
+      "pinyin": "hé",
+      "meaning": "khép lại, đóng lại; hợp lại",
+      "example_zh": "请大家把书<u>合</u>上。",
+      "example_vi": "Xin mời mọi người <u>gấp</u> sách lại.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "合.svg",
+      "src": "images/HSK_3.0/level5/合.svg",
+      "alt_srcs": []
+    },
+    "盒饭": {
+      "hanzi": "盒饭",
+      "pinyin": "héfàn",
+      "meaning": "cơm hộp",
+      "example_zh": "中午我们在办公室吃<u>盒饭</u>。",
+      "example_vi": "Buổi trưa chúng tôi ăn <u>cơm hộp</u> ở văn phòng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "盒饭.svg",
+      "src": "images/HSK_3.0/level5/盒饭.svg",
+      "alt_srcs": []
+    },
+    "河流": {
+      "hanzi": "河流",
+      "pinyin": "héliú",
+      "meaning": "sông",
+      "example_zh": "长江是中国最长的<u>河流</u>",
+      "example_vi": "Trường Giang là con sông dài nhất Trung Quốc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "河流.svg",
+      "src": "images/HSK_3.0/level5/河流.svg",
+      "alt_srcs": []
+    },
+    "厚度": {
+      "hanzi": "厚度",
+      "pinyin": "hòudù",
+      "meaning": "độ dày, bề dày",
+      "example_zh": "这面墙的<u>厚度</u>大约有三十厘米。",
+      "example_vi": "<u>Độ dày</u> của bức tường này khoảng ba mươi xăng-ti-mét.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "厚度.svg",
+      "src": "images/HSK_3.0/level5/厚度.svg",
+      "alt_srcs": []
+    },
+    "湖": {
+      "hanzi": "湖",
+      "pinyin": "hú",
+      "meaning": "hồ",
+      "example_zh": "这个<u>湖</u>很深",
+      "example_vi": "Cái hồ này rất sâu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "湖.svg",
+      "src": "images/HSK_3.0/level5/湖.svg",
       "alt_srcs": []
     }
   }
