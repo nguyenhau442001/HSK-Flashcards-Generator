@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T21:28:31.630768",
-  "total_unique_words_with_illustrations": 2466,
-  "total_flat_svg_files": 2466,
+  "generated_at": "2026-10-10T09:11:11.013883",
+  "total_unique_words_with_illustrations": 2477,
+  "total_flat_svg_files": 2477,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1267,
-        "pct": "97.5%"
+        "with_svg": 1278,
+        "pct": "98.3%"
       },
       "level6": {
         "total": 2500,
@@ -58,13 +58,13 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 855,
-        "pct": "53.4%"
+        "with_svg": 864,
+        "pct": "54.0%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 238,
-        "pct": "13.2%"
+        "with_svg": 240,
+        "pct": "13.3%"
       },
       "level7": {
         "total": 5600,
@@ -45502,6 +45502,204 @@
       "src": "images/HSK_2.0/level5/逐渐.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/逐渐.svg"
+      ]
+    },
+    "煮": {
+      "hanzi": "煮",
+      "pinyin": "zhǔ",
+      "meaning": "nấu, đun sôi",
+      "example_zh": "妈妈在<u>煮</u>饭。",
+      "example_vi": "Mẹ đang <u>nấu</u> cơm.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "煮.svg",
+      "src": "images/HSK_2.0/level5/煮.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/煮.svg"
+      ]
+    },
+    "主动": {
+      "hanzi": "主动",
+      "pinyin": "zhǔdòng",
+      "meaning": "chủ động",
+      "example_zh": "他工作很<u>主动</u>。",
+      "example_vi": "Anh ấy làm việc rất <u>chủ động</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "主动.svg",
+      "src": "images/HSK_2.0/level5/主动.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/主动.svg"
+      ]
+    },
+    "主人": {
+      "hanzi": "主人",
+      "pinyin": "zhǔrén",
+      "meaning": "chủ nhân",
+      "example_zh": "他是这个家的<u>主人</u>。",
+      "example_vi": "Anh ấy là <u>chủ nhân</u> của ngôi nhà này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "主人.svg",
+      "src": "images/HSK_2.0/level5/主人.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/主人.svg"
+      ]
+    },
+    "主席": {
+      "hanzi": "主席",
+      "pinyin": "zhǔxí",
+      "meaning": "chủ tịch",
+      "example_zh": "他被选为<u>主席</u>。",
+      "example_vi": "Anh ấy được bầu làm <u>chủ tịch</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "主席.svg",
+      "src": "images/HSK_2.0/level5/主席.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/主席.svg"
+      ]
+    },
+    "主张": {
+      "hanzi": "主张",
+      "pinyin": "zhǔzhāng",
+      "meaning": "chủ trương",
+      "example_zh": "他<u>主张</u>和平解决问题。",
+      "example_vi": "Anh ấy <u>chủ trương</u> giải quyết vấn đề bằng hòa bình.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "主张.svg",
+      "src": "images/HSK_2.0/level5/主张.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/主张.svg"
+      ]
+    },
+    "祝福": {
+      "hanzi": "祝福",
+      "pinyin": "zhùfú",
+      "meaning": "chúc phúc",
+      "example_zh": "我<u>祝福</u>你幸福。",
+      "example_vi": "Tôi <u>chúc phúc</u> cho bạn hạnh phúc.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "祝福.svg",
+      "src": "images/HSK_2.0/level5/祝福.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/祝福.svg"
+      ]
+    },
+    "注册": {
+      "hanzi": "注册",
+      "pinyin": "zhùcè",
+      "meaning": "đăng ký, ghi danh",
+      "example_zh": "请去<u>注册</u>一个账号。",
+      "example_vi": "Xin hãy đi <u>đăng ký</u> một tài khoản.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "注册.svg",
+      "src": "images/HSK_2.0/level5/注册.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/注册.svg"
+      ]
+    },
+    "抓紧": {
+      "hanzi": "抓紧",
+      "pinyin": "zhuājǐn",
+      "meaning": "nắm chắc, gấp rút",
+      "example_zh": "请<u>抓紧</u>时间完成。",
+      "example_vi": "Xin hãy <u>gấp rút</u> hoàn thành.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "抓紧.svg",
+      "src": "images/HSK_2.0/level5/抓紧.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/抓紧.svg"
+      ]
+    },
+    "转变": {
+      "hanzi": "转变",
+      "pinyin": "zhuǎnbiàn",
+      "meaning": "chuyển biến, thay đổi",
+      "example_zh": "他的想法<u>转变</u>了。",
+      "example_vi": "Suy nghĩ của anh ấy đã <u>thay đổi</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "转变.svg",
+      "src": "images/HSK_2.0/level5/转变.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/转变.svg"
+      ]
+    },
+    "装饰": {
+      "hanzi": "装饰",
+      "pinyin": "zhuāngshì",
+      "meaning": "trang trí",
+      "example_zh": "房间<u>装饰</u>得很漂亮。",
+      "example_vi": "Căn phòng được <u>trang trí</u> rất đẹp.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "装饰.svg",
+      "src": "images/HSK_2.0/level5/装饰.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/装饰.svg"
+      ]
+    },
+    "撞": {
+      "hanzi": "撞",
+      "pinyin": "zhuàng",
+      "meaning": "va, đâm",
+      "example_zh": "他<u>撞</u>到了桌子。",
+      "example_vi": "Anh ấy đã <u>va</u> vào cái bàn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "撞.svg",
+      "src": "images/HSK_2.0/level5/撞.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/撞.svg"
       ]
     }
   }

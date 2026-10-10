@@ -12631,6 +12631,61 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "逐渐.svg",
     "src": "images/HSK_2.0/level5/逐渐.svg",
     "caption": "dần dần"
+  },
+  "煮": {
+    "file": "煮.svg",
+    "src": "images/HSK_2.0/level5/煮.svg",
+    "caption": "nấu, đun sôi"
+  },
+  "主动": {
+    "file": "主动.svg",
+    "src": "images/HSK_2.0/level5/主动.svg",
+    "caption": "chủ động"
+  },
+  "主人": {
+    "file": "主人.svg",
+    "src": "images/HSK_2.0/level5/主人.svg",
+    "caption": "chủ nhân"
+  },
+  "主席": {
+    "file": "主席.svg",
+    "src": "images/HSK_2.0/level5/主席.svg",
+    "caption": "chủ tịch"
+  },
+  "主张": {
+    "file": "主张.svg",
+    "src": "images/HSK_2.0/level5/主张.svg",
+    "caption": "chủ trương"
+  },
+  "祝福": {
+    "file": "祝福.svg",
+    "src": "images/HSK_2.0/level5/祝福.svg",
+    "caption": "chúc phúc"
+  },
+  "注册": {
+    "file": "注册.svg",
+    "src": "images/HSK_2.0/level5/注册.svg",
+    "caption": "đăng ký, ghi danh"
+  },
+  "抓紧": {
+    "file": "抓紧.svg",
+    "src": "images/HSK_2.0/level5/抓紧.svg",
+    "caption": "nắm chắc, gấp rút"
+  },
+  "转变": {
+    "file": "转变.svg",
+    "src": "images/HSK_2.0/level5/转变.svg",
+    "caption": "chuyển biến, thay đổi"
+  },
+  "装饰": {
+    "file": "装饰.svg",
+    "src": "images/HSK_2.0/level5/装饰.svg",
+    "caption": "trang trí"
+  },
+  "撞": {
+    "file": "撞.svg",
+    "src": "images/HSK_2.0/level5/撞.svg",
+    "caption": "va, đâm"
   }
 };
 
