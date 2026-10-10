@@ -12852,6 +12852,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/尝试.svg",
     "caption": "thử nghiệm"
   },
+  "场所": {
+    "file": "场所.svg",
+    "src": "images/HSK_2.0/level6/场所.svg",
+    "caption": "nơi, địa điểm"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13061,6 +13066,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "长期.svg",
     "src": "images/HSK_3.0/level5/长期.svg",
     "caption": "thời gian dài, dài hạn"
+  },
+  "长远": {
+    "file": "长远.svg",
+    "src": "images/HSK_3.0/level5/长远.svg",
+    "caption": "lâu dài, dài hạn"
+  },
+  "超": {
+    "file": "超.svg",
+    "src": "images/HSK_3.0/level5/超.svg",
+    "caption": "vượt quá, siêu"
+  },
+  "超出": {
+    "file": "超出.svg",
+    "src": "images/HSK_3.0/level5/超出.svg",
+    "caption": "vượt quá"
+  },
+  "超速": {
+    "file": "超速.svg",
+    "src": "images/HSK_3.0/level5/超速.svg",
+    "caption": "chạy quá tốc độ"
+  },
+  "车祸": {
+    "file": "车祸.svg",
+    "src": "images/HSK_3.0/level5/车祸.svg",
+    "caption": "tai nạn giao thông"
+  },
+  "车辆": {
+    "file": "车辆.svg",
+    "src": "images/HSK_3.0/level5/车辆.svg",
+    "caption": "xe cộ"
+  },
+  "车主": {
+    "file": "车主.svg",
+    "src": "images/HSK_3.0/level5/车主.svg",
+    "caption": "chủ xe"
+  },
+  "沉": {
+    "file": "沉.svg",
+    "src": "images/HSK_3.0/level5/沉.svg",
+    "caption": "chìm; nặng"
+  },
+  "称¹": {
+    "file": "称¹.svg",
+    "src": "images/HSK_3.0/level5/称¹.svg",
+    "caption": "gọi là, xưng là"
   }
 };
 

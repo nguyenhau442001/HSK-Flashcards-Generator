@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:41:49.432871",
-  "total_unique_words_with_illustrations": 2552,
-  "total_flat_svg_files": 2552,
+  "generated_at": "2026-10-10T09:42:50.622788",
+  "total_unique_words_with_illustrations": 2562,
+  "total_flat_svg_files": 2562,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 477,
+        "with_svg": 478,
         "pct": "19.1%"
       }
     },
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 932,
-        "pct": "58.2%"
+        "with_svg": 942,
+        "pct": "58.9%"
       },
       "level6": {
         "total": 1800,
@@ -46296,6 +46296,24 @@
         "images/HSK_3.0/level5/尝试.svg"
       ]
     },
+    "场所": {
+      "hanzi": "场所",
+      "pinyin": "chǎngsuǒ",
+      "meaning": "nơi, địa điểm",
+      "example_zh": "这里不是吵架的<u>场所</u>。",
+      "example_vi": "Đây không phải là <u>nơi</u> để cãi nhau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "场所.svg",
+      "src": "images/HSK_2.0/level6/场所.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/场所.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -46882,6 +46900,132 @@
       ],
       "file": "长期.svg",
       "src": "images/HSK_3.0/level5/长期.svg",
+      "alt_srcs": []
+    },
+    "长远": {
+      "hanzi": "长远",
+      "pinyin": "chángyuǎn",
+      "meaning": "lâu dài, dài hạn",
+      "example_zh": "我们要有<u>长远</u>的眼光。",
+      "example_vi": "Chúng ta phải có tầm nhìn <u>lâu dài</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "长远.svg",
+      "src": "images/HSK_3.0/level5/长远.svg",
+      "alt_srcs": []
+    },
+    "超": {
+      "hanzi": "超",
+      "pinyin": "chāo",
+      "meaning": "vượt quá, siêu",
+      "example_zh": "今天的天气<u>超</u>热。",
+      "example_vi": "Thời tiết hôm nay <u>siêu</u> nóng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "超.svg",
+      "src": "images/HSK_3.0/level5/超.svg",
+      "alt_srcs": []
+    },
+    "超出": {
+      "hanzi": "超出",
+      "pinyin": "chāochū",
+      "meaning": "vượt quá",
+      "example_zh": "这件事<u>超出</u>了我的能力。",
+      "example_vi": "Việc này <u>vượt quá</u> khả năng của tôi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "超出.svg",
+      "src": "images/HSK_3.0/level5/超出.svg",
+      "alt_srcs": []
+    },
+    "超速": {
+      "hanzi": "超速",
+      "pinyin": "chāosù",
+      "meaning": "chạy quá tốc độ",
+      "example_zh": "<u>超速</u>开车非常危险。",
+      "example_vi": "Lái xe <u>quá tốc độ</u> rất nguy hiểm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "超速.svg",
+      "src": "images/HSK_3.0/level5/超速.svg",
+      "alt_srcs": []
+    },
+    "车祸": {
+      "hanzi": "车祸",
+      "pinyin": "chēhuò",
+      "meaning": "tai nạn giao thông",
+      "example_zh": "昨天这里发生了一起<u>车祸</u>。",
+      "example_vi": "Hôm qua ở đây đã xảy ra một vụ <u>tai nạn giao thông</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "车祸.svg",
+      "src": "images/HSK_3.0/level5/车祸.svg",
+      "alt_srcs": []
+    },
+    "车辆": {
+      "hanzi": "车辆",
+      "pinyin": "chēliàng",
+      "meaning": "xe cộ",
+      "example_zh": "路上的<u>车辆</u>越来越多。",
+      "example_vi": "<u>Xe cộ</u> trên đường ngày càng nhiều.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "车辆.svg",
+      "src": "images/HSK_3.0/level5/车辆.svg",
+      "alt_srcs": []
+    },
+    "车主": {
+      "hanzi": "车主",
+      "pinyin": "chēzhǔ",
+      "meaning": "chủ xe",
+      "example_zh": "请这辆车的<u>车主</u>马上把车开走。",
+      "example_vi": "Mời <u>chủ xe</u> của chiếc xe này lập tức lái xe đi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "车主.svg",
+      "src": "images/HSK_3.0/level5/车主.svg",
+      "alt_srcs": []
+    },
+    "沉": {
+      "hanzi": "沉",
+      "pinyin": "chén",
+      "meaning": "chìm; nặng",
+      "example_zh": "船慢慢地<u>沉</u>下去了。",
+      "example_vi": "Con thuyền từ từ <u>chìm</u> xuống.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "沉.svg",
+      "src": "images/HSK_3.0/level5/沉.svg",
+      "alt_srcs": []
+    },
+    "称¹": {
+      "hanzi": "称¹",
+      "pinyin": "chēng",
+      "meaning": "gọi là, xưng là",
+      "example_zh": "大家都<u>称</u>他为天才。",
+      "example_vi": "Mọi người đều <u>gọi</u> anh ấy là thiên tài.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "称¹.svg",
+      "src": "images/HSK_3.0/level5/称¹.svg",
       "alt_srcs": []
     }
   }
