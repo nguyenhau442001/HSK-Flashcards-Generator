@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:23:22.584326",
-  "total_unique_words_with_illustrations": 2872,
-  "total_flat_svg_files": 2872,
+  "generated_at": "2026-10-10T10:24:23.619579",
+  "total_unique_words_with_illustrations": 2882,
+  "total_flat_svg_files": 2882,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 529,
+        "with_svg": 531,
         "pct": "21.2%"
       }
     },
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1253,
-        "pct": "78.3%"
+        "with_svg": 1263,
+        "pct": "78.9%"
       },
       "level6": {
         "total": 1800,
@@ -47232,6 +47232,42 @@
         "images/HSK_3.0/level5/品种.svg"
       ]
     },
+    "屏幕": {
+      "hanzi": "屏幕",
+      "pinyin": "píngmù",
+      "meaning": "màn hình",
+      "example_zh": "他的电脑<u>屏幕</u>坏了。",
+      "example_vi": "<u>Màn hình</u> máy tính của anh ấy bị hỏng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "屏幕.svg",
+      "src": "images/HSK_2.0/level6/屏幕.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/屏幕.svg"
+      ]
+    },
+    "普及": {
+      "hanzi": "普及",
+      "pinyin": "pǔjí",
+      "meaning": "phổ cập, phổ biến",
+      "example_zh": "互联网已经<u>普及</u>到每个家庭。",
+      "example_vi": "Internet đã <u>phổ cập</u> đến từng gia đình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "普及.svg",
+      "src": "images/HSK_2.0/level6/普及.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/普及.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -51583,6 +51619,118 @@
       ],
       "file": "聘请.svg",
       "src": "images/HSK_3.0/level5/聘请.svg",
+      "alt_srcs": []
+    },
+    "评": {
+      "hanzi": "评",
+      "pinyin": "píng",
+      "meaning": "đánh giá, bình phẩm, chấm điểm",
+      "example_zh": "老师正在认真地<u>评</u>阅大家的试卷。",
+      "example_vi": "Thầy giáo đang cẩn thận <u>chấm</u> bài thi của mọi người.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "评.svg",
+      "src": "images/HSK_3.0/level5/评.svg",
+      "alt_srcs": []
+    },
+    "凭借": {
+      "hanzi": "凭借",
+      "pinyin": "píngjiè",
+      "meaning": "bằng",
+      "example_zh": "他<u>凭借</u>坚强的意志战胜了困难",
+      "example_vi": "Anh ấy dựa vào ý chí mạnh mẽ để vượt qua khó khăn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "凭借.svg",
+      "src": "images/HSK_3.0/level5/凭借.svg",
+      "alt_srcs": []
+    },
+    "平台": {
+      "hanzi": "平台",
+      "pinyin": "píngtái",
+      "meaning": "nền tảng",
+      "example_zh": "这个<u>平台</u>让他能充分施展才能",
+      "example_vi": "Nền tảng này giúp anh ấy có thể phát huy đầy đủ tài năng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "平台.svg",
+      "src": "images/HSK_3.0/level5/平台.svg",
+      "alt_srcs": []
+    },
+    "齐": {
+      "hanzi": "齐",
+      "pinyin": "qí",
+      "meaning": "đều, cùng nhau, đầy đủ",
+      "example_zh": "大家<u>齐</u>心协力，一定能完成任务。",
+      "example_vi": "Mọi người <u>đồng</u> lòng hiệp lực, nhất định có thể hoàn thành nhiệm vụ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "齐.svg",
+      "src": "images/HSK_3.0/level5/齐.svg",
+      "alt_srcs": []
+    },
+    "其": {
+      "hanzi": "其",
+      "pinyin": "qí",
+      "meaning": "của nó, của họ; trong đó",
+      "example_zh": "他不仅聪明，<u>其</u>工作态度也非常认真。",
+      "example_vi": "Anh ấy không chỉ thông minh, thái độ làm việc <u>của anh ấy</u> cũng rất nghiêm túc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "其.svg",
+      "src": "images/HSK_3.0/level5/其.svg",
+      "alt_srcs": []
+    },
+    "气球": {
+      "hanzi": "气球",
+      "pinyin": "qìqiú",
+      "meaning": "bóng bay, bong bóng",
+      "example_zh": "天空中飘着许多彩色的<u>气球</u>。",
+      "example_vi": "Trên bầu trời trôi lơ lửng rất nhiều quả <u>bóng bay</u> đủ màu sắc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "气球.svg",
+      "src": "images/HSK_3.0/level5/气球.svg",
+      "alt_srcs": []
+    },
+    "签¹": {
+      "hanzi": "签¹",
+      "pinyin": "qiān",
+      "meaning": "ký (tên)",
+      "example_zh": "请在这里<u>签</u>名。",
+      "example_vi": "Xin hãy <u>ký</u> tên ở đây.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "签¹.svg",
+      "src": "images/HSK_3.0/level5/签¹.svg",
+      "alt_srcs": []
+    },
+    "签订": {
+      "hanzi": "签订",
+      "pinyin": "qiāndìng",
+      "meaning": "ký hiệu",
+      "example_zh": "两国<u>签订</u>了一项贸易条约",
+      "example_vi": "Hai nước đã ký một hiệp ước thương mại.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "签订.svg",
+      "src": "images/HSK_3.0/level5/签订.svg",
       "alt_srcs": []
     }
   }

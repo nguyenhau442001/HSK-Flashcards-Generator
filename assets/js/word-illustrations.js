@@ -13112,6 +13112,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/品种.svg",
     "caption": "chủng loại, giống loài"
   },
+  "屏幕": {
+    "file": "屏幕.svg",
+    "src": "images/HSK_2.0/level6/屏幕.svg",
+    "caption": "màn hình"
+  },
+  "普及": {
+    "file": "普及.svg",
+    "src": "images/HSK_2.0/level6/普及.svg",
+    "caption": "phổ cập, phổ biến"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -14661,6 +14671,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "聘请.svg",
     "src": "images/HSK_3.0/level5/聘请.svg",
     "caption": "mời, thuê (chuyên gia, giáo viên)"
+  },
+  "评": {
+    "file": "评.svg",
+    "src": "images/HSK_3.0/level5/评.svg",
+    "caption": "đánh giá, bình phẩm, chấm điểm"
+  },
+  "凭借": {
+    "file": "凭借.svg",
+    "src": "images/HSK_3.0/level5/凭借.svg",
+    "caption": "bằng"
+  },
+  "平台": {
+    "file": "平台.svg",
+    "src": "images/HSK_3.0/level5/平台.svg",
+    "caption": "nền tảng"
+  },
+  "齐": {
+    "file": "齐.svg",
+    "src": "images/HSK_3.0/level5/齐.svg",
+    "caption": "đều, cùng nhau, đầy đủ"
+  },
+  "其": {
+    "file": "其.svg",
+    "src": "images/HSK_3.0/level5/其.svg",
+    "caption": "của nó, của họ; trong đó"
+  },
+  "气球": {
+    "file": "气球.svg",
+    "src": "images/HSK_3.0/level5/气球.svg",
+    "caption": "bóng bay, bong bóng"
+  },
+  "签¹": {
+    "file": "签¹.svg",
+    "src": "images/HSK_3.0/level5/签¹.svg",
+    "caption": "ký (tên)"
+  },
+  "签订": {
+    "file": "签订.svg",
+    "src": "images/HSK_3.0/level5/签订.svg",
+    "caption": "ký hiệu"
   }
 };
 
