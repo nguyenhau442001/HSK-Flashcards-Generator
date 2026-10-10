@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:11:11.013883",
-  "total_unique_words_with_illustrations": 2477,
-  "total_flat_svg_files": 2477,
+  "generated_at": "2026-10-10T09:15:25.815917",
+  "total_unique_words_with_illustrations": 2483,
+  "total_flat_svg_files": 2483,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1278,
-        "pct": "98.3%"
+        "with_svg": 1284,
+        "pct": "98.8%"
       },
       "level6": {
         "total": 2500,
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 864,
-        "pct": "54.0%"
+        "with_svg": 870,
+        "pct": "54.4%"
       },
       "level6": {
         "total": 1800,
@@ -45700,6 +45700,114 @@
       "src": "images/HSK_2.0/level5/撞.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/撞.svg"
+      ]
+    },
+    "状态": {
+      "hanzi": "状态",
+      "pinyin": "zhuàngtài",
+      "meaning": "trạng thái",
+      "example_zh": "他的精神<u>状态</u>很好。",
+      "example_vi": "<u>Trạng thái</u> tinh thần của anh ấy rất tốt.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "状态.svg",
+      "src": "images/HSK_2.0/level5/状态.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/状态.svg"
+      ]
+    },
+    "追求": {
+      "hanzi": "追求",
+      "pinyin": "zhuīqiú",
+      "meaning": "theo đuổi",
+      "example_zh": "他<u>追求</u>自己的梦想。",
+      "example_vi": "Anh ấy <u>theo đuổi</u> ước mơ của mình.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "追求.svg",
+      "src": "images/HSK_2.0/level5/追求.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/追求.svg"
+      ]
+    },
+    "资金": {
+      "hanzi": "资金",
+      "pinyin": "zījīn",
+      "meaning": "nguồn vốn, tài chính",
+      "example_zh": "公司需要更多<u>资金</u>。",
+      "example_vi": "Công ty cần nhiều <u>nguồn vốn</u> hơn.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "资金.svg",
+      "src": "images/HSK_2.0/level5/资金.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/资金.svg"
+      ]
+    },
+    "资源": {
+      "hanzi": "资源",
+      "pinyin": "zīyuán",
+      "meaning": "tài nguyên",
+      "example_zh": "我们要保护自然<u>资源</u>。",
+      "example_vi": "Chúng ta phải bảo vệ <u>tài nguyên</u> tự nhiên.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "资源.svg",
+      "src": "images/HSK_2.0/level5/资源.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/资源.svg"
+      ]
+    },
+    "咨询": {
+      "hanzi": "咨询",
+      "pinyin": "zīxún",
+      "meaning": "tư vấn",
+      "example_zh": "我去<u>咨询</u>医生的意见。",
+      "example_vi": "Tôi đi <u>tư vấn</u> ý kiến của bác sĩ.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "咨询.svg",
+      "src": "images/HSK_2.0/level5/咨询.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/咨询.svg"
+      ]
+    },
+    "字母": {
+      "hanzi": "字母",
+      "pinyin": "zìmǔ",
+      "meaning": "chữ cái",
+      "example_zh": "请写出这个<u>字母</u>。",
+      "example_vi": "Xin hãy viết ra <u>chữ cái</u> này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "字母.svg",
+      "src": "images/HSK_2.0/level5/字母.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/字母.svg"
       ]
     }
   }

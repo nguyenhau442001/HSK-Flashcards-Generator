@@ -12686,6 +12686,36 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "撞.svg",
     "src": "images/HSK_2.0/level5/撞.svg",
     "caption": "va, đâm"
+  },
+  "状态": {
+    "file": "状态.svg",
+    "src": "images/HSK_2.0/level5/状态.svg",
+    "caption": "trạng thái"
+  },
+  "追求": {
+    "file": "追求.svg",
+    "src": "images/HSK_2.0/level5/追求.svg",
+    "caption": "theo đuổi"
+  },
+  "资金": {
+    "file": "资金.svg",
+    "src": "images/HSK_2.0/level5/资金.svg",
+    "caption": "nguồn vốn, tài chính"
+  },
+  "资源": {
+    "file": "资源.svg",
+    "src": "images/HSK_2.0/level5/资源.svg",
+    "caption": "tài nguyên"
+  },
+  "咨询": {
+    "file": "咨询.svg",
+    "src": "images/HSK_2.0/level5/咨询.svg",
+    "caption": "tư vấn"
+  },
+  "字母": {
+    "file": "字母.svg",
+    "src": "images/HSK_2.0/level5/字母.svg",
+    "caption": "chữ cái"
   }
 };
 
