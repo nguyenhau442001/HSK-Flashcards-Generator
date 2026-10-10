@@ -426,7 +426,7 @@ const GradedReading = (function() {
                 <div class="graded-quiz-options">
                   ${q.options_vi.map((opt, oidx) => `
                     <button type="button" class="graded-quiz-opt-btn" onclick="GradedReading.answerQuiz('${q.id}', ${oidx})">
-                      <span style="font-weight: 700; color: var(--text-muted);">${String.fromCharCode(65 + oidx)}.</span>
+                      <span style="font-weight: 700; color: var(--text-secondary);">${String.fromCharCode(65 + oidx)}.</span>
                       <span>${opt}</span>
                     </button>
                   `).join('')}
