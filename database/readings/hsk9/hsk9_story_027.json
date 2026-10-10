@@ -20,7 +20,11 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "薛"
+          "text": "薛",
+          "pinyin": "xuē",
+          "hanviet": "Tiết",
+          "meaning_vi": "Âm Hán-Việt: Tiết",
+          "hsk": 9
         },
         {
           "text": "定",
@@ -31,7 +35,11 @@
           "word_id": "hsk4_164"
         },
         {
-          "text": "谔"
+          "text": "谔",
+          "pinyin": "è",
+          "hanviet": "Ngạc",
+          "meaning_vi": "Âm Hán-Việt: Ngạc",
+          "hsk": 9
         },
         {
           "text": "波动",
@@ -47,10 +55,15 @@
           "hanviet": "Phương",
           "meaning_vi": "vuông, phương",
           "hsk": 5,
-          "word_id": "hsk5_774"
+          "word_id": "hsk5_338"
         },
         {
-          "text": "程"
+          "text": "程",
+          "pinyin": "chéng",
+          "hanviet": "Trình",
+          "meaning_vi": "quá trình (trong 过程)",
+          "hsk": 4,
+          "word_id": "hsk4_282"
         },
         {
           "text": "描述",
@@ -66,7 +79,7 @@
           "hanviet": "Đích Xác",
           "meaning_vi": "đích thực, quả thực",
           "hsk": 5,
-          "word_id": "hsk5_747"
+          "word_id": "hsk5_267"
         },
         {
           "text": "定",
@@ -101,7 +114,11 @@
           "word_id": "hsk4_828"
         },
         {
-          "text": "酉"
+          "text": "酉",
+          "pinyin": "yǒu",
+          "hanviet": "Dậu",
+          "meaning_vi": "Âm Hán-Việt: Dậu",
+          "hsk": 9
         },
         {
           "text": "演化",
@@ -120,7 +137,7 @@
           "hanviet": "Tại",
           "meaning_vi": "ở, đang",
           "hsk": 1,
-          "word_id": "hsk1_139"
+          "word_id": "hsk1_390"
         },
         {
           "text": "遭遇",
@@ -128,16 +145,21 @@
           "hanviet": "Tao Ngộ",
           "meaning_vi": "gặp phải, trải qua",
           "hsk": 6,
-          "word_id": "hsk6_2497"
+          "word_id": "hsk6_1650"
         },
         {
-          "text": "哥"
+          "text": "哥",
+          "pinyin": "gē",
+          "hanviet": "Ca",
+          "meaning_vi": "anh trai (trong 哥哥)",
+          "hsk": 1,
+          "word_id": "hsk1_96"
         },
         {
           "text": "本",
           "pinyin": "běn",
-          "hanviet": "Bản",
-          "meaning_vi": "cuốn (lượng từ)",
+          "hanviet": "Bổn",
+          "meaning_vi": "cuốn, quyển (lượng từ)",
           "hsk": 1,
           "word_id": "hsk1_6"
         },
@@ -147,15 +169,15 @@
           "hanviet": "Ha",
           "meaning_vi": "ha (thán từ cười)",
           "hsk": 5,
-          "word_id": "hsk5_839"
+          "word_id": "hsk5_459"
         },
         {
           "text": "根",
           "pinyin": "gēn",
           "hanviet": "Căn",
-          "meaning_vi": "rễ, gốc",
-          "hsk": 5,
-          "word_id": "hsk5_806"
+          "meaning_vi": "cọng, que, sợi, rễ (lượng từ, danh từ)",
+          "hsk": 4,
+          "word_id": "hsk5_403"
         },
         {
           "text": "诠释",
@@ -195,7 +217,7 @@
           "hanviet": "Trắc Lượng",
           "meaning_vi": "đo lường, khảo sát",
           "hsk": 6,
-          "word_id": "hsk6_276"
+          "word_id": "hsk6_113"
         },
         {
           "text": "的",
@@ -203,10 +225,15 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
-          "text": "波"
+          "text": "波",
+          "pinyin": "bō",
+          "hanviet": "Ba",
+          "meaning_vi": "bôn ba, vất vả ngược xuôi (trong 奔波)",
+          "hsk": 6,
+          "word_id": "hsk6_98"
         },
         {
           "text": "函",
@@ -218,11 +245,11 @@
         },
         {
           "text": "数",
-          "pinyin": "shǔ",
+          "pinyin": "shù",
           "hanviet": "Sổ",
-          "meaning_vi": "đếm, tính",
-          "hsk": 5,
-          "word_id": "hsk5_1083"
+          "meaning_vi": "số, con số",
+          "hsk": 4,
+          "word_id": "hsk4_691"
         },
         {
           "text": "神秘",
@@ -230,10 +257,14 @@
           "hanviet": "Thần Bí",
           "meaning_vi": "thần bí, huyền bí",
           "hsk": 5,
-          "word_id": "hsk5_413"
+          "word_id": "hsk5_988"
         },
         {
-          "text": "坍"
+          "text": "坍",
+          "pinyin": "tān",
+          "hanviet": "Than",
+          "meaning_vi": "Âm Hán-Việt: Than",
+          "hsk": 9
         },
         {
           "text": "缩",
@@ -257,7 +288,7 @@
           "hanviet": "Bộc Lộ",
           "meaning_vi": "phơi bày, để lộ",
           "hsk": 6,
-          "word_id": "hsk6_81"
+          "word_id": "hsk6_31"
         },
         {
           "text": "出",
@@ -265,7 +296,7 @@
           "hanviet": "Xuất",
           "meaning_vi": "ra, đi ra",
           "hsk": 2,
-          "word_id": "hsk2_11"
+          "word_id": "hsk2_316"
         },
         {
           "text": "深刻",
@@ -273,7 +304,7 @@
           "hanviet": "Thâm Khắc",
           "meaning_vi": "sâu sắc",
           "hsk": 5,
-          "word_id": "hsk5_411"
+          "word_id": "hsk5_984"
         },
         {
           "text": "的",
@@ -281,7 +312,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "理论",
@@ -289,7 +320,7 @@
           "hanviet": "Lí Luận/lý Luận",
           "meaning_vi": "lý luận",
           "hsk": 5,
-          "word_id": "hsk5_286"
+          "word_id": "hsk5_701"
         },
         {
           "text": "割",
@@ -326,7 +357,7 @@
           "hanviet": "Trước Danh",
           "meaning_vi": "nổi tiếng",
           "hsk": 4,
-          "word_id": "hsk4_581"
+          "word_id": "hsk4_967"
         },
         {
           "text": "的",
@@ -334,10 +365,14 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
-          "text": "薛"
+          "text": "薛",
+          "pinyin": "xuē",
+          "hanviet": "Tiết",
+          "meaning_vi": "Âm Hán-Việt: Tiết",
+          "hsk": 9
         },
         {
           "text": "定",
@@ -348,7 +383,11 @@
           "word_id": "hsk4_164"
         },
         {
-          "text": "谔"
+          "text": "谔",
+          "pinyin": "è",
+          "hanviet": "Ngạc",
+          "meaning_vi": "Âm Hán-Việt: Ngạc",
+          "hsk": 9
         },
         {
           "text": "之",
@@ -364,7 +403,7 @@
           "hanviet": "Miêu",
           "meaning_vi": "con mèo",
           "hsk": 1,
-          "word_id": "hsk1_62"
+          "word_id": "hsk1_194"
         },
         {
           "text": "思想",
@@ -372,7 +411,7 @@
           "hanviet": "Tư Tưởng",
           "meaning_vi": "tư tưởng, suy nghĩ",
           "hsk": 5,
-          "word_id": "hsk5_448"
+          "word_id": "hsk5_1080"
         },
         {
           "text": "实验",
@@ -380,7 +419,7 @@
           "hanviet": "Thực Nghiệm",
           "meaning_vi": "thí nghiệm, thực nghiệm",
           "hsk": 5,
-          "word_id": "hsk5_423"
+          "word_id": "hsk5_1022"
         },
         {
           "text": "将",
@@ -415,7 +454,12 @@
           "word_id": "hsk4_828"
         },
         {
-          "text": "衰"
+          "text": "衰",
+          "pinyin": "shuāi",
+          "hanviet": "Thôi",
+          "meaning_vi": "già yếu, suy nhược (trong 衰老)",
+          "hsk": 6,
+          "word_id": "hsk6_1230"
         },
         {
           "text": "变",
@@ -439,7 +483,7 @@
           "hanviet": "Phóng Đại",
           "meaning_vi": "phóng to",
           "hsk": 6,
-          "word_id": "hsk6_826"
+          "word_id": "hsk6_376"
         },
         {
           "text": "至",
@@ -482,7 +526,12 @@
           "word_id": "hsk3_783"
         },
         {
-          "text": "态"
+          "text": "态",
+          "pinyin": "tài",
+          "hanviet": "Thái",
+          "meaning_vi": "thái độ (trong 态度)",
+          "hsk": 4,
+          "word_id": "hsk4_717"
         },
         {
           "text": "，"
@@ -517,15 +566,15 @@
           "hanviet": "Trắc Lượng",
           "meaning_vi": "đo lường, khảo sát",
           "hsk": 6,
-          "word_id": "hsk6_276"
+          "word_id": "hsk6_113"
         },
         {
           "text": "问题",
           "pinyin": "wèntí",
           "hanviet": "Vấn Đề",
           "meaning_vi": "câu hỏi, vấn đề",
-          "hsk": 2,
-          "word_id": "hsk2_112"
+          "hsk": 1,
+          "word_id": "hsk1_318"
         },
         {
           "text": "的",
@@ -533,7 +582,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "尖锐",
@@ -565,7 +614,7 @@
           "hanviet": "Suy",
           "meaning_vi": "đẩy",
           "hsk": 4,
-          "word_id": "hsk4_442"
+          "word_id": "hsk4_755"
         },
         {
           "text": "向",
@@ -573,7 +622,7 @@
           "hanviet": "Hướng",
           "meaning_vi": "hướng về, về phía",
           "hsk": 3,
-          "word_id": "hsk3_241"
+          "word_id": "hsk3_973"
         },
         {
           "text": "极",
@@ -581,7 +630,7 @@
           "hanviet": "Cực",
           "meaning_vi": "cực kỳ",
           "hsk": 3,
-          "word_id": "hsk3_110"
+          "word_id": "hsk3_779"
         },
         {
           "text": "致",
@@ -610,7 +659,7 @@
           "hanviet": "Nhất",
           "meaning_vi": "một",
           "hsk": 1,
-          "word_id": "hsk1_130"
+          "word_id": "hsk1_360"
         },
         {
           "text": "九",
@@ -618,7 +667,7 @@
           "hanviet": "Cửu",
           "meaning_vi": "chín",
           "hsk": 1,
-          "word_id": "hsk1_48"
+          "word_id": "hsk1_148"
         },
         {
           "text": "五",
@@ -626,7 +675,7 @@
           "hanviet": "Ngũ",
           "meaning_vi": "năm",
           "hsk": 1,
-          "word_id": "hsk1_113"
+          "word_id": "hsk1_321"
         },
         {
           "text": "七",
@@ -634,7 +683,7 @@
           "hanviet": "Thất",
           "meaning_vi": "bảy",
           "hsk": 1,
-          "word_id": "hsk1_79"
+          "word_id": "hsk1_557"
         },
         {
           "text": "年",
@@ -642,19 +691,32 @@
           "hanviet": "Niên",
           "meaning_vi": "năm",
           "hsk": 1,
-          "word_id": "hsk1_74"
+          "word_id": "hsk1_214"
         },
         {
-          "text": "休"
+          "text": "休",
+          "pinyin": "xiū",
+          "hanviet": "Hưu",
+          "meaning_vi": "nghỉ ngơi (trong 休息)",
+          "hsk": 1,
+          "word_id": "hsk1_350"
         },
         {
           "text": "·"
         },
         {
-          "text": "埃"
+          "text": "埃",
+          "pinyin": "āi",
+          "hanviet": "Ai",
+          "meaning_vi": "Âm Hán-Việt: Ai",
+          "hsk": 9
         },
         {
-          "text": "弗"
+          "text": "弗",
+          "pinyin": "fú",
+          "hanviet": "Phất",
+          "meaning_vi": "Âm Hán-Việt: Phất",
+          "hsk": 9
         },
         {
           "text": "雷",
@@ -678,10 +740,15 @@
           "hanviet": "Tam",
           "meaning_vi": "ba",
           "hsk": 1,
-          "word_id": "hsk1_87"
+          "word_id": "hsk1_249"
         },
         {
-          "text": "世"
+          "text": "世",
+          "pinyin": "shì",
+          "hanviet": "Thế",
+          "meaning_vi": "thế giới (trong 世界)",
+          "hsk": 3,
+          "word_id": "hsk3_916"
         },
         {
           "text": "破",
@@ -689,7 +756,7 @@
           "hanviet": "Phá",
           "meaning_vi": "hỏng, vỡ",
           "hsk": 4,
-          "word_id": "hsk4_332"
+          "word_id": "hsk4_558"
         },
         {
           "text": "天",
@@ -721,7 +788,7 @@
           "hanviet": "Liễu",
           "meaning_vi": "rồi (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_55"
+          "word_id": "hsk1_535"
         },
         {
           "text": "相对",
@@ -729,10 +796,15 @@
           "hanviet": "Tương Đối",
           "meaning_vi": "tương đối",
           "hsk": 5,
-          "word_id": "hsk5_1159"
+          "word_id": "hsk5_1250"
         },
         {
-          "text": "态"
+          "text": "态",
+          "pinyin": "tài",
+          "hanviet": "Thái",
+          "meaning_vi": "thái độ (trong 态度)",
+          "hsk": 4,
+          "word_id": "hsk4_717"
         },
         {
           "text": "诠释",
@@ -762,10 +834,18 @@
           "word_id": "hsk6_1390"
         },
         {
-          "text": "遐"
+          "text": "遐",
+          "pinyin": "xiá",
+          "hanviet": "Hà",
+          "meaning_vi": "Âm Hán-Việt: Hà",
+          "hsk": 9
         },
         {
-          "text": "迩"
+          "text": "迩",
+          "pinyin": "ěr",
+          "hanviet": "Nhĩ",
+          "meaning_vi": "Âm Hán-Việt: Nhĩ",
+          "hsk": 9
         },
         {
           "text": "的",
@@ -773,7 +853,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "多",
@@ -781,7 +861,7 @@
           "hanviet": "Đa",
           "meaning_vi": "nhiều",
           "hsk": 1,
-          "word_id": "hsk1_24"
+          "word_id": "hsk1_80"
         },
         {
           "text": "世界",
@@ -789,7 +869,7 @@
           "hanviet": "Thế Giới",
           "meaning_vi": "thế giới",
           "hsk": 3,
-          "word_id": "hsk3_202"
+          "word_id": "hsk3_916"
         },
         {
           "text": "诠释",
@@ -826,7 +906,12 @@
           "word_id": "hsk5_1272"
         },
         {
-          "text": "波"
+          "text": "波",
+          "pinyin": "bō",
+          "hanviet": "Ba",
+          "meaning_vi": "bôn ba, vất vả ngược xuôi (trong 奔波)",
+          "hsk": 6,
+          "word_id": "hsk6_98"
         },
         {
           "text": "函",
@@ -838,11 +923,11 @@
         },
         {
           "text": "数",
-          "pinyin": "shǔ",
+          "pinyin": "shù",
           "hanviet": "Sổ",
-          "meaning_vi": "đếm, tính",
-          "hsk": 5,
-          "word_id": "hsk5_1083"
+          "meaning_vi": "số, con số",
+          "hsk": 4,
+          "word_id": "hsk4_691"
         },
         {
           "text": "从未",
@@ -858,23 +943,23 @@
           "hanviet": "Chân Chính",
           "meaning_vi": "thực sự, chân chính",
           "hsk": 4,
-          "word_id": "hsk4_556"
+          "word_id": "hsk4_927"
         },
         {
           "text": "发生",
           "pinyin": "fāshēng",
           "hanviet": "Phát Sinh",
           "meaning_vi": "phát sinh, xảy ra",
-          "hsk": 4,
-          "word_id": "hsk4_105"
+          "hsk": 3,
+          "word_id": "hsk3_711"
         },
         {
           "text": "过",
-          "pinyin": "guo",
+          "pinyin": "guò",
           "hanviet": "Quá",
-          "meaning_vi": "đã từng (trợ từ)",
+          "meaning_vi": "vượt qua",
           "hsk": 2,
-          "word_id": "hsk2_36"
+          "word_id": "hsk2_347"
         },
         {
           "text": "物理",
@@ -882,10 +967,14 @@
           "hanviet": "Vật Lí/vật Lý",
           "meaning_vi": "vật lý",
           "hsk": 5,
-          "word_id": "hsk5_1147"
+          "word_id": "hsk5_1217"
         },
         {
-          "text": "坍"
+          "text": "坍",
+          "pinyin": "tān",
+          "hanviet": "Than",
+          "meaning_vi": "Âm Hán-Việt: Than",
+          "hsk": 9
         },
         {
           "text": "缩",
@@ -914,7 +1003,7 @@
           "hanviet": "Tại",
           "meaning_vi": "ở, đang",
           "hsk": 1,
-          "word_id": "hsk1_139"
+          "word_id": "hsk1_390"
         },
         {
           "text": "宏观",
@@ -930,7 +1019,7 @@
           "hanviet": "Trắc Lượng",
           "meaning_vi": "đo lường, khảo sát",
           "hsk": 6,
-          "word_id": "hsk6_276"
+          "word_id": "hsk6_113"
         },
         {
           "text": "仪器",
@@ -938,7 +1027,7 @@
           "hanviet": "Nghi Khí",
           "meaning_vi": "thiết bị, máy đo",
           "hsk": 6,
-          "word_id": "hsk6_2386"
+          "word_id": "hsk6_1552"
         },
         {
           "text": "与",
@@ -946,7 +1035,7 @@
           "hanviet": "Dư",
           "meaning_vi": "và, với",
           "hsk": 4,
-          "word_id": "hsk4_535"
+          "word_id": "hsk4_897"
         },
         {
           "text": "被",
@@ -954,7 +1043,7 @@
           "hanviet": "Bị",
           "meaning_vi": "bị (trợ từ bị động)",
           "hsk": 3,
-          "word_id": "hsk3_16"
+          "word_id": "hsk3_619"
         },
         {
           "text": "测量",
@@ -962,7 +1051,7 @@
           "hanviet": "Trắc Lượng",
           "meaning_vi": "đo lường, khảo sát",
           "hsk": 6,
-          "word_id": "hsk6_276"
+          "word_id": "hsk6_113"
         },
         {
           "text": "子",
@@ -978,15 +1067,15 @@
           "hanviet": "Hệ Thống",
           "meaning_vi": "hệ thống",
           "hsk": 5,
-          "word_id": "hsk5_502"
+          "word_id": "hsk5_1229"
         },
         {
           "text": "发生",
           "pinyin": "fāshēng",
           "hanviet": "Phát Sinh",
           "meaning_vi": "phát sinh, xảy ra",
-          "hsk": 4,
-          "word_id": "hsk4_105"
+          "hsk": 3,
+          "word_id": "hsk3_711"
         },
         {
           "text": "量",
@@ -1045,10 +1134,15 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
-          "text": "波"
+          "text": "波",
+          "pinyin": "bō",
+          "hanviet": "Ba",
+          "meaning_vi": "bôn ba, vất vả ngược xuôi (trong 奔波)",
+          "hsk": 6,
+          "word_id": "hsk6_98"
         },
         {
           "text": "函",
@@ -1060,11 +1154,11 @@
         },
         {
           "text": "数",
-          "pinyin": "shǔ",
+          "pinyin": "shù",
           "hanviet": "Sổ",
-          "meaning_vi": "đếm, tính",
-          "hsk": 5,
-          "word_id": "hsk5_1083"
+          "meaning_vi": "số, con số",
+          "hsk": 4,
+          "word_id": "hsk4_691"
         },
         {
           "text": "在",
@@ -1072,7 +1166,7 @@
           "hanviet": "Tại",
           "meaning_vi": "ở, đang",
           "hsk": 1,
-          "word_id": "hsk1_139"
+          "word_id": "hsk1_390"
         },
         {
           "text": "退",
@@ -1080,18 +1174,23 @@
           "hanviet": "Thoái",
           "meaning_vi": "rút, lùi",
           "hsk": 5,
-          "word_id": "hsk5_478"
+          "word_id": "hsk5_1162"
         },
         {
-          "text": "相"
+          "text": "相",
+          "pinyin": "xiāng",
+          "hanviet": "Tương",
+          "meaning_vi": "tin tưởng (trong 相信)",
+          "hsk": 3,
+          "word_id": "hsk3_971"
         },
         {
           "text": "干",
-          "pinyin": "gān",
+          "pinyin": "gàn",
           "hanviet": "Can",
-          "meaning_vi": "khô",
-          "hsk": 4,
-          "word_id": "hsk4_136"
+          "meaning_vi": "làm (việc)",
+          "hsk": 3,
+          "word_id": "hsk3_732"
         },
         {
           "text": "机制",
@@ -1099,7 +1198,7 @@
           "hanviet": "Cơ Chế",
           "meaning_vi": "cơ chế",
           "hsk": 6,
-          "word_id": "hsk6_1122"
+          "word_id": "hsk6_614"
         },
         {
           "text": "的",
@@ -1107,7 +1206,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "作用",
@@ -1115,7 +1214,7 @@
           "hanviet": "Tác Dụng",
           "meaning_vi": "tác dụng",
           "hsk": 4,
-          "word_id": "hsk4_599"
+          "word_id": "hsk4_999"
         },
         {
           "text": "下",
@@ -1123,7 +1222,7 @@
           "hanviet": "Hạ",
           "meaning_vi": "dưới",
           "hsk": 1,
-          "word_id": "hsk1_115"
+          "word_id": "hsk1_581"
         },
         {
           "text": "持续",
@@ -1131,7 +1230,7 @@
           "hanviet": "Trì Tục",
           "meaning_vi": "tiếp tục, kéo dài",
           "hsk": 5,
-          "word_id": "hsk5_61"
+          "word_id": "hsk5_155"
         },
         {
           "text": "且",
@@ -1147,7 +1246,7 @@
           "hanviet": "Bất",
           "meaning_vi": "không",
           "hsk": 1,
-          "word_id": "hsk1_8"
+          "word_id": "hsk1_25"
         },
         {
           "text": "可",
@@ -1170,8 +1269,8 @@
           "pinyin": "de",
           "hanviet": "Địa",
           "meaning_vi": "cách (trợ từ trạng ngữ)",
-          "hsk": 3,
-          "word_id": "hsk3_46"
+          "hsk": 2,
+          "word_id": "hsk2_333"
         },
         {
           "text": "向",
@@ -1179,7 +1278,7 @@
           "hanviet": "Hướng",
           "meaning_vi": "hướng về, về phía",
           "hsk": 3,
-          "word_id": "hsk3_241"
+          "word_id": "hsk3_973"
         },
         {
           "text": "多",
@@ -1187,15 +1286,15 @@
           "hanviet": "Đa",
           "meaning_vi": "nhiều",
           "hsk": 1,
-          "word_id": "hsk1_24"
+          "word_id": "hsk1_80"
         },
         {
           "text": "重",
-          "pinyin": "zhòng",
+          "pinyin": "chóng",
           "hanviet": "Trọng",
-          "meaning_vi": "nặng",
+          "meaning_vi": "lại, lần nữa; trùng",
           "hsk": 4,
-          "word_id": "hsk4_575"
+          "word_id": "hsk4_86"
         },
         {
           "text": "平行",
@@ -1211,7 +1310,7 @@
           "hanviet": "Hiện Thực",
           "meaning_vi": "thực tế, hiện thực",
           "hsk": 5,
-          "word_id": "hsk5_1156"
+          "word_id": "hsk5_1242"
         },
         {
           "text": "分支",
@@ -1235,7 +1334,7 @@
           "hanviet": "Tiến",
           "meaning_vi": "vào",
           "hsk": 2,
-          "word_id": "hsk2_50"
+          "word_id": "hsk2_370"
         },
         {
           "text": "。"
@@ -1256,7 +1355,7 @@
           "hanviet": "Tại",
           "meaning_vi": "ở, đang",
           "hsk": 1,
-          "word_id": "hsk1_139"
+          "word_id": "hsk1_390"
         },
         {
           "text": "一",
@@ -1264,7 +1363,7 @@
           "hanviet": "Nhất",
           "meaning_vi": "một",
           "hsk": 1,
-          "word_id": "hsk1_130"
+          "word_id": "hsk1_360"
         },
         {
           "text": "个",
@@ -1272,7 +1371,7 @@
           "hanviet": "Cá",
           "meaning_vi": "cái (lượng từ)",
           "hsk": 1,
-          "word_id": "hsk1_32"
+          "word_id": "hsk1_97"
         },
         {
           "text": "世界",
@@ -1280,7 +1379,7 @@
           "hanviet": "Thế Giới",
           "meaning_vi": "thế giới",
           "hsk": 3,
-          "word_id": "hsk3_202"
+          "word_id": "hsk3_916"
         },
         {
           "text": "分支",
@@ -1312,7 +1411,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "活",
@@ -1328,7 +1427,7 @@
           "hanviet": "Miêu",
           "meaning_vi": "con mèo",
           "hsk": 1,
-          "word_id": "hsk1_62"
+          "word_id": "hsk1_194"
         },
         {
           "text": "，"
@@ -1339,7 +1438,7 @@
           "hanviet": "Tại",
           "meaning_vi": "ở, đang",
           "hsk": 1,
-          "word_id": "hsk1_139"
+          "word_id": "hsk1_390"
         },
         {
           "text": "另",
@@ -1355,7 +1454,7 @@
           "hanviet": "Nhất",
           "meaning_vi": "một",
           "hsk": 1,
-          "word_id": "hsk1_130"
+          "word_id": "hsk1_360"
         },
         {
           "text": "个",
@@ -1363,7 +1462,7 @@
           "hanviet": "Cá",
           "meaning_vi": "cái (lượng từ)",
           "hsk": 1,
-          "word_id": "hsk1_32"
+          "word_id": "hsk1_97"
         },
         {
           "text": "平行",
@@ -1379,7 +1478,7 @@
           "hanviet": "Thực Tại",
           "meaning_vi": "thực sự, thật là",
           "hsk": 4,
-          "word_id": "hsk4_385"
+          "word_id": "hsk4_664"
         },
         {
           "text": "的",
@@ -1387,7 +1486,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "分支",
@@ -1414,7 +1513,12 @@
           "word_id": "hsk4_866"
         },
         {
-          "text": "然"
+          "text": "然",
+          "pinyin": "rán",
+          "hanviet": "Nhiên",
+          "meaning_vi": "mặc dù (trong 虽然)",
+          "hsk": 2,
+          "word_id": "hsk2_438"
         },
         {
           "text": "死",
@@ -1422,7 +1526,7 @@
           "hanviet": "Tử",
           "meaning_vi": "chết",
           "hsk": 4,
-          "word_id": "hsk4_410"
+          "word_id": "hsk4_703"
         },
         {
           "text": "去",
@@ -1430,7 +1534,7 @@
           "hanviet": "Khứ",
           "meaning_vi": "đi",
           "hsk": 1,
-          "word_id": "hsk1_83"
+          "word_id": "hsk1_238"
         },
         {
           "text": "；"
@@ -1441,7 +1545,7 @@
           "hanviet": "Nhất Thiết",
           "meaning_vi": "tất cả, mọi thứ",
           "hsk": 4,
-          "word_id": "hsk4_511"
+          "word_id": "hsk4_865"
         },
         {
           "text": "可能",
@@ -1449,15 +1553,15 @@
           "hanviet": "Khả Năng",
           "meaning_vi": "có thể",
           "hsk": 2,
-          "word_id": "hsk2_56"
+          "word_id": "hsk2_382"
         },
         {
           "text": "发生",
           "pinyin": "fāshēng",
           "hanviet": "Phát Sinh",
           "meaning_vi": "phát sinh, xảy ra",
-          "hsk": 4,
-          "word_id": "hsk4_105"
+          "hsk": 3,
+          "word_id": "hsk3_711"
         },
         {
           "text": "的",
@@ -1465,7 +1569,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "量",
@@ -1488,8 +1592,8 @@
           "pinyin": "shìjiàn",
           "hanviet": "Sự Kiện",
           "meaning_vi": "sự kiện",
-          "hsk": 6,
-          "word_id": "hsk6_1906"
+          "hsk": 5,
+          "word_id": "hsk5_1032"
         },
         {
           "text": "在",
@@ -1497,7 +1601,7 @@
           "hanviet": "Tại",
           "meaning_vi": "ở, đang",
           "hsk": 1,
-          "word_id": "hsk1_139"
+          "word_id": "hsk1_390"
         },
         {
           "text": "浩瀚",
@@ -1513,7 +1617,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "多",
@@ -1521,7 +1625,7 @@
           "hanviet": "Đa",
           "meaning_vi": "nhiều",
           "hsk": 1,
-          "word_id": "hsk1_24"
+          "word_id": "hsk1_80"
         },
         {
           "text": "宇宙",
@@ -1569,7 +1673,7 @@
           "hanviet": "Xác Định",
           "meaning_vi": "xác định",
           "hsk": 5,
-          "word_id": "hsk5_1028"
+          "word_id": "hsk5_907"
         },
         {
           "text": "性",
@@ -1585,7 +1689,7 @@
           "hanviet": "Thực Hiện",
           "meaning_vi": "thực hiện",
           "hsk": 5,
-          "word_id": "hsk5_1069"
+          "word_id": "hsk5_1020"
         },
         {
           "text": "。"
@@ -1606,7 +1710,7 @@
           "hanviet": "Đa",
           "meaning_vi": "nhiều",
           "hsk": 1,
-          "word_id": "hsk1_24"
+          "word_id": "hsk1_80"
         },
         {
           "text": "世界",
@@ -1614,7 +1718,7 @@
           "hanviet": "Thế Giới",
           "meaning_vi": "thế giới",
           "hsk": 3,
-          "word_id": "hsk3_202"
+          "word_id": "hsk3_916"
         },
         {
           "text": "诠释",
@@ -1638,10 +1742,15 @@
           "hanviet": "Cực Kì/cực Kỳ",
           "meaning_vi": "cực kỳ, hết sức",
           "hsk": 5,
-          "word_id": "hsk5_866"
+          "word_id": "hsk5_533"
         },
         {
-          "text": "激"
+          "text": "激",
+          "pinyin": "jī",
+          "hanviet": "Kích",
+          "meaning_vi": "kích động, xúc động (trong 激动)",
+          "hsk": 4,
+          "word_id": "hsk4_322"
         },
         {
           "text": "进",
@@ -1649,7 +1758,7 @@
           "hanviet": "Tiến",
           "meaning_vi": "vào",
           "hsk": 2,
-          "word_id": "hsk2_50"
+          "word_id": "hsk2_370"
         },
         {
           "text": "的",
@@ -1657,21 +1766,31 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "本",
           "pinyin": "běn",
-          "hanviet": "Bản",
-          "meaning_vi": "cuốn (lượng từ)",
+          "hanviet": "Bổn",
+          "meaning_vi": "cuốn, quyển (lượng từ)",
           "hsk": 1,
           "word_id": "hsk1_6"
         },
         {
-          "text": "体"
+          "text": "体",
+          "pinyin": "tǐ",
+          "hanviet": "Thể",
+          "meaning_vi": "cơ thể, sức khỏe (trong 身体)",
+          "hsk": 2,
+          "word_id": "hsk2_429"
         },
         {
-          "text": "论"
+          "text": "论",
+          "pinyin": "lùn",
+          "hanviet": "Luận",
+          "meaning_vi": "bất kể, dù (trong 不论)",
+          "hsk": 4,
+          "word_id": "hsk4_48"
         },
         {
           "text": "膨胀",
@@ -1695,7 +1814,7 @@
           "hanviet": "Liễu",
           "meaning_vi": "rồi (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_55"
+          "word_id": "hsk1_535"
         },
         {
           "text": "量",
@@ -1735,7 +1854,7 @@
           "hanviet": "Số Học",
           "meaning_vi": "môn toán",
           "hsk": 3,
-          "word_id": "hsk3_207"
+          "word_id": "hsk3_923"
         },
         {
           "text": "形式",
@@ -1743,7 +1862,7 @@
           "hanviet": "Hình Thức",
           "meaning_vi": "hình thức",
           "hsk": 5,
-          "word_id": "hsk5_1176"
+          "word_id": "hsk5_1291"
         },
         {
           "text": "体系",
@@ -1751,7 +1870,7 @@
           "hanviet": "Thể Hệ",
           "meaning_vi": "hệ thống",
           "hsk": 6,
-          "word_id": "hsk6_2016"
+          "word_id": "hsk6_1286"
         },
         {
           "text": "的",
@@ -1759,7 +1878,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "纯粹",
@@ -1794,7 +1913,7 @@
           "hanviet": "Liễu",
           "meaning_vi": "rồi (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_55"
+          "word_id": "hsk1_535"
         },
         {
           "text": "人类",
@@ -1802,15 +1921,15 @@
           "hanviet": "Nhân Loại",
           "meaning_vi": "loài người, nhân loại",
           "hsk": 5,
-          "word_id": "hsk5_389"
+          "word_id": "hsk5_921"
         },
         {
           "text": "对",
           "pinyin": "duì",
           "hanviet": "Đối",
           "meaning_vi": "đối với, hướng về (giới từ)",
-          "hsk": 2,
-          "word_id": "hsk2_24"
+          "hsk": 1,
+          "word_id": "hsk1_79"
         },
         {
           "text": "单一",
@@ -1826,7 +1945,7 @@
           "hanviet": "Hiện Thực",
           "meaning_vi": "thực tế, hiện thực",
           "hsk": 5,
-          "word_id": "hsk5_1156"
+          "word_id": "hsk5_1242"
         },
         {
           "text": "的",
@@ -1834,7 +1953,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "本能",
@@ -1842,10 +1961,15 @@
           "hanviet": "Bản Năng",
           "meaning_vi": "bản năng",
           "hsk": 6,
-          "word_id": "hsk6_102"
+          "word_id": "hsk6_45"
         },
         {
-          "text": "执"
+          "text": "执",
+          "pinyin": "zhí",
+          "hanviet": "Chấp",
+          "meaning_vi": "thực hiện (trong 执行)",
+          "hsk": 5,
+          "word_id": "hsk5_1505"
         },
         {
           "text": "念",
@@ -1853,7 +1977,7 @@
           "hanviet": "Niệm",
           "meaning_vi": "đọc, niệm",
           "hsk": 5,
-          "word_id": "hsk5_982"
+          "word_id": "hsk5_801"
         },
         {
           "text": "。"
@@ -1864,19 +1988,19 @@
   "vocabulary_spotlight": [
     "hsk4_164",
     "hsk7_275",
-    "hsk5_774",
+    "hsk5_338",
+    "hsk4_282",
     "hsk5_771",
-    "hsk5_747",
+    "hsk5_267",
     "hsk4_828",
     "hsk6_1427",
     "hsk7_4742",
-    "hsk1_139",
-    "hsk6_2497",
+    "hsk1_390",
+    "hsk6_1650",
+    "hsk1_96",
     "hsk1_6",
-    "hsk5_839",
-    "hsk5_806",
-    "hsk7_3368",
-    "hsk3_1060"
+    "hsk5_459",
+    "hsk5_403"
   ],
   "quiz": [
     {

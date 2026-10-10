@@ -157,11 +157,15 @@ const GradedReading = (function() {
    * Add a token word directly into the user's FSRS queue for today
    */
   function addTokenToSrs(token) {
-    if (!token || !token.word_id) return false;
-    const match = token.word_id.match(/^hsk(\d+)_(\d+)$/i);
+    if (!token) return false;
+    if (!token.word_id) {
+      const lvl = token.hsk || (activeStory ? parseInt(activeStory.level.replace(/\D/g, '') || '1', 10) : 1);
+      token.word_id = `hsk${lvl}_${token.text.charCodeAt(0) + 10000}`;
+    }
+    const match = token.word_id.match(/^hsk(\d+)_([a-z0-9]+)$/i) || token.word_id.match(/^char_([a-z0-9]+)$/i);
     if (!match) return false;
-    const level = match[1];
-    const rawId = match[2];
+    const level = match[1].length <= 2 ? match[1] : String(token.hsk || 1);
+    const rawId = match[2] || match[1];
 
     try {
       if (typeof readSrsRecord === 'function' && typeof saveSrsRecord === 'function') {
@@ -534,7 +538,7 @@ const GradedReading = (function() {
             ${story.sentences.map((sentence, sidx) => `
               <div class="graded-sentence-block" id="sent-${sentence.id}">
                 <div class="graded-sentence-zh">
-                  ${sentence.tokens.map((token, tidx) => renderTokenHtml(token, sidx, tidx, storyLvlNum)).join('')}
+                  ${renderSentenceTokensHtml(sentence, sidx, storyLvlNum)}
                 </div>
                 <div class="graded-sentence-vi">${sentence.vi}</div>
               </div>
@@ -592,11 +596,61 @@ const GradedReading = (function() {
     `;
   }
 
+  const LEADING_PUNCT = new Set(['“', '‘', '（', '《', '〈', '【', '[', '"', '(']);
+  const TRAILING_PUNCT = new Set(['，', '。', '！', '？', '、', '：', '；', '”', '’', '）', '》', '〉', '】', ']', '"', ')', '…', '—']);
+
+  /**
+   * Group tokens and punctuation marks into atomic units to prevent punctuation from wrapping to newline alone
+   */
+  function renderSentenceTokensHtml(sentence, sidx, storyLvlNum) {
+    const tokens = sentence.tokens || [];
+    const units = [];
+    let currentUnit = [];
+
+    for (let tidx = 0; tidx < tokens.length; tidx++) {
+      const tok = tokens[tidx];
+      const text = (tok.text || '').trim();
+      const isLeading = LEADING_PUNCT.has(text);
+      const isTrailing = TRAILING_PUNCT.has(text);
+      const isPunct = isLeading || isTrailing || /^[，。？！、：；“”‘’（）《》〈〉【】\[\]()…—\s]+$/.test(text);
+
+      if (isLeading) {
+        if (currentUnit.length && currentUnit.some(item => !item.isLeading)) {
+          units.push(currentUnit);
+          currentUnit = [];
+        }
+        currentUnit.push({ tok, tidx, isLeading: true, isPunct: true });
+      } else if (isTrailing) {
+        currentUnit.push({ tok, tidx, isTrailing: true, isPunct: true });
+        units.push(currentUnit);
+        currentUnit = [];
+      } else if (isPunct) {
+        currentUnit.push({ tok, tidx, isPunct: true });
+        units.push(currentUnit);
+        currentUnit = [];
+      } else {
+        if (currentUnit.length && currentUnit.some(item => !item.isLeading)) {
+          units.push(currentUnit);
+          currentUnit = [];
+        }
+        currentUnit.push({ tok, tidx, isPunct: false });
+      }
+    }
+    if (currentUnit.length) {
+      units.push(currentUnit);
+    }
+
+    return units.map(unit => {
+      const innerHtml = unit.map(item => renderTokenHtml(item.tok, sidx, item.tidx, storyLvlNum)).join('');
+      return `<span class="graded-token-unit">${innerHtml}</span>`;
+    }).join('');
+  }
+
   /**
    * Render individual token inside sentence
    */
   function renderTokenHtml(token, sidx, tidx, storyLvlNum) {
-    const isPunct = /^[，。？！、：；“”‘’（）…—《》\s]+$/.test(token.text);
+    const isPunct = /^[，。？！、：；“”‘’（）《》〈〉【】\[\]()…—\s]+$/.test(token.text);
     if (isPunct) {
       return `<span class="graded-punctuation">${token.text}</span>`;
     }
@@ -606,7 +660,10 @@ const GradedReading = (function() {
     const isOverLevel = Boolean(token.word_id && tokenLvl > storyLvlNum);
     const overLevelBadge = isOverLevel ? `<span class="token-overlevel-badge">+${tokenLvl - storyLvlNum}</span>` : '';
 
-    const srsClass = srsStatus !== 'none' ? `token-${srsStatus}` : '';
+    // If srsStatus is 'none' (not in SRS record), default display to 'new'
+    // so it gets the amber highlight styling instead of plain black text
+    const displayStatus = srsStatus !== 'none' ? srsStatus : 'new';
+    const srsClass = `token-${displayStatus}`;
     const overClass = isOverLevel ? 'token-overlevel' : '';
 
     return `
@@ -668,7 +725,7 @@ const GradedReading = (function() {
     const sentence = activeStory.sentences[sidx];
     if (!sentence) return;
     const token = sentence.tokens[tidx];
-    if (!token || (!token.word_id && !token.is_name)) return;
+    if (!token || !token.text || /^[，。？！、：；“”‘’（）《》〈〉【】\[\]()…—\s]+$/.test(token.text)) return;
 
     showTokenPopover(token, event.currentTarget);
   }
@@ -697,8 +754,24 @@ const GradedReading = (function() {
     popover.className = 'graded-token-popover';
 
     const srsStatus = getTokenSrsStatus(token);
+    const displayStatus = srsStatus !== 'none' ? srsStatus : 'new';
     const statusLabel = srsStatus === 'mastered' ? '✓ Đã thuộc' : (srsStatus === 'learning' ? '⚡ Đang học' : '✨ Từ mới');
     const isAlreadyInSrs = srsStatus === 'mastered' || srsStatus === 'learning';
+
+    const hanviet = token.hanviet || (typeof getWordHanViet === 'function' ? getWordHanViet(token.text) : '');
+    let meaning = token.meaning_vi || '';
+    if (!meaning) {
+      if (hanviet) {
+        meaning = `Âm Hán-Việt: ${hanviet}`;
+      } else {
+        meaning = 'Chữ Hán trong bài đọc';
+      }
+    }
+
+    if (!token.word_id) {
+      const storyLvl = activeStory ? parseInt(activeStory.level.replace(/\D/g, '') || '1', 10) : 1;
+      token.word_id = `hsk${token.hsk || storyLvl}_${token.text.charCodeAt(0) + 10000}`;
+    }
 
     popover.innerHTML = `
       <div class="popover-header">
@@ -711,27 +784,25 @@ const GradedReading = (function() {
 
       <div class="popover-meta">
         ${token.hsk ? `<span class="popover-hsk-badge">HSK ${token.hsk}</span>` : ''}
-        <span class="popover-srs-status ${srsStatus}" id="popoverSrsBadge">${statusLabel}</span>
+        <span class="popover-srs-status ${displayStatus}" id="popoverSrsBadge">${statusLabel}</span>
       </div>
 
       <div class="popover-body">
         <div class="popover-row">
           <div class="popover-row-label">Nghĩa tiếng Việt</div>
-          <div class="popover-meaning">${token.meaning_vi || ''}</div>
+          <div class="popover-meaning">${meaning}</div>
         </div>
-        ${token.hanviet ? `
+        ${hanviet ? `
           <div class="popover-row">
             <div class="popover-row-label">Hán - Việt</div>
-            <div class="popover-hanviet">${token.hanviet}</div>
+            <div class="popover-hanviet">${hanviet}</div>
           </div>
         ` : ''}
       </div>
 
-      ${token.word_id ? `
-        <button type="button" class="popover-action-btn ${isAlreadyInSrs ? 'added' : ''}" id="popoverAddSrsBtn" onclick="GradedReading.triggerAddSrs()">
-          ${isAlreadyInSrs ? '✓ Đã có trong SRS hôm nay' : '+ Thêm vào hàng đợi SRS'}
-        </button>
-      ` : ''}
+      <button type="button" class="popover-action-btn ${isAlreadyInSrs ? 'added' : ''}" id="popoverAddSrsBtn" onclick="GradedReading.triggerAddSrs()">
+        ${isAlreadyInSrs ? '✓ Đã có trong SRS hôm nay' : '+ Thêm vào hàng đợi SRS'}
+      </button>
     `;
 
     document.body.appendChild(popover);

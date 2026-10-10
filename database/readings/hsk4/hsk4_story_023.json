@@ -21,19 +21,19 @@
       "tokens": [
         {
           "text": "中国",
-          "pinyin": "zhōngguó",
+          "pinyin": "Zhōngguó",
           "hanviet": "Trung Quốc",
-          "meaning_vi": "Trung Quốc",
+          "meaning_vi": "trung Quốc",
           "hsk": 1,
-          "word_id": "hsk1_143"
+          "word_id": "hsk1_610"
         },
         {
           "text": "饮食",
           "pinyin": "yǐnshí",
           "hanviet": "Ẩm Thực",
           "meaning_vi": "ăn uống",
-          "hsk": 6,
-          "word_id": "hsk6_2418"
+          "hsk": 5,
+          "word_id": "hsk5_1375"
         },
         {
           "text": "文化",
@@ -41,7 +41,7 @@
           "hanviet": "Văn Hóa",
           "meaning_vi": "văn hóa",
           "hsk": 3,
-          "word_id": "hsk3_232"
+          "word_id": "hsk3_957"
         },
         {
           "text": "博大精深",
@@ -68,13 +68,18 @@
           "hanviet": "Giảng Cứu",
           "meaning_vi": "chú trọng, cầu kỳ",
           "hsk": 5,
-          "word_id": "hsk5_887"
+          "word_id": "hsk5_582"
         },
         {
           "text": "‘"
         },
         {
-          "text": "色"
+          "text": "色",
+          "pinyin": "sè",
+          "hanviet": "Sắc",
+          "meaning_vi": "trắng (trong 白色)",
+          "hsk": 2,
+          "word_id": "hsk2_303"
         },
         {
           "text": "、"
@@ -85,7 +90,7 @@
           "hanviet": "Hương",
           "meaning_vi": "thơm",
           "hsk": 4,
-          "word_id": "hsk4_465"
+          "word_id": "hsk4_802"
         },
         {
           "text": "、"
@@ -102,13 +107,23 @@
           "text": "、"
         },
         {
-          "text": "形"
+          "text": "形",
+          "pinyin": "xíng",
+          "hanviet": "Hình",
+          "meaning_vi": "hình dáng bên ngoài, ngoại hình (trong 外形)",
+          "hsk": 5,
+          "word_id": "hsk5_1171"
         },
         {
           "text": "’"
         },
         {
-          "text": "俱"
+          "text": "俱",
+          "pinyin": "jù",
+          "hanviet": "Câu",
+          "meaning_vi": "câu lạc bộ (trong 俱乐部)",
+          "hsk": 5,
+          "word_id": "hsk5_906"
         },
         {
           "text": "全",
@@ -145,15 +160,15 @@
           "hanviet": "Tại",
           "meaning_vi": "ở, đang",
           "hsk": 1,
-          "word_id": "hsk1_139"
+          "word_id": "hsk1_390"
         },
         {
           "text": "生活",
           "pinyin": "shēnghuó",
           "hanviet": "Sinh Hoạt",
           "meaning_vi": "sinh hoạt, cuộc sống",
-          "hsk": 4,
-          "word_id": "hsk4_375"
+          "hsk": 3,
+          "word_id": "hsk3_911"
         },
         {
           "text": "水平",
@@ -161,7 +176,7 @@
           "hanviet": "Thuỷ Bình",
           "meaning_vi": "trình độ",
           "hsk": 3,
-          "word_id": "hsk3_210"
+          "word_id": "hsk3_926"
         },
         {
           "text": "显著",
@@ -169,7 +184,7 @@
           "hanviet": "Hiển Trước",
           "meaning_vi": "rõ rệt, nổi bật",
           "hsk": 6,
-          "word_id": "hsk6_2201"
+          "word_id": "hsk6_1425"
         },
         {
           "text": "提高",
@@ -177,7 +192,7 @@
           "hanviet": "Đề Cao",
           "meaning_vi": "nâng cao",
           "hsk": 3,
-          "word_id": "hsk3_215"
+          "word_id": "hsk3_575"
         },
         {
           "text": "的",
@@ -185,7 +200,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "今天",
@@ -193,7 +208,7 @@
           "hanviet": "Kim Thiên",
           "meaning_vi": "hôm nay",
           "hsk": 1,
-          "word_id": "hsk1_47"
+          "word_id": "hsk1_144"
         },
         {
           "text": "，"
@@ -204,7 +219,7 @@
           "hanviet": "Nhân",
           "meaning_vi": "người",
           "hsk": 1,
-          "word_id": "hsk1_85"
+          "word_id": "hsk1_243"
         },
         {
           "text": "们",
@@ -220,7 +235,7 @@
           "hanviet": "Bất Cận",
           "meaning_vi": "không chỉ",
           "hsk": 4,
-          "word_id": "hsk4_31"
+          "word_id": "hsk4_55"
         },
         {
           "text": "追求",
@@ -228,7 +243,7 @@
           "hanviet": "Truy Cầu",
           "meaning_vi": "theo đuổi",
           "hsk": 5,
-          "word_id": "hsk5_1280"
+          "word_id": "hsk5_1566"
         },
         {
           "text": "美味",
@@ -263,7 +278,7 @@
           "hanviet": "Dinh Dưỡng",
           "meaning_vi": "dinh dưỡng",
           "hsk": 5,
-          "word_id": "hsk5_558"
+          "word_id": "hsk5_1380"
         },
         {
           "text": "均衡",
@@ -279,7 +294,7 @@
           "hanviet": "Dư",
           "meaning_vi": "và, với",
           "hsk": 4,
-          "word_id": "hsk4_535"
+          "word_id": "hsk4_897"
         },
         {
           "text": "健康",
@@ -287,7 +302,7 @@
           "hanviet": "Kiện Khang",
           "meaning_vi": "khỏe mạnh, sức khỏe",
           "hsk": 3,
-          "word_id": "hsk3_115"
+          "word_id": "hsk3_787"
         },
         {
           "text": "。"
@@ -311,7 +326,12 @@
           "word_id": "hsk5_454"
         },
         {
-          "text": "摄"
+          "text": "摄",
+          "pinyin": "shè",
+          "hanviet": "Nhiếp",
+          "meaning_vi": "bắn (trong 拍摄)",
+          "hsk": 5,
+          "word_id": "hsk5_810"
         },
         {
           "text": "入",
@@ -327,7 +347,7 @@
           "hanviet": "Cao",
           "meaning_vi": "cao",
           "hsk": 2,
-          "word_id": "hsk2_29"
+          "word_id": "hsk2_341"
         },
         {
           "text": "油",
@@ -346,7 +366,7 @@
           "hanviet": "Cao",
           "meaning_vi": "cao",
           "hsk": 2,
-          "word_id": "hsk2_29"
+          "word_id": "hsk2_341"
         },
         {
           "text": "盐",
@@ -354,7 +374,7 @@
           "hanviet": "Diêm",
           "meaning_vi": "muối",
           "hsk": 4,
-          "word_id": "hsk4_495"
+          "word_id": "hsk4_844"
         },
         {
           "text": "和",
@@ -370,15 +390,15 @@
           "hanviet": "Cao",
           "meaning_vi": "cao",
           "hsk": 2,
-          "word_id": "hsk2_29"
+          "word_id": "hsk2_341"
         },
         {
           "text": "糖",
           "pinyin": "táng",
           "hanviet": "Đường",
           "meaning_vi": "đường, kẹo",
-          "hsk": 4,
-          "word_id": "hsk4_424"
+          "hsk": 3,
+          "word_id": "hsk3_930"
         },
         {
           "text": "的",
@@ -386,15 +406,15 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "食物",
           "pinyin": "shíwù",
           "hanviet": "Thực Vật",
           "meaning_vi": "thức ăn, thực phẩm",
-          "hsk": 5,
-          "word_id": "hsk5_1071"
+          "hsk": 4,
+          "word_id": "hsk4_663"
         },
         {
           "text": "，"
@@ -405,7 +425,7 @@
           "hanviet": "Dung Dịch",
           "meaning_vi": "dễ dàng",
           "hsk": 3,
-          "word_id": "hsk3_195"
+          "word_id": "hsk3_900"
         },
         {
           "text": "引起",
@@ -413,7 +433,7 @@
           "hanviet": "Dẫn Khởi",
           "meaning_vi": "gây ra, dẫn đến",
           "hsk": 4,
-          "word_id": "hsk4_517"
+          "word_id": "hsk4_872"
         },
         {
           "text": "肥胖",
@@ -474,7 +494,7 @@
           "hanviet": "Dinh Dưỡng",
           "meaning_vi": "dinh dưỡng",
           "hsk": 5,
-          "word_id": "hsk5_558"
+          "word_id": "hsk5_1380"
         },
         {
           "text": "学",
@@ -490,7 +510,7 @@
           "hanviet": "Gia",
           "meaning_vi": "nhà",
           "hsk": 1,
-          "word_id": "hsk1_45"
+          "word_id": "hsk1_135"
         },
         {
           "text": "建议",
@@ -498,7 +518,7 @@
           "hanviet": "Kiến Nghị",
           "meaning_vi": "đề nghị, gợi ý",
           "hsk": 4,
-          "word_id": "hsk4_206"
+          "word_id": "hsk4_354"
         },
         {
           "text": "，"
@@ -508,8 +528,8 @@
           "pinyin": "rìcháng",
           "hanviet": "Nhật Thường",
           "meaning_vi": "thường ngày, hàng ngày",
-          "hsk": 5,
-          "word_id": "hsk5_1034"
+          "hsk": 4,
+          "word_id": "hsk4_618"
         },
         {
           "text": "膳食",
@@ -533,7 +553,7 @@
           "hanviet": "Đa",
           "meaning_vi": "nhiều",
           "hsk": 1,
-          "word_id": "hsk1_24"
+          "word_id": "hsk1_80"
         },
         {
           "text": "吃",
@@ -541,7 +561,7 @@
           "hanviet": "Cật",
           "meaning_vi": "ăn",
           "hsk": 1,
-          "word_id": "hsk1_11"
+          "word_id": "hsk1_39"
         },
         {
           "text": "新鲜",
@@ -549,7 +569,7 @@
           "hanviet": "Tân Tiên",
           "meaning_vi": "tươi mới",
           "hsk": 3,
-          "word_id": "hsk3_246"
+          "word_id": "hsk3_984"
         },
         {
           "text": "蔬菜",
@@ -557,7 +577,7 @@
           "hanviet": "Sơ Thái",
           "meaning_vi": "rau xanh",
           "hsk": 5,
-          "word_id": "hsk5_1079"
+          "word_id": "hsk5_1055"
         },
         {
           "text": "、"
@@ -568,7 +588,7 @@
           "hanviet": "Thuỷ Quả",
           "meaning_vi": "trái cây",
           "hsk": 1,
-          "word_id": "hsk1_99"
+          "word_id": "hsk1_278"
         },
         {
           "text": "以及",
@@ -576,7 +596,7 @@
           "hanviet": "Dĩ Cập",
           "meaning_vi": "cùng với, và",
           "hsk": 5,
-          "word_id": "hsk5_1202"
+          "word_id": "hsk5_1363"
         },
         {
           "text": "粗",
@@ -587,7 +607,12 @@
           "word_id": "hsk4_105"
         },
         {
-          "text": "粮"
+          "text": "粮",
+          "pinyin": "liáng",
+          "hanviet": "Lương",
+          "meaning_vi": "lương thực, ngũ cốc (trong 粮食)",
+          "hsk": 5,
+          "word_id": "hsk5_718"
         },
         {
           "text": "杂",
@@ -598,7 +623,12 @@
           "word_id": "hsk6_1638"
         },
         {
-          "text": "粮"
+          "text": "粮",
+          "pinyin": "liáng",
+          "hanviet": "Lương",
+          "meaning_vi": "lương thực, ngũ cốc (trong 粮食)",
+          "hsk": 5,
+          "word_id": "hsk5_718"
         },
         {
           "text": "。"
@@ -619,7 +649,7 @@
           "hanviet": "Bảo Chứng",
           "meaning_vi": "đảm bảo",
           "hsk": 4,
-          "word_id": "hsk4_10"
+          "word_id": "hsk4_15"
         },
         {
           "text": "优质",
@@ -635,7 +665,7 @@
           "hanviet": "Đản Bạch Chất",
           "meaning_vi": "protein",
           "hsk": 6,
-          "word_id": "hsk6_570"
+          "word_id": "hsk6_265"
         },
         {
           "text": "的",
@@ -643,7 +673,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "合理",
@@ -651,10 +681,15 @@
           "hanviet": "Hợp Lí/hợp Lý",
           "meaning_vi": "hợp lý",
           "hsk": 5,
-          "word_id": "hsk5_188"
+          "word_id": "hsk5_477"
         },
         {
-          "text": "摄"
+          "text": "摄",
+          "pinyin": "shè",
+          "hanviet": "Nhiếp",
+          "meaning_vi": "bắn (trong 拍摄)",
+          "hsk": 5,
+          "word_id": "hsk5_810"
         },
         {
           "text": "入",
@@ -673,7 +708,7 @@
           "hanviet": "Đáp Phối",
           "meaning_vi": "kết hợp, phối hợp",
           "hsk": 6,
-          "word_id": "hsk6_515"
+          "word_id": "hsk6_234"
         },
         {
           "text": "适量",
@@ -684,7 +719,12 @@
           "word_id": "hsk7_3700"
         },
         {
-          "text": "饮"
+          "text": "饮",
+          "pinyin": "yǐn",
+          "hanviet": "Ẩm",
+          "meaning_vi": "đồ uống (trong 饮料)",
+          "hsk": 3,
+          "word_id": "hsk3_1017"
         },
         {
           "text": "水",
@@ -692,7 +732,7 @@
           "hanviet": "Thuỷ",
           "meaning_vi": "nước",
           "hsk": 1,
-          "word_id": "hsk1_98"
+          "word_id": "hsk1_277"
         },
         {
           "text": "，"
@@ -727,7 +767,7 @@
           "hanviet": "Miễn Dịch",
           "meaning_vi": "miễn dịch",
           "hsk": 6,
-          "word_id": "hsk6_1494"
+          "word_id": "hsk6_910"
         },
         {
           "text": "力",
@@ -756,7 +796,7 @@
           "hanviet": "Khoa Học",
           "meaning_vi": "khoa học",
           "hsk": 4,
-          "word_id": "hsk4_252"
+          "word_id": "hsk4_426"
         },
         {
           "text": "健康",
@@ -764,7 +804,7 @@
           "hanviet": "Kiện Khang",
           "meaning_vi": "khỏe mạnh, sức khỏe",
           "hsk": 3,
-          "word_id": "hsk3_115"
+          "word_id": "hsk3_787"
         },
         {
           "text": "的",
@@ -772,15 +812,15 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "饮食",
           "pinyin": "yǐnshí",
           "hanviet": "Ẩm Thực",
           "meaning_vi": "ăn uống",
-          "hsk": 6,
-          "word_id": "hsk6_2418"
+          "hsk": 5,
+          "word_id": "hsk5_1375"
         },
         {
           "text": "理念",
@@ -807,7 +847,7 @@
           "hanviet": "Vi",
           "meaning_vi": "vì, cho",
           "hsk": 3,
-          "word_id": "hsk3_229"
+          "word_id": "hsk3_954"
         },
         {
           "text": "我们",
@@ -815,7 +855,7 @@
           "hanviet": "Ngã Môn",
           "meaning_vi": "chúng tôi, chúng ta",
           "hsk": 1,
-          "word_id": "hsk1_112"
+          "word_id": "hsk1_320"
         },
         {
           "text": "的",
@@ -823,7 +863,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "长寿",
@@ -839,7 +879,7 @@
           "hanviet": "Dư",
           "meaning_vi": "và, với",
           "hsk": 4,
-          "word_id": "hsk4_535"
+          "word_id": "hsk4_897"
         },
         {
           "text": "高",
@@ -847,23 +887,23 @@
           "hanviet": "Cao",
           "meaning_vi": "cao",
           "hsk": 2,
-          "word_id": "hsk2_29"
+          "word_id": "hsk2_341"
         },
         {
           "text": "品质",
           "pinyin": "pǐnzhì",
           "hanviet": "Phẩm Chất",
           "meaning_vi": "phẩm chất, chất lượng",
-          "hsk": 6,
-          "word_id": "hsk6_1615"
+          "hsk": 5,
+          "word_id": "hsk5_834"
         },
         {
           "text": "生活",
           "pinyin": "shēnghuó",
           "hanviet": "Sinh Hoạt",
           "meaning_vi": "sinh hoạt, cuộc sống",
-          "hsk": 4,
-          "word_id": "hsk4_375"
+          "hsk": 3,
+          "word_id": "hsk3_911"
         },
         {
           "text": "奠定",
@@ -887,7 +927,7 @@
           "hanviet": "Cơ Sở",
           "meaning_vi": "cơ sở, nền tảng",
           "hsk": 4,
-          "word_id": "hsk4_186"
+          "word_id": "hsk4_321"
         },
         {
           "text": "。"
@@ -896,21 +936,21 @@
     }
   ],
   "vocabulary_spotlight": [
-    "hsk1_143",
-    "hsk6_2418",
-    "hsk3_232",
+    "hsk1_610",
+    "hsk5_1375",
+    "hsk3_957",
     "hsk6_188",
     "hsk6_2222",
-    "hsk5_887",
-    "hsk4_465",
+    "hsk5_582",
+    "hsk2_303",
+    "hsk4_802",
     "hsk4_772",
+    "hsk5_1171",
+    "hsk5_906",
     "hsk4_598",
     "hsk2_330",
-    "hsk1_139",
-    "hsk4_375",
-    "hsk3_210",
-    "hsk6_2201",
-    "hsk3_215"
+    "hsk1_390",
+    "hsk3_911"
   ],
   "quiz": [
     {

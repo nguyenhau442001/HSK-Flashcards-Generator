@@ -25,7 +25,7 @@
           "hanviet": "Gia",
           "meaning_vi": "nhà",
           "hsk": 1,
-          "word_id": "hsk1_45"
+          "word_id": "hsk1_135"
         },
         {
           "text": "里",
@@ -33,7 +33,7 @@
           "hanviet": "Lý",
           "meaning_vi": "bên trong",
           "hsk": 1,
-          "word_id": "hsk1_57"
+          "word_id": "hsk1_536"
         },
         {
           "text": "有",
@@ -41,7 +41,7 @@
           "hanviet": "Hữu",
           "meaning_vi": "có",
           "hsk": 1,
-          "word_id": "hsk1_136"
+          "word_id": "hsk1_380"
         },
         {
           "text": "一",
@@ -49,23 +49,23 @@
           "hanviet": "Nhất",
           "meaning_vi": "một",
           "hsk": 1,
-          "word_id": "hsk1_130"
+          "word_id": "hsk1_360"
         },
         {
           "text": "只",
           "pinyin": "zhī",
-          "hanviet": "Chỉ",
-          "meaning_vi": "con, chiếc, cái (lượng từ: 一只猫)",
-          "hsk": 1,
+          "hanviet": "Chích",
+          "meaning_vi": "con, cái, chiếc (lượng từ)",
+          "hsk": 2,
           "word_id": "hsk1_609"
         },
         {
           "text": "可爱",
-          "pinyin": "kě'ài",
+          "pinyin": "kě’ài",
           "hanviet": "Khả Ái",
           "meaning_vi": "đáng yêu",
           "hsk": 3,
-          "word_id": "hsk3_137"
+          "word_id": "hsk3_816"
         },
         {
           "text": "的",
@@ -73,7 +73,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "小",
@@ -81,10 +81,15 @@
           "hanviet": "Tiểu",
           "meaning_vi": "nhỏ",
           "hsk": 1,
-          "word_id": "hsk1_121"
+          "word_id": "hsk1_337"
         },
         {
-          "text": "花"
+          "text": "花",
+          "pinyin": "huā",
+          "hanviet": "Hoa",
+          "meaning_vi": "hoa (trong 花¹)",
+          "hsk": 2,
+          "word_id": "hsk2_357"
         },
         {
           "text": "猫",
@@ -92,7 +97,7 @@
           "hanviet": "Miêu",
           "meaning_vi": "con mèo",
           "hsk": 1,
-          "word_id": "hsk1_62"
+          "word_id": "hsk1_194"
         },
         {
           "text": "。"
@@ -112,8 +117,8 @@
           "pinyin": "tā",
           "hanviet": "Tha",
           "meaning_vi": "nó (vật, con vật)",
-          "hsk": 2,
-          "word_id": "hsk2_101"
+          "hsk": 1,
+          "word_id": "hsk1_569"
         },
         {
           "text": "最",
@@ -121,7 +126,7 @@
           "hanviet": "Tối",
           "meaning_vi": "nhất",
           "hsk": 2,
-          "word_id": "hsk2_149"
+          "word_id": "hsk2_498"
         },
         {
           "text": "喜欢",
@@ -129,7 +134,7 @@
           "hanviet": "Hỷ Hoan",
           "meaning_vi": "thích",
           "hsk": 1,
-          "word_id": "hsk1_114"
+          "word_id": "hsk1_327"
         },
         {
           "text": "呆",
@@ -145,7 +150,7 @@
           "hanviet": "Tại",
           "meaning_vi": "ở, đang",
           "hsk": 1,
-          "word_id": "hsk1_139"
+          "word_id": "hsk1_390"
         },
         {
           "text": "椅子",
@@ -153,7 +158,7 @@
           "hanviet": "Ỷ Tử",
           "meaning_vi": "cái ghế",
           "hsk": 1,
-          "word_id": "hsk1_135"
+          "word_id": "hsk1_594"
         },
         {
           "text": "下面",
@@ -182,7 +187,7 @@
           "hanviet": "Ỷ Tử",
           "meaning_vi": "cái ghế",
           "hsk": 1,
-          "word_id": "hsk1_135"
+          "word_id": "hsk1_594"
         },
         {
           "text": "下面",
@@ -198,7 +203,7 @@
           "hanviet": "Hựu",
           "meaning_vi": "lại (lần nữa)",
           "hsk": 3,
-          "word_id": "hsk3_270"
+          "word_id": "hsk3_1028"
         },
         {
           "text": "暖和",
@@ -206,7 +211,7 @@
           "hanviet": "Noãn Hoà",
           "meaning_vi": "ấm áp",
           "hsk": 4,
-          "word_id": "hsk4_319"
+          "word_id": "hsk4_540"
         },
         {
           "text": "又",
@@ -214,7 +219,7 @@
           "hanviet": "Hựu",
           "meaning_vi": "lại (lần nữa)",
           "hsk": 3,
-          "word_id": "hsk3_270"
+          "word_id": "hsk3_1028"
         },
         {
           "text": "安静",
@@ -222,7 +227,7 @@
           "hanviet": "An Tĩnh",
           "meaning_vi": "yên tĩnh",
           "hsk": 3,
-          "word_id": "hsk3_5"
+          "word_id": "hsk3_604"
         },
         {
           "text": "。"
@@ -246,15 +251,20 @@
           "word_id": "hsk2_480"
         },
         {
-          "text": "候"
+          "text": "候",
+          "pinyin": "hòu",
+          "hanviet": "Hậu",
+          "meaning_vi": "lúc, thời điểm (trong 时候)",
+          "hsk": 1,
+          "word_id": "hsk1_262"
         },
         {
           "text": "它",
           "pinyin": "tā",
           "hanviet": "Tha",
           "meaning_vi": "nó (vật, con vật)",
-          "hsk": 2,
-          "word_id": "hsk2_101"
+          "hsk": 1,
+          "word_id": "hsk1_569"
         },
         {
           "text": "在",
@@ -262,7 +272,7 @@
           "hanviet": "Tại",
           "meaning_vi": "ở, đang",
           "hsk": 1,
-          "word_id": "hsk1_139"
+          "word_id": "hsk1_390"
         },
         {
           "text": "椅子",
@@ -270,7 +280,7 @@
           "hanviet": "Ỷ Tử",
           "meaning_vi": "cái ghế",
           "hsk": 1,
-          "word_id": "hsk1_135"
+          "word_id": "hsk1_594"
         },
         {
           "text": "下面",
@@ -285,8 +295,8 @@
           "pinyin": "wán",
           "hanviet": "Ngoạn",
           "meaning_vi": "chơi",
-          "hsk": 2,
-          "word_id": "hsk2_107"
+          "hsk": 1,
+          "word_id": "hsk1_577"
         },
         {
           "text": "线",
@@ -302,7 +312,7 @@
           "hanviet": "Đoàn",
           "meaning_vi": "đoàn, nhóm",
           "hsk": 5,
-          "word_id": "hsk5_1116"
+          "word_id": "hsk5_1156"
         },
         {
           "text": "。"
@@ -323,15 +333,15 @@
           "hanviet": "Khán",
           "meaning_vi": "nhìn, xem",
           "hsk": 1,
-          "word_id": "hsk1_50"
+          "word_id": "hsk1_155"
         },
         {
           "text": "它",
           "pinyin": "tā",
           "hanviet": "Tha",
           "meaning_vi": "nó (vật, con vật)",
-          "hsk": 2,
-          "word_id": "hsk2_101"
+          "hsk": 1,
+          "word_id": "hsk1_569"
         },
         {
           "text": "安静",
@@ -339,7 +349,7 @@
           "hanviet": "An Tĩnh",
           "meaning_vi": "yên tĩnh",
           "hsk": 3,
-          "word_id": "hsk3_5"
+          "word_id": "hsk3_604"
         },
         {
           "text": "的",
@@ -347,7 +357,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "样子",
@@ -355,7 +365,7 @@
           "hanviet": "Dạng Tử",
           "meaning_vi": "dáng vẻ, hình dạng",
           "hsk": 4,
-          "word_id": "hsk4_504"
+          "word_id": "hsk4_857"
         },
         {
           "text": "，"
@@ -365,8 +375,8 @@
           "pinyin": "zhēn",
           "hanviet": "Chân",
           "meaning_vi": "thật, thực sự",
-          "hsk": 2,
-          "word_id": "hsk2_144"
+          "hsk": 1,
+          "word_id": "hsk1_403"
         },
         {
           "text": "讨",
@@ -382,7 +392,7 @@
           "hanviet": "Nhân",
           "meaning_vi": "người",
           "hsk": 1,
-          "word_id": "hsk1_85"
+          "word_id": "hsk1_243"
         },
         {
           "text": "喜欢",
@@ -390,7 +400,7 @@
           "hanviet": "Hỷ Hoan",
           "meaning_vi": "thích",
           "hsk": 1,
-          "word_id": "hsk1_114"
+          "word_id": "hsk1_327"
         },
         {
           "text": "。"
@@ -399,21 +409,21 @@
     }
   ],
   "vocabulary_spotlight": [
-    "hsk1_45",
-    "hsk1_57",
-    "hsk1_136",
-    "hsk1_130",
+    "hsk1_135",
+    "hsk1_536",
+    "hsk1_380",
+    "hsk1_360",
     "hsk1_609",
-    "hsk3_137",
-    "hsk1_15",
-    "hsk1_121",
-    "hsk1_62",
-    "hsk2_101",
-    "hsk2_149",
-    "hsk1_114",
+    "hsk3_816",
+    "hsk1_60",
+    "hsk1_337",
+    "hsk2_357",
+    "hsk1_194",
+    "hsk1_569",
+    "hsk2_498",
+    "hsk1_327",
     "hsk5_731",
-    "hsk1_139",
-    "hsk1_135"
+    "hsk1_390"
   ],
   "quiz": [
     {

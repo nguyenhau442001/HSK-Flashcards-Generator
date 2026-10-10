@@ -25,7 +25,7 @@
           "hanviet": "Kim Thiên",
           "meaning_vi": "hôm nay",
           "hsk": 1,
-          "word_id": "hsk1_47"
+          "word_id": "hsk1_144"
         },
         {
           "text": "周末",
@@ -33,7 +33,7 @@
           "hanviet": "Chu Mạt",
           "meaning_vi": "cuối tuần",
           "hsk": 3,
-          "word_id": "hsk3_291"
+          "word_id": "hsk3_1065"
         },
         {
           "text": "，"
@@ -44,7 +44,7 @@
           "hanviet": "Ma Ma",
           "meaning_vi": "mẹ",
           "hsk": 1,
-          "word_id": "hsk1_60"
+          "word_id": "hsk1_187"
         },
         {
           "text": "在",
@@ -52,23 +52,23 @@
           "hanviet": "Tại",
           "meaning_vi": "ở, đang",
           "hsk": 1,
-          "word_id": "hsk1_139"
+          "word_id": "hsk1_390"
         },
         {
           "text": "卫生间",
           "pinyin": "wèishēngjiān",
           "hanviet": "Vệ Sinh Gian",
           "meaning_vi": "nhà vệ sinh",
-          "hsk": 4,
-          "word_id": "hsk4_452"
+          "hsk": 3,
+          "word_id": "hsk3_956"
         },
         {
           "text": "教",
           "pinyin": "jiāo",
           "hanviet": "Giáo",
           "meaning_vi": "dạy",
-          "hsk": 3,
-          "word_id": "hsk3_118"
+          "hsk": 2,
+          "word_id": "hsk2_367"
         },
         {
           "text": "我",
@@ -76,7 +76,7 @@
           "hanviet": "Ngã",
           "meaning_vi": "tôi",
           "hsk": 1,
-          "word_id": "hsk1_111"
+          "word_id": "hsk1_319"
         },
         {
           "text": "怎么",
@@ -84,7 +84,7 @@
           "hanviet": "Chẩm Ma",
           "meaning_vi": "thế nào, sao",
           "hsk": 1,
-          "word_id": "hsk1_140"
+          "word_id": "hsk1_394"
         },
         {
           "text": "正确",
@@ -92,7 +92,7 @@
           "hanviet": "Chính Xác",
           "meaning_vi": "chính xác, đúng đắn",
           "hsk": 4,
-          "word_id": "hsk4_560"
+          "word_id": "hsk4_936"
         },
         {
           "text": "洗",
@@ -100,7 +100,7 @@
           "hanviet": "Tẩy",
           "meaning_vi": "rửa, tắm giặt",
           "hsk": 2,
-          "word_id": "hsk2_115"
+          "word_id": "hsk2_456"
         },
         {
           "text": "衣服",
@@ -108,7 +108,7 @@
           "hanviet": "Y Phục",
           "meaning_vi": "quần áo",
           "hsk": 1,
-          "word_id": "hsk1_134"
+          "word_id": "hsk1_365"
         },
         {
           "text": "。"
@@ -129,7 +129,7 @@
           "hanviet": "Ma Ma",
           "meaning_vi": "mẹ",
           "hsk": 1,
-          "word_id": "hsk1_60"
+          "word_id": "hsk1_187"
         },
         {
           "text": "说",
@@ -137,7 +137,7 @@
           "hanviet": "Thuyết",
           "meaning_vi": "nói",
           "hsk": 1,
-          "word_id": "hsk1_101"
+          "word_id": "hsk1_280"
         },
         {
           "text": "："
@@ -151,7 +151,7 @@
           "hanviet": "Tẩy",
           "meaning_vi": "rửa, tắm giặt",
           "hsk": 2,
-          "word_id": "hsk2_115"
+          "word_id": "hsk2_456"
         },
         {
           "text": "衣服",
@@ -159,7 +159,7 @@
           "hanviet": "Y Phục",
           "meaning_vi": "quần áo",
           "hsk": 1,
-          "word_id": "hsk1_134"
+          "word_id": "hsk1_365"
         },
         {
           "text": "前",
@@ -174,8 +174,8 @@
           "pinyin": "yào",
           "hanviet": "Yêu",
           "meaning_vi": "muốn, cần",
-          "hsk": 2,
-          "word_id": "hsk2_126"
+          "hsk": 1,
+          "word_id": "hsk1_357"
         },
         {
           "text": "先",
@@ -183,15 +183,15 @@
           "hanviet": "Tiên",
           "meaning_vi": "trước",
           "hsk": 3,
-          "word_id": "hsk3_238"
+          "word_id": "hsk3_969"
         },
         {
           "text": "把",
           "pinyin": "bǎ",
           "hanviet": "Bả",
-          "meaning_vi": "cái, chiếc (lượng từ); cầm, nắm",
+          "meaning_vi": "cái, chiếc, nắm (lượng từ)",
           "hsk": 3,
-          "word_id": "hsk3_6"
+          "word_id": "hsk3_606"
         },
         {
           "text": "浅",
@@ -199,10 +199,15 @@
           "hanviet": "Tiên",
           "meaning_vi": "cạn, nông",
           "hsk": 5,
-          "word_id": "hsk5_363"
+          "word_id": "hsk5_867"
         },
         {
-          "text": "色"
+          "text": "色",
+          "pinyin": "sè",
+          "hanviet": "Sắc",
+          "meaning_vi": "trắng (trong 白色)",
+          "hsk": 2,
+          "word_id": "hsk2_303"
         },
         {
           "text": "和",
@@ -218,10 +223,15 @@
           "hanviet": "Thâm",
           "meaning_vi": "sâu",
           "hsk": 4,
-          "word_id": "hsk4_372"
+          "word_id": "hsk4_642"
         },
         {
-          "text": "色"
+          "text": "色",
+          "pinyin": "sè",
+          "hanviet": "Sắc",
+          "meaning_vi": "trắng (trong 白色)",
+          "hsk": 2,
+          "word_id": "hsk2_303"
         },
         {
           "text": "衣服",
@@ -229,7 +239,7 @@
           "hanviet": "Y Phục",
           "meaning_vi": "quần áo",
           "hsk": 1,
-          "word_id": "hsk1_134"
+          "word_id": "hsk1_365"
         },
         {
           "text": "分开",
@@ -261,7 +271,7 @@
           "hanviet": "Tại",
           "meaning_vi": "ở, đang",
           "hsk": 1,
-          "word_id": "hsk1_139"
+          "word_id": "hsk1_390"
         },
         {
           "text": "领",
@@ -276,8 +286,8 @@
           "pinyin": "kǒu",
           "hanviet": "Khẩu",
           "meaning_vi": "miệng; cái (lượng từ)",
-          "hsk": 3,
-          "word_id": "hsk3_141"
+          "hsk": 1,
+          "word_id": "hsk1_164"
         },
         {
           "text": "和",
@@ -288,23 +298,28 @@
           "word_id": "hsk1_39"
         },
         {
-          "text": "袖"
+          "text": "袖",
+          "pinyin": "xiù",
+          "hanviet": "Tụ",
+          "meaning_vi": "tay áo (trong 袖子)",
+          "hsk": 6,
+          "word_id": "hsk6_1483"
         },
         {
           "text": "口",
           "pinyin": "kǒu",
           "hanviet": "Khẩu",
           "meaning_vi": "miệng; cái (lượng từ)",
-          "hsk": 3,
-          "word_id": "hsk3_141"
+          "hsk": 1,
+          "word_id": "hsk1_164"
         },
         {
           "text": "脏",
           "pinyin": "zāng",
           "hanviet": "Tang",
           "meaning_vi": "bẩn, dơ",
-          "hsk": 4,
-          "word_id": "hsk4_550"
+          "hsk": 3,
+          "word_id": "hsk3_1042"
         },
         {
           "text": "的",
@@ -312,7 +327,7 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "地方",
@@ -320,7 +335,7 @@
           "hanviet": "Địa Phương",
           "meaning_vi": "nơi, địa phương",
           "hsk": 3,
-          "word_id": "hsk3_48"
+          "word_id": "hsk3_688"
         },
         {
           "text": "，"
@@ -330,8 +345,8 @@
           "pinyin": "yào",
           "hanviet": "Yêu",
           "meaning_vi": "muốn, cần",
-          "hsk": 2,
-          "word_id": "hsk2_126"
+          "hsk": 1,
+          "word_id": "hsk1_357"
         },
         {
           "text": "多",
@@ -339,10 +354,15 @@
           "hanviet": "Đa",
           "meaning_vi": "nhiều",
           "hsk": 1,
-          "word_id": "hsk1_24"
+          "word_id": "hsk1_80"
         },
         {
-          "text": "打"
+          "text": "打",
+          "pinyin": "dǎ",
+          "hanviet": "Đả",
+          "meaning_vi": "đánh (trong 打¹)",
+          "hsk": 2,
+          "word_id": "hsk2_327"
         },
         {
           "text": "一点儿",
@@ -350,7 +370,7 @@
           "hanviet": "Nhất Điểm Nhân",
           "meaning_vi": "một chút",
           "hsk": 1,
-          "word_id": "hsk1_131"
+          "word_id": "hsk1_595"
         },
         {
           "text": "肥皂",
@@ -395,7 +415,7 @@
           "hanviet": "Dụng",
           "meaning_vi": "dùng",
           "hsk": 3,
-          "word_id": "hsk3_267"
+          "word_id": "hsk3_1020"
         },
         {
           "text": "清",
@@ -411,7 +431,7 @@
           "hanviet": "Thuỷ",
           "meaning_vi": "nước",
           "hsk": 1,
-          "word_id": "hsk1_98"
+          "word_id": "hsk1_277"
         },
         {
           "text": "漂",
@@ -427,7 +447,7 @@
           "hanviet": "Tẩy",
           "meaning_vi": "rửa, tắm giặt",
           "hsk": 2,
-          "word_id": "hsk2_115"
+          "word_id": "hsk2_456"
         },
         {
           "text": "两",
@@ -441,9 +461,9 @@
           "text": "遍",
           "pinyin": "biàn",
           "hanviet": "Biến",
-          "meaning_vi": "lần (lượt qua hết)",
-          "hsk": 4,
-          "word_id": "hsk4_19"
+          "meaning_vi": "lần, lượt (lượng từ)",
+          "hsk": 3,
+          "word_id": "hsk3_627"
         },
         {
           "text": "后",
@@ -462,7 +482,7 @@
           "hanviet": "Y Phục",
           "meaning_vi": "quần áo",
           "hsk": 1,
-          "word_id": "hsk1_134"
+          "word_id": "hsk1_365"
         },
         {
           "text": "变",
@@ -478,15 +498,15 @@
           "hanviet": "Đắc",
           "meaning_vi": "được (trợ từ)",
           "hsk": 2,
-          "word_id": "hsk2_19"
+          "word_id": "hsk2_332"
         },
         {
           "text": "干",
-          "pinyin": "gān",
+          "pinyin": "gàn",
           "hanviet": "Can",
-          "meaning_vi": "khô",
-          "hsk": 4,
-          "word_id": "hsk4_136"
+          "meaning_vi": "làm (việc)",
+          "hsk": 3,
+          "word_id": "hsk3_732"
         },
         {
           "text": "干净",
@@ -494,7 +514,7 @@
           "hanviet": "Can Tịnh",
           "meaning_vi": "sạch sẽ",
           "hsk": 3,
-          "word_id": "hsk3_72"
+          "word_id": "hsk3_728"
         },
         {
           "text": "净",
@@ -512,16 +532,16 @@
           "pinyin": "wén",
           "hanviet": "Văn",
           "meaning_vi": "nghe, ngửi",
-          "hsk": 5,
-          "word_id": "hsk5_1136"
+          "hsk": 4,
+          "word_id": "hsk4_776"
         },
         {
           "text": "起来",
           "pinyin": "qǐlái",
           "hanviet": "Khởi Lai",
           "meaning_vi": "dậy, lên (chỉ hướng)",
-          "hsk": 3,
-          "word_id": "hsk3_185"
+          "hsk": 2,
+          "word_id": "hsk2_418"
         },
         {
           "text": "很",
@@ -529,7 +549,7 @@
           "hanviet": "Ngận",
           "meaning_vi": "rất",
           "hsk": 1,
-          "word_id": "hsk1_40"
+          "word_id": "hsk1_118"
         },
         {
           "text": "香",
@@ -537,7 +557,7 @@
           "hanviet": "Hương",
           "meaning_vi": "thơm",
           "hsk": 4,
-          "word_id": "hsk4_465"
+          "word_id": "hsk4_802"
         },
         {
           "text": "。"
@@ -565,8 +585,8 @@
           "pinyin": "zìjǐ",
           "hanviet": "Tự Kỷ",
           "meaning_vi": "tự mình, bản thân",
-          "hsk": 3,
-          "word_id": "hsk3_294"
+          "hsk": 2,
+          "word_id": "hsk2_494"
         },
         {
           "text": "洗",
@@ -574,7 +594,7 @@
           "hanviet": "Tẩy",
           "meaning_vi": "rửa, tắm giặt",
           "hsk": 2,
-          "word_id": "hsk2_115"
+          "word_id": "hsk2_456"
         },
         {
           "text": "衣服",
@@ -582,7 +602,7 @@
           "hanviet": "Y Phục",
           "meaning_vi": "quần áo",
           "hsk": 1,
-          "word_id": "hsk1_134"
+          "word_id": "hsk1_365"
         },
         {
           "text": "，"
@@ -593,23 +613,23 @@
           "hanviet": "Ngã",
           "meaning_vi": "tôi",
           "hsk": 1,
-          "word_id": "hsk1_111"
+          "word_id": "hsk1_319"
         },
         {
           "text": "觉得",
           "pinyin": "juéde",
           "hanviet": "Giác Đắc",
           "meaning_vi": "cảm thấy",
-          "hsk": 2,
-          "word_id": "hsk2_52"
+          "hsk": 1,
+          "word_id": "hsk1_151"
         },
         {
           "text": "自己",
           "pinyin": "zìjǐ",
           "hanviet": "Tự Kỷ",
           "meaning_vi": "tự mình, bản thân",
-          "hsk": 3,
-          "word_id": "hsk3_294"
+          "hsk": 2,
+          "word_id": "hsk2_494"
         },
         {
           "text": "又",
@@ -617,7 +637,7 @@
           "hanviet": "Hựu",
           "meaning_vi": "lại (lần nữa)",
           "hsk": 3,
-          "word_id": "hsk3_270"
+          "word_id": "hsk3_1028"
         },
         {
           "text": "长",
@@ -625,7 +645,7 @@
           "hanviet": "Trường",
           "meaning_vi": "dài",
           "hsk": 2,
-          "word_id": "hsk2_9"
+          "word_id": "hsk2_314"
         },
         {
           "text": "大",
@@ -633,7 +653,7 @@
           "hanviet": "Đại",
           "meaning_vi": "to, lớn",
           "hsk": 1,
-          "word_id": "hsk1_14"
+          "word_id": "hsk1_53"
         },
         {
           "text": "了",
@@ -641,7 +661,7 @@
           "hanviet": "Liễu",
           "meaning_vi": "rồi (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_55"
+          "word_id": "hsk1_535"
         },
         {
           "text": "一",
@@ -649,7 +669,7 @@
           "hanviet": "Nhất",
           "meaning_vi": "một",
           "hsk": 1,
-          "word_id": "hsk1_130"
+          "word_id": "hsk1_360"
         },
         {
           "text": "岁",
@@ -657,7 +677,7 @@
           "hanviet": "Tuế",
           "meaning_vi": "tuổi",
           "hsk": 1,
-          "word_id": "hsk1_103"
+          "word_id": "hsk1_284"
         },
         {
           "text": "。"
@@ -666,21 +686,21 @@
     }
   ],
   "vocabulary_spotlight": [
-    "hsk1_47",
-    "hsk3_291",
-    "hsk1_60",
-    "hsk1_139",
-    "hsk4_452",
-    "hsk3_118",
-    "hsk1_111",
-    "hsk1_140",
-    "hsk4_560",
-    "hsk2_115",
-    "hsk1_134",
-    "hsk1_101",
+    "hsk1_144",
+    "hsk3_1065",
+    "hsk1_187",
+    "hsk1_390",
+    "hsk3_956",
+    "hsk2_367",
+    "hsk1_319",
+    "hsk1_394",
+    "hsk4_936",
+    "hsk2_456",
+    "hsk1_365",
+    "hsk1_280",
     "hsk1_558",
-    "hsk2_126",
-    "hsk3_238"
+    "hsk1_357",
+    "hsk3_969"
   ],
   "quiz": [
     {

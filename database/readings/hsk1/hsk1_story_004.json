@@ -18,7 +18,12 @@
       "audio_end_ms": null,
       "tokens": [
         {
-          "text": "王"
+          "text": "王",
+          "pinyin": "wáng",
+          "hanviet": "Vương",
+          "meaning_vi": "quốc vương (trong 国王)",
+          "hsk": 5,
+          "word_id": "hsk5_835"
         },
         {
           "text": "老师",
@@ -26,7 +31,7 @@
           "hanviet": "Lão Sư",
           "meaning_vi": "thầy/cô giáo",
           "hsk": 1,
-          "word_id": "hsk1_54"
+          "word_id": "hsk1_534"
         },
         {
           "text": "是",
@@ -34,7 +39,7 @@
           "hanviet": "Thị",
           "meaning_vi": "là",
           "hsk": 1,
-          "word_id": "hsk1_96"
+          "word_id": "hsk1_266"
         },
         {
           "text": "我们",
@@ -42,7 +47,7 @@
           "hanviet": "Ngã Môn",
           "meaning_vi": "chúng tôi, chúng ta",
           "hsk": 1,
-          "word_id": "hsk1_112"
+          "word_id": "hsk1_320"
         },
         {
           "text": "的",
@@ -50,15 +55,15 @@
           "hanviet": "Đích",
           "meaning_vi": "của (trợ từ)",
           "hsk": 1,
-          "word_id": "hsk1_15"
+          "word_id": "hsk1_60"
         },
         {
           "text": "汉语",
-          "pinyin": "hànyǔ",
+          "pinyin": "Hànyǔ",
           "hanviet": "Hán Ngữ",
           "meaning_vi": "tiếng Hán, tiếng Trung",
           "hsk": 1,
-          "word_id": "hsk1_35"
+          "word_id": "hsk1_113"
         },
         {
           "text": "老师",
@@ -66,7 +71,7 @@
           "hanviet": "Lão Sư",
           "meaning_vi": "thầy/cô giáo",
           "hsk": 1,
-          "word_id": "hsk1_54"
+          "word_id": "hsk1_534"
         },
         {
           "text": "。"
@@ -87,7 +92,7 @@
           "hanviet": "Tha",
           "meaning_vi": "cô ấy",
           "hsk": 1,
-          "word_id": "hsk1_105"
+          "word_id": "hsk1_287"
         },
         {
           "text": "三",
@@ -95,7 +100,7 @@
           "hanviet": "Tam",
           "meaning_vi": "ba",
           "hsk": 1,
-          "word_id": "hsk1_87"
+          "word_id": "hsk1_249"
         },
         {
           "text": "十",
@@ -103,7 +108,7 @@
           "hanviet": "Thập",
           "meaning_vi": "mười",
           "hsk": 1,
-          "word_id": "hsk1_94"
+          "word_id": "hsk1_261"
         },
         {
           "text": "岁",
@@ -111,7 +116,7 @@
           "hanviet": "Tuế",
           "meaning_vi": "tuổi",
           "hsk": 1,
-          "word_id": "hsk1_103"
+          "word_id": "hsk1_284"
         },
         {
           "text": "，"
@@ -122,7 +127,7 @@
           "hanviet": "Nhân",
           "meaning_vi": "người",
           "hsk": 1,
-          "word_id": "hsk1_85"
+          "word_id": "hsk1_243"
         },
         {
           "text": "很",
@@ -130,7 +135,7 @@
           "hanviet": "Ngận",
           "meaning_vi": "rất",
           "hsk": 1,
-          "word_id": "hsk1_40"
+          "word_id": "hsk1_118"
         },
         {
           "text": "好",
@@ -138,7 +143,7 @@
           "hanviet": "Hảo",
           "meaning_vi": "tốt, được",
           "hsk": 1,
-          "word_id": "hsk1_36"
+          "word_id": "hsk1_114"
         },
         {
           "text": "。"
@@ -159,7 +164,7 @@
           "hanviet": "Học Hiệu",
           "meaning_vi": "trường học",
           "hsk": 1,
-          "word_id": "hsk1_129"
+          "word_id": "hsk1_353"
         },
         {
           "text": "里",
@@ -167,7 +172,7 @@
           "hanviet": "Lý",
           "meaning_vi": "bên trong",
           "hsk": 1,
-          "word_id": "hsk1_57"
+          "word_id": "hsk1_536"
         },
         {
           "text": "有",
@@ -175,7 +180,7 @@
           "hanviet": "Hữu",
           "meaning_vi": "có",
           "hsk": 1,
-          "word_id": "hsk1_136"
+          "word_id": "hsk1_380"
         },
         {
           "text": "很",
@@ -183,7 +188,7 @@
           "hanviet": "Ngận",
           "meaning_vi": "rất",
           "hsk": 1,
-          "word_id": "hsk1_40"
+          "word_id": "hsk1_118"
         },
         {
           "text": "多",
@@ -191,15 +196,15 @@
           "hanviet": "Đa",
           "meaning_vi": "nhiều",
           "hsk": 1,
-          "word_id": "hsk1_24"
+          "word_id": "hsk1_80"
         },
         {
           "text": "学生",
-          "pinyin": "xuésheng",
+          "pinyin": "xuéshēng",
           "hanviet": "Học Sinh",
           "meaning_vi": "học sinh",
           "hsk": 1,
-          "word_id": "hsk1_127"
+          "word_id": "hsk1_590"
         },
         {
           "text": "。"
@@ -220,7 +225,7 @@
           "hanviet": "Ngã Môn",
           "meaning_vi": "chúng tôi, chúng ta",
           "hsk": 1,
-          "word_id": "hsk1_112"
+          "word_id": "hsk1_320"
         },
         {
           "text": "在",
@@ -228,7 +233,7 @@
           "hanviet": "Tại",
           "meaning_vi": "ở, đang",
           "hsk": 1,
-          "word_id": "hsk1_139"
+          "word_id": "hsk1_390"
         },
         {
           "text": "学校",
@@ -236,7 +241,7 @@
           "hanviet": "Học Hiệu",
           "meaning_vi": "trường học",
           "hsk": 1,
-          "word_id": "hsk1_129"
+          "word_id": "hsk1_353"
         },
         {
           "text": "看",
@@ -244,7 +249,7 @@
           "hanviet": "Khán",
           "meaning_vi": "nhìn, xem",
           "hsk": 1,
-          "word_id": "hsk1_50"
+          "word_id": "hsk1_155"
         },
         {
           "text": "书",
@@ -252,7 +257,7 @@
           "hanviet": "Thư",
           "meaning_vi": "sách",
           "hsk": 1,
-          "word_id": "hsk1_97"
+          "word_id": "hsk1_271"
         },
         {
           "text": "，"
@@ -263,7 +268,7 @@
           "hanviet": "Tả",
           "meaning_vi": "viết",
           "hsk": 1,
-          "word_id": "hsk1_124"
+          "word_id": "hsk1_342"
         },
         {
           "text": "字",
@@ -271,7 +276,7 @@
           "hanviet": "Tự",
           "meaning_vi": "chữ",
           "hsk": 1,
-          "word_id": "hsk1_147"
+          "word_id": "hsk1_415"
         },
         {
           "text": "。"
@@ -288,11 +293,11 @@
       "tokens": [
         {
           "text": "学生",
-          "pinyin": "xuésheng",
+          "pinyin": "xuéshēng",
           "hanviet": "Học Sinh",
           "meaning_vi": "học sinh",
           "hsk": 1,
-          "word_id": "hsk1_127"
+          "word_id": "hsk1_590"
         },
         {
           "text": "们",
@@ -308,7 +313,7 @@
           "hanviet": "Đô",
           "meaning_vi": "đều",
           "hsk": 1,
-          "word_id": "hsk1_21"
+          "word_id": "hsk1_76"
         },
         {
           "text": "很",
@@ -316,7 +321,7 @@
           "hanviet": "Ngận",
           "meaning_vi": "rất",
           "hsk": 1,
-          "word_id": "hsk1_40"
+          "word_id": "hsk1_118"
         },
         {
           "text": "喜欢",
@@ -324,10 +329,15 @@
           "hanviet": "Hỷ Hoan",
           "meaning_vi": "thích",
           "hsk": 1,
-          "word_id": "hsk1_114"
+          "word_id": "hsk1_327"
         },
         {
-          "text": "王"
+          "text": "王",
+          "pinyin": "wáng",
+          "hanviet": "Vương",
+          "meaning_vi": "quốc vương (trong 国王)",
+          "hsk": 5,
+          "word_id": "hsk5_835"
         },
         {
           "text": "老师",
@@ -335,7 +345,7 @@
           "hanviet": "Lão Sư",
           "meaning_vi": "thầy/cô giáo",
           "hsk": 1,
-          "word_id": "hsk1_54"
+          "word_id": "hsk1_534"
         },
         {
           "text": "。"

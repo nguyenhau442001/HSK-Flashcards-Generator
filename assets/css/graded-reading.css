@@ -961,6 +961,13 @@ body.graded-pinyin-hidden .graded-sentence-zh {
   line-height: 1;
 }
 
+.graded-token-unit {
+  display: inline-flex;
+  align-items: flex-end;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
 .graded-punctuation {
   font-size: 1.45rem;
   line-height: 1.25;
@@ -968,7 +975,8 @@ body.graded-pinyin-hidden .graded-sentence-zh {
   user-select: none;
   display: inline-flex;
   align-items: flex-end;
-  padding: 0 1px 1px;
+  padding: 0 1px 1px 0;
+  margin-left: 0;
 }
 
 /* Sentence Translation */
