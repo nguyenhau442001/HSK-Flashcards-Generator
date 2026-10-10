@@ -13077,6 +13077,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/领先.svg",
     "caption": "dẫn đầu"
   },
+  "忙碌": {
+    "file": "忙碌.svg",
+    "src": "images/HSK_2.0/level6/忙碌.svg",
+    "caption": "bận rộn"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -14461,6 +14466,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "买卖.svg",
     "src": "images/HSK_3.0/level5/买卖.svg",
     "caption": "buôn bán, việc kinh doanh"
+  },
+  "毛笔": {
+    "file": "毛笔.svg",
+    "src": "images/HSK_3.0/level5/毛笔.svg",
+    "caption": "bút lông (viết thư pháp)"
+  },
+  "没法儿": {
+    "file": "没法儿.svg",
+    "src": "images/HSK_3.0/level5/没法儿.svg",
+    "caption": "hết cách, không có cách nào, không thể nào"
+  },
+  "玫瑰": {
+    "file": "玫瑰.svg",
+    "src": "images/HSK_3.0/level5/玫瑰.svg",
+    "caption": "hoa hồng"
+  },
+  "美味": {
+    "file": "美味.svg",
+    "src": "images/HSK_3.0/level5/美味.svg",
+    "caption": "món ngon; thơm ngon, mỹ vị"
+  },
+  "门诊": {
+    "file": "门诊.svg",
+    "src": "images/HSK_3.0/level5/门诊.svg",
+    "caption": "khám bệnh ngoại trú, phòng khám ngoại trú"
+  },
+  "迷": {
+    "file": "迷.svg",
+    "src": "images/HSK_3.0/level5/迷.svg",
+    "caption": "say mê; người hâm mộ; lạc (đường)"
+  },
+  "面²": {
+    "file": "面².svg",
+    "src": "images/HSK_3.0/level5/面².svg",
+    "caption": "mặt, phía, phương diện"
+  },
+  "面向": {
+    "file": "面向.svg",
+    "src": "images/HSK_3.0/level5/面向.svg",
+    "caption": "hướng tới, đối mặt; phục vụ cho"
+  },
+  "描述": {
+    "file": "描述.svg",
+    "src": "images/HSK_3.0/level5/描述.svg",
+    "caption": "mô tả, miêu tả"
   }
 };
 

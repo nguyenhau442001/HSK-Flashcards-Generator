@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:19:08.386911",
-  "total_unique_words_with_illustrations": 2832,
-  "total_flat_svg_files": 2832,
+  "generated_at": "2026-10-10T10:20:18.493566",
+  "total_unique_words_with_illustrations": 2842,
+  "total_flat_svg_files": 2842,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 522,
+        "with_svg": 523,
         "pct": "20.9%"
       }
     },
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1213,
-        "pct": "75.8%"
+        "with_svg": 1223,
+        "pct": "76.4%"
       },
       "level6": {
         "total": 1800,
@@ -47106,6 +47106,24 @@
         "images/HSK_3.0/level5/领先.svg"
       ]
     },
+    "忙碌": {
+      "hanzi": "忙碌",
+      "pinyin": "mánglù",
+      "meaning": "bận rộn",
+      "example_zh": "她每天都过着<u>忙碌</u>的生活。",
+      "example_vi": "Cô ấy ngày nào cũng sống cuộc sống <u>bận rộn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "忙碌.svg",
+      "src": "images/HSK_2.0/level6/忙碌.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/忙碌.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -50995,6 +51013,132 @@
       ],
       "file": "买卖.svg",
       "src": "images/HSK_3.0/level5/买卖.svg",
+      "alt_srcs": []
+    },
+    "毛笔": {
+      "hanzi": "毛笔",
+      "pinyin": "máobǐ",
+      "meaning": "bút lông (viết thư pháp)",
+      "example_zh": "写中国书法需要用<u>毛笔</u>。",
+      "example_vi": "Viết thư pháp Trung Quốc cần dùng <u>bút lông</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "毛笔.svg",
+      "src": "images/HSK_3.0/level5/毛笔.svg",
+      "alt_srcs": []
+    },
+    "没法儿": {
+      "hanzi": "没法儿",
+      "pinyin": "méifǎr",
+      "meaning": "hết cách, không có cách nào, không thể nào",
+      "example_zh": "今天雨太大了，我们<u>没法儿</u>出门。",
+      "example_vi": "Hôm nay mưa to quá, chúng tôi <u>không có cách nào</u> ra ngoài được.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "没法儿.svg",
+      "src": "images/HSK_3.0/level5/没法儿.svg",
+      "alt_srcs": []
+    },
+    "玫瑰": {
+      "hanzi": "玫瑰",
+      "pinyin": "méigui",
+      "meaning": "hoa hồng",
+      "example_zh": "情人节那天，他送了女朋友一束<u>玫瑰</u>。",
+      "example_vi": "Vào ngày lễ tình nhân, anh ấy đã tặng bạn gái một bó <u>hoa hồng</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "玫瑰.svg",
+      "src": "images/HSK_3.0/level5/玫瑰.svg",
+      "alt_srcs": []
+    },
+    "美味": {
+      "hanzi": "美味",
+      "pinyin": "měiwèi",
+      "meaning": "món ngon; thơm ngon, mỹ vị",
+      "example_zh": "妈妈做的菜非常<u>美味</u>。",
+      "example_vi": "Món mẹ nấu vô cùng <u>thơm ngon</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "美味.svg",
+      "src": "images/HSK_3.0/level5/美味.svg",
+      "alt_srcs": []
+    },
+    "门诊": {
+      "hanzi": "门诊",
+      "pinyin": "ménzhěn",
+      "meaning": "khám bệnh ngoại trú, phòng khám ngoại trú",
+      "example_zh": "今天去医院看<u>门诊</u>的人特别多。",
+      "example_vi": "Hôm nay số người đến bệnh viện khám <u>ngoại trú</u> đặc biệt đông.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "门诊.svg",
+      "src": "images/HSK_3.0/level5/门诊.svg",
+      "alt_srcs": []
+    },
+    "迷": {
+      "hanzi": "迷",
+      "pinyin": "mí",
+      "meaning": "say mê; người hâm mộ; lạc (đường)",
+      "example_zh": "他是一个十足的足球<u>迷</u>。",
+      "example_vi": "Anh ấy là một <u>người hâm mộ</u> bóng đá cuồng nhiệt.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "迷.svg",
+      "src": "images/HSK_3.0/level5/迷.svg",
+      "alt_srcs": []
+    },
+    "面²": {
+      "hanzi": "面²",
+      "pinyin": "miàn",
+      "meaning": "mặt, phía, phương diện",
+      "example_zh": "这面镜子有正反两<u>面</u>。",
+      "example_vi": "Chiếc gương này có hai <u>mặt</u> trước và sau.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "面².svg",
+      "src": "images/HSK_3.0/level5/面².svg",
+      "alt_srcs": []
+    },
+    "面向": {
+      "hanzi": "面向",
+      "pinyin": "miànxiàng",
+      "meaning": "hướng tới, đối mặt; phục vụ cho",
+      "example_zh": "这个课程主要<u>面向</u>汉语初学者。",
+      "example_vi": "Khóa học này chủ yếu <u>hướng tới</u> người mới bắt đầu học tiếng Hán.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "面向.svg",
+      "src": "images/HSK_3.0/level5/面向.svg",
+      "alt_srcs": []
+    },
+    "描述": {
+      "hanzi": "描述",
+      "pinyin": "miáoshù",
+      "meaning": "mô tả, miêu tả",
+      "example_zh": "请详细<u>描述</u>一下事情发生的经过。",
+      "example_vi": "Xin hãy <u>mô tả</u> chi tiết quá trình sự việc diễn ra.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "描述.svg",
+      "src": "images/HSK_3.0/level5/描述.svg",
       "alt_srcs": []
     }
   }
