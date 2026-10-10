@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:11:21.023008",
-  "total_unique_words_with_illustrations": 2772,
-  "total_flat_svg_files": 2772,
+  "generated_at": "2026-10-10T10:13:11.836745",
+  "total_unique_words_with_illustrations": 2782,
+  "total_flat_svg_files": 2782,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -58,13 +58,13 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1153,
-        "pct": "72.1%"
+        "with_svg": 1163,
+        "pct": "72.7%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 243,
-        "pct": "13.5%"
+        "with_svg": 244,
+        "pct": "13.6%"
       },
       "level7": {
         "total": 5600,
@@ -50117,6 +50117,149 @@
       ],
       "file": "较.svg",
       "src": "images/HSK_3.0/level5/较.svg",
+      "alt_srcs": []
+    },
+    "接收": {
+      "hanzi": "接收",
+      "pinyin": "jiēshōu",
+      "meaning": "nhận, tiếp nhận",
+      "example_zh": "我的手机在这里不能<u>接收</u>信号。",
+      "example_vi": "Điện thoại của tôi ở đây không thể <u>nhận</u> tín hiệu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "接收.svg",
+      "src": "images/HSK_3.0/level5/接收.svg",
+      "alt_srcs": []
+    },
+    "结": {
+      "hanzi": "结",
+      "pinyin": "jié",
+      "meaning": "kết quả; kết lại; thắt nút",
+      "example_zh": "这棵树上<u>结</u>了好多苹果。",
+      "example_vi": "Cây này <u>kết</u> rất nhiều táo.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5",
+        "level6"
+      ],
+      "file": "结.svg",
+      "src": "images/HSK_3.0/level5/结.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/结.svg"
+      ]
+    },
+    "今日": {
+      "hanzi": "今日",
+      "pinyin": "jīnrì",
+      "meaning": "hôm nay, ngày nay",
+      "example_zh": "<u>今日</u>事，今日毕。",
+      "example_vi": "Việc của <u>hôm nay</u>, hãy hoàn thành trong hôm nay.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "今日.svg",
+      "src": "images/HSK_3.0/level5/今日.svg",
+      "alt_srcs": []
+    },
+    "紧": {
+      "hanzi": "紧",
+      "pinyin": "jǐn",
+      "meaning": "chặt; gấp, gấp gáp",
+      "example_zh": "时间很<u>紧</u>，我们必须马上出发。",
+      "example_vi": "Thời gian rất <u>gấp</u>, chúng ta phải xuất phát ngay.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "紧.svg",
+      "src": "images/HSK_3.0/level5/紧.svg",
+      "alt_srcs": []
+    },
+    "紧密": {
+      "hanzi": "紧密",
+      "pinyin": "jǐnmì",
+      "meaning": "chặt chẽ, mật thiết",
+      "example_zh": "两个部门之间保持着<u>紧密</u>的合作。",
+      "example_vi": "Hai bộ phận duy trì sự hợp tác <u>chặt chẽ</u> với nhau.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "紧密.svg",
+      "src": "images/HSK_3.0/level5/紧密.svg",
+      "alt_srcs": []
+    },
+    "近年来": {
+      "hanzi": "近年来",
+      "pinyin": "jìnnián lái",
+      "meaning": "những năm gần đây",
+      "example_zh": "<u>近年来</u>，城市的发展非常迅速。",
+      "example_vi": "<u>Những năm gần đây</u>, sự phát triển của thành phố rất nhanh chóng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "近年来.svg",
+      "src": "images/HSK_3.0/level5/近年来.svg",
+      "alt_srcs": []
+    },
+    "近期": {
+      "hanzi": "近期",
+      "pinyin": "jìnqī",
+      "meaning": "dạo gần đây, thời gian gần đây",
+      "example_zh": "你<u>近期</u>工作忙不忙？",
+      "example_vi": "<u>Dạo gần đây</u> công việc của bạn có bận không?",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "近期.svg",
+      "src": "images/HSK_3.0/level5/近期.svg",
+      "alt_srcs": []
+    },
+    "近日": {
+      "hanzi": "近日",
+      "pinyin": "jìnrì",
+      "meaning": "mấy ngày gần đây, dạo gần đây",
+      "example_zh": "<u>近日</u>气温下降，出门要多穿衣服。",
+      "example_vi": "<u>Mấy ngày gần đây</u> nhiệt độ giảm, ra ngoài phải mặc thêm áo.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "近日.svg",
+      "src": "images/HSK_3.0/level5/近日.svg",
+      "alt_srcs": []
+    },
+    "进一步": {
+      "hanzi": "进一步",
+      "pinyin": "jìnyíbù",
+      "meaning": "hơn nữa",
+      "example_zh": "我们需要<u>进一步</u>探讨这个问题",
+      "example_vi": "Chúng ta cần thảo luận sâu hơn về vấn đề này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "进一步.svg",
+      "src": "images/HSK_3.0/level5/进一步.svg",
+      "alt_srcs": []
+    },
+    "惊喜": {
+      "hanzi": "惊喜",
+      "pinyin": "jīngxǐ",
+      "meaning": "bất ngờ và vui mừng, niềm vui bất ngờ",
+      "example_zh": "朋友们为我准备了一个大大的<u>惊喜</u>。",
+      "example_vi": "Bạn bè đã chuẩn bị cho tôi một <u>bất ngờ</u> lớn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "惊喜.svg",
+      "src": "images/HSK_3.0/level5/惊喜.svg",
       "alt_srcs": []
     }
   }

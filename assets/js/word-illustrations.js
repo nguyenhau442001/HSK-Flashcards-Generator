@@ -14161,6 +14161,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "较.svg",
     "src": "images/HSK_3.0/level5/较.svg",
     "caption": "so sánh"
+  },
+  "接收": {
+    "file": "接收.svg",
+    "src": "images/HSK_3.0/level5/接收.svg",
+    "caption": "nhận, tiếp nhận"
+  },
+  "结": {
+    "file": "结.svg",
+    "src": "images/HSK_3.0/level5/结.svg",
+    "caption": "kết quả; kết lại; thắt nút"
+  },
+  "今日": {
+    "file": "今日.svg",
+    "src": "images/HSK_3.0/level5/今日.svg",
+    "caption": "hôm nay, ngày nay"
+  },
+  "紧": {
+    "file": "紧.svg",
+    "src": "images/HSK_3.0/level5/紧.svg",
+    "caption": "chặt; gấp, gấp gáp"
+  },
+  "紧密": {
+    "file": "紧密.svg",
+    "src": "images/HSK_3.0/level5/紧密.svg",
+    "caption": "chặt chẽ, mật thiết"
+  },
+  "近年来": {
+    "file": "近年来.svg",
+    "src": "images/HSK_3.0/level5/近年来.svg",
+    "caption": "những năm gần đây"
+  },
+  "近期": {
+    "file": "近期.svg",
+    "src": "images/HSK_3.0/level5/近期.svg",
+    "caption": "dạo gần đây, thời gian gần đây"
+  },
+  "近日": {
+    "file": "近日.svg",
+    "src": "images/HSK_3.0/level5/近日.svg",
+    "caption": "mấy ngày gần đây, dạo gần đây"
+  },
+  "进一步": {
+    "file": "进一步.svg",
+    "src": "images/HSK_3.0/level5/进一步.svg",
+    "caption": "hơn nữa"
+  },
+  "惊喜": {
+    "file": "惊喜.svg",
+    "src": "images/HSK_3.0/level5/惊喜.svg",
+    "caption": "bất ngờ và vui mừng, niềm vui bất ngờ"
   }
 };
 
