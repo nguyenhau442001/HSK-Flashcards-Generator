@@ -89,9 +89,15 @@
   --warning-bg: #fcf0e0; --warning-text: #95550f;
   --example-bg: #fbf5f2; --example-border: #ebdcd5;
 }
-/* Smooth theme switch — class added/removed by JS; !important overrides component transitions */
-.theme-transition *, .theme-transition *::before, .theme-transition *::after {
-  transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease !important;
+/* Smooth theme switch — applied during user-initiated toggles; transitions colors, backgrounds, borders, and shadows without touching complex SVGs/canvas/media */
+html.theme-transition,
+html.theme-transition body,
+html.theme-transition :not(svg, svg *, canvas, img, video) {
+  transition: background-color 240ms cubic-bezier(0.4, 0, 0.2, 1),
+              color 240ms cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 240ms cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 240ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+  transition-delay: 0s !important;
 }
 * { box-sizing: border-box; }
 .sr-only {

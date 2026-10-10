@@ -32,10 +32,19 @@ function getEffectiveTheme() {
   return getTimeBasedTheme();
 }
 
+let themeTransitionTimer = null;
+
 function applyTheme(theme, animate) {
   if (animate && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    if (themeTransitionTimer) {
+      clearTimeout(themeTransitionTimer);
+      themeTransitionTimer = null;
+    }
     document.documentElement.classList.add('theme-transition');
-    setTimeout(() => document.documentElement.classList.remove('theme-transition'), 200);
+    themeTransitionTimer = setTimeout(() => {
+      document.documentElement.classList.remove('theme-transition');
+      themeTransitionTimer = null;
+    }, 280);
   }
   document.documentElement.dataset.theme = theme;
   const toggleBtn = document.getElementById('themeToggle');
@@ -44,6 +53,11 @@ function applyTheme(theme, animate) {
     toggleBtn.setAttribute('title', theme === 'dark' ? 'Chế độ tối (Bấm để chuyển sáng)' : 'Chế độ sáng (Bấm để chuyển tối)');
     toggleBtn.setAttribute('aria-label', theme === 'dark' ? 'Chuyển sang giao diện sáng' : 'Chuyển sang giao diện tối');
   }
+  const studyToggleBtns = document.querySelectorAll('.study-theme-toggle-btn');
+  studyToggleBtns.forEach(btn => {
+    btn.setAttribute('title', theme === 'dark' ? 'Chế độ tối (Bấm để chuyển sáng)' : 'Chế độ sáng (Bấm để chuyển tối)');
+    btn.setAttribute('aria-label', theme === 'dark' ? 'Chuyển sang giao diện sáng' : 'Chuyển sang giao diện tối');
+  });
 }
 
 function toggleTheme() {

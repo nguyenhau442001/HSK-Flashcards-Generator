@@ -241,15 +241,31 @@ body.flashcard-study-mode {
   overflow-x: hidden !important;
   padding: 12px 20px;
   scrollbar-gutter: stable;
+  background-color: var(--bg);
+  position: relative;
+}
+body.flashcard-study-mode::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(ellipse 90% 55% at 50% -10%, rgba(99, 102, 241, 0.08), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 50% 115%, rgba(56, 189, 248, 0.04), transparent 60%);
+  background-attachment: fixed;
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+:root[data-theme="dark"] body.flashcard-study-mode::before {
+  opacity: 1;
 }
 :root[data-theme="dark"] body.flashcard-study-mode {
   background-color: #0f1118 !important;
-  background-image:
-    radial-gradient(ellipse 90% 55% at 50% -10%, rgba(99, 102, 241, 0.08), transparent 70%),
-    radial-gradient(ellipse 60% 40% at 50% 115%, rgba(56, 189, 248, 0.04), transparent 60%) !important;
-  background-attachment: fixed !important;
 }
 body.flashcard-study-mode .app {
+  position: relative;
+  z-index: 1;
   height: 100%;
   max-width: 1280px;
   margin: 0 auto;
@@ -444,7 +460,9 @@ body.flashcard-study-mode .study-view-topbar {
   margin: 0 auto 12px;
   width: 100%;
   max-width: 900px;
-  background: var(--card-bg);
+  background-color: var(--card-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--border);
   border-radius: 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
@@ -452,9 +470,7 @@ body.flashcard-study-mode .study-view-topbar {
   overflow: visible;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .study-view-topbar {
-  background: rgba(22, 24, 34, 0.82);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background-color: rgba(22, 24, 34, 0.85);
   border-color: rgba(255, 255, 255, 0.07);
   box-shadow: 0 8px 24px -6px rgba(0, 0, 0, 0.45);
 }
@@ -653,6 +669,12 @@ body.flashcard-study-mode .view-tab.active .view-tab-icon {
 .study-theme-toggle-btn {
   padding: 0;
 }
+.study-theme-toggle-btn svg {
+  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.2s ease;
+}
+:root[data-theme="dark"] .study-theme-toggle-btn svg {
+  transform: rotate(45deg);
+}
 
 /* --------------------------------------------------------------------------
    Filter Segmented Pill Control
@@ -781,7 +803,7 @@ body.flashcard-study-mode #cardArea > .card::-webkit-scrollbar-thumb {
   border-radius: 999px;
 }
 :root[data-theme="dark"] body.flashcard-study-mode #cardArea > .card {
-  background: linear-gradient(180deg, #1c1e28 0%, #151722 100%);
+  background-color: #171922;
   border: 1px solid rgba(255, 255, 255, 0.07);
   box-shadow: 0 24px 54px -12px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.06);
 }
@@ -909,20 +931,20 @@ body.flashcard-study-mode .card-illustration-frame {
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  background: var(--surface-subtle, rgba(255, 255, 255, 0.03));
-  border: 1px solid rgba(255, 255, 255, 0.07);
-  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  background-color: var(--surface-subtle, #fafafa);
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.06);
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   padding: 10px;
   position: relative;
-  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease, background-color 0.25s ease;
   user-select: none;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .card-illustration-frame {
-  background: linear-gradient(145deg, rgba(30, 41, 59, 0.3) 0%, rgba(15, 23, 42, 0.55) 100%);
+  background-color: #161b26;
   border-color: rgba(255, 255, 255, 0.08);
   box-shadow: 0 10px 26px -6px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.06);
 }
