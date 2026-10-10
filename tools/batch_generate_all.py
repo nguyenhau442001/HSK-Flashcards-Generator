@@ -50,13 +50,16 @@ def get_default_api_key():
     return ""
 
 MODELS_TO_TRY = [
-    "gemini-3-flash-preview",
     "gemini-3.1-flash-lite",
     "gemini-3.6-flash",
     "gemini-3.5-flash",
+    "gemma-4-26b-a4b-it",
+    "gemini-3-flash-preview",
     "gemini-3.5-flash-lite",
     "gemini-2.5-flash",
 ]
+
+EXHAUSTED_MODELS = set()
 
 def guess_pos(meaning):
     m = (meaning or "").lower()
@@ -411,7 +414,12 @@ CRITICAL ART DIRECTION & COMPOSITION RULES:
     }
 
     for attempt in range(max_retries):
-        for model in MODELS_TO_TRY:
+        active_candidates = [m for m in MODELS_TO_TRY if m not in EXHAUSTED_MODELS]
+        if not active_candidates:
+            print("        [CRITICAL] All configured models have exhausted their quota! Pausing.", flush=True)
+            return None
+
+        for model in active_candidates:
             url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
             try:
                 req = urllib.request.Request(
@@ -446,15 +454,28 @@ CRITICAL ART DIRECTION & COMPOSITION RULES:
                     msg = err_json.get("error", {}).get("message", err_body[:100])
                 except Exception:
                     msg = err_body[:100]
-                print(f"        [!] {model} HTTP {he.code}: {msg.strip()}", flush=True)
-                continue
+
+                # Check if quota exceeded (daily limit) -> Blacklist permanently for this session & immediately switch
+                if he.code == 429 and ("quota" in msg.lower() or "limit" in msg.lower() or "resource_exhausted" in err_body.lower()):
+                    EXHAUSTED_MODELS.add(model)
+                    remaining = [m for m in MODELS_TO_TRY if m not in EXHAUSTED_MODELS]
+                    next_model_str = remaining[0] if remaining else "None"
+                    print(f"        [>>> SWITCH MODEL] Quota exceeded for {model}. Blacklisted for this run. Immediately switching to '{next_model_str}'...", flush=True)
+                    continue
+                elif he.code in (404, 400):
+                    EXHAUSTED_MODELS.add(model)
+                    print(f"        [>>> SWITCH MODEL] {model} unavailable (HTTP {he.code}). Removed from rotation.", flush=True)
+                    continue
+                else:
+                    print(f"        [!] {model} HTTP {he.code}: {msg.strip()}", flush=True)
+                    continue
             except Exception as e:
                 print(f"        [!] {model} Error: {e}", flush=True)
                 continue
 
         if attempt < max_retries - 1:
             wait_sec = 10 * (attempt + 1)
-            print(f"        [!] All models busy. Waiting {wait_sec}s before retry {attempt+2}/{max_retries}...", flush=True)
+            print(f"        [!] All active models busy. Waiting {wait_sec}s before retry {attempt+2}/{max_retries}...", flush=True)
             time.sleep(wait_sec)
 
     return None
