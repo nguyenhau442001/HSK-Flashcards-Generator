@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:31:56.914382",
-  "total_unique_words_with_illustrations": 2499,
-  "total_flat_svg_files": 2499,
+  "generated_at": "2026-10-10T09:33:06.639741",
+  "total_unique_words_with_illustrations": 2509,
+  "total_flat_svg_files": 2509,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 879,
-        "pct": "54.9%"
+        "with_svg": 889,
+        "pct": "55.6%"
       },
       "level6": {
         "total": 1800,
@@ -46096,6 +46096,146 @@
       "levels_hsk3": [],
       "file": "作为.svg",
       "src": "images/HSK_2.0/level5/作为.svg",
+      "alt_srcs": []
+    },
+    "哎呀": {
+      "hanzi": "哎呀",
+      "pinyin": "āiyā",
+      "meaning": "ôi chao, ối (thán từ ngạc nhiên, tiếc)",
+      "example_zh": "<u>哎呀</u>，我忘带钥匙了！",
+      "example_vi": "<u>Ôi chao</u>, tôi quên mang chìa khóa rồi!",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "哎呀.svg",
+      "src": "images/HSK_3.0/level5/哎呀.svg",
+      "alt_srcs": []
+    },
+    "安": {
+      "hanzi": "安",
+      "pinyin": "ān",
+      "meaning": "yên ổn, an toàn; lắp đặt",
+      "example_zh": "我们家新<u>安</u>了一台空调。",
+      "example_vi": "Nhà chúng tôi mới <u>lắp</u> một chiếc điều hòa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "安.svg",
+      "src": "images/HSK_3.0/level5/安.svg",
+      "alt_srcs": []
+    },
+    "安全带": {
+      "hanzi": "安全带",
+      "pinyin": "ānquándài",
+      "meaning": "dây an toàn",
+      "example_zh": "开车前请系好<u>安全带</u>。",
+      "example_vi": "Trước khi lái xe hãy thắt <u>dây an toàn</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "安全带.svg",
+      "src": "images/HSK_3.0/level5/安全带.svg",
+      "alt_srcs": []
+    },
+    "半夜": {
+      "hanzi": "半夜",
+      "pinyin": "bànyè",
+      "meaning": "nửa đêm",
+      "example_zh": "他<u>半夜</u>才回家。",
+      "example_vi": "Anh ấy <u>nửa đêm</u> mới về nhà.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "半夜.svg",
+      "src": "images/HSK_3.0/level5/半夜.svg",
+      "alt_srcs": []
+    },
+    "包装": {
+      "hanzi": "包装",
+      "pinyin": "bāozhuāng",
+      "meaning": "bao bì; đóng gói",
+      "example_zh": "这个礼物的<u>包装</u>很漂亮。",
+      "example_vi": "<u>Bao bì</u> của món quà này rất đẹp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "包装.svg",
+      "src": "images/HSK_3.0/level5/包装.svg",
+      "alt_srcs": []
+    },
+    "宝": {
+      "hanzi": "宝",
+      "pinyin": "bǎo",
+      "meaning": "báu vật; quý",
+      "example_zh": "孩子是父母的<u>宝</u>。",
+      "example_vi": "Con cái là <u>báu vật</u> của cha mẹ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "宝.svg",
+      "src": "images/HSK_3.0/level5/宝.svg",
+      "alt_srcs": []
+    },
+    "保": {
+      "hanzi": "保",
+      "pinyin": "bǎo",
+      "meaning": "giữ, bảo vệ; bảo đảm",
+      "example_zh": "我<u>保</u>你明天能拿到。",
+      "example_vi": "Tôi <u>đảm bảo</u> ngày mai bạn sẽ lấy được.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "保.svg",
+      "src": "images/HSK_3.0/level5/保.svg",
+      "alt_srcs": []
+    },
+    "保安": {
+      "hanzi": "保安",
+      "pinyin": "bǎo’ān",
+      "meaning": "bảo vệ (người)",
+      "example_zh": "我们小区的<u>保安</u>很负责。",
+      "example_vi": "<u>Bảo vệ</u> khu chung cư chúng tôi rất có trách nhiệm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "保安.svg",
+      "src": "images/HSK_3.0/level5/保安.svg",
+      "alt_srcs": []
+    },
+    "保质期": {
+      "hanzi": "保质期",
+      "pinyin": "bǎozhìqī",
+      "meaning": "hạn sử dụng",
+      "example_zh": "买牛奶要看<u>保质期</u>。",
+      "example_vi": "Mua sữa phải xem <u>hạn sử dụng</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "保质期.svg",
+      "src": "images/HSK_3.0/level5/保质期.svg",
+      "alt_srcs": []
+    },
+    "报警": {
+      "hanzi": "报警",
+      "pinyin": "bàojǐng",
+      "meaning": "báo cảnh sát",
+      "example_zh": "钱包被偷了，你快<u>报警</u>吧。",
+      "example_vi": "Ví bị trộm rồi, bạn mau <u>báo cảnh sát</u> đi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "报警.svg",
+      "src": "images/HSK_3.0/level5/报警.svg",
       "alt_srcs": []
     }
   }

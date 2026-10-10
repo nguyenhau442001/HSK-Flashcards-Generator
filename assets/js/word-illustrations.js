@@ -12796,6 +12796,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "作为.svg",
     "src": "images/HSK_2.0/level5/作为.svg",
     "caption": "là, với danh nghĩa"
+  },
+  "哎呀": {
+    "file": "哎呀.svg",
+    "src": "images/HSK_3.0/level5/哎呀.svg",
+    "caption": "ôi chao, ối (thán từ ngạc nhiên, tiếc)"
+  },
+  "安": {
+    "file": "安.svg",
+    "src": "images/HSK_3.0/level5/安.svg",
+    "caption": "yên ổn, an toàn; lắp đặt"
+  },
+  "安全带": {
+    "file": "安全带.svg",
+    "src": "images/HSK_3.0/level5/安全带.svg",
+    "caption": "dây an toàn"
+  },
+  "半夜": {
+    "file": "半夜.svg",
+    "src": "images/HSK_3.0/level5/半夜.svg",
+    "caption": "nửa đêm"
+  },
+  "包装": {
+    "file": "包装.svg",
+    "src": "images/HSK_3.0/level5/包装.svg",
+    "caption": "bao bì; đóng gói"
+  },
+  "宝": {
+    "file": "宝.svg",
+    "src": "images/HSK_3.0/level5/宝.svg",
+    "caption": "báu vật; quý"
+  },
+  "保": {
+    "file": "保.svg",
+    "src": "images/HSK_3.0/level5/保.svg",
+    "caption": "giữ, bảo vệ; bảo đảm"
+  },
+  "保安": {
+    "file": "保安.svg",
+    "src": "images/HSK_3.0/level5/保安.svg",
+    "caption": "bảo vệ (người)"
+  },
+  "保质期": {
+    "file": "保质期.svg",
+    "src": "images/HSK_3.0/level5/保质期.svg",
+    "caption": "hạn sử dụng"
+  },
+  "报警": {
+    "file": "报警.svg",
+    "src": "images/HSK_3.0/level5/报警.svg",
+    "caption": "báo cảnh sát"
   }
 };
 
