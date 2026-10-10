@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:55:56.974569",
-  "total_unique_words_with_illustrations": 2682,
-  "total_flat_svg_files": 2682,
+  "generated_at": "2026-10-10T09:57:07.796834",
+  "total_unique_words_with_illustrations": 2692,
+  "total_flat_svg_files": 2692,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 502,
+        "with_svg": 503,
         "pct": "20.1%"
       }
     },
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1063,
-        "pct": "66.4%"
+        "with_svg": 1073,
+        "pct": "67.1%"
       },
       "level6": {
         "total": 1800,
@@ -46746,6 +46746,24 @@
         "images/HSK_3.0/level5/富有.svg"
       ]
     },
+    "更新": {
+      "hanzi": "更新",
+      "pinyin": "gēngxīn",
+      "meaning": "cập nhật, đổi mới",
+      "example_zh": "软件需要<u>更新</u>。",
+      "example_vi": "Phần mềm cần được <u>cập nhật</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "更新.svg",
+      "src": "images/HSK_2.0/level6/更新.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/更新.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -48809,6 +48827,132 @@
       ],
       "file": "刚好.svg",
       "src": "images/HSK_3.0/level5/刚好.svg",
+      "alt_srcs": []
+    },
+    "高大": {
+      "hanzi": "高大",
+      "pinyin": "gāodà",
+      "meaning": "cao lớn",
+      "example_zh": "他长得很<u>高大</u>。",
+      "example_vi": "Anh ấy trông rất <u>cao lớn</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "高大.svg",
+      "src": "images/HSK_3.0/level5/高大.svg",
+      "alt_srcs": []
+    },
+    "高度": {
+      "hanzi": "高度",
+      "pinyin": "gāodù",
+      "meaning": "độ cao; cao độ, rất",
+      "example_zh": "这座楼的<u>高度</u>是一百米。",
+      "example_vi": "<u>Độ cao</u> của tòa nhà này là một trăm mét.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "高度.svg",
+      "src": "images/HSK_3.0/level5/高度.svg",
+      "alt_srcs": []
+    },
+    "高科技": {
+      "hanzi": "高科技",
+      "pinyin": "gāokējì",
+      "meaning": "công nghệ cao",
+      "example_zh": "这家公司生产<u>高科技</u>产品。",
+      "example_vi": "Công ty này sản xuất sản phẩm <u>công nghệ cao</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "高科技.svg",
+      "src": "images/HSK_3.0/level5/高科技.svg",
+      "alt_srcs": []
+    },
+    "高效": {
+      "hanzi": "高效",
+      "pinyin": "gāoxiào",
+      "meaning": "hiệu quả cao",
+      "example_zh": "我们需要一个<u>高效</u>的工作方法。",
+      "example_vi": "Chúng ta cần một phương pháp làm việc <u>hiệu quả cao</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "高效.svg",
+      "src": "images/HSK_3.0/level5/高效.svg",
+      "alt_srcs": []
+    },
+    "歌词": {
+      "hanzi": "歌词",
+      "pinyin": "gēcí",
+      "meaning": "lời bài hát",
+      "example_zh": "这首<u>歌词</u>写得很感人。",
+      "example_vi": "<u>Lời bài hát</u> này viết rất cảm động.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "歌词.svg",
+      "src": "images/HSK_3.0/level5/歌词.svg",
+      "alt_srcs": []
+    },
+    "歌曲": {
+      "hanzi": "歌曲",
+      "pinyin": "gēqǔ",
+      "meaning": "bài hát, ca khúc",
+      "example_zh": "他经常听中文<u>歌曲</u>来学汉语。",
+      "example_vi": "Anh ấy thường nghe <u>bài hát</u> tiếng Trung để học tiếng Hán.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "歌曲.svg",
+      "src": "images/HSK_3.0/level5/歌曲.svg",
+      "alt_srcs": []
+    },
+    "隔": {
+      "hanzi": "隔",
+      "pinyin": "gé",
+      "meaning": "cách, ngăn cách, cách quãng",
+      "example_zh": "我们两家只<u>隔</u>着一条街。",
+      "example_vi": "Hai nhà chúng tôi chỉ <u>cách</u> nhau một con phố.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "隔.svg",
+      "src": "images/HSK_3.0/level5/隔.svg",
+      "alt_srcs": []
+    },
+    "各行各业": {
+      "hanzi": "各行各业",
+      "pinyin": "gèháng-gèyè",
+      "meaning": "các ngành các nghề, mọi ngành nghề",
+      "example_zh": "这本书介绍了<u>各行各业</u>的人才。",
+      "example_vi": "Cuốn sách này giới thiệu nhân tài thuộc <u>mọi ngành nghề</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "各行各业.svg",
+      "src": "images/HSK_3.0/level5/各行各业.svg",
+      "alt_srcs": []
+    },
+    "更换": {
+      "hanzi": "更换",
+      "pinyin": "gēnghuàn",
+      "meaning": "thay thế",
+      "example_zh": "这台机器需要<u>更换</u>零件",
+      "example_vi": "Cái máy này cần thay linh kiện.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "更换.svg",
+      "src": "images/HSK_3.0/level5/更换.svg",
       "alt_srcs": []
     }
   }

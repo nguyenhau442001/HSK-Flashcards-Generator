@@ -12977,6 +12977,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/富有.svg",
     "caption": "giàu có"
   },
+  "更新": {
+    "file": "更新.svg",
+    "src": "images/HSK_2.0/level6/更新.svg",
+    "caption": "cập nhật, đổi mới"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13711,6 +13716,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "刚好.svg",
     "src": "images/HSK_3.0/level5/刚好.svg",
     "caption": "vừa vặn, vừa đúng lúc"
+  },
+  "高大": {
+    "file": "高大.svg",
+    "src": "images/HSK_3.0/level5/高大.svg",
+    "caption": "cao lớn"
+  },
+  "高度": {
+    "file": "高度.svg",
+    "src": "images/HSK_3.0/level5/高度.svg",
+    "caption": "độ cao; cao độ, rất"
+  },
+  "高科技": {
+    "file": "高科技.svg",
+    "src": "images/HSK_3.0/level5/高科技.svg",
+    "caption": "công nghệ cao"
+  },
+  "高效": {
+    "file": "高效.svg",
+    "src": "images/HSK_3.0/level5/高效.svg",
+    "caption": "hiệu quả cao"
+  },
+  "歌词": {
+    "file": "歌词.svg",
+    "src": "images/HSK_3.0/level5/歌词.svg",
+    "caption": "lời bài hát"
+  },
+  "歌曲": {
+    "file": "歌曲.svg",
+    "src": "images/HSK_3.0/level5/歌曲.svg",
+    "caption": "bài hát, ca khúc"
+  },
+  "隔": {
+    "file": "隔.svg",
+    "src": "images/HSK_3.0/level5/隔.svg",
+    "caption": "cách, ngăn cách, cách quãng"
+  },
+  "各行各业": {
+    "file": "各行各业.svg",
+    "src": "images/HSK_3.0/level5/各行各业.svg",
+    "caption": "các ngành các nghề, mọi ngành nghề"
+  },
+  "更换": {
+    "file": "更换.svg",
+    "src": "images/HSK_3.0/level5/更换.svg",
+    "caption": "thay thế"
   }
 };
 
