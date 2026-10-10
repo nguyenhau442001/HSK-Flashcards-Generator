@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:27:42.375844",
-  "total_unique_words_with_illustrations": 2912,
-  "total_flat_svg_files": 2912,
+  "generated_at": "2026-10-10T10:28:47.290107",
+  "total_unique_words_with_illustrations": 2922,
+  "total_flat_svg_files": 2922,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -58,12 +58,12 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1293,
-        "pct": "80.8%"
+        "with_svg": 1303,
+        "pct": "81.4%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 244,
+        "with_svg": 245,
         "pct": "13.6%"
       },
       "level7": {
@@ -52171,6 +52171,149 @@
       ],
       "file": "忍.svg",
       "src": "images/HSK_3.0/level5/忍.svg",
+      "alt_srcs": []
+    },
+    "认": {
+      "hanzi": "认",
+      "pinyin": "rèn",
+      "meaning": "nhận ra, nhận biết; nhận (lỗi)",
+      "example_zh": "多年不见，我都快不<u>认</u>得你了。",
+      "example_vi": "Nhiều năm không gặp, tôi suýt nữa không <u>nhận ra</u> bạn rồi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "认.svg",
+      "src": "images/HSK_3.0/level5/认.svg",
+      "alt_srcs": []
+    },
+    "如": {
+      "hanzi": "如",
+      "pinyin": "rú",
+      "meaning": "chẳng hạn như",
+      "example_zh": "果然<u>如</u>他所说",
+      "example_vi": "Quả nhiên đúng như anh ấy nói.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "如.svg",
+      "src": "images/HSK_3.0/level5/如.svg",
+      "alt_srcs": []
+    },
+    "如此": {
+      "hanzi": "如此",
+      "pinyin": "rúcǐ",
+      "meaning": "như vậy, như thế này",
+      "example_zh": "这个道理虽然简单，但做起来却并不<u>如此</u>容易。",
+      "example_vi": "Đạo lý này tuy đơn giản, nhưng khi làm lại không dễ dàng <u>như thế</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "如此.svg",
+      "src": "images/HSK_3.0/level5/如此.svg",
+      "alt_srcs": []
+    },
+    "如同": {
+      "hanzi": "如同",
+      "pinyin": "rútóng",
+      "meaning": "như, giống như, tựa như",
+      "example_zh": "时间飞逝，<u>如同</u>白驹过隙。",
+      "example_vi": "Thời gian trôi nhanh, <u>tựa như</u> bóng câu qua cửa sổ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "如同.svg",
+      "src": "images/HSK_3.0/level5/如同.svg",
+      "alt_srcs": []
+    },
+    "如下": {
+      "hanzi": "如下",
+      "pinyin": "rúxià",
+      "meaning": "như sau, dưới đây",
+      "example_zh": "本次会议的具体安排<u>如下</u>，请大家查看。",
+      "example_vi": "Lịch trình cụ thể của cuộc họp lần này <u>như sau</u>, xin mời mọi người xem.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "如下.svg",
+      "src": "images/HSK_3.0/level5/如下.svg",
+      "alt_srcs": []
+    },
+    "赛场": {
+      "hanzi": "赛场",
+      "pinyin": "sàichǎng",
+      "meaning": "đấu trường",
+      "example_zh": "运动员们在<u>赛场</u>上努力拼搏",
+      "example_vi": "Các vận động viên nỗ lực hết mình trên sân thi đấu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "赛场.svg",
+      "src": "images/HSK_3.0/level5/赛场.svg",
+      "alt_srcs": []
+    },
+    "沙子": {
+      "hanzi": "沙子",
+      "pinyin": "shāzi",
+      "meaning": "cát, hạt cát",
+      "example_zh": "海滩上有许多细细的<u>沙子</u>。",
+      "example_vi": "Trên bãi biển có rất nhiều hạt <u>cát</u> mịn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "沙子.svg",
+      "src": "images/HSK_3.0/level5/沙子.svg",
+      "alt_srcs": []
+    },
+    "删": {
+      "hanzi": "删",
+      "pinyin": "shān",
+      "meaning": "xóa, loại bỏ",
+      "example_zh": "他不小心<u>删</u>除了一份重要文件。",
+      "example_vi": "Anh ấy vô tình <u>xóa</u> mất một tập tài liệu quan trọng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "删.svg",
+      "src": "images/HSK_3.0/level5/删.svg",
+      "alt_srcs": []
+    },
+    "扇": {
+      "hanzi": "扇",
+      "pinyin": "shān",
+      "meaning": "quạt (gió)",
+      "example_zh": "天气太热了，他拿本子给自己<u>扇</u>了<u>扇</u>风。",
+      "example_vi": "Thời tiết nóng quá, anh ấy lấy quyển sách tự <u>quạt</u> gió cho mình.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5",
+        "level6"
+      ],
+      "file": "扇.svg",
+      "src": "images/HSK_3.0/level5/扇.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/扇.svg"
+      ]
+    },
+    "山区": {
+      "hanzi": "山区",
+      "pinyin": "shānqū",
+      "meaning": "vùng núi, miền núi",
+      "example_zh": "志愿者们去贫困<u>山区</u>支教。",
+      "example_vi": "Các tình nguyện viên đã đến <u>vùng núi</u> khó khăn để dạy học.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "山区.svg",
+      "src": "images/HSK_3.0/level5/山区.svg",
       "alt_srcs": []
     }
   }

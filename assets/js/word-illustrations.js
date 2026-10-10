@@ -14861,6 +14861,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "忍.svg",
     "src": "images/HSK_3.0/level5/忍.svg",
     "caption": "nhịn, nhẫn nhịn, chịu đựng"
+  },
+  "认": {
+    "file": "认.svg",
+    "src": "images/HSK_3.0/level5/认.svg",
+    "caption": "nhận ra, nhận biết; nhận (lỗi)"
+  },
+  "如": {
+    "file": "如.svg",
+    "src": "images/HSK_3.0/level5/如.svg",
+    "caption": "chẳng hạn như"
+  },
+  "如此": {
+    "file": "如此.svg",
+    "src": "images/HSK_3.0/level5/如此.svg",
+    "caption": "như vậy, như thế này"
+  },
+  "如同": {
+    "file": "如同.svg",
+    "src": "images/HSK_3.0/level5/如同.svg",
+    "caption": "như, giống như, tựa như"
+  },
+  "如下": {
+    "file": "如下.svg",
+    "src": "images/HSK_3.0/level5/如下.svg",
+    "caption": "như sau, dưới đây"
+  },
+  "赛场": {
+    "file": "赛场.svg",
+    "src": "images/HSK_3.0/level5/赛场.svg",
+    "caption": "đấu trường"
+  },
+  "沙子": {
+    "file": "沙子.svg",
+    "src": "images/HSK_3.0/level5/沙子.svg",
+    "caption": "cát, hạt cát"
+  },
+  "删": {
+    "file": "删.svg",
+    "src": "images/HSK_3.0/level5/删.svg",
+    "caption": "xóa, loại bỏ"
+  },
+  "扇": {
+    "file": "扇.svg",
+    "src": "images/HSK_3.0/level5/扇.svg",
+    "caption": "quạt (gió)"
+  },
+  "山区": {
+    "file": "山区.svg",
+    "src": "images/HSK_3.0/level5/山区.svg",
+    "caption": "vùng núi, miền núi"
   }
 };
 
