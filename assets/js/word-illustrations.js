@@ -12797,6 +12797,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/作为.svg",
     "caption": "là, với danh nghĩa"
   },
+  "本人": {
+    "file": "本人.svg",
+    "src": "images/HSK_2.0/level6/本人.svg",
+    "caption": "bản thân, chính người đó"
+  },
+  "比喻": {
+    "file": "比喻.svg",
+    "src": "images/HSK_2.0/level6/比喻.svg",
+    "caption": "ví, so sánh ẩn dụ"
+  },
+  "必需": {
+    "file": "必需.svg",
+    "src": "images/HSK_2.0/level6/必需.svg",
+    "caption": "cần thiết, thiết yếu"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -12846,6 +12861,41 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "报警.svg",
     "src": "images/HSK_3.0/level5/报警.svg",
     "caption": "báo cảnh sát"
+  },
+  "暴雨": {
+    "file": "暴雨.svg",
+    "src": "images/HSK_3.0/level5/暴雨.svg",
+    "caption": "mưa to, mưa bão"
+  },
+  "背后": {
+    "file": "背后.svg",
+    "src": "images/HSK_3.0/level5/背后.svg",
+    "caption": "phía sau, sau lưng"
+  },
+  "本²": {
+    "file": "本².svg",
+    "src": "images/HSK_3.0/level5/本².svg",
+    "caption": "cuốn (lượng từ)"
+  },
+  "本地": {
+    "file": "本地.svg",
+    "src": "images/HSK_3.0/level5/本地.svg",
+    "caption": "bản địa, địa phương"
+  },
+  "比分": {
+    "file": "比分.svg",
+    "src": "images/HSK_3.0/level5/比分.svg",
+    "caption": "tỷ số"
+  },
+  "必": {
+    "file": "必.svg",
+    "src": "images/HSK_3.0/level5/必.svg",
+    "caption": "ắt hẳn, nhất định"
+  },
+  "闭幕式": {
+    "file": "闭幕式.svg",
+    "src": "images/HSK_3.0/level5/闭幕式.svg",
+    "caption": "lễ bế mạc"
   }
 };
 

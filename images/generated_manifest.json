@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:33:06.639741",
-  "total_unique_words_with_illustrations": 2509,
-  "total_flat_svg_files": 2509,
+  "generated_at": "2026-10-10T09:34:30.334260",
+  "total_unique_words_with_illustrations": 2519,
+  "total_flat_svg_files": 2519,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 466,
-        "pct": "18.6%"
+        "with_svg": 469,
+        "pct": "18.8%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 889,
-        "pct": "55.6%"
+        "with_svg": 899,
+        "pct": "56.2%"
       },
       "level6": {
         "total": 1800,
@@ -46098,6 +46098,60 @@
       "src": "images/HSK_2.0/level5/作为.svg",
       "alt_srcs": []
     },
+    "本人": {
+      "hanzi": "本人",
+      "pinyin": "běnrén",
+      "meaning": "bản thân, chính người đó",
+      "example_zh": "这件事需要<u>本人</u>签字。",
+      "example_vi": "Việc này cần <u>chính người đó</u> ký tên.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "本人.svg",
+      "src": "images/HSK_2.0/level6/本人.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/本人.svg"
+      ]
+    },
+    "比喻": {
+      "hanzi": "比喻",
+      "pinyin": "bǐyù",
+      "meaning": "ví, so sánh ẩn dụ",
+      "example_zh": "这是一个生动的<u>比喻</u>。",
+      "example_vi": "Đây là một <u>hình ảnh so sánh</u> sinh động.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "比喻.svg",
+      "src": "images/HSK_2.0/level6/比喻.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/比喻.svg"
+      ]
+    },
+    "必需": {
+      "hanzi": "必需",
+      "pinyin": "bìxū",
+      "meaning": "cần thiết, thiết yếu",
+      "example_zh": "水是生活<u>必需</u>品。",
+      "example_vi": "Nước là vật phẩm <u>thiết yếu</u> cho cuộc sống.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "必需.svg",
+      "src": "images/HSK_2.0/level6/必需.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/必需.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -46236,6 +46290,104 @@
       ],
       "file": "报警.svg",
       "src": "images/HSK_3.0/level5/报警.svg",
+      "alt_srcs": []
+    },
+    "暴雨": {
+      "hanzi": "暴雨",
+      "pinyin": "bàoyǔ",
+      "meaning": "mưa to, mưa bão",
+      "example_zh": "明天有<u>暴雨</u>，别出门了。",
+      "example_vi": "Ngày mai có <u>mưa to</u>, đừng ra ngoài nữa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "暴雨.svg",
+      "src": "images/HSK_3.0/level5/暴雨.svg",
+      "alt_srcs": []
+    },
+    "背后": {
+      "hanzi": "背后",
+      "pinyin": "bèihòu",
+      "meaning": "phía sau, sau lưng",
+      "example_zh": "不要在别人<u>背后</u>说坏话。",
+      "example_vi": "Đừng nói xấu <u>sau lưng</u> người khác.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "背后.svg",
+      "src": "images/HSK_3.0/level5/背后.svg",
+      "alt_srcs": []
+    },
+    "本²": {
+      "hanzi": "本²",
+      "pinyin": "běn",
+      "meaning": "cuốn (lượng từ)",
+      "example_zh": "我买了三<u>本</u>书。",
+      "example_vi": "Tôi đã mua ba <u>cuốn</u> sách.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "本².svg",
+      "src": "images/HSK_3.0/level5/本².svg",
+      "alt_srcs": []
+    },
+    "本地": {
+      "hanzi": "本地",
+      "pinyin": "běndì",
+      "meaning": "bản địa, địa phương",
+      "example_zh": "他是<u>本地</u>人，对这里很熟悉。",
+      "example_vi": "Anh ấy là người <u>địa phương</u>, rất thông thuộc nơi này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "本地.svg",
+      "src": "images/HSK_3.0/level5/本地.svg",
+      "alt_srcs": []
+    },
+    "比分": {
+      "hanzi": "比分",
+      "pinyin": "bǐfēn",
+      "meaning": "tỷ số",
+      "example_zh": "现在的<u>比分</u>是二比一。",
+      "example_vi": "<u>Tỷ số</u> hiện tại là hai một.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "比分.svg",
+      "src": "images/HSK_3.0/level5/比分.svg",
+      "alt_srcs": []
+    },
+    "必": {
+      "hanzi": "必",
+      "pinyin": "bì",
+      "meaning": "ắt hẳn, nhất định",
+      "example_zh": "明天的会议你<u>必</u>须参加。",
+      "example_vi": "Cuộc họp ngày mai bạn <u>nhất định</u> phải tham gia.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "必.svg",
+      "src": "images/HSK_3.0/level5/必.svg",
+      "alt_srcs": []
+    },
+    "闭幕式": {
+      "hanzi": "闭幕式",
+      "pinyin": "bìmùshì",
+      "meaning": "lễ bế mạc",
+      "example_zh": "运动会的<u>闭幕式</u>非常精彩。",
+      "example_vi": "<u>Lễ bế mạc</u> đại hội thể thao vô cùng đặc sắc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "闭幕式.svg",
+      "src": "images/HSK_3.0/level5/闭幕式.svg",
       "alt_srcs": []
     }
   }
