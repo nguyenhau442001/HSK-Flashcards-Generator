@@ -12812,6 +12812,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/必需.svg",
     "caption": "cần thiết, thiết yếu"
   },
+  "便利": {
+    "file": "便利.svg",
+    "src": "images/HSK_2.0/level6/便利.svg",
+    "caption": "thuận tiện"
+  },
+  "标题": {
+    "file": "标题.svg",
+    "src": "images/HSK_2.0/level6/标题.svg",
+    "caption": "đề mục, tiêu đề"
+  },
+  "拨打": {
+    "file": "拨打.svg",
+    "src": "images/HSK_2.0/level6/拨打.svg",
+    "caption": "bấm gọi (điện thoại)"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -12896,6 +12911,41 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "闭幕式.svg",
     "src": "images/HSK_3.0/level5/闭幕式.svg",
     "caption": "lễ bế mạc"
+  },
+  "变动": {
+    "file": "变动.svg",
+    "src": "images/HSK_3.0/level5/变动.svg",
+    "caption": "thay đổi, biến động"
+  },
+  "便利店": {
+    "file": "便利店.svg",
+    "src": "images/HSK_3.0/level5/便利店.svg",
+    "caption": "cửa hàng tiện lợi"
+  },
+  "别²": {
+    "file": "别².svg",
+    "src": "images/HSK_3.0/level5/别².svg",
+    "caption": "đừng"
+  },
+  "饼": {
+    "file": "饼.svg",
+    "src": "images/HSK_3.0/level5/饼.svg",
+    "caption": "bánh (dẹt, tròn)"
+  },
+  "病房": {
+    "file": "病房.svg",
+    "src": "images/HSK_3.0/level5/病房.svg",
+    "caption": "phòng bệnh"
+  },
+  "病情": {
+    "file": "病情.svg",
+    "src": "images/HSK_3.0/level5/病情.svg",
+    "caption": "bệnh tình"
+  },
+  "不利": {
+    "file": "不利.svg",
+    "src": "images/HSK_3.0/level5/不利.svg",
+    "caption": "bất lợi"
   }
 };
 

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:34:30.334260",
-  "total_unique_words_with_illustrations": 2519,
-  "total_flat_svg_files": 2519,
+  "generated_at": "2026-10-10T09:35:57.692543",
+  "total_unique_words_with_illustrations": 2529,
+  "total_flat_svg_files": 2529,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 469,
-        "pct": "18.8%"
+        "with_svg": 472,
+        "pct": "18.9%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 899,
-        "pct": "56.2%"
+        "with_svg": 909,
+        "pct": "56.8%"
       },
       "level6": {
         "total": 1800,
@@ -46152,6 +46152,60 @@
         "images/HSK_3.0/level5/必需.svg"
       ]
     },
+    "便利": {
+      "hanzi": "便利",
+      "pinyin": "biànlì",
+      "meaning": "thuận tiện",
+      "example_zh": "这里交通十分<u>便利</u>。",
+      "example_vi": "Giao thông ở đây rất <u>thuận tiện</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "便利.svg",
+      "src": "images/HSK_2.0/level6/便利.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/便利.svg"
+      ]
+    },
+    "标题": {
+      "hanzi": "标题",
+      "pinyin": "biāotí",
+      "meaning": "đề mục, tiêu đề",
+      "example_zh": "这篇文章的<u>标题</u>很吸引人。",
+      "example_vi": "<u>Tiêu đề</u> bài viết này rất hấp dẫn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "标题.svg",
+      "src": "images/HSK_2.0/level6/标题.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/标题.svg"
+      ]
+    },
+    "拨打": {
+      "hanzi": "拨打",
+      "pinyin": "bōdǎ",
+      "meaning": "bấm gọi (điện thoại)",
+      "example_zh": "请<u>拨打</u>这个电话号码。",
+      "example_vi": "Xin hãy <u>gọi</u> số điện thoại này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "拨打.svg",
+      "src": "images/HSK_2.0/level6/拨打.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/拨打.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -46388,6 +46442,104 @@
       ],
       "file": "闭幕式.svg",
       "src": "images/HSK_3.0/level5/闭幕式.svg",
+      "alt_srcs": []
+    },
+    "变动": {
+      "hanzi": "变动",
+      "pinyin": "biàndòng",
+      "meaning": "thay đổi, biến động",
+      "example_zh": "公司的计划有一些<u>变动</u>。",
+      "example_vi": "Kế hoạch của công ty có một số <u>thay đổi</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "变动.svg",
+      "src": "images/HSK_3.0/level5/变动.svg",
+      "alt_srcs": []
+    },
+    "便利店": {
+      "hanzi": "便利店",
+      "pinyin": "biànlìdiàn",
+      "meaning": "cửa hàng tiện lợi",
+      "example_zh": "楼下有一家二十四小时<u>便利店</u>。",
+      "example_vi": "Dưới nhà có một <u>cửa hàng tiện lợi</u> mở hai mươi bốn giờ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "便利店.svg",
+      "src": "images/HSK_3.0/level5/便利店.svg",
+      "alt_srcs": []
+    },
+    "别²": {
+      "hanzi": "别²",
+      "pinyin": "bié",
+      "meaning": "đừng",
+      "example_zh": "<u>别</u>担心。",
+      "example_vi": "<u>Đừng</u> lo lắng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "别².svg",
+      "src": "images/HSK_3.0/level5/别².svg",
+      "alt_srcs": []
+    },
+    "饼": {
+      "hanzi": "饼",
+      "pinyin": "bǐng",
+      "meaning": "bánh (dẹt, tròn)",
+      "example_zh": "早上我吃了一个鸡蛋<u>饼</u>。",
+      "example_vi": "Sáng nay tôi ăn một chiếc <u>bánh</u> trứng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "饼.svg",
+      "src": "images/HSK_3.0/level5/饼.svg",
+      "alt_srcs": []
+    },
+    "病房": {
+      "hanzi": "病房",
+      "pinyin": "bìngfáng",
+      "meaning": "phòng bệnh",
+      "example_zh": "他住在三楼的<u>病房</u>。",
+      "example_vi": "Anh ấy nằm ở <u>phòng bệnh</u> tầng ba.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "病房.svg",
+      "src": "images/HSK_3.0/level5/病房.svg",
+      "alt_srcs": []
+    },
+    "病情": {
+      "hanzi": "病情",
+      "pinyin": "bìngqíng",
+      "meaning": "bệnh tình",
+      "example_zh": "医生说他的<u>病情</u>好多了。",
+      "example_vi": "Bác sĩ nói <u>bệnh tình</u> của anh ấy đã đỡ nhiều.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "病情.svg",
+      "src": "images/HSK_3.0/level5/病情.svg",
+      "alt_srcs": []
+    },
+    "不利": {
+      "hanzi": "不利",
+      "pinyin": "búlì",
+      "meaning": "bất lợi",
+      "example_zh": "天气对比赛很<u>不利</u>。",
+      "example_vi": "Thời tiết rất <u>bất lợi</u> cho trận đấu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "不利.svg",
+      "src": "images/HSK_3.0/level5/不利.svg",
       "alt_srcs": []
     }
   }
