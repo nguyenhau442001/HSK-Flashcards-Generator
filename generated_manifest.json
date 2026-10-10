@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:43:48.399961",
-  "total_unique_words_with_illustrations": 2572,
-  "total_flat_svg_files": 2572,
+  "generated_at": "2026-10-10T09:44:47.505455",
+  "total_unique_words_with_illustrations": 2582,
+  "total_flat_svg_files": 2582,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 481,
-        "pct": "19.2%"
+        "with_svg": 482,
+        "pct": "19.3%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 952,
-        "pct": "59.5%"
+        "with_svg": 963,
+        "pct": "60.2%"
       },
       "level6": {
         "total": 1800,
@@ -46368,6 +46368,24 @@
         "images/HSK_3.0/level5/成员.svg"
       ]
     },
+    "充足": {
+      "hanzi": "充足",
+      "pinyin": "chōngzú",
+      "meaning": "đầy đủ, dồi dào",
+      "example_zh": "阳光<u>充足</u>有利于植物生长。",
+      "example_vi": "Ánh sáng <u>đầy đủ</u> có lợi cho cây phát triển.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "充足.svg",
+      "src": "images/HSK_2.0/level6/充足.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/充足.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -47178,6 +47196,132 @@
       ],
       "file": "充电.svg",
       "src": "images/HSK_3.0/level5/充电.svg",
+      "alt_srcs": []
+    },
+    "充值": {
+      "hanzi": "充值",
+      "pinyin": "chōngzhí",
+      "meaning": "nạp tiền",
+      "example_zh": "我要给手机<u>充值</u>一百块。",
+      "example_vi": "Tôi muốn <u>nạp</u> một trăm tệ vào điện thoại.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "充值.svg",
+      "src": "images/HSK_3.0/level5/充值.svg",
+      "alt_srcs": []
+    },
+    "虫子": {
+      "hanzi": "虫子",
+      "pinyin": "chóngzi",
+      "meaning": "sâu bọ, côn trùng",
+      "example_zh": "苹果里有一条<u>虫子</u>。",
+      "example_vi": "Trong quả táo có một con <u>sâu</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "虫子.svg",
+      "src": "images/HSK_3.0/level5/虫子.svg",
+      "alt_srcs": []
+    },
+    "抽": {
+      "hanzi": "抽",
+      "pinyin": "chōu",
+      "meaning": "rút, rút ra; hút (thuốc)",
+      "example_zh": "请从这里<u>抽</u>一张卡片。",
+      "example_vi": "Hãy <u>rút</u> một tấm thẻ từ đây.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "抽.svg",
+      "src": "images/HSK_3.0/level5/抽.svg",
+      "alt_srcs": []
+    },
+    "初": {
+      "hanzi": "初",
+      "pinyin": "chū",
+      "meaning": "đầu, ban đầu; lần đầu",
+      "example_zh": "我是下个月<u>初</u>回国。",
+      "example_vi": "Tôi sẽ về nước vào <u>đầu</u> tháng sau.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "初.svg",
+      "src": "images/HSK_3.0/level5/初.svg",
+      "alt_srcs": []
+    },
+    "初期": {
+      "hanzi": "初期",
+      "pinyin": "chūqī",
+      "meaning": "thời kỳ đầu",
+      "example_zh": "工作<u>初期</u>遇到了很多困难。",
+      "example_vi": "<u>Thời kỳ đầu</u> làm việc đã gặp rất nhiều khó khăn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "初期.svg",
+      "src": "images/HSK_3.0/level5/初期.svg",
+      "alt_srcs": []
+    },
+    "出售": {
+      "hanzi": "出售",
+      "pinyin": "chūshòu",
+      "meaning": "bán ra",
+      "example_zh": "这套房子正在<u>出售</u>。",
+      "example_vi": "Căn nhà này đang được <u>rao bán</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "出售.svg",
+      "src": "images/HSK_3.0/level5/出售.svg",
+      "alt_srcs": []
+    },
+    "出自": {
+      "hanzi": "出自",
+      "pinyin": "chūzì",
+      "meaning": "xuất phát từ, trích từ",
+      "example_zh": "这句话<u>出自</u>一本有名的书。",
+      "example_vi": "Câu nói này <u>trích từ</u> một cuốn sách nổi tiếng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "出自.svg",
+      "src": "images/HSK_3.0/level5/出自.svg",
+      "alt_srcs": []
+    },
+    "处": {
+      "hanzi": "处",
+      "pinyin": "chǔ",
+      "meaning": "sống chung, đối xử; xử lý",
+      "example_zh": "他很好<u>处</u>，大家都喜欢他。",
+      "example_vi": "Anh ấy rất dễ <u>chung sống</u>, mọi người đều thích anh ấy.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "处.svg",
+      "src": "images/HSK_3.0/level5/处.svg",
+      "alt_srcs": []
+    },
+    "处于": {
+      "hanzi": "处于",
+      "pinyin": "chǔyú",
+      "meaning": "ở vào, nằm trong (tình trạng)",
+      "example_zh": "公司现在<u>处于</u>发展阶段。",
+      "example_vi": "Công ty hiện đang <u>ở trong</u> giai đoạn phát triển.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "处于.svg",
+      "src": "images/HSK_3.0/level5/处于.svg",
       "alt_srcs": []
     }
   }

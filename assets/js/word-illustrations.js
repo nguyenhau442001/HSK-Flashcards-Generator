@@ -12872,6 +12872,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/成员.svg",
     "caption": "thành viên"
   },
+  "充足": {
+    "file": "充足.svg",
+    "src": "images/HSK_2.0/level6/充足.svg",
+    "caption": "đầy đủ, dồi dào"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13161,6 +13166,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "充电.svg",
     "src": "images/HSK_3.0/level5/充电.svg",
     "caption": "sạc điện; bồi dưỡng thêm"
+  },
+  "充值": {
+    "file": "充值.svg",
+    "src": "images/HSK_3.0/level5/充值.svg",
+    "caption": "nạp tiền"
+  },
+  "虫子": {
+    "file": "虫子.svg",
+    "src": "images/HSK_3.0/level5/虫子.svg",
+    "caption": "sâu bọ, côn trùng"
+  },
+  "抽": {
+    "file": "抽.svg",
+    "src": "images/HSK_3.0/level5/抽.svg",
+    "caption": "rút, rút ra; hút (thuốc)"
+  },
+  "初": {
+    "file": "初.svg",
+    "src": "images/HSK_3.0/level5/初.svg",
+    "caption": "đầu, ban đầu; lần đầu"
+  },
+  "初期": {
+    "file": "初期.svg",
+    "src": "images/HSK_3.0/level5/初期.svg",
+    "caption": "thời kỳ đầu"
+  },
+  "出售": {
+    "file": "出售.svg",
+    "src": "images/HSK_3.0/level5/出售.svg",
+    "caption": "bán ra"
+  },
+  "出自": {
+    "file": "出自.svg",
+    "src": "images/HSK_3.0/level5/出自.svg",
+    "caption": "xuất phát từ, trích từ"
+  },
+  "处": {
+    "file": "处.svg",
+    "src": "images/HSK_3.0/level5/处.svg",
+    "caption": "sống chung, đối xử; xử lý"
+  },
+  "处于": {
+    "file": "处于.svg",
+    "src": "images/HSK_3.0/level5/处于.svg",
+    "caption": "ở vào, nằm trong (tình trạng)"
   }
 };
 
