@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:47:49.993398",
-  "total_unique_words_with_illustrations": 2612,
-  "total_flat_svg_files": 2612,
+  "generated_at": "2026-10-10T09:49:11.047483",
+  "total_unique_words_with_illustrations": 2622,
+  "total_flat_svg_files": 2622,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 489,
+        "with_svg": 490,
         "pct": "19.6%"
       }
     },
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 993,
-        "pct": "62.1%"
+        "with_svg": 1003,
+        "pct": "62.7%"
       },
       "level6": {
         "total": 1800,
@@ -46512,6 +46512,24 @@
         "images/HSK_3.0/level5/打包.svg"
       ]
     },
+    "当前": {
+      "hanzi": "当前",
+      "pinyin": "dāngqián",
+      "meaning": "hiện tại, trước mắt",
+      "example_zh": "<u>当前</u>的形势很复杂。",
+      "example_vi": "Tình hình <u>hiện tại</u> rất phức tạp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "当前.svg",
+      "src": "images/HSK_2.0/level6/当前.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/当前.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -47777,6 +47795,132 @@
       ],
       "file": "大众.svg",
       "src": "images/HSK_3.0/level5/大众.svg",
+      "alt_srcs": []
+    },
+    "代": {
+      "hanzi": "代",
+      "pinyin": "dài",
+      "meaning": "thay, thay mặt; thế hệ, đời",
+      "example_zh": "请<u>代</u>我向你父母问好。",
+      "example_vi": "Xin <u>thay</u> tôi gửi lời hỏi thăm bố mẹ bạn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "代.svg",
+      "src": "images/HSK_3.0/level5/代.svg",
+      "alt_srcs": []
+    },
+    "带动": {
+      "hanzi": "带动",
+      "pinyin": "dàidòng",
+      "meaning": "thúc đẩy, kéo theo",
+      "example_zh": "旅游业<u>带动</u>了当地经济的发展。",
+      "example_vi": "Ngành du lịch đã <u>thúc đẩy</u> kinh tế địa phương phát triển.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "带动.svg",
+      "src": "images/HSK_3.0/level5/带动.svg",
+      "alt_srcs": []
+    },
+    "单": {
+      "hanzi": "单",
+      "pinyin": "dān",
+      "meaning": "đơn, một mình; tờ, phiếu",
+      "example_zh": "服务员，请给我菜<u>单</u>。",
+      "example_vi": "Phục vụ ơi, cho tôi <u>thực đơn</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "单.svg",
+      "src": "images/HSK_3.0/level5/单.svg",
+      "alt_srcs": []
+    },
+    "单一": {
+      "hanzi": "单一",
+      "pinyin": "dānyī",
+      "meaning": "đơn nhất, đơn điệu",
+      "example_zh": "他的饮食太<u>单一</u>了。",
+      "example_vi": "Chế độ ăn của anh ấy quá <u>đơn điệu</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "单一.svg",
+      "src": "images/HSK_3.0/level5/单一.svg",
+      "alt_srcs": []
+    },
+    "胆小": {
+      "hanzi": "胆小",
+      "pinyin": "dǎnxiǎo",
+      "meaning": "nhát gan",
+      "example_zh": "我弟弟很<u>胆小</u>，不敢一个人睡觉。",
+      "example_vi": "Em trai tôi rất <u>nhát gan</u>, không dám ngủ một mình.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "胆小.svg",
+      "src": "images/HSK_3.0/level5/胆小.svg",
+      "alt_srcs": []
+    },
+    "当年": {
+      "hanzi": "当年",
+      "pinyin": "dāngnián",
+      "meaning": "năm đó, hồi đó",
+      "example_zh": "<u>当年</u>我们是同班同学。",
+      "example_vi": "<u>Hồi đó</u> chúng tôi là bạn cùng lớp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "当年.svg",
+      "src": "images/HSK_3.0/level5/当年.svg",
+      "alt_srcs": []
+    },
+    "当中": {
+      "hanzi": "当中",
+      "pinyin": "dāngzhōng",
+      "meaning": "ở giữa; trong số",
+      "example_zh": "我们<u>当中</u>只有他去过中国。",
+      "example_vi": "<u>Trong số</u> chúng tôi chỉ có anh ấy từng đến Trung Quốc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "当中.svg",
+      "src": "images/HSK_3.0/level5/当中.svg",
+      "alt_srcs": []
+    },
+    "当成": {
+      "hanzi": "当成",
+      "pinyin": "dàngchéng",
+      "meaning": "coi như, xem là",
+      "example_zh": "别把我<u>当成</u>小孩子。",
+      "example_vi": "Đừng <u>coi</u> tôi <u>như</u> trẻ con.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "当成.svg",
+      "src": "images/HSK_3.0/level5/当成.svg",
+      "alt_srcs": []
+    },
+    "当作": {
+      "hanzi": "当作",
+      "pinyin": "dàngzuò",
+      "meaning": "coi như, xem như",
+      "example_zh": "他把这里<u>当作</u>自己的家。",
+      "example_vi": "Anh ấy <u>coi</u> nơi này <u>như</u> nhà mình.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "当作.svg",
+      "src": "images/HSK_3.0/level5/当作.svg",
       "alt_srcs": []
     }
   }

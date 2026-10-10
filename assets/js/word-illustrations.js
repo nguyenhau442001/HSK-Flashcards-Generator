@@ -12912,6 +12912,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/打包.svg",
     "caption": "đóng gói, gói lại"
   },
+  "当前": {
+    "file": "当前.svg",
+    "src": "images/HSK_2.0/level6/当前.svg",
+    "caption": "hiện tại, trước mắt"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13361,6 +13366,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "大众.svg",
     "src": "images/HSK_3.0/level5/大众.svg",
     "caption": "đại chúng, quần chúng"
+  },
+  "代": {
+    "file": "代.svg",
+    "src": "images/HSK_3.0/level5/代.svg",
+    "caption": "thay, thay mặt; thế hệ, đời"
+  },
+  "带动": {
+    "file": "带动.svg",
+    "src": "images/HSK_3.0/level5/带动.svg",
+    "caption": "thúc đẩy, kéo theo"
+  },
+  "单": {
+    "file": "单.svg",
+    "src": "images/HSK_3.0/level5/单.svg",
+    "caption": "đơn, một mình; tờ, phiếu"
+  },
+  "单一": {
+    "file": "单一.svg",
+    "src": "images/HSK_3.0/level5/单一.svg",
+    "caption": "đơn nhất, đơn điệu"
+  },
+  "胆小": {
+    "file": "胆小.svg",
+    "src": "images/HSK_3.0/level5/胆小.svg",
+    "caption": "nhát gan"
+  },
+  "当年": {
+    "file": "当年.svg",
+    "src": "images/HSK_3.0/level5/当年.svg",
+    "caption": "năm đó, hồi đó"
+  },
+  "当中": {
+    "file": "当中.svg",
+    "src": "images/HSK_3.0/level5/当中.svg",
+    "caption": "ở giữa; trong số"
+  },
+  "当成": {
+    "file": "当成.svg",
+    "src": "images/HSK_3.0/level5/当成.svg",
+    "caption": "coi như, xem là"
+  },
+  "当作": {
+    "file": "当作.svg",
+    "src": "images/HSK_3.0/level5/当作.svg",
+    "caption": "coi như, xem như"
   }
 };
 
