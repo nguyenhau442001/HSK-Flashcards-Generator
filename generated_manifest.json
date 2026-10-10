@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:44:47.505455",
-  "total_unique_words_with_illustrations": 2582,
-  "total_flat_svg_files": 2582,
+  "generated_at": "2026-10-10T09:45:47.679936",
+  "total_unique_words_with_illustrations": 2592,
+  "total_flat_svg_files": 2592,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 482,
-        "pct": "19.3%"
+        "with_svg": 487,
+        "pct": "19.5%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 963,
-        "pct": "60.2%"
+        "with_svg": 973,
+        "pct": "60.8%"
       },
       "level6": {
         "total": 1800,
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 103,
-        "pct": "1.8%"
+        "with_svg": 104,
+        "pct": "1.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 103,
-        "pct": "1.8%"
+        "with_svg": 104,
+        "pct": "1.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 103,
-        "pct": "1.8%"
+        "with_svg": 104,
+        "pct": "1.9%"
       }
     }
   },
@@ -46386,6 +46386,96 @@
         "images/HSK_3.0/level5/充足.svg"
       ]
     },
+    "传递": {
+      "hanzi": "传递",
+      "pinyin": "chuándì",
+      "meaning": "truyền, chuyển (tin tức, vật)",
+      "example_zh": "信号通过电缆<u>传递</u>。",
+      "example_vi": "Tín hiệu <u>truyền</u> qua dây cáp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "传递.svg",
+      "src": "images/HSK_2.0/level6/传递.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/传递.svg"
+      ]
+    },
+    "床单": {
+      "hanzi": "床单",
+      "pinyin": "chuángdān",
+      "meaning": "ga trải giường",
+      "example_zh": "我换了新<u>床单</u>。",
+      "example_vi": "Tôi thay <u>ga trải giường</u> mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "床单.svg",
+      "src": "images/HSK_2.0/level6/床单.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/床单.svg"
+      ]
+    },
+    "创新": {
+      "hanzi": "创新",
+      "pinyin": "chuàngxīn",
+      "meaning": "sáng tạo, đổi mới",
+      "example_zh": "企业要不断<u>创新</u>。",
+      "example_vi": "Doanh nghiệp phải không ngừng <u>đổi mới</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "创新.svg",
+      "src": "images/HSK_2.0/level6/创新.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/创新.svg"
+      ]
+    },
+    "创业": {
+      "hanzi": "创业",
+      "pinyin": "chuàngyè",
+      "meaning": "khởi nghiệp",
+      "example_zh": "他决定<u>创业</u>。",
+      "example_vi": "Anh ấy quyết định <u>khởi nghiệp</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "创业.svg",
+      "src": "images/HSK_2.0/level6/创业.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/创业.svg"
+      ]
+    },
+    "创作": {
+      "hanzi": "创作",
+      "pinyin": "chuàngzuò",
+      "meaning": "sáng tác",
+      "example_zh": "他正在<u>创作</u>一部小说。",
+      "example_vi": "Anh ấy đang <u>sáng tác</u> một cuốn tiểu thuyết.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "创作.svg",
+      "src": "images/HSK_2.0/level6/创作.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/创作.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -47322,6 +47412,83 @@
       ],
       "file": "处于.svg",
       "src": "images/HSK_3.0/level5/处于.svg",
+      "alt_srcs": []
+    },
+    "传": {
+      "hanzi": "传",
+      "pinyin": "chuán",
+      "meaning": "truyền, đưa; lan truyền",
+      "example_zh": "请把这本书<u>传</u>给后面的同学。",
+      "example_vi": "Hãy <u>chuyền</u> cuốn sách này cho bạn phía sau.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5",
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "传.svg",
+      "src": "images/HSK_3.0/level5/传.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/传.svg",
+        "images/HSK_3.0/level8/传.svg",
+        "images/HSK_3.0/level9/传.svg"
+      ]
+    },
+    "窗台": {
+      "hanzi": "窗台",
+      "pinyin": "chuāngtái",
+      "meaning": "bậu cửa sổ",
+      "example_zh": "<u>窗台</u>上放着几盆花。",
+      "example_vi": "Trên <u>bậu cửa sổ</u> đặt mấy chậu hoa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "窗台.svg",
+      "src": "images/HSK_3.0/level5/窗台.svg",
+      "alt_srcs": []
+    },
+    "此后": {
+      "hanzi": "此后",
+      "pinyin": "cǐhòu",
+      "meaning": "từ đó về sau",
+      "example_zh": "<u>此后</u>我再也没见过他。",
+      "example_vi": "<u>Từ đó về sau</u> tôi không gặp lại anh ấy nữa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "此后.svg",
+      "src": "images/HSK_3.0/level5/此后.svg",
+      "alt_srcs": []
+    },
+    "此前": {
+      "hanzi": "此前",
+      "pinyin": "cǐqián",
+      "meaning": "trước đó",
+      "example_zh": "<u>此前</u>他从来没出过国。",
+      "example_vi": "<u>Trước đó</u> anh ấy chưa từng ra nước ngoài.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "此前.svg",
+      "src": "images/HSK_3.0/level5/此前.svg",
+      "alt_srcs": []
+    },
+    "此时": {
+      "hanzi": "此时",
+      "pinyin": "cǐshí",
+      "meaning": "lúc này",
+      "example_zh": "<u>此时</u>，大家都安静了下来。",
+      "example_vi": "<u>Lúc này</u>, mọi người đều im lặng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "此时.svg",
+      "src": "images/HSK_3.0/level5/此时.svg",
       "alt_srcs": []
     }
   }

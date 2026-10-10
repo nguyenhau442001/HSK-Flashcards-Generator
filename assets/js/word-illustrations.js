@@ -12877,6 +12877,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/充足.svg",
     "caption": "đầy đủ, dồi dào"
   },
+  "传递": {
+    "file": "传递.svg",
+    "src": "images/HSK_2.0/level6/传递.svg",
+    "caption": "truyền, chuyển (tin tức, vật)"
+  },
+  "床单": {
+    "file": "床单.svg",
+    "src": "images/HSK_2.0/level6/床单.svg",
+    "caption": "ga trải giường"
+  },
+  "创新": {
+    "file": "创新.svg",
+    "src": "images/HSK_2.0/level6/创新.svg",
+    "caption": "sáng tạo, đổi mới"
+  },
+  "创业": {
+    "file": "创业.svg",
+    "src": "images/HSK_2.0/level6/创业.svg",
+    "caption": "khởi nghiệp"
+  },
+  "创作": {
+    "file": "创作.svg",
+    "src": "images/HSK_2.0/level6/创作.svg",
+    "caption": "sáng tác"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13211,6 +13236,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "处于.svg",
     "src": "images/HSK_3.0/level5/处于.svg",
     "caption": "ở vào, nằm trong (tình trạng)"
+  },
+  "传": {
+    "file": "传.svg",
+    "src": "images/HSK_3.0/level5/传.svg",
+    "caption": "truyền, đưa; lan truyền"
+  },
+  "窗台": {
+    "file": "窗台.svg",
+    "src": "images/HSK_3.0/level5/窗台.svg",
+    "caption": "bậu cửa sổ"
+  },
+  "此后": {
+    "file": "此后.svg",
+    "src": "images/HSK_3.0/level5/此后.svg",
+    "caption": "từ đó về sau"
+  },
+  "此前": {
+    "file": "此前.svg",
+    "src": "images/HSK_3.0/level5/此前.svg",
+    "caption": "trước đó"
+  },
+  "此时": {
+    "file": "此时.svg",
+    "src": "images/HSK_3.0/level5/此时.svg",
+    "caption": "lúc này"
   }
 };
 
