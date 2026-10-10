@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:52:38.618429",
-  "total_unique_words_with_illustrations": 2652,
-  "total_flat_svg_files": 2652,
+  "generated_at": "2026-10-10T09:53:41.509508",
+  "total_unique_words_with_illustrations": 2662,
+  "total_flat_svg_files": 2662,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 495,
+        "with_svg": 496,
         "pct": "19.8%"
       }
     },
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1033,
-        "pct": "64.6%"
+        "with_svg": 1043,
+        "pct": "65.2%"
       },
       "level6": {
         "total": 1800,
@@ -46620,6 +46620,24 @@
         "images/HSK_3.0/level5/队伍.svg"
       ]
     },
+    "发布": {
+      "hanzi": "发布",
+      "pinyin": "fābù",
+      "meaning": "công bố, phát hành",
+      "example_zh": "公司将<u>发布</u>新产品。",
+      "example_vi": "Công ty sẽ <u>công bố</u> sản phẩm mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "发布.svg",
+      "src": "images/HSK_2.0/level6/发布.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/发布.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -48361,6 +48379,132 @@
       ],
       "file": "躲.svg",
       "src": "images/HSK_3.0/level5/躲.svg",
+      "alt_srcs": []
+    },
+    "儿女": {
+      "hanzi": "儿女",
+      "pinyin": "érnǚ",
+      "meaning": "con cái",
+      "example_zh": "父母都希望<u>儿女</u>过得幸福。",
+      "example_vi": "Cha mẹ đều mong <u>con cái</u> sống hạnh phúc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "儿女.svg",
+      "src": "images/HSK_3.0/level5/儿女.svg",
+      "alt_srcs": []
+    },
+    "二手": {
+      "hanzi": "二手",
+      "pinyin": "èrshǒu",
+      "meaning": "đồ cũ, đã qua sử dụng",
+      "example_zh": "他买了一辆<u>二手</u>车。",
+      "example_vi": "Anh ấy đã mua một chiếc xe <u>cũ</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "二手.svg",
+      "src": "images/HSK_3.0/level5/二手.svg",
+      "alt_srcs": []
+    },
+    "二维码": {
+      "hanzi": "二维码",
+      "pinyin": "èrwéimǎ",
+      "meaning": "mã QR",
+      "example_zh": "请扫这个<u>二维码</u>付款。",
+      "example_vi": "Vui lòng quét <u>mã QR</u> này để thanh toán.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "二维码.svg",
+      "src": "images/HSK_3.0/level5/二维码.svg",
+      "alt_srcs": []
+    },
+    "发起": {
+      "hanzi": "发起",
+      "pinyin": "fāqǐ",
+      "meaning": "khởi xướng, phát động",
+      "example_zh": "他们<u>发起</u>了一个环保活动。",
+      "example_vi": "Họ đã <u>phát động</u> một hoạt động bảo vệ môi trường.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "发起.svg",
+      "src": "images/HSK_3.0/level5/发起.svg",
+      "alt_srcs": []
+    },
+    "发音": {
+      "hanzi": "发音",
+      "pinyin": "fāyīn",
+      "meaning": "phát âm",
+      "example_zh": "你的汉语<u>发音</u>很标准。",
+      "example_vi": "<u>Phát âm</u> tiếng Trung của bạn rất chuẩn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "发音.svg",
+      "src": "images/HSK_3.0/level5/发音.svg",
+      "alt_srcs": []
+    },
+    "罚": {
+      "hanzi": "罚",
+      "pinyin": "fá",
+      "meaning": "phạt",
+      "example_zh": "开车超速会被<u>罚</u>款。",
+      "example_vi": "Lái xe quá tốc độ sẽ bị <u>phạt</u> tiền.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "罚.svg",
+      "src": "images/HSK_3.0/level5/罚.svg",
+      "alt_srcs": []
+    },
+    "番茄": {
+      "hanzi": "番茄",
+      "pinyin": "fānqié",
+      "meaning": "cà chua",
+      "example_zh": "我喜欢吃<u>番茄</u>炒鸡蛋。",
+      "example_vi": "Tôi thích ăn trứng xào <u>cà chua</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "番茄.svg",
+      "src": "images/HSK_3.0/level5/番茄.svg",
+      "alt_srcs": []
+    },
+    "反": {
+      "hanzi": "反",
+      "pinyin": "fǎn",
+      "meaning": "ngược, trái; phản đối",
+      "example_zh": "你的衣服穿<u>反</u>了。",
+      "example_vi": "Bạn mặc <u>ngược</u> áo rồi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "反.svg",
+      "src": "images/HSK_3.0/level5/反.svg",
+      "alt_srcs": []
+    },
+    "返回": {
+      "hanzi": "返回",
+      "pinyin": "fǎnhuí",
+      "meaning": "trở về, quay lại",
+      "example_zh": "我们明天<u>返回</u>北京。",
+      "example_vi": "Ngày mai chúng tôi <u>trở về</u> Bắc Kinh.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "返回.svg",
+      "src": "images/HSK_3.0/level5/返回.svg",
       "alt_srcs": []
     }
   }

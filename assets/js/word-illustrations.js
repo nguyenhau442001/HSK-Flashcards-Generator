@@ -12942,6 +12942,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/队伍.svg",
     "caption": "đội ngũ"
   },
+  "发布": {
+    "file": "发布.svg",
+    "src": "images/HSK_2.0/level6/发布.svg",
+    "caption": "công bố, phát hành"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13561,6 +13566,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "躲.svg",
     "src": "images/HSK_3.0/level5/躲.svg",
     "caption": "trốn, tránh"
+  },
+  "儿女": {
+    "file": "儿女.svg",
+    "src": "images/HSK_3.0/level5/儿女.svg",
+    "caption": "con cái"
+  },
+  "二手": {
+    "file": "二手.svg",
+    "src": "images/HSK_3.0/level5/二手.svg",
+    "caption": "đồ cũ, đã qua sử dụng"
+  },
+  "二维码": {
+    "file": "二维码.svg",
+    "src": "images/HSK_3.0/level5/二维码.svg",
+    "caption": "mã QR"
+  },
+  "发起": {
+    "file": "发起.svg",
+    "src": "images/HSK_3.0/level5/发起.svg",
+    "caption": "khởi xướng, phát động"
+  },
+  "发音": {
+    "file": "发音.svg",
+    "src": "images/HSK_3.0/level5/发音.svg",
+    "caption": "phát âm"
+  },
+  "罚": {
+    "file": "罚.svg",
+    "src": "images/HSK_3.0/level5/罚.svg",
+    "caption": "phạt"
+  },
+  "番茄": {
+    "file": "番茄.svg",
+    "src": "images/HSK_3.0/level5/番茄.svg",
+    "caption": "cà chua"
+  },
+  "反": {
+    "file": "反.svg",
+    "src": "images/HSK_3.0/level5/反.svg",
+    "caption": "ngược, trái; phản đối"
+  },
+  "返回": {
+    "file": "返回.svg",
+    "src": "images/HSK_3.0/level5/返回.svg",
+    "caption": "trở về, quay lại"
   }
 };
 
