@@ -13102,6 +13102,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/哦.svg",
     "caption": "ồ, à (thán từ tỏ ra hiểu hoặc bất ngờ)"
   },
+  "品质": {
+    "file": "品质.svg",
+    "src": "images/HSK_2.0/level6/品质.svg",
+    "caption": "phẩm chất, chất lượng"
+  },
+  "品种": {
+    "file": "品种.svg",
+    "src": "images/HSK_2.0/level6/品种.svg",
+    "caption": "chủng loại, giống loài"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -14611,6 +14621,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "配.svg",
     "src": "images/HSK_3.0/level5/配.svg",
     "caption": "phối, tương xứng, hợp với"
+  },
+  "配送": {
+    "file": "配送.svg",
+    "src": "images/HSK_3.0/level5/配送.svg",
+    "caption": "giao hàng, vận chuyển"
+  },
+  "碰见": {
+    "file": "碰见.svg",
+    "src": "images/HSK_3.0/level5/碰见.svg",
+    "caption": "tình cờ gặp, đụng mặt"
+  },
+  "批¹": {
+    "file": "批¹.svg",
+    "src": "images/HSK_3.0/level5/批¹.svg",
+    "caption": "lô, mẻ, đợt"
+  },
+  "批²": {
+    "file": "批².svg",
+    "src": "images/HSK_3.0/level5/批².svg",
+    "caption": "lô, mẻ, đợt"
+  },
+  "拼": {
+    "file": "拼.svg",
+    "src": "images/HSK_3.0/level5/拼.svg",
+    "caption": "ghép lại, ráp; dốc sức, liều"
+  },
+  "品": {
+    "file": "品.svg",
+    "src": "images/HSK_3.0/level5/品.svg",
+    "caption": "nếm, thưởng thức; phẩm chất"
+  },
+  "品牌": {
+    "file": "品牌.svg",
+    "src": "images/HSK_3.0/level5/品牌.svg",
+    "caption": "nhãn hiệu"
+  },
+  "聘请": {
+    "file": "聘请.svg",
+    "src": "images/HSK_3.0/level5/聘请.svg",
+    "caption": "mời, thuê (chuyên gia, giáo viên)"
   }
 };
 

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:22:21.319251",
-  "total_unique_words_with_illustrations": 2862,
-  "total_flat_svg_files": 2862,
+  "generated_at": "2026-10-10T10:23:22.584326",
+  "total_unique_words_with_illustrations": 2872,
+  "total_flat_svg_files": 2872,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 527,
-        "pct": "21.1%"
+        "with_svg": 529,
+        "pct": "21.2%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1243,
-        "pct": "77.7%"
+        "with_svg": 1253,
+        "pct": "78.3%"
       },
       "level6": {
         "total": 1800,
@@ -47196,6 +47196,42 @@
         "images/HSK_3.0/level5/哦.svg"
       ]
     },
+    "品质": {
+      "hanzi": "品质",
+      "pinyin": "pǐnzhì",
+      "meaning": "phẩm chất, chất lượng",
+      "example_zh": "这家公司很注重产品<u>品质</u>。",
+      "example_vi": "Công ty này rất chú trọng <u>chất lượng</u> sản phẩm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "品质.svg",
+      "src": "images/HSK_2.0/level6/品质.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/品质.svg"
+      ]
+    },
+    "品种": {
+      "hanzi": "品种",
+      "pinyin": "pǐnzhǒng",
+      "meaning": "chủng loại, giống loài",
+      "example_zh": "这种水果有很多<u>品种</u>。",
+      "example_vi": "Loại trái cây này có rất nhiều <u>chủng loại</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "品种.svg",
+      "src": "images/HSK_2.0/level6/品种.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/品种.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -51435,6 +51471,118 @@
       ],
       "file": "配.svg",
       "src": "images/HSK_3.0/level5/配.svg",
+      "alt_srcs": []
+    },
+    "配送": {
+      "hanzi": "配送",
+      "pinyin": "pèisòng",
+      "meaning": "giao hàng, vận chuyển",
+      "example_zh": "网上购买的商品当天就可以免费<u>配送</u>。",
+      "example_vi": "Hàng hóa mua trên mạng có thể được <u>giao</u> miễn phí ngay trong ngày.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "配送.svg",
+      "src": "images/HSK_3.0/level5/配送.svg",
+      "alt_srcs": []
+    },
+    "碰见": {
+      "hanzi": "碰见",
+      "pinyin": "pèngjiàn",
+      "meaning": "tình cờ gặp, đụng mặt",
+      "example_zh": "昨天我在超市偶遇<u>碰见</u>了老同学。",
+      "example_vi": "Hôm qua tôi tình cờ <u>gặp</u> bạn học cũ ở siêu thị.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "碰见.svg",
+      "src": "images/HSK_3.0/level5/碰见.svg",
+      "alt_srcs": []
+    },
+    "批¹": {
+      "hanzi": "批¹",
+      "pinyin": "pī",
+      "meaning": "lô, mẻ, đợt",
+      "example_zh": "这<u>批</u>货已经到了。",
+      "example_vi": "<u>Lô</u> hàng này đã đến.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "批¹.svg",
+      "src": "images/HSK_3.0/level5/批¹.svg",
+      "alt_srcs": []
+    },
+    "批²": {
+      "hanzi": "批²",
+      "pinyin": "pī",
+      "meaning": "lô, mẻ, đợt",
+      "example_zh": "这<u>批</u>货已经到了。",
+      "example_vi": "<u>Lô</u> hàng này đã đến.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "批².svg",
+      "src": "images/HSK_3.0/level5/批².svg",
+      "alt_srcs": []
+    },
+    "拼": {
+      "hanzi": "拼",
+      "pinyin": "pīn",
+      "meaning": "ghép lại, ráp; dốc sức, liều",
+      "example_zh": "孩子们正在桌上<u>拼</u>积木。",
+      "example_vi": "Bọn trẻ đang <u>ghép</u> hình xếp gỗ trên bàn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "拼.svg",
+      "src": "images/HSK_3.0/level5/拼.svg",
+      "alt_srcs": []
+    },
+    "品": {
+      "hanzi": "品",
+      "pinyin": "pǐn",
+      "meaning": "nếm, thưởng thức; phẩm chất",
+      "example_zh": "请大家坐下来细细<u>品</u>茶。",
+      "example_vi": "Xin mời mọi người ngồi xuống từ từ <u>thưởng thức</u> trà.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "品.svg",
+      "src": "images/HSK_3.0/level5/品.svg",
+      "alt_srcs": []
+    },
+    "品牌": {
+      "hanzi": "品牌",
+      "pinyin": "pǐnpái",
+      "meaning": "nhãn hiệu",
+      "example_zh": "他是这个<u>品牌</u>的代理商",
+      "example_vi": "Anh ấy là đại lý của nhãn hàng này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "品牌.svg",
+      "src": "images/HSK_3.0/level5/品牌.svg",
+      "alt_srcs": []
+    },
+    "聘请": {
+      "hanzi": "聘请",
+      "pinyin": "pìnqǐng",
+      "meaning": "mời, thuê (chuyên gia, giáo viên)",
+      "example_zh": "学校<u>聘请</u>了一位外籍教授来授课。",
+      "example_vi": "Trường học đã <u>mời</u> một giáo sư người nước ngoài đến giảng dạy.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "聘请.svg",
+      "src": "images/HSK_3.0/level5/聘请.svg",
       "alt_srcs": []
     }
   }
