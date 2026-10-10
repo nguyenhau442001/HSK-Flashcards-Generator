@@ -12716,6 +12716,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "字母.svg",
     "src": "images/HSK_2.0/level5/字母.svg",
     "caption": "chữ cái"
+  },
+  "自从": {
+    "file": "自从.svg",
+    "src": "images/HSK_2.0/level5/自从.svg",
+    "caption": "từ khi, kể từ"
+  },
+  "自豪": {
+    "file": "自豪.svg",
+    "src": "images/HSK_2.0/level5/自豪.svg",
+    "caption": "tự hào"
+  },
+  "自觉": {
+    "file": "自觉.svg",
+    "src": "images/HSK_2.0/level5/自觉.svg",
+    "caption": "tự giác"
+  },
+  "自私": {
+    "file": "自私.svg",
+    "src": "images/HSK_2.0/level5/自私.svg",
+    "caption": "tự tư, ích kỷ"
+  },
+  "自愿": {
+    "file": "自愿.svg",
+    "src": "images/HSK_2.0/level5/自愿.svg",
+    "caption": "tự nguyện"
+  },
+  "总裁": {
+    "file": "总裁.svg",
+    "src": "images/HSK_2.0/level5/总裁.svg",
+    "caption": "tổng giám đốc"
+  },
+  "总统": {
+    "file": "总统.svg",
+    "src": "images/HSK_2.0/level5/总统.svg",
+    "caption": "tổng thống"
+  },
+  "组": {
+    "file": "组.svg",
+    "src": "images/HSK_2.0/level5/组.svg",
+    "caption": "nhóm, tổ"
+  },
+  "组合": {
+    "file": "组合.svg",
+    "src": "images/HSK_2.0/level5/组合.svg",
+    "caption": "tổ hợp, kết hợp"
+  },
+  "阻止": {
+    "file": "阻止.svg",
+    "src": "images/HSK_2.0/level5/阻止.svg",
+    "caption": "ngăn chặn"
   }
 };
 

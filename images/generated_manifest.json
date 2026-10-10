@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:15:25.815917",
-  "total_unique_words_with_illustrations": 2483,
-  "total_flat_svg_files": 2483,
+  "generated_at": "2026-10-10T09:30:36.168100",
+  "total_unique_words_with_illustrations": 2493,
+  "total_flat_svg_files": 2493,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1284,
-        "pct": "98.8%"
+        "with_svg": 1294,
+        "pct": "99.5%"
       },
       "level6": {
         "total": 2500,
@@ -53,32 +53,32 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 602,
-        "pct": "60.2%"
+        "with_svg": 603,
+        "pct": "60.3%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 870,
-        "pct": "54.4%"
+        "with_svg": 875,
+        "pct": "54.7%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 240,
-        "pct": "13.3%"
+        "with_svg": 243,
+        "pct": "13.5%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 102,
+        "with_svg": 103,
         "pct": "1.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 102,
+        "with_svg": 103,
         "pct": "1.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 102,
+        "with_svg": 103,
         "pct": "1.8%"
       }
     }
@@ -45808,6 +45808,190 @@
       "src": "images/HSK_2.0/level5/字母.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/字母.svg"
+      ]
+    },
+    "自从": {
+      "hanzi": "自从",
+      "pinyin": "zìcóng",
+      "meaning": "từ khi, kể từ",
+      "example_zh": "<u>自从</u>那天起，他变了。",
+      "example_vi": "Từ <u>ngày</u> đó, anh ấy đã thay đổi.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "自从.svg",
+      "src": "images/HSK_2.0/level5/自从.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/自从.svg"
+      ]
+    },
+    "自豪": {
+      "hanzi": "自豪",
+      "pinyin": "zìháo",
+      "meaning": "tự hào",
+      "example_zh": "他为自己的国家感到<u>自豪</u>。",
+      "example_vi": "Anh ấy cảm thấy <u>tự hào</u> về đất nước của mình.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "自豪.svg",
+      "src": "images/HSK_2.0/level5/自豪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/自豪.svg"
+      ]
+    },
+    "自觉": {
+      "hanzi": "自觉",
+      "pinyin": "zìjué",
+      "meaning": "tự giác",
+      "example_zh": "他工作很<u>自觉</u>。",
+      "example_vi": "Anh ấy làm việc rất <u>tự giác</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "自觉.svg",
+      "src": "images/HSK_2.0/level5/自觉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/自觉.svg"
+      ]
+    },
+    "自私": {
+      "hanzi": "自私",
+      "pinyin": "zìsī",
+      "meaning": "tự tư, ích kỷ",
+      "example_zh": "他这个人很<u>自私</u>。",
+      "example_vi": "Người này rất <u>ích kỷ</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "自私.svg",
+      "src": "images/HSK_2.0/level5/自私.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/自私.svg",
+        "images/HSK_3.0/level8/自私.svg",
+        "images/HSK_3.0/level9/自私.svg"
+      ]
+    },
+    "自愿": {
+      "hanzi": "自愿",
+      "pinyin": "zìyuàn",
+      "meaning": "tự nguyện",
+      "example_zh": "他<u>自愿</u>参加这个活动。",
+      "example_vi": "Anh ấy <u>tự nguyện</u> tham gia hoạt động này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "自愿.svg",
+      "src": "images/HSK_2.0/level5/自愿.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/自愿.svg"
+      ]
+    },
+    "总裁": {
+      "hanzi": "总裁",
+      "pinyin": "zǒngcái",
+      "meaning": "tổng giám đốc",
+      "example_zh": "他是公司的<u>总裁</u>。",
+      "example_vi": "Anh ấy là <u>tổng giám đốc</u> của công ty.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "总裁.svg",
+      "src": "images/HSK_2.0/level5/总裁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/总裁.svg"
+      ]
+    },
+    "总统": {
+      "hanzi": "总统",
+      "pinyin": "zǒngtǒng",
+      "meaning": "tổng thống",
+      "example_zh": "他当选为<u>总统</u>。",
+      "example_vi": "Anh ấy được bầu làm <u>tổng thống</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "总统.svg",
+      "src": "images/HSK_2.0/level5/总统.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/总统.svg"
+      ]
+    },
+    "组": {
+      "hanzi": "组",
+      "pinyin": "zǔ",
+      "meaning": "nhóm, tổ",
+      "example_zh": "请分成两<u>组</u>。",
+      "example_vi": "Xin hãy chia thành hai <u>nhóm</u>.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "组.svg",
+      "src": "images/HSK_2.0/level5/组.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/组.svg"
+      ]
+    },
+    "组合": {
+      "hanzi": "组合",
+      "pinyin": "zǔhé",
+      "meaning": "tổ hợp, kết hợp",
+      "example_zh": "这是一个新的<u>组合</u>。",
+      "example_vi": "Đây là một sự <u>kết hợp</u> mới.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "组合.svg",
+      "src": "images/HSK_2.0/level5/组合.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/组合.svg"
+      ]
+    },
+    "阻止": {
+      "hanzi": "阻止",
+      "pinyin": "zǔzhǐ",
+      "meaning": "ngăn chặn",
+      "example_zh": "我们要<u>阻止</u>这件事。",
+      "example_vi": "Chúng ta phải <u>ngăn chặn</u> việc này.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "阻止.svg",
+      "src": "images/HSK_2.0/level5/阻止.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/阻止.svg"
       ]
     }
   }
