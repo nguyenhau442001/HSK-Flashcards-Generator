@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:45:47.679936",
-  "total_unique_words_with_illustrations": 2592,
-  "total_flat_svg_files": 2592,
+  "generated_at": "2026-10-10T09:46:50.944161",
+  "total_unique_words_with_illustrations": 2602,
+  "total_flat_svg_files": 2602,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 487,
-        "pct": "19.5%"
+        "with_svg": 489,
+        "pct": "19.6%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 973,
-        "pct": "60.8%"
+        "with_svg": 983,
+        "pct": "61.4%"
       },
       "level6": {
         "total": 1800,
@@ -46476,6 +46476,42 @@
         "images/HSK_3.0/level5/创作.svg"
       ]
     },
+    "达成": {
+      "hanzi": "达成",
+      "pinyin": "dáchéng",
+      "meaning": "đạt được (thỏa thuận)",
+      "example_zh": "双方<u>达成</u>了协议。",
+      "example_vi": "Hai bên đã <u>đạt được</u> thỏa thuận.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "达成.svg",
+      "src": "images/HSK_2.0/level6/达成.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/达成.svg"
+      ]
+    },
+    "打包": {
+      "hanzi": "打包",
+      "pinyin": "dǎbāo",
+      "meaning": "đóng gói, gói lại",
+      "example_zh": "服务员帮我们<u>打包</u>了剩菜。",
+      "example_vi": "Nhân viên giúp chúng tôi <u>gói lại</u> phần ăn còn dư.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "打包.svg",
+      "src": "images/HSK_2.0/level6/打包.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/打包.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -47489,6 +47525,118 @@
       ],
       "file": "此时.svg",
       "src": "images/HSK_3.0/level5/此时.svg",
+      "alt_srcs": []
+    },
+    "从不": {
+      "hanzi": "从不",
+      "pinyin": "cóng bù",
+      "meaning": "chưa bao giờ, không bao giờ",
+      "example_zh": "他<u>从不</u>迟到。",
+      "example_vi": "Anh ấy <u>không bao giờ</u> đến muộn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "从不.svg",
+      "src": "images/HSK_3.0/level5/从不.svg",
+      "alt_srcs": []
+    },
+    "促销": {
+      "hanzi": "促销",
+      "pinyin": "cùxiāo",
+      "meaning": "khuyến mãi",
+      "example_zh": "超市正在搞<u>促销</u>活动。",
+      "example_vi": "Siêu thị đang có chương trình <u>khuyến mãi</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "促销.svg",
+      "src": "images/HSK_3.0/level5/促销.svg",
+      "alt_srcs": []
+    },
+    "存放": {
+      "hanzi": "存放",
+      "pinyin": "cúnfàng",
+      "meaning": "cất giữ, gửi",
+      "example_zh": "行李可以<u>存放</u>在这里。",
+      "example_vi": "Hành lý có thể <u>gửi</u> ở đây.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "存放.svg",
+      "src": "images/HSK_3.0/level5/存放.svg",
+      "alt_srcs": []
+    },
+    "存款": {
+      "hanzi": "存款",
+      "pinyin": "cúnkuǎn",
+      "meaning": "gửi tiền; tiền gửi tiết kiệm",
+      "example_zh": "我去银行<u>存款</u>。",
+      "example_vi": "Tôi đi ngân hàng <u>gửi tiền</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "存款.svg",
+      "src": "images/HSK_3.0/level5/存款.svg",
+      "alt_srcs": []
+    },
+    "打断": {
+      "hanzi": "打断",
+      "pinyin": "dǎduàn",
+      "meaning": "ngắt lời, cắt ngang",
+      "example_zh": "别<u>打断</u>别人说话。",
+      "example_vi": "Đừng <u>ngắt lời</u> người khác.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "打断.svg",
+      "src": "images/HSK_3.0/level5/打断.svg",
+      "alt_srcs": []
+    },
+    "打破": {
+      "hanzi": "打破",
+      "pinyin": "dǎpò",
+      "meaning": "làm vỡ; phá (kỷ lục)",
+      "example_zh": "他<u>打破</u>了世界纪录。",
+      "example_vi": "Anh ấy đã <u>phá</u> kỷ lục thế giới.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "打破.svg",
+      "src": "images/HSK_3.0/level5/打破.svg",
+      "alt_srcs": []
+    },
+    "大胆": {
+      "hanzi": "大胆",
+      "pinyin": "dàdǎn",
+      "meaning": "mạnh dạn, táo bạo",
+      "example_zh": "你要<u>大胆</u>地说出你的想法。",
+      "example_vi": "Bạn phải <u>mạnh dạn</u> nói ra suy nghĩ của mình.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "大胆.svg",
+      "src": "images/HSK_3.0/level5/大胆.svg",
+      "alt_srcs": []
+    },
+    "大多": {
+      "hanzi": "大多",
+      "pinyin": "dàduō",
+      "meaning": "phần lớn, đa số",
+      "example_zh": "班里的学生<u>大多</u>是女生。",
+      "example_vi": "Học sinh trong lớp <u>phần lớn</u> là nữ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "大多.svg",
+      "src": "images/HSK_3.0/level5/大多.svg",
       "alt_srcs": []
     }
   }

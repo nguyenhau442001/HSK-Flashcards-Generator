@@ -12902,6 +12902,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/创作.svg",
     "caption": "sáng tác"
   },
+  "达成": {
+    "file": "达成.svg",
+    "src": "images/HSK_2.0/level6/达成.svg",
+    "caption": "đạt được (thỏa thuận)"
+  },
+  "打包": {
+    "file": "打包.svg",
+    "src": "images/HSK_2.0/level6/打包.svg",
+    "caption": "đóng gói, gói lại"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13261,6 +13271,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "此时.svg",
     "src": "images/HSK_3.0/level5/此时.svg",
     "caption": "lúc này"
+  },
+  "从不": {
+    "file": "从不.svg",
+    "src": "images/HSK_3.0/level5/从不.svg",
+    "caption": "chưa bao giờ, không bao giờ"
+  },
+  "促销": {
+    "file": "促销.svg",
+    "src": "images/HSK_3.0/level5/促销.svg",
+    "caption": "khuyến mãi"
+  },
+  "存放": {
+    "file": "存放.svg",
+    "src": "images/HSK_3.0/level5/存放.svg",
+    "caption": "cất giữ, gửi"
+  },
+  "存款": {
+    "file": "存款.svg",
+    "src": "images/HSK_3.0/level5/存款.svg",
+    "caption": "gửi tiền; tiền gửi tiết kiệm"
+  },
+  "打断": {
+    "file": "打断.svg",
+    "src": "images/HSK_3.0/level5/打断.svg",
+    "caption": "ngắt lời, cắt ngang"
+  },
+  "打破": {
+    "file": "打破.svg",
+    "src": "images/HSK_3.0/level5/打破.svg",
+    "caption": "làm vỡ; phá (kỷ lục)"
+  },
+  "大胆": {
+    "file": "大胆.svg",
+    "src": "images/HSK_3.0/level5/大胆.svg",
+    "caption": "mạnh dạn, táo bạo"
+  },
+  "大多": {
+    "file": "大多.svg",
+    "src": "images/HSK_3.0/level5/大多.svg",
+    "caption": "phần lớn, đa số"
   }
 };
 
