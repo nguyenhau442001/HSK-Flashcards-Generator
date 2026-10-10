@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:15:37.246885",
-  "total_unique_words_with_illustrations": 2802,
-  "total_flat_svg_files": 2802,
+  "generated_at": "2026-10-10T10:17:05.703146",
+  "total_unique_words_with_illustrations": 2812,
+  "total_flat_svg_files": 2812,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 518,
-        "pct": "20.7%"
+        "with_svg": 520,
+        "pct": "20.8%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1183,
-        "pct": "73.9%"
+        "with_svg": 1193,
+        "pct": "74.6%"
       },
       "level6": {
         "total": 1800,
@@ -47034,6 +47034,42 @@
         "images/HSK_3.0/level5/开展.svg"
       ]
     },
+    "亏": {
+      "hanzi": "亏",
+      "pinyin": "kuī",
+      "meaning": "thua, lỗ",
+      "example_zh": "他做生意<u>亏</u>了钱。",
+      "example_vi": "Anh ấy làm kinh doanh bị <u>lỗ</u> tiền.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "亏.svg",
+      "src": "images/HSK_2.0/level6/亏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/亏.svg"
+      ]
+    },
+    "来源": {
+      "hanzi": "来源",
+      "pinyin": "láiyuán",
+      "meaning": "nguồn gốc",
+      "example_zh": "这笔钱的<u>来源</u>不明。",
+      "example_vi": "<u>Nguồn gốc</u> của số tiền này không rõ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "来源.svg",
+      "src": "images/HSK_2.0/level6/来源.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/来源.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -50556,6 +50592,118 @@
       ],
       "file": "空中.svg",
       "src": "images/HSK_3.0/level5/空中.svg",
+      "alt_srcs": []
+    },
+    "口袋": {
+      "hanzi": "口袋",
+      "pinyin": "kǒudai",
+      "meaning": "túi áo, túi quần, túi",
+      "example_zh": "他把钥匙放进了大衣<u>口袋</u>里。",
+      "example_vi": "Anh ấy cho chìa khóa vào trong <u>túi</u> áo khoác.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "口袋.svg",
+      "src": "images/HSK_3.0/level5/口袋.svg",
+      "alt_srcs": []
+    },
+    "库": {
+      "hanzi": "库",
+      "pinyin": "kù",
+      "meaning": "kho, kho chứa",
+      "example_zh": "这些货物暂时存放在仓<u>库</u>里。",
+      "example_vi": "Số hàng hóa này tạm thời được lưu trong nhà <u>kho</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "库.svg",
+      "src": "images/HSK_3.0/level5/库.svg",
+      "alt_srcs": []
+    },
+    "宽度": {
+      "hanzi": "宽度",
+      "pinyin": "kuāndù",
+      "meaning": "chiều rộng, độ rộng",
+      "example_zh": "这条公路的<u>宽度</u>足够四辆车并行。",
+      "example_vi": "<u>Độ rộng</u> của con đường này đủ cho bốn chiếc xe chạy song song.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "宽度.svg",
+      "src": "images/HSK_3.0/level5/宽度.svg",
+      "alt_srcs": []
+    },
+    "老公": {
+      "hanzi": "老公",
+      "pinyin": "lǎogōng",
+      "meaning": "chồng, ông xã (thân mật)",
+      "example_zh": "她和<u>老公</u>结婚五年了。",
+      "example_vi": "Cô ấy và <u>chồng</u> đã kết hôn được năm năm rồi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "老公.svg",
+      "src": "images/HSK_3.0/level5/老公.svg",
+      "alt_srcs": []
+    },
+    "姥爷": {
+      "hanzi": "姥爷",
+      "pinyin": "lǎoye",
+      "meaning": "ông ngoại",
+      "example_zh": "放假的时候我去农村看望<u>姥爷</u>。",
+      "example_vi": "Kỳ nghỉ tôi về nông thôn thăm <u>ông ngoại</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "姥爷.svg",
+      "src": "images/HSK_3.0/level5/姥爷.svg",
+      "alt_srcs": []
+    },
+    "乐趣": {
+      "hanzi": "乐趣",
+      "pinyin": "lèqù",
+      "meaning": "niềm vui, sự thú vị",
+      "example_zh": "阅读能给我们带来很多<u>乐趣</u>。",
+      "example_vi": "Đọc sách có thể đem lại cho chúng ta rất nhiều <u>niềm vui</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "乐趣.svg",
+      "src": "images/HSK_3.0/level5/乐趣.svg",
+      "alt_srcs": []
+    },
+    "泪": {
+      "hanzi": "泪",
+      "pinyin": "lèi",
+      "meaning": "nước mắt, giọt lệ",
+      "example_zh": "听到这个好消息，她激动得流下了眼<u>泪</u>。",
+      "example_vi": "Nghe được tin vui này, cô ấy xúc động rơi nước <u>mắt</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "泪.svg",
+      "src": "images/HSK_3.0/level5/泪.svg",
+      "alt_srcs": []
+    },
+    "类": {
+      "hanzi": "类",
+      "pinyin": "lèi",
+      "meaning": "loại, loài; chủng loại",
+      "example_zh": "这<u>类</u>问题我们以前讨论过。",
+      "example_vi": "<u>Loại</u> vấn đề này trước đây chúng tôi từng thảo luận rồi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "类.svg",
+      "src": "images/HSK_3.0/level5/类.svg",
       "alt_srcs": []
     }
   }

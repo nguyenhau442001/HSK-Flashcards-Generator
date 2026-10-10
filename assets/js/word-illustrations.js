@@ -13057,6 +13057,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/开展.svg",
     "caption": "triển khai"
   },
+  "亏": {
+    "file": "亏.svg",
+    "src": "images/HSK_2.0/level6/亏.svg",
+    "caption": "thua, lỗ"
+  },
+  "来源": {
+    "file": "来源.svg",
+    "src": "images/HSK_2.0/level6/来源.svg",
+    "caption": "nguồn gốc"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -14311,6 +14321,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "空中.svg",
     "src": "images/HSK_3.0/level5/空中.svg",
     "caption": "không khí"
+  },
+  "口袋": {
+    "file": "口袋.svg",
+    "src": "images/HSK_3.0/level5/口袋.svg",
+    "caption": "túi áo, túi quần, túi"
+  },
+  "库": {
+    "file": "库.svg",
+    "src": "images/HSK_3.0/level5/库.svg",
+    "caption": "kho, kho chứa"
+  },
+  "宽度": {
+    "file": "宽度.svg",
+    "src": "images/HSK_3.0/level5/宽度.svg",
+    "caption": "chiều rộng, độ rộng"
+  },
+  "老公": {
+    "file": "老公.svg",
+    "src": "images/HSK_3.0/level5/老公.svg",
+    "caption": "chồng, ông xã (thân mật)"
+  },
+  "姥爷": {
+    "file": "姥爷.svg",
+    "src": "images/HSK_3.0/level5/姥爷.svg",
+    "caption": "ông ngoại"
+  },
+  "乐趣": {
+    "file": "乐趣.svg",
+    "src": "images/HSK_3.0/level5/乐趣.svg",
+    "caption": "niềm vui, sự thú vị"
+  },
+  "泪": {
+    "file": "泪.svg",
+    "src": "images/HSK_3.0/level5/泪.svg",
+    "caption": "nước mắt, giọt lệ"
+  },
+  "类": {
+    "file": "类.svg",
+    "src": "images/HSK_3.0/level5/类.svg",
+    "caption": "loại, loài; chủng loại"
   }
 };
 
