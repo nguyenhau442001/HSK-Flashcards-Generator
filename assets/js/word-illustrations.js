@@ -12857,6 +12857,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/场所.svg",
     "caption": "nơi, địa điểm"
   },
+  "成本": {
+    "file": "成本.svg",
+    "src": "images/HSK_2.0/level6/成本.svg",
+    "caption": "chi phí, giá thành"
+  },
+  "乘务员": {
+    "file": "乘务员.svg",
+    "src": "images/HSK_2.0/level6/乘务员.svg",
+    "caption": "nhân viên phục vụ (tàu, máy bay)"
+  },
+  "成员": {
+    "file": "成员.svg",
+    "src": "images/HSK_2.0/level6/成员.svg",
+    "caption": "thành viên"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13111,6 +13126,41 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "称¹.svg",
     "src": "images/HSK_3.0/level5/称¹.svg",
     "caption": "gọi là, xưng là"
+  },
+  "称²": {
+    "file": "称².svg",
+    "src": "images/HSK_3.0/level5/称².svg",
+    "caption": "gọi là, xưng là"
+  },
+  "称为": {
+    "file": "称为.svg",
+    "src": "images/HSK_3.0/level5/称为.svg",
+    "caption": "gọi là"
+  },
+  "成年¹": {
+    "file": "成年¹.svg",
+    "src": "images/HSK_3.0/level5/成年¹.svg",
+    "caption": "trưởng thành, thành niên"
+  },
+  "城区": {
+    "file": "城区.svg",
+    "src": "images/HSK_3.0/level5/城区.svg",
+    "caption": "khu nội thành"
+  },
+  "橙子": {
+    "file": "橙子.svg",
+    "src": "images/HSK_3.0/level5/橙子.svg",
+    "caption": "quả cam"
+  },
+  "池": {
+    "file": "池.svg",
+    "src": "images/HSK_3.0/level5/池.svg",
+    "caption": "ao, bể"
+  },
+  "充电": {
+    "file": "充电.svg",
+    "src": "images/HSK_3.0/level5/充电.svg",
+    "caption": "sạc điện; bồi dưỡng thêm"
   }
 };
 

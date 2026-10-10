@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:42:50.622788",
-  "total_unique_words_with_illustrations": 2562,
-  "total_flat_svg_files": 2562,
+  "generated_at": "2026-10-10T09:43:48.399961",
+  "total_unique_words_with_illustrations": 2572,
+  "total_flat_svg_files": 2572,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 478,
-        "pct": "19.1%"
+        "with_svg": 481,
+        "pct": "19.2%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 942,
-        "pct": "58.9%"
+        "with_svg": 952,
+        "pct": "59.5%"
       },
       "level6": {
         "total": 1800,
@@ -46314,6 +46314,60 @@
         "images/HSK_3.0/level5/场所.svg"
       ]
     },
+    "成本": {
+      "hanzi": "成本",
+      "pinyin": "chéngběn",
+      "meaning": "chi phí, giá thành",
+      "example_zh": "生产<u>成本</u>上升了。",
+      "example_vi": "<u>Chi phí</u> sản xuất đã tăng lên.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "成本.svg",
+      "src": "images/HSK_2.0/level6/成本.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/成本.svg"
+      ]
+    },
+    "乘务员": {
+      "hanzi": "乘务员",
+      "pinyin": "chéngwùyuán",
+      "meaning": "nhân viên phục vụ (tàu, máy bay)",
+      "example_zh": "<u>乘务员</u>正在为乘客服务。",
+      "example_vi": "<u>Nhân viên phục vụ</u> đang phục vụ hành khách.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "乘务员.svg",
+      "src": "images/HSK_2.0/level6/乘务员.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/乘务员.svg"
+      ]
+    },
+    "成员": {
+      "hanzi": "成员",
+      "pinyin": "chéngyuán",
+      "meaning": "thành viên",
+      "example_zh": "我们团队有五名<u>成员</u>。",
+      "example_vi": "Nhóm của chúng tôi có năm <u>thành viên</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "成员.svg",
+      "src": "images/HSK_2.0/level6/成员.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/成员.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -47026,6 +47080,104 @@
       ],
       "file": "称¹.svg",
       "src": "images/HSK_3.0/level5/称¹.svg",
+      "alt_srcs": []
+    },
+    "称²": {
+      "hanzi": "称²",
+      "pinyin": "chēng",
+      "meaning": "gọi là, xưng là",
+      "example_zh": "大家都<u>称</u>他为天才。",
+      "example_vi": "Mọi người đều <u>gọi</u> anh ấy là thiên tài.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "称².svg",
+      "src": "images/HSK_3.0/level5/称².svg",
+      "alt_srcs": []
+    },
+    "称为": {
+      "hanzi": "称为",
+      "pinyin": "chēngwéi",
+      "meaning": "gọi là",
+      "example_zh": "北京被<u>称为</u>中国的首都。",
+      "example_vi": "Bắc Kinh được <u>gọi là</u> thủ đô của Trung Quốc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "称为.svg",
+      "src": "images/HSK_3.0/level5/称为.svg",
+      "alt_srcs": []
+    },
+    "成年¹": {
+      "hanzi": "成年¹",
+      "pinyin": "chéngnián",
+      "meaning": "trưởng thành, thành niên",
+      "example_zh": "孩子<u>成年</u>以后就要自己生活了。",
+      "example_vi": "Con cái sau khi <u>trưởng thành</u> phải tự lập.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "成年¹.svg",
+      "src": "images/HSK_3.0/level5/成年¹.svg",
+      "alt_srcs": []
+    },
+    "城区": {
+      "hanzi": "城区",
+      "pinyin": "chéngqū",
+      "meaning": "khu nội thành",
+      "example_zh": "<u>城区</u>的房子比郊区贵。",
+      "example_vi": "Nhà ở <u>nội thành</u> đắt hơn ngoại ô.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "城区.svg",
+      "src": "images/HSK_3.0/level5/城区.svg",
+      "alt_srcs": []
+    },
+    "橙子": {
+      "hanzi": "橙子",
+      "pinyin": "chéngzi",
+      "meaning": "quả cam",
+      "example_zh": "我买了几个<u>橙子</u>。",
+      "example_vi": "Tôi đã mua mấy quả <u>cam</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "橙子.svg",
+      "src": "images/HSK_3.0/level5/橙子.svg",
+      "alt_srcs": []
+    },
+    "池": {
+      "hanzi": "池",
+      "pinyin": "chí",
+      "meaning": "ao, bể",
+      "example_zh": "公园里有一个小<u>池</u>，里面有很多鱼。",
+      "example_vi": "Trong công viên có một cái <u>ao</u> nhỏ, bên trong có nhiều cá.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "池.svg",
+      "src": "images/HSK_3.0/level5/池.svg",
+      "alt_srcs": []
+    },
+    "充电": {
+      "hanzi": "充电",
+      "pinyin": "chōngdiàn",
+      "meaning": "sạc điện; bồi dưỡng thêm",
+      "example_zh": "我的手机没电了，得<u>充电</u>。",
+      "example_vi": "Điện thoại tôi hết pin rồi, phải <u>sạc</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "充电.svg",
+      "src": "images/HSK_3.0/level5/充电.svg",
       "alt_srcs": []
     }
   }
