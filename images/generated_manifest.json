@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:30:36.168100",
-  "total_unique_words_with_illustrations": 2493,
-  "total_flat_svg_files": 2493,
+  "generated_at": "2026-10-10T09:31:56.914382",
+  "total_unique_words_with_illustrations": 2499,
+  "total_flat_svg_files": 2499,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -26,8 +26,8 @@
       },
       "level5": {
         "total": 1300,
-        "with_svg": 1294,
-        "pct": "99.5%"
+        "with_svg": 1300,
+        "pct": "100.0%"
       },
       "level6": {
         "total": 2500,
@@ -53,13 +53,13 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 603,
-        "pct": "60.3%"
+        "with_svg": 604,
+        "pct": "60.4%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 875,
-        "pct": "54.7%"
+        "with_svg": 879,
+        "pct": "54.9%"
       },
       "level6": {
         "total": 1800,
@@ -45993,6 +45993,110 @@
       "alt_srcs": [
         "images/HSK_3.0/level5/阻止.svg"
       ]
+    },
+    "醉": {
+      "hanzi": "醉",
+      "pinyin": "zuì",
+      "meaning": "say (rượu)",
+      "example_zh": "他喝<u>醉</u>了。",
+      "example_vi": "Anh ấy đã <u>say</u> rượu.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "醉.svg",
+      "src": "images/HSK_2.0/level5/醉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/醉.svg"
+      ]
+    },
+    "最初": {
+      "hanzi": "最初",
+      "pinyin": "zuìchū",
+      "meaning": "ban đầu, lúc đầu",
+      "example_zh": "<u>最初</u>我不喜欢他。",
+      "example_vi": "<u>Ban đầu</u> tôi không thích anh ấy.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "最初.svg",
+      "src": "images/HSK_2.0/level5/最初.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/最初.svg"
+      ]
+    },
+    "尊敬": {
+      "hanzi": "尊敬",
+      "pinyin": "zūnjìng",
+      "meaning": "tôn kính",
+      "example_zh": "我们要<u>尊敬</u>老师。",
+      "example_vi": "Chúng ta phải <u>tôn kính</u> thầy giáo.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "尊敬.svg",
+      "src": "images/HSK_2.0/level5/尊敬.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/尊敬.svg"
+      ]
+    },
+    "遵守": {
+      "hanzi": "遵守",
+      "pinyin": "zūnshǒu",
+      "meaning": "tuân thủ",
+      "example_zh": "请<u>遵守</u>交通规则。",
+      "example_vi": "Xin hãy <u>tuân thủ</u> luật giao thông.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "遵守.svg",
+      "src": "images/HSK_2.0/level5/遵守.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/遵守.svg"
+      ]
+    },
+    "作品": {
+      "hanzi": "作品",
+      "pinyin": "zuòpǐn",
+      "meaning": "tác phẩm",
+      "example_zh": "这是他最好的<u>作品</u>。",
+      "example_vi": "Đây là <u>tác phẩm</u> tốt nhất của anh ấy.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "作品.svg",
+      "src": "images/HSK_2.0/level5/作品.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/作品.svg"
+      ]
+    },
+    "作为": {
+      "hanzi": "作为",
+      "pinyin": "zuòwéi",
+      "meaning": "là, với danh nghĩa",
+      "example_zh": "<u>作为</u>老师，他很负责任。",
+      "example_vi": "<u>Với danh nghĩa</u> là thầy giáo, anh ấy rất có trách nhiệm.",
+      "levels_hsk2": [
+        "level5"
+      ],
+      "levels_hsk3": [],
+      "file": "作为.svg",
+      "src": "images/HSK_2.0/level5/作为.svg",
+      "alt_srcs": []
     }
   }
 }

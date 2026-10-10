@@ -12766,6 +12766,36 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "阻止.svg",
     "src": "images/HSK_2.0/level5/阻止.svg",
     "caption": "ngăn chặn"
+  },
+  "醉": {
+    "file": "醉.svg",
+    "src": "images/HSK_2.0/level5/醉.svg",
+    "caption": "say (rượu)"
+  },
+  "最初": {
+    "file": "最初.svg",
+    "src": "images/HSK_2.0/level5/最初.svg",
+    "caption": "ban đầu, lúc đầu"
+  },
+  "尊敬": {
+    "file": "尊敬.svg",
+    "src": "images/HSK_2.0/level5/尊敬.svg",
+    "caption": "tôn kính"
+  },
+  "遵守": {
+    "file": "遵守.svg",
+    "src": "images/HSK_2.0/level5/遵守.svg",
+    "caption": "tuân thủ"
+  },
+  "作品": {
+    "file": "作品.svg",
+    "src": "images/HSK_2.0/level5/作品.svg",
+    "caption": "tác phẩm"
+  },
+  "作为": {
+    "file": "作为.svg",
+    "src": "images/HSK_2.0/level5/作为.svg",
+    "caption": "là, với danh nghĩa"
   }
 };
 
