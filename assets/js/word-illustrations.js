@@ -13082,6 +13082,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/忙碌.svg",
     "caption": "bận rộn"
   },
+  "模式": {
+    "file": "模式.svg",
+    "src": "images/HSK_2.0/level6/模式.svg",
+    "caption": "mô hình, phương thức"
+  },
+  "目光": {
+    "file": "目光.svg",
+    "src": "images/HSK_2.0/level6/目光.svg",
+    "caption": "tầm nhìn, ánh mắt"
+  },
+  "难得": {
+    "file": "难得.svg",
+    "src": "images/HSK_2.0/level6/难得.svg",
+    "caption": "hiếm có, khó mà có được"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -14511,6 +14526,41 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "描述.svg",
     "src": "images/HSK_3.0/level5/描述.svg",
     "caption": "mô tả, miêu tả"
+  },
+  "名称": {
+    "file": "名称.svg",
+    "src": "images/HSK_3.0/level5/名称.svg",
+    "caption": "tên gọi, danh xưng"
+  },
+  "命¹": {
+    "file": "命¹.svg",
+    "src": "images/HSK_3.0/level5/命¹.svg",
+    "caption": "mạng sống, tính mạng; số mệnh"
+  },
+  "难度": {
+    "file": "难度.svg",
+    "src": "images/HSK_3.0/level5/难度.svg",
+    "caption": "khó khăn"
+  },
+  "难以": {
+    "file": "难以.svg",
+    "src": "images/HSK_3.0/level5/难以.svg",
+    "caption": "khó mà, khó lòng"
+  },
+  "男子": {
+    "file": "男子.svg",
+    "src": "images/HSK_3.0/level5/男子.svg",
+    "caption": "người đàn ông, nam giới"
+  },
+  "闹": {
+    "file": "闹.svg",
+    "src": "images/HSK_3.0/level5/闹.svg",
+    "caption": "ồn ào, náo nhiệt; làm ầm lên"
+  },
+  "闹钟": {
+    "file": "闹钟.svg",
+    "src": "images/HSK_3.0/level5/闹钟.svg",
+    "caption": "đồng hồ báo thức"
   }
 };
 

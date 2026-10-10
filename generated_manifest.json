@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:20:18.493566",
-  "total_unique_words_with_illustrations": 2842,
-  "total_flat_svg_files": 2842,
+  "generated_at": "2026-10-10T10:21:19.405385",
+  "total_unique_words_with_illustrations": 2852,
+  "total_flat_svg_files": 2852,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 523,
-        "pct": "20.9%"
+        "with_svg": 526,
+        "pct": "21.0%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1223,
-        "pct": "76.4%"
+        "with_svg": 1233,
+        "pct": "77.1%"
       },
       "level6": {
         "total": 1800,
@@ -47124,6 +47124,60 @@
         "images/HSK_3.0/level5/忙碌.svg"
       ]
     },
+    "模式": {
+      "hanzi": "模式",
+      "pinyin": "móshì",
+      "meaning": "mô hình, phương thức",
+      "example_zh": "这家公司采用了新的经营<u>模式</u>。",
+      "example_vi": "Công ty này đã áp dụng <u>mô hình</u> kinh doanh mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "模式.svg",
+      "src": "images/HSK_2.0/level6/模式.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/模式.svg"
+      ]
+    },
+    "目光": {
+      "hanzi": "目光",
+      "pinyin": "mùguāng",
+      "meaning": "tầm nhìn, ánh mắt",
+      "example_zh": "他的<u>目光</u>充满了期待。",
+      "example_vi": "<u>Ánh mắt</u> của anh ấy chứa đầy sự kỳ vọng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "目光.svg",
+      "src": "images/HSK_2.0/level6/目光.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/目光.svg"
+      ]
+    },
+    "难得": {
+      "hanzi": "难得",
+      "pinyin": "nándé",
+      "meaning": "hiếm có, khó mà có được",
+      "example_zh": "这是一个<u>难得</u>的机会。",
+      "example_vi": "Đây là một cơ hội <u>hiếm có</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "难得.svg",
+      "src": "images/HSK_2.0/level6/难得.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/难得.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -51139,6 +51193,104 @@
       ],
       "file": "描述.svg",
       "src": "images/HSK_3.0/level5/描述.svg",
+      "alt_srcs": []
+    },
+    "名称": {
+      "hanzi": "名称",
+      "pinyin": "míngchēng",
+      "meaning": "tên gọi, danh xưng",
+      "example_zh": "请在这份表格上写上公司的<u>名称</u>。",
+      "example_vi": "Xin hãy viết <u>tên gọi</u> của công ty lên biểu mẫu này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "名称.svg",
+      "src": "images/HSK_3.0/level5/名称.svg",
+      "alt_srcs": []
+    },
+    "命¹": {
+      "hanzi": "命¹",
+      "pinyin": "mìng",
+      "meaning": "mạng sống, tính mạng; số mệnh",
+      "example_zh": "医生尽全力挽救了病人的生<u>命</u>。",
+      "example_vi": "Bác sĩ đã dốc hết sức cứu sống tính <u>mạng</u> của bệnh nhân.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "命¹.svg",
+      "src": "images/HSK_3.0/level5/命¹.svg",
+      "alt_srcs": []
+    },
+    "难度": {
+      "hanzi": "难度",
+      "pinyin": "nándù",
+      "meaning": "khó khăn",
+      "example_zh": "这个问题的<u>难度</u>程度很高",
+      "example_vi": "Mức độ khó của vấn đề này rất cao.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "难度.svg",
+      "src": "images/HSK_3.0/level5/难度.svg",
+      "alt_srcs": []
+    },
+    "难以": {
+      "hanzi": "难以",
+      "pinyin": "nányǐ",
+      "meaning": "khó mà, khó lòng",
+      "example_zh": "这个消息让人<u>难以</u>置信。",
+      "example_vi": "Tin tức này khiến người ta <u>khó mà</u> tin được.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "难以.svg",
+      "src": "images/HSK_3.0/level5/难以.svg",
+      "alt_srcs": []
+    },
+    "男子": {
+      "hanzi": "男子",
+      "pinyin": "nánzǐ",
+      "meaning": "người đàn ông, nam giới",
+      "example_zh": "那名<u>男子</u>正在公园里跑步。",
+      "example_vi": "Người <u>đàn ông</u> đó đang chạy bộ trong công viên.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "男子.svg",
+      "src": "images/HSK_3.0/level5/男子.svg",
+      "alt_srcs": []
+    },
+    "闹": {
+      "hanzi": "闹",
+      "pinyin": "nào",
+      "meaning": "ồn ào, náo nhiệt; làm ầm lên",
+      "example_zh": "外面太<u>闹</u>了，我没办法集中注意力。",
+      "example_vi": "Bên ngoài <u>ồn ào</u> quá, tôi không thể tập trung chú ý được.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "闹.svg",
+      "src": "images/HSK_3.0/level5/闹.svg",
+      "alt_srcs": []
+    },
+    "闹钟": {
+      "hanzi": "闹钟",
+      "pinyin": "nàozhōng",
+      "meaning": "đồng hồ báo thức",
+      "example_zh": "明天早起，记得定好<u>闹钟</u>。",
+      "example_vi": "Ngày mai dậy sớm, nhớ đặt <u>đồng hồ báo thức</u> nhé.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "闹钟.svg",
+      "src": "images/HSK_3.0/level5/闹钟.svg",
       "alt_srcs": []
     }
   }
