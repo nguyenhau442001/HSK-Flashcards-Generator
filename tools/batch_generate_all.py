@@ -41,29 +41,42 @@ IMAGES_DIR = REPO_ROOT / "images"
 WORD_ILLUSTRATIONS_JS = REPO_ROOT / "assets" / "js" / "word-illustrations.js"
 WORKTREE_DIR = REPO_ROOT
 
-def get_default_api_key():
+def get_api_keys(cli_arg=""):
+    keys = []
+    if cli_arg:
+        for k in cli_arg.split(","):
+            k = k.strip()
+            if k and k not in keys:
+                keys.append(k)
     if os.environ.get("GOOGLE_AI_KEY"):
-        return os.environ.get("GOOGLE_AI_KEY").strip()
+        for k in os.environ.get("GOOGLE_AI_KEY").split(","):
+            k = k.strip()
+            if k and k not in keys:
+                keys.append(k)
     key_file = REPO_ROOT / ".api_key"
     if key_file.exists():
-        return key_file.read_text(encoding="utf-8").strip()
-    return ""
+        for line in key_file.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and line not in keys:
+                keys.append(line)
+    return keys
 
 MODELS_TO_TRY = [
-    "gemini-3.1-flash-lite",
-    "gemini-3.6-flash",
     "gemini-3.5-flash",
-    "gemma-4-26b-a4b-it",
-    "gemini-3-flash-preview",
+    "gemini-3.6-flash",
+    "gemini-3.1-flash-lite",
     "gemini-3.5-flash-lite",
+    "gemini-3-flash-preview",
     "gemini-2.5-flash",
 ]
 
-# Known exhausted models for the current day can be pre-populated or dynamically added
-EXHAUSTED_MODELS = {
-    "gemini-3-flash-preview",
-    "gemini-3.5-flash-lite",
-    "gemini-2.5-flash",
+# Track exhausted (key_index, model) pairs for this session
+EXHAUSTED_KEY_MODELS = {
+    (0, "gemini-3.6-flash"),
+    (0, "gemini-3.1-flash-lite"),
+    (0, "gemini-3.5-flash-lite"),
+    (0, "gemini-3-flash-preview"),
+    (0, "gemini-2.5-flash"),
 }
 
 def guess_pos(meaning):
@@ -371,7 +384,11 @@ def update_word_illustrations_js(manifest_entries):
         except Exception:
             pass
 
-def call_gemini_svg_api(word_info, api_key, max_retries=3):
+def call_gemini_svg_api(word_info, api_keys, max_retries=4):
+    if isinstance(api_keys, str):
+        api_keys = [api_keys] if api_keys else []
+    if not api_keys:
+        return None
     hanzi = word_info.get("hanzi", "").strip()
     meaning = word_info.get("meaning", "").strip()
     pos = word_info.get("pos") or guess_pos(meaning)
@@ -419,20 +436,25 @@ CRITICAL ART DIRECTION & COMPOSITION RULES:
     }
 
     for attempt in range(max_retries):
-        active_candidates = [m for m in MODELS_TO_TRY if m not in EXHAUSTED_MODELS]
-        if not active_candidates:
-            print("        [CRITICAL] All configured models have exhausted their quota! Pausing.", flush=True)
+        available_pairs = []
+        for model in MODELS_TO_TRY:
+            for k_idx, key in enumerate(api_keys):
+                if (k_idx, model) not in EXHAUSTED_KEY_MODELS:
+                    available_pairs.append((k_idx, key, model))
+
+        if not available_pairs:
+            print("        [CRITICAL] All configured API keys and models have exhausted their quota! Pausing.", flush=True)
             return None
 
-        for model in active_candidates:
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+        for k_idx, key, model in available_pairs:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
             try:
                 req = urllib.request.Request(
                     url,
                     data=json.dumps(payload).encode("utf-8"),
                     headers={"Content-Type": "application/json"}
                 )
-                with urllib.request.urlopen(req, timeout=35) as resp:
+                with urllib.request.urlopen(req, timeout=45) as resp:
                     data = json.loads(resp.read().decode("utf-8"))
                     candidates = data.get("candidates", [])
                     if candidates:
@@ -462,25 +484,27 @@ CRITICAL ART DIRECTION & COMPOSITION RULES:
 
                 # Check if quota exceeded (daily limit) -> Blacklist permanently for this session & immediately switch
                 if he.code == 429 and ("quota" in msg.lower() or "limit" in msg.lower() or "resource_exhausted" in err_body.lower()):
-                    EXHAUSTED_MODELS.add(model)
-                    remaining = [m for m in MODELS_TO_TRY if m not in EXHAUSTED_MODELS]
-                    next_model_str = remaining[0] if remaining else "None"
-                    print(f"        [>>> SWITCH MODEL] Quota exceeded for {model}. Blacklisted for this run. Immediately switching to '{next_model_str}'...", flush=True)
+                    EXHAUSTED_KEY_MODELS.add((k_idx, model))
+                    print(f"        [>>> SWITCH MODEL] Quota exceeded for Key #{k_idx+1} on {model}. Blacklisted for this run. Immediately switching...", flush=True)
+                    continue
+                elif he.code == 503:
+                    print(f"        [!] Key #{k_idx+1} {model} HTTP 503 (temporary high demand on Google servers). Waiting 10s...", flush=True)
+                    time.sleep(10)
                     continue
                 elif he.code in (404, 400):
-                    EXHAUSTED_MODELS.add(model)
+                    EXHAUSTED_KEY_MODELS.add((k_idx, model))
                     print(f"        [>>> SWITCH MODEL] {model} unavailable (HTTP {he.code}). Removed from rotation.", flush=True)
                     continue
                 else:
-                    print(f"        [!] {model} HTTP {he.code}: {msg.strip()}", flush=True)
+                    print(f"        [!] Key #{k_idx+1} {model} HTTP {he.code}: {msg.strip()}", flush=True)
                     continue
             except Exception as e:
-                print(f"        [!] {model} Error: {e}", flush=True)
+                print(f"        [!] Key #{k_idx+1} {model} Error: {e}", flush=True)
                 continue
 
         if attempt < max_retries - 1:
-            wait_sec = 10 * (attempt + 1)
-            print(f"        [!] All active models busy. Waiting {wait_sec}s before retry {attempt+2}/{max_retries}...", flush=True)
+            wait_sec = 15 * (attempt + 1)
+            print(f"        [!] All active pairs busy/throttling. Waiting {wait_sec}s before retry {attempt+2}/{max_retries}...", flush=True)
             time.sleep(wait_sec)
 
     return None
@@ -499,14 +523,19 @@ def git_commit_and_push(batch_count, level_label):
 
 def main():
     parser = argparse.ArgumentParser(description="Master batch generator & organizer for all HSK 2.0 & HSK 3.0 levels")
-    parser.add_argument("--api-key", default=get_default_api_key(), help="Google AI Studio API Key (or set GOOGLE_AI_KEY or .api_key)")
+    parser.add_argument("--api-key", default="", help="Google AI Studio API Key (comma-separated or set in .api_key)")
     parser.add_argument("--delay", type=float, default=4.0, help="Delay between API calls in seconds (default: 4.0s)")
     parser.add_argument("--batch-size", type=int, default=10, help="Commit and push every N generated items (default: 10)")
     parser.add_argument("--only-organize", action="store_true", help="Only reorganize existing SVGs, build manifest & README without generating new SVGs")
     parser.add_argument("--target-level", default="all", help="Target specific level (e.g., 'level3', 'level5', 'level6', 'all')")
     args = parser.parse_args()
 
-    api_key = args.api_key.strip()
+    api_keys = get_api_keys(args.api_key.strip())
+    if not api_keys and not args.only_organize:
+        print("[!] No Google AI API key found! Please set GOOGLE_AI_KEY or add to .api_key", flush=True)
+        return
+
+    print(f"[*] Loaded {len(api_keys)} API key(s) for generation rotation.", flush=True)
 
     # Step 1: Organization under images/
     manifest_data = build_manifest_and_organize()
@@ -580,7 +609,7 @@ def main():
                 continue
 
             print(f"    [{idx}/{len(words)}] Generating '{hanzi}' ({pinyin} - {meaning})...", flush=True)
-            svg_code = call_gemini_svg_api(item, api_key)
+            svg_code = call_gemini_svg_api(item, api_keys)
             if svg_code:
                 # 1. Write flat SVG
                 flat_path.write_text(svg_code, encoding="utf-8")
