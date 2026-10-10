@@ -12927,6 +12927,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/等候.svg",
     "caption": "chờ đợi"
   },
+  "定期": {
+    "file": "定期.svg",
+    "src": "images/HSK_2.0/level6/定期.svg",
+    "caption": "định kỳ"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13461,6 +13466,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "电动.svg",
     "src": "images/HSK_3.0/level5/电动.svg",
     "caption": "chạy điện"
+  },
+  "电器": {
+    "file": "电器.svg",
+    "src": "images/HSK_3.0/level5/电器.svg",
+    "caption": "đồ điện"
+  },
+  "电商": {
+    "file": "电商.svg",
+    "src": "images/HSK_3.0/level5/电商.svg",
+    "caption": "thương mại điện tử"
+  },
+  "电视台": {
+    "file": "电视台.svg",
+    "src": "images/HSK_3.0/level5/电视台.svg",
+    "caption": "đài truyền hình"
+  },
+  "电子版": {
+    "file": "电子版.svg",
+    "src": "images/HSK_3.0/level5/电子版.svg",
+    "caption": "bản điện tử"
+  },
+  "调¹": {
+    "file": "调¹.svg",
+    "src": "images/HSK_3.0/level5/调¹.svg",
+    "caption": "điều động, thuyên chuyển"
+  },
+  "调研": {
+    "file": "调研.svg",
+    "src": "images/HSK_3.0/level5/调研.svg",
+    "caption": "điều tra nghiên cứu, khảo sát"
+  },
+  "丢失": {
+    "file": "丢失.svg",
+    "src": "images/HSK_3.0/level5/丢失.svg",
+    "caption": "đánh mất, thất lạc"
+  },
+  "动画": {
+    "file": "动画.svg",
+    "src": "images/HSK_3.0/level5/动画.svg",
+    "caption": "phim hoạt hình"
+  },
+  "动人": {
+    "file": "动人.svg",
+    "src": "images/HSK_3.0/level5/动人.svg",
+    "caption": "cảm động, lay động lòng người"
   }
 };
 

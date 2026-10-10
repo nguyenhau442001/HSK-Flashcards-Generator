@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:50:37.559193",
-  "total_unique_words_with_illustrations": 2632,
-  "total_flat_svg_files": 2632,
+  "generated_at": "2026-10-10T09:51:37.695146",
+  "total_unique_words_with_illustrations": 2642,
+  "total_flat_svg_files": 2642,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 492,
+        "with_svg": 493,
         "pct": "19.7%"
       }
     },
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1013,
-        "pct": "63.3%"
+        "with_svg": 1023,
+        "pct": "63.9%"
       },
       "level6": {
         "total": 1800,
@@ -46566,6 +46566,24 @@
         "images/HSK_3.0/level5/等候.svg"
       ]
     },
+    "定期": {
+      "hanzi": "定期",
+      "pinyin": "dìngqī",
+      "meaning": "định kỳ",
+      "example_zh": "我们<u>定期</u>开会讨论进展。",
+      "example_vi": "Chúng tôi <u>định kỳ</u> họp để thảo luận tiến độ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "定期.svg",
+      "src": "images/HSK_2.0/level6/定期.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/定期.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -48069,6 +48087,132 @@
       ],
       "file": "电动.svg",
       "src": "images/HSK_3.0/level5/电动.svg",
+      "alt_srcs": []
+    },
+    "电器": {
+      "hanzi": "电器",
+      "pinyin": "diànqì",
+      "meaning": "đồ điện",
+      "example_zh": "这家商店卖各种<u>电器</u>。",
+      "example_vi": "Cửa hàng này bán đủ loại <u>đồ điện</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "电器.svg",
+      "src": "images/HSK_3.0/level5/电器.svg",
+      "alt_srcs": []
+    },
+    "电商": {
+      "hanzi": "电商",
+      "pinyin": "diànshāng",
+      "meaning": "thương mại điện tử",
+      "example_zh": "<u>电商</u>改变了人们购物的方式。",
+      "example_vi": "<u>Thương mại điện tử</u> đã thay đổi cách mua sắm của mọi người.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "电商.svg",
+      "src": "images/HSK_3.0/level5/电商.svg",
+      "alt_srcs": []
+    },
+    "电视台": {
+      "hanzi": "电视台",
+      "pinyin": "diànshìtái",
+      "meaning": "đài truyền hình",
+      "example_zh": "她在<u>电视台</u>当记者。",
+      "example_vi": "Cô ấy làm phóng viên ở <u>đài truyền hình</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "电视台.svg",
+      "src": "images/HSK_3.0/level5/电视台.svg",
+      "alt_srcs": []
+    },
+    "电子版": {
+      "hanzi": "电子版",
+      "pinyin": "diànzǐbǎn",
+      "meaning": "bản điện tử",
+      "example_zh": "请把<u>电子版</u>发到我的邮箱。",
+      "example_vi": "Hãy gửi <u>bản điện tử</u> vào email của tôi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "电子版.svg",
+      "src": "images/HSK_3.0/level5/电子版.svg",
+      "alt_srcs": []
+    },
+    "调¹": {
+      "hanzi": "调¹",
+      "pinyin": "diào",
+      "meaning": "điều động, thuyên chuyển",
+      "example_zh": "他被<u>调</u>到上海工作了。",
+      "example_vi": "Anh ấy được <u>điều</u> đến Thượng Hải làm việc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "调¹.svg",
+      "src": "images/HSK_3.0/level5/调¹.svg",
+      "alt_srcs": []
+    },
+    "调研": {
+      "hanzi": "调研",
+      "pinyin": "diàoyán",
+      "meaning": "điều tra nghiên cứu, khảo sát",
+      "example_zh": "我们下周去工厂<u>调研</u>。",
+      "example_vi": "Tuần sau chúng tôi đến nhà máy <u>khảo sát</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "调研.svg",
+      "src": "images/HSK_3.0/level5/调研.svg",
+      "alt_srcs": []
+    },
+    "丢失": {
+      "hanzi": "丢失",
+      "pinyin": "diūshī",
+      "meaning": "đánh mất, thất lạc",
+      "example_zh": "我的行李在机场<u>丢失</u>了。",
+      "example_vi": "Hành lý của tôi bị <u>thất lạc</u> ở sân bay.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "丢失.svg",
+      "src": "images/HSK_3.0/level5/丢失.svg",
+      "alt_srcs": []
+    },
+    "动画": {
+      "hanzi": "动画",
+      "pinyin": "dònghuà",
+      "meaning": "phim hoạt hình",
+      "example_zh": "孩子们都喜欢看<u>动画</u>片。",
+      "example_vi": "Trẻ con đều thích xem phim <u>hoạt hình</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "动画.svg",
+      "src": "images/HSK_3.0/level5/动画.svg",
+      "alt_srcs": []
+    },
+    "动人": {
+      "hanzi": "动人",
+      "pinyin": "dòngrén",
+      "meaning": "cảm động, lay động lòng người",
+      "example_zh": "这首歌非常<u>动人</u>。",
+      "example_vi": "Bài hát này vô cùng <u>cảm động</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "动人.svg",
+      "src": "images/HSK_3.0/level5/动人.svg",
       "alt_srcs": []
     }
   }
