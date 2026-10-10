@@ -13147,6 +13147,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/人工.svg",
     "caption": "nhân công, nhân tạo"
   },
+  "擅长": {
+    "file": "擅长.svg",
+    "src": "images/HSK_2.0/level6/擅长.svg",
+    "caption": "giỏi về, sở trường"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -14911,6 +14916,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "山区.svg",
     "src": "images/HSK_3.0/level5/山区.svg",
     "caption": "vùng núi, miền núi"
+  },
+  "伤": {
+    "file": "伤.svg",
+    "src": "images/HSK_3.0/level5/伤.svg",
+    "caption": "vết thương; làm bị thương, làm tổn thương"
+  },
+  "商家": {
+    "file": "商家.svg",
+    "src": "images/HSK_3.0/level5/商家.svg",
+    "caption": "thương gia, người bán hàng, cửa hàng kinh doanh"
+  },
+  "商人": {
+    "file": "商人.svg",
+    "src": "images/HSK_3.0/level5/商人.svg",
+    "caption": "thương nhân, người làm kinh doanh"
+  },
+  "赏": {
+    "file": "赏.svg",
+    "src": "images/HSK_3.0/level5/赏.svg",
+    "caption": "thưởng thức, ngắm; ban thưởng"
+  },
+  "上传": {
+    "file": "上传.svg",
+    "src": "images/HSK_3.0/level5/上传.svg",
+    "caption": "tải lên"
+  },
+  "上升": {
+    "file": "上升.svg",
+    "src": "images/HSK_3.0/level5/上升.svg",
+    "caption": "tăng lên"
+  },
+  "上下": {
+    "file": "上下.svg",
+    "src": "images/HSK_3.0/level5/上下.svg",
+    "caption": "lên và xuống"
+  },
+  "上涨": {
+    "file": "上涨.svg",
+    "src": "images/HSK_3.0/level5/上涨.svg",
+    "caption": "tăng lên, tăng giá"
+  },
+  "烧": {
+    "file": "烧.svg",
+    "src": "images/HSK_3.0/level5/烧.svg",
+    "caption": "đốt; nấu, nướng; sốt (bị sốt)"
   }
 };
 

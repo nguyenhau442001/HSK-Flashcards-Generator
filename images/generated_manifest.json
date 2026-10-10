@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:28:47.290107",
-  "total_unique_words_with_illustrations": 2922,
-  "total_flat_svg_files": 2922,
+  "generated_at": "2026-10-10T10:30:00.721512",
+  "total_unique_words_with_illustrations": 2932,
+  "total_flat_svg_files": 2932,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 536,
-        "pct": "21.4%"
+        "with_svg": 537,
+        "pct": "21.5%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1303,
-        "pct": "81.4%"
+        "with_svg": 1313,
+        "pct": "82.1%"
       },
       "level6": {
         "total": 1800,
@@ -47358,6 +47358,24 @@
         "images/HSK_3.0/level5/人工.svg"
       ]
     },
+    "擅长": {
+      "hanzi": "擅长",
+      "pinyin": "shàncháng",
+      "meaning": "giỏi về, sở trường",
+      "example_zh": "她<u>擅长</u>画画。",
+      "example_vi": "Cô ấy <u>giỏi về</u> vẽ tranh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "擅长.svg",
+      "src": "images/HSK_2.0/level6/擅长.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/擅长.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -52314,6 +52332,132 @@
       ],
       "file": "山区.svg",
       "src": "images/HSK_3.0/level5/山区.svg",
+      "alt_srcs": []
+    },
+    "伤": {
+      "hanzi": "伤",
+      "pinyin": "shāng",
+      "meaning": "vết thương; làm bị thương, làm tổn thương",
+      "example_zh": "他的胳膊在运动时不小心受了<u>伤</u>。",
+      "example_vi": "Cánh tay của anh ấy khi chơi thể thao vô tình bị <u>thương</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "伤.svg",
+      "src": "images/HSK_3.0/level5/伤.svg",
+      "alt_srcs": []
+    },
+    "商家": {
+      "hanzi": "商家",
+      "pinyin": "shāngjiā",
+      "meaning": "thương gia, người bán hàng, cửa hàng kinh doanh",
+      "example_zh": "节日期间，很多<u>商家</u>都在搞打折活动。",
+      "example_vi": "Trong dịp lễ, rất nhiều <u>cửa hàng kinh doanh</u> đều mở chương trình giảm giá.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "商家.svg",
+      "src": "images/HSK_3.0/level5/商家.svg",
+      "alt_srcs": []
+    },
+    "商人": {
+      "hanzi": "商人",
+      "pinyin": "shāngrén",
+      "meaning": "thương nhân, người làm kinh doanh",
+      "example_zh": "他是一位非常成功的<u>商人</u>。",
+      "example_vi": "Ông ấy là một <u>doanh nhân</u> rất thành công.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "商人.svg",
+      "src": "images/HSK_3.0/level5/商人.svg",
+      "alt_srcs": []
+    },
+    "赏": {
+      "hanzi": "赏",
+      "pinyin": "shǎng",
+      "meaning": "thưởng thức, ngắm; ban thưởng",
+      "example_zh": "中秋节的晚上，大家一起坐在院子里<u>赏</u>月。",
+      "example_vi": "Vào đêm Trung thu, mọi người cùng nhau ngồi trong sân <u>ngắm</u> trăng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "赏.svg",
+      "src": "images/HSK_3.0/level5/赏.svg",
+      "alt_srcs": []
+    },
+    "上传": {
+      "hanzi": "上传",
+      "pinyin": "shàngchuán",
+      "meaning": "tải lên",
+      "example_zh": "我正在<u>上传</u>照片",
+      "example_vi": "Tôi đang tải lên ảnh.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "上传.svg",
+      "src": "images/HSK_3.0/level5/上传.svg",
+      "alt_srcs": []
+    },
+    "上升": {
+      "hanzi": "上升",
+      "pinyin": "shàngshēng",
+      "meaning": "tăng lên",
+      "example_zh": "气温在<u>上升</u>",
+      "example_vi": "Nhiệt độ đang tăng lên.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "上升.svg",
+      "src": "images/HSK_3.0/level5/上升.svg",
+      "alt_srcs": []
+    },
+    "上下": {
+      "hanzi": "上下",
+      "pinyin": "shàngxià",
+      "meaning": "lên và xuống",
+      "example_zh": "他<u>上下</u>打量了一番",
+      "example_vi": "Anh ấy ngắm nghía từ trên xuống dưới.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "上下.svg",
+      "src": "images/HSK_3.0/level5/上下.svg",
+      "alt_srcs": []
+    },
+    "上涨": {
+      "hanzi": "上涨",
+      "pinyin": "shàngzhǎng",
+      "meaning": "tăng lên, tăng giá",
+      "example_zh": "最近几个月，蔬菜价格持续<u>上涨</u>。",
+      "example_vi": "Mấy tháng gần đây, giá rau củ liên tục <u>tăng lên</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "上涨.svg",
+      "src": "images/HSK_3.0/level5/上涨.svg",
+      "alt_srcs": []
+    },
+    "烧": {
+      "hanzi": "烧",
+      "pinyin": "shāo",
+      "meaning": "đốt; nấu, nướng; sốt (bị sốt)",
+      "example_zh": "水已经<u>烧</u>开了，可以泡茶了。",
+      "example_vi": "Nước đã <u>đun</u> sôi rồi, có thể pha trà rồi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "烧.svg",
+      "src": "images/HSK_3.0/level5/烧.svg",
       "alt_srcs": []
     }
   }
