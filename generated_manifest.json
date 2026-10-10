@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:21:19.405385",
-  "total_unique_words_with_illustrations": 2852,
-  "total_flat_svg_files": 2852,
+  "generated_at": "2026-10-10T10:22:21.319251",
+  "total_unique_words_with_illustrations": 2862,
+  "total_flat_svg_files": 2862,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 526,
-        "pct": "21.0%"
+        "with_svg": 527,
+        "pct": "21.1%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1233,
-        "pct": "77.1%"
+        "with_svg": 1243,
+        "pct": "77.7%"
       },
       "level6": {
         "total": 1800,
@@ -47178,6 +47178,24 @@
         "images/HSK_3.0/level5/难得.svg"
       ]
     },
+    "哦": {
+      "hanzi": "哦",
+      "pinyin": "ò",
+      "meaning": "ồ, à (thán từ tỏ ra hiểu hoặc bất ngờ)",
+      "example_zh": "<u>哦</u>，原来是这样啊。",
+      "example_vi": "<u>Ồ</u>, hóa ra là vậy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "哦.svg",
+      "src": "images/HSK_2.0/level6/哦.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/哦.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -51291,6 +51309,132 @@
       ],
       "file": "闹钟.svg",
       "src": "images/HSK_3.0/level5/闹钟.svg",
+      "alt_srcs": []
+    },
+    "年初": {
+      "hanzi": "年初",
+      "pinyin": "niánchū",
+      "meaning": "đầu năm",
+      "example_zh": "我们是在今年<u>年初</u>认识的。",
+      "example_vi": "Chúng tôi quen nhau vào <u>đầu năm</u> nay.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "年初.svg",
+      "src": "images/HSK_3.0/level5/年初.svg",
+      "alt_srcs": []
+    },
+    "年夜饭": {
+      "hanzi": "年夜饭",
+      "pinyin": "niányèfàn",
+      "meaning": "bữa cơm tất niên (đêm 30 Tết)",
+      "example_zh": "除夕夜一家人聚在一起吃<u>年夜饭</u>。",
+      "example_vi": "Đêm giao thừa cả nhà quây quần cùng nhau ăn <u>bữa cơm tất niên</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "年夜饭.svg",
+      "src": "images/HSK_3.0/level5/年夜饭.svg",
+      "alt_srcs": []
+    },
+    "女子": {
+      "hanzi": "女子",
+      "pinyin": "nǚzǐ",
+      "meaning": "người phụ nữ, nữ giới",
+      "example_zh": "中国<u>女子</u>排球队在比赛中取得了胜利。",
+      "example_vi": "Đội bóng chuyền <u>nữ</u> Trung Quốc đã giành chiến thắng trong trận đấu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "女子.svg",
+      "src": "images/HSK_3.0/level5/女子.svg",
+      "alt_srcs": []
+    },
+    "拍摄": {
+      "hanzi": "拍摄",
+      "pinyin": "pāishè",
+      "meaning": "bắn",
+      "example_zh": "这部电影的<u>拍摄</u>手法很独特",
+      "example_vi": "Thủ pháp quay phim của bộ phim này rất độc đáo.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "拍摄.svg",
+      "src": "images/HSK_3.0/level5/拍摄.svg",
+      "alt_srcs": []
+    },
+    "派出所": {
+      "hanzi": "派出所",
+      "pinyin": "pàichūsuǒ",
+      "meaning": "đồn công an, đồn cảnh sát",
+      "example_zh": "丢了钱包以后，他马上去<u>派出所</u>报案。",
+      "example_vi": "Sau khi bị mất ví, anh ấy lập tức đến <u>đồn công an</u> báo án.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "派出所.svg",
+      "src": "images/HSK_3.0/level5/派出所.svg",
+      "alt_srcs": []
+    },
+    "跑道": {
+      "hanzi": "跑道",
+      "pinyin": "pǎodào",
+      "meaning": "đường chạy (điền kinh), đường băng",
+      "example_zh": "运动员们在操场的<u>跑道</u>上飞快地奔跑。",
+      "example_vi": "Các vận động viên chạy rất nhanh trên <u>đường chạy</u> của sân vận động.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "跑道.svg",
+      "src": "images/HSK_3.0/level5/跑道.svg",
+      "alt_srcs": []
+    },
+    "赔": {
+      "hanzi": "赔",
+      "pinyin": "péi",
+      "meaning": "đền, bồi thường",
+      "example_zh": "弄坏了别人的东西一定要<u>赔</u>偿。",
+      "example_vi": "Làm hỏng đồ của người khác nhất định phải <u>bồi thường</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "赔.svg",
+      "src": "images/HSK_3.0/level5/赔.svg",
+      "alt_srcs": []
+    },
+    "陪伴": {
+      "hanzi": "陪伴",
+      "pinyin": "péibàn",
+      "meaning": "đồng hành, ở bên cạnh, làm bạn",
+      "example_zh": "父母的<u>陪伴</u>对孩子的成长非常重要。",
+      "example_vi": "Sự <u>đồng hành</u> của cha mẹ rất quan trọng đối với sự trưởng thành của con trẻ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "陪伴.svg",
+      "src": "images/HSK_3.0/level5/陪伴.svg",
+      "alt_srcs": []
+    },
+    "配": {
+      "hanzi": "配",
+      "pinyin": "pèi",
+      "meaning": "phối, tương xứng, hợp với",
+      "example_zh": "这件衬衫和这条裤子很<u>配</u>。",
+      "example_vi": "Chiếc áo sơ mi này rất <u>hợp</u> với chiếc quần này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "配.svg",
+      "src": "images/HSK_3.0/level5/配.svg",
       "alt_srcs": []
     }
   }

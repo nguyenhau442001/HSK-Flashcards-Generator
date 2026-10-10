@@ -13097,6 +13097,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/难得.svg",
     "caption": "hiếm có, khó mà có được"
   },
+  "哦": {
+    "file": "哦.svg",
+    "src": "images/HSK_2.0/level6/哦.svg",
+    "caption": "ồ, à (thán từ tỏ ra hiểu hoặc bất ngờ)"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -14561,6 +14566,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "闹钟.svg",
     "src": "images/HSK_3.0/level5/闹钟.svg",
     "caption": "đồng hồ báo thức"
+  },
+  "年初": {
+    "file": "年初.svg",
+    "src": "images/HSK_3.0/level5/年初.svg",
+    "caption": "đầu năm"
+  },
+  "年夜饭": {
+    "file": "年夜饭.svg",
+    "src": "images/HSK_3.0/level5/年夜饭.svg",
+    "caption": "bữa cơm tất niên (đêm 30 Tết)"
+  },
+  "女子": {
+    "file": "女子.svg",
+    "src": "images/HSK_3.0/level5/女子.svg",
+    "caption": "người phụ nữ, nữ giới"
+  },
+  "拍摄": {
+    "file": "拍摄.svg",
+    "src": "images/HSK_3.0/level5/拍摄.svg",
+    "caption": "bắn"
+  },
+  "派出所": {
+    "file": "派出所.svg",
+    "src": "images/HSK_3.0/level5/派出所.svg",
+    "caption": "đồn công an, đồn cảnh sát"
+  },
+  "跑道": {
+    "file": "跑道.svg",
+    "src": "images/HSK_3.0/level5/跑道.svg",
+    "caption": "đường chạy (điền kinh), đường băng"
+  },
+  "赔": {
+    "file": "赔.svg",
+    "src": "images/HSK_3.0/level5/赔.svg",
+    "caption": "đền, bồi thường"
+  },
+  "陪伴": {
+    "file": "陪伴.svg",
+    "src": "images/HSK_3.0/level5/陪伴.svg",
+    "caption": "đồng hành, ở bên cạnh, làm bạn"
+  },
+  "配": {
+    "file": "配.svg",
+    "src": "images/HSK_3.0/level5/配.svg",
+    "caption": "phối, tương xứng, hợp với"
   }
 };
 
