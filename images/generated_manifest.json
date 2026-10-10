@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:32:11.986613",
-  "total_unique_words_with_illustrations": 2952,
-  "total_flat_svg_files": 2952,
+  "generated_at": "2026-10-10T10:33:22.124968",
+  "total_unique_words_with_illustrations": 2962,
+  "total_flat_svg_files": 2962,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 544,
-        "pct": "21.8%"
+        "with_svg": 549,
+        "pct": "22.0%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1333,
-        "pct": "83.3%"
+        "with_svg": 1343,
+        "pct": "83.9%"
       },
       "level6": {
         "total": 1800,
@@ -47502,6 +47502,96 @@
         "images/HSK_3.0/level5/省会.svg"
       ]
     },
+    "失误": {
+      "hanzi": "失误",
+      "pinyin": "shīwù",
+      "meaning": "sai sót, sai lầm",
+      "example_zh": "这次<u>失误</u>给我们带来了损失。",
+      "example_vi": "<u>Sai sót</u> lần này đã mang lại tổn thất cho chúng ta.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "失误.svg",
+      "src": "images/HSK_2.0/level6/失误.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/失误.svg"
+      ]
+    },
+    "时常": {
+      "hanzi": "时常",
+      "pinyin": "shícháng",
+      "meaning": "thường, thường xuyên",
+      "example_zh": "他<u>时常</u>去图书馆看书。",
+      "example_vi": "Anh ấy <u>thường</u> đến thư viện đọc sách.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "时常.svg",
+      "src": "images/HSK_2.0/level6/时常.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/时常.svg"
+      ]
+    },
+    "实力": {
+      "hanzi": "实力",
+      "pinyin": "shílì",
+      "meaning": "thực lực",
+      "example_zh": "这家公司的<u>实力</u>很强。",
+      "example_vi": "<u>Thực lực</u> của công ty này rất mạnh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "实力.svg",
+      "src": "images/HSK_2.0/level6/实力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/实力.svg"
+      ]
+    },
+    "实施": {
+      "hanzi": "实施",
+      "pinyin": "shíshī",
+      "meaning": "thi hành, thực thi",
+      "example_zh": "新政策已经开始<u>实施</u>。",
+      "example_vi": "Chính sách mới đã bắt đầu được <u>thực thi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "实施.svg",
+      "src": "images/HSK_2.0/level6/实施.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/实施.svg"
+      ]
+    },
+    "实行": {
+      "hanzi": "实行",
+      "pinyin": "shíxíng",
+      "meaning": "thực hiện",
+      "example_zh": "这项制度将从下月开始<u>实行</u>。",
+      "example_vi": "Chế độ này sẽ bắt đầu được <u>thực hiện</u> từ tháng sau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "实行.svg",
+      "src": "images/HSK_2.0/level6/实行.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/实行.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -52766,6 +52856,76 @@
       ],
       "file": "湿.svg",
       "src": "images/HSK_3.0/level5/湿.svg",
+      "alt_srcs": []
+    },
+    "失恋": {
+      "hanzi": "失恋",
+      "pinyin": "shīliàn",
+      "meaning": "thất tình",
+      "example_zh": "他刚<u>失恋</u>，心情非常低落。",
+      "example_vi": "Anh ấy vừa mới <u>thất tình</u>, tâm trạng vô cùng suy sụp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "失恋.svg",
+      "src": "images/HSK_3.0/level5/失恋.svg",
+      "alt_srcs": []
+    },
+    "诗人": {
+      "hanzi": "诗人",
+      "pinyin": "shīrén",
+      "meaning": "nhà thơ",
+      "example_zh": "这首诗寄托了<u>诗人</u>的情感",
+      "example_vi": "Bài thơ này gửi gắm tình cảm của nhà thơ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "诗人.svg",
+      "src": "images/HSK_3.0/level5/诗人.svg",
+      "alt_srcs": []
+    },
+    "实验室": {
+      "hanzi": "实验室",
+      "pinyin": "shíyànshì",
+      "meaning": "phòng thí nghiệm",
+      "example_zh": "<u>实验室</u>里有很多标本",
+      "example_vi": "Trong phòng thí nghiệm có nhiều mẫu vật.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "实验室.svg",
+      "src": "images/HSK_3.0/level5/实验室.svg",
+      "alt_srcs": []
+    },
+    "食用": {
+      "hanzi": "食用",
+      "pinyin": "shíyòng",
+      "meaning": "ăn, dùng làm thực phẩm",
+      "example_zh": "这些野生蘑菇不能<u>食用</u>，有毒。",
+      "example_vi": "Những cây nấm dại này không thể <u>ăn</u> được, có độc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "食用.svg",
+      "src": "images/HSK_3.0/level5/食用.svg",
+      "alt_srcs": []
+    },
+    "使得": {
+      "hanzi": "使得",
+      "pinyin": "shǐde",
+      "meaning": "khiến cho, làm cho",
+      "example_zh": "互联网的普及<u>使得</u>人们的生活更加便利。",
+      "example_vi": "Sự phổ cập của internet <u>khiến cho</u> cuộc sống con người thêm tiện lợi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "使得.svg",
+      "src": "images/HSK_3.0/level5/使得.svg",
       "alt_srcs": []
     }
   }

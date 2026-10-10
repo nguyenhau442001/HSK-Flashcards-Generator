@@ -13187,6 +13187,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/省会.svg",
     "caption": "tỉnh lị, thủ phủ tỉnh"
   },
+  "失误": {
+    "file": "失误.svg",
+    "src": "images/HSK_2.0/level6/失误.svg",
+    "caption": "sai sót, sai lầm"
+  },
+  "时常": {
+    "file": "时常.svg",
+    "src": "images/HSK_2.0/level6/时常.svg",
+    "caption": "thường, thường xuyên"
+  },
+  "实力": {
+    "file": "实力.svg",
+    "src": "images/HSK_2.0/level6/实力.svg",
+    "caption": "thực lực"
+  },
+  "实施": {
+    "file": "实施.svg",
+    "src": "images/HSK_2.0/level6/实施.svg",
+    "caption": "thi hành, thực thi"
+  },
+  "实行": {
+    "file": "实行.svg",
+    "src": "images/HSK_2.0/level6/实行.svg",
+    "caption": "thực hiện"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -15061,6 +15086,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "湿.svg",
     "src": "images/HSK_3.0/level5/湿.svg",
     "caption": "ướt, ẩm ướt"
+  },
+  "失恋": {
+    "file": "失恋.svg",
+    "src": "images/HSK_3.0/level5/失恋.svg",
+    "caption": "thất tình"
+  },
+  "诗人": {
+    "file": "诗人.svg",
+    "src": "images/HSK_3.0/level5/诗人.svg",
+    "caption": "nhà thơ"
+  },
+  "实验室": {
+    "file": "实验室.svg",
+    "src": "images/HSK_3.0/level5/实验室.svg",
+    "caption": "phòng thí nghiệm"
+  },
+  "食用": {
+    "file": "食用.svg",
+    "src": "images/HSK_3.0/level5/食用.svg",
+    "caption": "ăn, dùng làm thực phẩm"
+  },
+  "使得": {
+    "file": "使得.svg",
+    "src": "images/HSK_3.0/level5/使得.svg",
+    "caption": "khiến cho, làm cho"
   }
 };
 
