@@ -1024,6 +1024,21 @@ body.flashcard-study-mode .card-illustration-skeleton {
   100% { background-position: -200% 0; }
 }
 
+body.flashcard-study-mode .card-illustration-frame.is-loading::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.07) 50%, rgba(0, 0, 0, 0.03) 100%);
+  background-size: 200% 100%;
+  animation: cardIlluShimmer 1.2s infinite ease-in-out;
+  pointer-events: none;
+  z-index: 2;
+}
+:root[data-theme="dark"] body.flashcard-study-mode .card-illustration-frame.is-loading::after {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.07) 50%, rgba(255, 255, 255, 0.02) 100%);
+}
+
 body.flashcard-study-mode .card-illustration-img {
   width: 100%;
   height: 100%;
@@ -1050,6 +1065,11 @@ body.flashcard-study-mode .card-illustration-svg svg {
   max-height: 190px;
   display: block;
   overflow: visible;
+  animation: illuSvgFade 0.16s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes illuSvgFade {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
 }
 
 body.flashcard-study-mode .card-content-col {

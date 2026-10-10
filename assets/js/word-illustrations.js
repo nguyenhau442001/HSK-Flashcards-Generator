@@ -14079,46 +14079,92 @@ function buildContextualPrompt(word) {
 }
 
 // ==========================================================================
-// Synapse Instant-Load Acceleration Engine: In-Memory SVG Cache & Preloader
+// Synapse Instant-Load Acceleration Engine: Multi-Tier SVG Cache & Preloader
 // ==========================================================================
 const SynapseSvgCache = (typeof window !== 'undefined' && window.SynapseSvgCache) ? window.SynapseSvgCache : new Map();
 const SynapseInflightFetches = (typeof window !== 'undefined' && window.SynapseInflightFetches) ? window.SynapseInflightFetches : new Map();
+const SYNAPSE_ILLU_CACHE_NAME = 'synapse-illustrations-v1';
 
 /**
- * Preload an individual illustration into browser RAM and HTTP cache.
- * Returns a Promise that resolves with the raw SVG string if available.
+ * Normalizes input to an illustration src string.
  */
-function preloadIllustration(illuOrSrc) {
-  if (!illuOrSrc) return Promise.resolve(null);
-  const src = typeof illuOrSrc === 'string' ? illuOrSrc : (illuOrSrc.src || '');
+function extractIllustrationSrc(illuOrSrcOrWord) {
+  if (!illuOrSrcOrWord) return '';
+  if (typeof illuOrSrcOrWord === 'string') return illuOrSrcOrWord;
+  if (illuOrSrcOrWord.src) return illuOrSrcOrWord.src;
+  if (illuOrSrcOrWord.hanzi || illuOrSrcOrWord.word) {
+    const illu = getWordIllustration(illuOrSrcOrWord);
+    return (illu && illu.src) ? illu.src : '';
+  }
+  return '';
+}
+
+/**
+ * Preload an individual illustration into browser RAM and persistent CacheStorage.
+ * Returns a Promise that resolves with the raw SVG string if available.
+ * @param {string|Object} illuOrSrc - Source path, illustration object, or word item.
+ * @param {string} priority - 'high' | 'auto' | 'low'
+ */
+function preloadIllustration(illuOrSrc, priority = 'auto') {
+  const src = extractIllustrationSrc(illuOrSrc);
   if (!src) return Promise.resolve(null);
 
-  // Return directly if already in fast memory cache
+  // 1. Tier 1: Instant RAM Cache (<0.05ms)
   if (SynapseSvgCache.has(src)) {
     return Promise.resolve(SynapseSvgCache.get(src));
   }
 
-  // Deduplicate ongoing inflight fetches
+  // 2. Inflight deduplication to avoid redundant network requests
   if (SynapseInflightFetches.has(src)) {
     return SynapseInflightFetches.get(src);
   }
 
   const p = (async () => {
     try {
-      // 1. Warm up browser Image element cache immediately
-      const img = new Image();
-      img.src = src;
+      // 3. Tier 2: Persistent CacheStorage check
+      if (typeof window !== 'undefined' && 'caches' in window) {
+        try {
+          const illuCache = await caches.open(SYNAPSE_ILLU_CACHE_NAME);
+          const cachedRes = await illuCache.match(src);
+          if (cachedRes) {
+            const cachedText = await cachedRes.text();
+            if (cachedText && cachedText.includes('<svg')) {
+              SynapseSvgCache.set(src, cachedText);
+              return cachedText;
+            }
+          }
+        } catch (_) {}
+      }
 
-      // 2. If it is an SVG file, fetch text directly for instant 0ms inline DOM injection
-      if (src.endsWith('.svg') || src.includes('.svg')) {
-        const res = await fetch(src, { priority: 'low' });
+      // 4. Tier 3: Fetch directly over network
+      const isSvg = src.endsWith('.svg') || src.includes('.svg');
+      const fetchOpts = { cache: 'force-cache' };
+      if (priority === 'high' && 'priority' in Request.prototype) {
+        fetchOpts.priority = 'high';
+      }
+
+      if (isSvg) {
+        const res = await fetch(src, fetchOpts);
         if (res.ok) {
           const text = await res.text();
           if (text && text.includes('<svg')) {
             SynapseSvgCache.set(src, text);
+
+            // Persist into CacheStorage in background
+            if (typeof window !== 'undefined' && 'caches' in window) {
+              caches.open(SYNAPSE_ILLU_CACHE_NAME).then(c => {
+                c.put(src, new Response(text, {
+                  headers: { 'Content-Type': 'image/svg+xml' }
+                })).catch(() => {});
+              }).catch(() => {});
+            }
             return text;
           }
         }
+      } else {
+        // Non-SVG: Warm up browser image decoder
+        const img = new Image();
+        img.src = src;
       }
       return null;
     } catch (e) {
@@ -14133,46 +14179,132 @@ function preloadIllustration(illuOrSrc) {
 }
 
 /**
- * Batch preload illustrations for an array of words (e.g. deck initialization).
+ * Preload illustration for a single word with optional priority.
  */
-function preloadWordsIllustrations(words, maxCount = 25) {
+function preloadSingleWordIllustration(word, priority = 'auto') {
+  if (!word) return Promise.resolve(null);
+  const illu = getWordIllustration(word);
+  if (illu && illu.src) {
+    return preloadIllustration(illu.src, priority);
+  }
+  return Promise.resolve(null);
+}
+
+/**
+ * Batch preload illustrations for an array of words.
+ */
+function preloadWordsIllustrations(words, maxCount = 50) {
   if (!Array.isArray(words) || words.length === 0) return;
   const count = Math.min(words.length, maxCount);
   for (let i = 0; i < count; i++) {
     const w = words[i];
-    if (w) {
-      const illu = getWordIllustration(w);
-      if (illu && illu.src) {
-        preloadIllustration(illu.src);
-      }
-    }
+    if (w) preloadSingleWordIllustration(w, i < 5 ? 'high' : 'auto');
   }
 }
 
 /**
  * Predictive Sliding-Window Preloader for study mode:
- * Preloads the next N cards ahead and the previous 2 cards in background.
+ * Preloads the next 15 cards ahead and the previous 5 cards in background.
  */
-function preloadNearbyIllustrations(wordList, activeFilteredOrder, currentIdx, lookahead = 10) {
+function preloadNearbyIllustrations(wordList, activeFilteredOrder, currentIdx, lookahead = 15) {
   if (!Array.isArray(wordList) || !Array.isArray(activeFilteredOrder) || activeFilteredOrder.length === 0) return;
   const len = activeFilteredOrder.length;
-  // Lookahead: next 1 to lookahead cards
+
+  // Next cards: Top 5 with high priority, rest with auto priority
   for (let offset = 1; offset <= lookahead; offset++) {
     const nextIdx = (currentIdx + offset) % len;
     const w = wordList[activeFilteredOrder[nextIdx]];
     if (w) {
-      const illu = getWordIllustration(w);
-      if (illu && illu.src) preloadIllustration(illu.src);
+      preloadSingleWordIllustration(w, offset <= 5 ? 'high' : 'auto');
     }
   }
-  // Lookbehind: previous 1 and 2 cards
-  for (let offset = 1; offset <= 2; offset++) {
+
+  // Previous 5 cards with high priority
+  for (let offset = 1; offset <= 5; offset++) {
     const prevIdx = (currentIdx - offset + len) % len;
     const w = wordList[activeFilteredOrder[prevIdx]];
     if (w) {
-      const illu = getWordIllustration(w);
-      if (illu && illu.src) preloadIllustration(illu.src);
+      preloadSingleWordIllustration(w, 'high');
     }
+  }
+}
+
+let activeDeckPreloadTimer = null;
+
+/**
+ * Progressive Deck Acceleration Engine:
+ * 1. Immediate VIP Wave: Starting card + next 12 cards + previous 4 cards (High Priority).
+ * 2. Sliding Horizon Wave: Next 25 cards (Auto Priority).
+ * 3. Deck-Wide Stream: Concurrent non-blocking micro-batches via requestIdleCallback/setTimeout
+ *    progressively caching 100% of the active level's illustrations into RAM.
+ */
+function preloadDeckIllustrations(wordList, startIdx = 0, filteredOrder = null) {
+  if (!Array.isArray(wordList) || wordList.length === 0) return;
+  if (activeDeckPreloadTimer) {
+    clearTimeout(activeDeckPreloadTimer);
+    activeDeckPreloadTimer = null;
+  }
+
+  const order = Array.isArray(filteredOrder) && filteredOrder.length > 0
+    ? filteredOrder
+    : Array.from({ length: wordList.length }, (_, i) => i);
+  const len = order.length;
+  const safeStart = ((startIdx % len) + len) % len;
+
+  // 1. VIP Wave (Highest priority)
+  const currentWord = wordList[order[safeStart]];
+  if (currentWord) preloadSingleWordIllustration(currentWord, 'high');
+
+  for (let offset = 1; offset <= 12; offset++) {
+    const idx = (safeStart + offset) % len;
+    const w = wordList[order[idx]];
+    if (w) preloadSingleWordIllustration(w, 'high');
+  }
+
+  for (let offset = 1; offset <= 4; offset++) {
+    const idx = (safeStart - offset + len) % len;
+    const w = wordList[order[idx]];
+    if (w) preloadSingleWordIllustration(w, 'high');
+  }
+
+  // 2. Horizon Wave (Next 25 cards)
+  for (let offset = 13; offset <= 35; offset++) {
+    const idx = (safeStart + offset) % len;
+    const w = wordList[order[idx]];
+    if (w) preloadSingleWordIllustration(w, 'auto');
+  }
+
+  // 3. Progressive Background Deck Stream (all remaining cards)
+  const pendingIndices = [];
+  for (let i = 0; i < len; i++) {
+    const circularOffset = (safeStart + i) % len;
+    if (circularOffset > 35 && circularOffset < (len - 4)) {
+      pendingIndices.push(order[circularOffset]);
+    }
+  }
+
+  const BATCH_SIZE = 6;
+  function processQueue() {
+    if (pendingIndices.length === 0) return;
+    const chunk = pendingIndices.splice(0, BATCH_SIZE);
+    chunk.forEach(wIdx => {
+      const w = wordList[wIdx];
+      if (w) preloadSingleWordIllustration(w, 'auto');
+    });
+
+    if (pendingIndices.length > 0) {
+      if (typeof window !== 'undefined' && 'requestIdleCallback' in window) {
+        window.requestIdleCallback(processQueue, { timeout: 1500 });
+      } else {
+        activeDeckPreloadTimer = setTimeout(processQueue, 35);
+      }
+    }
+  }
+
+  if (typeof window !== 'undefined' && 'requestIdleCallback' in window) {
+    window.requestIdleCallback(processQueue, { timeout: 1200 });
+  } else {
+    activeDeckPreloadTimer = setTimeout(processQueue, 50);
   }
 }
 
@@ -14187,8 +14319,10 @@ if (typeof window !== 'undefined') {
   window.buildContextualPrompt = buildContextualPrompt;
   window.SynapseSvgCache = SynapseSvgCache;
   window.preloadIllustration = preloadIllustration;
+  window.preloadSingleWordIllustration = preloadSingleWordIllustration;
   window.preloadWordsIllustrations = preloadWordsIllustrations;
   window.preloadNearbyIllustrations = preloadNearbyIllustrations;
+  window.preloadDeckIllustrations = preloadDeckIllustrations;
 }
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
@@ -14202,7 +14336,9 @@ if (typeof module !== 'undefined' && module.exports) {
     generateAestheticFallback,
     SynapseSvgCache,
     preloadIllustration,
+    preloadSingleWordIllustration,
     preloadWordsIllustrations,
-    preloadNearbyIllustrations
+    preloadNearbyIllustrations,
+    preloadDeckIllustrations
   };
 }

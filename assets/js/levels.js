@@ -752,10 +752,6 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
   buildCardArea();
   renderFilters();
 
-  if (typeof preloadWordsIllustrations === 'function') {
-    preloadWordsIllustrations(WORDS, 25);
-  }
-
   currentView = 'cards';
   const studyView = document.getElementById('studyView');
   const overviewView = document.getElementById('overviewView');
@@ -788,6 +784,13 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
   } else if (filteredOrder.length > 0) {
     // Start with a completely random word whenever entering flashcard study mode
     idx = Math.floor(Math.random() * filteredOrder.length);
+  }
+
+  // Instant-Load Preloading: Trigger deck-wide progressive background preloading anchored at current idx
+  if (typeof preloadDeckIllustrations === 'function') {
+    preloadDeckIllustrations(WORDS, idx, filteredOrder);
+  } else if (typeof preloadWordsIllustrations === 'function') {
+    preloadWordsIllustrations(WORDS, 50);
   }
 
   render();
@@ -847,6 +850,9 @@ async function openWordInLevel(level, wordIdOrHanzi, autoReveal = true) {
   filteredOrder = order.slice();
   const position = filteredOrder.indexOf(wordIndex);
   idx = position >= 0 ? position : 0;
+  if (typeof preloadSingleWordIllustration === 'function') {
+    preloadSingleWordIllustration(WORDS[wordIndex], 'high');
+  }
   if (typeof renderFilters === 'function') renderFilters();
   if (typeof render === 'function') render();
   if (typeof setActiveStudyWord === 'function') setActiveStudyWord(WORDS[wordIndex]);

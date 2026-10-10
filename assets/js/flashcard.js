@@ -502,8 +502,13 @@ function renderStudyWordList() {
     }).join('');
 
   items.querySelectorAll('[data-word-index]').forEach(button => {
+    const wordIndex = Number(button.dataset.wordIndex);
+    const targetWord = WORDS[wordIndex];
+    if (targetWord && typeof preloadSingleWordIllustration === 'function') {
+      button.addEventListener('pointerenter', () => preloadSingleWordIllustration(targetWord, 'high'), { passive: true });
+      button.addEventListener('touchstart', () => preloadSingleWordIllustration(targetWord, 'high'), { passive: true });
+    }
     button.addEventListener('click', () => {
-      const wordIndex = Number(button.dataset.wordIndex);
       let filteredIndex = filteredOrder.indexOf(wordIndex);
       if (filteredIndex < 0) {
         currentFilter = 'all';
@@ -532,6 +537,20 @@ function render(animate) {
   // Hide ratings right away so a double press cannot rate the next card during the exit animation.
   const ratingRow = document.getElementById('ratingRow');
   if (ratingRow) ratingRow.hidden = true;
+
+  // Zero-Latency Anticipatory Preload:
+  // Before running the 150ms transition, fetch the incoming target card & immediate neighbors with TOP priority!
+  if (Array.isArray(WORDS) && Array.isArray(filteredOrder) && filteredOrder.length > 0) {
+    const targetWIdx = filteredOrder[idx % filteredOrder.length];
+    const targetWord = WORDS[targetWIdx];
+    if (targetWord && typeof preloadSingleWordIllustration === 'function') {
+      preloadSingleWordIllustration(targetWord, 'high');
+    }
+    const nextWIdx = filteredOrder[(idx + 1) % filteredOrder.length];
+    if (WORDS[nextWIdx] && typeof preloadSingleWordIllustration === 'function') {
+      preloadSingleWordIllustration(WORDS[nextWIdx], 'high');
+    }
+  }
 
   const content = document.getElementById('cardContent');
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -631,6 +650,7 @@ function render(animate) {
           svgEl.hidden = false;
           imgEl.hidden = true;
           imgEl.removeAttribute('src');
+          if (frameEl) frameEl.classList.remove('is-loading');
         } else if (illu.src) {
           const cachedSvg = (typeof SynapseSvgCache !== 'undefined') ? SynapseSvgCache.get(illu.src) : null;
           if (cachedSvg) {
@@ -639,34 +659,45 @@ function render(animate) {
             svgEl.hidden = false;
             imgEl.hidden = true;
             imgEl.removeAttribute('src');
+            if (frameEl) frameEl.classList.remove('is-loading');
           } else {
-            if (imgEl.src !== illu.src) {
-              imgEl.src = illu.src;
-            }
-            imgEl.alt = 'Minh họa gợi hình';
-            imgEl.hidden = false;
-            svgEl.hidden = true;
-            svgEl.innerHTML = '';
-
+            // Cache miss: show smooth shimmer without layout shift
             const curWord = w;
+            if (frameEl) frameEl.classList.add('is-loading');
+
             if (typeof preloadIllustration === 'function') {
-              preloadIllustration(illu.src).then(svgText => {
-                if (svgText && typeof activeStudyWord !== 'undefined' && activeStudyWord === curWord) {
-                  svgEl.innerHTML = svgText;
-                  svgEl.hidden = false;
-                  imgEl.hidden = true;
-                  imgEl.removeAttribute('src');
+              preloadIllustration(illu.src, 'high').then(svgText => {
+                if (typeof activeStudyWord !== 'undefined' && activeStudyWord === curWord) {
+                  if (svgText) {
+                    svgEl.innerHTML = svgText;
+                    svgEl.hidden = false;
+                    imgEl.hidden = true;
+                    imgEl.removeAttribute('src');
+                  } else {
+                    imgEl.src = illu.src;
+                    imgEl.alt = 'Minh họa gợi hình';
+                    imgEl.hidden = false;
+                    svgEl.hidden = true;
+                    svgEl.innerHTML = '';
+                  }
+                  if (frameEl) frameEl.classList.remove('is-loading');
                 }
               });
+            } else {
+              imgEl.src = illu.src;
+              imgEl.alt = 'Minh họa gợi hình';
+              imgEl.hidden = false;
+              svgEl.hidden = true;
+              svgEl.innerHTML = '';
             }
           }
         }
       }
     }
 
-    // Predictive sliding-window preloader: prefetch next 10 cards and previous 2 cards in background
+    // Predictive sliding-window preloader: prefetch next 15 cards and previous 5 cards in background
     if (typeof preloadNearbyIllustrations === 'function' && Array.isArray(WORDS) && Array.isArray(filteredOrder) && filteredOrder.length > 0) {
-      preloadNearbyIllustrations(WORDS, filteredOrder, idx % filteredOrder.length, 10);
+      preloadNearbyIllustrations(WORDS, filteredOrder, idx % filteredOrder.length, 15);
     }
 
     document.getElementById('hint').textContent = hasExample

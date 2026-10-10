@@ -197,6 +197,16 @@ function initSidebarSearch() {
     }
   });
 
+  // Preload illustration on hover over search result
+  results.addEventListener('pointerover', e => {
+    const li = e.target.closest('.sidebar-search-result');
+    if (!li) return;
+    const hanzi = li.dataset.hanzi;
+    if (hanzi && typeof preloadSingleWordIllustration === 'function') {
+      preloadSingleWordIllustration({ hanzi }, 'high');
+    }
+  }, { passive: true });
+
   // Handle click on result
   results.addEventListener('click', async e => {
     const li = e.target.closest('.sidebar-search-result');

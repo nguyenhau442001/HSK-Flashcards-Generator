@@ -112,6 +112,12 @@ function renderOverview() {
     item.type = 'button';
     item.className = 'vocabulary-item';
     item.setAttribute('aria-label', `${word.hanzi}, ${word.pinyin}, ${word.meaning}. Mở flashcard`);
+    item.addEventListener('pointerenter', () => {
+      if (typeof preloadSingleWordIllustration === 'function') preloadSingleWordIllustration(word, 'high');
+    }, { passive: true });
+    item.addEventListener('touchstart', () => {
+      if (typeof preloadSingleWordIllustration === 'function') preloadSingleWordIllustration(word, 'high');
+    }, { passive: true });
     item.onclick = () => openWordInCards(wordIndex);
 
     const number = document.createElement('span');
@@ -167,6 +173,9 @@ function renderOverview() {
 }
 
 function openWordInCards(wordIndex) {
+  if (WORDS[wordIndex] && typeof preloadSingleWordIllustration === 'function') {
+    preloadSingleWordIllustration(WORDS[wordIndex], 'high');
+  }
   currentFilter = 'all';
   filteredOrder = order.slice();
   const position = filteredOrder.indexOf(wordIndex);
