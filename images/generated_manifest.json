@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:54:44.180314",
-  "total_unique_words_with_illustrations": 2672,
-  "total_flat_svg_files": 2672,
+  "generated_at": "2026-10-10T09:55:56.974569",
+  "total_unique_words_with_illustrations": 2682,
+  "total_flat_svg_files": 2682,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 498,
-        "pct": "19.9%"
+        "with_svg": 502,
+        "pct": "20.1%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1053,
-        "pct": "65.8%"
+        "with_svg": 1063,
+        "pct": "66.4%"
       },
       "level6": {
         "total": 1800,
@@ -46674,6 +46674,78 @@
         "images/HSK_3.0/level5/访问.svg"
       ]
     },
+    "夫妇": {
+      "hanzi": "夫妇",
+      "pinyin": "fūfù",
+      "meaning": "vợ chồng",
+      "example_zh": "这对<u>夫妇</u>结婚二十年了。",
+      "example_vi": "Cặp <u>vợ chồng</u> này đã kết hôn hai mươi năm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "夫妇.svg",
+      "src": "images/HSK_2.0/level6/夫妇.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/夫妇.svg"
+      ]
+    },
+    "付出": {
+      "hanzi": "付出",
+      "pinyin": "fùchū",
+      "meaning": "cống hiến, bỏ ra",
+      "example_zh": "他为家庭<u>付出</u>了很多。",
+      "example_vi": "Anh ấy <u>cống hiến</u> rất nhiều cho gia đình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "付出.svg",
+      "src": "images/HSK_2.0/level6/付出.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/付出.svg"
+      ]
+    },
+    "负担": {
+      "hanzi": "负担",
+      "pinyin": "fùdān",
+      "meaning": "gánh nặng",
+      "example_zh": "这是一个沉重的<u>负担</u>。",
+      "example_vi": "Đây là một <u>gánh nặng</u> lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "负担.svg",
+      "src": "images/HSK_2.0/level6/负担.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/负担.svg"
+      ]
+    },
+    "富有": {
+      "hanzi": "富有",
+      "pinyin": "fùyǒu",
+      "meaning": "giàu có",
+      "example_zh": "他出生在一个<u>富有</u>的家庭。",
+      "example_vi": "Anh ấy sinh ra trong một gia đình <u>giàu có</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "富有.svg",
+      "src": "images/HSK_2.0/level6/富有.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/富有.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -48653,6 +48725,90 @@
       ],
       "file": "分享.svg",
       "src": "images/HSK_3.0/level5/分享.svg",
+      "alt_srcs": []
+    },
+    "丰富多彩": {
+      "hanzi": "丰富多彩",
+      "pinyin": "fēngfù-duōcǎi",
+      "meaning": "phong phú đa dạng, muôn màu muôn vẻ",
+      "example_zh": "大学生活<u>丰富多彩</u>。",
+      "example_vi": "Cuộc sống đại học <u>phong phú đa dạng</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "丰富多彩.svg",
+      "src": "images/HSK_3.0/level5/丰富多彩.svg",
+      "alt_srcs": []
+    },
+    "福": {
+      "hanzi": "福",
+      "pinyin": "fú",
+      "meaning": "phúc, phước",
+      "example_zh": "过年的时候，很多人在门上贴<u>福</u>字。",
+      "example_vi": "Dịp Tết, nhiều người dán chữ <u>Phúc</u> lên cửa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "福.svg",
+      "src": "images/HSK_3.0/level5/福.svg",
+      "alt_srcs": []
+    },
+    "副¹": {
+      "hanzi": "副¹",
+      "pinyin": "fù",
+      "meaning": "phó (chức vụ)",
+      "example_zh": "他是<u>副</u>经理。",
+      "example_vi": "Anh ấy là <u>phó</u> giám đốc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "副¹.svg",
+      "src": "images/HSK_3.0/level5/副¹.svg",
+      "alt_srcs": []
+    },
+    "改天": {
+      "hanzi": "改天",
+      "pinyin": "gǎitiān",
+      "meaning": "hôm khác, bữa khác",
+      "example_zh": "今天太忙了，我们<u>改天</u>再聊吧。",
+      "example_vi": "Hôm nay bận quá, chúng ta nói chuyện <u>hôm khác</u> nhé.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "改天.svg",
+      "src": "images/HSK_3.0/level5/改天.svg",
+      "alt_srcs": []
+    },
+    "敢于": {
+      "hanzi": "敢于",
+      "pinyin": "gǎnyú",
+      "meaning": "dám, dũng cảm",
+      "example_zh": "年轻人要<u>敢于</u>接受挑战。",
+      "example_vi": "Người trẻ phải <u>dám</u> chấp nhận thử thách.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "敢于.svg",
+      "src": "images/HSK_3.0/level5/敢于.svg",
+      "alt_srcs": []
+    },
+    "刚好": {
+      "hanzi": "刚好",
+      "pinyin": "gānghǎo",
+      "meaning": "vừa vặn, vừa đúng lúc",
+      "example_zh": "我到的时候，车<u>刚好</u>开走了。",
+      "example_vi": "Lúc tôi đến thì xe <u>vừa đúng lúc</u> chạy mất.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "刚好.svg",
+      "src": "images/HSK_3.0/level5/刚好.svg",
       "alt_srcs": []
     }
   }

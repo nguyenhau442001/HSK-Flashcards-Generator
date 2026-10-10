@@ -12957,6 +12957,26 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/访问.svg",
     "caption": "thăm viếng, phỏng vấn"
   },
+  "夫妇": {
+    "file": "夫妇.svg",
+    "src": "images/HSK_2.0/level6/夫妇.svg",
+    "caption": "vợ chồng"
+  },
+  "付出": {
+    "file": "付出.svg",
+    "src": "images/HSK_2.0/level6/付出.svg",
+    "caption": "cống hiến, bỏ ra"
+  },
+  "负担": {
+    "file": "负担.svg",
+    "src": "images/HSK_2.0/level6/负担.svg",
+    "caption": "gánh nặng"
+  },
+  "富有": {
+    "file": "富有.svg",
+    "src": "images/HSK_2.0/level6/富有.svg",
+    "caption": "giàu có"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13661,6 +13681,36 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "分享.svg",
     "src": "images/HSK_3.0/level5/分享.svg",
     "caption": "chia sẻ"
+  },
+  "丰富多彩": {
+    "file": "丰富多彩.svg",
+    "src": "images/HSK_3.0/level5/丰富多彩.svg",
+    "caption": "phong phú đa dạng, muôn màu muôn vẻ"
+  },
+  "福": {
+    "file": "福.svg",
+    "src": "images/HSK_3.0/level5/福.svg",
+    "caption": "phúc, phước"
+  },
+  "副¹": {
+    "file": "副¹.svg",
+    "src": "images/HSK_3.0/level5/副¹.svg",
+    "caption": "phó (chức vụ)"
+  },
+  "改天": {
+    "file": "改天.svg",
+    "src": "images/HSK_3.0/level5/改天.svg",
+    "caption": "hôm khác, bữa khác"
+  },
+  "敢于": {
+    "file": "敢于.svg",
+    "src": "images/HSK_3.0/level5/敢于.svg",
+    "caption": "dám, dũng cảm"
+  },
+  "刚好": {
+    "file": "刚好.svg",
+    "src": "images/HSK_3.0/level5/刚好.svg",
+    "caption": "vừa vặn, vừa đúng lúc"
   }
 };
 
