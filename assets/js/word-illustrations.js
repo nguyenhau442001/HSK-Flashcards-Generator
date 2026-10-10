@@ -13152,6 +13152,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/擅长.svg",
     "caption": "giỏi về, sở trường"
   },
+  "设立": {
+    "file": "设立.svg",
+    "src": "images/HSK_2.0/level6/设立.svg",
+    "caption": "thiết lập, thành lập"
+  },
+  "设置": {
+    "file": "设置.svg",
+    "src": "images/HSK_2.0/level6/设置.svg",
+    "caption": "thiết lập, bố trí"
+  },
+  "社区": {
+    "file": "社区.svg",
+    "src": "images/HSK_2.0/level6/社区.svg",
+    "caption": "khu dân cư, cộng đồng"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -14961,6 +14976,41 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "烧.svg",
     "src": "images/HSK_3.0/level5/烧.svg",
     "caption": "đốt; nấu, nướng; sốt (bị sốt)"
+  },
+  "烧烤": {
+    "file": "烧烤.svg",
+    "src": "images/HSK_3.0/level5/烧烤.svg",
+    "caption": "đồ nướng, món nướng (BBQ)"
+  },
+  "舍得": {
+    "file": "舍得.svg",
+    "src": "images/HSK_3.0/level5/舍得.svg",
+    "caption": "sẵn sàng bỏ ra, không tiếc"
+  },
+  "深度": {
+    "file": "深度.svg",
+    "src": "images/HSK_3.0/level5/深度.svg",
+    "caption": "độ sâu; chuyên sâu, sâu sắc"
+  },
+  "深厚": {
+    "file": "深厚.svg",
+    "src": "images/HSK_3.0/level5/深厚.svg",
+    "caption": "sâu sắc, sâu đậm, thâm hậu"
+  },
+  "深入": {
+    "file": "深入.svg",
+    "src": "images/HSK_3.0/level5/深入.svg",
+    "caption": "đi sâu vào, sâu sắc, sâu rộng"
+  },
+  "深远": {
+    "file": "深远.svg",
+    "src": "images/HSK_3.0/level5/深远.svg",
+    "caption": "sâu xa, sâu rộng, lâu dài"
+  },
+  "升¹": {
+    "file": "升¹.svg",
+    "src": "images/HSK_3.0/level5/升¹.svg",
+    "caption": "thăng, lên"
   }
 };
 

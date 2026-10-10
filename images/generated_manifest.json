@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:30:00.721512",
-  "total_unique_words_with_illustrations": 2932,
-  "total_flat_svg_files": 2932,
+  "generated_at": "2026-10-10T10:31:10.655432",
+  "total_unique_words_with_illustrations": 2942,
+  "total_flat_svg_files": 2942,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 537,
-        "pct": "21.5%"
+        "with_svg": 540,
+        "pct": "21.6%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1313,
-        "pct": "82.1%"
+        "with_svg": 1323,
+        "pct": "82.7%"
       },
       "level6": {
         "total": 1800,
@@ -47376,6 +47376,60 @@
         "images/HSK_3.0/level5/擅长.svg"
       ]
     },
+    "设立": {
+      "hanzi": "设立",
+      "pinyin": "shèlì",
+      "meaning": "thiết lập, thành lập",
+      "example_zh": "学校<u>设立</u>了奖学金。",
+      "example_vi": "Nhà trường đã <u>thành lập</u> học bổng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "设立.svg",
+      "src": "images/HSK_2.0/level6/设立.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/设立.svg"
+      ]
+    },
+    "设置": {
+      "hanzi": "设置",
+      "pinyin": "shèzhì",
+      "meaning": "thiết lập, bố trí",
+      "example_zh": "请在系统里<u>设置</u>一下参数。",
+      "example_vi": "Xin hãy <u>thiết lập</u> các thông số trong hệ thống.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "设置.svg",
+      "src": "images/HSK_2.0/level6/设置.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/设置.svg"
+      ]
+    },
+    "社区": {
+      "hanzi": "社区",
+      "pinyin": "shèqū",
+      "meaning": "khu dân cư, cộng đồng",
+      "example_zh": "我们<u>社区</u>组织了一次活动。",
+      "example_vi": "<u>Khu dân cư</u> của chúng tôi đã tổ chức một hoạt động.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "社区.svg",
+      "src": "images/HSK_2.0/level6/社区.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/社区.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -52458,6 +52512,104 @@
       ],
       "file": "烧.svg",
       "src": "images/HSK_3.0/level5/烧.svg",
+      "alt_srcs": []
+    },
+    "烧烤": {
+      "hanzi": "烧烤",
+      "pinyin": "shāokǎo",
+      "meaning": "đồ nướng, món nướng (BBQ)",
+      "example_zh": "周末晚上我们经常去吃<u>烧烤</u>。",
+      "example_vi": "Tối cuối tuần chúng tôi thường đi ăn <u>đồ nướng</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "烧烤.svg",
+      "src": "images/HSK_3.0/level5/烧烤.svg",
+      "alt_srcs": []
+    },
+    "舍得": {
+      "hanzi": "舍得",
+      "pinyin": "shěde",
+      "meaning": "sẵn sàng bỏ ra, không tiếc",
+      "example_zh": "父母为了孩子的教育，什么都<u>舍得</u>付出。",
+      "example_vi": "Cha mẹ vì sự giáo dục của con cái, chuyện gì cũng <u>sẵn lòng</u> hy sinh.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "舍得.svg",
+      "src": "images/HSK_3.0/level5/舍得.svg",
+      "alt_srcs": []
+    },
+    "深度": {
+      "hanzi": "深度",
+      "pinyin": "shēndù",
+      "meaning": "độ sâu; chuyên sâu, sâu sắc",
+      "example_zh": "这片湖水的平均<u>深度</u>有五米。",
+      "example_vi": "<u>Độ sâu</u> trung bình của hồ nước này là năm mét.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "深度.svg",
+      "src": "images/HSK_3.0/level5/深度.svg",
+      "alt_srcs": []
+    },
+    "深厚": {
+      "hanzi": "深厚",
+      "pinyin": "shēnhòu",
+      "meaning": "sâu sắc, sâu đậm, thâm hậu",
+      "example_zh": "他们两个人之间有着<u>深厚</u>的友谊。",
+      "example_vi": "Hai người họ có tình bạn vô cùng <u>sâu sắc</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "深厚.svg",
+      "src": "images/HSK_3.0/level5/深厚.svg",
+      "alt_srcs": []
+    },
+    "深入": {
+      "hanzi": "深入",
+      "pinyin": "shēnrù",
+      "meaning": "đi sâu vào, sâu sắc, sâu rộng",
+      "example_zh": "我们需要对这个问题进行更<u>深入</u>的研究。",
+      "example_vi": "Chúng ta cần tiến hành nghiên cứu <u>sâu sắc</u> hơn về vấn đề này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "深入.svg",
+      "src": "images/HSK_3.0/level5/深入.svg",
+      "alt_srcs": []
+    },
+    "深远": {
+      "hanzi": "深远",
+      "pinyin": "shēnyuǎn",
+      "meaning": "sâu xa, sâu rộng, lâu dài",
+      "example_zh": "这项科技发明对人类社会产生了<u>深远</u>的影响。",
+      "example_vi": "Phát minh công nghệ này đã tạo ra ảnh hưởng <u>sâu rộng</u> đối với xã hội loài người.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "深远.svg",
+      "src": "images/HSK_3.0/level5/深远.svg",
+      "alt_srcs": []
+    },
+    "升¹": {
+      "hanzi": "升¹",
+      "pinyin": "shēng",
+      "meaning": "thăng, lên",
+      "example_zh": "气温在上<u>升</u>。",
+      "example_vi": "Nhiệt độ đang tăng <u>lên</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "升¹.svg",
+      "src": "images/HSK_3.0/level5/升¹.svg",
       "alt_srcs": []
     }
   }
