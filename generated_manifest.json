@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:05:35.993894",
-  "total_unique_words_with_illustrations": 2742,
-  "total_flat_svg_files": 2742,
+  "generated_at": "2026-10-10T10:08:03.241531",
+  "total_unique_words_with_illustrations": 2752,
+  "total_flat_svg_files": 2752,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 510,
-        "pct": "20.4%"
+        "with_svg": 512,
+        "pct": "20.5%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1123,
-        "pct": "70.2%"
+        "with_svg": 1133,
+        "pct": "70.8%"
       },
       "level6": {
         "total": 1800,
@@ -46890,6 +46890,42 @@
         "images/HSK_3.0/level5/环节.svg"
       ]
     },
+    "记载": {
+      "hanzi": "记载",
+      "pinyin": "jìzǎi",
+      "meaning": "ghi chép, ghi lại",
+      "example_zh": "历史书<u>记载</u>了这件事。",
+      "example_vi": "Sách lịch sử <u>ghi chép</u> việc này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "记载.svg",
+      "src": "images/HSK_2.0/level6/记载.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/记载.svg"
+      ]
+    },
+    "季度": {
+      "hanzi": "季度",
+      "pinyin": "jìdù",
+      "meaning": "quý (3 tháng)",
+      "example_zh": "这是本<u>季度</u>的销售报告。",
+      "example_vi": "Đây là báo cáo bán hàng <u>quý</u> này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "季度.svg",
+      "src": "images/HSK_2.0/level6/季度.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/季度.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -49681,6 +49717,118 @@
       ],
       "file": "集.svg",
       "src": "images/HSK_3.0/level5/集.svg",
+      "alt_srcs": []
+    },
+    "疾病": {
+      "hanzi": "疾病",
+      "pinyin": "jíbìng",
+      "meaning": "căn bệnh",
+      "example_zh": "我们要预防<u>疾病</u>",
+      "example_vi": "Chúng ta phải đề phòng bệnh tật.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "疾病.svg",
+      "src": "images/HSK_3.0/level5/疾病.svg",
+      "alt_srcs": []
+    },
+    "即将": {
+      "hanzi": "即将",
+      "pinyin": "jíjiāng",
+      "meaning": "sớm",
+      "example_zh": "这本书<u>即将</u>发行",
+      "example_vi": "Cuốn sách này sắp được phát hành.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "即将.svg",
+      "src": "images/HSK_3.0/level5/即将.svg",
+      "alt_srcs": []
+    },
+    "急需": {
+      "hanzi": "急需",
+      "pinyin": "jíxū",
+      "meaning": "cần gấp, đang rất cần",
+      "example_zh": "医院现在<u>急需</u>更多医护人员。",
+      "example_vi": "Bệnh viện hiện nay <u>rất cần gấp</u> thêm nhân viên y tế.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "急需.svg",
+      "src": "images/HSK_3.0/level5/急需.svg",
+      "alt_srcs": []
+    },
+    "挤": {
+      "hanzi": "挤",
+      "pinyin": "jǐ",
+      "meaning": "chen chúc, đông đúc; vắt, nặn",
+      "example_zh": "上下班时间的地铁非常<u>挤</u>。",
+      "example_vi": "Tàu điện ngầm vào giờ tan tầm vô cùng <u>chen chúc</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "挤.svg",
+      "src": "images/HSK_3.0/level5/挤.svg",
+      "alt_srcs": []
+    },
+    "纪录片": {
+      "hanzi": "纪录片",
+      "pinyin": "jìlùpiàn",
+      "meaning": "phim tài liệu",
+      "example_zh": "我平时很喜欢看自然<u>纪录片</u>。",
+      "example_vi": "Bình thường tôi rất thích xem <u>phim tài liệu</u> về tự nhiên.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "纪录片.svg",
+      "src": "images/HSK_3.0/level5/纪录片.svg",
+      "alt_srcs": []
+    },
+    "技能": {
+      "hanzi": "技能",
+      "pinyin": "jìnéng",
+      "meaning": "kỹ năng",
+      "example_zh": "学习汉语是一项很有用的<u>技能</u>。",
+      "example_vi": "Học tiếng Hán là một <u>kỹ năng</u> rất hữu ích.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "技能.svg",
+      "src": "images/HSK_3.0/level5/技能.svg",
+      "alt_srcs": []
+    },
+    "纪念日": {
+      "hanzi": "纪念日",
+      "pinyin": "jìniànrì",
+      "meaning": "ngày kỷ niệm",
+      "example_zh": "今天是他的诞辰<u>纪念日</u>",
+      "example_vi": "Hôm nay là ngày kỷ niệm sinh nhật của ông ấy.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "纪念日.svg",
+      "src": "images/HSK_3.0/level5/纪念日.svg",
+      "alt_srcs": []
+    },
+    "计算机": {
+      "hanzi": "计算机",
+      "pinyin": "jìsuànjī",
+      "meaning": "máy tính",
+      "example_zh": "他在大学学习<u>计算机</u>科学。",
+      "example_vi": "Anh ấy học khoa học <u>máy tính</u> ở trường đại học.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "计算机.svg",
+      "src": "images/HSK_3.0/level5/计算机.svg",
       "alt_srcs": []
     }
   }

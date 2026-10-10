@@ -13017,6 +13017,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/环节.svg",
     "caption": "khâu, mắt xích"
   },
+  "记载": {
+    "file": "记载.svg",
+    "src": "images/HSK_2.0/level6/记载.svg",
+    "caption": "ghi chép, ghi lại"
+  },
+  "季度": {
+    "file": "季度.svg",
+    "src": "images/HSK_2.0/level6/季度.svg",
+    "caption": "quý (3 tháng)"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -14011,6 +14021,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "集.svg",
     "src": "images/HSK_3.0/level5/集.svg",
     "caption": "tập (phim, sách); tập hợp"
+  },
+  "疾病": {
+    "file": "疾病.svg",
+    "src": "images/HSK_3.0/level5/疾病.svg",
+    "caption": "căn bệnh"
+  },
+  "即将": {
+    "file": "即将.svg",
+    "src": "images/HSK_3.0/level5/即将.svg",
+    "caption": "sớm"
+  },
+  "急需": {
+    "file": "急需.svg",
+    "src": "images/HSK_3.0/level5/急需.svg",
+    "caption": "cần gấp, đang rất cần"
+  },
+  "挤": {
+    "file": "挤.svg",
+    "src": "images/HSK_3.0/level5/挤.svg",
+    "caption": "chen chúc, đông đúc; vắt, nặn"
+  },
+  "纪录片": {
+    "file": "纪录片.svg",
+    "src": "images/HSK_3.0/level5/纪录片.svg",
+    "caption": "phim tài liệu"
+  },
+  "技能": {
+    "file": "技能.svg",
+    "src": "images/HSK_3.0/level5/技能.svg",
+    "caption": "kỹ năng"
+  },
+  "纪念日": {
+    "file": "纪念日.svg",
+    "src": "images/HSK_3.0/level5/纪念日.svg",
+    "caption": "ngày kỷ niệm"
+  },
+  "计算机": {
+    "file": "计算机.svg",
+    "src": "images/HSK_3.0/level5/计算机.svg",
+    "caption": "máy tính"
   }
 };
 
