@@ -13961,6 +13961,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "灰色.svg",
     "src": "images/HSK_3.0/level5/灰色.svg",
     "caption": "màu xám"
+  },
+  "回收": {
+    "file": "回收.svg",
+    "src": "images/HSK_3.0/level5/回收.svg",
+    "caption": "thu hồi, tái chế"
+  },
+  "伙": {
+    "file": "伙.svg",
+    "src": "images/HSK_3.0/level5/伙.svg",
+    "caption": "nhóm, đám, tốp (lượng từ)"
+  },
+  "火锅": {
+    "file": "火锅.svg",
+    "src": "images/HSK_3.0/level5/火锅.svg",
+    "caption": "lẩu"
+  },
+  "或是": {
+    "file": "或是.svg",
+    "src": "images/HSK_3.0/level5/或是.svg",
+    "caption": "hoặc là, hay là"
+  },
+  "货物": {
+    "file": "货物.svg",
+    "src": "images/HSK_3.0/level5/货物.svg",
+    "caption": "hàng hóa"
+  },
+  "机构": {
+    "file": "机构.svg",
+    "src": "images/HSK_3.0/level5/机构.svg",
+    "caption": "cơ cấu, cơ quan, tổ chức"
+  },
+  "机器人": {
+    "file": "机器人.svg",
+    "src": "images/HSK_3.0/level5/机器人.svg",
+    "caption": "người máy, rô-bốt"
+  },
+  "及": {
+    "file": "及.svg",
+    "src": "images/HSK_3.0/level5/及.svg",
+    "caption": "và, cùng với"
+  },
+  "级": {
+    "file": "级.svg",
+    "src": "images/HSK_3.0/level5/级.svg",
+    "caption": "cấp, bậc, mức độ"
+  },
+  "集": {
+    "file": "集.svg",
+    "src": "images/HSK_3.0/level5/集.svg",
+    "caption": "tập (phim, sách); tập hợp"
   }
 };
 
