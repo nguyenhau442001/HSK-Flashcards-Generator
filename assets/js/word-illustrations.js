@@ -12982,6 +12982,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/更新.svg",
     "caption": "cập nhật, đổi mới"
   },
+  "工程": {
+    "file": "工程.svg",
+    "src": "images/HSK_2.0/level6/工程.svg",
+    "caption": "công trình, kỹ thuật"
+  },
+  "工艺": {
+    "file": "工艺.svg",
+    "src": "images/HSK_2.0/level6/工艺.svg",
+    "caption": "công nghệ, kỹ thuật chế tác"
+  },
+  "故乡": {
+    "file": "故乡.svg",
+    "src": "images/HSK_2.0/level6/故乡.svg",
+    "caption": "quê hương"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13761,6 +13776,41 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "更换.svg",
     "src": "images/HSK_3.0/level5/更换.svg",
     "caption": "thay thế"
+  },
+  "公务员": {
+    "file": "公务员.svg",
+    "src": "images/HSK_3.0/level5/公务员.svg",
+    "caption": "công chức"
+  },
+  "共享": {
+    "file": "共享.svg",
+    "src": "images/HSK_3.0/level5/共享.svg",
+    "caption": "chia sẻ, dùng chung"
+  },
+  "古": {
+    "file": "古.svg",
+    "src": "images/HSK_3.0/level5/古.svg",
+    "caption": "cổ, cổ xưa, ngày xưa"
+  },
+  "鼓": {
+    "file": "鼓.svg",
+    "src": "images/HSK_3.0/level5/鼓.svg",
+    "caption": "trống; đánh trống; cổ vũ"
+  },
+  "古老": {
+    "file": "古老.svg",
+    "src": "images/HSK_3.0/level5/古老.svg",
+    "caption": "cổ xưa"
+  },
+  "怪": {
+    "file": "怪.svg",
+    "src": "images/HSK_3.0/level5/怪.svg",
+    "caption": "kỳ lạ; trách, trách móc"
+  },
+  "光线": {
+    "file": "光线.svg",
+    "src": "images/HSK_3.0/level5/光线.svg",
+    "caption": "ánh sáng"
   }
 };
 

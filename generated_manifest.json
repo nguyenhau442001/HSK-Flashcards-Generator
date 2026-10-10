@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:57:07.796834",
-  "total_unique_words_with_illustrations": 2692,
-  "total_flat_svg_files": 2692,
+  "generated_at": "2026-10-10T09:58:08.790249",
+  "total_unique_words_with_illustrations": 2702,
+  "total_flat_svg_files": 2702,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 503,
-        "pct": "20.1%"
+        "with_svg": 506,
+        "pct": "20.2%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1073,
-        "pct": "67.1%"
+        "with_svg": 1083,
+        "pct": "67.7%"
       },
       "level6": {
         "total": 1800,
@@ -46764,6 +46764,60 @@
         "images/HSK_3.0/level5/更新.svg"
       ]
     },
+    "工程": {
+      "hanzi": "工程",
+      "pinyin": "gōngchéng",
+      "meaning": "công trình, kỹ thuật",
+      "example_zh": "这是一项大型<u>工程</u>。",
+      "example_vi": "Đây là một <u>công trình</u> quy mô lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "工程.svg",
+      "src": "images/HSK_2.0/level6/工程.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/工程.svg"
+      ]
+    },
+    "工艺": {
+      "hanzi": "工艺",
+      "pinyin": "gōngyì",
+      "meaning": "công nghệ, kỹ thuật chế tác",
+      "example_zh": "这件瓷器<u>工艺</u>精湛。",
+      "example_vi": "Món đồ gốm này có <u>kỹ thuật chế tác</u> tinh xảo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "工艺.svg",
+      "src": "images/HSK_2.0/level6/工艺.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/工艺.svg"
+      ]
+    },
+    "故乡": {
+      "hanzi": "故乡",
+      "pinyin": "gùxiāng",
+      "meaning": "quê hương",
+      "example_zh": "我很想念<u>故乡</u>。",
+      "example_vi": "Tôi rất nhớ <u>quê hương</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "故乡.svg",
+      "src": "images/HSK_2.0/level6/故乡.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/故乡.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -48953,6 +49007,104 @@
       ],
       "file": "更换.svg",
       "src": "images/HSK_3.0/level5/更换.svg",
+      "alt_srcs": []
+    },
+    "公务员": {
+      "hanzi": "公务员",
+      "pinyin": "gōngwùyuán",
+      "meaning": "công chức",
+      "example_zh": "大学毕业后，他考上了<u>公务员</u>。",
+      "example_vi": "Sau khi tốt nghiệp đại học, anh ấy đã thi đỗ <u>công chức</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "公务员.svg",
+      "src": "images/HSK_3.0/level5/公务员.svg",
+      "alt_srcs": []
+    },
+    "共享": {
+      "hanzi": "共享",
+      "pinyin": "gòngxiǎng",
+      "meaning": "chia sẻ, dùng chung",
+      "example_zh": "在很多城市，<u>共享</u>单车非常普遍。",
+      "example_vi": "Ở nhiều thành phố, xe đạp <u>chia sẻ</u> rất phổ biến.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "共享.svg",
+      "src": "images/HSK_3.0/level5/共享.svg",
+      "alt_srcs": []
+    },
+    "古": {
+      "hanzi": "古",
+      "pinyin": "gǔ",
+      "meaning": "cổ, cổ xưa, ngày xưa",
+      "example_zh": "中国有很多<u>古</u>建筑。",
+      "example_vi": "Trung Quốc có rất nhiều kiến trúc <u>cổ</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "古.svg",
+      "src": "images/HSK_3.0/level5/古.svg",
+      "alt_srcs": []
+    },
+    "鼓": {
+      "hanzi": "鼓",
+      "pinyin": "gǔ",
+      "meaning": "trống; đánh trống; cổ vũ",
+      "example_zh": "音乐会上有人在敲<u>鼓</u>。",
+      "example_vi": "Tại buổi hòa nhạc có người đang đánh <u>trống</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "鼓.svg",
+      "src": "images/HSK_3.0/level5/鼓.svg",
+      "alt_srcs": []
+    },
+    "古老": {
+      "hanzi": "古老",
+      "pinyin": "gǔlǎo",
+      "meaning": "cổ xưa",
+      "example_zh": "这是一个<u>古老</u>的传说",
+      "example_vi": "Đây là một truyền thuyết cổ xưa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "古老.svg",
+      "src": "images/HSK_3.0/level5/古老.svg",
+      "alt_srcs": []
+    },
+    "怪": {
+      "hanzi": "怪",
+      "pinyin": "guài",
+      "meaning": "kỳ lạ; trách, trách móc",
+      "example_zh": "这件事情不能<u>怪</u>他。",
+      "example_vi": "Việc này không thể <u>trách</u> anh ấy được.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "怪.svg",
+      "src": "images/HSK_3.0/level5/怪.svg",
+      "alt_srcs": []
+    },
+    "光线": {
+      "hanzi": "光线",
+      "pinyin": "guāngxiàn",
+      "meaning": "ánh sáng",
+      "example_zh": "镜子能反射<u>光线</u>",
+      "example_vi": "Gương có thể phản chiếu ánh sáng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "光线.svg",
+      "src": "images/HSK_3.0/level5/光线.svg",
       "alt_srcs": []
     }
   }
