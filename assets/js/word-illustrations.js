@@ -13311,6 +13311,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "大多.svg",
     "src": "images/HSK_3.0/level5/大多.svg",
     "caption": "phần lớn, đa số"
+  },
+  "大会": {
+    "file": "大会.svg",
+    "src": "images/HSK_3.0/level5/大会.svg",
+    "caption": "đại hội"
+  },
+  "大力": {
+    "file": "大力.svg",
+    "src": "images/HSK_3.0/level5/大力.svg",
+    "caption": "ra sức, mạnh mẽ"
+  },
+  "大妈": {
+    "file": "大妈.svg",
+    "src": "images/HSK_3.0/level5/大妈.svg",
+    "caption": "bác gái, cô (gọi phụ nữ lớn tuổi)"
+  },
+  "大米": {
+    "file": "大米.svg",
+    "src": "images/HSK_3.0/level5/大米.svg",
+    "caption": "gạo"
+  },
+  "大脑": {
+    "file": "大脑.svg",
+    "src": "images/HSK_3.0/level5/大脑.svg",
+    "caption": "đại não, bộ não"
+  },
+  "大批": {
+    "file": "大批.svg",
+    "src": "images/HSK_3.0/level5/大批.svg",
+    "caption": "số lượng lớn, hàng loạt"
+  },
+  "大事": {
+    "file": "大事.svg",
+    "src": "images/HSK_3.0/level5/大事.svg",
+    "caption": "việc lớn, chuyện lớn"
+  },
+  "大爷": {
+    "file": "大爷.svg",
+    "src": "images/HSK_3.0/level5/大爷.svg",
+    "caption": "bác (gọi đàn ông lớn tuổi)"
+  },
+  "大于": {
+    "file": "大于.svg",
+    "src": "images/HSK_3.0/level5/大于.svg",
+    "caption": "lớn hơn"
+  },
+  "大众": {
+    "file": "大众.svg",
+    "src": "images/HSK_3.0/level5/大众.svg",
+    "caption": "đại chúng, quần chúng"
   }
 };
 

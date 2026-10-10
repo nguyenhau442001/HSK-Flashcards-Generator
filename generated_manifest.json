@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:46:50.944161",
-  "total_unique_words_with_illustrations": 2602,
-  "total_flat_svg_files": 2602,
+  "generated_at": "2026-10-10T09:47:49.993398",
+  "total_unique_words_with_illustrations": 2612,
+  "total_flat_svg_files": 2612,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 983,
-        "pct": "61.4%"
+        "with_svg": 993,
+        "pct": "62.1%"
       },
       "level6": {
         "total": 1800,
@@ -47637,6 +47637,146 @@
       ],
       "file": "大多.svg",
       "src": "images/HSK_3.0/level5/大多.svg",
+      "alt_srcs": []
+    },
+    "大会": {
+      "hanzi": "大会",
+      "pinyin": "dàhuì",
+      "meaning": "đại hội",
+      "example_zh": "<u>大会</u>明天上午九点开始。",
+      "example_vi": "<u>Đại hội</u> bắt đầu lúc chín giờ sáng mai.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "大会.svg",
+      "src": "images/HSK_3.0/level5/大会.svg",
+      "alt_srcs": []
+    },
+    "大力": {
+      "hanzi": "大力",
+      "pinyin": "dàlì",
+      "meaning": "ra sức, mạnh mẽ",
+      "example_zh": "政府<u>大力</u>发展教育。",
+      "example_vi": "Chính phủ <u>ra sức</u> phát triển giáo dục.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "大力.svg",
+      "src": "images/HSK_3.0/level5/大力.svg",
+      "alt_srcs": []
+    },
+    "大妈": {
+      "hanzi": "大妈",
+      "pinyin": "dàmā",
+      "meaning": "bác gái, cô (gọi phụ nữ lớn tuổi)",
+      "example_zh": "公园里有很多<u>大妈</u>在跳舞。",
+      "example_vi": "Trong công viên có nhiều <u>bác gái</u> đang nhảy múa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "大妈.svg",
+      "src": "images/HSK_3.0/level5/大妈.svg",
+      "alt_srcs": []
+    },
+    "大米": {
+      "hanzi": "大米",
+      "pinyin": "dàmǐ",
+      "meaning": "gạo",
+      "example_zh": "越南的<u>大米</u>很有名。",
+      "example_vi": "<u>Gạo</u> Việt Nam rất nổi tiếng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "大米.svg",
+      "src": "images/HSK_3.0/level5/大米.svg",
+      "alt_srcs": []
+    },
+    "大脑": {
+      "hanzi": "大脑",
+      "pinyin": "dànǎo",
+      "meaning": "đại não, bộ não",
+      "example_zh": "多读书对<u>大脑</u>有好处。",
+      "example_vi": "Đọc nhiều sách có lợi cho <u>bộ não</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "大脑.svg",
+      "src": "images/HSK_3.0/level5/大脑.svg",
+      "alt_srcs": []
+    },
+    "大批": {
+      "hanzi": "大批",
+      "pinyin": "dàpī",
+      "meaning": "số lượng lớn, hàng loạt",
+      "example_zh": "<u>大批</u>游客来到了这里。",
+      "example_vi": "Du khách đến đây với <u>số lượng lớn</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "大批.svg",
+      "src": "images/HSK_3.0/level5/大批.svg",
+      "alt_srcs": []
+    },
+    "大事": {
+      "hanzi": "大事",
+      "pinyin": "dàshì",
+      "meaning": "việc lớn, chuyện lớn",
+      "example_zh": "结婚是人生的<u>大事</u>。",
+      "example_vi": "Kết hôn là <u>việc lớn</u> trong đời.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "大事.svg",
+      "src": "images/HSK_3.0/level5/大事.svg",
+      "alt_srcs": []
+    },
+    "大爷": {
+      "hanzi": "大爷",
+      "pinyin": "dàye",
+      "meaning": "bác (gọi đàn ông lớn tuổi)",
+      "example_zh": "<u>大爷</u>，请问火车站怎么走？",
+      "example_vi": "<u>Bác</u> ơi, cho hỏi ga tàu đi đường nào ạ?",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "大爷.svg",
+      "src": "images/HSK_3.0/level5/大爷.svg",
+      "alt_srcs": []
+    },
+    "大于": {
+      "hanzi": "大于",
+      "pinyin": "dàyú",
+      "meaning": "lớn hơn",
+      "example_zh": "五<u>大于</u>三。",
+      "example_vi": "Năm <u>lớn hơn</u> ba.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "大于.svg",
+      "src": "images/HSK_3.0/level5/大于.svg",
+      "alt_srcs": []
+    },
+    "大众": {
+      "hanzi": "大众",
+      "pinyin": "dàzhòng",
+      "meaning": "đại chúng, quần chúng",
+      "example_zh": "这种手机很受<u>大众</u>欢迎。",
+      "example_vi": "Loại điện thoại này rất được <u>công chúng</u> ưa chuộng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "大众.svg",
+      "src": "images/HSK_3.0/level5/大众.svg",
       "alt_srcs": []
     }
   }
