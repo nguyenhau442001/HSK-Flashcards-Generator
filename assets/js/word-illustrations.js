@@ -13212,6 +13212,26 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/实行.svg",
     "caption": "thực hiện"
   },
+  "试验": {
+    "file": "试验.svg",
+    "src": "images/HSK_2.0/level6/试验.svg",
+    "caption": "thử nghiệm"
+  },
+  "事故": {
+    "file": "事故.svg",
+    "src": "images/HSK_2.0/level6/事故.svg",
+    "caption": "sự cố, tai nạn"
+  },
+  "事件": {
+    "file": "事件.svg",
+    "src": "images/HSK_2.0/level6/事件.svg",
+    "caption": "sự kiện"
+  },
+  "事业": {
+    "file": "事业.svg",
+    "src": "images/HSK_2.0/level6/事业.svg",
+    "caption": "sự nghiệp"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -15111,6 +15131,36 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "使得.svg",
     "src": "images/HSK_3.0/level5/使得.svg",
     "caption": "khiến cho, làm cho"
+  },
+  "式": {
+    "file": "式.svg",
+    "src": "images/HSK_3.0/level5/式.svg",
+    "caption": "kiểu, dạng, phong cách"
+  },
+  "适当": {
+    "file": "适当.svg",
+    "src": "images/HSK_3.0/level5/适当.svg",
+    "caption": "thích hợp"
+  },
+  "市民": {
+    "file": "市民.svg",
+    "src": "images/HSK_3.0/level5/市民.svg",
+    "caption": "công dân"
+  },
+  "视为": {
+    "file": "视为.svg",
+    "src": "images/HSK_3.0/level5/视为.svg",
+    "caption": "xem như, coi là"
+  },
+  "试用": {
+    "file": "试用.svg",
+    "src": "images/HSK_3.0/level5/试用.svg",
+    "caption": "dùng thử; thử việc"
+  },
+  "适用": {
+    "file": "适用.svg",
+    "src": "images/HSK_3.0/level5/适用.svg",
+    "caption": "có thể áp dụng"
   }
 };
 

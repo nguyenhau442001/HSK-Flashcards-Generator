@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:33:22.124968",
-  "total_unique_words_with_illustrations": 2962,
-  "total_flat_svg_files": 2962,
+  "generated_at": "2026-10-10T10:34:25.277255",
+  "total_unique_words_with_illustrations": 2972,
+  "total_flat_svg_files": 2972,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 549,
-        "pct": "22.0%"
+        "with_svg": 553,
+        "pct": "22.1%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1343,
-        "pct": "83.9%"
+        "with_svg": 1353,
+        "pct": "84.6%"
       },
       "level6": {
         "total": 1800,
@@ -47592,6 +47592,78 @@
         "images/HSK_3.0/level5/实行.svg"
       ]
     },
+    "试验": {
+      "hanzi": "试验",
+      "pinyin": "shìyàn",
+      "meaning": "thử nghiệm",
+      "example_zh": "科学家正在进行新的<u>试验</u>。",
+      "example_vi": "Các nhà khoa học đang tiến hành <u>thử nghiệm</u> mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "试验.svg",
+      "src": "images/HSK_2.0/level6/试验.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/试验.svg"
+      ]
+    },
+    "事故": {
+      "hanzi": "事故",
+      "pinyin": "shìgù",
+      "meaning": "sự cố, tai nạn",
+      "example_zh": "昨天发生了一起交通<u>事故</u>。",
+      "example_vi": "Hôm qua đã xảy ra một vụ <u>tai nạn</u> giao thông.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "事故.svg",
+      "src": "images/HSK_2.0/level6/事故.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/事故.svg"
+      ]
+    },
+    "事件": {
+      "hanzi": "事件",
+      "pinyin": "shìjiàn",
+      "meaning": "sự kiện",
+      "example_zh": "这是一个重大的历史<u>事件</u>。",
+      "example_vi": "Đây là một <u>sự kiện</u> lịch sử quan trọng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "事件.svg",
+      "src": "images/HSK_2.0/level6/事件.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/事件.svg"
+      ]
+    },
+    "事业": {
+      "hanzi": "事业",
+      "pinyin": "shìyè",
+      "meaning": "sự nghiệp",
+      "example_zh": "他把所有精力都投入到了<u>事业</u>中。",
+      "example_vi": "Anh ấy đã dồn hết tâm huyết vào <u>sự nghiệp</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "事业.svg",
+      "src": "images/HSK_2.0/level6/事业.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/事业.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -52926,6 +52998,90 @@
       ],
       "file": "使得.svg",
       "src": "images/HSK_3.0/level5/使得.svg",
+      "alt_srcs": []
+    },
+    "式": {
+      "hanzi": "式",
+      "pinyin": "shì",
+      "meaning": "kiểu, dạng, phong cách",
+      "example_zh": "这家餐厅提供中<u>式</u>和西<u>式</u>早餐。",
+      "example_vi": "Nhà hàng này phục vụ bữa sáng <u>kiểu</u> Trung và <u>kiểu</u> Tây.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "式.svg",
+      "src": "images/HSK_3.0/level5/式.svg",
+      "alt_srcs": []
+    },
+    "适当": {
+      "hanzi": "适当",
+      "pinyin": "shìdàng",
+      "meaning": "thích hợp",
+      "example_zh": "工作之余要<u>适当</u>调剂生活",
+      "example_vi": "Ngoài công việc cần điều chỉnh cuộc sống hợp lý.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "适当.svg",
+      "src": "images/HSK_3.0/level5/适当.svg",
+      "alt_srcs": []
+    },
+    "市民": {
+      "hanzi": "市民",
+      "pinyin": "shìmín",
+      "meaning": "công dân",
+      "example_zh": "<u>市民</u>走上街头示威",
+      "example_vi": "Người dân xuống đường biểu tình.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "市民.svg",
+      "src": "images/HSK_3.0/level5/市民.svg",
+      "alt_srcs": []
+    },
+    "视为": {
+      "hanzi": "视为",
+      "pinyin": "shìwéi",
+      "meaning": "xem như, coi là",
+      "example_zh": "大家都把大熊猫<u>视为</u>中国的国宝。",
+      "example_vi": "Mọi người đều <u>coi</u> gấu trúc lớn <u>là</u> quốc bảo của Trung Quốc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "视为.svg",
+      "src": "images/HSK_3.0/level5/视为.svg",
+      "alt_srcs": []
+    },
+    "试用": {
+      "hanzi": "试用",
+      "pinyin": "shìyòng",
+      "meaning": "dùng thử; thử việc",
+      "example_zh": "这款新软件可以免费<u>试用</u>一个月。",
+      "example_vi": "Phần mềm mới này có thể <u>dùng thử</u> miễn phí một tháng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "试用.svg",
+      "src": "images/HSK_3.0/level5/试用.svg",
+      "alt_srcs": []
+    },
+    "适用": {
+      "hanzi": "适用",
+      "pinyin": "shìyòng",
+      "meaning": "có thể áp dụng",
+      "example_zh": "这个规定一律<u>适用</u>",
+      "example_vi": "Quy định này áp dụng đồng nhất cho mọi trường hợp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "适用.svg",
+      "src": "images/HSK_3.0/level5/适用.svg",
       "alt_srcs": []
     }
   }
