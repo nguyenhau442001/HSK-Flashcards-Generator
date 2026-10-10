@@ -12997,6 +12997,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/故乡.svg",
     "caption": "quê hương"
   },
+  "过于": {
+    "file": "过于.svg",
+    "src": "images/HSK_2.0/level6/过于.svg",
+    "caption": "quá mức"
+  },
+  "海外": {
+    "file": "海外.svg",
+    "src": "images/HSK_2.0/level6/海外.svg",
+    "caption": "hải ngoại, nước ngoài"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13811,6 +13821,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "光线.svg",
     "src": "images/HSK_3.0/level5/光线.svg",
     "caption": "ánh sáng"
+  },
+  "广": {
+    "file": "广.svg",
+    "src": "images/HSK_3.0/level5/广.svg",
+    "caption": "rộng, rộng rãi"
+  },
+  "贵姓": {
+    "file": "贵姓.svg",
+    "src": "images/HSK_3.0/level5/贵姓.svg",
+    "caption": "quý tính, họ (cách hỏi lịch sự)"
+  },
+  "柜子": {
+    "file": "柜子.svg",
+    "src": "images/HSK_3.0/level5/柜子.svg",
+    "caption": "tủ"
+  },
+  "国画": {
+    "file": "国画.svg",
+    "src": "images/HSK_3.0/level5/国画.svg",
+    "caption": "tranh thủy mặc, quốc họa"
+  },
+  "国庆": {
+    "file": "国庆.svg",
+    "src": "images/HSK_3.0/level5/国庆.svg",
+    "caption": "quốc khánh"
+  },
+  "过度": {
+    "file": "过度.svg",
+    "src": "images/HSK_3.0/level5/过度.svg",
+    "caption": "quá mức, thái quá"
+  },
+  "含": {
+    "file": "含.svg",
+    "src": "images/HSK_3.0/level5/含.svg",
+    "caption": "chứa, hàm chứa, ngậm"
+  },
+  "含量": {
+    "file": "含量.svg",
+    "src": "images/HSK_3.0/level5/含量.svg",
+    "caption": "hàm lượng"
   }
 };
 

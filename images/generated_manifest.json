@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:58:08.790249",
-  "total_unique_words_with_illustrations": 2702,
-  "total_flat_svg_files": 2702,
+  "generated_at": "2026-10-10T09:59:42.881092",
+  "total_unique_words_with_illustrations": 2712,
+  "total_flat_svg_files": 2712,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 506,
-        "pct": "20.2%"
+        "with_svg": 508,
+        "pct": "20.3%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1083,
-        "pct": "67.7%"
+        "with_svg": 1093,
+        "pct": "68.3%"
       },
       "level6": {
         "total": 1800,
@@ -46818,6 +46818,42 @@
         "images/HSK_3.0/level5/故乡.svg"
       ]
     },
+    "过于": {
+      "hanzi": "过于",
+      "pinyin": "guòyú",
+      "meaning": "quá mức",
+      "example_zh": "别<u>过于</u>担心。",
+      "example_vi": "Đừng lo lắng <u>quá mức</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "过于.svg",
+      "src": "images/HSK_2.0/level6/过于.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/过于.svg"
+      ]
+    },
+    "海外": {
+      "hanzi": "海外",
+      "pinyin": "hǎiwài",
+      "meaning": "hải ngoại, nước ngoài",
+      "example_zh": "他在<u>海外</u>工作多年。",
+      "example_vi": "Anh ấy làm việc ở <u>hải ngoại</u> nhiều năm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "海外.svg",
+      "src": "images/HSK_2.0/level6/海外.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/海外.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -49105,6 +49141,118 @@
       ],
       "file": "光线.svg",
       "src": "images/HSK_3.0/level5/光线.svg",
+      "alt_srcs": []
+    },
+    "广": {
+      "hanzi": "广",
+      "pinyin": "guǎng",
+      "meaning": "rộng, rộng rãi",
+      "example_zh": "他的知识面很<u>广</u>。",
+      "example_vi": "Kiến thức của anh ấy rất <u>rộng</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "广.svg",
+      "src": "images/HSK_3.0/level5/广.svg",
+      "alt_srcs": []
+    },
+    "贵姓": {
+      "hanzi": "贵姓",
+      "pinyin": "guìxìng",
+      "meaning": "quý tính, họ (cách hỏi lịch sự)",
+      "example_zh": "请问您<u>贵姓</u>？",
+      "example_vi": "Xin hỏi ngài <u>họ</u> gì?",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "贵姓.svg",
+      "src": "images/HSK_3.0/level5/贵姓.svg",
+      "alt_srcs": []
+    },
+    "柜子": {
+      "hanzi": "柜子",
+      "pinyin": "guìzi",
+      "meaning": "tủ",
+      "example_zh": "把衣服放进<u>柜子</u>里吧。",
+      "example_vi": "Hãy cất quần áo vào trong <u>tủ</u> đi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "柜子.svg",
+      "src": "images/HSK_3.0/level5/柜子.svg",
+      "alt_srcs": []
+    },
+    "国画": {
+      "hanzi": "国画",
+      "pinyin": "guóhuà",
+      "meaning": "tranh thủy mặc, quốc họa",
+      "example_zh": "爷爷非常喜欢画中国<u>国画</u>。",
+      "example_vi": "Ông nội rất thích vẽ <u>quốc họa</u> Trung Quốc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "国画.svg",
+      "src": "images/HSK_3.0/level5/国画.svg",
+      "alt_srcs": []
+    },
+    "国庆": {
+      "hanzi": "国庆",
+      "pinyin": "guóqìng",
+      "meaning": "quốc khánh",
+      "example_zh": "<u>国庆</u>节放了一个星期的假。",
+      "example_vi": "Dịp nghỉ lễ <u>Quốc khánh</u> được nghỉ một tuần.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "国庆.svg",
+      "src": "images/HSK_3.0/level5/国庆.svg",
+      "alt_srcs": []
+    },
+    "过度": {
+      "hanzi": "过度",
+      "pinyin": "guòdù",
+      "meaning": "quá mức, thái quá",
+      "example_zh": "<u>过度</u>劳累对身体不好。",
+      "example_vi": "Làm việc mệt mỏi <u>quá mức</u> không tốt cho sức khỏe.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "过度.svg",
+      "src": "images/HSK_3.0/level5/过度.svg",
+      "alt_srcs": []
+    },
+    "含": {
+      "hanzi": "含",
+      "pinyin": "hán",
+      "meaning": "chứa, hàm chứa, ngậm",
+      "example_zh": "这种水果<u>含</u>有丰富的维生素。",
+      "example_vi": "Loại trái cây này <u>chứa</u> lượng vitamin dồi dào.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "含.svg",
+      "src": "images/HSK_3.0/level5/含.svg",
+      "alt_srcs": []
+    },
+    "含量": {
+      "hanzi": "含量",
+      "pinyin": "hánliàng",
+      "meaning": "hàm lượng",
+      "example_zh": "牛奶的钙<u>含量</u>很高。",
+      "example_vi": "<u>Hàm lượng</u> canxi trong sữa rất cao.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "含量.svg",
+      "src": "images/HSK_3.0/level5/含量.svg",
       "alt_srcs": []
     }
   }
