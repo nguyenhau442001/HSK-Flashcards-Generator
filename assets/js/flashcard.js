@@ -227,25 +227,22 @@ const RATING_KEYS = {
   'ArrowRight': 'good',
 };
 
-// Shared by the level deck and "Ôn hôm nay": label on top, repeat() interval below.
+// Shared by the level deck and "Ôn hôm nay": label with icon, no cluttered subtext.
 function ratingButtonsHtml(handlerName, previewIdPrefix, previews) {
   return RATING_BUTTONS.map(button => {
     const preview = previews ? previews[button.rating] : null;
     const intervalText = preview ? formatSrsInterval(preview, button.interval) : button.interval;
     const shortcutArrow = button.rating === 'again' ? '←' : '→';
     const iconSvg = button.rating === 'again'
-      ? `<svg class="rating-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`
-      : `<svg class="rating-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+      ? `<svg class="rating-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`
+      : `<svg class="rating-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+    const titleText = `Đánh giá: ${button.label}${intervalText ? ` (${intervalText})` : ''} • Phím [${button.key}] hoặc [${shortcutArrow}]`;
     return `
     <button type="button" class="rating-btn rating-btn--${button.rating}"
       onclick="${handlerName}('${button.rating}')" aria-keyshortcuts="${button.key}"
-      title="Đánh giá: ${button.label} (Phím [${button.key}] hoặc [${shortcutArrow}])">
-      <div class="rating-main-label">
-        <span class="rating-icon-wrap" aria-hidden="true">${iconSvg}</span>
-        <span class="rating-label">${button.label}</span>
-        <kbd class="rating-kbd" aria-hidden="true">${button.key}</kbd>
-      </div>
-      <span class="rating-interval"${previewIdPrefix ? ` id="${previewIdPrefix}${button.rating}"` : ''}>${intervalText}</span>
+      title="${titleText}">
+      <span class="rating-icon-wrap" aria-hidden="true">${iconSvg}</span>
+      <span class="rating-label">${button.label}</span>
     </button>`;
   }).join('');
 }
@@ -269,9 +266,15 @@ function formatSrsInterval(preview, fallback) {
 function updateSrsPreviews(word) {
   const card = word && srsCards[word.id];
   const previews = card ? SRS.preview(card, new Date(), srsRetention) : {};
-  RATING_BUTTONS.forEach(({ rating, interval }) => {
+  RATING_BUTTONS.forEach(({ rating, interval, label, key }) => {
     const node = document.getElementById('preview-' + rating);
     if (node) node.textContent = formatSrsInterval(previews[rating], interval);
+    const btn = document.querySelector(`.rating-btn--${rating}`);
+    if (btn) {
+      const nextInterval = formatSrsInterval(previews[rating], interval);
+      const arrow = rating === 'again' ? '←' : '→';
+      btn.title = `Đánh giá: ${label}${nextInterval ? ` (${nextInterval})` : ''} • Phím [${key}] hoặc [${arrow}]`;
+    }
   });
 }
 function ratingsVisible() {
