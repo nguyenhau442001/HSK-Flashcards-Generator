@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:34:25.277255",
-  "total_unique_words_with_illustrations": 2972,
-  "total_flat_svg_files": 2972,
+  "generated_at": "2026-10-10T10:35:24.903594",
+  "total_unique_words_with_illustrations": 2982,
+  "total_flat_svg_files": 2982,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 553,
-        "pct": "22.1%"
+        "with_svg": 555,
+        "pct": "22.2%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1353,
-        "pct": "84.6%"
+        "with_svg": 1363,
+        "pct": "85.2%"
       },
       "level6": {
         "total": 1800,
@@ -47664,6 +47664,42 @@
         "images/HSK_3.0/level5/事业.svg"
       ]
     },
+    "书法": {
+      "hanzi": "书法",
+      "pinyin": "shūfǎ",
+      "meaning": "thư pháp",
+      "example_zh": "他擅长中国<u>书法</u>。",
+      "example_vi": "Anh ấy thành thạo <u>thư pháp</u> Trung Quốc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "书法.svg",
+      "src": "images/HSK_2.0/level6/书法.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/书法.svg"
+      ]
+    },
+    "束": {
+      "hanzi": "束",
+      "pinyin": "shù",
+      "meaning": "bó, chùm",
+      "example_zh": "她送给我一<u>束</u>花。",
+      "example_vi": "Cô ấy tặng tôi một <u>bó</u> hoa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "束.svg",
+      "src": "images/HSK_2.0/level6/束.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/束.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -53082,6 +53118,118 @@
       ],
       "file": "适用.svg",
       "src": "images/HSK_3.0/level5/适用.svg",
+      "alt_srcs": []
+    },
+    "收集": {
+      "hanzi": "收集",
+      "pinyin": "shōují",
+      "meaning": "thu thập",
+      "example_zh": "他<u>收集</u>了一枚古币",
+      "example_vi": "Anh ấy sưu tập được một đồng tiền cổ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "收集.svg",
+      "src": "images/HSK_3.0/level5/收集.svg",
+      "alt_srcs": []
+    },
+    "收看": {
+      "hanzi": "收看",
+      "pinyin": "shōukàn",
+      "meaning": "theo dõi, đón xem (truyền hình, chương trình)",
+      "example_zh": "许多人准时坐在电视机前<u>收看</u>新闻联播。",
+      "example_vi": "Rất nhiều người ngồi trước tivi đúng giờ để <u>đón xem</u> bản tin thời sự.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "收看.svg",
+      "src": "images/HSK_3.0/level5/收看.svg",
+      "alt_srcs": []
+    },
+    "守": {
+      "hanzi": "守",
+      "pinyin": "shǒu",
+      "meaning": "giữ, canh giữ, tuân thủ",
+      "example_zh": "做人一定要遵<u>守</u>诺言。",
+      "example_vi": "Làm người nhất định phải tuân <u>thủ</u> lời hứa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "守.svg",
+      "src": "images/HSK_3.0/level5/守.svg",
+      "alt_srcs": []
+    },
+    "首次": {
+      "hanzi": "首次",
+      "pinyin": "shǒucì",
+      "meaning": "lần đầu tiên",
+      "example_zh": "这是他<u>首次</u>代表国家队参加国际比赛。",
+      "example_vi": "Đây là <u>lần đầu tiên</u> anh ấy đại diện cho đội tuyển quốc gia tham gia thi đấu quốc tế.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "首次.svg",
+      "src": "images/HSK_3.0/level5/首次.svg",
+      "alt_srcs": []
+    },
+    "手段": {
+      "hanzi": "手段",
+      "pinyin": "shǒuduàn",
+      "meaning": "có nghĩa là",
+      "example_zh": "他的<u>手段</u>太卑鄙了",
+      "example_vi": "Thủ đoạn của anh ta quá đê tiện.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "手段.svg",
+      "src": "images/HSK_3.0/level5/手段.svg",
+      "alt_srcs": []
+    },
+    "售价": {
+      "hanzi": "售价",
+      "pinyin": "shòujià",
+      "meaning": "giá bán",
+      "example_zh": "这款新手机的官方<u>售价</u>是五千元。",
+      "example_vi": "<u>Giá bán</u> chính thức của chiếc điện thoại mới này là năm nghìn tệ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "售价.svg",
+      "src": "images/HSK_3.0/level5/售价.svg",
+      "alt_srcs": []
+    },
+    "书房": {
+      "hanzi": "书房",
+      "pinyin": "shūfáng",
+      "meaning": "phòng đọc sách, phòng làm việc",
+      "example_zh": "爸爸正在<u>书房</u>里安静地看书。",
+      "example_vi": "Bố đang yên tĩnh đọc sách ở trong <u>phòng đọc sách</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "书房.svg",
+      "src": "images/HSK_3.0/level5/书房.svg",
+      "alt_srcs": []
+    },
+    "熟人": {
+      "hanzi": "熟人",
+      "pinyin": "shúrén",
+      "meaning": "người quen",
+      "example_zh": "在异国他乡遇到<u>熟人</u>是一件很高兴的事。",
+      "example_vi": "Gặp lại <u>người quen</u> nơi đất khách quê người là một điều vô cùng vui mừng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "熟人.svg",
+      "src": "images/HSK_3.0/level5/熟人.svg",
       "alt_srcs": []
     }
   }

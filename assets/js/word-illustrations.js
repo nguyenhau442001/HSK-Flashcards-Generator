@@ -13232,6 +13232,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/事业.svg",
     "caption": "sự nghiệp"
   },
+  "书法": {
+    "file": "书法.svg",
+    "src": "images/HSK_2.0/level6/书法.svg",
+    "caption": "thư pháp"
+  },
+  "束": {
+    "file": "束.svg",
+    "src": "images/HSK_2.0/level6/束.svg",
+    "caption": "bó, chùm"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -15161,6 +15171,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "适用.svg",
     "src": "images/HSK_3.0/level5/适用.svg",
     "caption": "có thể áp dụng"
+  },
+  "收集": {
+    "file": "收集.svg",
+    "src": "images/HSK_3.0/level5/收集.svg",
+    "caption": "thu thập"
+  },
+  "收看": {
+    "file": "收看.svg",
+    "src": "images/HSK_3.0/level5/收看.svg",
+    "caption": "theo dõi, đón xem (truyền hình, chương trình)"
+  },
+  "守": {
+    "file": "守.svg",
+    "src": "images/HSK_3.0/level5/守.svg",
+    "caption": "giữ, canh giữ, tuân thủ"
+  },
+  "首次": {
+    "file": "首次.svg",
+    "src": "images/HSK_3.0/level5/首次.svg",
+    "caption": "lần đầu tiên"
+  },
+  "手段": {
+    "file": "手段.svg",
+    "src": "images/HSK_3.0/level5/手段.svg",
+    "caption": "có nghĩa là"
+  },
+  "售价": {
+    "file": "售价.svg",
+    "src": "images/HSK_3.0/level5/售价.svg",
+    "caption": "giá bán"
+  },
+  "书房": {
+    "file": "书房.svg",
+    "src": "images/HSK_3.0/level5/书房.svg",
+    "caption": "phòng đọc sách, phòng làm việc"
+  },
+  "熟人": {
+    "file": "熟人.svg",
+    "src": "images/HSK_3.0/level5/熟人.svg",
+    "caption": "người quen"
   }
 };
 
