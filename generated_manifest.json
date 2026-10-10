@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:18:09.809582",
-  "total_unique_words_with_illustrations": 2822,
-  "total_flat_svg_files": 2822,
+  "generated_at": "2026-10-10T10:19:08.386911",
+  "total_unique_words_with_illustrations": 2832,
+  "total_flat_svg_files": 2832,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 521,
-        "pct": "20.8%"
+        "with_svg": 522,
+        "pct": "20.9%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1203,
-        "pct": "75.2%"
+        "with_svg": 1213,
+        "pct": "75.8%"
       },
       "level6": {
         "total": 1800,
@@ -47088,6 +47088,24 @@
         "images/HSK_3.0/level5/类似.svg"
       ]
     },
+    "领先": {
+      "hanzi": "领先",
+      "pinyin": "lǐngxiān",
+      "meaning": "dẫn đầu",
+      "example_zh": "我们队一直<u>领先</u>。",
+      "example_vi": "Đội chúng tôi luôn <u>dẫn đầu</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "领先.svg",
+      "src": "images/HSK_2.0/level6/领先.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/领先.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -50851,6 +50869,132 @@
       ],
       "file": "领带.svg",
       "src": "images/HSK_3.0/level5/领带.svg",
+      "alt_srcs": []
+    },
+    "领取": {
+      "hanzi": "领取",
+      "pinyin": "lǐngqǔ",
+      "meaning": "nhận, lĩnh (tiền, đồ, chứng chỉ)",
+      "example_zh": "请凭身份证<u>领取</u>门票。",
+      "example_vi": "Xin vui lòng xuất trình chứng minh thư để <u>nhận</u> vé vào cửa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "领取.svg",
+      "src": "images/HSK_3.0/level5/领取.svg",
+      "alt_srcs": []
+    },
+    "令": {
+      "hanzi": "令",
+      "pinyin": "lìng",
+      "meaning": "khiến cho, làm cho",
+      "example_zh": "这个结果真<u>令</u>人吃惊。",
+      "example_vi": "Kết quả này thật <u>khiến</u> người ta kinh ngạc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "令.svg",
+      "src": "images/HSK_3.0/level5/令.svg",
+      "alt_srcs": []
+    },
+    "流感": {
+      "hanzi": "流感",
+      "pinyin": "liúgǎn",
+      "meaning": "bệnh cúm, cúm mùa",
+      "example_zh": "冬天容易得<u>流感</u>，大家要注意保暖。",
+      "example_vi": "Mùa đông dễ mắc <u>cúm</u>, mọi người cần chú ý giữ ấm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "流感.svg",
+      "src": "images/HSK_3.0/level5/流感.svg",
+      "alt_srcs": []
+    },
+    "留言": {
+      "hanzi": "留言",
+      "pinyin": "liúyán",
+      "meaning": "để lại tin nhắn, lời nhắn",
+      "example_zh": "如果他不在，你可以给他<u>留言</u>。",
+      "example_vi": "Nếu anh ấy không có ở đây, bạn có thể <u>để lại lời nhắn</u> cho anh ấy.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "留言.svg",
+      "src": "images/HSK_3.0/level5/留言.svg",
+      "alt_srcs": []
+    },
+    "录": {
+      "hanzi": "录",
+      "pinyin": "lù",
+      "meaning": "ghi âm, thu hình; ghi chép",
+      "example_zh": "老师把课文<u>录</u>了下来供大家复习。",
+      "example_vi": "Thầy giáo đã <u>ghi âm</u> bài đọc lại cho mọi người ôn tập.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "录.svg",
+      "src": "images/HSK_3.0/level5/录.svg",
+      "alt_srcs": []
+    },
+    "路人": {
+      "hanzi": "路人",
+      "pinyin": "lùrén",
+      "meaning": "người qua đường",
+      "example_zh": "他在街上向一位<u>路人</u>问路。",
+      "example_vi": "Anh ấy hỏi đường một <u>người qua đường</u> trên phố.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "路人.svg",
+      "src": "images/HSK_3.0/level5/路人.svg",
+      "alt_srcs": []
+    },
+    "路线": {
+      "hanzi": "路线",
+      "pinyin": "lùxiàn",
+      "meaning": "tuyến đường, lộ trình",
+      "example_zh": "出发前我们需要规划好旅行<u>路线</u>。",
+      "example_vi": "Trước khi xuất phát chúng ta cần lên kế hoạch rõ <u>lộ trình</u> chuyến đi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "路线.svg",
+      "src": "images/HSK_3.0/level5/路线.svg",
+      "alt_srcs": []
+    },
+    "旅行社": {
+      "hanzi": "旅行社",
+      "pinyin": "lǚxíngshè",
+      "meaning": "công ty du lịch",
+      "example_zh": "我们通过<u>旅行社</u>订了去北京的机票。",
+      "example_vi": "Chúng tôi đã đặt vé máy bay đi Bắc Kinh qua <u>công ty du lịch</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "旅行社.svg",
+      "src": "images/HSK_3.0/level5/旅行社.svg",
+      "alt_srcs": []
+    },
+    "买卖": {
+      "hanzi": "买卖",
+      "pinyin": "mǎimai",
+      "meaning": "buôn bán, việc kinh doanh",
+      "example_zh": "他们家的<u>买卖</u>做得很大。",
+      "example_vi": "Việc <u>buôn bán</u> nhà họ làm rất phát đạt.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "买卖.svg",
+      "src": "images/HSK_3.0/level5/买卖.svg",
       "alt_srcs": []
     }
   }

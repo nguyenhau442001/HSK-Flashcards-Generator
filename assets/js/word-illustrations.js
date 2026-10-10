@@ -13072,6 +13072,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/类似.svg",
     "caption": "tương tự"
   },
+  "领先": {
+    "file": "领先.svg",
+    "src": "images/HSK_2.0/level6/领先.svg",
+    "caption": "dẫn đầu"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -14411,6 +14416,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "领带.svg",
     "src": "images/HSK_3.0/level5/领带.svg",
     "caption": "cà vạt"
+  },
+  "领取": {
+    "file": "领取.svg",
+    "src": "images/HSK_3.0/level5/领取.svg",
+    "caption": "nhận, lĩnh (tiền, đồ, chứng chỉ)"
+  },
+  "令": {
+    "file": "令.svg",
+    "src": "images/HSK_3.0/level5/令.svg",
+    "caption": "khiến cho, làm cho"
+  },
+  "流感": {
+    "file": "流感.svg",
+    "src": "images/HSK_3.0/level5/流感.svg",
+    "caption": "bệnh cúm, cúm mùa"
+  },
+  "留言": {
+    "file": "留言.svg",
+    "src": "images/HSK_3.0/level5/留言.svg",
+    "caption": "để lại tin nhắn, lời nhắn"
+  },
+  "录": {
+    "file": "录.svg",
+    "src": "images/HSK_3.0/level5/录.svg",
+    "caption": "ghi âm, thu hình; ghi chép"
+  },
+  "路人": {
+    "file": "路人.svg",
+    "src": "images/HSK_3.0/level5/路人.svg",
+    "caption": "người qua đường"
+  },
+  "路线": {
+    "file": "路线.svg",
+    "src": "images/HSK_3.0/level5/路线.svg",
+    "caption": "tuyến đường, lộ trình"
+  },
+  "旅行社": {
+    "file": "旅行社.svg",
+    "src": "images/HSK_3.0/level5/旅行社.svg",
+    "caption": "công ty du lịch"
+  },
+  "买卖": {
+    "file": "买卖.svg",
+    "src": "images/HSK_3.0/level5/买卖.svg",
+    "caption": "buôn bán, việc kinh doanh"
   }
 };
 
