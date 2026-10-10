@@ -59,7 +59,12 @@ MODELS_TO_TRY = [
     "gemini-2.5-flash",
 ]
 
-EXHAUSTED_MODELS = set()
+# Known exhausted models for the current day can be pre-populated or dynamically added
+EXHAUSTED_MODELS = {
+    "gemini-3-flash-preview",
+    "gemini-3.5-flash-lite",
+    "gemini-2.5-flash",
+}
 
 def guess_pos(meaning):
     m = (meaning or "").lower()
