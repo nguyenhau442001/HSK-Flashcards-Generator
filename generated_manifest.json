@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T09:53:41.509508",
-  "total_unique_words_with_illustrations": 2662,
-  "total_flat_svg_files": 2662,
+  "generated_at": "2026-10-10T09:54:44.180314",
+  "total_unique_words_with_illustrations": 2672,
+  "total_flat_svg_files": 2672,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 496,
-        "pct": "19.8%"
+        "with_svg": 498,
+        "pct": "19.9%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1043,
-        "pct": "65.2%"
+        "with_svg": 1053,
+        "pct": "65.8%"
       },
       "level6": {
         "total": 1800,
@@ -46638,6 +46638,42 @@
         "images/HSK_3.0/level5/发布.svg"
       ]
     },
+    "防止": {
+      "hanzi": "防止",
+      "pinyin": "fángzhǐ",
+      "meaning": "ngăn ngừa",
+      "example_zh": "我们要<u>防止</u>事故发生。",
+      "example_vi": "Chúng ta phải <u>ngăn ngừa</u> tai nạn xảy ra.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "防止.svg",
+      "src": "images/HSK_2.0/level6/防止.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/防止.svg"
+      ]
+    },
+    "访问": {
+      "hanzi": "访问",
+      "pinyin": "fǎngwèn",
+      "meaning": "thăm viếng, phỏng vấn",
+      "example_zh": "总统将<u>访问</u>这个国家。",
+      "example_vi": "Tổng thống sẽ <u>thăm viếng</u> quốc gia này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "访问.svg",
+      "src": "images/HSK_2.0/level6/访问.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/访问.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -48505,6 +48541,118 @@
       ],
       "file": "返回.svg",
       "src": "images/HSK_3.0/level5/返回.svg",
+      "alt_srcs": []
+    },
+    "防": {
+      "hanzi": "防",
+      "pinyin": "fáng",
+      "meaning": "phòng, đề phòng",
+      "example_zh": "多穿点儿衣服，<u>防</u>感冒。",
+      "example_vi": "Mặc thêm áo vào để <u>phòng</u> cảm lạnh.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "防.svg",
+      "src": "images/HSK_3.0/level5/防.svg",
+      "alt_srcs": []
+    },
+    "房屋": {
+      "hanzi": "房屋",
+      "pinyin": "fángwū",
+      "meaning": "nhà cửa, nhà ở",
+      "example_zh": "这里的<u>房屋</u>都很旧了。",
+      "example_vi": "<u>Nhà cửa</u> ở đây đều đã cũ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "房屋.svg",
+      "src": "images/HSK_3.0/level5/房屋.svg",
+      "alt_srcs": []
+    },
+    "飞行": {
+      "hanzi": "飞行",
+      "pinyin": "fēixíng",
+      "meaning": "bay",
+      "example_zh": "飞机<u>飞行</u>了十个小时。",
+      "example_vi": "Máy bay đã <u>bay</u> mười tiếng đồng hồ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "飞行.svg",
+      "src": "images/HSK_3.0/level5/飞行.svg",
+      "alt_srcs": []
+    },
+    "飞行员": {
+      "hanzi": "飞行员",
+      "pinyin": "fēixíngyuán",
+      "meaning": "phi công",
+      "example_zh": "他的理想是当一名<u>飞行员</u>。",
+      "example_vi": "Ước mơ của cậu ấy là trở thành <u>phi công</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "飞行员.svg",
+      "src": "images/HSK_3.0/level5/飞行员.svg",
+      "alt_srcs": []
+    },
+    "非洲": {
+      "hanzi": "非洲",
+      "pinyin": "Fēizhōu",
+      "meaning": "châu Phi",
+      "example_zh": "他去过<u>非洲</u>很多国家。",
+      "example_vi": "Anh ấy đã đến nhiều nước ở <u>châu Phi</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "非洲.svg",
+      "src": "images/HSK_3.0/level5/非洲.svg",
+      "alt_srcs": []
+    },
+    "分类": {
+      "hanzi": "分类",
+      "pinyin": "fēnlèi",
+      "meaning": "phân loại",
+      "example_zh": "垃圾要<u>分类</u>以后再扔。",
+      "example_vi": "Rác phải <u>phân loại</u> rồi mới vứt.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "分类.svg",
+      "src": "images/HSK_3.0/level5/分类.svg",
+      "alt_srcs": []
+    },
+    "分离": {
+      "hanzi": "分离",
+      "pinyin": "fēnlí",
+      "meaning": "chia lìa, tách rời",
+      "example_zh": "他们<u>分离</u>了十年才再次见面。",
+      "example_vi": "Họ <u>chia xa</u> mười năm mới gặp lại nhau.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "分离.svg",
+      "src": "images/HSK_3.0/level5/分离.svg",
+      "alt_srcs": []
+    },
+    "分享": {
+      "hanzi": "分享",
+      "pinyin": "fēnxiǎng",
+      "meaning": "chia sẻ",
+      "example_zh": "我想和大家<u>分享</u>一个好消息。",
+      "example_vi": "Tôi muốn <u>chia sẻ</u> với mọi người một tin vui.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "分享.svg",
+      "src": "images/HSK_3.0/level5/分享.svg",
       "alt_srcs": []
     }
   }

@@ -12947,6 +12947,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/发布.svg",
     "caption": "công bố, phát hành"
   },
+  "防止": {
+    "file": "防止.svg",
+    "src": "images/HSK_2.0/level6/防止.svg",
+    "caption": "ngăn ngừa"
+  },
+  "访问": {
+    "file": "访问.svg",
+    "src": "images/HSK_2.0/level6/访问.svg",
+    "caption": "thăm viếng, phỏng vấn"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -13611,6 +13621,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "返回.svg",
     "src": "images/HSK_3.0/level5/返回.svg",
     "caption": "trở về, quay lại"
+  },
+  "防": {
+    "file": "防.svg",
+    "src": "images/HSK_3.0/level5/防.svg",
+    "caption": "phòng, đề phòng"
+  },
+  "房屋": {
+    "file": "房屋.svg",
+    "src": "images/HSK_3.0/level5/房屋.svg",
+    "caption": "nhà cửa, nhà ở"
+  },
+  "飞行": {
+    "file": "飞行.svg",
+    "src": "images/HSK_3.0/level5/飞行.svg",
+    "caption": "bay"
+  },
+  "飞行员": {
+    "file": "飞行员.svg",
+    "src": "images/HSK_3.0/level5/飞行员.svg",
+    "caption": "phi công"
+  },
+  "非洲": {
+    "file": "非洲.svg",
+    "src": "images/HSK_3.0/level5/非洲.svg",
+    "caption": "châu Phi"
+  },
+  "分类": {
+    "file": "分类.svg",
+    "src": "images/HSK_3.0/level5/分类.svg",
+    "caption": "phân loại"
+  },
+  "分离": {
+    "file": "分离.svg",
+    "src": "images/HSK_3.0/level5/分离.svg",
+    "caption": "chia lìa, tách rời"
+  },
+  "分享": {
+    "file": "分享.svg",
+    "src": "images/HSK_3.0/level5/分享.svg",
+    "caption": "chia sẻ"
   }
 };
 
