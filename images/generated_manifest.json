@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:17:05.703146",
-  "total_unique_words_with_illustrations": 2812,
-  "total_flat_svg_files": 2812,
+  "generated_at": "2026-10-10T10:18:09.809582",
+  "total_unique_words_with_illustrations": 2822,
+  "total_flat_svg_files": 2822,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 520,
+        "with_svg": 521,
         "pct": "20.8%"
       }
     },
@@ -53,13 +53,13 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 604,
-        "pct": "60.4%"
+        "with_svg": 605,
+        "pct": "60.5%"
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1193,
-        "pct": "74.6%"
+        "with_svg": 1203,
+        "pct": "75.2%"
       },
       "level6": {
         "total": 1800,
@@ -47070,6 +47070,41 @@
         "images/HSK_3.0/level5/来源.svg"
       ]
     },
+    "类似": {
+      "hanzi": "类似",
+      "pinyin": "lèisì",
+      "meaning": "tương tự",
+      "example_zh": "这两件事情很<u>类似</u>。",
+      "example_vi": "Hai việc này rất <u>tương tự</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "类似.svg",
+      "src": "images/HSK_2.0/level6/类似.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/类似.svg"
+      ]
+    },
+    "量": {
+      "hanzi": "量",
+      "pinyin": "liáng",
+      "meaning": "đo",
+      "example_zh": "护士给我<u>量</u>了体温。",
+      "example_vi": "Y tá đã <u>đo</u> nhiệt độ cho tôi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4",
+        "level5"
+      ],
+      "file": "量.svg",
+      "src": "images/HSK_3.0/level4/量.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/量.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -50704,6 +50739,118 @@
       ],
       "file": "类.svg",
       "src": "images/HSK_3.0/level5/类.svg",
+      "alt_srcs": []
+    },
+    "泪水": {
+      "hanzi": "泪水",
+      "pinyin": "lèishuǐ",
+      "meaning": "nước mắt",
+      "example_zh": "他的眼里充满了<u>泪水</u>",
+      "example_vi": "Mắt của anh ấy tràn đầy nước mắt.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "泪水.svg",
+      "src": "images/HSK_3.0/level5/泪水.svg",
+      "alt_srcs": []
+    },
+    "离职": {
+      "hanzi": "离职",
+      "pinyin": "lízhí",
+      "meaning": "thôi việc, nghỉ việc, từ chức",
+      "example_zh": "他上个月已经从公司<u>离职</u>了。",
+      "example_vi": "Anh ấy tháng trước đã <u>thôi việc</u> ở công ty rồi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "离职.svg",
+      "src": "images/HSK_3.0/level5/离职.svg",
+      "alt_srcs": []
+    },
+    "里头": {
+      "hanzi": "里头",
+      "pinyin": "lǐtou",
+      "meaning": "bên trong, trong",
+      "example_zh": "房间<u>里头</u>有人在说话。",
+      "example_vi": "<u>Bên trong</u> phòng có người đang nói chuyện.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "里头.svg",
+      "src": "images/HSK_3.0/level5/里头.svg",
+      "alt_srcs": []
+    },
+    "力": {
+      "hanzi": "力",
+      "pinyin": "lì",
+      "meaning": "sức, sức lực; lực",
+      "example_zh": "他干活儿很有<u>力</u>气。",
+      "example_vi": "Anh ấy làm việc rất có <u>sức</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "力.svg",
+      "src": "images/HSK_3.0/level5/力.svg",
+      "alt_srcs": []
+    },
+    "连接": {
+      "hanzi": "连接",
+      "pinyin": "liánjiē",
+      "meaning": "kết nối, nối liền",
+      "example_zh": "这座大桥<u>连接</u>了两座城市。",
+      "example_vi": "Cây cầu lớn này <u>kết nối</u> hai thành phố.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "连接.svg",
+      "src": "images/HSK_3.0/level5/连接.svg",
+      "alt_srcs": []
+    },
+    "脸色": {
+      "hanzi": "脸色",
+      "pinyin": "liǎnsè",
+      "meaning": "sắc mặt, vẻ mặt",
+      "example_zh": "生病之后，他的<u>脸色</u>看起来不太好。",
+      "example_vi": "Sau khi ốm, <u>sắc mặt</u> của anh ấy trông không được tốt lắm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "脸色.svg",
+      "src": "images/HSK_3.0/level5/脸色.svg",
+      "alt_srcs": []
+    },
+    "领": {
+      "hanzi": "领",
+      "pinyin": "lǐng",
+      "meaning": "nhận, lĩnh; dẫn đầu",
+      "example_zh": "明天大家可以去办公室<u>领</u>新书。",
+      "example_vi": "Ngày mai mọi người có thể đến văn phòng để <u>nhận</u> sách mới.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "领.svg",
+      "src": "images/HSK_3.0/level5/领.svg",
+      "alt_srcs": []
+    },
+    "领带": {
+      "hanzi": "领带",
+      "pinyin": "lǐngdài",
+      "meaning": "cà vạt",
+      "example_zh": "他今天系了<u>领带</u>",
+      "example_vi": "Hôm nay anh ấy đã thắt cà vạt.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "领带.svg",
+      "src": "images/HSK_3.0/level5/领带.svg",
       "alt_srcs": []
     }
   }

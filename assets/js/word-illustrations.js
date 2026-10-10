@@ -13067,6 +13067,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/来源.svg",
     "caption": "nguồn gốc"
   },
+  "类似": {
+    "file": "类似.svg",
+    "src": "images/HSK_2.0/level6/类似.svg",
+    "caption": "tương tự"
+  },
+  "量": {
+    "file": "量.svg",
+    "src": "images/HSK_3.0/level4/量.svg",
+    "caption": "đo"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -14361,6 +14371,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "类.svg",
     "src": "images/HSK_3.0/level5/类.svg",
     "caption": "loại, loài; chủng loại"
+  },
+  "泪水": {
+    "file": "泪水.svg",
+    "src": "images/HSK_3.0/level5/泪水.svg",
+    "caption": "nước mắt"
+  },
+  "离职": {
+    "file": "离职.svg",
+    "src": "images/HSK_3.0/level5/离职.svg",
+    "caption": "thôi việc, nghỉ việc, từ chức"
+  },
+  "里头": {
+    "file": "里头.svg",
+    "src": "images/HSK_3.0/level5/里头.svg",
+    "caption": "bên trong, trong"
+  },
+  "力": {
+    "file": "力.svg",
+    "src": "images/HSK_3.0/level5/力.svg",
+    "caption": "sức, sức lực; lực"
+  },
+  "连接": {
+    "file": "连接.svg",
+    "src": "images/HSK_3.0/level5/连接.svg",
+    "caption": "kết nối, nối liền"
+  },
+  "脸色": {
+    "file": "脸色.svg",
+    "src": "images/HSK_3.0/level5/脸色.svg",
+    "caption": "sắc mặt, vẻ mặt"
+  },
+  "领": {
+    "file": "领.svg",
+    "src": "images/HSK_3.0/level5/领.svg",
+    "caption": "nhận, lĩnh; dẫn đầu"
+  },
+  "领带": {
+    "file": "领带.svg",
+    "src": "images/HSK_3.0/level5/领带.svg",
+    "caption": "cà vạt"
   }
 };
 
