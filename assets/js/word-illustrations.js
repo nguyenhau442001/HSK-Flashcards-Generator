@@ -13037,6 +13037,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/将近.svg",
     "caption": "gần (số lượng, thời gian)"
   },
+  "就业": {
+    "file": "就业.svg",
+    "src": "images/HSK_2.0/level6/就业.svg",
+    "caption": "việc làm, có công việc"
+  },
+  "居民": {
+    "file": "居民.svg",
+    "src": "images/HSK_2.0/level6/居民.svg",
+    "caption": "cư dân"
+  },
+  "居住": {
+    "file": "居住.svg",
+    "src": "images/HSK_2.0/level6/居住.svg",
+    "caption": "cư trú, sinh sống"
+  },
   "哎呀": {
     "file": "哎呀.svg",
     "src": "images/HSK_3.0/level5/哎呀.svg",
@@ -14211,6 +14226,41 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "惊喜.svg",
     "src": "images/HSK_3.0/level5/惊喜.svg",
     "caption": "bất ngờ và vui mừng, niềm vui bất ngờ"
+  },
+  "静": {
+    "file": "静.svg",
+    "src": "images/HSK_3.0/level5/静.svg",
+    "caption": "yên tĩnh, tĩnh lặng"
+  },
+  "久远": {
+    "file": "久远.svg",
+    "src": "images/HSK_3.0/level5/久远.svg",
+    "caption": "xa xưa, lâu đời"
+  },
+  "橘子": {
+    "file": "橘子.svg",
+    "src": "images/HSK_3.0/level5/橘子.svg",
+    "caption": "quả quýt, quả cam"
+  },
+  "据": {
+    "file": "据.svg",
+    "src": "images/HSK_3.0/level5/据.svg",
+    "caption": "theo, căn cứ vào"
+  },
+  "距": {
+    "file": "距.svg",
+    "src": "images/HSK_3.0/level5/距.svg",
+    "caption": "cách (khoảng cách, thời gian)"
+  },
+  "剧场": {
+    "file": "剧场.svg",
+    "src": "images/HSK_3.0/level5/剧场.svg",
+    "caption": "nhà hát, rạp hát"
+  },
+  "具有": {
+    "file": "具有.svg",
+    "src": "images/HSK_3.0/level5/具有.svg",
+    "caption": "có"
   }
 };
 

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:13:11.836745",
-  "total_unique_words_with_illustrations": 2782,
-  "total_flat_svg_files": 2782,
+  "generated_at": "2026-10-10T10:14:24.138342",
+  "total_unique_words_with_illustrations": 2792,
+  "total_flat_svg_files": 2792,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 514,
-        "pct": "20.6%"
+        "with_svg": 517,
+        "pct": "20.7%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1163,
-        "pct": "72.7%"
+        "with_svg": 1173,
+        "pct": "73.3%"
       },
       "level6": {
         "total": 1800,
@@ -46962,6 +46962,60 @@
         "images/HSK_3.0/level5/将近.svg"
       ]
     },
+    "就业": {
+      "hanzi": "就业",
+      "pinyin": "jiùyè",
+      "meaning": "việc làm, có công việc",
+      "example_zh": "大学生<u>就业</u>压力很大。",
+      "example_vi": "Áp lực <u>việc làm</u> của sinh viên rất lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "就业.svg",
+      "src": "images/HSK_2.0/level6/就业.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/就业.svg"
+      ]
+    },
+    "居民": {
+      "hanzi": "居民",
+      "pinyin": "jūmín",
+      "meaning": "cư dân",
+      "example_zh": "这个小区有很多<u>居民</u>。",
+      "example_vi": "Khu này có nhiều <u>cư dân</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "居民.svg",
+      "src": "images/HSK_2.0/level6/居民.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/居民.svg"
+      ]
+    },
+    "居住": {
+      "hanzi": "居住",
+      "pinyin": "jūzhù",
+      "meaning": "cư trú, sinh sống",
+      "example_zh": "他们一家<u>居住</u>在这里多年。",
+      "example_vi": "Gia đình họ <u>sinh sống</u> ở đây nhiều năm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "居住.svg",
+      "src": "images/HSK_2.0/level6/居住.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/居住.svg"
+      ]
+    },
     "哎呀": {
       "hanzi": "哎呀",
       "pinyin": "āiyā",
@@ -50260,6 +50314,104 @@
       ],
       "file": "惊喜.svg",
       "src": "images/HSK_3.0/level5/惊喜.svg",
+      "alt_srcs": []
+    },
+    "静": {
+      "hanzi": "静",
+      "pinyin": "jìng",
+      "meaning": "yên tĩnh, tĩnh lặng",
+      "example_zh": "夜深了，四周非常安<u>静</u>。",
+      "example_vi": "Đêm đã về khuya, bốn bề vô cùng yên <u>tĩnh</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "静.svg",
+      "src": "images/HSK_3.0/level5/静.svg",
+      "alt_srcs": []
+    },
+    "久远": {
+      "hanzi": "久远",
+      "pinyin": "jiǔyuǎn",
+      "meaning": "xa xưa, lâu đời",
+      "example_zh": "这个故事的年代已经很<u>久远</u>了。",
+      "example_vi": "Niên đại của câu chuyện này đã rất <u>xa xưa</u> rồi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "久远.svg",
+      "src": "images/HSK_3.0/level5/久远.svg",
+      "alt_srcs": []
+    },
+    "橘子": {
+      "hanzi": "橘子",
+      "pinyin": "júzi",
+      "meaning": "quả quýt, quả cam",
+      "example_zh": "冬天正是吃<u>橘子</u>的季节。",
+      "example_vi": "Mùa đông đúng là mùa ăn <u>quýt</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "橘子.svg",
+      "src": "images/HSK_3.0/level5/橘子.svg",
+      "alt_srcs": []
+    },
+    "据": {
+      "hanzi": "据",
+      "pinyin": "jù",
+      "meaning": "theo, căn cứ vào",
+      "example_zh": "<u>据</u>天气预报说，明天有大雨。",
+      "example_vi": "<u>Theo</u> dự báo thời tiết, ngày mai có mưa to.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "据.svg",
+      "src": "images/HSK_3.0/level5/据.svg",
+      "alt_srcs": []
+    },
+    "距": {
+      "hanzi": "距",
+      "pinyin": "jù",
+      "meaning": "cách (khoảng cách, thời gian)",
+      "example_zh": "这里<u>距</u>机场大约有二十公里。",
+      "example_vi": "Nơi này <u>cách</u> sân bay khoảng hai mươi cây số.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "距.svg",
+      "src": "images/HSK_3.0/level5/距.svg",
+      "alt_srcs": []
+    },
+    "剧场": {
+      "hanzi": "剧场",
+      "pinyin": "jùchǎng",
+      "meaning": "nhà hát, rạp hát",
+      "example_zh": "今晚我们在市<u>剧场</u>看话剧。",
+      "example_vi": "Tối nay chúng tôi xem kịch nói ở <u>nhà hát</u> thành phố.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "剧场.svg",
+      "src": "images/HSK_3.0/level5/剧场.svg",
+      "alt_srcs": []
+    },
+    "具有": {
+      "hanzi": "具有",
+      "pinyin": "jùyǒu",
+      "meaning": "có",
+      "example_zh": "这种病<u>具有</u>遗传性",
+      "example_vi": "Loại bệnh này có tính di truyền.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "具有.svg",
+      "src": "images/HSK_3.0/level5/具有.svg",
       "alt_srcs": []
     }
   }
