@@ -13242,6 +13242,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/束.svg",
     "caption": "bó, chùm"
   },
+  "思维": {
+    "file": "思维.svg",
+    "src": "images/HSK_2.0/level6/思维.svg",
+    "caption": "tư duy"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -15211,6 +15216,41 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "熟人.svg",
     "src": "images/HSK_3.0/level5/熟人.svg",
     "caption": "người quen"
+  },
+  "树木": {
+    "file": "树木.svg",
+    "src": "images/HSK_3.0/level5/树木.svg",
+    "caption": "cây cối"
+  },
+  "摔": {
+    "file": "摔.svg",
+    "src": "images/HSK_3.0/level5/摔.svg",
+    "caption": "ném"
+  },
+  "水分": {
+    "file": "水分.svg",
+    "src": "images/HSK_3.0/level5/水分.svg",
+    "caption": "nước, độ ẩm"
+  },
+  "睡眠": {
+    "file": "睡眠.svg",
+    "src": "images/HSK_3.0/level5/睡眠.svg",
+    "caption": "giấc ngủ"
+  },
+  "顺": {
+    "file": "顺.svg",
+    "src": "images/HSK_3.0/level5/顺.svg",
+    "caption": "thuận, xuôi; tiện thể; suôn sẻ"
+  },
+  "四处": {
+    "file": "四处.svg",
+    "src": "images/HSK_3.0/level5/四处.svg",
+    "caption": "khắp nơi, bốn phương, tứ phía"
+  },
+  "四周": {
+    "file": "四周.svg",
+    "src": "images/HSK_3.0/level5/四周.svg",
+    "caption": "xung quanh, bốn bề"
   }
 };
 

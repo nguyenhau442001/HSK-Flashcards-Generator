@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:35:24.903594",
-  "total_unique_words_with_illustrations": 2982,
-  "total_flat_svg_files": 2982,
+  "generated_at": "2026-10-10T10:44:41.999850",
+  "total_unique_words_with_illustrations": 2990,
+  "total_flat_svg_files": 2990,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 555,
+        "with_svg": 556,
         "pct": "22.2%"
       }
     },
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1363,
-        "pct": "85.2%"
+        "with_svg": 1371,
+        "pct": "85.7%"
       },
       "level6": {
         "total": 1800,
@@ -47700,6 +47700,24 @@
         "images/HSK_3.0/level5/束.svg"
       ]
     },
+    "思维": {
+      "hanzi": "思维",
+      "pinyin": "sīwéi",
+      "meaning": "tư duy",
+      "example_zh": "他的<u>思维</u>方式很特别。",
+      "example_vi": "Cách <u>tư duy</u> của anh ấy rất đặc biệt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "思维.svg",
+      "src": "images/HSK_2.0/level6/思维.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/思维.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -53230,6 +53248,104 @@
       ],
       "file": "熟人.svg",
       "src": "images/HSK_3.0/level5/熟人.svg",
+      "alt_srcs": []
+    },
+    "树木": {
+      "hanzi": "树木",
+      "pinyin": "shùmù",
+      "meaning": "cây cối",
+      "example_zh": "森林里生长着各种各样的<u>树木</u>。",
+      "example_vi": "Trong rừng mọc đủ các loại <u>cây cối</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "树木.svg",
+      "src": "images/HSK_3.0/level5/树木.svg",
+      "alt_srcs": []
+    },
+    "摔": {
+      "hanzi": "摔",
+      "pinyin": "shuāi",
+      "meaning": "ném",
+      "example_zh": "他不小心<u>摔</u>在了屁股上",
+      "example_vi": "Anh ấy lỡ ngã trên mông.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "摔.svg",
+      "src": "images/HSK_3.0/level5/摔.svg",
+      "alt_srcs": []
+    },
+    "水分": {
+      "hanzi": "水分",
+      "pinyin": "shuǐfèn",
+      "meaning": "nước, độ ẩm",
+      "example_zh": "多吃西瓜可以及时补充身体所需的<u>水分</u>。",
+      "example_vi": "Ăn nhiều dưa hấu có thể kịp thời bổ sung lượng <u>nước</u> cơ thể cần.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "水分.svg",
+      "src": "images/HSK_3.0/level5/水分.svg",
+      "alt_srcs": []
+    },
+    "睡眠": {
+      "hanzi": "睡眠",
+      "pinyin": "shuìmián",
+      "meaning": "giấc ngủ",
+      "example_zh": "保持充足的<u>睡眠</u>有利于身体健康。",
+      "example_vi": "Duy trì <u>giấc ngủ</u> đầy đủ rất có lợi cho sức khỏe.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "睡眠.svg",
+      "src": "images/HSK_3.0/level5/睡眠.svg",
+      "alt_srcs": []
+    },
+    "顺": {
+      "hanzi": "顺",
+      "pinyin": "shùn",
+      "meaning": "thuận, xuôi; tiện thể; suôn sẻ",
+      "example_zh": "祝你工作一切<u>顺</u>利！",
+      "example_vi": "Chúc mọi công việc của bạn đều <u>thuận</u> lợi!",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "顺.svg",
+      "src": "images/HSK_3.0/level5/顺.svg",
+      "alt_srcs": []
+    },
+    "四处": {
+      "hanzi": "四处",
+      "pinyin": "sìchù",
+      "meaning": "khắp nơi, bốn phương, tứ phía",
+      "example_zh": "春天来了，小鸟在林子里<u>四处</u>飞翔。",
+      "example_vi": "Mùa xuân đến rồi, chim non bay lượn <u>khắp nơi</u> trong rừng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "四处.svg",
+      "src": "images/HSK_3.0/level5/四处.svg",
+      "alt_srcs": []
+    },
+    "四周": {
+      "hanzi": "四周",
+      "pinyin": "sìzhōu",
+      "meaning": "xung quanh, bốn bề",
+      "example_zh": "学校的<u>四周</u>种满了美丽的花草。",
+      "example_vi": "<u>Xung quanh</u> trường học trồng đầy hoa cỏ tươi đẹp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "四周.svg",
+      "src": "images/HSK_3.0/level5/四周.svg",
       "alt_srcs": []
     }
   }
